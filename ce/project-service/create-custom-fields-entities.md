@@ -5,7 +5,7 @@ author: Rumant
 manager: eichimur
 ms.custom:
   - dyn365-projectservice
-ms.date: 11/19/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -21,7 +21,7 @@ search.app:
 
 # Create custom fields and entities 
 
-Complete the following steps any time you want to create a custom option set or entity on the PowerApps platform.  
+Complete the following steps any time that you want to create a custom option set or entity on the PowerApps platform.  
 The procedures in this topic should be completed using the web interface of Project Service Automation (PSA).
 
 > [!IMPORTANT]
@@ -36,81 +36,69 @@ The procedures in this topic should be completed using the web interface of Proj
   
 ## Create custom fields and option sets in the pricing dimension solution
 
-A pricing dimension can be an option set or an entity. Both must be created in your pricing solution. The steps in this procedure explain how to create Let’s work with an example for this flow. In this walkthrough, we will create 3 pricing dimensions for a fictious company called Contoso:
+A pricing dimension can be an option set or an entity. Both must be created in your pricing solution. The steps in this procedures explain how to create entity-based dimensions and option set-based dimensions.
 
-a. Entity-based dimension called “Standard Title” that has all the standard titles that Contoso uses.
+### Entity-based dimensions
 
-1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
-2. In the left navigation on the Solution Explorer, select  **Entities**, click New to create a new entity called **Standard Title** enter the remaining required information, and then click **Save**.
+1. In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.
+2. In the left navigation In Solution Explorer, on the left nav pane, select  **Entities**.
+3. Click **New** to create a new entity called **Standard Title**, enter the remaining required information, and then click **Save**.
 
-*Standard Title entity definition*
 > ![Standard title entity definition](media/Standard-Title-entity-definition.png)
 
 
-b. Option-set based dimension called “Resource Work Location” where Contoso would like to track the price of “Home” location work and “Onsite” work.
+### Option set-based dimensions 
+You can create two option set-based dimensions. One,**Resource Work Location** you can track the price of **Home** location work and **Onsite** work and another, **Resource Work hours** with values **Regular** and **Overtime** where you can apply a markup when work is completed.
 
-*Resource Work Location definition*
 
-1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
-2. In the left navigation on the Solution Explorer, select  **Option Sets**, click New to create a new option set called **Resource Work Location** enter the remaining required information, and then click **Save**.
+1. In PSA, click **Settings** > **Solutions**, and then double-click  **\<your organization name> pricing dimensions**. 
+2. In Solution Explorer, on the left nav pane, select  **Option Sets**. 
+3. Click **New** to create a new option set, enter the remaining required information, and then click **Save**.
 
 > ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-
-
-c. Option-set based dimension called “Resource Work hours” with values “Regular” and “Overtime” where Contoso can apply a markup when work is done.
-
-1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
-2. In the left navigation on the Solution Explorer, select  **Option Sets**, click New to create a new option set called **Resource Work Hours** enter the remaining required information, and then click **Save**.
-
-*Resource Work Hours definition*
 > ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 
-## Create data for your entity-based dimensions:
+## Create data for entity-based dimensions
 
-This can be done manually or by using Excel import or service calls. For this walkthrough, we have used “Standard Title” as an entity-based dimension. Let’s create 2 standard titles: Systems Engineer and Senior Systems Engineer. If the data to create is small as in the example, you can use a standard form.
+YOu can create data for entity-based dimensions manually, or by using Microsoft Excel import or service calls. Use the steps in this procedure to create two standard titles, **Systems Engineer** and **Senior Systems Engineer** from the entity-based dimension, **Standard Title**. If the data to create is small as in the example, you can use a standard form.
 
-1. In PSA, click **Advanced Find** > select the entity **Standard Title** and then click **Results**. All the rows in the Standard Title entity will be listed.
-2. Click **New** to open  the form to create a new Standard Title, enter the text **Systems Engineer** in the name field and click **Save** 
-3. Close the form 
-4. Repeat the same steps for the other **Standard Title** _Senior Systems Engineer_
+1. In PSA, click **Advanced Find** > select the entity **Standard Title** and then click **Results**. All of the rows in the **Standard Title** entity will be shown.
+2. Click **New**, and in the **Name** field, enter "Systems Engineer" and then click **Save**.
+3. Close the form. 
+4. Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".
 
-*Sample Data for Standard Title entity*
 > ![Sample Data for Standard Title entity ](media/ST-data.png)
 
-## Add all the required PSA entities and related components to the Pricing Dimension Solution
-As a next step, you will need to add the following entities in the Project Service to your pricing solution. This step will allow us to make some important schema changes in the pricing solution so that these entities become aware of our new pricing dimensions.
+## Add all required PSA entities and related components to the Pricing Dimension Solution
+You will need to add the following Project Service entities to your pricing solution. Use the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.
 
-1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
-2. In the left navigation on the Solution Explorer, select **Add Existing** and then click on  **Entities**.
-3. In the **Solution Components** dialog, select the following entities
+1. In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
+2. In Solution Explorer, on the left nav pane, select **Add Existing** > **Entities**.
+3. In the **Solution Components** dialog, select the following entities:
 
-**List of entities to add**
-1. Actual
-2. Bookable Resource
-3. Estimate Line
-4. Invoice Line Detail
-5. Journal Line
-6. Project Contract Line Detail
-7. Project Team Member
-8. Quote Line Detail
-9. Role Price Markup
-10. Role Price 
-11. Time Entry 
-
-*Add Existing Entities to the Pricing Dimensions Solution*
+- Actual
+- Bookable Resource
+- Estimate Line
+- Invoice Line Detail
+- Journal Line
+- Project Contract Line Detail
+- Project Team Member
+- Quote Line Detail
+- Role Price Markup
+- Role Price 
+- Time Entry 
 
 > ![Add existing entities to the pricing dimensions solution](media/Existing-entities-to-PD-solution.png)
 
-*Select solution components*
-
 > ![Select solution components](media/Dimension-Components.png)
 
-**Note: Make sure to include all forms and views for each of the entities selected.**
-On the last step, the platform will prompt you to include any dependent entities for the entities we selected above. Choose the option “No”.
+> [!NOTE]
+> Make sure to include all forms and views for each of the entities selected.
 
-*Do not include all related components*
+4. When promoted to include any dependent entities for the entities selected above, click **Np**.
+
 > ![Do not include all related components](media/Do-not-include-required.png)
 
 
