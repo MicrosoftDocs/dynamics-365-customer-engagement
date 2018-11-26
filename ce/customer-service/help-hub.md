@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 11/20/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
@@ -43,6 +43,7 @@ search.app:
 
   <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
+<li><a href="basics-service-service-scheduling.md#set-up-the-new-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)">New scheduling experience based on URS</a></li>
 
   
   </li> 
@@ -64,6 +65,7 @@ search.app:
   <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
    <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
  <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager Guide](service-manager-guide.md)]">Service Management Guide</a></li>
+<li><a href="basics-service-service-scheduling.md" data-raw-source="[[Service Scheduling Guide](basics-service-service-scheduling.md)]">Service Scheduling Guide</a></li>
   <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 for mobile devices</a></li>
   </ul><br/>  </td>
 </tr>

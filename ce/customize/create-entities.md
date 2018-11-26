@@ -1,8 +1,8 @@
 ---
-title: "Create an entity with PowerApps | MicrosoftDocs"
+title: "Create an entity with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create an entity"
 ms.custom: ""
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Create an entity
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_CreatingEntities"></a>   
 

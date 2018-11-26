@@ -23,7 +23,7 @@ search.app:
 ---
 # System Settings dialog box - Service tab
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Use the Service tab in System Settings to set preferences for the customer service area, such as service level agreements and entitlements in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -41,7 +41,7 @@ Use the Service tab in System Settings to set preferences for the customer servi
   
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, service configuration settings in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to manage service configuration settings using the new experience. </br>
+> With the Customer Engagement apps version 9.1 release, service configuration settings in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to manage service configuration settings using the new experience. </br>
 > In the Customer Service Hub app, go to **Service Management** and select **Service Terms** > **Service Configuration Settings** in the sitemap to access the Service configuration settings. 
   
 |                                                                                                                                                                                                                                                                                   Settings                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
