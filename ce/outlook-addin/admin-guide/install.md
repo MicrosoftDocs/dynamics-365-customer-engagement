@@ -122,9 +122,9 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 ## Enable multi-factor authentication through OAuth  
  In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 (online) versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
 
- If you have upgraded your authentication server to use OAuth **prior** to installing Dynamics Dynamics 365 for Outlook, Dynamics Dynamics 365 for Outlook will automatically check for and use OAuth for MFA. Users will see the OAuth sign-in form the first time they use Dynamics Dynamics 365 for Outlook.  
+ If you have upgraded your authentication server to use OAuth **prior** to installing Dynamics 365 for Outlook, Dynamics 365 for Outlook will automatically check for and use OAuth for MFA. Users will see the OAuth sign-in form the first time they use Dynamics 365 for Outlook.  
 
- If you upgrade your authentication server to use OAuth **after** rolling out Dynamics Dynamics 365 for Outlook, you have two options to set Dynamics Dynamics 365 for Outlook to use OAuth.  
+ If you upgrade your authentication server to use OAuth **after** rolling out Dynamics 365 for Outlook, you have two options to set Dynamics 365 for Outlook to use OAuth.  
 
 1. Reconfigure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] on all computers. Run the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)] and remove and re-add your organization.  
 
@@ -136,7 +136,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
     Set `AuthenticationProvider` to 0  
 
-    After the registry change, Dynamics Dynamics 365 for Outlook will automatically check for and use OAuth for MFA.  
+    After the registry change, Dynamics 365 for Outlook will automatically check for and use OAuth for MFA.  
 
    **In addition**  
 

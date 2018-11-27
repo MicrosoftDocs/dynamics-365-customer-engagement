@@ -101,11 +101,11 @@ You can see the **USDWebResources** in the solutions list.</br>
 
 ![USDWebResource imported to Dynamics 365](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365")
 
-For more information, see [Import, update, and export solutions](../../customize/import-update-export-solutions.md)
+For more information, see [Import, update, and export solutions](/dynamics365/customer-engagement/customize/import-update-export-solutions)
 
 ## Step 3: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface App
 
-**Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md).
+**Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget).
 
 1. Go to the location where you downloaded the Configuration Migration Tool (DataMigrationUtility.exe).
 
@@ -154,6 +154,6 @@ You can see configurations are migrated to Unified Interface specific elements.
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
 
-[Download the tools from NuGet](../../developer/download-tools-nuget.md)
+[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
-[Import configuration data](../../admin/import-configuration-data.md)
+[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)

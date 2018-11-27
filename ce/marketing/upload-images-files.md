@@ -3,19 +3,18 @@ title: "Work with images and other files (Dynamics 365 for Marketing) | Microsof
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
 keywords: "image, file, keyword"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -48,17 +47,17 @@ Whenever you add an image element to a marketing page or email, you can choose t
 
 ![Upload a picture dialog](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
 
-You can also add images for use later in some future design. You might do this to establish a collection of clip-art images that your message and page designers can use as needed. Go to **Marketing** &gt; **Internet Marketing** &gt; **Files** to see a list view of all files available to your organization, and then select **New** to upload a new file. You can also find and edit existing images here.
+You can also add images for use later in some future design. You might do this to establish a collection of clip-art images that your message and page designers can use as needed. Go to **Marketing** > **Marketing content** > **Files** to see a list view of all files available to your organization, and then select **New** to upload a new file. You can also find and edit existing images here.
 
 Note that you can apply keywords each time you upload a file. Keywords can make it much easier for other users to find and identify files in the future, so we recommend that you use them.
 
 ## Establish keywords
 
-Keywords make it easier to find your images later when you want to use them in content. Each time you upload a new image, you're offered a chance to apply a keyword to it. You can also add or remove keywords from existing images by going to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
+Keywords make it easier to find your images later when you want to use them in content. Each time you upload a new image, you're offered a chance to apply a keyword to it. You can also add or remove keywords from existing images by going to **Marketing** > **Marketing content** > **Files**.
 
 To help keep your keywords under control, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] requires you to establish a list of specific keywords that users can apply to their files. Users must therefore select keywords from a list rather than enter free text. This helps prevent users from applying competing ontologies and also helps prevent typos.
 
-To view and edit the keywords available to your organization, go to **Marketing** &gt; **Internet Marketing** &gt; **Keywords**. All existing keywords are listed here. Select any listed keyword to edit it, or select **New** to create a new one. You can also delete keywords here.
+To view and edit the keywords available to your organization, go to **Marketing** > **Marketing content** > **Keywords**. All existing keywords are listed here. Select any listed keyword to edit it, or select **New** to create a new one. You can also delete keywords here.
 
 Be careful when editing or deleting keywords. If you edit an existing keyword, all existing files that use it will instead show the new value from now on. If you delete a keyword, it is simply removed from all files that use it.
 

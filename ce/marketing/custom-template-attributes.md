@@ -2,20 +2,19 @@
 title: "Use custom attributes to enable designer features in templates (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 for Marketing"
 keywords: "custom attributes;templates;email;marketing pages;HTML"
-ms.date: 08/01/2018
-ms.service: 
-  - "crm-online"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 346a437c-f9c7-47ea-94c6-c9deeadfa116
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -41,7 +40,7 @@ The following table provides a quick reference to the custom attributes and meta
 | `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-toolbox)|
 | `<meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="<font-list>">` | When this tag is present in the `<head>` of your document, the fonts listed in the _&lt;font-list&gt;_ (semicolon-separated) will be added to the font menu in the formatting toolbar for text elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add new fonts to the text-element toolbar](#fonts)|
 | `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add design elements](#containers) |
-| `<div data-editorblocktype="<element-type>" > … </div>` | Marks the start and end of a design element. The value of the attribute identifies which type of element it is (text, image, button, and so on). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify design elements](#elements) |
+| `<div data-editorblocktype="<element-type>"> … </div>` | Marks the start and end of a design element. The value of the attribute identifies which type of element it is (text, image, button, and so on). Some design elements support additional attributes here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify design elements](#elements) and [Lock elements in Designer view](#lock-element) |
 | `<meta type="xrm/designer/setting" name="<name>" value="<initial-value>" datatype="<data-type>" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#styles) |
 | `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#styles-css) |
 | `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#styles-attribute) |
@@ -123,6 +122,7 @@ The following table lists the available values for the `data-editorblocktype` at
 | Image element | Common design element | Image |
 | Divider element | Common design element | Divider |
 | Button element | Common design element | Button |
+| Content block element | Common design element | Content<br>(This type of design element also includes a `data-block-datatype="<block-type>"` attribute, which identifies which type of content block it is, where *&lt;block-type&gt;* has a value of either `text` or `image`.)|
 | Marketing-page element | Email | Marketing Page |
 | Event element | Email | Event |
 | Survey element | Email | Survey |
@@ -130,7 +130,7 @@ The following table lists the available values for the `data-editorblocktype` at
 | Field element | Form content | Field-_&lt;field-name&gt;_, for example: Field-email |
 | Subscription-list element | Form content | SubscriptionListBlock |
 | Forward-to-a-friend element | From content | ForwardToFriendBlock |
-| Do-not- email element and Remember-me element | Form content | Field-checkbox (these elements each create check boxes and are otherwise differentiated by their internal settings) |
+| Do-not- email element and Remember-me element | Form content | Field-checkbox<br>(These elements each create check boxes and are otherwise differentiated by their internal settings.) |
 | Submit-button element | Form content | SubmitButtonBlock |
 | Reset-button element | Form content | ResetButtonBlock |
 | Captcha element | Form content | CaptchaBlock |
@@ -139,6 +139,30 @@ For more information about each of these design elements, see [Design elements r
 
 > [!IMPORTANT]
 > When you are working on the **HTML** tab, you should avoid editing any of the content between the `<div>` tags of your design elements because the results of doing so can be unpredictable, and your edits are likely to be overwritten by the designer anyway. Instead, use the **Designer** tab to manage your design-element content and properties.
+
+<a name="lock-element"></a>
+
+## Lock elements in Designer view
+
+You can lock the content and properties of any design element by adding the following attribute to its opening `<div>` tag:
+
+`data-protected="true"`
+
+For example:
+
+
+```xml
+<div data-editorblocktype="Divider" data-protected="true">
+    …
+        <!-- Don't edit the element content here -->
+    …
+</div>
+```
+
+
+When a design element is marked as protected, users working in the **Designer** tab for a page or email won't be able to edit the element's properties or content. This attribute is always included for the content-block element, but you can add it to any type of design element to protect it. Any design element that includes this attribute is shown as shaded on the **HTML** tab to indicate that it's protected, but you can still edit it there if you insist. Set this attribute to "false" (or just remove it) to remove protection from a design element.
+
+To further enforce content locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md)
 
 <a name="fonts"></a>
 

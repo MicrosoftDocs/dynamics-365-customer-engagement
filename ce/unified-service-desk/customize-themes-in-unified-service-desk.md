@@ -41,12 +41,16 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 ## Predefined Themes available in Unified Service Desk  
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with three predefined themes.  
 
+::: moniker range=">=dynamics-usd-4"
+
 <a name="UnifiedBlueTheme"></a>   
 ### Unified Blue Theme
 
 This is Unified Blue theme, which is the predefined theme for Unified Service Desk when you are using Unified Interface App.
 
 ![Unified Blue in Unified Service Desk](media/unified-blue-theme.png "Unified Blue in Unified Service Desk") 
+
+::: moniker-end
 
 <a name="AirTheme"></a>   
 ### Air Theme  

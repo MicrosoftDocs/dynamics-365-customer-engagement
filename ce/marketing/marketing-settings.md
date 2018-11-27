@@ -3,20 +3,19 @@ title: "Configure core marketing functionality in Dynamics 365 for Marketing | M
 description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Marketing"
 keywords: "administration; landing page; customer-insights sync"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -36,6 +35,10 @@ The **Marketing settings** section contains pages that let you configure the cor
 To find these settings, open **Settings** > **Advanced settings** and choose one of the pages under the **Marketing settings** heading in the left column. You can also access these same settings by finding the **Marketing settings** section in the right column and choosing the icons there.
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing settings** section.
+
+## CDS-A connector settings
+
+Use these settings to connect your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
 
 <a name="config-mkt-pages"></a>
 
@@ -68,19 +71,13 @@ Most of your landing pages will include an input form that visitors can use to s
 
 The **Contact creation context capture** and **Lead creation context capture** sections show where various types of information about the marketing context are stored when a submission results in a new contact or lead record. Here, you can see which fields in the contact or lead entity store each type of context information.
 
-Use the **Default matching strategy** section to set defaults for which types of entities your landing pages will create and update (leads and/or contacts), and how incoming values are matched against existing records to decide whether to create a new record or update an existing one. These defaults will be applied to each new landing page that you create and they are saved with the page, so you can override them at the page level by changing them there. Changing these settings won't affect any existing pages. The following settings are available:
+Use the **Default matching strategy** section to set defaults for which types of entities your marketing forms will create and update (leads and/or contacts), and how incoming values are matched against existing records to decide whether to create a new record or update an existing one. These defaults will be applied to each new marketing form that you create and they are saved with the form, so you can override them at the from level by changing them there. Changing these settings won't affect any existing forms. The following settings are available:
 
 - **Update contacts/leads**. When a landing page submission is received, this setting establishes which types of records it can create or update&mdash;leads, contacts, or both.
 - **Default contact matching strategy**. Shows the name of the field-matching strategy that you have set up to match incoming data against existing contact records. If a match is found according to this strategy, it will update that record. If no match is found, it will create a new contact. You can choose from among existing strategies here or select **New** to create a new one. See the next section for information about how to set up your field-matching strategies.
 - **Default lead matching strategy**. Same as the **Default contact matching strategy** setting, but for lead records.
 
-### Set matching strategies for leads and contacts
-
-Matching strategies define how page submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
-
-For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
-
-To view or set a matching strategy, open your marketing page configuration, and then select **Default contact matching strategy** or **Default lead matching strategy**. For more information about how to create and edit matching strategies, see [Set matching strategies](#matching-strategy).
+For more information about how to create and edit matching strategies, see [Set matching strategies](#matching-strategy).
 
 ### Set portal defaults
 
@@ -107,6 +104,18 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 - **Dynamic email content**: All entities with field values that you want to show as dynamic data in an email message must be present.
 - **Lead scoring**: All entities with field values that you want to use in you scoring models must be present.
 
+> [!NOTE]
+> You can only sync entities that are configured with **Change tracking** enabled. Entities without change tacking won't be listed on the **Customer insights sync** page. If you are a system customizer or admin, then you can find this setting by doing the following:
+> 
+> 1. Open the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
+> 1. Go to **Settings** > **Customization**.
+> 1. Select **Customize the system** (or select **Solutions** and open a solution if your entity is part of a solution).
+> 1. Find and select the entity you want to sync.
+> 1. On the **General** tab for the entity, select the **Change tracking** check box.
+> 1. Save and publish the change.
+> 
+> [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Dynamics 365 for Marketing](customize.md)
+
 To sync a new entity with the customer-insights services:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**.
@@ -129,17 +138,29 @@ To sync a new entity with the customer-insights services:
 
 ## Set matching strategies
 
-Use the **Settings** > **Advanced settings** > **Marketing settings** > **Matching strategy** page to set up various strategies for matching incoming landing-page submissions to existing leads and contacts. These are the strategies you can choose when setting up marketing pages and marketing-page defaults.
+Matching strategies define how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
 
-The first page you see shows a list of existing strategies. From here, you can choose an existing strategy to view, edit or delete it, or choose **+ New** on the command bar to create a new one.
+For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
+
+For leads, if a an existing lead record is found to match an incoming form submission, then the new submission will become part of that lead's history and could affect the lead's score.
+
+You'll probably have just a few matching strategies of each type&nbsp;many organizations use just one of each. Therefore, you can define each strategy just once and then it'll be available for selection each time you create a new form, and when you define the default strategies for all new forms. There are three places where you can view and create matching strategies:
+
+- Go to **Settings** > **Advanced settings** > **Marketing settings** > **Matching strategy** to view, create and edit all strategies that are available on your site.
+- You can select a default strategy of each type (lead and contact). These will be selected by default each time a user creates a new marketing form, but users can then customize the setting as needed for each individual form. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure landing pages](#config-mkt-pages)
+- When you are creating or editing a marketing form, you'll  be able to select from among the available strategies, or create new ones. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
+
+In each case, the settings are the same.
 
 ![Setting the matching strategy](media/marketing-page-matching.png "Setting the matching strategy")
 
 Describe your strategy by entering a **Name** and **Description**. Set the **Target** field to the type of entity your strategy applies to (lead or contact).
 
-The input field under the **Target** setting specifies which contact or lead fields to consider when looking for a match. The matching record must have identical values for *all* the fields shown here, so the more fields you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier, but you might use additional fields (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact or lead records for the same person). Enter a comma-separated list of fields to consider, and include square brackets around the list and quotes around each field name, such as:
+The list under the **Attributes** heading specifies which contact or lead attributes (fields) to consider when looking for a match. The matching record must have identical values for *all* the attributes shown here, so the more attributes you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier for contacts, but you might use additional attributes (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact records for the same person).
 
-> `["emailaddress1", "msdyncrm_marketingpageid"]`
+For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the out-of-box configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). For [forms embedded on an external site](embed-forms.md), the  marketing-page ID will be the form-page ID configured for the form.
+
+Use the buttons in the toolbar for the **Attributes** section to add, edit, and remove attribute in the list.
 
 <a name="default-marketing-settings"></a>
 <a name="marketing-configuration"></a>
@@ -171,6 +192,16 @@ Use the **Marketing email** tab to set defaults that apply to your marketing ema
 ### The Customer journey tab
 
 Use the **Customer journey** tab to choose the default time zone that you will use when starting and stopping your customer journeys.
+
+### The Double opt-in tab
+
+Use the **Double opt-in** tab to enable set up the double opt-in feature. For complete details about this feature, including how to use the settings provided here, see [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md).
+
+### The Bypass email deduplication tab
+
+Normally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
+
+However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
 
 ## Data protection tools
 

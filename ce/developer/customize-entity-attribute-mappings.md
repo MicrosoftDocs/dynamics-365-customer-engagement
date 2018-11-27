@@ -77,7 +77,7 @@ For more information see [Create a new entity from another entity](webapi/create
  When creating new records in the context of an existing record where a mapping exists between the entities, you can use the 
  <xref:Microsoft.Crm.Sdk.Messages.InitializeFromRequest> message to define a new record that contains the values specified in the mapping. You can then use the 
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>.
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to save the record. In in this manner, any mappings that you define are applied.  
+ <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to save the record. In this manner, any mappings that you define are applied.  
 
  Valid entity maps are created when an entity relationship is created. Use the `entity_map_attribute_maps` entity relationship to retrieve the attribute maps for the pair of entities specified by the entity map.  
  You can create or update attribute map records. The following requirements must be met for attribute maps:  

@@ -33,6 +33,7 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <li><a href="customize/index.md" data-raw-source="[Customization Guide ](customize/index.md)">Customization Guide </a></li>
 <li><a href="analytics/index.md" data-raw-source="[Reporting and Analytics Guide](analytics/index.md)">Reporting and Analytics Guide</a></li>
 <li><a href="developer/index.md" data-raw-source="[Developer Guide ](developer/index.md)">Developer Guide </a></li>
+<li><a href="on-premises/deploy-and-operate-dynamics-365-on-premises.md" data-raw-source="[Deploy and operate Dynamics 365 for Customer Engagement (on-premises)](on-premises/deploy-and-operate-dynamics-365-on-premises.md)">Deploy and operate (on-premises) </a></li>
 </td>
 <td>
 <li><a href="basics/index.md" data-raw-source="[Basics Guide ](basics/index.md)">Basics Guide </a></li>
@@ -67,7 +68,7 @@ These guides provide in-depth information about specific apps, solutions and rel
 <li><a href="insights-insideview/index.md" data-raw-source="[Insights, powered by InsideView](insights-insideview/index.md)">Insights, powered by InsideView</a></li>
 <li><a href="social-engagement/index.md" data-raw-source="[Social Engagement](social-engagement/index.md)">Social Engagement</a></li>
 <li><a href="gamification/index.md" data-raw-source="[Gamification](gamification/index.md)">Gamification</a></li>
-<li><a href="unified-service-desk/index.md" data-raw-source="[Unified Service Desk](unified-service-desk/index.md)">Unified Service Desk</a></li>
+<li><a href="/dynamics365/customer-engagement/unified-service-desk/index" data-raw-source="[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/index)">Unified Service Desk</a></li>
 </td>
 </tr>
 </table>

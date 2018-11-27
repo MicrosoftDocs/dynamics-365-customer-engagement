@@ -77,7 +77,7 @@ Give your customer service reps immediate access to business critical informatio
   
 ## Forms  
   
--   [Create and design forms](../customize/create-design-forms.md)  
+-   [Create and design forms](/dynamics365/customer-engagement/customize/create-design-forms)  
   
 ## Options  
   

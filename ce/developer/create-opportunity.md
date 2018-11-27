@@ -113,7 +113,7 @@ You can create an opportunity from a qualified lead or you can create a new oppo
   
 <a name="bkmk_CloseAnOpportunity"></a>   
 ## Close an Opportunity  
- If a customer decides to purchase products or services from your company, you can close an opportunity as a won opportunity. The opportunity states are specified in the `Opportunity.StateCode` attribute. If you are using early bound types, you can use the `OpportunityState` enumeration. For a list of the state values, see see the picklist values for this entity. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+ If a customer decides to purchase products or services from your company, you can close an opportunity as a won opportunity. The opportunity states are specified in the `Opportunity.StateCode` attribute. If you are using early bound types, you can use the `OpportunityState` enumeration. For a list of the state values, see the picklist values for this entity. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
  When you close an opportunity, an activity is created automatically by creating a record of the entity type opportunity close. The states of the opportunity close activity are specified in the `OpportunityClose.StateCode` attribute. If you are using early bound types, you can use the `OpportunityCloseState` enumeration. For a list of the state values, see the picklist values for this entity.  
   

@@ -14,7 +14,7 @@ ms.assetid: 5829C16D-417D-4A82-9093-C576ADB683D1
 caps.latest.revision: 7
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "sakudes"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 

@@ -25,7 +25,7 @@ search.app:
 
 # Navigate to a specific solution
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 If your organization already has a specific solution you should work in, this is how you can find it. To create a new solution, see [Create your own solution](../customize/create-solution.md).  
   

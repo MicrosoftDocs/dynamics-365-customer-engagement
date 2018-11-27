@@ -1,7 +1,7 @@
 ---
 title: "Use the Dynamics 365 (online) service admin role to manage your tenant | MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/18/2018
+ms.date: 10/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Use the service admin role to manage your tenant 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 To help you administer [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)], you can assign users to manage [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] at the tenant level without having to assign the more powerful [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global admin privileges.  
   
@@ -48,9 +48,9 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 |Exchange admin|n/a|n/a|n/a|n/a|n/a|n/a|n/a|Yes|Yes|  
 |Office 365 service admin|No|No|No|No|No|No|Yes|Yes|Yes|  
 |Office 365 user|No|No|No|No|No|No|No|No|No|  
-|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|No|Yes|Yes|Yes|  
+|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes<sup>1</sup>|Yes|Yes|Yes|  
 
-<sup>1</sup>To approve emails for Dynamics 365 (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
+<sup>1</sup>To approve emails for Dynamics 365 (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role or the **Dynamics 365 service admin** role. The Dynamics 365 service admin User Principal Name (UPN) must match the email address in Dynamics 365. If the email address and the UPN are different then only an Office 365 global admin can approve the email address.
 
 To approve emails for Dynamics 365 (on-premises), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege.  A system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
 

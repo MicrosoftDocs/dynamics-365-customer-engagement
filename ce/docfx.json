@@ -2,6 +2,17 @@
   "build": {
     "content": [
       {
+        "group": "usd-all",
+        "files": [
+          "unified-service-desk/**/*.md",
+          "unified-service-desk/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]        
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -9,6 +20,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "unified-service-desk/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -17,6 +29,21 @@
       }
     ],
     "resource": [
+      {
+        "group": "usd-all",
+        "files": [
+          "unified-service-desk/**/*.png",
+          "unified-service-desk/**/*.jpg",
+          "unified-service-desk/**/*.gif",
+          "unified-service-desk/**/*.html",
+          "unified-service-desk/**/*.htm",
+          "unified-service-desk/**/*.txt"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
       {
         "files": [
           "**/*.png",
@@ -28,7 +55,8 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "unified-service-desk/**"
         ]
       }
     ],
@@ -71,7 +99,7 @@
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
-        "unified-service-desk/**.*": "bc/toc.yml",
+        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
         "channel-integration-framework/**.*": "bc/toc.yml"
@@ -180,6 +208,11 @@
     },
     "template": [],
     "dest": "customer-engagement",
+    "groups": {            
+      "usd-all": {
+        "moniker_range": ">= dynamics-usd-3"
+      }
+    },
     "markdownEngineName": "markdig"
   }
 }

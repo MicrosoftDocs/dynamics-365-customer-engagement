@@ -2,20 +2,19 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 for Marketing"
 keywords: "marketing form, fields"
-ms.date: 09/17/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d27cf07f-3cef-4fdb-8d12-ffea28ed6f50
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -27,6 +26,8 @@ search.app:
 ---
 
 # Create, view, and manage marketing forms
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form and choose local settings for it, which apply to that page only.
 
@@ -89,6 +90,22 @@ Design element availability and requirements vary by form type, as outlined in t
 You can also view and edit the raw HTML code for the form by going to the **Designer** &gt; **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
 
 When you're done designing your form, select **Check for errors** and to make sure you've included all the required content and settings. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
+
+> [!IMPORTANT]
+> Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
+
+## Form summary and configuration
+
+In addition to the basic form design, each marketing-form record also includes a **Summary** tab, where you can set a few options and get more information about the form. The following settings and information are provided:
+
+- **General information**: Here you can read and assign a name to the form record, read and set the owner, and see when the form was created and last modified.
+- **Content and Lead matching strategies**: These settings control which incoming form-field values are matched against existing contact and lead records. If an existing record has matching values in all the specified fields, then that record will be updated with the incoming values (for the other fields); if no match is found, then a new contact and/or lead record will be created. Default strategies are provided for new forms. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set matching strategies](marketing-settings.md#matching-strategy)
+- **Generate leads without matching**: This setting controls whether or not the form will attempt to match an existing lead (using the specified **Lead matching strategy**), or if instead it will always create a new lead for each submission. Set to **No** to apply the matching strategy, or to **Yes** to create a new lead every time.
+- **Purpose** and **Visual style**: These fields provide more information about the form. For form templates, these values affect how the form can be found on the **Purpose** and **Visual style** tabs of the template gallery. These settings don't affect the actual layout or functionality of the form in any way.
+- **Prefill fields**: Set to **Yes** to enable prefilling for the form; set to **No** to disable it. You can only change this option for landing-page forms&mdash; subscription-center forms always use prefilling, while forward-to-a-friend forms never use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable prefilling for forms](form-prefill.md)
+- **Timeline**: Shows a history of notes and other activities related to the current form. Most types of entities in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] include this type of display.
+- **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
+- **Related marketing pages**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 
 ## Establish marketing-form templates
 

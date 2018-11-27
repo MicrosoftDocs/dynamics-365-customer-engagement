@@ -331,7 +331,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the the channel access profiles status.|
+|Description|Select the channel access profiles status.|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|

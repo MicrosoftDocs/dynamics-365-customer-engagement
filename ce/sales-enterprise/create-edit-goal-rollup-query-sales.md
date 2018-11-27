@@ -3,28 +3,22 @@ title: "Define a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 for Sales."
 keywords: "goal, rollup query"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2c15d62a-5cfa-4229-afe2-8927d45edadc
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Define a goal rollup query (Sales & Sales Hub)
@@ -34,15 +28,13 @@ search.app:
 
 Use the rollup query to gather data about a given goal, including all its related goals, in one view.  
 
-## Create a rollup query (Sales Hub app)
+## Create a rollup query (Sales Hub)
 
 > [!IMPORTANT]
 > 
 > Currently, you can't create a goal rollup query in the Sales Hub app. To create a goal rollup query, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
 
-## Create a rollup query (Sales app)
-  
-[!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
+## Create a rollup query (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   

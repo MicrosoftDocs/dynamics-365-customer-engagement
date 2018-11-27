@@ -67,7 +67,7 @@ I get this error message:
 
     File cannot be found. (Error: 0x80060706)  
 
-In an on-premises deployment, you can get this error when opening the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] tab in an entity enabled for [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] if you turned off **CreateSPFoldersUsingNameandGuid** using the OrgDBOrgSettings tool.  Set this option to **True**. See: [OrgDBOrgSettings tool for Dynamics CRM](https://support.microsoft.com/en-us/kb/2691237).  
+In an on-premises deployment, you can get this error when opening the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] tab in an entity enabled for [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] if you turned off **CreateSPFoldersUsingNameandGuid** using the OrgDBOrgSettings tool.  Set this option to **True**. See: [OrgDBOrgSettings tool for Dynamics CRM](https://support.microsoft.com/kb/2691237).  
 
 Note that [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] requires [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folders to include the GUID.  
 

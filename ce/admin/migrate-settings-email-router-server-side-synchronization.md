@@ -23,7 +23,7 @@ search.app:
 ---
 # Migrate settings from the Email Router to server-side synchronization 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 > [!NOTE]
 > The Microsoft Dynamics CRM Email Router has been deprecated and was removed in version 9.0 of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To prepare for this change, we strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 

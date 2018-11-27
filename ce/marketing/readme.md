@@ -1,14 +1,14 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 10/03/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
+ms.topic: article
 applies_to: 
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
-ms.author: renwe
+ms.author: kamaybac
 manager: annbe
 search.audienceType: 
   - admin
@@ -73,12 +73,15 @@ This document provides important, late-breaking information about known issues a
 
 ## Email marketing
 
+### Known issues
+
 - The default content-settings record must be live before you can send any marketing emails or view heatmaps on **Insights** pages. Usually, the default content-settings record goes live automatically when your setup is complete, but sometimes this isn't the case. To solve this, set up and publish your default content-settings record manually as described in [Use content settings to set up repositories of standard and required values](dynamic-email-content.md#content-settings).
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
 - For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support.<!-- 1267485 -->
 - The email designer requires that you be very careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md#enter-code)
+- Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, and how to find out if it's available to you, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content). Be sure also to read [How to enter advanced dynamic content in the designer](dynamic-email-content.md#enter-code) for important tips on how to mix these dynamic features into your designs.
 
 ### Fixed issues
 
@@ -91,7 +94,11 @@ This document provides important, late-breaking information about known issues a
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. <!-- 1156824 -->
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
-- The default lead-matching strategy for landing pages matches email address and landing-page ID. Currently, a limitation in the UI means that it's not possible to add the landing-page ID to any new or existing lead-matching strategy. Therefore, you shouldn't remove this attribute from the provided default lead-matching strategy unless you are sure you will never use this kind of strategy. More information: [Set matching strategies](marketing-settings.md#matching-strategy) <!-- 1309673 -->
+- The default lead-matching strategy for landing pages matches email address and landing-page ID (msdyncrm_marketingpageid). Currently, a limitation in the UI means that it's not possible to add the landing-page ID to any new or existing lead-matching strategy. Therefore, you shouldn't remove this attribute from the provided default lead-matching strategy unless you are sure you will never use this kind of strategy. If you have removed this attribute and need it back, or if you need to add it to a custom lead-matching strategy, please contact Microsoft Support. More information: [Set matching strategies](marketing-settings.md#matching-strategy) <!-- 1309673 -->
+
+## Reusable content blocks
+
+- Any CSS styles that you include in your reusable content blocks could be overruled by styles in the document where you eventually host the content. If you want to prevent this, design your content blocks with inline styles that include the `!important` attribute.
 
 ## Lead scoring and management
 
@@ -101,12 +108,14 @@ This document provides important, late-breaking information about known issues a
 
 ## Event management
 
+### Known issues
+
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
 - The event portal included with Dynamics 365 for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a customized event portal to use in production, you must start by creating a new website in your Dynamics 365 portal. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).
 - When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.
 
-### Fixed
+### Fixed issues
 
 - Events now have sample data.<br><del>*Sample data is no longer available for events. We expect to provide it again in a future update.*</del>
 
@@ -123,6 +132,10 @@ This document provides important, late-breaking information about known issues a
 ## Designer feature protection
 
 - Designer feature protection enables admins to limit access to the HTML tab and/or Litmus previews for content designers. However, the protection only applies to users who have read access to the *Designer Feature Access* entity. Users without this read access will always be able to see the HTML and Litmus features, even if you use designer feature protection to block them. To solve this, make sure all user roles provide read access to the *Designer Feature Access* entity. If you are using the out-of-box user roles supplied with the product, then these should automatically update to include this access when you apply the October 2018 (or later) update, but if you use custom user roles you need to add this access explicitly after updating. More information: [Manage security, users, and teams](../admin/manage-security-users-and-teams.md)
+
+## Websites
+
+- The *websites* feature records all visits to any web page that has a Dynamics 365 for Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
 
 ## General
 

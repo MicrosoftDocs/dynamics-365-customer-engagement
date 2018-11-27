@@ -2,7 +2,7 @@
 title: "updateRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -19,8 +19,8 @@ manager: shujoshi
 ---
 
 # updateRecord (CIF JavaScript API Reference)
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 
@@ -51,36 +51,28 @@ manager: shujoshi
 </tr>
 <tr>
 <td>data</td>
-<td>Object</td>
+<td>String</td>
 <td>Yes</td>
-<td><p>A JSON object containing <code>key: value</code> pairs, where <code>key</code> is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
-<p>See examples later in this topic to see how you can define the <code>data</code> object for various update scenarios.</td>
+<td><p>String containing <code>key: value</code> pairs, where <code>key</code> is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
+<p>See examples later in this topic to see how you can define the <code>data</code> string for the update scenario.</td>
 </tr>
 <tr>
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is updated. An object with the following properties will be passed to identify the updated record:</p>
-<ul>
-<li><b>entityType</b>: String. The entity type of the updated record.</li>
-<li><b>id</b>: String. GUID of the updated record.</li>
-</ul></td>
+<td><p>A function to call when a record is updated.</td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when the operation fails. An object with the following properties will be passed:
-<ul>
-<li><b>errorCode</b>: Number. The error code.</li>
-<li><b>message</b>: String. An error message describing the issue.</li>
-</ul></td>
+<td>A function to call when the operation fails.</td>
 </tr>
 </table>
 
 ## Return Value
 
-On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+On success, returns a promise containing a string with the updated attributes and their values.
 
 ## Examples
 
@@ -95,13 +87,16 @@ var data = {
     "fullname": "Updated Sample Contact",
     "emailaddress1": "contact@contoso.com",
     "jobtitle": "Sr. Marketing Manager",
-    "phonenumber": "555-0109",
+    "telephone1": "555-0109",
     "description": "Updated values for this record were set programmatically."
 }
 // update contact record
-Microsoft.CIFramework.updateRecord(entityLogicalName,id,data).then(
+var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
+var jsonData = JSON.stringify(data);
+Microsoft.CIFramework.updateRecord(entityLogicalName,id,jsonData).then(
     function success (result) {
-          console.log("Contact updated with ID: " + result.id);
+      res=JSON.parse(result);
+          console.log("Contact updated with ID: " + res.id);
           //the record is updated
       },
       function (error) {
