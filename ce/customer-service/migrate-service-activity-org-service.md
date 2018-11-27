@@ -33,10 +33,6 @@ Service Activity entity in Service Scheduling cannot be migrated through UI. Thi
 
 ### Example
 
-<a name="bkmk_complete"></a>
-
-#### Complete sample
-
 > [!NOTE]
 > This sample demonstrates a basic example for migrating Service Activity entity. For this sample to work in your instance, you will have to modify the below code as per your data.
 
