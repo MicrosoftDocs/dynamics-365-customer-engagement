@@ -1,5 +1,5 @@
 ---
-title: "Administrator reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Administrator reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 75a24695-dc76-4e49-b8a8-9f4e2ee0fe19
 caps.latest.revision: 14
 author: "Mattp123"
@@ -35,7 +35,7 @@ search.app:
 Keep user information up to date by running a User Summary report.   
 Get a list of all your users, including their contact information and security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
- ![Default User Summary report in Dynamics 365](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365")  
+ ![Default User Summary report in Dynamics 365 for Customer Engagement](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 for Customer Engagement")  
   
 ### See also  
  [Run a report](../basics/run-report.md)   

@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 author: "shubhadaj"
 ms.assetid: 792b7301-d9a1-4323-9e81-ab0dee5ced2d
 ms.author: shujoshi

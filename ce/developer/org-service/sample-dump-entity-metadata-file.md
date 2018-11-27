@@ -1,5 +1,5 @@
 ---
-title: "Sample: Dump entity metadata to a file (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Dump entity metadata to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to write out all the entity metadata to an XML file. It uses the RetrieveAllEntitiesRequest message. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0a0247f3-3a59-42d1-b865-54d0f34e4aad
 author: "JimDaly"
 ms.author: "jdaly"
@@ -42,6 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
 ### See also  
  [Customize Entity Metadata](../customize-entity-metadata.md)   
  [Sample: Dump Entity Privilege Information to a File](sample-dump-entity-privilege-information-file.md)   
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesResponse>

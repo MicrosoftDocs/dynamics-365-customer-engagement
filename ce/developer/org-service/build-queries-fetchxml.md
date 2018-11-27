@@ -1,6 +1,6 @@
 ---
-title: "Build queries with FetchXML (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "FetchXML is a proprietary query language that is used in Dynamics 365 (online) Customer Engagement. A FetchXML query can be executed by using the IOrganizationService.QueryBase) method. FetchXML query can be converted to a query expression with the FetchXmlToQueryExpressionRequest message"
+title: "Build queries with FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "FetchXML is a proprietary query language that is used in Dynamics 365 for Customer Engagement (online) Customer Engagement. A FetchXML query can be executed by using the IOrganizationService.QueryBase) method. FetchXML query can be converted to a query expression with the FetchXmlToQueryExpressionRequest message"
 ms.custom: ""
 ms.date: 12/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8ff32261-4a9a-4186-bf2f-ee28496b16ef
 caps.latest.revision: 47
 author: "KumarVivek"

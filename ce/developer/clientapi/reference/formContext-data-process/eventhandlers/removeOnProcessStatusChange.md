@@ -1,9 +1,9 @@
 ---
-title: "removeOnProcessStatusChange (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "removeOnProcessStatusChange (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 5e41f59e-ddb3-4d47-b45b-454aa9e04439
 author: "KumarVivek"
 ms.author: "kvivek"

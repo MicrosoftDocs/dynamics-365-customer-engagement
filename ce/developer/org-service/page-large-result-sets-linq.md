@@ -1,5 +1,5 @@
 ---
-title: "Page large result sets with LINQ (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Page large result sets with LINQ (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can page the results of a large .NET Language-Integrated Query (LINQ) query by using the Take and Skip operators"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "paging the results of large LINQ queries, LINQ paging example"
   - "LINQ queries, paging the results of large LINQ queries"

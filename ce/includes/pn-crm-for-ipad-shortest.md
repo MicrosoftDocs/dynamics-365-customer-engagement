@@ -1,1 +1,1 @@
-Dynamics 365 for iPad
+Dynamics 365 for Customer Engagement for iPad

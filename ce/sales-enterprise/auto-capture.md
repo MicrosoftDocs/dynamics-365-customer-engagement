@@ -1,5 +1,5 @@
 ---
-title: "Auto capture for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Auto capture for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag
@@ -22,13 +22,13 @@ topic-status: Drafting
 
 # Auto capture of related emails
 
-Applies to Dynamics 365 (online), version 9.1.0<br>
+Applies to Dynamics 365 for Customer Engagement (online), version 9.1.0<br>
 
 Auto capture enables [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to access your email in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find and display messages that are related to your work in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This makes it easy to see your relevant email messages together with all of the other activities that are related to a given record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Each message remains private and visible only to you unless you choose to convert it to a *tracked email*, which you can do with just one click to make that email visible to the rest of your team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 Auto capture is part of the *Embedded intelligence* suite of features. 
   
-[Watch a short video (1:43) about Dynamics 365 Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
+[Watch a short video (1:43) about Dynamics 365 for Customer Engagement Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
 
 The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
   
@@ -80,7 +80,7 @@ The administrator must enable auto capture before you can try it out. For comple
   
     ![Auto capture personal options](media/auto-capture-personal-options.png "Auto capture personal options")  
   
-3.  Set the **Show email not tracked in Dynamics 365 in the Activities list** option to **Yes** or **No**, as needed.  
+3.  Set the **Show email not tracked in Dynamics 365 for Customer Engagement in the Activities list** option to **Yes** or **No**, as needed.  
   
 4.  Select **OK**.  
 
@@ -94,7 +94,7 @@ The following describes the support for viewing, opening, and tracking untracked
 |None     |Yes      |Yes         |N/A, tracking requires server-side sync         |
 |Server-Side Sync with **Email Not Approved** or **Test Not Run**     |Yes         |Yes         |No         |
 |Server-Side Sync with **Email Approved** and **Test Enabled**     |Yes         |Yes         |Yes         |
-|Microsoft Dynamics 365 for Outlook   |Yes         |Yes         |N/A, tracking requires server-side sync         |
+|Microsoft Dynamics 365 for Customer Engagement for Outlook   |Yes         |Yes         |N/A, tracking requires server-side sync         |
 |Email Router     |Yes         |Yes         |N/A, tracking requires server-side sync         |
 |Forward Mailbox     |No         |No         |No         |
 

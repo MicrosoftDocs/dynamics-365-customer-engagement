@@ -1,5 +1,5 @@
 ---
-title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+title: "Configure OAuth2 provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to add and configure OAuth2 provider settings for a portal."
 ms.custom: 
   - dyn365-portal
@@ -143,7 +143,7 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 
 ### See also
 
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

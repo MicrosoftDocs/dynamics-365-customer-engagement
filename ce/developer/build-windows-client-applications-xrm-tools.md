@@ -1,6 +1,6 @@
 ---
-title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365"
+title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e2f22576-1705-4854-a804-a1ca232c0cfc
 caps.latest.revision: 33
 author: "KumarVivek"
@@ -58,7 +58,7 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
   
 ### See also  
  [Sample: Quick start for XRM Tooling API](xrm-tooling/sample-quick-start-xrm-tooling-api.md)   
- [Use the Dynamics 365 Organization service](use-microsoft-dynamics-365-organization-service.md)   
+ [Use the Dynamics 365 for Customer Engagement Organization service](use-microsoft-dynamics-365-organization-service.md)   
  [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)   
  [Write Applications and Server Extensions](extend-dynamics-365-server.md)   
  [Blog: PowerShell module for performing data operations and manipulating user and system settings in CRM](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)

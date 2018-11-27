@@ -1,6 +1,6 @@
 ---
-title: "Actions on dialogs (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 Customer Engagement web services (SDK). "
+title: "Actions on dialogs (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 for Customer Engagement web services (SDK). "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "dialogs, dialogs, actions"
 ms.assetid: dec79d11-75fc-4a1c-ae50-3b5d3d237fd7
@@ -43,7 +43,7 @@ and fetch records accordingly.
  You can parameterize a query variable by using the **Modify Query Variables** tab on the **Define Query** page, 
 and then use the dynamic values section on the query form to associate the prompt and response variables with the query variables.  
 
- The query variable defined using the **Query Dynamics 365 Data** step is available for all the prompts and responses from the point where they 
+ The query variable defined using the **Query Dynamics 365 for Customer Engagement Data** step is available for all the prompts and responses from the point where they 
 have been defined in the dialog definition.  
 
 ### Assign Value

@@ -1,5 +1,5 @@
 ---
-title: "Update and delete entities using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Update and delete entities using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to perform update and delete operations on entities using the Web API"
 ms.custom: ""
 ms.date: 05/09/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 694889fd-2b85-43a0-97bc-1e760695db31
 caps.latest.revision: 17
 author: "JimDaly"

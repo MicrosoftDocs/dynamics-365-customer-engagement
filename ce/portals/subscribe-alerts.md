@@ -1,5 +1,5 @@
 ---
-title: "Subscribe to alerts on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Subscribe to alerts on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create and manage alerts in a portal."
 ms.custom: 
   - dyn365-portal

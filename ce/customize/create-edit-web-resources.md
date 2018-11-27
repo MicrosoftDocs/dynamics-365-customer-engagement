@@ -1,5 +1,5 @@
 ---
-title: "Create or edit web resources in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create or edit web resources in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit a web resource"
 ms.custom: ""
 ms.date: 11/09/2018
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: ef4ba8df-9ba9-4066-b40d-def9761c7de2
 caps.latest.revision: 21
@@ -37,7 +37,7 @@ Web resources are typically used by developers to extend an app using files that
 
  For example, if you create an HTML page as a web resource named “new_myWebResource.htm”, you could open that page in a browser using a URL like this:  
 
-<Dynamics 365 URL>/WebResources/new_myWebResource.htm   
+<Dynamics 365 for Customer Engagement URL>/WebResources/new_myWebResource.htm   
 
  where *\<app URL>* is the URL you usually use to open the app. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
 
@@ -65,7 +65,7 @@ Web resources are typically used by developers to extend an app using files that
    |     **Type**     |                                                                                                                                                                                                                                                                                                  **Required**. This is the type of web resource. You can’t change this after you save the web resource.                                                                                                                                                                                                                                                                                                   |
    | **Text Editor**  |                                                                                                                                                                                                                                                                                When the type of web resource represents a kind of text file, select this button to open a page to edit the content using the text editor.                                                                                                                                                                                                                                                                                 |
    |   **Language**   |                                                                                                                                                                                                                                                                       Allows for a selection of a language. This option just tags the record that stores the web resource data. It doesn’t change the behavior of the web resource.                                                                                                                                                                                                                                                                       |
-   | **Upload File**  | Select the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified in Dynamics 365 customer engagement by using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md) |
+   | **Upload File**  | Select the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified in Dynamics 365 for Customer Engagement customer engagement by using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md) |
    |     **URL**      |                                                                                                                                                                                                                                                                              After you save the web resource, the URL to the web resource will be displayed here. Select this link to view the web resource in your browser.                                                                                                                                                                                                                                                                              |
 
 

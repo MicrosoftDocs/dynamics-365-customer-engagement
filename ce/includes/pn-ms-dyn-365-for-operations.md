@@ -1,1 +1,1 @@
-Dynamics 365 for Finance and Operations
+Dynamics 365 for Customer Engagement for Finance and Operations

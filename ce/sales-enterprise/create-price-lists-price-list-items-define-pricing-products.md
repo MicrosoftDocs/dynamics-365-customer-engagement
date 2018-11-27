@@ -1,6 +1,6 @@
 ---
-title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Define what to charge for your products or services in Dynamics 365 for Sales."
+title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Define what to charge for your products or services in Dynamics 365 for Customer Engagement for Sales."
 keywords: "Price list, price list items"
 ms.date: 10/09/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: dd53d178-2cd2-4aeb-beb5-be538585d297
 author: shubhadaj
 ms.author: shujoshi

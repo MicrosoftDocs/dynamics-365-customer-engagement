@@ -1,10 +1,10 @@
 ---
-title: "formContext.ui.FormSelector (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "formContext.ui.FormSelector (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 32e8d1d0-4093-4588-a517-2930eec34dce
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -29,7 +29,7 @@ Form Items are available through any of the following:
     See [Collections](collections.md)) for information about the collection methods.
  
     >[!NOTE]
-    >This collection isn't available for Dynamics 365 mobile clients (phones and tablets).
+    >This collection isn't available for Dynamics 365 for Customer Engagement mobile clients (phones and tablets).
 
 - **formselector.getCurrentItem** method: Returns a reference to the form currently being shown. When only one form is available this method will return **null**. Example:
  

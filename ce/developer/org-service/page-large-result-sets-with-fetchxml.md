@@ -1,5 +1,5 @@
 ---
-title: "Page large result sets with FetchXML (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Page large result sets with FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can page the results of a FetchXML query by using the paging cookie"
 ms.custom: ""
 ms.date: 09/13/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: cd32c68c-fb8a-4018-90a3-49c6a80ca7b4
 caps.latest.revision: 17
 author: "mayadumesh"

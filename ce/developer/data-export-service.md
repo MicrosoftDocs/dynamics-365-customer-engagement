@@ -1,5 +1,5 @@
 ---
-title: "Data Export Service (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Data Export Service (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Capabilities, prerequisites, API, and programming of the Data Export Service."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a80ea2c1-c8f6-4edf-8841-18707e83059b
 caps.latest.revision: 15
 author: "JimDaly"
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] solution that adds the ability to replicate [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] data to a Microsoft Azure SQL Database store in a customer-owned Microsoft Azure subscription. The supported target destinations are Microsoft Azure SQL Database and Microsoft Azure SQL Server on Microsoft Azure virtual machines. Data Export intelligently synchronizes the entire Dynamics 365 schema and data initially and thereafter synchronizes on a continuous basis as changes occur (delta changes) in the Dynamics 365 (online) system.  
+Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] solution that adds the ability to replicate [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] data to a Microsoft Azure SQL Database store in a customer-owned Microsoft Azure subscription. The supported target destinations are Microsoft Azure SQL Database and Microsoft Azure SQL Server on Microsoft Azure virtual machines. Data Export intelligently synchronizes the entire Dynamics 365 for Customer Engagement schema and data initially and thereafter synchronizes on a continuous basis as changes occur (delta changes) in the Dynamics 365 for Customer Engagement (online) system.  
   
  The Data Export service provides an interface for managing configuration and ongoing administration of this service from within [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)].  For more information, see [Data Export](https://technet.microsoft.com/library/a70feedc-12b9-4a2d-baf0-f489cdcc177d). This topic explains the corresponding programmatic interface and issues for this service.  
   
@@ -65,7 +65,7 @@ GRANT ALTER, REFERENCES, INSERT, DELETE, UPDATE, SELECT, EXECUTE ON SCHEMA::dbo 
   
 ```  
   
- For online solutions and services, Azure provides a [Key Vault](https://azure.microsoft.com/en-us/services/key-vault/) service to safeguard cryptographic keys, passwords, and other secrets.  To use Azure Key Vault, this customer-owned service must be configured so that permission is granted to "Dynamics 365 Data Export Service", which is used to safely store the SQL Azure connection string. To perform this configuration with a PowerShell script, see [How to set up Azure Key Vault](https://technet.microsoft.com/library/mt744592.aspx). Alternately, this service can be managed through its REST API; see [Key Vault management](https://msdn.microsoft.com/library/azure/mt620024.aspx).  
+ For online solutions and services, Azure provides a [Key Vault](https://azure.microsoft.com/en-us/services/key-vault/) service to safeguard cryptographic keys, passwords, and other secrets.  To use Azure Key Vault, this customer-owned service must be configured so that permission is granted to "Dynamics 365 for Customer Engagement Data Export Service", which is used to safely store the SQL Azure connection string. To perform this configuration with a PowerShell script, see [How to set up Azure Key Vault](https://technet.microsoft.com/library/mt744592.aspx). Alternately, this service can be managed through its REST API; see [Key Vault management](https://msdn.microsoft.com/library/azure/mt620024.aspx).  
   
  It is also advised that you add the domain https://discovery.crmreplication.azure.net/ to the trusted sites list in your browser and to enable pop-ups for this site.  
   
@@ -169,5 +169,5 @@ Entity: account, RecordId: b2a19cdd-88df-e311-b8e5-6c3be5a8b200, NotificationTim
 ```  
   
 ### See also  
- [Manage your data in Dynamics 365](manage-data.md)   
+ [Manage your data in Dynamics 365 for Customer Engagement](manage-data.md)   
  [Import data](import-data.md)

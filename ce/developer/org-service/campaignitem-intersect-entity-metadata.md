@@ -1,5 +1,5 @@
 ---
-title: "CampaignItem intersect entity metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "CampaignItem intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The CampaignItem intersect entity is the intersect table for several many-to-many relationships for the Campaign entity"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "campaign entity, campaignitem intersect table"
   - "campaignitem intersect entity, effect of early- and late-bound types on"

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Enable field security for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Enable field security for an entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to enable field security for an entity."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "field security entities sample, enabling"
   - "enabling field security, sample"
@@ -41,7 +41,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[FieldSecurity#EnableFieldSecurityForAnEntity1](../snippets/csharp/CRMV8/fieldsecurity/cs/enablefieldsecurityforanentity1.cs#enablefieldsecurityforanentity1)]  
   
 ### See also  
- [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365](security-dev/use-field-security-control-access-field-values.md)   
+ [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 for Customer Engagement](security-dev/use-field-security-control-access-field-values.md)   
  [Field Security Entities](field-security-entities.md)   
  [Sample: Retrieve Field Sharing Records](sample-retrieve-field-sharing-records.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>

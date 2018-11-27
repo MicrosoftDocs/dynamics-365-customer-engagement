@@ -1,6 +1,6 @@
 ---
-title: "Manage access using Unified Service Desk for Dynamics 365 Customer Engagement configuration | MicrosoftDocs"
-description: "Learn to control how agents use Unified Service Desk for Dynamics 365 Customer Engagement by using configuration."
+title: "Manage access using Unified Service Desk for Dynamics 365 for Customer Engagement configuration | MicrosoftDocs"
+description: "Learn to control how agents use Unified Service Desk for Dynamics 365 for Customer Engagement by using configuration."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -60,7 +60,7 @@ search.app:
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-2. On the nav bar, click **Microsoft Dynamics 365**, and then select **Settings**.  
+2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
   
 3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
   
@@ -123,7 +123,7 @@ search.app:
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-2. On the nav bar, click **Microsoft Dynamics 365**, and then select **Settings**.  
+2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
   
 3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
   
@@ -163,7 +163,7 @@ search.app:
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-2. On the nav bar, click **Microsoft Dynamics 365**, and then select **Settings**.  
+2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
   
 3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
   

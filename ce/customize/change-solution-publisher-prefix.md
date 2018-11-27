@@ -1,5 +1,5 @@
 ---
-title: "Change the solution publisher prefix in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Change the solution publisher prefix in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/08/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: ece684h8-ad40-4bfa-975a-3e5bafb854aa
 caps.latest.revision: 55

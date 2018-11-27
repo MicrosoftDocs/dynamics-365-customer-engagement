@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: "jimholtz"
@@ -34,32 +34,32 @@ The following are issues and error messages with possible resolutions.
 
 ### My Dashboard page freezes
 
-If you select **Create a Dynamics 365 Dashboard** when on the **My Dashboard** page, the page will freeze and you can't select anything in the dashboard. To remedy, select another tab such as **Settings** and then re-select **My Dashboard**. This is a known issue and will be fixed in a future release.
+If you select **Create a Dynamics 365 for Customer Engagement Dashboard** when on the **My Dashboard** page, the page will freeze and you can't select anything in the dashboard. To remedy, select another tab such as **Settings** and then re-select **My Dashboard**. This is a known issue and will be fixed in a future release.
 
 > [!div class="mx-imgBorder"] 
 > ![Dashboard page freezes](media/teams-mydashboard-freeze.png "Dashboard page freezes")
 
 ## Error messages in the Teams app
 
-### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). However, changes made to the record in Teams will update in Dynamics 365 (online).
+### Error: This record is not connected to Dynamics 365 for Customer Engagement. Repin the tab and try again.
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 for Customer Engagement (online). However, changes made to the record in Teams will update in Dynamics 365 for Customer Engagement (online).
 
 This is the connection error notification bar:
 
 > [!div class="mx-imgBorder"] 
-> ![Connection to Dynamics 365 (online) failed](media/teams-error-connection-failed.png "Connection to Dynamics 365 (online) failed")
+> ![Connection to Dynamics 365 for Customer Engagement (online) failed](media/teams-error-connection-failed.png "Connection to Dynamics 365 for Customer Engagement (online) failed")
 
 > [!IMPORTANT]
 > When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time to make the SharePoint file library connection. Wait a few minutes and then refresh your browser to retry the connection.
 
-Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as follows:
+Try repinning the Dynamics 365 for Customer Engagement tab. To repin, remove the tab and then re-add, as follows:
 
 1. In Microsoft Teams, select the channel with the error.
-2. Select the Dynamics 365 tab with the error.
+2. Select the Dynamics 365 for Customer Engagement tab with the error.
 3. Select the down arrow next to the tab, and then select **Remove**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Remove a Dynamics 365 tab](media/teams-remove-tab.png "Remove a Dynamics 365 tab")
+   > ![Remove a Dynamics 365 for Customer Engagement tab](media/teams-remove-tab.png "Remove a Dynamics 365 for Customer Engagement tab")
 
 4. On the same channel, select the **Add** button (![Add button](media/plus-2.png "Add button")).
 
@@ -75,17 +75,17 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 and
 
-### Error: Sorry! Your Dynamics 365 org is not the latest version and is not supported for this feature. Please select a different org or contact your Dynamics 365 admin to do an update.
+### Error: Sorry! Your Dynamics 365 for Customer Engagement org is not the latest version and is not supported for this feature. Please select a different org or contact your Dynamics 365 for Customer Engagement admin to do an update.
 
 > [!div class="mx-imgBorder"] 
 > ![Org is not up to date](media/teams-error-org-not-latest.png "Org is not up to date")
 
-The Dynamics 365 (online) organization you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
+The Dynamics 365 for Customer Engagement (online) organization you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
 
-## Error messages in Dynamics 365 (online)
+## Error messages in Dynamics 365 for Customer Engagement (online)
 
 ### Error: You cannot enable Microsoft Teams integration since the org is integrated with SharePoint on-premises.
-You are currently configured to use SharePoint on-premises for document management. You need to set up document management in Dynamics 365 (online) to use SharePoint Online. See [Set up Dynamics 365 (online) to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+You are currently configured to use SharePoint on-premises for document management. You need to set up document management in Dynamics 365 for Customer Engagement (online) to use SharePoint Online. See [Set up Dynamics 365 for Customer Engagement (online) to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error: You don't have permissions to view files in this location. Contact your Microsoft Teams owner or SharePoint administrator for access.
 
@@ -94,7 +94,7 @@ You are currently configured to use SharePoint on-premises for document manageme
 
 You need to be a member of the connected channel team to view files. Contact the connected channel team owner and request to be added as a member. You need to determine the document location for which to request membership.
 
-1. In Dynamics 365 (online), open the record with the permissions error message.
+1. In Dynamics 365 for Customer Engagement (online), open the record with the permissions error message.
 2. Select **Related** > **Documents**.  
   
    > [!div class="mx-imgBorder"] 
@@ -110,4 +110,4 @@ You need to be a member of the connected channel team to view files. Contact the
 > [!div class="mx-imgBorder"] 
 > ![File sharing not set up](media/teams-error-file-sharing.png "File sharing not set up")
 
-This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).
+This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 for Customer Engagement Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).

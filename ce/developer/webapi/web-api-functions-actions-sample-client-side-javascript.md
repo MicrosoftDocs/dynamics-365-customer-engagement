@@ -1,6 +1,6 @@
 ---
-title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and client-side JavaScript"
+title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API and client-side JavaScript"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 337f5d15-66be-46db-a96a-309951a37a2a
 caps.latest.revision: 20
 author: "JimDaly"
@@ -716,7 +716,7 @@ Sdk.createAccountWithOpportunityToWin = function () {
   
 ### See also
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Samples](web-api-samples.md)   

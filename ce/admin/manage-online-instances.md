@@ -1,5 +1,5 @@
 ---
-title: "Manage Dynamics 365 (online) instances | MicrosoftDocs"
+title: "Manage Dynamics 365 for Customer Engagement (online) instances | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: ab3efb85-281c-4915-a879-1db424281699
 caps.latest.revision: 4
 author: "jimholtz"
@@ -29,7 +29,7 @@ You manage your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance
   
 1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in using Global administrator credentials.  
   
-2.  Choose **Admin** > **Dynamics 365**  
+2.  Choose **Admin** > **Dynamics 365 for Customer Engagement**  
   
 This section provides information on how you add or edit instances of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription and set up additional non-production (Sandbox) instances.  
   

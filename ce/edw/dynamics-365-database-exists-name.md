@@ -1,5 +1,5 @@
 ---
-title: "A Microsoft Dynamics 365 database already exists with the specified name | Microsoft Docs"
+title: "A Microsoft Dynamics 365 for Customer Engagement database already exists with the specified name | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -15,7 +15,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# A Microsoft Dynamics 365 database already exists with the specified name
+# A Microsoft Dynamics 365 for Customer Engagement database already exists with the specified name
 
 ## Cause
   

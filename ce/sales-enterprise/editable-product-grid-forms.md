@@ -1,6 +1,6 @@
 ---
-title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 for Sales."
+title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 for Customer Engagement for Sales."
 keywords: "product, opportunity, editable grid, quote, order, invoice"
 ms.date: 09/24/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: e426b768-bd64-4e64-8560-667634006d74
 author: shubhadaj
 ms.author: shujoshi
@@ -27,7 +27,7 @@ Products grid on the Opportunity, Quote, Order, or Invoice forms is now editable
 
 Currently, the preconfigured Products grid is available only on apps built on the Unified Interface framework and is optimized to work on the web.
 
-With Dynamics 365 (online), version 9.0.2, the product editable grid is added out-of-the-box to the **Product Line Items** section of the Opportunity form of type **Main**. For Quote, Order, or Invoice, it is added to the Products section of the forms of type **Main**. 
+With Dynamics 365 for Customer Engagement apps version 9.0.2, the product editable grid is added out-of-the-box to the **Product Line Items** section of the Opportunity form of type **Main**. For Quote, Order, or Invoice, it is added to the Products section of the forms of type **Main**. 
 
 If you’re upgrading to [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)] and you’ve made customizations to the **Product Line Items** or **Products** sections of these forms, your customizations will prevail, and the product editable grid won’t be added to the forms by default. You must manually enable the product editable grid, though the product grid configurations for the editable grid already will be defined. If there are no customizations to these sections, the Products grid will be automatically configured and enabled after the upgrade. 
 

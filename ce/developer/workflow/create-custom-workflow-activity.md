@@ -1,6 +1,6 @@
 ---
-title: "Create a custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 (online) Customer Engagement."
+title: "Create a custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 for Customer Engagement (online) Customer Engagement."
 ms.custom: ""
 ms.date: 09/12/2018
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: ab72830b-e6a6-4f49-a6a8-1d69c4a1d308
 caps.latest.revision: 56
 author: "JimDaly"
@@ -30,7 +30,7 @@ This topic describes how to create a custom workflow activity and register it fo
 
 ## Required software and assemblies
 
- To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365, you must develop them on [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)]. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
+ To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365 for Customer Engagement, you must develop them on [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)]. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
   
 <a name="UseCodeActivity"></a>
 

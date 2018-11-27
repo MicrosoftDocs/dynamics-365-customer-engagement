@@ -1,6 +1,6 @@
 ---
-title: "FAQs for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
-description: "Frequently asked question about the Channel Integration Framework (CIF) and its APIs for Dynamics 365."
+title: "FAQs for Channel Integration Framework (CIF) in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Frequently asked question about the Channel Integration Framework (CIF) and its APIs for Dynamics 365 for Customer Engagement."
 keywords: ""
 ms.date: 10/01/2018
 ms.service:
@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 25004203-DE03-4DEC-BE4A-E4E89784A4F3
 author: kabala123
 ms.author: kabala
@@ -23,7 +23,7 @@ manager: shujoshi
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 ## What is Channel Integration Framework?
-Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
+Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 for Customer Engagement Unified Interface Apps using a browser-based JavaScript API library.
 
 ## Can I integrate a two-way communication channel?
 Yes, you can integrate two-way communication that enables to set the context of inbound and/or outbound according to your business and process workflows.
@@ -32,7 +32,7 @@ Yes, you can integrate two-way communication that enables to set the context of 
 yes, Channel Integration Framework works only with Unified Interface Apps.
 
 ## Is Channel Integration Framework a softphone?
-No, Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 Unified Interface Apps.
+No, Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 for Customer Engagement Unified Interface Apps.
 
 ## Does Channel Integration Framework make calls or send messages?
 No, Channel Integration Framework provides an extensible framework to configure the channel provider to make inbound or/and outbound calls or messages.

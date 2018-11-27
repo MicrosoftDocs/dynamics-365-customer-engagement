@@ -1,5 +1,5 @@
 ---
-title: "Ignore blank values and inactive records in duplicate detection (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Ignore blank values and inactive records in duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Improve result quality by creating duplicate detection rules that ignore blank values and inactive records."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 7b905429-1bde-4ba5-a523-62ab770b2582
 author: "JimDaly"
 ms.author: "jdaly"
@@ -69,5 +69,5 @@ You can improve data results by creating duplicate detection rules that ignore b
  For example, if you set the `ExcludeInactiveRecords`attribute to `true`, only active, submitted, and invoiced sales orders will be considered for matching during duplicate detection.  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365](detect-duplicate-data-for-developers.md)   
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement](detect-duplicate-data-for-developers.md)   
  [Enable and Disable duplicate detection](enable-disable-duplicate-detection.md)

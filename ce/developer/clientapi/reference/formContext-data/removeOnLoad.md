@@ -1,9 +1,9 @@
 ---
-title: "removeOnLoad (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "removeOnLoad (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bf07fe04-fc4c-43ed-a445-1b61bf0ea2db
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -1,5 +1,5 @@
 ---
-title: "Uninstall or repair Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Uninstall or repair Microsoft Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6bf2bc59-9949-4afd-aee5-5b6101e90f75
 caps.latest.revision: 30
 author: "mduelae"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Uninstall or repair Microsoft Dynamics 365 for Outlook
+# Uninstall or repair Microsoft Dynamics 365 for Customer Engagement for Outlook
 If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] on the same device, those users should sign out of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)] before uninstalling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This is especially true for [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] or Remote Desktop environments where additional sessions are common and should be closed before uninstalling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 > [!TIP]
@@ -41,7 +41,7 @@ If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for
 > [!NOTE]
 >  If an uninstallation is not completed while you are logged on to the client computer as the user who originally installed the application, the offline database will remain attached to the instance of [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)]. After the uninstall is complete, you can manually detach the offline database.  
   
-## Files not removed during a Microsoft Dynamics 365 for Outlook uninstall  
+## Files not removed during a Microsoft Dynamics 365 for Customer Engagement for Outlook uninstall  
  The following files aren’t removed when you uninstall [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 - <sup>1</sup>Program Files\Microsoft Dynamics CRM\Client\ConfigWizard\CrmForOutlookInstaller.exe  

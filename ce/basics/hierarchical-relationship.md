@@ -1,6 +1,6 @@
 ---
-title: "See relationships in a hierarchical view (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "See how records are related by looking at their hierarchichal relationship in Dynamics 365 Customer Engagement."
+title: "See relationships in a hierarchical view (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "See how records are related by looking at their hierarchichal relationship in Dynamics 365 for Customer Engagement."
 keywords: "hierarchy, relationship"
 ms.date: 09/17/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - ""
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 972864a7-dc1d-d91c-4003-6056bf312840
 author: shubhadaj
 ms.author: shujoshi
@@ -45,11 +45,11 @@ Hierarchical views are also available on mobile.
 
 To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy**.   
 
-![View Hierarchy button in Dynamics 365](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365")  
+![View Hierarchy button in Dynamics 365 for Customer Engagement](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 for Customer Engagement")  
 
 The hierarchy of the related records is shown in a Tree view and Tile view:
 
-![Tree view and Tile view in hierarchy in Dynamics 365](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365")
+![Tree view and Tile view in hierarchy in Dynamics 365 for Customer Engagement](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 for Customer Engagement")
 
 You can take the following actions from the hierarchical view:
 

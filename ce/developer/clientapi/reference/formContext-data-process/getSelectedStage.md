@@ -1,9 +1,9 @@
 ---
-title: "getSelectedStage (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getSelectedStage (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: ac9a8c97-ad4d-4ed8-8eb0-51b2693253dc
 author: "KumarVivek"
 ms.author: "kvivek"

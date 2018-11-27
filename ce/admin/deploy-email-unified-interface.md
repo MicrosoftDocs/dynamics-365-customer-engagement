@@ -1,5 +1,5 @@
 ---
-title: "Enable accessible email for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Enable accessible email for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/30/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: bc0377a3-db62-4d0d-9531-a12dc01d1d0c
 caps.latest.revision: 4
 author: "jimholtz"
@@ -35,7 +35,7 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator or delegated admin security roles.  
   
-2. Select **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365 for Customer Engagement**.  
 
 3. Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").
 

@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Store your AppSource Package on Azure storage and generate a URL with SAS key (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Step 5: Store your AppSource Package on Azure storage and generate a URL with SAS key (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "To maintain security of your files, all app developers must store their AppSource package file in a Microsoft Azure Blob storage account, and use a Shared Access Signature (SAS) key to share the package file. Your package file is retrieved from your Azure Storage location for certification, and then for AppSource trials."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 270d7049-b933-4214-a088-79ed23c4323b
 author: "KumarVivek"
 ms.author: "kvivek"

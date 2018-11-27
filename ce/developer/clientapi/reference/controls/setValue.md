@@ -1,9 +1,9 @@
 ---
-title: "setValue (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setValue (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3fae9b24-adf8-41bb-86a4-8959bf3fcf8b
 author: "KumarVivek"
 ms.author: "kvivek"

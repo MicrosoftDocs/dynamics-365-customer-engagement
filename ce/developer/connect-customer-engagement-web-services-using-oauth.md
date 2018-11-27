@@ -1,6 +1,6 @@
 ---
-title: "Connect to Dynamics 365 Customer Engagement web services using OAuth (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn how to connect to Dynamics 365 Customer Engagement web services using OAuth and how the ADAL API manages OAuth 2.0 authentication with the Dynamics 365 web service identity provider"
+title: "Connect to Dynamics 365 for Customer Engagement web services using OAuth (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to connect to Dynamics 365 for Customer Engagement web services using OAuth and how the ADAL API manages OAuth 2.0 authentication with the Dynamics 365 for Customer Engagement web service identity provider"
 ms.custom: ""
 ms.date: 03/13/2018
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 05696c45-2a01-4787-aad5-87e2afef2b7f
 caps.latest.revision: 20
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Connect to Dynamics 365 Customer Engagement web services using OAuth
+# Connect to Dynamics 365 for Customer Engagement web services using OAuth
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -31,8 +31,8 @@ OAuth is the authentication method supported by the [!INCLUDE[pn_dynamics_crm](.
  The recommended authentication API for use with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API is [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/), which is available for a wide variety of platforms and programming languages. The ADAL API manages OAuth 2.0 authentication with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web service identity provider. For more details on the actual OAuth protocol used, see [Use OAuth to Authenticate with the CRM Service](http://blogs.msdn.com/b/crm/archive/2013/12/12/use-oauth-to-authenticate-with-the-crm-service.aspx).  
  
 > [!NOTE]
-> You must use the ADAL 2.0 libraries. All Dynamics 365 Customer Engagement tools, assemblies, and utilities require the patterns supported by ADAL 2.0.
-> The ADAL 3.0 libraries require a sign-in screen to capture user account information and do not provide for passing this account information in a headless fashion as required by Dynamics 365 Customer Engagement. 
+> You must use the ADAL 2.0 libraries. All Dynamics 365 for Customer Engagement tools, assemblies, and utilities require the patterns supported by ADAL 2.0.
+> The ADAL 3.0 libraries require a sign-in screen to capture user account information and do not provide for passing this account information in a headless fashion as required by Dynamics 365 for Customer Engagement. 
 
 Before you can use OAuth authentication to connect with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services, your application must first be registered with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)]. [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] is used to verify that your application is permitted access to the business data stored in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tenant.  
   
@@ -58,7 +58,7 @@ AuthenticationResult result = authContext.AcquireToken(resource, clientId, new U
   
  The next line of code gets the authentication result that contains the access token you’re looking for. You can send message requests to the web service with this token.  
   
- A few more items of interest in this code are the string values used. The `resource` variable contains the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) root address, including the domain (organization), of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. The `clientId` and `redirectUrl` variables contain the app registration information that is the result of registering the app with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. For more information on app registration, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md).  
+ A few more items of interest in this code are the string values used. The `resource` variable contains the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) root address, including the domain (organization), of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. The `clientId` and `redirectUrl` variables contain the app registration information that is the result of registering the app with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. For more information on app registration, see [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md).  
   
 ## Use the access token in message requests  
  Depending on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] API you’re using, there are two different methods to send a message request to the web services. For the Web API, you would typically send an HTTP message request. For the Organization Service, you would send a message request using the web client proxy.  
@@ -112,6 +112,6 @@ httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("
 ```  
   
 ### See also  
- [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md)   
+ [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md)   
  [Multi-Factor Authentication documentation](https://azure.microsoft.com/en-us/documentation/services/multi-factor-authentication/)   
  [OAuth 2.0](http://oauth.net/2/)

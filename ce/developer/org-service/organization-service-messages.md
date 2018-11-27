@@ -1,6 +1,6 @@
 ---
-title: "Organization service messages in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This topic shows the messages available in the Dynamics 365 namespace"
+title: "Organization service messages in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This topic shows the messages available in the Dynamics 365 for Customer Engagement namespace"
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8d7119a7-6cb4-41c8-bf93-a40041f2b5a0
 caps.latest.revision: 75
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Organization service messages in Dynamics 365 Customer Engagement
+# Organization service messages in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -121,7 +121,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |       <xref:Microsoft.Crm.Sdk.Messages.FetchXmlToQueryExpressionRequest>        |                                                                                               Converts a query in Fetch XML to a QueryExpression.                                                                                               |
 |        <xref:Microsoft.Crm.Sdk.Messages.FindParentResourceGroupRequest>         |                                                                     Finds a parent resource group (scheduling group) for the specified resource groups (scheduling groups).                                                                     |
 |           <xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>            |                                                                                                         Fulfills a sales order (order).                                                                                                         |
-|     <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest>     |                                                                       Performs a full-text search on knowledge articles in Dynamics 365 using the specified search text.                                                                        |
+|     <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest>     |                                                                       Performs a full-text search on knowledge articles in Dynamics 365 for Customer Engagement using the specified search text.                                                                        |
 |     <xref:Microsoft.Crm.Sdk.Messages.GenerateInvoiceFromOpportunityRequest>     |                                                                                                    Generates an invoice from an opportunity.                                                                                                    |
 |      <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>      |                                                                                                     Generates a quote from an opportunity.                                                                                                      |
 |   <xref:Microsoft.Crm.Sdk.Messages.GenerateSalesOrderFromOpportunityRequest>    |                                                                                                  Generates a sales order from an opportunity.                                                                                                   |

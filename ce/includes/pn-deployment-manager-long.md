@@ -1,1 +1,1 @@
-Dynamics 365 Deployment Manager
+Dynamics 365 for Customer Engagement Deployment Manager

@@ -1,5 +1,5 @@
 ---
-title: "Control social data for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Control social data for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "jimholtz"
 ms.assetid: 2746eafb-b5a1-4e20-96cc-9e17c7f49f77
 caps.latest.revision: 38

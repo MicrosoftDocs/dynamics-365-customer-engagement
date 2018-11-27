@@ -3,7 +3,7 @@ title: "getPrecision (Client API reference)| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 610b9b53-9c29-4228-8ef3-0c05aae14a2b
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -1,9 +1,9 @@
 ---
-title: "invokeProcessAction (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "invokeProcessAction (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e71012ba-249d-4ae7-8891-f7d3ae16a20a
 author: "KumarVivek"
 ms.author: "kvivek"

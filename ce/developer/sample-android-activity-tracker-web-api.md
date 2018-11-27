@@ -1,6 +1,6 @@
 ---
-title: "Sample: Android Activity Tracker for Dynamics 365 and Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The activity tracker sample application enables you to connect to your Dynamics 365 organization, query for your contacts, and add a quick activity record related to a contact."
+title: "Sample: Android Activity Tracker for Dynamics 365 for Customer Engagement and Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The activity tracker sample application enables you to connect to your Dynamics 365 for Customer Engagement organization, query for your contacts, and add a quick activity record related to a contact."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3dc792cf-a9c4-45ea-9efe-895f15ade167
 caps.latest.revision: 9
 author: "JimDaly"
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample: Android Activity Tracker for Dynamics 365 and Web API
+# Sample: Android Activity Tracker for Dynamics 365 for Customer Engagement and Web API
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

@@ -169,7 +169,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
 ### Authors  
  Contains the authors of all posts in the data set. If available, it also contains the author location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
   
-### Dynamics 365 connections  
+### Dynamics 365 for Customer Engagement connections  
  Contains the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connections that posts were linked to using the Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] action and the instance type (online or on-premises).  
   
 ### Labels  

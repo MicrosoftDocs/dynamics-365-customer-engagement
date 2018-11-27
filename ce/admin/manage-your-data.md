@@ -1,5 +1,5 @@
 ---
-title: "Manage your Dynamics 365 Customer Engagement data | MicrosoftDocs"
+title: "Manage your Dynamics 365 for Customer Engagement data | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "jimholtz"
 ms.assetid: e7e8ea24-0872-42e6-bec3-bcf362a26450
 caps.latest.revision: 15

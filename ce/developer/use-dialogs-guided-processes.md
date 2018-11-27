@@ -1,6 +1,6 @@
 ---
-title: "Use dialogs for guided processes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Dialogs are the synchronous or interactive processes in Dynamics 365 (online) Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process"
+title: "Use dialogs for guided processes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Dialogs are the synchronous or interactive processes in Dynamics 365 for Customer Engagement (online) Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "workflow, dialog"
 ms.assetid: d17f8ae2-854b-4f67-a115-5a03d4f0b8ce
@@ -35,4 +35,4 @@ Dialogs are the synchronous or interactive processes in [!INCLUDE[pn_dynamics_cr
   
 ### See also  
  [Processes, Workflows, and Dialogs](process-categories.md)   
- [Processes in Dynamics 365 5](automate-business-processes-customer-engagement.md)
+ [Processes in Dynamics 365 for Customer Engagement 5](automate-business-processes-customer-engagement.md)

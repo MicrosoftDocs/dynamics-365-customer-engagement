@@ -1,5 +1,5 @@
 ---
-title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom: ""
 ms.date: 07/02/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 872b735a-9c80-4e4e-8c04-61f8ce6836df
 caps.latest.revision: 59
 author: "JimDaly"
@@ -25,7 +25,7 @@ search.app:
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
-> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
+> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 for Customer Engagement user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
 
 Duplicate detection lets organizations set duplicate detection policies and create duplicate detection rules for business and custom entities. These rules can be applied across different record types in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For example, an organization may define that a lead is a duplicate of a contact, if they have the same name and phone number. Based on the duplicate detection rules set by the administrator, the system alerts the user about potential duplicates when the user tries to create new records or update existing records. To maintain data quality, you can schedule a duplicate detection job to check for duplicates for all records that match a certain criteria. You can clean the data by deleting, deactivating, or merging the duplicates reported by a duplicate detection job.  
   
@@ -53,7 +53,7 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  [DuplicateRecord Entity](entities/duplicaterecord.md)<br />
   
 ## Related Sections  
- [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
+ [Data Management in Dynamics 365 for Customer Engagement (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
  [Delete data in bulk](delete-data-bulk.md)
 
 ## See Also

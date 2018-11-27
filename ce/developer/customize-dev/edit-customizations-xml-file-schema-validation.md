@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "schemas"
 ms.assetid: d521a59d-a542-4dce-ab1a-43582756436c
@@ -80,7 +80,7 @@ The customizations.xml file is included within the compressed .zip file exported
   
 ### See also
 
- [When to Edit the Customizations File for Dynamics 365 Customer Engagement](when-edit-customization-file.md)   
+ [When to Edit the Customizations File for Dynamics 365 for Customer Engagement](when-edit-customization-file.md)   
  [Ribbon core schema](ribbon-core-schema.md)
  [Ribbon types schema](ribbon-types-schema.md)
  [Ribbon WSS schema](ribbon-wss-schema.md)

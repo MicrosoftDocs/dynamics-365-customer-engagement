@@ -1,5 +1,5 @@
 ---
-title: "Event execution pipeline (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Event execution pipeline (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The messages that contains business entity information and core operation information which are passed through the event execution pipeline where it can be read or modified by the platform core operation and any registered plug-ins. "
 ms.custom: ""
 ms.date: 12/03/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1281920e-554b-458d-a48c-c5f6bb485062
 caps.latest.revision: 42
 author: "JimDaly"
@@ -83,4 +83,4 @@ Any registered plug-in that executes during the database transaction and that pa
  [Introduction to the Event Framework](introduction-event-framework.md)   
  [Plug-in Isolation, Trusts, and Statistics](plugin-isolation-trusts-statistics.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
- [Asynchronous Service in Dynamics 365](asynchronous-service.md)
+ [Asynchronous Service in Dynamics 365 for Customer Engagement](asynchronous-service.md)

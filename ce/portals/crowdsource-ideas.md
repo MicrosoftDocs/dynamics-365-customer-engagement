@@ -1,5 +1,5 @@
 ---
-title: "Crowdsource ideas on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Crowdsource ideas on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: 
   - dyn365-portal
@@ -24,7 +24,7 @@ search.app:
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
-## Manage idea forums in Dynamics 365
+## Manage idea forums in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
 
@@ -57,7 +57,7 @@ Summary                | HTML content providing a description of the idea forum.
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 ||
 
-## Manage ideas in Dynamics 365
+## Manage ideas in Dynamics 365 for Customer Engagement
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea records can be managed under the Community tab.
 
@@ -129,7 +129,7 @@ While creating a new idea, there might be a scenario where a similar idea alread
 > [!div class="mx-imgBorder"]
 > ![Autocomplete ideas](media/idea-autocomplete.png "Autocomplete ideas")
 
-## Manage idea comments in Dynamics 365
+## Manage idea comments in Dynamics 365 for Customer Engagement
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea Comment records can be managed under the Community tab.
 

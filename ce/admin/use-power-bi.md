@@ -1,5 +1,5 @@
 ---
-title: "Use Power BI with Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Use Power BI with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 48997010-a47c-4e16-b7d2-f55d7a52ba19
 caps.latest.revision: 36
 author: "Mattp123"
@@ -28,7 +28,7 @@ search.app:
 The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data.  
   
 <a name="PowerBIGetstarted"></a>   
-## Get started using Power BI with Dynamics 365 (online)  
+## Get started using Power BI with Dynamics 365 for Customer Engagement (online)  
  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] content packs for [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] cloud service allow you to easily access and analyze your sales, service, or marketing data.  
   
  To create a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard using a  content pack, follow these instructions.  
@@ -37,9 +37,9 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
 2. After you have signed in to [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)], in the **Datasets** area click **Get Data**, under **Services** click **Get**, and then select from the following content packs.  
   
-   - **Dynamics 365 (online) Sales Manager**  
+   - **Dynamics 365 for Customer Engagement (online) Sales Manager**  
   
-   - **Dynamics 365 (online) Service Manager**  
+   - **Dynamics 365 for Customer Engagement (online) Service Manager**  
   
    - **Dynamics Marketing**  
   
@@ -62,13 +62,13 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
 - [Download the Dynamics CRM Online Sales Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
   
-- [Download the Dynamics 365 (online) Service Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
+- [Download the Dynamics 365 for Customer Engagement (online) Service Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
   
   The [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] Report Template for [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] enables users to publish a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] report that displays the live heart beat of connected devices.  
   
-- [Download the Power BI Report Template for Connected Field Service for Dynamics 365](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
+- [Download the Power BI Report Template for Connected Field Service for Dynamics 365 for Customer Engagement](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
-  For information about how to customize the content packs, see [Customize Dynamics 365 Power BI content packs](../analytics/customize-power-bi-content-packs.md).  
+  For information about how to customize the content packs, see [Customize Dynamics 365 for Customer Engagement Power BI content packs](../analytics/customize-power-bi-content-packs.md).  
   
 <a name="BPI_embed"></a>   
 ## Embed [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations on personal dashboards  
@@ -111,7 +111,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
   
 2. From the Home tab, click **Get Data**, and then click **More**.  
   
-3. In the Get Data list, select **Dynamics 365 Online**.  
+3. In the Get Data list, select **Dynamics 365 for Customer Engagement Online**.  
   
 4. Enter the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] OData endpoint URL. It should look similar to this URL, where *OrganizationName* is the name of your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] organization, and **v8.1** is the version. Click **OK**.  
   

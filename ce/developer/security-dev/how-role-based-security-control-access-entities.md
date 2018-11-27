@@ -1,5 +1,5 @@
 ---
-title: "How role-based security can be used to control access to entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "How role-based security can be used to control access to entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "A role contains privileges that define a set of actions that can be performed within the organization. All users must be assigned to one or more predefined or custom roles"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: fadb3c51-6fa8-4fd4-992c-d413e4cd9433
 caps.latest.revision: 32
 author: "JimDaly"
@@ -110,7 +110,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
 |        Vice President of Sales        |                                A user who manages the sales organization at the business unit level.                                 |
 
 ### See also  
- [The Security Model of Microsoft Dynamics 365](../security-dev/security-model.md)   
+ [The Security Model of Microsoft Dynamics 365 for Customer Engagement](../security-dev/security-model.md)   
  [Privilege and Role Entities](../privilege-role-entities.md)     
  [Use record-based security to control access to records](../security-dev/use-record-based-security-control-access-records.md)   
- [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365](../security-dev/use-field-security-control-access-field-values.md)
+ [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 for Customer Engagement](../security-dev/use-field-security-control-access-field-values.md)

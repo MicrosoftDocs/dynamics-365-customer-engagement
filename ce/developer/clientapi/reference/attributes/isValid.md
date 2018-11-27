@@ -1,9 +1,9 @@
 ---
-title: "isValid (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "isValid (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 015f4dad-2f13-481c-ad34-09242e048279
 author: "KumarVivek"
 ms.author: "kvivek"

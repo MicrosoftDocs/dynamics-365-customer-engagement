@@ -1,5 +1,5 @@
 ---
-title: "Overview of custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Overview of custom channel (Dynamics 365 for Customer Engagement for Marketing Developer Guide) | MicrosoftDocs"
 description: "A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer."
 ms.custom: 
   - dyn365-developer
@@ -10,7 +10,7 @@ ms.technology:
   - "marketing"
 ms.topic: "conceptual"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bb49dbc4-a893-496c-bbba-252763a9d82a
 author: KumarVivek
 ms.author: kvivek
@@ -33,7 +33,7 @@ The following illustration provides a high-level overview of the operation flow 
 
 1. When a contact record, which has the compliance field set to allow using custom channels, goes through a customer journey, an instance (record) of the **Custom Channel Activity** (**msdyncrm_customerjourneycustomchannelactivity**) entity is automatically created. For example, for a segment of 50 contacts with 40 contacts enabled for custom channel, the customer journey would generate 40 records of the **Custom Channel Activity** entity. For information about the compliance field, see [Define the Tile XML file](configure-tile-custom-channel.md#define-the-tile-xml-file).
 2. On creation of the entity instance, the custom business logic present in a partner-developed plug-in or workflow is triggered, and interacts with the external service to execute custom operations. For example, send a message to the external service and receive a response from the external service.
-3. Activity execution feedback is processed through a custom action, **CustomChannelActivity CreateInteraction**, and the interactions are sent to Dynamics 365 for Customer Insights to enable analytics and triggers on the interactions. For example, one message could generate 3 interactions: sent, delivered, opened.
+3. Activity execution feedback is processed through a custom action, **CustomChannelActivity CreateInteraction**, and the interactions are sent to Dynamics 365 for Customer Engagement for Customer Insights to enable analytics and triggers on the interactions. For example, one message could generate 3 interactions: sent, delivered, opened.
   
   
 ### See also 
@@ -44,4 +44,4 @@ The following illustration provides a high-level overview of the operation flow 
 
 [Web resources for Customer Engagement](../../developer/web-resources.md) 
 
-[Dynamics 365 for Customer Insights](../../customer-insights/getstart.md)   
+[Dynamics 365 for Customer Engagement for Customer Insights](../../customer-insights/getstart.md)   

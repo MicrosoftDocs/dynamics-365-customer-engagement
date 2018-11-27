@@ -1,5 +1,5 @@
 ---
-title: "Retrieve, update, and delete entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Retrieve, update, and delete entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to retrieve, update, and delete an entity by using the custom entity."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 67571a52-57bf-4872-add5-11f76d3b5adc
 author: "JimDaly"
 ms.author: "jdaly"

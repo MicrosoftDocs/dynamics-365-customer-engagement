@@ -1,5 +1,5 @@
 ---
-title: "Use late-bound entity class with a LINQ query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use late-bound entity class with a LINQ query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use late binding with .NET Language-Integrated Query (LINQ) queries"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "LINQ queries"
   - "LINQ queries, using late binding in join or left join clauses"

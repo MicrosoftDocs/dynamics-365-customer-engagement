@@ -1,9 +1,9 @@
 ---
-title: "getTotalRecordCount (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getTotalRecordCount (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8305f0cb-9959-4429-a721-a864ade4cd35
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -19,8 +19,8 @@ search.app:
 
 [!INCLUDE[./includes/getTotalRecordCount-description.md](./includes/getTotalRecordCount-description.md)]
 
-- When the Dynamics 365 for Outlook client isn’t connected to the server, this number is limited to those records that the user has selected to take offline.
-- For Dynamics 365 mobile clients, this method will return the number of records in the subgrid.
+- When the Dynamics 365 for Customer Engagement for Outlook client isn’t connected to the server, this number is limited to those records that the user has selected to take offline.
+- For Dynamics 365 for Customer Engagement mobile clients, this method will return the number of records in the subgrid.
 
 ## Grid types supported
 

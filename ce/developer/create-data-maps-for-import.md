@@ -1,5 +1,5 @@
 ---
-title: "Create data maps for import (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create data maps for import (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Data maps are required to import data, and contain mappings between the data contained in the source file and the respective entity attributes."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: ceb6ccb2-8a9f-4d96-9f93-8d7281e127fa
 caps.latest.revision: 22
 author: "JimDaly"
@@ -84,6 +84,6 @@ To import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)],
  You can export an existing data map to an XML file and import XML data mappings into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To export a data map from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], use the <xref:Microsoft.Crm.Sdk.Messages.ExportMappingsImportMapRequest> message. To import XML data mappings and create a data map in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], use the <xref:Microsoft.Crm.Sdk.Messages.ImportMappingsImportMapRequest> message.  
   
 ### See also  
- [Import Data in Dynamics 365](import-data.md)   
+ [Import Data in Dynamics 365 for Customer Engagement](import-data.md)   
  [Add Transformation Mapping](add-transformation-mappings-import.md)   
  [Add Transformation Mappings for Import](add-transformation-mappings-import.md)

@@ -1,5 +1,5 @@
 ---
-title: "Create a response routing rule for a Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
+title: "Create a response routing rule for a Voice of the Customer for Dynamics 365 for Customer Engagement survey | MicrosoftDocs"
 description: ""
 ms.assetid: bd1b39a2-fa08-4adb-af1b-7a8cf3459d22
 ms.custom:
@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-advanced-survey
 author: sbmjais
 ms.author: shjais

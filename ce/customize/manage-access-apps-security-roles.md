@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-deflc
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 author: "Mattp123"
 ms.assetid: c00f867d-78f0-4f3e-a716-f7b25f9d343a

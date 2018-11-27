@@ -1,13 +1,13 @@
 ---
-title: "Survey analytics using Power BI (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Survey analytics using Power BI (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to connect Voice of the Customer instance to Power BI and get insights about the surveys."
 keywords: "voice of the customer analytics, voice of the customer analytics app for power BI"
 ms.date: 04/23/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 033D39F5-5CB1-436F-966A-74ED90C7E73D
 author: sbmjais
 ms.author: shjais
@@ -20,7 +20,7 @@ ms.reviewer:
 
 Using the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app or service content pack for Power BI, you can connect to your Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
 
-## Install and configure Voice of the Customer Analytics for Dynamics 365
+## Install and configure Voice of the Customer Analytics for Dynamics 365 for Customer Engagement
 
 You can install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as an app or a service content pack. 
 
@@ -75,7 +75,7 @@ To install as a service content pack:
 
 After installation, the service content pack is available under the selected workspace.
 
-## Delete Voice of the Customer Analytics for Dynamics 365
+## Delete Voice of the Customer Analytics for Dynamics 365 for Customer Engagement
 
 Delete an app:
 
@@ -126,7 +126,7 @@ The dashboard contains the following tiles:
 - **Survey Invite Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph.
 - **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds.
 
-![Voice of the Customer Analytics for Dynamics 365 dashboard](media/voc-analytics-dashboard.png "Voice of the Customer Analytics for Dynamics 365 dashboard") 
+![Voice of the Customer Analytics for Dynamics 365 for Customer Engagement dashboard](media/voc-analytics-dashboard.png "Voice of the Customer Analytics for Dynamics 365 for Customer Engagement dashboard") 
 
 ## Report
 
@@ -160,7 +160,7 @@ The data is displayed in the following tiles:
 - **Survey Invites Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph.
 - **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds.
 
-![Survey Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-survey-responses.png "Survey Responses report in Voice of the Customer Analytics for Dynamics 365")
+![Survey Responses report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement](media/voc-analytics-survey-responses.png "Survey Responses report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement")
 
 ### Surveys
 
@@ -176,7 +176,7 @@ The data is displayed in the following tiles:
 - **Survey Efficacy by Questions and Page Count**: Displays page count, question count, and response ratio. It displays the variation of response ratio depending on page and question count.
 - **Question Types**: Displays the distribution of the number of times a question type has been used in a survey. The x-axis displays the question types and y-axis displays the number of times a question type has been used.
 
-![Surveys report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-surveys.png "Surveys report in Voice of the Customer Analytics for Dynamics 365")
+![Surveys report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement](media/voc-analytics-surveys.png "Surveys report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement")
 
 ### Customer Satisfaction
 
@@ -198,7 +198,7 @@ The data is displayed in the following tiles:
 - **NPS Trend**: Displays the trend of average NPS over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
 - **NPS Score Distribution**: Displays the survey response distribution of the NPS. The x-axis displays the NPS score and y-axis displays the count of the survey responses.
 
-![Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-customer-satisfaction.png "Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365")
+![Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement](media/voc-analytics-customer-satisfaction.png "Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement")
 
 ### Question Responses
 
@@ -225,7 +225,7 @@ The data is displayed in the following tiles:
   - **CES Trend**: Displays the trend of average CES or rating over a period of time. The x-axis displays the time period and y-axis displays the average CES score.
   - **CES Distribution**: Displays survey response distribution of the CES or rating. The x-axis displays the NPS and y-axis displays the count of the survey responses.
 
-![Question Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-question-responses.png "Question Responses report in Voice of the Customer Analytics for Dynamics 365")
+![Question Responses report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement](media/voc-analytics-question-responses.png "Question Responses report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement")
 
 ### Grid Question Responses
 
@@ -245,4 +245,4 @@ The data is displayed in the following tiles:
   - **Numeric Response Distribution**: Displays the distribution of the score.
 - **List of Ratings**: Displays the distribution of the responses in a question of type list of ratings. Select a question from the drop-down list to view its details. The bar graph displays the average of sub-questions.
 
-![Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-grid-question-responses.png "Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365")
+![Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement](media/voc-analytics-grid-question-responses.png "Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365 for Customer Engagement")

@@ -1,1 +1,1 @@
-Dynamics 365 Server, version 9.0
+Dynamics 365 for Customer Engagement Server, version 9.0

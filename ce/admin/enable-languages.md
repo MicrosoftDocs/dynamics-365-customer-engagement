@@ -1,5 +1,5 @@
 ---
-title: "Enable languages for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Enable languages for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: d5ac01dc-ebc6-455a-9a73-3367ff69eb1a
 caps.latest.revision: 11
 author: "Mattp123"
@@ -76,7 +76,7 @@ Enable languages in your organization to display the user interface and Help in 
 
    - If you’re using the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web client, click the **Settings** button ![Settings button](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
 
-   - If you are using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], on the top menu bar, choose **Dynamics 365**, and then click **Options**.  
+   - If you are using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], on the top menu bar, choose **Dynamics 365 for Customer Engagement**, and then click **Options**.  
 
 2. Choose the **Languages** tab.  
 
@@ -87,7 +87,7 @@ Enable languages in your organization to display the user interface and Help in 
 5. To save your changes and close the dialog box, click **OK**.  
 
 > [!NOTE]
->  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the user language settings only apply to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] features, such as the user interface display of the **Dynamics 365** menu, and don’t affect other areas of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)]. To display all of the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] user interface or Help in multiple languages, you need to install one or more [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]Language Packs. More information: [Office 2013 Language Options](http://office.microsoft.com/language-packs/).  
+>  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the user language settings only apply to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] features, such as the user interface display of the **Dynamics 365 for Customer Engagement** menu, and don’t affect other areas of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)]. To display all of the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] user interface or Help in multiple languages, you need to install one or more [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]Language Packs. More information: [Office 2013 Language Options](http://office.microsoft.com/language-packs/).  
 
 ### See also  
  [Add resources to a site](../admin/add-resources-site.md)

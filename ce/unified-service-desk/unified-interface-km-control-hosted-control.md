@@ -1,6 +1,6 @@
 ---
-title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Unified Interface App| MicrosoftDocs"
-description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
+title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement Unified Interface App| MicrosoftDocs"
+description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 for Customer Engagement or Parature in your agent application."
 keywords: ""
 ms.date: 08/17/2018
 ms.service: 
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-USD"
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -32,10 +32,10 @@ monikerRange: ">=dynamics-usd-4"
 
 # Unified Interface KM Control (Hosted Control)
 
-Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
+Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 for Customer Engagement knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 for Customer Engagement knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 > [!NOTE]
-> The Unified Interface KM Control supports all searche techniques available in Dynamics 365 except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+> The Unified Interface KM Control supports all searche techniques available in Dynamics 365 for Customer Engagement except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -63,7 +63,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 
 <a name="Associate"></a>   
 ### Associate  
- Associates a knowledge base record in Dynamics 365 or [!INCLUDE[pn_parature](../includes/pn-parature.md)] with the parent entity record in **Unified Interface KM Control**.  
+ Associates a knowledge base record in Dynamics 365 for Customer Engagement or [!INCLUDE[pn_parature](../includes/pn-parature.md)] with the parent entity record in **Unified Interface KM Control**.  
 
 
 |     Parameter     | Description |

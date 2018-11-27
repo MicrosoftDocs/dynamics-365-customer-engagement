@@ -1,5 +1,5 @@
 ---
-title: "Free storage space in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Free storage space in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/09/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 46c0d35c-5edd-4087-980d-035ec76ab211
 caps.latest.revision: 32
 author: "jimholtz"
@@ -343,4 +343,4 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)   
- [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)
+ [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](manage-online-instances.md)

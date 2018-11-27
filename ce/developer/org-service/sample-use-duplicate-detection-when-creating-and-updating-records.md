@@ -1,5 +1,5 @@
 ---
-title: "Sample: Use duplicate detection when creating and updating records (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Use duplicate detection when creating and updating records (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to detect duplicate records when when creating and updating entity records."
 ms.custom: ""
 ms.date: 11/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "running duplicate detection to create and update records sample"
   - "duplicate detection, sample for invoking duplicate detection to create and update records"
@@ -46,7 +46,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[DuplicateDetection#InvokeDuplicateDetectionForCreateAndUpdate](../../snippets/csharp/CRMV8/duplicatedetection/cs/invokeduplicatedetectionforcreateandupdate.cs#invokeduplicatedetectionforcreateandupdate)]  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement](../detect-duplicate-data-for-developers.md)   
  [Run Duplicate Detection](../run-duplicate-detection.md)   
  [Use Messages (Request and Response Classes) with the Execute Method](use-messages-request-response-classes-execute-method.md)   
  [Pass Optional Parameters in Messages](use-messages-request-response-classes-execute-method.md#bkmk_optional_params)   

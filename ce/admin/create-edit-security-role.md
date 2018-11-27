@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a security role for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create or edit a security role for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/11/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 6c72559d-28a6-49ae-bb88-7a3eea6db611
 caps.latest.revision: 33
 author: "Mattp123"
@@ -156,6 +156,6 @@ When you import the solution, it creates the **min prv apps use** role which you
  [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
 ### See also  
- [Security concepts for Dynamics 365](../admin/security-concepts.md)   
+ [Security concepts for Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)

@@ -1,5 +1,5 @@
 ---
-title: "Install, update, or remove a preferred solution for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Install, update, or remove a preferred solution for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/18/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 313464d8-3075-4681-a5c9-2213ecb2e621
 caps.latest.revision: 43
 author: "jimholtz"
@@ -29,14 +29,14 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
  ![List of preferred solutions](media/PreferredSolutions65.png "List of preferred solutions")
   
- The list of available solutions varies. Some solutions like Office 365 groups for Dynamics 365 are freely available and visible by default. Trials for some solutions are gated and will only be visible if you go through **Settings** > **Dynamics Marketplace** or [appsource.microsoft.com](https://appsource.microsoft.com/marketplace?product=dynamics-crm) and sign up for the solutions. If you buy a new service subscription through Office Commerce, any associated solution installer  also becomes visible in the **Solutions** tab after that purchase is recognized by the provisioning system.  
+ The list of available solutions varies. Some solutions like Office 365 groups for Dynamics 365 for Customer Engagement are freely available and visible by default. Trials for some solutions are gated and will only be visible if you go through **Settings** > **Dynamics Marketplace** or [appsource.microsoft.com](https://appsource.microsoft.com/marketplace?product=dynamics-crm) and sign up for the solutions. If you buy a new service subscription through Office Commerce, any associated solution installer  also becomes visible in the **Solutions** tab after that purchase is recognized by the provisioning system.  
   
 <a name="BKMK_InstallInsights"></a>   
 ## Install a preferred solution  
   
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
-2. Select **Admin centers** > **Dynamics 365**  
+2. Select **Admin centers** > **Dynamics 365 for Customer Engagement**  
   
 3. Select the **Instances** tab, and then select the instance to add the solution to.  
   
@@ -54,7 +54,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
 
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
-2. Select **Admin centers** > **Dynamics 365**  
+2. Select **Admin centers** > **Dynamics 365 for Customer Engagement**  
   
 3. Select the **Instances** tab.  
   

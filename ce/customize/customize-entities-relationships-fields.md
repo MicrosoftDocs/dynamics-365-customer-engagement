@@ -1,5 +1,5 @@
 ---
-title: "Customize entities, relationships, and fields (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize entities, relationships, and fields (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a3e6a322-6hf7-3hc9-aaea-bff7675d1378
 caps.latest.revision: 35
 ms.author: "rdubois"

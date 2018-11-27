@@ -1,6 +1,6 @@
 ---
-title: "Helper code: SystemUserProvider class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The SystemUserProvider class demonstrates how to programmatically create additional users in Active Directory andDynamics 365 (online) Customer Engagement"
+title: "Helper code: SystemUserProvider class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The SystemUserProvider class demonstrates how to programmatically create additional users in Active Directory andDynamics 365 for Customer Engagement (online) Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "creating additional users by using Active Directory in CRM"
   - "SystemUserProvider class, helper code samples"

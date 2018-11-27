@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 Customer Engagement reporting considerations | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement reporting considerations | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: cb1bb002-8300-43bb-ab75-99e7a9c9c35d
 caps.latest.revision: 11
 author: "Mattp123"
@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 (online) reporting considerations
+# Dynamics 365 for Customer Engagement (online) reporting considerations
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -65,7 +65,7 @@ search.app:
  If needed, there are many Microsoft Dynamics partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data integration tools available. More information: [Find the right partner](http://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
-## Third-party Dynamics 365 adapters for SSIS  
+## Third-party Dynamics 365 for Customer Engagement adapters for SSIS  
   
 -   [CozyRoc SSIS+ component for Microsoft Dynamics CRM](http://www.cozyroc.com/ssis/dynamics-crm-destination)  
   
@@ -85,11 +85,11 @@ search.app:
 -   [Productivity tools from Informatica](https://community.informatica.com/community/search.jspa?peopleEnabled=true&userID=&containerType=14&container=2002&spotlight=true&resultTypes=solution&q=dynamics+CRM)  
   
 ### See also  
- [Dynamics 365 Report Authoring Extension (with SQL Server Data Tools support)](http://www.microsoft.com/download/details.aspx?id=45013) 
+ [Dynamics 365 for Customer Engagement Report Authoring Extension (with SQL Server Data Tools support)](http://www.microsoft.com/download/details.aspx?id=45013) 
 <!--  Topic does not exist in OP
- [Developers guide to reports for Dynamics 365](https://msdn.microsoft.com/library/gg328097.aspx)   
+ [Developers guide to reports for Dynamics 365 for Customer Engagement](https://msdn.microsoft.com/library/gg328097.aspx)   
 -->   
  [Introduction to Microsoft Power Query for Excel](http://office.microsoft.com/en-ca/excel-help/introduction-to-microsoft-power-query-for-excel-HA104003940.aspx?CTT=5&origin=HA104003813)   
- [Dynamics 365 OData Feeds and Power Query: What’s the &#91;Record&#93;?](https://community.dynamics.com/crm/b/survivingcrm/archive/2014/02/16/dynamics-crm-odata-feeds-and-power-query-what-s-the-record.aspx)   
+ [Dynamics 365 for Customer Engagement OData Feeds and Power Query: What’s the &#91;Record&#93;?](https://community.dynamics.com/crm/b/survivingcrm/archive/2014/02/16/dynamics-crm-odata-feeds-and-power-query-what-s-the-record.aspx)   
  [Using Power View in Excel 2013 to Analyze CRM Data](http://blogs.msdn.com/b/crm/archive/2013/04/17/using-power-view-in-excel-2013-to-analyze-crm-data.aspx)   
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)

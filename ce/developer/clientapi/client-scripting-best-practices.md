@@ -4,7 +4,7 @@ ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -59,7 +59,7 @@ When you write functions that will be used in JavaScript libraries, your functio
 
 ## Avoid using unsupported methods
 
-On the Internet, you can find many examples or suggestions that describe using unsupported methods. These may include leveraging undocumented internal function for page controls. These methods may work but because they are not supported, you can’t expect that they will continue to work in future versions of Microsoft Dynamics 365.
+On the Internet, you can find many examples or suggestions that describe using unsupported methods. These may include leveraging undocumented internal function for page controls. These methods may work but because they are not supported, you can’t expect that they will continue to work in future versions of Microsoft Dynamics 365 for Customer Engagement.
 
 ## Avoid using jQuery for form scripts
 
@@ -74,4 +74,4 @@ If you decide to use the remaining capabilities of jQuery that are useful with C
 
 ## Write your code for multiple browsers
 
-Dynamics 365 for Customer Engagement supports mutiple browsers. You should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between Internet Explorer and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Xrm object model](understand-clientapi-object-model.md), the changes required to support other browsers could be small. 
+Dynamics 365 for Customer Engagement for Customer Engagement supports mutiple browsers. You should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between Internet Explorer and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Xrm object model](understand-clientapi-object-model.md), the changes required to support other browsers could be small. 

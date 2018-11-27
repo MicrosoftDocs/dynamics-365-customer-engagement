@@ -1,6 +1,6 @@
 ---
-title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 Customer Engagement and retrieve organizations that the current user has access to"
+title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
 ms.custom: ""
 ms.date: 05/10/2018
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 81816457-c963-46ca-b350-615fa75f56a7
 caps.latest.revision: 27
 author: "KumarVivek"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365
+# Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -134,7 +134,7 @@ Get-Help “Crm”
    $CRMOrgs  
    ```  
   
-   ![Dynamics 365 organization information](../media/xrmtooling-powershell-1.png)  
+   ![Dynamics 365 for Customer Engagement organization information](../media/xrmtooling-powershell-1.png)  
   
    > [!TIP]
    >  You can use the variable that was used to store the retrieved [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
@@ -150,7 +150,7 @@ Get-Help “Crm”
 > [!IMPORTANT]
 > Before using the `Get-CrmConnection` cmdlet, ensure that you use the following command to enforce usage of TLS 1.2 by PowerShell to connect to your Customer Engagement instance:<br/>
 > `[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12`<br/>
-> More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)   
+> More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 for Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)   
   
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] by using the common login control  
   
@@ -164,7 +164,7 @@ Get-Help “Crm”
   
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] by specifying credentials inline  
   
-1. To connect to Dynamics 365, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
+1. To connect to Dynamics 365 for Customer Engagement, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
 
    - If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance:  
   
@@ -196,10 +196,10 @@ Get-Help “Crm”
    $CRMConn  
    ```  
   
-   ![Dynamics 365 connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 connection information and status")  
+   ![Dynamics 365 for Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 for Customer Engagement connection information and status")  
   
 ### See also
   
- [Use XRM Tooling API to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement](use-crmserviceclient-constructors-connect.md)   
  [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)   
  [Blog: PowerShell module for performing data operations and manipulating user and system settings in CRM](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)

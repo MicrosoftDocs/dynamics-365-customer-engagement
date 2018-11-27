@@ -1,5 +1,5 @@
 ---
-title: "Order results using entity attributes with LINQ (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Order results using entity attributes with LINQ (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use lookup or OptionSet (Picklist) attributes to order results within a LINQ query"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "LINQ queries, using OptionSet (Picklist) attributes to order results in LINQ queries"
   - "LINQ queries, ordering query results by using entity attributes with LINQ"

@@ -1,6 +1,6 @@
 ---
-title: "Use XRM tooling to execute actions in Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Object of CrmServiceClient class can be used to perform create, retrieve, update and delete operations on Dynamics 365 data"
+title: "Use XRM tooling to execute actions in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Object of CrmServiceClient class can be used to perform create, retrieve, update and delete operations on Dynamics 365 for Customer Engagement data"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 845a198f-a2b1-4c38-83e8-0968e684b627
 caps.latest.revision: 13
 author: "KumarVivek"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use XRM tooling to execute actions in Dynamics 365
+# Use XRM tooling to execute actions in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,5 +38,5 @@ After you are connected to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics
  [Execute organization request using XRM tooling](use-messages-executecrmorganizationrequest-method.md)  
   
 ### See also  
- [Use XRM Tooling API to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement](use-crmserviceclient-constructors-connect.md)   
  [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)

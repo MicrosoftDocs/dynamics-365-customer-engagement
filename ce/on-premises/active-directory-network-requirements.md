@@ -1,5 +1,5 @@
 ---
-title: "Active Directory and network requirements for Microsoft Dynamics 365 | Microsoft Docs"
+title: "Active Directory and network requirements for Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -8,14 +8,14 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2016"
 ms.assetid: e3e8a7d4-54ac-423b-a168-2c28678f9ef6
 caps.latest.revision: 24
 author: Mattp123
 ms.author: matp
 ---
-# Active Directory and network requirements for Microsoft Dynamics 365
+# Active Directory and network requirements for Microsoft Dynamics 365 for Customer Engagement
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -48,7 +48,7 @@ ms.author: matp
  This version of  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] works with IPv6 either alone or together with IPv4 within environments that have networks where IPv6 is supported.  
   
 ## See also  
- <!-- [Prerequisites and considerations for planning your deployment of Dynamics 365](prerequisites-considerations-planning-deployment.md)   -->
- [Software requirements for Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)   
+ <!-- [Prerequisites and considerations for planning your deployment of Dynamics 365 for Customer Engagement](prerequisites-considerations-planning-deployment.md)   -->
+ [Software requirements for Dynamics 365 for Customer Engagement Server](software-requirements-for-microsoft-dynamics-365-server.md)   
  <!-- [SQL Server installation and configuration](sql-server-installation-and-configuration.md) -->
 

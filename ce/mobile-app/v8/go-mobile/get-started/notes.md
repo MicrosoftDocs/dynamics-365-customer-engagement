@@ -1,5 +1,5 @@
 ---
-title: "Notes in Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Notes in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "07/19/2017"
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
   - "Dynamics CRM Online"
 author: "jimholtz"
 ms.assetid: d665c784-9bf1-4ca0-a30d-94d0c154506f
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Notes in Dynamics 365 for phones and tablets
+# Notes in Dynamics 365 for Customer Engagement for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -31,4 +31,4 @@ Taking a cue from easy-to-use social media apps, the mobile app now lets you sta
  ![Device integration](../../../media/device-integration.PNG "Device integration")  
   
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

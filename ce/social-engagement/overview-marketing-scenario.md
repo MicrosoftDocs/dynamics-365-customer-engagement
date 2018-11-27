@@ -65,7 +65,7 @@ Identify potential leads on social media and let your sales team know about them
 
 1. Use [intention analysis](tags.md#how-intention-analysis-works) to look for posts that express a purchase intent.
 
-2. [Link these posts to Dynamics 365](create-dynamics-365-record-from-social-post.md) to create a new lead record.
+2. [Link these posts to Dynamics 365 for Customer Engagement](create-dynamics-365-record-from-social-post.md) to create a new lead record.
 
 3. Automate this workflow by using an [automation rule](automation-rules.md) for every post tagged with **Purchase Intention**.
 
@@ -83,7 +83,7 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 - [Port aims to proactively address issues with Social Engagement](https://customers.microsoft.com/story/port-aims-to-proactively-address-issues-with-microsoft)
 
-- [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
+- [Marston's delivers personalized service in real time with Dynamics 365 for Customer Engagement](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
 
 ### See also
 

@@ -1,11 +1,11 @@
 ---
-title: "Work with accounts and contacts (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Work with accounts and contacts (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.date: 08/11/2018
 ms.service: "crm-online"
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 ms.author: "shujoshi"
 search.audienceType: 
@@ -78,7 +78,7 @@ Use contacts to keep track of the people you do business with. Learn how to impo
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
 ### See also  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)
+ [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
  [Import contacts](../basics/import-contacts.md)    
  [Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)   

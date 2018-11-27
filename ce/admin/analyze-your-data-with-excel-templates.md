@@ -1,5 +1,5 @@
 ---
-title: "Analyze your data with Excel templates for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Analyze your data with Excel templates for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 82563697-955b-44a6-9467-5cbbdb790b92
 caps.latest.revision: 20
 author: "jimholtz"
@@ -63,9 +63,9 @@ search.app:
   
   ![Create Excel Template menu option](../admin/media/excel-template-create-menu.png "Create Excel Template menu option")  
   
-  The **Create template from Dynamics 365 data** page appears.  
+  The **Create template from Dynamics 365 for Customer Engagement data** page appears.  
   
-  ![Create Excel Template from Dynamics 365 Data page](../admin/media/excel-template-create-from-data-page.png "Create Excel Template from Dynamics 365 Data page")  
+  ![Create Excel Template from Dynamics 365 for Customer Engagement Data page](../admin/media/excel-template-create-from-data-page.png "Create Excel Template from Dynamics 365 for Customer Engagement Data page")  
   
 #### Select the data to include in the template  
   
@@ -118,7 +118,7 @@ search.app:
   
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators can use the Settings page to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A template uploaded in Settings is available to all users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
   
-#### For admins: Upload the Excel template into Dynamics 365  
+#### For admins: Upload the Excel template into Dynamics 365 for Customer Engagement  
   
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Templates** > **Document Templates**.  
   
@@ -132,7 +132,7 @@ search.app:
   
    Non-admin users can upload a template for their own use from a list of records.  
   
-#### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365  
+#### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365 for Customer Engagement  
   
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], open a page with a list of records, for example, the list of Sales Opportunities. Go to **Sales** > **Opportunities** > **My Open Opportunities**.  
   
@@ -140,7 +140,7 @@ search.app:
   
 3. Click **Excel Template** > **Upload**.  
   
-   ![Click Upload to add the Excel template to Dynamics 365](../admin/media/excel-template-upload.png "Click Upload to add the Excel template to Dynamics 365")  
+   ![Click Upload to add the Excel template to Dynamics 365 for Customer Engagement](../admin/media/excel-template-upload.png "Click Upload to add the Excel template to Dynamics 365 for Customer Engagement")  
   
 4. Drag the file into the dialog box or browse to find and upload the file.  
   
@@ -180,12 +180,12 @@ search.app:
   
 <a name="BKMK_UseSelectEntity"></a>   
 ### Step 1: Select an entity to analyze  
- In Dynamics 365, select an entity (record type) to analyze with the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template you created. For example, go to **Sales** > **Opportunities** > **My Open Opportunities**. Two new opportunities were added since the template was created.  
+ In Dynamics 365 for Customer Engagement, select an entity (record type) to analyze with the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template you created. For example, go to **Sales** > **Opportunities** > **My Open Opportunities**. Two new opportunities were added since the template was created.  
   
  ![List of Open Opportunities](../admin/media/excel-template-list-open-opportunities.png "List of Open Opportunities")  
   
 <a name="BKMK_UseExport"></a>   
-### Step 2: Export Dynamics 365 data using your new Excel template  
+### Step 2: Export Dynamics 365 for Customer Engagement data using your new Excel template  
  Choose the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template you created.  
   
  ![Choose the template you created](../admin/media/excel-template-choose-template.png "Choose the template you created")  
@@ -195,10 +195,10 @@ search.app:
  If you have [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)], you can see the data in place in an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] window in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If not, or if you’d rather create the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file, click **Download \<template name>**.  
   
 <a name="BKMK_UseAnalyze"></a>   
-### Step 3: Analyze your Dynamics 365 data in Excel  
+### Step 3: Analyze your Dynamics 365 for Customer Engagement data in Excel  
  What you see in the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] spreadsheet is based on two things:  
   
-- **Dynamics 365 records**. The view you choose to export from determines what [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records you see in the exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. For example, if you selected Closed Opportunities, you’ll see those records even if you used the template created with My Open Opportunities.  
+- **Dynamics 365 for Customer Engagement records**. The view you choose to export from determines what [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records you see in the exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. For example, if you selected Closed Opportunities, you’ll see those records even if you used the template created with My Open Opportunities.  
   
 - **Columns**. The template you used determines what columns appear in the table in the exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. For example, the Closed Opportunities view has these columns: Potential Customer, Status, Actual Revenue, and Actual Close Date. But if the template you used was based on My Open Opportunities, you’d see columns associated with that view and any column filtering done when you created the template.  
   
@@ -210,7 +210,7 @@ search.app:
 ## Try out the sample Excel templates  
  There are four [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)].  
   
- ![Try out the Excel templates included with Dynamics 365](../admin/media/excel-template-included.png "Try out the Excel templates included with Dynamics 365")  
+ ![Try out the Excel templates included with Dynamics 365 for Customer Engagement](../admin/media/excel-template-included.png "Try out the Excel templates included with Dynamics 365 for Customer Engagement")  
   
  The sample [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates were created with a specific record type (entity). You’ll only be able to apply the template to records of the same record type.  
   
@@ -308,4 +308,4 @@ search.app:
   
 ### See also  
  [Download a template for data import](../admin/download-template-data-import.md)   
- [Using Word templates in Dynamics 365](../admin/using-word-templates-dynamics-365.md)
+ [Using Word templates in Dynamics 365 for Customer Engagement](../admin/using-word-templates-dynamics-365.md)

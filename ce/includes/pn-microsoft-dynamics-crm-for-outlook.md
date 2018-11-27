@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Outlook
+Microsoft Dynamics 365 for Customer Engagement for Outlook

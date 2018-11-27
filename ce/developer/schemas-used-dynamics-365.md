@@ -1,5 +1,5 @@
 ---
-title: "Schemas used in Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Schemas used in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The topic contains links to all the schemas needed for features described in the SDK documentation. "
 ms.custom: ""
 ms.date: 12/22/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "biztalk"
   - "schema"
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Schemas used in Dynamics 365
+# Schemas used in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

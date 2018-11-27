@@ -1,13 +1,13 @@
 ---
-title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Learn about Dynamics 365 tags available in portal"
-keywords: "Dynamics 365 tags; liquid tags"
+title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
+keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
 ms.date: 11/20/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
 author: sbmjais
 ms.author: shjais
@@ -23,13 +23,13 @@ search.app:
   - D365Portals
 ---
 
-# Dynamics 365 entity tags
+# Dynamics 365 for Customer Engagement entity tags
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
 
 ## chart
 
-Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 chart to a web page in portal](add-chart.md).
+Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 for Customer Engagement chart to a web page in portal](add-chart.md).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -69,7 +69,7 @@ Path of the Power BI report or dashboard. If the Power BI report or dashboard is
 **authentication_type**
 
 Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portal Azure Active Directory authenticated users. 
+While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 for Customer Engagement Portal Azure Active Directory authenticated users. 
 
 ```
 {% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}

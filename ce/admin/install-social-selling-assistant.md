@@ -1,5 +1,5 @@
 ---
-title: "Install the Social Selling Assistant for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Install the Social Selling Assistant for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: ac3bb374-a931-49a4-ad33-2d150a2fca8b
 caps.latest.revision: 16
 author: "m-hartmann"
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Set up the Social Selling Assistant  and onboard your users in just a few minutes. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in Dynamics 365 and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Then, a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to enable the best possible experience when users are working with the Social Selling Assistant.  
+Set up the Social Selling Assistant  and onboard your users in just a few minutes. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in Dynamics 365 for Customer Engagement and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Then, a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to enable the best possible experience when users are working with the Social Selling Assistant.  
   
 <a name="prerequisites"></a>   
 ## Prerequisites  
@@ -83,9 +83,9 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
 > 
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](https://go.microsoft.com/fwlink/p/?linkid=403288)  
   
- For instructions how to set up the connection, see: [Connect to Social Engagement](../admin/connect-microsoft-social-engagement.md), [Integrate Social Engagement with Dynamics 365](https://go.microsoft.com/fwlink/?linkid=521682)  
+ For instructions how to set up the connection, see: [Connect to Social Engagement](../admin/connect-microsoft-social-engagement.md), [Integrate Social Engagement with Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/?linkid=521682)  
   
 ### See also  
- [Extend Dynamics 365 with integration and solutions](../admin/extend-with-integration-solutions.md)   
+ [Extend Dynamics 365 for Customer Engagement with integration and solutions](../admin/extend-with-integration-solutions.md)   
  [Connect to Microsoft Social Engagement](../admin/connect-microsoft-social-engagement.md)   
  [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md)

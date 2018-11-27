@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
 ms.assetid: 54cc820e-ddb6-4c0f-803f-eed5093359c7
 caps.latest.revision: 14
 author: Mattp123
@@ -20,9 +20,9 @@ ms.author: matp
 
 You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets to perform many of the tasks that can be performed by using the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] user interface.  
   
- For more information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets, see [Overview of Dynamics 365 Customer Engagement PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
+ For more information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets, see [Overview of Dynamics 365 for Customer Engagement PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
   
-### Register the Microsoft Dynamics 365  cmdlet  
+### Register the Microsoft Dynamics 365 for Customer Engagement  cmdlet  
   
 1.  Sign in to the administrator account on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
   

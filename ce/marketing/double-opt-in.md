@@ -1,6 +1,6 @@
 ---
-title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
+title: "Set up double opt-in (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "double opt-in;gdpr;subscriptions;consent"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dacfc72e-978c-41d1-b4c6-8c5b66042770
 author: kamaybac
 ms.author: kamaybac
@@ -127,7 +127,7 @@ The previous illustration highlights important elements provided by the **custon
 - **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field for the new consent level the contact has chosen.
 - **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
-The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. You must use the [Dynamics 365 – custom](navigation.md#move-between-apps) app to read and edit these values (see also [Create and edit global option sets](../customize/create-edit-global-option-sets.md)).
+The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. You must use the [Dynamics 365 for Customer Engagement – custom](navigation.md#move-between-apps) app to read and edit these values (see also [Create and edit global option sets](../customize/create-edit-global-option-sets.md)).
 
 ![Consent option-set values available to confirmation-request messages](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
 

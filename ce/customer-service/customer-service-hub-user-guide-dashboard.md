@@ -1,9 +1,9 @@
 ---
-title: Understanding dashboards in Customer Service Hub in Dynamics 365 | Microsoft Docs
-description: Understand dashboards in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Interactive dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; Global Filter; Interactive tiles; Visual Filter ; Timeframe filter; Apply Bulk Select
+title: Understanding dashboards in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
+description: Understand dashboards in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
+keywords: Interactive dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Global Filter; Interactive tiles; Visual Filter ; Timeframe filter; Apply Bulk Select
 author: anjgupta
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018

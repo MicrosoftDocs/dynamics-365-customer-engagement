@@ -1,5 +1,5 @@
 ---
-title: "Use the Organization service with metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use the Organization service with metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about how to programmactically access and modify the metadata model using the organization service with metadata."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b7d37dd8-4a1d-4a7f-ac77-436f00c003f1
 caps.latest.revision: 23
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use the Organization service with Dynamics 365 metadata
+# Use the Organization service with Dynamics 365 for Customer Engagement metadata
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -48,9 +48,9 @@ Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn
  <xref:Microsoft.Xrm.Sdk.Metadata>  
   
 ## Related Sections  
- [Extend Dynamics 365](../extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement](../extend-dynamics-365-server.md)  
   
- [The Metadata and Data Models in Dynamics 365](../metadata-data-models.md)  
+ [The Metadata and Data Models in Dynamics 365 for Customer Engagement](../metadata-data-models.md)  
   
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)  
   

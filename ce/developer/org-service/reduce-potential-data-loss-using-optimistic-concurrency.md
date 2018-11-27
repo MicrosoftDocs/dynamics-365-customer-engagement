@@ -1,5 +1,5 @@
 ---
-title: "Reduce potential data loss using optimistic concurrency (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Reduce potential data loss using optimistic concurrency (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to reduce potential data loss when two or more update or delete operations on the same piece of data happen at the same time using optimistic concurrency"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0eb0167c-e312-4c6f-8a3c-760a2e73c0ff
 caps.latest.revision: 17
 author: "JimDaly"
@@ -63,5 +63,5 @@ On a multi-threaded and multi-user system like [!INCLUDE[pn_dynamics_crm](../../
   You can check the [Code](https://msdn.microsoft.com/library/system.servicemodel.faultexception.code\(v=vs.110\).aspx) property of the returned fault to determine if the fault is related to optimistic concurrency. The codes for the error conditions that were shown previously were obtained from the ErrorCodes.cs helper code.  
   
 ### See also  
- [Extend Dynamics 365 Customer Engagement on the server](../extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 for Customer Engagement on the server](../extend-dynamics-365-server.md)   
  [Sample: Use optimistic concurrency with update and delete operations](sample-use-optimistic-concurrency-update-delete-operations.md)

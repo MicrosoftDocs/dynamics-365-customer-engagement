@@ -1,5 +1,5 @@
 ---
-title: "Use the ColumnSet class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the ColumnSet class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the ColumnSet class to specify what attributes to return from a query expression"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "reducing query results by defining the attributes to return, ColumnSet class"
   - "ColumnSet class, about and code example"

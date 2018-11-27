@@ -1,6 +1,6 @@
 ---
-title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "A starting point for browsing admin and sales manager content for Dynamics 365 for Sales."
+title: "Administrator & Sales Manager Guide (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "A starting point for browsing admin and sales manager content for Dynamics 365 for Customer Engagement for Sales."
 keywords: "Sales Hub, Sales, Index, sales manager, admin, administrator"
 ms.date: 07/18/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - ""
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: d43cde80-1e19-4001-ad4b-e45f5a3205be
 author: shubhadaj
 ms.author: shujoshi
@@ -62,8 +62,8 @@ topic-status: Drafting
 
 <h2>Upgrade/downgrade</h2>
 <ul>
-<li><a href="upgrade-sales-professional-sales-enterprise.md" data-raw-source="[Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise](upgrade-sales-professional-sales-enterprise.md)">Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise</a> </li>
-<li><a href="move-sales-enterprise-sales-professional.md" data-raw-source="[Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional](move-sales-enterprise-sales-professional.md)">Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional</a> </li>
+<li><a href="upgrade-sales-professional-sales-enterprise.md" data-raw-source="[Upgrade from Dynamics 365 for Customer Engagement for Sales Professional to Dynamics 365 for Customer Engagement for Sales Enterprise](upgrade-sales-professional-sales-enterprise.md)">Upgrade from Dynamics 365 for Customer Engagement for Sales Professional to Dynamics 365 for Customer Engagement for Sales Enterprise</a> </li>
+<li><a href="move-sales-enterprise-sales-professional.md" data-raw-source="[Move from Dynamics 365 for Customer Engagement for Sales Enterprise edition to Dynamics 365 for Customer Engagement for Sales Professional](move-sales-enterprise-sales-professional.md)">Move from Dynamics 365 for Customer Engagement for Sales Enterprise edition to Dynamics 365 for Customer Engagement for Sales Professional</a> </li>
 </ul>
 
 </td></tr>
@@ -72,7 +72,7 @@ topic-status: Drafting
 
 <h2>GDPR Requirements</h2>
 <ul>
-<li><a href="dynamics-365-sales-GDPR.md" data-raw-source="[Dynamics 365 for Sales and GDPR](dynamics-365-sales-GDPR.md)">Dynamics 365 for Sales and GDPR</a></li>
+<li><a href="dynamics-365-sales-GDPR.md" data-raw-source="[Dynamics 365 for Customer Engagement for Sales and GDPR](dynamics-365-sales-GDPR.md)">Dynamics 365 for Customer Engagement for Sales and GDPR</a></li>
 </ul>
 
 

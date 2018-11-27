@@ -1,5 +1,5 @@
 ---
-title: "Verify the service account for a Microsoft Dynamics 365 service | Microsoft Docs"
+title: "Verify the service account for a Microsoft Dynamics 365 for Customer Engagement service | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Verify the service account for a Microsoft Dynamics 365 service
+# Verify the service account for a Microsoft Dynamics 365 for Customer Engagement service
 
 If this is an **error**, the following information applies.  
   

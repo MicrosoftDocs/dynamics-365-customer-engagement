@@ -1,5 +1,5 @@
 ---
-title: "Basics Guide (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Basics Guide (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 keywords: sales; service; marketing
 ms.custom: ""
 ms.date: 09/15/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 caps.latest.revision: 22
 ms.author: "shujoshi"
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Basics Guide for Dynamics 365 Customer Engagement
+# Basics Guide for Dynamics 365 for Customer Engagement
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -36,7 +36,7 @@ Once the data is in the system, the real fun begins. You can use the insights yo
 can also use then on your phone, on your [!INCLUDE[tn_android](../includes/tn-android.md)] tablet, or on your [!INCLUDE[tn_apple_ipad](../includes/tn-apple-ipad.md)]. This guide covers using the system in your web browser, to keep it as short
 as possible and because the mobile apps work almost the same as on the web.
 
-Download the app from the online store for your phone or tablet (search for “Dynamics 365” to find the app). You may need to check with the person who manages your system day-to-day, to make sure you have the security permissions required to use the app. To learn more, see [Get Dynamics 365 mobile](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md). You can also do your work from within [!INCLUDE[pn_outlook_short](../includes/pn-outlook-short.md)], if you want. Check with your system administrator for details, or see [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).
+Download the app from the online store for your phone or tablet (search for “Dynamics 365 for Customer Engagement” to find the app). You may need to check with the person who manages your system day-to-day, to make sure you have the security permissions required to use the app. To learn more, see [Get Dynamics 365 for Customer Engagement mobile](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md). You can also do your work from within [!INCLUDE[pn_outlook_short](../includes/pn-outlook-short.md)], if you want. Check with your system administrator for details, or see [Dynamics 365 for Customer Engagement App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).
 
 ## Get valuable learning even if your system has been customized
 Even if your system has been customized to match your business (and you use different names or your screens look different), you’ll still find these basics useful, because we only included tasks that anyone using the system would do, no matter how the screens have been changed.
@@ -59,7 +59,7 @@ features, data, or even fields on screens, depending on your role.
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
 
 ## What to read next
- - [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)
+ - [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md)
 
  - [Find your business apps](../basics/where-find-business-apps.md)
 
@@ -70,7 +70,7 @@ If it turns out that you can’t see or access something described in this guide
  - [Submit feedback or ratings](submit-feedback-ratings.md)
  
 ## See also  
- [Find your way around Dynamics 365 Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)    
+ [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)    
  [Manage accounts and contacts](../basics/accounts-contacts.md)     
  [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)     
  [Reports](../basics/run-report.md)     

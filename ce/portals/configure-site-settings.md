@@ -1,5 +1,5 @@
 ---
-title: "Configure site settings for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure site settings for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure site settings for a portal and global settings for all portals in your organization."
 ms.custom: 
   - dyn365-portal
@@ -65,7 +65,7 @@ You can manage the following types of site settings:
 ### See also
 
 [How to provision a portal](provision-portal.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 

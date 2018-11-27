@@ -1,5 +1,5 @@
 ---
-title: "Set up sales territories to organize business markets by geographical area for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Set up sales territories to organize business markets by geographical area for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/09/2018
@@ -9,8 +9,8 @@ ms.custom:
   - ""
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: a7fef06e-31ad-43d1-b4a6-c234a836b191
 author: jimholtz
 ms.author: jimholtz

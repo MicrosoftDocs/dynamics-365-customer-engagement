@@ -29,14 +29,14 @@ ms.author: matp
   
 ### Copy an organization data encryption key  
   
-1.  Sign in to Microsoft Dynamics 365 as a user who has the system administrator security role.  
+1.  Sign in to Microsoft Dynamics 365 for Customer Engagement as a user who has the system administrator security role.  
   
 2.  Go to **Settings** > **Data Management** > **Data Encryption**.  
   
 3.  In the Data Encryption dialog box, select **Show Encryption Key**. In the **Current encryption key** box, select the encryption key and copy it to the clipboard.  
 
     > [!CAUTION]
-    >  If the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website is not configured for HTTPS/TLS, the Data Encryption dialog box will not be displayed. For a more secure deployment, we recommend that you configure the website for HTTPS/TLS. However, if the website is not configured for HTTPS/TLS, use a tool that can be used to modify Dynamics 365 database tables, such as [!INCLUDE[pn_ms_SQL_Management_Studio_long](../includes/pn-ms-sql-management-studio-long.md)] or the [!INCLUDE [pn-deployment-web-service](../includes/pn-deployment-web-service.md)], open the configuration database (MSCRM_CONFIG), and in the DeploymentProperties table set DisableSSLCheckForEncryption to 1.  
+    >  If the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website is not configured for HTTPS/TLS, the Data Encryption dialog box will not be displayed. For a more secure deployment, we recommend that you configure the website for HTTPS/TLS. However, if the website is not configured for HTTPS/TLS, use a tool that can be used to modify Dynamics 365 for Customer Engagement database tables, such as [!INCLUDE[pn_ms_SQL_Management_Studio_long](../includes/pn-ms-sql-management-studio-long.md)] or the [!INCLUDE [pn-deployment-web-service](../includes/pn-deployment-web-service.md)], open the configuration database (MSCRM_CONFIG), and in the DeploymentProperties table set DisableSSLCheckForEncryption to 1.  
 
 4.  Paste the encryption key into a text editor, such as Notepad.  
   

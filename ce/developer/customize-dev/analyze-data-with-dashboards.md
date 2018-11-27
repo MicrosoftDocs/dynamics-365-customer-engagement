@@ -1,6 +1,6 @@
 ---
-title: "Analyze data with dashboards (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The dashboard entities in Dynamics 365 Customer Engagement enable you to present data from various charts, grids, IFRAMES, or web resources simultaneously. Dashboards allow you to compare and analyze various pieces of customer information, and give you data snapshots."
+title: "Analyze data with dashboards (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The dashboard entities in Dynamics 365 for Customer Engagement enable you to present data from various charts, grids, IFRAMES, or web resources simultaneously. Dashboards allow you to compare and analyze various pieces of customer information, and give you data snapshots."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 16f0dd2f-7dad-43be-86fd-f93c7905c8dd
 caps.latest.revision: 29
 author: "KumarVivek"

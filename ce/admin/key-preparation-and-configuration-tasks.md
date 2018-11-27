@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 77628b79-4436-4c75-bb71-26f72a00894f
 caps.latest.revision: 31
 author: "Mattp123"
@@ -154,7 +154,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 <a name="bkmk_importantemail"></a>   
 
-## Important email messages from Microsoft Dynamics 365  
+## Important email messages from Microsoft Dynamics 365 for Customer Engagement  
  Microsoft occasionally sends out email messages to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users or administrators. These messages provide information about how to use [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and also contain important billing or upgrade details.  
   
  Make sure that the following email addresses are added to the allowed list for your email application:  
@@ -167,12 +167,12 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 <a name="bkmk_availableresources"></a>   
 
-## Available resources for Microsoft Dynamics 365 users  
+## Available resources for Microsoft Dynamics 365 for Customer Engagement users  
  We want you and your organization to take full advantage of the extensive content and materials available that can help your business be more successful while you are using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For a list of available resources, including training materials and information about how to support your online organization, see the [Help and additional resources](help-additional-resources.md).  
   
 <a name="bkmk_techsupp"></a>   
 
-## Technical support for Microsoft Dynamics 365  
+## Technical support for Microsoft Dynamics 365 for Customer Engagement  
  If you cannot find the answers you need in the resources discussed earlier, you can submit a technical support request to [!INCLUDE[pn_ms_Customer_Support_Services](../includes/pn-ms-customer-support-services.md)]. Technical support incidents provide reactive support that focuses on a specific problem, error message, or functionality that is not working as intended. For assistance information, see [Support](http://go.microsoft.com/fwlink/p/?LinkID=394391).  
   
 ### Maximize your technical support experience  
@@ -206,4 +206,4 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
 |   [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
   
 ### See also  
- [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)
+ [Set up a Dynamics 365 for Customer Engagement organization](../admin/set-up-a-dynamics-365-organization.md)

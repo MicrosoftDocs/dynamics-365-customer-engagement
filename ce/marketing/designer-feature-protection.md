@@ -1,6 +1,6 @@
 ---
-title: "Use designer feature protection (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 for Marketing"
+title: "Use designer feature protection (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "content block;design element"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1893c4c9-8bfa-4156-a823-1b836199ea00
 author: kamaybac
 ms.author: kamaybac

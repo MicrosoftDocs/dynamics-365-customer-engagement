@@ -1,5 +1,5 @@
 ---
-title: "Manage SharePoint documents on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage SharePoint documents on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to manage SharePoint document in a portal."
 ms.custom: 
   - dyn365-portal
@@ -32,19 +32,19 @@ search.app:
 
 To work with the document management capabilities of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], you must:
 
-1.	[Enable document management functionality in Dynamics 365](#step-1-enable-document-management-functionality-in-dynamics-365)
+1.	[Enable document management functionality in Dynamics 365 for Customer Engagement](#step-1-enable-document-management-functionality-in-dynamics-365)
 
 2.	[Set up SharePoint integration from portal admin center](#step-2-set-up-sharepoint-integration-from-portal-admin-center)
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
-4.	[Configure the appropriate form in Dynamics 365 to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
+4.	[Configure the appropriate form in Dynamics 365 for Customer Engagement to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
 
 5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
-## Step 1: Enable document management functionality in Dynamics 365
+## Step 1: Enable document management functionality in Dynamics 365 for Customer Engagement
 
-You must enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], see [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
+You must enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], see [Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
 
 ## Step 2: Set up SharePoint integration from Portal Admin Center
 
@@ -88,7 +88,7 @@ You must enable document management for entities to store documents related to [
 
 ## Step 4: Configure the appropriate form to display documents
 
-### Dynamics 365 customization
+### Dynamics 365 for Customer Engagement customization
 
 Identify the form where you want to use document management capabilities. You must edit the form by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form editor and add a subgrid to it. The subgrid adds a section to the form, which allows you to work with documents from within a portal. You must set the following properties in the subgrid for this feature to work:
 
@@ -101,7 +101,7 @@ You can specify name and label as per your requirement. Save and publish the for
 > [!NOTE]
 > Document management must be enabled for the entity for which you edit the form. More information: [Enable document management for entities](#enable-document-management-for-entities)
 
-### Dynamics 365 Portal configuration
+### Dynamics 365 for Customer Engagement Portal configuration
 
 If you do not already have an entity or web form configured, then configure one. For more information on configuring entity forms, see [Add a form to your portal](entity-forms-custom-logic.md#add-a-form-to-your-portal). If you are configuring this on a web form, see [Define web form properties for portals](web-form-properties.md) and [Define web form steps for portals](web-form-steps.md).
 

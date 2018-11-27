@@ -1,5 +1,5 @@
 ---
-title: "Mix early and late bound entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Mix early and late bound entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to mix early and late binding methods to work with both strong types and the Entity class"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "mixing early- and late-bound entities, assigning early-bound instances to late-bound instances"
   - "using early-bound entity classes in code, mixing early- and late-bound entities"

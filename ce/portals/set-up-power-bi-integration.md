@@ -1,12 +1,12 @@
 ---
-title: "Set up Power BI integration with Dynamics 365 portal | MicrosoftDocs"
+title: "Set up Power BI integration with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to set up Power BI integration with your portal."
 ms.date: 11/20/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: DB95F706-48D2-4378-B5E5-435C1425ECD8
 author: sbmjais
 ms.author: shjais

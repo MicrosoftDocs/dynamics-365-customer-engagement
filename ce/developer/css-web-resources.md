@@ -1,5 +1,5 @@
 ---
-title: "CSS web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "CSS web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about using cascading style sheet (CSS) web resources to create style sheets for use in webpage web resources. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "web resource, css"
 ms.assetid: 7794a5f1-2055-426b-985b-c9ad23fcd1ad
@@ -47,7 +47,7 @@ Use cascading style sheet (CSS) web resources to create style sheets for use in 
 >  References included in code between web resources aren’t tracked as solution dependencies.  
   
 ### See also  
- [Web Resources for Dynamics 365](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   

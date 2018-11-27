@@ -1,5 +1,5 @@
 ---
-title: "Create real-time workflows (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create real-time workflows (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about real-time workflows that can be used to model and automate real world business processes. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring .NET Framework programming experience."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a026a102-7854-42de-ab77-e5bbb556bb2c
 caps.latest.revision: 24
 author: "JimDaly"

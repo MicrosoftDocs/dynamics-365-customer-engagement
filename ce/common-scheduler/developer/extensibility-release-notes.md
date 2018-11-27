@@ -1,7 +1,7 @@
 ---
 title: Universal Resource Scheduling extensibility updates | Microsoft Docs
 description: URS extensibility updates
-keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
+keywords: Universal Resource scheduling; Dynamics 365 for Customer Engagement for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
 manager: shellyha
@@ -12,8 +12,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.technology: 
   - "field-service"
   - "project-service"

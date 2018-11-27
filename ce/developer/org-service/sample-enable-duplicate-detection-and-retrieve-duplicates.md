@@ -1,5 +1,5 @@
 ---
-title: "Sample: Enable duplicate detection and retrieve duplicates (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Enable duplicate detection and retrieve duplicates (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to enable duplicate detection and retrieve duplicate records based on active duplicate detection rules."
 ms.custom: ""
 ms.date: 11/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "detecting duplicate data in Microsoft Dynamics CRM, sample for enabling duplicate detection and retrieving duplicates"
   - "duplicate detection, sample for enabling duplicate detection and retrieving duplicates"
@@ -44,7 +44,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[DuplicateDetection#EnableDuplicateDetectionAndRetrieveDuplicates](../../snippets/csharp/CRMV8/duplicatedetection/cs/enableduplicatedetectionandretrieveduplicates.cs#enableduplicatedetectionandretrieveduplicates)]  
   
 ### See also  
- [Detect duplicate data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
+ [Detect duplicate data in Dynamics 365 for Customer Engagement](../detect-duplicate-data-for-developers.md)   
  [Enable and disable duplicate detection](../enable-disable-duplicate-detection.md)  
  [Manage duplicate detection during Create and Update operations](manage-duplicate-detection-create-update.md)  
  [Run Duplicate Detection](../run-duplicate-detection.md)   

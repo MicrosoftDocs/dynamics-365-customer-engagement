@@ -1,6 +1,6 @@
 ---
-title: "Download Dynamics 365 (v9.x) Software Development Kit (SDK) | MicrosoftDocs"
-description: "Contains information about the SDK for Microsoft Dynamics 365 (version 9.x) Customer Engagement, formerly called Microsoft Dynamics CRM."
+title: "Download Dynamics 365 for Customer Engagement (v9.x) Software Development Kit (SDK) | MicrosoftDocs"
+description: "Contains information about the SDK for Microsoft Dynamics 365 for Customer Engagement (version 9.x) Customer Engagement, formerly called Microsoft Dynamics CRM."
 ms.custom: ""
 ms.date: 09/25/2018
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c9bf7f2d-4208-4a7f-8618-74cf7ae4c211
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Download Dynamics 365 (v9.x) Software Development Kit (SDK)
+# Download Dynamics 365 for Customer Engagement (v9.x) Software Development Kit (SDK)
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -53,10 +53,10 @@ The following SDK assemblies are available:
 
 ## Developer code samples
 
-For the complete list of developer code samples, see [Sample code directory for Dynamics 365 Customer Engagement](sample-code-directory.md)
+For the complete list of developer code samples, see [Sample code directory for Dynamics 365 for Customer Engagement](sample-code-directory.md)
 
  
 ### See also
 
-[Choose your development style for Dynamics 365 Customer Engagement](choose-development-style.md)
+[Choose your development style for Dynamics 365 for Customer Engagement](choose-development-style.md)
   

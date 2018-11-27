@@ -1,6 +1,6 @@
 ---
-title: "Image web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about using image web resources to make images available for use in Dynamics 365. "
+title: "Image web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn about using image web resources to make images available for use in Dynamics 365 for Customer Engagement. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "images"
   - "web resource, image"
@@ -65,7 +65,7 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
 ```  
   
 <a name="BKMK_ReferenceFromForm"></a>   
-## Reference an image web resource from a Dynamics 365 form  
+## Reference an image web resource from a Dynamics 365 for Customer Engagement form  
   
 #### Add an image to an entity form  
   
@@ -113,7 +113,7 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
 >  Using the `$webresource:` directive adds a solution dependency that prevents the referenced image web resources from being deleted as long as they are used by another solution component.  
   
 ### See also  
- [Web Resources for Dynamics 365](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   

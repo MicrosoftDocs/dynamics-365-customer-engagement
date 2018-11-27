@@ -1,5 +1,5 @@
 ---
-title: "Get started writing reports with Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Get started writing reports with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/12/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab
 caps.latest.revision: 14
 author: "Mattp123"
@@ -75,7 +75,7 @@ The other reports can be:
 
 ## Get started writing reports
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report definition language (RDL) reports to query Dynamics 365 data and return refined results back to the report user. For more information about RDL, see [Report Definition Language (SSRS)](https://technet.microsoft.com/library/ms155062.aspx).  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report definition language (RDL) reports to query Dynamics 365 for Customer Engagement data and return refined results back to the report user. For more information about RDL, see [Report Definition Language (SSRS)](https://technet.microsoft.com/library/ms155062.aspx).  
   
  To create or modify existing RDL reports that can be used with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], use FetchXML, which is then converted to RDL by using report authoring tools. 
   
@@ -112,7 +112,7 @@ The other reports can be:
 - Publish a report so that it is available for use with external applications, such as [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] or custom programs.  
 
 > [!NOTE]
-> You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
+> You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 for Customer Engagement Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
  
   
 ### See also  

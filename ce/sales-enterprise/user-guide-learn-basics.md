@@ -1,6 +1,6 @@
 ---
-title: "Learn the basics of Dynamics 365 for Sales | Microsoft Docs"
-description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
+title: "Learn the basics of Dynamics 365 for Customer Engagement for Sales | Microsoft Docs"
+description: "Quickly onboard and learn about Dynamics 365 for Customer Engagement for Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
 ms.date: 04/01/2018
 ms.service:
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
@@ -32,17 +32,17 @@ Start here to onboard quickly and learn about the different offerings of Sales a
    > 
    > The apps available to you in the app launcher depend on your subscription.
 
-2. In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Dynamics 365 — custom**.
+2. In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Dynamics 365 for Customer Engagement — custom**.
 
    This provides access to the full suite of capabilities, including sales and its settings.
 
-   ![Tile for Dynamics 365 — custom](media/dynamics365-custom-tile.png "Tile for Dynamics 365 — custom")     
+   ![Tile for Dynamics 365 for Customer Engagement — custom](media/dynamics365-custom-tile.png "Tile for Dynamics 365 for Customer Engagement — custom")     
 
    -OR-
 
    To open the Sales app (web), select the tile for **Sales**.
 
-   ![Tile for Dynamics 365 for Sales web app](media/sales_tile_web.png "Tile for Dynamics 365 for Sales web app")
+   ![Tile for Dynamics 365 for Customer Engagement for Sales web app](media/sales_tile_web.png "Tile for Dynamics 365 for Customer Engagement for Sales web app")
 
    -OR-
 

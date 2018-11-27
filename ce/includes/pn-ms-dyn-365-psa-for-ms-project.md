@@ -1,1 +1,1 @@
-Dynamics 365 Project Service Automation Add-in for Microsoft Project
+Dynamics 365 for Customer Engagement Project Service Automation Add-in for Microsoft Project

@@ -3,7 +3,7 @@ title: "captureVideo| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9580d05a-a91f-4126-b94b-4d1068da35fa
 author: "KumarVivek"
 ms.author: "kvivek"

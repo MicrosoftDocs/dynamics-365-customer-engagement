@@ -1,5 +1,5 @@
 ---
-title: "Configure date settings for demo data for Dynamics 365 Customer Engagement  | MicrosoftDocs"
+title: "Configure date settings for demo data for Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/20/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 6de41d36-98d9-4793-b147-4573f670c79f
 caps.latest.revision: 1
 author: "jimholtz"
@@ -31,7 +31,7 @@ Use the information below to automatically keep your demo environment data curre
 
 Download the Configuration Migration Tool. The Configuration Migration tool is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). To download the tool, see [Download tools from NuGet](../developer/download-tools-nuget.md). Follow the steps on this page to extract the **DataMigrationUtility.exe** tool. 
 
-You can set the values of datetime fields to automatically move forward by a specified duration. This allows you to keep your demo data recent without the need to make manual updates. It will also work when using Configuration Migration Utility files with the Dynamics 365 Package Deployer tool. 
+You can set the values of datetime fields to automatically move forward by a specified duration. This allows you to keep your demo data recent without the need to make manual updates. It will also work when using Configuration Migration Utility files with the Dynamics 365 for Customer Engagement Package Deployer tool. 
 
 > [!NOTE]
 > This option is to keep data recent in your demo environments. It is not intended for production use. 

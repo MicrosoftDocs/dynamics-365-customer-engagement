@@ -1,6 +1,6 @@
 ---
-title: "Design, check, and publish marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing"
+title: "Design, check, and publish marketing pages (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "landing page; subscription center; forward to a friend; form; field; matching"
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a05ddbad-a57a-403a-aee9-2e91e2f5161f
 author: kamaybac
 ms.author: kamaybac
@@ -140,5 +140,5 @@ Administrators can choose settings that control several aspects of the way all m
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Upload and use images and files](upload-images-files.md)  
-[How Dynamics 365 for Marketing uses cookies](cookies.md)  
+[How Dynamics 365 for Customer Engagement for Marketing uses cookies](cookies.md)  
 [Go live with publishable entities and track their status](go-live.md)

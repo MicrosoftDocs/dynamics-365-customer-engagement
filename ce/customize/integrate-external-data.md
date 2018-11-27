@@ -1,5 +1,5 @@
 ---
-title: "Integrate external data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Integrate external data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a3e6a322-6hf7-48c9-aaea-bff767589378
 caps.latest.revision: 35
 ms.author: "rdubois"

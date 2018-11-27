@@ -1,5 +1,5 @@
 ---
-title: "Distribute a Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
+title: "Distribute a Voice of the Customer for Dynamics 365 for Customer Engagement survey | MicrosoftDocs"
 description: ""
 ms.assetid: bdf1401d-1998-480b-ada2-38a2667eced6
 ms.custom:
@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/distribute-survey
 author: sbmjais
 ms.author: shjais
@@ -34,7 +34,7 @@ You can invite respondents to take part in a [!INCLUDE[pn-voice-of-the-customer-
   
  To embed the survey in an iFrame on your website, copy and paste the HTML from the **IFrame URL** field on the survey. Choose **Run in IFrame** to remove the header and footer elements of the survey.  
   
- Dynamics 365 doesn’t associate responses with a customer record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**.  
+ Dynamics 365 for Customer Engagement doesn’t associate responses with a customer record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**.  
   
 ### Non-anonymous surveys  
  For non-anonymous surveys, the link you send to respondents is specific and unique for each customer. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] generates the URLs for you to use when you create a survey invitation or embed the survey snippet in an email. You can use the email snippet in the survey’s **Email Snippet** field.  

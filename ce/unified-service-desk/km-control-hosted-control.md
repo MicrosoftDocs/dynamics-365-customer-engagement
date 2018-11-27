@@ -1,6 +1,6 @@
 ---
-title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
+title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 for Customer Engagement or Parature in your agent application."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/17/2018
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -27,7 +27,7 @@ search.app:
   - D365USD
 ---
 # KM Control (Hosted Control)
-Use the **KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
+Use the **KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 for Customer Engagement knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 for Customer Engagement knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -55,7 +55,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 
 <a name="Associate"></a>   
 ### Associate  
- Associates a knowledge base record in Dynamics 365 or [!INCLUDE[pn_parature](../includes/pn-parature.md)] with the parent entity record in **KM Control**.  
+ Associates a knowledge base record in Dynamics 365 for Customer Engagement or [!INCLUDE[pn_parature](../includes/pn-parature.md)] with the parent entity record in **KM Control**.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 |
@@ -64,7 +64,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 |     recordid      |                                                                                                                                                                                                                               The ID of the parent entity record to associate the knowledge base record to.                                                                                                                                                                                                                                |
 |  articleuniqueid  |                                                                                                                                                                                                              The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`                                                                                                                                                                                                               |
 |   articletitle    |                                                                                                                                                                                                A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions`                                                                                                                                                                                                |
-| articleprivateurl |                                                                                                      The private URL of the article in Parature that you want to associate. For example: `articleprivateurl=https://demo.parature.com/ics/km/kmRefEdit.asp?questionID=41` **Note:**  This parameter is not applicable if you are using the native Dynamics 365 knowledge base; it’s only applicable for the Parature knowledge base.                                                                                                       |
+| articleprivateurl |                                                                                                      The private URL of the article in Parature that you want to associate. For example: `articleprivateurl=https://demo.parature.com/ics/km/kmRefEdit.asp?questionID=41` **Note:**  This parameter is not applicable if you are using the native Dynamics 365 for Customer Engagement knowledge base; it’s only applicable for the Parature knowledge base.                                                                                                       |
 | articlepublicurl  | The public URL of the article that you want to associate. If you are using native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=http://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   

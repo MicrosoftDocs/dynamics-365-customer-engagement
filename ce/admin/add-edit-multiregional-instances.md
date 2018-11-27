@@ -1,5 +1,5 @@
 ---
-title: "Add and edit multiregional instances of Dynamics 365 (online) | MicrosoftDocs"
+title: "Add and edit multiregional instances of Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: d16732d0-ab5e-4f9c-8bc8-d097cd2f5f2f
 caps.latest.revision: 4
 author: "jimholtz"
@@ -69,11 +69,11 @@ For multinational companies with employees and customers distributed around the 
   
 1.  Global administrators sign in to the [Office 365 admin center](https://portal.office.com), and then, in the navigation pane, click **Billing** > **Purchase services**.  
   
-2.  Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 (online) Additional Non-production Instance** or **Microsoft Dynamics 365 (online) Additional Production Instance**, and then click **Buy now**.  
+2.  Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
   
 3.  Proceed through the screens to purchase additional instances.  
   
-     You can choose to add production or non-production (Sandbox) instances. For more information, see [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
+     You can choose to add production or non-production (Sandbox) instances. For more information, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
   
 ### Step 2: Configure the additional instance for a region  
   
@@ -103,7 +103,7 @@ For multinational companies with employees and customers distributed around the 
   
 7. On the confirmation page, verify that the settings are correct and then click **Configure**.  
   
-8. On the **Your Microsoft Dynamics 365 organization is ready** page, click **Launch Dynamics 365 (online)** to start [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to prepare the instance for users such as assign security roles, create teams, customize, and import data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Getting started](getting-started.md).  
+8. On the **Your Microsoft Dynamics 365 for Customer Engagement organization is ready** page, click **Launch Dynamics 365 for Customer Engagement (online)** to start [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to prepare the instance for users such as assign security roles, create teams, customize, and import data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Getting started](getting-started.md).  
   
    > [!TIP]
    >  Note the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance URL that is displayed on the page. You can use this URL to directly access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
@@ -135,8 +135,8 @@ For multinational companies with employees and customers distributed around the 
   
 ### See also  
  [Edit properties of an instance](../admin/edit-properties-instance.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 (online) security roles](grant-users-access.md) <br />
- [Grant users access to Microsoft Dynamics 365 (online) as a Microsoft Online service](../admin/grant-users-access.md)   
+ [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
+ [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)   
+ [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement (online) security roles](grant-users-access.md) <br />
+ [Grant users access to Microsoft Dynamics 365 for Customer Engagement (online) as a Microsoft Online service](../admin/grant-users-access.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

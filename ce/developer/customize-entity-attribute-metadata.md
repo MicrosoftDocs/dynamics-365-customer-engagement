@@ -1,5 +1,5 @@
 ---
-title: "Customize entity attribute metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize entity attribute metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about the AttributeMetadata class to retrieve existing attributes. This class is returned by the RetrieveAttributeRequest message. The AttributeMetadata class inherits from the abstract MetadataBase class. "
 ms.custom: ""
 ms.date: 11/03/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 89969adc-8577-424c-bfcc-7f65c5d4bd19
 caps.latest.revision: 41
 author: "JimDaly"
@@ -84,7 +84,7 @@ Use the specific class for each attribute type with the `CreateAttribute` messag
 |`VersionNumber`|For internal use only.|  
 
 ### See also  
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](org-service/use-organization-service-metadata.md)   
  [Work with Attributes](org-service/work-attribute-metadata.md)   
  [Behavior and format of the datetime attribute](behavior-format-date-time-attribute.md)   
  [Entity Attribute Metadata Messages](entity-attribute-metadata-messages.md)   

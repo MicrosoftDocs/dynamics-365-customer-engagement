@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 author: "Mattp123"
 ms.assetid: 5a9ec120-9ddc-4d92-b48c-0fee8c57d3c3

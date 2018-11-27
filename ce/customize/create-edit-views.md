@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 826fb059-a552-4db5-bf40-6a80cfa0fc0e
 ms.author: matp
 manager: kvivek
@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
-With Dynamics 365 for Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
+With Dynamics 365 for Customer Engagement for Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
 -  The columns to display    
 -  How wide each column should be    
 -  How the list of records should be sorted by default  

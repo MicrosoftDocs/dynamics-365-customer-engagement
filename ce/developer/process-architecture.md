@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Process architecture (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic illustrates the high-level system architecture for Dynamics 365, and highlights parts of the system that are specific to processes."
+title: "Dynamics 365 for Customer Engagement Process architecture (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic illustrates the high-level system architecture for Dynamics 365 for Customer Engagement, and highlights parts of the system that are specific to processes."
 ms.custom: ""
 ms.date: 12/16/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8150b437-8c14-4668-910d-2910ba16b503
 caps.latest.revision: 28
 author: "JimDaly"
@@ -125,4 +125,4 @@ The asynchronous service, as the host of the [!INCLUDE[pn_Windows_Workflow_Found
 [Asynchronous Service](asynchronous-service.md)<br />
 [Event Execution Pipeline](event-execution-pipeline.md)<br />
 [Event Framework Overview](introduction-event-framework.md)<br />
-[Processes in Dynamics 365 5](automate-business-processes-customer-engagement.md)<br />
+[Processes in Dynamics 365 for Customer Engagement 5](automate-business-processes-customer-engagement.md)<br />

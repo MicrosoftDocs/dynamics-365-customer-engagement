@@ -1,6 +1,6 @@
 ---
-title: "View the primary domain name in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to view the primary domain name for a portal in Dynamics 365."
+title: "View the primary domain name in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Instructions to view the primary domain name for a portal in Dynamics 365 for Customer Engagement."
 ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017

@@ -1,6 +1,6 @@
 ---
-title: "Manage fiscal year settings (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Define the fiscal year period used for reporting financial data at your organization in Dynamics 365 for Marketing"
+title: "Manage fiscal year settings (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "Define the fiscal year period used for reporting financial data at your organization in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "administration; organization settings; fiscal year"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b51c695a-9228-4929-b638-b9a7c22d6a68
 author: kamaybac
 ms.author: kamaybac

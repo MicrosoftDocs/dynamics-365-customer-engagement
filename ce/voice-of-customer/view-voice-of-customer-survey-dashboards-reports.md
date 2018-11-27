@@ -1,5 +1,5 @@
 ---
-title: "View dashboards and reports for Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
+title: "View dashboards and reports for Voice of the Customer for Dynamics 365 for Customer Engagement surveys | MicrosoftDocs"
 ms.assetid: 82b737e4-0523-4bc5-a9ca-dcc5abfc4238
 description: ""
 keywords: ""
@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/analyze-survey-data
 author: sbmjais
 ms.author: shjais

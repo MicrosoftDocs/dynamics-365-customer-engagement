@@ -1,6 +1,6 @@
 ---
-title: "Sample: iOS Activity Tracker for Dynamics 365 and Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The activity tracker sample application enables you to connect to your Dynamics 365 organization, query for your contacts, and add a quick activity record related to a contact. This sample uses the Microsoft Azure Active Directory Authentication Library (ADAL), and the Web API using OData v4"
+title: "Sample: iOS Activity Tracker for Dynamics 365 for Customer Engagement and Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The activity tracker sample application enables you to connect to your Dynamics 365 for Customer Engagement organization, query for your contacts, and add a quick activity record related to a contact. This sample uses the Microsoft Azure Active Directory Authentication Library (ADAL), and the Web API using OData v4"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 47d7105c-6d09-4448-b68a-abf85026d1c9
 caps.latest.revision: 9
 author: "JimDaly"
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample: iOS Activity Tracker for Dynamics 365 and Web API
+# Sample: iOS Activity Tracker for Dynamics 365 for Customer Engagement and Web API
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

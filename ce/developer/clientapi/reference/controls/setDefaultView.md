@@ -1,9 +1,9 @@
 ---
-title: "setDefaultView (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setDefaultView (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8c918cd4-d0ce-45e5-91a3-1addf11258c7
 author: "KumarVivek"
 ms.author: "kvivek"

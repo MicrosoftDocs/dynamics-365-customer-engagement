@@ -1,6 +1,6 @@
 ---
-title: "Plug-in development (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 Customer Engagement to modify or augment the standard behavior of the platform. "
+title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement to modify or augment the standard behavior of the platform. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: aa037f4a-b5ae-485c-aac9-8a138a57c576
 caps.latest.revision: 30
 author: "JimDaly"

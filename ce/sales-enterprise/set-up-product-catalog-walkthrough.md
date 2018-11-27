@@ -1,6 +1,6 @@
 ---
-title: "Set up a product catalog: Walkthrough (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 for Sales."
+title: "Set up a product catalog: Walkthrough (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 for Customer Engagement for Sales."
 keywords: "Product catalog, collection, products"
 ms.date: 04/01/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: d1677843-906a-49ec-a8c1-d2733870020e
 author: shubhadaj
 ms.author: shujoshi
@@ -42,7 +42,7 @@ Make it easier for your sales reps to increase their sales by creating a product
 | ![Step 5](../sales-enterprise/media/walkthrough-green-5.png "Step 5") |                                                           Add price list items. A price list item defines the price per unit of a product. Add each new product to one or more price lists as price list items. You can do this either from the product form or the price list form.                                                           | [Create a product family](../sales-enterprise/create-product-family.md)<br /><br /> **- OR -**<br /><br /> [Create price lists and price list items to define pricing of products](create-price-lists-price-list-items-define-pricing-products.md) |
 | ![Step 6](../sales-enterprise/media/walkthrough-green-6.png "Step 6") | Select one of the price lists to which you added the product as the default price list for the product. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses the default price list for calculations when the associated price list in the opportunity or order for the product doesn't contain a price definition of the product. |                                                                                      [Create a product family](../sales-enterprise/create-product-family.md)                                                                                       |
 
- ![Set up product catalog components in Dynamics 365](../sales-enterprise/media/v7-set-up-product-catalog.png "Set up product catalog components in Dynamics 365")
+ ![Set up product catalog components in Dynamics 365 for Customer Engagement](../sales-enterprise/media/v7-set-up-product-catalog.png "Set up product catalog components in Dynamics 365 for Customer Engagement")
 
 ### See Also
  [Create a product family](../sales-enterprise/create-product-family.md)  

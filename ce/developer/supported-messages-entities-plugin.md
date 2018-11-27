@@ -1,6 +1,6 @@
 ---
-title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic contains a table that lists the message and entity combinations that support execution of plug-ins for Dynamics 365 (online) Customer Engagement."
+title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic contains a table that lists the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b3902754-0cbc-49d5-ac37-3f6f89a89e90
 caps.latest.revision: 47
 author: "JimDaly"
@@ -1381,6 +1381,6 @@ This topic contains a table that lists the message and entity combinations that 
 |Win|Quote||Both|Both|  
   
 ### See also  
- [Write Plug-Ins for Dynamics 365 Customer Engagement](write-plugin-extend-business-processes.md)   
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)   
  [Plug-in Development](plugin-development.md)   
  [Event Framework Overview](introduction-event-framework.md)

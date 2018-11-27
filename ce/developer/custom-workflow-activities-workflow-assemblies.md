@@ -1,5 +1,5 @@
 ---
-title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about registration and execution of custom workflow activities in addition to the out-of-box activities provided by Windows Workflow Foundation. You can write custom workflow activities in Microsoft Visual C# or Visual Basic .NET code by creating an assembly that contains one or more classes derived from the Windows Workflow FoundationCodeActivity class."
 ms.custom: ""
 ms.date: 09/12/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d4e6e932-61cd-42fd-a280-ef63bbad45f0
 author: "JimDaly"
 ms.author: "kvivek"
@@ -45,7 +45,7 @@ search.app:
   
  [Updating or Upgrading Custom Workflow Activity: Assembly Versioning](workflow/update-custom-workflow-activity-using-assembly-versioning.md)  
   
- [Process Classes, Attributes, and Dynamics 365 Types](workflow/process-classes-attributes-and-types.md)  
+ [Process Classes, Attributes, and Dynamics 365 for Customer Engagement Types](workflow/process-classes-attributes-and-types.md)  
   
  [Sample: Create a custom workflow activity](workflow/sample-create-custom-workflow-activity.md)  
   
@@ -56,6 +56,6 @@ search.app:
 ## Related Sections  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)  
   
- [Write Plug-Ins for Dynamics 365 Customer Engagement](write-plugin-extend-business-processes.md)  
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)  
   
  [Plug-in Isolation, Trusts, and Statistics](plugin-isolation-trusts-statistics.md)

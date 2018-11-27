@@ -51,7 +51,7 @@ To get a quick overview of the post quota for all your search topics, for single
 |      Quota exceeded      |                                              If your solution acquired more posts than your post quota allows.                                              | Take immediate action by adding post quota. Your solution will continue to acquire posts until you either surpass the granted grace period or you reach the additionally granted post quota. |
 |   Acquisition stopped    | When Administrators were informed and the solution exceeded your post quota without any action taken. The solution's acquisition was stopped automatically. |                          Increase the post quota to restart your acquisition immediately, or wait until the first day of the next month to restart the acquisition.                          |
   
- Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](https://portal.office.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
+ Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](https://portal.office.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
   
 ## Keep the post quota healthy  
  Keeping the post quota healthy is crucial to make sure data acquisition isn't interrupted and you don't miss any relevant information.  
@@ -91,13 +91,13 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
 
-[Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
+[Learn more about pricing and licensing for Dynamics 365 for Customer Engagement.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
 ### To buy add-on subscriptions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
+An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 for Customer Engagement plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
 
-For more information, see [Pricing and licensing for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=401462).
+For more information, see [Pricing and licensing for Dynamics 365 for Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
 

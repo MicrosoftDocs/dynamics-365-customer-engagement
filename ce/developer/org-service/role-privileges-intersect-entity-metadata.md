@@ -1,5 +1,5 @@
 ---
-title: "Role Privileges intersect entity metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Role Privileges intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The RolePrivileges intersect entity is the intersect table for the following many-to-many relationships for the Role entity"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a85583a8-9f2b-401f-926d-7872e3885852
 caps.latest.revision: 14
 author: "KumarVivek"

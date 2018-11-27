@@ -1,5 +1,5 @@
 ---
-title: "Configure server-based authentication with Dynamics 365 (online) and SharePoint Online | MicrosoftDocs"
+title: "Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint Online | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: e3a88e78-2267-4f08-a0b3-7843787fada6
 caps.latest.revision: 18
 author: "Mattp123"
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Configure server-based authentication with Dynamics 365 (online) and SharePoint Online
+# Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint Online
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -62,7 +62,7 @@ search.app:
 > - Once you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], you can then enable [!INCLUDE[pn_microsoft_onenote](../includes/pn-microsoft-onenote.md)] integration. More information: [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)  
   
 <a name="BKMK_info_trans_CRMtoSP"></a>   
-## Information transmitted between Dynamics 365 (online) and SharePoint when you use server-based SharePoint integration  
+## Information transmitted between Dynamics 365 for Customer Engagement (online) and SharePoint when you use server-based SharePoint integration  
  When you use the document management feature in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, the following information is transmitted between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]:  
   
 - Entity name for the entity that is used to create folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], such as Account, Article, or Lead. To configure the entities that are integrated, go to **Settings** > **Document Management** > **Document Management Settings**.

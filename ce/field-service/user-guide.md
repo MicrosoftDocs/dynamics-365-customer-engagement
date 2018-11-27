@@ -1,5 +1,5 @@
 ---
-title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "User Guide (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -30,13 +30,13 @@ search.app:
 ## Overview  
  [Manage your field service operations](../field-service/overview.md)  
   
- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)  
+ [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Customer Engagement for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)  
   
 ## Get started  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)  
+ [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)  
   
 ## What's new  
- [What's new in Dynamics 365 for Field Service and Project Service Automation](../field-service/whats-new-field-service-project-service.md) 
+ [What's new in Dynamics 365 for Customer Engagement for Field Service and Project Service Automation](../field-service/whats-new-field-service-project-service.md) 
   
 ## Scheduling  
  [Configure the schedule board](../field-service/configure-schedule-board.md)  

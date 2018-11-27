@@ -1,5 +1,5 @@
 ---
-title: "Install the Field Service mobile app solution (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Install the Field Service mobile app solution (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/05/2018
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.technology: 
   - "field-service"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: krbjoran
 ms.assetid: e60e441f-535d-4b38-b371-13e22561d924
 caps.latest.revision: 13
@@ -62,7 +62,7 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
 6. Click **Next** to start the import. When the import is complete, select **Close**. You should see **Woodford** listed on the **All Solutions** page.  
 
    > [!div class="mx-imgBorder"]
-   > ![Resco Mobile Dynamics 365 solution](../field-service/media/fsm-install-woodford-solution.png "Resco Mobile Dynamics 365 solution")  
+   > ![Resco Mobile Dynamics 365 for Customer Engagement solution](../field-service/media/fsm-install-woodford-solution.png "Resco Mobile Dynamics 365 for Customer Engagement solution")  
   
 7. To publish the Woodford solution, select **Publish All Customizations**, and then refresh the page.  
    > [!div class="mx-imgBorder"]
@@ -144,7 +144,7 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
    Next, install the app on your mobile device. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service Mobile App User’s Guide](../field-service/field-service-mobile-app-user-guide.md)  
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Install](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>

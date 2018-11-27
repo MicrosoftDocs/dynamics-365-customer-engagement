@@ -1,5 +1,5 @@
 ---
-title: "Create and edit public or system views using the app designer with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create and edit public or system views using the app designer with Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn now to create or edit views by using the app designer"
 keywords: ""
 ms.date: 11/09/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: 666ab3f3-abda-468c-b248-3a0b410286b0
 ms.author: "matp"
@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In Dynamics 365 for Customer Engagement, views define how records for a specific entity are  displayed. A view defines the following:
+In Dynamics 365 for Customer Engagement for Customer Engagement, views define how records for a specific entity are  displayed. A view defines the following:
 -  The columns (attributes) to display
 -  The width of the columns
 -  How the records are sorted by default

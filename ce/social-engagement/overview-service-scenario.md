@@ -110,6 +110,6 @@ Collaborate with your team and make sure they prioritize the right issues.
 
 ### See also
 
-[Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
-[Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+[Connect Dynamics 365 for Customer Engagement and Social Engagement](connect-dynamics-365-social-engagement.md)   
+[Link posts from Social Engagement to Dynamics 365 for Customer Engagement](link-posts-to-dynamics-365.md)   
 [Work with posts](work-with-posts.md)

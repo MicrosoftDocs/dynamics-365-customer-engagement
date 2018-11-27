@@ -1,9 +1,9 @@
 ---
-title: "setActiveStage (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setActiveStage (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9c40a770-f4cb-4230-8893-0527f8472825
 author: "KumarVivek"
 ms.author: "kvivek"

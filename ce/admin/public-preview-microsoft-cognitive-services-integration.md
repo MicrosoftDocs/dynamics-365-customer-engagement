@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Microsoft Cognitive Services integration with Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Preview feature: Microsoft Cognitive Services integration with Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 49097a82-a7ea-46a8-b272-5d71137b835e
 caps.latest.revision: 24
 author: "Mattp123"

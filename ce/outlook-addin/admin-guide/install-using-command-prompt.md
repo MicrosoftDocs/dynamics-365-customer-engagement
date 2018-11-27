@@ -1,5 +1,5 @@
 ---
-title: "Install Microsoft Dynamics 365 for Outlook using a command prompt | MicrosoftDocs"
+title: "Install Microsoft Dynamics 365 for Customer Engagement for Outlook using a command prompt | MicrosoftDocs"
 ms.custom: ""
 ms.date: 03/06/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0e35546e-766b-4f5a-aead-0e8219ecb7f2
 caps.latest.revision: 47
 author: "mduelae"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Install Microsoft Dynamics 365 for Outlook using a command prompt
+# Install Microsoft Dynamics 365 for Customer Engagement for Outlook using a command prompt
 Installing [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] is a two-step procedure. First, you must run Setup to install the files on the computer. Next, run the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] to configure the application and complete the installation.  
   
 > [!IMPORTANT]
@@ -32,13 +32,13 @@ Installing [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-mi
 ## Step 1: Install files  
   
 > [!NOTE]
->  See [Install Dynamics 365 for Outlook](install.md) for download instructions.  
+>  See [Install Dynamics 365 for Customer Engagement for Outlook](install.md) for download instructions.  
   
  The following command displays the available options to run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] at the command prompt:  
   
  **Setupclient.exe** [/**A**] [/**Q**] [/**X**] [/**L** or /**LV** "[*drive*:][[ *path*] *logfilename*.log]"] [/targetdir "[*drive*:][ *path*]"] [/installofflinecapability] [/disableofflinecapability] [/ignoreofflinequeue]  
   
-### Command examples for Dynamics 365 for Outlook installation  
+### Command examples for Dynamics 365 for Customer Engagement for Outlook installation  
  For users who travel or who are not always connected to the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)], [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)] provides access to their customer data. To install [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)] in quiet mode:  
   
 ```  
@@ -51,7 +51,7 @@ Setupclient /Q /l c:\clientinstalllog.txt /installofflinecapability /targetdir "
 SetupClient /x /q  
 ```  
   
-#### Parameters for Dynamics 365 for Outlook installation  
+#### Parameters for Dynamics 365 for Customer Engagement for Outlook installation  
   
 |              Parameter               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ SetupClient /x /q
 |          ignoreofflinequeue          |                                                                                                                                                                                                                                                                                                                                                                                                                                      When you specify this parameter, [!INCLUDE[pn_Setup](../../includes/pn-setup.md)] will not attempt to synchronize items that may remain in the offline queue during upgrade.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                  /X                  |                                                                                                                                                                                                                                                                                                                                                                                                                            Uninstalls [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This is a maintenance mode option that is only available when the application is already installed.                                                                                                                                                                                                                                                                                                                                                                                                                             |
   
-### Sample Dynamics 365 for Outlook XML configuration file for installation  
+### Sample Dynamics 365 for Customer Engagement for Outlook XML configuration file for installation  
  The following configuration-file example installs [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] without offline access capability into the Program Files folder.  
   
 > [!NOTE]
@@ -80,18 +80,18 @@ SetupClient /x /q
 ```  
   
 <a name="BKMK_Step2Configure"></a>   
-## Step 2: Configure Dynamics 365 for Outlook by using an XML configuration file  
+## Step 2: Configure Dynamics 365 for Customer Engagement for Outlook by using an XML configuration file  
  After you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must configure it. You can do this by running the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] at the command prompt. The [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] file is named **Microsoft.Crm.Application.Outlook.ConfigWizard.exe** and is located in the Client\ConfigWizard folder where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. By default, the folder is C:\Program Files\Microsoft Dynamics CRM.  
   
 > [!NOTE]
->  The credentials of the user who will run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used to authenticate to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Therefore, to perform a silent configuration of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] under the user's context, such as by running a user-invoked batch file or as a one-time entry in a logon script. For more information, see [User credentials are required when you run the Configuration Wizard](install-using-command-prompt.md#BKMK_usercred_CW). To deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by using Microsoft Group Policy, see [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md).  
+>  The credentials of the user who will run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used to authenticate to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Therefore, to perform a silent configuration of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] under the user's context, such as by running a user-invoked batch file or as a one-time entry in a logon script. For more information, see [User credentials are required when you run the Configuration Wizard](install-using-command-prompt.md#BKMK_usercred_CW). To deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by using Microsoft Group Policy, see [Deploy Microsoft Dynamics 365 for Customer Engagement for Outlook by using Group Policy](deploy-using-group-policy.md).  
 > 
 >  If a path to the configuration file isn’t specified, the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] looks for the default configuration file (**default_client_config.xml**) in the non-roaming profile folder (%localappdata%\Microsoft\MSCRM\\). If the file isn’t located in the non-roaming profile folder, the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] looks for the folder where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed in the C:\Program Files\Microsoft Dynamics CRM folder.  
 > 
 >  If the configuration file is located in the roaming location used by other applications (AppData\Roaming\Microsoft\MSCRM\\), it won’t be honored.  
   
 <a name="BKMK_CommandExamp"></a>   
-## Command examples for the Dynamics 365 for Outlook configuration  
+## Command examples for the Dynamics 365 for Customer Engagement for Outlook configuration  
  The following command configures [!INCLUDE[pn_oc_laptop_short](../../includes/pn-oc-laptop-short.md)] by using a file named **config_client.xml** in quiet mode, and outputs a log file named **clientinstall.log**:  
   
 ```  
@@ -110,7 +110,7 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
  The /R parameter may be used to suppress the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] user interface and only display the progress dialog box. This parameter requires a valid XML[!INCLUDE[pn_Setup](../../includes/pn-setup.md)] file that is named Default_Client_Config.xml and must be located in either the local user AppData or Client installation folder.  
   
 <a name="Outlook_xml_config_file"></a>   
-## Dynamics 365 for Outlook XML configuration file elements  
+## Dynamics 365 for Customer Engagement for Outlook XML configuration file elements  
   
 |                                                         Element                                                         |                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
  The [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] requires user credentials. During a silent configuration, by using /Q with the Microsoft.Crm.Application.Outlook.ConfigWizard.exe file, the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] will look for the user’s credentials in the Windows Vault. If the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] can’t find the credentials, or the credentials aren’t in the required format, the configuration will not finish and an error will be recorded to the configuration log file. Notice that the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] doesn’t support adding the user UPN or password in the XML configuration file. For information about how to add user credentials from a command script to the Windows Vault, see the blog post [Silent configuration of CRM for Outlook client in CRM 2011 claims enabled environment](http://blogs.msdn.com/b/crmindia/archive/2012/12/23/silent-configuration-of-crm-for-outlook-client-in-crm-2011-claims-enabled-environment.aspx). For more information about the Windows Vault and Credential Manager, see [What is Credential Manager](http://go.microsoft.com/fwlink/p/?LinkId=513243)  
   
 <a name="BKMK_SampleConfFile"></a>   
-## Sample Dynamics 365 for Outlook XML configuration file for configuration  
+## Sample Dynamics 365 for Customer Engagement for Outlook XML configuration file for configuration  
  The following configuration file example configures [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to connect to a primary organization named *Contoso* and another organization named *AdventureWorksCycle* on the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] that is named *crmserver*.  
   
 > [!NOTE]
@@ -153,7 +153,7 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 > [!NOTE]
 >  The preceding example specifies two different organizations that the user has access to and configures [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to not display the “I want to join the Customer Experience Improvement Program” notification banner. The value in the `Organization` element can’t contain special characters or spaces. For [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)], you can find the organization unique name by running the Get-CrmOrganization [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlet or go to **Settings** > **Customizations** > **Developer Resources** and under **Instance Reference Information** copy the **Unique Name**.  
   
-### Configure Dynamics 365 for Outlook by using a script  
+### Configure Dynamics 365 for Customer Engagement for Outlook by using a script  
   
 1. Write a script that automatically updates the configuration settings for users of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. You could use lines such as the following to perform the basic configuration actions, based on a new configuration file that is stored on the computer indicated as <`servername`>.  
   
@@ -186,5 +186,5 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 2. Run the script on each client computer in the organization whose server has changed. You can run the script in various ways, including through the **Profile** tab of the user properties dialog box in [!INCLUDE[pn_Active_Directory_Users_Computers](../../includes/pn-active-directory-users-computers.md)] (ADUC), or through Group Policy Objects (GPO).  
   
 ### See Also  
- [Install Dynamics 365 for Outlook](install.md)   
+ [Install Dynamics 365 for Customer Engagement for Outlook](install.md)   
 

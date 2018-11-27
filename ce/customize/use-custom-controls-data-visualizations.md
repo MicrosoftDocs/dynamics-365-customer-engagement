@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 ms.assetid: 0d6064cd-4d38-4fc2-a564-735cb453a4b2
 caps.latest.revision: 8
@@ -91,5 +91,5 @@ Custom controls let you transform fields that traditionally contain text into vi
   
 ### See also  
  [Create and edit views](../customize/create-edit-views.md)</br>
- [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)</br>
- [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+ [Customize Dynamics 365 for Customer Engagement for phones and tablets](../customize/customize-phones-tablets.md)</br>
+ [Make grids (lists) editable in Dynamics 365 for Customer Engagement using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)

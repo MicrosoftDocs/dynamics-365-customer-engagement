@@ -1,13 +1,13 @@
 ---
-title: "System configurations (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "System configurations (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.custom: ""
 ms.date: 04/24/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"

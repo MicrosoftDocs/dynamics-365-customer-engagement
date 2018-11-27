@@ -1,5 +1,5 @@
 ---
-title: "Determine who can use a report (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Determine who can use a report (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 1dea8024-64b7-4a4e-a20d-4af5cf7338ad
 caps.latest.revision: 35
 author: "Mattp123"
@@ -25,7 +25,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 By default, a report is a personal report and can be used only by the author unless it is shared.  
-<!--> If you use [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], all reports that you own will be available when you’re offline. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](../outlook-add-in/work-offline-dynamics-365-outlook.md).  -->
+<!--> If you use [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], all reports that you own will be available when you’re offline. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Customer Engagement for Outlook](../outlook-add-in/work-offline-dynamics-365-outlook.md).  -->
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
     #### Check your security role  

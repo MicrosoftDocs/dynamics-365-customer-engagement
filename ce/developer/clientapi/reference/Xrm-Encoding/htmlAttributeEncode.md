@@ -3,7 +3,7 @@ title: "htmlAttributeEncode| MicrosoftDocs"
 ms.date: 05/09/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 6f0b4d9b-d167-4481-970e-024411c0bef3
 author: "KumarVivek"
 ms.author: "kvivek"

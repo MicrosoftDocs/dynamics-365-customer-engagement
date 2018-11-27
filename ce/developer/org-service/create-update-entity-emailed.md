@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bc1ae819-61c1-4a44-8f38-a6240975b111
 author: "JimDaly"
 ms.author: "jdaly"

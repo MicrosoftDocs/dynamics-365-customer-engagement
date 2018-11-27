@@ -1,5 +1,5 @@
 ---
-title: "Sample: Set and retrieve entity images (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Set and retrieve entity images (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 descriptions: "The sample demonstrates how to set and retrieve data for entity images."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: fa9352f2-ef46-401f-b376-d0192c9f45a7
 caps.latest.revision: 13
 author: "JimDaly"
@@ -93,5 +93,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [Image Attributes](image-attributes.md)   
- [Introduction to entity attributes in Dynamics 365](introduction-entity-attributes.md)   
- [Introduction to Entities in Dynamics 365](introduction-entities.md)
+ [Introduction to entity attributes in Dynamics 365 for Customer Engagement](introduction-entity-attributes.md)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement](introduction-entities.md)

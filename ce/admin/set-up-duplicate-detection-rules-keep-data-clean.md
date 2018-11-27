@@ -1,5 +1,5 @@
 ---
-title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: a692ee2a-ad33-47a9-978e-00331ec0f75e
 caps.latest.revision: 54
 author: "jimholtz"

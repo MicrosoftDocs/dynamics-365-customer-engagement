@@ -1,11 +1,11 @@
 ---
-title: "ExternalPartyItem Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ExternalPartyItem Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ExternalPartyItem entity."
 ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
@@ -17,7 +17,7 @@ search.app:
 ---
 # ExternalPartyItem Entity Reference
 
-Information about external party items that need to access Dynamics 365 from external channels.For internal use only
+Information about external party items that need to access Dynamics 365 for Customer Engagement from external channels.For internal use only
 
 
 ## Messages
@@ -842,6 +842,6 @@ See systemuser Entity [lk_externalpartyitem_modifiedby](systemuser.md#BKMK_lk_ex
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.externalpartyitem?text=externalpartyitem EntityType" />

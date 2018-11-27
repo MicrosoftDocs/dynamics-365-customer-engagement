@@ -1,9 +1,9 @@
 ---
-title: "openConfirmDialog (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "openConfirmDialog (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 05/02/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9c82028d-cbc9-4d40-9987-6ce1ea01fde2
 author: "KumarVivek"
 ms.author: "kvivek"

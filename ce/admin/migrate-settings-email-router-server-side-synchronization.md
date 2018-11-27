@@ -1,5 +1,5 @@
 ---
-title: "Migrate settings from the Email Router to server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Migrate settings from the Email Router to server-side synchronization for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/27/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8b1637ff-34c6-489d-ad1c-4f3c8159ae91
 caps.latest.revision: 22
 author: "jimholtz"
@@ -71,4 +71,4 @@ Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../include
 4.  Start with the queues mailboxes, and then migrate the users’ mailboxes.  
   
 ### See also  
- [Monitor email processing errors in Microsoft Dynamics 365](../admin/monitor-email-processing-errors.md)
+ [Monitor email processing errors in Microsoft Dynamics 365 for Customer Engagement](../admin/monitor-email-processing-errors.md)

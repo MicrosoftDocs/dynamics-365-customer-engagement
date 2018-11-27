@@ -1,5 +1,5 @@
 ---
-title: "System Settings dialog box - Sales tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "System Settings dialog box - Sales tab for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/09/2018
@@ -9,8 +9,8 @@ ms.custom:
   - ""
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
 author: jimholtz
 ms.author: jimholtz

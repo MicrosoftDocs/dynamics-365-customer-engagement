@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -163,7 +163,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
 ### Save  
- This action saves the current Dynamics 365 page.  
+ This action saves the current Dynamics 365 for Customer Engagement page.  
 
 <a name="SaveAll"></a>   
 ### SaveAll  

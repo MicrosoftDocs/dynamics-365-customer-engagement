@@ -5,7 +5,7 @@ ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c34cc738-8c42-4dc8-8c34-1167d00a5f67
 author: "jowells1"
 ms.author: "jowells"
@@ -179,9 +179,9 @@ Read-only, static, and constant members are inherently thread-safe and can also 
 
 ## Additional information
 
-After Dynamics 365 instantiates the plug-in class, the platform caches that plug-in instance for performance reasons. The length of time that a plug-in instance is held in cache is managed by the platform.  Certain operations, such as changing a plug-in's registration properties, will trigger a notification to the platform to refresh the cache.  In these scenarios, the plug-in will be reinitialized.
+After Dynamics 365 for Customer Engagement instantiates the plug-in class, the platform caches that plug-in instance for performance reasons. The length of time that a plug-in instance is held in cache is managed by the platform.  Certain operations, such as changing a plug-in's registration properties, will trigger a notification to the platform to refresh the cache.  In these scenarios, the plug-in will be reinitialized.
 
-Because the Dynamics 365 platform caches plug-in class instances, the constructor is not called for every invocation of plug-in execution.  For this reason, IPlugin implementations should not depend on the timing of operations in the constructor apart from obtaining static configuration data. 
+Because the Dynamics 365 for Customer Engagement platform caches plug-in class instances, the constructor is not called for every invocation of plug-in execution.  For this reason, IPlugin implementations should not depend on the timing of operations in the constructor apart from obtaining static configuration data. 
 
 Another reason IPlugins should be stateless is that multiple system threads could execute the same, shared, plug-in instance concurrently.  This opens up members of classes that implement IPlugin to potential thread-safety issues which could lead to data inconsistency or performance problems.
 

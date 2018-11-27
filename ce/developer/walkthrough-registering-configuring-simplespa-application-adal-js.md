@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Registering and configuring SimpleSPA application with adal.js (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS)"
+title: "Walkthrough: Registering and configuring SimpleSPA application with adal.js (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 for Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS)"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0346a66d-147b-40e0-a1b6-0c30815043b4
 caps.latest.revision: 14
 author: "JimDaly"
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
+This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ## Prerequisites  
   
@@ -317,9 +317,9 @@ This walkthrough describes the process of registering and configuring the simple
   
     Set the `clientId` variable in the SimpleSPA.html page to this value. Refer to step 5 of the **Create a web application project** procedure.  
   
-9. Scroll to the bottom of the page and click **Add application**. In the dialog box select **Dynamics 365 Online** and close the dialog box.  
+9. Scroll to the bottom of the page and click **Add application**. In the dialog box select **Dynamics 365 for Customer Engagement Online** and close the dialog box.  
   
-10. Under permissions to other applications, you will find a row for **Dynamics 365 Online** and **Delegated Permissions: 0**. Select this and add **Access Dynamics 365 (online) as organization users**.  
+10. Under permissions to other applications, you will find a row for **Dynamics 365 for Customer Engagement Online** and **Delegated Permissions: 0**. Select this and add **Access Dynamics 365 for Customer Engagement (online) as organization users**.  
   
 11. Save the application registration  
   
@@ -341,4 +341,4 @@ This walkthrough describes the process of registering and configuring the simple
     If you don’t get the results you expect, double-check the values you set when registering the application and configuring the SimpleSPA.html code.  
   
 ### See also  
- [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)
+ [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)

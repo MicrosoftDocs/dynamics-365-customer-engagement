@@ -1,5 +1,5 @@
 ---
-title: "Entity relationship behavior (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Entity relationship behavior (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 descriptions: "Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes"
 ms.custom: ""
 ms.date: 11/03/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "entity relationship behaviors, automating business processes"
   - "entity relationship behaviors, preserving data integrity"
@@ -157,7 +157,7 @@ The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguratio
 ### See also  
  [One-To-Many Relationships](customize-entity-relationship-metadata.md#BKMK_OneToManyRelationships)  
  [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](org-service/use-organization-service-metadata.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   

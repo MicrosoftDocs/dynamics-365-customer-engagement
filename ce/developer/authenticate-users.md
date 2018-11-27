@@ -1,6 +1,6 @@
 ---
-title: "Authenticate users in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn about the various security models for authentication that Dynamics 365 Customer Engagement supports"
+title: "Authenticate users in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn about the various security models for authentication that Dynamics 365 for Customer Engagement supports"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a9cbe79f-6f3b-44a7-aac4-f6f982bee2e5
 caps.latest.revision: 55
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Authenticate users in Dynamics 365 Customer Engagement
+# Authenticate users in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -31,19 +31,19 @@ search.app:
  The SDK assemblies simplify use of [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] technology and claims-based authentication by providing helper proxy classes that make it easy to write applications that connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services. By using these helper classes in your application, you can access any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment using the same code and you don’t have to become an expert in claims-based security or [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] programming.  
   
 ## In This Section  
- [Use OAuth to connect to Dynamics 365 web Services](connect-customer-engagement-web-services-using-oauth.md)  
+ [Use OAuth to connect to Dynamics 365 for Customer Engagement web Services](connect-customer-engagement-web-services-using-oauth.md)  
   
- [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
+ [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)  
   
 ## Related Sections  
- [Connect to Dynamics 365](connect-customer-engagement.md)  
+ [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)  
   
  [OAuth 2.0](http://oauth.net/2/)  
   
  [Authorization Code Grant Flow](https://msdn.microsoft.com/en-us/library/azure/dn645542.aspx)  
   
- [Use the Dynamics 365 Web API](use-microsoft-dynamics-365-web-api.md)  
+ [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
   
- [Use the Dynamics 365 Organization service](use-microsoft-dynamics-365-organization-service.md)
+ [Use the Dynamics 365 for Customer Engagement Organization service](use-microsoft-dynamics-365-organization-service.md)

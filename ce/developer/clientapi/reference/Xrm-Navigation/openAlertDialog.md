@@ -1,9 +1,9 @@
 ---
-title: "openAlertDialog (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "openAlertDialog (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8615a284-41b4-479c-81bd-577b3b7c79ad
 author: "KumarVivek"
 ms.author: "kvivek"

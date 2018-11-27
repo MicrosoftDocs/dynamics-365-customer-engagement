@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 00e62904-2ce9-4730-a113-02b1fedbf22e
 caps.latest.revision: 31
 author: "Mattp123"
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
-You can create business rules and recommendations to apply form logic without writing [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code or creating plug-ins.  Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to Main and Quick Create forms, and they work in Dynamics 365 for Customer Engagement apps, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web apps, [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (online or offline mode).  
+You can create business rules and recommendations to apply form logic without writing [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code or creating plug-ins.  Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to Main and Quick Create forms, and they work in Dynamics 365 for Customer Engagement for Customer Engagement apps, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web apps, [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (online or offline mode).  
 
  By combining conditions and actions, you can do any of the following with business rules:  
 

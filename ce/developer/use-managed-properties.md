@@ -1,5 +1,5 @@
 ---
-title: "Use managed properties (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use managed properties (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Managed properties help you define which of the managed solution components can be customized"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "using managed properties, setting the IsCustomizable property"
   - "unmanaged solutions, applying managed properties"
@@ -96,5 +96,5 @@ You can control which of your managed solution components are customizable by us
  [Managed properties](introduction-solutions.md#BKMK_ManagedProperties)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  <xref:Microsoft.Crm.Sdk.Messages.IsComponentCustomizableRequest>

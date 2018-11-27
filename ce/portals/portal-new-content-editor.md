@@ -1,5 +1,5 @@
 ---
-title: "Get started with the new portal content editor in Dynamics 365  | MicrosoftDocs"
+title: "Get started with the new portal content editor in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Learn how to use the new content editor for portal."
 ms.custom: 
   - dyn365-portal

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a SharePoint location record (Dynamics 365 Customer Engagement SDK)| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a SharePoint location record (Dynamics 365 for Customer Engagement SDK)| MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bc1c1d14-4be9-48fb-a7dd-bccbacd722f8
 author: KumarVivek
 ms.author: kvivek
@@ -43,5 +43,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
 ### See also  
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
- [Integrate SharePoint with Microsoft Dynamics 365 5](integrate-sharepoint.md)   
+ [Integrate SharePoint with Microsoft Dynamics 365 for Customer Engagement 5](integrate-sharepoint.md)   
  [Sample: Retrieve Absolute URL and Site Collection URL of a Location Record](sample-retrieve-absolute-url-and-site-collection-url-of-a-location-record.md)

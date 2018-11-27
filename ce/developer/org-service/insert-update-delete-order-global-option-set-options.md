@@ -1,5 +1,5 @@
 ---
-title: "Insert, update, delete, and order global option set options (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Insert, update, delete, and order global option set options (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: dfcafa54-d368-46c8-8760-19bcbc4c6797

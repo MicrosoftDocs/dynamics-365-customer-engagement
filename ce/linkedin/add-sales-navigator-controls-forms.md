@@ -1,13 +1,13 @@
 ---
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
-description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365."
+description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 for Customer Engagement."
 keywords: "custom control, sales navigator, linkedin, integration, customization"
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 41253990-3a7d-0829-8509-91273db68b82
 author: m-hartmann
 ms.author: mhart
@@ -58,7 +58,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Click path to customization area](media/customizations-nav-bar.png "Click path to customization area")
 
-2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about customizing Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview).
+2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about customizing Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview).
 
 3. Expand the **Entities** node and select the entity you want to customize. You can use virtually any entity, but for this example, we'll select the **Lead** entity and expand the node.
 

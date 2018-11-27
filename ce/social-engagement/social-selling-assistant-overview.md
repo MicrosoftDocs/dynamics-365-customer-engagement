@@ -25,7 +25,7 @@ search.app:
 
 # Empower your salespeople with the Social Selling Assistant
 
-## Meet Microsoft Dynamics 365 for Sales - Social Selling Assistant
+## Meet Microsoft Dynamics 365 for Customer Engagement for Sales - Social Selling Assistant
 
  Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services. [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] for Sales - Social Selling Assistant empowers salespeople to sell more by gaining trust, growing their network and getting connected on social media.
 
@@ -60,7 +60,7 @@ search.app:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)  
   
 ### See Also  
- [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
+ [TechNet: Extend Dynamics 365 for Customer Engagement with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
  [Get connected to the social conversation by using Microsoft Social Engagement](get-connected-social-conversation.md)   
  [Set up searches to listen to social media conversations](set-up-searches.md)   
  [Engage on social networks](engage-on-social-networks.md)

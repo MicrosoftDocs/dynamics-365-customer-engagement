@@ -1,5 +1,5 @@
 ---
-title: "Connection entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Connection entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Connection entites help you enable, create, and query connections."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "creating graphs and charts to visually represent connections"
   - "connection entities, using to create connections"
@@ -89,5 +89,5 @@ The *connections* provide a flexible way to connect and describe the relationshi
  [ConnectionRole Entity](entities/connectionrole.md)   
  [Sample Code for Connection Entities](sample-code-connection-entities.md)   
  [Business Management Entities](business-management-entities.md)   
- [View and Analyze Data with Visualizations and Dashboards in Dynamics 365](customize-dev/customize-visualizations-dashboards.md)   
+ [View and Analyze Data with Visualizations and Dashboards in Dynamics 365 for Customer Engagement](customize-dev/customize-visualizations-dashboards.md)   
  [Fiscal Calendar and Territory Entities](fiscal-calendar-and-territory-entities.md)

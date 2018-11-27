@@ -7,7 +7,7 @@ ms.reviewer: "sriknair"
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 6cba6191-4e10-4b21-823a-b0cf71ef21d5
 author: "MicroSri"
 ms.author: "jdaly"
@@ -148,8 +148,8 @@ public class Retry
 
 ### See also
 
-[Use the Dynamics 365 Organization service](use-microsoft-dynamics-365-organization-service.md)<br />
-[Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)<br />
+[Use the Dynamics 365 for Customer Engagement Organization service](use-microsoft-dynamics-365-organization-service.md)<br />
+[Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)<br />
 [Execute batch operations using the Web API](webapi/execute-batch-operations-using-web-api.md)<br />
 [Use ExecuteMultiple to improve performance for bulk data load](org-service/use-executemultiple-improve-performance-bulk-data-load.md)
 

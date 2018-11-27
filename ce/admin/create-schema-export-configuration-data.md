@@ -1,5 +1,5 @@
 ---
-title: "Create a schema to export configuration data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create a schema to export configuration data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "jimholtz"
 ms.assetid: 61660b0d-4628-436d-804c-d2538be2813e
 caps.latest.revision: 15
@@ -57,7 +57,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
    2.  To export all the entities, click **Add All** next to the **Select Entity** list.  
   
-   ![Create schema of the data to be exported in Dynamics 365](../admin/media/configure-migration-create-schema.PNG "Create schema of the data to be exported in Dynamics 365")  
+   ![Create schema of the data to be exported in Dynamics 365 for Customer Engagement](../admin/media/configure-migration-create-schema.PNG "Create schema of the data to be exported in Dynamics 365 for Customer Engagement")  
   
 7. You can select the **Show the relationships of the selected entity** to view the related entities for the selected entity so that you can export them as well.  
   
@@ -67,7 +67,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
    -   If you want to remove all the items in the **Selected Fields and Entities** and start over, click **Clear Selection**.  
   
-   ![Remove a relationship in a Dynamics 365 schema](../admin/media/config-migration-create-schema-2.png "Remove a relationship in a Dynamics 365 schema")  
+   ![Remove a relationship in a Dynamics 365 for Customer Engagement schema](../admin/media/config-migration-create-schema-2.png "Remove a relationship in a Dynamics 365 for Customer Engagement schema")  
   
 9. To validate the selected data to be exported, click **Tools** > **Validate Schema**.  
   
@@ -75,7 +75,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 10. A message is displayed if there are any missing dependencies. To close the message, click **OK**.  
   
-    ![Validation results message in Dynamics 365](../admin/media/config-migration-create-schema-3.PNG "Validation results message in Dynamics 365")  
+    ![Validation results message in Dynamics 365 for Customer Engagement](../admin/media/config-migration-create-schema-3.PNG "Validation results message in Dynamics 365 for Customer Engagement")  
   
 11. Add the missing entities, and then perform step 9 again to validate the data. A confirmation message is displayed if there are no validation errors.  
   
@@ -84,7 +84,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 12. Define the uniqueness condition for your data to be exported. To open a new screen, click **Tools** > **Configure Import Settings**. For each entity that you have selected to export, add the field or fields on which you want the records to be compared with existing records on the target system during the import. Select a field, and click **Add Field**.  
   
-    ![Configure import settings in Dynamics 365](../admin/media/config-migration-create-schema-4.PNG "Configure import settings in Dynamics 365")  
+    ![Configure import settings in Dynamics 365 for Customer Engagement](../admin/media/config-migration-create-schema-4.PNG "Configure import settings in Dynamics 365 for Customer Engagement")  
   
 13. To disable plug-ins for all the entities before the data is imported on to the target system, select the **Disable plug-ins on all entities for import** check box. The tool will disable all the plug-ins while importing data on to the target server, and re-enable them after the import process.  
   
@@ -103,7 +103,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 16. On the next screen, specify the location of the data file to be exported in the **Save to data file** box, and then click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.  
   
-    ![Screenshot of export data in Dynamics 365](../admin/media/config-migration-create-schema-5.PNG "Screenshot of export data in Dynamics 365")  
+    ![Screenshot of export data in Dynamics 365 for Customer Engagement](../admin/media/config-migration-create-schema-5.PNG "Screenshot of export data in Dynamics 365 for Customer Engagement")  
   
 17. Click **Exit** to close the tool.  
   

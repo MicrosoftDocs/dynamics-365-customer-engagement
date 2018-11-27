@@ -1,9 +1,9 @@
 ---
-title: "getInitialUrl (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getInitialUrl (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 2c6d6ab4-98a8-4444-b24a-65c140e8f192
 author: "KumarVivek"
 ms.author: "kvivek"

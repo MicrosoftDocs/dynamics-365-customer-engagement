@@ -1,9 +1,9 @@
 ---
-title: "Xrm.WebApi (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Xrm.WebApi (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a6646fc8-c2e4-43fe-95f1-51483de38688
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -41,6 +41,6 @@ Provides properties and methods to use Web API to create and manage records and 
 
 ### Related topics
 
-[Use the Dynamics 365 Customer Engagement Web API](../../use-microsoft-dynamics-365-web-api.md)
+[Use the Dynamics 365 for Customer Engagement Web API](../../use-microsoft-dynamics-365-web-api.md)
 
 [Client API Xrm object](../clientapi-xrm.md)

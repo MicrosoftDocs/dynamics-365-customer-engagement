@@ -1,5 +1,5 @@
 ---
-title: "Web API Samples (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Web API Samples (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic provides a description of various Web API samples that are implemented using Client-side JavaScript"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a32e9a04-7bc1-41dd-b9af-bb4f21a613c6
 caps.latest.revision: 15
 author: "JimDaly"
@@ -29,7 +29,7 @@ search.app:
 
 With the availability of the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods, we are working on updating the client-side JavaScript samples to use the new client API methods. Check back soon.
 
-If you are using an earlier version of Dynamics 365 Customer Engagement, see [Web API Samples (Client-side JavaScript)](https://msdn.microsoft.com/library/mt770370.aspx)
+If you are using an earlier version of Dynamics 365 for Customer Engagement, see [Web API Samples (Client-side JavaScript)](https://msdn.microsoft.com/library/mt770370.aspx)
 
 <!--This topic provides common understanding about Web API samples using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]. While each sample focuses on a different aspect of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API, they all follow similar process and structure described in this topic.  
 
@@ -69,7 +69,7 @@ If you are using an earlier version of Dynamics 365 Customer Engagement, see [We
 ## How to run the sample to see the script in action  
  The sample program runs as a web resource within [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The imported solution provides a configuration page that gives you an option to keep or delete sample data and a button to start the sample program.  For the `Basic Operations` sample, this interface looks like the following.  
   
- ![Dynamics 365 Web API Sample Configuration page](../media/crm-web-api-js-sample-configuration.png "Dynamics 365 Web API Sample Configuration page")  
+ ![Dynamics 365 for Customer Engagement Web API Sample Configuration page](../media/crm-web-api-js-sample-configuration.png "Dynamics 365 for Customer Engagement Web API Sample Configuration page")  
   
  To run the sample, do the following:  
   
@@ -155,7 +155,7 @@ If you are using an earlier version of Dynamics 365 Customer Engagement, see [We
      The `Sdk.request` function returns a promise. When the request wrapped by the promise is completed, the promise is either resolved or rejected. If it is resolved, the function in the following `then` method will be called. If it is rejected, the function in the following `catch` method will be called. If the function within the `then` method itself returns a promise, the chain of operations within consecutive `then` methods can continue. Returning a promise allows us to chain these sample operations together in a way that is preferred by many developers to traditional callback functions. For more information about promise, see [JavaScript Promise](https://msdn.microsoft.com/en-us/library/dn802826\(v=vs.94\).aspx).-->  
   
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Samples (C#)](web-api-samples-csharp.md)   
  

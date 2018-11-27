@@ -3,7 +3,7 @@ title: "getRequiredLevel (Client API reference)| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c0b6ea26-2a11-4a49-8ecf-fe700e782bf3
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -1,11 +1,11 @@
 ---
 title: "Avoid usage of batch request types in plug-ins and workflow activities | MicrosoftDocs"
-description: "You shouldn't use ExecuteMultipleRequest or ExecuteTransactionRequest message request classes within the context of a Dynamics 365 Customer Engagement plug-in or workflow activity."
+description: "You shouldn't use ExecuteMultipleRequest or ExecuteTransactionRequest message request classes within the context of a Dynamics 365 for Customer Engagement plug-in or workflow activity."
 ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 22360544-c8d8-430d-a136-3d16b409bb13
 author: "mhuguet"
 ms.author: "michu"
@@ -40,7 +40,7 @@ More specifically, use them in the following scenarios:
 
 - Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> to bulk load data or external processes that are intentional about executing long-running operations (greater than two minutes).
 
-- Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> to minimize the round trips between custom client and Dynamics 365 servers, thereby reducing the cumulative latency incurred.
+- Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> to minimize the round trips between custom client and Dynamics 365 for Customer Engagement servers, thereby reducing the cumulative latency incurred.
 
 - Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> for external clients that require the batch of operations to be committed as a single, atomic database transaction or rollback if any exception is encountered. Be aware of the potential for database blocking for the duration of the long-running transaction.
 

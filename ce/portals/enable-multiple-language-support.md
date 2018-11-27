@@ -1,5 +1,5 @@
 ---
-title: "Enable multiple-language portal support in Dynamics 365 | MicrosoftDocs"
+title: "Enable multiple-language portal support in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable multiple languages for a portal and create content in multiple languages."
 ms.custom: 
   - dyn365-portal

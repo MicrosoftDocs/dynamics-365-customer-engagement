@@ -1,14 +1,14 @@
 ---
-title: "Dynamics 365 for Sales and GDPR | MicrosoftDocs"
-description: "Know how Dynamics 365 for Sales complies with GDPR regulations."
+title: "Dynamics 365 for Customer Engagement for Sales and GDPR | MicrosoftDocs"
+description: "Know how Dynamics 365 for Customer Engagement for Sales complies with GDPR regulations."
 keywords: "Sales, GDPR"
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 722fa6d7-0d73-4fd0-a726-8148a8d55657
 author: shubhadaj
 ms.author: shujoshi
@@ -27,7 +27,7 @@ search.app:
   - D365Sales
 ---
 
-# Dynamics 365 for Sales and GDPR
+# Dynamics 365 for Customer Engagement for Sales and GDPR
 
 To comply with GDPR, we’ve made it possible to edit read-only records in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
@@ -64,4 +64,4 @@ It is also possible to update the read-only records programmatically with the SD
 
 - In case of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement system administrator's responsibility to follow the correct order. 
 
-To know more about GDPR compliance, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).
+To know more about GDPR compliance, see [Microsoft Dynamics 365 for Customer Engagement and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).

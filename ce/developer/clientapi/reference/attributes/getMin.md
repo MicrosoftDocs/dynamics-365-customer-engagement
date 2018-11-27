@@ -3,7 +3,7 @@ title: "getMin (Client API reference)| MicrosoftDocs"
 ms.date: 08/13/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9a04b52a-2bc7-4572-bd3e-8b9622602092
 author: "KumarVivek"
 ms.author: "kvivek"

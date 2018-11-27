@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a chart (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a chart (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to create, retrieve, update, and delete an organization-owned visualization. "
 keywords: ""
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 51d4ecad-3c50-4f81-bfff-aa321d62cb2c
 author: JimDaly
 ms.author: jdaly

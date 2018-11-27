@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: b312607a-d231-41fc-ba9d-259e0c76af4e
@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[Optionsets#CreateOptionSet](../../snippets/csharp/CRMV8/optionsets/cs/createoptionset.cs#createoptionset)]  
   
 ### See also  
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
- [Customize Global Option Sets in Dynamics 365](customize-global-option-sets.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
+ [Customize Global Option Sets in Dynamics 365 for Customer Engagement](customize-global-option-sets.md)   
  [Sample: Work with Global Option Sets](sample-work-global-option-sets.md)   
  [Customize global option sets](customize-global-option-sets.md)

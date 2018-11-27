@@ -1,5 +1,5 @@
 ---
-title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about using access teams and owner teams to colloborate and share information."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "owner team"
   - "team template"
@@ -133,5 +133,5 @@ With *owner* teams or *access* teams, you can easily share business objects and 
  [TeamTemplate Entity](entities/teamtemplate.md)   
  [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)   
  [Use record-based security to control access to records](security-dev/use-record-based-security-control-access-records.md)   
- [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md)   
+ [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement](security-dev/how-role-based-security-control-access-entities.md)   
  [Cascading Behavior](entity-relationship-behavior.md#BKMK_CascadingBehavior)

@@ -1,5 +1,5 @@
 ---
-title: "Use FetchXML to construct a query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use FetchXML to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses how to create and execute a FetchXML query "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "using FetchXML to construct queries, building the XML query strings"
   - "FetchXML queries, how privileges of logged-on users affect the returned records"

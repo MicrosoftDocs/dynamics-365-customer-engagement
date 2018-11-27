@@ -1,5 +1,5 @@
 ---
-title: "Define ribbon enable rules (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Define ribbon enable rules (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining specific rules to control when the ribbon elements are enabled during configuration of ribbon elements. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "ribbon, enable controls"
 ms.assetid: f17819f8-e963-43e1-8895-36bf0cc32b0f

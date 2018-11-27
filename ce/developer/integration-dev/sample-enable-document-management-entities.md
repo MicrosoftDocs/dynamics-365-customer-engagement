@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3272e732-908d-461f-be4d-81a94bfc9afb
 author: KumarVivek
 ms.author: kvivek
@@ -42,7 +42,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[SharePointIntegration#EnableDocumentManagement](../../snippets/csharp/CRMV8/sharepointintegration/cs/enabledocumentmanagement.cs#enabledocumentmanagement)]  
   
 ### See also  
- [Integrate SharePoint with Microsoft Dynamics 365](integrate-sharepoint.md)   
+ [Integrate SharePoint with Microsoft Dynamics 365 for Customer Engagement](integrate-sharepoint.md)   
  [Enable SharePoint Integration](enable-document-management-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   
  [Sample: CrmServiceHelper Class](../org-service/helper-code-serverconnection-class.md)   

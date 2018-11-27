@@ -1,6 +1,6 @@
 ---
-title: "Set up product bundles to sell multiple items together (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
+title: "Set up product bundles to sell multiple items together (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Combine products in a bundle in Dynamics 365 for Customer Engagement for Sales to sell multiple items together."
 keywords: "Bundle, Product Bundle"
 ms.date: 04/01/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 1b15ac3d-9cce-4ad8-8014-5e89e0a709f4
 author: shubhadaj
 ms.author: shujoshi

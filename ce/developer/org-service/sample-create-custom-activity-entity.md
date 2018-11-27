@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create a custom activity entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create a custom activity entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create a custom activity entity. It uses the CreateEntityRequest message and sets the EntityMetadata.IsActivity property to true."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d227f8b1-65c7-4d08-9fdc-6162c3f0bdbb
 author: "JimDaly"
 ms.author: "jdaly"
@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[entities#CreateCustomActivityEntity](../../snippets/csharp/CRMV8/entities/cs/createcustomactivityentity.cs#createcustomactivityentity)]  
   
 ### See also  
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
  [Create a Custom Activity Entity](create-custom-activity-entity.md)   
  [Customize entity metadata](../customize-entity-metadata.md)   
  [Sample: Create and Update an Emailable Entity](sample-create-update-emailable-entity.md)   

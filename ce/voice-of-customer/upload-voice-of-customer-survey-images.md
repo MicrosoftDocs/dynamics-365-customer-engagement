@@ -1,5 +1,5 @@
 ---
-title: "Upload images for your Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
+title: "Upload images for your Voice of the Customer for Dynamics 365 for Customer Engagement surveys | MicrosoftDocs"
 ms.assetid: 7ec3635f-c77f-4a24-bc61-4f8e2d9999e8
 description: ""
 keywords: ""
@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey
 author: sbmjais
 ms.author: shjais

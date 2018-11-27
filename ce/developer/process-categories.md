@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Process categories (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Processes enable you to model real-life business processes, for example best practices or standard practices, in Dynamics 365 Customer Engagement. When modeling your business practices, you can choose from four categories of processes: Workflow, Action, Business Process Flow, and Dialog."
+title: "Dynamics 365 for Customer Engagement Process categories (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Processes enable you to model real-life business processes, for example best practices or standard practices, in Dynamics 365 for Customer Engagement. When modeling your business practices, you can choose from four categories of processes: Workflow, Action, Business Process Flow, and Dialog."
 ms.custom: ""
 ms.date: 12/16/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8c19b218-311b-42bc-be37-c91e07c01661
 caps.latest.revision: 41
 author: "JimDaly"
@@ -79,9 +79,9 @@ For more information about plug-ins, see [Write plug-ins to extend business proc
 
 ## Distributing workflows in solutions
 
-You can include workflows and custom workflow activities in a solution that is imported into another [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment. However, if you refer to specific entity instances in a workflow and the workflow is moved into another system, problems will arise because the unique IDs of the entity instances in the workflow will differ from those in the target system.  Dynamics 365 automatically resolves system user and currency entity records based on the full name property, but it won't automatically resolve records for other entity types.  
+You can include workflows and custom workflow activities in a solution that is imported into another [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment. However, if you refer to specific entity instances in a workflow and the workflow is moved into another system, problems will arise because the unique IDs of the entity instances in the workflow will differ from those in the target system.  Dynamics 365 for Customer Engagement automatically resolves system user and currency entity records based on the full name property, but it won't automatically resolve records for other entity types.  
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md).  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md).  
 
 ### See also
 

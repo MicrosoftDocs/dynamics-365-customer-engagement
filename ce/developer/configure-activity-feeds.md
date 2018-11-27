@@ -1,5 +1,5 @@
 ---
-title: "Configure activity feeds (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Configure activity feeds (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following sections contain information about how to configure your system for activity feeds."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "configuring activity feeds, auto post rules; plug-ins; workflows; and wall controls"
   - "plug-ins and workflows, configuring activity feeds"
@@ -75,11 +75,11 @@ The following sections contain information about how to configure your system fo
 `{Post URL(Dynamic)(Modified By (User))}`  
 To add dynamic values, use the workflow designer **Form Assistant** in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Web workflow designer.  
   
- For more information about plug-ins and workflows, see [Plug-ins for Extending Dynamics 365](write-plugin-extend-business-processes.md) and [Processes in Dynamics 365 (formerly Workflows)](automate-business-processes-customer-engagement.md)  
+ For more information about plug-ins and workflows, see [Plug-ins for Extending Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md) and [Processes in Dynamics 365 for Customer Engagement (formerly Workflows)](automate-business-processes-customer-engagement.md)  
   
 <a name="WallControls"></a>   
 ## Wall controls  
- The activity feeds walls are web resources that can be embedded in dashboards in context with relevant grids and visualizations. For more information about how to use web resources in dashboards, see [Analyze Data with Dashboards](customize-dev/analyze-data-with-dashboards.md). For more information about web resources, see [Web Resources for Dynamics 365](web-resources.md).  
+ The activity feeds walls are web resources that can be embedded in dashboards in context with relevant grids and visualizations. For more information about how to use web resources in dashboards, see [Analyze Data with Dashboards](customize-dev/analyze-data-with-dashboards.md). For more information about web resources, see [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md).  
   
  To learn more about available out-of-the-box wall controls, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Help.  
   
@@ -93,6 +93,6 @@ To add dynamic values, use the workflow designer **Form Assistant** in [!INCLUDE
  [Activity Feeds Entities](activity-feeds-entities.md)   
  [Introduction to Activity Feeds](introduction-activity-feeds.md)   
  [Sample: Collaborate with Activity Feeds](sample-collaborate-with-activity-feeds.md)   
- [Plug-ins for Extending Dynamics 365](write-plugin-extend-business-processes.md)   
- [Processes in Dynamics 365 (formerly Workflows)](automate-business-processes-customer-engagement.md)   
+ [Plug-ins for Extending Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)   
+ [Processes in Dynamics 365 for Customer Engagement (formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Connect to Yammer](connect-yammer.md)

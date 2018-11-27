@@ -1,5 +1,5 @@
 ---
-title: "Recurrence pattern in asynchronous job execution (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Recurrence pattern in asynchronous job execution (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn about executing asynchronous system operations one time or on a recurring basis by using a recurrence rule. Use the AsyncOperation.RecurrencePattern attribute to specify the recurrence rule."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: abfb5df5-138b-4c7e-8730-4903aa2be3d3
 caps.latest.revision: 16
 author: "JimDaly"
@@ -49,7 +49,7 @@ You can execute asynchronous system operations one time or on a recurring basis 
  <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest.StartDateTime>   
  <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest.RecurrencePattern>   
  <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest.RecurrenceStartTime>   
- [Delete Data in Bulk in Dynamics 365](delete-data-bulk.md)   
+ [Delete Data in Bulk in Dynamics 365 for Customer Engagement](delete-data-bulk.md)   
  [Asynchronous Operation (system job) Entity](asyncoperation-system-job-entity.md)   
- [Asynchronous Service in Dynamics 365](asynchronous-service.md)   
+ [Asynchronous Service in Dynamics 365 for Customer Engagement](asynchronous-service.md)   
  [Supported entities for asynchronous operations](supported-entities-asynchronous-operations.md)

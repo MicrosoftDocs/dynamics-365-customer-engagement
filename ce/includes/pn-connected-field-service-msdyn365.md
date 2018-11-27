@@ -1,1 +1,1 @@
-Connected Field Service for Dynamics 365
+Connected Field Service for Dynamics 365 for Customer Engagement

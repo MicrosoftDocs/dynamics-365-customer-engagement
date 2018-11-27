@@ -1,6 +1,6 @@
 ---
-title: "Create and manage websites in Dynamics 365 Portal | MicrosoftDocs"
-description: "Learn how to create and manage websites in Dynamics 365 Portal."
+title: "Create and manage websites in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
+description: "Learn how to create and manage websites in Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 10/16/2018

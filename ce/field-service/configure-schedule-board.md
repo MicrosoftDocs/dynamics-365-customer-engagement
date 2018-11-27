@@ -1,5 +1,5 @@
 ---
-title: "Configure the schedule board (Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+title: "Configure the schedule board (Dynamics 365 for Customer Engagement for Field Service and Dynamics 365 for Customer Engagement for Project Service Automation) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -11,8 +11,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: krbjoran
 ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
@@ -52,13 +52,13 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
  When you’re looking at the schedule board for the current day, you’ll see a blue line which indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
- ![Schedule board color coding in Dynamics 365 field service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 field service")  
+ ![Schedule board color coding in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 for Customer Engagement field service")  
   
 <a name="BKMK_ConfigureFilter-MapOver"></a>   
 ## Configure the filter and map view  
  Map view shows the location of resources, organizational units, bookings, and requirements. The screenshot below shows the color legend.  
   
- ![Schedule board filter and map view in Dynamics 365 field service](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 field service")  
+ ![Schedule board filter and map view in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 for Customer Engagement field service")  
   
 ### Set filters  
   
@@ -198,7 +198,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
 
 ### See also   
-[Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+[Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
 [Create a work order](../field-service/create-work-order.md)   
 [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
 [Schedule a work order](../field-service/schedule-work-order.md)

@@ -1,6 +1,6 @@
 ---
-title: "Create an entity using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Read how to create a POST request to send data to create an entity on Dynamics 365 using the Web API"
+title: "Create an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Read how to create a POST request to send data to create an entity on Dynamics 365 for Customer Engagement using the Web API"
 ms.custom: ""
 ms.date: 11/16/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 244259ca-2fbc-4fd4-9a74-6166e6683355
 caps.latest.revision: 51
 author: "JimDaly"

@@ -37,7 +37,7 @@ search.app:
 ### Increase engagement by using Disqus 
  [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] introduces [!INCLUDE[tn_disqus](../includes/tn-disqus.md)] as an additional data source. [!INCLUDE[tn_disqus](../includes/tn-disqus.md)] is used by millions of websites, including blogs and news sites, to allow comments and discussions by users on relevant topics. [!INCLUDE[tn_disqus](../includes/tn-disqus.md)] is available as a self-service source in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and allows users to gather relevant data by defining keyword search topics. 
  
-### Secure your integration of Microsoft Dynamics 365 with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
+### Secure your integration of Microsoft Dynamics 365 for Customer Engagement with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  To ensure that only the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] domains you own can make requests to your data in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you now need to explicitly add your [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] domains as allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. If you are a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator, you can do this by going to **Settings** > **Allowed Domains**. Add only your owned [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] domains as allowed domains to enable communication with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
  
 > [!NOTE]
@@ -45,7 +45,7 @@ search.app:
  
 ## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.11 
  
-### Dynamics 365 update 
+### Dynamics 365 for Customer Engagement update 
  We recently launched the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] suite of applications. As part of this, you will now see the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] brand name referenced throughout the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] application. Previous references to Dynamics CRM are now replaced with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Note that this does not affect any of your existing connections or integration functionality with Dynamics CRM instances. 
  
 ### New Stats panel for automation rules 
@@ -75,8 +75,8 @@ search.app:
 ### Share posts within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] through a link 
  As you work with posts, you can now generate internal links to easily share posts with other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users in your organization. To generate a link for a post, click the **Copy Internal URL** button in the post details. 
  
-### Refresh Dynamics 365 connections to update entity metadata 
- We recently introduced the ability to update metadata in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by refreshing a Dynamics 365 connection. We've now extended this to also refresh Dynamics 365 entity metadata on the Dynamics 365 connection. When you refresh a connection, you'll be notified if any Dynamics 365 entities or entity attributes are no longer available, and then they'll be automatically removed from the Dynamics 365 connection. 
+### Refresh Dynamics 365 for Customer Engagement connections to update entity metadata 
+ We recently introduced the ability to update metadata in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by refreshing a Dynamics 365 for Customer Engagement connection. We've now extended this to also refresh Dynamics 365 for Customer Engagement entity metadata on the Dynamics 365 for Customer Engagement connection. When you refresh a connection, you'll be notified if any Dynamics 365 for Customer Engagement entities or entity attributes are no longer available, and then they'll be automatically removed from the Dynamics 365 for Customer Engagement connection. 
  
 ## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.9 
  
@@ -109,7 +109,7 @@ search.app:
  To change the owner of a search topic, go to that search topic in Search Setup, and then edit the owner. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md), [Create or delete a search topic](create-delete-search-topic.md) 
  
 ### Include or exclude groups from the Assignee filter 
- We have extended the filtering capability for the Assignee filter by letting you specify whether to include Office 365 Groups for Dynamics 365. When you filter on a post assigned to a user, you can now specify whether you want to include posts assigned to any groups that the user is a member of. Previously we included posts assigned to groups a user is a member of along with posts directly assigned to that user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assignee](understand-filters.md#assignee_filter) 
+ We have extended the filtering capability for the Assignee filter by letting you specify whether to include Office 365 Groups for Dynamics 365 for Customer Engagement. When you filter on a post assigned to a user, you can now specify whether you want to include posts assigned to any groups that the user is a member of. Previously we included posts assigned to groups a user is a member of along with posts directly assigned to that user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assignee](understand-filters.md#assignee_filter) 
  
 ### Multiple search rule creation for Instagram, custom sources, and private messages 
  To quickly create search topics with several rules, you can now create multiple rules for [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts, custom sources, and private messages at the same time. You'll be able to create multiple rules at once for those source types, similar to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The selected profiles will be saved as individual rules under the selected search topic. 
@@ -132,10 +132,10 @@ search.app:
  
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](add-rules-search-topic.md#addKeywordsRule), [Manage access tokens](manage-access-tokens.md) 
  
-### Link to Dynamics 365 is now available for Professional licenses 
+### Link to Dynamics 365 for Customer Engagement is now available for Professional licenses 
  We’re excited to announce that all customers using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in combination with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can now create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Users with a Professional license can now link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and trigger a workflow in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. While users with a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Professional license now can create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] from single posts, the automated record creation using automation rules continues to be available for Enterprise licenses only. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [Integrate Social Engagement with Office 365](manage-licenses.md) 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365 for Customer Engagement](link-posts-to-dynamics-365.md), [Integrate Social Engagement with Office 365](manage-licenses.md) 
  
 ### New and faster acquisition of posts from Facebook pages 
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] has significantly improved the data freshness of posts and comments from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. To start using the new data acquisition, you need to add at least one [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile to the social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Authenticated [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profiles generate a User Access token on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]. Tokens authenticated for data acquisition usually have a lifetime of about 60 days, due to [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]'s requirements. Administrators and profile owners will receive email notifications when a profile is about to expire. 
@@ -224,7 +224,7 @@ search.app:
  
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md) 
  
-### Open linked social posts with the interactive experience in Dynamics 365 
+### Open linked social posts with the interactive experience in Dynamics 365 for Customer Engagement 
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] recently introduced the new [interactive service hub](http://go.microsoft.com/fwlink/p/?LinkID=690167)that offers a different user experience from the web client. For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities that are enabled for interactive experience, we now automatically take you to the interactive service hub when you open a record on a social post that is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities not enabled for interactive experience will continue to be opened in the web client. 
  
 ### Engage with social profiles 
@@ -232,14 +232,14 @@ search.app:
  
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md) 
  
-### Fewer pop-ups when linking posts to Dynamics 365 (online) 
+### Fewer pop-ups when linking posts to Dynamics 365 for Customer Engagement (online) 
  The authentication mechanism has changed for linking a social post to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] from client-side to server-side. With this change you will no longer see authentication pop-ups when linking a post or viewing a linked post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
  
  However, you may still see pop-ups when you link or view a post if you have a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance that is older than the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Online 2016 update, is located in the North America 2 datacenter, or is on-premises. 
  
  The feature will be rolled out gradually for a smooth transition. No action is required on your part. 
  
- To learn more about this feature, see [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md) 
+ To learn more about this feature, see [Link posts from Social Engagement to Dynamics 365 for Customer Engagement](link-posts-to-dynamics-365.md) 
  
 ## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.4 
  
@@ -287,7 +287,7 @@ search.app:
 ### Share a link from a post found in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be it on a stream in Social Center, or in the post list in Analytics, you can share this post to your peers with a few clicks. Simply click the **Post Link** button and add some text to your post. Choose the social profile to post to, and you’re done. Give it a try. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md) 
  
-### Improvements to Link-to-Dynamics 365 user experience 
+### Improvements to Link-to-Dynamics 365 for Customer Engagement user experience 
  We introduced improvements when requesting information from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] discovery service and updated the error messages when there's an issue with the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Authentication requests are now handled more smoothly when you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. 
  
 ## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.2 
@@ -324,8 +324,8 @@ search.app:
 ### Add photos when publishing a post 
  When authoring a fresh post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can now add photos to your posts. Create visually-appealing posts on Twitter and Facebook pages when interacting with your audience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md) 
  
-### Create records from social posts in Microsoft Dynamics 365 (on-premises) (IFD-enabled) 
- Admins can now connect their organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to a Microsoft Dynamics 365 (on-premises) instance. The new capabilities offer another level of operational efficiency to your sales, marketing, and service teams who are using the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
+### Create records from social posts in Microsoft Dynamics 365 for Customer Engagement (on-premises) (IFD-enabled) 
+ Admins can now connect their organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to a Microsoft Dynamics 365 for Customer Engagement (on-premises) instance. The new capabilities offer another level of operational efficiency to your sales, marketing, and service teams who are using the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365 for Customer Engagement](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
  
 ## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1 
  
@@ -341,6 +341,6 @@ search.app:
 ### Publish tweets and posts to Facebook pages from Social Center 
  Reach out proactively to your audience by composing new posts as an integrated experience for either [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages in Social Center. In addition to the reactive interactions, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now lets you compose new tweets or posts to [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages directly from Social Center. All you need is an authenticated social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to start reaching out to your audience immediately! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md) 
  
-### Filtering for posts linked to Dynamics 365 
+### Filtering for posts linked to Dynamics 365 for Customer Engagement 
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now allows filtering for posts that are either linked or not linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Apply a filter for your data set and find linked posts quickly. Build streams and workflows to track the posts that require your attention. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get to know your filters](understand-filters.md) 
  

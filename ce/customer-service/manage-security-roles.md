@@ -1,11 +1,11 @@
 ---
-title: Manage security roles in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to manage security roles in service scheduling in Dynamics 365 for Customer Service
-keywords: Resources; Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
+title: Manage security roles in Service Scheduling (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Know how to manage security roles in service scheduling in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -45,7 +45,7 @@ The following standard security roles are leveraged in service scheduling:
 
    ![csm-role](media/csm-role.PNG)
 
-   To know more about how to create users and assign role to them, see [Create users in Dynamics 365 (online) and assign security roles](../admin/create-users-assign-online-security-roles.md). 
+   To know more about how to create users and assign role to them, see [Create users in Dynamics 365 for Customer Engagement (online) and assign security roles](../admin/create-users-assign-online-security-roles.md). 
 
 - **Customer Service Representative (CSR)**. The Customer Service Representative can create and schedule service activities. 
 

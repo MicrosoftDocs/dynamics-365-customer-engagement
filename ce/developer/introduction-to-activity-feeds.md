@@ -1,5 +1,5 @@
 ---
-title: "Introduction to activity feeds (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Introduction to activity feeds (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "retrieving posts and pages of posts, for displaying on personal or record walls"
   - "activity feed posts, character limits (character limits)"
@@ -135,7 +135,7 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
 
  If you create the `PostFollow` record for the account A and set the `OwnerId` on the `PostFollow` to the user B, then the user B follows the account A.  
 
- For more information about the role-based and record-based security, see, [The Security Model of Dynamics 365](security-dev/security-model.md).  
+ For more information about the role-based and record-based security, see, [The Security Model of Dynamics 365 for Customer Engagement](security-dev/security-model.md).  
 
 ### See also  
  [Activity Feeds Entities](activity-feeds-entities.md)   

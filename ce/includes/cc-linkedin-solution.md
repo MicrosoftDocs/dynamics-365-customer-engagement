@@ -1,1 +1,1 @@
-Dynamics 365 Connector for LinkedIn Lead Gen Forms
+Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms

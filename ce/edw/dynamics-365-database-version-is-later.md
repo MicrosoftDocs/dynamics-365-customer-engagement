@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 database version is later than expected | Microsoft Docs"
+title: "Microsoft Dynamics 365 for Customer Engagement database version is later than expected | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 database version is later than expected
+# Microsoft Dynamics 365 for Customer Engagement database version is later than expected
 
 ## Cause
   

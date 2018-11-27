@@ -1,5 +1,5 @@
 ---
-title: "Edit properties of a Dynamics 365 (online) instance | MicrosoftDocs"
+title: "Edit properties of a Dynamics 365 for Customer Engagement (online) instance | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 3aa9c165-78b7-4c1b-a7c0-25cec0250ead
 caps.latest.revision: 4
 author: "jimholtz"
@@ -64,7 +64,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
   
        In this situation, the first URL name change to *fourthcoffeemktg.crm.dynamics.com* will be immediately removed from the system. The new URL, *fourthcoffeesalesandmktg.crm.dynamics.com*, will become active. Additionally, the original URL, *fourthcoffeesales.crm.dynamics.com*, will be active for up to 24 hours.  
   
-   - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the **Manage all Dynamics 365 (online) instances** page, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments, you can enter *Contoso Sales and Marketing* or, if the instance is for development and testing, enter a relevant name such as *Contoso Development*.  
+   - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the **Manage all Dynamics 365 for Customer Engagement (online) instances** page, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments, you can enter *Contoso Sales and Marketing* or, if the instance is for development and testing, enter a relevant name such as *Contoso Development*.  
   
    - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Learn more: [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)  
   
@@ -76,7 +76,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
 ### See also  
  [Add an instance to your subscription](../admin/add-instance-subscription.md)   
  [Switch an instance](../admin/switch-instance.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
+ [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Manage storage for Microsoft Dynamics 365 (online)](../admin/manage-storage.md)
+ [Manage storage for Microsoft Dynamics 365 for Customer Engagement (online)](../admin/manage-storage.md)
  [User session and access management](user-session-management.md)

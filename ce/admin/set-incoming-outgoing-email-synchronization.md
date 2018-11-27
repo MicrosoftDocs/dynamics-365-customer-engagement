@@ -1,5 +1,5 @@
 ---
-title: "Set incoming and outgoing email synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Set incoming and outgoing email synchronization for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 17128669-8d3d-45fb-9a54-4b1dbf56ed4b
 caps.latest.revision: 14
 author: "jimholtz"
@@ -40,14 +40,14 @@ You can set the synchronization method for individual mailboxes:
   
 2.  Click **Mailboxes** > select a mailbox.  
   
-For information on picking a synchronization method, see [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md).  
+For information on picking a synchronization method, see [Integrate your email system with Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md).  
   
 ## Incoming email messaging options  
  The available incoming email configurations that you can use when a user or a queue receives [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] email messages are as follows:  
   
 - **None**. Use this option for users or queues that do not use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to track received email messages.  
   
-- **Dynamics 365 for Outlook**. This option is available for users and requires that [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)] be installed on the user's computer. This option does not require the Email Router component and is not available for queues.  
+- **Dynamics 365 for Customer Engagement for Outlook**. This option is available for users and requires that [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)] be installed on the user's computer. This option does not require the Email Router component and is not available for queues.  
   
 - **Server-Side Synchronization or Email Router**. When you select this option, the server-side synchronization or Email Router will process [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] email messages directly from the user's or queue's inbox, without using a forward or a sink mailbox. Although this option does not require a sink mailbox, it does make troubleshooting server-side synchronization or Email Router issues more complex for larger user bases (10 or more users) because each incoming email message is processed by the server-side synchronization or Email Router in every user's mailbox instead of in a single dedicated mailbox.  
   
@@ -58,7 +58,7 @@ For information on picking a synchronization method, see [Integrate your email s
   
 - **None**. Use this option for users or queues that do not use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to send email messages.  
   
-- **Dynamics 365 for Outlook**. This option is available for users and requires that [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)] be installed on the user's computer. This option does not require the Email Router component and is not available for queues.  
+- **Dynamics 365 for Customer Engagement for Outlook**. This option is available for users and requires that [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)] be installed on the user's computer. This option does not require the Email Router component and is not available for queues.  
   
 - **Server-Side Synchronization or Email Router**. This option delivers [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] email messages by using the server-side synchronization or Email Router component. The email system must be [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)]-compliant. The server-side synchronization or Email Router can be installed on the [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)] server or on a different computer that has a connection to the [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)] server.  
   

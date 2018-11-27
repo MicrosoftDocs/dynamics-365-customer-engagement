@@ -1,5 +1,5 @@
 ---
-title: "Help and additional resources for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Help and additional resources for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 4cdcdd7b-ced2-40bc-adc4-dd7ea2445e44
 caps.latest.revision: 4
 author: "jimholtz"
@@ -37,9 +37,9 @@ There are several resources available to you covering planning, operating, and u
 
  The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:    
   
--   [Administer Dynamics 365 Customer Engagement](admin-guide.md)  
+-   [Administer Dynamics 365 for Customer Engagement](admin-guide.md)  
   
--   [What's new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
+-   [What's new in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
 
 <a name="More_help"></a>   
 
@@ -59,9 +59,9 @@ There are several resources available to you covering planning, operating, and u
   
 <a name="crmtrustcenter"></a>   
 
-## Microsoft Dynamics 365 (online) Trust Center 
+## Microsoft Dynamics 365 for Customer Engagement (online) Trust Center 
  
- [The Microsoft Dynamics 365 (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ [The Microsoft Dynamics 365 for Customer Engagement (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
    
 <a name="support_and_service"></a>   
 

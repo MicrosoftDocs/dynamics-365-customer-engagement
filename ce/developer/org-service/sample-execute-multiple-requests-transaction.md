@@ -1,5 +1,5 @@
 ---
-title: "Sample: Execute multiple requests in transaction (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Execute multiple requests in transaction (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to execute multiple organization message requests in a single database transaction by using a single web service method call, passing ExecuteTransactionRequest as a parameter"
 keywords: ""
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1ba7b824-6cbf-41f8-87a3-901d42ab5aa1
 author: JimDaly
 ms.author: jdaly

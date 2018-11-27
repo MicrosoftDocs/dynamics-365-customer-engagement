@@ -1,6 +1,6 @@
 ---
-title: "Privilege and role entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "A privilege is a permission to perform an action on a specific entity type in Dynamics 365. The platform checks for the privilege and fails if the user does not hold the privilege. A privilege has an associated access level that determines the depth within the organization to which the privilege applies."
+title: "Privilege and role entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "A privilege is a permission to perform an action on a specific entity type in Dynamics 365 for Customer Engagement. The platform checks for the privilege and fails if the user does not hold the privilege. A privilege has an associated access level that determines the depth within the organization to which the privilege applies."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "role or security role, definition"
   - "privilege, definition"
@@ -33,7 +33,7 @@ A *privilege* is a permission to perform an action on a specific entity type in 
   
  A *role*, or security role, is a grouping of security privileges. Users are assigned roles that authorize their access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user must be assigned to at least one role. It isn’t sufficient to be a member of a team that has an assigned role.  
   
- For more information about access levels and roles, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md).  
+ For more information about access levels and roles, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement](security-dev/how-role-based-security-control-access-entities.md).  
   
  The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Key to Entity Diagrams](key-entity-diagrams.md)  
   

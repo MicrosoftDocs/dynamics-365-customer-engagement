@@ -1,6 +1,6 @@
 ---
-title: "Configure Azure integration with Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic describes configuring Azure integration with Dynamics 365 Customer Engagement."
+title: "Configure Azure integration with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic describes configuring Azure integration with Dynamics 365 for Customer Engagement."
 ms.custom: ""
 ms.date: 05/16/2018
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 79e49782-edd1-41ef-b110-2c2ed0771058
 caps.latest.revision: 62
 author: "JimDaly"
@@ -20,14 +20,14 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Configure Azure integration with Dynamics 365 Customer Engagement
+# Configure Azure integration with Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can post the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, perform the tasks detailed in this topic.  
 
 > [!NOTE]
-> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365](https://msdn.microsoft.com/library/gg309340.aspx)
+> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365 for Customer Engagement](https://msdn.microsoft.com/library/gg309340.aspx)
   
 
 <a name="bkmk_configureappfabric"></a>
@@ -36,7 +36,7 @@ You can post the message request data for the current core operation to cloud ho
 
 When you use SAS for authorization, you need to configure the rules and issuers of your [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution to allow a listener application to read the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] message posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. In addition, you must configure the service bus rules to accept the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] issuer claim. The recommended method to configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] is to use the Plug-in Registration Tool.  
   
-For instructions on configuring authorization see [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md).  
+For instructions on configuring authorization see [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement](walkthrough-configure-azure-sas-integration.md).  
 
 ## Test Configuration
 
@@ -78,7 +78,7 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
   
 ### See also
 
-[Azure Extensions for Dynamics 365](azure-extensions.md)<br />
+[Azure Extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)<br />
 [Writing a Plug-in](write-plugin.md)<br />
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />

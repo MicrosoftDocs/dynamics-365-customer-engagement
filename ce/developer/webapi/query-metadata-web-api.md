@@ -1,5 +1,5 @@
 ---
-title: "Query metadata using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Query metadata using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The capability to query system metadata is available using the Web API as well as using the organization service by using RetrieveMetadataChangesRequest"
 ms.custom: ""
 ms.date: 11/04/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3ad4a332-a304-421f-a9fa-82ea3e0503fe
 caps.latest.revision: 18
 author: "brandonsimons" # GitHub ID
@@ -345,7 +345,7 @@ You can use the `GlobalOptionSetDefinitions` entity set path to retrieve informa
 
 ### See also
 
-[Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md)<br />
+[Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md)<br />
 [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)<br />
 [Metadata entites and attributes using the Web API](create-update-entity-definitions-using-web-api.md)<br />
 [Metadata entity relationships using the Web API](create-update-entity-relationships-using-web-api.md)

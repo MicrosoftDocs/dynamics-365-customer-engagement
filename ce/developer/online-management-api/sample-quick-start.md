@@ -1,10 +1,10 @@
 ---
-title: "Quick Start Sample: Retrieve Customer Enagament instances using Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Quick Start Sample: Retrieve Customer Enagament instances using Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "The C# sample demonstrates how to authenticate to the Online Management API and then retrieve all Customer Engagement instances from your Office 365 tenant."
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 63600a55-a1f0-491f-83f6-b3252566d27e
 author: "KumarVivek"
 ms.author: "kvivek"

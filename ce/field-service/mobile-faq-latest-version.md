@@ -1,5 +1,5 @@
 ---
-title: "What is the latest version of the mobile app and related Woodford version? Dynamics 365 for Field Service | MicrosoftDocs"
+title: "What is the latest version of the mobile app and related Woodford version? Dynamics 365 for Customer Engagement for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/25/2018
@@ -11,8 +11,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -44,7 +44,7 @@ After the October 2018 Field Service release, the mobile app will be updated to 
 
 To find your installed Woodford solution version number, open a non-private Internet Explorer window and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
-![Screenshot of the Woodford solution in the Dynamics 365 menu](media/Mobile-FAQs-image3.png)
+![Screenshot of the Woodford solution in the Dynamics 365 for Customer Engagement menu](media/Mobile-FAQs-image3.png)
 
 ![Screenshot of the installed and available Woodford solution version numbers](media/Mobile-FAQs-image4.png)
 

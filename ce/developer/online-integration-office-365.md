@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 (online) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn how Dynamics 365 (online) customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 (online) with Office 365"
+title: "Dynamics 365 for Customer Engagement (online) Integration with Office 365 (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how Dynamics 365 for Customer Engagement (online) customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 for Customer Engagement (online) with Office 365"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 24a41d45-e8dc-47f0-8faf-65cb01ab7f3c
 caps.latest.revision: 48
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 (online) Integration with Office 365
+# Dynamics 365 for Customer Engagement (online) Integration with Office 365
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -29,7 +29,7 @@ This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_onl
  This topic provides information about where users’ identities are created and managed, and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
 ## Identity management with Microsoft Online Services  
- When accessing the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services, your applications should know the identity provider associated with the logged on user’s [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] account. Configuration of the user’s authentication credentials for accessing the web services through SDK calls is slightly different for each provider. The details on how to configure user credentials for each identity provider and access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services is discussed in the topic [Access the Dynamics 365 (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md).  
+ When accessing the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services, your applications should know the identity provider associated with the logged on user’s [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] account. Configuration of the user’s authentication credentials for accessing the web services through SDK calls is slightly different for each provider. The details on how to configure user credentials for each identity provider and access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services is discussed in the topic [Access the Dynamics 365 for Customer Engagement (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md).  
   
  There are two identity providers supported by [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)]: User ID, and [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] (through cloud federation). The following discussion provides an overview of these identity services and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
@@ -48,7 +48,7 @@ This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_onl
   
 ### See also  
  [Connect with Microsoft Office 365](connect-microsoft-office-365.md)   
- [Access the Dynamics 365 (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
+ [Access the Dynamics 365 for Customer Engagement (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials>   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Active Directory Federation Services](https://msdn.microsoft.com/library/bb897402.aspx)   

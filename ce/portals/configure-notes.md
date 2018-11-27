@@ -1,5 +1,5 @@
 ---
-title: "Configure notes on entity forms and web forms for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure notes on entity forms and web forms for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom: 
   - dyn365-portal
@@ -166,8 +166,8 @@ Web form notes are configured in the same way as [entity form notes](#notes-conf
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

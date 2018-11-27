@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a chart (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create or edit a chart (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "mduelae"
 ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
@@ -35,13 +35,13 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-    #### If using the Dynamics 365 web application   
+    #### If using the Dynamics 365 for Customer Engagement web application   
 
    1.  On the right side, choose the **Charts** pane.  
   
    2.  In the **Charts** area, choose **New Chart** **+**.  
   
-   <!-- **If using Dynamics 365 for Outlook:**  
+   <!-- **If using Dynamics 365 for Customer Engagement for Outlook:**  
   
    -   On the **Charts** tab, in the **Charts** group, choose **New Chart**.  
    -->
@@ -100,13 +100,13 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-   **If using the Dynamics 365 web application:**  
+   **If using the Dynamics 365 for Customer Engagement web application:**  
   
 3. On the right side, choose the **Charts** pane.  
 
 4. In the chart area, choose the chart list, choose the chart you want to edit, and then choose the **Edit Chart** button.  
   
-   <!--**If using Dynamics 365 for Outlook:**  
+   <!--**If using Dynamics 365 for Customer Engagement for Outlook:**  
   
    1.  On the **Charts** tab, in the **Layout** group, choose **Chart Pane** > **Right** or **Top**.  
   

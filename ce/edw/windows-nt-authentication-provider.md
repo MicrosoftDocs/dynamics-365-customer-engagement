@@ -16,9 +16,9 @@ ms.author: matp
 
 ## Cause
 
- Setup validates that the **NTAuthenticationProvider** attribute on the Root virtual directory for the Microsoft Dynamics 365 website selected during server setup has the value of Negotiate,NTLM.  
+ Setup validates that the **NTAuthenticationProvider** attribute on the Root virtual directory for the Microsoft Dynamics 365 for Customer Engagement website selected during server setup has the value of Negotiate,NTLM.  
   
- The **NTAuthenticationProvider** defines what authentication mechanism (Kerberos or NTLM) will be used when client users attempt to connect to the Microsoft Dynamics 365 website or the virtual directory that this attribute is configured for. This attribute is applicable only when the corresponding website or virtual directory is configured for integrated authentication.  
+ The **NTAuthenticationProvider** defines what authentication mechanism (Kerberos or NTLM) will be used when client users attempt to connect to the Microsoft Dynamics 365 for Customer Engagement website or the virtual directory that this attribute is configured for. This attribute is applicable only when the corresponding website or virtual directory is configured for integrated authentication.  
   
  The possible values for this attribute are:  
   

@@ -1,6 +1,6 @@
 ---
-title: "Migrate Dynamics 365 Portal configuration | MicrosoftDocs"
-description: "Learn how to migrate Dynamics 365 Portal configuration."
+title: "Migrate Dynamics 365 for Customer Engagement Portal configuration | MicrosoftDocs"
+description: "Learn how to migrate Dynamics 365 for Customer Engagement Portal configuration."
 keywords: ""
 ms.date: 10/17/2018
 ms.service:
@@ -17,7 +17,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Migrate Dynamics 365 Portal configuration
+# Migrate Dynamics 365 for Customer Engagement Portal configuration
 
 Portal development involves several configurations and customizations to achieve a desired experience for portal end users.
 
@@ -60,7 +60,7 @@ You can export portal configuration data from a source system by using portal-sp
 4.	On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and want to select the organization from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
     > [!div class="mx-imgBorder"]
-    ![Provide authentication details to connect to your Dynamics 365 instance from where you want to export data](media/export-config-login.png "Provide authentication details to connect to your Dynamics 365 instance from where you want to export data")
+    ![Provide authentication details to connect to your Dynamics 365 for Customer Engagement instance from where you want to export data](media/export-config-login.png "Provide authentication details to connect to your Dynamics 365 for Customer Engagement instance from where you want to export data")
 
 5.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization to connect to. 
 

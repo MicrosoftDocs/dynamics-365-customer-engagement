@@ -1,5 +1,5 @@
 ---
-title: "Add or remove sample data for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Add or remove sample data for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 04c3ec5d-fd44-43ed-a5b0-a393935a5679
 caps.latest.revision: 50
 author: "jimholtz"

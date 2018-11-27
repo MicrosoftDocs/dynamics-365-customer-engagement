@@ -1,6 +1,6 @@
 ---
-title: "User Guide (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales"
+title: "User Guide (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Customer Engagement for Sales"
 keywords: "sales, User guide"
 ms.date: 07/18/2018
 ms.service: 
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: shubhadaj
 ms.author: shujoshi
@@ -116,7 +116,7 @@ search.app:
 <td>
 <h2>Get better sales intelligence</h2>
 
-<li><a href="../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365" data-raw-source="[Add Social Engagement visuals to Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365)">Add Social Engagement visuals to Dynamics 365</a></li>
+<li><a href="../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365" data-raw-source="[Add Social Engagement visuals to Dynamics 365 for Customer Engagement](../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365)">Add Social Engagement visuals to Dynamics 365 for Customer Engagement</a></li>
 <li><a href="../versium-predict/versium-predict.md" data-raw-source="[Boost sales with Versium Predict](../versium-predict/versium-predict.md)">Boost sales with Versium Predict</a></li>
 <li><a href="../insights-insideview/insights-powered-by-insideview.md" data-raw-source="[Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)">Get sales Insights, powered by InsideView</a></li>
 
@@ -126,13 +126,13 @@ search.app:
 <tr><td>
 <h2>Go mobile</h2>
 
-<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
-<li><a href="../mobile-app/dynamics-365-phones-tablets-users-guide.md" data-raw-source="[Dynamics 365 for Phones and Tablets User Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)">Dynamics 365 for Phones and Tablets User Guide</a></li>
+<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for Customer Engagement for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for Customer Engagement for phones and tablets</a></li>
+<li><a href="../mobile-app/dynamics-365-phones-tablets-users-guide.md" data-raw-source="[Dynamics 365 for Customer Engagement for Phones and Tablets User Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)">Dynamics 365 for Customer Engagement for Phones and Tablets User Guide</a></li>
 
 </td>
 <td>
 <h2>Work with Outlook</h2>
-<li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 App for Outlook User Guide</a></li>
+<li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 for Customer Engagement App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 for Customer Engagement App for Outlook User Guide</a></li>
 
 
 </td>

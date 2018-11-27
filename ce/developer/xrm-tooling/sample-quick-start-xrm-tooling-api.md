@@ -1,5 +1,5 @@
 ---
-title: "Sample: Quick start for XRM Tooling API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Quick start for XRM Tooling API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 060d45bb-b7fd-48bd-ab8f-629c1b8bc1dc
 caps.latest.revision: 20
 author: "KumarVivek"
@@ -257,4 +257,4 @@ namespace QuickStartXRMToolingWPFClient
 
 [Use the XRM Tooling common login control](use-xrm-tooling-common-login-control-client-applications.md)<br />
 [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)<br />
-[Tutorials for Learning About Dynamics 365 Development](../tutorials-resources-sdk.md)<br />
+[Tutorials for Learning About Dynamics 365 for Customer Engagement Development](../tutorials-resources-sdk.md)<br />

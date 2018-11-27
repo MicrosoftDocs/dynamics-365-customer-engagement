@@ -1,5 +1,5 @@
 ---
-title: "Customize Voice of the Customer for Dynamics 365 survey settings | MicrosoftDocs"
+title: "Customize Voice of the Customer for Dynamics 365 for Customer Engagement survey settings | MicrosoftDocs"
 description: ""
 ms.assetid: e58f937e-66ff-49c8-999a-ca1a6bfa61b6
 ms.custom:
@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys
 author: sbmjais
 ms.author: shjais

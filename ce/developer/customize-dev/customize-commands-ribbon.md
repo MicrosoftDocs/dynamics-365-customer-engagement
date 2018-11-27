@@ -1,6 +1,6 @@
 ---
-title: "Customize commands and the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Dynamics 365 Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon. Dynamics 365 for tablets also uses data defined as ribbons to control what commands are available using a command bar that is optimized for touch. "
+title: "Customize commands and the ribbon (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon. Dynamics 365 for Customer Engagement for tablets also uses data defined as ribbons to control what commands are available using a command bar that is optimized for touch. "
 ms.custom: ""
 ms.date: 09/25/2018
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "ribbon"
   - "customize, ribbon"

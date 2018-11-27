@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement - Interactive service hub package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement - Interactive service hub package | MicrosoftDocs"
 description: "Overview of the Interactive service hub sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -58,7 +58,7 @@ search.app:
   
  Here’s what you’ll see when you install the interactiveservice hub package:  
   
-- **Dashboard** tab: Opens the Dynamics 365 customer service dashboard.  
+- **Dashboard** tab: Opens the Dynamics 365 for Customer Engagement customer service dashboard.  
   
 - **My Work** tab: Shows a list of all active cases assigned to a service rep.  
   

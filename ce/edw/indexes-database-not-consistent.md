@@ -1,5 +1,5 @@
 ---
-title: "Indexes on the Microsoft Dynamics 365 database are not consistent | Microsoft Docs"
+title: "Indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Indexes on the Microsoft Dynamics 365 database are not consistent
+# Indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent
 
 ## Cause
   

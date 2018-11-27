@@ -1,5 +1,5 @@
 ---
-title: "Get a list of available reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Get a list of available reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: ee3f61c8-df9f-4480-9cec-5375b690ebda
 caps.latest.revision: 13
 author: "Mattp123"
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md).  
   
-## Reports in Dynamics 365  
+## Reports in Dynamics 365 for Customer Engagement  
   
 |Category|Description|More information|  
 |--------------|-----------------|----------------------|  

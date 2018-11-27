@@ -1,6 +1,6 @@
 ---
-title: "Manage users (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Manage user accounts and assign security roles in Dynamics 365 for Marketing"
+title: "Manage users (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "Manage user accounts and assign security roles in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "administration; organization settings; users; roles; permissions"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 095057aa-5a0f-4e9e-a434-c7ff7f4fad21
 author: kamaybac
 ms.author: kamaybac
@@ -36,7 +36,7 @@ Create an account for each user that requires access to [!INCLUDE[pn-marketing-b
 
 User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] customer engagement apps. Use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center to create a new user and then purchase and assign licenses for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
 
- [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md).
+ [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 for Customer Engagement (online) licenses](../admin/purchase-assign-online-licenses.md).
 
 <a name="assign-role"></a>
 

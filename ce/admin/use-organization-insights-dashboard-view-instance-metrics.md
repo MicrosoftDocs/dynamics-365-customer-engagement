@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Use the Organization Insights dashboard to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
+title: "Preview feature: Use the Organization Insights dashboard to view metrics about your Dynamics 365 for Customer Engagement (online) instance | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/30/2017
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: f8f35728-62c8-4461-a7b8-2945360c1b3a
 author: jimholtz
 ms.author: jimholtz
@@ -144,5 +144,5 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 ### See also  
 [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  
- [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md)
+ [Developer Guide for Dynamics 365 for Customer Engagement](../developer/developer-guide.md)
 

@@ -1,9 +1,9 @@
 ---
-title: "getVisible (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getVisible (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c44ca2a7-e1e0-40fc-a7a4-5ae97eacc204
 author: "KumarVivek"
 ms.author: "kvivek"

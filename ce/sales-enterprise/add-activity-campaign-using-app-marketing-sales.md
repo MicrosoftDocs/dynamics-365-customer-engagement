@@ -1,5 +1,5 @@
 ---
-title: "Add an activity to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Add an activity to a campaign using in-app marketing (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
 description: "Add planning and campaign activities to a campaign to make it successful."
 keywords: "Campaign Activities, Campaign, Quick Campaign, Distribute"
 ms.date: 05/01/2018
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-sales
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8b0e36fe-695d-44bb-9fe3-de3819bc894d
 author: shubhadaj
 ms.author: shujoshi

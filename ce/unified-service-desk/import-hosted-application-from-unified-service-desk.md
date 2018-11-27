@@ -1,5 +1,5 @@
 ---
-title: "Import hosted application from Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Import hosted application from Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about importing the hosted aplication from Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -32,9 +32,9 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
   
 1. In **Solution Explorer**, right-click the solution and select **Import**.  
   
-2. In the **Import From Dynamics 365** dialog box, enter the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server name and your credentials.  
+2. In the **Import From Dynamics 365 for Customer Engagement** dialog box, enter the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server name and your credentials.  
   
-   ![Screenshot of import from Dynamics 365 dialog box](../unified-service-desk/media/usd-import.PNG "Screenshot of import from Dynamics 365 dialog box")  
+   ![Screenshot of import from Dynamics 365 for Customer Engagement dialog box](../unified-service-desk/media/usd-import.PNG "Screenshot of import from Dynamics 365 for Customer Engagement dialog box")  
   
 3. If there’s more than one organization, select the **Display list of available organizations** check box and click **Login**.  
   

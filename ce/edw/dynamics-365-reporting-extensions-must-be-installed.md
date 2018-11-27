@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 Reporting Extensions must be installed | Microsoft Docs"
+title: "Microsoft Dynamics 365 for Customer Engagement Reporting Extensions must be installed | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 Reporting Extensions must be installed
+# Microsoft Dynamics 365 for Customer Engagement Reporting Extensions must be installed
 
 ## Cause
   
@@ -20,5 +20,5 @@ ms.author: matp
   
  ## Solution
   
- Install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)]. For information about how to install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], see [Install Microsoft Dynamics 365 Reporting Extensions](../on-premises/install-microsoft-dynamics-365-reporting-extensions.md).
+ Install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)]. For information about how to install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], see [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](../on-premises/install-microsoft-dynamics-365-reporting-extensions.md).
 

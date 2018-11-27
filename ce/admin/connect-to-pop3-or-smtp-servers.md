@@ -1,5 +1,5 @@
 ---
-title: "Connect Dynamics 365 to POP3 or SMTP servers | MicrosoftDocs"
+title: "Connect Dynamics 365 for Customer Engagement to POP3 or SMTP servers | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: afb01c24-a2bd-4e00-9804-ce494f2d315b
 caps.latest.revision: 22
 author: "jimholtz"
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Connect Dynamics 365 to POP3 or SMTP servers
+# Connect Dynamics 365 for Customer Engagement to POP3 or SMTP servers
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -156,7 +156,7 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
     You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).  
 
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
 
 <a name="BKMK_TestEmailConfig"></a>   
 
@@ -169,12 +169,12 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
     When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] tests the email configuration of all the mailboxes associated with the POP3-SMTP profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
 
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
 
 <a name="BKMK_NetworkPorts"></a>   
 
-## Network ports for Dynamics 365 (online) Government  
- The following ports are open for outbound connections between Dynamics 365 (online) Government and internet services.  
+## Network ports for Dynamics 365 for Customer Engagement (online) Government  
+ The following ports are open for outbound connections between Dynamics 365 for Customer Engagement (online) Government and internet services.  
 
 -   80 HTTP  
 
@@ -184,10 +184,10 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
 
 -   995 Secure POP3  
 
-Customizations or email configurations in Dynamics 365 (online) Government can only use these ports.  
+Customizations or email configurations in Dynamics 365 for Customer Engagement (online) Government can only use these ports.  
 
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md) <br />
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
  [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Microsoft Dynamics 365 (online) Government](../admin/government/microsoft-dynamics-365-government.md)
+ [Microsoft Dynamics 365 for Customer Engagement (online) Government](../admin/government/microsoft-dynamics-365-government.md)

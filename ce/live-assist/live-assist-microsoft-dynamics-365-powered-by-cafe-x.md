@@ -1,5 +1,5 @@
 ---
-title: "Live Assist for Dynamics 365 powered by Café X (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Live Assist for Dynamics 365 for Customer Engagement powered by Café X (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom:
   - dyn365-liveassist
 ms.date: 09/30/2017
@@ -9,13 +9,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 29da7794-d303-470e-ab62-3744a4d2877f
 caps.latest.revision: 9
 ms.author: "shellyha"
 ---
-# Live Assist for Dynamics 365 powered by Café X
+# Live Assist for Dynamics 365 for Customer Engagement powered by Café X
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <a name="heroArea"></a> [![LiveAssist video graphic](../admin/media/liveassist-video-graphic.png "LiveAssist video graphic")](https://support.liveassistfor365.com/hc/en-us/articles/213670809-Caf%C3%A9X-Live-Assist-for-Microsoft-Dynamics-365)  

@@ -1,5 +1,5 @@
 ---
-title: "Apply SLAs to entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Apply SLAs to entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about applying SLAs to custom entities by enabling entities for applying SLAs. Also, you can create SLA KPIs."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1b94bd7c-d683-4595-b402-47959137c3fd
 caps.latest.revision: 21
 author: "KumarVivek"
@@ -44,7 +44,7 @@ Service level agreements (SLAs) in [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
 -   SalesOrder (Order)  
   
 > [!NOTE]
->  SLA support for entities, in addition to the Incident entity, was introduced in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and Dynamics 365 Service Pack 1 (on-premises).  
+>  SLA support for entities, in addition to the Incident entity, was introduced in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and Dynamics 365 for Customer Engagement Service Pack 1 (on-premises).  
   
 <a name="EnableSLAs"></a>   
 ## Enable entities for applying SLAs  
@@ -65,7 +65,7 @@ Service level agreements (SLAs) in [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
  However, if you want to manually apply SLAs to entity records based on any custom business requirement, you can programmatically update the entity record to set the `SLAId` attribute value to the desired active SLA record.  
   
 <a name="Limitations"></a>   
-## Limitations to applying SLAs in Dynamics 365 (online)  
+## Limitations to applying SLAs in Dynamics 365 for Customer Engagement (online)  
  In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], the following limitations are applicable for SLAs per [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance (organization):  
   
 - You can have a maximum of 7 entities that can have active SLAs. You will encounter an error on activating an SLA if this limit is exceeded.  

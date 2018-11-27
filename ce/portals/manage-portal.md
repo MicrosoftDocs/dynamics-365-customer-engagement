@@ -1,5 +1,5 @@
 ---
-title: "Administer a portal for Dynamics 365 | MicrosoftDocs"
+title: "Administer a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
 ms.date: 11/20/2018
@@ -33,7 +33,7 @@ To manage an existing portal, you must be assigned any one of the following role
 - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
 - System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
 
-If you haven't been assigned any of the above-mentioned roles, the following message is displayed: "You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal."
+If you haven't been assigned any of the above-mentioned roles, the following message is displayed: "You need to be a global administrator, Dynamics 365 for Customer Engagement service administrator, or system administrator for this organization in order to manage this portal."
 
 If you are not a global administrator and you try to manage a portal that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.
 
@@ -54,7 +54,7 @@ If you are not a global administrator and you try to manage a portal that has al
 
 6. After you've added yourself as an owner, reopen the Portal Admin Center page.
 
-## Link your Dynamics 365 portal to a custom domain
+## Link your Dynamics 365 for Customer Engagement portal to a custom domain
 
 A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain by using a wizard.
 
@@ -98,7 +98,7 @@ When you provision a portal, the portal-related solutions are installed on the o
 
 ### To import metadata translation
 
-1.	Go to the **Dynamics 365 Administration Center** page, and then select the **Applications** tab.
+1.	Go to the **Dynamics 365 for Customer Engagement Administration Center** page, and then select the **Applications** tab.
 2.	Select the name of the portal into which you want to import metadata translation, and then select **Manage**.
 3.	Go to **Portal Actions** > **Get latest metadata translations**. A confirmation window is displayed asking whether to update the portal solutions.
 4.	Select **Update**. The portal solutions will be updated with the latest metadata translation.

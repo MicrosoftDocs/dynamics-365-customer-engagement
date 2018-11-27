@@ -1,6 +1,6 @@
 ---
-title: "Understand charts: Underlying data and chart representation (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Charts display data visually by mapping textual values on two axes: horizontal (x) and vertical (y). In Dynamics 365 Customer Engagement, the x axis is called the category axis and the y axis is called the series axis."
+title: "Understand charts: Underlying data and chart representation (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Charts display data visually by mapping textual values on two axes: horizontal (x) and vertical (y). In Dynamics 365 for Customer Engagement, the x axis is called the category axis and the y axis is called the series axis."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "charts, understand"
 ms.assetid: 05ada555-b535-4371-8029-176c454ada26

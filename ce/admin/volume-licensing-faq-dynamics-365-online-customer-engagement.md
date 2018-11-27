@@ -1,5 +1,5 @@
 ---
-title: "Volume licensing FAQ for Dynamics 365 (online) | MicrosoftDocs"
+title: "Volume licensing FAQ for Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: bb11b898-55d2-4afa-a09b-0b7965145e88
 caps.latest.revision: 19
 author: "jimholtz"

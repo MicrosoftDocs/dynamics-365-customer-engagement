@@ -1,5 +1,5 @@
 ---
-title: "Manage Bing Maps for your Dynamics 365 Customer Engagement organization | MicrosoftDocs"
+title: "Manage Bing Maps for your Dynamics 365 for Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "jimholtz"
 ms.assetid: f756b11d-65fc-47ac-8bea-1ba3def724f0
 caps.latest.revision: 29
@@ -37,7 +37,7 @@ Learn how you can manage [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] f
   
 4. Choose **OK**.  
   
-## Languages supported in Dynamics 365 for viewing Bing Maps  
+## Languages supported in Dynamics 365 for Customer Engagement for viewing Bing Maps  
  The following table contains a list of all languages supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for viewing [!INCLUDE[pn_bing](../includes/pn-bing.md)] maps. If the language is listed, the [!INCLUDE[pn_bing](../includes/pn-bing.md)] map is shown on the form, such as account, contact or lead, in your language. If the language is not listed, the map is not shown on the form. Instead, the link **Click here to view the map** is provided on the form. When you choose this link, you are taken directly to [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)]. [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] are not available in all countries, regions, or languages. You may not be able to see the map in your language, if it is not supported by [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)]. For a list of supported languages, countries and regions, see [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] documentation.  
   
 |Language|Culture code|  

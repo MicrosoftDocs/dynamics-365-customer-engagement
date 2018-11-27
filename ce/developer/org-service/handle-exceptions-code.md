@@ -1,6 +1,6 @@
 ---
-title: "Handle exceptions in your code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This article discusses the exceptions that are returned from a Dynamics 365 Customer Engagement web service method call. The sample in this article highlights the common faults and exceptions that your application design should handle."
+title: "Handle exceptions in your code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This article discusses the exceptions that are returned from a Dynamics 365 for Customer Engagement web service method call. The sample in this article highlights the common faults and exceptions that your application design should handle."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 02d0ad6c-eb76-4ea9-972f-c7647eef6c09
 author: "JimDaly"
 ms.author: "jdaly"

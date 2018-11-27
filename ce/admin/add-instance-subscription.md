@@ -1,5 +1,5 @@
 ---
-title: "Add an instance to your subscription of Dynamics 365 (online) | MicrosoftDocs"
+title: "Add an instance to your subscription of Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 06/21/2018
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 7e8b84a7-ae29-4180-94f5-5d89fc43bdbc
 caps.latest.revision: 4
 author: "jimholtz"
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
+You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
  Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Professional user license subscription.  
   
@@ -69,14 +69,14 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 1. Sign in to the [Office 365 admin center](https://portal.office.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
-2. Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 (online) Additional Non-production Instance** or **Microsoft Dynamics 365 (online) Additional Production Instance**, and then click **Buy now**.  
+2. Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
   
 3. Proceed through the screens to purchase additional instances.  
   
-    For more information, see [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
+    For more information, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
   
 > [!TIP]
->  Close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 (online) instances** page.  
+>  Close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 for Customer Engagement (online) instances** page.  
   
 ### Step 2: Configure the additional instance  
   
@@ -89,7 +89,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 4. Select the instance that you want to configure, and then click **Configure**.  
   
    > [!TIP]
-   >  If the instance does not appear in the list or is in a state other than **ready to configure**, wait a few minutes and then try again. Or, close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 (online) instances** page.  
+   >  If the instance does not appear in the list or is in a state other than **ready to configure**, wait a few minutes and then try again. Or, close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 for Customer Engagement (online) instances** page.  
    > 
    >  You cannot start a new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance until you click **Configure** and complete the configuration process.  
    > 
@@ -146,7 +146,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 - You cannot make security groups members of other security groups.
 
 > [!NOTE]
->  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md).  
+>  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 for Customer Engagement (online)](../admin/grant-users-access.md).  
   
 ### Create a security group and add members to the security group  
   
@@ -175,9 +175,9 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add users individually to Office 365 - Admin Help](http://go.microsoft.com/fwlink/p/?LinkID=615205)  
   
-### Associate a security group with a Dynamics 365 instance  
+### Associate a security group with a Dynamics 365 for Customer Engagement instance  
   
-1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **Dynamics 365**.  
+1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
   
 2. Click the **Instances** tab, select an instance, and then click **Edit**.  
   
@@ -192,6 +192,6 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 ### See also  
  [Edit properties of an instance](../admin/edit-properties-instance.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md)   
+ [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
+ [Grant users access to Microsoft Dynamics 365 for Customer Engagement (online)](../admin/grant-users-access.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

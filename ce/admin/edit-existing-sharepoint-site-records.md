@@ -1,5 +1,5 @@
 ---
-title: "Edit existing SharePoint site records for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Edit existing SharePoint site records for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 2b0f8bb9-548f-498a-83b8-d7fbf3c05884
 caps.latest.revision: 19
 author: "Mattp123"
@@ -30,7 +30,7 @@ Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
 > [!TIP]
 >  If you’re using [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] or later, you can take advantage of server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)]. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration provides an immersive document management experience consistent with the look and feel of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
 > 
->  If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)], you can use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration for on-premises and hybrid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] deployments. For information about setting up server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration using a wizard, see [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)  
+>  If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)], you can use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration for on-premises and hybrid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] deployments. For information about setting up server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration using a wizard, see [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
   
  If you have already set up SharePoint document management, and want to edit your site records, use the following procedure.  
   
@@ -77,5 +77,5 @@ Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
 >  To activate or deactivate a site record, on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sites page, select the site record, and then in the **Records** group, click **Activate** or **Deactivate**.  
   
 ### See also  
- [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)   
+ [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)   
  [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)

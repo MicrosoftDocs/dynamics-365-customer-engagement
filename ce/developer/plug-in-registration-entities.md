@@ -1,6 +1,6 @@
 ---
-title: "Plug-in registration entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about plug-in registration entities that define a Dynamics 365 Customer Engagement web services (SDK) message, the entities that support a particular message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities. "
+title: "Plug-in registration entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn about plug-in registration entities that define a Dynamics 365 for Customer Engagement web services (SDK) message, the entities that support a particular message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bd82dfec-a852-4bb1-8f46-7d574ac50782
 caps.latest.revision: 19
 author: "JimDaly"

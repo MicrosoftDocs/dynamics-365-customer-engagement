@@ -1,5 +1,5 @@
 ---
-title: "ListMember intersect entity metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ListMember intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic lists the various many-to-many relationships for the List entity for which the ListMember intersect entity is the intersect table"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "marketing list metadata"
   - "list entity, listmember intersect table"

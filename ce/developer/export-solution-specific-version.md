@@ -1,6 +1,6 @@
 ---
-title: "Export a solution for a specific Dynamics 365 version (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn how to target and manage which Dynamics 365 version you wish to export a solution for"
+title: "Export a solution for a specific Dynamics 365 for Customer Engagement version (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to target and manage which Dynamics 365 for Customer Engagement version you wish to export a solution for"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d4b9fe60-1d33-4588-abae-192ead9c1d22
 caps.latest.revision: 23
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Export a solution for a specific Dynamics 365 version
+# Export a solution for a specific Dynamics 365 for Customer Engagement version
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -36,17 +36,17 @@ search.app:
 
 <a name="BKMK_ExportSolutionForVersion"></a>   
 ## Target a specific version when you export a solution  
- When you export a solution from [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] you will have the option to target the solution for a specific Dynamics 365 version. For [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] the options are 7.1 (default) and 7.0. When you choose 7.0, any new capabilities introduced in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] will not be included in the exported solution and any organizations still using earlier versions of [!INCLUDE[pn_crm_2015_shortest](../includes/pn-crm-2015-shortest.md)] will be able to install the solution.  
+ When you export a solution from [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] you will have the option to target the solution for a specific Dynamics 365 for Customer Engagement version. For [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] the options are 7.1 (default) and 7.0. When you choose 7.0, any new capabilities introduced in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] will not be included in the exported solution and any organizations still using earlier versions of [!INCLUDE[pn_crm_2015_shortest](../includes/pn-crm-2015-shortest.md)] will be able to install the solution.  
 
  When you export your solution to target an earlier version the export dialog can display two possible messages:  
 
- **This solution supports the target Dynamics 365 version**  
+ **This solution supports the target Dynamics 365 for Customer Engagement version**  
  This means that the solution components in your solution don’t depend on any capabilities or solution components introduced since that version.  
 
  **The following components are removed or modified as part of the export**  
  Below this message a table lists the solution component items that were modified or not included in the exported solution.  
 
- The information visible in the dialog can also be found in the exported solution file. When you export a solution to target a specific version, the name of the file will specify the target solution using the following naming convention:*Solution Name*<em>*Solution_Version_Number*_target_CRM\\</em>*Target Dynamics 365 version number*.zip. For example, an unmanaged solution with the name Sample Solution with solution version 2.0 that is exported to target the version 7.0 will have the name SampleSolution_2_0_target_CRM_7.0.zip. When you extract the contents of this compressed file you will find a filteredcomponents.xml file containing data detailing which actions were performed. You can open this file using Excel to view a report of which solution components were edited or removed.  
+ The information visible in the dialog can also be found in the exported solution file. When you export a solution to target a specific version, the name of the file will specify the target solution using the following naming convention:*Solution Name*<em>*Solution_Version_Number*_target_CRM\\</em>*Target Dynamics 365 for Customer Engagement version number*.zip. For example, an unmanaged solution with the name Sample Solution with solution version 2.0 that is exported to target the version 7.0 will have the name SampleSolution_2_0_target_CRM_7.0.zip. When you extract the contents of this compressed file you will find a filteredcomponents.xml file containing data detailing which actions were performed. You can open this file using Excel to view a report of which solution components were edited or removed.  
 
 <a name="BKMK_Changes"></a>   
 ## What changes are applied to a solution exported for an earlier version?  

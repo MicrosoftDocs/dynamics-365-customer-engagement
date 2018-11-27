@@ -1,10 +1,10 @@
 ---
 title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft Docs
-description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365
+description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365 for Customer Engagement
 keywords: 
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "ReneeW-CPub"
 ms.author: "renwe"
 manager: "annbe"
@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
+# Use keyboard shortcuts in Dynamics 365 for Customer Engagement applications
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. 
+Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 for Customer Engagement applications. 
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
@@ -181,7 +181,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 [Keyboard shortcuts for the Customer Service Hub](../customer-service/keyboard-navigation-support-customer-service-hub.md)
 
-[Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
+[Dynamics 365 for Customer Engagement for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
 
 [Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365)
 

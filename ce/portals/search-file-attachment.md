@@ -1,13 +1,13 @@
 ---
-title: "Search within file attachment content in Dynamics 365 portals  | MicrosoftDocs"
-description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 portals."
+title: "Search within file attachment content in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
+description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 for Customer Engagement portals."
 keywords: "search within attachment,search in file attachment"
 ms.date: 04/14/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: BD65E6A7-5A2E-49DE-A00D-EB5F13F22FCC
 author: sbmjais
 ms.author: shjais

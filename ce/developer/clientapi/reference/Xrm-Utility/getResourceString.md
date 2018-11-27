@@ -1,9 +1,9 @@
 ---
-title: "getResourceString (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getResourceString (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 01/02/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d5e51eac-ce0a-4f4a-b7b6-495433e3f8c1
 author: "KumarVivek"
 ms.author: "kvivek"

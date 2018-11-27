@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -45,4 +45,4 @@ If you get error code 800c0019 when you try to sign in to your [!INCLUDE[cc_Micr
   
 ### See also  
  [TechNet: Troubleshooting and things to know about CRM for phones express](https://technet.microsoft.com/library/dn660977.aspx)   
- [TechNet: Troubleshooting and things to know about Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx)
+ [TechNet: Troubleshooting and things to know about Dynamics 365 for Customer Engagement for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx)

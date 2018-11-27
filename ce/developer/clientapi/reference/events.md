@@ -1,9 +1,9 @@
 ---
-title: "Events (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Events (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 03/01/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 89123cde-7c66-4c7d-94e4-e287285019f8
 author: "KumarVivek"
 ms.author: "kvivek"

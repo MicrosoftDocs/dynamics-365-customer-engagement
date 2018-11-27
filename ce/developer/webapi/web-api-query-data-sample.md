@@ -1,5 +1,5 @@
 ---
-title: "Web API Query Data Sample (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Web API Query Data Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This group of samples shows how to query data using the Web API. These are implemented using Client-side JavaScript and C#"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9457ce4f-0ef6-4085-8346-fe3134ec7106
 caps.latest.revision: 18
 author: "JimDaly"
@@ -2195,7 +2195,7 @@ Saved User Query:
 ```  
   
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   
  [Retrieve and execute predefined queries](retrieve-and-execute-predefined-queries.md)   
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)   

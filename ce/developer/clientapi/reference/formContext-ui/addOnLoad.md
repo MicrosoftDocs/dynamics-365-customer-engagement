@@ -1,9 +1,9 @@
 ---
-title: "addOnLoad (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "addOnLoad (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/03/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 31a146de-9e25-43be-ae3e-83a2a5c86543
 author: "KumarVivek"
 ms.author: "kvivek"

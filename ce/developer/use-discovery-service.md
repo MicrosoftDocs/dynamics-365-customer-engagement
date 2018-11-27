@@ -1,6 +1,6 @@
 ---
-title: "Use the Dynamics 365 Discovery services (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "In a multi-tenant environment like Dynamics 365, the Discovery web service helps determine which organizations a user is a member of."
+title: "Use the Dynamics 365 for Customer Engagement Discovery services (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "In a multi-tenant environment like Dynamics 365 for Customer Engagement, the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0b95ebbd-49f5-4e09-8f18-7708dbef65d0
 caps.latest.revision: 9
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use the Dynamics 365 Discovery services
+# Use the Dynamics 365 for Customer Engagement Discovery services
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -32,6 +32,6 @@ A Discovery service is accessed through either the Web API or the Organization S
 - For the Organization Service see: [Discover the URL for your organization using the Organization Service API](org-service/discover-url-organization-organization-service.md) 
   
 ### See also  
- [Use Dynamics 365 web services](use-microsoft-dynamics-365-web-services.md)<br />
- [Use Dynamics 365 Customer Engagement Web API](webapi/index.md)<br />
- [Use Dynamics 365 Customer Engagement Organization Service](org-service/index.md)<br />
+ [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
+ [Use Dynamics 365 for Customer Engagement Web API](webapi/index.md)<br />
+ [Use Dynamics 365 for Customer Engagement Organization Service](org-service/index.md)<br />

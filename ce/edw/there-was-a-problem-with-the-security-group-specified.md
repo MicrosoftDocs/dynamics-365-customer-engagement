@@ -44,7 +44,7 @@ Predefined security groups have been defined in the Setup XML file. However, one
   
 ## Solution 2
 
- Make sure that the group exists in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] and is in the same domain as the computer that will run [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Additionally, you must use the correct syntax, such as *CN=PrivUserGroup,OU=Dynamics 365,DC=sales,DC=contoso,DC=com*.  
+ Make sure that the group exists in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] and is in the same domain as the computer that will run [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Additionally, you must use the correct syntax, such as *CN=PrivUserGroup,OU=Dynamics 365 for Customer Engagement,DC=sales,DC=contoso,DC=com*.  
   
 ## Solution 3
 

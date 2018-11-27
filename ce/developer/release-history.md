@@ -1,5 +1,5 @@
 ---
-title: "Release history (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Release history (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "This topic records significant incremental changes to the SDK content for this release for this over time."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 122ac8e4-ea24-4184-ac33-b1e3bcf073a0
 caps.latest.revision: 211
 author: "JimDaly"
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 Customer Engagement Developer Guide Release history
+# Dynamics 365 for Customer Engagement Developer Guide Release history
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,26 +38,26 @@ This topic will record significant incremental changes to the SDK content for th
 
 |Date|New and updated topics|Description of changes|  
 |---------|---------|---------|
-|10/31/2017|Initial release     | Start with  [What's new for developers in Dynamics 365 Customer Engagement](https://go.microsoft.com/fwlink/?linkid=853945).      |
+|10/31/2017|Initial release     | Start with  [What's new for developers in Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/?linkid=853945).      |
 
 
 
 ### See also
 
-[Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)<br />
+[Developer Guide for Dynamics 365 for Customer Engagement](developer-guide.md)<br />
 [What's new for developers](whats-new-developers.md)<br />
-[Get started with the SDK for Dynamics 365 Customer Engagement](get-started-sdk.md)<br />
-[Connect to Dynamics 365 Customer Engagement](connect-customer-engagement.md)<br />
-[Use Dynamics 365 web services](use-microsoft-dynamics-365-web-services.md)<br />
+[Get started with the SDK for Dynamics 365 for Customer Engagement](get-started-sdk.md)<br />
+[Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)<br />
+[Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
 [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)
 [Write mobile and modern apps](write-mobile-modern-apps.md)<br />
 [Security model of Customer Engagement](security-dev/security-model.md)<br />
-[Extend Dynamics 365 Customer Engagement](extend-customer-engagement.md)<br />
-[Model your business data in Dynamics 365 Customer Engagement](model-business-data.md)<br />
+[Extend Dynamics 365 for Customer Engagement](extend-customer-engagement.md)<br />
+[Model your business data in Dynamics 365 for Customer Engagement](model-business-data.md)<br />
 [Manage your data in Customer Engagement](manage-data.md)<br />
 [Manage your deployment of Customer Engagement](manage-deployment.md)<br />
 [Sample code directory for Customer Engagement SDK](sample-code-directory.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement](programming-reference.md)<br />
 [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)<br />
-[Online Management API for Dynamics 365 Customer Engagement](online-management-api.md)
+[Online Management API for Dynamics 365 for Customer Engagement](online-management-api.md)
 

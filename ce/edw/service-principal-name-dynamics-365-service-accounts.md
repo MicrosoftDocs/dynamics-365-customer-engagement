@@ -1,5 +1,5 @@
 ---
-title: "Verify Service Principal Name for Microsoft Dynamics 365 service accounts | Microsoft Docs"
+title: "Verify Service Principal Name for Microsoft Dynamics 365 for Customer Engagement service accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Verify Service Principal Name for Microsoft Dynamics 365 service accounts
+# Verify Service Principal Name for Microsoft Dynamics 365 for Customer Engagement service accounts
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are described below. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](http://go.microsoft.com/fwlink/p/?LinkID=306136).  
   
 -   **Application Service**. This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Web application that is used to connect users to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data.  
@@ -23,9 +23,9 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are des
   
 -   **Asynchronous Processing Service**. Processes queued asynchronous events, such as bulk e-mail or data import.  
   
--   **Microsoft Dynamics 365 VSS Writer Service**. Provides the interface to back up and restore [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases through the Windows Server Volume Shadow Copy Service (VSS) infrastructure.  
+-   **Microsoft Dynamics 365 for Customer Engagement VSS Writer Service**. Provides the interface to back up and restore [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases through the Windows Server Volume Shadow Copy Service (VSS) infrastructure.  
   
--   **Microsoft Dynamics 365 Monitoring Service**. Provides diagnostic services for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services.  
+-   **Microsoft Dynamics 365 for Customer Engagement Monitoring Service**. Provides diagnostic services for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services.  
   
 > [!IMPORTANT]
 >  -   We strongly recommend that you select a low-privilege domain account that is dedicated to running these services and is not used for any other purpose. Additionally, the user account that is used to run a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service cannot be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user. This domain account must be a member of the Domain Users group. Additionally, if the Asynchronous Service and Sandbox Processing Service roles are installed, such as in a Full Server or a Back End Server installation, the domain account must a member of the Performance Log Users security group.  

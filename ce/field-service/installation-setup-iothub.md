@@ -1,5 +1,5 @@
 ---
-title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Field service) | MicrosoftDocs"
+title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Customer Engagement for Field service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -11,8 +11,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: krbjoran
 ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
 caps.latest.revision: 14
@@ -33,11 +33,11 @@ This guide provides all the steps required for getting up and running with Conne
 ## Prerequisites  
  Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:  
   
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)  
+- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Customer Engagement for Field Service](../field-service/install-field-service.md)  
   
-- O365 Global Administrator or Dynamics 365 System Administrator credentials.  
+- O365 Global Administrator or Dynamics 365 for Customer Engagement System Administrator credentials.  
   
-- An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
+- An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365 for Customer Engagement).  
   
 - An active Azure subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What is Azure?](https://azure.microsoft.com/en-us/overview/what-is-azure)  
   
@@ -49,9 +49,9 @@ This guide provides all the steps required for getting up and running with Conne
   
  Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/en-us/library/mt790241.aspx)  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 for Customer Engagement system administrator credentials.  
   
-2. Click **Admin centers** > **Dynamics 365**  
+2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**  
   
 3. Click the **Applications** tab, and then select **Connected Field Service**.  
   
@@ -72,7 +72,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 10. Click **Deploy**.  
   
-    After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API . When you configure the connection API you’ll need to enter your Dynamics 365 subscription account.  
+    After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 for Customer Engagement connector connection API . When you configure the connection API you’ll need to enter your Dynamics 365 for Customer Engagement subscription account.  
   
 > [!NOTE]
 >  Before you click the **Authorize** button, make sure all required Azure resources are successfully deployed and that the overall deployment status is “Success”.  
@@ -95,7 +95,7 @@ This guide provides all the steps required for getting up and running with Conne
    Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees.  
   
 <a name="bkmk_register"></a>   
-## Register devices that you want to monitor in Dynamics 365  
+## Register devices that you want to monitor in Dynamics 365 for Customer Engagement  
  To monitor a device, you need to create and register an asset.  
   
 1.  From the main menu  click, **Field Service** > **Customer Assets**.  
@@ -121,7 +121,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 2. [Install Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
   
-3. Sign in to Power BI Desktop with the Power BI user credentials (we recommend that this user is the same as the Dynamics 365 user).  
+3. Sign in to Power BI Desktop with the Power BI user credentials (we recommend that this user is the same as the Dynamics 365 for Customer Engagement user).  
   
 4. Download and open the sample Power BI template.  
   
@@ -163,7 +163,7 @@ This guide provides all the steps required for getting up and running with Conne
   
     -   In the top right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button .  
   
-#### Pin the tile in Dynamics 365  
+#### Pin the tile in Dynamics 365 for Customer Engagement  
   
 1.  Open the device, alert, or asset form.  
   
@@ -228,7 +228,7 @@ This guide provides all the steps required for getting up and running with Conne
 ### Registration error  
  When a device does not register, you will see an error in the Registration Status field of the asset record. For assets with multiple devices, device status will show the error message for each device.  
   
- This error may occur if Dynamics 365 is not connected to Azure or if Azure is offline.  
+ This error may occur if Dynamics 365 for Customer Engagement is not connected to Azure or if Azure is offline.  
   
 ### View a device's registration history  
   
@@ -363,8 +363,8 @@ This guide provides all the steps required for getting up and running with Conne
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)    
+ [Install Dynamics 365 for Customer Engagement for Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service User Guide](../field-service/user-guide.md)

@@ -1,11 +1,11 @@
 ---
-title: "msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity."
 ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
@@ -906,6 +906,6 @@ See msdyn_agreementinvoicesetup Entity [bpf_msdyn_agreementinvoicesetup_msdyn_bp
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3?text=msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 EntityType" />

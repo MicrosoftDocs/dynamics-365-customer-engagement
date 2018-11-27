@@ -1,5 +1,5 @@
 ---
-title: "Sample: Dump attribute picklist metadata to a file (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Dump attribute picklist metadata to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write out all the attribute metadata to an XML file. It uses the RetrieveAllEntitiesRequest message."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0cfa185c-1845-40b4-8293-ffa540b6053c
 caps.latest.revision: 16
 author: "JimDaly"
@@ -42,7 +42,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
 ### See also  
  [Customize entity metadata](../customize-entity-metadata.md)   
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
  [Customize Entity Attribute Metadata](../customize-entity-attribute-metadata.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesResponse>

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server | Microsoft Docs"
+title: "Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 for Customer Engagement Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -8,14 +8,14 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2016"
 ms.assetid: aad0533d-0790-4a8b-8201-9bbd82bb026e
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server
+# Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 for Customer Engagement Server
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -34,7 +34,7 @@ You need [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] database 
  The minimum and recommended requirements are based on 320-user load simulation tests.  
   
 ## See also  
- [Microsoft Dynamics 365 system requirements and required technologies](system-requirements-required-technologies.md)   
- [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)   
- [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
+ [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   
+ [Microsoft Dynamics 365 for Customer Engagement Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)   
+ [Software requirements for Microsoft Dynamics 365 for Customer Engagement Server](software-requirements-for-microsoft-dynamics-365-server.md)
 

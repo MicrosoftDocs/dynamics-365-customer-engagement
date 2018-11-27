@@ -1,5 +1,5 @@
 ---
-title: "Track Outlook tasks in Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Track Outlook tasks in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Track Outlook tasks in Dynamics 365 for Outlook
+# Track Outlook tasks in Dynamics 365 for Customer Engagement for Outlook
 When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], a copy of the task record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. You can then work on the task in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your task records on that device.  
   
  Tracking tasks in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal tasks separate from your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] tasks. Synchronization of tasks from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is automatic, however. You can use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to view any task records you own that were created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
@@ -45,7 +45,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 2. In the **Task** dialog box, if it’s a new task, enter a subject in the **Subject** box. If it’s an existing task, the **Subject** box will already be filled out.  
   
-    ![Track Tasks dialog box in Dynamics 365](../media/track-task-dialog.png "Track Tasks dialog box in Dynamics 365")  
+    ![Track Tasks dialog box in Dynamics 365 for Customer Engagement](../media/track-task-dialog.png "Track Tasks dialog box in Dynamics 365 for Customer Engagement")  
   
 3. If you haven’t already done so, fill out other fields such as **Start date**, **Due date**, and **Priority**.  
   
@@ -58,7 +58,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 5. To track the task, do one of the following:  
   
-   - To track the task record without linking it to a particular record in Dynamics 365, on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.  
+   - To track the task record without linking it to a particular record in Dynamics 365 for Customer Engagement, on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.  
   
      > [!NOTE]
      >  To track the task record as a phone call, letter, or FAX, click the down arrow on the **Track** button, and then select the appropriate item. It will then show up as a phone call, letter, or FAX on your Activities list.  
@@ -96,11 +96,11 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 2.  On the **Task** tab, in the **Manage Task** group, click **Assign Task**.  
   
-     ![Location of Assign Task button in Dynamics 365](../media/assign-task-button.png "Location of Assign Task button in Dynamics 365")  
+     ![Location of Assign Task button in Dynamics 365 for Customer Engagement](../media/assign-task-button.png "Location of Assign Task button in Dynamics 365 for Customer Engagement")  
   
 3.  In the **Task** dialog box, in the **To** box, enter the name or email address of the person you want to assign the task to. To select from a list, click the **To** button.  
   
-     ![Assign Task dialog box in Dynamics 365](../media/assign-task-dialog.png "Assign Task dialog box in Dynamics 365")  
+     ![Assign Task dialog box in Dynamics 365 for Customer Engagement](../media/assign-task-dialog.png "Assign Task dialog box in Dynamics 365 for Customer Engagement")  
   
     > [!NOTE]
     >  You can’t track tasks assigned to more than one person.  
@@ -130,7 +130,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
    - On the **Task** tab, in the **Manage Task** group, click **Assign Task**. If you reassign the task, ownership of the task passes to the person you assign the task to.  
   
      > [!IMPORTANT]
-     >  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can’t track tasks that are reassigned. If a task is already tracked and you reassign the task, the task will be untracked and deleted from Dynamics 365.  
+     >  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can’t track tasks that are reassigned. If a task is already tracked and you reassign the task, the task will be untracked and deleted from Dynamics 365 for Customer Engagement.  
      > 
      >  You can’t reassign a task by forwarding it.  
   
@@ -157,7 +157,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 -   To follow the progress of tasks you assign, select either or both of the following check boxes when you assign the task:  
   
-     ![Assign Task check boxes in Dynamics 365](../media/assign-task-checkbox.png "Assign Task check boxes in Dynamics 365")  
+     ![Assign Task check boxes in Dynamics 365 for Customer Engagement](../media/assign-task-checkbox.png "Assign Task check boxes in Dynamics 365 for Customer Engagement")  
   
 -   To view tasks that you have assigned to others:  
   
@@ -172,5 +172,5 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
     2.  On the **Task** tab, in the **Show** group, click **Details**, and then review the names in the **Update list** box.  
   
 ### See also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

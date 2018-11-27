@@ -1,7 +1,7 @@
 ---
-title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Get an overview of the sales offerings from Dynamics 365."
-keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365, sales person, sales manager"
+title: "Sales Overview (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Get an overview of the sales offerings from Dynamics 365 for Customer Engagement."
+keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365 for Customer Engagement, sales person, sales manager"
 ms.date: 10/29/2018
 ms.service:
   - "dynamics-365-sales"
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi
@@ -36,7 +36,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
 
-- The Sales module in Dynamics 365 for Customer Engagement is the full-featured, desktop-optimized module for sales scenarios. 
+- The Sales module in Dynamics 365 for Customer Engagement for Customer Engagement is the full-featured, desktop-optimized module for sales scenarios. 
 
 - The Sales Pro app is similar to the Sales module, but the entities included in the Sales Pro app are a subset of the entities included in the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
 
@@ -44,7 +44,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
   > [!NOTE]
   > 
-  > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+  > For mobile devices, you'll also need to [install Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 If you're using a desktop browser, you'll see the Sales Hub app in the app switcher as shown in the following image.
 
@@ -58,7 +58,7 @@ The following image shows the Sales Hub app screen on a tablet.
 
 ![Sales Hub example](../sales-enterprise/media/sales_hub_example.png "Sales Hub example")
 
-## What Dynamics 365 for Sales offers
+## What Dynamics 365 for Customer Engagement for Sales offers
 
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] offers great benefits, whether you're using a desktop, phone, or tablet.
 

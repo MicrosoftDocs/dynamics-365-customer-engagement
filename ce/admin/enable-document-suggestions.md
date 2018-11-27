@@ -1,5 +1,5 @@
 ---
-title: "Enable document suggestions for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Enable document suggestions for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 80de5c8d-bec9-4779-a83f-1d900eecbf2d
 caps.latest.revision: 19
 author: "Mattp123"
@@ -43,7 +43,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
   - Access to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], or [!INCLUDE[pn_sharepoint_2016](../includes/pn-sharepoint-2016.md)].  
   
-  - Document management must be set up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. See [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)  
+  - Document management must be set up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. See [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
   
 - Relevance Search must be enabled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search for the organization](../admin/configure-relevance-search-organization.md)  
   

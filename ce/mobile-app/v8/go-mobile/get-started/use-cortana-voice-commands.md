@@ -1,5 +1,5 @@
 ---
-title: "Use Cortana voice commands in Dynamics 365 for phones | MicrosoftDocs"
+title: "Use Cortana voice commands in Dynamics 365 for Customer Engagement for phones | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
@@ -26,7 +26,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Use Cortana voice commands in Dynamics 365 for phones
+# Use Cortana voice commands in Dynamics 365 for Customer Engagement for phones
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -34,16 +34,16 @@ You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm
   
  These commands work with either the [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app or the previous phone app, [!INCLUDE[pn_crm_for_phones_express](../../../../includes/pn-crm-for-phones-express.md)].  
   
-|To do this in Dynamics 365|Say this|  
+|To do this in Dynamics 365 for Customer Engagement|Say this|  
 |--------------------------------|--------------|  
-|Open an item|**Dynamics 365 open *\<item>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM open account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM open account *named* Contoso.”|  
-|Show a view|**Dynamics 365 show *\<view name>*.**<br /><br /> *Example:*<br /><br /> “CRM show my active accounts.”<br /><br /> *Variation:*<br /><br /> “CRM *show me* my active accounts.”|  
-|Search for an item|**Dynamics 365 find *\<item>* called *\<name>*.**<br /><br /> *Example:*<br /><br /> “CRM find account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM find account *named* Contoso.”|  
-|Create a new item|**Dynamics 365 create *\<item type>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM create contact called Maria Campbell.”<br /><br /> *Variation:*<br /><br /> “CRM *add new* contact *named* Maria Campbell.”|  
-|Create a phone call activity|**Dynamics 365 remind me to call *\<call name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to call Maria Campbell to set up appointment.”|  
-|Create an appointment|**Dynamics 365 schedule meeting to *\<subject>*.**<br /><br /> *Example:*<br /><br /> “CRM schedule meeting to discuss quote with Maria Campbell.”|  
-|Create a task|**Dynamics 365 remind me to *\<task name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to email Maria Campbell.”<br /><br /> *Variations:*<br /><br /> “CRM *follow up* Maria Campbell.”<br /><br /> “CRM *follow up with* Maria Campbell.”<br /><br /> “CRM *follow up on* Contoso.”|  
-|Open task list|**Dynamics 365 what should I do next?**<br /><br /> *Example:*<br /><br /> “CRM what should I do next?”|  
+|Open an item|**Dynamics 365 for Customer Engagement open *\<item>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM open account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM open account *named* Contoso.”|  
+|Show a view|**Dynamics 365 for Customer Engagement show *\<view name>*.**<br /><br /> *Example:*<br /><br /> “CRM show my active accounts.”<br /><br /> *Variation:*<br /><br /> “CRM *show me* my active accounts.”|  
+|Search for an item|**Dynamics 365 for Customer Engagement find *\<item>* called *\<name>*.**<br /><br /> *Example:*<br /><br /> “CRM find account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM find account *named* Contoso.”|  
+|Create a new item|**Dynamics 365 for Customer Engagement create *\<item type>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM create contact called Maria Campbell.”<br /><br /> *Variation:*<br /><br /> “CRM *add new* contact *named* Maria Campbell.”|  
+|Create a phone call activity|**Dynamics 365 for Customer Engagement remind me to call *\<call name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to call Maria Campbell to set up appointment.”|  
+|Create an appointment|**Dynamics 365 for Customer Engagement schedule meeting to *\<subject>*.**<br /><br /> *Example:*<br /><br /> “CRM schedule meeting to discuss quote with Maria Campbell.”|  
+|Create a task|**Dynamics 365 for Customer Engagement remind me to *\<task name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to email Maria Campbell.”<br /><br /> *Variations:*<br /><br /> “CRM *follow up* Maria Campbell.”<br /><br /> “CRM *follow up with* Maria Campbell.”<br /><br /> “CRM *follow up on* Contoso.”|  
+|Open task list|**Dynamics 365 for Customer Engagement what should I do next?**<br /><br /> *Example:*<br /><br /> “CRM what should I do next?”|  
   
 > [!NOTE]
 >  The **create** commands work only with [!INCLUDE[pn_crm_2015_and_online_full](../../../../includes/pn-crm-2015-and-online-full.md)] or later. The other commands work with [!INCLUDE[pn_crm2013_and_online](../../../../includes/pn-crm2013-and-online.md)] as well as [!INCLUDE[pn_crm_2015_and_online_full](../../../../includes/pn-crm-2015-and-online-full.md)] or later.  

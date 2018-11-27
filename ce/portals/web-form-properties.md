@@ -1,5 +1,5 @@
 ---
-title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure web form properties for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to configure web form properties for a portal."
 ms.custom: 
   - dyn365-portal
@@ -109,8 +109,8 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

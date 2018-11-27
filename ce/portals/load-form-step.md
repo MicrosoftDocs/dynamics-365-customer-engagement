@@ -1,5 +1,5 @@
 ---
-title: "Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure a load form and load tab step type for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to define a load form and load tab step type in a portal."
 ms.custom: 
   - dyn365-portal
@@ -118,8 +118,8 @@ This provides a way to associate the current record being created or updated by 
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

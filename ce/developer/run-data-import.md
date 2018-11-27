@@ -1,6 +1,6 @@
 ---
-title: "Run data import (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Data importation runs directly on the Dynamics 365 server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
+title: "Run data import (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Data importation runs directly on the Dynamics 365 for Customer Engagement server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "running data import, transforming parsed data"
   - "running data import, obtaining auditing data"
@@ -92,7 +92,7 @@ Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
  You cannot import data into the `modifiedon`, `createdby`, and `modifiedby` attributes. If you have to store data related to who created and modified the data and when the data was modified, you can create custom attributes in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and map the source columns to the new custom attributes.  
   
 ### See also  
- [Import Data in Dynamics 365](import-data.md)   
+ [Import Data in Dynamics 365 for Customer Engagement](import-data.md)   
  [Configure Data Import](configure-data-import.md)   
  [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Data Import Entities](data-import-entities.md)

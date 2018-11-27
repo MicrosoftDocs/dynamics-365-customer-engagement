@@ -1,6 +1,6 @@
 ---
-title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer Engagement compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system"
+title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "SolutionPackager is a tool that can reversibly decompose a Dynamics 365 for Customer Engagement compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: dd682a4b-d04b-40c2-b680-9dec34b986f0
 caps.latest.revision: 33
 author: "JimDaly"

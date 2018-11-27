@@ -1,5 +1,5 @@
 ---
-title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the data messages available in the xRM namespace"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "Microsoft.Xrm.Sdk.Messages namespace, list of data and metadata messages in"
   - "Xrm namespace, list of data and metadata messages in"
@@ -107,6 +107,6 @@ The <xref:Microsoft.Xrm.Sdk.Messages> namespace supports the core messages used 
 
 ### See also  
  [Web Services: IOrganizationService](use-organization-service-read-write-data-metadata.md)   
- [Dynamics 365 Messages in the Organization Service](organization-service-messages.md)   
+ [Dynamics 365 for Customer Engagement Messages in the Organization Service](organization-service-messages.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.Messages>

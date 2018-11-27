@@ -1,6 +1,6 @@
 ---
 title: "Customization solutions file schema | MicrosoftDocs"
-description: "The following is the schema definition for an import/export customization file from Dynamics 365 Customer Engagement."
+description: "The following is the schema definition for an import/export customization file from Dynamics 365 for Customer Engagement."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "schemas"
 ms.assetid: 71e3e594-0240-4af1-99b4-135042b7a000
@@ -38,7 +38,7 @@ You can find schema  in the `Schemas\9.0.0.2090\CustomizationsSolution.xsd` fold
 
 Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
-  For more information, see [Package and Distribute Extensions with Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md).
+  For more information, see [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
   
 ## Schema  
   
@@ -2496,7 +2496,7 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 ```  
   
 ### See also  
- [When to Edit the Customizations File for Dynamics 365 Customer Engagement](when-edit-customization-file.md)   
+ [When to Edit the Customizations File for Dynamics 365 for Customer Engagement](when-edit-customization-file.md)   
  [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Customization XML Reference](../customization-xml-reference.md)

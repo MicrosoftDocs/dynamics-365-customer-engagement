@@ -1,10 +1,10 @@
 ---
-title: "formContext.ui.navigation item (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "formContext.ui.navigation item (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 661d084d-744b-44b0-be82-abde6f6e7e90
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -21,7 +21,7 @@ search.app:
 Each item represents one of the available navigation options available in the navigation bar for entities that have been updated to the new user experience or on the left side of the form for entities that have not been updated.
 
 > [!NOTE]
-> These methods do not work with Microsoft Dynamics 365 for tablets.
+> These methods do not work with Microsoft Dynamics 365 for Customer Engagement for tablets.
 
 ## Navigation item methods
 

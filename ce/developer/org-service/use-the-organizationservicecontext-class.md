@@ -1,6 +1,6 @@
 ---
-title: "Use the OrganizationServiceContext class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The OrganizationServiceContext class lets you track changes, manage identities and relationships, and gives you access to the Dynamics 365 LINQ provider. This class also contains a OrganizationServiceContext.SaveChanges method that you use to submit the changes to data that the context is tracking"
+title: "Use the OrganizationServiceContext class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The OrganizationServiceContext class lets you track changes, manage identities and relationships, and gives you access to the Dynamics 365 for Customer Engagement LINQ provider. This class also contains a OrganizationServiceContext.SaveChanges method that you use to submit the changes to data that the context is tracking"
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d63562dd-c4fb-40de-82d4-25d7fb4d7553
 caps.latest.revision: 51
 author: "JimDaly"
@@ -127,7 +127,7 @@ if (pam != null)
 
 ### See also  
  [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
- [Sample: LINQ Query Examples for Dynamics 365](sample-complex-linq-queries.md)   
+ [Sample: LINQ Query Examples for Dynamics 365 for Customer Engagement](sample-complex-linq-queries.md)   
  [Using the Code Generation Utility (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md)   
  [Use the Early Bound Entity Classes for Create, Update and Delete](use-early-bound-entity-classes-create-update-delete.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   

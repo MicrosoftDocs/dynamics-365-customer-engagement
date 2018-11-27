@@ -1,5 +1,5 @@
 ---
-title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about passing parameters to a URL by using the ribbon"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "ribbon"
 ms.assetid: 27ae5df1-fbd3-404b-bf52-40bbd2773cf6

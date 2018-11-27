@@ -1,6 +1,6 @@
 ---
-title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This topic applies to customers who access Dynamics 365 (online) Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 (online) web service authentication with managed domain and federated identity providers works"
+title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This topic applies to customers who access Dynamics 365 for Customer Engagement (online) Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 for Customer Engagement (online) web service authentication with managed domain and federated identity providers works"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bdd3b0f8-bdd7-4604-941e-7308f4c2d83c
 caps.latest.revision: 49
 author: "JimDaly"
@@ -70,7 +70,7 @@ AuthenticationCredentials.SupportingCredentials.ClientCredentials = <device cred
 
  If your code checks the identity provider type to determine how to authenticate, then additional code is required. See the `GetCredentials` method in the next section for sample code that supports transitioned [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] users.  
   
- For more information about this transition, see [Dynamics 365 (online) Integration with Office 365](online-integration-office-365.md).  
+ For more information about this transition, see [Dynamics 365 for Customer Engagement (online) Integration with Office 365](online-integration-office-365.md).  
   
 <a name="bkmk_deep"></a> 
   
@@ -110,8 +110,8 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
   
 ### See also 
  
- [Connect with Microsoft Office 365 and Dynamics 365 (online)](connect-microsoft-office-365.md)
+ [Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement (online)](connect-microsoft-office-365.md)
  [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md)   
  [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
- [Use connection strings in XRM tooling to connect to Dynamics 365](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)
+ [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)

@@ -24,7 +24,7 @@ The specified encryption certificate could not be found in the local certificate
 -   The specified encryption certificate was deleted.  
 
 ## Cause 2  
-The service account configured for the Microsoft Dynamics 365 application pool (CrmAppPool) does not have permission to read the Claims Signing certificate in the local store.  
+The service account configured for the Microsoft Dynamics 365 for Customer Engagement application pool (CrmAppPool) does not have permission to read the Claims Signing certificate in the local store.  
   
 ## Solution
   

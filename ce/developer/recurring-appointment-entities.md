@@ -1,5 +1,5 @@
 ---
-title: "Recurring appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Recurring appointment entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Overview of appointments that occur more than once, and follow an occurrence pattern."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "recurring appointment entities, introduction"
   - "recurring appointments, definition"

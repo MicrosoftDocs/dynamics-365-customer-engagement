@@ -1,5 +1,5 @@
 ---
-title: "Use faceted search to improve portal search in Dynamics 365 | MicrosoftDocs"
+title: "Use faceted search to improve portal search in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable or disable faceted search."
 ms.custom: 
   - dyn365-portal

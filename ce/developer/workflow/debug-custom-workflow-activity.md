@@ -1,5 +1,5 @@
 ---
-title: "Debug a custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Debug a custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn more about how to debug a custom workflow activity"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0922585a-006b-4229-8f6d-b7849062a156
 caps.latest.revision: 15
 author: "JimDaly"

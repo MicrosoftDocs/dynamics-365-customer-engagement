@@ -1,5 +1,5 @@
 ---
-title: "Test for a null value (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Test for a null value (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to test for a null value by using the FilterExpression and QueryByAttribute classes"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "testing for null values, about and code examples"
   - "testing for equality or inequality of"

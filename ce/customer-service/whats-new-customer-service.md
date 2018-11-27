@@ -1,11 +1,11 @@
 ---
-title: What's new in Dynamics 365 for Customer Service | MicrosoftDocs
-description: Visit this page to see what's recently updated or added in Dynamics 365 for Customer Service
-keywords: Dynamics 365; Customer Service; Customer Service Hub; Customer Service app
+title: What's new in Dynamics 365 for Customer Engagement for Customer Service | MicrosoftDocs
+description: Visit this page to see what's recently updated or added in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Dynamics 365 for Customer Engagement; Customer Service; Customer Service Hub; Customer Service app
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -22,13 +22,13 @@ search.app:
   - D365CS
 ---
 
-# What's new in Dynamics 365 for Customer Service
+# What's new in Dynamics 365 for Customer Engagement for Customer Service
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Welcome to Dynamics 365 for Customer Service. Visit this page to learn about new or updated features for Customer Service.
+Welcome to Dynamics 365 for Customer Engagement for Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
-## Dynamics 365 for Customer Engagement apps, version 9.1
+## Dynamics 365 for Customer Engagement for Customer Engagement apps, version 9.1
 
 Customer Engagement apps version 9.1 introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
 

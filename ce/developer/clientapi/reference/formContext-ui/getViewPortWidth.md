@@ -1,9 +1,9 @@
 ---
-title: "getViewPortWidth (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getViewPortWidth (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e19af732-01e8-4853-b81c-40d79192cea2
 author: "KumarVivek"
 ms.author: "kvivek"

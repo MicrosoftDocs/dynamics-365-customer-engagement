@@ -1,1 +1,1 @@
-Dynamics 365 Connector for SQL Server Reporting Services
+Dynamics 365 for Customer Engagement Connector for SQL Server Reporting Services

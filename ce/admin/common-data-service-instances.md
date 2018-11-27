@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 5a98567b-b81c-47dc-979c-5402db8e2996
 caps.latest.revision: 4
 author: "jimholtz"
@@ -38,7 +38,7 @@ The Common Data Service allows you to securely store and manage data used in you
 
 Currently, Common Data Service instances are available as trial and production types. What management actions are available depends on which admin center you use.
 
-### Management in the Dynamics 365 admin center
+### Management in the Dynamics 365 for Customer Engagement admin center
 
 You can manage the following with the Common Data Service instance in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]:
 

@@ -1,6 +1,6 @@
 ---
-title: "Track online behavior (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 for Marketing"
+title: "Track online behavior (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "tutorial; tracking; website; redirect URL; behavior analysis"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 75e0afc9-b2ea-4983-b831-629c1843af9c
 author: kamaybac
 ms.author: kamaybac
@@ -95,4 +95,4 @@ To see usage statistics about one of your redirect URLs, go to **Marketing** &gt
 [Register contacts' engagement](register-engagement.md)  
 [Design lead-scoring models](score-manage-leads.md)  
 [Set up lead scoring](set-up-lead-scoring.md)  
-[How Dynamics 365 for Marketing uses cookies](cookies.md)
+[How Dynamics 365 for Customer Engagement for Marketing uses cookies](cookies.md)

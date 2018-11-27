@@ -1,5 +1,5 @@
 ---
-title: "Use the early bound entity classes to associate records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the early bound entity classes to associate records (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can create an association between related records using AddLink method in OrganizationServiceContext class for a one-to-many relationship and Associate method in IOrganizationService class using for a many-to-many relationship"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "adding or updating associations between related records, early bound-entity classes"
   - "using early-bound entity classes in code, adding or updating associations between related records"

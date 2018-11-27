@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
 keywords: ""
 ms.date: 11/09/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: 2a44229e-44f0-4c4e-ba21-a476210d0a12
 ms.author: "matp"
@@ -30,7 +30,7 @@ search.app:
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-In Dynamics 365 for Customer Engagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
+In Dynamics 365 for Customer Engagement for Customer Engagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 
 ## Prerequisites
 Verify the following prerequisites before you start creating an app:
@@ -101,7 +101,7 @@ Verify the following prerequisites before you start creating an app:
 <a name="LaunchApp"></a>   
 ## Run a model-driven app
 
-Go to the [Dynamics 365 home page](https://home.dynamics.com/) and then select the app you want. If there are several apps available, search for the app by typing in the search box.
+Go to the [Dynamics 365 for Customer Engagement home page](https://home.dynamics.com/) and then select the app you want. If there are several apps available, search for the app by typing in the search box.
 
 From within an app, the following features include filtering by record type:
 - Categorized search and Relevance search results

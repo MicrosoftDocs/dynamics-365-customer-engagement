@@ -1,5 +1,5 @@
 ---
-title: "CORS protocol support for a portal in Dynamics 365 | MicrosoftDocs"
+title: "CORS protocol support for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about CORS protocol support for a portal."
 ms.custom:
   - dyn365-portal

@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 author: "Mattp123"
 ms.assetid: 56363ea3-ea76-4311-9b7a-b71675e446fb
@@ -101,7 +101,7 @@ search.app:
 
 6. In the **Package Type** step, you must choose whether to export the solution as an **Unmanaged** or **Managed** solution.  
 
-7. The next step allows you to choose a target solution for a specific Dynamics 365 version. This option is typically used by ISVs who may want to export a solution that is compliant with a previous version. Unless you intend to import this solution into an organization that is not upgraded to the same version as the organization version you are using, accept the default.   
+7. The next step allows you to choose a target solution for a specific Dynamics 365 for Customer Engagement version. This option is typically used by ISVs who may want to export a solution that is compliant with a previous version. Unless you intend to import this solution into an organization that is not upgraded to the same version as the organization version you are using, accept the default.   
 
 8. Choose **Export** to download the solution file.  
 
@@ -123,7 +123,7 @@ search.app:
 |                                 Order Prefix                                  |                                                              Prefix to use for all orders throughout the app.                                                              |                                                                                                                                                                          |
 |                             Unique String Length                              |                                                    Number of characters appended to invoice, quote, and order numbers.                                                     |                                                                                                                                                                          |
 |                                   Calendar                                    |                                                                               Calendar Type                                                                                |                                                       Calendar type for the system. Set to Gregorian US by default                                                       |
-|                               Date Format Code                                |                                                    Information about how the date is displayed throughout Dynamics 365.                                                    |                                                                                                                                                                          |
+|                               Date Format Code                                |                                                    Information about how the date is displayed throughout Dynamics 365 for Customer Engagement.                                                    |                                                                                                                                                                          |
 |                                Date Separator                                 |                                          Character used to separate the month, the day, and the year in dates throughout the app.                                          |                                                                                                                                                                          |
 |                           Max Appointment Duration                            |                                                              Maximum number of days an appointment can last.                                                               |                                                                                                                                                                          |
 |                               Show Week Number                                |                                   Information that specifies whether to display the week number in calendar displays throughout the app.                                   |                                                                                                                                                                          |

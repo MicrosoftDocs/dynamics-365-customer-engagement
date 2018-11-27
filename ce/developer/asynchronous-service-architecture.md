@@ -1,6 +1,6 @@
 ---
-title: "Asynchronous service architecture (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of Dynamics 365 is that the asynchronous service can be hosted on servers other than the Dynamics 365 server, resulting in improved performance."
+title: "Asynchronous service architecture (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of Dynamics 365 for Customer Engagement is that the asynchronous service can be hosted on servers other than the Dynamics 365 for Customer Engagement server, resulting in improved performance."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "asynchronous operations, asynchronous operations, architecture"
 ms.assetid: e4117ff8-8a4d-4919-af78-0b8b7d15433a
@@ -38,5 +38,5 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
 ### See also  
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Walkthrough: Stop and Start the Asynchronous Service](stop-start-asynchronous-service.md)   
- [Asynchronous Service in Dynamics 365](asynchronous-service.md)   
+ [Asynchronous Service in Dynamics 365 for Customer Engagement](asynchronous-service.md)   
  [AsyncOperation (system job) entity](asyncoperation-system-job-entity.md)

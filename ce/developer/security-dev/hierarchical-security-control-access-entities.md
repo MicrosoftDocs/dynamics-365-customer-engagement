@@ -1,5 +1,5 @@
 ---
-title: "How hierarchical security can be used to control access to entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "How hierarchical security can be used to control access to entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides an additional, more granular security model for accessing records in a hierarchical organizational structure."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 61ec481c-c128-498b-a784-16fe11af424b
 caps.latest.revision: 19
 author: "JimDaly"
@@ -50,6 +50,6 @@ Hierarchy security offers a more granular access to records for an organization 
   
 ### See also  
  [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](http://youtu.be/kx5So32DrCo)   
- [The Security Model of Microsoft Dynamics 365](security-model.md)   
+ [The Security Model of Microsoft Dynamics 365 for Customer Engagement](security-model.md)   
  [Security concepts for Microsoft Dynamics CRM](https://technet.microsoft.com/library/hh699698.aspx)
  [Position Entity](../entities/position.md)

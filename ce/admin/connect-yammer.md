@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 7e180f88-c913-4b46-a923-c7162cf44566
 caps.latest.revision: 25
 author: "jimholtz"
@@ -45,7 +45,7 @@ search.app:
   
 - Meet [browser and system requirements](https://support.office.com/article/Yammer-admin-guide-a9c206d4-fb18-4250-bec6-e783b926e4f6).  
   
-### Connect Dynamics 365 to Yammer  
+### Connect Dynamics 365 for Customer Engagement to Yammer  
   
 1. Sign up for a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Enterprise account, and note the name of the network you receive. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)  
   
@@ -76,7 +76,7 @@ search.app:
   
 4. If desired, select which record types trigger automatic posts to the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] newsfeed.  
   
-## Enable Dynamics 365 entities for Yammer  
+## Enable Dynamics 365 for Customer Engagement entities for Yammer  
  Once you’ve connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you need to specify which [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities are enabled for use with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Enabled entities can be followed by users  
   
 1. [!INCLUDE[proc_settings_system](../includes/proc-settings-system.md)]  
@@ -122,7 +122,7 @@ search.app:
   
 ## Additional considerations  
   
-### When connecting Dynamics 365 with a federated Yammer  
+### When connecting Dynamics 365 for Customer Engagement with a federated Yammer  
  If you have configured [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to use single sign-on, you’ll need to generate and use a temporary password to connect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
 1. Sign in to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] with the single sign-on credentials.  
@@ -138,7 +138,7 @@ search.app:
 6. Use the temporary user name and password to complete the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection configuration.  
   
 ### Add Yammer sites to the browser as trusted  
- Add your Yammer sites to your browser as trusted. For example, for Dynamics 365 (online), add the following:  
+ Add your Yammer sites to your browser as trusted. For example, for Dynamics 365 for Customer Engagement (online), add the following:  
   
 - https://*.crm.dynamics.com  
   

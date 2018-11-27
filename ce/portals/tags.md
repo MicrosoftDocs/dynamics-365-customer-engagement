@@ -1,5 +1,5 @@
 ---
-title: "Use tags for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about various liquid tags available in portal."
 ms.custom:
   - dyn365-portal
@@ -577,13 +577,13 @@ Allows output of Liquid code on a page without having it parsed and executed.
 
 `Hello, {{ user.fullname }}. My name is Charles.`
 
-## Dynamics 365 entity tags
+## Dynamics 365 for Customer Engagement entity tags
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
 
 ### chart
 
-Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 chart to a web page in portal](add-chart.md).
+Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 for Customer Engagement chart to a web page in portal](add-chart.md).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -1158,7 +1158,7 @@ Having multiple search providers is an advanced configuration that will not appl
 
 ### **entityform**
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the Dynamics 365 portal*](entity-forms-custom-logic.md), by name or ID.  
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal*](entity-forms-custom-logic.md), by name or ID.  
 
 > [!Note]
 > The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       

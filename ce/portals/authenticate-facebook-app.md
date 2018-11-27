@@ -1,5 +1,5 @@
 ---
-title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to authenticate the Facebook app to sign in to a portal."
 ms.custom:
   - dyn365-portal
@@ -113,7 +113,7 @@ By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)
 ```
 ### See also
 
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Report writing environment using SQL Server Data Tools (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Report writing environment using SQL Server Data Tools (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 4c31abe1-7c07-4498-b69a-ddfed2686d08
 caps.latest.revision: 23
 author: "Mattp123"
@@ -53,7 +53,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
 
 > [!NOTE]
-> - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
+> - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 for Customer Engagement Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
 > - [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] is available only in a 32-bit version.  
   
 ## Required privileges  

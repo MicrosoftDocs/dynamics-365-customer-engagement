@@ -1,5 +1,5 @@
 ---
-title: "Pass data between plug-ins (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Pass data between plug-ins (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about SharedVariables that is used for passing information between plug-ins. This is a collection of keyalue pairs. At run time, plug-ins can add, read, or modify properties in the SharedVariables collection. This provides a method of information communication among plug-ins."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 f1_keywords: 
   - "plugins"
   - "plugin"

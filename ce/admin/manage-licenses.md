@@ -1,5 +1,5 @@
 ---
-title: "Manage Dynamics 365 (online) licenses | MicrosoftDocs"
+title: "Manage Dynamics 365 for Customer Engagement (online) licenses | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/07/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 2799e309-aca8-405c-ba1f-42a5ce79677f
 caps.latest.revision: 4
 author: "jimholtz"
@@ -33,9 +33,9 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 >  Get started with the following resources:  
 >   
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
-> -   Download: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
+> -   Download: [Dynamics 365 for Customer Engagement Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
   
-## Running out of Dynamics 365 (online) licenses?  
+## Running out of Dynamics 365 for Customer Engagement (online) licenses?  
  If you are running out of licenses, you have several options:  
   
 - Add licenses to your subscription and then assign licenses to users.  
@@ -71,4 +71,4 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 ### See also  
  [Important information for CRM Online customers](../admin/important-information-customers.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Create users and assign Microsoft Dynamics 365 (online) security roles](../admin/create-users-assign-online-security-roles.md)
+ [Create users and assign Microsoft Dynamics 365 for Customer Engagement (online) security roles](../admin/create-users-assign-online-security-roles.md)

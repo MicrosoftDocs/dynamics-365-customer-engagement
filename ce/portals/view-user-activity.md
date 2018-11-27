@@ -1,5 +1,5 @@
 ---
-title: "View user activity on a portal for Dynamics 365 | MicrosoftDocs"
+title: "View user activity on a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to view activity of a user on a portal."
 ms.custom:
   - dyn365-portal
@@ -17,7 +17,7 @@ manager: shubhadaj
 ---
 
 # View activity of a user on a portal
-Dynamics 365 for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
+Dynamics 365 for Customer Engagement for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
 
 You can enable a portal to send data from a user’s activity to your DCI instance. This will be helpful in knowing the user’s journey on a portal before and after creating a case. This also helps you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
 
@@ -32,7 +32,7 @@ To view activity of a user on a portal:
 2. Select the name of the portal you want to view user’s activity, and then select **Manage**.
 3. Select **Portal Analytics**. The Tracking Portal Interaction page is displayed.
 4. Select **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.
-5. Enter the following values as per your Dynamics 365 Customer Insights instance:
+5. Enter the following values as per your Dynamics 365 for Customer Engagement Customer Insights instance:
    - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for the Customer Insights hub URI 
    - Policy name with Manage, Read, and Write permissions 
    - Shared Key

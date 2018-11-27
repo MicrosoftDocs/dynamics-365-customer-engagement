@@ -1,5 +1,5 @@
 ---
-title: "Analyze plug-in performance (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Analyze plug-in performance (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The Plug-in Profiler is a tool that profiles the execution of plug-ins and custom workflow activities for an enhanced debugging experience in Visual Studio."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 17e6f8ae-c9ac-48ef-b547-3df380b9c0f7
 caps.latest.revision: 43
 author: "JimDaly"

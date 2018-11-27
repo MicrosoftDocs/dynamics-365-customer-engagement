@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Register a plug-in using the plug-in registration tool (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Walkthrough: Register a plug-in using the plug-in registration tool (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article tells how to register a plug-in by using the Plug-in Registration tool that is provided in the SDK."
 ms.custom: ""
 ms.date: 05/01/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c0adf742-e0b7-4699-8972-afe0638af4e4
 caps.latest.revision: 48
 author: "JimDaly"
@@ -34,7 +34,7 @@ This walkthrough demonstrates how to register a plug-in by using the Plug-in Reg
 
 - Obtain a system user account on a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.  
 
-- Your user account must have the System Customizer or System Administrator role. See [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md).  
+- Your user account must have the System Customizer or System Administrator role. See [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement](security-dev/how-role-based-security-control-access-entities.md).  
 
 [!INCLUDE [cc_register-plug-in-premium-entities-note](../includes/cc_register-plug-in-premium-entities-note.md)]
 

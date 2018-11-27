@@ -28,7 +28,7 @@ Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-lon
 
 ## How can I respond to a Data Subject Request (DSR) in context of GDPR?
 
-The workflows and pointers to the related procedures are listed in the [Dynamics 365 Data Subject Request GDPR Documentation](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=24330ae4-fb40-4e2c-9970-354d1ffc03e8&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_DSR) on the [Service Trust Portal](https://servicetrust.microsoft.com/). 
+The workflows and pointers to the related procedures are listed in the [Dynamics 365 for Customer Engagement Data Subject Request GDPR Documentation](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=24330ae4-fb40-4e2c-9970-354d1ffc03e8&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_DSR) on the [Service Trust Portal](https://servicetrust.microsoft.com/). 
   
 ## How soon will I start seeing data after I set up a search topic? 
  

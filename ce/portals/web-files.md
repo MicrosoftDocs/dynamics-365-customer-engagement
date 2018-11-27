@@ -1,12 +1,12 @@
 ---
-title: "Create and manage web files in Dynamics 365 portals | MicrosoftDocs"
+title: "Create and manage web files in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to create and manage web files in a portal."
 ms.date: 05/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: F285A65E-EA26-45EF-8E6D-8A8F278D34D4
 author: sbmjais
 ms.author: shjais
@@ -28,7 +28,7 @@ A web file represents downloadable file in a portals website, used to store imag
 
 To store the actual contents of a given file, portals uses the attachment feature of the notes associated with a web file record. The file attachment of the newest note associated with the web file is used as the file content. As such, the size of web file content that can be supported by portals is determined by the note attachment size supported by your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] installation.
 
-## Manage web files in Dynamics 365
+## Manage web files in Dynamics 365 for Customer Engagement
 
 Web files can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 

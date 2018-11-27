@@ -1,5 +1,5 @@
 ---
-title: "Build queries with QueryExpression (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Build queries with QueryExpression (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the QueryExpression class to programmatically build a query containing data filters and search conditions that define the scope of a database search"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "saving queries"
   - "query expressions, used for single-object searches"

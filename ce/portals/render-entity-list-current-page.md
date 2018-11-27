@@ -1,5 +1,5 @@
 ---
-title: "Render the entity list associated with the current page in a portal in Dynamics 365 | MicrosoftDocs"
+title: "Render the entity list associated with the current page in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Sample code to render the entity list associated with the current page in a portal."
 ms.custom: 
   - dyn365-portal

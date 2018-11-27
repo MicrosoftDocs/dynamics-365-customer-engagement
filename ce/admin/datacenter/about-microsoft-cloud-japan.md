@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 140fde74-6ccb-4553-8076-4a9bbaa40637
 caps.latest.revision: 26
 author: "jimholtz"
@@ -68,7 +68,7 @@ You may request migration to the Japan datacenter upon datacenter availability (
   
 2.  Go to **Support** > **Service Requests** > **+**  
   
-3.  Choose **More** > **Dynamics 365 Online**  
+3.  Choose **More** > **Dynamics 365 for Customer Engagement Online**  
   
 4.  For **Feature**, select **Data Management**. For **Symptom**, select **Data Center migration request**.  
   
@@ -80,7 +80,7 @@ A [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] s
  Once you have been scheduled for migration, a member of the [!INCLUDE[pn_Microsoft_Support](../../includes/pn-microsoft-support.md)] team will work directly with you to discuss scheduling and any other issues that may come up during the migration.  
   
 ### If I am scheduled for an update to [!INCLUDE[pn_crm_online_2015_update](../../includes/pn-crm-online-2015-update.md)] or [!INCLUDE[pn_crm_online_2015_update_1_shortest](../../includes/pn-crm-online-2015-update-1-shortest.md)], will Microsoft apply the update at the same time as their migration to the Japan datacenter?  
- You must be updated to [!INCLUDE[pn_crm_online_2015_update](../../includes/pn-crm-online-2015-update.md)] or later before migrating to the Japan datacenter.  Customers can schedule their update. For more information, see [Manage Microsoft Dynamics 365 (online) Updates](../../admin/manage-updates.md).  
+ You must be updated to [!INCLUDE[pn_crm_online_2015_update](../../includes/pn-crm-online-2015-update.md)] or later before migrating to the Japan datacenter.  Customers can schedule their update. For more information, see [Manage Microsoft Dynamics 365 for Customer Engagement (online) Updates](../../admin/manage-updates.md).  
   
 ### If I have both Office 365 services and [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], how will migration be handled?  
  The move of each service will be handled separately and customers will be fully supported even if one service has been moved and the other has not. For [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], customers will be able to choose their move date and time. [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will work with the customer to schedule the move. For [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)], customers will be notified through the message center about the move timeline, but the large number of existing customers means that individual scheduling is not possible. For [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] scheduling and migration, see [New datacenter regions for Office 365](https://technet.microsoft.com/library/dn878163.aspx).  
@@ -100,7 +100,7 @@ A [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] s
  At this time [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] is only available for dev/test scenarios and isn’t supported for production use cases.  Developers can leverage their MSDN subscription and [!INCLUDE[pn_azure_shortest](../../includes/pn-azure-shortest.md)] credits for dev/test scenarios. Note: we recently announced intent to support [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] on [!INCLUDE[pn_azure_shortest](../../includes/pn-azure-shortest.md)] IaaS but we are dependent on [!INCLUDE[pn_azure_shortest](../../includes/pn-azure-shortest.md)] Premium Storage availability being available in each geographic region. Azure’s Limited Public Preview will only be available in the U.S. and part of Europe. We do not have any additional information regarding other geos or general availability at this time.  
   
 ### Where can I find more about [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] security, data privacy, and compliance?  
- The [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Trust Center will be updated as needed when the Japan datacenters launch into general availability. To see the current version of the Trust Center, see: [Microsoft Dynamics 365 Trust Center](http://go.microsoft.com/fwlink/p/?LinkID=393409).  
+ The [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Trust Center will be updated as needed when the Japan datacenters launch into general availability. To see the current version of the Trust Center, see: [Microsoft Dynamics 365 for Customer Engagement Trust Center](http://go.microsoft.com/fwlink/p/?LinkID=393409).  
   
 <!-- Out-of-date
 ### Where can I find out more about the physical infrastructure for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]?  
@@ -121,9 +121,9 @@ A [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] s
  Billing is related to the country/region where the customer signs up for the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] service, not where the service is deployed.  
   
 ### Will all versions of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] be available?  
- You’ll be able to purchase all licenses that are currently available in the market today. For more information, see: [Microsoft Dynamics 365 Pricing List](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+ You’ll be able to purchase all licenses that are currently available in the market today. For more information, see: [Microsoft Dynamics 365 for Customer Engagement Pricing List](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
   
 ### See also  
  [Office 365 now available from datacenters in Japan](https://blogs.office.com/2014/12/15/office-365-now-available-datacenters-japan/)   
  [Japan datacenter - Office 365 FAQ](https://technet.microsoft.com/library/dn879430.aspx)   
- [New datacenter regions for Dynamics 365 (online)](new-datacenter-regions.md)
+ [New datacenter regions for Dynamics 365 for Customer Engagement (online)](new-datacenter-regions.md)

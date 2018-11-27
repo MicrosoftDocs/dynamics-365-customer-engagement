@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
 ms.assetid: 58b6c7b3-d032-4a76-bc31-a9503382e7e7
 caps.latest.revision: 13
 author: Mattp123
@@ -37,6 +37,6 @@ The **Change Product Key** dialog box lets you change the product key.
 
 
 ## See also  
- [Microsoft Dynamics 365 Deployment Properties](microsoft-dynamics-365-deployment-properties.md)   
+ [Microsoft Dynamics 365 for Customer Engagement Deployment Properties](microsoft-dynamics-365-deployment-properties.md)   
  [Using Windows PowerShell to perform Deployment Manager tasks](powershell-deployment-manager-tasks.md) <!--"Using Windows PowerShell to perform Deployment Manager tasks")-->
 

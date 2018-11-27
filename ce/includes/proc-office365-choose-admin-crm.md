@@ -1,1 +1,1 @@
-Click **Admin centers** > **Dynamics 365**.
+Click **Admin centers** > **Dynamics 365 for Customer Engagement**.

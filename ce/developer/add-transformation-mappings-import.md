@@ -1,5 +1,5 @@
 ---
-title: "Add transformation mappings for import (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Add transformation mappings for import (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Transformation mapping enables optional modification of source data before importation."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "using transformation mapping to modify data before importing"
   - "transformation mappings, definition"
@@ -210,6 +210,6 @@ Use transformation mapping to modify data before importing it. For example, spli
 |New Date|New data string that contains day, month, and year, added in this order. First, the relative components are added, and then the absolute values are used to form a date.|  
 
 ### See also  
- [Import Data in Dynamics 365](import-data.md)   
+ [Import Data in Dynamics 365 for Customer Engagement](import-data.md)   
  [Create data maps for import](create-data-maps-for-import.md)   
  [Configure Data Import](configure-data-import.md)

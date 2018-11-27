@@ -1,11 +1,11 @@
 ---
-title: "OwnerMapping Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "OwnerMapping Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the OwnerMapping entity."
 ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
@@ -17,7 +17,7 @@ search.app:
 ---
 # OwnerMapping Entity Reference
 
-In a data map, maps ownership data from the source file to Microsoft Dynamics 365.
+In a data map, maps ownership data from the source file to Microsoft Dynamics 365 for Customer Engagement.
 
 
 ## Messages
@@ -150,7 +150,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Source user value for source Microsoft Dynamics 365 user link.|
+|Description|Source user value for source Microsoft Dynamics 365 for Customer Engagement user link.|
 |DisplayName|Source User Value|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -186,7 +186,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Microsoft Dynamics 365 logon name with which the source user name should be replaced.|
+|Description|Microsoft Dynamics 365 for Customer Engagement logon name with which the source user name should be replaced.|
 |DisplayName|Target Domain Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -202,7 +202,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the Microsoft Dynamics 365 user.|
+|Description|Unique identifier of the Microsoft Dynamics 365 for Customer Engagement user.|
 |DisplayName|Target System User|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -666,6 +666,6 @@ See importmap Entity [OwnerMapping_ImportMap](importmap.md#BKMK_OwnerMapping_Imp
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.ownermapping?text=ownermapping EntityType" />

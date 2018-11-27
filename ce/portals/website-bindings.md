@@ -1,6 +1,6 @@
 ---
-title: "Create and manage website bindings in Dynamics 365 Portal | MicrosoftDocs"
-description: "Learn how to create and manage website bindings in Dynamics 365 Portal."
+title: "Create and manage website bindings in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
+description: "Learn how to create and manage website bindings in Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 06/20/2018

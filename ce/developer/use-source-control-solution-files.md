@@ -1,5 +1,5 @@
 ---
-title: "Use source control with solution files (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use source control with solution files (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The SolutionPackager tool can be used with any source control system. After a solution .zip file has been extracted to a folder, simply add and submit the files to your source control system. These files can then be synchronized on another computer where they can be packed into a new identical solution .zip file."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e2ca3f4c-201e-4d7e-be0d-85eef2ce3e73
 caps.latest.revision: 15
 author: "JimDaly"

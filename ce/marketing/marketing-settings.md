@@ -1,6 +1,6 @@
 ---
-title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
-description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Marketing"
+title: "Configure core marketing functionality in Dynamics 365 for Customer Engagement for Marketing | Microsoft Docs"
+description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "administration; landing page; customer-insights sync"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: kamaybac
 ms.author: kamaybac
@@ -114,7 +114,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > 1. On the **General** tab for the entity, select the **Change tracking** check box.
 > 1. Save and publish the change.
 > 
-> [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Dynamics 365 for Marketing](customize.md)
+> [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Dynamics 365 for Customer Engagement for Marketing](customize.md)
 
 To sync a new entity with the customer-insights services:
 

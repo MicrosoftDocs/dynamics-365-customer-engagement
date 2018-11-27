@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 0bd0021b-d2fa-406d-813a-eaecf7e50587
 caps.latest.revision: 76
 author: "m-hartmann"
@@ -33,7 +33,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
 >  Before you can set up the Social Insights controls in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you have to add search topic categories and visuals for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can add search topics in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] directly from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. See the [Microsoft Social Engagement Help Center](http://go.microsoft.com/fwlink/p/?LinkID=394325)  
   
 <a name="BKMK_Connect"></a>   
-## Connect Dynamics 365 (online) to Social Engagement for Social Insights  
+## Connect Dynamics 365 for Customer Engagement (online) to Social Engagement for Social Insights  
  To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], be an authorized [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user and have a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance provisioned for this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
 > [!NOTE]
@@ -58,7 +58,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
 > [!NOTE]
 >  In [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], only one [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance is provided for connection to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
-## Assign Social Engagement licenses to Dynamics 365 users  
+## Assign Social Engagement licenses to Dynamics 365 for Customer Engagement users  
  [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] customers automatically have access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] as part of their subscription at no additional charge. .  
   
  Use the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] to assign and verify [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] licenses.  
@@ -92,7 +92,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
 <a name="BKMK_Add"></a>   
 
-## Add the Social Insights control to a Dynamics 365 entity form  
+## Add the Social Insights control to a Dynamics 365 for Customer Engagement entity form  
  To add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to an entity (record type) form, you have to use the form editor provided in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] **Customization** area. You can position the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control anywhere on the form and resize it, just like you would do with the **iFrame** controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Form Editor](../customize/use-the-form-editor-legacy.md).  
   
 1. Click **Settings** > **Customizations** > **Customize the System**.  
@@ -134,7 +134,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
 5. To add the control, choose **Insert Social Insights** icon in the center of the section on the dashboard form, or choose **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the command bar and then choose **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** in the dropdown list. **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard appears.  
   
-   ![Set up Social Insights in Dynamics 365](../admin/media/social-engagement-setup.png "Set up Social Insights in Dynamics 365")  
+   ![Set up Social Insights in Dynamics 365 for Customer Engagement](../admin/media/social-engagement-setup.png "Set up Social Insights in Dynamics 365 for Customer Engagement")  
   
 6. In the **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard, choose **Advanced**. The **Add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** dialog appears. Fill in the required fields and choose **OK**. You can also use the default values and choose **OK** or **Cancel** to close the dialog box.  
   
@@ -157,7 +157,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
 11. To publish the customizations, choose **Publish All Customizations** on the command bar. After the customizations are published, you can see the social insights on your dashboard.  
   
-    ![Social Insights in dashboard in Dynamics 365](../admin/media/social-engagement-visual-in-dashboard.png "Social Insights in dashboard in Dynamics 365")  
+    ![Social Insights in dashboard in Dynamics 365 for Customer Engagement](../admin/media/social-engagement-visual-in-dashboard.png "Social Insights in dashboard in Dynamics 365 for Customer Engagement")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_gcc_social_listening_configuration](../includes/cc-privacy-crm-gcc-social-listening-configuration.md)]

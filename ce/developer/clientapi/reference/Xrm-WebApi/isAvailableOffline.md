@@ -1,9 +1,9 @@
 ---
-title: "isAvailableOffline (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "isAvailableOffline (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: ea9eacc0-2e31-49f4-a329-dcdf430a5a7e
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -1,5 +1,5 @@
 ---
-title: "Sample data for Dynamics 365 | MicrosoftDocs"
+title: "Sample data for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about installing and uninstalling sample data programmatically for an organization using InstallSampleDataRequest and UninstallSampleDataRequest."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: aee4962e-5c8f-42cd-b84a-d0726f1bc10c
 caps.latest.revision: 14
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample data for Dynamics 365
+# Sample data for Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -28,5 +28,5 @@ You can install and uninstall sample data programmatically for an organization u
   
 ### See also  
  [Sample: Install or Remove Sample Data](sample-install-remove-sample-data.md)   
- [Write Code for Dynamics 365](extend-dynamics-365-server.md)   
+ [Write Code for Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)   
  [Use IOrganizationService for Your Organization](org-service/use-organization-service-read-write-data-metadata.md)

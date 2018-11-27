@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve records from an intersect table (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Retrieve records from an intersect table (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve records from an intersect table"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "intersect entities sample, retrieving records for many-to-many relationships by using intersect entities"
   - "sample for retrieving records in many-to-many (N:N) relationships by using intersect entities"

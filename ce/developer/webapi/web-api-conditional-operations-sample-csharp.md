@@ -1,6 +1,6 @@
 ---
-title: "Web API Conditional Operations Sample (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to perform conditional operations using Dynamics 365 Customer Engagement Web API and C#"
+title: "Web API Conditional Operations Sample (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to perform conditional operations using Dynamics 365 for Customer Engagement Web API and C#"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 48a6322c-51f3-4368-ae7b-748d0c771a82
 caps.latest.revision: 17
 author: "KumarVivek"
@@ -26,7 +26,7 @@ search.app:
 This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement Web API and C#.  
 
 > [!NOTE]
->  This sample implements the Dynamics 365 operations and console output detailed in [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
+>  This sample implements the Dynamics 365 for Customer Engagement operations and console output detailed in [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_Prereqs"></a>   
 ## Prerequisites  
@@ -515,7 +515,7 @@ namespace Microsoft.Crm.Sdk.Samples
 ```  
 
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)

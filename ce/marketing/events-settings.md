@@ -1,6 +1,6 @@
 ---
-title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
+title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "administration; webinar; webinar provider"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 04813c0e-cbfd-45da-a316-76d23aae759e
 author: kamaybac
 ms.author: kamaybac
@@ -111,7 +111,7 @@ To set your event-administration options:
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management in Dynamics 365 for Customer Engagement](event-management.md)  
 [Set up a webinar](set-up-webinar.md)  
 [Set up and manage an event waitlist](event-waitlist.md)  
 [Create and manage recurring events](event-recurring.md)  

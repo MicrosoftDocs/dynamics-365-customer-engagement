@@ -1,5 +1,5 @@
 ---
-title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 10/01/2018
@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 0C8C3084-1ABD-401C-946F-149EB9319DC2
 author: kabala123
 ms.author: kabala
@@ -22,7 +22,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
-Provides methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
+Provides methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365 for Customer Engagement.
 
 ## Methods
 

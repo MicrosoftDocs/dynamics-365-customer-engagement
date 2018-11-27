@@ -1,6 +1,6 @@
 ---
-title: "Build queries with LINQ (.NET language-integrated query) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read how to use .NET Language-Integrated Query (LINQ) to write queries in Dynamics 365 (online & on-premises)"
+title: "Build queries with LINQ (.NET language-integrated query) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read how to use .NET Language-Integrated Query (LINQ) to write queries in Dynamics 365 for Customer Engagement (online & on-premises)"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1c2b2e80-e85d-422c-a3f4-f48895d9c70b
 caps.latest.revision: 27
 author: "KumarVivek"

@@ -1,5 +1,5 @@
 ---
-title: "Create early bound entity classes with the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Create early bound entity classes with the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 05/11/2018
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 06abab26-40fc-4b85-9a2a-5e68903ea138
 author: JimDaly
 ms.author: jdaly
@@ -100,8 +100,8 @@ The following table lists the code generation tool parameters and a gives a brie
 |help|?|Show usage information.|False|
 |nologo||Suppress the banner at runtime.|False|
 |generateActions||Generate request and response classes for actions.||
-|interactivelogin|il|When set to **true**, a dialog to log into the Dynamics 365 service is displayed. All other connection related parameters specified on the command line are   ignored.|False|  
-|connectionstring|connstr|Contains information, provided as a single string, for connecting to a Dynamics 365 organization. All other connection related parameters specified on the command line are ignored. For more information see [Use connection strings in XRM tooling to connect to Dynamics 365](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md).|False|
+|interactivelogin|il|When set to **true**, a dialog to log into the Dynamics 365 for Customer Engagement service is displayed. All other connection related parameters specified on the command line are   ignored.|False|  
+|connectionstring|connstr|Contains information, provided as a single string, for connecting to a Dynamics 365 for Customer Engagement organization. All other connection related parameters specified on the command line are ignored. For more information see [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md).|False|
 
 <a name="bkmk_examples"></a>
 
@@ -117,7 +117,7 @@ The following sample shows how to run the code generation tool by using claims a
 CrmSvcUtil.exe /url:https://myport:555/MyOrg/XRMServices/2011/Organization.svc /out:GeneratedCode.cs /username:administrator /password:password
 ```
 
-### Dynamics 365 (online)
+### Dynamics 365 for Customer Engagement (online)
 
 The following sample shows how to run the code generation tool for [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. The first example is for the [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] identity provider and the second is for the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] identity provider.
 
@@ -184,7 +184,7 @@ For more information on supported tracing options see [Configure tracing for XRM
 
 ### See Also
 
- [Developer Tools for Dynamics 365](../developer-tools.md)<br />
+ [Developer Tools for Dynamics 365 for Customer Engagement](../developer-tools.md)<br />
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)<br />
  [Create an Extensions for the Code Generation Tool](extend-code-generation-tool.md)<br />
  [Use the Early Bound Entity Classes for Create, Update and Delete](use-entity-class-create-update-delete.md)<br />

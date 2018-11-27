@@ -1,5 +1,5 @@
 ---
-title: "Connected Field Service for IoT Central - Tutorial (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Connected Field Service for IoT Central - Tutorial (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
@@ -9,8 +9,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "shellyhaverkamp"
 ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"

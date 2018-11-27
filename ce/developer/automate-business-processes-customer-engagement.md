@@ -1,5 +1,5 @@
 ---
-title: "Automate your business processes in Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Automate your business processes in Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn about automating your business processess. A business process can be of two types: automated processes that rely solely on communication among applications based on a set of rules, and interactive processes that also rely on people to initiate and run the process, and to make the appropriate decisions during the running of the process."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "process"
   - "workflow"
@@ -47,7 +47,7 @@ shutdown and restart.
 ## In This Section  
  [Choose a Process (Workflow) Type for Your Automation](process-categories.md)  
   
- [Process Architecture for Dynamics 365 Customer Engagement](process-architecture.md)  
+ [Process Architecture for Dynamics 365 for Customer Engagement](process-architecture.md)  
   
  [Workflow and Process Entities](workflow-process-entities.md)  
   
@@ -61,13 +61,13 @@ shutdown and restart.
   
  [Create Your Own Custom Operations](create-own-actions.md)  
   
- [Use Dialogs in Dynamics 365 Customer Engagement](use-dialogs-guided-processes.md)  
+ [Use Dialogs in Dynamics 365 for Customer Engagement](use-dialogs-guided-processes.md)  
   
  [Sample Code for Process and Workflow](sample-code-processes.md)  
   
 ## Related Sections  
- [Software Development Kit for Dynamics 365](developer-guide.md)  
+ [Software Development Kit for Dynamics 365 for Customer Engagement](developer-guide.md)  
   
- [Write Plug-Ins for Dynamics 365 Customer Engagement](write-plugin-extend-business-processes.md)  
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)  
   
  [Understanding the Asynchronous Service](asynchronous-service.md)

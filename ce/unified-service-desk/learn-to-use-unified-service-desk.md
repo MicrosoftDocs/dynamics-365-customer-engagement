@@ -1,6 +1,6 @@
 ---
-title: "Learn to use Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
-description: "The section provides information about the features and capabilities of Unified Service Desk for Dynamics 365 that you can use to configure your agent desktop application."
+title: "Learn to use Unified Service Desk for Dynamics 365 for Customer Engagement Customer Enagagement| MicrosoftDocs"
+description: "The section provides information about the features and capabilities of Unified Service Desk for Dynamics 365 for Customer Engagement that you can use to configure your agent desktop application."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"

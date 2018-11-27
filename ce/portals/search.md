@@ -1,12 +1,12 @@
 ---
-title: "Global search in Dynamics 365 portal | MicrosoftDocs"
+title: "Global search in Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how global search works in a portal."
 ms.date: 08/28/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: D2C29462-BF04-446B-8EE7-0C6E20023906
 author: sbmjais
 ms.author: shjais

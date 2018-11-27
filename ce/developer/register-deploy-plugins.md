@@ -1,6 +1,6 @@
 ---
-title: "Register and Deploy Plug-Ins (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about programmatically register plug-ins and custom workflow activities with Dynamics 365 (online) by writing registration code using certain SDK classes."
+title: "Register and Deploy Plug-Ins (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn about programmatically register plug-ins and custom workflow activities with Dynamics 365 for Customer Engagement (online) by writing registration code using certain SDK classes."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 f1_keywords: 
   - "plugins"
   - "plugin"
@@ -37,7 +37,7 @@ The plug-in and custom workflow activity registration tool is distributed as par
 > [!IMPORTANT]
 > Do not register any plug-in or custom workflow activity unless it is obtained from a reliable and trusted source.
 
- For more information about how to package your plug-ins as solution components, see [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md). 
+ For more information about how to package your plug-ins as solution components, see [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md). 
 
 <a name="bkmk_pluginregistration"></a>
 
@@ -105,7 +105,7 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
 - prvCreateSdkMessageProcessingStepImage
 - prvCreateSdkMessageProcessingStepSecureConfig
 
-  For more information, see [The Security Model of Dynamics 365](security-dev/Security-model.md).  
+  For more information, see [The Security Model of Dynamics 365 for Customer Engagement](security-dev/Security-model.md).  
 
   For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
   
@@ -180,4 +180,4 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
  [Plug-in Development](plugin-development.md)<br />
  [Debug a Plug-in](debug-plugin.md)<br />
  [Plug-in Isolation, Trust, and the Disallowed List](plugin-isolation-trusts-statistics.md)<br />
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)<br />
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)<br />

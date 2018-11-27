@@ -1,5 +1,5 @@
 ---
-title: "Create a signature for your email or for a queue (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create a signature for your email or for a queue (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 1f9aff52-59b9-4be0-a5fe-c797d3f98155
 caps.latest.revision: 11
 author: "jimholtz"
@@ -29,7 +29,7 @@ Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest
 ## Create an email signature  
  To edit a signature if you are not a system administrator:  
   
-1. Click the **Settings** button ![Options button for Dynamics 365](../basics/media/optionsbutton.png "Options button for Dynamics 365") in the upper-right corner of the screen.  
+1. Click the **Settings** button ![Options button for Dynamics 365 for Customer Engagement](../basics/media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement") in the upper-right corner of the screen.  
   
 2. Click **Options**, and then click the **Email Signatures** tab.  
   

@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 ms.assetid: 
 caps.latest.revision: 11
@@ -164,7 +164,7 @@ On the Solution Explorer window select **Publish All Customizations**.
 
 After all customizations are published, close the Solution Explorer window.
 
-## View the virtual entity in action with Dynamics 365 customer engagement
+## View the virtual entity in action with Dynamics 365 for Customer Engagement customer engagement
 
 Go to **Service** > **Extensions** > **Tickets**.
 

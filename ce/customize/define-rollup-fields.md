@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 author: "Mattp123"
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
@@ -83,7 +83,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
 - Online recalculation option. If you hover over the rollup field on the form, you can see the time of the last rollup and you can refresh the rollup value by choosing the Refresh icon next to the field, as shown below:  
   
-  ![Rollup field on the account form in Dynamics 365](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365")  
+  ![Rollup field on the account form in Dynamics 365 for Customer Engagement](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365 for Customer Engagement")  
   
    There are a few considerations you should keep in mind when using the online recalculation option (manual refresh on the form):  
   
@@ -110,7 +110,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
 ### Aggregate data for a record from related records  
  In this example, a hierarchy is not used. The total estimated revenue is calculated for an account, from the related open opportunities.  
   
- ![Aggregate the estimated revenue for a Dynamics 365 account](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 account")  
+ ![Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account")  
   
 ### Aggregate data for a record from the child records, over the hierarchy  
  In this example, we calculate the total estimated revenue of an opportunity including the child opportunities, over the hierarchy.  
@@ -139,11 +139,11 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
 ### Aggregate data for a record from related records using the AVG operator  
  In this example, we calculate an average estimated revenue from all opportunities related to an account.  
   
- ![Average estimated revenue in Dynamics 365](../customize/media/rollup-enhancements-average.PNG "Average estimated revenue in Dynamics 365")  
+ ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/rollup-enhancements-average.PNG "Average estimated revenue in Dynamics 365 for Customer Engagement")  
   
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
- ![Average estimated revenue in Dynamics 365](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue in Dynamics 365")  
+ ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue in Dynamics 365 for Customer Engagement")  
   
 <a name="BKMK_considerations"></a>   
 ## Rollup field considerations  

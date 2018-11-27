@@ -1,1 +1,1 @@
-Dynamics 365 for Sales
+Dynamics 365 for Customer Engagement for Sales

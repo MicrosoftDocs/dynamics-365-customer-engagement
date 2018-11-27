@@ -1,13 +1,13 @@
 ---
-title: "Use iteration tags for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use iteration tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about iteration tags available in portal"
 keywords: "iteration tags; liquid tags"
 ms.date: 05/04/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: BFACD45E-F943-4CED-8A67-11C2C8F6374B
 author: sbmjais
 ms.author: shjais
@@ -408,4 +408,4 @@ Defines a range of numbers to loop through.
 [Control flow tags](control-flow-tags.md)
 [Variable tags](variable-tags.md)
 [Template tags](template-tags.md)
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)

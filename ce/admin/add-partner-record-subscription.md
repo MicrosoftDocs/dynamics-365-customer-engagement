@@ -1,5 +1,5 @@
 ---
-title: "Add a Partner of Record (POR) to your subscription of Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Add a Partner of Record (POR) to your subscription of Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 16f7174e-6adf-46c9-9ddf-b6ccd805e73a
 caps.latest.revision: 4
 author: "jimholtz"
@@ -37,7 +37,7 @@ You can choose to work with a designated Microsoft partner who can provide the s
   
 3. Select a subscription, click **Buy now**.  
   
-   ![Dynamics 365 Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
+   ![Dynamics 365 for Customer Engagement Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 for Customer Engagement Sales Plan buy now")  
   
 4. Fill in the number of users and a promo code, if you have one, then click **Next**.  
   
@@ -59,4 +59,4 @@ You can choose to work with a designated Microsoft partner who can provide the s
   
 ### See also  
  [Add, change, or delete a subscription advisor partner](https://support.office.com/article/Add-change-or-delete-a-subscription-advisor-partner-f86e8177-936e-491e-9024-44dea2b296ff)   
- [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md)
+ [Purchase and assign Dynamics 365 for Customer Engagement (online) licenses](../admin/purchase-assign-online-licenses.md)

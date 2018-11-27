@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 App for Outlook User's Guide | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement App for Outlook User's Guide | MicrosoftDocs"
 ms.custom: ""
 ms.date: 03/22/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 39
 author: "mduelae"
@@ -25,7 +25,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Dynamics 365 App for Outlook User's Guide, version 8.2 
+# Dynamics 365 for Customer Engagement App for Outlook User's Guide, version 8.2 
 
 [!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -33,29 +33,29 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  For example, when you open an email message, view information from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email message or appointment to a specific [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record. When you link an email message or appointment to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record, the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record appears as an activity for that record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
- [Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  
+ [Watch a short video (1:35) about Dynamics 365 for Customer Engagement App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  
   
 ## Which version of the app do I have?  
  We made significant updates to the app in the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)]. If your screen looks like the following, you're using the version included in [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)]:  
   
- ![Outlook email screen with Dynamics 365 App for Outlook pane](../media/outlook-email-screen-dynamics-365-app-outlook-pane.png "Outlook email screen with Dynamics 365 App for Outlook pane")  
+ ![Outlook email screen with Dynamics 365 for Customer Engagement App for Outlook pane](../media/outlook-email-screen-dynamics-365-app-outlook-pane.png "Outlook email screen with Dynamics 365 for Customer Engagement App for Outlook pane")  
   
- Go to [User's Guide for the latest version (Dynamics 365)](dynamics-365-app-outlook-user-s-guide-v8.md#Latest)  
+ Go to [User's Guide for the latest version (Dynamics 365 for Customer Engagement)](dynamics-365-app-outlook-user-s-guide-v8.md#Latest)  
   
  If your screen looks like the following, you're using the version included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)]:  
   
- ![Dynamics 365 App for Outlook screen showing inline data](../media/crm-app-outlook-preview-notrack.png "Dynamics 365 App for Outlook screen showing inline data")  
+ ![Dynamics 365 for Customer Engagement App for Outlook screen showing inline data](../media/crm-app-outlook-preview-notrack.png "Dynamics 365 for Customer Engagement App for Outlook screen showing inline data")  
   
  Go to [User's Guide for the previous version (Dynamics CRM)](dynamics-365-app-outlook-user-s-guide-v8.md#Previous)  
 
 <a name="Latest"></a>  
  
-## User's Guide for the latest version (Dynamics 365)  
+## User's Guide for the latest version (Dynamics 365 for Customer Engagement)  
  This section of this topic describes how to use the latest version of the app, available in [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].  
   
  **In this section:**  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 for Customer Engagement App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites)  
   
@@ -65,7 +65,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Use the app for the first time](dynamics-365-app-outlook-user-s-guide-v8.md#Access)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an email message or meeting to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#Track)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an email message or meeting to a specific Dynamics 365 for Customer Engagement record](dynamics-365-app-outlook-user-s-guide-v8.md#Track)  
 
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track signed S/MIME emails](dynamics-365-app-outlook-user-s-guide-v8.md#TrackSigned)  
 
@@ -73,7 +73,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add an email recipient as a contact or lead](dynamics-365-app-outlook-user-s-guide-v8.md#AddEmailRecipient)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Compose an email message and link it to a Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeEmail)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Compose an email message and link it to a Dynamics 365 for Customer Engagement record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeEmail)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Monitor an email message after you send it](dynamics-365-app-outlook-user-s-guide-v8.md#EE)  
   
@@ -81,17 +81,17 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add sales literature or a knowledge base article when you create an email message](dynamics-365-app-outlook-user-s-guide-v8.md#KB)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an appointment to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeAppointment)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an appointment to a specific Dynamics 365 for Customer Engagement record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeAppointment)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a phone call, appointment, or task activity to Dynamics 365](dynamics-365-app-outlook-user-s-guide-v8.md#Activity)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a phone call, appointment, or task activity to Dynamics 365 for Customer Engagement](dynamics-365-app-outlook-user-s-guide-v8.md#Activity)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track Outlook contacts in Dynamics 365](dynamics-365-app-outlook-user-s-guide-v8.md#Contacts)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track Outlook contacts in Dynamics 365 for Customer Engagement](dynamics-365-app-outlook-user-s-guide-v8.md#Contacts)  
 
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a pinnable task pane](dynamics-365-app-outlook-user-s-guide-v8.md#PinnableTaskpane)  
   
 <a name="Overview"></a>   
 
-### What Dynamics 365 App for Outlook offers  
+### What Dynamics 365 for Customer Engagement App for Outlook offers  
  With [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], you can:  
   
 - View information about [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts and leads while you’re working in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. You can view this info in the context of an email message, meeting, or appointment. For example, view phone numbers, company name, last and next activities, and recent records from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
@@ -109,7 +109,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 - Track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 > [!TIP]
->  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] is a [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] add-in. As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to use [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] together with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You may also be familiar with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], which provides complete [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] capabilities (including offline capabilities) from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used together by the same user. Choose one or the other.** For more information about [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Dynamics 365 for Outlook User's Guide](https://technet.microsoft.com/library/mt843833.aspx).
+>  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] is a [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] add-in. As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to use [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] together with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You may also be familiar with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], which provides complete [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] capabilities (including offline capabilities) from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used together by the same user. Choose one or the other.** For more information about [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Dynamics 365 for Customer Engagement for Outlook User's Guide](https://technet.microsoft.com/library/mt843833.aspx).
   
 <a name="Prerequisites"></a>   
 
@@ -120,19 +120,19 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 - Your organization synchronizes mailboxes with server-side synchronization.  
   
-  For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 App for Outlook (lightweight app)](https://technet.microsoft.com/library/dn946901.aspx).  
+  For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 for Customer Engagement App for Outlook (lightweight app)](https://technet.microsoft.com/library/dn946901.aspx).  
   
 <a name="Install"></a>   
 
 ### Add the app to Outlook  
  After the prerequisites have been met, you can add the app directly from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
-1. Click the **Settings** button ![Dynamics 365 web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button"), and then click **Apps for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
+1. Click the **Settings** button ![Dynamics 365 for Customer Engagement web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 for Customer Engagement web client Settings button"), and then click **Apps for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
 2. On the **Apps for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** page, under **[!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]**, click **[!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]**.  
   
    > [!NOTE]
-   >  If you have trouble installing  the app, see the troubleshooting section in [TechNet: Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).  
+   >  If you have trouble installing  the app, see the troubleshooting section in [TechNet: Deploy Dynamics 365 for Customer Engagement App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).  
   
 <a name="Disable"></a>   
 
@@ -140,7 +140,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 1. In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], click **File**, and then click **Manage Add-ins**.  
   
-    ![Manage the Dynamics 365 App for Outlook add&#45;in](../media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 App for Outlook add-in")  
+    ![Manage the Dynamics 365 for Customer Engagement App for Outlook add&#45;in](../media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 for Customer Engagement App for Outlook add-in")  
   
     This opens the **Office 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins. If you click the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] row, you can see which [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance the app is connected to.  
   
@@ -159,26 +159,26 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 2. On the ribbon, click the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** button.  
   
-    ![Dynamics 365 App for Outlook ribbon](../media/dynamics-365-app-outlook-ribbon.png "Dynamics 365 App for Outlook ribbon")  
+    ![Dynamics 365 for Customer Engagement App for Outlook ribbon](../media/dynamics-365-app-outlook-ribbon.png "Dynamics 365 for Customer Engagement App for Outlook ribbon")  
   
     The **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane appears on the right side of the screen and shows information about the recipients.  
   
-    ![Dynamics 365 App for Outlook pane](../media/dynamics-365-app-outlook-pane.png "Dynamics 365 App for Outlook pane")  
+    ![Dynamics 365 for Customer Engagement App for Outlook pane](../media/dynamics-365-app-outlook-pane.png "Dynamics 365 for Customer Engagement App for Outlook pane")  
   
     **Notes:**  
   
    - If the recipient is a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] user (as opposed to a contact or lead), it’s indicated next to their name:  
   
-      ![Dynamics 365 user in Dynamics 365 App for Outlook](../media/dynamics-365-user-dynamics-365-app-outlook.png "Dynamics 365 user in Dynamics 365 App for Outlook")  
+      ![Dynamics 365 for Customer Engagement user in Dynamics 365 for Customer Engagement App for Outlook](../media/dynamics-365-user-dynamics-365-app-outlook.png "Dynamics 365 for Customer Engagement user in Dynamics 365 for Customer Engagement App for Outlook")  
   
    - If the recipient isn’t known to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can click **Add to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** to add them as a contact or lead.  
   
 <a name="Track"></a>   
 
-### Link an email message or meeting to a specific Dynamics 365 record  
- You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record, such as an account, opportunity, or case, by clicking the **Set Regarding** button  ![Set regarding button in Dynamics 365 App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 App for Outlook"). [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] automatically tracks the email or meeting, and links it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
+### Link an email message or meeting to a specific Dynamics 365 for Customer Engagement record  
+ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record, such as an account, opportunity, or case, by clicking the **Set Regarding** button  ![Set regarding button in Dynamics 365 for Customer Engagement App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 for Customer Engagement App for Outlook"). [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] automatically tracks the email or meeting, and links it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
- ![Set regarding button in Dynamics 365 App for Outlook pane](../media/set-regarding-button-dynamics-365-app-outlook-pane.png "Set regarding button in Dynamics 365 App for Outlook pane")  
+ ![Set regarding button in Dynamics 365 for Customer Engagement App for Outlook pane](../media/set-regarding-button-dynamics-365-app-outlook-pane.png "Set regarding button in Dynamics 365 for Customer Engagement App for Outlook pane")  
   
 #### To find a different record to link to:  
   
@@ -188,22 +188,22 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
    - Click the record you want to link to in the list of **Pinned Records** or **Recently Used Records**.  
   
-      ![Track email in Dynamics 365 App for Outook pane](../media/track-email-dynamics-365-app-outook-pane.png "Track email in Dynamics 365 App for Outook pane")  
+      ![Track email in Dynamics 365 for Customer Engagement App for Outook pane](../media/track-email-dynamics-365-app-outook-pane.png "Track email in Dynamics 365 for Customer Engagement App for Outook pane")  
   
      > [!TIP]
      >  This is the same list of pinned and mostly recently used records you see in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps or Dynamics CRM web client.  
   
    - If you don’t see the record you’re looking for, enter a keyword in the search box, and then click the magnifying glass.  
   
-#### To create a new record and link it to a Dynamics 365 record:  
+#### To create a new record and link it to a Dynamics 365 for Customer Engagement record:  
   
 1.  Click **New**, and then select the type of record you want to create.  
   
-     ![Add new record in Dynamics 365 App for Outlook pane](../media/add-new-record-dynamics-365-app-outlook-pane.png "Add new record in Dynamics 365 App for Outlook pane")  
+     ![Add new record in Dynamics 365 for Customer Engagement App for Outlook pane](../media/add-new-record-dynamics-365-app-outlook-pane.png "Add new record in Dynamics 365 for Customer Engagement App for Outlook pane")  
   
 2.  Fill in the information in the form.  
   
-     ![Create new record in Dynamics 365 App for Outlook Quick Create form](../media/create-new-record-dynamics-365-app-outlook-quick.png "Create new record in Dynamics 365 App for Outlook Quick Create form")  
+     ![Create new record in Dynamics 365 for Customer Engagement App for Outlook Quick Create form](../media/create-new-record-dynamics-365-app-outlook-quick.png "Create new record in Dynamics 365 for Customer Engagement App for Outlook Quick Create form")  
   
 3.  If you want, click the **Open record after saving** check box.  
   
@@ -216,7 +216,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 <a name="TrackSigned"></a>    
  
 ### Track signed S/MIME emails
-Dynamics 365 App for Outlook can track [S/MIME signed emails](https://technet.microsoft.com/library/aa995740(v=exchg.65).aspx) in Outlook Desktop and Outlook Web App (OWA). This is enabled on [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx) Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
+Dynamics 365 for Customer Engagement App for Outlook can track [S/MIME signed emails](https://technet.microsoft.com/library/aa995740(v=exchg.65).aspx) in Outlook Desktop and Outlook Web App (OWA). This is enabled on [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx) Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
 <a name="CustomizeCard"></a>    
 
@@ -227,7 +227,7 @@ The admin can change what's displayed in the card that appears when you track th
 
 To change the fields that appear, follow these steps:
 
-1. In Microsoft Dynamics 365, go to **Settings** > **Customizations** > **Customize the System**.
+1. In Microsoft Dynamics 365 for Customer Engagement, go to **Settings** > **Customizations** > **Customize the System**.
 2. Expand **Entities** and choose an entity such as **Contact**.
 3. Expand the entity and select **Forms**, then select the **Contact** form.
 
@@ -258,14 +258,14 @@ The business phone number replaces job title in the Contact card.
 <a name="AddEmailRecipient"></a>   
 
 ### Add an email recipient as a contact or lead
-One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365. In the Dynamics 365 pane, click (+) and then select **Contact** or **Lead**.
+One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365 for Customer Engagement. In the Dynamics 365 for Customer Engagement pane, click (+) and then select **Contact** or **Lead**.
 
 > [!NOTE]
-> If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email.
+> If the sender of the email is unknown to Dynamics 365 for Customer Engagement, when you add the contact or lead, the email is automatically tracked in Dynamics 365 for Customer Engagement and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email.
 
 <a name="ComposeEmail"></a>   
 
-### Compose an email message and link it to a Dynamics 365 record  
+### Compose an email message and link it to a Dynamics 365 for Customer Engagement record  
   
 1. Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
@@ -273,7 +273,7 @@ One of the first things you might want to do when you receive a customer email, 
   
 3. Do one of the following:  
   
-   - Click a **Set Regarding** button  ![Set regarding button in Dynamics 365 App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 App for Outlook") for a particular record in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
+   - Click a **Set Regarding** button  ![Set regarding button in Dynamics 365 for Customer Engagement App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 for Customer Engagement App for Outlook") for a particular record in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
    - To find a different record, click **Track this email** at the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane as described earlier in this topic.  
   
@@ -294,7 +294,7 @@ One of the first things you might want to do when you receive a customer email, 
   
 3. In the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane, click **Follow**, and then click **Follow this email**.  
   
-    ![Follow email in Dynamics 365 for Outlook](../media/follow-email-dynamics-365-outlook.png "Follow email in Dynamics 365 for Outlook")  
+    ![Follow email in Dynamics 365 for Customer Engagement for Outlook](../media/follow-email-dynamics-365-outlook.png "Follow email in Dynamics 365 for Customer Engagement for Outlook")  
   
    > [!NOTE]
    >  Any recipients that can’t be followed will be displayed at the bottom of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
@@ -316,7 +316,7 @@ One of the first things you might want to do when you receive a customer email, 
   
  For example, you could use a Thank you template to save time whenever you want to send a thank you message to a customer.  
   
- ![Email template in Dynamics 365 App for Outlook](../media/email-template-dynamics-365-app-outlook.png "Email template in Dynamics 365 App for Outlook")  
+ ![Email template in Dynamics 365 for Customer Engagement App for Outlook](../media/email-template-dynamics-365-app-outlook.png "Email template in Dynamics 365 for Customer Engagement App for Outlook")  
   
 > [!NOTE]
 >  You must have the appropriate permissions to add email templates.  
@@ -327,13 +327,13 @@ One of the first things you might want to do when you receive a customer email, 
   
 2. At the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane, click **Templates**.  
   
-    ![Add an email template in Dynamics 365 App for Outlook](../media/add-an-email-template-dynamics-365-app-outlook.png "Add an email template in Dynamics 365 App for Outlook")  
+    ![Add an email template in Dynamics 365 for Customer Engagement App for Outlook](../media/add-an-email-template-dynamics-365-app-outlook.png "Add an email template in Dynamics 365 for Customer Engagement App for Outlook")  
   
 3. In the **Template Regarding** list, select an option  
   
 4. Select the template you want, and then click **Add to Email**.  
   
-    ![Select an email template in Dynamics 365 App for Outlook](../media/select-an-email-templatte-dynamics-365-app-outlook.png "Select an email template in Dynamics 365 App for Outlook")  
+    ![Select an email template in Dynamics 365 for Customer Engagement App for Outlook](../media/select-an-email-templatte-dynamics-365-app-outlook.png "Select an email template in Dynamics 365 for Customer Engagement App for Outlook")  
   
     For information on creating email templates in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Create templates for email](../../admin/create-templates-email.md).  
   
@@ -349,7 +349,7 @@ One of the first things you might want to do when you receive a customer email, 
   
 2. At the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane, click **Sales Lit** or **Articles**.  
   
-    ![Dynamics 365 App for Outlook add sales literature](../media/dynamics-365-app-outlook-add-sales-literature.png "Dynamics 365 App for Outlook add sales literature")  
+    ![Dynamics 365 for Customer Engagement App for Outlook add sales literature](../media/dynamics-365-app-outlook-add-sales-literature.png "Dynamics 365 for Customer Engagement App for Outlook add sales literature")  
   
 3. Drill down in the tree structure, and then select the appropriate literature or article.  
   
@@ -357,7 +357,7 @@ One of the first things you might want to do when you receive a customer email, 
   
 <a name="ComposeAppointment"></a>  
  
-### Link an appointment to a specific Dynamics 365 record  
+### Link an appointment to a specific Dynamics 365 for Customer Engagement record  
   
 1. Create the appointment as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
@@ -365,23 +365,23 @@ One of the first things you might want to do when you receive a customer email, 
   
 3. Do one of the following:  
   
-   - Click a **Set Regarding** button  ![Set regarding button in Dynamics 365 App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 App for Outlook") for a particular record in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
+   - Click a **Set Regarding** button  ![Set regarding button in Dynamics 365 for Customer Engagement App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 for Customer Engagement App for Outlook") for a particular record in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
    - To find a different record, click **Track**  at the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
-     ![Link appointment in Dynamics 365 App for Outlook](../media/link-appointment-dynamics-365-app-outlook.png "Link appointment in Dynamics 365 App for Outlook")  
+     ![Link appointment in Dynamics 365 for Customer Engagement App for Outlook](../media/link-appointment-dynamics-365-app-outlook.png "Link appointment in Dynamics 365 for Customer Engagement App for Outlook")  
   
 <a name="Activity"></a>   
 
-### Add a phone call, appointment, or task activity to Dynamics 365  
+### Add a phone call, appointment, or task activity to Dynamics 365 for Customer Engagement  
   
 -   Click the **Plus sign**, and then select the type of activity you want to create.  
   
-     ![Add activity in Dynamics 365 App for Outlook](../media/add-activity-dynamics-365-app-outlook.png "Add activity in Dynamics 365 App for Outlook")  
+     ![Add activity in Dynamics 365 for Customer Engagement App for Outlook](../media/add-activity-dynamics-365-app-outlook.png "Add activity in Dynamics 365 for Customer Engagement App for Outlook")  
   
 -   Fill in the information in the form.  
   
-     ![Quck Create activity form in Dynamics 365 App for Outlook](../media/quck-create-activity-form-dynamics-365-app-outlook.png "Quck Create activity form in Dynamics 365 App for Outlook")  
+     ![Quck Create activity form in Dynamics 365 for Customer Engagement App for Outlook](../media/quck-create-activity-form-dynamics-365-app-outlook.png "Quck Create activity form in Dynamics 365 for Customer Engagement App for Outlook")  
   
 -   If you want, click the **Open record after saving** check box.  
   
@@ -389,7 +389,7 @@ One of the first things you might want to do when you receive a customer email, 
   
 <a name="Contacts"></a>   
 
-### Track Outlook contacts in Dynamics 365  
+### Track Outlook contacts in Dynamics 365 for Customer Engagement  
  You can track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] by using the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] add-in, an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] solution module.   The add-in is automatically installed when you install [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]. You can access it as described below.  
   
 > [!NOTE]
@@ -405,7 +405,7 @@ One of the first things you might want to do when you receive a customer email, 
   
   When the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] add-in is installed, you’ll see a new <strong>[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]</strong>tab on the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] ribbon. Click the tab to see information about contacts.  
   
-  ![Dynamics 365 App for Outlook add&#45;in overview screen](../media/dynamics-365-app-outlook-add-overview-screen.png "Dynamics 365 App for Outlook add-in overview screen")  
+  ![Dynamics 365 for Customer Engagement App for Outlook add&#45;in overview screen](../media/dynamics-365-app-outlook-add-overview-screen.png "Dynamics 365 for Customer Engagement App for Outlook add-in overview screen")  
   
 1. Click to see all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts (contacts displayed in your default contacts view in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]).  
   
@@ -430,13 +430,13 @@ One of the first things you might want to do when you receive a customer email, 
   
     ![Add&#45;ins menu for Outlook Solution Module](../media/add-ins-menu-outlook-solution-module.png "Add-ins menu for Outlook Solution Module")  
   
-3. Select the **Dynamics 365** add-in.  
+3. Select the **Dynamics 365 for Customer Engagement** add-in.  
   
-#### See the Dynamics 365 contact card for a contact  
+#### See the Dynamics 365 for Customer Engagement contact card for a contact  
   
 1.  In the contacts list, select the check box next to the contact. The contact details appear on the right side of the screen.  
   
-     ![Dynamics 365 App for Outlook contact tracking contact card](../media/dynamics-365-app-outlook-contact-tracking-contact-card.png "Dynamics 365 App for Outlook contact tracking contact card")  
+     ![Dynamics 365 for Customer Engagement App for Outlook contact tracking contact card](../media/dynamics-365-app-outlook-contact-tracking-contact-card.png "Dynamics 365 for Customer Engagement App for Outlook contact tracking contact card")  
   
 #### Track or untrack a contact  
   
@@ -446,7 +446,7 @@ One of the first things you might want to do when you receive a customer email, 
   
 3. On the ribbon, click **Track** or **Untrack**.  
   
-    ![Dynamics 365 App for Outlook contact tracking ribbon](../media/dynamics-365-app-outlook-contact-tracking-ribbon.png "Dynamics 365 App for Outlook contact tracking ribbon")  
+    ![Dynamics 365 for Customer Engagement App for Outlook contact tracking ribbon](../media/dynamics-365-app-outlook-contact-tracking-ribbon.png "Dynamics 365 for Customer Engagement App for Outlook contact tracking ribbon")  
   
    > [!IMPORTANT]
    >  Do not navigate outside the page while tracking or untracking the contact. Otherwise, it won’t be tracked or untracked.  
@@ -497,15 +497,15 @@ One of the first things you might want to do when you receive a customer email, 
   
 2.  Select the view you want.  
   
-     ![Dynamics 365 App for Outlook with contract tracking filter drop&#45;down](../media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
+     ![Dynamics 365 for Customer Engagement App for Outlook with contract tracking filter drop&#45;down](../media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 for Customer Engagement App for Outlook with contract tracking filter drop-down")  
   
 #### Filter contacts by column (field)  
   
-1.  Click the **Filter** button ![Dynamics 365 App for Outlook contract tracking filter button](../media/dynamics-365-app-outlook-contract-tracking-filter-button.png "Dynamics 365 App for Outlook contract tracking filter button").  
+1.  Click the **Filter** button ![Dynamics 365 for Customer Engagement App for Outlook contract tracking filter button](../media/dynamics-365-app-outlook-contract-tracking-filter-button.png "Dynamics 365 for Customer Engagement App for Outlook contract tracking filter button").  
   
 2.  Enter the text you want to filter on in the appropriate field(s).  
   
-     ![Dynamics 365 App for Outlook contact filter by field](../media/dynamics-365-app-outlook-contact-filter-by-field.png "Dynamics 365 App for Outlook contact filter by field")  
+     ![Dynamics 365 for Customer Engagement App for Outlook contact filter by field](../media/dynamics-365-app-outlook-contact-filter-by-field.png "Dynamics 365 for Customer Engagement App for Outlook contact filter by field")  
   
 3.  Press Enter.  
   
@@ -516,14 +516,14 @@ One of the first things you might want to do when you receive a customer email, 
   
 #### Add or remove columns  
   
-1.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button").  
+1.  Click the **Settings** button ![Dynamics 365 for Customer Engagement App for Outlook Settings button](../media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 for Customer Engagement App for Outlook Settings button").  
   
 2.  Select or clear the check boxes for the columns you want to add or remove.  
   
     > [!NOTE]
     >  You can’t remove the **Tracking** column.  
   
-3.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button") again to hide the list of columns.  
+3.  Click the **Settings** button ![Dynamics 365 for Customer Engagement App for Outlook Settings button](../media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 for Customer Engagement App for Outlook Settings button") again to hide the list of columns.  
   
 #### Move columns  
   
@@ -541,25 +541,25 @@ One of the first things you might want to do when you receive a customer email, 
   
 #### Show the latest data  
   
--   Click the **Refresh** button ![Dynamics 365 App for Outlook Refresh button](../media/dynamics-365-app-outlook-refresh-button.png "Dynamics 365 App for Outlook Refresh button").  
+-   Click the **Refresh** button ![Dynamics 365 for Customer Engagement App for Outlook Refresh button](../media/dynamics-365-app-outlook-refresh-button.png "Dynamics 365 for Customer Engagement App for Outlook Refresh button").  
   
 #### Set the number of records you see on the screen  
   
 -   Enter the number you want at the bottom of the screen.  
   
-     ![Dynamics 365 App for Outlook contact tracking, number of records to show](../media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
+     ![Dynamics 365 for Customer Engagement App for Outlook contact tracking, number of records to show](../media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 for Customer Engagement App for Outlook contact tracking, number of records to show")  
  
 <a name="PinnableTaskpane"></a>   
 
 ### Experience App for Outlook as a pinnable taskpane
-Dynamics 365 App for Outlook, version 8.2 is now available as a pinnable task pane in Outlook Desktop 2016 for Windows. If you're running Outlook 2016 for Windows (build 7668.2000 or later), Dynamics 365 App for Outlook will appear as a pinnable vertical task pane to the right of an open email message in Outlook.
+Dynamics 365 for Customer Engagement App for Outlook, version 8.2 is now available as a pinnable task pane in Outlook Desktop 2016 for Windows. If you're running Outlook 2016 for Windows (build 7668.2000 or later), Dynamics 365 for Customer Engagement App for Outlook will appear as a pinnable vertical task pane to the right of an open email message in Outlook.
 
-![Dynamics 365 App for Outlook pinnable taskpane](../media/pintaskpane.png "Dynamics 365 App for Outlook pinnable taskpane").  
+![Dynamics 365 for Customer Engagement App for Outlook pinnable taskpane](../media/pintaskpane.png "Dynamics 365 for Customer Engagement App for Outlook pinnable taskpane").  
 
-With Dynamics 365 App for Outlook in pinned mode, you can select an email message and view all the relevant Dynamics 365 details for the selected email, without having to choose the Dynamics 365 ribbon icon on every email. You can browse through your email list by selecting email messages to read and App for Outlook will always display the details related to the current selected email. This capability is available on Dynamics 365 Online, version 8.2.2.1458 or higher. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane).
+With Dynamics 365 for Customer Engagement App for Outlook in pinned mode, you can select an email message and view all the relevant Dynamics 365 for Customer Engagement details for the selected email, without having to choose the Dynamics 365 for Customer Engagement ribbon icon on every email. You can browse through your email list by selecting email messages to read and App for Outlook will always display the details related to the current selected email. This capability is available on Dynamics 365 for Customer Engagement Online, version 8.2.2.1458 or higher. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane).
 
  > [!NOTE]
- >  If you are version 8.2.2.1458 or higher and do not see the option to pin App in Outlook Desktop 2016 for Windows, you may need to redeploy the App. To redeploy the App, please navigate to Dynamics 365 App for Outlook under Settings. On this page, select **ADD APP FOR ALL ELIGIBLE USERS** option on top of the user grid. You can also choose to change the view to **Eligible Users with the App**, then select the users from the grid and choose **ADD APP TO OUTLOOK**. This will redeploy App for Outlook to the selected eligible users.
+ >  If you are version 8.2.2.1458 or higher and do not see the option to pin App in Outlook Desktop 2016 for Windows, you may need to redeploy the App. To redeploy the App, please navigate to Dynamics 365 for Customer Engagement App for Outlook under Settings. On this page, select **ADD APP FOR ALL ELIGIBLE USERS** option on top of the user grid. You can also choose to change the view to **Eligible Users with the App**, then select the users from the grid and choose **ADD APP TO OUTLOOK**. This will redeploy App for Outlook to the selected eligible users.
  
 <a name="Previous"></a>   
 ## User's Guide for the previous version (Dynamics CRM)  
@@ -567,9 +567,9 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
  **In this section:**  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 for Customer Engagement App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview2)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics 365 for Customer Engagement App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites2)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add the app to Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Install2)  
   
@@ -579,14 +579,14 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Create an email message, and then track it](dynamics-365-app-outlook-user-s-guide-v8.md#Compose)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Preview information about a sender that’s already stored in Dynamics 365 as a lead or contact](dynamics-365-app-outlook-user-s-guide-v8.md#Preview)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Preview information about a sender that’s already stored in Dynamics 365 for Customer Engagement as a lead or contact](dynamics-365-app-outlook-user-s-guide-v8.md#Preview)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Change the regarding record for a tracked email message](dynamics-365-app-outlook-user-s-guide-v8.md#ChangeRegarding)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Open a Dynamics 365 record from Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#OpenRecord)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Open a Dynamics 365 for Customer Engagement record from Dynamics 365 for Customer Engagement App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#OpenRecord)  
   
 <a name="Overview2"></a>   
-### What Dynamics 365 App for Outlook offers  
+### What Dynamics 365 for Customer Engagement App for Outlook offers  
  [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)] is a lightweight  app you can use to view              [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] information and track email from within              [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. The              [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data appears right in your              [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Inbox.  
   
  With                  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], you can:  
@@ -610,23 +610,23 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
 - Open                          [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
   
 <a name="Prerequisites2"></a>   
-### Prerequisites for adding and using Dynamics 365 App for Outlook  
- Your                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] system administrator can deploy                  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to your organization or you can add it yourself as long as you have the required security privileges (the                  **Use Dynamics 365 App for Outlook** privilege) and if your organization synchronizes incoming email with                  [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]. The system will let you know if these prerequisites have not been met when you attempt to add the app. If you’re an admin, and you want to learn about deploying the app, see                  [Deploy Dynamics 365 App for Outlook (lightweight app)](https://technet.microsoft.com/library/dn946901.aspx).  
+### Prerequisites for adding and using Dynamics 365 for Customer Engagement App for Outlook  
+ Your                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] system administrator can deploy                  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to your organization or you can add it yourself as long as you have the required security privileges (the                  **Use Dynamics 365 for Customer Engagement App for Outlook** privilege) and if your organization synchronizes incoming email with                  [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]. The system will let you know if these prerequisites have not been met when you attempt to add the app. If you’re an admin, and you want to learn about deploying the app, see                  [Deploy Dynamics 365 for Customer Engagement App for Outlook (lightweight app)](https://technet.microsoft.com/library/dn946901.aspx).  
   
 <a name="Install2"></a>   
 ### Add the app to Outlook  
  After the prerequisites have been met, you can add the app directly from                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
-1. Click the                                  **Settings** button                                  ![Dynamics 365 web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button"), and then click                                  **Apps for Dynamics 365**.  
+1. Click the                                  **Settings** button                                  ![Dynamics 365 for Customer Engagement web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 for Customer Engagement web client Settings button"), and then click                                  **Apps for Dynamics 365 for Customer Engagement**.  
   
-2. On the                                  **Apps for Dynamics 365** page, under                                  **[!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]**, click                                  **Add app to Outlook**.  
+2. On the                                  **Apps for Dynamics 365 for Customer Engagement** page, under                                  **[!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]**, click                                  **Add app to Outlook**.  
   
 <a name="Access2"></a>   
 ### Access the app for the first time  
  Once the app is installed, it appears as a                  **Dynamics**   
  **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab in the                  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] reading pane. Just click the tab to access your                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data.  
   
- ![Choose an email then Dynamics 365](../media/crm-app-outlook-first-access.png "Choose an email then Dynamics 365")  
+ ![Choose an email then Dynamics 365 for Customer Engagement](../media/crm-app-outlook-first-access.png "Choose an email then Dynamics 365 for Customer Engagement")  
   
  If you don’t see the                  **Dynamics**   
  **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab, you need to enable the app.  
@@ -642,12 +642,12 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
    **If you’re using**   
    **[!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)]:**  
   
-3. Click the                          **Settings** button                          ![Dynamics 365 web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button")**> Manage add-ins**.  
+3. Click the                          **Settings** button                          ![Dynamics 365 for Customer Engagement web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 for Customer Engagement web client Settings button")**> Manage add-ins**.  
   
 4. Click                          **General > Manage add-ins**, and then select the                          **Turned on** check box for                          **Dynamics**   
     **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
-   ![Turn on the Dynamics 365 add&#45;in](../media/crm-app-outlook-o365-enable-addin.png "Turn on the Dynamics 365 add-in")  
+   ![Turn on the Dynamics 365 for Customer Engagement add&#45;in](../media/crm-app-outlook-o365-enable-addin.png "Turn on the Dynamics 365 for Customer Engagement add-in")  
   
 <a name="Track2"></a>   
 ### Track an incoming email message from an unknown sender  
@@ -672,7 +672,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
     When you click                                  **Save** in the                                  **Create Contact** form, the app displays contact card information, as well as empty sections for                                  **Next Activity**,                                  **Last Activity**, and the first two lists on the contact form. By default, these lists are                                  **Case Associated View** and                                  **Opportunity Associated View**. These sections are empty because the contact doesn’t have any related records in                                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] yet.  
   
-    ![Dynamics 365 App for Outlook showing contact information](../media/crm-app-outlook-contact-information.png "Dynamics 365 App for Outlook showing contact information")  
+    ![Dynamics 365 for Customer Engagement App for Outlook showing contact information](../media/crm-app-outlook-contact-information.png "Dynamics 365 for Customer Engagement App for Outlook showing contact information")  
   
 4. To track the email, click                                  **Track**.  
   
@@ -697,7 +697,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
    - To create a new record in                                          [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] (for example, to create a lead record instead of a contact record) and link it to the email activity record:  
   
-     1. Click                                                  **New**![Dynamics 365 App for Outlook New &#40;Plus&#41; button](../media/crm-app-outlook-new-button.png "Dynamics 365 App for Outlook New (Plus) button") next to any enabled entity.  
+     1. Click                                                  **New**![Dynamics 365 for Customer Engagement App for Outlook New &#40;Plus&#41; button](../media/crm-app-outlook-new-button.png "Dynamics 365 for Customer Engagement App for Outlook New (Plus) button") next to any enabled entity.  
   
      2. In the quick create form, fill out the fields.  
   
@@ -705,7 +705,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
          **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
      > [!NOTE]
-     >  The entities shown on the tracking page have been enabled for mobile and enabled for multi-entity search. For more information on enabling entities, see                                              [TechNet: Entities and Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531128.aspx#BKMK_PhoneEntities).  
+     >  The entities shown on the tracking page have been enabled for mobile and enabled for multi-entity search. For more information on enabling entities, see                                              [TechNet: Entities and Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](https://technet.microsoft.com/library/dn531128.aspx#BKMK_PhoneEntities).  
   
 <a name="Compose"></a>   
 ### Create an email message, and then track it  
@@ -722,10 +722,10 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
 1. Click                                  **Track this email?** at the top of the                                  **Dynamics**   
     **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
-2. If the name you enter on the                                  **To** or                                  **CC** line doesn’t match a contact record in the Dynamics 365 database, click                                  **Create new contact** to create a contact record in                                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
+2. If the name you enter on the                                  **To** or                                  **CC** line doesn’t match a contact record in the Dynamics 365 for Customer Engagement database, click                                  **Create new contact** to create a contact record in                                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 <a name="Preview"></a>   
-### Preview information about a sender that’s already stored in Dynamics 365 as a lead or contact  
+### Preview information about a sender that’s already stored in Dynamics 365 for Customer Engagement as a lead or contact  
   
 - Select the email message in your Inbox, and then click the                          **Dynamics**   
    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
@@ -741,7 +741,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   > [!NOTE]
   >  The related records you see may vary based on whether your system has been customized.                              [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] displays two records from each view. If you want to see all records related to a contact or lead, click the contact or lead name in the contact card.  
   
-   ![Dynamics 365 App for Outlook showing related records](../media/crm-app-outlook-preview-track.png "Dynamics 365 App for Outlook showing related records")  
+   ![Dynamics 365 for Customer Engagement App for Outlook showing related records](../media/crm-app-outlook-preview-track.png "Dynamics 365 for Customer Engagement App for Outlook showing related records")  
   
 <a name="ChangeRegarding"></a>   
 ### Change the regarding record for a tracked email message  
@@ -761,7 +761,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
    - To create a new record in                                          [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and link it to the email activity record:  
   
-     1. Click                                                  **New**![Dynamics 365 App for Outlook New &#40;Plus&#41; button](../media/crm-app-outlook-new-button.png "Dynamics 365 App for Outlook New (Plus) button") next to any enabled entity.  
+     1. Click                                                  **New**![Dynamics 365 for Customer Engagement App for Outlook New &#40;Plus&#41; button](../media/crm-app-outlook-new-button.png "Dynamics 365 for Customer Engagement App for Outlook New (Plus) button") next to any enabled entity.  
   
      2. In the quick create form, fill out the fields.  
   
@@ -769,12 +769,12 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
          **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
 <a name="OpenRecord"></a>   
-### Open a Dynamics 365 record from Dynamics 365 App for Outlook  
+### Open a Dynamics 365 for Customer Engagement record from Dynamics 365 for Customer Engagement App for Outlook  
  You can open                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] forms directly for contacts and other records. To open                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records, click any of the following links:  
   
 -   The name of the lead or contact  
   
--   The                          **Pop Out** button                          ![Dynamics 365 App for Outlook popup button](../media/crm-app-outlook.png "Dynamics 365 App for Outlook popup button")  
+-   The                          **Pop Out** button                          ![Dynamics 365 for Customer Engagement App for Outlook popup button](../media/crm-app-outlook.png "Dynamics 365 for Customer Engagement App for Outlook popup button")  
   
 -   The name of the regarding record (once the email has been tracked)  
   

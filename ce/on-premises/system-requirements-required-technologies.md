@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 system requirements and required technologies | Microsoft Docs"
+title: "Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
 ms.assetid: e2c85d76-2b14-4d80-b6a7-5ea53fafcc8d
 caps.latest.revision: 35
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 system requirements and required technologies
+# Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -52,9 +52,9 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
   
   
 ## See also
- [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md) </br>
- [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md) </br>
+ [Microsoft Dynamics 365 for Customer Engagement Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md) </br>
+ [Software requirements for Microsoft Dynamics 365 for Customer Engagement Server](software-requirements-for-microsoft-dynamics-365-server.md) </br>
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   </br>
- [Planning Your Deployment of Microsoft Dynamics 365](planning-your-deployment-of-microsoft-dynamics-365.md) </br>
- [Dynamics 365 for Outlook Administrator Guide](../outlook-addin/admin-guide/dynamics-365-for-outlook.md) 
+ [Planning Your Deployment of Microsoft Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md) </br>
+ [Dynamics 365 for Customer Engagement for Outlook Administrator Guide](../outlook-addin/admin-guide/dynamics-365-for-outlook.md) 
 

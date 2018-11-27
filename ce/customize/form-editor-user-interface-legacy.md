@@ -1,11 +1,11 @@
 ---
 title: Overview of the form editor user interface for PowerApps | MicrosoftDocs
 description: Know the form editor user interface to edit forms in PowerApps
-keywords: Forms; Main form;  Unified interface apps; Dynamics 365 for customer engagement
+keywords: Forms; Main form;  Unified interface apps; Dynamics 365 for Customer Engagement for customer engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 ms.author: "matp"
 manager: "kvivek"
@@ -71,7 +71,7 @@ Select the **File** tab to add/view the following options:
 - **New Activity** Add a new activity
 - **New Record** Add a new record
 - **Tools** Utilize options like Import data, Duplicate detection, and Bulk delete wizard
-- **Options** Change the default display settings to personalize Microsoft Dynamics 365, and manage your email templates
+- **Options** Change the default display settings to personalize Microsoft Dynamics 365 for Customer Engagement, and manage your email templates
     - General
     - Synchronization
     - Activities
@@ -111,7 +111,7 @@ Select the **File** tab to add/view the following options:
 |             | **Enable Security Roles** |                                                                                    Use this to set which security roles will have access to the forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Control access to forms](../customize/control-access-forms.md) **Important:**  If you create a new form, only the System Administrator and System Customizer security roles will have access to the form. You must assign access to other security roles before people in your organization can use it.                                                                                     |
 |             |   **Show Dependencies**   |                                                                                                                                                                                             See which solution components depend on this form and which solution components are required by this form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution dependencies](../customize/overview.md)                                                                                                                                                                                             |
 |             |  **Managed Properties**   |                                                                            Managed properties command has two properties **Customizable** and **Can be Deleted**. Setting these properties to false means the form won’t be customizable and cannot be deleted after you included it in a solution, export that solution as a managed solution, and import that managed solution into a different organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Managed properties](../customize/managed-properties.md)                                                                            |
-| **Upgrade** |      **Merge forms**      |                                                                                                                                                                                                                                                         If applicable, this option lets you merge this form with a form from a previous version of Dynamics 365 form                                                                                                                                                                                                                                                         |
+| **Upgrade** |      **Merge forms**      |                                                                                                                                                                                                                                                         If applicable, this option lets you merge this form with a form from a previous version of Dynamics 365 for Customer Engagement form                                                                                                                                                                                                                                                         |
 
 ## Insert tab  
 ![insert-tab](media/insert-tab.png)

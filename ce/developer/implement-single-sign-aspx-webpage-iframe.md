@@ -1,6 +1,6 @@
 ---
-title: "Implement single sign-on from an ASPX webpage or IFRAME (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This topic describes how to develop a custom webpage that can make SDK calls to Dynamics 365 (online) Customer Engagement on behalf of the Dynamics 365 user who is signed in"
+title: "Implement single sign-on from an ASPX webpage or IFRAME (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This topic describes how to develop a custom webpage that can make SDK calls to Dynamics 365 for Customer Engagement (online) Customer Engagement on behalf of the Dynamics 365 for Customer Engagement user who is signed in"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "single sign-on from an ASPX webpage or IFRAME, implementing"
   - "ASPX webpage with (optionally) IFRAME display, implementing single sign-on from an ASPX webpage or IFRAME"
@@ -66,7 +66,7 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
 -   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
   
 ### See also  
- [Access the Web Services (Authentication) in Dynamics 365](authenticate-users.md)   
+ [Access the Web Services (Authentication) in Dynamics 365 for Customer Engagement](authenticate-users.md)   
  [Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)   
  [Impersonate Another User](org-service/impersonate-another-user.md)   
- [Web Resources for Dynamics 365](web-resources.md)
+ [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)

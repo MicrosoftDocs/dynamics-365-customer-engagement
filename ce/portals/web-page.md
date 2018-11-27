@@ -1,12 +1,12 @@
 ---
-title: "Create and manage web pages in Dynamics 365 portals | MicrosoftDocs"
+title: "Create and manage web pages in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to create and manage web pages in a portal."
 ms.date: 05/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 78CBFF42-2130-473D-91A6-8FA5597685F6
 author: sbmjais
 ms.author: shjais
@@ -28,7 +28,7 @@ A web page represents a particular URL in a portals website, and is one of the c
 
 Web pages also form the basis for including other, specialized entity types in the portal site map – web files, shortcuts, forums, web forms, and blogs are all situated in the portal site map through – and thus derive their URLs from – a relationship to a parent web page.
 
-## Manage web pages in Dynamics 365
+## Manage web pages in Dynamics 365 for Customer Engagement
 
 Web pages can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 

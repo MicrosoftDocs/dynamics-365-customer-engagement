@@ -1,6 +1,6 @@
 ---
-title: "User Power BI to create custom analytics (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Describes how to set up data sources in Dynamics 365 for Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
+title: "User Power BI to create custom analytics (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "Describes how to set up data sources in Dynamics 365 for Customer Engagement for Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
 keywords: "tutorial; templates; email; customer journey; marketing page; page"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4479aca4-9f7f-40fa-9b78-515f98e47d26
 author: kamaybac
 ms.author: kamaybac
@@ -96,7 +96,7 @@ Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and conne
 
 1. If you haven't already, then [download the templates from GitHub](https://github.com/Microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/releases). The following templates are provided:
 
-    - **Dynamics 365 for Marketing template for Power BI**: This template is prepared to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources, but doesn't include any pre-built analyzers. This is a good place to start when developing custom solutions from scratch.
+    - **Dynamics 365 for Customer Engagement for Marketing template for Power BI**: This template is prepared to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources, but doesn't include any pre-built analyzers. This is a good place to start when developing custom solutions from scratch.
     - **Email marketing analyzer for Power BI**: This template includes a feature-rich email marketing analyzer that is ready to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources. It provides a comprehensive report of your email marketing results, including detailed analytics, charts, and views spread across multiple report pages. You can use this template as-is, or as inspiration for designing your own reports.
 
 1. Open your selected template in [!include[](../includes/pn-power-bi-desktop.md)]. If you don't already have [!include[](../includes/pn-power-bi-desktop.md)], you can download it for free from [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/).

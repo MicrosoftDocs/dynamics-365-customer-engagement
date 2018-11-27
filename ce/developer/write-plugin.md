@@ -1,5 +1,5 @@
 ---
-title: "Write a plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Write a plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about plug-in design, writing a basic plug-in, writing a plug-in constructor, and web access for isolated plug-ins."
 ms.custom: ""
 ms.date: 10/03/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3ebc5b7c-313a-44c2-b6e0-b6740a0a24de
 caps.latest.revision: 62
 author: "JimDaly"
@@ -147,7 +147,7 @@ public SamplePlugin(string unsecure, string secure)
  [!code-csharp[Plug-ins#WebClientPlugin2](../snippets/csharp/CRMV8/plug-ins/cs/webclientplugin2.cs#webclientplugin2)]  
   
 > [!IMPORTANT]
->  For sandboxed plug-ins to be able to access external Web services, the server where the Sandbox Processing Service role is installed must be exposed to the Internet, and the account that the sandbox service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the Microsoft.Crm.Sandbox.WorkerProcess application located on the server in the %PROGRAMFILES%\Dynamics 365\Server\bin folder.  
+>  For sandboxed plug-ins to be able to access external Web services, the server where the Sandbox Processing Service role is installed must be exposed to the Internet, and the account that the sandbox service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the Microsoft.Crm.Sandbox.WorkerProcess application located on the server in the %PROGRAMFILES%\Dynamics 365 for Customer Engagement\Server\bin folder.  
   
 <a name="bkmk_useearlybound"></a>
 
@@ -177,7 +177,7 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
   
 > [!IMPORTANT]
 > - Plug-in assemblies must be built using .NET Framework version 4.5.2. Any assemblies built using higher versions cannot be imported as part of a solution.
-> - Plug-in assemblies should reference the minimum version of the `Microsoft.Xrm.Sdk.dll` assembly that corresponds to the Dynamics 365 Customer Engagement deployment version. If your solution targets version 8.2, you must not use the latest version of the assemblies, you need to use the v8.2 version of the assemblies. Older versions of the assemblies are available via NuGet at [Microsoft.CrmSdk.CoreAssemblies ](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/)
+> - Plug-in assemblies should reference the minimum version of the `Microsoft.Xrm.Sdk.dll` assembly that corresponds to the Dynamics 365 for Customer Engagement deployment version. If your solution targets version 8.2, you must not use the latest version of the assemblies, you need to use the v8.2 version of the assemblies. Older versions of the assemblies are available via NuGet at [Microsoft.CrmSdk.CoreAssemblies ](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/)
 > - Plug-in assemblies must be no larger than 16 MB.
 > - In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], plug-in assemblies must be readable by everyone to work correctly. Therefore, it is a security best practice to develop plug-in code that does not contain any system logon information, confidential information, or company trade secrets.
 > - Plug-in assemblies with more than 4096 classes (types) cannot be imported.
@@ -187,7 +187,7 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
  If your assembly contains a plug-in that can execute while the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is offline, there is additional security that the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform imposes on assemblies. For more information, see [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md).
 
  > [!Note]
- > Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
+ > Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 for Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
   
 ### See also
 

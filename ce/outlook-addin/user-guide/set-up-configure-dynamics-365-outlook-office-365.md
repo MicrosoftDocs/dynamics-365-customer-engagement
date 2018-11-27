@@ -1,5 +1,5 @@
 ---
-title: "Set up and configure Dynamics 365 for Outlook from Office 365 | MicrosoftDocs"
+title: "Set up and configure Dynamics 365 for Customer Engagement for Outlook from Office 365 | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement (online)
   - Dynamics CRM Online
 ms.assetid: e741c693-4247-4551-b81a-5e8ec5da6567
 caps.latest.revision: 33
@@ -23,8 +23,8 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Set up and configure Dynamics 365 for Outlook from Office 365
-You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] together with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working within the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working offline. [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md).  
+# Set up and configure Dynamics 365 for Customer Engagement for Outlook from Office 365
+You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] together with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working within the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working offline. [Do your Dynamics 365 for Customer Engagement work in Outlook using Dynamics 365 for Customer Engagement for Outlook](dynamics-365-work-outlook.md).  
   
  If you have an Office 365 subscription, you can install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] directly from the **[!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)]** Home page, but before you install the add-in, review the following installation prerequisites and configuration instructions.  
   
@@ -36,11 +36,11 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 ### Software requirements  
   
--   [Microsoft Dynamics 365 for Outlook software requirements](../admin-guide/software-requirements.md)
+-   [Microsoft Dynamics 365 for Customer Engagement for Outlook software requirements](../admin-guide/software-requirements.md)
   
 ### Hardware and network requirements  
   
--   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
+-   [Microsoft Dynamics 365 for Customer Engagement for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
   
 ### Installing updates  
   
@@ -48,9 +48,9 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 - To ensure that you stay up-to-date with future releases of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], it is highly recommended that you ensure that [!INCLUDE[pn_ms_Windows_Update](../../includes/pn-ms-windows-update.md)] is enabled on your computer. [Learn how to turn on automatic updates](http://go.microsoft.com/fwlink/p/?LinkID=518633).  
   
-## Step 2: Install and configure Dynamics 365 for Outlook  
+## Step 2: Install and configure Dynamics 365 for Customer Engagement for Outlook  
   
-1. These steps apply only if you have an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] subscription in addition to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you don't have an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] subscription, see [Set up Dynamics 365 for Outlook](set-up.md).  
+1. These steps apply only if you have an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] subscription in addition to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you don't have an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] subscription, see [Set up Dynamics 365 for Customer Engagement for Outlook](set-up.md).  
   
     Sign in to the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] home page: [https://portal.office.com](https://portal.office.com).  
   
@@ -64,15 +64,15 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 5. When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. This will automatically start the Configuration Wizard and you’ll see the following dialog box:  
   
-    ![Add a Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 Organization dialog box")  
+    ![Add a Dynamics 365 for Customer Engagement Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 for Customer Engagement Organization dialog box")  
   
    > [!NOTE]
    >  If the Configuration Wizard doesn’t start automatically, in the Start screen, search for **Configuration Wizard** and run it.  
   
-6. In the list, select **Dynamics 365 (online)**, and then choose **Connect**.  
+6. In the list, select **Dynamics 365 for Customer Engagement (online)**, and then choose **Connect**.  
   
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
 ### See also  
- [Dynamics 365 for Outlook support](../admin-guide/support.md)
+ [Dynamics 365 for Customer Engagement for Outlook support](../admin-guide/support.md)

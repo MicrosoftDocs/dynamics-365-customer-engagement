@@ -3,7 +3,7 @@ title: "getParent (Client API reference)| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 6d77db1b-18b4-410f-b91b-d2b65b369946
 author: "KumarVivek"
 ms.author: "kvivek"

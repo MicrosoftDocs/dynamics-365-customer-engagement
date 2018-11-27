@@ -3,7 +3,7 @@ title: "getCurrentAppUrl (Client API reference)| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 89123cde-7c66-4c7d-94e4-e287285019f8
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -34,8 +34,8 @@ globalContext.getCurrentAppUrl();
 
 |Value |Client |
 |---|---|
-|https://[org].crm.dynamics.com/main.aspx?appid=[GUID]|Dynamics 365 Customer Engagement (online)|
-|https://[server]/[org]/main.aspx?appid=[GUID]|Dynamics 365 Customer Engagement (on-premises)|
+|https://[org].crm.dynamics.com/main.aspx?appid=[GUID]|Dynamics 365 for Customer Engagement (online)|
+|https://[server]/[org]/main.aspx?appid=[GUID]|Dynamics 365 for Customer Engagement (on-premises)|
 
 ### Related topics
 

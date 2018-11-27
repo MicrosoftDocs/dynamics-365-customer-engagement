@@ -1,5 +1,5 @@
 ---
-title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "An unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "unmanaged solutions, creating; exporting; or importing"
   - "troubleshooting, importing solutions from earlier versions"
@@ -106,7 +106,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 
   When you export a solution by using the web application, in the **Export System Settings (Advanced)** step, you can select which system settings to include in your solution. These options are available to developers by using the <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest> via the members available in the request. See the remarks for the request for details about which settings are included.  
 
-  You can pick a target version when you export a solution. You can export a solution that is compliant with earlier versions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export a solution for a specific Dynamics 365 version](export-solution-specific-version.md).  
+  You can pick a target version when you export a solution. You can export a solution that is compliant with earlier versions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export a solution for a specific Dynamics 365 for Customer Engagement version](export-solution-specific-version.md).  
 
 <a name="BKMK_ImportUnmanagedSolution"></a>   
 ## Import an unmanaged solution  
@@ -138,7 +138,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 
 ### See also  
  [Plan For Solution Development](plan-solution-development.md)   
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)   
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Complex LINQ queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Complex LINQ queries (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use .NET Language-Integrated Query (LINQ) with Microsoft Dynamics CRM 2015 and Microsoft Dynamics CRM Online 2015 Update"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "sample for creating complex LINQ queries"
   - "complex LINQ queries sample"

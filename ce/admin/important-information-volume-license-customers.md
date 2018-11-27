@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: cdb4caa6-6999-4e20-bbc3-5a04d2f3a164
 caps.latest.revision: 5
 author: "jimholtz"
@@ -25,14 +25,14 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Your Dynamics CRM Online plan is being retired. When it's time to renew, you will need to renew using one of the Dynamics 365 plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
+Your Dynamics CRM Online plan is being retired. When it's time to renew, you will need to renew using one of the Dynamics 365 for Customer Engagement plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
   
  If you're an existing Dynamics CRM Online customer, you will be notified when your subscription will expire.  At that time, you'll need to start a new subscription with one of the new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] licenses. You can switch before you receive the expiration notice.  
 
 > [!IMPORTANT]
-> It is important that you switch your users from CRM Online licenses to Dynamics 365 licenses in order to avoid any service disruption.
+> It is important that you switch your users from CRM Online licenses to Dynamics 365 for Customer Engagement licenses in order to avoid any service disruption.
   
- ![Email: Dynamics 365 (online) is expiring](../admin/media/expireemail.png "Email: Dynamics 365 (online) is expiring") 
+ ![Email: Dynamics 365 for Customer Engagement (online) is expiring](../admin/media/expireemail.png "Email: Dynamics 365 for Customer Engagement (online) is expiring") 
 
 <a name="BKMK_ReassignLicense"></a>   
 
@@ -54,20 +54,20 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, you wil
   
 6. When you’re done, choose **Replace** > **Close**.  
 
-## What happens to my data when I switch to a Dynamics 365 subscription?
-Your data, user records, customization, etc., are stored in your tenant and are not tied directly to a specific CRM Online subscription. When you switch to a Dynamics 365 subscription, the new licenses provide access to your existing CRM organization and will not lead to any loss of data.
+## What happens to my data when I switch to a Dynamics 365 for Customer Engagement subscription?
+Your data, user records, customization, etc., are stored in your tenant and are not tied directly to a specific CRM Online subscription. When you switch to a Dynamics 365 for Customer Engagement subscription, the new licenses provide access to your existing CRM organization and will not lead to any loss of data.
 
-## What happens if I do not switch my users to Dynamics 365 licenses?
-If you do not switch your users to a Dynamics 365 subscription before the term end date, the CRM Online subscription will enter into an expired state for 90 days for most subscriptions, in most countries and regions. At the end of the expired state, the subscription moves into the disabled state, which is 90 days for most subscriptions, in most countries and regions.
+## What happens if I do not switch my users to Dynamics 365 for Customer Engagement licenses?
+If you do not switch your users to a Dynamics 365 for Customer Engagement subscription before the term end date, the CRM Online subscription will enter into an expired state for 90 days for most subscriptions, in most countries and regions. At the end of the expired state, the subscription moves into the disabled state, which is 90 days for most subscriptions, in most countries and regions.
 
 Here's what to expect for you and your users if your subscription is disabled.
 
 - Admin access: Admins can still sign in and access the Office 365 admin center, and buy other Microsoft Online Services as needed.
 
-- User access: Your users won't be able to use Dynamics 365, or access customer data. CRM Online applications will eventually move into a read-only, reduced functionality mode and display Unlicensed Product notifications.
+- User access: Your users won't be able to use Dynamics 365 for Customer Engagement, or access customer data. CRM Online applications will eventually move into a read-only, reduced functionality mode and display Unlicensed Product notifications.
 
 ### See also  
 
 [Important information for CRM Online customers](important-information-customers.md)
-[Switch from Dynamics CRM Online to Dynamics 365 (online)](switch-dynamics-crm-online-dynamics-365.md)
+[Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement (online)](switch-dynamics-crm-online-dynamics-365.md)
 [Support and billing](billing-support.md)

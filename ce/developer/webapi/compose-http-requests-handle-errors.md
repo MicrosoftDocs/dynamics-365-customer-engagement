@@ -1,5 +1,5 @@
 ---
-title: "Compose HTTP requests and handle errors (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Compose HTTP requests and handle errors (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the HTTP methods and headers that form a part of HTTP requests that interact with the Web API and how to identify and handle errors returned in the response"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 64a39182-25de-4d31-951c-852025a75811
 caps.latest.revision: 13
 author: "JimDaly"
@@ -35,7 +35,7 @@ To access the Web API you must compose a URL using the parts in the following ta
 |Part|Description|
 |--|--|
 |Protocol|The appropriate protocol, either `https://` or `http://`.|
-|Base URL|<div>This is the URL you normally use to open the web application.<ul><li>For Dynamics 365 (online): use <code class="x-hidden-focus">&lt;tenant name&gt;.crm.dynamics.com</code>.</li><li>For Internet-facing deployment (IFD): Use the appropriate URL for your instance. This will be: <code class="x-hidden-focus">&lt;organization name&gt;.&lt;domain name&gt;</code>.</li><li>For Dynamics 365 (on-premises): use <code class="x-hidden-focus">&lt;server name&gt;/&lt;organization name&gt;</code>.</li></ul></div>|
+|Base URL|<div>This is the URL you normally use to open the web application.<ul><li>For Dynamics 365 for Customer Engagement (online): use <code class="x-hidden-focus">&lt;tenant name&gt;.crm.dynamics.com</code>.</li><li>For Internet-facing deployment (IFD): Use the appropriate URL for your instance. This will be: <code class="x-hidden-focus">&lt;organization name&gt;.&lt;domain name&gt;</code>.</li><li>For Dynamics 365 for Customer Engagement (on-premises): use <code class="x-hidden-focus">&lt;server name&gt;/&lt;organization name&gt;</code>.</li></ul></div>|
 |Web API path|The path to the web API is `/api/data/`.|
 |Version|   The version is expressed this way: `v[Major_version].[Minor_version][PatchVersion]/`. The valid version for this release is <code class="x-hidden-focus">v9.0</code>.|
 |Resource|The name of the entity, function, or action you want to use.|

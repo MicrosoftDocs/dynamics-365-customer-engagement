@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 (online) terminology | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement (online) terminology | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 9e79282a-8a56-4df5-9c11-0e240337a866
 caps.latest.revision: 6
 author: "jimholtz"
@@ -41,4 +41,4 @@ The following are terms used throughout the [!INCLUDE[pn_CRM_Online](../includes
 |     Security group     |                                                                                                                                                                                                                        If your company has multiple [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, you can use instance security groups to control which licensed users can access a particular instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)                                                                                                                                                                                                                         |
 
 ### See also  
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)
+ [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)

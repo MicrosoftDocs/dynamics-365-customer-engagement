@@ -1,5 +1,5 @@
 ---
-title: "Developer Guide for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Developer Guide for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 caps.latest.revision: 285
 author: "JimDaly"
@@ -23,11 +23,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Developer Guide for Dynamics 365 Customer Engagement
+# Developer Guide for Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement Developer Guide (formerly referred to as the Dynamics 365 SDK). This documentation is for version 9.0.
+Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement Developer Guide (formerly referred to as the Dynamics 365 for Customer Engagement SDK). This documentation is for version 9.0.
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 <h2> Additional resources </h2>
 
 <li><a href="../field-service/developer/connected-field-service-developer-guide.md" data-raw-source="[Developer Guide for Connected Field Service](../field-service/developer/connected-field-service-developer-guide.md)">Developer Guide for Connected Field Service</a></li>
-<!--<li>[Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)</li>-->
+<!--<li>[Developer Guide for Dynamics 365 for Customer Engagement for Marketing](../marketing/developer/marketing-developer-guide.md)</li>-->
 <li><a href="sample-code-directory.md" data-raw-source="[Sample code directory](sample-code-directory.md)">Sample code directory</a></li>
 <li><a href="download-tools-nuget.md" data-raw-source="[Tools on NuGet](download-tools-nuget.md)">Tools on NuGet</a></li>
 </td>

@@ -1,5 +1,5 @@
 ---
-title: "On-off switch for Learning Path (guided help) for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "On-off switch for Learning Path (guided help) for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 2c651812-094b-4229-b09d-eeceee411be9
 caps.latest.revision: 13
 author: "jimholtz"
@@ -30,9 +30,9 @@ Learning Path (guided help) is turned on by default, but is easy to turn off.
 ## Turn Learning Path on or off for an individual user  
  This setting affects only the person who makes this change.  
   
--   To turn Learning Path off: On the nav bar, click the **Options**  icon ![Options button for Dynamics 365](../admin/media/optionsbutton.png "Options button for Dynamics 365") > **Opt out of Learning Path**.  
+-   To turn Learning Path off: On the nav bar, click the **Options**  icon ![Options button for Dynamics 365 for Customer Engagement](../admin/media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement") > **Opt out of Learning Path**.  
   
--   To turn Learning Path on: On the nav bar, click the **Options**  icon ![Options button for Dynamics 365](../admin/media/optionsbutton.png "Options button for Dynamics 365") > **Opt in for Learning Path**.  
+-   To turn Learning Path on: On the nav bar, click the **Options**  icon ![Options button for Dynamics 365 for Customer Engagement](../admin/media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement") > **Opt in for Learning Path**.  
   
 ## Turn Learning Path on or off for an entire organization  
  This setting changes access to Learning Path for an entire organization.  

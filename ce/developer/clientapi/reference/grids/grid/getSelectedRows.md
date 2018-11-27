@@ -1,9 +1,9 @@
 ---
-title: "getSelectedRows (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getSelectedRows (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 49f39f0f-33ef-41d1-9ab3-14966ae075b5
 author: "KumarVivek"
 ms.author: "kvivek"

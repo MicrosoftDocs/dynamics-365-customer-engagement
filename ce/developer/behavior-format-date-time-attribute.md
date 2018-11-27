@@ -1,6 +1,6 @@
 ---
-title: "Behavior and format of the date and time attribute (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The DateTimeAttributeMetadata class is used to define and manage attributes of type DateTime in Dynamics 365 Customer Engagement."
+title: "Behavior and format of the date and time attribute (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The DateTimeAttributeMetadata class is used to define and manage attributes of type DateTime in Dynamics 365 for Customer Engagement."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 17014973-417b-4f53-8991-88ccc0096cfc
 caps.latest.revision: 31
 author: "KumarVivek"

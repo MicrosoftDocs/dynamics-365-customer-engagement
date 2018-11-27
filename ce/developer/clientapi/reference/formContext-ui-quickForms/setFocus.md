@@ -1,9 +1,9 @@
 ---
-title: "setFocus (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setFocus (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 109d45ac-151e-4213-8c18-37ded8df1a71
 author: "KumarVivek"
 ms.author: "kvivek"

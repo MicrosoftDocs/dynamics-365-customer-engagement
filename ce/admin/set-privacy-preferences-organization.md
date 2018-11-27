@@ -1,6 +1,6 @@
 ---
 redirect_url: https://docs.microsoft.com/power-platform/admin/settings-privacy-security
-title: "Set privacy preferences for a Dynamics 365 Customer Engagement organization | MicrosoftDocs"
+title: "Set privacy preferences for a Dynamics 365 for Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 82047a4c-b097-4fa4-9542-557eadbe3827
 caps.latest.revision: 12
 author: "jimholtz"
@@ -82,4 +82,4 @@ Manage users’ data privacy by controlling when to send error notifications, an
 >  Any user with the System Administrator security role will always see the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] privacy statement and not the organization’s privacy statement.  
   
 ### See also  
- [Get Help from the Microsoft Dynamics 365 Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)
+ [Get Help from the Microsoft Dynamics 365 for Customer Engagement Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)

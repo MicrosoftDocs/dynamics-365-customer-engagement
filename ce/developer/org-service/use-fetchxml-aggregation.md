@@ -1,5 +1,5 @@
 ---
-title: "Use FetchXML aggregation (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use FetchXML aggregation (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the grouping and aggregation features of FetchXML that let you calculate sum, average min, max and count"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "FetchXML queries"
   - "using FetchXML aggregation (grouping), code examples"

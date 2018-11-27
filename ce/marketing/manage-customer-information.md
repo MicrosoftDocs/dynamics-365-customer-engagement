@@ -1,6 +1,6 @@
 ---
-title: "Work with contact, account, and lead records (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to find, create and use contact, account, and lead records in Dynamics 365 for Marketing"
+title: "Work with contact, account, and lead records (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "How to find, create and use contact, account, and lead records in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "contact; account; lead"
 ms.date: 04/25/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 16024056-9750-4b6f-854a-da454e2c3a3f
 author: kamaybac
 ms.author: kamaybac

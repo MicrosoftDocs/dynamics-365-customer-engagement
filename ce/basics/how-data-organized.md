@@ -1,5 +1,5 @@
 ---
-title: "Understanding how data is organized (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Understanding how data is organized (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 70c55a33-dd08-44bc-bb9c-0f3732aa30a9
 caps.latest.revision: 5
 author: "brycho"
@@ -64,5 +64,5 @@ One of the beauties of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md
 different names for the types of records, because your organization calls that type of data something different. For example, your system administrator may have changed “account” to “company,” or “contact” to “individual.”
 
 ### See also  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)   
+ [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)   
  [What are business processes?](../basics/what-are-business-processes.md)

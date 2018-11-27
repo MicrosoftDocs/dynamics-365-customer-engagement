@@ -1,1 +1,1 @@
-December 2016 Update for Dynamics 365
+December 2016 Update for Dynamics 365 for Customer Engagement

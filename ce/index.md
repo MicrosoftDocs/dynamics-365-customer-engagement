@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Product documentation for Dynamics 365 Customer Engagement apps and services. Formerly known as Dynamics CRM."
+title: "Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Product documentation for Dynamics 365 for Customer Engagement apps and services. Formerly known as Dynamics CRM."
 ms.date: 06/06/2018
 ms.service: dynamics-365-crossapp
 ms.topic: "index-page"
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
   - dyn365-Sales
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: e25bb9ce-315e-44e2-b4a1-8dcd310ddc1b
 ms.author: jdaly
 author: JimDaly
@@ -20,11 +20,11 @@ nodes_to_expand:
 - "Solutions Content"
 ---
 
-# [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] Customer Engagement 
+# [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] for Customer Engagement 
 
 ## Core
 
-These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] Customer Engagement.
+These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] for Customer Engagement.
 
 <table>
 <tr>
@@ -38,7 +38,7 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <td>
 <li><a href="basics/index.md" data-raw-source="[Basics Guide ](basics/index.md)">Basics Guide </a></li>
 <li><a href="outlook-app/index.md" data-raw-source="[App for Outlook](outlook-app/index.md)">App for Outlook</a></li>
-<li><a href="outlook-addin/index.md" data-raw-source="[Dynamics 365 for Outlook](outlook-addin/index.md)">Dynamics 365 for Outlook</a></li>
+<li><a href="outlook-addin/index.md" data-raw-source="[Dynamics 365 for Customer Engagement for Outlook](outlook-addin/index.md)">Dynamics 365 for Customer Engagement for Outlook</a></li>
 <li><a href="mobile-app/index.md" data-raw-source="[Mobile app](mobile-app/index.md)">Mobile app</a></li>
 </td>
 </tr>
@@ -46,7 +46,7 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 
 ## Apps, Solutions and Related Services
 
-These guides provide in-depth information about specific apps, solutions and related services you can use with [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] Customer Engagement.
+These guides provide in-depth information about specific apps, solutions and related services you can use with [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] for Customer Engagement.
 
 <table>
 <tr>

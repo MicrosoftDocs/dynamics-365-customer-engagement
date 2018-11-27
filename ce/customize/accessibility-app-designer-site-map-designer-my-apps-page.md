@@ -1,15 +1,15 @@
 ---
-title: Understand accessibility app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement
-keywords: App designer; site map designer; my apps; Dynamics 365
+title: Understand accessibility app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement for Customer Engagement | Microsoft Docs
+description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement for Customer Engagement
+keywords: App designer; site map designer; my apps; Dynamics 365 for Customer Engagement
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 11/08/2018
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
 search.audienceType: 
   - customizer
@@ -17,7 +17,7 @@ search.app:
   - D365CE
 ---
 
-# Accessibility in Dynamics 365 for Customer Engagement app designer, site map designer, and My Apps page
+# Accessibility in Dynamics 365 for Customer Engagement for Customer Engagement app designer, site map designer, and My Apps page
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -25,7 +25,7 @@ Microsoft is committed to making its products and services easier for everyone. 
 
 
 ## Keyboard shortcuts  
- Dynamics 365 for Customer Engagement offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities.  
+ Dynamics 365 for Customer Engagement for Customer Engagement offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities.  
 
 |My Apps page|||  
 |------------------|-|-|  
@@ -106,4 +106,4 @@ Microsoft is committed to making its products and services easier for everyone. 
 
 ## See also
 
-[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
+[Use keyboard shortcuts in Dynamics 365 for Customer Engagement applications](../basics/keyboard-shortcuts.md)

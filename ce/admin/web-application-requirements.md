@@ -1,5 +1,5 @@
 ---
-title: "Web application requirements for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Web application requirements for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 09/07/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 6404db68-f66b-4128-ac2f-84258503bc82
 author: Mattp123
 ms.author: matp
@@ -32,7 +32,7 @@ search.app:
 <a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web and mobile device client applications.  
 
 <a name="webapp_hw_req"></a>   
-## Dynamics 365 web application hardware requirements  
+## Dynamics 365 for Customer Engagement web application hardware requirements  
  The following table lists the minimum and recommended hardware requirements for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application.  
 
 |Component|Minimum|Recommended|  
@@ -51,9 +51,9 @@ search.app:
 
 -   Latency under 150 ms  
 
-Notice that these values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 clients](verify-network-capacity-throughput-clients.md)  
+Notice that these values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 for Customer Engagement clients](verify-network-capacity-throughput-clients.md)  
 
-### Network requirements when you use Dynamics 365 interactive service hub experience  
+### Network requirements when you use Dynamics 365 for Customer Engagement interactive service hub experience  
  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience is designed to work best over networks that have the following elements:  
 
 -   Bandwidth greater than 1Megabit per second (125 KBps/Kilobyte per second)  
@@ -124,10 +124,10 @@ To find the latest release for these web browsers, visit the software manufactur
 With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], web browsers and other client applications that only use Transport Layer Security (TLS) versions earlier than TLS 1.2 will be unable to connect to their [!INCLUDE [pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)] instances and the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. 
 
 For more information, see these blog posts: 
-- [Updates coming to Dynamics 365 Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+- [Updates coming to Dynamics 365 for Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
 - [TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
 
 ### See also  
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   
- <!-- [64-bit supported configurations for Microsoft Dynamics 365](../admin/64-bit-supported-configurations-for-microsoft-dynamics-365.md) 
- [Microsoft Dynamics 365 system requirements and required technologies](Microsoft%20Dynamics%20365%20system%20requirements%20and%20required%20technologies.md) -->  
+ <!-- [64-bit supported configurations for Microsoft Dynamics 365 for Customer Engagement](../admin/64-bit-supported-configurations-for-microsoft-dynamics-365.md) 
+ [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](Microsoft%20Dynamics%20365%20system%20requirements%20and%20required%20technologies.md) -->  

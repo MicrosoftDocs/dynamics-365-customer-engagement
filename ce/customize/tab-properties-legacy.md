@@ -1,11 +1,11 @@
 ---
 title: Tab properties for forms in PowerApps | MicrosoftDocs
 description: Understand the tab properties for main forms
-Keywords: Tab properties; Dynamics 365; Main forms
+Keywords: Tab properties; Dynamics 365 for Customer Engagement; Main forms
 author: matp
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
   - "powerapps"
 ms.author: Mattp123
 manager: kvivek

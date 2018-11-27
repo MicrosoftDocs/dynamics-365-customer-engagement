@@ -1,5 +1,5 @@
 ---
-title: "Sample: Bulk delete records that match common criteria (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Bulk delete records that match common criteria (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to delete records, in bulk, that match common criteria."
 keywords: ""
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1e5fb8b0-5938-4af7-a21d-7365b27b6e1e
 author: JimDaly
 ms.author: jdaly
@@ -48,7 +48,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BulkDelete#BulkDeleteOperations](../snippets/csharp/CRMV8/bulkdelete/cs/bulkdeleteoperations.cs#bulkdeleteoperations)]  
   
 ### See also  
- [Delete Data in Bulk in Dynamics 365](delete-data-bulk.md)   
+ [Delete Data in Bulk in Dynamics 365 for Customer Engagement](delete-data-bulk.md)   
  [Run Bulk Delete](run-bulk-delete.md)   
  <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest>   
  [Recurrence Pattern in Asynchronous Job Execution](recurrence-pattern-asynchronous-job-execution.md)

@@ -1,5 +1,5 @@
 ---
-title: "Track Outlook appointments in Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Track Outlook appointments in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Track Outlook appointments in Dynamics 365 for Outlook
+# Track Outlook appointments in Dynamics 365 for Customer Engagement for Outlook
 You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to save a copy of that appointment record as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] synchronizes the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record so you can view or edit the appointment in either tool. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your appointment records on that device.  
   
  Tracking appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal appointments separate from your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] appointments. Synchronization of appointments from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is automatic, however. You can use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to view any appointment records that you own that were created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
@@ -69,5 +69,5 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
 - You can’t synchronize attachments in recurring appointments or service appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 ### See also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

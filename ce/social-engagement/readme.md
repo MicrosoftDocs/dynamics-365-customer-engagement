@@ -34,10 +34,10 @@ Do you have an idea how to further improve the service or app? Go to the [Ideas 
 
 ## Integration scenarios - known issues
 
-### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for tablets app
+### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Customer Engagement for tablets app
 
-You can access the Social Selling Assistant app from both the Dynamics 365 web
-client and the Dynamics 365 for tablets app. However, for Dynamics 365 for
+You can access the Social Selling Assistant app from both the Dynamics 365 for Customer Engagement web
+client and the Dynamics 365 for Customer Engagement for tablets app. However, for Dynamics 365 for Customer Engagement for
 tablets, the following restrictions apply:
 
 -   Links contained in the social posts cannot be opened. As a workaround, use
@@ -46,20 +46,20 @@ tablets, the following restrictions apply:
     from which the links can be opened.
 
 -   Copyright and Translation Guide links in the page footer cannot be opened.
-    However, you can access these links from the Dynamics 365 web client or in
+    However, you can access these links from the Dynamics 365 for Customer Engagement web client or in
     [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-### Microsoft Dynamics 365 domains must be added to Allowed Domains to enable integration
+### Microsoft Dynamics 365 for Customer Engagement domains must be added to Allowed Domains to enable integration
 
-For integration between Microsoft Dynamics 365 and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)],
-your [Microsoft Dynamics 365 domains must be added as allowed domains in
+For integration between Microsoft Dynamics 365 for Customer Engagement and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)],
+your [Microsoft Dynamics 365 for Customer Engagement domains must be added as allowed domains in
 Microsoft Social
 Engagement](connect-other-domains.md).
-This will ensure that only the Dynamics 365 domains you own can make requests to
+This will ensure that only the Dynamics 365 for Customer Engagement domains you own can make requests to
 your data.
 
 If you are a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] administrator, you can do this by going to
-**Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as
+**Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 for Customer Engagement domains as
 allowed domains to enable communication with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 > [!NOTE]
@@ -67,11 +67,11 @@ allowed domains to enable communication with [!INCLUDE[pn_netbreeze_short](../in
 all \*.dynamics.com domains to communicate with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by default.
 This is no longer supported.
 
-### When you authenticate to Dynamics 365, and to Twitter and Facebook, pop-up windows are blocked in the browser
+### When you authenticate to Dynamics 365 for Customer Engagement, and to Twitter and Facebook, pop-up windows are blocked in the browser
 
 Pop-up blockers and feedback latency can negatively affect your experience when
 you try to add social profiles, add Twitter rules in **Search Setup**, and
-authenticate to your Microsoft Dynamics 365 instance.
+authenticate to your Microsoft Dynamics 365 for Customer Engagement instance.
 
 When [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] tries to open a pop-up window, in most cases it will be
 suppressed by your browser’s pop-up blocker. Please look for any notifications
@@ -82,7 +82,7 @@ Browsing Settings** (**Tools** \> **Internet options** \> **General** \>
 **Tabs**). For **When a pop-up is encountered**, choose either **Let Internet
 Explorer decide how pop-ups should open** or **Always open pop-ups in a new
 window**. If the option is set to **Always open pop-ups in a new tab**, linking
-to Dynamics 365 will not work.
+to Dynamics 365 for Customer Engagement will not work.
 
 Note that any of these pop-ups might take a while to appear. Also, when you add
 a social profile, the **Social Profiles** page might take a few seconds to list

@@ -1,5 +1,5 @@
 ---
-title: "Solution entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Solution entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Solutions let you create and package customizations as a single unit of software. This doc talks about solution entities"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "solution entities and their attributes, diagram of"
   - "entities"
@@ -53,7 +53,7 @@ Solutions let you create and package customizations as a single unit of software
  [ImportJob Entity](entities/importjob.md)  
   
 ## Related Sections  
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)  
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)  
   
  [Work with Solutions](work-solutions.md)  
   

@@ -1,5 +1,5 @@
 ---
-title: "Associate and disassociate entities using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Associate and disassociate entities using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to add  reference to a collection-valued navigation property, remove a reference and change an existing reference using the Web API"
 ms.custom: ""
 ms.date: 11/30/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: ad4e4eac-117a-4958-9df0-b7353305b0c7
 caps.latest.revision: 13
 author: "JimDaly"

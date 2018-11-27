@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
 ms.assetid: f1abcee0-8eca-4f91-9751-32dbfe9d0a79
 caps.latest.revision: 7
 author: Mattp123

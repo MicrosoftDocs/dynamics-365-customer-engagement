@@ -1,9 +1,9 @@
 ---
-title: "openUrl (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "openUrl (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 29cb3685-21aa-42fc-8e84-0074dcc69197
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 327B10EA-A62A-4CCD-BC68-57D26CA076C0
 caps.latest.revision: 25
 author: "SushantSikka"

@@ -1,5 +1,5 @@
 ---
-title: "Plug-in isolation, trusts, and statistics (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Plug-in isolation, trusts, and statistics (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about collecting run-time statistics and monitors plug-ins and custom workflow activities that execute in the sandbox."
 ms.custom: ""
 ms.date: 12/03/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: fe83bfd4-7ac1-4b9c-8cea-dc32d3ed60b6
 caps.latest.revision: 41
 author: "JimDaly"
@@ -66,7 +66,7 @@ The key value is a regular expression string that defines the web access restric
 By changing this registry key value, you can change the web access for sandboxed plug-ins.  
   
 > [!IMPORTANT]
->  The sandbox processing service role defaults to outbound calls being enabled. If you do not want to permit outbound calls from custom code (plug-ins or custom workflow activities), you can disable outbound calls by setting the following registry key to 1 (DWORD) on the server that hosts the sandbox processing service role. Next, restart the Dynamics 365 Sandbox Processing Service.  
+>  The sandbox processing service role defaults to outbound calls being enabled. If you do not want to permit outbound calls from custom code (plug-ins or custom workflow activities), you can disable outbound calls by setting the following registry key to 1 (DWORD) on the server that hosts the sandbox processing service role. Next, restart the Dynamics 365 for Customer Engagement Sandbox Processing Service.  
 >   
 >  `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxWorkerDisableOutboundCalls`  
   
@@ -75,6 +75,6 @@ By changing this registry key value, you can change the web access for sandboxed
 [Introduction to the Event Framework](introduction-event-framework.md)<br />
 [Write a Plug-in](write-plugin.md)<br />
 [Create a Custom Workflow Activity](workflow/create-custom-workflow-activity.md)<br />
-[Azure Extensions for Dynamics 365](azure-extensions.md)<br />
+[Azure Extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)<br />
 [PluginTypeStatistic Entity](entities/plugintypestatistic.md)<br />
 [Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)<br />

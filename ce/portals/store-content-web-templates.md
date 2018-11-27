@@ -1,5 +1,5 @@
 ---
-title: "Store source content by using web templates on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Store source content by using web templates on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to store content by using web templates on a portal."
 ms.custom: 
   - dyn365-portal

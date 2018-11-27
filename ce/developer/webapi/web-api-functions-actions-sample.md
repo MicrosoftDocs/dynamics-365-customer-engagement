@@ -1,6 +1,6 @@
 ---
-title: "Web API Functions and Actions Sample (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This group of samples demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API. These are implemented using Client-side JavaScript and C#"
+title: "Web API Functions and Actions Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This group of samples demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API. These are implemented using Client-side JavaScript and C#"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 953c3137-6171-4e6e-b249-6a96221c6e96
 caps.latest.revision: 16
 author: "JimDaly"
@@ -488,7 +488,7 @@ Expected custom error: ContactFirstName and ContactLastName are required when Cu
   
 ### See also  
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)   

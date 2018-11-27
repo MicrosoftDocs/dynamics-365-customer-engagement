@@ -1,5 +1,5 @@
 ---
-title: "Web API types and operations (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Web API types and operations (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic describes what is available for you to use vis-a-vis the Web API and will introduce important topics and how you can find information you need from the documentation generated from the service and metadata documents as well as the documentation of the system entity types, functions, and actions"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d80cfb87-d4f1-4c75-bcc8-4f54d1351e26
 caps.latest.revision: 27
 author: "JimDaly"
@@ -117,7 +117,7 @@ GET [Organization URI]/api/data/v9.0/$metadata
 
 <a name="bkmk_entityTypes"></a>   
 ## Entity types  
- The <xref:Microsoft.Dynamics.CRM.EntityTypeIndex> lists each of the system entity types exposed through the web API which store business data. An entity type is a named structured type with a key. It defines the named properties and relationships of an entity. Entity types may derive by single inheritance from other entity types. <xref:Microsoft.Dynamics.CRM.MetadataEntityTypeIndex> lists each of the entity types used to manage system metadata. Both are entity types but the way you work with them is different. See [Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md) for information about using model entities. Each entity type is included within an `EntityType` element in the `$metadata`. The following is the definition of the <xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" /> from the `$metadata` with properties and navigation properties removed.  
+ The <xref:Microsoft.Dynamics.CRM.EntityTypeIndex> lists each of the system entity types exposed through the web API which store business data. An entity type is a named structured type with a key. It defines the named properties and relationships of an entity. Entity types may derive by single inheritance from other entity types. <xref:Microsoft.Dynamics.CRM.MetadataEntityTypeIndex> lists each of the entity types used to manage system metadata. Both are entity types but the way you work with them is different. See [Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md) for information about using model entities. Each entity type is included within an `EntityType` element in the `$metadata`. The following is the definition of the <xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" /> from the `$metadata` with properties and navigation properties removed.  
 
 ```xml  
 <EntityType Name="account" BaseType="mscrm.crmbaseentity">  
@@ -337,6 +337,6 @@ GET [Organization URI]/api/data/v9.0/$metadata
 ```  
 
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
- [Authenticate to Dynamics 365 with the Web API](authenticate-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Authenticate to Dynamics 365 for Customer Engagement with the Web API](authenticate-web-api.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)

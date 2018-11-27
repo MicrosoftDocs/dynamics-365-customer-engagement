@@ -32,7 +32,7 @@ You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-3
 
 For step-by-step instructions on adding a service to an existing [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, see [Office help: Manage a subscription](http://go.microsoft.com/fwlink/p/?LinkId=392376).
 
-As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] customer, review [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462) if the organization is eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses.
+As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] customer, review [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462) if the organization is eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses.
 
 If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription yet, you need to create an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant for your organization.
 
@@ -58,7 +58,7 @@ Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 
 2. In the **Product licenses** tab, select **Edit**.
 
-3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **On**.
+3. Set the toggle for **Dynamics 365 for Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **On**.
 
 4. Select **Save** to confirm your change and update the user's product licenses.  
 
@@ -73,14 +73,14 @@ Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-soc
 
 2. In the **Product licenses** tab, select **Edit**.
 
-3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **Off**.
+3. Set the toggle for **Dynamics 365 for Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **Off**.
 
 4. Select **Save** to confirm your change and update the user's product licenses.
 
 ## Purchase licenses or add other Office 365 plans
 
 You can purchase and add licenses and other plans to your subscription any time. You must be a global or billing administrator for your company's account to purchase licenses or add other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] plans to your subscription.  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
 ### Purchase additional licenses
 
@@ -102,6 +102,6 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 [Get started with Social Engagement](get-started.md)   
 [Assign permissions and user roles](assign-user-roles.md)   
-[Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Integrate Social Engagement with Dynamics 365 for Customer Engagement](integrate-social-engagement-dynamics-365.md)   
 [Connect Social Engagement to other domains](connect-other-domains.md)
  

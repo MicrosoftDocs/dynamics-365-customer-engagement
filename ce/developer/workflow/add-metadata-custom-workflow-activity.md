@@ -1,5 +1,5 @@
 ---
-title: "Add metadata to a custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Add metadata to a custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about adding metadata to a custom workflow activity by adding input and output parameters, and input and output attributes for the parameters."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 06607e30-352c-4f27-a82e-adad48ca0f34
 caps.latest.revision: 35
 author: "JimDaly"
@@ -26,7 +26,7 @@ search.app:
 
 The assembly that contains the custom workflow activity definition is annotated using the .NET attributes to provide the metadata that [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement uses at runtime to link your code to the workflow engine. For more information about .NET attributes, see [Extending Metadata Using Attributes](https://msdn.microsoft.com/library/5x6cd29c.aspx).  
   
- Before you start adding metadata to your custom workflow activity definition, ensure that you’re aware of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types and attributes that are supported for the custom workflow activities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] see [Process Classes, Attributes, and Dynamics 365 Types](process-classes-attributes-and-types.md)  
+ Before you start adding metadata to your custom workflow activity definition, ensure that you’re aware of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types and attributes that are supported for the custom workflow activities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] see [Process Classes, Attributes, and Dynamics 365 for Customer Engagement Types](process-classes-attributes-and-types.md)  
   
 <a name="AddingInput"></a>   
 ## Add input parameters  
@@ -77,7 +77,7 @@ public InOutArgument<int> IntParameter { get; set; }
 public InOutArgument<EntityReference> AccountReference { get; set; }  
 ```  
   
- For a list of supported types and attributes, see [Process Classes, Attributes, and Dynamics 365 Types](process-classes-attributes-and-types.md).  
+ For a list of supported types and attributes, see [Process Classes, Attributes, and Dynamics 365 for Customer Engagement Types](process-classes-attributes-and-types.md).  
   
 <a name="Execute"></a>   
 ## Add the Execute method  
@@ -96,4 +96,4 @@ protected override void Execute(CodeActivityContext context)
  [Creating a Custom Workflow Activity](create-custom-workflow-activity.md)   
  [Using the IOrganization Web Service within a Custom Workflow Activity](use-iorganization-web-service-custom-workflow-activity.md)   
  [Sample: Create a Custom Workflow Activity](sample-create-custom-workflow-activity.md)   
- [Process Classes, Attributes, and Dynamics 365 Types](process-classes-attributes-and-types.md)
+ [Process Classes, Attributes, and Dynamics 365 for Customer Engagement Types](process-classes-attributes-and-types.md)

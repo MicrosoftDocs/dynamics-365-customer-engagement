@@ -1,9 +1,9 @@
-## Mapping functions for Dynamics 365 Customer Engagement Plan 
+## Mapping functions for Dynamics 365 for Customer Engagement Plan 
  Field Service and Project Service Automation have key functions that rely on location. For example, the location of Service Accounts (which define where services or tasks take place) or the starting/ending location of Resources (people performing services or tasks).  In order for the system to show these on a map - or to calculate distances between points - it's necessary to use a mapping service (in this case Bing Maps).  
   
  Following is the workflow to and from the Bing Maps service:  
   
-|From Dynamics 365|Bing Maps returns|Note|  
+|From Dynamics 365 for Customer Engagement|Bing Maps returns|Note|  
 |-----------------------|-----------------------|----------|  
 |Address (account or resource)|Latitude and longitude of the address (location)|This is referred to as "geo-coding" of an address.|  
 |Set of locations (latitude/longitude)|Distance between locations|This can be used to find optimal routes for resources or to calculate travel times.|  

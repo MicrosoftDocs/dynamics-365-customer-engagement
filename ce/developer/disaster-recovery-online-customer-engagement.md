@@ -1,5 +1,5 @@
 ---
-title: "Disaster recovery (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Disaster recovery (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Online feature to recover from a planned or unplanned service interruption."
 ms.custom: ""
 ms.date: 11/20/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a4b17ddb-c0a8-433d-a428-858b495e6734
 caps.latest.revision: 18
 author: "JimDaly"

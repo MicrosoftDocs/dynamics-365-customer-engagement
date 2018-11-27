@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 Reporting Extensions for SQL Server Reporting Services
+Microsoft Dynamics 365 for Customer Engagement Reporting Extensions for SQL Server Reporting Services

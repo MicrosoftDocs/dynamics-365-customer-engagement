@@ -53,7 +53,7 @@ To fix this, in a non-private Internet Explorer browser as an administrator, nav
 
 **If no mobile project exists**, download and save the template file.
 
--   If you are on December 2016 Update for Dynamics 365 (online), use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310)  
+-   If you are on December 2016 Update for Dynamics 365 for Customer Engagement (online), use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310)  
 
 -   If you are on Dynamics CRM Online 2016 Update 1, use this [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
 

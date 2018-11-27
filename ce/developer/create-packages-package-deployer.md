@@ -1,5 +1,5 @@
 ---
-title: "Create packages for the Dynamics 365 Package Deployer (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Create packages for the Dynamics 365 for Customer Engagement Package Deployer (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8def31d9-ee2a-4527-a29a-f16b53fc9229
 caps.latest.revision: 59
 author: "KumarVivek"
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Create packages for the Dynamics 365 Package Deployer
+# Create packages for the Dynamics 365 for Customer Engagement Package Deployer
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -73,11 +73,11 @@ search.app:
 
 2. In the **New Project** dialog box:  
 
-   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 SDK Templates**.  
+   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement SDK Templates**.  
 
    2. Ensure that **[!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)]** is selected.  
 
-   3. Select **Dynamics 365 Package**.  
+   3. Select **Dynamics 365 for Customer Engagement Package**.  
 
    4. Specify the name and location of the project, and click **OK**.  
 
@@ -142,9 +142,9 @@ search.app:
 
    - `solutionpackagefilename`: Specify the .zip file name of your solution. Required.  
 
-   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists                             in the target Dynamics 365 instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained                             on the target Dynamics 365 instance.  
+   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists                             in the target Dynamics 365 for Customer Engagement instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained                             on the target Dynamics 365 for Customer Engagement instance.  
 
-   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins                             in the target Dynamics 365 instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default                             the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 instance.  
+   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins                             in the target Dynamics 365 for Customer Engagement instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default                             the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 for Customer Engagement instance.  
 
      You can add multiple solution file names in a package by adding as many `<configsolutionfile>` nodes. For example, if you want three solution                         files to be imported, add them like this:  
 
@@ -216,7 +216,7 @@ search.app:
    | `waitforimporttocomplete`  |                                                 If `true`, the system waits for the import to complete before proceeding. If `false`, it queues the jobs and moves on.                                                  |
 
     `<zipimportdetails>` node  
-    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365.  
+    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365 for Customer Engagement.  
 
     `<zipimportdetail>` node  
     Use this node under the `<zipimportdetails>` node to provide information about an individual file in a .zip file that is specified in the                         `<configimportfile>` node.  
@@ -480,7 +480,7 @@ search.app:
    |                                              <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.IsWorkflowActive(System.Guid)>                                              |   Function    |                                                                                                                                                                                   Used to determine if a specified workflow is active.                                                                                                                                                                                    |
    |                                                       <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.PackageLog>                                                        | Class Pointer |                                                                                                                            This is a pointer to the initialized logging interface for the package. This interface is used by a package to log messages and exceptions to the package log file.                                                                                                                            |
    |                                                  <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.RootControlDispatcher>                                                  |   Property    |                                                         This is a dispatcher interface used to allow your control to render its own UI during package deployment. Use this interface to wrap any UI elements or commands.                         It is important to check this variable for null values before using it as it may or may not be set to a value.                                                          |
-   |                                                         <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.CrmSvc>                                                          |   Property    |                                                                                        This is a pointer to <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class that allows for a package to address Dynamics 365 from within the package. Use this to execute SDK methods and other actions in the overridden methods.                                                                                         |
+   |                                                         <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.CrmSvc>                                                          |   Property    |                                                                                        This is a pointer to <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class that allows for a package to address Dynamics 365 for Customer Engagement from within the package. Use this to execute SDK methods and other actions in the overridden methods.                                                                                         |
    |                                                   <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.DataImportBypass>                                                   |   Property    |                    Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] skips all data import operations such as importing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sample data,                         flat file data, and data exported from the Configuration Migration tool. Specify true or false. Default is `false`.                    |
    |                                            <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks>                                            |   Property    |      Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] will bypass some of its safety checks, which helps in improving the import performance. Specify `true` or `false`. Default is `false`.<br /><br /> You should set this to `true` only if the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance does not contain any data.      |
 

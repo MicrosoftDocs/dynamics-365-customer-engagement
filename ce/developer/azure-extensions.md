@@ -1,6 +1,6 @@
 ---
-title: "Azure extensions for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Dynamics 365 can be integrated with Microsoft Azure. Developers can register plug-ins with Dynamics 365 that can pass run-time message data, to one or more Microsoft Azure solutions in the cloud."
+title: "Azure extensions for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement can be integrated with Microsoft Azure. Developers can register plug-ins with Dynamics 365 for Customer Engagement that can pass run-time message data, to one or more Microsoft Azure solutions in the cloud."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "azure"
   - "appfabric"
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Azure extensions for Dynamics 365 Customer Engagement
+# Azure extensions for Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -32,29 +32,29 @@ search.app:
  The [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] provides a secure communication channel for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] run-time data to external line of business applications. This capability is especially useful in keeping disparate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] systems or other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] servers synchronized with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] business data changes.  
   
 ## In This Section  
- [Azure integration with Dynamics 365](azure-integration.md)  
+ [Azure integration with Dynamics 365 for Customer Engagement](azure-integration.md)  
   
- [Configure Microsoft Azure Integration with Dynamics 365](configure-azure-integration.md)  
+ [Configure Microsoft Azure Integration with Dynamics 365 for Customer Engagement](configure-azure-integration.md)  
   
- [Work with Dynamics 365 data in your Azure solution](work-data-azure-solution.md)  
+ [Work with Dynamics 365 for Customer Engagement data in your Azure solution](work-data-azure-solution.md)  
   
- [Work with Dynamics 365 event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)  
+ [Work with Dynamics 365 for Customer Engagement event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)  
   
  [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md)  
   
  [Write a Listener for a Microsoft Azure Solution](write-listener-application-azure-solution.md)  
   
- [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md)  
+ [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement](walkthrough-configure-azure-sas-integration.md)  
   
  [Walkthrough: Register an Azure-aware Plug-in with Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)  
  [Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)  
   
  [Walkthrough: Update a service endpoint imported from a solution](walkthrough-update-service-endpoint-imported-solution.md)  
   
- [Sample Code for Dynamics 365-Azure Integration](sample-code-azure-integration.md)  
+ [Sample Code for Dynamics 365 for Customer Engagement-Azure Integration](sample-code-azure-integration.md)  
   
 ## Related Sections  
- [Plug-ins for Extending Dynamics 365](write-plugin-extend-business-processes.md)  
+ [Plug-ins for Extending Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)  
   
  [Microsoft Azure Platform Developer Center](https://msdn.microsoft.com/azure/default.aspx)  
   

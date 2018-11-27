@@ -1,6 +1,6 @@
 ---
-title: "Extend Dynamics 365 Customer Engagement on the server (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The section describes capabilities to extend Dynamics 365 (online) Customer Engagement on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform."
+title: "Extend Dynamics 365 for Customer Engagement on the server (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The section describes capabilities to extend Dynamics 365 for Customer Engagement (online) Customer Engagement on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "Microsoft Dynamics CRM, programming the SDK"
   - "programming the Microsoft Dynamics CRM SDK, introduction"
@@ -31,7 +31,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Extend Dynamics 365 Customer Engagement on the server
+# Extend Dynamics 365 for Customer Engagement on the server
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -42,26 +42,26 @@ This section describes capabilities to extend [!INCLUDE[pn_dynamics_crm_online](
   
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)  
   
- [Asynchronous Service in Dynamics 365](asynchronous-service.md)  
+ [Asynchronous Service in Dynamics 365 for Customer Engagement](asynchronous-service.md)  
   
- [Azure Extensions for Dynamics 365](azure-extensions.md)  
+ [Azure Extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)  
   
 ## Related Sections  
- [Extend Dynamics 365](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)  
   
- [Supported Extensions for Dynamics 365](supported-extensions.md)  
+ [Supported Extensions for Dynamics 365 for Customer Engagement](supported-extensions.md)  
   
- [The Metadata and Data Models in Dynamics 365](metadata-data-models.md)  
+ [The Metadata and Data Models in Dynamics 365 for Customer Engagement](metadata-data-models.md)  
   
- [Extend Dynamics 365 on the client](extend-client.md)  
+ [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)  
   
- [Customize Dynamics 365 applications](customize-dev/customize-applications.md)  
+ [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)  
   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
- [Extend Dynamics 365 for Outlook](extend-customer-engagement-outlook.md)  
+ [Extend Dynamics 365 for Customer Engagement for Outlook](extend-customer-engagement-outlook.md)  
   
- [Integrate Dynamics 365 with SharePoint](integration-dev/integrate-sharepoint.md)  
+ [Integrate Dynamics 365 for Customer Engagement with SharePoint](integration-dev/integrate-sharepoint.md)  
   
- [Integrate Dynamics 365 with OneNote](integration-dev/integrate-onenote.md)    
+ [Integrate Dynamics 365 for Customer Engagement with OneNote](integration-dev/integrate-onenote.md)    
 

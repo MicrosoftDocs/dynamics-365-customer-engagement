@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve multiple with the QueryExpression class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Retrieve multiple with the QueryExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve multiple entities using the QueryBase) method with QueryExpression along with their related entity columns. The code returns columns from the primary account record as well as the firstname and lastname of the primary contacts associated with the account"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 2bdd259c-1003-4b37-a7db-61bf2278c7e4
 caps.latest.revision: 20
 author: "KumarVivek"

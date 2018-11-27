@@ -65,7 +65,7 @@ In our everyday lives, we use our favorite browsers to work with web application
 - [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]: [Safari 9 \(El Capitan\): Use Private Browsing windows](https://support.apple.com/kb/PH21413)  
   
 ### See Also  
- [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+ [Link posts from Social Engagement to Dynamics 365 for Customer Engagement](link-posts-to-dynamics-365.md)   
  [Manage social profiles](manage-social-profiles.md)   
  [Drive business objectives using posts](publish-react-posts.md)   
  [Add rules to a search topic](add-rules-search-topic.md)

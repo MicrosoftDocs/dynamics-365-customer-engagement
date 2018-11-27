@@ -1,5 +1,5 @@
 ---
-title: "Sample: Import files as web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Import files as web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample provides a simplified example of importing files as web resources."
 keywords: ""
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0f9bca5b-b876-4f68-8e4e-e844da8598d6
 author: JimDaly
 ms.author: jdaly
@@ -105,7 +105,7 @@ When you develop a large number of files to use as Web resources you can save yo
 ## Example  
  The following portion of the ImportWebResources.cs file expects the following variables:  
   
-- `_customizationPrefix` : The customization prefix of the **Dynamics 365 SDK Samples** publisher. If this publisher does not exist it will be created with the customization prefix of “sample”.  
+- `_customizationPrefix` : The customization prefix of the **Dynamics 365 for Customer Engagement SDK Samples** publisher. If this publisher does not exist it will be created with the customization prefix of “sample”.  
   
 - `_ImportWebResourcesSolutionUniqueName` : The unique name of the **Import Web Resources Sample Solution** created in this sample. The value is `ImportWebResourcesSample`.  
   
@@ -116,4 +116,4 @@ When you develop a large number of files to use as Web resources you can save yo
 ### See also  
  [Sample: Web Resource Utility](sample-web-resource-utility.md)   
  [Web Resource Messages and Methods](webresource-entity-messages-methods.md)   
- [Web Resources for Dynamics 365](web-resources.md)
+ [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)

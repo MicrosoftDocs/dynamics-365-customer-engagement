@@ -1,9 +1,9 @@
 ---
-title: "setActiveProcess (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setActiveProcess (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0d4c2d8a-a2fb-4cdd-9153-041646068992
 author: "KumarVivek"
 ms.author: "kvivek"

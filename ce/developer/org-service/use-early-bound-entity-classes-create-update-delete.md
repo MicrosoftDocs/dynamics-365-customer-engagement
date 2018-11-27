@@ -1,5 +1,5 @@
 ---
-title: "Use the early-bound entity classes for create, update, and delete (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the early-bound entity classes for create, update, and delete (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to create, update and delete an entity record using the early-bound entity classes and OrganizationServiceContext class"
 ms.custom: ""
 ms.date: 05/09/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: aa467b48-73b0-465b-a434-1fcbc49b76b6
 caps.latest.revision: 37
 author: "JimDaly"

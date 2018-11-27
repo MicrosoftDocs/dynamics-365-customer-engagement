@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete (late bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete (late bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates the create, retrieve, update, and delete operations on an account using the late bound Entity class"
 ms.custom: ""
 ms.date: 12/15/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "sample for late-bound Entity classes, creating; retrieving; updating; and deleting (late-bound Entity classes) sample"
   - "creating; retrieving; updating; and deleting (late-bound Entity classes) sample"

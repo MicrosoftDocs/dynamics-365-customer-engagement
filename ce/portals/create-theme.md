@@ -1,5 +1,5 @@
 ---
-title: "Create a theme for your portal in Dynamics 365 | MicrosoftDocs"
+title: "Create a theme for your portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create a theme for your portal quickly and easily brand these portals for your organization."
 ms.custom: 
   - dyn365-portal
@@ -73,4 +73,4 @@ Along with a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootst
 ### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  

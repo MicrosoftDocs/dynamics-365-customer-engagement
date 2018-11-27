@@ -1,6 +1,6 @@
 ---
-title: "Use LINQ to construct a query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Discusses how to use .NET Language-Integrated Query(LINQ) query provider in Dynamics 365 to construct a query"
+title: "Use LINQ to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Discusses how to use .NET Language-Integrated Query(LINQ) query provider in Dynamics 365 for Customer Engagement to construct a query"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "LINQ operators and their limitations, select clause"
   - "LINQ operators and their limitations, orderby operator"

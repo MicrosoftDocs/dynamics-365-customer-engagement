@@ -1,5 +1,5 @@
 ---
-title: "Business apps in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Business apps in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "shubhadaj"
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 caps.latest.revision: 22
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Business apps in Dynamics 365 Customer Engagement
+# Business apps in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -40,21 +40,21 @@ search.app:
 
     The Sales app also includes associated  marketing lists and campaigns, because these are used by the sales team to reach out to potential leads. Use the Marketing work area to promote your business and improve sales with targeted marketing campaigns. By default, only Sales App Access, System Administrator, and System Customizer roles have access to this app. The system administrator can assign access to other roles later. 
 
-    To get started with sales and marketing, see [Dynamics 365 for Sales - User Guide](../sales-enterprise/user-guide.md).|  
+    To get started with sales and marketing, see [Dynamics 365 for Customer Engagement for Sales - User Guide](../sales-enterprise/user-guide.md).|  
     
 - **Customer Service**.  Empowers customer service reps  to manage cases. It also allows service managers to manage important aspects of customer service, like, setting up levels and terms for the service the organization provides to their customers, or setting up rules for automatically converting conversations into cases. By default, only Customer Service App Access, System Administrator, and System Customizer roles have access to this app. The system administrator can assign access to other roles later.  
   
-   To get started with customer service, see [Dynamics 365 for Customer Service – User Guide](../customer-service/user-guide-customer-service.md).  
+   To get started with customer service, see [Dynamics 365 for Customer Engagement for Customer Service – User Guide](../customer-service/user-guide-customer-service.md).  
   
 - **Field Service**. Allows organizations to manage a field service workforce, and provides smart scheduling and resource management capabilities. It optimizes your service scheduling with efficient routing, resource skill matching, and reduced travel time. 
 
-  To get started with field service, see [Dynamics 365 for Field Service – User Guide](../field-service/user-guide.md). 
+  To get started with field service, see [Dynamics 365 for Customer Engagement for Field Service – User Guide](../field-service/user-guide.md). 
    
 - **Project Service Automation**. Helps project managers create project quotes and contracts. It also provides analytics to help project managers ensure projects are feasible and profitable.  
 
-   To get started with project service automation, see [Dynamics 365 for Project Service Automation – User Guide](../project-service/overview.md).
+   To get started with project service automation, see [Dynamics 365 for Customer Engagement for Project Service Automation – User Guide](../project-service/overview.md).
   
-  - **Dynamics 365 – custom**. This app provides access to the full suite of capabilities, namely administration, settings and the legacy sales, service and marketing functionality. 
+  - **Dynamics 365 for Customer Engagement – custom**. This app provides access to the full suite of capabilities, namely administration, settings and the legacy sales, service and marketing functionality. 
   
 ## Availability of business apps  
  Business apps are available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and with the latest release are also available in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
@@ -67,7 +67,7 @@ search.app:
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Where to find your business apps](../basics/where-find-business-apps.md)  
   
 ## Upgrading from prior versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement  
- For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
+ For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 for Customer Engagement - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
    
 ### See also  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)
+ [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)

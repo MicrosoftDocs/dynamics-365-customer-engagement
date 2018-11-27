@@ -1,5 +1,5 @@
 ---
-title: "Enable mobile offline synchronization for Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Enable mobile offline synchronization for Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 12/18/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 8.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 8.x"
 ms.assetid: 19eb9378-3eb0-4964-98d8-5c674a0c746b
 caps.latest.revision: 7
 ms.author: "mkaur"

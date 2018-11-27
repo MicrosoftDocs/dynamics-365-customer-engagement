@@ -1,5 +1,5 @@
 ---
-title: "Install the Voice of the Customer for Microsoft Dynamics 365 preferred solution | MicrosoftDocs"
+title: "Install the Voice of the Customer for Microsoft Dynamics 365 for Customer Engagement preferred solution | MicrosoftDocs"
 description: ""
 ms.assetid: 6ede301c-1061-4f13-887f-89dbde408c01
 ms.custom:
@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/install-solution
 author: sbmjais
 ms.author: shjais

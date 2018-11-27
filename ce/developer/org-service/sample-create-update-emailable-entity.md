@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create and update an emailable entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create and update an emailable entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create an entity that can be used in the To field of an email activity. It uses the CreateEntityRequest message. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a3954fc9-6b40-4b7d-ba6e-51c50e004723
 author: "JimDaly"
 ms.author: "jdaly"
@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[entities#CreateUpdateEmailableEntity](../../snippets/csharp/CRMV8/entities/cs/createupdateemailableentity.cs#createupdateemailableentity)]  
   
 ### See also  
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
  [Customize entity metadata](../customize-entity-metadata.md)   
  [Sample: Dump Entity Metadata to a File](sample-dump-entity-metadata-file.md)   
  [Create and Update an Emailable Entity](create-update-entity-emailed.md)

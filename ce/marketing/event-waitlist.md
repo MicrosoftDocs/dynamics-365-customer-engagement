@@ -1,6 +1,6 @@
 ---
-title: "Set and use waitlists for events (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Marketing"
+title: "Set and use waitlists for events (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs "
+description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Customer Engagement for Marketing"
 keywords: "events; waitlist"
 ms.date: 07/06/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: kamaybac
 ms.author: kamaybac
@@ -166,5 +166,5 @@ The following example shows a journey that has two parallel paths, one for auto-
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management in Dynamics 365 for Customer Engagement](event-management.md)  
 [Set up an event](set-up-event.md)

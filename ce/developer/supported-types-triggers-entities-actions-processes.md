@@ -1,6 +1,6 @@
 ---
-title: "Supported types, triggers, entities, and actions for processes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic provides information about the supported types and entities for processes in Dynamics 365 Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
+title: "Supported types, triggers, entities, and actions for processes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic provides information about the supported types and entities for processes in Dynamics 365 for Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b2c14b32-e7da-4f9b-b7b1-659596c456ca
 caps.latest.revision: 33
 author: "KumarVivek"
@@ -224,12 +224,12 @@ This topic provides information about the supported types and entities for proce
 |             ResolveQuote             |                                                                          <xref:Microsoft.Crm.Sdk.Messages.CloseQuoteRequest>                                                                           |
 |             ReviseQuote              |                                                                          <xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>                                                                          |
 |              SetProcess              |                                                                          <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>                                                                           |
-|           SetWordTemplate            | Custom action to create a word template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using Word templates in Dynamics 365](../admin/using-word-templates-dynamics-365.md) |
+|           SetWordTemplate            | Custom action to create a word template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using Word templates in Dynamics 365 for Customer Engagement](../admin/using-word-templates-dynamics-365.md) |
 |         UnlockInvoicePricing         |                                                                     <xref:Microsoft.Crm.Sdk.Messages.UnlockInvoicePricingRequest>                                                                      |
 |       UnlockSalesOrderPricing        |                                                                    <xref:Microsoft.Crm.Sdk.Messages.UnlockSalesOrderPricingRequest>                                                                    |
 
 ### See also  
  [Create your own actions](create-own-actions.md)   
- [Processes in Dynamics 365 (formerly Workflows)](automate-business-processes-customer-engagement.md)   
+ [Processes in Dynamics 365 for Customer Engagement (formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Custom workflow activities (workflow assemblies)](custom-workflow-activities-workflow-assemblies.md)   
  <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity>

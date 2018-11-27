@@ -1,5 +1,5 @@
 ---
-title: "Sample: Work with views (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Work with views (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to perform various actions on views. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "working with views sample"
   - "performing actions on views sample"
@@ -45,5 +45,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[WorkWithViews#WorkWithViews](../../snippets/csharp/CRMV8/workwithviews/cs/workwithviews.cs#workwithviews)]  
   
 ### See also  
- [Customize Entity Views in Microsoft Dynamics 365](customize-entity-views.md)    
+ [Customize Entity Views in Microsoft Dynamics 365 for Customer Engagement](customize-entity-views.md)    
  [SavedQuery Entity](../entities/savedquery.md)

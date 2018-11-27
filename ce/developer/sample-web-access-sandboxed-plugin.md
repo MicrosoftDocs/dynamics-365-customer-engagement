@@ -1,5 +1,5 @@
 ---
-title: "Sample: Web access from a sandboxed plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Web access from a sandboxed plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to code a plug-in that has Web (network) access and be registered in the sandbox. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 5cfa323a-1407-4651-a602-9f99e6370e5f
 caps.latest.revision: 19
 author: "JimDaly"

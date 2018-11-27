@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: f40b22d9-89fc-4b9f-a158-c7944c768d1b
 author: KumarVivek
 ms.author: kvivek
@@ -42,7 +42,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[SharePointIntegration#RetrieveAbsoluteAndSiteCollectionURLs](../../snippets/csharp/CRMV8/sharepointintegration/cs/retrieveabsoluteandsitecollectionurls.cs#retrieveabsoluteandsitecollectionurls)]  
   
 ### See also  
- [Integrate SharePoint with Microsoft Dynamics 365](integrate-sharepoint.md)   
+ [Integrate SharePoint with Microsoft Dynamics 365 for Customer Engagement](integrate-sharepoint.md)   
  [Retrieve Absolute and Site Collection URLs for a Location Record](actions-on-sharepoint-location-records.md#RetrieveUrls)   
  [Sample: CrmServiceHelper Class](../org-service/helper-code-serverconnection-class.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   

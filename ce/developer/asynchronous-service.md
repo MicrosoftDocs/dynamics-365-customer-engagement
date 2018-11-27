@@ -1,6 +1,6 @@
 ---
-title: "Asynchronous service in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn about the asynchronous service that executes long-running operations independent of the main Dynamics 365 (online) Customer Engagement core operation. The asynchronous service features a managed queue for the execution of asynchronous registered plug-ins, workflows, and operations such as bulk mail, bulk import, and campaign activity propagation."
+title: "Asynchronous service in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn about the asynchronous service that executes long-running operations independent of the main Dynamics 365 for Customer Engagement (online) Customer Engagement core operation. The asynchronous service features a managed queue for the execution of asynchronous registered plug-ins, workflows, and operations such as bulk mail, bulk import, and campaign activity propagation."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1a668103-29aa-40d1-877a-263487ba3be1
 caps.latest.revision: 23
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Asynchronous service in Dynamics 365 Customer Engagement
+# Asynchronous service in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -51,6 +51,6 @@ server other that the server running [!INCLUDE[pn_dynamics_crm](../includes/pn-d
 
  [Event Execution Pipeline](event-execution-pipeline.md)  
   
- [Processes in Dynamics 365 (formerly Workflows)](automate-business-processes-customer-engagement.md)  
+ [Processes in Dynamics 365 for Customer Engagement (formerly Workflows)](automate-business-processes-customer-engagement.md)  
   
- [Data Management in Dynamics 365](manage-data.md)
+ [Data Management in Dynamics 365 for Customer Engagement](manage-data.md)

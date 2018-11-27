@@ -1,1 +1,1 @@
-Represents data retrieved from the Microsoft Dynamics 365 application that may be passed as a parameter.
+Represents data retrieved from the Microsoft Dynamics 365 for Customer Engagement application that may be passed as a parameter.

@@ -1,5 +1,5 @@
 ---
-title: "Messages in the discovery service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Messages in the discovery service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses the messages that are used with the discovery service DiscoveryRequest) method. Some supported messages are RetrieveUserIdByExternalIdRequest, RetrieveOrganizationRequest and RetrieveOrganizationsRequest."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "discovery service web service, messages in"
   - "messages in the discovery service, about"

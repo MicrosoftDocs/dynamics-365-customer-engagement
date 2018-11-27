@@ -1,5 +1,5 @@
 ---
-title: "Forward mailbox vs. individual mailboxes for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Forward mailbox vs. individual mailboxes for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: ddd3e2d0-7b6d-463f-b413-e8e1ea371daa
 caps.latest.revision: 18
 author: "jimholtz"
@@ -39,7 +39,7 @@ By using a forward mailbox, you shift the administrative effort to the task of d
 > - To use a forward mailbox with a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment that interfaces with a POP3-compliant email system, the email system must be able to forward email messages as attachments.  
 > - For POP3 e-mail servers and Exchange Online, you cannot use the Rule Deployment Wizard. Instead, you must create the rules manually.  
   
- You can configure users and queues in different ways within the same Dynamics 365 deployment. For example, you may want to configure some user or queue mailboxes to be monitored directly on one email server, and configure others to use a forward mailbox on a different email server.  
+ You can configure users and queues in different ways within the same Dynamics 365 for Customer Engagement deployment. For example, you may want to configure some user or queue mailboxes to be monitored directly on one email server, and configure others to use a forward mailbox on a different email server.  
   
 ## Monitor a forward mailbox  
  When you use forward mailbox monitoring, incoming email messages are processed by [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] or the [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)] server and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the following sequence:  

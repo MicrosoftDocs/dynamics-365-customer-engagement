@@ -1,9 +1,9 @@
 ---
-title: "getName (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getName (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 05f2320e-f6fb-4fe1-88ee-67d57d921738
 author: "KumarVivek"
 ms.author: "kvivek"

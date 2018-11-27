@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: "jimholtz"
@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
+You can use the Dynamics 365 for Customer Engagement app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
 ## Conversation tab
 
@@ -36,10 +36,10 @@ Select the **Conversation** tab to access the bot as described above.
 
 ## My Dashboard tab
 
-Select the **My Dashboard** tab to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+Select the **My Dashboard** tab to view your Dynamics 365 for Customer Engagement dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
 > [!div class="mx-imgBorder"]
-![Dynamics 365 dashboard](media/teams-bot-dashboard.png "Dynamics 365 dashboard")
+![Dynamics 365 for Customer Engagement dashboard](media/teams-bot-dashboard.png "Dynamics 365 for Customer Engagement dashboard")
 
 ## Settings tab
 
@@ -49,7 +49,7 @@ If you have more than one organization or Unified Interface app, you can use the
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
-> - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected organization are listed. 
 

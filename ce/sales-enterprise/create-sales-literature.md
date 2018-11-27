@@ -1,6 +1,6 @@
 ---
-title: "Manage sales literature (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Stores sales-related information by using sales literature in Dynamics 365 for Sales."
+title: "Manage sales literature (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Stores sales-related information by using sales literature in Dynamics 365 for Customer Engagement for Sales."
 keywords: "sales literature"
 ms.date: 04/01/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - ""
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: cff981b0-2800-4119-ac55-4cf43a4408e6
 author: shubhadaj
 ms.author: shujoshi

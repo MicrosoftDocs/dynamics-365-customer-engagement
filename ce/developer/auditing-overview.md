@@ -1,5 +1,5 @@
 ---
-title: "Auditing overview (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Auditing overview (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Overview of the audit capabilities, supported on all custom and most customizable entities and attributes, but not supported on metadata changes, retrieve operations, export operations, or during authentication."
 ms.custom: ""
 ms.date: 03/06/2018
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c3e00bf9-d973-4cf6-9527-1c12cef8a949
 caps.latest.revision: 36
 author: "JimDaly"
@@ -84,7 +84,7 @@ Organizations often need to be in compliance with various regulations to ensure 
   Enabling or disabling of field level security by setting the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsSecured> attribute cannot be audited.  
   
 ### See also
- [Data Management in Dynamics 365](manage-data.md)   
+ [Data Management in Dynamics 365 for Customer Engagement](manage-data.md)   
  [Audit entity data changes](audit-entity-data-changes.md)   
  [Configure entities and attributes for auditing](configure-entities-attributes-auditing.md)       
  [Blog: Recover your deleted CRM data and recreate them using CRM API](http://blogs.msdn.com/b/crm/archive/2011/05/23/recover-your-deleted-crm-data-and-recreate-them-using-crm-api.aspx)

@@ -1,5 +1,5 @@
 ---
-title: "Handle exceptions in plug-ins (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Handle exceptions in plug-ins (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about handling exceptions for synchronous plug-ins, that are passed back from a plug-in by displaying an error message in a dialog of the web application user interface. The exception message for asynchronous registered plug-ins is written to a System Job (AsyncOperation) record which can be viewed in the System Jobs area of the web application."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: f4f28db1-d744-462a-9eae-544106f95cb8
 caps.latest.revision: 21
 author: "JimDaly"

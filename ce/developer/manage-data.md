@@ -1,5 +1,5 @@
 ---
-title: "Manage your data (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Manage your data (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Features that enable efficient data management, including the ability to import new data, audit data changes, detect duplicates and delete data in bulk."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "configuring and monitoring auditing"
   - "managing data in Microsoft Dynamics CRM and CRM Online, developing custom tools for"
@@ -41,28 +41,28 @@ search.app:
  Based on the provided functionality, you can develop custom data management tools.  
   
 ## In This Section  
- [Audit Entity Data Changes in Dynamics 365](audit-entity-data-changes.md)  
+ [Audit Entity Data Changes in Dynamics 365 for Customer Engagement](audit-entity-data-changes.md)  
   
- [Detect Duplicate Data in Dynamics 365](detect-duplicate-data-for-developers.md)  
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement](detect-duplicate-data-for-developers.md)  
   
- [Delete Data in Bulk in Dynamics 365](delete-data-bulk.md)  
+ [Delete Data in Bulk in Dynamics 365 for Customer Engagement](delete-data-bulk.md)  
   
- [Import Data in Dynamics 365](import-data.md)  
+ [Import Data in Dynamics 365 for Customer Engagement](import-data.md)  
   
- [Data Export service in Dynamics 365](data-export-service.md)  
+ [Data Export service in Dynamics 365 for Customer Engagement](data-export-service.md)  
   
 ## Related Sections  
  [Release history](release-history.md)  
   
- [What's new for developers: Dynamics 365](whats-new-developers.md)  
+ [What's new for developers: Dynamics 365 for Customer Engagement](whats-new-developers.md)  
   
  [Start here](get-started-sdk.md)  
   
- [Connect to Dynamics 365](connect-customer-engagement.md)  
+ [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)  
   
- [The Security Model of Dynamics 365](security-dev/security-model.md)  
+ [The Security Model of Dynamics 365 for Customer Engagement](security-dev/security-model.md)  
   
- [Extend Dynamics 365](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)  
   
  [Model your business data](model-business-data.md)  
   

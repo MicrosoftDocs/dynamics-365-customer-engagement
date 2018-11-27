@@ -1,5 +1,5 @@
 ---
-title: "Silverlight (XAP) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Silverlight (XAP) web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating and adding Silverlight 4.0 web resources to entity forms. You can display Silverlight 5.0 web resources within an HTML web resource using a hosting <object> element that is configured for that version."
 keywords: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.custom:
   - ""
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 982189a4-93a9-44ee-99e0-7b8d85318cf4
 author: JimDaly
 ms.author: jdaly
@@ -152,7 +152,7 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
   
 ### See also  
  [Create Accessible Web Resources](create-accessible-web-resources.md)   
- [Web Resources for Dynamics 365](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   

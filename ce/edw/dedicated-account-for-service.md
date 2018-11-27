@@ -1,5 +1,5 @@
 ---
-title: "We recommend a dedicated domain user account for this Microsoft Dynamics 365 service | Microsoft Docs"
+title: "We recommend a dedicated domain user account for this Microsoft Dynamics 365 for Customer Engagement service | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# We recommend a dedicated domain user account for this Microsoft Dynamics 365 service
+# We recommend a dedicated domain user account for this Microsoft Dynamics 365 for Customer Engagement service
 
 ## Cause
   

@@ -1,6 +1,6 @@
 ---
-title: "Use the early bound entity classes in code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The code generation tool (CrmSvcUtil) creates early-bound entity classes that you can use to access business data in Dynamics 365. The advantage of using early-bound entity classes is that all type references are checked at compile time"
+title: "Use the early bound entity classes in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The code generation tool (CrmSvcUtil) creates early-bound entity classes that you can use to access business data in Dynamics 365 for Customer Engagement. The advantage of using early-bound entity classes is that all type references are checked at compile time"
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 379a6a60-3b40-4f2c-a53c-ff8bf9c48a5a
 caps.latest.revision: 38
 author: "JimDaly"
@@ -1799,7 +1799,7 @@ this.OnPropertyChanged("TransactionCurrency_Team");
 ```  
   
 ### See also  
- [Extend Dynamics 365 Customer Engagement on the server](../extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 for Customer Engagement on the server](../extend-dynamics-365-server.md)   
  [Use the Organization Service Context Class](use-the-organizationservicecontext-class.md)   
  [Use the Early Bound Entity Classes for Create, Update and Delete](use-early-bound-entity-classes-create-update-delete.md)   
  [Use the early bound entity classes to associate records](use-early-bound-entity-classes-associate-records.md)   

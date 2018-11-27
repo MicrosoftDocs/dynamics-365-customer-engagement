@@ -1,6 +1,6 @@
 ---
-title: "Query hierarchical data (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Dynamics 365 (online) Customer Engagement introduces the capability to define specific self-referencing one-to-many entity relationships as hierarchical. Read how you can build queries that return data in these hierarchies"
+title: "Query hierarchical data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement (online) Customer Engagement introduces the capability to define specific self-referencing one-to-many entity relationships as hierarchical. Read how you can build queries that return data in these hierarchies"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: ed3d7166-8865-433d-b889-b0fadba25d64
 caps.latest.revision: 20
 author: "KumarVivek"

@@ -1,5 +1,5 @@
 ---
-title: "Reporting and Analytics Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Reporting and Analytics Guide (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
   - "NaosGA"
 ms.date: 09/30/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: df6a8d7a-db0d-4860-8a65-039f2ddab50d
 caps.latest.revision: 33
 author: "Mattp123"
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Reporting and Analytics Guide for Dynamics 365 Customer Engagement
+# Reporting and Analytics Guide for Dynamics 365 for Customer Engagement
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -41,17 +41,17 @@ search.app:
   
  ## [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)]  
   
- [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] is a self-service business intelligence (BI) platform used to discover, analyze, visualize data, and share or collaborate these insights with colleagues. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] provides information workers and everyday business users with excellent data analysis and visualization capabilities to get better business insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power BI with Dynamics 365](../admin/use-power-bi.md)  
+ [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] is a self-service business intelligence (BI) platform used to discover, analyze, visualize data, and share or collaborate these insights with colleagues. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] provides information workers and everyday business users with excellent data analysis and visualization capabilities to get better business insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power BI with Dynamics 365 for Customer Engagement](../admin/use-power-bi.md)  
   
  There are several ways you can use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
-- Load a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Dynamics 365 insights.  
+- Load a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Dynamics 365 for Customer Engagement insights.  
   
-- Customize a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize Dynamics 365 Power BI content packs](../analytics/customize-power-bi-content-packs.md)  
+- Customize a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize Dynamics 365 for Customer Engagement Power BI content packs](../analytics/customize-power-bi-content-packs.md)  
   
 - Use [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to modify and customize your reports and visualizations.  
   
-- Embed a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile in a Dynamics 365 personal dashboard.  
+- Embed a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile in a Dynamics 365 for Customer Engagement personal dashboard.  
   
 - Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
   

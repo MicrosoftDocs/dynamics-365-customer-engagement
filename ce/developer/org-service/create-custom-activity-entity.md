@@ -1,5 +1,5 @@
 ---
-title: "Create a custom activity entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create a custom activity entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create a custom activity entity."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: 56e37fe0-182e-4021-a0b1-b32cba93d49e

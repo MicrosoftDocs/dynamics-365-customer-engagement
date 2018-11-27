@@ -1,5 +1,5 @@
 ---
-title: "Sample: Convert queries between Fetch and QueryExpression (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Convert queries between Fetch and QueryExpression (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to convert queries between FetchXML and Query Expression"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "sample for converting queries between fetch and query expressions"
   - "converting queries between fetch and query expressions sample"

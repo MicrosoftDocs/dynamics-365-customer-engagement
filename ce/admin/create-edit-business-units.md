@@ -1,5 +1,5 @@
 ---
-title: "Create or edit business units for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create or edit business units for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/02/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "jimholtz"
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
@@ -29,7 +29,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
   
  If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization is structured around departments or divisions that have separate products, customers, and marketing lists, you might want to create business units. Business units are mapped to an organization’s departments or divisions. Users can securely access data in their own business unit, but they can’t access data in other business units.  
   
- Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365](../admin/security-concepts.md)  
+ Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)  
   
  Keep the following in mind when creating business units:  
   
@@ -55,7 +55,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
   
 4. In the **Business Unit** dialog box, type a name for the new business unit. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically fills in the **Parent Business** field with the name of the root business unit.  
   
-   ![Business Unit dialog box in Dynamics 365](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365")  
+   ![Business Unit dialog box in Dynamics 365 for Customer Engagement](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365 for Customer Engagement")  
   
 5. If you want to change the parent business unit, select the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button"), **Look Up More Records**, and then do one of the following:  
   
@@ -124,6 +124,6 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 ### See also  
- [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)   
+ [Set up a Dynamics 365 for Customer Engagement organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Delete a business unit](../admin/delete-business-unit.md)   
  [Assign a business unit a different parent business](../admin/assign-business-unit-different-parent.md)

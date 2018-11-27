@@ -1,5 +1,5 @@
 ---
-title: "Get started with SharePoint integration (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Get started with SharePoint integration (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "By using SharePoint Server document management capabilities, you can control how documents are created, reviewed, published and disposed or archived"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 00e5e847-d64c-46c8-92a2-19bcf17b9a76
 caps.latest.revision: 57
 author: "KumarVivek"
@@ -36,7 +36,7 @@ search.app:
   
 <a name="SupportedSPVersions"></a>   
 ## Software requirements for SharePoint Integration  
- For supported versions of [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration, see [SharePoint Document Management software requirements for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699758.aspx).  
+ For supported versions of [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/hh699758.aspx).  
   
 <a name="SPIntegration"></a>   
 ## Enable SharePoint integration  
@@ -60,7 +60,7 @@ search.app:
 ## Microsoft Dynamics CRM list component for Microsoft SharePoint Server  
  [!INCLUDE[pn_list_component](../../includes/pn-list-component.md)] and [!INCLUDE[pn_microsoft_sharepoint_2013](../../includes/pn-microsoft-sharepoint-2013.md)] is a [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] solution package file (.wsp) that must be installed (uploaded and activated) on the site collection on the target [!INCLUDE[pn_ms_SharePoint_long](../../includes/pn-ms-sharepoint-long.md)] 2010 or 2013 server to enable the following:  
   
-- View documents that are stored on the [!INCLUDE[pn_sharepoint_server_2010](../../includes/pn-sharepoint-server-2010.md)] server in a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] List view (look and feel of Dynamics 365).  
+- View documents that are stored on the [!INCLUDE[pn_sharepoint_server_2010](../../includes/pn-sharepoint-server-2010.md)] server in a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] List view (look and feel of Dynamics 365 for Customer Engagement).  
   
 - Automatic creation of the document locations on the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] server.  
   
@@ -75,7 +75,7 @@ search.app:
   For more information about installing the component, see [Configure SharePoint integration using the list component](https://technet.microsoft.com/library/dn894708.aspx)  
   
 ### See also  
- [Integrate SharePoint with Microsoft Dynamics 365 5](integrate-sharepoint.md)   
+ [Integrate SharePoint with Microsoft Dynamics 365 for Customer Engagement 5](integrate-sharepoint.md)   
  [Enable SharePoint Integration for Entities](enable-document-management-entities.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Define custom claim mapping for SharePoint server-based integration](define-custom-claim-mapping-sharepoint-server-based-integration.md)  

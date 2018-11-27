@@ -1,7 +1,7 @@
 ---
-title: "Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Follow the steps in this topic to move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional."
-keywords: "Dynamics 365 for Sales, Professional, Enterprise"
+title: "Move from Dynamics 365 for Customer Engagement for Sales Enterprise edition to Dynamics 365 for Customer Engagement for Sales Professional (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+description: "Follow the steps in this topic to move from Dynamics 365 for Customer Engagement for Sales Enterprise edition to Dynamics 365 for Customer Engagement for Sales Professional."
+keywords: "Dynamics 365 for Customer Engagement for Sales, Professional, Enterprise"
 ms.date: 06/22/2018
 ms.service: 
   - "dynamics-365-sales"
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 2987af09-2270-4dae-8fac-0e048d2cc08e
 author: shubhadaj
 ms.author: shujoshi
@@ -28,7 +28,7 @@ search.app:
   - D365Sales
 ---
 
-# Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional
+# Move from Dynamics 365 for Customer Engagement for Sales Enterprise edition to Dynamics 365 for Customer Engagement for Sales Professional
 
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional is targeted at businesses that have simpler sales needs and do not require the full sales capabilities. If you ever want to switch from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional, do the following:
 
@@ -41,9 +41,9 @@ search.app:
 4.	Delete the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise edition solution.
 
 
-## Purchase Dynamics 365 for Sales Professional subscription
+## Purchase Dynamics 365 for Customer Engagement for Sales Professional subscription
 
-1.  Sign in to Office 365 at portal.office.com with the Dynamics 365 account that has admin permissions.
+1.  Sign in to Office 365 at portal.office.com with the Dynamics 365 for Customer Engagement account that has admin permissions.
 
 2.  Select **Billing** > **Subscriptions**.
 
@@ -69,34 +69,34 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
-4.	Turn on the license for your Dynamics 365 plan. 
+4.	Turn on the license for your Dynamics 365 for Customer Engagement plan. 
 
 5.	Select **Replace**, and then select **Close** twice. 
 
 6.	Review the license status on the **Active users** page and make other assignments as needed. 
 
-## Install Dynamics 365 for Sales Professional solution
+## Install Dynamics 365 for Customer Engagement for Sales Professional solution
 
-1.	In the Office 365 admin center, select **Admin Centers** > **Dynamics 365**.
+1.	In the Office 365 admin center, select **Admin Centers** > **Dynamics 365 for Customer Engagement**.
 
-    ![Dynamics 365 admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 admin center in Office 365 nav bar")
+    ![Dynamics 365 for Customer Engagement admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 for Customer Engagement admin center in Office 365 nav bar")
     
-    The **Dynamics 365 Administration Center** opens.
+    The **Dynamics 365 for Customer Engagement Administration Center** opens.
 
 2.	On the **Instances** tab, select your production instance, and on the product instance tile, select the **Manage your solutions** ![Manage your solutions](media/manage-your-solutions.png "Manage your solutions") icon.
 
     ![Production instance on the Instances tab](media/production-instance-on-instances-tab.png "Production instance on the Instances tab")
 
-3.	On the **Manage your solutions** page, select **Dynamics 365 for Sales Pro Application**, and on the tile, select **Install**.
+3.	On the **Manage your solutions** page, select **Dynamics 365 for Customer Engagement for Sales Pro Application**, and on the tile, select **Install**.
 
 After you complete these steps, your organization will be effectively moved to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional.
 
 
-## Delete the Dynamics 365 for Sales Enterprise solution
+## Delete the Dynamics 365 for Customer Engagement for Sales Enterprise solution
 
 1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2.	Sign in to Dynamics 365. 
+2.	Sign in to Dynamics 365 for Customer Engagement. 
 
 3.	Select **Settings** > **Solutions**. 
 
@@ -109,7 +109,7 @@ After you complete these steps, your organization will be effectively moved to [
 
 > [!IMPORTANT]
 
-> As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
+> As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 for Customer Engagement Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
 
 

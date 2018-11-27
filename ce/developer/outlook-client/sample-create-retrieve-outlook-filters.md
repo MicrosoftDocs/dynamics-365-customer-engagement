@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 72fd6888-2e5d-47a2-a1d3-f391e4d9f086
 caps.latest.revision: 21
 author: "JimDaly"
@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[Outlook#RetrieveDataFilters1](../../snippets/csharp/CRMV8/outlook/cs/retrievedatafilters1.cs#retrievedatafilters1)]  
   
 ### See also  
- [Extend Dynamics 365 for Outlook](../extend-customer-engagement-outlook.md)   
+ [Extend Dynamics 365 for Customer Engagement for Outlook](../extend-customer-engagement-outlook.md)   
  [Sample: Use Outlook Methods](sample-outlook-methods.md)   
  [Offline and Outlook Filters and Templates](offline-outlook-filters-templates.md)   
  [SavedQuery Entity](../entities/savedquery.md)   

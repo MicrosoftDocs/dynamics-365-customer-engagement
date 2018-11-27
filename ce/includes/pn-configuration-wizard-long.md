@@ -1,1 +1,1 @@
-Dynamics 365 Configuration Wizard
+Dynamics 365 for Customer Engagement Configuration Wizard

@@ -1,11 +1,11 @@
 ---
-title: "Workflow Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Workflow Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Workflow entity."
 ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
@@ -1057,7 +1057,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether the process was created using the Microsoft Dynamics 365 Web application.|
+|Description|Indicates whether the process was created using the Microsoft Dynamics 365 for Customer Engagement Web application.|
 |DisplayName|Is CRM Process|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1965,6 +1965,6 @@ See systemuser Entity [workflow_modifiedonbehalfby](systemuser.md#BKMK_workflow_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.workflow?text=workflow EntityType" />

@@ -1,6 +1,6 @@
 ---
-title: "Offline and Outlook filters and templates (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Data that should be synchronized between the Dynamics 365 Customer Engagement server and Dynamics 365 for Outlook is determined by Data Filters for Office Outlook"
+title: "Offline and Outlook filters and templates (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Data that should be synchronized between the Dynamics 365 for Customer Engagement server and Dynamics 365 for Customer Engagement for Outlook is determined by Data Filters for Office Outlook"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3711daa2-27e8-494a-8e3b-52ba7c12022e
 caps.latest.revision: 28
 author: "JimDaly"
@@ -60,7 +60,7 @@ Data filters for [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full
  You can reset the filters for a user to the default by using the <xref:Microsoft.Crm.Sdk.Messages.ResetUserFiltersRequest>.  
 
 ### See also  
- [Extend Dynamics 365 Customer Engagement for Outlook](../extend-customer-engagement-outlook.md)   
+ [Extend Dynamics 365 for Customer Engagement for Outlook](../extend-customer-engagement-outlook.md)   
  [SavedQuery Entity Reference](../entities/savedquery.md)   
  [Sample: Retrieve Outlook Filters](sample-create-retrieve-outlook-filters.md)    
  <xref:Microsoft.Crm.Sdk.Messages.InstantiateFiltersRequest>   

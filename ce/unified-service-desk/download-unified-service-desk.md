@@ -1,5 +1,5 @@
 ---
-title: "Download Unified Service Desk for Dynamics 365 | MicrosoftDocs"
+title: "Download Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
 keywords: ""
 ms.date: 08/17/2018
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-USD"
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"

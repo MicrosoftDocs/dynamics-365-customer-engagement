@@ -1,5 +1,5 @@
 ---
-title: "Email engagement for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Email engagement for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag
@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Use email engagement to view message interactions
 
-Applies to Dynamics 365 (online), version 9.1.0 <br>
+Applies to Dynamics 365 for Customer Engagement (online), version 9.1.0 <br>
 
  Email engagement is part of the new *Embedded intelligence* suite of features. 
  Email engagement lets you:  
@@ -74,7 +74,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
 ## Create and send followed email message  
   
 > [!NOTE]
->  This section describes how to work with email engagement features in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 App for Outlook User's Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).  
+>  This section describes how to work with email engagement features in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 for Customer Engagement App for Outlook User's Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).  
   
  When email engagement is enabled for your site, all of the controls required to create and send an email with some or all of its  features enabled are available on the **New Email** page, as shown in the following figure. This page is shown whenever you create an email in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

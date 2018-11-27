@@ -1,9 +1,9 @@
 ---
-title: "addOnResultOpened (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "addOnResultOpened (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 5f0eabe1-985a-4e89-b23a-72657208ae7e
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -1,1 +1,1 @@
-Integration with Glympse for Dynamics 365
+Integration with Glympse for Dynamics 365 for Customer Engagement

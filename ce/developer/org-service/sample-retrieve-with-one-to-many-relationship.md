@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve with one-to-many relationship (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Retrieve with one-to-many relationship (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The following sample shows how to use the QueryBase) method to return the 1:N related entities of an entity along with the primary entity"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 48e437ea-6733-44cb-acf1-2e8b20fd6506
 caps.latest.revision: 15
 author: "KumarVivek"

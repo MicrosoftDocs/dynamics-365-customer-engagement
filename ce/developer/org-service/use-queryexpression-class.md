@@ -1,6 +1,6 @@
 ---
-title: "Use the QueryExpression class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "In Dynamics 365 (online) Customer Engagement, you can use the QueryExpression class to build complex queries for use with the IOrganizationService.QueryBase) method or the RetrieveMultipleRequest message"
+title: "Use the QueryExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "In Dynamics 365 for Customer Engagement (online) Customer Engagement, you can use the QueryExpression class to build complex queries for use with the IOrganizationService.QueryBase) method or the RetrieveMultipleRequest message"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "building queries by using QueryExpression, QueryExpression class"
   - "QueryExpression class, building complex queries"

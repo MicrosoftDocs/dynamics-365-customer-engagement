@@ -1,1 +1,1 @@
-Resource Scheduling Optimization for Microsoft Dynamics 365
+Resource Scheduling Optimization for Microsoft Dynamics 365 for Customer Engagement

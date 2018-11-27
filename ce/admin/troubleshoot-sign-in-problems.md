@@ -1,5 +1,5 @@
 ---
-title: "Troubleshoot Dynamics 365 Customer Engagement sign-in problems | MicrosoftDocs"
+title: "Troubleshoot Dynamics 365 for Customer Engagement sign-in problems | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 09/30/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: a78c5ad7-ad71-48af-b498-b121ee327851
 caps.latest.revision: 60
 author: "jimholtz"
@@ -36,7 +36,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
 ### If you’re an administrator  
  If you forget your administrator password, you can reset it by going to the [sign-in page](https://portal.office.com), and choosing **Can’t access your account?** at the bottom of the page.  
   
- ![Reset your Dynamics 365 Online password](../admin/media/reset-crm-online-password.png "Reset your Dynamics 365 Online password")  
+ ![Reset your Dynamics 365 for Customer Engagement Online password](../admin/media/reset-crm-online-password.png "Reset your Dynamics 365 for Customer Engagement Online password")  
   
 > [!TIP]
 >  To enable your users to be able to reset their passwords themselves, you’ll need to purchase an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] subscription and configure it for password self-service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Self-service password reset in Azure AD: how to enable, configure, and test self-service password reset](https://msdn.microsoft.com/library/azure/dn683881.aspx)  
@@ -44,7 +44,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
  To reset user passwords, you use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Reset a user's password](https://support.office.com/article/Reset-a-users-password-7a5d073b-7fae-4aa5-8f96-9ecd041aba9c)  
   
 ### If you’re not an administrator  
- If you’re not an administrator, and you forgot your password, you’ll need to contact your administrator and ask for a password reset. Once your administrator resets your password, you’ll receive an email with instructions on how to sign in and enter a new password. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
+ If you’re not an administrator, and you forgot your password, you’ll need to contact your administrator and ask for a password reset. Once your administrator resets your password, you’ll receive an email with instructions on how to sign in and enter a new password. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
   
 ## Signing in  
   
@@ -54,30 +54,30 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
   
  ![Office 365 welcome page](../admin/media/office-365-welcome-page.png "Office 365 welcome page")  
   
- Click the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tile to go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page. See [For admins and end users: Select a Dynamics 365 app from the new app switcher](quickly-navigate-office-365-app-launcher.md).
+ Click the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tile to go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page. See [For admins and end users: Select a Dynamics 365 for Customer Engagement app from the new app switcher](quickly-navigate-office-365-app-launcher.md).
 
  If you're a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, you'll see an **Admin** tile. Click this tile to get to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], where you can see your service health, manage users, manage licenses, and more for all the online services associated with your account.  
   
  ![Admin tile on the Office 365 welcome page](../admin/media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
   
- From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365**.  
+ From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
   
- ![Dynamics 365 option in the Admin center drop-down list](../admin/media/dynamics-365-option-admin-center.png "Dynamics 365 option in the Admin center drop-down list")  
+ ![Dynamics 365 for Customer Engagement option in the Admin center drop-down list](../admin/media/dynamics-365-option-admin-center.png "Dynamics 365 for Customer Engagement option in the Admin center drop-down list")  
   
- For other ways to access Dynamics and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps, see [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md).
+ For other ways to access Dynamics and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps, see [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement home page](quickly-navigate-office-365-app-launcher.md).
  
   
 <a name="BKMK_DirectHomePage"></a>   
-### For admins and end users: Sign in to the Dynamics 365 home page  
+### For admins and end users: Sign in to the Dynamics 365 for Customer Engagement home page  
  We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
   
- For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
+ For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 for Customer Engagement home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
 ### If you’re an end user  
  You can sign in directly to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can also sign in at https:/portal.office.com.  
   
-#### Sign in directly to Dynamics 365 (online)  
- Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator provides the direct [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
+#### Sign in directly to Dynamics 365 for Customer Engagement (online)  
+ Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator provides the direct [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
   
 > [!NOTE]
 >  If you’re in a region other than North America, substitute “*crm*” in the URL with:  

@@ -1,5 +1,5 @@
 ---
-title: "Fiscal date and older than datetime query operators in FetchXML (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Fiscal date and older than datetime query operators in FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to use FetchXML fiscal data conditional operators and &quot;older than&quot; clauses for date and time values"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 4ab6e60c-161e-468f-b89c-cc3bd243b3df
 caps.latest.revision: 33
 author: "KumarVivek"

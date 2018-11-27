@@ -1,9 +1,9 @@
 ---
-title: "Save event arguments (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Save event arguments (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: dff20ae0-c9ec-4413-9cd1-0ff77639ad91
 author: "KumarVivek"
 ms.author: "kvivek"

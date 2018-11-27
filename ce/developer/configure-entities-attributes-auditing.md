@@ -1,5 +1,5 @@
 ---
-title: "Configure entities and attributes for auditing (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Configure entities and attributes for auditing (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Explains configuration requirements to enable and disable auditing of entities and their attributes."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "enabling and disabling auditing, how to"
   - "configuring entities and attributes for auditing, required security roles for enabling or disabling auditing"
@@ -94,8 +94,8 @@ There are three levels where auditing can be configured: organization, entity, a
 |WorkflowLog|  
   
 ### See also  
- [Data Management in Dynamics 365](manage-data.md)   
+ [Data Management in Dynamics 365 for Customer Engagement](manage-data.md)   
  [Audit entity data changes](audit-entity-data-changes.md)   
  [Retrieve and delete the history of audited data changes](retrieve-and-delete-the-history-of-audited-data-changes.md)   
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)   
- [Auditing Data Changes in Dynamics 365](audit-entity-data-changes.md)
+ [Auditing Data Changes in Dynamics 365 for Customer Engagement](audit-entity-data-changes.md)

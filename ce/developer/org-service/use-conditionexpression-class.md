@@ -1,5 +1,5 @@
 ---
-title: "Use the ConditionExpression class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the ConditionExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the ConditionExpression class to compare an attribute to a value or set of values by using an operator, such as “equal to” or “greater than”"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "using the ConditionExpression class"
   - "comparing attributes to a value or set of values by using operators, ConditionExpression class"

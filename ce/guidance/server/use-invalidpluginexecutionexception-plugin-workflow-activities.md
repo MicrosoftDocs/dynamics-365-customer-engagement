@@ -1,11 +1,11 @@
 ---
 title: "Use InvalidPluginExecutionException in plug-ins and workflow activities | MicrosoftDocs"
-description: "Use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 Customer Engagement plug-in and workflow activity."
+description: "Use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 for Customer Engagement plug-in and workflow activity."
 ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 7d73262e-9a81-4062-a2f8-c1ddf2773c54
 author: "mhuguet"
 ms.author: "michu"

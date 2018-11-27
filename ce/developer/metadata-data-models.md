@@ -1,6 +1,6 @@
 ---
-title: "Metadata and data models (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Dynamics 365 Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Customer Engagement server or client applications."
+title: "Metadata and data models (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Customer Engagement server or client applications."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 89780be5-e5f7-4fa8-9565-3442eda5708d
 author: "JimDaly"
 ms.author: "jdaly"
@@ -47,18 +47,18 @@ search.app:
 |     Option      |                                                                                                  An option is one of the values available in an option set. Each option in an option set has a unique integer value and an associated set of localized labels.                                                                                                   |
 
 ### See also  
- [Extend Dynamics 365](extend-dynamics-365-server.md)   
- [Supported Extensions for Dynamics 365](supported-extensions.md)   
+ [Extend Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)   
+ [Supported Extensions for Dynamics 365 for Customer Engagement](supported-extensions.md)   
  [Browse the Metadata for Your Organization](browse-your-metadata.md)  
  [Customize entity attribute metadata](customize-entity-attribute-metadata.md)  
  [Create auto-number attributes](create-auto-number-attributes.md)  
  [Customize entity relationship metadata](customize-entity-relationship-metadata.md)  
  [Use the Web API with metadata](webapi/use-web-api-metadata.md)   
- [Use the Organization service with Dynamics 365 metadata](org-service/use-organization-service-metadata.md)   
- [Extend Dynamics 365 on the server](extend-dynamics-365-server.md)   
- [Extend Dynamics 365 on the client](extend-client.md)   
- [Customize Dynamics 365 applications](customize-dev/customize-applications.md)   
+ [Use the Organization service with Dynamics 365 for Customer Engagement metadata](org-service/use-organization-service-metadata.md)   
+ [Extend Dynamics 365 for Customer Engagement on the server](extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)   
+ [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)   
- [Extend Dynamics 365 for Outlook](extend-customer-engagement-outlook.md)   
- [Integrate Dynamics 365 with SharePoint](integrate-sharepoint.md)   
- [Integrate Dynamics 365 with OneNote](integration-dev/integrate-onenote.md)
+ [Extend Dynamics 365 for Customer Engagement for Outlook](extend-customer-engagement-outlook.md)   
+ [Integrate Dynamics 365 for Customer Engagement with SharePoint](integrate-sharepoint.md)   
+ [Integrate Dynamics 365 for Customer Engagement with OneNote](integration-dev/integrate-onenote.md)

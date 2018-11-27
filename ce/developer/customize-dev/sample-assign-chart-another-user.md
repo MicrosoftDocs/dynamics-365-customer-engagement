@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0225d979-0e34-44b5-814c-a5dcb14d6fd9
 author: JimDaly
 ms.author: jdaly

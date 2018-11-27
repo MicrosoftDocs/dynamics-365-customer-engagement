@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b9ad59fa-4778-4f79-9b24-94c320a33bde
 caps.latest.revision: 20
 author: "JimDaly"
@@ -31,7 +31,7 @@ You can define and apply visual themes for an organization. This provides a supp
   
  Theme customization is supported in this release only for the web application. The changes made for an organization's theme are not included in solutions exported from the organization. You can define multiple themes, but only one can be set and published as the default theme.  
   
- Video: [Theming in Microsoft Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=529568)  
+ Video: [Theming in Microsoft Dynamics 365 for Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkId=529568)  
   
 <a name="BKMK_QueryTheme"></a>
 
@@ -99,7 +99,7 @@ OData-Version: 4.0
 |ImportSequenceNumber|Integer|null|Sequence number of the import that created this record.|
 |IsDefaultTheme|Boolean|True|The default value for a custom theme is false.|
 |LogoId|String|null|The name of a web resource to use as a logo. Recommended dimensions are a height of 50 pixels and a maximum width of 400 pixels.|  
-|LogoToolTip|String|Microsoft Dynamics 365|The text that will be used as the tooltip and alt text for the logo.| 
+|LogoToolTip|String|Microsoft Dynamics 365 for Customer Engagement|The text that will be used as the tooltip and alt text for the logo.| 
 |MainColor|String|#3B79B7|The Unified Interface primary theme color to be used on main command bar, buttons and tabs.| 
 |Name|String|CRM Default Theme|The name of the Theme entity.|  
 |NavBarBackgroundColor|String|#002050|The primary navigation bar color.|  
@@ -123,4 +123,4 @@ OData-Version: 4.0
 
  [Theme Entity](../entities/theme.md)   
  [Create a theme](../../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
- [Developers guide to customization for Microsoft Dynamics 365](customize-applications.md)
+ [Developers guide to customization for Microsoft Dynamics 365 for Customer Engagement](customize-applications.md)

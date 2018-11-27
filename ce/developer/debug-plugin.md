@@ -1,5 +1,5 @@
 ---
-title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Debug a plug-In (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about debuggin a plug-in by logging and tracing."
 keywords: ""
 ms.date: 01/19/2018
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b4bbe405-a56f-450b-acd9-0c063cf35990
 author: JimDaly
 ms.author: jdaly

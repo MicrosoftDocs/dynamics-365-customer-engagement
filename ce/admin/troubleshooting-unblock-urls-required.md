@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting: Unblock URLs required for Dynamics 365 (online) | MicrosoftDocs"
+title: "Troubleshooting: Unblock URLs required for Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: f2c4534a-2185-4404-b31a-8c61a9873285
 caps.latest.revision: 7
 author: "jimholtz"
@@ -38,13 +38,13 @@ You can unblock these URLs on your computer by adding them to a list of approved
 > [!IMPORTANT]
 >  If the following procedure doesn’t unblock the URLs required for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], ask your system administrator to unblock the URLs on the organization’s network.  
    
-### Unblock Dynamics 365 URLs in Internet Explorer  
+### Unblock Dynamics 365 for Customer Engagement URLs in Internet Explorer  
   
 1.  On the Explorer bar, click or tap the **Tools** icon (the white gear shape), and then click or tap **Internet options**.  
   
 2.  Click or tap the **Security** tab > **Trusted sites** > **Sites**.  
   
-3.  In **Add this website to the zone**, type the URL for your Dynamics 365 (online) organization. For example, https://contoso.crm.dynamics.com  
+3.  In **Add this website to the zone**, type the URL for your Dynamics 365 for Customer Engagement (online) organization. For example, https://contoso.crm.dynamics.com  
   
 4.  Click or tap **Add** > **Close** > **OK**.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Error logging for server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Error logging for server-side synchronization for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 02206239-11d5-44fa-b634-05ce5fda352f
 caps.latest.revision: 21
 author: "jimholtz"

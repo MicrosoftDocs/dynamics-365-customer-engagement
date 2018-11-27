@@ -9,7 +9,7 @@ ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Project Service 3.x
+ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
 ms.author: john.burrows
 audience: Admin
 search.audienceType: 

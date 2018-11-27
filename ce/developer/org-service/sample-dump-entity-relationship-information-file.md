@@ -1,5 +1,5 @@
 ---
-title: "Sample: Dump entity relationship information to a file (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Dump entity relationship information to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write out all the entity relationship metadata to an XML file. It uses the RetrieveAllEntitiesRequest message. "
 keywords: ""
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 41d4f199-7004-4458-a39a-5f9025550932
 author: JimDaly
 ms.author: jdaly
@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
 ### See also  
  [Customize Entity Relationship Metadata](../customize-entity-relationship-metadata.md)   
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesResponse>

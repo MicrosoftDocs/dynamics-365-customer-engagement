@@ -1,6 +1,6 @@
 ---
-title: "Work with images and other files (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
+title: "Work with images and other files (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "image, file, keyword"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3
 author: kamaybac
 ms.author: kamaybac

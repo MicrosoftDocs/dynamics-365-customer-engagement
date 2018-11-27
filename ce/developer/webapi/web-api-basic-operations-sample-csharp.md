@@ -1,6 +1,6 @@
 ---
-title: "Web API Basic Operations Sample (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 entity instances, using the Dynamics 365 Customer Engagement Web API"
+title: "Web API Basic Operations Sample (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 for Customer Engagement entity instances, using the Dynamics 365 for Customer Engagement Web API"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 45cdefe5-0776-496a-9b06-b5cad768e543
 caps.latest.revision: 20
 author: "JimDaly"
@@ -23,14 +23,14 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 entity instances, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
+This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 for Customer Engagement entity instances, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
 
 > [!NOTE]
->  This sample implements the Dynamics 365 operations and console output detailed in [Web API Basic Operations Sample](web-api-basic-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
+>  This sample implements the Dynamics 365 for Customer Engagement operations and console output detailed in [Web API Basic Operations Sample](web-api-basic-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_prerequisites"></a>   
 ## Prerequisites  
- Prerequisites for all Dynamics 365 Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
+ Prerequisites for all Dynamics 365 for Customer Engagement Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_runSample"></a>   
 ## Run this sample  
@@ -40,15 +40,15 @@ This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, an
 |                                             File                                             |                                                                                                    Purpose/Description                                                                                                    |
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                          Program.cs                                          |                                                                                     Contains the primary source code for this sample.                                                                                     |
-|                                          App.config                                          |                                                        The application configuration file, which contains placeholder Dynamics 365 server connection information.                                                         |
-|                  Authentication.cs<br />Configuration.cs<br />Exceptions.cs                  | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+|                                          App.config                                          |                                                        The application configuration file, which contains placeholder Dynamics 365 for Customer Engagement server connection information.                                                         |
+|                  Authentication.cs<br />Configuration.cs<br />Exceptions.cs                  | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
 | BasicOperations.sln <br />BasicOperations.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
 
  Next, use the following procedure to run this sample.  
 
 1. Locate and double-click on the solution file, BasicOperations.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **BasicOperations** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
 
-2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 for Customer Engagement server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
 
 3. Run the **BasicOperations** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
 
@@ -340,7 +340,7 @@ namespace Microsoft.Crm.Sdk.Samples
     contactAlt.RemoveAll();  
     contactAlt["annualincome"] = 95000;  
     contactAlt["jobtitle"] = "Senior Developer";  
-    contactAlt["description"] = "MS Azure and Dynamics 365 Specialist";  
+    contactAlt["description"] = "MS Azure and Dynamics 365 for Customer Engagement Specialist";  
 
     queryOptions = "?$select=fullname,annualincome,jobtitle";  
     HttpRequestMessage updateRequestAlt = new HttpRequestMessage(  
@@ -879,7 +879,7 @@ namespace Microsoft.Crm.Sdk.Samples
 ```  
 
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   
  [Update and delete entities using the Web API](update-delete-entities-using-web-api.md)   
  [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md)   

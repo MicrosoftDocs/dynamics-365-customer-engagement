@@ -1,13 +1,13 @@
 ---
-title: "Use variable tags for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use variable tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about variable tags available in portal"
 keywords: "variable tags; liquid tags"
 ms.date: 05/04/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 59FD4F2D-8F26-4B9D-818F-E37C10156396
 author: sbmjais
 ms.author: shjais
@@ -82,4 +82,4 @@ Hello, DAVE BOWMAN.
 [Control flow tags](control-flow-tags.md)<br>
 [Iteration tags](iteration-tags.md)<br>
 [Template tags](template-tags.md)<br>
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)

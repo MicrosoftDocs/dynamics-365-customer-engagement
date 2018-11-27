@@ -1,9 +1,9 @@
 ---
-title: Moving around Unified Interface-enabled apps in Dynamics 365 Customer Engagement using a screen reader| Microsoft Docs
+title: Moving around Unified Interface-enabled apps in Dynamics 365 for Customer Engagement using a screen reader| Microsoft Docs
 description: 
 keywords: 
 author: ReneeW-CPub
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: renwe
 manager: renwe
 ms.date: 05/30/2018
@@ -17,11 +17,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use a screen reader in Unified Interface apps in Dynamics 365 Customer Engagement
+# Use a screen reader in Unified Interface apps in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
+Screen readers make Dynamics 365 for Customer Engagement applications accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
@@ -32,22 +32,22 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 > 
 > Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 
-## Basic tasks using a screen reader with Dynamics 365
+## Basic tasks using a screen reader with Dynamics 365 for Customer Engagement
 
 ### Open a Unified Interface-based app
-Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](../admin/about-unified-interface.md).
+Although you can use a screen reader anywhere in Dynamics 365 for Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 for Customer Engagement, visit [About Unified Interface in Dynamics 365 for Customer Engagement](../admin/about-unified-interface.md).
 
 
-Use the [app switcher](../basics/where-find-business-apps.md#apps-you-might-see-in-the-app-switcher) in Dynamics 365 to open a Unified Interface app.
+Use the [app switcher](../basics/where-find-business-apps.md#apps-you-might-see-in-the-app-switcher) in Dynamics 365 for Customer Engagement to open a Unified Interface app.
 
-1.  On the navigation bar, use the **Tab** key to move to the Dynamics 365 drop-down control and press **Enter** to open the site map.
+1.  On the navigation bar, use the **Tab** key to move to the Dynamics 365 for Customer Engagement drop-down control and press **Enter** to open the site map.
 2.  Press the **Tab** key until you hear the name of the application you want to open—for example, “Sales Hub.” Press **Enter** to open the app.
 
 ### Use scan mode in Narrator
-You can use scan mode to quickly navigate Dynamics 365 apps using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls, and tables in this mode. Turn scan mode on and off by pressing **Caps lock+Spacebar**. More information: [Using scan mode](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode).
+You can use scan mode to quickly navigate Dynamics 365 for Customer Engagement apps using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls, and tables in this mode. Turn scan mode on and off by pressing **Caps lock+Spacebar**. More information: [Using scan mode](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode).
 
 ### Find your way around the Unified Interface apps
-We have made Dynamics 365 Customer Engagement apps that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
+We have made Dynamics 365 for Customer Engagement apps that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
 
 #### Navigation bar
 When you open a Unified Interface app, a vertical bar with subarea icons is displayed at the left side of the application. You can either use the **Tab** key to move through these icons until you hear the name of the subarea you want, such as “Opportunities,” or you can use the site map control. For example, press the **Tab** key until you hear “Accounts” and then press **Enter** to open the Accounts view.

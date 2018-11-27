@@ -1,5 +1,5 @@
 ---
-title: "Customize labels to support multiple languages (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize labels to support multiple languages (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about customizing labels to support multiple languages."
 ms.custom: ""
 ms.date: 11/03/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "customizing labels to support multiple languages, messages to use with labels (list of)"
   - "translating customized entity and attribute text, customizing labels to support multiple languages"
@@ -133,8 +133,8 @@ When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dyna
 |RetrieveProvisionedLanguagePackVersion</br>Retrieves the version of the language packs installed on the server.|<xref href="Microsoft.Dynamics.CRM.RetrieveProvisionedLanguagePackVersion?text=RetrieveProvisionedLanguagePackVersion Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProvisionedLanguagePackVersionRequest>|  
 
 ### See also  
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
- [Customize Dynamics 365](customize-dev/customize-applications.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](org-service/use-organization-service-metadata.md)   
+ [Customize Dynamics 365 for Customer Engagement](customize-dev/customize-applications.md)   
  [Modify Messages for an Entity](modify-messages-entity.md)     
  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>   
  <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>    

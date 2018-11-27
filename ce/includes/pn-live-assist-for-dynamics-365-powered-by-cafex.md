@@ -1,1 +1,1 @@
-Live Assist for Microsoft Dynamics 365 Powered by CaféX
+Live Assist for Microsoft Dynamics 365 for Customer Engagement Powered by CaféX

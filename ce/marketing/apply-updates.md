@@ -1,6 +1,6 @@
 ---
-title: "Find and apply updates to core and shared solutions (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to find out when an update for one or more Dynamics 365 for Marketing solutions are available and then apply the updates"
+title: "Find and apply updates to core and shared solutions (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "How to find out when an update for one or more Dynamics 365 for Customer Engagement for Marketing solutions are available and then apply the updates"
 keywords: "update;solutions;administration;instances"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: bbe53dc0-8d10-15f0-b970-8f6f252da6e4
 author: kamaybac
 ms.author: kamaybac
@@ -61,16 +61,16 @@ To find out when an update is available, regularly check the status of your apps
 
 To find and apply available updates to all core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions, including the [!INCLUDE[pn-linkedin-solution-shortest](../includes/pn-linkedin-solution-shortest.md)]:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+1. [Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md).
 
 2. Select the **Applications** tab to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be updated) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+    The list shows a row marked **Dynamics 365 for Customer Engagement Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be updated) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
 
 3. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to update and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
 
-4. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to update. Make sure you have chosen the right one. Look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization and you can just quit the wizard.  
+4. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 for Customer Engagement instance you are about to update. Make sure you have chosen the right one. Look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization and you can just quit the wizard.  
     ![Select the Update packages button](media/update-fre-update-packages-button.png "Select the Update packages button")
 
 5. If the **Update packages** button is shown, then select it to start the update. The update starts right away, and a page opens to track the progress of the update and will tell you when it's finished.
@@ -86,7 +86,7 @@ To find and apply available updates to all core [!INCLUDE[pn-marketing-app-modul
 
 To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) solutions, including [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] and [!INCLUDE[pn-portals](../includes/pn-portals.md)]:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
+1. [Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
 
 2. If you have more than one [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance, then each of them is listed here. Select the instance where you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed.
@@ -107,6 +107,6 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
 
 ### See also
 
-[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
+[Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md)  
 [Manage Marketing instances](manage-marketing-instances.md)  
 [Uninstall Marketing](uninstall-marketing.md)

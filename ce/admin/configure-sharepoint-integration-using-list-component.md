@@ -1,5 +1,5 @@
 ---
-title: "Configure SharePoint integration using the list component for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Configure SharePoint integration using the list component for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 5f3ab396-4252-4990-96f3-762be6a8a947
 caps.latest.revision: 17
 author: "Mattp123"
@@ -30,10 +30,10 @@ If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sh
 > [!WARNING]
 > [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] has removed code-based sandbox solutions. Notice that the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is a sandboxed solution that requires a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sandbox environment.  
 > 
-> - If you're integrating [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for the first time, use server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)  
+> - If you're integrating [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for the first time, use server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
 > - If you currently use the list component, we strongly recommend that you switch to server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)  
   
-1. Make sure that you meet the requirements to use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] documentation management feature with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. For more information, see [SharePoint Document Management software requirements for Microsoft Dynamics 365](../admin/sharepoint-document-management-software-requirements.md).  
+1. Make sure that you meet the requirements to use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] documentation management feature with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. For more information, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 for Customer Engagement](../admin/sharepoint-document-management-software-requirements.md).  
   
 2. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
@@ -46,7 +46,7 @@ If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sh
 3. Install the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] server.  
   
    > [!IMPORTANT]
-   >  The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is not required when you use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. For more information, see [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md) .  
+   >  The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is not required when you use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. For more information, see [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md) .  
   
    [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)] On the command bar, click **Install List Component** and follow the instructions here.  
   
@@ -80,7 +80,7 @@ If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sh
        > [!NOTE]
        >  If you can’t activate this solution, see [Allow HTC files in SharePoint 2013](../admin/configure-sharepoint-integration-using-list-component.md#BKMK_allowHTC).  
   
-4. For detailed document management configuration steps, see [Set up Dynamics 365 (online) to use SharePoint Online](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md).  
+4. For detailed document management configuration steps, see [Set up Dynamics 365 for Customer Engagement (online) to use SharePoint Online](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md).  
   
 <a name="BKMK_allowHTC"></a>   
 ## Allow HTC files in SharePoint 2013  
@@ -96,5 +96,5 @@ If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sh
   
 ### See also  
  [Download: Microsoft Dynamics CRM 2016 List Component for Microsoft SharePoint](http://go.microsoft.com/fwlink/p/?LinkId=627384)   
- [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md)   
+ [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md)   
  [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)

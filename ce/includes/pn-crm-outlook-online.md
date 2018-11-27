@@ -1,1 +1,1 @@
-Dynamics 365 for Outlook Online
+Dynamics 365 for Customer Engagement for Outlook Online

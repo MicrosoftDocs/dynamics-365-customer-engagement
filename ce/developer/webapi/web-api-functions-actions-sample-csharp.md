@@ -1,6 +1,6 @@
 ---
-title: "Web API Functions and Actions Sample (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and C#"
+title: "Web API Functions and Actions Sample (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API and C#"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b14a8bff-bf05-412c-89f6-ba7b503dcb51
 caps.latest.revision: 13
 author: "JimDaly"
@@ -32,7 +32,7 @@ This sample demonstrates how to call bound and unbound functions and actions, in
 
 ## Prerequisites
 
- Prerequisites for all Dynamics 365 Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
+ Prerequisites for all Dynamics 365 for Customer Engagement Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_runSample"></a>
 
@@ -44,8 +44,8 @@ This sample demonstrates how to call bound and unbound functions and actions, in
 |                                                 File                                                 |                                                                                                    Purpose/Description                                                                                                    |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                              Program.cs                                              |                                                                                     Contains the primary source code for this sample.                                                                                     |
-|                                              App.config                                              |                                                        The application configuration file, which contains placeholder Dynamics 365 server connection information.                                                         |
-|                      Authentication.cs<br />Configuration.cs<br />Exceptions.cs                      | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+|                                              App.config                                              |                                                        The application configuration file, which contains placeholder Dynamics 365 for Customer Engagement server connection information.                                                         |
+|                      Authentication.cs<br />Configuration.cs<br />Exceptions.cs                      | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
 | FunctionsAndActions.sln <br />FunctionsAndActions.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
 |                            WebAPIFunctionsandActions_1_0_0_0_managed.zip                             |                                                                      A custom managed solution containing two custom actions called by this sample.                                                                       |
 
@@ -53,7 +53,7 @@ This sample demonstrates how to call bound and unbound functions and actions, in
 
 1. Locate and double-click on the solution file, FunctionsAndActions.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **FunctionsAndActions** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
 
-2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 for Customer Engagement server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
 
 3. Run the **FunctionsAndActions** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
 
@@ -685,7 +685,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
 ### See also
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Samples](web-api-samples.md)   

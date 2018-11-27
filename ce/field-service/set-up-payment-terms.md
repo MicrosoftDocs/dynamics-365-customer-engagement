@@ -1,5 +1,5 @@
 ---
-title: "Set up payment terms (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up payment terms (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -11,8 +11,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: krbjoran
 ms.assetid: 4534f14f-41fd-47fa-a28f-f966c5dc70af
 caps.latest.revision: 13
@@ -39,7 +39,7 @@ Payment terms in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-fiel
 3.  Use the tooltips to help fill in the information, and then click **Save**.  
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)<br>
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)<br>
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [View product inventory](../field-service/view-product-inventory.md)    
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   

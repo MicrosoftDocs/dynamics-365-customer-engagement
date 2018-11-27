@@ -1,5 +1,5 @@
 ---
-title: "Discovery service messages (request and response classes) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Discovery service messages (request and response classes) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "IDiscoveryService web service, request and response classes"
   - "IDiscoveryService web service, base classes: DiscoveryRequest and DiscoveryResponse"

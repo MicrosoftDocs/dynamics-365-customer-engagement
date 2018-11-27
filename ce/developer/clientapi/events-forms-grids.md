@@ -1,9 +1,9 @@
 ---
-title: "Events in forms and grids in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Events in forms and grids in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9fb38429-55ef-45ce-a3a3-e649e1be89d0
 author: "KumarVivek"
 ms.author: "kvivek"

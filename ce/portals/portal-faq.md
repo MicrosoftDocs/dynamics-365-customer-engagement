@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Portal FAQ | MicrosoftDocs"
-description: "Frequently asked questions in Dynamics 365 Portal."
+title: "Dynamics 365 for Customer Engagement Portal FAQ | MicrosoftDocs"
+description: "Frequently asked questions in Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 9/25/2018
@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 
-# Dynamics 365 Portal FAQ
+# Dynamics 365 for Customer Engagement Portal FAQ
 
 We have compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.
 
@@ -32,15 +32,15 @@ We have compiled a list of frequently asked questions and provided brief answers
 
 You can get a portal subscription by either of the following ways:
 
-- One portal add-on is provided along with the purchase of a certain type and quantity of Dynamics 365 user license. Details are available in the Dynamics 365 pricing and licensing guide. It is important to note that you get only one portal add-on with user licenses even if you have bought multiple type or quantity of valid licenses.
+- One portal add-on is provided along with the purchase of a certain type and quantity of Dynamics 365 for Customer Engagement user license. Details are available in the Dynamics 365 for Customer Engagement pricing and licensing guide. It is important to note that you get only one portal add-on with user licenses even if you have bought multiple type or quantity of valid licenses.
 
-- Additional portal subscriptions can be purchased by purchasing a Portal Add-on subscription. This subscription is an add-on subscription to Dynamics 365 and is available to be purchased if you have the appropriate Dynamics 365 licenses.
+- Additional portal subscriptions can be purchased by purchasing a Portal Add-on subscription. This subscription is an add-on subscription to Dynamics 365 for Customer Engagement and is available to be purchased if you have the appropriate Dynamics 365 for Customer Engagement licenses.
 
 ### How do I change the audience and type of a portal after it is provisioned?
 
 After you have provisioned a portal, the option to change the portal audience is disabled.
 
-However, you can change the audience and type of portal after it is provisioned by following the steps in [Change the Dynamics 365 instance, audience, or type of portal](change-dynamics-instance.md).
+However, you can change the audience and type of portal after it is provisioned by following the steps in [Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal](change-dynamics-instance.md).
 
 ### How do I change the base URL of a portal after it is provisioned?
 
@@ -48,23 +48,23 @@ You can change the base URL of a portal after it is provisioned by following the
 
 ### How do I delete a portal completely after it is provisioned?
 
-A Dynamics 365 Portal consists of the following components:
+A Dynamics 365 for Customer Engagement Portal consists of the following components:
 
 - **Portal website host**: Portal website host is the Portal code that forms the actual website.
 
-- **Portal solutions**: Solutions that are installed in the Dynamics 365 organization and contain the metadata entities for any Dynamics 365 Portal.
+- **Portal solutions**: Solutions that are installed in the Dynamics 365 for Customer Engagement organization and contain the metadata entities for any Dynamics 365 for Customer Engagement Portal.
 
-To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Dynamics 365 organization.
+To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Dynamics 365 for Customer Engagement organization.
 
-To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Dynamics 365 organization.
+To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Dynamics 365 for Customer Engagement organization.
 
-To delete portal solutions, you will have to delete solutions from the Dynamics 365 solution explorer UI. The order in which Portal solutions should be uninstalled is provided in [Uninstalling Portal Solutions](https://community.dynamics.com/365/b/dynamics365portalssupport/archive/2017/02/27/portal-troubleshooting-part-three-uninstalling-portal-solutions).
+To delete portal solutions, you will have to delete solutions from the Dynamics 365 for Customer Engagement solution explorer UI. The order in which Portal solutions should be uninstalled is provided in [Uninstalling Portal Solutions](https://community.dynamics.com/365/b/dynamics365portalssupport/archive/2017/02/27/portal-troubleshooting-part-three-uninstalling-portal-solutions).
 
-## Dynamics 365 organization lifecycle
+## Dynamics 365 for Customer Engagement organization lifecycle
 
-### We recently moved our Dynamics 365 organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
+### We recently moved our Dynamics 365 for Customer Engagement organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
 
-When you move your Dynamics 365 organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
+When you move your Dynamics 365 for Customer Engagement organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
 
 To associate your portal again to relevant organizations:
 
@@ -72,13 +72,13 @@ To associate your portal again to relevant organizations:
 
 2. Once your existing portal is reset, go to the new tenant (or to the new geolocation of the existing tenant) and provision a portal available there.
 
-### After restoring a Dynamics 365 organization from an old backup, the portal connected to the organization is not working. How do we fix it?
+### After restoring a Dynamics 365 for Customer Engagement organization from an old backup, the portal connected to the organization is not working. How do we fix it?
 
-When a Dynamics 365 organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
+When a Dynamics 365 for Customer Engagement organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
 
 - If the organization ID is the same after the restore operation and portal solutions are also available:
 
-  1. Go to the Dynamics 365 admin center and select the **Applications** tab.
+  1. Go to the Dynamics 365 for Customer Engagement admin center and select the **Applications** tab.
   2. Select the name of the portal and then select **Manage**.
   3. In Portal Admin Center, go to the **Portal Details** tab.
   4. In the **Portal State** drop-down list, choose **Off**.
@@ -91,13 +91,13 @@ When a Dynamics 365 organization is restored from a backup, various changes are 
 
   - In this case, it is better to reset the portal by following the steps in [Reset a portal](reset-portal.md) and then reprovision it.
 
-### We recently changed the URL of our Dynamics 365 organization and our portal stopped working. How do we fix it?
+### We recently changed the URL of our Dynamics 365 for Customer Engagement organization and our portal stopped working. How do we fix it?
 
-When you change the URL of your Dynamics 365 organization, your portal will stop working because it cannot identify the Dynamics 365 URL anymore. To fix this issue:
+When you change the URL of your Dynamics 365 for Customer Engagement organization, your portal will stop working because it cannot identify the Dynamics 365 for Customer Engagement URL anymore. To fix this issue:
 
-1. Go to the Dynamics 365 admin center and select the **Applications** tab.
+1. Go to the Dynamics 365 for Customer Engagement admin center and select the **Applications** tab.
 2. Select the name of the portal and then select **Manage**.
-3. Go to **Portal Actions** > **Update Dynamics 365 URL**.
+3. Go to **Portal Actions** > **Update Dynamics 365 for Customer Engagement URL**.
 4. Follow the instructions in the wizard.
 
 Your portal will be restarted and start working again.
@@ -120,7 +120,7 @@ When you enable diagnostic logging, you can search for particular errors that us
 
 ### How do I use a custom login provider on my portal?
 
-Dynamics 365 Portal supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 portal authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
+Dynamics 365 for Customer Engagement Portal supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 for Customer Engagement portal authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
 
 ### How do I get new portal releases in my sandbox portal first before it gets applied to production?
 
@@ -128,7 +128,7 @@ Any portal release is done in two phases: early upgrade and general availability
 
 ### How do I use a custom domain name for my portal?
 
-You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 portal to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
+You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 for Customer Engagement portal to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
 
 ## General
 

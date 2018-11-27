@@ -1,6 +1,6 @@
 ---
-title: "Introduction to the event framework (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Event framework enables your custom code to be developed and integrated into Dynamics 365 server"
+title: "Introduction to the event framework (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Event framework enables your custom code to be developed and integrated into Dynamics 365 for Customer Engagement server"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 6116dde0-c6f5-4858-a4f9-93ccf495d39a
 caps.latest.revision: 27
 author: "JimDaly"
@@ -38,7 +38,7 @@ With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] C
   
 - **Synchronous and asynchronous execution of plug-ins**. Synchronous plug-ins are executed in a pre-defined order as part of the main [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] event processing. Asynchronous plug-ins are queued and executed independently.  
   
-  The Event Framework is only supported on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and the [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] client. For more information about how to extend the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web application, see [Customize Dynamics 365](customize-dev/customize-applications.md).  
+  The Event Framework is only supported on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and the [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] client. For more information about how to extend the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web application, see [Customize Dynamics 365 for Customer Engagement](customize-dev/customize-applications.md).  
   
 ## In This Section  
  [Event Execution Pipeline](event-execution-pipeline.md)  
@@ -48,10 +48,10 @@ With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] C
 ## Related Sections  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)  
   
- [Supported Messages and Entities for Plugins for Dynamics 365 Customer Engagement](supported-messages-entities-plugin.md)  
+ [Supported Messages and Entities for Plugins for Dynamics 365 for Customer Engagement](supported-messages-entities-plugin.md)  
   
- [Plug-in Development for Dynamics 365 Customer Engagement](plugin-development.md)  
+ [Plug-in Development for Dynamics 365 for Customer Engagement](plugin-development.md)  
   
- [Plug-in Entities for Dynamics 365 Customer Engagement](plug-in-entities.md)  
+ [Plug-in Entities for Dynamics 365 for Customer Engagement](plug-in-entities.md)  
   
- [Plug-in Registration Entities for Dynamics 365 Customer Engagement](plug-in-registration-entities.md)
+ [Plug-in Registration Entities for Dynamics 365 for Customer Engagement](plug-in-registration-entities.md)

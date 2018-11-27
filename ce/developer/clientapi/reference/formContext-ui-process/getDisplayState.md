@@ -1,9 +1,9 @@
 ---
-title: "getDisplayState (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getDisplayState (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 21368fac-d4bc-4f75-8a9c-cce098fa0b45
 author: "KumarVivek"
 ms.author: "kvivek"

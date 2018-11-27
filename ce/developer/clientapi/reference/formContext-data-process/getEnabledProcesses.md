@@ -1,9 +1,9 @@
 ---
-title: "getEnabledProcesses (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getEnabledProcesses (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 52f79803-2ce0-4ca7-8200-aec544545d62
 author: "KumarVivek"
 ms.author: "kvivek"

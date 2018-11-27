@@ -1,5 +1,5 @@
 ---
-title: "Configure OpenID Connect provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+title: "Configure OpenID Connect provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to add and configure OpenID Connect provider settings for a portal."
 ms.custom: 
   - dyn365-portal
@@ -131,7 +131,7 @@ Multiple identity providers can be configured by substituting a label for the [p
 |||
 
 ### See also
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

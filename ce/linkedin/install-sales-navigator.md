@@ -1,13 +1,13 @@
 ---
-title: "Install LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
-description: "Install the LinkedIn Sales Navigator for Dynamics 365 capabilities from AppSource"
+title: "Install LinkedIn Sales Navigator for Dynamics 365 for Customer Engagement | Microsoft Docs"
+description: "Install the LinkedIn Sales Navigator for Dynamics 365 for Customer Engagement capabilities from AppSource"
 keywords: "installation, setup, sales navigator, appsource"
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
 author: m-hartmann
 ms.author: mhart
@@ -21,13 +21,13 @@ search.app:
   - D365LinkedIn
 ---
 
-# Install Sales Navigator Controls for Dynamics 365 Unified Interface
+# Install Sales Navigator Controls for Dynamics 365 for Customer Engagement Unified Interface
 
 ## Prerequisites
 This installation is required to place the controls on the forms and the sync between [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Unified Interface apps and [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator.
 
 - You have a System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
-- You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365   
+- You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365 for Customer Engagement   
 --OR--   
 You will need to sign your team up for [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions) or [LinkedIn Sales Navigator Enterprise](https://business.linkedin.com/sales-solutions).    
   We recommend having a Sales Navigator Administrator + Team Member seat to complete the installation. However, you may use a Sales Navigator Administrator seat.

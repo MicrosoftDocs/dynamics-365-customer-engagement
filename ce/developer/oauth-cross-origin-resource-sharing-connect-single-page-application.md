@@ -1,6 +1,6 @@
 ---
-title: "Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn how to use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365"
+title: "Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: oauth-cross-origin-resource-sharing-connect-single-page-application
 caps.latest.revision: 11
 author: "JimDaly"
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365
+# Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -42,9 +42,9 @@ You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../
   
  The adal.js library contains the low-level capabilities to authenticate using OAuth2. Adal.js is designed so that it can be used with other frameworks, for example there is an `adal-angular.js` library that is designed to be used with the Angular framework.The way you work with this library is to set certain configuration properties and then it will wait until events occur that trigger the interaction flow. This could be simply calling the `login` function or if your application has routing behaviors, the authentication can be initiated by how the controller for that route is configured.  
   
- When authentication is required, the user is taken to the sign-in page where they can enter their credentials. After they successfully authenticate, they are re-directed back to the calling page with the token information attached as a fragment (using #) to the URL. This allows the SPA to acquire the token and cache it in local or session storage in the browser. This means that the entire page is re-loaded after authentication, but this time the information about the authorized user is available and the application can proceed to make calls the Dynamics 365 Web API or other resources.  
+ When authentication is required, the user is taken to the sign-in page where they can enter their credentials. After they successfully authenticate, they are re-directed back to the calling page with the token information attached as a fragment (using #) to the URL. This allows the SPA to acquire the token and cache it in local or session storage in the browser. This means that the entire page is re-loaded after authentication, but this time the information about the authorized user is available and the application can proceed to make calls the Dynamics 365 for Customer Engagement Web API or other resources.  
   
- When calling the Dynamics 365 Web API, you must include the token value in an Authorization header with your XMLHTPPRequest. However, because tokens have an expiration you want to be sure that it doesn't expire while people are using your SPA. Remember, entering new credentials requires that the entire content of your SPA page is transferred to the sign-in page. This would cause a very bad user experience if it were to happen while people are in the middle of doing something. In order to ensure this doesn't happen, you wrap your Web API calls within an `acquireToken` function so that the validity of the token can be checked and refreshed if necessary without taking the user to a sign-in page.  
+ When calling the Dynamics 365 for Customer Engagement Web API, you must include the token value in an Authorization header with your XMLHTPPRequest. However, because tokens have an expiration you want to be sure that it doesn't expire while people are using your SPA. Remember, entering new credentials requires that the entire content of your SPA page is transferred to the sign-in page. This would cause a very bad user experience if it were to happen while people are in the middle of doing something. In order to ensure this doesn't happen, you wrap your Web API calls within an `acquireToken` function so that the validity of the token can be checked and refreshed if necessary without taking the user to a sign-in page.  
   
 <a name="bkmk_preparing_to_use_adaljs"></a>   
 ## Preparing to use ADAL.js with a SPA  
@@ -69,6 +69,6 @@ You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../
    The set of steps required are described in [Walkthrough: Registering and configuring SimpleSPA application with adal.js](walkthrough-registering-configuring-simplespa-application-adal-js.md).  
   
 ### See also  
- [Authenticate users in Dynamics 365](authenticate-users.md)   
- [Use OAuth to connect to Dynamics 365 web Services](connect-customer-engagement-web-services-using-oauth.md)   
+ [Authenticate users in Dynamics 365 for Customer Engagement](authenticate-users.md)   
+ [Use OAuth to connect to Dynamics 365 for Customer Engagement web Services](connect-customer-engagement-web-services-using-oauth.md)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)

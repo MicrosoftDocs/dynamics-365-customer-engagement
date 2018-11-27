@@ -1,6 +1,6 @@
 ---
-title: "Extend Dynamics 365 Customer Engagement on the client (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn how developers can extend and customize Dynamics 365 (online) in clients such as web applications, Dynamics 365 for phones, and Dynamics 365 for tablets by using JavaScript and web resources"
+title: "Extend Dynamics 365 for Customer Engagement on the client (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn how developers can extend and customize Dynamics 365 for Customer Engagement (online) in clients such as web applications, Dynamics 365 for Customer Engagement for phones, and Dynamics 365 for Customer Engagement for tablets by using JavaScript and web resources"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "extending Microsoft Dynamics CRM and Dynamics CRM Online, building solutions and modeling your business data"
   - "building solutions by extending Microsoft Dynamics CRM and Dynamics CRM Online"
@@ -26,7 +26,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Extend Dynamics 365 Customer Engagement on the client
+# Extend Dynamics 365 for Customer Engagement on the client
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -41,7 +41,7 @@ This section contains information about changes developers and customizers can m
  
  [Open Forms, Views, and Dialogs with a URL](open-forms-views-dialogs-reports-url.md)  
   
- [Open forms, views, and dashboards in Dynamics 365 mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
+ [Open forms, views, and dashboards in Dynamics 365 for Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
   
  [Web Resources for Customer Engagement](web-resources.md)  
   

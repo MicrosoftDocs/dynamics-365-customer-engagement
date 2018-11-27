@@ -1,5 +1,5 @@
 ---
-title: "Gather feedback by using polls on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Gather feedback by using polls on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create polls on a portal and gather feedback by using them."
 ms.custom: 
   - dyn365-portal
@@ -127,7 +127,7 @@ The details of the poll voting results are stored in [!INCLUDE[pn-dynamics-crm](
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

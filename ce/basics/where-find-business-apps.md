@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
 author: "shubhadaj"
 ms.assetid: 03968b0d-5505-45d0-90ff-4bacefbf3559
 caps.latest.revision: 15
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Business apps are available to users based on their security roles. If your system administrator has created any new apps,  they will be visible to you if your security role has been given access to those apps. For information on business apps in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Dynamics 365 for phones and tablets - User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md). 
+Business apps are available to users based on their security roles. If your system administrator has created any new apps,  they will be visible to you if your security role has been given access to those apps. For information on business apps in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Dynamics 365 for Customer Engagement for phones and tablets - User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md). 
   
 ## Open business apps from the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page  
  This option is available only to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] customers.  
@@ -36,9 +36,9 @@ Business apps are available to users based on their security roles. If your syst
   
 3. Click the app that you want to use.  
   
-    Once you're in an app, you can switch to other apps by using the app switcher. In the top-left corner, click the down arrow beside   ![Dynamics 365 app switcher](../basics/media/app-switcher-arrow-button.png "Dynamics 365 app switcher"). Then, click **My Apps**, and search for your app.  
+    Once you're in an app, you can switch to other apps by using the app switcher. In the top-left corner, click the down arrow beside   ![Dynamics 365 for Customer Engagement app switcher](../basics/media/app-switcher-arrow-button.png "Dynamics 365 for Customer Engagement app switcher"). Then, click **My Apps**, and search for your app.  
   
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Quickly navigate with the Office 365 app launcher and the Dynamics 365 (online) home page](../admin/quickly-navigate-office-365-app-launcher.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement (online) home page](../admin/quickly-navigate-office-365-app-launcher.md)  
   
 > [!NOTE]
 >  If you are a system administrator or customizer or a user with equivalent privileges, you'll see apps in published as well as draft states.  
@@ -71,7 +71,7 @@ When you use an app, you'll see only those entities in the site map  and other p
 
 Depending on the installation options your admin chooses when setting up [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you may see any of the following apps in the app switcher:
 
-![Dynamics 365 app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 app switcher")  
+![Dynamics 365 for Customer Engagement app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 for Customer Engagement app switcher")  
 
 The following table describes what each app is used for, whether it's designed for web or mobile, and where to go for more information.
 
@@ -88,5 +88,5 @@ The following table describes what each app is used for, whether it's designed f
 
   
 ### See also  
- [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)   
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)
+ [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md)   
+ [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)

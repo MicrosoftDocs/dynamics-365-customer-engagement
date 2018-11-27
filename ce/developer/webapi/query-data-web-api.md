@@ -1,6 +1,6 @@
 ---
-title: "Query Data using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read about the various ways to query Dynamics 365 data using the Dynamics 365 Customer Engagement Web API and various system query options that can be applied in these queries"
+title: "Query Data using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read about the various ways to query Dynamics 365 for Customer Engagement data using the Dynamics 365 for Customer Engagement Web API and various system query options that can be applied in these queries"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: fc3ade34-9c4e-4c33-88a4-aa3842c5eee1
 caps.latest.revision: 78
 author: "JimDaly"
@@ -250,9 +250,9 @@ By using `$apply` you can aggregate and group your data dynamically.  Possible u
 |Last created record date and time|`$apply=aggregate(createdon with max as lastCreate)`|
 |First created record date and time|`$apply=aggregate(createdon with min as firstCreate)`|
 
-The aggregate functions are limited to a collection of 50,000 records.  Further information around using aggregate functionality with Dynamics 365 can be found here: [Use FetchXML to construct a query](../org-service/use-fetchxml-construct-query.md)
+The aggregate functions are limited to a collection of 50,000 records.  Further information around using aggregate functionality with Dynamics 365 for Customer Engagement can be found here: [Use FetchXML to construct a query](../org-service/use-fetchxml-construct-query.md)
 
-Additional details on OData data aggregation can be found here: [http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html).  Note that Dynamics 365 only supports a sub-set of these aggregate methods.
+Additional details on OData data aggregation can be found here: [http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html).  Note that Dynamics 365 for Customer Engagement only supports a sub-set of these aggregate methods.
 
 ## Use parameter aliases with system query options
 

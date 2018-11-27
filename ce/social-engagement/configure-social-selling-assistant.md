@@ -75,4 +75,4 @@ All posts that have the one or more of these tags will be promoted automatically
 [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
 [Set up searches to listen to social media conversations](set-up-searches.md)   
 [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)   
-[TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)
+[TechNet: Extend Dynamics 365 for Customer Engagement with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)

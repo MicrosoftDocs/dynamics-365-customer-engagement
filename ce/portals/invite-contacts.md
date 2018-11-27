@@ -1,5 +1,5 @@
 ---
-title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
+title: "Invite contacts to your portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to create and configure invitations in a portal."
 ms.custom: 
   - dyn365-portal

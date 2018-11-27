@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve multiple with the QueryByAttribute class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Retrieve multiple with the QueryByAttribute class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use QueryByAttribute in the QueryBase) method"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "sample for using the RetrieveMultiple method with the QueryByAttribute class"
   - "using the RetrieveMultiple method with the QueryByAttribute class sample"

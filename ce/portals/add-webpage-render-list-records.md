@@ -1,5 +1,5 @@
 ---
-title: "Add a webpage to render a list of records on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Add a webpage to render a list of records on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure entity lists to render a list of records on a portal."
 ms.custom: 
   - dyn365-portal
@@ -510,7 +510,7 @@ You can use Entity Permissions if you want to secure records, but if you want to
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

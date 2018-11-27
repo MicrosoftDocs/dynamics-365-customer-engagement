@@ -1,6 +1,6 @@
 ---
-title: "Set up lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 for Marketing"
+title: "Set up lead scoring models (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "tutorial; leads; lead scoring; lead scoring model"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e892a409-1e68-491f-8992-1b281ba4a5a3
 author: kamaybac
 ms.author: kamaybac

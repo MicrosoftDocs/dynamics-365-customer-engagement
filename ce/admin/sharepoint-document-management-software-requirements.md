@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Document Management software requirements for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "SharePoint Document Management software requirements for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 736cf9ab-6a7f-4dc8-940a-d7302e09e858
 caps.latest.revision: 55
 author: "Mattp123"
@@ -28,7 +28,7 @@ search.app:
 If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] , you must meet the requirements listed in this topic.  
 
 <a name="docman_online"></a>   
-## Use document management in Dynamics 365 (online)  
+## Use document management in Dynamics 365 for Customer Engagement (online)  
  If you are using server-based integration with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] or [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1 on-premises (or a later version).  
 
  If you are using the [!INCLUDE[pn_crm_2016_list_component_sharepoint](../includes/pn-crm-2016-list-component-sharepoint.md)], one of the following versions of [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] must be available:  
@@ -75,7 +75,7 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 > [!NOTE]
 >  You can create and view folders when using the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)]. This is not available in server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration.  
 
- For information about how to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, see [Set up SharePoint integration with Dynamics 365](../admin/set-up-sharepoint-integration.md).  
+ For information about how to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, see [Set up SharePoint integration with Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md).  
 
  For more information about the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], see [Dynamics CRM List Component for SharePoint](../admin/sharepoint-document-management-software-requirements.md#BKMK_listComp).  
 

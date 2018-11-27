@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: bcdcc975-4918-4513-b04a-6a9d3d04f08c
 caps.latest.revision: 21
 author: "JimDaly"
@@ -43,8 +43,8 @@ The customizations.xml file is one of the files included in an exported unmanage
 
 ## Related Sections
 
- [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)  
+ [Schemas used in Dynamics 365 for Customer Engagement](schemas-used-dynamics-365.md)  
  [When to Edit the Customizations File](customize-dev/when-edit-customization-file.md)  
  [Edit the Customizations file with Schema Validation](customize-dev/edit-customizations-xml-file-schema-validation.md)  
- [Customize the Ribbon for Dynamics 365](customize-dev/customize-commands-ribbon.md)  
+ [Customize the Ribbon for Dynamics 365 for Customer Engagement](customize-dev/customize-commands-ribbon.md)  
  [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)

@@ -1,10 +1,10 @@
 ---
-title: "Custom virtual entity data providers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Custom virtual entity data providers (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d22
 author: "JimDaly"
 ms.author: "jdaly"
@@ -30,7 +30,7 @@ Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] Data SDK
 Custom data providers require substantial development resources to create and maintain. You must have fundamental knowledge of the following areas:
 
 * The external data source schema and associated data access techniques.  This domain knowledge is specific to the external data source type.
-* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365](../metadata-data-models.md).
+* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365 for Customer Engagement](../metadata-data-models.md).
 * [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] event system; for more information see [Introduction to the event framework](../introduction-event-framework.md). 
 * [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] plug-in architecture and development; for more information see [Plug-in development](../plugin-development.md).
 
@@ -79,9 +79,9 @@ Because virtual entities in this release are read-only, you will write the data 
 For both events, you must :
 1. Convert the respective information in the execution context into a query that will work for your external data source.
 2. Retrieve the data from the external system.
-3. For **Retrieve**, convert the data into an [Entity](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entity.aspx); otherwise, for **RetrieveMultiple**, convert it to an [EntityCollection](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entitycollection.aspx). This result is returned through the Dynamics 365 platform to the user executing the query. 
+3. For **Retrieve**, convert the data into an [Entity](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entity.aspx); otherwise, for **RetrieveMultiple**, convert it to an [EntityCollection](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entitycollection.aspx). This result is returned through the Dynamics 365 for Customer Engagement platform to the user executing the query. 
 
-The classes in the Microsoft.Xrm.Sdk.Data namespace provide a framework to assist in mapping the Dynamics 365 query information from the execution context into a query in the format appropriate for your external data source. This framework will help you convert the data returned in to the appropriate **Entity** or **EntityCollection** types expected by the Dynamics 365 platform. 
+The classes in the Microsoft.Xrm.Sdk.Data namespace provide a framework to assist in mapping the Dynamics 365 for Customer Engagement query information from the execution context into a query in the format appropriate for your external data source. This framework will help you convert the data returned in to the appropriate **Entity** or **EntityCollection** types expected by the Dynamics 365 for Customer Engagement platform. 
 
 #### Data provider exceptions
 
@@ -100,7 +100,7 @@ If for any reason your code cannot achieve the expected result, you must throw t
 |TimeoutException|The external operation did not complete within the allowed time; for example, the result of a HTTP status 408 from the external data service.|
 | | |
 
-To assist you in plug-in development, the Dynamics 365 Data SDK contains the _Plugin Profiler and Debugger_; for more information see [TBD]<!-- TODO: Obtain information on this tool, create subtopic. -->.
+To assist you in plug-in development, the Dynamics 365 for Customer Engagement Data SDK contains the _Plugin Profiler and Debugger_; for more information see [TBD]<!-- TODO: Obtain information on this tool, create subtopic. -->.
 
 
 ### Plug-in registration

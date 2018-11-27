@@ -1,6 +1,6 @@
 ---
-title: "Use CrmServiceClient constructors to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "You can create an instance of the CrmServiceClient class, and then use one of the constructors to connect to Dynamics 365 Customer Engagement"
+title: "Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "You can create an instance of the CrmServiceClient class, and then use one of the constructors to connect to Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 74862506-a955-4846-a148-ac266f65592f
 caps.latest.revision: 27
 author: "KumarVivek"
@@ -20,13 +20,13 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use CrmServiceClient constructors to connect to Dynamics 365
+# Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 To connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you create an instance of the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, and then use one of the constructors to connect. All the calls to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class are thread safe.  
 
- Apart from the constructors mentioned in this topic, you can also use connection strings with <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365](use-connection-strings-xrm-tooling-connect.md)  
+ Apart from the constructors mentioned in this topic, you can also use connection strings with <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](use-connection-strings-xrm-tooling-connect.md)  
 
 <a name="orgServiceproxy"></a>
 
@@ -141,9 +141,9 @@ CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential(
 
 ### See also
 
- [Use connection strings in XRM tooling to connect to Dynamics 365](use-connection-strings-xrm-tooling-connect.md)   
- [Use XRM Tooling Windows PowerShell Cmdlets to connect to Dynamics 365](use-powershell-cmdlets-xrm-tooling-connect.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)   
- [Sample: Quick Start for Dynamics 365](../sample-quick-start.md)   
+ [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](use-connection-strings-xrm-tooling-connect.md)   
+ [Use XRM Tooling Windows PowerShell Cmdlets to connect to Dynamics 365 for Customer Engagement](use-powershell-cmdlets-xrm-tooling-connect.md)   
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement](use-xrm-tooling-execute-actions.md)   
+ [Sample: Quick Start for Dynamics 365 for Customer Engagement](../sample-quick-start.md)   
  <xref:Microsoft.Xrm.Tooling.Connector.AuthenticationType>   
  [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)

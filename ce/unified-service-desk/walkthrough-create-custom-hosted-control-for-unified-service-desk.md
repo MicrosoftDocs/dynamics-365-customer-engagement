@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -121,11 +121,11 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 ## Test your custom hosted control  
  After your project builds successfully, test the custom hosted control. Testing consists of two parts: defining the custom hosted control on the server and then connecting to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the server using your client application.  
   
-### Define the custom hosted control and action on the Dynamics 365 server  
+### Define the custom hosted control and action on the Dynamics 365 for Customer Engagement server  
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-2. On the nav bar, choose **Microsoft Dynamics 365**, and select **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement**, and select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

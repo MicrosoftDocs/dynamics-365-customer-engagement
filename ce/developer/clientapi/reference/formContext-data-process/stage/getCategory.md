@@ -1,9 +1,9 @@
 ---
-title: "getCategory (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getCategory (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 2849a9e1-b2fb-464c-8fc7-90b0df027c86
 author: "KumarVivek"
 ms.author: "kvivek"

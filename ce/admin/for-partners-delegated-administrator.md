@@ -1,5 +1,5 @@
 ---
-title: "For partners: the Delegated Administrator for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "For partners: the Delegated Administrator for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: Use this role to delegate admins to manage users, licenses, permissions, and domains.
 ms.custom: ""
 ms.date: 09/30/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 02aa7752-3df6-4528-9108-d037b14056ba
 caps.latest.revision: 5
 author: "jimholtz"
@@ -35,7 +35,7 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.
 > 
 >  Your revision should be 2040 or above for both numbers highlighted.  
   
- ![Dynamics 365 (online) revision version](../admin/media/revision-version.png "Dynamics 365 (online) revision version")  
+ ![Dynamics 365 for Customer Engagement (online) revision version](../admin/media/revision-version.png "Dynamics 365 for Customer Engagement (online) revision version")  
   
  To create a simple custom view to see the delegated admin user:  
   

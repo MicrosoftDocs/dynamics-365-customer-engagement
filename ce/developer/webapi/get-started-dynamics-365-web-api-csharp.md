@@ -1,6 +1,6 @@
 ---
-title: "Get started with Dynamics 365 Customer Engagement Web API (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn how to access the Dynamics 365 Customer Engagement Web API using the Microsoft Visual C# programming language"
+title: "Get started with Dynamics 365 for Customer Engagement Web API (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to access the Dynamics 365 for Customer Engagement Web API using the Microsoft Visual C# programming language"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 8105ff3d-4c8e-4f86-bbb9-e37bdb4c272e
 caps.latest.revision: 14
 author: "JimDaly"
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Get started with Dynamics 365 Customer Engagement Web API (C#)
+# Get started with Dynamics 365 for Customer Engagement Web API (C#)
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -33,7 +33,7 @@ This section shows you how to access the [!INCLUDE[pn_dynamics_crm](../../includ
   
  [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md)  
   
- [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)  
+ [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)  
   
 ### See also  
  [Perform operations using the Web API](perform-operations-web-api.md)   

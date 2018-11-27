@@ -1,10 +1,10 @@
 ---
-title: "Debug your JavaScript code for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Debug your JavaScript code for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3edad039-4397-4984-a29b-9307a7a2aaee
 author: "KumarVivek"
 ms.author: "kvivek"

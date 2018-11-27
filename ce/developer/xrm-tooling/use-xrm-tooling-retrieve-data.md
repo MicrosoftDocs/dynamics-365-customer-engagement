@@ -1,6 +1,6 @@
 ---
-title: "Use XRM tooling to retrieve data (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Use CrmServiceClient class to retrieve data from Dynamics 365"
+title: "Use XRM tooling to retrieve data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Use CrmServiceClient class to retrieve data from Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 2afc057e-8f70-4bea-bad4-d01e18ed92fd
 caps.latest.revision: 14
 author: "KumarVivek"
@@ -107,5 +107,5 @@ else
 ### See also  
 
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
- [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)
+ [Use XRM Tooling to connect to Dynamics 365 for Customer Engagement](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement](use-xrm-tooling-execute-actions.md)

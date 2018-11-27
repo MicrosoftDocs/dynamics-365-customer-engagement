@@ -1,1 +1,1 @@
-Dynamics 365 App for Outlook
+Dynamics 365 for Customer Engagement App for Outlook

@@ -1,6 +1,6 @@
 ---
-title: "Overview of Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Get started with Unified Service Desk for Dynamics 365 Customer Engagement"
+title: "Overview of Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Get started with Unified Service Desk for Dynamics 365 for Customer Engagement"
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"

@@ -1,6 +1,6 @@
 ---
-title: "Use XRM tooling to create data (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Use CrmServiceClient class to create data on Dynamics 365"
+title: "Use XRM tooling to create data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Use CrmServiceClient class to create data on Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: f6a03552-1f07-4d4b-b7ae-fa246a0d7c29
 caps.latest.revision: 14
 author: "KumarVivek"
@@ -109,4 +109,4 @@ else
 ### See also  
 
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement](use-xrm-tooling-execute-actions.md)

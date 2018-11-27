@@ -1,5 +1,5 @@
 ---
-title: "AppSource for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "AppSource for Field Service (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 9/20/2018
 ms.reviewer: ""
@@ -9,8 +9,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: FieldServiceDave
 ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"
@@ -24,4 +24,4 @@ search.app:
 ---
 
 # AppSource for Field Service
-To better accommodate industry requirements and augment core Field Service functions, many developers, consultants, and business analysts have published Dynamics 365 apps specially designed for Field Service. From Internet of Things (IoT) scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services).
+To better accommodate industry requirements and augment core Field Service functions, many developers, consultants, and business analysts have published Dynamics 365 for Customer Engagement apps specially designed for Field Service. From Internet of Things (IoT) scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services).

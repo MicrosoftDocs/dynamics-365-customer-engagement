@@ -1,10 +1,10 @@
 ---
-title: "Understand the Client API object model in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Understand the Client API object model in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3335aec5-6b48-4ef6-8d49-2833b177f318
 author: "KumarVivek"
 ms.author: "kvivek"

@@ -1,9 +1,9 @@
 ---
-title: "setLabel (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setLabel (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a0fd09d2-3565-4698-a1b2-e295b20fbaef
 author: "KumarVivek"
 ms.author: "kvivek"

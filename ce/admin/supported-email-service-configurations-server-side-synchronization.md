@@ -1,5 +1,5 @@
 ---
-title: "Supported email service configurations for server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Supported email service configurations for server-side synchronization for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/06/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 034c2ad9-9a34-4d47-8d9e-f0399d9cec96
 caps.latest.revision: 51
 author: "jimholtz"
@@ -34,7 +34,7 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
 > - Manual tracking in [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)] is not supported when a user’s mailbox is configured to use server-side synchronization with the POP/SMTP protocol.  
 > - For [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we support [service encryption](https://technet.microsoft.com/library/dn569286.aspx) in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with server-side sync.  
   
-|                          Dynamics 365 deployment                          |                                                                                                                                                   Email system                                                                                                                                                   | Email synchronization | Appointments, contacts, and tasks synchronization |                                   Protocol                                    |
+|                          Dynamics 365 for Customer Engagement deployment                          |                                                                                                                                                   Email system                                                                                                                                                   | Email synchronization | Appointments, contacts, and tasks synchronization |                                   Protocol                                    |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
 |          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]          | 1. [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]<br />2. [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)] SP3<br />3. [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)] SP1<br />4.  Exchange Server 2016 |          Yes          |                        Yes                        | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] |
 |          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]          |                                                                                                                                          -   Gmail<br />-   Yahoo! Mail                                                                                                                                          |          Yes          |                        No                         |         [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP          |
@@ -43,7 +43,7 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
   
  <sup>1</sup> May be unsupported for FIPS-compliancy. See the following section for more information.  
   
-## Using Exchange Online with Dynamics 365 (online)  
+## Using Exchange Online with Dynamics 365 for Customer Engagement (online)  
  If your company is using [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], note the following:  
   
  [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] supports server-side synchronization with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in the same tenant in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] with Server to Server Authentication. Other authentication methods or settings are not recommended or supported, including:  
@@ -77,9 +77,9 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
   
 - Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
 
-- Multi-factor authentication isn’t supported for Dynamics 365 (online) to Exchange Server (on-premises), and Dynamics 365 (on-premises) to Exchange Online.
+- Multi-factor authentication isn’t supported for Dynamics 365 for Customer Engagement (online) to Exchange Server (on-premises), and Dynamics 365 for Customer Engagement (on-premises) to Exchange Online.
   
-For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
+For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md)  
   
 > [!NOTE]
 >  We recommend that you don’t use a mixed configuration of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization and server-side synchronization for appointments, contacts, and tasks in the same organization, because it may result in updated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data not synchronizing to all attendees.  

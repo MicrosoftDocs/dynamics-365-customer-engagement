@@ -1,5 +1,5 @@
 ---
-title: "Render an RSS feed using custom page template for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Render an RSS feed using custom page template for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create a custom page template and use it to render an RSS feed."
 ms.custom: 
   - dyn365-portal
@@ -24,7 +24,7 @@ search.app:
 # Create a custom page template to render an RSS feed
 In this example, we'll create a custom page template to render an [RSS feed](http://en.wikipedia.org/wiki/RSS) of news articles, using Liquid and a Web Template Page Template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md)  
 
-## Step 1: Create a new Dynamics 365 view
+## Step 1: Create a new Dynamics 365 for Customer Engagement view
 
 First, we'll create a new [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that we'll use to load the data for our feed. In this example, we'll make it a view on Web Pages, and use this entity to store our articles. We can use this view to configure the sorting and filtering of results, and include as columns the entity attributes that we want available in our Liquid template.
 

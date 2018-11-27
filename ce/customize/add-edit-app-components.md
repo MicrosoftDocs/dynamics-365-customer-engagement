@@ -1,14 +1,14 @@
 ---
-title: "Add or edit app components with Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
+title: "Add or edit app components with Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+description: "Use the Dynamics 365 for Customer Engagement for Customer Engagement app designer to add or edit components"
 keywords: ""
 ms.date: 11/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: be93b9d7-f1c2-4ee7-8d7c-0f5c34dfa5f7
 ms.author: matp
@@ -23,7 +23,7 @@ search.app:
   - D365CE
 ---
 
-# Add or edit app components in the Dynamics 365 for Customer Engagement app designer
+# Add or edit app components in the Dynamics 365 for Customer Engagement for Customer Engagement app designer
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

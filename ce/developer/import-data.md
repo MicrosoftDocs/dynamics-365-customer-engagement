@@ -1,5 +1,5 @@
 ---
-title: "Import data (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Import data (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Overview of the data import feature, which enables data upload from various customer relationship management systems and other data sources."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "Import Data wizard, capabilities of the"
   - "importing data in Microsoft Dynamics CRM, data import defined"
@@ -100,4 +100,4 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
  [Sample: Import Data Using Complex Data Map](sample-import-data-complex-data-map.md)  
   
 ## Related Sections  
- [Data Management in Dynamics 365](manage-data.md)
+ [Data Management in Dynamics 365 for Customer Engagement](manage-data.md)

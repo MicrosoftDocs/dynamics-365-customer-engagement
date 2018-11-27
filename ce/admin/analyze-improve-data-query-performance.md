@@ -1,5 +1,5 @@
 ---
-title: "Analyze and improve data query performance for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Analyze and improve data query performance for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: e9c76958-472f-47b9-816f-d9ee376f97fa
 caps.latest.revision: 15
 author: "Mattp123"

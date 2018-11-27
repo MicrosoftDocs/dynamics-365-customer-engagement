@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7b6ace06-0cc2-4a04-a2bd-5d229acb6a00
 caps.latest.revision: 21
 author: "mduelae"
@@ -23,10 +23,10 @@ search.app:
   - D365Outlook
 ---
 # Configure synchronization for appointments, contacts, and tasks
-By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and Outlook for Dynamics 365 is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  
+By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and Outlook for Dynamics 365 for Customer Engagement is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 for Customer Engagement admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  
   
 > [!NOTE]
->  Users should have the latest [Dynamics 365 for Outlook](http://go.microsoft.com/fwlink/?LinkID=690396) installed.  
+>  Users should have the latest [Dynamics 365 for Customer Engagement for Outlook](http://go.microsoft.com/fwlink/?LinkID=690396) installed.  
   
  This topic covers the highlighted settings below.  
   
@@ -47,7 +47,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
    **Considerations**  
   
--   When you disable attachment synchronization, the attachments will not appear in appointments in Dynamics 365 but will remain in Dynamics 365 for Outlook appointments.  
+-   When you disable attachment synchronization, the attachments will not appear in appointments in Dynamics 365 for Customer Engagement but will remain in Dynamics 365 for Customer Engagement for Outlook appointments.  
   
 -   Recurring appointment attachment synchronization is not supported. When users synchronize recurring appointments with attachments, the attachments do not synch.  
   
@@ -73,7 +73,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
 > [!WARNING]
 >  Enabling this option can cause data loss if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. We recommend you test this option prior to deployment to understand how the re-mapping affects your environment and your data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]) and have them sync to the other side (normally [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
 > 
->  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized.md)
+>  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 for Customer Engagement and Outlook?](which-fields-synchronized.md)
   
 ## Enable synchronization for tasks that are assigned in Outlook  
   

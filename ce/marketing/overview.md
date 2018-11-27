@@ -1,6 +1,6 @@
 ---
-title: "Overview (Dynamics 365 for Marketing)"
-description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
+title: "Overview (Dynamics 365 for Customer Engagement for Marketing)"
+description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Customer Engagement for Marketing"
 keywords: "features; benefits; overview"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 37dcb64c-e825-4242-a1bd-4bc40f512e93
 author: kamaybac
 ms.author: kamaybac
@@ -199,7 +199,7 @@ Use other parts of the **Event** work area to work with specific record types th
 
 After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event portal, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only. Open an event record and change its status to **Published** to publish it on the portal.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365 for Customer Engagement](event-management.md)
 
 ## Generate, score, and qualify leads for sales
 

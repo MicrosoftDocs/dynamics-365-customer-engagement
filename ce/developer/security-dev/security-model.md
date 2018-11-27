@@ -1,5 +1,5 @@
 ---
-title: "Security model (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Security model (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "record-based security, definition"
   - "security model of Microsoft Dynamics CRM, types of security"
@@ -57,13 +57,13 @@ search.app:
   More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](http://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
   
 ## In This Section  
- [How Role-Based Security Can Be Used to Control Access to Entities In Microsoft Dynamics 365](how-role-based-security-control-access-entities.md)  
+ [How Role-Based Security Can Be Used to Control Access to Entities In Microsoft Dynamics 365 for Customer Engagement](how-role-based-security-control-access-entities.md)  
   
- [How Instance-Based Security Can Be Used to Control Access to Records In Microsoft Dynamics 365](use-record-based-security-control-access-records.md)  
+ [How Instance-Based Security Can Be Used to Control Access to Records In Microsoft Dynamics 365 for Customer Engagement](use-record-based-security-control-access-records.md)  
   
- [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365](use-field-security-control-access-field-values.md)  
+ [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 for Customer Engagement](use-field-security-control-access-field-values.md)  
   
- [How hierarchical security can be used to control access to entities in Microsoft Dynamics 365](hierarchical-security-control-access-entities.md)  
+ [How hierarchical security can be used to control access to entities in Microsoft Dynamics 365 for Customer Engagement](hierarchical-security-control-access-entities.md)  
   
 ## Related Sections  
  [Security concepts for Microsoft Dynamics CRM](https://technet.microsoft.com/library/hh699698\(v=crm.8\).aspx)  

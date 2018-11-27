@@ -1,7 +1,7 @@
 ---
-title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
+title: "Install and set up the Dynamics 365 for Customer Engagement app for Teams| MicrosoftDocs"
 ms.custom: ""
-description: "Install and set up the Dynamics 365 app for Teams."
+description: "Install and set up the Dynamics 365 for Customer Engagement app for Teams."
 ms.date: 11/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: "jimholtz"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Install and set up the Dynamics 365 app for Teams
+# Install and set up the Dynamics 365 for Customer Engagement app for Teams
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -35,14 +35,14 @@ search.app:
    > [!div class="mx-imgBorder"]
    > ![Select Store](media/select-store.png "Select Store")
 
-2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
+2. Search for **dynamics**, and then select the **Dynamics 365 for Customer Engagement (Preview)** tile.
 
    > [!div class="mx-imgBorder"]
-   > ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
+   > ![Search for and select Dynamics 365 for Customer Engagement](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365 for Customer Engagement")
 
 3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
 
-   You can use Dynamics 365 for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
+   You can use Dynamics 365 for Customer Engagement for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable personal and team features](media/teams-store-install-both75.png "Enable personal and team features")
@@ -73,7 +73,7 @@ search.app:
    > ![Select org and app module](media/teams-fre-org-app.png "Select org and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+   > - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected organization are listed. 
 
@@ -82,21 +82,21 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
 
-After completing the above steps, you can select a Dynamics 365 (online) record to connect to the Microsoft Teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
+After completing the above steps, you can select a Dynamics 365 for Customer Engagement (online) record to connect to the Microsoft Teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
 
 > [!div class="mx-imgBorder"] 
 > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
 
 For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
 
-## Set up the Dynamics 365 bot
+## Set up the Dynamics 365 for Customer Engagement bot
 
 > [!NOTE]
-> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
+> The Dynamics 365 for Customer Engagement bot for Teams is currently only available for organizations in the North American region.
 
-Set up the bot feature to interact with Dynamics 365 (online).
+Set up the bot feature to interact with Dynamics 365 for Customer Engagement (online).
 
-1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
+1. Find and open the Dynamics 365 for Customer Engagement bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 for Customer Engagement**.
 
 2. The **Conversation** tab opens with the welcome message sent by the bot that provides an overview of the bot’s abilities. Select **Sign in**.
 
@@ -111,32 +111,32 @@ Set up the bot feature to interact with Dynamics 365 (online).
    > ![Select an org](media/teams-bot-select-org.png "Select an org")
 
    > [!NOTE]
-   > Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed.
+   > Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed.
 
 4. Enter credentials and sign in.
 
-   The Dynamics 365 bot setup is complete and some preloaded options are available for getting started.
+   The Dynamics 365 for Customer Engagement bot setup is complete and some preloaded options are available for getting started.
 
    > [!div class="mx-imgBorder"] 
    > ![Bot is set up](media/teams-bot-confirmation.png "Bot is set up")
 
-See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 (online).
+See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 for Customer Engagement (online).
 
 ## Set up the personal dashboard
-Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 (online) without involving other team members.
+Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for Customer Engagement (online) without involving other team members.
 
-1. Open the Dynamics 365 app.
+1. Open the Dynamics 365 for Customer Engagement app.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open the Dynamics 365 app](media/teams-pick-app.png "Open the Dynamics 365 app")
+   > ![Open the Dynamics 365 for Customer Engagement app](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement app")
 
-2. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 (online), and then choose **Save Changes**.
+2. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 for Customer Engagement (online), and then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select org and app module](media/teams-mydashboard-org-app.png "Select org and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+   > - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected organization are listed. 
 
@@ -144,20 +144,20 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 (onli
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
 
-## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
+## For Dynamics 365 for Customer Engagement (online) admins: enable Microsoft Teams integration Preview features
 
-Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 (online). For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
+Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement (online). For full Teams integration, the Dynamics 365 for Customer Engagement (online) admin should enable two settings.
 
-1. Sign in as a System administrator to Dynamics 365 (online).
+1. Sign in as a System administrator to Dynamics 365 for Customer Engagement (online).
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
 3. Enable **Microsoft Teams Integration Preview**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
-When Microsoft Teams Integration Preview is enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
+When Microsoft Teams Integration Preview is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
 
-If not enabled, users can still connect Dynamics 365 (online) records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 (online).  
+If not enabled, users can still connect Dynamics 365 for Customer Engagement (online) records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement (online).  
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)

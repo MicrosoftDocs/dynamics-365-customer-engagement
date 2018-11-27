@@ -1,9 +1,9 @@
 ---
-title: "openForm (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "openForm (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/09/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0206c43b-b1fc-490d-a867-1d75331885a8
 author: "KumarVivek"
 ms.author: "kvivek"

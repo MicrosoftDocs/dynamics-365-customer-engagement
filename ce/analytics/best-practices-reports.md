@@ -1,5 +1,5 @@
 ---
-title: "Best practices for reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Best practices for reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 5e78f1bf-9124-4a83-b049-c257e8237ff3
 caps.latest.revision: 16
 author: "Mattp123"
@@ -34,7 +34,7 @@ The following best practices can help you produce reports that are easier to wri
 ### Use an existing report to create custom reports  
  Check whether there is an existing report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that is close to the design you are looking for. Download the report definition for that report, and then modify the RDL file instead of creating a new one from scratch. By doing this, you will save development time and reduce report writing errors.  
   
-### Use Dynamics 365 formats for currency, number, date and time, calendar  
+### Use Dynamics 365 for Customer Engagement formats for currency, number, date and time, calendar  
  The `FilteredUserSettings` view contains information about currency format, date and time format, number format, negative number, starting day of the week, calendars, and other formats. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides the **fn_GetFormatStrings** database function to get the date, time, number, currency, and calendar formats from the `FilteredUserSettings` view.  
   
  Use these resources to correctly format data values in your reports.  

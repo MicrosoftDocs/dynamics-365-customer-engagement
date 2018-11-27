@@ -1,5 +1,5 @@
 ---
-title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
+title: "Azure AD B2C provider settings for portals in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal

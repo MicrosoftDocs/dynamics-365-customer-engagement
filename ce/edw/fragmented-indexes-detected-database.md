@@ -1,5 +1,5 @@
 ---
-title: "Fragmented indexes were detected in the Microsoft Dynamics 365 database | Microsoft Docs"
+title: "Fragmented indexes were detected in the Microsoft Dynamics 365 for Customer Engagement database | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Fragmented indexes were detected in the Microsoft Dynamics 365 database
+# Fragmented indexes were detected in the Microsoft Dynamics 365 for Customer Engagement database
 
 ## Cause
   

@@ -1,6 +1,6 @@
 ---
-title: "Retrieve data with queries using SDK assemblies (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "There are several ways to create queries in Dynamics 365 (online) Customer Engagement. This topic lists the basic capabilities of each query style"
+title: "Retrieve data with queries using SDK assemblies (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "There are several ways to create queries in Dynamics 365 for Customer Engagement (online) Customer Engagement. This topic lists the basic capabilities of each query style"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "queries, using to retrieve data"
   - "creating queries to retrieve data, by using FetchXML"

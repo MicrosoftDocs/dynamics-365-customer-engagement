@@ -1,5 +1,5 @@
 ---
-title: "Set up the Notes control to access information about posts (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Set up the Notes control to access information about posts (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: f10cdf1c-3540-439c-a171-27a10e72da45
 caps.latest.revision: 63
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
- In Dynamics 365 Customer Engagement forms for certain system entities using the [Updated forms](main-form-presentations.md#updated-forms),  the Notes control provides the ability to access information about **Posts**, **Activities**, and **Notes**. For custom entities where you have enabled notes and activities, you will only see **Notes** and **Activities**. To include **Posts** you must enable them for the custom entity.  
+ In Dynamics 365 for Customer Engagement forms for certain system entities using the [Updated forms](main-form-presentations.md#updated-forms),  the Notes control provides the ability to access information about **Posts**, **Activities**, and **Notes**. For custom entities where you have enabled notes and activities, you will only see **Notes** and **Activities**. To include **Posts** you must enable them for the custom entity.  
   
 ## Enable posts for a custom entity  
   

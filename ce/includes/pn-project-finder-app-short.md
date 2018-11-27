@@ -1,1 +1,1 @@
-Project Finder - Dynamics 365
+Project Finder - Dynamics 365 for Customer Engagement

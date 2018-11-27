@@ -1,6 +1,6 @@
 ---
-title: "Use Web API actions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-descriptions: "Actions are reusable operations that can be performed using the Web API. These are used with a POST request to modify data on Dynamics 365"
+title: "Use Web API actions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+descriptions: "Actions are reusable operations that can be performed using the Web API. These are used with a POST request to modify data on Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 53eafd67-385a-485b-9022-5127df08ea2f
 caps.latest.revision: 14
 author: "JimDaly"

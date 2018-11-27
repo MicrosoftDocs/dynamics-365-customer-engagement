@@ -1,5 +1,5 @@
 ---
-title: "Add report navigation (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Add report navigation (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: a12434b2-dfb4-44c8-93fe-640084360d9c
 caps.latest.revision: 14
 author: "Mattp123"
@@ -31,7 +31,7 @@ Report navigation enables a dynamic and interactive reporting experience. By usi
 > [!NOTE]
 >  For more information about report navigation, see [Drillthrough, Drilldown, Subreports, and Nested Data Regions (Report Builder and SSRS)](https://technet.microsoft.com/library/dd207141.aspx) in the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] documentation. This topic describes report navigation that is specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] reports.  
   
-## Dynamic drill through to Dynamics 365  
+## Dynamic drill through to Dynamics 365 for Customer Engagement  
  You can drill through a report to navigate to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web form. A drill-through report is implemented in the following steps:  
   
 1. An image or value item (such as a text box) is added to a report. The `Value` property of this item contains code that builds a URL by using the base address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plus parameters that refer to a specific record.  
@@ -40,7 +40,7 @@ Report navigation enables a dynamic and interactive reporting experience. By usi
   
 3. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] loads the information for the specified entity into a web form that is displayed in the browser window.  
   
-### To set up a drill-through report in Dynamics 365  
+### To set up a drill-through report in Dynamics 365 for Customer Engagement  
   
 1. Create a hidden parameter of type string in the report that has the name CRM_URL. For more information about adding parameters, see [Use Parameters in Reports](../analytics/use-parameters-in-reports.md). When the report is run, this parameter is automatically set to the web address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

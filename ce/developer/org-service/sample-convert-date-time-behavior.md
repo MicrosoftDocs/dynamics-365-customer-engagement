@@ -1,6 +1,6 @@
 ---
-title: "Sample: Convert date and time behavior (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The sample demonstrates how to use the ConvertDateAndTimeBehaviorRequest message to convert the UTC value to DateOnly value of the date and time attribute in Dynamics 365 Customer Engagement that exist in the system before you changed the behavior of the attribute from UserLocal to DateOnly."
+title: "Sample: Convert date and time behavior (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The sample demonstrates how to use the ConvertDateAndTimeBehaviorRequest message to convert the UTC value to DateOnly value of the date and time attribute in Dynamics 365 for Customer Engagement that exist in the system before you changed the behavior of the attribute from UserLocal to DateOnly."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: cd9d4906-9f98-4c7e-9e0a-9b40ed4dc7f2
 caps.latest.revision: 18
 author: "KumarVivek"
@@ -32,7 +32,7 @@ This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.Convert
 
 1. Have access to a [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] organization.  
 
-2. Have the System Administrator role in your Dynamics 365 organization to be able to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message that is demonstrated in this sample. Otherwise, this sample will fail.  
+2. Have the System Administrator role in your Dynamics 365 for Customer Engagement organization to be able to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message that is demonstrated in this sample. Otherwise, this sample will fail.  
 
 3. [Download](http://go.microsoft.com/fwlink/p/?LinkId=534240) the DateTimeAttributeBehavior[!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project.  
 
@@ -57,7 +57,7 @@ This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.Convert
 
    5.  Retrieves the value in the date and time attribute in both the account records. Because the behavior is changed, both the values are displayed as March 31, 2015 00:00:00. However, the value in the first account record continues to be in the UTC (March 31, 2015 11:00 PM) in the database.  
 
-3. Runs the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> SDK message to create an async job for converting the UTC values in the date and time attribute to a `DateOnly` value. The conversion rule in the SDK message converts the value as per the India Standard Time (IST) time zone code in Dynamics 365 (190).  
+3. Runs the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> SDK message to create an async job for converting the UTC values in the date and time attribute to a `DateOnly` value. The conversion rule in the SDK message converts the value as per the India Standard Time (IST) time zone code in Dynamics 365 for Customer Engagement (190).  
 
    [!code-csharp[DateTimeAttributeBehavior#ConvertDateandTimeBehavior1](../../snippets/csharp/CRMV8/datetimeattributebehavior/cs/convertdateandtimebehavior1.cs#convertdateandtimebehavior1)]  
 
@@ -93,7 +93,7 @@ This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.Convert
 
    |                                 Prompt                                  |                                                                                              Description                                                                                               |
    |-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Enter a Dynamics 365 server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 server. The default is [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
+   |      Enter a Dynamics 365 for Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 for Customer Engagement server. The default is [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
    | Is this organization provisioned in Microsoft online services (y/n) [n] |                                                   Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.                                                   |
    |                          Enter domain\username                          |                                                                                      Type your Microsoft account.                                                                                      |
    |                             Enter password                              |                        Type your password. The characters will show as “\*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.                        |

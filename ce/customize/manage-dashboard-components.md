@@ -1,5 +1,5 @@
 ---
-title: "Manage dashboard components (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Manage dashboard components (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "Mattp123"
 ms.assetid: 5b367ed0-0f52-42f9-95b9-164b2be6ca3c
 caps.latest.revision: 25
@@ -34,7 +34,7 @@ You can create and design dashboards to show the information that you want exact
   
     -   In the web app: Click **Dashboards**.  
   
-    -   In Dynamics 365 for Outlook: Click **My Work** > **Dashboards**.  
+    -   In Dynamics 365 for Customer Engagement for Outlook: Click **My Work** > **Dashboards**.  
   
 3.  Click **New**.  
   

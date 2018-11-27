@@ -1,6 +1,6 @@
 ---
-title: "Build web applications using Server-to-Server (S2S) authentication (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read how you can use server-to-server (S2S) authentication to securely and seamlessly communicate with Dynamics 365 (online) through your web applications and services and know about various scenarios where you can use S2S authentication"
+title: "Build web applications using Server-to-Server (S2S) authentication (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read how you can use server-to-server (S2S) authentication to securely and seamlessly communicate with Dynamics 365 for Customer Engagement (online) through your web applications and services and know about various scenarios where you can use S2S authentication"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 11ce3adf-8a27-430e-a153-124522787ad9
 caps.latest.revision: 9
 author: "JimDaly"
@@ -48,4 +48,4 @@ This feature was introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm
  [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md)   
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
- [Connect to Dynamics 365](connect-customer-engagement.md)
+ [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)

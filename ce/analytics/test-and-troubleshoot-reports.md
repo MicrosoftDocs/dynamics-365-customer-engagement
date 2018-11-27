@@ -1,5 +1,5 @@
 ---
-title: "Test and troubleshoot reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Test and troubleshoot reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: c9f06327-3b52-4850-a415-d5f59b9e29aa
 caps.latest.revision: 12
 author: "Mattp123"

@@ -1,5 +1,5 @@
 ---
-title: "Search and Find in Dynamics 365 | MicrosoftDocs"
+title: "Search and Find in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/24/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: d0634607-b17f-4f33-aa15-e26ebed441f7
 caps.latest.revision: 2
 ms.author: "t-mijosh"
@@ -53,5 +53,5 @@ The following table provides a brief comparison of the four available options.
 
 ### See also  
 
- [Search for records - User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
+ [Search for records - User Guide (Dynamics 365 for Customer Engagement for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
  [Configure Relevance Search to improve search results and performance (Administrator Guide)](../admin/configure-relevance-search-organization.md)

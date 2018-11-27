@@ -1,5 +1,5 @@
 ---
-title: "The full-text indexes on the Microsoft Dynamics 365 database are not consistent with previous versions full-text indexes | Microsoft Docs"
+title: "The full-text indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent with previous versions full-text indexes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.reviewer: ""
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# The full-text indexes on the Microsoft Dynamics 365 database are not consistent with previous versions' full-text indexes
+# The full-text indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent with previous versions' full-text indexes
 
 ## Cause
   

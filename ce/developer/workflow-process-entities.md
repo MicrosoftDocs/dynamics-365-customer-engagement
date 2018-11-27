@@ -1,6 +1,6 @@
 ---
-title: "Workflow and process entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The Dynamics 365 Customer Engagement workflow object model is a set of classes that uses the Windows Workflow Foundation object model and exposes Dynamics 365 workflow activities. These classes are found in the Microsoft.Xrm.Sdk.Workflow assembly."
+title: "Workflow and process entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The Dynamics 365 for Customer Engagement workflow object model is a set of classes that uses the Windows Workflow Foundation object model and exposes Dynamics 365 for Customer Engagement workflow activities. These classes are found in the Microsoft.Xrm.Sdk.Workflow assembly."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1b40f46a-31f1-4c2a-8e50-f3641b8d8973
 caps.latest.revision: 20
 author: "JimDaly"
@@ -47,7 +47,7 @@ There are two messages you can use to work with processes. <xref:Microsoft.Crm.S
 ### See also
 
  [Supported Types, Triggers, and Entities for Processes](supported-types-triggers-entities-actions-processes.md)<br />
- [Processes in Dynamics 365 (formerly Workflows)](automate-business-processes-customer-engagement.md)<br />
+ [Processes in Dynamics 365 for Customer Engagement (formerly Workflows)](automate-business-processes-customer-engagement.md)<br />
  [WorkFlow Entity](entities/workflow.md)<br />
  [WorkFlowLog Entity](entities/workflowlog.md)<br />
   <!-- Bug 700905 

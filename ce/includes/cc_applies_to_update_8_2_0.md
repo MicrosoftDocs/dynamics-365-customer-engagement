@@ -1,1 +1,1 @@
-Applies to Dynamics 365 (online), version 8.x
+Applies to Dynamics 365 for Customer Engagement (online), version 8.x

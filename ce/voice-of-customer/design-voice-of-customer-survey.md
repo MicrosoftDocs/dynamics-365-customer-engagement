@@ -1,5 +1,5 @@
 ---
-title: "Design your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
+title: "Design your Voice of the Customer for Dynamics 365 for Customer Engagement survey | MicrosoftDocs"
 description: ""
 ms.assetid: e5b40c86-a518-48d0-9bf5-88915e73bf5b
 ms.custom:
@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey
 author: sbmjais
 ms.author: shjais

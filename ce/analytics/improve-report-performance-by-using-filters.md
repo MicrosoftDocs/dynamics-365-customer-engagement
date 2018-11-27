@@ -1,5 +1,5 @@
 ---
-title: "Improve report performance by using filters (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Improve report performance by using filters (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 65af0819-705e-4628-ad2f-05df9211c374
 caps.latest.revision: 15
 author: "Mattp123"
@@ -111,4 +111,4 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Dynamics 365 (online) Reporting Considerations](../analytics/reporting-considerations.md)
+ [Dynamics 365 for Customer Engagement (online) Reporting Considerations](../analytics/reporting-considerations.md)

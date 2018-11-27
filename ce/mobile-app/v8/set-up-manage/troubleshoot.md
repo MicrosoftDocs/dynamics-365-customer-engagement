@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+title: "Troubleshooting Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/22/2018
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement (online)
 author: "mduelae"
 ms.assetid: 613288f5-1c9a-420e-ba06-8d1b1f6675b0
 caps.latest.revision: 141
@@ -33,17 +33,17 @@ The following are known issues with [!INCLUDE[pn_moca_full](../../../includes/pn
 ## Important considerations  
  Before you begin to configure [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)], it’s important to review the requirements:  
   
-- **Understand what operating systems, devices, and languages are supported**. Review the requirements in [Support for Dynamics 365 for tablets](support.md).  
-- Be aware that **Internet-facing deployment (IFD) is required if you’re using Dynamics 365 (on-premises)**. The system administrator must configure claims-based authentication before users can access Dynamics 365 data with Dynamics 365 for tablets. If you have your Dynamics 365 website available over the Internet but it is not using the Dynamics 365 IFD configuration, **it is not supported**. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 Deployment Manager on your Dynamics 365 server. The **Authentication Summary** section should show that both claims-based authentication and Internet-facing deployment are enabled. More information: [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx) 
+- **Understand what operating systems, devices, and languages are supported**. Review the requirements in [Support for Dynamics 365 for Customer Engagement for tablets](support.md).  
+- Be aware that **Internet-facing deployment (IFD) is required if you’re using Dynamics 365 for Customer Engagement (on-premises)**. The system administrator must configure claims-based authentication before users can access Dynamics 365 for Customer Engagement data with Dynamics 365 for Customer Engagement for tablets. If you have your Dynamics 365 for Customer Engagement website available over the Internet but it is not using the Dynamics 365 for Customer Engagement IFD configuration, **it is not supported**. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 for Customer Engagement Deployment Manager on your Dynamics 365 for Customer Engagement server. The **Authentication Summary** section should show that both claims-based authentication and Internet-facing deployment are enabled. More information: [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/dn609803.aspx) 
 
-  ![Dynamics 365 IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 IFD settings")
+  ![Dynamics 365 for Customer Engagement IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 for Customer Engagement IFD settings")
 
 - [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] uses a security privilege, **[!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
 <a name="BKMK_PotentialIssues"></a>   
 
 ## Potential issues and resolutions  
-<!--Use the error message that appears in the app to identify a potential fix listed in this topic. Be aware that an error may have multiple causes. To narrow down the possibilities, system administrators can use tracing to capture details for analysis. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing)  -->
+<!--Use the error message that appears in the app to identify a potential fix listed in this topic. Be aware that an error may have multiple causes. To narrow down the possibilities, system administrators can use tracing to capture details for analysis. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Enable tracing for Dynamics 365 for Customer Engagement for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing)  -->
   
 <a name="BKMK_Errors"></a>   
 
@@ -74,10 +74,10 @@ If you receive this error:
 |             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Users:**  |                                                                                                                                                                                                                                                                     Notify your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] administrator that you received this error.                                                                                                                                                                                                                                                                     |
-| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](set-up.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
+| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for Customer Engagement for phones and tablets](set-up.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Customer Engagement for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
   
 ##### If you’re using a Windows phone  
- You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](support.md)  
+ You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Customer Engagement for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for Customer Engagement for phones and tablets](support.md)  
   
 
 #### Error message: “This record is unavailable.”  
@@ -128,7 +128,7 @@ If you receive this error:
   
  `“Dynamics CRM [Error] | Connection error: 404”`  
   
- **Cause 2**: Your Dynamics 365  version is not supported. See [What's supported](support.md) for version support information.  
+ **Cause 2**: Your Dynamics 365 for Customer Engagement  version is not supported. See [What's supported](support.md) for version support information.  
   
  **Cause 4**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] in your browser on your device.  
   
@@ -138,7 +138,7 @@ If you receive this error:
  `“Dynamics CRM [Error] | Connection error: 0”`  
   
 #### Error message: "You haven't been authorized to use this app. Check with your system administrator to update your settings."  
- **Cause 1**: Verify that your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security role includes the **Use [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up.md).  
+ **Cause 1**: Verify that your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security role includes the **Use [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](set-up.md).  
   
  **Cause 3**: This error can occur if you have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization and your user has not been assigned a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license. If you add a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] subscription to an existing [!INCLUDE[pn_MS_Office_365](../../../includes/pn-ms-office-365.md)] tenant, your user may not have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license assigned. If the user has the Global Administrator or Service Administrator role in the [Microsoft Online Service Portal](https://portal.microsoftonline.com/), you’re able to sign in to the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] web application to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. When you sign in to the web application, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
   
@@ -146,7 +146,7 @@ If you receive this error:
   
  Access the **Users and Groups** section within the [Microsoft Online Service Portal](https://portal.microsoftonline.com/) and verify you have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license assigned to your user record.  
   
- ![Terry Adam's Dynamics 365 License](../../../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 License")  
+ ![Terry Adam's Dynamics 365 for Customer Engagement License](../../../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 for Customer Engagement License")  
   
 #### Error message: "You need an internet connection to use this app. Reconnect and try again."  
  **Cause 1**: This error can occur if you do not have an Internet connection. Verify you are connected to the Internet and can access the same URL in your web browser.  
@@ -154,7 +154,7 @@ If you receive this error:
  **Cause 2**: Check if you are using a preview build of Windows 8.1. So far this issue has only been reported with the preview version of Windows 8.1.  
   
 #### Error message: "Sorry, something went wrong while initializing the app. Please try again, or restart the app."  
- **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up.md).  
+ **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](set-up.md).  
   
  **Cause 2**: See the following KB article:  
   
@@ -176,7 +176,7 @@ If you receive this error:
  `“XMLHttpRequest: Network Error 0x2ef3, Could not complete the operation due to error 00002ef3.”`  
   
 #### Error message: “The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language.”  
- **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for tablets: Set up and use](http://go.microsoft.com/fwlink/p/?LinkID=325404) and expand **What you need to use Dynamics 365 for tablets** and **Supported Languages**.  
+ **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for Customer Engagement for tablets: Set up and use](http://go.microsoft.com/fwlink/p/?LinkID=325404) and expand **What you need to use Dynamics 365 for Customer Engagement for tablets** and **Supported Languages**.  
   
 #### Error message: “The process assigned to this record is unavailable or has been deleted.”  
  If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] with your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data. Close the [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] app, reopen, and then choose to download the latest customizations. This procedure forces [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched. You can’t choose which data synchronizes to the device like you can with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
@@ -267,7 +267,7 @@ If you receive this error:
 #### [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] users are repeatedly prompted for sign-in credentials and can’t sign in  
  **Cause**: This can occur if certain directories under the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] website have Windows Authentication enabled. For [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] to successfully connect to a new deployment of [!INCLUDE[pn_crm_2013_server](../../../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../../../includes/pn-crm-2015-server.md)], you must run a **Repair** of [!INCLUDE[pn_crm_2013_server](../../../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../../../includes/pn-crm-2015-server.md)], on the server running IIS where the Web Application Server role is installed after the Internet-Facing Deployment Wizard is successfully completed.  
   <!-- 
- For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 Server](../Topic/Uninstall,%20change,%20or%20repair%20Microsoft%20Dynamics%20365%20Server.md).  -->
+ For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 for Customer Engagement Server](../Topic/Uninstall,%20change,%20or%20repair%20Microsoft%20Dynamics%20365%20Server.md).  -->
   
 > [!IMPORTANT]
 >  To resolve this issue by running **Repair**, the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] deployment must already be configured for claims-based authentication and IFD.  
@@ -282,9 +282,9 @@ If you receive this error:
  ![ADFS Sign&#45;in prompt](../../../admin/media/mobile-app-adfs-login-2.png "ADFS Sign-in prompt")  
   
 #### Redirected URLs do not work when you configure [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
- URLs that redirect, such as [!INCLUDE[pn_iis](../../../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 web address** field with [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] during configuration.  
+ URLs that redirect, such as [!INCLUDE[pn_iis](../../../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 for Customer Engagement web address** field with [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] during configuration.  
   
- For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
+ For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 for Customer Engagement online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
 1.  User entered URL: *https://URL_entered*  
   
@@ -292,7 +292,7 @@ If you receive this error:
   
 3.  HTTP Response location: *https://URL_that_the_response_came_from*  
   
- <!-- To enable logging, see [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
+ <!-- To enable logging, see [Enable tracing for Dynamics 365 for Customer Engagement for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
   
 <a name="BKMK_RegardingCustomization"></a>   
 ### Regarding customization  
@@ -325,7 +325,7 @@ If you receive this error:
  If you enable Private Browsing on your iPad in your Safari browser, you will see the following error message when you attempt to connect to your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] organization: “[!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] has encountered an error.” You will need to disable Private Browsing. Tap the address bar, and then tap **Private**.  
   
 #### Web app differences in mobile browsers  
- For differences you can expect to find in the web app when you’re accessing it from a mobile device, see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support.md).  
+ For differences you can expect to find in the web app when you’re accessing it from a mobile device, see [Support for Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](support.md).  
   
 <a name="BKMK_Other"></a>   
 ### Other  
@@ -380,7 +380,7 @@ The following are some suggested details to provide:
   
 - Does the issue still occur after uninstalling the app and reinstalling it?  
  
-<!-- -   Please provide traces. See [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
+<!-- -   Please provide traces. See [Enable tracing for Dynamics 365 for Customer Engagement for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
  
 -   What type of device (ex. iPad 4th Generation, Microsoft Surface, etc…) are you using and what is the version of the operating system (ex. iOS 6.0, Windows 8, etc…)?  
   

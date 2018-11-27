@@ -1,5 +1,5 @@
 ---
-title: "Configure a contact for use on a portal in Dynamics 365  | MicrosoftDocs"
+title: "Configure a contact for use on a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to add and configure a contact to be used in a portal."
 ms.custom: 
   - dyn365-portal

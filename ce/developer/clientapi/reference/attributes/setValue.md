@@ -3,7 +3,7 @@ title: "setValue (Client API reference)| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 1324b465-6012-47d4-bf35-837df82014cb
 author: "KumarVivek"
 ms.author: "kvivek"
@@ -50,7 +50,7 @@ Depends on the type of attribute.
 
 > [!NOTE]
 > Updating an attribute using **setValue** will not cause the **OnChange** event handlers to run. If you want the **OnChange** event handlers to run you must use [fireOnChange](../attributes/fireOnChange.md) in addition to **setValue**. <br/><br/>
-When Microsoft Dynamics 365 for tablets is not connected to the server, **setValue** will not work.<br/><br/>You cannot set the value of composite attributes. More information: [Write
+When Microsoft Dynamics 365 for Customer Engagement for tablets is not connected to the server, **setValue** will not work.<br/><br/>You cannot set the value of composite attributes. More information: [Write
     scripts for composite
     attributes](../composite-attributes.md).
 

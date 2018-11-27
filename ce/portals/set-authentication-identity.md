@@ -1,5 +1,5 @@
 ---
-title: "Set authentication identity for a portal in Dynamics 365  | MicrosoftDocs"
+title: "Set authentication identity for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
 keywords: "portal authentication"
 ms.date: 04/12/2018
@@ -274,7 +274,7 @@ Settings for modifying the default authentication cookie behavior. Defined by th
 
 ### See also
 
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

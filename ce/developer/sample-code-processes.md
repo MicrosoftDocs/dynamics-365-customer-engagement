@@ -1,5 +1,5 @@
 ---
-title: "Sample code for Dynamics 365 processes (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample code for Dynamics 365 for Customer Engagement processes (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This section contains code examples that show how to use the workflow (process) entity"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "workflow, sample"
 ms.assetid: f1be98f9-5146-492d-8183-bf610a34c588
@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample code for Dynamics 365 processes
+# Sample code for Dynamics 365 for Customer Engagement processes
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: b9437469-70b5-4a3c-ae49-115522fb5cee
@@ -42,6 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[optionsets#DumpOptionSetInfo](../../snippets/csharp/CRMV8/optionsets/cs/dumpoptionsetinfo.cs#dumpoptionsetinfo)]  
   
 ### See also  
- [Use the Organization service with Dynamics 365 metadata](use-organization-service-metadata.md)   
- [Customize Global Option Sets in Dynamics 365](../org-service/customize-global-option-sets.md)   
+ [Use the Organization service with Dynamics 365 for Customer Engagement metadata](use-organization-service-metadata.md)   
+ [Customize Global Option Sets in Dynamics 365 for Customer Engagement](../org-service/customize-global-option-sets.md)   
  [Global Option Set Messages](customize-global-option-sets.md#messages)   

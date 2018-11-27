@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "samples"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 4ac5886d-a521-498c-b063-831113b507bc
 caps.latest.revision: 19
 author: "JimDaly"
@@ -28,9 +28,9 @@ This topic contains sample dashboards along with the respective FormXML strings.
   
 <a name="Sample1"></a>   
 ## Dashboard with charts and grids  
- The following is a sample dashboard that has four components: three charts and a grid. This is one of the default organization-owned dashboards, **Microsoft Dynamics 365 Overview**, available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement.  
+ The following is a sample dashboard that has four components: three charts and a grid. This is one of the default organization-owned dashboards, **Microsoft Dynamics 365 for Customer Engagement Overview**, available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement.  
   
- ![Sample dashboard: Microsoft Dynamics 365 Overview](../media/dashboard-sample.png "Sample dashboard: Microsoft Dynamics 365 Overview")  
+ ![Sample dashboard: Microsoft Dynamics 365 for Customer Engagement Overview](../media/dashboard-sample.png "Sample dashboard: Microsoft Dynamics 365 for Customer Engagement Overview")  
   
 ### FormXML  
  The following sample shows the FormXML for this dashboard.  
@@ -211,5 +211,5 @@ This topic contains sample dashboards along with the respective FormXML strings.
 ```  
   
 ### See also  
- [Dashboards for Microsoft Dynamics 365](analyze-data-with-dashboards.md)   
+ [Dashboards for Microsoft Dynamics 365 for Customer Engagement](analyze-data-with-dashboards.md)   
  [Dashboard Entities](dashboard-entities.md)

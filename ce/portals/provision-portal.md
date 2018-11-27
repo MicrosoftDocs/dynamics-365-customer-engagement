@@ -1,5 +1,5 @@
 ---
-title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
+title: "Provision a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
@@ -46,7 +46,7 @@ To complete provisioning a portal, after you have purchased a new portal license
 
     > [!NOTE]
     > - To change the URL of a portal after it is provisioned, see [change the base URL of a portal](change-base-url.md).
-    > - To link your portal to a custom domain, see [link your Dynamics 365 portal to a custom domain](manage-portal.md#link-your-dynamics-365-portal-to-a-custom-domain).
+    > - To link your portal to a custom domain, see [link your Dynamics 365 for Customer Engagement portal to a custom domain](manage-portal.md#link-your-dynamics-365-portal-to-a-custom-domain).
 
 6.  Use the **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
 
@@ -144,14 +144,14 @@ If the package installation has failed, the portal administrator page will open 
 > [!Note]
 > Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
 
-## Dynamics 365 Portal app
+## Dynamics 365 for Customer Engagement Portal app
 
-The Dynamics 365 Portal app allows you to configure and manage your online platform to communicate and collaborate with customers. 
+The Dynamics 365 for Customer Engagement Portal app allows you to configure and manage your online platform to communicate and collaborate with customers. 
 
-When you install Dynamics 365 Portal version 9.0 and higher, the Dynamics 365 Portal app, built on the Unified Interface framework, is created out-of-the-box.
+When you install Dynamics 365 for Customer Engagement Portal version 9.0 and higher, the Dynamics 365 for Customer Engagement Portal app, built on the Unified Interface framework, is created out-of-the-box.
 
-### Open Dynamics 365 Portal app
+### Open Dynamics 365 for Customer Engagement Portal app
 
-1.	Sign in to Dynamics 365.
+1.	Sign in to Dynamics 365 for Customer Engagement.
 2.	Open the URL `<organization URL>/apps` or go to **Settings** > **My Apps**. 
-3.	Select the Dynamics 365 Portal app.
+3.	Select the Dynamics 365 for Customer Engagement Portal app.

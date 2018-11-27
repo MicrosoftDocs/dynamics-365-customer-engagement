@@ -1,5 +1,5 @@
 ---
-title: "Sales literature entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sales literature entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Create and manage sales literature items to associate attachments and articles to enrich an organization’s sales information."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 helpviewer_keywords: 
   - "sales literature entities, sales literature items and attachments"
   - file attachments, see 'sales literature entities'
@@ -89,6 +89,6 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in [!I
  [SalesLiteratureItem Entity](entities/salesliteratureitem.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 for Customer Engagement](model-business-data.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)

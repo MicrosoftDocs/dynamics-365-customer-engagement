@@ -1,5 +1,5 @@
 ---
-title: "Maintain managed solutions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Maintain managed solutions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 25aab712-8e0e-465e-8295-b0f0664c1d0b
 caps.latest.revision: 40
 author: "JimDaly"
@@ -27,7 +27,7 @@ Before you release your managed solution you should consider how you will mainta
 
 <a name="BKMK_VersionCompatibilty"></a>   
 ## Version compatibility  
- Any solution exported from a newer version of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement cannot be imported into an older version of Dynamics 365. This includes major and minor versions. Solutions exported from an earlier version of Dynamics 365 can be imported into later versions as shown in the following chart.  
+ Any solution exported from a newer version of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement cannot be imported into an older version of Dynamics 365 for Customer Engagement. This includes major and minor versions. Solutions exported from an earlier version of Dynamics 365 for Customer Engagement can be imported into later versions as shown in the following chart.  
   
 ![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png)
 

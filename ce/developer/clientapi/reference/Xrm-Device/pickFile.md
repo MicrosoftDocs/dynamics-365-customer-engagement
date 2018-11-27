@@ -3,7 +3,7 @@ title: "pickFile| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: c777a0b8-2b07-458b-8a4f-8938f7a2e696
 author: "KumarVivek"
 ms.author: "kvivek"

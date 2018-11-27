@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 53eeb95f-ed92-4a4b-9198-fbec3c855ee6
 caps.latest.revision: 15
 author: "JimDaly"
@@ -118,4 +118,4 @@ The following is the schema definition for the <xref:Microsoft.Crm.Sdk.Messages.
 ### See also  
  <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest>   
  [Publish Customizations](publish-customizations.md)   
- [Schemas Used in Microsoft Dynamics 365](../schemas-used-dynamics-365.md)
+ [Schemas Used in Microsoft Dynamics 365 for Customer Engagement](../schemas-used-dynamics-365.md)

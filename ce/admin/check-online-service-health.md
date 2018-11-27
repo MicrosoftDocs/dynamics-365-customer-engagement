@@ -1,5 +1,5 @@
 ---
-title: "How do I check my online service health for Dynamics 365 (online)? | MicrosoftDocs"
+title: "How do I check my online service health for Dynamics 365 for Customer Engagement (online)? | MicrosoftDocs"
 ms.custom: ""
 ms.date: 06/13/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: c16f1162-f8f4-4ce2-9749-3d0293540d3f
 caps.latest.revision: 4
 author: "jimholtz"
@@ -36,7 +36,7 @@ You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest]
   
 <a name="BKMK_TenantHealth"></a>   
 
-## View Dynamics 365 (online) service health  
+## View Dynamics 365 for Customer Engagement (online) service health  
 Select an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service, such as [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)],  to get detailed information on its service health status.  
   
 ![Office 365 Admin Center service issue](../admin/media/office-365-admin-center-service-issue.png "Office 365 Admin Center service issue")  

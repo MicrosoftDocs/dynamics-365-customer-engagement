@@ -1,6 +1,6 @@
 ---
 title: "eBooks and videos | Microsoft Docs"
-description: "Find the latest videos and eBooks for Dynamics 365."
+description: "Find the latest videos and eBooks for Dynamics 365 for Customer Engagement."
 keywords: "videos, redirect"
 ms.date: 01/15/2018
 ms.service: dynamics-365-marketing

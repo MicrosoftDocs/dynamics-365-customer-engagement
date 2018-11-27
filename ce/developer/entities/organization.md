@@ -1,11 +1,11 @@
 ---
-title: "Organization Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Organization Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Organization entity."
 ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
@@ -17,7 +17,7 @@ search.app:
 ---
 # Organization Entity Reference
 
-Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
+Top level of the Microsoft Dynamics 365 for Customer Engagement business hierarchy. The organization can be a specific business, holding company, or corporation.
 
 
 ## Messages
@@ -951,7 +951,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all cases throughout Microsoft Dynamics 365.|
+|Description|Prefix to use for all cases throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Case Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -967,7 +967,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Type the prefix to use for all categories in Microsoft Dynamics 365.|
+|Description|Type the prefix to use for all categories in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Category Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -983,7 +983,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all contracts throughout Microsoft Dynamics 365.|
+|Description|Prefix to use for all contracts throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Contract Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1105,7 +1105,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for currency throughout Microsoft Dynamics 365.|
+|Description|Symbol used for currency throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Currency Symbol|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1315,7 +1315,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.|
+|Description|Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Date Separator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1331,7 +1331,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for decimal in Microsoft Dynamics 365.|
+|Description|Symbol used for decimal in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Decimal Symbol|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1555,7 +1555,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|Server-Side Synchronization|
-|1|Microsoft Dynamics 365 Email Router|
+|1|Microsoft Dynamics 365 for Customer Engagement Email Router|
 
 
 
@@ -2394,7 +2394,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.|
+|Description|Indicates whether incoming email sent by internal Microsoft Dynamics 365 for Customer Engagement users or queues should be tracked.|
 |DisplayName|Ignore Internal Email|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -2518,7 +2518,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.|
+|Description|Prefix to use for all invoice numbers throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Invoice Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -2603,7 +2603,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|
+|Description|Indicates whether loading of Microsoft Dynamics 365 for Customer Engagement in a browser window that does not have address, tool, and menu bars is enabled.|
 |DisplayName|Is Application Mode Enabled|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -3524,7 +3524,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|
+|Description|Indicates whether loading of Microsoft Dynamics 365 for Customer Engagement in a browser window that does not have address, tool, and menu bars is enabled.|
 |DisplayName|ISV Integration Mode|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -3551,7 +3551,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.|
+|Description|Type the prefix to use for all knowledge articles in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Knowledge Article Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -3567,7 +3567,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all articles in Microsoft Dynamics 365.|
+|Description|Prefix to use for all articles in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Article Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -3632,7 +3632,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.|
+|Description|Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Long Date Format|
 |Format|None|
 |IsValidForForm|False|
@@ -4001,7 +4001,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.|
+|Description|Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Negative Currency Format|
 |Format|None|
 |IsValidForForm|False|
@@ -4096,7 +4096,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Specifies how numbers are grouped in Microsoft Dynamics 365.|
+|Description|Specifies how numbers are grouped in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Number Grouping Format|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4112,7 +4112,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for number separation in Microsoft Dynamics 365.|
+|Description|Symbol used for number separation in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Number Separator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4190,7 +4190,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all orders throughout Microsoft Dynamics 365.|
+|Description|Prefix to use for all orders throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Order Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4316,7 +4316,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|PM designator to use throughout Microsoft Dynamics 365.|
+|Description|PM designator to use throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|PM Designator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4491,7 +4491,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all quotes throughout Microsoft Dynamics 365.|
+|Description|Prefix to use for all quotes throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Quote Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4651,10 +4651,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
-|0|No preference for sending an error report to Microsoft about Microsoft Dynamics 365|
+|0|No preference for sending an error report to Microsoft about Microsoft Dynamics 365 for Customer Engagement|
 |1|Ask me for permission to send an error report to Microsoft|
 |2|Automatically send an error report to Microsoft without asking me for permission|
-|3|Never send an error report to Microsoft about Microsoft Dynamics 365|
+|3|Never send an error report to Microsoft about Microsoft Dynamics 365 for Customer Engagement|
 
 
 
@@ -5339,7 +5339,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Text for how time is displayed in Microsoft Dynamics 365.|
+|Description|Text for how time is displayed in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Time Format String|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -5355,7 +5355,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Text for how the time separator is displayed throughout Microsoft Dynamics 365.|
+|Description|Text for how the time separator is displayed throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Time Separator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -5684,7 +5684,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Designated first day of the week throughout Microsoft Dynamics 365.|
+|Description|Designated first day of the week throughout Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Week Start Day Code|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -5798,7 +5798,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.|
+|Description|Information that specifies how the first week of the year is specified in Microsoft Dynamics 365 for Customer Engagement.|
 |DisplayName|Year Start Week Code|
 |Format|None|
 |IsValidForForm|False|
@@ -9282,6 +9282,6 @@ See template Entity [Template_Organization](template.md#BKMK_Template_Organizati
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.organization?text=organization EntityType" />

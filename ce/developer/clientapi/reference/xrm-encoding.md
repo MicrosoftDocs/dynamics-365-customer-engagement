@@ -4,7 +4,7 @@ description: "Xrm.Encoding provides Client API methods to encode and decode stri
 ms.date: 05/09/2018
 ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+applies_to: "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: a6646fc8-c2e4-43fe-95f1-51483de38688
 author: "KumarVivek"
 ms.author: "kvivek"

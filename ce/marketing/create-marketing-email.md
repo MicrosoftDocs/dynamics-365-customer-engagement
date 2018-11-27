@@ -1,6 +1,6 @@
 ---
-title: "Create a marketing email (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a marketing email in Dynamics 365 for Marketing"
+title: "Create a marketing email (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
+description: "A tutorial for how to create a marketing email in Dynamics 365 for Customer Engagement for Marketing"
 keywords: "tutorial; email; marketing email; assist edit; dynamic content"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f19d8015-50ab-4286-af03-dd24ced39308
 author: kamaybac
 ms.author: kamaybac

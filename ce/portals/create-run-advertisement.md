@@ -1,5 +1,5 @@
 ---
-title: "Create and run advertisements on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Create and run advertisements on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create text or image-based advertisements and have them run in multiple placements throughout your site."
 ms.custom: 
   - dyn365-portal
@@ -97,7 +97,7 @@ The Ad Entity has the following attributes:
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Organization service methods (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Organization service methods (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the set of methods that IOrganizationService web service provides that can be used to perform common operations like Create, Retrieve, RetrieveMultiple, Update and Delete on system and custom entities and on the metadata for your organization"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 34f69739-16d5-492c-bfd3-eee6772cd5eb
 caps.latest.revision: 28
 author: "JimDaly"
@@ -62,6 +62,6 @@ The <xref:Microsoft.Xrm.Sdk.IOrganizationService> interface provides a set of me
  [Use ExecuteMultiple to improve performance for bulk data load](use-executemultiple-improve-performance-bulk-data-load.md)<br />
  [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)<br />
  [Microsoft.Crm.Sdk Messages](organization-service-messages.md)<br />
- [Authenticate users in Dynamics 365 Customer Engagement](../authenticate-users.md)<br />
+ [Authenticate users in Dynamics 365 for Customer Engagement](../authenticate-users.md)<br />
  [Sample: Create, Retrieve, Update and Delete (CRUD) Using Strong Types](sample-create-retrieve-update-delete-records-early-bound.md)<br />
  [Sample: Create, Retrieve, Update and Delete (CRUD) Using Property Bag (Loosely-typed)](sample-create-retrieve-update-delete-late-bound.md)
