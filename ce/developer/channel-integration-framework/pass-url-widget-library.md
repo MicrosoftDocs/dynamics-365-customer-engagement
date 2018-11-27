@@ -42,3 +42,10 @@ The widget provider will have to add the following attributes to the script tag 
 Another method is to pass a `uclib` parameter in the landing URL, like `ucilib=https://<crm_domain name>`.
 
 For example: `https://widget.domain.com?ucilib=https://crmorg.crm.dynamics.com`.
+
+## See Also
+
+[Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
+[Add Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)<br />
+[Authenticate channel users to the channel(widget)](authenticate-channel-users.md)

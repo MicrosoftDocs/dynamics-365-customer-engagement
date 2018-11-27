@@ -39,25 +39,7 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
 7. Close the solution window.
 
 8. Export the solution.
-<!--
-## Update a CIF solution
 
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator credentials.  
-  
-2. Select **Admin centers** > **Dynamics 365**  
-  
-3. Select the **Instances** tab.  
-  
-4. Select the instance with the solution to update, and then select **Manage your solutions** ![Manage your solutions](../../admin/media/manage-solution.png "Manage your solutions").  
-  
-   ![Select an instance and Manage your solutions](../../admin/media/select-instance-solution.png "Select an instance and Manage your solutions")
-
-5. Select the solution you want to update, and then select **Upgrade**.  
-  
-   ![Select solution and upgrade](../../admin/media/select-solution-upgrade.png "Select solution and upgrade")
-
-6. Proceed through **Terms of service** to accept the terms and start the upgrade. 
--->
 ## Remove Channel Integration Framework solution as a dependent solution
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
@@ -72,6 +54,13 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
 
 6. Click on **Delete**. Then, click on **Delete** button in the dialog box that opens to confirm that you want to remove CIF as a dependent solution.
 
+> [!div class="nextstepaction"]
+> [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+
 ## See Also
 
-[Get Channel Integration Framework](get-channel-integration-framework.md)
+[Get Channel Integration Framework](get-channel-integration-framework.md)<br />
+[Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
+[Authenticate channel users to the channel(widget)](authenticate-channel-users.md)<br />
+[Pass Dynamics 365 URL to widget library](pass-url-widget-library,md)
