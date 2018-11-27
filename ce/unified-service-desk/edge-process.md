@@ -107,9 +107,7 @@ In the panel, you can all the active Edge process. select the desired webpage to
 
 More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
-## Limitations of Edge process
-
-### RunScript action
+### RunScript action is asynchronous in Edge process
 
 The Edge browser support only the asynchronous operations, and the RunScript action will be asynchronous.
 If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution may fail.
@@ -118,9 +116,102 @@ For example, Your custom code has a RunScript actions that injects the JavaScrip
 
 #### Scenario example 
 
-You create a new record using the CreateEntity on Global Manager in Dynamics 365. After the record is created and you get a return value, which is the GUID of the new record. This new GUID  is a string that will in the form `[[$Return.ActionCallName]]` and placed in replacement parameter list. If you use this return value as input to the next operation, then your custom execution will fail.
+Whenever you open a case, you want to verify if the case is open for 10 or more days, then display a message in a dialog and when you perform an action on the dialog, phone call page is opened for further operations.
 
-To mitigate the code execution failure, you can create custom event and the action call fires the custom event. You need to move the subsequent operations or actions to this custom event to ensure the custom code execution doesn't fail.
+To perform the above-mentioned scenario, you must have an action call that executes a **RunScript** action and returns a value for the next operation. The data on the action call calculates the number of days a case is open. 
+
+Now, you must create an action call with the action, **ExecuteOnDataAvailable**, and the data field must have the return value of the first action call. That is, the return value will in the form `[[$Return.ActionCallName]]`. This ensures after the first action is executed and the return is available, this action call will be executed.
+
+Next, you must create an sub action call to show the number of days a case is in open state. The data field will use the return value form the first action call. That is, `[[$Return.ActionCallName]]`.
+
+You must create another sub action call to open the phone call page and perform the next operation. After seeing the message and you select the OK button on the dialog, and this causes the phone call page to open.
+
+Let us see what configurations you need to do create for the above-mentioned scenario.
+
+#### Step 1: Create a hosted control
+
+1. Go to the Settings > Unified Service Desk > Hosted Controls.
+2. Select + New.
+3. Add the following details and save the hosted control.<br>
+| Field | Value |
+|--------|---------|
+| Name | Incident |
+| Display Name | `[[incident.title]]` |
+| Unified Service Desk Component Type | Unified Interface Page |
+| Hosting Type | Edge process |
+| Display Group | MainPanel |
+
+#### Step 2: Create two action calls
+
+1. Go to the Settings > Unified Service Desk > Action Calls.
+2. Select + New.
+3. Add the following details and save the action call.<br>
+| Field | Value |
+|--------|---------|
+| Name | FindNoOfDaysCaseBeingOpened |
+| Order | 1 |
+| Hosted Control | Incident |
+| Action | RunScript |
+| Data | function findAge(dateString)<br>
+{<br>
+if("[[incident.statuscode]]".indexOf("1") > -1){<br>
+var date1 = new Date(dateString);<br>
+var date2 =new Date();<br>
+var timeDiff = Math.abs(date2.getTime() - date1.getTime());<br>
+var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));<br>
+    return diffDays.toString();<br>
+}<br>
+return 0;<br>
+}<br>
+findAge("[[incident.createdon]]"); |
+4. Repeat the step 3 and 4 to create another action call.<br>
+| Field | Value |
+|--------|---------|
+| Name | DaysValue|
+| Order | 2 |
+| Hosted Control | CRM Global Manager |
+| Action | ExecuteOnDataAvailable |
+| Data | `[[$Return.FindNoOfDaysCaseBeingOpened]]` |
+
+#### Step 3: Create two action calls and add them under the DaysValue action call
+
+1. Go to the Settings > Unified Service Desk > Action Calls.
+2. Select + New.
+3. Add the following details and save the action call.<br>
+| Field | Value |
+|--------|---------|
+| Name | DisplayMessageForCaseOpen |
+| Hosted Control | CRM Global Manager |
+| Action | DisplayMessage |
+| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>
+caption=Case is open |
+4. Repeat the step 3 and 4 to create another action call.<br>
+| Field | Value |
+|--------|---------|
+| Name | OpenPhoneCallPage |
+| Hosted Control | PhoneCall |
+| Action | New_CRM_Page |
+| Data | 		LogicalName=phonecall<br>
+description=Long pending case more than 9 days <br>
+subject=Long pending case <br> |
+| Condition | "[[$Return.FindNoOfDaysCaseBeingOpened]]">9 |
+5. From the list of action calls, select the **DaysValue** action call.
+6. In the navigation bar, next to the **DaysValue** action call, select the *>* icon, and select **Sub Action Call**.
+7. Select the **ADD EXISTING ACTION CALL** option, and in the search field, type the action **DisplayMessageForCaseOpen**, and select the search icon.
+8. To add the action call, select the action call name that appears.
+9. Perform the steps 7 and 8 to add the **OpenPhoneCallPage** action call.
+10. Save the changes.
+
+#### Step 4: Add the action calls to the PageReady event
+
+1. Go to the Settings > Unified Service Desk > Events.
+2. Select the **PageReady** event for the **Incident** hosted control from the list of events.
+3. On the event page, under the **Active Actions** area, click **+** to add action calls.
+4. A search box appears, type **FindNoOfDaysCaseBeingOpened** and select the search icon and select the action call. The action call appears under the **Active Actions** area.
+5. Repeat the step 4 to add the **DaysValue** action.
+6. Save the changes.
+
+## Limitations of Edge process
 
 ### CloseAndPrompt action
 
