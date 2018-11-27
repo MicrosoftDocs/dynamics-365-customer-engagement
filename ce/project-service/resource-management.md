@@ -31,13 +31,12 @@ You can staff your project with a team of generic or named resources in Project 
 You can  add a named (or real) resource to your project team by booking them
 directly onto the team.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of adding a team member from the team tab](../media/RM-how-to-1.png "Screenshot of adding a team member from the team tab")
+![Adding a team member from the team tab](media/RM-how-to-1.png)
 
 To do this, select New on the Team tab of your project.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of adding a team member on the quick create form](../media/RM-how-to-2.png "Screenshot of adding a team member on the quick create form")
+
+![Adding a team member on the quick create form](media/RM-how-to-2.png)
 
 Select the bookable resource. The role will be populated with their default role
 (if they have one), but you can change it if needed. Select the from and to
@@ -59,8 +58,7 @@ Once the resource is part of the team, you can switch to the schedule tab and
 assign them to tasks. The resource picker that is launched from the task grid
 will show the team members for the project under Team Members.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of assigning a team member to a task on the schedule tab](../media/RM-how-to-3.png "Screenshot of assigning a team member to a task on the schedule tab")
+![Assigning a team member to a task on the schedule tab](media/RM-how-to-3.png)
 
 In version 3, resource bookings and task assignments are not tightly coupled. This means that
 when you use the resource picker in the schedule, you can potentially assign tasks to team
@@ -70,170 +68,128 @@ You can see differences in team member bookings and assignments in either the
 team tab or the resource reconciliation tab, where you can reconcile differences between
 bookings and assignments for resources at a detailed level.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of the resource reconciliation tab](../media/RM-how-to-4.png "Screenshot of the resource reconciliation tab")
+![Resource reconciliation tab](media/RM-how-to-4.png)
 
 You can also use the resource picker in the schedule tab to select bookable resources
 that are not already part of the project team. They show on the resource picker as
 Other Resources
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of assigning a non-team member resource to a task](../media/RM-how-to-5.png "Screenshot of a non-team member resource to a task")
+![Assigning a non-team member resource to a task](media/RM-how-to-5.png)
 
 When you do this, the resource is added to the project team and assigned to the task, but no bookings are
 made for them.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of team member with assignments and no bookings](../media/RM-how-to-6.png "Screenshot of a team member with assignements and no bookings")
+![Team member with assignments and no bookings](media/RM-how-to-6.png)
 
 You can use the reconciliation tab’s extend bookings capability or the schedule
 board to book the resource’s capacity to the project.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of extending bookings for a team member on the resource reconciliation tab](../media/RM-how-to-7.png "Screenshot of extending bookings for a team member on the resource reconcilation tab")
+![Extending bookings for a team member on the resource reconciliation tab](media/RM-how-to-7.png)
 
 Once a team member is booked on your project, you can either use maintain
 bookings or use the Schedule Board directly to manage their bookings.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of maintaining bookings for a team member](../media/RM-how-to-8.png "Screenshot of maintaining bookings for a team member")
+![Maintaining bookings for a team member](media/RM-how-to-8.png)
 
-> ![Screenshot of generating a requirement for a generic team member](../media/RM-how-to-12.png "Screenshot of generating a requirement for a generic team member")## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
+![Generating a requirement for a generic team member](media/RM-how-to-12.png)
+
+## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
 
 In addition to booking and assigning named or real resources to your project,
 you can assign generic resources to project tasks. These resources can serve as placeholders for
 named resources until you are ready to staff your project with named resources. This manifests itself
 mainly in the generic resource assignment and fulfilment scenario.
 
-To do this you can type the position name of the generic resource in the
-> [!div class="mx-imgBorder"] resource cell of the schedule or click the resource icon in the cell and open
-the resource picker and type the name of the generic resource you wish to create.
+To do this you can type the position name of the generic resource in the resource cell of the schedule or click the resource icon in the cell and open the resource picker and type the name of the generic resource you wish to create.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of creating and assigning a generic team member](../media/RM-how-to-9.png "Screenshot of creating and assigning a generic team member")
+![Creating and assigning a generic team member](media/RM-how-to-9.png)
 
-This will open a team member quick create panel that allows you to set the role
-and organization unit of the generic resource team member.
+This will open a team member quick create panel that allows you to set the role and organization unit of the generic resource team member.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of generic team member quick create](../media/RM-how-to-10.png "Screenshot of generic team member quick create")
+![Generic team member quick create](media/RM-how-to-10.png)
 
-Once created, it is assigned to the task and you can continue to assign that
-generic resource to other tasks in the task schedule.
+Once created, it is assigned to the task and you can continue to assign that generic resource to other tasks in the task schedule.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of assigning existing generic team member to tasks](../media/RM-how-to-11.png "Screenshot of assigning existing generic team member to tasks")
+![Assigning existing generic team member to tasks](media/RM-how-to-11.png)
 
-Once you have assigned the generic resource you can generate a resource requirement for
-it and fulfil it either by directly booking or submitting a resource request to
-> ![Screenshot of booking a generic team member using schedule assistant](../media/RM-how-to-15.png "Screenshot of booking a generic team member using schedule assistant")a resource manager. 
+Once you have assigned the generic resource you can generate a resource requirement for it and fulfil it either by directly booking or submitting a resource request to a resource manager.
 
-> ![Screenshot of generating a requirement for a generic team member](../media/RM-how-to-12.png "Screenshot of generating a requirement for a generic team member")
+![Booking a generic team member using schedule assistant](media/RM-how-to-15.png) 
 
-Also, on the team member grid, generic resources can
-be added directly in addition to the resource picker experience as documented
-above. They are added with a resource requirement that is based on the start/end
-dates and allocation method specified in the quick create form.
+![Generating a requirement for a generic team member](media/RM-how-to-12.png)
 
-You can see a difference if you add the generic team member directly and then
-assign more tasks to the generic resource than they have required hours to cover. You
-can click Generate Requirement to regenerate the requirement to true up the required hours 
+Also, on the team member grid, generic resources can be added directly in addition to the resource picker experience as documented above. They are added with a resource requirement that is based on the start/end dates and allocation method specified in the quick create form.
+
+You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover. You can click Generate Requirement to regenerate the requirement to true up the required hours 
 against assignments.
 
-You can also click the resource requirement link in the team grid to open the requirement and add skills, preferred
-resources, etc.
+You can also click the resource requirement link in the team grid to open the requirement and add skills, preferred resources, etc.
 
-> ![Screenshot of a resource requirement](../media/RM-how-to-13.png "Screenshot of a resource requirement")
+![Resource requirement](media/RM-how-to-13.png)
 
 ### Booking a named resource directly
 
 You can select a generic resource with a requirement and click Book on the Team tab of the project or open the resource
 requirement and click the book button there.
 
-> ![Screenshot of booking a generic team member](../media/RM-how-to-14.png "Screenshot of booking a generic team member")
+![Booking a generic team member](media/RM-how-to-14.png)
 
 This will open the Schedule Assistant which you use to select and book a named
 resource onto your project team.
 
-> ![Screenshot of booking a generic team member using schedule assistant](../media/RM-how-to-15.png "Screenshot of booking a generic team member using schedule assistant")
+![Booking a generic team member using schedule assistant](media/RM-how-to-15.png)
 
-When the booking is complete and totally fulfilled by a named resource, the
-generic resource is replaced with the named resource on the team.
+When the booking is complete and totally fulfilled by a named resource, the generic resource is replaced with the named resource on the team.
 
-> ![Screenshot of named team member replacing a generic team member](../media/RM-how-to-16.png "Screenshot of a named team member replacing a generic team member")
+![Named team member replacing a generic team member](media/RM-how-to-16.png)
 
 The assignments on the schedule are updated with the named resource as well.
 
-> ![Screenshot of named team member assigned to project tasks](../media/RM-how-to-17.png "Screenshot of a named team member assigned to project tasks")
+![Named team member assigned to project tasks](media/RM-how-to-17.png)
 
 ### Submitting a resource request 
 
-You can also submit a generated resource requirement as a resource request for
-fulfillment by a resource manager persona.
+You can also submit a generated resource requirement as a resource request for fulfillment by a resource manager persona.
 
-Once you have generated a resource requirement for a generic team member, click on the
-Submit Request button.
+Once you have generated a resource requirement for a generic team member, click on the Submit Request button.
 
-> ![Screenshot of submitting a resource request](../media/RM-how-to-18.png "Screenshot of a submitting a resource request")
+![Submitting a resource request](media/RM-how-to-18.png)
 
 The request status of the generic team member will change to Submitted.
 
-Once the request is fulfilled by the resource manager, the generic resource will be
-replaced by a named resource if the resource manager has fulfilled the request
-or the generic resource will remain on the team and the request status will change to Needs Review, if
-the resource manager has proposed a named resource.
+Once the request is fulfilled by the resource manager, the generic resource will be replaced by a named resource if the resource manager has fulfilled the request or the generic resource will remain on the team and the request status will change to Needs Review, if the resource manager has proposed a named resource.
 
 ### Accepting or rejecting a proposed resource 
 
-When the resource manager proposes a named resource back to the project manager,
-the generic team member’s request status changes to Needs Review.
+When the resource manager proposes a named resource back to the project manager, the generic team member’s request status changes to Needs Review.
 
-> ![Screenshot of a generic team member with a proposal](../media/RM-how-to-19.png "Screenshot of a generic team member with a proposal")
+![Generic team member with a proposal](media/RM-how-to-19.png)
 
-Click on the arrow to open to open the team member and click on the Proposed
-Resources tab.
+Click on the arrow to open to open the team member and click on the Proposed Resources tab.
 
-The grid shows the proposed resource’s current bookings and bookings once the
-proposal is accepted. From here you can select the proposed resource and click
-Accept Proposals for them to be booked onto your team.  You can also reject the resource and resubmit the request.
+The grid shows the proposed resource’s current bookings and bookings once the proposal is accepted. From here you can select the proposed resource and click Accept Proposals for them to be booked onto your team.  You can also reject the resource and resubmit the request.
 
-> ![Screenshot of accpeting a resource proposal](../media/RM-how-to-20.png "Screenshot of accepting a resource proposal")
+![Accpeting a resource proposal](media/RM-how-to-20.png)
 
-As with directly fulfilling a generic resource with a named resource, the
-generic resource will be replaced and the assigned tasks will be updated with the named team member.
+As with directly fulfilling a generic resource with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
 
 ## Multiple named resources fulfilling a generic resource 
 
-Fulfilling a requirement for a generic resource with multiple real resources
-follows the same flow as a single resource described above.
+Fulfilling a requirement for a generic resource with multiple real resources follows the same flow as a single resource described above.
 
-For example, here is a task with a duration of 5 days and effort hours of
-120hrs. This task cannot be completed by one resource that works a typical 8hr
-day over a 5 day week.
+For example, here is a task with a duration of 5 days and effort hours of 120hrs. This task cannot be completed by one resource that works a typical 8hr day over a 5 day week.
 
-> ![Screenshot of a task needing 120hrs of effort over 5 days](../media/RM-how-to-21.png "Screenshot of a task needing 120hrs of effort over 5 days")
+![A task that needs 120 hours of effort over five days](media/RM-how-to-21.png)
 
 The requirement is for 120hrs of a Robotics engineert over 5 days, which is 24hrs per day.
 
-> ![Screenshot of the per day requirement](../media/RM-how-to-22.png "Screenshot of the per day requirement")
+![Per day requirement](media/RM-how-to-22.png)
 
 Thus, you will need to book multiple resources to fulfill the requirement.
 
-> ![Screenshot of booking multiple resources to fulfill the requirement](../media/RM-how-to-23.png "Screenshot of booking multiple resources to fulfill the requirement")
+![Booking multiple resources to fulfill the requirement](media/RM-how-to-23.png)
 
-The main difference in this scenario is that the generic resource remains on the
-team with the assignment to the task and the booked real team members are not
-assigned as part of the position. The project manager will then be able to
-assign the work as they see fit to the real resources. The Reconciliation view
-can assist a project manager in breaking up the bookings across multiple
-resources to task assignments. The reason this is not done automatically is
-because in any scenario more complicated than the simple one above, such as
-where you have a bundle of tasks making up the requirement, the intent of how
-the project manager wants to assign, needs to be assumed by the system. Since
-the system cannot understand intent, chances are the assumptions will be
-different than intended and an incorrect or unpredictable result will happen.
-So, the predictable outcome is that the generic remains assigned until the
-project manager deliberately assigns, with the assistance of the Reconciliation
-view.
+The main difference in this scenario is that the generic resource remains on the team with the assignment to the task and the booked real team members are not assigned as part of the position. The project manager will then be able to assign the work as they see fit to the real resources. The Reconciliation view can assist a project manager in breaking up the bookings across multiple resources to task assignments. The reason this is not done automatically is because in any scenario more complicated than the simple one above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system. Since the system cannot understand intent, chances are the assumptions will be different than intended and an incorrect or unpredictable result will happen. 
+Then predictable outcome is that the generic remains assigned until the project manager deliberately assigns, with the assistance of the Reconciliation view.
 
 
