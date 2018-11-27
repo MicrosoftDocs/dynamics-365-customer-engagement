@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Basic tutorials for core scenarios
+# Core marketing tutorials
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -40,7 +40,5 @@ The tutorials in this section provide exercises that illustrate the core functio
 - [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 - [Create an automated customer journey](create-simple-customer-journey.md) that combines email messaging, landing pages, and multiple paths managed by interactive triggers.
-
-- [Set up automatic lead scoring](set-up-lead-scoring.md), which can score leads based on demographic information and interaction records.
 
 The exercises in this chapter build on one another, so we recommend that new users do them all, in order.

@@ -2,7 +2,7 @@
 title: "Set and use waitlists for events (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Marketing"
 keywords: "events; waitlist"
-ms.date: 07/06/2018
+ms.date: 12/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -43,13 +43,13 @@ When new space becomes available, the waitlist reacts as follows:
 1. The identified waitlist record changes its **Invited** field from **No** to **Yes** to indicate that space is now available for that contact. In addition, one of the following occurs, depending on whether the contact is using automatic registration:
 
     - If the waitlist record has **Automatically register** set to **Yes**, then an event registration record is generated for the contact and the associated waitlist record is hidden. You should create a segment that finds these contacts (where (Automatically-register = Yes) and (Invited = Yes)) and then use a customer journey to send them a notification email that they are now registered.
-    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event portal to accept the slot.
+    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event website to accept the slot.
 
 ## Enable a waitlist for an event
 
 To enable or disable the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **General** tab and find the **Venue constraints** area.
 
@@ -67,7 +67,7 @@ To enable or disable the waitlist for any event:
 
 To see who is currently on the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
 
@@ -95,7 +95,7 @@ Talk to your system administrator to make sure the waitlisted entity is being sy
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
 
-1. Go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
+1. [Open the Events work area](open-events.md), go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
 
 1. Check the address bar in your browser, which should show a URL such as:  
 
@@ -154,7 +154,7 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as those described in the previous sections) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event. That way, each time a waitlist record gets moved to invited = true, the related contact will be added to the segment and will get processed by the journey.
 
-Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event portal. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the portal.
+Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the event website.
 
 For a journey sending invites to waitlist contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 
