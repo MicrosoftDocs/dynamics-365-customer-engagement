@@ -36,6 +36,7 @@
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
+## [Resource crews](resource-crews-for-field-service.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 

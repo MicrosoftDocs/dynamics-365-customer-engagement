@@ -1,4 +1,6 @@
 # [Schedule anything with Universal Resource Scheduling](schedule-anything-with-universal-resource-scheduling.md)
+# Configuration
+## [Resource crews](crews.md)
 # URS extensibility
 ## Preferred geospatial data provider
 ### [Use your preferred geospatial data provider](developer/use-preferred-geospatial-data-provider.md)
