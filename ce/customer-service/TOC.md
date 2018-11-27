@@ -24,8 +24,8 @@
 ### [Parent Child Case Settings](define-settings-parent-child-cases.md)
 ### [Routing Rule Sets](create-rules-automatically-route-cases.md)
 ### Automatic Record Creation and Update Rules
-#### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
+#### [Automatically create a case from an email](automatically-create-case-from-email.md)
 ### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
 ### [Service Level Agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
@@ -43,6 +43,7 @@
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
+### [Migrate Service Activity entity](migrate-service-activity-org-service.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
 #### [Resource Categories](resource-categories-service-scheduling.md)
@@ -56,7 +57,7 @@
 #### [Business Closure](set-when-business-closed-csh.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 
-### Legacy Service Scheduling (Customer Service app)
+### Service Scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)

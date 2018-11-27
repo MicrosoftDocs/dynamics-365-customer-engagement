@@ -144,7 +144,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
 ##### Allow usage reporting  
   
-1.  After you open the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md) **Properties** dialog box, select the **Usage Reporting** tab.  
+1.  After you open the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** dialog box, select the **Usage Reporting** tab.  
   
 2.  Select the **Allow organizations to participate anonymously in the [!INCLUDE[pn_Customer_Experience_Program](../includes/pn-customer-experience-program.md)]** option.  
 
