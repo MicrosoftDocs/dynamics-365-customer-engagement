@@ -1,5 +1,5 @@
 ---
-title: "what is Channel Integration Framework (CIF) | Microsoft Docs"
+title: "What is Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn what is Channel Integration Framework (CIF) for Microsoft Dynamics 365 and how to get started using it."
 keywords: ""
 ms.date: 10/01/2018

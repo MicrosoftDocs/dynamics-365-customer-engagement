@@ -27,7 +27,7 @@ Channel Integration Framework is a cloud-to-cloud extensible framework to integr
 Yes, you can integrate two-way communication that enables to set the context of inbound and/or outbound according to your business and process workflows.
 
 ## Does Channel Integration Framework works with Unified Interface Apps?
-yes, Channel Integration Framework works only with Unified Interface Apps.
+Yes, Channel Integration Framework works only with Unified Interface Apps.
 
 ## Is Channel Integration Framework a softphone?
 No, Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 Unified Interface Apps.
