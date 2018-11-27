@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/power-platform/admin/settings-privacy-security
 title: "Set privacy preferences for a Dynamics 365 Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
@@ -23,7 +24,7 @@ search.app:
 ---
 # Set privacy preferences for an organization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Manage users’ data privacy by controlling when to send error notifications, and also let users know how their privacy is protected by displaying your organization’s own privacy statement instead of the one from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)].  
   

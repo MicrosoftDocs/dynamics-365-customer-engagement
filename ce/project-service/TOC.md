@@ -26,6 +26,7 @@
 ## [Why is the price defaulting to zero on expense sales actuals?](FAQ-zero-price-expense-sales-actuals.md)
 ## [Why is the price defaulting to zero on time cost actuals?](FAQ-zero-price-time-cost-actuals.md)
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
+## [Why can’t I delete records from the Actuals entity?](FAQ-deleting-actuals.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## FAQ and troubleshooting 

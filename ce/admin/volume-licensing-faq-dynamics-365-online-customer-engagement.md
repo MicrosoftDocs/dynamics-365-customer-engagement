@@ -23,12 +23,12 @@ search.app:
 ---
 # Volume licensing FAQ
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 As of the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], Dynamics CRM functionality is now included as a part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], a suite of intelligent business applications. Dynamic 365 unifies customer relationship management (CRM) and enterprise resource planning (ERP) capabilities by delivering new applications to help manage specific business functions.  
   
 ### Do you offer volume discounts to businesses?  
- Yes. Discounts are available for [!INCLUDE[pn_Microsoft_Dynamics](../includes/pn-microsoft-dynamics.md)] enterprise agreement customers (typically 250+ licenses) who want to purchase through volume licensing. A Microsoft expert can help you explore the purchasing options for large enterprises and help you determine which is best for you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enterprise Agreements](https://www.microsoft.com/en-us/Licensing/licensing-programs/enterprise.aspx)  
+ Yes. Discounts are available for [!INCLUDE[pn_Microsoft_Dynamics](../includes/pn-microsoft-dynamics.md)] enterprise agreement customers (typically 250+ licenses) who want to purchase through volume licensing. A Microsoft expert can help you explore the purchasing options for large enterprises and help you determine which is best for you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enterprise Agreements](https://www.microsoft.com/Licensing/licensing-programs/enterprise.aspx)  
   
 ### Which volume licensing programs apply to [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement?  
  [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement is available through the Enterprise Agreement, Enterprise Subscription Agreement, and Campus and School Agreement volume licensing programs. The agreement you select will be on the same billing and contract schedule as any existing volume licensing agreements that you might have.  
@@ -71,5 +71,5 @@ As of the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], D
  For assistance with a volume licensing invoice, contact your Microsoft Licensing Solutions Partner.  
   
 ### See also  
- [Enterprise Agreements](https://www.microsoft.com/en-us/Licensing/licensing-programs/enterprise.aspx)  
+ [Enterprise Agreements](https://www.microsoft.com/Licensing/licensing-programs/enterprise.aspx)  
  [Frequently Asked Questions About Product Licensing](https://www.microsoft.com/licensing)

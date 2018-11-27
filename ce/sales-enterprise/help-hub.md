@@ -32,8 +32,6 @@ topic-status: Drafting
 
 <li><a href="../sales-enterprise/embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](../sales-enterprise/embedded-intelligence.md)">Embedded intelligence Overview</a></li>
 
-<li><a href="../sales-enterprise/sales-insights-addon.md" data-raw-source="[Sales insights add-on overview](../sales-enterprise/sales-insights-addon.md)">Sales insights add-on overview</a></li>
-
 </td><td>
 
 <h2>Administer the system</h2>
@@ -44,7 +42,7 @@ topic-status: Drafting
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
-<li><a href="../sales-enterprise/configure-enable-sales-insights-addon.md" data-raw-source="[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)">Administer Sales insights add-on</a></li>
+
 </td></tr>
 
 <tr><td>
@@ -65,32 +63,36 @@ topic-status: Drafting
 <li><a href="../sales-enterprise/relationship-assistant.md" data-raw-source="[Use relationship assistant to guide customer communications](../sales-enterprise/relationship-assistant.md)">Use relationship assistant to guide customer communications</a></li>
 <li><a href="../sales-enterprise/email-engagement.md" data-raw-source="[View message interactions with email engagement](../sales-enterprise/email-engagement.md)">View message interactions with email engagement</a></li>
 <li><a href="../sales-enterprise/auto-capture.md" data-raw-source="[Display related emails with auto capture](../sales-enterprise/auto-capture.md)">Display related emails with auto capture</a></li>
+</td></tr>
 
-<li><a href="../sales-enterprise/relationship-analytics.md" data-raw-source="[View customer activity history with relationship analytics](../sales-enterprise/relationship-analytics.md)">View customer activity history</a></li>
+<tr><td>
 
+<h2>AI for Sales</h2>
+
+<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 AI for Sales</a></li>
+
+</td><td>
+
+<h2>Develop</h2>
+<li><a href="../sales-enterprise/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
+<li><a href="../sales-enterprise/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
 
 </td></tr>
 
 <tr><td>
-<h2>Troubleshooting</h2>
 
+<h2>GDPR</h2>
+<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Sales &amp; GDPR</a></li>
+</td> <td>
+
+<h2>Troubleshooting</h2>
 <li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
 <li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
 
-</td>
-
-<td>
-<h2>GDPR</h2>
-
-<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Sales &amp; GDPR</a></li>
-
-<li><a href="../sales-enterprise/embedded-intelligence-gdpr.md" data-raw-source="[GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)">GDPR for Sales insights add-on</a></li>
-<li><a href="../sales-enterprise/optout-relationship-analytics-gdpr.md" data-raw-source="[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)">Opt out of relationship analytics (GDPR)</a></li>
-<li><a href="../sales-enterprise/view-export-KPI-data-gdpr.md" data-raw-source="[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)">View and export KPI data (GDPR)</a></li>
-<li><a href="../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md" data-raw-source="[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)">Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action</a></li>
 </td></tr>
 
 <tr><td>
+
 <h2>In-app marketing</h2>
 <li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
 <li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
@@ -98,11 +100,9 @@ topic-status: Drafting
 <li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
 <li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
 <li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
-</td>
-<td>
-
 
 </td>
+<td></td>
 </tr>
 
 </table>

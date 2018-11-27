@@ -1,7 +1,7 @@
 ---
-title: "Change the solution publisher prefix in PowerApps | MicrosoftDocs"
+title: "Change the solution publisher prefix in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,7 +10,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: ece684h8-ad40-4bfa-975a-3e5bafb854aa
 caps.latest.revision: 55
@@ -25,7 +24,7 @@ search.app:
 <a name="BKMK_SolutionPublisher"></a>   
 # Change the solution publisher prefix for the default publisher  
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  Every solution has a publisher. The default solution has a publisher named “Default Publisher for \<your organization name>”.  
   

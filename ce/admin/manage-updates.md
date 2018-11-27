@@ -24,7 +24,7 @@ search.app:
 ---
 # Manage updates 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 updates: [Modernizing the way we update Dynamics 365](https://aka.ms/dynamics365updatesblog). Microsoft will continue to support older versions of Dynamics within the timeframe of the details in our [Update policy](../admin/manage-updates.md#BKMK_Policy). 
 
@@ -369,7 +369,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
  Dynamics 365, version 9.x contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
 
 ### Prepare your users  
- To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
+ To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
 
 <a name="BKMK_Checklist"></a>   
 
@@ -424,7 +424,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
 
 ## Notice about Online Policies
-Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/legal/intellectualproperty/onlinedisclaimer.aspx).
 
 ### See also  
  [FAQ for Dynamics 365 Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy)<br/>

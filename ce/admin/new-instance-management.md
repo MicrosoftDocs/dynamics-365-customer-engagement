@@ -23,7 +23,7 @@ search.app:
 ---
 # What's new for instance management 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You might have noticed some changes to the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. On March 21, 2018, we introduced the following:
 
@@ -57,5 +57,5 @@ Once you create [Environments](https://docs.microsoft.com/powerapps/environments
 For more information, see [Manage Common Data Service instances](common-data-service-instances.md).
 
 ### See also
-[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)<br/>
+[Administer PowerApps overview](https://docs.microsoft.com/powerapps/administrator)<br/>
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)

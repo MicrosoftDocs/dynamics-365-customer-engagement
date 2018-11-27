@@ -22,7 +22,7 @@ search.app:
 ---
 # Datacenter regions
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is being hosted in datacenters in more and more regions. After [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] becomes available in a new region, the following apply:  
   
@@ -50,5 +50,5 @@ The following table lists the newest datacenter regions. Checkout the interactiv
   
 ### See also  
  [Geo to geo migrations for Dynamics 365 (online)](geo-to-geo-migrations.md)   
- [Products by region](https://azure.microsoft.com/en-us/regions/services/)   
+ [Products by region](https://azure.microsoft.com/regions/services/)   
  [Terminology used in the product and documentation](../../admin/online-terminology.md)

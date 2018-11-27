@@ -80,7 +80,7 @@ To get the Channel Integration Framework solution from within Dynamics 365:
     ![Dynamics 365 drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 
 > [!TIP] 
-> Alternatively, Alternatively, you can use the `https://<orgURL>.dynamics.com/apps` to navigate to the channel Integration Framework.<br>
+> Alternatively, you can use the `https://<orgURL>.dynamics.com/apps` to navigate to the channel Integration Framework.<br>
  ![Dynamics 365 org URL and apps to go to Channel Integration Framework](media/cif-alternative-app-navigation.png "Dynamics 365 org URL and apps to go to Channel Integration Framework")
 
 

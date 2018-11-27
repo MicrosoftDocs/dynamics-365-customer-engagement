@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/fulfillment-preferences.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "true"
+    },
+    {
       "source_path": "ce/common-scheduler/resource-scheduling-optimization.md",
       "redirect_url": "../field-service/rso-overview",
       "redirect_document_id": "true"

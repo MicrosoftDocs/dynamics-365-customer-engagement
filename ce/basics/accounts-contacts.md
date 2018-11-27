@@ -1,17 +1,12 @@
 ---
 title: "Work with accounts and contacts (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
+ms.date: 08/11/2018
 ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
-caps.latest.revision: 22
 ms.author: "shujoshi"
 search.audienceType: 
   - enduser
@@ -91,4 +86,5 @@ Use contacts to keep track of the people you do business with. Learn how to impo
  [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)   
  [Stay up-to-date with customer news with the activity feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)   
  [Assign a record to a user or team](../basics/assign-record-user-team.md)   
- [Run a report](../basics/run-report.md)   
+ [Run a report](../basics/run-report.md)  
+ [Organize contacts in live org charts](../sales-enterprise/live-org-chart.md) 

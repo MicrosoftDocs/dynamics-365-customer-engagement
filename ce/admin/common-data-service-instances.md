@@ -23,7 +23,7 @@ search.app:
 ---
 # Common Data Service instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The Common Data Service allows you to securely store and manage data used in your [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] [environments](https://docs.microsoft.com/powerapps/administrator/environments-overview). As of March 21, 2018, [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] environments provisioned with a Common Data Service database are displayed as instances in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. There you can view and do some management of your Common Data Service instances.
 
@@ -59,5 +59,5 @@ You can manage the following with the Common Data Service instance in the PowerA
 > - Members of the Azure AD tenant Global administrator role (includes Office 365 Global admins) can also manage all environments that have been created in their tenant and set tenant-wide policies from the PowerApps admin center.
 
 ## More information 
-[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)<br/>
+[Administer PowerApps overview](https://docs.microsoft.com/powerapps/administrator)<br/>
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
