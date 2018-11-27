@@ -24,13 +24,16 @@ Service Activity entity in Service Scheduling cannot be migrated through UI. We 
 The below sample performs the following actions:
 
 [Fetch Service Activity entity record](#bkmk_retrieve)<br />
-It fetches Service Activity entity records from `serviceappointment` table.
+It fetches Service Activity entity records from `serviceappointment` table.<br />
+
 [Create a new Requirement group by cloning or copying the existing Selection Rules](#bkmk_requirementmapping)<br />
-Then, for each of the retrieved `serviceappointment` records, we create a mapping between `newRequirementGroup` and `existingSelectionRule`.
+Then, for each of the retrieved `serviceappointment` records, we create a mapping between `newRequirementGroup` and `existingSelectionRule`.<br />
+
 [Create new Resource Requirement record by copying or cloning the existing Selection Rules](#bkmk_resourcemapping)<br />
-As we did in the above step, similarly, we will create a mapping between `newResourceRequirement` and `existingSelectionRule`.
+As we did in the above step, similarly, we will create a mapping between `newResourceRequirement` and `existingSelectionRule`.<br />
+
 [Create a new Bookable Resource entity record for each Activity Party entity record](#bkmk_newbookableresourcerecord)<br />
-We now create a new `BookableResourceBooking` entity record for each `ActivityParty` entity record, and map their attributes.
+We now create a new `BookableResourceBooking` entity record for each `ActivityParty` entity record, and map their attributes.<br />
 
 The complete sample for migrating Service Activity entity records, can be found here [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
