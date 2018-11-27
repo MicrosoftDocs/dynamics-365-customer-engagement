@@ -36,9 +36,10 @@ Resource crews allow dispatchers to search and schedule multiple resources at on
 - a collection of resources will work together for a set number of days, weeks, months
 - a crew meets at a location in the morning, shares a vehicle and is together all day from job to job
 - A new employee is shadowing a veteran to learn new skills
-- The primary use case for booking crews is scheduling a requirement group with multiple requirements that require multiple resources though single requirements can be manually scheduled to crews
 
-Without crews, dispatchers can schedule the same work multiple times manually via the schedule board or with the schedule assistant but this would take more time. If your scenario involves assembling resources together for one job, and then disbanding everyone, crew scheduling is not applicable.
+**The primary use case** for booking crews is scheduling a requirement group with multiple requirements to multiple resources, though single requirements can be manually scheduled to crews as well.
+
+**Without crews**, dispatchers can schedule the same requirements multiple times manually via the schedule board or with the schedule assistant but this would take more time. If your scenario involves assembling resources together for one job, and then disbanding everyone, crew scheduling is not applicable.
 
 Scheduling a crew will automatically create bookings for all crew members and rescheduling bookings will reschedule all crew bookings according to cascading settings on the bookings.
 
@@ -53,7 +54,9 @@ Universal Resource Scheduling v3.0+
 ### 1. Create resource with type = crew
 A crew consists of a crew resource, which serves as a container for the crew, and child resources who are the members of the crew for a given time frame.
 
-To setup a crew resource, create a new bookable resource, and set the resource type to crew.
+Navigate to **Universal Resource Scheduling > Resources > +New**
+
+Set the resource type to crew.
 
 Assign a **Name**
 
@@ -62,18 +65,14 @@ Assign a **Name**
 
 Set **start/end location**
 
-Start and end location of the crew header must both be either: 
+Start and end location must be the same and can be either:
 
-- Location agnostic 
-- Organizational unit address
+- **Location Agnostic** - meaning the crew will only appear as a schedule assistant option for location agnostic requirements and related bookings will not include any travel time.
+- **Organizational Unit Address** - meaning the crew will show as available for onsite work; however routing and travel times are calculated at the individual level based on each crew member's start/end location. The organizational unit must be geo coded.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Crew Bookable Resource with Start and End Location set to Organizational Unit](./media/scheduling-crew-organizational-unit.png)
-
-Setting a crew start/end as **location agnostic** means the crew will only appear as a schedule assistant option for location agnostic requirements and related bookings will not include any travel time.
-
-Setting a crew start/end as **organizational unit address** (with a geo coded organizational unit) means the crew will show as available for onsite work; however routing and travel times are calculated at the individual level based on each crew member's start/end location. 
-
+ 
 ### 2. add resource children to the crew
 
 
@@ -81,7 +80,7 @@ Now that the crew resource exists, it is time to relate other bookable resources
 
 Then from the crew header, navigate to **Related > Resource Children** to link each bookable resource as a child resource to the crew. 
 
-The crew is the parent resource and the bookable resource that is a member of the crew is the child resource. This is setup on the bookableresourcegroup entity.
+This is setup on the **bookableresourcegroup** entity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot associating resources to a crew](./media/scheduling-crew-resource-children.png)
@@ -115,7 +114,12 @@ On the hourly list view, you can simply expand the crew resource to see the memb
 > [!div class="mx-imgBorder"]
 > ![Screenshot of hourly Schedule Board List View expanded to show the members of the crew in the date range displayed on the Schedule Board](./media/scheduling-crew-add-schedule-board-expand.png)
 
-However, for the time that the resource is part of a crew, there is a mask that is displayed on the board for the duration in which they are part of the crew. The goal is to remind Resource Managers that this Resource is part of a crew. Moving their bookings will likely affect other bookings. Scheduling something to the resource without the crew will likely affect the crew’s ability to be matched for future jobs. Since the resource shows up on the Schedule Board as a normal resource, the mask is how you can remember which resources are part of a crew and when.
+For the time range a resource is part of a crew, there is a grey area that is displayed on the board. 
+
+The purpose is to:
+ 1. Remind dispatchers and resource managers the resource is part of a crew. 
+ 2. Understand that moving their bookings will likely affect other bookings because crew bookings are kept in sync unless specified otherwise (see Cascade Bookings field on Booking entity). 
+ 3. Understand that scheduling a job to the resource without the crew will likely affect the crew’s ability to be matched for future jobs. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing two crew members, Abraham and Allison with masks over their Schedule Board row with text that says "Part of Crew 1](./media/scheduling-crew-schedule-board-block.png)
@@ -149,13 +153,13 @@ The primary use case for scheduling crews is when you have a set of requirements
 
 **Dragging and Dropping**
 > [!Note]
-> Requirement groups are not able to be dragged and dropped onto the schedule board.
+> Requirement groups cannot be dragged and dropped onto the schedule board.
 
-The schedule assistant for requirement groups recommends teams of resources that can collectively handle the requirements within the requirement group. The team the Schedule Assistant recommends may be a group of resources teamed together for just that job, or a crew, who has been associated together already.
+The schedule assistant can return a both a group of individual resources and a crew to complete the requirement group. 
 
 When the schedule assistant searches, it assembles a team of resources in which there is a resource that matches up with each requirement in the requirement group. The crew resource itself is just a container and is not considered a resource when it comes to matching. Each individual resource needs to match with a requirement in the requirement group.
 
-The ideal scenario would be a match where there are three requirements, and each one matches a member of the crew. In this case, the crew resource itself is presented as a match for the requirement group as the crew has three crew members.
+The ideal scenario would be matching three requirements to a crew of three resources. 
 
 
 > [!div class="mx-imgBorder"]
@@ -168,7 +172,7 @@ If you expand the crew, you will see that each member of the crew matched with a
 When the crew is selected and booked, each booking for each crew member will relate to the requirement that they were matched to and will also relate to the requirement group. The crew resource gets a booking as well to make it easy to manage the crew as a single unit.
 
 
-**Pro Tip:** Scheduling a crew can be better than scheduling a collection of one time resources because crew members work with each other often and this can boost productivity.
+**Pro Tip:** Scheduling a crew can be better than scheduling a collection of individual resources because crew members work with each other often and this can boost productivity.
 
 #### More crew members than requirements
 A crew with more resources than is needed by the requirement group will show as a result in the schedule assistant, but lower in the search results because it is less optimal. 
@@ -196,7 +200,7 @@ As a default, the Schedule Assistant results are sorted by **fewest resources fi
 
 #### Less crew members than requirements
 
-Sometimes when searching for availability, the crew may need to be combined with other resources in order to meet the requirements. For example, the crew may have three resources, but the requirement group has four requirements. The crew can be combined with resources outside the crew to meet the 
+Sometimes when searching for availability, the crew may need to be combined with other resources in order to meet the requirements. For example, the crew may have three resources, but the requirement group has four requirements. The crew can be combined with resources outside the crew. 
 
 The schedule assistant will combine crews and individual resources to fulfill a requirement group and even note which resources are part of the crew. 
 
@@ -210,7 +214,7 @@ The schedule assistant will combine crews and individual resources to fulfill a 
 
 ### 7. View crews and related bookings on the schedule board
 
-Once a crew has been assembled, there are scenarios where you may want to drill into a crew and see the entire crew together at once. By default, each resource is still listed individually on the Schedule Board. If you would like to drill into a crew, just right click the crew resource and opt to **View Crew Resources in Split View**.
+Once a crew has been scheduled, there are scenarios where you may want to drill into a crew and see the entire crew together at once. By default, each resource is still listed individually on the Schedule Board. If you would like to drill into a crew, just right click the crew resource and select **View Crew Resources in Split View**.
 
 
 
@@ -234,7 +238,7 @@ The Schedule Assistant needs to understand the starting and ending location of r
 
 ### Resource Type Filter on Requirement 
 
-The Resource Type filter on the requirement controls which resources can be searched as part of the Schedule Assistant search. If no values are set, then all resources can be searched. If only “Crew” is selected, then only members of a crew can return in the results. The option “Crew” will be renamed to “Crew Member” in an update to help articulate the meaning better. 
+The Resource Type filter on the requirement controls which resources can be searched as part of the Schedule Assistant search. If no values are set, then all resources can be searched. If only “Crew” is selected, then only members of a crew can return in the results. The option “Crew” will be renamed to “Crew Member” in an update to help articulate the meaning better. This also applies to Resource Scheduling Optimization.
 
 If both Crew and User are selected, then only Resources that are of Resource Type “User”, OR are a member of a Crew can be searched.
 
@@ -250,7 +254,7 @@ When a single requirement is booked to a crew (regardless if manually or via the
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing both bookings related to a requirement group](./media/scheduling-crew-auto-requirement-group.png)
 
-... however only the crew header resource is linked to the requirement in the newly created requirement group
+However, only the crew header resource is linked to the single requirement in the newly created requirement group
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the booking for the crew resource linked to the requirement, with the booking for a crew member without a link to the requirement](./media/scheduling-crew-requirement-booking-relationship.png)
