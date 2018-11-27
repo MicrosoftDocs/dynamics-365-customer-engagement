@@ -22,7 +22,7 @@ search.app:
 ---
 # Resource projects in Project Service Automation 
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can staff your project with a team of generic or named resources in Project Service Automation (PSA). You can use various methods to add and assign team members and to manage their bookings and assignments.
 
