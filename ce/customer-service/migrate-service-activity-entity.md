@@ -53,7 +53,7 @@ serviceActivityCol = _serviceProxy.RetrieveMultiple(serviceActivityQuery);
 
 <a name="bkmk_requirementmapping"></a>
 
-## Create a new Requirement Group record by cloning or copying the existing Requirement Group record
+## Create new Requirement Group record by cloning or copying the existing Requirement Group record
 
 ```csharp
 Guid serviceID = entity.GetAttributeValue<EntityReference>("serviceid").Id;
@@ -117,7 +117,7 @@ foreach (Entity entityRR in existingResourceRequirement.Entities)
 ```
 <a name="bkmk_newbookableresourcerecord"></a>
 
-## Create a new `BookableResourceBooking` entity record for each `ActivityParty` entity record
+## Create new BookableResourceBooking entity record for each ActivityParty entity record
 
 ```csharp
 // Create new Bookable Resource booking for each ActivityParty entity record
