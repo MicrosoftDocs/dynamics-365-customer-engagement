@@ -63,4 +63,4 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
 [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Authenticate channel users to the channel(widget)](authenticate-channel-users.md)<br />
-[Pass Dynamics 365 URL to widget library](pass-url-widget-library,md)
+[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)

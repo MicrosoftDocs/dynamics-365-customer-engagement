@@ -39,9 +39,9 @@ The widget provider will have to add the following attributes to the script tag 
 ```
 ### 2. Add a URL parameter
 
-Another method is to pass a `uclib` parameter in the landing URL, like `ucilib=https://<crm_domain name>`.
+Another method is to pass a `ucilib` parameter in the landing URL, like `ucilib=https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`.
 
-For example: `https://widget.domain.com?ucilib=https://crmorg.crm.dynamics.com`.
+For example: `https://widget.domain.com?ucilib=https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`.
 
 ## See Also
 

@@ -45,3 +45,13 @@ For more information on how to register and configure the channel (widget), visi
     d. Refreshing the access tokens.
 
 For more information on how to authorize access to Azure Active Directory web applications, visit [OAuth 2.0](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code).
+
+> [!div class="nextstepaction"]
+> [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
+
+## See Also
+
+[Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
+[Add Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)<br />
+[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
