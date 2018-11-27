@@ -1,8 +1,8 @@
 ---
 title: "Add custom event-registration fields (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 for Marketing"
-keywords: "custom fields;event website;portal;registration;events"
-ms.date: 12/01/2018
+description: "Add custom fields to the registration form on your event portal, and read the submitted values in Dynamics 365 for Marketing"
+keywords: "custom fields;event portal;portal;registration;events"
+ms.date: 06/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -29,13 +29,13 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The default registration form presented by the event website includes fields for first name, last name, email address, and pass type (for paid events with at least one pass). If you'd like to receive additional information from attendees, such as for special needs, food allergies, or a gift preference, then you can easily add these as custom fields to your registration form. You can choose which custom fields to add to each event, and your registration records will include the values submitted by registrants.
+The default registration form presented by the event portal includes fields for first name, last name, email address, and pass type (for paid events with at least one pass). If you'd like to receive additional information from attendees, such as for special needs, food allergies, or a gift preference, then you can easily add these as custom fields to your registration form. You can choose which custom fields to add to each event, and your registration records will include the values submitted by registrants.
 
 ## Set up a custom registration field
 
 Go to the **Custom registration fields** page to view and create all the custom registration fields that are available for use with your various events. You'll be able to choose which of these to include for each of your events. To set up your custom fields:
 
-1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Custom registration fields**.
+1. Go to **Events** > **Event** > **Custom registration fields**.
 
 2. A list of your current custom fields is shown. Select **New** from the command bar to add a new field or select any listed field to edit that field.  
     ![Example custom registration field setup](media/event-reg-field-setup.png "Example custom registration field setup")

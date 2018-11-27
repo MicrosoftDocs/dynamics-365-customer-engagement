@@ -53,20 +53,20 @@
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
 
-### Marketing tutorials
-#### [Core marketing tutorials](basic-tutorials.md)
-##### [Create a segment](create-segment.md)
-##### [Create a marketing email](create-marketing-email.md)
-##### [Create a simple customer journey](create-simple-customer-journey.md)
-##### [Create a landing page](create-landing-page.md)
-##### [Create an interactive customer journey](create-interactive-customer-journey.md)
+### [Basic tutorials](basic-tutorials.md)
+#### [Create a segment](create-segment.md)
+#### [Create a marketing email](create-marketing-email.md)
+#### [Create a simple customer journey](create-simple-customer-journey.md)
+#### [Create a landing page](create-landing-page.md)
+#### [Create an interactive customer journey](create-interactive-customer-journey.md)
+#### [Set up lead scoring](set-up-lead-scoring.md)
 
-#### [Tutorials for specific scenarios](advanced-tutorials.md)
-##### [Set up lead scoring](set-up-lead-scoring.md)
-##### [Set up a subscription center](set-up-subscription-center.md)
-##### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
-##### [Manage images](manage-images.md)
-##### [Track online behavior](track-online-behavior.md)
+### [Advanced tutorials](advanced-tutorials.md)
+#### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
+#### [Manage images](manage-images.md)
+#### [Create templates](create-templates.md)
+#### [Track online behavior](track-online-behavior.md)
+#### [Set up a subscription center](set-up-subscription-center.md)
 
 ### Work with content designers
 #### [Design your digital content](design-digital-content.md)
@@ -101,7 +101,6 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
@@ -115,7 +114,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up and manage an event waitlist](event-waitlist.md)
 #### [Create and manage recurring events](event-recurring.md)
@@ -124,7 +122,7 @@
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
-#### [Set up the event website](set-up-event-portal.md)
+#### [Set up the event portal](set-up-event-portal.md)
 #### [Set up online payment for events](event-payment-gateway.md)
 #### [Add custom fields to your event registration form](custom-registration-fields.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
@@ -155,7 +153,7 @@
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
-### [Build and host a custom event website](developer/event-management-web-application.md)
+### [Build and host a custom event portal](developer/event-management-web-application.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)

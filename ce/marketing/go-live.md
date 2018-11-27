@@ -2,7 +2,7 @@
 title: "Publish records with go live and track their status (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
 keywords: "publish;live;status;status reason;go live"
-ms.date: 12/01/2018
+ms.date: 08/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -198,11 +198,11 @@ The **Status reason** field for marketing forms doesn't track the publish state;
 
 ## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event website for that event rather than going live with the event record itself. The generated website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the website, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
+The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event, and its related published records, will immediately be reflected on the portal too.
 
-Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the website.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event portal shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the portal.
 
-Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the website for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the website.
+Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the portal for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the portal.
 
 Event, session, and track entities all have a **Status** field, which works the same way as it does for most entities, but they don't use the **Status reason** field to monitor publish status. Instead, these entities have a **Publish status** field, which is fully editable all the time you work with them. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
 
@@ -219,4 +219,4 @@ The default values for **Publish status** are _Draft_, _Ready to publish_, _In p
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Design lead-scoring models](score-manage-leads.md)  
-[Set up the event website](set-up-event-portal.md)
+[Set up the event portal](set-up-event-portal.md)
