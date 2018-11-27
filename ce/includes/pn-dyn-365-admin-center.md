@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement admin center
+Dynamics 365 admin center

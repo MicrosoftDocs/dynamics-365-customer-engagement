@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Customer Engagement subscription
+Microsoft Dynamics 365 subscription

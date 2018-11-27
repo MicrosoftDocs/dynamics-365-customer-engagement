@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement for Project Service Automation
+Dynamics 365 for Project Service Automation

@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement Server
+Dynamics 365 Server

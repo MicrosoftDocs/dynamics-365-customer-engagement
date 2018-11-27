@@ -1,1 +1,1 @@
-Detects the version of Microsoft Dynamics 365 for Customer Engagement for Microsoft Office Outlook.
+Detects the version of Microsoft Dynamics 365 for Microsoft Office Outlook.

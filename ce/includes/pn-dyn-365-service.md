@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement for Customer Service
+Dynamics 365 for Customer Service

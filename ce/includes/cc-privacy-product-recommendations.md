@@ -8,7 +8,7 @@ An administrator can enable the Product Recommendations feature under **Settings
 
 [Azure Logic Apps](https://azure.microsoft.com/services/app-service/logic/)
 
-This provides the orchestrated data pipeline to synchronize product catalog and transaction data with the Recommendations API to build the recommendation model version. This pipeline executes as a multi-tenanted service with multiple API apps for communication between a Dynamics 365 for Customer Engagement organization and the Recommendations API. Logic apps are triggered from [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] with minimal context, such as Model Version ID and the [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] organization URL. 
+This provides the orchestrated data pipeline to synchronize product catalog and transaction data with the Recommendations API to build the recommendation model version. This pipeline executes as a multi-tenanted service with multiple API apps for communication between a Dynamics 365 organization and the Recommendations API. Logic apps are triggered from [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] with minimal context, such as Model Version ID and the [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] organization URL. 
 
 [Azure API Apps](https://azure.microsoft.com/services/app-service/api/)
 

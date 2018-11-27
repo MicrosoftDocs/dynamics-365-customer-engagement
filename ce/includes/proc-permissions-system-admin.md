@@ -1,1 +1,1 @@
-Make sure you have the System Administrator security role or equivalent permissions in Microsoft Dynamics 365 for Customer Engagement.
+Make sure you have the System Administrator security role or equivalent permissions in Microsoft Dynamics 365.

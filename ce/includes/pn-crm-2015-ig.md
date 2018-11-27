@@ -1,1 +1,1 @@
-Deploying and administering Microsoft Dynamics 365 for Customer Engagement
+Deploying and administering Microsoft Dynamics 365

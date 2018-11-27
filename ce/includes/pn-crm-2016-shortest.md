@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement (online), version 8.2
+Dynamics 365 (online), version 8.2

@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement for Good
+Dynamics 365 for Good

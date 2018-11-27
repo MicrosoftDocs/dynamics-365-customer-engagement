@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Customer Engagement for Outlook Configuration Wizard
+Microsoft Dynamics 365 for Outlook Configuration Wizard

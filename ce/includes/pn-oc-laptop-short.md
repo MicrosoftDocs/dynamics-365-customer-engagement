@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Customer Engagement for Outlook with Offline Access
+Microsoft Dynamics 365 for Outlook with Offline Access

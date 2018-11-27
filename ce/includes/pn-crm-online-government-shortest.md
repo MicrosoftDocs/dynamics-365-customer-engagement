@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement Government
+Dynamics 365 Government

@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement for phones
+Dynamics 365 for phones

@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Customer Engagement Germany
+Microsoft Dynamics 365 Germany

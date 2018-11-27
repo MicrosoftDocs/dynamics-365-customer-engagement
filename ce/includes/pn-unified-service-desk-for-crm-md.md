@@ -1,1 +1,1 @@
-Unified Service Desk for Microsoft Dynamics 365 for Customer Engagement
+Unified Service Desk for Microsoft Dynamics 365

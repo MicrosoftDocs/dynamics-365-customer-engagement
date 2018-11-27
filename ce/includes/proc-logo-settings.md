@@ -1,1 +1,1 @@
-On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings**.
+On the nav bar, choose **Microsoft Dynamics 365** > **Settings**.

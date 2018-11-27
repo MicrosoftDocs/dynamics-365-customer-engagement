@@ -1,1 +1,1 @@
-Gamification for Microsoft Dynamics 365 for Customer Engagement
+Gamification for Microsoft Dynamics 365

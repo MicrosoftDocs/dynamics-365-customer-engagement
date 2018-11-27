@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement for Windows 8
+Dynamics 365 for Windows 8

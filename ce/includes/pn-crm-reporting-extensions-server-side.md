@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Customer Engagement Reporting Extensions
+Microsoft Dynamics 365 Reporting Extensions
