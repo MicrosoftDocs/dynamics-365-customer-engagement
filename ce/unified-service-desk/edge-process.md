@@ -145,7 +145,8 @@ Let us see what configurations you need to do create for the above-mentioned sce
 
 1. Go to the Settings > Unified Service Desk > Action Calls.
 2. Select + New.
-3. Add the following details and save the action call.<br>
+3. Add the following details and save the action call.
+
 | Field | Value |
 |--------|---------|
 | Name | FindNoOfDaysCaseBeingOpened |
@@ -164,7 +165,9 @@ var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));<br>
 return 0;<br>
 }<br>
 findAge("[[incident.createdon]]"); |
+
 4. Repeat the step 3 and 4 to create another action call.<br>
+
 | Field | Value |
 |--------|---------|
 | Name | DaysValue|
@@ -177,7 +180,8 @@ findAge("[[incident.createdon]]"); |
 
 1. Go to the Settings > Unified Service Desk > Action Calls.
 2. Select + New.
-3. Add the following details and save the action call.<br>
+3. Add the following details and save the action call.
+
 | Field | Value |
 |--------|---------|
 | Name | DisplayMessageForCaseOpen |
@@ -185,7 +189,9 @@ findAge("[[incident.createdon]]"); |
 | Action | DisplayMessage |
 | Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>
 caption=Case is open |
-4. Repeat the step 3 and 4 to create another action call.<br>
+
+4. Repeat the step 3 and 4 to create another action call.
+
 | Field | Value |
 |--------|---------|
 | Name | OpenPhoneCallPage |
@@ -195,6 +201,7 @@ caption=Case is open |
 description=Long pending case more than 9 days <br>
 subject=Long pending case <br> |
 | Condition | "[[$Return.FindNoOfDaysCaseBeingOpened]]">9 |
+
 5. From the list of action calls, select the **DaysValue** action call.
 6. In the navigation bar, next to the **DaysValue** action call, select the *>* icon, and select **Sub Action Call**.
 7. Select the **ADD EXISTING ACTION CALL** option, and in the search field, type the action **DisplayMessageForCaseOpen**, and select the search icon.
