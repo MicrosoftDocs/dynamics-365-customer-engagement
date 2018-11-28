@@ -55,6 +55,9 @@
 #### [Organizational Units](create-org-units-cs-scheduling.md)
 #### [Business Closure](set-when-business-closed-csh.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
+### Developer Guide
+#### [Migrate Service Activity entity](migrate-service-activity-entity.md)
+#### [Sample: Migrate Service Activity entity using Organization Service](migrate-service-activity-org-service.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
