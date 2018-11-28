@@ -44,6 +44,10 @@
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
+## Implementation
+### [Scheduling roles and personas](scheduling-roles-personas.md)
+### [Using the scheduling capabilities set](implementing-scheduling-capabilities.md)
+### [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 
 # Mobile app for field technicians
 ## [Setup Mobile Field Service](field-service-mobile-app-user-guide.md)
@@ -85,6 +89,8 @@
 ## [Schedule optimization](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
+## Implementation
+### [RSO Best Practices](rso-best-practices.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
 ## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
