@@ -102,6 +102,6 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 [Get started with Social Engagement](get-started.md)   
 [Assign permissions and user roles](assign-user-roles.md)   
-[Integrate Social Engagement with Dynamics 365 for Customer Engagement](integrate-social-engagement-dynamics-365.md)   
+[Integrate Social Engagement with Dynamics 365 for Customer Engagement apps](integrate-social-engagement-dynamics-365.md)   
 [Connect Social Engagement to other domains](connect-other-domains.md)
  
