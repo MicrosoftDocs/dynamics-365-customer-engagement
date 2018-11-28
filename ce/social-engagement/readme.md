@@ -37,8 +37,7 @@ Do you have an idea how to further improve the service or app? Go to the [Ideas 
 ### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Customer Engagement for tablets app
 
 You can access the Social Selling Assistant app from both the Dynamics 365 for Customer Engagement web
-client and the Dynamics 365 for Customer Engagement for tablets app. However, for Dynamics 365 for Customer Engagement for
-tablets, the following restrictions apply:
+client and the tablets app. However, the following restrictions apply:
 
 -   Links contained in the social posts cannot be opened. As a workaround, use
     the **Copy to clipboard** action to copy the link to the post. Then paste
@@ -51,7 +50,7 @@ tablets, the following restrictions apply:
 
 ### Microsoft Dynamics 365 for Customer Engagement domains must be added to Allowed Domains to enable integration
 
-For integration between Microsoft Dynamics 365 for Customer Engagement and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)],
+For the integration between Customer Engagement apps and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)],
 your [Microsoft Dynamics 365 for Customer Engagement domains must be added as allowed domains in
 Microsoft Social
 Engagement](connect-other-domains.md).
@@ -67,7 +66,7 @@ allowed domains to enable communication with [!INCLUDE[pn_netbreeze_short](../in
 all \*.dynamics.com domains to communicate with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by default.
 This is no longer supported.
 
-### When you authenticate to Dynamics 365 for Customer Engagement, and to Twitter and Facebook, pop-up windows are blocked in the browser
+### When you authenticate, pop-up windows are blocked in the browser
 
 Pop-up blockers and feedback latency can negatively affect your experience when
 you try to add social profiles, add Twitter rules in **Search Setup**, and
@@ -82,7 +81,7 @@ Browsing Settings** (**Tools** \> **Internet options** \> **General** \>
 **Tabs**). For **When a pop-up is encountered**, choose either **Let Internet
 Explorer decide how pop-ups should open** or **Always open pop-ups in a new
 window**. If the option is set to **Always open pop-ups in a new tab**, linking
-to Dynamics 365 for Customer Engagement will not work.
+to Dynamics 365 for Customer Engagement apps will not work.
 
 Note that any of these pop-ups might take a while to appear. Also, when you add
 a social profile, the **Social Profiles** page might take a few seconds to list
