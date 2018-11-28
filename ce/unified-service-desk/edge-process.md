@@ -158,18 +158,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Order | 1 |
 | Hosted Control | Incident |
 | Action | RunScript |
-| Data | function findAge(dateString)</br>
-{</br>
-if("[[incident.statuscode]]".indexOf("1") > -1){</br>
-var date1 = new Date(dateString);</br>
-var date2 =new Date();</br>
-var timeDiff = Math.abs(date2.getTime() - date1.getTime());</br>
-var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));</br>
-    return diffDays.toString();</br>
-}</br>
-return 0;</br>
-}</br>
-findAge("[[incident.createdon]]"); |
+| Data | function findAge(dateString)</br>{</br>if("[[incident.statuscode]]".indexOf("1") > -1){</br>var date1 =new Date(dateString);</br>var date2 =new Date();</br>var timeDiff = Math.abs(date2.getTime() - date1.getTime());</br>var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));</br>return diffDays.toString();</br>}</br>return 0;</br>}</br>findAge("[[incident.createdon]]"); |
 
 4. Repeat the step 3 and 4 to create another action call.
 
@@ -204,9 +193,7 @@ caption=Case is open |
 | Name | OpenPhoneCallPage |
 | Hosted Control | PhoneCall |
 | Action | New_CRM_Page |
-| Data | 		LogicalName=phonecall<br>
-description=Long pending case more than 9 days <br>
-subject=Long pending case <br> |
+| Data | 		LogicalName=phonecall<br>description=Long pending case more than 9 days <br> subject=Long pending case <br> |
 | Condition | "[[$Return.FindNoOfDaysCaseBeingOpened]]">9 |
 
 5. From the list of action calls, select the **DaysValue** action call.
