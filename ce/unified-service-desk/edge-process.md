@@ -210,19 +210,29 @@ subject=Long pending case <br> |
 | Condition | "[[$Return.FindNoOfDaysCaseBeingOpened]]">9 |
 
 5. From the list of action calls, select the **DaysValue** action call.
+
 6. In the navigation bar, next to the **DaysValue** action call, select the *>* icon, and select **Sub Action Call**.
+
 7. Select the **ADD EXISTING ACTION CALL** option, and in the search field, type the action **DisplayMessageForCaseOpen**, and select the search icon.
+
 8. To add the action call, select the action call name that appears.
+
 9. Perform the steps 7 and 8 to add the **OpenPhoneCallPage** action call.
+
 10. Save the changes.
 
 #### Step 4: Add the action calls to the PageReady event
 
 1. Go to the Settings > Unified Service Desk > Events.
+
 2. Select the **PageReady** event for the **Incident** hosted control from the list of events.
+
 3. On the event page, under the **Active Actions** area, click **+** to add action calls.
+
 4. A search box appears, type **FindNoOfDaysCaseBeingOpened** and select the search icon and select the action call. The action call appears under the **Active Actions** area.
+
 5. Repeat the step 4 to add the **DaysValue** action.
+
 6. Save the changes.
 
 ## Limitations of Edge process
