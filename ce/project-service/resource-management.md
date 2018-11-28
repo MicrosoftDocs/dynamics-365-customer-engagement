@@ -28,33 +28,22 @@ You can staff your project with a team of generic or named resources in Project 
 
 ## Book and assign a named bookable resource on a task and project team
 
-You can  add a named (or real) resource to your project team by booking them directly onto the team.
+You can  add a named (or real) resource to your project team by booking them directly onto the team. To do this, complete the following steps.
+
+1. In PSA, go to **Projects**, and select the open the project that ou are booking for.
+2. On the **Project** page, on the **Team** tab, click **New**. 
 
 ![Adding a team member from the team tab](media/RM-how-to-1.png)
 
-To do this, select New on the Team tab of your project.
-
+3. In the **Quick Create Project Team Member** dialog, select the bookable resource. The **Role** field will populate with the resource's default role if they have one assigned. You can change the role if needed. 
+4. Select the from and to dates that the resource will be needed and select the allocation method of the resource's capacity. 
+5. If you want the team member to be a project approver, select **Yes** in the **Project Approver** field. This will mean that the team member can approve submitted time and expense entries for this project. 
+6. Click **Save**.
 
 ![Adding a team member on the quick create form](media/RM-how-to-2.png)
 
-Select the bookable resource. The role will be populated with their default role
-(if they have one), but you can change it if needed. Select the from and to
-dates for the resource. Select the allocation method of the resource’s capacity:
 
--   Full capacity
-
--   Percentage capacity
-
--   By hours – distribute evenly
-
--   By hours – front load
-
-Select if you want the team member to be an approver for the project. Selecting
-yes, means that they can approve submitted time or expense entries for this
-project.
-
-Once the resource is part of the team, you can switch to the schedule tab and
-assign them to tasks. The resource picker that is launched from the task grid
+7. On the **Project** page, click the **Schedule** tab to assign tasks to the new resource. The resource picker that is launched from the task grid
 will show the team members for the project under Team Members.
 
 ![Assigning a team member to a task on the schedule tab](media/RM-how-to-3.png)
