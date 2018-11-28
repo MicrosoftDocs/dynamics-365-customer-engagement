@@ -17,6 +17,11 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
+
+
+<!--Update the date if this hasn't yet been published-->
+
+
 # renderSearchPage (CIF JavaScript API Reference)
 
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
@@ -61,13 +66,16 @@ manager: shujoshi
 </tr>
 </table>
 
-## Return Value
+## Return value
+
+<!--Editor note: "On success, returns a promise ..." What returns the promise? Need a noun.-->
+
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
 
 ## Example
 
-The following example shows how to query for the term "Contoso" among records of Account entity.
+The following example shows how to query for the term "Contoso" among the records of an Account entity.
 
 ```JavaScript
 var entityname = "account"
