@@ -107,14 +107,14 @@ In the panel, you can all the active Edge process. select the desired webpage to
 
 More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
-### RunScript action is asynchronous in Edge process
+## RunScript action is asynchronous in Edge process
 
 The Edge browser support only the asynchronous operations, and the RunScript action will be asynchronous.
 If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution may fail.
 
 For example, Your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
 
-#### Scenario example 
+### Scenario example 
 
 Whenever you open a case, you want to verify if the case is open for 10 or more days, then display a message in a dialog and when you perform an action on the dialog, phone call page is opened for further operations.
 
@@ -128,11 +128,14 @@ You must create another sub action call to open the phone call page and perform 
 
 Let us see what configurations you need to do create for the above-mentioned scenario.
 
-#### Step 1: Create a hosted control
+### Step 1: Create a hosted control
 
-1. Go to the Settings > Unified Service Desk > Hosted Controls.
-2. Select + New.
-3. Add the following details and save the hosted control.<br>
+1. Go to the **Settings** > **Unified Service Desk** > **Hosted Controls**.
+
+2. Select **+ New**.
+
+3. Add the following details and save the hosted control.
+
 | Field | Value |
 |--------|---------|
 | Name | Incident |
@@ -141,10 +144,12 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Hosting Type | Edge process |
 | Display Group | MainPanel |
 
-#### Step 2: Create two action calls
+### Step 2: Create two action calls
 
-1. Go to the Settings > Unified Service Desk > Action Calls.
-2. Select + New.
+1. Go to the **Settings** > **Unified Service Desk** > **Action Calls**.
+
+2. Select **+ New**.
+
 3. Add the following details and save the action call.
 
 | Field | Value |
@@ -166,7 +171,7 @@ return 0;<br>
 }<br>
 findAge("[[incident.createdon]]"); |
 
-4. Repeat the step 3 and 4 to create another action call.<br>
+4. Repeat the step 3 and 4 to create another action call.
 
 | Field | Value |
 |--------|---------|
@@ -178,8 +183,10 @@ findAge("[[incident.createdon]]"); |
 
 #### Step 3: Create two action calls and add them under the DaysValue action call
 
-1. Go to the Settings > Unified Service Desk > Action Calls.
-2. Select + New.
+1. Go to the **Settings** > **Unified Service Desk** > **Action Calls**.
+
+2. Select **+ New**.
+
 3. Add the following details and save the action call.
 
 | Field | Value |
