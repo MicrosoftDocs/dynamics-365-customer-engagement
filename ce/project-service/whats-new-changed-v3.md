@@ -173,6 +173,10 @@ In version 3, we have moved away from the custom calendar control and are now us
 
 ![Time entry processing flow](media/process-time-entries-10.png)
 
+When business requirements stipulate that time and expense entities must capture custom pricing dimensions and propagate the values that are set by a time and entry resource in the custom pricing dimension through all of the entities in the previous graphic, see [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md)
+
+To support business requirements where time and expense entities must capture custom non-pricing dimensions and propagate the values, partners and customers can use the pricing dimensions setup and express the custom dimensions as pricing dimensions with no cost or bill rate. Another approach would be to add a custom field to each of the entities, using same field name across all entities. Custom plug-ins can be created to relate records in the entities that are participating in the submission/approval flow using the transaction origin and transaction connection entities.  
+
 ### Delegate time and expense entry
 The Common Data Service (CDS) platform doesn't support one user impersonating another, which means in version 3 of PSA there is no support for delegated time and expense entry. However, partners and customers have leveraged a workaround to enable support for delegated time entry experiences in version 3. This is only a workaround and not a complete solution, so it is important to understand the limitations and only use this approach if the limitations are acceptable. 
 
