@@ -177,7 +177,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 ### Associate a security group with a Dynamics 365 for Customer Engagement instance  
   
-1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **Dynamics 365**.  
   
 2. Click the **Instances** tab, select an instance, and then click **Edit**.  
   

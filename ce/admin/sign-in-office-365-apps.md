@@ -44,14 +44,15 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
  ![Admin tile on the Office 365 welcome page](../admin/media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
   
- From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+ From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365**.  
   
  ![Dynamics 365 for Customer Engagement option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 for Customer Engagement option in the Admin center drop-down list")  
   
  For other ways to access Dynamics and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps, see [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement home page](../admin/quickly-navigate-office-365-app-launcher.md).  
   
 <a name="BKMK_DirectAdminCenter"></a>   
-## Direct sign in to the Dynamics 365 for Customer Engagement Administration Center  
+
+## Direct sign in to the Dynamics 365 Administration Center  
  Some [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] admin or Office 365 admin roles might be unable to access the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] after signing in to https://portal.office.com. Use the following steps to directly navigate to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
   
 1. Go to https://port.\<region>.dynamics.com/G/instances/InstancePicker.aspx  

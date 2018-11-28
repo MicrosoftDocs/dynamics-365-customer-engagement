@@ -35,7 +35,7 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator or delegated admin security roles.  
   
-2. Select **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+2. Select **Admin centers** > **Dynamics 365**.  
 
 3. Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").
 

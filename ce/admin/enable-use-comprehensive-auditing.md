@@ -193,7 +193,7 @@ The following are the preconfigured Dynamics 365 for Customer Engagement reports
 |  |  |   |
 |---------|---------|---------|
 |Accessed out-of-box entity     |Accessed custom entity |Accessed admin entity  |
-|Performed bulk actions (such as delete and import)  |Accessed other entity type   |Accessed Dynamics 365 for Customer Engagement admin center  |
+|Performed bulk actions (such as delete and import)  |Accessed other entity type   |Accessed Dynamics 365 admin center    |
 |Accessed internal management tool |Signed in or out  |Activated process or plug-in  |
 
 ## Create reports

@@ -36,7 +36,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
-2. Select **Admin centers** > **Dynamics 365 for Customer Engagement**  
+2. Select **Admin centers** > **Dynamics 365**  
   
 3. Select the **Instances** tab, and then select the instance to add the solution to.  
   
@@ -54,7 +54,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
 
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
-2. Select **Admin centers** > **Dynamics 365 for Customer Engagement**  
+2. Select **Admin centers** > **Dynamics 365**  
   
 3. Select the **Instances** tab.  
   

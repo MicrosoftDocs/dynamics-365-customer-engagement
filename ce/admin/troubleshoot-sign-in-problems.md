@@ -60,7 +60,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
   
  ![Admin tile on the Office 365 welcome page](../admin/media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
   
- From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+ From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365**.  
   
  ![Dynamics 365 for Customer Engagement option in the Admin center drop-down list](../admin/media/dynamics-365-option-admin-center.png "Dynamics 365 for Customer Engagement option in the Admin center drop-down list")  
   

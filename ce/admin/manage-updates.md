@@ -35,7 +35,7 @@ You have options for when you update your Dynamics 365 for Customer Engagement O
 
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
 
-1. Review the information in the Updates page in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365 for Customer Engagement** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
+1. Review the information in the Updates page in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
 
 2. Approve the update.  
 
@@ -243,7 +243,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
-2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365 for Customer Engagement**.  
+2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**.  
 
    ![Dynamics 365 for Customer Engagement option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 for Customer Engagement option in the Admin center drop-down list")  
 
@@ -285,7 +285,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
-2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365 for Customer Engagement**, and then on the Instances page click **Updates**.  
+2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**, and then on the Instances page click **Updates**.  
 
 3. Choose the instance to approve.  
 
@@ -300,7 +300,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
-2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365 for Customer Engagement**, and then on the Instances page click **Updates**.  
+2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**, and then on the Instances page click **Updates**.  
 
 3. Choose the instance update to reschedule, and then click **Reschedule update**.  
 
@@ -343,7 +343,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
-2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365 for Customer Engagement**, and then click **Instances**.  
+2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**, and then click **Instances**.  
 
 3. Choose an instance that has notifications you want to change, and then click **Notifications**.  
 

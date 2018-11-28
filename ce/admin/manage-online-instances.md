@@ -29,7 +29,7 @@ You manage your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance
   
 1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in using Global administrator credentials.  
   
-2.  Choose **Admin** > **Dynamics 365 for Customer Engagement**  
+2.  Choose **Admin** > **Dynamics 365**  
   
 This section provides information on how you add or edit instances of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription and set up additional non-production (Sandbox) instances.  
   
