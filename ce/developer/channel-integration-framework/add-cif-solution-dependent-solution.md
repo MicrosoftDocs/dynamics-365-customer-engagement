@@ -59,7 +59,7 @@ Third-party channel providers can add a Channel Integration Framework (CIF) solu
 6. Select **Delete** and then select the **Delete** button in the dialog box that opens to confirm that you want to remove CIF as a dependent solution.
 
 > [!div class="nextstepaction"]
-> [Authenticate channel users to the channel (widget)](authenticate-channel-users.md "Authenticate channel users to the channel (widget)")
+> [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
 
 ## See also
 
