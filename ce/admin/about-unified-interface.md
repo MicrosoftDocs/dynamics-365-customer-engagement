@@ -2,7 +2,7 @@
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 10/24/2018
+ms.date: 11/15/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -13,8 +13,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
+author: "mduelae"
+ms.author: "mkaur"
 manager: "kvivek"
 search.audienceType: 
   - admin
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# About Unified Interface
+# About Unified Interface 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -129,7 +129,6 @@ There are certain capabilities that continue to be unavailable in the Unified In
 -	Third-party search provider (Coveo search)
 -	Composite address control
 -	Letter, Fax, Recurring Appointments
--	Campaign management – campaigns, campaign activities, marketing list, and quick campaign
 -	Global notifications
 -	Admin experiences
 -	Editable grids on phones
