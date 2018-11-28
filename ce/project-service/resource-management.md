@@ -1,5 +1,5 @@
 ---
-title: Resource projects in Project Service Automation
+title: Resourcing projects in Project Service Automation
 description: This topics provides information about resource management capabilities in Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
 manager: kfend
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Resource projects in Project Service Automation 
+# Resourcing projects in Project Service Automation 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -28,8 +28,7 @@ You can staff your project with a team of generic or named resources in Project 
 
 ## Book and assign a named bookable resource on a task and project team
 
-You can  add a named (or real) resource to your project team by booking them
-directly onto the team.
+You can  add a named (or real) resource to your project team by booking them directly onto the team.
 
 ![Adding a team member from the team tab](media/RM-how-to-1.png)
 
