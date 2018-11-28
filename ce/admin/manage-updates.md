@@ -239,7 +239,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 ## How will I know my organization is ready to update?  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators will be informed of updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] in multiple ways.  
 
-### Check your instances in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Administration Center  
+### Check your instances in the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] Administration Center  
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
@@ -268,11 +268,11 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
  -->
 
 ### Update notification emails are sent to admins  
- [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] system administrators will receive an email from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Team. You can use the links in the email to learn more about your update or reschedule it.  
+ [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] system administrators will receive an email from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Team. You can use the links in the email to learn more about your update or reschedule it.  
 
 <a name="BKMK_decipherupdate"></a>   
 ## Deciphering the update information  
- The “Manage your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] updates” page is your source for useful information and actions to take regarding your update.  
+ The “Manage your [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] updates” page is your source for useful information and actions to take regarding your update.  
 
  ![Deciphering update details](../admin/media/deciphering-update-details.png "Deciphering update details")  
 
@@ -339,7 +339,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 <a name="BKMK_SendEmailNotifications"></a>   
 ## Send email notifications to multiple recipients  
- By default, [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] admins will receive update notifications. You can add others to receive update notifications.  
+ By default, [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] admins will receive update notifications. You can add others to receive update notifications.  
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
@@ -365,7 +365,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 <a name="BKMK_PrepareforUpdate"></a>   
 
-## Prepare your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization for the update  
+## Prepare your [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] organization for the update  
  Dynamics 365 for Customer Engagement, version 9.x contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
 
 ### Prepare your users  
@@ -396,7 +396,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
      Ideally, you should test your customizations prior to update. This will also give you the opportunity to verify compatibility of any third-party customizations. If you identify any potential issues, please work with the solution provider to correct any issues that arise. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)  
 
-6. **Notify your users prior to the update of [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)].**  
+6. **Notify your users prior to the update of [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)].**  
 
      It is a best practice to notify your users that the system will be unavailable during the update. To get more resources to prepare users for the update, please visit [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md).
 

@@ -41,10 +41,10 @@ If you are a partner signing up on behalf of a customer, or are using this trial
 On any of the above pages, scroll down and click **Get Started** to start a 30-day trial. For more information on which scenario is right for you, see the [Installation options](#installation-options) section below.
 
 ## Current Dynamics 365 for Customer Engagement (online) customers  
- If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, there are a couple ways to see the latest version in action.  
+ If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription, there are a couple ways to see the latest version in action.  
 
 ### Start a trial  
- You can start a 30-day trial of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and try out one or all of the customer engagement applications. This trial uses the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] Customer Engagement Plan license.  
+ You can start a 30-day trial of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and try out one or all of the customer engagement applications. This trial uses the [!INCLUDE [pn-dyn-365](../includes/pn-crm-shortest.md)] Customer Engagement Plan license.  
 
 <!-- ![Trial experience for Dynamics 365 for Customer Engagement](../admin/media/trial-experience-dynamics-365.png "Trial experience for Dynamics 365 for Customer Engagement")  -->
 
@@ -76,7 +76,7 @@ For more information about the scenario choices, see the [Installation options](
 
 
 ### Use a Sandbox instance  
- If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, you can use a Sandbox instance to try the latest version of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].  
+ If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription, you can use a Sandbox instance to try the latest version of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].  
 
   Follow these steps to set up a Sandbox instance of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]:  
 

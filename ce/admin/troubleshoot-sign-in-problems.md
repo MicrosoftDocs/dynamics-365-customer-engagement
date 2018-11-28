@@ -69,9 +69,9 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
   
 <a name="BKMK_DirectHomePage"></a>   
 ### For admins and end users: Sign in to the Dynamics 365 for Customer Engagement home page  
- We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
+ We have a new [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
   
- For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 for Customer Engagement home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
+ For information on the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 for Customer Engagement home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
 ### If you’re an end user  
  You can sign in directly to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can also sign in at https:/portal.office.com.  

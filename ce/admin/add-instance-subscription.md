@@ -36,7 +36,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 ## What information do I need to create an instance?  
  When you add an instance, you can accept the default values, or enter different values to create a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
   
-- **Select which scenario fits you best**. The apps you can choose depend on the licenses you've purchased. If you haven't purchased any [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] licenses, you'll only see **None of these (don't preinstall any apps)**.  
+- **Select which scenario fits you best**. The apps you can choose depend on the licenses you've purchased. If you haven't purchased any [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] licenses, you'll only see **None of these (don't preinstall any apps)**.  
   
   ![Select an app to configure your instance](../admin/media/select-app-configure-instance.png "Select an app to configure your instance")  
   

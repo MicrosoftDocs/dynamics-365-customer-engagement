@@ -54,7 +54,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll 
 
 - You want to simplify the renewal process.  
 
-- You're going to assign all your users to the same [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
+- You're going to assign all your users to the same [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plan.  
 
 See [Use the Switch plans wizard](#BKMK_SwitchPlan).  
 
@@ -64,9 +64,9 @@ See [Use the Switch plans wizard](#BKMK_SwitchPlan).
 
 - You want more control of the renewal process.  
 
-- You have a mix of [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans to assign users to.  
+- You have a mix of [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plans to assign users to.  
 
-- You're going to purchase fewer licenses in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan than you currently have in your CRM Online plan.
+- You're going to purchase fewer licenses in the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plan than you currently have in your CRM Online plan.
 
 See [Switch plans manually](#BKMK_ManualSwitch).  
 
@@ -83,7 +83,7 @@ See [Switch plans manually](#BKMK_ManualSwitch).
 
 -   Cancels your old plan.  
 
-To renew to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Switch plans wizard, follow these steps.  
+To renew to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] using the Switch plans wizard, follow these steps.  
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
 
@@ -119,7 +119,7 @@ To renew to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Switch p
 
    ![Apply a promotion code](../admin/media/apply-promotion-code.png "Apply a promotion code")  
 
-    For current CRM Online customers, we are offering discounted pricing on [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans when you transition. Click on your subscription type to find your promo code, then return and complete the remaining steps.  
+    For current CRM Online customers, we are offering discounted pricing on [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plans when you transition. Click on your subscription type to find your promo code, then return and complete the remaining steps.  
 
    |Subscription type|  
    |-----------------------|  
@@ -153,9 +153,9 @@ To renew to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Switch p
 
 -   Cancel the original subscription.  
 
-To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, complete the following phases in the order shown.  
+To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription, complete the following phases in the order shown.  
 
-- Phase 1: Buy user licenses for a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription.  
+- Phase 1: Buy user licenses for a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription.  
 
 - Phase 2: Verify that your subscription has the right number of licenses.  
 
@@ -164,7 +164,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365
 - Phase 4: Cancel the CRM Online subscription.  
 
 <a name="BKMK_BuyLicense"></a>   
-### Phase 1: Buy user licenses for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscriptions  
+### Phase 1: Buy user licenses for your [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscriptions  
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
 
@@ -205,7 +205,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365
 
    ![Click Add-on in your cart](../admin/media/click-add-on-your-cart.png "Click Add-on in your cart")  
 
-    To see which add-ons are included with [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
+    To see which add-ons are included with [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plans, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
 
 8. Click **Check out** in your cart.  
 
@@ -213,7 +213,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365
 
    ![Apply a promotion code](../admin/media/apply-promotion-code.png "Apply a promotion code")  
 
-     For current CRM Online customers, we are offering discounted pricing on [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans when you transition. Click on your subscription type to find your promo code, then return and complete the remaining steps.  
+     For current CRM Online customers, we are offering discounted pricing on [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plans when you transition. Click on your subscription type to find your promo code, then return and complete the remaining steps.  
 
     |Subscription type|  
     |-----------------------|  
@@ -241,7 +241,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365
 
 1. In the admin center, choose **Billing** > **Subscriptions**.  
 
-2. Make sure that the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscriptions appear under **Active**, and that the number of purchased licenses is correct.  
+2. Make sure that the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscriptions appear under **Active**, and that the number of purchased licenses is correct.  
 
 <a name="BKMK_ReassignLicense"></a>   
 ### Phase 3: Reassign user licenses  
@@ -252,7 +252,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365
 
 1. In the admin center, choose **Users** > **Active users**.  
 
-2. Select the boxes next to the names of the users that you want to move to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscriptions.  
+2. Select the boxes next to the names of the users that you want to move to the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscriptions.  
 
 3. In the **Bulk actions**-pane, choose **Edit product licenses**.  
 
@@ -264,10 +264,10 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365
 
 <a name="BKMK_CancelSubscription"></a>   
 ### Phase 4: Cancel the CRM Online subscription  
- Once you've moved all your Dynamics CRM Online users to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans, you're ready to cancel your Dynamics CRM Online subscription.  
+ Once you've moved all your Dynamics CRM Online users to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plans, you're ready to cancel your Dynamics CRM Online subscription.  
 
 > [!TIP]
->  Be sure to assign [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] licenses to all your users before cancelling your Dynamics CRM Online subscription so current users don't lose access.  
+>  Be sure to assign [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] licenses to all your users before cancelling your Dynamics CRM Online subscription so current users don't lose access.  
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
 
@@ -291,11 +291,11 @@ When you check your Dynamics CRM Online subscription (**Billing** > **Subscripti
 
 <a name="BKMK_DataSwitch"></a>   
 ## What happens to my data when I switch to a Dynamics 365 for Customer Engagement subscription?  
- Your data, user records, customization, etc. are stored in your tenant and are not tied directly to a specific CRM Online subscription. When you switch to a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, the new licenses provide access to your existing CRM organization and will not lead to any loss of data.  
+ Your data, user records, customization, etc. are stored in your tenant and are not tied directly to a specific CRM Online subscription. When you switch to a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription, the new licenses provide access to your existing CRM organization and will not lead to any loss of data.  
 
 <a name="BKMK_NoSwitch"></a>   
 ## What happens if I do not switch to a Dynamics 365 for Customer Engagement subscription?  
- If you do not switch to a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription before the term end date, the CRM Online subscription will enter into an expired state for 90 days for most subscriptions, in most countries and regions. At the end of the expired state, the subscription moves into the disabled state, which is 90 days for most subscriptions, in most countries and regions. We recommend that you back up your data before the subscription is disabled, but as an admin, you can still access and back up data for your organization while it is in the disabled state. Any customer data that you leave behind may be deleted after 90 days, and will be deleted no later than 180 days after cancellation.  
+ If you do not switch to a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription before the term end date, the CRM Online subscription will enter into an expired state for 90 days for most subscriptions, in most countries and regions. At the end of the expired state, the subscription moves into the disabled state, which is 90 days for most subscriptions, in most countries and regions. We recommend that you back up your data before the subscription is disabled, but as an admin, you can still access and back up data for your organization while it is in the disabled state. Any customer data that you leave behind may be deleted after 90 days, and will be deleted no later than 180 days after cancellation.  
 
  Here's what to expect for you and your users if your subscription is disabled.  
 

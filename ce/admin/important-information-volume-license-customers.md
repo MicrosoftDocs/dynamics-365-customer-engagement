@@ -44,7 +44,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, you wil
   
 1. In the admin center, choose **Users** > **Active users**.  
   
-2. Select the boxes next to the names of the users that you want to move to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscriptions.  
+2. Select the boxes next to the names of the users that you want to move to the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscriptions.  
   
 3. In the **Bulk actions**-pane, choose **Edit product licenses**.  
   

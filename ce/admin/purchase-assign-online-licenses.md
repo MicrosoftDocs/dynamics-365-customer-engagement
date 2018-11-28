@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
+[!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
   
 > [!TIP]
 >  Get started with the following resources:  
@@ -65,7 +65,7 @@ search.app:
   
 4. Click **Replace existing product license assignments**, and then click **Next**.  
   
-5. Turn on the license for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
+5. Turn on the license for your [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plan.  
   
    ![Dynamics 365 for Customer Engagement Plan Enterprise Edition license](../admin/media/dynamics-365-plan-1-enterprise-edition-license.png "Dynamics 365 for Customer Engagement Plan Enterprise Edition license")  
   

@@ -30,7 +30,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
 > [!TIP]
 >  Admins: Be sure to share this information with your end users.  
 > 
->  You can troubleshoot issues with signing in to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Support and Recovery Assistant for Office 365. For more information, see the blog [New diagnostic scenario for web sign-in](https://community.dynamics.com/crm/b/dynamicscrmsupportblog/archive/2016/11/15/new-diagnostic-scenario-for-web-sign-in).  
+>  You can troubleshoot issues with signing in to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] using the Support and Recovery Assistant for Office 365. For more information, see the blog [New diagnostic scenario for web sign-in](https://community.dynamics.com/crm/b/dynamicscrmsupportblog/archive/2016/11/15/new-diagnostic-scenario-for-web-sign-in).  
   
 <a name="BKMK_PortalSignIn"></a>   
 ## Signing in to https://portal.office.com  
@@ -52,7 +52,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
 <a name="BKMK_DirectAdminCenter"></a>   
 ## Direct sign in to the Dynamics 365 for Customer Engagement Administration Center  
- Some [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] admin or Office 365 admin roles might be unable to access the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] after signing in to https://portal.office.com. Use the following steps to directly navigate to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
+ Some [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] admin or Office 365 admin roles might be unable to access the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] after signing in to https://portal.office.com. Use the following steps to directly navigate to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
   
 1. Go to https://port.\<region>.dynamics.com/G/instances/InstancePicker.aspx  
   
@@ -76,9 +76,9 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
 <a name="BKMK_DirectHomePage"></a>   
 ## Direct sign in to the Dynamics 365 for Customer Engagement home page  
- We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
+ We have a new [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
   
- For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 for Customer Engagement home page](../admin/quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
+ For information on the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 for Customer Engagement home page](../admin/quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
 <a name="BKMK_directsignin"></a>   
 ## Direct sign in to Dynamics 365 for Customer Engagement (online)  

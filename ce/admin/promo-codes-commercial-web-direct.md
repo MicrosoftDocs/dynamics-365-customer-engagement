@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-For current CRM Online customers, we are offering discounted pricing on [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans when you transition.  In the table below, locate your existing CRM Online plan and determine the  promo code for the plan that best fits your business.  
+For current CRM Online customers, we are offering discounted pricing on [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] plans when you transition.  In the table below, locate your existing CRM Online plan and determine the  promo code for the plan that best fits your business.  
   
 |Existing Dynamics CRM Online User|Application Transition Pricing|Promo Code|Comment|  
 |---------------------------------------|------------------------------------|----------------|-------------|  
