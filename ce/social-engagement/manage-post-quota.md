@@ -91,13 +91,13 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
 
-[Learn more about pricing and licensing for Dynamics 365 for Customer Engagement.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
+[Learn more about pricing and licensing for Dynamics 365 for Customer Engagement plans.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
 ### To buy add-on subscriptions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 for Customer Engagement plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
+An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your  plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
 
-For more information, see [Pricing and licensing for Dynamics 365 for Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkID=401462).
+For more information, see [Pricing and licensing for Dynamics 365 for Customer Engagement plans](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
 
