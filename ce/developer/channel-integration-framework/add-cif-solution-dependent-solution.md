@@ -24,7 +24,7 @@ manager: shujoshi
 
 # Add a Channel Integration Framework (CIF) solution as a dependent solution
 
-Third-party channel providers can add a Channel Integration Framework (CIF) solution as a dependent solution to use CIF's capabilites in the solutions they develop for Dynamics 365. This article describes how users can install, update, and delete a CIF solution as a dependent solution.
+Third-party channel providers can add a Channel Integration Framework (CIF) solution as a dependent solution to use CIF's capabilites in the solutions they develop for Dynamics 365. This topic describes how users can install, update, and delete a CIF solution as a dependent solution.
 
 ## Add a Channel Integration Framework solution as a dependent solution  
 
