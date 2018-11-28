@@ -26,7 +26,7 @@ This topic provides information about setting up custom pricing dimensions. In t
 - **msdyn_resourcecategory** (Role)
 - **msdyn_OrganizationalUnit** (Organizational Unit)
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > Do not delete these rows. However, if you do not need them, you can make them not applicable in a specific context by setting **Applicable to Cost**, **Applicable to Sales**, and **Applicable to Purchase** all to **No**. Setting these attribute values to **No** has the same effect of not having the field as a pricing dimension.
 
 For a field to become a pricing dimension, it must be:
