@@ -1,5 +1,5 @@
 ---
-title: "Plug-in registration entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Plug-in registration entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about plug-in registration entities that define a Dynamics 365 for Customer Engagement web services (SDK) message, the entities that support a particular message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -26,7 +26,7 @@ search.app:
 
 The plug-in registration entities define a [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] message, the entities that support a particular SDK message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities.  
   
- An *SDK Message* defines a message to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement platform. The message represents the operation that the platform is to perform. You should not create or update a record of this entity.  
+ An *SDK Message* defines a message to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps platform. The message represents the operation that the platform is to perform. You should not create or update a record of this entity.  
   
  An *SDK Message Filter* defines what entity type, for example, account or contact, supports a particular SDK message. It also identifies whether a custom plug-in can be registered for the message and executed when the message is processed by the event execution pipeline.  
   
