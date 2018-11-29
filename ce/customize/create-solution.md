@@ -2,7 +2,7 @@
 title: "Create a solution | MicrosoftDocs"
 description: "Learn how to create a solution"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 11/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 author: "Mattp123"
 ms.assetid: e21a4876-08b4-417a-a644-c577a27c5cf1
 caps.latest.revision: 12
@@ -64,3 +63,6 @@ search.app:
 
 > [!IMPORTANT]
 >  If you plan to include appointments in solutions, we strongly recommend that you don’t include only appointments and only recurring appointments in separate solutions. If you install and uninstall separate solutions with different appointment types, you’ll encounter a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] error and you’ll have to re-create the appointments. 
+
+### See also
+[Solutions overview](solutions-overview.md)
