@@ -29,6 +29,7 @@ search.app:
 
 # Fulfillment preferences
 
+
 Fulfillment preferences are customizable entities that let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning / afternoon time windows.
 
 By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time,  such as 10:39am. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00am**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
@@ -195,25 +196,19 @@ You can add both an interval and a time group to a single fulfillment preference
          8:00AM, 9:30AM, 11:00AM, (not 12:30 because this is blocked for lunch), **1:00PM** (resetting for next time group detail), 2:30PM, 4:00PM
 
 
-## Compatibility notes
+## Configuration notes
 
-============================FIGURE OUT WHERE TO PUT THIS=================================
-
-- **Compatibility with requirement groups** - in case of scheduling a requirement group, which has many requirements within it, you can still set the fulfillment preference option on the requirement, and all requirements in that requirement group will inherit the same fulfillment preferences. The Fulfillment Preferences entity was originally named time groups, and therefore, the actual schema name for this entity is “msdyn_timegroup”, although the display name is “Fulfillment Preferences”.
-
-- Fulfillment preferences applies to location agnostic and onsite requirements 
-
-- Intervals are compatible with individual requirements and requirement groups
+- Intervals can also be set for requirement groups. All requirements within that requirement group will inherit the same fulfillment preferences. The fulfillment preferences entity was originally named "time groups," and therefore, the actual schema name for this entity is “msdyn_timegroup,” although the display name is “Fulfillment Preferences”.
 
 - Time group details are only compatible for individual requirements
 
-- **Tying booking back to time group details** - there is an attribute on the booking entity called “Time Group Detail Selected” (msdyn_timegroupdetailselected), which points to the Time Group Detail entity. This value is automatically populated when a booking is created through the Schedule Assistant. For example, if a requirement is scheduled and the results falls into Time Group Detail “9 to 12”, the booking that is created through the schedule assistant will have the value “9 to 12” in the “time group detail selected” field.
+- Fulfillment preferences apply to location-agnostic and onsite requirements 
 
-- **Intervals Begin is time zone agnostic** - intervals begin time is dependent on the time zone of the requirement calendar when triggered fro the requirement, but is dependent on the user's time zone when triggered from the schedule board.
+- There is an attribute on the booking entity called “Time Group Detail Selected” (msdyn_timegroupdetailselected), which points to the time group detail entity. This value is automatically populated when a booking is created through the schedule assistant. For example, if a requirement is scheduled and the results fall into the time group “9 to 12,” the booking created through the schedule assistant will have the value “9 to 12” in the “time group detail selected” field.
 
-============================FIGURE OUT WHERE TO PUT THIS=================================
+- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the user's time zone.
 
-### Supported vs Not Supported Functionality
+### Supported vs not supported functionality
 In v3.1 of Universal Resource Scheduling (URS), some features will work when scheduling both individual requirements and groups of requirements and some features will not work for both. Please use the table below for guidance.
 
 
