@@ -2,14 +2,13 @@
 title: "Create a site map for an app in PowerApps | MicrosoftDocs"
 description: "Learn how to create a site map for you app"
 keywords: ""
-ms.date: 04/05/2018
+ms.date: 11/28/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 2461bd71-6cb4-46b7-8d1f-6a0aa3dca809
 ms.author: "matp"
