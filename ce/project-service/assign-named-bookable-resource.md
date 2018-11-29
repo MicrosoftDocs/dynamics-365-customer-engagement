@@ -44,7 +44,7 @@ You can  add a named resource to your project team by booking them directly onto
 ![Assigning a team member to a task on the schedule tab](media/RM-how-to-3.png)
 
 In version 3 for PSA, resource bookings and task assignments are not tightly coupled. This means that when you use the resource picker in the schedule, you can assign tasks to team members for more hours than their bookings cover on the project.
-You can see the differences between team member bookings and assignments on the **Team** tab or on the **Resource reconciliation** tab where you can also reconcile the differences between bookings and assignments for resources at a more detailed level.
+You can see the differences between team member bookings and assignments on the **Team** tab or on the **Resource Reconciliation** tab where you can also reconcile the differences between bookings and assignments for resources at a more detailed level.
 
 ![Resource reconciliation tab](media/RM-how-to-4.png)
 
@@ -52,8 +52,7 @@ You can also use the resource picker on the **Schedule** tab to select bookable 
 
 ![Assigning a non-team member resource to a task](media/RM-how-to-5.png)
 
-When you do this, the resource is added to the project team and assigned to the task, but no bookings are
-generated.
+When you do this, the resource is added to the project team and assigned to the task, but no bookings are generated.
 
 ![Team member with assignments and no bookings](media/RM-how-to-6.png)
 
@@ -62,8 +61,3 @@ You can use the **Reconciliation** tab’s extend booking capability or the **Sc
 ![Extending bookings for a team member on the resource reconciliation tab](media/RM-how-to-7.png)
 
 After a team member is booked on your project, you can use maintain bookings or use the Schedule Board directly to manage their bookings.
-
-![Maintaining bookings for a team member](media/RM-how-to-8.png)
-
-![Generating a requirement for a generic team member](media/RM-how-to-12.png)
-
