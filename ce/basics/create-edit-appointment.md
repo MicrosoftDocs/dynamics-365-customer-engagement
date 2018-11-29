@@ -36,9 +36,9 @@ The calendar displays canceled and completed appointments and service activities
 
 To remove an appointment or service activity from the calendar, delete the record.  
   
-1. To create an appointment or a recurring appointment on the Service Calendar, on the nav bar: [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
+1. To create an appointment or a recurring appointment on the Service Calendar, on the nav bar, go to **Service** > **Service Calendar**.   
   
-   To create an appointment or recurring appointment in the Activities area, on the nav bar: [!INCLUDE[proc_sales_activities](../includes/proc-sales-activities.md)]  
+   To create an appointment or recurring appointment in the **Activities** area, on the nav bar, go to **Sales** > **Activities**.   
   
 2. On the command bar, click **Appointment**.  
   
@@ -49,7 +49,7 @@ To remove an appointment or service activity from the calendar, delete the recor
 5. Click **Save**. If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
 
 > [!Note]
->  You may have the option to create an appointment in Dynamics 365 for Customer Engagement and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange. You will only see these options if your admin as enabled this specific setting. For more information, [OrgDBOrgSettings tool for Microsoft Dynamics CRM](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+>  You may have the option to create an appointment in Dynamics 365 for Customer Engagement and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange. You will only see these options if your admin as enabled this specific setting. For more information, [OrgDBOrgSettings tool](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
 
   
 If you want to add an attachment, make sure you save the appointment first. Then, in the **Attachments** section, click the **Add attachment record** button ![Add Appointment button](../basics/media/plus-sign-icon.png "Add Appointment button") (you may have to scroll to the right to see the button) and browse for the file. The attachment size limitation is the same as the email attachment size limitation, which can be changed by your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)
