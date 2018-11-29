@@ -1,5 +1,5 @@
 ---
-title: "Get started with in-app marketing (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Get started with in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -27,13 +27,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
+Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
   
 ## Import contacts, accounts, and leads  
- Get your customer records into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and add these to marketing lists so you can target your campaigns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
+ Get your customer records into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and add these to marketing lists so you can target your campaigns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
 ## Create marketing lists  
- Group accounts, contacts, or leads into a targeted marketing list. You can create a marketing list easily with the search functionality in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], so you find all of your customers in a particular area, for example, and add them to the member list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
+ Group accounts, contacts, or leads into a targeted marketing list. You can create a marketing list easily with the search functionality in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], so you find all of your customers in a particular area, for example, and add them to the member list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
   
 ## Understand the difference between a campaign and a quick campaign  
  In the marketing area, use standard campaigns to manage the end-to-end process of a complete marketing campaign, like managing campaign and planning activities, distributing the activities to other team members, and tracking how the campaign did. Campaigns include extensive tracking features, including detailed information, reports, and multiple marketing lists.  
