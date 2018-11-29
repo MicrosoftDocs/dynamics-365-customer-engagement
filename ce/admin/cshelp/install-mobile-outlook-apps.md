@@ -28,4 +28,4 @@ search.app:
 To learn about Microsoft Dynamics 365 for Customer Engagement mobile or Outlook apps, see:
 
 - [User Guide (Dynamics 365 for Customer Engagement for phones and tablets)](../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
-- [Dynamics 365 for Customer Engagement App for Outlook User Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)
+- [Dynamics 365 App for Outlook User Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)

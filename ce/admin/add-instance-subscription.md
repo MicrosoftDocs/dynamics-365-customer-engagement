@@ -69,14 +69,14 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
 1. Sign in to the [Office 365 admin center](https://portal.office.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
-2. Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-Production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
+2. Scroll down to the **Add-on subscriptions** section, and then hover over **Dynamics 365 Enterprise Edition - Additional Non-Production Instance** or **Dynamics 365 Enterprise - Additional Production Instance**, and then click **Buy now**.  
   
 3. Proceed through the screens to purchase additional instances.  
   
     For more information, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
   
 > [!TIP]
->  Close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 for Customer Engagement (online) instances** page.  
+>  Close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage your Dynamics 365 instances** page.  
   
 ### Step 2: Configure the additional instance  
   
@@ -89,7 +89,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
 4. Select the instance that you want to configure, and then click **Configure**.  
   
    > [!TIP]
-   >  If the instance does not appear in the list or is in a state other than **ready to configure**, wait a few minutes and then try again. Or, close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 for Customer Engagement (online) instances** page.  
+   >  If the instance does not appear in the list or is in a state other than **ready to configure**, wait a few minutes and then try again. Or, close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage your Dynamics 365 instances** page.  
    > 
    >  You cannot start a new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance until you click **Configure** and complete the configuration process.  
    > 

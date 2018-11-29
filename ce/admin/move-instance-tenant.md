@@ -33,7 +33,7 @@ There are no user-interface changes or version changes as part of this move. You
 > [!IMPORTANT]
 > <!-- For versions prior to Dynamics 365 for Customer Engagement (online) version 9.0,-->When moving individual Dynamics 365 for Customer Engagement (online) instances from one tenant to another, if that requires a geographical region change, your tenant becomes a multiregional tenant. Regional features are enabled in the Dynamics 365 admin center  .
 > 
-> You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Customer Engagement for Outlook, server-side sync, SharePoint integration, etc.
+> You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Outlook, server-side sync, SharePoint integration, etc.
 >
 > Dynamics 365 for Customer Engagement (online) version 9.0 does not currently support tenant to tenant migration. Check back later for availability. 
 
