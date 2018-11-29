@@ -1,5 +1,5 @@
 ---
-title: "Choose and configure columns in views in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Choose and configure columns in views in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to select and configure views for your app"
 keywords: ""
 ms.date: 11/08/2018
@@ -31,7 +31,7 @@ search.app:
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
- Along with the filter criteria, the columns visible in a Dynamics 365 for Customer Engagement for Customer Engagement view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
+ Along with the filter criteria, the columns visible in a Dynamics 365 for Customer Engagement view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
   
 -   [Add columns](../customize/choose-and-configure-columns.md#BKMK_AddColumns)  
   
@@ -132,7 +132,7 @@ search.app:
 
 ## Community tools
 
-**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
