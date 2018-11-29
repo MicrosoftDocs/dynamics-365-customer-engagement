@@ -36,7 +36,7 @@ Follow the procedures given below to access the form editor:
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, open the form editor through that unmanaged solution.
 
 
-### Access the form editor through App designer in Dynamics 365 for Customer Engagement customer engagement
+### Access the form editor through App designer in Dynamics 365 for Customer Engagement
 
 1. Go to **Settings > My Apps**.
 2. Select **...** on an app and select **Open in App designer**.

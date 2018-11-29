@@ -14,7 +14,7 @@ ms.assetid: ea98ae5e-5dbc-4c23-b4c6-513774997226
 caps.latest.revision: 47
 author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,9 +22,9 @@ search.app:
 ---
 # Customize and organize reports
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)] <br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement by using reports. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
+Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by using reports. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
   
 <a name="ownership"></a>   
 ## Report ownership  
