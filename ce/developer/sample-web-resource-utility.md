@@ -61,5 +61,5 @@ Manually creating Web resources one at a time using the customization tools can 
 ### See also  
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)   
  [Web Resource Messages and Methods](webresource-entity-messages-methods.md)   
- [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
  [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)
