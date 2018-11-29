@@ -43,7 +43,7 @@ You can delete [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Sandbox i
   
 5. Click **Confirm** to delete the instance.  
   
-Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one Production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 for Customer Engagement updates** page.  
+Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one Production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one Production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 for Customer Engagement updates** page.  
   
 ### See also  
  [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)   
