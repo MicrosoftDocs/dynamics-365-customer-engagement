@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The following are issues and error messages with possible resolutions.
+The following are error messages with possible resolutions.
 
 ## Error messages in the Teams app
 
