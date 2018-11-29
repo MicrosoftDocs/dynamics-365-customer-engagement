@@ -1,4 +1,5 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
+# [Fulfillment preferences](fulfillment-preferences.md)
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider
