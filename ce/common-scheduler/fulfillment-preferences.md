@@ -1,5 +1,5 @@
 ---
-title: "Fulfillment preferences in Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Fulfillment preferences in Universal Resource Scheduling for Dynamics 365 | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/29/2018
@@ -173,7 +173,7 @@ Right-clicking on the column header allows schedulers to group by time group det
 > ![Screenshot of grouping time group details](./media/scheduling-fulfillment-preferences-time-group-detail-group2.png)
 
 > [!Note]
-> Time group details ensure the start time of the booking falls within the time group, however the end time can fall beyond. In the preceeding example screenshot, a resource available at 11:59 AM appears in the "morning" time group, and the duration of the booking will spill over into lunch/afternoon time group. 
+> Time group details ensure the start time of the booking falls within the time group; however, the end time can fall beyond. In the preceeding example screenshot, a resource available at 11:59 AM appears in the "morning" time group, and the duration of the booking will spill over into lunch/afternoon time group. 
 
 ## Using intervals and time groups together
 
