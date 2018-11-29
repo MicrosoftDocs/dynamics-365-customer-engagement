@@ -68,7 +68,7 @@ You may request migration to the Japan datacenter upon datacenter availability (
   
 2.  Go to **Support** > **Service Requests** > **+**  
   
-3.  Choose **More** > **Dynamics 365 for Customer Engagement Online**  
+3.  Choose **More** > **Dynamics 365 Online**  
   
 4.  For **Feature**, select **Data Management**. For **Symptom**, select **Data Center migration request**.  
   

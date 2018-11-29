@@ -86,7 +86,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 <a name="BKMK_restoreBU"></a>   
 
-## Restore the Microsoft Dynamics 365 for Customer Engagement (online) database  
+## Restore the Dynamics 365 for Customer Engagement (online) database  
  The backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database must be restored by using a server running the same or a later version of [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] as the database you receive.  You will be able to request the version you need before you receive the database.  
   
  Restore the copy of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. To do this, follow the steps here.  
@@ -94,7 +94,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 > [!IMPORTANT]
 >  Your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database may be encrypted with a certificate. For more information, see  [“Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 for Customer Engagement organization database](#BKMK_cert) later in this topic.  
   
-#### Restore a Microsoft Dynamics 365 for Customer Engagement (online) organization database to SQL Server  
+#### Restore a Dynamics 365 for Customer Engagement (online) organization database to SQL Server  
   
 1.  Open [!INCLUDE[pn-ms-sql-management-studio-long](../includes/pn-ms-sql-management-studio-long.md)], and then connect to the appropriate instance of [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)].  
   
