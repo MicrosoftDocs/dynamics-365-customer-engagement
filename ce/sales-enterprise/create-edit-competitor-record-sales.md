@@ -26,7 +26,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
+Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
 
 ## Create a competitor (Sales Hub)
 
