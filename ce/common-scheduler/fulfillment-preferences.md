@@ -54,40 +54,40 @@ For example, a heating and cooling company wants to group air conditioning insta
 
 **Intervals** and **time groups** can be combined to offer predefined intervals within a predefined time block, such as grouping 1-hour appointments within morning and afternoon groups. This allows a scheduler to first identify if morning or afternoon works better for the customer, and then offer an appointment. This further simplifies the scheduler experience and communication to the customer.
 
-Below find instructions to set up intervals and time groups, and finally how to set them up to work together.
+Below find instructions to set up intervals and time groups, and finally how to set them up to work together. Note that Universal Resource Scheduling version 3.1+ is required.
 
 
 ## Interval setup
 
-To set up intervals, you need: 
+To set up intervals, you need to: 
 
-- Field Service v8.0+
-- Universal Resource Scheduling v3.1+
+1. Create a fulfillment prefence
+2. Associate the fulfillment preference to a requirement
+3. Book the requirement with the schedule assistan
 
-### Create the fulfillment preference
+### Create a fulfillment preference
 
-1. Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**.
+1. Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**. Enter a **name** and save.
 
 > [!div class="mx-imgBorder"]
 >![Screenshot of ](./media/scheduling-fulfillment-navbar.png)
 
-2. Enter a **name**.
-3. Navigate to the **Interval** tab.
+2. Navigate to the **Interval** tab.
 
 > [!div class="mx-imgBorder"]
 >![Screenshot of fulfillment preferences from left navigation pane](./media/scheduling-fulfillment-30min-interval.png)
 
-4. Enter a duration for **Interval**. This is the duration between available time slots. Typical examples include 30 min, 45 min, 1 hour, 2 hours.
+3. Enter a duration for **Interval**. This is the duration between available time slots. Typical examples include 30 min, 45 min, 1 hour, 2 hours.
 
-5. Enter a time for **Interval Begins**, which defines when to begin counting the interval. So if this is set to 12:00 AM, the available options are 12:00am, 12:30am, 1:00am, etc; however, results will also depend on resource availability and working hours. If left blank, the interval will begin at the time of booking. For example, if your interval is 30 min and Interval Begins is blank, when you attempt to book at 11:13am, your time slot options are 11:13am, 11:43am, 12:13pm, etc. 
+4. Enter a time for **Interval Begins**, which defines when to begin counting the interval. So if this is set to 12:00 AM, the available options are 12:00am, 12:30am, 1:00am, etc; however, results will also depend on resource availability and working hours. If left blank, the interval will begin at the time of booking. For example, if your interval is 30 min and Interval Begins is blank, when you attempt to book at 11:13am, your time slot options are 11:13am, 11:43am, 12:13pm, etc. 
 
-6. Enter a number for **Results per interval**. This dictates how many options a scheduler will receive for each interval. If left blank, the system defaults to 1.
+5. Enter a number for **Results per interval**. This dictates how many options a scheduler will receive for each interval. If left blank, the system defaults to 1.
 
     Results per interval decides how many options for a given time slot will appear in schedule assistant results. So if you have 85 resources all available at 9:30AM and results per interval is set to 85, then all resources will show. If results per interval is set to 5, then only the 5 best will show. 
 
-7. Save and close.
+6. Save and close.
 
-### Associate fulfillment preference to the requirement
+### Associate fulfillment preference to a requirement
 
 Navigate to the requirement you want to schedule and specify the fulfillment preference.
 
@@ -114,10 +114,11 @@ For field service examples where resources perform multiple appointments each da
 
 ## Time group setup
 
-To set up time groups, you need: 
+To set up time groups, you need to: 
 
-- Field Service v8.0+
-- Universal Resource Scheduling v3.1+
+1. Add time group details to a new fulfillment preference
+2. Specify fulfillment preference on the resource requirement
+3. Book the requirement with the schedule assistant
 
 ### Add time group details to a new fulfillment preference
 
@@ -141,7 +142,7 @@ To set up time groups, you need:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of time group detail record](./media/scheduling-fulfillment-preferences-time-group-detail-morning.png)
 
-    Another time group might be "afternoon," between 1:00 PM and 5:00 PM (this leaves 12:00 PM - 1:00 PM unavailable, allowing for lunch)
+   Another time group might be "afternoon," between 1:00 PM and 5:00 PM (this leaves 12:00 PM - 1:00 PM unavailable, allowing for lunch)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of second time group detail, one for morning and one for afternoon](./media/scheduling-fulfillment-preferences-time-group-detail-afternoon.png)
@@ -176,7 +177,7 @@ Right-clicking on the column header allows schedulers to group by time group det
 
 ## Using intervals and time groups together
 
-You can add both an interval and a time group to a single fulfillment preference, but it requires a few important considerations.
+You can add both an interval and a time group to a single fulfillment preference, but this requires a few important considerations.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of using both intervals and time group details to alter schedule assistant results](./media/scheduling-fulfillment-preferences-interval-and-time-group.png)
