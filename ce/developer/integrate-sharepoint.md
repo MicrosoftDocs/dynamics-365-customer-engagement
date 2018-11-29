@@ -1,6 +1,6 @@
 ---
-title: "Integrate Dynamics 365 for Customer Engagement with SharePoint (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "The SharePoint integration feature enables you to store and manage documents on SharePoint in the context of a Dynamics 365 for Customer Engagement record, and use the SharePoint document management abilities in Dynamics 365 for Customer Engagement, such as checking the document in and out, viewing version history, and changing document properties."
+title: "Integrate Dynamics 365 for Customer Engagement with SharePoint (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "The SharePoint integration feature enables you to store and manage documents on SharePoint in the context of a Dynamics 365 for Customer Engagement apps record, and use the SharePoint document management abilities in Dynamics 365 for Customer Engagement apps, such as checking the document in and out, viewing version history, and changing document properties."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -20,20 +20,20 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Integrate Dynamics 365 for Customer Engagement with SharePoint
+# Integrate Dynamics 365 for Customer Engagement apps with SharePoint
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_ms_sharepoint_server](../includes/pn-ms-sharepoint-server.md)] is a collaboration and content management application that simplifies how people store, find, and share information. It helps people to collaborate effectively by having secure access to documents and information that they require to make business decisions.  
   
- The [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration feature enables you to store and manage documents on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] in the context of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement record, and use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management abilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as checking the document in and out, viewing version history, and changing document properties.  
+ The [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration feature enables you to store and manage documents on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] in the context of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps record, and use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] apps document management abilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, such as checking the document in and out, viewing version history, and changing document properties.  
   
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] supports two types of integration with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]: client-to-server and server-to-server (server-based). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable SharePoint integration](integration-dev/get-started-sharepoint-integration.md#SPIntegration)  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps support two types of integration with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] apps: client-to-server and server-to-server (server-based). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable SharePoint integration](integration-dev/get-started-sharepoint-integration.md#SPIntegration)  
   
- Use the `SharePointSite` and `SharePointDocumentLocation` entities to store and manage the [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] location records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and the `UserMapping` entity to define custom claim mappings to use a value other than the default value used by [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to authenticate and authorize [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+ Use the `SharePointSite` and `SharePointDocumentLocation` entities to store and manage the [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] location records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, and the `UserMapping` entity to define custom claim mappings to use a value other than the default value used by [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps to authenticate and authorize [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps user in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
 ## In This Section  
- [Understanding Dynamics 365 for Customer Engagement and SharePoint Integration](integration-dev/get-started-sharepoint-integration.md)  
+ [Understanding Dynamics 365 for Customer Engagement apps and SharePoint Integration](integration-dev/get-started-sharepoint-integration.md)  
   
  [Enable SharePoint Integration](integration-dev/enable-document-management-entities.md)  
   
@@ -53,22 +53,22 @@ search.app:
  [Office and SharePoint development](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)  
    
 ## Related Sections  
- [Extend Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement apps](extend-dynamics-365-server.md)  
   
- [Supported Extensions for Dynamics 365 for Customer Engagement](supported-extensions.md)  
+ [Supported Extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md)  
   
- [The Metadata and Data Models in Dynamics 365 for Customer Engagement](metadata-data-models.md)  
+ [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps](metadata-data-models.md)  
   
- [Extend Dynamics 365 for Customer Engagement on the server](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement on the server apps](extend-dynamics-365-server.md)  
   
- [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)  
+ [Extend Dynamics 365 for Customer Engagement on the client apps](extend-client.md)  
   
  [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)  
   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
- [Extend Dynamics 365 for Customer Engagement for Outlook](extend-customer-engagement-outlook.md)  
+ [Extend Dynamics 365 for Outlook](extend-customer-engagement-outlook.md)  
   
- [Integrate Dynamics 365 for Customer Engagement with OneNote](integration-dev/integrate-onenote.md) 
+ [Integrate Dynamics 365 for Customer Engagement apps with OneNote](integration-dev/integrate-onenote.md) 
   
  
