@@ -1,5 +1,5 @@
 ---
-title: "Basics Guide (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Basics Guide (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 keywords: sales; service; marketing
 ms.custom: ""
 ms.date: 09/15/2017
@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Basics Guide for Dynamics 365 for Customer Engagement
+# Basics Guide for Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement basics guide contains the essentials you need to know to
+The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] basics guide contains the essentials you need to know to
 navigate the system, enter data, use dashboards, charts and reports effectively and more.
 
 ## Build customer relationships
