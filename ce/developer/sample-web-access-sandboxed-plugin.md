@@ -1,5 +1,5 @@
 ---
-title: "Sample: Web access from a sandboxed plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Web access from a sandboxed plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample demonstrates how to code a plug-in that has Web (network) access and be registered in the sandbox. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -29,7 +29,7 @@ Download the sample: [Work with plug-ins](https://code.msdn.microsoft.com/Sample
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
 
 ## Requirements  
- This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. 
+ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. 
   
  Register the compiled plug-in to run in the sandbox on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.  
   

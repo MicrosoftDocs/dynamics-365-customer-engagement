@@ -34,7 +34,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
 - Creating [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports using [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)].  
   
-- To write Fetch-based reports, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]FetchXML language. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
+- To write Fetch-based reports, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] FetchXML language. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
   
 ## Required tools  
  The following are required to write a custom report for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
@@ -49,12 +49,12 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
   - For [!INCLUDE[pn_MS_Visual_Studio_2010](../includes/pn-ms-visual-studio-2010.md)]: You must select and install the [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)] feature that is included with [!INCLUDE[pn_MS_SQL_Server_2012](../includes/pn-ms-sql-server-2012.md)] or [!INCLUDE[pn_ms_sql_2012_express](../includes/pn-ms-sql-2012-express.md)] on the computer that is running [!INCLUDE[pn_MS_Visual_Studio_2010](../includes/pn-ms-visual-studio-2010.md)]. [Download: Microsoft SQL Server 2012 Express](http://www.microsoft.com/download/details.aspx?id=29062)  
   
-- **[!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)]** . This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] only supports Fetch-based reports. [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: CRM 2016 Report Authoring Extension](http://go.microsoft.com/fwlink/?LinkID=624672). For installation instructions, see [Install Microsoft Dynamics CRM Report Authoring Extension](https://technet.microsoft.com/library/hh699675.aspx).  
+- **Dynamics 365 Report Authoring Extension** . This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (online) only supports Fetch-based reports. [Dynamics 365 Report Authoring Extension must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: Dynamics 365 Report Authoring Extension](https://www.microsoft.com/en-us/download/details.aspx?id=56973). For installation instructions, see [Install Dynamics 365 Report Authoring Extension](https://technet.microsoft.com/library/hh699675.aspx).  
   
 
 > [!NOTE]
 > - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 for Customer Engagement Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
-> - [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] is available only in a 32-bit version.  
+> - Dynamics 365 Report Authoring Extension is available only in a 32-bit version.  
   
 ## Required privileges  
  To deploy custom reports to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you must have a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] account and a security role assigned to you that includes the **PublishReport** privilege. By default, the System Customizer and System Administrator security roles include these privileges.  
