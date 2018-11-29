@@ -1,6 +1,6 @@
 ---
-title: "Metadata and data models (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Dynamics 365 for Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Customer Engagement server or client applications."
+title: "Metadata and data models (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement apps uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Customer Engagement server or client applications."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -23,9 +23,9 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server or client applications.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server or client applications.  
 
- All the information necessary for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server to operate is stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] metadata. This includes information about entities, attributes, relationships, and option sets.  
+ All the information necessary for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server to operate is stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps metadata. This includes information about entities, attributes, relationships, and option sets.  
 
  The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web services contain the messages that you use to read or write the definitions for all the entities each organization. It can also be used to build a client-side metadata cache, which is useful for applications that access the metadata frequently. For example, you may want to create a custom search solution that supports all entities, even those created after the solution has been installed.  
 
@@ -47,18 +47,18 @@ search.app:
 |     Option      |                                                                                                  An option is one of the values available in an option set. Each option in an option set has a unique integer value and an associated set of localized labels.                                                                                                   |
 
 ### See also  
- [Extend Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)   
- [Supported Extensions for Dynamics 365 for Customer Engagement](supported-extensions.md)   
+ [Extend Dynamics 365 for Customer Engagement apps](extend-dynamics-365-server.md)   
+ [Supported Extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md)   
  [Browse the Metadata for Your Organization](browse-your-metadata.md)  
  [Customize entity attribute metadata](customize-entity-attribute-metadata.md)  
  [Create auto-number attributes](create-auto-number-attributes.md)  
  [Customize entity relationship metadata](customize-entity-relationship-metadata.md)  
  [Use the Web API with metadata](webapi/use-web-api-metadata.md)   
- [Use the Organization service with Dynamics 365 for Customer Engagement metadata](org-service/use-organization-service-metadata.md)   
- [Extend Dynamics 365 for Customer Engagement on the server](extend-dynamics-365-server.md)   
- [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)   
+ [Use the Organization service with Dynamics 365 for Customer Engagement apps metadata](org-service/use-organization-service-metadata.md)   
+ [Extend Dynamics 365 for Customer Engagement apps on the server](extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)   
  [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)   
- [Extend Dynamics 365 for Customer Engagement for Outlook](extend-customer-engagement-outlook.md)   
- [Integrate Dynamics 365 for Customer Engagement with SharePoint](integrate-sharepoint.md)   
- [Integrate Dynamics 365 for Customer Engagement with OneNote](integration-dev/integrate-onenote.md)
+ [Extend Dynamics 365 for Outlook](extend-customer-engagement-outlook.md)   
+ [Integrate Dynamics 365 for Customer Engagement apps with SharePoint](integrate-sharepoint.md)   
+ [Integrate Dynamics 365 for Customer Engagement apps with OneNote](integration-dev/integrate-onenote.md)
