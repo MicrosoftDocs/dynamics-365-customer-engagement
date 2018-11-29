@@ -22,7 +22,6 @@ helpviewer_keywords:
   - "adding transformation mappings for importing, available transformations with their descriptions and input parameters"
   - "transformations for mapping, concatenation; split; substring; replace; assign value; add to date; and others"
 ms.assetid: c5c6c8ac-0206-4658-8f4b-58310ecd9c29
-caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -39,7 +38,7 @@ Use transformation mapping to modify data before importing it. For example, spli
 
  To implement transformation mapping, use the transformation mapping (`TransformationMapping`) entity and transformation parameter mapping (`TransformationParameterMapping`) entity.  
 
- The transformed data must be compatible with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entity attribute types.  
+ The transformed data must be compatible with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps entity attribute types.  
 
  The transformation type is described by the `TransformationMapping.TransformationTypeName` property. The valid values for this property are listed in the following table:  
 
@@ -151,7 +150,7 @@ Use transformation mapping to modify data before importing it. For example, spli
 |Value|Replacement value (same as assigned value).|  
 
 > [!NOTE]
->  Date transformations can only be used for correctly formatted dates. For information about how to format dates, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Help.  
+>  Date transformations can only be used for correctly formatted dates. For information about how to format dates, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Help.  
 
 <a name="BKMK_AddToDate"></a>   
 ## Add to date  
@@ -210,6 +209,6 @@ Use transformation mapping to modify data before importing it. For example, spli
 |New Date|New data string that contains day, month, and year, added in this order. First, the relative components are added, and then the absolute values are used to form a date.|  
 
 ### See also  
- [Import Data in Dynamics 365 for Customer Engagement](import-data.md)   
+ [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)   
  [Create data maps for import](create-data-maps-for-import.md)   
  [Configure Data Import](configure-data-import.md)
