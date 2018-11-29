@@ -46,7 +46,7 @@ For example, a hair salon may want to offer appointments every hour because 1-ho
 
 ### Time groups
 
-Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Typical examples include mornings, afternoonn, nights, 2-hour windows. Unlike intervals, time groups **do not dictate the start time of subsequent bookings**. Time groups organize results, but leave the start time/arrival time as-is, based on the particular resource's schedule. 
+Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Typical examples include mornings, afternoon, nights, 2-hour windows. Unlike intervals, time groups **do not dictate the start time of subsequent bookings**. Time groups organize results, but leave the start time/arrival time as-is, based on the particular resource's schedule. 
 
 When a time group is created for morning (8am-12pm) the schedule assistant will display a resource's earliest availability within the defined morning bucket. Results will show a list of possible resources to start at 8:32am, 9:07am, and 11:23am, and all results will appear within the "morning" time group because the start times fall within the 8am-12pm time group.
 
