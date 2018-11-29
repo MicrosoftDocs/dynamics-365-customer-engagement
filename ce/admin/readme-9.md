@@ -57,7 +57,7 @@ required to take the following actions to maintain the connectivity to Dynamics
 2.  Recompile your custom Windows clients that were built using the .NET
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
-3.  Download and update Dynamics 365 for Customer Engagement for Outlook to [version
+3.  Download and update Dynamics 365 for Outlook to [version
     8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
 
 4.  Download the [latest version of developer
@@ -294,7 +294,7 @@ App modules and the app designer
 
 -   In the app designer, the option to set **App for Outlook Dashboard** as your
     default dashboard is available for all Unified Interface apps, but the
-    dashboard is only supported for Dynamics 365 for Customer Engagement App for Outlook. If you select
+    dashboard is only supported for Dynamics 365 App for Outlook. If you select
     this dashboard for another app, the dashboard will not load and users will
     see a blank screen or error message.
 
@@ -435,7 +435,7 @@ The date time control in Unified Interface relies on browser support. It has
 known issues in browsers such as Internet Explorer 11 and Firefox. It also has
 localization and format issues.
 
-Dynamics 365 for Customer Engagement App for Outlook
+Dynamics 365 App for Outlook
 ----------------------------
 
 -   Initial loading might take some time.
@@ -453,18 +453,18 @@ Dynamics 365 for Customer Engagement App for Outlook
     unresponsive.
 
 -   If there are any custom security roles, [the roles need to be assigned to
-    Dynamics 365 for Customer Engagement App for Outlook App
+    Dynamics 365 App for Outlook App
     Module](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#provide-security-role-access).
 
-Dynamics 365 for Customer Engagement for Outlook
+Dynamics 365 for Outlook
 ------------------------
 
--   Microsoft has released Dynamics 365 for Customer Engagement for Outlook version 8.2.2.137 update.
+-   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
     This update includes support for Transport Layer Security (TLS) 1.2, which
-    is required for connecting Dynamics 365 for Customer Engagement for Outlook with Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for Customer Engagement for
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for Customer Engagement for
     Outlook](https://www.microsoft.com/download/details.aspx?id=56327).
 
--   In offline mode, adding an attachment to a Note in Dynamics 365 for Customer Engagement for Outlook
+-   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
     might show the message “Microsoft Dynamics 365 for Customer Engagement has encountered an error.” A
     workaround for this issue is to dismiss the notification and upload the
     attachment.
