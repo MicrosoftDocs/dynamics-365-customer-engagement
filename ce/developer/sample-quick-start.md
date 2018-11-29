@@ -1,5 +1,5 @@
 ---
-title: "Sample: Quick start for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Quick start for Dynamics 365 for Customer Engagement apps(Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement Custommer Engagement web services by using the ServerConnection helper class and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -42,6 +42,6 @@ This sample authenticates the user with the [!INCLUDE[pn_dynamics_crm](../includ
 
 ### See also
 
-[Tutorials for Learning About Dynamics 365 for Customer Engagement Development](tutorials-resources-sdk.md)<br />
-[Sample: Simplified Connection Quick Start using Dynamics 365 for Customer Engagement](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
+[Tutorials for Learning About Dynamics 365 for Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
+[Sample: Simplified Connection Quick Start using Dynamics 365 for Customer Engagement apps](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
 [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />

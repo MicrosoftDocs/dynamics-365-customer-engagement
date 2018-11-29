@@ -1,5 +1,5 @@
 ---
-title: "Sample: Import data using complex data map (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Import data using complex data map (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Sample demonstrates how to create new records with data import by using a complex data map."
 keywords: ""
 ms.date: 10/31/2017
@@ -33,7 +33,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).
+This sample code is for Dynamics 365 for Customer Engagement. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).
   
 > [!NOTE]
 >  The source data for this sample is contained in the following file:   
@@ -46,13 +46,13 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
- This sample shows how to create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using data import. The sample uses a complex data map.  
+ This sample shows how to create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Customer Engagement by using data import. The sample uses a complex data map.  
   
 ## Example  
  [!code-csharp[DataImport#ImportWithCreate](../snippets/csharp/CRMV8/dataimport/cs/importwithcreate.cs#importwithcreate)]  
   
 ### See also  
- [Import Data in Dynamics 365 for Customer Engagement](import-data.md)   
+ [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GetHeaderColumnsImportFileRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ParseImportRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.GetDistinctValuesImportFileRequest>   

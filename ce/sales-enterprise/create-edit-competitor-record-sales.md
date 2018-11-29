@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a competitor record (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Create or edit a competitor record (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Track your competitors and their strengths to win sales against them."
 keywords: "competitor, sales, opportunity"
 ms.date: 04/01/2018
