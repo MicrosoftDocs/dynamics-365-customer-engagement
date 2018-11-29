@@ -1,5 +1,5 @@
 ---
-title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -19,7 +19,6 @@ helpviewer_keywords:
   - "solutions, creating; installing; and updating managed solutions"
   - "creating; installing; and updating managed solutions, creating managed solutions"
 ms.assetid: 78ec9f71-7845-46c7-be6d-7ac5ade85e28
-caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -80,7 +79,7 @@ You create a managed solution by exporting an unmanaged solution as a managed so
 >  You may want to direct people who install your managed solution to use the **Overwrite customizations** option when investigating issues where the customizations conflict with the behavior of your solutions. They should always export their unmanaged solutions first so that they can re-apply them if they need to.  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Planning for Solution Development](plan-solution-development.md)   
  [Solution Components and Dependency Tracking](dependency-tracking-solution-components.md)   
