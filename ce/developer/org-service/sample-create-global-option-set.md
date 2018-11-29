@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with global option sets](https://code.msdn.microsoft.com/Samples-of-option-set-37c4b418).   
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Work with global option sets](https://code.msdn.microsoft.com/Samples-of-option-set-37c4b418).   
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[Optionsets#CreateOptionSet](../../snippets/csharp/CRMV8/optionsets/cs/createoptionset.cs#createoptionset)]  
   
 ### See also  
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
- [Customize Global Option Sets in Dynamics 365 for Customer Engagement](customize-global-option-sets.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](use-organization-service-metadata.md)   
+ [Customize Global Option Sets in Dynamics 365 for Customer Engagement apps](customize-global-option-sets.md)   
  [Sample: Work with Global Option Sets](sample-work-global-option-sets.md)   
  [Customize global option sets](customize-global-option-sets.md)

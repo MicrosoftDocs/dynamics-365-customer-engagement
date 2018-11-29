@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This section includes information about how to handle exceptions received from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web services, how to troubleshoot your application, and other related topics.  
+This section includes information about how to handle exceptions received from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web services, how to troubleshoot your application, and other related topics.  
   
 ## In This Section  
  [Handling Exceptions in Your Code](handle-exceptions-code.md)<br />
@@ -32,5 +32,5 @@ This section includes information about how to handle exceptions received from t
  [Web Service Error Codes](web-service-error-codes.md)
   
 ## Related Sections  
- [Extend Dynamics 365 for Customer Engagement on the server](../extend-dynamics-365-server.md)<br />
+ [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)<br />
  [Handle exceptions in plug-ins](../handle-exceptions-plugins.md)

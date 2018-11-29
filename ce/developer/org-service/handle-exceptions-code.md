@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web service method call. Your application design must catch and appropriately handle these exceptions. In the SDK .NET assemblies, all web service method calls use a communication channel to the server based on the [!INCLUDE[pn_WCF_long](../../includes/pn-wcf-long.md)] technology. In WCF terms, exceptions returned from the channel are called *faults*.  
+There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web service method call. Your application design must catch and appropriately handle these exceptions. In the SDK .NET assemblies, all web service method calls use a communication channel to the server based on the [!INCLUDE[pn_WCF_long](../../includes/pn-wcf-long.md)] technology. In WCF terms, exceptions returned from the channel are called *faults*.  
 
 <a name="BKMK_Common"></a>   
 
@@ -48,7 +48,7 @@ There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynami
   
 - [SecurityNegotiationException](https://msdn.microsoft.com/library/system.servicemodel.security.securitynegotiationexception.aspx)  
   
-  When connecting to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], a `SecurityAccessDeniedException` exception can be thrown if you use a valid [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] and your account is not associated with any [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization. A `MessageSecurityException` can be thrown if your [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] isn’t valid or there was an authentication failure.  
+  When connecting to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps, a `SecurityAccessDeniedException` exception can be thrown if you use a valid [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] and your account is not associated with any [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] appsorganization. A `MessageSecurityException` can be thrown if your [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] isn’t valid or there was an authentication failure.  
   
 <a name="BKMK_BusinessRuleErrors"></a>
 

@@ -107,6 +107,6 @@ The <xref:Microsoft.Xrm.Sdk.Messages> namespace supports the core messages used 
 
 ### See also  
  [Web Services: IOrganizationService](use-organization-service-read-write-data-metadata.md)   
- [Dynamics 365 for Customer Engagement Messages in the Organization Service](organization-service-messages.md)   
+ [Dynamics 365 for Customer Engagement apps Messages in the Organization Service](organization-service-messages.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.Messages>

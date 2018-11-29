@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message to convert the UTC value to DateOnly value of the date and time attribute in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement that exist in the system before you changed the behavior of the attribute from `UserLocal` to `DateOnly`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Convert behavior of existing date and time values in the database](../behavior-format-date-time-attribute.md#convert-behavior-of-existing-date-and-time-values-in-the-database).  
+This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message to convert the UTC value to DateOnly value of the date and time attribute in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement apps that exist in the system before you changed the behavior of the attribute from `UserLocal` to `DateOnly`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Convert behavior of existing date and time values in the database](../behavior-format-date-time-attribute.md#convert-behavior-of-existing-date-and-time-values-in-the-database).  
 
  This sample is for [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] (on-premises). This is available to download from [Convert date and time behavior](http://go.microsoft.com/fwlink/p/?LinkId=534240).  
 
@@ -32,7 +32,7 @@ This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.Convert
 
 1. Have access to a [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] organization.  
 
-2. Have the System Administrator role in your Dynamics 365 for Customer Engagement organization to be able to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message that is demonstrated in this sample. Otherwise, this sample will fail.  
+2. Have the System Administrator role in your Dynamics 365 for Customer Engagement apps organization to be able to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message that is demonstrated in this sample. Otherwise, this sample will fail.  
 
 3. [Download](http://go.microsoft.com/fwlink/p/?LinkId=534240) the DateTimeAttributeBehavior[!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project.  
 
@@ -93,7 +93,7 @@ This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.Convert
 
    |                                 Prompt                                  |                                                                                              Description                                                                                               |
    |-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Enter a Dynamics 365 for Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 for Customer Engagement server. The default is [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
+   |      Enter a Dynamics 365 for Customer Engagement apps server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 for Customer Engagement apps server. The default is [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
    | Is this organization provisioned in Microsoft online services (y/n) [n] |                                                   Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.                                                   |
    |                          Enter domain\username                          |                                                                                      Type your Microsoft account.                                                                                      |
    |                             Enter password                              |                        Type your password. The characters will show as “\*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.                        |

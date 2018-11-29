@@ -34,7 +34,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], `FetchXML` includes grouping and aggregation features that let you calculate sum, average min, max and count.  
+In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, `FetchXML` includes grouping and aggregation features that let you calculate sum, average min, max and count.  
   
  The following aggregate functions are supported:  
   
@@ -97,7 +97,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
  [!code-csharp[Query#FetchAggregationAndGroupBy1](../../snippets/csharp/CRMV8/query/cs/fetchaggregationandgroupby1.cs#fetchaggregationandgroupby1)]  
   
 ### Limitation with null values while computing average  
- **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] computes the average of data. However, zero (0) is used.  
+ **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps computes the average of data. However, zero (0) is used.  
   
  In the following example, with the following data, the average for Account 1 (two entries) is shown as 250 whereas the average for Account 2 (two entries) is shown as 125.  
   
@@ -136,7 +136,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
 
 ## Max
 
- **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] computes the maximum of data. However, zero (0) is used.  
+ **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps computes the maximum of data. However, zero (0) is used.  
   
  The following example shows how to use the `max``aggregate` attribute.  
   
@@ -146,7 +146,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
  
 ## Min
 
- **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] computes the minimum of data. However, zero (0) is used.  
+ **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps computes the minimum of data. However, zero (0) is used.  
   
  The following example shows how to use the `min``aggregate` attribute.  
   
