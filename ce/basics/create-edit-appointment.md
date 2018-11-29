@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an appointment (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create or edit an appointment (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/17/2017
 ms.reviewer: ""
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Block time to meet or talk to your customers by using appointments. You can modify any of the information in an open appointment. If you change the date and times of the appointment, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will recheck for schedule conflicts.  
+Block time to meet or talk to your customers by using appointments. You can modify any of the information in an open appointment. If you change the date and times of the appointment, the appointment will be rechecked for schedule conflicts.  
 
 The calendar displays canceled and completed appointments and service activities. 
 
