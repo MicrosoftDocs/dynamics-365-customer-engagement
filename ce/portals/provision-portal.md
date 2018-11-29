@@ -48,7 +48,7 @@ To complete provisioning a portal, after you have purchased a new portal license
     > - To change the URL of a portal after it is provisioned, see [change the base URL of a portal](change-base-url.md).
     > - To link your portal to a custom domain, see [link your Dynamics 365 for Customer Engagement portal to a custom domain](manage-portal.md#link-your-dynamics-365-for-customer-engagement-portal-to-a-custom-domain).
 
-6.  Use the **[!INCLUDE[pn-dynamics365](../includes/pn-dynamics365.md)] Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
+6.  Use the **Dynamics 365 Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
 
 7.  Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
