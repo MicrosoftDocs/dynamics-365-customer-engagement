@@ -1,5 +1,5 @@
 ---
-title: "getDataXml (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "getDataXml (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -33,7 +33,7 @@ search.app:
 
 ## Remarks
 
-This method does not work with Microsoft Dynamics 365 for Customer Engagement for tablets.
+This method does not work with Microsoft Dynamics 365 for Customer Engagement apps for tablets.
 
 
 

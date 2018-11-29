@@ -1,5 +1,5 @@
 ---
-title: "formContext.ui.FormSelector (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "formContext.ui.FormSelector (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
 ms.service: "crm-online"
@@ -29,7 +29,7 @@ Form Items are available through any of the following:
     See [Collections](collections.md)) for information about the collection methods.
  
     >[!NOTE]
-    >This collection isn't available for Dynamics 365 for Customer Engagement mobile clients (phones and tablets).
+    >This collection isn't available for Dynamics 365 for Customer Engagement apps mobile clients (phones and tablets).
 
 - **formselector.getCurrentItem** method: Returns a reference to the form currently being shown. When only one form is available this method will return **null**. Example:
  
@@ -45,4 +45,3 @@ After retrieving a form item using one of the above ways, use the following meth
 |    [getId](formcontext-ui-formselector/getId.md)    |    [!INCLUDE[formcontext-ui-formselector/includes/getId-description.md](formcontext-ui-formselector/includes/getId-description.md)]    |
 | [getLabel](formcontext-ui-formselector/getLabel.md) | [!INCLUDE[formcontext-ui-formselector/includes/getLabel-description.md](formcontext-ui-formselector/includes/getLabel-description.md)] |
 | [navigate](formcontext-ui-formselector/navigate.md) | [!INCLUDE[formcontext-ui-formselector/includes/navigate-description.md](formcontext-ui-formselector/includes/navigate-description.md)] |
-
