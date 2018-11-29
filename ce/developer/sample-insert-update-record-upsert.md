@@ -1,5 +1,5 @@
 ---
-title: "Sample: Insert or update a record using Upsert (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Insert or update a record using Upsert (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This sample code shows how to insert or update records by using the Upsert message"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -30,7 +30,7 @@ This sample code shows how to insert or update records by using the `Upsert` mes
 
 ## Prerequisites  
 
-1. Have access to a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement or [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] organization.  
+1. Have access to a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps or [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] organization.  
 
 2. Download the UpsertSample Visual Studio project.  
 

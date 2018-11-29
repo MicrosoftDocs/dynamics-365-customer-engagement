@@ -1,5 +1,5 @@
 ---
-title: "Sample code for Dynamics 365 for Customer Engagement and Microsoft Azure integration (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample code for Dynamics 365 for Customer Engagement apps and Microsoft Azure integration (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The section contains sample code for integrating Dynamics 365 for Customer Engagement (online) Customer Engagement and Azure through the Azure Service Bus."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -40,10 +40,10 @@ This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_onli
  [Sample: Persistent Queue Listener](sample-persistent-queue-listener.md)  
   
 ## Related Sections  
- [Azure Extentions for Dynamics 365 for Customer Engagement](azure-extensions.md)  
+ [Azure Extentions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)  
   
  [Write a Listener for a Microsoft Azure Solution](write-listener-application-azure-solution.md)  
   
- [Plug-ins for Extending Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)  
+ [Plug-ins for Extending Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)  
   
  [Microsoft Azure Platform](http://go.microsoft.com/fwlink/p/?LinkId=237366)
