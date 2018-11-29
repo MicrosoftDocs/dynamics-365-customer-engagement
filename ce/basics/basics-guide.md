@@ -32,7 +32,7 @@ One of the biggest payoffs of using [!INCLUDE[pn_dynamics_crm](../includes/pn-dy
 Once the data is in the system, the real fun begins. You can use the insights you glean from the data to manage your day, to stay on top of what’s happening on your team, and to make informed decisions about how to nurture your customers and build lifelong relationships with them.
 
 ## Be productive wherever
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] business apps are not just for using in a web browser on your computer — you
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are not just for using in a web browser on your computer — you
 can also use then on your phone, on your [!INCLUDE[tn_android](../includes/tn-android.md)] tablet, or on your [!INCLUDE[tn_apple_ipad](../includes/tn-apple-ipad.md)]. This guide covers using the system in your web browser, to keep it as short
 as possible and because the mobile apps work almost the same as on the web.
 
