@@ -53,5 +53,5 @@ The following table provides a brief comparison of the four available options.
 
 ### See also  
 
- [Search for records - User Guide (Dynamics 365 for Customer Engagement for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
+ [Search for records - User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
  [Configure Relevance Search to improve search results and performance (Administrator Guide)](../admin/configure-relevance-search-organization.md)

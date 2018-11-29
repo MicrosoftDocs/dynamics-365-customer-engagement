@@ -30,7 +30,7 @@ Your user profile displays useful information about you to your entire organizat
   
    In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], in the upper-right corner of the screen, choose the **Settings** button ![user-profile-settings-button](media/user-profile-settings-button.gif) > **Options**.  
  
-<!-- In Dynamics 365 for Customer Engagement for Outlook: Choose **File** > **Dynamics 365 for Customer Engagement** > **Options**.  -->   
+<!-- In Dynamics 365 for Outlook: Choose **File** > **Dynamics 365 for Customer Engagement apps** > **Options**.  -->   
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  
   
 3.  To check your security role, on the nav bar, choose the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name, and then choose **Security Roles**.  

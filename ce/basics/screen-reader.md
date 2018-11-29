@@ -17,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use a screen reader in Unified Interface apps in Dynamics 365 for Customer Engagement
+# Use a screen reader in Unified Interface apps in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -32,15 +32,15 @@ Screen readers make Dynamics 365 for Customer Engagement applications accessible
 > 
 > Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 
-## Basic tasks using a screen reader with Dynamics 365 for Customer Engagement
+## Basic tasks using a screen reader with Dynamics 365 for Customer Engagement apps
 
 ### Open a Unified Interface-based app
-Although you can use a screen reader anywhere in Dynamics 365 for Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 for Customer Engagement, visit [About Unified Interface in Dynamics 365 for Customer Engagement](../admin/about-unified-interface.md).
+Although you can use a screen reader anywhere in Dynamics 365 for Customer Engagement apps, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 for Customer Engagement apps, visit [About Unified Interface in Dynamics 365 for Customer Engagement](../admin/about-unified-interface.md).
 
 
-Use the [app switcher](../basics/where-find-business-apps.md#apps-you-might-see-in-the-app-switcher) in Dynamics 365 for Customer Engagement to open a Unified Interface app.
+Use the [app switcher](../basics/where-find-business-apps.md#apps-you-might-see-in-the-app-switcher) in Dynamics 365 for Customer Engagement apps to open a Unified Interface app.
 
-1.  On the navigation bar, use the **Tab** key to move to the Dynamics 365 for Customer Engagement drop-down control and press **Enter** to open the site map.
+1.  On the navigation bar, use the **Tab** key to move to the Dynamics 365 for Customer Engagement apps drop-down control and press **Enter** to open the site map.
 2.  Press the **Tab** key until you hear the name of the application you want to open—for example, “Sales Hub.” Press **Enter** to open the app.
 
 ### Use scan mode in Narrator

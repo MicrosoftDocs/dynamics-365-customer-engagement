@@ -36,10 +36,10 @@ Select the **Conversation** tab to access the bot as described above.
 
 ## My Dashboard tab
 
-Select the **My Dashboard** tab to view your Dynamics 365 for Customer Engagement dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+Select the **My Dashboard** tab to view your Dynamics 365 for Customer Engagement apps dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
 > [!div class="mx-imgBorder"]
-![Dynamics 365 for Customer Engagement dashboard](media/teams-bot-dashboard.png "Dynamics 365 for Customer Engagement dashboard")
+![Dynamics 365 for Customer Engagement apps dashboard](media/teams-bot-dashboard.png "Dynamics 365 for Customer Engagement apps dashboard")
 
 ## Settings tab
 
@@ -49,7 +49,7 @@ If you have more than one organization or Unified Interface app, you can use the
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
-> - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Dynamics 365 for Customer Engagement apps version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected organization are listed. 
 
