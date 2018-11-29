@@ -40,19 +40,19 @@ search.app:
 
     The Sales app also includes associated  marketing lists and campaigns, because these are used by the sales team to reach out to potential leads. Use the Marketing work area to promote your business and improve sales with targeted marketing campaigns. By default, only Sales App Access, System Administrator, and System Customizer roles have access to this app. The system administrator can assign access to other roles later. 
 
-    To get started with sales and marketing, see [Dynamics 365 for Customer Engagement for Sales - User Guide](../sales-enterprise/user-guide.md).|  
+    To get started with sales and marketing, see [Dynamics 365 for Sales - User Guide](../sales-enterprise/user-guide.md).|  
     
 - **Customer Service**.  Empowers customer service reps  to manage cases. It also allows service managers to manage important aspects of customer service, like, setting up levels and terms for the service the organization provides to their customers, or setting up rules for automatically converting conversations into cases. By default, only Customer Service App Access, System Administrator, and System Customizer roles have access to this app. The system administrator can assign access to other roles later.  
   
-   To get started with customer service, see [Dynamics 365 for Customer Engagement for Customer Service – User Guide](../customer-service/user-guide-customer-service.md).  
+   To get started with customer service, see [Dynamics 365 for Customer Service – User Guide](../customer-service/user-guide-customer-service.md).  
   
 - **Field Service**. Allows organizations to manage a field service workforce, and provides smart scheduling and resource management capabilities. It optimizes your service scheduling with efficient routing, resource skill matching, and reduced travel time. 
 
-  To get started with field service, see [Dynamics 365 for Customer Engagement for Field Service – User Guide](../field-service/user-guide.md). 
+  To get started with field service, see [Dynamics 365 for Field Service – User Guide](../field-service/user-guide.md). 
    
 - **Project Service Automation**. Helps project managers create project quotes and contracts. It also provides analytics to help project managers ensure projects are feasible and profitable.  
 
-   To get started with project service automation, see [Dynamics 365 for Customer Engagement for Project Service Automation – User Guide](../project-service/overview.md).
+   To get started with project service automation, see [Dynamics 365 for Project Service Automation – User Guide](../project-service/overview.md).
   
   - **Dynamics 365 for Customer Engagement – custom**. This app provides access to the full suite of capabilities, namely administration, settings and the legacy sales, service and marketing functionality. 
   
@@ -66,7 +66,7 @@ search.app:
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Where to find your business apps](../basics/where-find-business-apps.md)  
   
-## Upgrading from prior versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement  
+## Upgrading from prior versions of [!INCLUDE[pn_crm_shortest](../includes/pn-dynamics-crm.md)]  
  For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 for Customer Engagement - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
    
 ### See also  
