@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement App for Outlook User Guide (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/19/2018
 ms.reviewer: ""
