@@ -1,5 +1,5 @@
 ---
-title: "getControlType (Client API reference) in Customer Engagement for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "getControlType (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -45,8 +45,8 @@ All
 |timercontrol | A timer control|
 |timelinewall | A timeline control (for Unified Interface)|
 |webresource | A web resource control|
-|customcontrol: \<*namespace*>.\<*name*> | A custom control for Dynamics 365 for Customer Engagement mobile clients (phones and tablets)|
-|customsubgrid:\<*namespace*>.\<*name*> | A custom dataset control for Dynamics 365 for Customer Engagement mobile clients (phones and tablets)|
+|customcontrol: \<*namespace*>.\<*name*> | A custom control for Dynamics 365 for Customer Engagement apps mobile clients (phones and tablets)|
+|customsubgrid:\<*namespace*>.\<*name*> | A custom dataset control for Dynamics 365 for Customer Engagement apps mobile clients (phones and tablets)|
 
 ### Related topics
 
