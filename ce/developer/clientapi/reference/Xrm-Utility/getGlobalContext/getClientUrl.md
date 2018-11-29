@@ -1,5 +1,5 @@
 ---
-title: "getClientUrl (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "getClientUrl (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -35,15 +35,10 @@ globalContext.getClientUrl();
 
 |             Value              |                                    Client                                     |
 |--------------------------------|-------------------------------------------------------------------------------|
-| https://[org].crm.dynamics.com |                   Dynamics 365 for Customer Engagement (online)                   |
-|    http(s)://[server]/[org]    |                Dynamics 365 for Customer Engagement (on-premises)                 |
-|     http://localhost:2525      | Dynamics 365 for Customer Engagement for Outlook with Offline Access when offline |
+| https://[org].crm.dynamics.com |                   Dynamics 365 for Customer Engagement apps                   |
+|    http(s)://[server]/[org]    |                Dynamics 365 for Customer Engagement (on-premises) apps                |
+|     http://localhost:2525      | Dynamics 365 for Outlook with Offline Access when offline |
 
 ### Related topics
 
 [Xrm.Utility.getGlobalContext](../getGlobalContext.md)
-
-
-
-
-
