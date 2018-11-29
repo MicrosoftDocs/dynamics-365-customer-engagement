@@ -1,5 +1,5 @@
 ---
-title: "About this content for Dynamics 365 for Customer Engagement App for Outlook | MicrosoftDocs"
+title: "About this content for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 12/18/2017
 ms.reviewer: ""
@@ -26,4 +26,4 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-The topics in this folder apply to Dynamics 365 for Customer Engagement App for Outlook, version 8.x. 
+The topics in this folder apply to Dynamics 365 App for Outlook, version 8.x. 

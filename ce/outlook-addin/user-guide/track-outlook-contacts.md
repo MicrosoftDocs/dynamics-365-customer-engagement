@@ -1,5 +1,5 @@
 ---
-title: "Track Outlook contacts in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Track Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Track Outlook contacts in Dynamics 365 for Customer Engagement for Outlook
+# Track Outlook contacts in Dynamics 365 for Outlook
 When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], a copy of that contact record is saved in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. After your contacts are tracked, you’ll be able to see any email, tasks, appointments, and account records associated with those contacts. You can access the records in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
  Tracking contacts in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal contacts separate from your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts. Synchronization of contacts from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is automatic, however. Any contacts that you own in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] will automatically be available in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact records on that device.  
@@ -35,7 +35,7 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
 1. In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], choose **People** in the navigation pane, and then select up to 20 contacts.  
   
    > [!TIP]
-   >  If you want to select more than 20 contacts, or if you want to track all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can use the **Add Contacts** wizard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Customer Engagement for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)  
+   >  If you want to select more than 20 contacts, or if you want to track all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can use the **Add Contacts** wizard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)  
   
 2. To track the contact, do one of the following:  
   
@@ -80,7 +80,7 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
 >  Duplicate detection can take place only if duplicate detection is enabled and if at least one duplicate-detection rule exists for the record type.  
   
 ### See also  
- [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)   
- [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Customer Engagement for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+ [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

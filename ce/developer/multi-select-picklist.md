@@ -1,5 +1,5 @@
 ---
-title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
 ms.custom: ""
 ms.date: 09/05/2018
@@ -11,7 +11,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 2a71402b-dbd1-449c-b43b-d9531c858a18
-caps.latest.revision: 8
+
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"

@@ -1,5 +1,5 @@
 ---
-title: "Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Customer Engagement for Outlook
+# Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook
 You can change how [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] displays number, currency, time, and date formats to match your company’s regional settings.  
   
 > [!NOTE]

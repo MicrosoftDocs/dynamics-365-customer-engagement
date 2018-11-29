@@ -31,7 +31,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you can mix early binding and late binding methods to work with both strong types and the <xref:Microsoft.Xrm.Sdk.Entity> class. This approach uses both static metadata from a code-generated file of strong types with the flexibility of the <xref:Microsoft.Xrm.Sdk.Entity> class and its helper methods.  
+In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, you can mix early binding and late binding methods to work with both strong types and the <xref:Microsoft.Xrm.Sdk.Entity> class. This approach uses both static metadata from a code-generated file of strong types with the flexibility of the <xref:Microsoft.Xrm.Sdk.Entity> class and its helper methods.  
   
  The following example shows one way to mix early and late binding methods.  
   

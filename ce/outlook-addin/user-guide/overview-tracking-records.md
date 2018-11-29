@@ -1,5 +1,5 @@
 ---
-title: "Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Overview of tracking records in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,13 +27,13 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook
+# Overview of tracking records in Dynamics 365 for Outlook
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track email messages, contacts, tasks, and appointments. When you track an email message, contact, task, or appointment record, a copy of that record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. You can then view and edit that record in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access these records on that device.  
 
- Tracking records in Dynamics 365 for Customer Engagement for Outlook is a manual process. This gives you the ability to keep your personal Outlook records separate from your Dynamics 365 for Customer Engagement records.  
+ Tracking records in Dynamics 365 for Outlook is a manual process. This gives you the ability to keep your personal Outlook records separate from your Dynamics 365 for Customer Engagement records.  
 
 > [!TIP]
-> - If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Customer Engagement for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
+> - If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
 > - If your organization synchronizes records through server-side synchronization, you can track email messages through folder tracking. Folder tracking is a powerful and intuitive way to track email directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
 
 <a name="TrackVSSetRegarding"></a>   
@@ -94,16 +94,16 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 - **Choosing data to store locally.** The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data stored on your local computer is determined by online synchronization filters. You can edit, deactivate, or delete these filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 for Customer Engagement and Outlook or Exchange](choose-records-synchronize-exchange.md)  
 
-- **Deleting tracked records.** When records are tracked, special rules apply when deleting records. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deleting records that have been tracked with Dynamics 365 for Customer Engagement for Outlook](delete-records-that-have-been-tracked.md)  
+- **Deleting tracked records.** When records are tracked, special rules apply when deleting records. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)  
 
 - **Delegating access.** If you’ve delegated access to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] account, the delegate can track items on your behalf. These items won’t synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] until you connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Allow someone else to manage your mail and calendar](http://go.microsoft.com/fwlink/p/?LinkId=201849)  
 
 ### See also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Track Outlook email by choosing a button in Dynamics 365 for Customer Engagement for Outlook](track-outlook-email-by-choosing-button.md)   
- [Track Outlook appointments in Dynamics 365 for Customer Engagement for Outlook](track-outlook-appointments.md)   
- [Track Outlook contacts in Dynamics 365 for Customer Engagement for Outlook](track-outlook-contacts.md)   
- [Track Outlook tasks in Dynamics 365 for Customer Engagement for Outlook](track-outlook-tasks.md)   
- [Deleting records that have been tracked with Dynamics 365 for Customer Engagement for Outlook](delete-records-that-have-been-tracked.md)   
+ [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
+ [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
+ [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
+ [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)   
+ [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

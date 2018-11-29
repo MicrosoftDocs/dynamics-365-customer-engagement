@@ -44,7 +44,7 @@ The way your organization works is unique. Some organizations have well-defined 
 [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization.  
   
 <a name="BKMK_SupportedCust"></a>   
-## What kinds of customizations are supported with Dynamics 365 for Customer Engagement customer engagement?  
+## What kinds of customizations are supported with Dynamics 365 for Customer Engagement?  
  We expect that you can do most of your customization with the tools in the application. Everything you do by using those tools is supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] because they apply changes to the metadata or data that depends on the metadata.  
   
  If the customization tools don’t meet your needs, you can install a solution provided by a third party or hire a developer to code your customizations. Either way, it’s good for you to understand supported customizations. If you need to invest in a solution that requires code, you should make sure that the code is written using only supported APIs. This helps you protect your investment in both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and any solutions you get.  
@@ -56,7 +56,7 @@ The way your organization works is unique. Some organizations have well-defined 
  If we detect that a change in a new version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will cause a supported customization to break, we will document what is affected and how people can change their code to fix it.  
   
 <a name="BKMK_Unsupported"></a>   
-## What kinds of customizations aren’t supported with Dynamics 365 for Customer Engagement customer engagement?  
+## What kinds of customizations aren’t supported with Dynamics 365 for Customer Engagement?  
  Just because certain APIs and programming practices aren’t supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] doesn’t mean that they don’t work. “Unsupported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]” means exactly what it says: you can’t get support about these APIs or programming practices from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. We don’t test them and we don’t know if something we change will break them. We can’t predict what will happen if someone changes code in our application.  
   
  The developer who uses unsupported APIs and programming practices assumes the responsibility to support their code. They will need to test their code to make sure it works.  

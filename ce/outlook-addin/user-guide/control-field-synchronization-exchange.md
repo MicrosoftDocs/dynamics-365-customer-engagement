@@ -39,13 +39,13 @@ If you’re a system administrator, you can control synchronization of appointme
   
   You can also disable field synchronization between a pair of fields.  
   
-  For more information about controlling field synchronization, see [Control field synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook](../admin-guide/control-field-synchronization.md)
+  For more information about controlling field synchronization, see [Control field synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook](../admin-guide/control-field-synchronization.md)
   
 > [!NOTE]
 >  [!INCLUDE[cc_feature_included_with_update_2015](../../includes/cc-feature-included-with-update-2015.md)]  
   
 ### See also  
  [Which fields can be synchronized between Dynamics 365 for Customer Engagement and Outlook?](../admin-guide/which-fields-synchronized.md)
- [How field security affects synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook](../admin-guide/field-security-synchronization.md)
+ [How field security affects synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook](../admin-guide/field-security-synchronization.md)
  [System Settings dialog box - Synchronization tab](system-settings-dialog-box-synchronization-tab.md)   
- [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)

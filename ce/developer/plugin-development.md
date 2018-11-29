@@ -1,6 +1,6 @@
 ---
-title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement to modify or augment the standard behavior of the platform. "
+title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement apps to modify or augment the standard behavior of the platform. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.  
+A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.  
   
  For more information about plug-in run-time execution, see [Event Execution Pipeline](event-execution-pipeline.md).  
   

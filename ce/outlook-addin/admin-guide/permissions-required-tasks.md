@@ -1,5 +1,5 @@
 ---
-title: "Permissions required for Dynamics 365 for Customer Engagement for Outlook tasks | MicrosoftDocs"
+title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/28/2018
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Permissions required for Dynamics 365 for Customer Engagement for Outlook tasks
+# Permissions required for Dynamics 365 for Outlook tasks
 The following table shows the default security roles required to perform [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] tasks, and whether the task can be performed while using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] offline.  
 
 

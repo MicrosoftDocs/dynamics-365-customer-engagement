@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement for Outlook hardware requirements | MicrosoftDocs"
+title: "Microsoft Dynamics 365 for Outlook hardware requirements | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Microsoft Dynamics 365 for Customer Engagement for Outlook hardware requirements
+# Microsoft Dynamics 365 for Outlook hardware requirements
 The following table lists the minimum recommended hardware requirements when you run [!INCLUDE [pn-microsoft-dynamics-crm-for-outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] in either online only or go offline enabled modes.  
   
 |Component|Online only mode|Go Offline enabled mode|  

@@ -1,6 +1,6 @@
 ---
-title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 for Customer Engagement forms, views, dialogs, and reports in other applications"
+title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 for Customer Engagement apps forms, views, dialogs, and reports in other applications"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -15,7 +15,6 @@ helpviewer_keywords:
   - "entity forms, open with url"
   - "views, open with url"
 ms.assetid: a8015117-1aa1-40df-b418-e563424b7558
-caps.latest.revision: 71
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -28,10 +27,10 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] forms, views, dialogs, and reports in other applications. In this manner, you can easily extend other applications, reports, or websites so that users can view information and perform actions without switching applications.  
+URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps forms, views, dialogs, and reports in other applications. In this manner, you can easily extend other applications, reports, or websites so that users can view information and perform actions without switching applications.  
 
 > [!NOTE]
-> - URL addressable forms, views, dialogs, and reports cannot bypass [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, based on their security roles, can access the data and the records they see.  
+> - URL addressable forms, views, dialogs, and reports cannot bypass [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps users, based on their security roles, can access the data and the records they see.  
 >   -   Use `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) when you open entity forms programmatically within the application by using web resources. Do not use `window.open`.  
 >   -   Outside the application, where pages do not have access to the `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function, use `window.open` or a link to open a specific record or form for an entity.  
 
@@ -111,7 +110,7 @@ http://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid={
 
 > [!NOTE]
 > - Views that use the user context as a parameter, such as **My Accounts**, cannot be copied.  
->   - The GUID that represents system views for system entities will be the same for each on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation. The GUID for custom entities and custom views will be unique for each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation.  
+>   - The GUID that represents system views for system entities will be the same for each on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation. The GUID for custom entities and custom views will be unique for each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps installation.  
 
 <a name="BKMK_DisplayViewInApplicationUsingSiteMap"></a>   
 ### Display a View in the Application Navigation using the Site Map  
@@ -129,7 +128,7 @@ Url=“/_root/homepage.aspx?etn=<entity logical name >&amp;viewid=%7b<GUID value
  When you use this URL, you must also specify appropriate values for `<Titles>` and `<Descriptions>`, and specify an icon for the entity.  
 
 > [!NOTE]
->  If you specify the view using the `/_root/homepage.aspx` page, the view selector will still be shown. If the user changes the view, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] remembers the user’s most recent selection and the initial default view displays after they close and re-open their browser.  
+>  If you specify the view using the `/_root/homepage.aspx` page, the view selector will still be shown. If the user changes the view, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps remembers the user’s most recent selection and the initial default view displays after they close and re-open their browser.  
 
 <a name="BKMK_OpenADialogProcess"></a>   
 ## Opening a Dialog Process by using a URL  
@@ -185,12 +184,12 @@ function openDialogProcess(dialogId, entityName, objectId)
  Two possible values for this parameter are `run` or `filter`. When `run` is used, the report will be displayed using the default filters. When `filter` is used, the report will display a filter that the user can edit before choosing the **Run Report** button to view the report.  
 
  **helpID**  
- This parameter is optional. For reports that are included with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] the value in this parameter allows the **Help** button to display appropriate content about this report when **Help on This Page** is chosen. The value should correspond to the report `FileName` attribute value.  
+ This parameter is optional. For reports that are included with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps the value in this parameter allows the **Help** button to display appropriate content about this report when **Help on This Page** is chosen. The value should correspond to the report `FileName` attribute value.  
 
  **id**  
  This parameter is the report `ReportId` attribute value.  
 
- The following examples show URLs that can be used to open reports in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ The following examples show URLs that can be used to open reports in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
  Open the **Neglected Cases** report using the default filter:  
  ```  
@@ -220,11 +219,11 @@ function getReportURL(action,fileName,id) {
 ```  
 
 ### See also  
- [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)   
+ [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)   
  [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md)   
  [Configure a form to accept custom querystring parameters](configure-form-accept-custom-querystring-parameters.md)   
  [Change Application Navigation using the SiteMap](customize-dev/change-application-navigation-using-sitemap.md)   
- [Customize the Ribbon for Dynamics 365 for Customer Engagement](customize-dev/customize-commands-ribbon.md) 
+ [Customize the Ribbon for Dynamics 365 for Customer Engagement apps](customize-dev/customize-commands-ribbon.md) 
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md) 
- [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
  [Start Dialog by using a URL](../developer/actions-dialogs.md#StartDialog)

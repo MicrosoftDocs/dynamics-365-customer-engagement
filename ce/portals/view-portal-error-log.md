@@ -2,7 +2,7 @@
 title: "Viewing portal error logs and storing them in Azure Blob storage | MicrosoftDocs"
 description: "Learn how to view portal error logs and store them in your Azure Blob storage account."
 keywords: "portal error logs, store portal error logs in Azure Blob storage"
-ms.date: 02/22/2018
+ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
@@ -47,7 +47,7 @@ More information on custom error: [Displaying a Custom Error Page](https://docs.
 ### Disable custom error
 
 You can disable custom errors on portals to display the detailed exception message if any server-side exception occurs in your portal.
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal that you want to disable custom errors, and then select **Manage**.
 3. Go to **Portal Actions** > **Disable custom errors**.
 
@@ -58,7 +58,7 @@ You can disable custom errors on portals to display the detailed exception messa
 ### Enable custom error
 You can enable custom errors on portals to display a professional-looking page instead of YSOD. This page provides meaningful information if any exception occurs in the application.
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to enable custom errors, and then select **Manage**.
 3. Go to **Portal Actions** > **Enable custom errors**.
 
@@ -104,7 +104,7 @@ After developing and publishing the portal, you still need to be able to access 
 
 ### Enable diagnostic logging
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal that you want to enable diagnostic logging, and then select **Manage**.
 3. Go to **Portal Actions** > **Enable diagnostic logging**.
 
@@ -137,7 +137,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
  
 ### Update diagnostic logging
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to update diagnostic logging, and then select **Manage**.
 3. Go to **Portal Actions** > **Update diagnostic logging configuration**.
 
@@ -163,7 +163,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
 
 ### Disable diagnostic logging
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to update diagnostic logging, and then select **Manage**.
 3. Go to **Portal Actions** > **Disable diagnostic logging**.
 

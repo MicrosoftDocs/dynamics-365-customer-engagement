@@ -23,10 +23,10 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement organization service provides two web services that can be used to identify your organization and to access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data. This section describes how to use these services when you are developing applications or customizations for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps organization service provides two web services that can be used to identify your organization and to access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps data. This section describes how to use these services when you are developing applications or customizations for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps.  
   
 ## Discovery Service web service  
- A single [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] installation can host multiple organizations on multiple servers. Therefore, it is important to specify which organization you want to access. The Discovery Service web service returns a list of organizations that the specified user belongs to and the URL endpoint address for each organization. <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> is the interface that provides the <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute*> method you use with this service.
+ A single [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps installation can host multiple organizations on multiple servers. Therefore, it is important to specify which organization you want to access. The Discovery Service web service returns a list of organizations that the specified user belongs to and the URL endpoint address for each organization. <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> is the interface that provides the <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute*> method you use with this service.
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Discover the URL for your organization using the Organization Service](discover-url-organization-organization-service.md)  
   
 ## Organization Service web service  
@@ -48,5 +48,5 @@ search.app:
  [Connect to the Web Services in Dynamics 365 for Customer Engagement](../authenticate-users.md)   
  [Use the Early Bound Entity Classes](use-early-bound-entity-classes-code.md)   
  [Write Code for Dynamics 365 for Customer Engagement (Web Services)](../extend-dynamics-365-server.md)   
- [Assemblies Included in the Dynamics 365 for Customer Engagement SDK](assemblies-included-sdk.md)   
+ [Assemblies Included in the Dynamics 365 for Customer Engagement apps SDK](assemblies-included-sdk.md)   
  [Microsoft Dynamics CRM Developer Center](https://msdn.microsoft.com/dynamics/crm/default.aspx)

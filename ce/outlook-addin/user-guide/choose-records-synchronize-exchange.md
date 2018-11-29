@@ -33,7 +33,7 @@ search.app:
  Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], whether the user is on the recipient list or not. This is true for all email processing methods: [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], or [!INCLUDE[pn_emailrouter](../../includes/pn-emailrouter.md)].  
   
 > [!TIP]
->  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Customer Engagement for Outlook](choose-records-work-offline.md)  
+>  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
   
 ## Create or modify online synchronization filters  
   
@@ -88,4 +88,4 @@ search.app:
    ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ### See also  
- [Choose records to work with offline in Dynamics 365 for Customer Engagement for Outlook](choose-records-work-offline.md)   
+ [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement for Outlook software requirements | MicrosoftDocs"
+title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/17/2018
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Microsoft Dynamics 365 for Customer Engagement for Outlook software requirements
+# Microsoft Dynamics 365 for Outlook software requirements
 [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] works the way that you do by providing a seamless combination of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] features in the familiar [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] environment. This section lists software requirements for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)].  
   
  One of the following operating systems is required:  
@@ -38,7 +38,7 @@ search.app:
 *This feature is available only if your organization has updated to [!INCLUDE[pn_crm_online_2015_update_1_1](../../includes/pn-crm-online-2015-update-1-1.md)], [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
   
 <a name="BMK_OC_software_prereqs"></a>   
-## Microsoft Dynamics 365 for Customer Engagement for Outlook software feature prerequisites  
+## Microsoft Dynamics 365 for Outlook software feature prerequisites  
  The following software must be installed and running on the computer before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)]:  
   
  **Web Browser**. One of the following: 
@@ -80,7 +80,7 @@ search.app:
 - [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]  
   
 <a name="BKMK_OC_additional_reqs"></a>   
-### Additional Microsoft Dynamics 365 for Customer Engagement for Outlook software requirements  
+### Additional Microsoft Dynamics 365 for Outlook software requirements  
  If needed, the following software will be installed by [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)]:  
   
 - [!INCLUDE[pn_ms_sql_2012_express](../../includes/pn-ms-sql-2012-express.md)]  
@@ -109,7 +109,7 @@ search.app:
 - Reporting Services Microsoft ActiveX control. If not installed on the computer, the user will be prompted to install the software at first attempt to print a report. This installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
 
  > [!NOTE]
-  >  Dynamics 365 for Customer Engagement for Outlook is not supported when remote Proxy Auto-Configuration (PAC) files are used.
+  >  Dynamics 365 for Outlook is not supported when remote Proxy Auto-Configuration (PAC) files are used.
 
 ### Offline Support
 
@@ -119,7 +119,7 @@ The following operating systems are supported for offline mode.
 
   
 ### See Also  
- [Dynamics 365 for Customer Engagement for Outlook support matrixes](support.md)   
+ [Dynamics 365 for Outlook support matrixes](support.md)   
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
  [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/en-us/kb/3018360)   
  [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)

@@ -1,5 +1,5 @@
 ---
-title: "Configure another organization to use with Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Configure another organization to use with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -26,7 +26,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Configure another organization to use with Dynamics 365 for Customer Engagement for Outlook
+# Configure another organization to use with Dynamics 365 for Outlook
 If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization, and you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can use this procedure to configure each organization.  
   
 1. Close [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
@@ -67,6 +67,6 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
 10. In the wizard, choose **Close**.  
   
 ### See also  
- [Do your Dynamics 365 for Customer Engagement work in Outlook using Dynamics 365 for Customer Engagement for Outlook](dynamics-365-work-outlook.md)   
+ [Do your Dynamics 365 for Customer Engagement work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

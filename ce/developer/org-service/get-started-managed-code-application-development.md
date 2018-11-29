@@ -24,10 +24,10 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This guide shows you how to write application code that connects to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web services and invoke web methods to perform common business data operations like create, delete, update, and find. You will also be shown how to set up a project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] with the required namespaces, and how to handle exceptions returned from the web services. After completing this guide, you will have learned enough information to explore the many other business operations that are supported by the web services.  
+This guide shows you how to write application code that connects to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web services and invoke web methods to perform common business data operations like create, delete, update, and find. You will also be shown how to set up a project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] with the required namespaces, and how to handle exceptions returned from the web services. After completing this guide, you will have learned enough information to explore the many other business operations that are supported by the web services.  
   
 ## In This Section  
  [Setup a managed code project in Visual Studio](start-managed-code-project-visual-studio.md)  
   
 ### See also  
- [Programming models for Dynamics 365 for Customer Engagement](../programming-models.md)
+ [Programming models for Dynamics 365 for Customer Engagement apps](../programming-models.md)

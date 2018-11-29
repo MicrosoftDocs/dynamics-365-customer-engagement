@@ -1,5 +1,5 @@
 ---
-title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about the different types of business logic you can use in your app"
 ms.custom: ""
 ms.date: 11/09/2018
@@ -25,9 +25,9 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 for Customer Engagement for Customer Engagement apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
+Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 for Customer Engagement apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
   
-Dynamics 365 for Customer Engagement for Customer Engagement includes five  types of processes, each designed for a different purpose:  
+Dynamics 365 for Customer Engagement includes five  types of processes, each designed for a different purpose:  
   
 - Business process flows  
   

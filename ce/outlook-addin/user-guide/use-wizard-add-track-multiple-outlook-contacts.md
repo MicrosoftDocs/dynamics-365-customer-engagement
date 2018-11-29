@@ -1,5 +1,5 @@
 ---
-title: "Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Customer Engagement for Outlook
+# Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook
 You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] contacts in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. When you track a contact, a copy of that contact’s record is saved in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. After your contacts are tracked, you’ll see any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email, task, or appointment activities associated with those contacts. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your contact records on that device.  
   
  Tracking contacts in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. You can track up to 20 contacts at one time by choosing the **Track** button or the **Set Parent** button in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If you want to add more than 20 contacts at one time, or if you want to add all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can use the **Add Contacts** wizard. The wizard can also help you set a number of options. For example, you can specify if future communications with the tracked contacts should be synchronized with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
@@ -93,5 +93,5 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
 10. Review the Summary page and view any errors, if applicable. Then choose **Close**.  
   
 ### See also  
- [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

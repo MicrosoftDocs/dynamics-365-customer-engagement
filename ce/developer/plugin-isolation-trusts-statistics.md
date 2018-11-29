@@ -1,5 +1,5 @@
 ---
-title: "Plug-in isolation, trusts, and statistics (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Plug-in isolation, trusts, and statistics (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about collecting run-time statistics and monitors plug-ins and custom workflow activities that execute in the sandbox."
 ms.custom: ""
 ms.date: 12/03/2017
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: fe83bfd4-7ac1-4b9c-8cea-dc32d3ed60b6
-caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -24,15 +23,15 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports the execution of plug-ins and custom workflow activities in an isolated environment. In this isolated environment, known as a *sandbox*, a plug-in or custom activity can make use of the full power of the Organization Service. Access to the file system, system event log, certain network protocols, registry, and more is prevented in the sandbox. However, sandbox plug-ins and custom activities do have access to external endpoints like [!INCLUDE[pn_azure_cloud_services](../includes/pn-azure-cloud-services.md)].  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps supports the execution of plug-ins and custom workflow activities in an isolated environment. In this isolated environment, known as a *sandbox*, a plug-in or custom activity can make use of the full power of the Organization Service. Access to the file system, system event log, certain network protocols, registry, and more is prevented in the sandbox. However, sandbox plug-ins and custom activities do have access to external endpoints like [!INCLUDE[pn_azure_cloud_services](../includes/pn-azure-cloud-services.md)].  
   
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] collects run-time statistics and monitors plug-ins and custom workflow activities that execute in the sandbox. If the sandbox worker process that hosts this custom code exceeds threshold CPU, memory, or handle limits or is otherwise unresponsive, that process will be killed by the platform. At that point any currently executing plug-in or custom workflow activity in that worker process will fail with exceptions. However, the next time that the plug-in or custom workflow activity is executed it will run normally. There is one worker process per organization so failures in one organization will not affect another organization.  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps collects run-time statistics and monitors plug-ins and custom workflow activities that execute in the sandbox. If the sandbox worker process that hosts this custom code exceeds threshold CPU, memory, or handle limits or is otherwise unresponsive, that process will be killed by the platform. At that point any currently executing plug-in or custom workflow activity in that worker process will fail with exceptions. However, the next time that the plug-in or custom workflow activity is executed it will run normally. There is one worker process per organization so failures in one organization will not affect another organization.  
   
-In summary, the sandbox is the recommended execution environment for plug-ins as it is more secure, supports run-time monitoring and statistics reporting, and is supported on all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployments. In addition, [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] only supports execution of custom workflow activities if they are registered in the sandbox.  
+In summary, the sandbox is the recommended execution environment for plug-ins as it is more secure, supports run-time monitoring and statistics reporting, and is supported on all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps deployments. In addition, [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps only supports execution of custom workflow activities if they are registered in the sandbox.  
   
 ## Trusts
 
- Developers have the option of registering their plug-ins in the sandbox, known as partial trust, or outside the sandbox, known as full trust. Full trust is supported for on-premises and Internet-facing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployments. For a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] deployment, plug-ins or custom workflow activities must be registered in the sandbox (partial trust) where they are isolated as previously described.  
+ Developers have the option of registering their plug-ins in the sandbox, known as partial trust, or outside the sandbox, known as full trust. Full trust is supported for on-premises and Internet-facing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps deployments. For a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps deployment, plug-ins or custom workflow activities must be registered in the sandbox (partial trust) where they are isolated as previously described.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
@@ -66,7 +65,7 @@ The key value is a regular expression string that defines the web access restric
 By changing this registry key value, you can change the web access for sandboxed plug-ins.  
   
 > [!IMPORTANT]
->  The sandbox processing service role defaults to outbound calls being enabled. If you do not want to permit outbound calls from custom code (plug-ins or custom workflow activities), you can disable outbound calls by setting the following registry key to 1 (DWORD) on the server that hosts the sandbox processing service role. Next, restart the Dynamics 365 for Customer Engagement Sandbox Processing Service.  
+>  The sandbox processing service role defaults to outbound calls being enabled. If you do not want to permit outbound calls from custom code (plug-ins or custom workflow activities), you can disable outbound calls by setting the following registry key to 1 (DWORD) on the server that hosts the sandbox processing service role. Next, restart the Dynamics 365 for Customer Engagement apps Sandbox Processing Service.  
 >   
 >  `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxWorkerDisableOutboundCalls`  
   
@@ -75,6 +74,6 @@ By changing this registry key value, you can change the web access for sandboxed
 [Introduction to the Event Framework](introduction-event-framework.md)<br />
 [Write a Plug-in](write-plugin.md)<br />
 [Create a Custom Workflow Activity](workflow/create-custom-workflow-activity.md)<br />
-[Azure Extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)<br />
+[Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
 [PluginTypeStatistic Entity](entities/plugintypestatistic.md)<br />
 [Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)<br />

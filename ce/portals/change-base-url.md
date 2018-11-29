@@ -1,7 +1,7 @@
 ---
 title: "Change the base URL of a Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to change the base URL of a portal."
-ms.date: 06/08/2018
+ms.date: 11/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -29,7 +29,7 @@ You can change the base URL of a portal after it is provisioned. For example, if
 > [!NOTE]
 > Once you change the base URL of your portal, the older URL will no longer be accessible and it will become available for other customers to use for their portals.
 
-1.	Go to the Dynamics 365 for Customer Engagement Administration Center page and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want to change the base URL, and then select **Manage**.
 

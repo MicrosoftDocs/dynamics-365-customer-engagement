@@ -29,14 +29,14 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Messages are used with the discovery service <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute(Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest)> method. All messages available in the discovery web service for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement apply to all deployment types.  
+Messages are used with the discovery service <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute(Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest)> method. All messages available in the discovery web service for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps apply to all deployment types.  
 
  The following table lists the messages that are supported with <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute(Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest)> method. Each message derives from the abstract base class <xref:Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest>.  
 
 
 |                               Message                                |                                                                                          Description                                                                                           |
 |----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <xref:Microsoft.Xrm.Sdk.Discovery.RetrieveUserIdByExternalIdRequest> | Retrieves the logged-on user's ID in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. This message is available in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] only. |
+| <xref:Microsoft.Xrm.Sdk.Discovery.RetrieveUserIdByExternalIdRequest> | Retrieves the logged-on user's ID in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps. This message is available in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps only. |
 |    <xref:Microsoft.Xrm.Sdk.Discovery.RetrieveOrganizationRequest>    |                                                                       Retrieves information about a single organization.                                                                       |
 |   <xref:Microsoft.Xrm.Sdk.Discovery.RetrieveOrganizationsRequest>    |                                                            Retrieves information about all organizations to which the user belongs.                                                            |
 

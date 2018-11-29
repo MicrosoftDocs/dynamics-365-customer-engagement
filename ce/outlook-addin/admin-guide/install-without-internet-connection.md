@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement for Outlook without an Internet connection | MicrosoftDocs"
+title: "Install Dynamics 365 for Outlook without an Internet connection | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Install Dynamics 365 for Customer Engagement for Outlook without an Internet connection
+# Install Dynamics 365 for Outlook without an Internet connection
 There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] where there is no Internet connection available. Common occasions are when you are creating virtual demonstration environments, such as when you use [!INCLUDE[pn_Hyper-V](../../includes/pn-hyper-v.md)], and environments that use firewalls or other security requirements that block Internet access.  
 
  To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] without an Internet connection, you must first download all prerequisite software. To do this, you will need a computer that has an Internet connection to download all the prerequisites beforehand.  
@@ -31,7 +31,7 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 
 <a name="BKMK_1_create_redist"></a>   
 ## Step 1: Extract the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation files  
- First, create a folder on your local computer and then download the [Dynamics 365 for Customer Engagement for Outlook installation package](https://www.microsoft.com/download/details.aspx?id=50370). It doesn't matter what name you give the folder where you extract the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] files.  For example, you can name the folder *CRMforOutlookwithoutInternet*.  
+ First, create a folder on your local computer and then download the [Dynamics 365 for Outlook installation package](https://www.microsoft.com/download/details.aspx?id=50370). It doesn't matter what name you give the folder where you extract the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] files.  For example, you can name the folder *CRMforOutlookwithoutInternet*.  
 
  After you complete this step there should be several files and folders under the *CRMforOutlookwithoutInternet* folder you created,  including SetupClient.exe.  
 
@@ -59,7 +59,7 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 
    After you are finished the  *CRMforOutlookwithoutInternet* folder looks similar to this.  
 
-   ![Folders for setting up Dynamics 365 for Customer Engagement for Outlook with no internet](../media/itpro-crm-for-outlook-no-internet-setup.png "Folders for setting up Dynamics 365 for Customer Engagement for Outlook with no internet")  
+   ![Folders for setting up Dynamics 365 for Outlook with no internet](../media/itpro-crm-for-outlook-no-internet-setup.png "Folders for setting up Dynamics 365 for Outlook with no internet")  
 
 <a name="BKMK_3download"></a>   
 ## Step 3: Download the prerequisite files  

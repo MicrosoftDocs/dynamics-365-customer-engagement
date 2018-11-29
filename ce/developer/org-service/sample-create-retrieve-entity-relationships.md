@@ -22,7 +22,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with entity relationships](https://code.msdn.microsoft.com/Samples-of-entity-218db099).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Work with entity relationships](https://code.msdn.microsoft.com/Samples-of-entity-218db099).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -37,7 +37,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[relationships#WorkWithRelationships](../../snippets/csharp/CRMV8/relationships/cs/workwithrelationships.cs#workwithrelationships)]  
   
 ### See also  
- [Use the Organization service with Dynamics 365 for Customer Engagement metadata](use-organization-service-metadata.md)   
+ [Use the Organization service with Dynamics 365 for Customer Engagement apps metadata](use-organization-service-metadata.md)   
  [Customize Entity Relationship Metadata](../customize-entity-relationship-metadata.md)   
  [Create Entity Relationships](create-retrieve-entity-relationships.md)   
  [Sample: Dump Entity Relationship Information to a File](sample-dump-entity-relationship-information-file.md)

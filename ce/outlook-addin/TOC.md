@@ -1,11 +1,11 @@
-# [Dynamics 365 for Customer Engagement for Outlook Administrator Guide](admin-guide/dynamics-365-for-outlook.md)
+# [Dynamics 365 for Outlook Administrator Guide](admin-guide/dynamics-365-for-outlook.md)
 
 ## [Hardware requirements](admin-guide/hardware-requirements.md)
 ## [Software requirements](admin-guide/software-requirements.md)
 ## [Support](admin-guide/support.md)
 
 ## [Set up](admin-guide/set-up.md)
-### [Permissions required for Dynamics 365 for Customer Engagement for Outlook tasks](admin-guide/permissions-required-tasks.md)
+### [Permissions required for Dynamics 365 for Outlook tasks](admin-guide/permissions-required-tasks.md)
 ### [Planning and installing](admin-guide/planning-installing.md)
 #### [Upgrade Microsoft Dynamics CRM for Outlook](admin-guide/upgrade.md)
 #### [Install](admin-guide/install.md)
@@ -23,12 +23,12 @@
 ### [How field security affects synchronization](admin-guide/field-security-synchronization.md)
 ### [Troubleshooting and things to know](admin-guide/troubleshooting-things-to-know.md)
 
-# [Dynamics 365 for Customer Engagement for Outlook User Guide](user-guide/dynamics-365-outlook-user-s-guide.md) 
+# [Dynamics 365 for Outlook User Guide](user-guide/dynamics-365-outlook-user-s-guide.md) 
 
 ## Set up and configure 
 ### [Set up](user-guide/set-up.md)
 ### [Configure another organization](user-guide/configure-another-organization.md)
-### [Set up and configure Dynamics 365 for Customer Engagement for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)
+### [Set up and configure Dynamics 365 for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)
 ### [The Outlook email address should be the same as the Dynamics 365 for Customer Engagement email address](user-guide/outlook-email-address-should-same.md)
 
 ## Get started
@@ -39,7 +39,7 @@
 
 ## Track email, appointments, contacts, and tasks
 ### [Track Outlook email by moving it to a tracked Exchange folder](user-guide/track-outlook-email-by-moving-it-tracked-exchange-folder.md)
-### [Track Outlook email by choosing a button in Dynamics 365 for Customer Engagement for Outlook](user-guide/track-outlook-email-by-choosing-button.md)
+### [Track Outlook email by choosing a button in Dynamics 365 for Outlook](user-guide/track-outlook-email-by-choosing-button.md)
 ### [Set an option to automatically track incoming Outlook email](user-guide/set-option-automatically-track-incoming-outlook-email.md)
 ### [Track Outlook contacts](user-guide/track-outlook-contacts.md)
 ### [Use a wizard to add and track multiple Outlook contacts](user-guide/use-wizard-add-track-multiple-outlook-contacts.md)
@@ -59,7 +59,7 @@
 ### [Create or modify synchronization filters or view synchronizing fields](user-guide/create-modify-synchronization-filters-view-synchronizing-fields.md)
 
 ## Work offline
-### [Work offline with Dynamics 365 for Customer Engagement for Outlook](user-guide/work-offline-dynamics-365-outlook.md)
+### [Work offline with Dynamics 365 for Outlook](user-guide/work-offline-dynamics-365-outlook.md)
 ### [Choose records to work with offline](user-guide/choose-records-work-offline.md)
 ### [Example of going offline](user-guide/example-going-offline.md)
 

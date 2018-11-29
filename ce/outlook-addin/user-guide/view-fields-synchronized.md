@@ -1,5 +1,5 @@
 ---
-title: "View the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "View the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# View the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook
+# View the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook
 In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can view the appointments, contacts, and tasks fields that are synchronized between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] so you can see where the data is coming from. You can also determine whether the fields:  
 
 - Are synchronized one way (from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] **or** from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)])  
@@ -68,5 +68,5 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
 
 ### See also  
  [Which fields can be synchronized between Dynamics 365 for Customer Engagement and Outlook?](../admin-guide/which-fields-synchronized.md)
- [Control field synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook](../admin-guide/control-field-synchronization.md)
+ [Control field synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook](../admin-guide/control-field-synchronization.md)
  [How field security affects synchronization with Outlook](../../admin/how-field-security-affects-synchronization-between-outlook.md)
