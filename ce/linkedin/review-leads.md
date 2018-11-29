@@ -29,7 +29,7 @@ When a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matches a lead reco
 
 ## See the details of a lead
 
-To see the details of a lead record in [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)], go to **Sales** > **Leads** and select the lead record from the list. If the lead was created by [!include[Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)], the lead source is **[!include[LinkedIn](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)] updates the lead field values by using the information submitted by the lead on [!include[LinkedIn](../includes/pn-linkedin.md)].
+To see the details of a lead record, go to **Sales** > **Leads** and select the lead record from the list. If the lead was created by [!include[Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)], the lead source is **[!include[LinkedIn](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, the system updates the lead field values by using the information submitted by the lead on [!include[LinkedIn](../includes/pn-linkedin.md)].
 More information about creating or editing a lead: [Dynamics 365 for Customer Engagement Help & Training: Create or edit a lead](https://go.microsoft.com/fwlink/p?linkid=832163).
 
 ![Review and analyze leads and lead performance](media/See-details-of-lead.png "Review and analyze leads and lead performance")
@@ -52,7 +52,7 @@ More information about building custom dashboards: [Create or customize dashboar
 
 ## Analyze individual LinkedIn Lead Gen forms and submissions
 
-To see all form submissions in [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)], go to **Sales** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!include[LinkedIn](../includes/pn-linkedin.md)] members when they answered the underlying [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen form. 
+To see all form submissions, go to **Sales** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!include[LinkedIn](../includes/pn-linkedin.md)] members when they answered the underlying [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen form. 
 
 ![Analyze LinkedIn Lead Gen Forms](media/Analyze-LinkedIn-lead-gen-forms.png "Analyze LinkedIn Lead Gen Forms")
 
@@ -66,5 +66,5 @@ Learn how to install the solution on the [LinkedIn Sales Navigator help center](
 
 ### See also
 
-[Establish a connection between Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)  
+[Establish a connection between Dynamics 365Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)  
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)
