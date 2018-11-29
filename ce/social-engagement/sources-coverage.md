@@ -54,7 +54,7 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 
 ## Instagram
 
-After you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] & [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition account as a [social profile](manage-social-profiles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can configure [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account search rules for your search topics. as a source. These rules will acquire posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. Learn more about [data acquisition on Instagram](instagram-data-acquisition.md).
+After you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] & [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition account as a [social profile](manage-social-profiles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can configure [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account search rules for your search topics. These rules will acquire posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. Learn more about [data acquisition on Instagram](instagram-data-acquisition.md).
 
 > [!NOTE]
 > [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
