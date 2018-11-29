@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-To connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you create an instance of the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, and then use one of the constructors to connect. All the calls to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class are thread safe.  
+To connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], you create an instance of the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, and then use one of the constructors to connect. All the calls to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class are thread safe.  
 
  Apart from the constructors mentioned in this topic, you can also use connection strings with <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](use-connection-strings-xrm-tooling-connect.md)  
 
