@@ -190,11 +190,11 @@ You can add both an interval and a time group to a single fulfillment preference
 
     A traditional brick and mortar business offers appointments every 90 minutes, so intervals are set to 90 minutes. Additionally, they separate into morning and afternoon time groups of 8AM - 12PM and 1PM - 5PM, with a 1 hour lunch in between. Therefore, both intervals and time groups are useful for this business.
 
-    - **Without resetting** intervals per time group detail, the appointments would be:
+    - If the **Reset Interval per Time Group Detail** is set to **No**, the appointments would be:
 
          8:00AM, 9:30AM, 11:00AM, (not 12:30 because this is blocked for lunch), 2:00PM, 3:30PM
 
-    - **With resetting** intervals per time group detail, the appointments would be:
+    - If the **Reset Interval per Time Group Detail** is set to **Yes**, the appointments would be:
 
          8:00AM, 9:30AM, 11:00AM, (not 12:30 because this is blocked for lunch), **1:00PM** (resetting for next time group detail), 2:30PM, 4:00PM
 
