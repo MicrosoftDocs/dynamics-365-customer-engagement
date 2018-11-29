@@ -1,6 +1,6 @@
 ---
-title: "Set up product bundles to sell multiple items together (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Combine products in a bundle in Dynamics 365 for Customer Engagement for Sales to sell multiple items together."
+title: "Set up product bundles to sell multiple items together (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
 keywords: "Bundle, Product Bundle"
 ms.date: 04/01/2018
 ms.service:
@@ -26,7 +26,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Encourage customers to buy more products instead of a single product by combining products in a bundle. Bundles replace the older kit functionality in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)]. Kits have been deprecated, so we recommend that you start using bundles instead.  
+Encourage customers to buy more products instead of a single product by combining products in a bundle.   
   
  These are the differences between kits and bundles:  
   
