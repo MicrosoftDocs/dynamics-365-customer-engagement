@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an order (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Create or edit an order (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
 keywords: "Order, quote, accepted"
 ms.date: 10/29/2018

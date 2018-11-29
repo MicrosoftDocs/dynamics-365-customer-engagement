@@ -1,6 +1,6 @@
 ---
-title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Define what to charge for your products or services in Dynamics 365 for Customer Engagement for Sales."
+title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Define what to charge for your products or services in Dynamics 365 for Sales."
 keywords: "Price list, price list items"
 ms.date: 10/09/2018
 ms.service:
@@ -9,8 +9,7 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement apps Version 9.x"
 ms.assetid: dd53d178-2cd2-4aeb-beb5-be538585d297
 author: shubhadaj
 ms.author: shujoshi
@@ -172,7 +171,7 @@ Create a price list item for each unit in which the product is available. For ex
   
    - In the **Quantity Selling Option** drop-down box, select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the **Quantity** field of **Quote Product**, **Order Product**, and **Invoice Product** records:  
   
-     - **No Control**. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] doesn't enforce a quantity selling option.  
+     - **No Control**. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't enforce a quantity selling option.  
   
      - **Whole**. Selling a partial product isn't allowed. For example, digital cameras cannot be sold in fractions.  
   
