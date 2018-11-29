@@ -2,7 +2,7 @@
 title: "Administer a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
-ms.date: 11/20/2018
+ms.date: 11/29/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -58,7 +58,7 @@ If you are not a global administrator and you try to manage a portal that has al
 
 A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain by using a wizard.
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration center, and then select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Applications** tab.
 
 2. Select the name of the portal for which you want to set up a custom domain, and then select **Manage**.
 
@@ -98,7 +98,7 @@ When you provision a portal, the portal-related solutions are installed on the o
 
 ### To import metadata translation
 
-1.	Go to the **Dynamics 365 for Customer Engagement Administration Center** page, and then select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Applications** tab.
 2.	Select the name of the portal into which you want to import metadata translation, and then select **Manage**.
 3.	Go to **Portal Actions** > **Get latest metadata translations**. A confirmation window is displayed asking whether to update the portal solutions.
 4.	Select **Update**. The portal solutions will be updated with the latest metadata translation.
