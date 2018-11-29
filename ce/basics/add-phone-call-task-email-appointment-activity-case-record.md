@@ -108,7 +108,7 @@ The activity and notes area helps you keep track of all the interactions with yo
 4. To save the record, click **Save**.  
   
 ## Add notes  
- You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 for Customer Engagement records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+ You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 for Customer Engagement app records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
  This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
@@ -125,7 +125,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
-  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 for Customer Engagement app](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
 ## Create an activity and associate it with a customer  
  You can also create an activity from the Activity area and then link it to a customer or support case.  
