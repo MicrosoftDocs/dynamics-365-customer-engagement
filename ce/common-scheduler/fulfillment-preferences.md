@@ -64,7 +64,7 @@ To set up intervals, you need:
 - Field Service v8.0+
 - Universal Resource Scheduling v3.1+
 
-### 1. Create the fulfillment preference
+### Create the fulfillment preference
 
 1. Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**.
 
