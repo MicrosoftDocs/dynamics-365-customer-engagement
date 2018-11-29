@@ -1,6 +1,6 @@
 ---
-title: "Create a product family (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Customer Engagement for Sales."
+title: "Create a product family (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Sales."
 keywords: "Product family"
 ms.date: 04/01/2018
 ms.service:
@@ -10,7 +10,7 @@ ms.custom:
 ms.topic: article
 applies_to:
   - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
 author: shubhadaj
 ms.author: shujoshi
