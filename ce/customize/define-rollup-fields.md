@@ -1,8 +1,8 @@
 ---
-title: "Define rollup fields with PowerApps | MicrosoftDocs"
+title: "Define rollup fields | MicrosoftDocs"
 description: "Learn how to define rollup fields"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
 caps.latest.revision: 58
@@ -27,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the customization tools in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], without needing a developer to write code.  
+Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the feature without needing a developer to write code.  
   
 <a name="BKMK_benefitsandcapabilities"></a>   
 ## Rollup fields benefits and capabilities  
@@ -45,7 +44,6 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 - Rollup fields and the calculated fields are complementary to each other. You can use a rollup field as a part of the calculated field, and vice versa.  
   
-- For [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] subscribers, you can configure rollup fields to use custom controls.  
   
   Some examples of rollup fields include:  
   
