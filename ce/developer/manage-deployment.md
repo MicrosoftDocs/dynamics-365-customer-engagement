@@ -1,5 +1,5 @@
 ---
-title: "Manage your deployment (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Manage your deployment (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Write application code to handle disaster recovery, administer your deployment, and import sample data."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -24,12 +24,12 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Write application code to handle disaster recovery, administer your deployment, and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement.  
+Write application code to handle disaster recovery, administer your deployment, and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## In This Section  
- [Disaster Recovery in Dynamics 365 for Customer Engagement (online)](disaster-recovery-online-customer-engagement.md)  
+ [Disaster Recovery in Dynamics 365 for Customer Engagement apps](disaster-recovery-online-customer-engagement.md)  
   
- [Sample Data for Dynamics 365 for Customer Engagement](sample-data.md)  
+ [Sample Data for Dynamics 365 for Customer Engagement apps](sample-data.md)  
   
 ## Related Sections  
  [Add and Remove Sample Data](../admin/add-remove-sample-data.md)

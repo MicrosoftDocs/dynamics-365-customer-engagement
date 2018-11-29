@@ -1,5 +1,5 @@
 ---
-title: "Manage your data (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Manage your data (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Features that enable efficient data management, including the ability to import new data, audit data changes, detect duplicates and delete data in bulk."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -36,33 +36,33 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-*Data management* features let you efficiently manage and audit your data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You’ll be able to import new data and audit data changes, detect duplicates and delete data in bulk.  
+*Data management* features let you efficiently manage and audit your data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You’ll be able to import new data and audit data changes, detect duplicates and delete data in bulk.  
   
  Based on the provided functionality, you can develop custom data management tools.  
   
 ## In This Section  
- [Audit Entity Data Changes in Dynamics 365 for Customer Engagement](audit-entity-data-changes.md)  
+ [Audit Entity Data Changes in Dynamics 365 for Customer Engagement apps](audit-entity-data-changes.md)  
   
- [Detect Duplicate Data in Dynamics 365 for Customer Engagement](detect-duplicate-data-for-developers.md)  
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](detect-duplicate-data-for-developers.md)  
   
- [Delete Data in Bulk in Dynamics 365 for Customer Engagement](delete-data-bulk.md)  
+ [Delete Data in Bulk in Dynamics 365 for Customer Engagement apps](delete-data-bulk.md)  
   
- [Import Data in Dynamics 365 for Customer Engagement](import-data.md)  
+ [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)  
   
- [Data Export service in Dynamics 365 for Customer Engagement](data-export-service.md)  
+ [Data Export service in Dynamics 365 for Customer Engagement apps](data-export-service.md)  
   
 ## Related Sections  
  [Release history](release-history.md)  
   
- [What's new for developers: Dynamics 365 for Customer Engagement](whats-new-developers.md)  
+ [What's new for developers: Dynamics 365 for Customer Engagement apps](whats-new-developers.md)  
   
  [Start here](get-started-sdk.md)  
   
  [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)  
   
- [The Security Model of Dynamics 365 for Customer Engagement](security-dev/security-model.md)  
+ [The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/security-model.md)  
   
- [Extend Dynamics 365 for Customer Engagement](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement apps](extend-dynamics-365-server.md)  
   
  [Model your business data](model-business-data.md)  
   
