@@ -1,5 +1,5 @@
 ---
-title: "Controls in Customer Engagement for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Controls in Customer Engagement for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"

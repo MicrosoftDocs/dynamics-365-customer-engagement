@@ -1,5 +1,5 @@
 ---
-title: "Sample: Two-way listener (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Two-way listener (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to write a Azure Service Bus Listener for a two-way endpoint contract. "
 ms.custom: ""
 ms.date: 10/31/2017
@@ -27,7 +27,7 @@ search.app:
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample registers a remote service plug-in that executes whenever a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement message is posted to a two-way endpoint on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. When the plug-in executes, it prints to the console the contents of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] execution context contained in the message. 
-Download the sample: [Work with Microsoft Dynamics 365 for Customer Engagement and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a) 
+Download the sample: [Work with Microsoft Dynamics 365 for Customer Engagement apps and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a) 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -42,7 +42,7 @@ Download the sample: [Work with Microsoft Dynamics 365 for Customer Engagement a
  [!code-csharp[WindowsAzure#TwoWayListener](../snippets/csharp/CRMV8/windowsazure/cs/twowaylistener.cs#twowaylistener)]  
   
 ### See also  
- [Azure Extentions for Dynamics 365 for Customer Engagement](azure-extensions.md)   
- [Sample Code for Dynamics 365 for Customer Engagement and Microsoft Azure Integration](sample-code-azure-integration.md)   
+ [Azure Extentions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
+ [Sample Code for Dynamics 365 for Customer Engagement apps and Microsoft Azure Integration](sample-code-azure-integration.md)   
  [Sample: REST Listener](sample-rest-listener.md)   
  <xref:Microsoft.Xrm.Sdk.ITwoWayServiceEndpointPlugin>

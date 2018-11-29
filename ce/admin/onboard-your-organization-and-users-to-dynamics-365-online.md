@@ -142,7 +142,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 <a name="Trial"></a>  
  
 ### Optional: Transfer customizations from your free 30-day trial  
- If you made customizations to your free trial, you can transfer those customizations to your production instance.  
+ If you made customizations to your free trial, you can transfer those customizations to your Production instance.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -162,14 +162,15 @@ For more advanced scenarios, consider the following development tools: [Solution
 -   [Manage storage for Dynamics 365 for Customer Engagement (online)](manage-storage.md)  
   
 <a name="Sandbox"></a>   
-### Create a sandbox (non-production instance)  
- You can create a sandbox instance (non-production environment) for development, testing, training, and other non-production uses. Then when you’re ready to turn the sandbox instance into your production instance, you can switch it.  
+
+### Create a Sandbox (non-Production instance)  
+ You can create a Sandbox instance (non-production environment) for development, testing, training, and other non-production uses. Then when you’re ready to turn the Sandbox instance into your Production instance, you can switch it.  
   
- You get one free sandbox instance with your purchase of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You can also purchase additional sandbox instances.  
+ You get one free Sandbox instance with your purchase of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You can also purchase additional Sandbox instances.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Manage Dynamics 365 for Customer Engagement (online) sandbox instances](manage-sandbox-instances.md)  
+-   [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](manage-sandbox-instances.md)  
   
 -   [Switch an instance](switch-instance.md)  
   

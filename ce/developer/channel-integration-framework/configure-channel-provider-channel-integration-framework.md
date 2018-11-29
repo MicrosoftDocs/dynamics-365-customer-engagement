@@ -1,6 +1,6 @@
 ---
 title: "Configure channel provider in Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn how to configure a channel provider install and setup Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement."
+description: "Learn how to configure a channel provider install and setup Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps."
 keywords: ""
 ms.date: 10/01/2018
 ms.service:
@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# How to configure a channel provider for your Dynamics 365 for Customer Engagement organization
+# How to configure a channel provider for your Dynamics 365 for Customer Engagement apps organization
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
 
@@ -27,9 +27,9 @@ To configure channel providers:
 
 1. Sign-in to Dynamics 365 for Customer Engagement.
 
-2. Select the drop-down button on the Dynamics 365 for Customer Engagement and select **Channel Integration Framework**.
+2. Select the drop-down button on the Dynamics 365 for Customer Engagement apps and select **Channel Integration Framework**.
 
-  ![Dynamics 365 for Customer Engagement drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 for Customer Engagement drop-down button to find Channel Integration Framework")
+  ![Dynamics 365 for Customer Engagement apps drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 for Customer Engagement apps drop-down button to find Channel Integration Framework")
 
 3.	Select **+ New** to add a new provider.
 
@@ -39,13 +39,13 @@ To configure channel providers:
   |-------|-------|
   |Name|Name of the channel provider.|
   |Label|The label is displayed as the title on the widget.|
-  |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 for Customer Engagement Channel Integration Framework.|
-  |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 for Customer Engagement Unified Interface page, the widget initiates the call or outbound communication.|
+  |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 for Customer Engagement apps Channel Integration Framework.|
+  |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 for Customer Engagement apps Unified Interface page, the widget initiates the call or outbound communication.|
   |Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface Apps.|
   |API Version|The version of the Channel Integration Framework APIs.|
   |Trusted Domains| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
-  |Select Roles for the Channel|The security roles that are present in Dynamics 365 for Customer Engagement.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 for Customer Engagement Unified Interface App.|
+  |Select Roles for the Channel|The security roles that are present in Dynamics 365 for Customer Engagement apps.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 for Customer Engagement apps (Unified Interface apps).|
   
   ![Channel proivder configuration](media/channel-provider-configuration.PNG "Channel proivder configuration")
 

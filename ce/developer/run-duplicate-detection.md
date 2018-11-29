@@ -1,5 +1,5 @@
 ---
-title: "Run duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Run duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Execute duplicate detection for a specific record, entity type, or during create or update operations."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -73,7 +73,7 @@ OData-Version: 4.0
 
 ## Detect duplicates for an entity type
 
-Submit an asynchronous duplicate detection job that runs in the background. The duplicates are detected according to the published duplicate rules for the entity type. The detected duplicates are stored as `DuplicateRecord` records in Dynamics 365 for Customer Engagement. 
+Submit an asynchronous duplicate detection job that runs in the background. The duplicates are detected according to the published duplicate rules for the entity type. The detected duplicates are stored as `DuplicateRecord` records in Dynamics 365 for Customer Engagement apps. 
 
 A maximum of 5000 duplicates are returned by the duplicate detection job.
 

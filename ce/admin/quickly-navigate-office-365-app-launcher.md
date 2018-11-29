@@ -83,17 +83,17 @@ search.app:
  ![Two instances of Dynamics 365 for Customer Engagement (online) on the home page](../admin/media/two-instances-of-dynamics-365-online-in-the-home-page.png "Two instances of Dynamics 365 for Customer Engagement (online) on the home page")  
   
 > [!NOTE]
-> **What is "Dynamics 365 for Customer Engagement - custom"?**  
+> **What is "Dynamics 365 - custom"?**  
 > 
->  "Dynamics 365 for Customer Engagement - custom" is the app name for all online organizations with a version 8.1 and lower as well as the default app on 8.2. The name for the 8.2 default app can be changed by the administrator.  
+>  "Dynamics 365 - custom" is the app name for all online organizations with a version 8.1 and lower as well as the default app on 8.2. The name for the 8.2 default app can be changed by the administrator.  
 > 
 > **What are the tiles on the home page?**  
 > 
 > [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] is introducing a new app model and what you're seeing are [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] apps for which you're licensed once you've upgraded to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)].  
 > 
-> **Admins: You have options for displaying and naming Dynamics 365 for Customer Engagement - custom.**  
+> **Admins: You have options for displaying and naming Dynamics 365 - custom.**  
 > 
->  Once you update to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you have options.  Go to **Settings** > **Administration** > **System Setting** > **General** tab. Scroll down to **Set options for the default app: Dynamics 365 for Customer Engagement - custom**.  
+>  Once you update to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you have options.  Go to **Settings** > **Administration** > **System Setting** > **General** tab. Scroll down to **Set options for the default app: Dynamics 365 - custom**.  
 > 
 > **Where do I get more information about upgrading to Dynamics 365 for Customer Engagement?**  
 > 

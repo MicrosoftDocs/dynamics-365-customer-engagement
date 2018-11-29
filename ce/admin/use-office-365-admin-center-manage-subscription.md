@@ -41,7 +41,7 @@ search.app:
  ![Office 365 app launcher](../admin/media/admin-center-app-launcher.png "Office 365 app launcher")  
   
 <a name="BKMK_CRMAdminCenter"></a>   
-## Manage instances and updates in the Dynamics 365 for Customer Engagement Administration Center  
+## Manage instances and updates in the Dynamics 365 Administration Center  
  The [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] is your portal site to manage [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances and updates.  
   
  You access the portal by choosing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  

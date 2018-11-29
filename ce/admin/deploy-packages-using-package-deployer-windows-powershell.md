@@ -298,9 +298,9 @@ Get-Help Import-CrmPackage -full
   
 -   Insist on a signed package assembly so that they can track an assembly back to its source.  
   
--   Test the package on a pre-production instance (preferably a mirror image of the production instance) before running it on a production server.  
+-   Test the package on a pre-Production instance (preferably a mirror image of the Production instance) before running it on a production server.  
   
--   Back up the production instance before deploying a package.  
+-   Back up the Production instance before deploying a package.  
  
 ### See also  
  [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)

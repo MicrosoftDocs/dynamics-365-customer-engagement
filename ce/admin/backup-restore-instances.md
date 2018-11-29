@@ -53,7 +53,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
 3. Click the **Backup & Restore** tab.  
   
@@ -97,7 +97,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
 3. Click the **Backup & Restore** tab.  
   
@@ -125,7 +125,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
 3. Click the **Backup and Restore** tab.  
   
@@ -146,7 +146,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
 3. Click the **Backup and Restore** tab.  
   
@@ -176,7 +176,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
 3. Click the **Backup & Restore** tab.  
   

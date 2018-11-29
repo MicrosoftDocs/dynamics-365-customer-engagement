@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 0e1254fa-d7a1-42a5-840c-cd26162c1f48
-caps.latest.revision: 24
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"

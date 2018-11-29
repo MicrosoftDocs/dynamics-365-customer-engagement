@@ -1,5 +1,5 @@
 ---
-title: "Form OnLoad Event (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Form OnLoad Event (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -19,7 +19,4 @@ search.app:
 
 The form `OnLoad` event occurs after the form has loaded. It cannot prevent the window from loading. Use the `OnLoad` event to apply logic about how the form should be displayed, to set properties on fields, and interact with other page elements.
 
-When the Microsoft Dynamics 365 for Customer Engagement for tablets client is disconnected, the `OnLoad` event is the only event that will occur. 
-
-
-
+When the Microsoft Dynamics 365 for Customer Engagement apps for tablets client is disconnected, the `OnLoad` event is the only event that will occur. 

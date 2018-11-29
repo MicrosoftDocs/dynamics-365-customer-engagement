@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a campaign using in-app marketing (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Create or edit a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Expand your reach to new customers and improve sales by using campaigns in Dynamics 365 for Customer Engagement for Sales."
 keywords: "Campaign, marketing information, campaign activity, marketing, planning task"
 ms.date: 04/01/2018
@@ -32,7 +32,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Promote your business, expand your reach to new customers, and improve sales by using campaigns in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Use campaigns to store all your marketing information and activities, and to measure the success of your efforts. Campaigns contain planning tasks and campaign activities you need to manage for the marketing campaigns.  
+Promote your business, expand your reach to new customers, and improve sales by using campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Use campaigns to store all your marketing information and activities, and to measure the success of your efforts. Campaigns contain planning tasks and campaign activities you need to manage for the marketing campaigns.  
   
  Add strategic campaign information to your campaign, such as:  
   

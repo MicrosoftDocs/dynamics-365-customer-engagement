@@ -32,7 +32,7 @@ For multinational companies with employees and customers distributed around the 
  You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
 > [!NOTE]
->  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (production and non-production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+>  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 <a name="BKMK_info_instance"></a>   
 ## What information do I need to create an instance?  
@@ -69,11 +69,11 @@ For multinational companies with employees and customers distributed around the 
   
 1.  Global administrators sign in to the [Office 365 admin center](https://portal.office.com), and then, in the navigation pane, click **Billing** > **Purchase services**.  
   
-2.  Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
+2.  Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-Production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
   
 3.  Proceed through the screens to purchase additional instances.  
   
-     You can choose to add production or non-production (Sandbox) instances. For more information, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
+     You can choose to add Production or non-Production (Sandbox) instances. For more information, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
   
 ### Step 2: Configure the additional instance for a region  
   

@@ -34,14 +34,11 @@ globalContext.getCurrentAppUrl();
 
 |Value |Client |
 |---|---|
-|https://[org].crm.dynamics.com/main.aspx?appid=[GUID]|Dynamics 365 for Customer Engagement (online)|
-|https://[server]/[org]/main.aspx?appid=[GUID]|Dynamics 365 for Customer Engagement (on-premises)|
+|https://[org].crm.dynamics.com/main.aspx?appid=[GUID]|Dynamics 365 for Customer Engagement apps |
+|https://[server]/[org]/main.aspx?appid=[GUID]|Dynamics 365 for Customer Engagement (on-premises) apps |
 
 ### Related topics
 
 [Create and manage custom business apps using code](../../../../create-manage-custom-business-apps-using-code.md)
 
 [Xrm.Utility.getGlobalContext](../getGlobalContext.md) 
-
-
-

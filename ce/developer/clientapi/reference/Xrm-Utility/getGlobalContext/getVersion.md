@@ -1,5 +1,5 @@
 ---
-title: "getVersion (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "getVersion (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -17,7 +17,7 @@ search.app:
 
 [!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Returns the version number of the Dynamics 365 for Customer Engagement instance.
+Returns the version number of the Dynamics 365 for Customer Engagement apps instance.
 
 ## Syntax
 

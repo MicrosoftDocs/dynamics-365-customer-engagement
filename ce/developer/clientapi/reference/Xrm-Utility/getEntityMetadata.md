@@ -1,5 +1,5 @@
 ---
-title: "getEntityMetadata (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "getEntityMetadata (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 05/02/2018
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -213,7 +213,7 @@ search.app:
 <tr>
 <td>IsVisibleInMobileClient</td>
 <td>Boolean</td>
-<td>Indicates whether Microsoft Dynamics 365 for Customer Engagement for tablets users can see data for this entity.</td>
+<td>Indicates whether Microsoft Dynamics 365 for Customer Engagement apps for tablets users can see data for this entity.</td>
 </tr>
 <tr>
 <td>IsEnabledInUnifiedInterface</td>

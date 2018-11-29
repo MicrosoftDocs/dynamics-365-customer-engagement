@@ -1,5 +1,5 @@
 ---
-title: "addNotification (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "addNotification (Client API reference) in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -17,7 +17,7 @@ search.app:
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Displays an error or recommendation notification for a control, and lets you specify actions to execute based on the notification. When you specify an error type of notification, a red "X" icon appears next to the control. When you specify a recommendation type of notification, an "i" icon appears next to the control. On Dynamics 365 for Customer Engagement mobile clients, tapping on the icon will display the message, and let you perform the configured action by clicking the **Apply** button or dismiss the message. 
+Displays an error or recommendation notification for a control, and lets you specify actions to execute based on the notification. When you specify an error type of notification, a red "X" icon appears next to the control. When you specify a recommendation type of notification, an "i" icon appears next to the control. On Dynamics 365 for Customer Engagement apps mobile clients, tapping on the icon will display the message, and let you perform the configured action by clicking the **Apply** button or dismiss the message. 
 
 ## Control types supported
 
@@ -105,6 +105,3 @@ function addTickerSymbolRecommendation(executionContext) {
 [clearNotification](clearNotification.md)
 
 [setNotification](setNotification.md)
-
-
-

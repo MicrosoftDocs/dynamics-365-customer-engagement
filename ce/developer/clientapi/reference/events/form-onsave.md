@@ -1,5 +1,5 @@
 ---
-title: "Form OnSave Event (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Form OnSave Event (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -13,7 +13,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Form OnSave Event (Client API reference) in Dynamics 365 for Customer Engagement
+# Form OnSave Event (Client API reference) in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -31,6 +31,3 @@ You can cancel the save action by using the preventDefault method within the eve
 
 ### Related topic
 [Grid OnSave Event](grid-onsave.md)  
-
-
-
