@@ -1,7 +1,7 @@
 ---
 title: "Upgrade a Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to upgrade a portal."
-ms.date: 05/30/2018
+ms.date: 11/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -30,7 +30,7 @@ A Dynamics 365 for Customer Engagement Portal consists of the following componen
 
 |Component|Description|Update process|
 |---------|-----------|--------------|
-|Portal solutions|Solutions which are Installed in Dynamics 365 for Customer Engagement organization and contains the metadata entities for any Dynamics 365 for Customer Engagement Portal.|Updated by customers themselves from the Dynamics 365 for Customer Engagement Administration Center.|
+|Portal solutions|Solutions which are Installed in Dynamics 365 for Customer Engagement organization and contains the metadata entities for any Dynamics 365 for Customer Engagement Portal.|Updated by customers themselves from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.|
 |Portal website host|Portal website host is the Portal code which forms the actual website.|Portal website host is updated automatically for all portals.<br>**Note**: A new version of Portal website host is backwards compatible with all supported versions of Portal solutions. However, once a solution version becomes unsupported, it is not certified to run with the new version of Portal website host.|
 |||
 
@@ -58,7 +58,7 @@ You can enable development or test portal to receive an early upgrade ahead of a
 
 To enable a portal for early upgrade:
 
-1.	Go to the Dynamics 365 for Customer Engagement Administration Center, and then select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and then select the **Applications** tab.
 
 2.	Select the application row for your portal, and then select **Manage**.
 
