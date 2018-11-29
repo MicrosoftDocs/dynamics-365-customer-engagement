@@ -33,10 +33,10 @@ Once the data is in the system, the real fun begins. You can use the insights yo
 
 ## Be productive wherever
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are not just for using in a web browser on your computer — you
-can also use then on your phone, on your [!INCLUDE[tn_android](../includes/tn-android.md)] tablet, or on your [!INCLUDE[tn_apple_ipad](../includes/tn-apple-ipad.md)]. This guide covers using the system in your web browser, to keep it as short
+can also use them on your phone, on your [!INCLUDE[tn_android](../includes/tn-android.md)] tablet, or on your [!INCLUDE[tn_apple_ipad](../includes/tn-apple-ipad.md)]. This guide covers using the system in your web browser, to keep it as short
 as possible and because the mobile apps work almost the same as on the web.
 
-Download the app from the online store for your phone or tablet (search for “Dynamics 365 for Customer Engagement” to find the app). You may need to check with the person who manages your system day-to-day, to make sure you have the security permissions required to use the app. To learn more, see [Get Dynamics 365 for Customer Engagement mobile](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md). You can also do your work from within [!INCLUDE[pn_outlook_short](../includes/pn-outlook-short.md)], if you want. Check with your system administrator for details, or see [Dynamics 365 for Customer Engagement App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).
+Download the app from the online store for your phone or tablet (search for “Dynamics 365 for Customer Engagement” to find the app). You may need to check with the person who manages your system day-to-day, to make sure you have the security permissions required to use the app. To learn more, see [Get started with Dynamics 365 for phones](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md). You can also do your work from within [!INCLUDE[pn_outlook_short](../includes/pn-outlook-short.md)], if you want. Check with your system administrator for details, or see [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).
 
 ## Get valuable learning even if your system has been customized
 Even if your system has been customized to match your business (and you use different names or your screens look different), you’ll still find these basics useful, because we only included tasks that anyone using the system would do, no matter how the screens have been changed.
