@@ -24,10 +24,10 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. 
 
 ## Demonstrates  
-This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] virtual entity data provider plug-in, **DropboxRetrieveMultiplePlugin**, for the [Dropbox](https://www.dropbox.com/) file-sharing service. It uses the "bare metal" approach, translating the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> through the creation of the custom visitor class, **DropBoxExpressionVisitor**. It returns a collection of the files that satisfy the search criteria as an <xref:Microsoft.Xrm.Sdk.EntityCollection>. 
+This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps virtual entity data provider plug-in, **DropboxRetrieveMultiplePlugin**, for the [Dropbox](https://www.dropbox.com/) file-sharing service. It uses the "bare metal" approach, translating the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> through the creation of the custom visitor class, **DropBoxExpressionVisitor**. It returns a collection of the files that satisfy the search criteria as an <xref:Microsoft.Xrm.Sdk.EntityCollection>. 
 
 ## Getting started
 In order to build this sample, you must first install the [Dropbox.Api](https://www.nuget.org/packages/Dropbox.Api/) and [Microsoft.CrmSdk.Data](https://www.nuget.org/packages/Microsoft.CrmSdk.Data/) NuGet packages in your solution.  You'll also need a DropBox account and pass a real access token when creating an instance of the **DropboxClient**.

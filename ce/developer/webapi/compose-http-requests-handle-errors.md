@@ -35,7 +35,7 @@ To access the Web API you must compose a URL using the parts in the following ta
 |Part|Description|
 |--|--|
 |Protocol|The appropriate protocol, either `https://` or `http://`.|
-|Base URL|<div>This is the URL you normally use to open the web application.<ul><li>For Dynamics 365 for Customer Engagement (online): use <code class="x-hidden-focus">&lt;tenant name&gt;.crm.dynamics.com</code>.</li><li>For Internet-facing deployment (IFD): Use the appropriate URL for your instance. This will be: <code class="x-hidden-focus">&lt;organization name&gt;.&lt;domain name&gt;</code>.</li><li>For Dynamics 365 for Customer Engagement (on-premises): use <code class="x-hidden-focus">&lt;server name&gt;/&lt;organization name&gt;</code>.</li></ul></div>|
+|Base URL|<div>This is the URL you normally use to open the web application.<ul><li>For Dynamics 365 for Customer Engagement apps (online): use <code class="x-hidden-focus">&lt;tenant name&gt;.crm.dynamics.com</code>.</li><li>For Internet-facing deployment (IFD): Use the appropriate URL for your instance. This will be: <code class="x-hidden-focus">&lt;organization name&gt;.&lt;domain name&gt;</code>.</li><li>For Dynamics 365 for Customer Engagement (on-premises): use <code class="x-hidden-focus">&lt;server name&gt;/&lt;organization name&gt;</code>.</li></ul></div>|
 |Web API path|The path to the web API is `/api/data/`.|
 |Version|   The version is expressed this way: `v[Major_version].[Minor_version][PatchVersion]/`. The valid version for this release is <code class="x-hidden-focus">v9.0</code>.|
 |Resource|The name of the entity, function, or action you want to use.|
@@ -119,7 +119,7 @@ Content-Type: application/json
 
 ## Identify status codes
 
- Whether an http request succeeds or fails, the response will include a status code. Status codes returned by the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API include the following.  
+ Whether an http request succeeds or fails, the response will include a status code. Status codes returned by the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API include the following.  
 
 
 |          Code           |                                                                                                                                                                                                                                                                             Description                                                                                                                                                                                                                                                                              |     Type     |

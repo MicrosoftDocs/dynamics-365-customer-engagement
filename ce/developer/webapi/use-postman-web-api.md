@@ -23,9 +23,9 @@ search.app:
 
 # Use Postman with Web API
 
-There are number of third-party request composer tools that allow you to authenticate to [!INCLUDE[](../../includes/pn-dyn-365.md)] instances, compose Web API requests, send them, and view responses. Postman is one of the most popular.
+There are number of third-party request composer tools that allow you to authenticate to [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement apps instances, compose Web API requests, send them, and view responses. Postman is one of the most popular.
 
-Use Postman to try ad-hoc queries or verify the behavior of operations without writing a program. This section covers information on how to configure a Postman environment that connects to your [!INCLUDE[](../../includes/pn-dyn-365.md)] instance and use Postman to perform operations with Web API.
+Use Postman to try ad-hoc queries or verify the behavior of operations without writing a program. This section covers information on how to configure a Postman environment that connects to your [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement apps instance and use Postman to perform operations with Web API.
 
 Postman offers many other capabilities beyond those covered in this content. More information: [First 5 things to try if you’re new to Postman](http://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/)
 

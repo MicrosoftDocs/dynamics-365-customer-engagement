@@ -236,7 +236,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/RelationshipDefinitions(420245f
 ### See also
 
  [Customize entity relationship metadata](../customize-entity-relationship-metadata.md)   
- [Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md)   
+ [Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md)   
  [Query Metadata using the Web API](query-metadata-web-api.md)   
  [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)   
  [Model entites and attributes using the Web API](create-update-entity-definitions-using-web-api.md)
