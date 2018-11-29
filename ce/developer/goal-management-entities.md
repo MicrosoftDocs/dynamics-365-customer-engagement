@@ -1,5 +1,5 @@
 ---
-title: "Goal management entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Goal management entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-The *goal management* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] lets you set sales, marketing, and other business goals for your organization and measure the results against the targets. The goal management will help you motivate your work force, identify successful programs, do better planning, and grow your business.  
+The *goal management* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps lets you set sales, marketing, and other business goals for your organization and measure the results against the targets. The goal management will help you motivate your work force, identify successful programs, do better planning, and grow your business.  
   
  Goal management offers the following capabilities:  
   
@@ -57,5 +57,5 @@ The *goal management* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.
  [Metric Entity](entities/metric.md)<br />
  [RollupField Entity](entities/rollupfield.md)<br />
  [GoalRollupQuery Entity](entities/goalrollupquery.md)<br />
- [Model your business data with Dynamics 365 for Customer Engagement](model-business-data.md)<br />
+ [Model your business data with Dynamics 365 for Customer Engagement apps](model-business-data.md)<br />
  [Product Catalog Entities](product-catalog-entities.md)<br />

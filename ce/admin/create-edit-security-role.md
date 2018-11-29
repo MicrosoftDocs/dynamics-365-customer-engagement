@@ -125,7 +125,7 @@ Then, follow the directions to import the solution: [Import, update, and export 
 When you import the solution, it creates the **min prv apps use** role which you can copy (see: [Create a security role by Copy Role](#create-a-security-role-by-copy-role)). When Copying Role is complete, navigate to each tab - Core Records, Business Management, Customization, etc - and set the appropriate privileges. 
 
 > [!IMPORTANT]
-> You should try out the solution in a development environment before importing into a Production environment. 
+> You should try out the solution in a development environment before importing into a production environment. 
   
 - When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   

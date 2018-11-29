@@ -1,6 +1,6 @@
 ---
-title: "Image web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Learn about using image web resources to make images available for use in Dynamics 365 for Customer Engagement. "
+title: "Image web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn about using image web resources to make images available for use in Dynamics 365 for Customer Engagement apps. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -14,7 +14,6 @@ helpviewer_keywords:
   - "images"
   - "web resource, image"
 ms.assetid: dfa3f3e2-471e-4295-be47-ab6936189340
-caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -27,7 +26,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use image web resources to make images available for use in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Use image web resources to make images available for use in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 There are 5 types of image web resources: 
 * PNG Format
@@ -65,7 +64,7 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
 ```  
   
 <a name="BKMK_ReferenceFromForm"></a>   
-## Reference an image web resource from a Dynamics 365 for Customer Engagement form  
+## Reference an image web resource from a Dynamics 365 for Customer Engagement apps form  
   
 #### Add an image to an entity form  
   
@@ -113,7 +112,7 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
 >  Using the `$webresource:` directive adds a solution dependency that prevents the referenced image web resources from being deleted as long as they are used by another solution component.  
   
 ### See also  
- [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   
