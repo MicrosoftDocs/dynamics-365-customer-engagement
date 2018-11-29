@@ -155,7 +155,7 @@ in the browser or on mobile devices for each scenario. 
 
 | **Service**                                       | **Unified Interface app in a browser** | **Unified Interface app on mobile** | **Web client in a browser** |
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
-| Sales                                             | Sales Hub                                      | Sales Hub                           | -                       |
+| Sales                                             | Sales Hub                                      | Sales Hub                           | –                       |
 | Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
 | Customer Service – Case management scenarios      | Customer Service Hub                   | Customer Service Hub                | –                           |
 
