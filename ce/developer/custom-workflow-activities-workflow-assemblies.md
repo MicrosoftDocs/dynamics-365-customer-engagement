@@ -1,5 +1,5 @@
 ---
-title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about registration and execution of custom workflow activities in addition to the out-of-box activities provided by Windows Workflow Foundation. You can write custom workflow activities in Microsoft Visual C# or Visual Basic .NET code by creating an assembly that contains one or more classes derived from the Windows Workflow FoundationCodeActivity class."
 ms.custom: ""
 ms.date: 09/12/2018
@@ -23,14 +23,14 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports the registration and execution of custom workflow activities in addition to the out-of-box activities provided by [Windows Workflow Foundation](https://msdn.microsoft.com/netframework/aa663328.aspx). [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] includes an [activity library](https://msdn.microsoft.com/library/dd489459.aspx) that provides activities for control flow, sending and receiving messages, doing work in parallel, and more. However, to build applications that satisfy your business needs, you may need activities that perform tasks specific to that application. To make this possible, [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] supports the creation of custom workflow activities.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support the registration and execution of custom workflow activities in addition to the out-of-box activities provided by [Windows Workflow Foundation](https://msdn.microsoft.com/netframework/aa663328.aspx). [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] includes an [activity library](https://msdn.microsoft.com/library/dd489459.aspx) that provides activities for control flow, sending and receiving messages, doing work in parallel, and more. However, to build applications that satisfy your business needs, you may need activities that perform tasks specific to that application. To make this possible, [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] supports the creation of custom workflow activities.  
   
- You can write custom workflow activities in [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)] code by creating an assembly that contains one or more classes derived from the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] <xref:System.Activities.CodeActivity> class. This assembly is annotated with .NET attributes to provide the metadata that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses at runtime to link your code to the workflow engine.  
+ You can write custom workflow activities in [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)] code by creating an assembly that contains one or more classes derived from the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] <xref:System.Activities.CodeActivity> class. This assembly is annotated with .NET attributes to provide the metadata that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps uses at runtime to link your code to the workflow engine.  
   
- After you have created an assembly that contains one or more custom workflow activities, you register this assembly with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. This process is similar to registering a plug-in. The custom workflow activity can then be incorporated into a workflow or dialog in the `Process` form in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+ After you have created an assembly that contains one or more custom workflow activities, you register this assembly with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. This process is similar to registering a plug-in. The custom workflow activity can then be incorporated into a workflow or dialog in the `Process` form in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 > [!NOTE]
-> [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] only supports sandbox (partial trust) execution of custom workflow activities. On-premises [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] supports execution of custom workflow activities in partial or full trust.  
+> [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] only supports sandbox (partial trust) execution of custom workflow activities. On-premises [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support execution of custom workflow activities in partial or full trust.  
   
 ## In This Section  
  [Creating a Custom Workflow Activity](workflow/create-custom-workflow-activity.md)  
@@ -45,7 +45,7 @@ search.app:
   
  [Updating or Upgrading Custom Workflow Activity: Assembly Versioning](workflow/update-custom-workflow-activity-using-assembly-versioning.md)  
   
- [Process Classes, Attributes, and Dynamics 365 for Customer Engagement Types](workflow/process-classes-attributes-and-types.md)  
+ [Process Classes, Attributes, and Dynamics 365 for Customer Engagement apps Type](workflow/process-classes-attributes-and-types.md)  
   
  [Sample: Create a custom workflow activity](workflow/sample-create-custom-workflow-activity.md)  
   
@@ -56,6 +56,6 @@ search.app:
 ## Related Sections  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)  
   
- [Write Plug-Ins for Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)  
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)  
   
  [Plug-in Isolation, Trusts, and Statistics](plugin-isolation-trusts-statistics.md)
