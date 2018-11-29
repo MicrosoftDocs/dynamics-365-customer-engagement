@@ -23,10 +23,10 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement Web API and C#.  
+This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps Web API and C#.  
 
 > [!NOTE]
->  This sample implements the Dynamics 365 for Customer Engagement operations and console output detailed in [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
+>  This sample implements the Dynamics 365 for Customer Engagement apps operations and console output detailed in [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_Prereqs"></a>   
 ## Prerequisites  
@@ -515,7 +515,7 @@ namespace Microsoft.Crm.Sdk.Samples
 ```  
 
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)

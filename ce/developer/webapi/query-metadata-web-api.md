@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement is a metadata-driven application, developers may need to query the system metadata at run-time to adapt to how an organization has been configured. This capability uses a RESTful query style.
+Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps is a metadata-driven application, developers may need to query the system metadata at run-time to adapt to how an organization has been configured. This capability uses a RESTful query style.
 
 > [!NOTE]
 > You can also construct a query using an object-based style using the <xref href="Microsoft.Dynamics.CRM.EntityQueryExpression?text=EntityQueryExpression ComplexType" /> with the <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" />. This function allows for capturing changes to metadata between two periods of time as well as returning a limited set of metadata defined by a query you specify.
@@ -345,7 +345,7 @@ You can use the `GlobalOptionSetDefinitions` entity set path to retrieve informa
 
 ### See also
 
-[Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md)<br />
+[Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md)<br />
 [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)<br />
 [Metadata entites and attributes using the Web API](create-update-entity-definitions-using-web-api.md)<br />
 [Metadata entity relationships using the Web API](create-update-entity-relationships-using-web-api.md)

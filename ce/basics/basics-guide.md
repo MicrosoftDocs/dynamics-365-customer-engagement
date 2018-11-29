@@ -59,7 +59,7 @@ features, data, or even fields on screens, depending on your role.
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
 
 ## What to read next
- - [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md)
+ - [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md)
 
  - [Find your business apps](../basics/where-find-business-apps.md)
 

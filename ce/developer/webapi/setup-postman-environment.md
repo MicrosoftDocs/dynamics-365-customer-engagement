@@ -23,7 +23,7 @@ search.app:
 
 # Setup a Postman environment
 
-You can use Postman to connect to your [!INCLUDE[](../../includes/pn-dyn-365.md)] instance, compose Web API requests, send them, and view responses. Managing authentication is part that challenges many people. Use this information configure a Postman environment to work for both Online and On-premise environments.
+You can use Postman to connect to your [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement apps instance, compose Web API requests, send them, and view responses. Managing authentication is part that challenges many people. Use this information configure a Postman environment to work for both Online and On-premise environments.
 
 You can use a Postman environment to save a set of variables that you will use to connect. These values can be accessed within postman using this syntax: `{{name}}`. [!INCLUDE[](../../includes/sdk-for-more-info-about.md)] Postman variables, see [Postman Documentation > Variables](https://www.getpostman.com/docs/v6/postman/environments_and_globals/variables).
 
@@ -42,11 +42,11 @@ Select the connection option that works for your environment:
 ## Connect with an Online environment
 
 > [!NOTE]
-> This environment uses a Client ID for an application that is registered for all Dynamics 365 for Customer Engagement online environments. For your own applications you must register you’re an application using the steps described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).
+> This environment uses a Client ID for an application that is registered for all Dynamics 365 for Customer Engagement apps online environments. For your own applications you must register you’re an application using the steps described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).
 
 
 
-Use these steps to create a Postman environment that you can use to connect with your Dynamics 365 for Customer Engagement(online) instance.
+Use these steps to create a Postman environment that you can use to connect with your Dynamics 365 for Customer Engagement apps (online) instance.
 
 1. Launch the Postman desktop application.
 1. Click on the **Environment Options** gear icon in top-right corner. 
@@ -66,7 +66,7 @@ Use these steps to create a Postman environment that you can use to connect with
 
 ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
 
-1. Replace the instance URL placeholder value with the URL of your Dynamics 365 for Customer Engagement instance and click **Add** to save the environment.
+1. Replace the instance URL placeholder value with the URL of your Dynamics 365 for Customer Engagement apps instance and click **Add** to save the environment.
 
 1. Close the **Manage environments** dialog.  
 
@@ -85,7 +85,7 @@ To connect using **OAuth 2.0**, you must have an access token. Use the following
     ![Get new Access Token](../media/postman-access-token.png "Get new Access Token")<br>
 
 > [!NOTE]
-> If you are configuring environments in Postman for multiple Dynamics 365 for Customer Engagement instances using different user credentials, you may need to delete the cookies cached by Postman. Click on **Cookies** link, that can be found under the **Send** button and remove the saved cookies from the **Manage Cookies** dialog box.<br>![Remove Cookies](../media/postman-cookies.png "Remove Cookies")<br>
+> If you are configuring environments in Postman for multiple Dynamics 365 for Customer Engagement apps instances using different user credentials, you may need to delete the cookies cached by Postman. Click on **Cookies** link, that can be found under the **Send** button and remove the saved cookies from the **Manage Cookies** dialog box.<br>![Remove Cookies](../media/postman-cookies.png "Remove Cookies")<br>
 > Some of these cookies are very persistent. You can delete some of them in groups, but others may have to be deleted individually. You may need to do this twice to ensure that no cookies remain.
 
 1. Click **Request Token**. When you do this an Azure Active Directory login page will appear. Enter your username and password.
@@ -112,7 +112,7 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 
 ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman environment to connect with On-premise instance")
 
-5. Replace the instance URL placeholder value with your Dynamics 365 for Customer Engagement instance URL and click **Add** to save the environment.
+5. Replace the instance URL placeholder value with your Dynamics 365 for Customer Engagement apps instance URL and click **Add** to save the environment.
 6. Close the **Manage environments** dialog.
 
 ### Set Credentials
@@ -133,7 +133,7 @@ See the steps below to test your connection.
 
 ## Test your connection
 
-Follow the given steps to create a new Web API request to test connection with your Dynamics 365 for Customer Engagement instance with a simple request using <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI function" />.
+Follow the given steps to create a new Web API request to test connection with your Dynamics 365 for Customer Engagement apps instance with a simple request using <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI function" />.
 1. Select `GET` as the HTTP method and add `{{webapiurl}}WhoAmI` in the editing space.
 ![WhoAmI function request](../media/postman-whoami-request.png "WhoAmI function request")
 2. Click on **Send** to send this request.
@@ -142,5 +142,5 @@ Follow the given steps to create a new Web API request to test connection with y
 ## See Also
 
 [Use Postman to perform operations](use-postman-perform-operations.md)<br>
-[Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
+[Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)<br>
 [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md)
