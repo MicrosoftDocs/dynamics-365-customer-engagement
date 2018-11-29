@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement for Outlook failure recovery | MicrosoftDocs"
+title: "Microsoft Dynamics 365 for Outlook failure recovery | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Microsoft Dynamics 365 for Customer Engagement for Outlook failure recovery
+# Microsoft Dynamics 365 for Outlook failure recovery
 [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] with “Go offline” capability uses [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] for local data storage on the user’s computer. This enables [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users to work offline and later synchronize local data with [!INCLUDE[pn_SQL_Server_short](../../includes/pn-sql-server-short.md)] (on-premises) or [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is brought online again.  
 
  In some cases, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users may want to back up the local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] database. This is especially useful when [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users are offline for prolonged periods. The following table indicates different methods that can be used for backing up the SQL database used with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  

@@ -26,7 +26,7 @@ search.app:
 By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and Outlook for Dynamics 365 for Customer Engagement is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 for Customer Engagement admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  
   
 > [!NOTE]
->  Users should have the latest [Dynamics 365 for Customer Engagement for Outlook](http://go.microsoft.com/fwlink/?LinkID=690396) installed.  
+>  Users should have the latest [Dynamics 365 for Outlook](http://go.microsoft.com/fwlink/?LinkID=690396) installed.  
   
  This topic covers the highlighted settings below.  
   
@@ -47,7 +47,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
    **Considerations**  
   
--   When you disable attachment synchronization, the attachments will not appear in appointments in Dynamics 365 for Customer Engagement but will remain in Dynamics 365 for Customer Engagement for Outlook appointments.  
+-   When you disable attachment synchronization, the attachments will not appear in appointments in Dynamics 365 for Customer Engagement but will remain in Dynamics 365 for Outlook appointments.  
   
 -   Recurring appointment attachment synchronization is not supported. When users synchronize recurring appointments with attachments, the attachments do not synch.  
   

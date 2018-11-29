@@ -1,5 +1,5 @@
 ---
-title: "Choose records to work with offline in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Choose records to work with offline in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Choose records to work with offline in Dynamics 365 for Customer Engagement for Outlook
+# Choose records to work with offline in Dynamics 365 for Outlook
 Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data to take with you when you go offline with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] by using offline synchronization filters. By default, these filters copy the appointments, contacts, and tasks records you own to your local drive. You might want to modify the filters to take a smaller subset of data with you or to synchronize particular records. For example, you might want to synchronize all reports since reports you don’t own wouldn’t normally be synchronized.  
   
  You can modify the existing filters or create new filters. You can also delete, deactivate, or activate filters. You can reset the filters every time you go offline.  
@@ -45,7 +45,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
        -   In the **Set Personal Options** dialog box, choose the **Synchronize** tab.  
   
-   -   In Dynamics 365 for Customer Engagement for Outlook:  
+   -   In Dynamics 365 for Outlook:  
   
        -   On the **File** menu, choose **Dynamics 365 for Customer Engagement**.  
   
@@ -55,7 +55,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
     [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] displays the **Go Offline Settings** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
   
-    ![Go offline settings in Dynamics 365 for Customer Engagement for Outlook](../media/crmforoutlook-offline-sync-filters.png "Go offline settings in Dynamics 365 for Customer Engagement for Outlook")  
+    ![Go offline settings in Dynamics 365 for Outlook](../media/crmforoutlook-offline-sync-filters.png "Go offline settings in Dynamics 365 for Outlook")  
   
    > [!NOTE]
    >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  

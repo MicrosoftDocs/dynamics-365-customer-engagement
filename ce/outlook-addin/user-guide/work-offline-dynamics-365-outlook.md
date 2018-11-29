@@ -1,5 +1,5 @@
 ---
-title: "Work offline with Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Work offline with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/17/2018
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Work offline with Dynamics 365 for Customer Engagement for Outlook
+# Work offline with Dynamics 365 for Outlook
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to access your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data when you’re on the go. For example, if you travel to a customer’s site, you can look up your Dynamics 365 for Customer Engagement contacts, review and add new notes, and more without connecting to the Internet.  
   
  When you go offline with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the software copies a subset of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data to your computer’s hard drive. Changes you make while you’re offline are stored locally. When you connect to the server again, the changes are automatically synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server.  
@@ -40,7 +40,7 @@ The following operating systems are supported for offline mode.
   
 <a name="BeforeYouGoOffline"></a>   
 ## Before you go offline  
- [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Customer Engagement for Outlook](choose-records-work-offline.md)  
+ [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
   
 > [!TIP]
 >  The first time you go offline, it can take a significant amount of time to synchronize your local data with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server if you have a lot of data. For example, in customer service situations, a parent case may have thousands of child cases. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] isn’t available when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is synchronizing. You can shorten the time by using the offline synchronization filters to limit the amount of synchronized data.  
@@ -149,4 +149,4 @@ The following operating systems are supported for offline mode.
 - **Adding a related record type using the Add  button (+).** If you’re offline, you can’t add a related record type by using the **Add** button (+). Add the related record type while you’re online, and then go offline.  
   
 ### See also  
- [Set up Dynamics 365 for Customer Engagement for Outlook](set-up.md)   
+ [Set up Dynamics 365 for Outlook](set-up.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Track Outlook tasks in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Track Outlook tasks in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Track Outlook tasks in Dynamics 365 for Customer Engagement for Outlook
+# Track Outlook tasks in Dynamics 365 for Outlook
 When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], a copy of the task record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. You can then work on the task in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your task records on that device.  
   
  Tracking tasks in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal tasks separate from your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] tasks. Synchronization of tasks from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is automatic, however. You can use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to view any task records you own that were created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
@@ -172,5 +172,5 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
     2.  On the **Task** tab, in the **Show** group, click **Details**, and then review the names in the **Update list** box.  
   
 ### See also  
- [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
