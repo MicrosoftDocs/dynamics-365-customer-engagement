@@ -1,7 +1,9 @@
 ---
 title: "Fulfillment preferences in Universal Resource Scheduling for Dynamics 365 | MicrosoftDocs"
 ms.custom: 
+  - dyn365-projectservice
   - dyn365-fieldservice
+  - dyn365-customerservice
 ms.date: 11/29/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
