@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Dynamics 365 for Customer Engagement Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
+Dynamics 365 for Customer Engagement apps Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
 ## Detect duplicate during Create operation
 
@@ -40,7 +40,7 @@ Use `MSCRM.SuppressDuplicateDetection` header during `POST` request, to detect c
 Use preference header `MSCRM.SuppressDuplicateDetection` and set its value to `false` in the Web API request.
 
 > [!NOTE]
->  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 for Customer Engagement includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
+>  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 for Customer Engagement apps includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 
 <a name="bkmk_create"></a>
 ###  Example: Detect duplicates during Create operation using the Web API

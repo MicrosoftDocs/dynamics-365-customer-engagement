@@ -27,11 +27,11 @@ search.app:
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../includes/cc-under-construction.md)]
 
-In HTML web resources, form scripts, or ribbon commands you can use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] to perform operations on [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement data using the Web API introduced with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].
+In HTML web resources, form scripts, or ribbon commands you can use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] to perform operations on [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps data using the Web API introduced with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.
 
-If you are using the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)], use the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods to use Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] and web resources. 
+If you are using the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)] apps, use the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods to use Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] and web resources. 
 
-If you are using an earlier version of Dynamics 365 for Customer Engagement, follow instruction available at [Get started with the Microsoft Dynamics 365 for Customer Engagement Web API (client-side JavaScript)](https://msdn.microsoft.com/library/gg334279.aspx)  
+If you are using an earlier version of Dynamics 365 for Customer Engagement, follow instruction available at [Get started with the Microsoft Dynamics 365 for Customer Engagement apps Web API (client-side JavaScript)](https://msdn.microsoft.com/library/gg334279.aspx)  
   
 <!--
 
@@ -517,7 +517,7 @@ MyNameSpace.WebAPI = MyNameSpace.WebAPI || {};
 -->  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
- [Work with Dynamics 365 for Customer Engagement data using web resources](../work-data-using-web-resources.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Work with Dynamics 365 for Customer Engagement apps data using web resources](../work-data-using-web-resources.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)    
- [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)
+ [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)

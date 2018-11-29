@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This group of  samples demonstrate how to query data using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API. This sample is implemented as a separate project for the following languages:
+This group of  samples demonstrate how to query data using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API. This sample is implemented as a separate project for the following languages:
 
 - [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)
 
@@ -2195,7 +2195,7 @@ Saved User Query:
 ```  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   
  [Retrieve and execute predefined queries](retrieve-and-execute-predefined-queries.md)   
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)   

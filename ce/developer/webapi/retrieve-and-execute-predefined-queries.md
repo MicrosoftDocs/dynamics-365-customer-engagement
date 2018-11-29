@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
 
 <a name="bkmk_predefinedQueries"></a>
 
 ## Predefined queries
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] allows you to define, save, and execute two types of queries as listed here.
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps allows you to define, save, and execute two types of queries as listed here.
 
 
 |   Query type    |                                                                                                                                                 Description                                                                                                                                                  |

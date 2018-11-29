@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
+This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API.  
 
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Functions and Actions Sample](web-api-functions-actions-sample.md) and uses the common client-side C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
@@ -32,7 +32,7 @@ This sample demonstrates how to call bound and unbound functions and actions, in
 
 ## Prerequisites
 
- Prerequisites for all Dynamics 365 for Customer Engagement Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
+ Prerequisites for all Dynamics 365 for Customer Engagement apps Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_runSample"></a>
 
@@ -44,8 +44,8 @@ This sample demonstrates how to call bound and unbound functions and actions, in
 |                                                 File                                                 |                                                                                                    Purpose/Description                                                                                                    |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                              Program.cs                                              |                                                                                     Contains the primary source code for this sample.                                                                                     |
-|                                              App.config                                              |                                                        The application configuration file, which contains placeholder Dynamics 365 for Customer Engagement server connection information.                                                         |
-|                      Authentication.cs<br />Configuration.cs<br />Exceptions.cs                      | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+|                                              App.config                                              |                                                        The application configuration file, which contains placeholder Dynamics 365 for Customer Engagement apps server connection information.                                                         |
+|                      Authentication.cs<br />Configuration.cs<br />Exceptions.cs                      | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
 | FunctionsAndActions.sln <br />FunctionsAndActions.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
 |                            WebAPIFunctionsandActions_1_0_0_0_managed.zip                             |                                                                      A custom managed solution containing two custom actions called by this sample.                                                                       |
 
@@ -53,7 +53,7 @@ This sample demonstrates how to call bound and unbound functions and actions, in
 
 1. Locate and double-click on the solution file, FunctionsAndActions.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **FunctionsAndActions** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
 
-2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 for Customer Engagement server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 for Customer Engagement apps server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
 
 3. Run the **FunctionsAndActions** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
 
@@ -685,7 +685,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
 ### See also
 
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Samples](web-api-samples.md)   

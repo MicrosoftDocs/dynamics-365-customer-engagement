@@ -23,11 +23,11 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This group of samples demonstrate how to perform operations that are conditionally based upon the version of the entity record contained on the Dynamics 365 for Customer Engagement server and/or currently maintained by the client. For more information, see [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md). This sample is implemented as a separate project for the following languages:  
+This group of samples demonstrate how to perform operations that are conditionally based upon the version of the entity record contained on the Dynamics 365 for Customer Engagement apps server and/or currently maintained by the client. For more information, see [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md). This sample is implemented as a separate project for the following languages:  
 
  [Web API Conditional Operations Sample (C#)](web-api-conditional-operations-sample-csharp.md)  
 
- The Dynamics 365 for Customer Engagement Web API follows the conventions of the [OData v4.0](http://www.odata.org/documentation/) protocol, which uses [ETags](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752236) to implement resource version control. Web API conditional operations depend upon this versioning  mechanism.  
+ The Dynamics 365 for Customer Engagement apps Web API follows the conventions of the [OData v4.0](http://www.odata.org/documentation/) protocol, which uses [ETags](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752236) to implement resource version control. Web API conditional operations depend upon this versioning  mechanism.  
 
  This topic explains the structure and content of the samples at a higher, language-neutral level. It details the HTTP requests and responses, and the associated program output, where applicable. Review the linked sample topics above to obtain language-specific implementations and related details about how to perform the operations described in this topic.  
 
@@ -488,6 +488,6 @@ This group of samples demonstrate how to perform operations that are conditional
 
 ### See also
 
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   
  [Web API Conditional Operations Sample (C#)](web-api-conditional-operations-sample-csharp.md)   

@@ -23,14 +23,14 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with C#.  
+This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API with C#.  
 
 > [!NOTE]
->  This sample implements the Dynamics 365 for Customer Engagement operations and console output detailed in [Web API Query Data Sample](web-api-query-data-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
+>  This sample implements the Dynamics 365 for Customer Engagement apps operations and console output detailed in [Web API Query Data Sample](web-api-query-data-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_prerequisites"></a>   
 ## Prerequisites  
- Prerequisites for all Dynamics 365 for Customer Engagement Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
+ Prerequisites for all Dynamics 365 for Customer Engagement apps Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
 
 <a name="bkmk_runSample"></a>   
 ## Run this sample  
@@ -40,15 +40,15 @@ This sample demonstrates how to perform basic query requests using the [!INCLUDE
 |                                       File                                       |                                                                                                    Purpose/Description                                                                                                    |
 |----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                    Program.cs                                    |                                                                                     Contains the primary source code for this sample.                                                                                     |
-|                                    App.config                                    |                                                        The application configuration file, which contains placeholder Dynamics 365 for Customer Engagement server connection information.                                                         |
-|            Authentication.cs<br />Configuration.cs<br />Exceptions.cs            | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+|                                    App.config                                    |                                                        The application configuration file, which contains placeholder Dynamics 365 for Customer Engagement apps server connection information.                                                         |
+|            Authentication.cs<br />Configuration.cs<br />Exceptions.cs            | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
 | QueryData.sln <br />QueryData.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
 
  Next, use the following procedure to run this sample.  
 
 1. Locate and double-click on the solution file, QueryData.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **QueryData** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
 
-2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 for Customer Engagement server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 for Customer Engagement apps server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
 
 3. Run the **QueryData** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
 
@@ -881,7 +881,7 @@ namespace Microsoft.Crm.Sdk.Samples
 ```  
 
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Query Data Sample](web-api-query-data-sample.md)   
