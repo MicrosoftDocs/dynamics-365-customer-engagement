@@ -10,11 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
   - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "shubhadaj"
+author: "anjgupta"
 ms.assetid: 926c05fe-4499-4f5b-ab0c-39d29589f094
 caps.latest.revision: 29
-ms.author: "shujoshi"
-manager: "sakudes"
+ms.author: "anjgup"
+manager: "shujoshi"
 search.audienceType: 
   - admin
 search.app: 
