@@ -1,5 +1,5 @@
 ---
-title: "Sample: Web resource utility (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Web resource utility (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample demonstrates creating and updating Web Resources. The Web Resource Utility code demonstrates several applications of the Dynamics 365 for Customer Engagement (online) APIs: Managing connectionsa and Retrieving data about solutions. "
 ms.custom: ""
 ms.date: 10/31/2017
