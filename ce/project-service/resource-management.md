@@ -43,10 +43,9 @@ You can staff your project with a team of generic or named resources in Project 
 
 - [Assign named bookable resources to a task and project team](assign-named-bookable-resource.md)
 - [Assign generic bookable resources to a task and project team](assign-generic-bookable-resource.md)
-- [Book a named resource directly](book-named-resource.md)
+- [Book named resources](book-named-resource.md)
+- [Submit a resource request](submit-resource-request.md)
 - [Accept or reject a proposed project resource](accept-reject-proposed-resource.md)
-- [Fulfill a generic resource with multiple named resources](assign-multiple-named-resources-generic.md)
-
 
 
 
