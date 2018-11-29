@@ -31,7 +31,7 @@ On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 
 > [!TIP]
 > Many update questions are answered here: [FAQ for Dynamics 365 for Customer Engagement Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy).
 
-You have options for when you update your Dynamics 365 for Customer Engagement Online organization to Dynamics 365 for Customer Engagement (online), version 9.x. To prepare for a smooth process, use the information in this topic.
+You have options for when you update your Dynamics 365 for Customer Engagement (online) organization to Dynamics 365 for Customer Engagement (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
 

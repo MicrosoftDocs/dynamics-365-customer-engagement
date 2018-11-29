@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
+You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-Production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
  Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Professional user license subscription.  
   
@@ -54,7 +54,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 - **Country/Region**. You can specify a region for the instance.  
   
   > [!NOTE]
-  >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (production and non-production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+  >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 - **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application, only the base currency will be used for reporting.  
   
@@ -69,7 +69,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 1. Sign in to the [Office 365 admin center](https://portal.office.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
-2. Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
+2. Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement (online) Additional Non-Production Instance** or **Microsoft Dynamics 365 for Customer Engagement (online) Additional Production Instance**, and then click **Buy now**.  
   
 3. Proceed through the screens to purchase additional instances.  
   

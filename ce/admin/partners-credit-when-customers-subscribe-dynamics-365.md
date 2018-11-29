@@ -1,5 +1,5 @@
 ---
-title: "For partners -- Get the credit when your customers subscribe to Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "For partners: Get the credit when your customers subscribe to Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# For partners -- Get the credit when your customers subscribe
+# For partners: Get the credit when your customers subscribe
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

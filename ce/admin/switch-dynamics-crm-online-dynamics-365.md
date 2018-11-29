@@ -201,7 +201,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-crm-sho
 
    ![Dynamics 365 for Customer Engagement Enterprise Plan settings](../admin/media/dynamics-365-enterprise-plan-settings.png "Dynamics 365 for Customer Engagement Enterprise Plan settings")  
 
-7. In your cart, click **Add-ons** to add Add-ons like an additional non-production instance or more storage.  
+7. In your cart, click **Add-ons** to add Add-ons like an additional non-Production instance or more storage.  
 
    ![Click Add-on in your cart](../admin/media/click-add-on-your-cart.png "Click Add-on in your cart")  
 

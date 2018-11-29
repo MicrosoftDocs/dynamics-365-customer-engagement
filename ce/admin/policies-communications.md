@@ -72,7 +72,7 @@ The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] te
 > [!NOTE]
 > For information about minor service updates, see [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).
   
- Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin - please review the important note below outlining the Dynamics 365 for Customer Engagement online update policy. This helps you to plan well in advance for your upgrade path, while using your sandbox organization to properly test and evaluate the service updates with your existing production code.  
+ Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin - please review the important note below outlining the Dynamics 365 for Customer Engagement online update policy. This helps you to plan well in advance for your upgrade path, while using your Sandbox organization to properly test and evaluate the service updates with your existing production code.  
   
 > [!IMPORTANT]
 >  Be sure to check out [Update policy](../admin/manage-updates.md#BKMK_Policy) for important information about updating to the latest version.  

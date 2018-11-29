@@ -34,7 +34,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
 You can set the values of datetime fields to automatically move forward by a specified duration. This allows you to keep your demo data recent without the need to make manual updates. It will also work when using Configuration Migration Utility files with the Dynamics 365 for Customer Engagement Package Deployer tool. 
 
 > [!NOTE]
-> This option is to keep data recent in your demo environments. It is not intended for production use. 
+> This option is to keep data recent in your demo environments. It is not intended for Production use. 
 
 1. Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   

@@ -228,7 +228,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
  No. Trials are free for 30 days.  
   
 ### Can I create a trial in the Australia datacenter before general availability?  
- No. You can’t create a trial or move a production instance before general availability.  
+ No. You can’t create a trial or move a Production instance before general availability.  
   
 ### See also  
  [Office 365 and Dynamics CRM Online now available from datacenters in Australia](https://blogs.office.com/2015/03/30/office-365-and-dynamics-crm-online-now-available-from-datacenters-in-australia/)    

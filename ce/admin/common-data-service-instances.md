@@ -36,7 +36,7 @@ The Common Data Service allows you to securely store and manage data used in you
 
 ## Manage Common Data Service instances
 
-Currently, Common Data Service instances are available as trial and production types. What management actions are available depends on which admin center you use.
+Currently, Common Data Service instances are available as trial and Production types. What management actions are available depends on which admin center you use.
 
 ### Management in the Dynamics 365 admin center  
 

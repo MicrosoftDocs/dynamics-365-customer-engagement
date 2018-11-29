@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
+A Sandbox instance is any non-Production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
   
 > [!NOTE]
 > With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 for Customer Engagement Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
@@ -66,7 +66,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
  **An example scenario**  
   
- Thomas is looking at the storage consumed by the various Contoso instances and is getting concerned that they’ll run out of space in one of their production instances.  He’d like to free up some space so he can give the production instance some additional storage.  He’s also been notified that the Legal department has set a retention policy on the use of production data in the test environment.  
+ Thomas is looking at the storage consumed by the various Contoso instances and is getting concerned that they’ll run out of space in one of their Production instances.  He’d like to free up some space so he can give the Production instance some additional storage.  He’s also been notified that the Legal department has set a retention policy on the use of production data in the test environment.  
   
  After contacting Isaac, Thomas resets the Sales department’s complete Sandbox instance. The instance is re-provisioned to factory settings and ready for future use as a Sandbox instance for a future project.  
   
