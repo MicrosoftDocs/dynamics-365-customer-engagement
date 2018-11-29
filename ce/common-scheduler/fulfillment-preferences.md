@@ -61,9 +61,9 @@ Below find instructions to set up intervals and time groups, and finally how to 
 
 To set up intervals, you need to: 
 
-1. Create a fulfillment prefence
-2. Associate the fulfillment preference to a requirement
-3. Book the requirement with the schedule assistan
+- Create a fulfillment prefence
+- Associate the fulfillment preference to a requirement
+- Book the requirement with the schedule assistan
 
 ### Create a fulfillment preference
 
@@ -116,9 +116,9 @@ For field service examples where resources perform multiple appointments each da
 
 To set up time groups, you need to: 
 
-1. Add time group details to a new fulfillment preference
-2. Specify fulfillment preference on the resource requirement
-3. Book the requirement with the schedule assistant
+- Add time group details to a new fulfillment preference
+- Specify fulfillment preference on the resource requirement
+- Book the requirement with the schedule assistant
 
 ### Add time group details to a new fulfillment preference
 
