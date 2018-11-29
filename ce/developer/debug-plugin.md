@@ -1,5 +1,5 @@
 ---
-title: "Debug a plug-In (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Debug a plug-In (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about debuggin a plug-in by logging and tracing."
 keywords: ""
 ms.date: 01/19/2018
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To debug a plug-in that executes in the sandbox on [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement, you must be using tracing as described later in this topic.  
+The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps. To debug a plug-in that executes in the sandbox on [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, you must be using tracing as described later in this topic.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 <a name="bkmk_debugaplugin"></a>   
@@ -35,11 +35,11 @@ The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_cr
   
 1. Register and deploy the plug-in assembly.  
   
-    If there is another copy of the assembly at the same location and you cannot overwrite that copy because it is locked by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you must restart the service process that was executing the plug-in. Refer to the table below for the correct service process. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
+    If there is another copy of the assembly at the same location and you cannot overwrite that copy because it is locked by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you must restart the service process that was executing the plug-in. Refer to the table below for the correct service process. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
 2. Configure the debugger.  
   
-    Attach the debugger to the process on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server that will run your plug-in. Refer to the following table to identify the process.  
+    Attach the debugger to the process on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server that will run your plug-in. Refer to the following table to identify the process.  
   
    |Plug-in Registration Configuration|Service Process|  
    |-----------------------------------------|---------------------|  
@@ -60,7 +60,7 @@ The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_cr
   
 5. Register the plug-in in the database.  
   
-    After the edit/compile/deploy/test/debug cycle for your plug-in has been completed, unregister the (on-disk) plug-in assembly and then reregister the plug-in in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
+    After the edit/compile/deploy/test/debug cycle for your plug-in has been completed, unregister the (on-disk) plug-in assembly and then reregister the plug-in in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
 > [!TIP]
 >  It is possible to debug a database deployed plug-in. The compiled plug-in assembly's symbol file (.pdb) must be copied to the server's \<*crm-root*>\Server\bin\assembly folder and [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] must then be restarted. After debugging has been completed, you must remove the symbol file and reset IIS to prevent the process that was executing the plug-in from consuming additional memory.  
@@ -69,7 +69,7 @@ The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_cr
   
 <a name="bkmk_sandboxplugin"></a>   
 ## Debug a sandboxed plug-in  
- It is important to perform these steps before the first execution of a sandboxed plug-in. If the plug-in has already been executed, either change the code of the assembly, causing the hash of the assembly to change on the server, or restart the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Sandbox Processing Service on the sandbox server.  
+ It is important to perform these steps before the first execution of a sandboxed plug-in. If the plug-in has already been executed, either change the code of the assembly, causing the hash of the assembly to change on the server, or restart the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Sandbox Processing Service on the sandbox server.  
   
  **Configure the Server**  
   
@@ -95,7 +95,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
 ## Logging and tracing  
  An alternative method to troubleshoot a plug-in or custom workflow activity (custom code), compared to debugging in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], is to use tracing. Tracing assists developers by recording run-time custom information as an aid in diagnosing the cause of code failures. Tracing is especially useful to troubleshoot [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] registered custom code as it is the only supported troubleshooting method for that scenario. Tracing is supported for sandboxed (partial trust) and full trust registered custom code and during synchronous or asynchronous execution. Tracing isn’t supported for custom code that executes in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or other mobile client.  
   
- Recording of run-time tracing information for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is provided by a service named <xref:Microsoft.Xrm.Sdk.ITracingService>. Information provided to this service by custom code can be recorded in three different places as identified here.  
+ Recording of run-time tracing information for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is provided by a service named <xref:Microsoft.Xrm.Sdk.ITracingService>. Information provided to this service by custom code can be recorded in three different places as identified here.  
 
 > [!NOTE]
 > Trace logging using `ITracingService` interface works only when the Plug-in is registered in Sandbox mode.
@@ -150,10 +150,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
 
  ### Plugin trace viewer
 
-**Plugin Trace Viewer** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+**Plugin Trace Viewer** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
-> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] apps and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
   
 ### See also  
