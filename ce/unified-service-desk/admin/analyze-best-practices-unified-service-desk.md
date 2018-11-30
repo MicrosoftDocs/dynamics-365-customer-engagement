@@ -1,6 +1,6 @@
 ---
 title: "Analyze best practices in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn about the best practices analyzer, which performs analysis on the Internet Explorer settings, Unified Service Desk configurations in Dynamics 365 for Customer Engagement, and system configurations on which you install Unified Service Desk, and displays a report to review and mitigate the issues."
+description: "Learn about the best practices analyzer, which performs analysis on the Internet Explorer settings, Unified Service Desk configurations in Dynamics 365 for Customer Engagement apps, and system configurations on which you install Unified Service Desk, and displays a report to review and mitigate the issues."
 ms.custom: ""
 ms.date: 04/24/2018
 ms.service: "usd"

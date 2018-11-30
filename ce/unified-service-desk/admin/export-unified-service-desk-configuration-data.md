@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: f3d3b348-ddf7-4174-af34-9583a9f2b7e6
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -33,7 +32,7 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
   
 1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [CRM SDK download package](http://go.microsoft.com/fwlink/?LinkID=627298).  
   
-   1. Download the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
+   1. Download the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
   
    2. Download the UII SDK package (.exe), and extract it to find the USDDefaultSchema.xml file in the UII\USD Developer Assets\USD Configuration Tool Schema folder.  
   

@@ -67,7 +67,7 @@ search.app:
 
 5. In the **Connect to Microsoft Dynamics 365 for Customer Engagement apps** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
 
-   ![Dynamics 365 for Customer Engagement authentication details sign&#45;in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Dynamics 365 for Customer Engagement authentication details sign-in")  
+   ![Dynamics 365 for Customer Engagement apps authentication details sign&#45;in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Dynamics 365 for Customer Engagement apps authentication details sign-in")  
 
 6. If you have multiple organizations and chose to select the organization that you want to connect to in the previous step, the next screen displays the list of organizations. Select a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization to connect to, and proceed.  
 

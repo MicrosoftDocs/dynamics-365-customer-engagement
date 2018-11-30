@@ -35,7 +35,7 @@ Download the [Web Client – Unified Interface Migration Assistant](https://go.m
 
 ## Download Configuration Migration Tool
 
-The migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface App is a three step process:
+The migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagement apps Web Client to Unified Interface App is a three step process:
 
 - Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 - Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365 for Customer Engagement apps.
@@ -50,6 +50,6 @@ To download the tool, see [Download the tools from NuGet](/dynamics365/customer-
 
 ## See also
 
-[Migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagement Web Client to Dynamics 365 for Customer Engagement Unified Interface App](overview-migration-assistant.md)
+[Migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagement apps Web Client to Dynamics 365 for Customer Engagement apps (Unified Interface apps)](overview-migration-assistant.md)
 
-[Migration steps of the configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)
+[Migration steps of the configurations from Dynamics 365 for Customer Engagement apps Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)
