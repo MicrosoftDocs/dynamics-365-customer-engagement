@@ -17,7 +17,6 @@ applies_to:
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: 5937df93-dcbc-4024-a46c-6afbe61f4359
-caps.latest.revision: 19
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -104,7 +103,7 @@ search.app:
   
 3.  In the search results, select the article by choosing the article blurb, and do one of the following:  
   
-    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement"). You can then paste it in the chat session with customers or in the email body.  
+    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement apps"). You can then paste it in the chat session with customers or in the email body.  
   
         > [!NOTE]
         >  If you don’t see a URL when you try to paste it, it could be because the article is still in the draft state or is expired.  
@@ -113,7 +112,7 @@ search.app:
   
          An email template opens with data populated in it.  
   
-    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365 for Customer Engagement").  
+    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps").  
   
          Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement apps").  
   

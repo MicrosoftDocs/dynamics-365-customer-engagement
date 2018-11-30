@@ -17,7 +17,6 @@ applies_to:
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: bc2bed7d-daab-4c1f-97c4-fea63d6a230a
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -58,7 +57,7 @@ search.app:
   
  Here’s what you’ll see when you install the interactiveservice hub package:  
   
-- **Dashboard** tab: Opens the Dynamics 365 for Customer Engagement customer service dashboard.  
+- **Dashboard** tab: Opens the Dynamics 365 for Customer Engagement apps customer service dashboard.  
   
 - **My Work** tab: Shows a list of all active cases assigned to a service rep.  
   

@@ -21,7 +21,6 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 12
 search.audienceType: 
   - admin
 search.app: 
