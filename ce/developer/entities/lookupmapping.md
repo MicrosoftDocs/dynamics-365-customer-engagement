@@ -17,7 +17,7 @@ search.app:
 ---
 # LookUpMapping Entity Reference
 
-In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 365 for Customer Engagement.
+In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 365 for Customer Engagement apps.
 
 
 ## Messages
@@ -654,6 +654,6 @@ See systemuser Entity [lk_lookupmapping_modifiedonbehalfby](systemuser.md#BKMK_l
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.lookupmapping?text=lookupmapping EntityType" />

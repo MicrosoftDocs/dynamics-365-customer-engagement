@@ -1057,7 +1057,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the lead allows direct email sent from Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Select whether the lead allows direct email sent from Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName|Do not allow Emails|
 |IsValidForForm|True|
 |IsValidForRead|True|

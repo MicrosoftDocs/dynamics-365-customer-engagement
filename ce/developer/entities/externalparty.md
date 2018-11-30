@@ -17,7 +17,7 @@ search.app:
 ---
 # ExternalParty Entity Reference
 
-Information about external parties that need to access Dynamics 365 for Customer Engagement from external channels.For internal use only
+Information about external parties that need to access Dynamics 365 for Customer Engagement apps from external channels.For internal use only
 
 
 ## Messages
@@ -1334,6 +1334,6 @@ See transactioncurrency Entity [TransactionCurrency_ExternalParty](transactioncu
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.externalparty?text=externalparty EntityType" />

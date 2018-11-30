@@ -24,18 +24,18 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample shows you how to connect to the [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement web services using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> and perform basic create, update, retrieve, and delete operations on an entity. For more information about the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>, see [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement](use-crmserviceclient-constructors-connect.md).
+This sample shows you how to connect to the [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] web services using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> and perform basic create, update, retrieve, and delete operations on an entity. For more information about the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>, see [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
 
 ## Requirements
 
-The complete sample code can be found here [Sample: Quick start for Microsoft Dynamics 365 for Customer Engagement](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa) 
+The complete sample code can be found here [Sample: Quick start for Microsoft Dynamics 365 for Customer Engagement apps](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa) 
 
 <!--[!INCLUDE[sdk_download](../../includes/sdk-download.md)]-->
 
-You must modify the supplied app.config file with connection information for your [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server before running the sample. For more information, see the commented out example connection strings in the app.config file.  
+You must modify the supplied app.config file with connection information for your [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server before running the sample. For more information, see the commented out example connection strings in the app.config file.  
 
 ## Demonstrates
 
@@ -134,8 +134,8 @@ The following shows a sample app.config file. To use this, remove the comment ch
 [!code-csharp[QuickStartCS#SimplifiedConnection](../../snippets/csharp/CRMV8/quickstartcs/cs/simplifiedconnection.cs#simplifiedconnection)]  
 
 ### See also
-[Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](use-connection-strings-xrm-tooling-connect.md)<br />
-[Tutorials for Learning About Dynamics 365 for Customer Engagement Development](../tutorials-resources-sdk.md)<br />
+[Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](use-connection-strings-xrm-tooling-connect.md)<br />
+[Tutorials for Learning About Dynamics 365 for Customer Engagement apps Development](../tutorials-resources-sdk.md)<br />
 [Run a Simple Program Using Dynamics 365 for Customer Engagement Web Services](../simple-program-web-services.md)<br />
-[Sample: Quick Start for Dynamics 365 for Customer Engagement](../sample-quick-start.md)<br />
+[Sample: Quick Start for Dynamics 365 for Customer Engagement apps](../sample-quick-start.md)<br />
 [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)<br />

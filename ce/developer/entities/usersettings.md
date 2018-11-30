@@ -175,7 +175,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|AM designator to use in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|AM designator to use in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -252,7 +252,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information about how currency symbols are placed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information about how currency symbols are placed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |Format|None|
 |IsValidForForm|False|
@@ -268,7 +268,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for currency in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Symbol used for currency in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -305,7 +305,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information about how the date is displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information about how the date is displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |Format|None|
 |IsValidForForm|False|
@@ -337,7 +337,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Character used to separate the month, the day, and the year in dates in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Character used to separate the month, the day, and the year in dates in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -353,7 +353,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for decimal in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Symbol used for decimal in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -459,7 +459,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Order in which names are to be displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Order in which names are to be displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |Format|None|
 |IsValidForForm|False|
@@ -818,7 +818,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how negative currency numbers are displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information that specifies how negative currency numbers are displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |Format|None|
 |IsValidForForm|False|
@@ -834,7 +834,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how negative numbers are displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information that specifies how negative numbers are displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |Format|None|
 |IsValidForForm|False|
@@ -866,7 +866,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how numbers are grouped in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information that specifies how numbers are grouped in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -882,7 +882,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for number separation in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Symbol used for number separation in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -962,7 +962,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|PM designator to use in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|PM designator to use in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1008,7 +1008,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |-----|-----|
 |1|Ask me for permission to send an error report to Microsoft|
 |2|Automatically send an error report to Microsoft without asking me for permission|
-|3|Never send an error report to Microsoft about Microsoft Dynamics 365 for Customer Engagement|
+|3|Never send an error report to Microsoft about Microsoft Dynamics 365 for Customer Engagement apps|
 
 
 
@@ -1032,7 +1032,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies whether to display the week number in calendar displays in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information that specifies whether to display the week number in calendar displays in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1115,7 +1115,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how the time is displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Information that specifies how the time is displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |Format|None|
 |IsValidForForm|False|
@@ -1131,7 +1131,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Text for how time is displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Text for how time is displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1147,7 +1147,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Text for how time is displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Text for how time is displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1497,7 +1497,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement appointment form within Microsoft Office Outlook for creating new appointments.|
+|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement apps appointment form within Microsoft Office Outlook for creating new appointments.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1520,7 +1520,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement contact form within Microsoft Office Outlook for creating new contacts.|
+|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement apps contact form within Microsoft Office Outlook for creating new contacts.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1543,7 +1543,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement email form within Microsoft Office Outlook for creating new emails.|
+|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement apps email form within Microsoft Office Outlook for creating new emails.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1566,7 +1566,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement task form within Microsoft Office Outlook for creating new tasks.|
+|Description|Indicates whether to use the Microsoft Dynamics 365 for Customer Engagement  apps task form within Microsoft Office Outlook for creating new tasks.|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -2063,6 +2063,6 @@ See businessunit Entity [business_unit_user_settings](businessunit.md#BKMK_busin
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.usersettings?text=usersettings EntityType" />

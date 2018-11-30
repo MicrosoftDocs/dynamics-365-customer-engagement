@@ -17,7 +17,7 @@ search.app:
 ---
 # AppConfigInstance Entity Reference
 
-Contains a property or a list of properties from the app configuration master list that can be customized for any app in Dynamics 365 for Customer Engagement. For internal use only.
+Contains a property or a list of properties from the app configuration master list that can be customized for any app in Dynamics 365 for Customer Engagement apps. For internal use only.
 
 
 ## Messages
@@ -611,6 +611,6 @@ See appconfigmaster Entity [appconfigmaster_appconfiginstance](appconfigmaster.m
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.appconfiginstance?text=appconfiginstance EntityType" />
