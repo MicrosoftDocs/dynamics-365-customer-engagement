@@ -24,7 +24,7 @@ search.app:
 ---
 # Example: Display the top X values
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes several reports that display the top `X` items of an entity, where the user can specify the value of `X`.  
   

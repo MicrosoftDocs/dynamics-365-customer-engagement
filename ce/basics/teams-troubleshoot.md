@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: ""
 description: "Troubleshoot issues with Teams integration."
-ms.date: 11/06/2018
+ms.date: 11/29/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The following are error messages and possible resolutions.
+The following are error messages with possible resolutions.
 
 ## Error messages in the Teams app
 
