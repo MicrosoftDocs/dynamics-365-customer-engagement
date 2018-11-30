@@ -7,7 +7,7 @@ ms.date: 04/24/2018
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"

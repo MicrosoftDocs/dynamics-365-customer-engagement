@@ -1,5 +1,5 @@
 ---
-title: "Session management in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Session management in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about session context and session management in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,13 +10,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 9430fbca-3c70-4a62-a259-2c9c00871057
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -75,5 +74,5 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
  [Session Lines (Hosted Control)](../unified-service-desk/session-lines-hosted-control.md)   
  [Session Tabs (Hosted Control)](../unified-service-desk/session-tabs-hosted-control.md)   
  [Debugger (Hosted Control)](../unified-service-desk/debugger-hosted-control.md)   
- [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)
