@@ -41,7 +41,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 To enable Internet Explorer pooling:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 

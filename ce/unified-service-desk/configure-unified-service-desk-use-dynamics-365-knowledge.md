@@ -126,10 +126,10 @@ entitytypename=incident
  You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance under **Settings** > **Unified Service Desk** ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636)).  
   
 ### See also  
- [Use Dynamics 365 for Customer Engagement knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
+ [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)  
 
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md) 
 
- [Walkthrough 8: Use Dynamics 365 for Customer Engagement knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+ [Walkthrough 8: Use Dynamics 365 for Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)

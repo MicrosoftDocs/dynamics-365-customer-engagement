@@ -295,7 +295,7 @@ This action explicitly sets the width and height of the hosted control. This is 
 
 ### SaveAndClose
 
-This action saves the dirty data on the Dynamics 365 for Customer Engagement form, and closes the hosted control.
+This action saves the dirty data on the Dynamics 365 for Customer Engagement apps form, and closes the hosted control.
 
 ### SaveAll
 
@@ -331,7 +331,7 @@ Occurs when refresh is requested on the current page. Refresh can be requested e
 
 ### Saved
 
-Occurs after a record in the Dynamics 365 for Customer Engagement page is saved.
+Occurs after a record in the Dynamics 365 for Customer Engagement apps page is saved.
 
 | Parameter | Description                                  |
 |-----------|----------------------------------------------|

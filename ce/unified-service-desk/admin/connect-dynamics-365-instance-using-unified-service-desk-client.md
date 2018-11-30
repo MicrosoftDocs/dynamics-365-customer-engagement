@@ -29,7 +29,7 @@ search.app:
   - D365USD
 ---
 # Connect to a Dynamics 365 for Customer Engagement apps instance overview
-The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and accordingly exposes the controls and functionality in the application.  
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and accordingly exposes the controls and functionality in the application.  
 
 <a name="Signin"></a>   
 ## Sign in to Unified Service Desk  
@@ -45,7 +45,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    - For on-premises deployments, select **On-premises** and choose from the following **Authentication Sources**.  
 
-     - **Active Directory**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] internally through your network and do not connect to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] throught the Internet.  
+     - **Active Directory**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] internally through your network and do not connect to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps throught the Internet.  
 
      - **Internet-facing Deployment (IFD)**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] through the Internet.  
 
@@ -128,7 +128,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 <a name="LogFiles"></a>   
 ## Troubleshoot sign-in issues  
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. A log file, Login_ErrorLog.log, is created at c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\UnifiedServiceDesk\\*\<Version>* the first time you encounter any sign-in issues in the client application. Thereafter, the log file is used to record information about subsequent sign-in issues. This information can be helpful for troubleshooting issues related to signing in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] from the client application.  
+ [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. A log file, Login_ErrorLog.log, is created at c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\UnifiedServiceDesk\\*\<Version>* the first time you encounter any sign-in issues in the client application. Thereafter, the log file is used to record information about subsequent sign-in issues. This information can be helpful for troubleshooting issues related to signing in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps from the client application.  
 
 > [!NOTE]
 > [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also creates another log file, UnifiedServiceDesk.log, at the same location to log operational errors in the client application. The log file is created the first time you encounter any issues in the client application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  

@@ -84,7 +84,7 @@ The **USDWebResources** folder contains the migrated **RunXrmCommand** actions t
 
 To import the **USDWebResources** zip folder, follow these steps:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
 2. Go to **Settings** > **Solutions**.
 
@@ -99,7 +99,7 @@ You can see the success message after the solution is imported successfully.
 
 You can see the **USDWebResources** in the solutions list.</br>
 
-![USDWebResource imported to Dynamics 365 for Customer Engagement](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365 for Customer Engagement")
+![USDWebResource imported to Dynamics 365 for Customer Engagement apps](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365 for Customer Engagement")
 
 For more information, see [Import, update, and export solutions](/dynamics365/customer-engagement/customize/import-update-export-solutions)
 
@@ -125,7 +125,7 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 
 ## Test the deployment of the configurations on the target Unified Interface App.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 

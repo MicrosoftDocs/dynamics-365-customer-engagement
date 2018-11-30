@@ -40,7 +40,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 - Configure contextual actions for the article in the tab where it is displayed, such as copy an article link or associate an article with the current case.  
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 for Customer Engagement knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
 
 > [!IMPORTANT]
 >  This walkthrough doesn’t require you to complete other walkthroughs before you can use this one.  
@@ -53,7 +53,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
   - The `KM Control` and `Panel Layout` types of hosted controls:. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 
-  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dynamics 365 for Customer Engagement knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
+  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dynamics 365 for Customer Engagement apps knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
 
   - How to configure action calls. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action calls](../unified-service-desk/action-calls.md)  
 
@@ -501,12 +501,12 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Conclusion"></a>   
 ## Conclusion  
- In this walkthrough, you learned how to use the KM Control hosted control to use Dynamics 365 for Customer Engagement knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ In this walkthrough, you learned how to use the KM Control hosted control to use Dynamics 365 for Customer Engagement apps knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ### See also  
- [Use Dynamics 365 for Customer Engagement knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+ [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
 
- [Configure Dynamics 365 for Customer Engagement knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Configure Dynamics 365 for Customer Engagement apps knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)   
 

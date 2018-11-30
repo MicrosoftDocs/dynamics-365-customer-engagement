@@ -43,7 +43,7 @@ You can create an application adapter if you want to integrate an external appli
   
  [Step 4: Create the application adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md#CreateAppAdapter)  
   
- [Step 5: Configure the application adapter in Microsoft Dynamics 365 for Customer Engagement](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureAppAdapter)  
+ [Step 5: Configure the application adapter in Microsoft Dynamics 365 for Customer Engagement apps](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureAppAdapter)  
   
  [Step 6: Test the application adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md#TestAppAdapter)  
   
@@ -230,7 +230,7 @@ You can create an application adapter if you want to integrate an external appli
    |URI|`ExternalApplicationAdapter`|  
    |Type|`ExternalApplicationAdapter.AppAdapter`|  
   
-   ![External adapter configuration in Dynamics 365 for Customer Engagement](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration in Dynamics 365 for Customer Engagement")  
+   ![External adapter configuration in Dynamics 365 for Customer Engagement apps](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration in Dynamics 365 for Customer Engagement")  
   
    > [!NOTE]
    >  URI is the name of your assembly and the Type is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `ExternalApplicationAdapter` and name of the class is `AppAdapter`, which is the default class name when you create an application adapter.  

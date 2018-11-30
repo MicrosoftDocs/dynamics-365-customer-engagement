@@ -84,7 +84,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |  **Application Hosting**   |                                             Use SetParent                                             |
    |          **URL**           | Specify the location where your web application is hosted. In this case, it is http://localhost:2627/ |
 
-   ![Screenshot of Web App Config in Dynamics 365 for Customer Engagement](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config in Dynamics 365 for Customer Engagement")  
+   ![Screenshot of Web App Config in Dynamics 365 for Customer Engagement apps](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config in Dynamics 365 for Customer Engagement")  
 
 6. Choose **Save**.  
 
@@ -202,7 +202,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 4. From the list of hosted controls, select **QsWebApplication** hosted control.  
 
-   ![Hosted controls list in Dynamics 365 for Customer Engagement](../unified-service-desk/media/usd-web-app-hosted-controls-list.PNG "Hosted controls list in Dynamics 365 for Customer Engagement")  
+   ![Hosted controls list in Dynamics 365 for Customer Engagement apps](../unified-service-desk/media/usd-web-app-hosted-controls-list.PNG "Hosted controls list in Dynamics 365 for Customer Engagement")  
 
 5. In the **Adapter Configuration** section, specify the following values.  
 
@@ -212,7 +212,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |**URI**|MyWebApplicationAdapter|  
    |Type|MyWebApplicationAdapter.WebAppAdapter|  
 
-   ![Web adapter configuration in Dynamics 365 for Customer Engagement](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration in Dynamics 365 for Customer Engagement")  
+   ![Web adapter configuration in Dynamics 365 for Customer Engagement apps](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration in Dynamics 365 for Customer Engagement")  
 
    > [!NOTE]
    > **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is MyWebApplicationAdapter and name of the class is WebAdapter, which is the default class name when you create a web application adapter.  

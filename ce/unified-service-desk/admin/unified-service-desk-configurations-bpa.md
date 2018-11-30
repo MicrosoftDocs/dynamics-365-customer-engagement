@@ -34,7 +34,7 @@ We recommend that you move the **Hosting Type** of all the hosted controls of co
 
 For all the hosted controls of component type **CRM Page** or **Standard Web Application**, we recommend that you move the hosting type from **Internal WPF** to **IE Process**.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Hosted Controls**.
 3. Select the applicable hosted controls from the list. </br>You can change the hosting type for only CRM Page and Standard Web Application hosted controls.
 4. In the **Hosting Type** list, select **IE Process**.
@@ -97,7 +97,7 @@ To work without interruption, you can set the **ShowScriptErrors** value to **fa
 
 Set **ShowScriptErrors** to **false**:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3. In the list of options, select **ShowScriptErrors**.
 4. In the **Value** field, select **false**.
@@ -115,7 +115,7 @@ You can use client caching to reduce the amount of bandwidth required during [!I
 
 Enable client caching:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3. To create a new option, select **New** on the command bar.
 4. For the new option, select **ClientCacheVersionNumber** in the **Name** box, and then type an alphanumeric number in the **Value** box. <br/>The alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The alphanumeric value can be of any value but unique for each time you change.
@@ -144,7 +144,7 @@ Enable client caching:
 
 Set the **maxNumberOfSesions** value to less than or equal to **3**: 
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3. In the list of options, select **maxNumberOfSesions**.
 4. In the **Value** field, type **3**.

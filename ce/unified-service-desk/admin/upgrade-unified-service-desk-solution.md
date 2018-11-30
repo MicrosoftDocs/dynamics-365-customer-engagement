@@ -37,7 +37,7 @@ You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_
   
 3. In the Package Deployer window, click **Continue**.  
   
-4. On the Connect to Microsoft Dynamics 365 for Customer Engagement page, connect to the organization that you want to upgrade the current [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution.  
+4. On the Connect to Microsoft Dynamics 365 for Customer Engagement apps page, connect to the organization that you want to upgrade the current [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution.  
   
 5. Under Select the import package to use, click **Unified Service Desk – Upgrade**, and then click **Next**.  
   
