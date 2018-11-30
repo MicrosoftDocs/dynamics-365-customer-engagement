@@ -1,5 +1,5 @@
 ---
-title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 04/01/2018
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
@@ -69,7 +69,7 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 
 - Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
 
-- Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
+- Nurture your leads through a  marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
 
   
 <a name="bkmk4"></a>   

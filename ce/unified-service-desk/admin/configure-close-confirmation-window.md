@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-USD, dyn365-admin"
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -46,7 +46,7 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 ## Enable/disable close confirmation window
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 

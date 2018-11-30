@@ -123,7 +123,7 @@ Schemas define which Dynamics 365 for Customer Engagement fields are sent to the
 |ClientIP     |Edm.String         |No         |IP Address of the user or corporate gateway          |
 |CorrelationId     |Edm.Guid         |No         |A unique value used to associate related rows (e.g., when a large row is split)          |
 |CreationTime     |Edm.Date         |No         |Date and time of when the log was generated in UTC          |
-|Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 for Customer Engagement SDK          |
+|Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps SDK          |
 |UserKey     |Edm.String         |No         |Unique Identifier of the User in AAD. AKA User PUID          |
 |UserType     |Self.UserType         |No         |The Office 365 audit type (Admin, Regular, System)          |
 |User     |Edm.String        |No         |UPN of the user          |
@@ -138,7 +138,7 @@ The Dynamics 365 for Customer Engagement schema contains fields specific to Dyna
 |Instance Url     |Edm.String         |No         |URL to the instance          |
 |Item Url     |Edm.String         |No         |URL to the record emitting the log          |
 |Item Type     |Edm.String         |No         |Name of the entity          |
-|Message     |Edm.String         |No         |Name of the message called in Dynamics 365 for Customer Engagement SDK          |
+|Message     |Edm.String         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps SDK          |
 |User Agent     |Edm.String         |No         |Unique identifier of the user GUID in the Dynamics 365 for Customer Engagement organization          |
 |EntityId     |Edm.Guid        |No         |Unique identifier of the entity          |
 |EntityName     |Edm.String         |No         |Name of the entity in the Dynamics 365 for Customer Engagement organization          |

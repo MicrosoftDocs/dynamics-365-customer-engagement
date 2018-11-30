@@ -1,6 +1,6 @@
 ---
-title: "View and record financial information for events in Dynamics 365 for Customer Engagement for Marketing | Microsoft Docs "
-description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 for Customer Engagement for Marketing"
+title: "View and record financial information for events in Dynamics 365 for Marketing | Microsoft Docs "
+description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 for Marketing"
 keywords: "events;financials;budget;costs;revenue"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can record financial information for your events with Dynamics 365 for Customer Engagement for Marketing. For example, you can:
+You can record financial information for your events with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. For example, you can:
 
 - Record speaker costs (standard cost or for an engagement).
 - Record venue costs (standard cost or for an event).

@@ -65,7 +65,7 @@ Unified Interface does not use Interactive experience forms, so they will no lon
 
 ## Entity support and deprecation
 
-With [!include[](../includes/pn-crm-9-0-0-online.md)], Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property will be removed from the future version of Dynamics 365 for Customer Engagement SDK for Customer Engagement.
+With [!include[](../includes/pn-crm-9-0-0-online.md)], Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property will be removed from the future version of Dynamics 365 for Customer Engagement apps SDK for Customer Engagement.
 
 ## Unified Service Desk
 

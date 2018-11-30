@@ -12,7 +12,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/analyze-survey-data
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # View dashboards and reports for your Voice of the Customer survey
 The [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey dashboard gives you an overall view of your survey’s progress at a glance. For more information about specific metrics, you can run the following reports:  

@@ -1,5 +1,5 @@
 ---
-title: "Define playbook categories (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Define playbook categories (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks."
 keywords: "playbook, category, classify"
 ms.date: 10/16/2018
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 6397d425-6888-4117-afc0-f6bd0d2a358d
 author: shubhadaj
 ms.author: shujoshi

@@ -4,12 +4,12 @@ description: "Editable Products grid helps sales users to make changes to the pr
 keywords: "product, opportunity, editable grid, quote, order, invoice"
 ms.date: 09/24/2018
 ms.service:
-  - "crm-online"
+  - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement"
   - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: e426b768-bd64-4e64-8560-667634006d74
 author: shubhadaj

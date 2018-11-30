@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement"
   - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
 author: shubhadaj
@@ -86,7 +86,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
    When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
   
-   ![Product suggestions an opportunity in Dynamics 365 for Customer Engagement](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Customer Engagement for Sales")  
+   ![Product suggestions an opportunity in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](../sales-enterprise/publish-product-bundle-make-available-selling.md)  

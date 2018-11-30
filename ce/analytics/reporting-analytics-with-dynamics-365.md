@@ -15,7 +15,7 @@ ms.assetid: df6a8d7a-db0d-4860-8a65-039f2ddab50d
 caps.latest.revision: 33
 author: "Mattp123"
 ms.author: "matp"
-manager: "amyla"
+manager: "kvivek"
 tags: 
   - "MigrationHO"
 search.audienceType: 
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement includes reports, dashboards, and support for [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] that provides useful business information and visualizations to the user.  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes reports, dashboards, and support for [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] that provides useful business information and visualizations to the user.  
   
  ## Paginated reports  
   

@@ -1,5 +1,5 @@
 ---
-title: "Work with Dynamics 365 for Customer Engagement data in your Azure solution (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Work with Dynamics 365 for Customer Engagement data in your Azure solution (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The ServiceBusPlugin plug-in contains the business logic to post the Dynamics 365 for Customer Engagement message execution context to the Azure Service Bus. To use this plug-in, you need to register a Azure Service Bus solution endpoint and a step for the plug-in. The step defines what message and entity combination being processed by the core Dynamics 365 for Customer Engagement operation should trigger the plug-in to execute. The ServiceBusPlugin can only be registered to run asynchronously."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -37,5 +37,5 @@ An internal plug-in named ServiceBusPlugin is provided with [!INCLUDE[pn_dynamic
  [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)   
  [Registering Plug-ins](register-deploy-plugins.md)   
  [Event Execution Pipeline](event-execution-pipeline.md)   
- [Azure Extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)   
+ [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
  [ServiceEndPoint Entity](entities/serviceendpoint.md)

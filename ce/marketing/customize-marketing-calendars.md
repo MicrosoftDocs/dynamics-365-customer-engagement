@@ -1,6 +1,6 @@
 ---
-title: "Add and customize marketing calendars for any form or entity (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 for Customer Engagement for Marketing"
+title: "Add and customize marketing calendars for any form or entity (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 for Marketing"
 keywords: "marketing execution;email;landing page;marketing page;customer journey"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -45,7 +45,7 @@ Other than the differences noted here, both types of calendars look the same and
 
 To add and/or customize a marketing calendar, you must work in a **PowerApps** customization window. To get there:
 
-1. Use the app-selector menu to open the **Dynamics 365 for Customer Engagement – custom app**.
+1. Use the app-selector menu to open the **Dynamics 365 – custom** app.
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 

@@ -1,5 +1,5 @@
 ---
-title: "Mark a playbook as completed (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Mark a playbook as completed (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Close the playbook as completed to define if the playbook was successful or not."
 keywords: "playbook, consistent, activity, complete"
 ms.date: 10/16/2018
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: c8ee641f-8338-4a98-be6d-0fc882ff8543
 author: shubhadaj
 ms.author: shujoshi

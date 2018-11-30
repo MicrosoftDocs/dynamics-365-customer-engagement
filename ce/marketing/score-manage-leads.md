@@ -1,6 +1,6 @@
 ---
-title: "Create lead scoring models (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs "
-description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 for Customer Engagement for Marketing"
+title: "Create lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 for Marketing"
 keywords: "lead; lead-scoring rule; grade; qualify; sales ready"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -33,7 +33,7 @@ search.app:
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event.
 
-Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365 for Customer Engagement, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
+Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
 > Automatic lead scoring only works for leads that are associated with a contact or account. Scoring fails for leads that don't have a contact or account associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads or accounts, which means that you can only address marketing emails to contacts.

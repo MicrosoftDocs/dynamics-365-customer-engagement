@@ -1,5 +1,5 @@
 ---
-title: "Work with Dynamics 365 for Customer Engagement data using web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Work with Dynamics 365 for Customer Engagement apps data using web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This doc explains how you can use JavaScript web resources to access Dynamics 365 for Customer Engagement (online) data from within the application."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Work with Customer Engagement data using web resources
+# Work with Customer Engagement apps data using web resources
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -42,16 +42,16 @@ You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource
 
  [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)  
 
- [Use JavaScript with Dynamics 365 for Customer Engagement](use-javascript.md)  
+ [Use JavaScript with Dynamics 365 for Customer Engagement apps](use-javascript.md)  
 
- [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)  
+ [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
 
  [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)  
 
  [Open forms, views, and dashboards in Dynamics 365 for Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
 
- [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md)  
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)  
 
- [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)  
+ [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
 
  [Client API Reference](clientapi/reference.md)

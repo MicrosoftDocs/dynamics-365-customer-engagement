@@ -1,5 +1,5 @@
 ---
-title: "Export Unified Service Desk for Dynamics 365 for Customer Engagement configuration data | MicrosoftDocs"
+title: "Export Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration data | MicrosoftDocs"
 description: "Learn how to prepare a file for use with another instance using the Configuration Migration Tool and configuration data schema file."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,13 +10,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: f3d3b348-ddf7-4174-af34-9583a9f2b7e6
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -33,7 +32,7 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
   
 1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [CRM SDK download package](http://go.microsoft.com/fwlink/?LinkID=627298).  
   
-   1. Download the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
+   1. Download the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
   
    2. Download the UII SDK package (.exe), and extract it to find the USDDefaultSchema.xml file in the UII\USD Developer Assets\USD Configuration Tool Schema folder.  
   
@@ -55,4 +54,4 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
  [Import Unified Service Desk configuration data](../../unified-service-desk/admin/import-unified-service-desk-configuration-data.md)  
   
 ## See also  
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement apps server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)

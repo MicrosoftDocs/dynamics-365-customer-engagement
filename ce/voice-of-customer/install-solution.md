@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 06/15/2018
+ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: 9191a75b-430f-4052-9de3-486197a5f0e4
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 topic-status: Drafting
 ms.custom:
@@ -20,28 +20,28 @@ ms.custom:
 
 # Install the Voice of the Customer solution
 
-This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
+This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 > [!NOTE] 
 > Surveys aren't supported on legacy forms.
 
 ## Install the Voice of the Customer solution, version 9.0 and later
 
- The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution can be installed from [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)]. It is compatible with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] version 8.2 and later.
+ The Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solution can be installed from [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)]. It is compatible with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] version 8.2 and later.
 
 > [!NOTE]
 > You must be a tenant administrator to install the solution.
 
-1. Sign in to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution as administrator.
+1. Sign in to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solution as administrator.
 
 2. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Applications** tab.
 
 3. Select the application row titled **Voice Of The Customer**, and then select **Manage**.
 
-4. From the **[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] Instance** drop-down list, select the instance where you want to install the solution.
+4. From the **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** drop-down list, select the instance where you want to install the solution.
 
    > [!NOTE]
-   > The list of instances only displays the organizations with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] version 8.2.
+   > The list of instances only displays the organizations with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] version 8.2.
 
 5. Accept the license terms.
 
@@ -63,7 +63,7 @@ When you install Voice of the Customer, a VOC Push Service user is created autom
 
 
 > [!NOTE]
-> To optimize performance, we recommend following limits for Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
+> To optimize performance, we recommend following limits for Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 > -   Maximum number of surveys you can publish: **200**
 > -   Maximum number of questions on a survey: **250**. If you've enabled feedback for a survey, the maximum is 40 questions.
 > -   Maximum number of pages per survey: **25**
