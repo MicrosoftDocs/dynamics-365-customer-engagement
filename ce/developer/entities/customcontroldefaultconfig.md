@@ -96,7 +96,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the Custom Control Default Config for the Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Unique identifier of the Custom Control Default Config for the Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName|Custom Control Default Config Identifier|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -575,6 +575,6 @@ See systemuser Entity [lk_customcontroldefaultconfig_createdby](systemuser.md#BK
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.customcontroldefaultconfig?text=customcontroldefaultconfig EntityType" />

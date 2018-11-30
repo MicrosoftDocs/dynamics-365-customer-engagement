@@ -17,7 +17,7 @@ search.app:
 ---
 # TransformationMapping Entity Reference
 
-In a data map, maps the transformation of source attributes to Microsoft Dynamics 365 for Customer Engagement attributes.
+In a data map, maps the transformation of source attributes to Microsoft Dynamics 365 for Customer Engagement apps attributes.
 
 
 ## Messages
@@ -155,7 +155,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the Microsoft Dynamics 365 for Customer Engagement entity.|
+|Description|Name of the Microsoft Dynamics 365 for Customer Engagement apps entity.|
 |DisplayName|Target Entity Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -649,6 +649,6 @@ See importmap Entity [TransformationMapping_ImportMap](importmap.md#BKMK_Transfo
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.transformationmapping?text=transformationmapping EntityType" />

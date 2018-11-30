@@ -1243,7 +1243,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Type a subject or descriptive name, such as the request, issue, or company name, to identify the case in Microsoft Dynamics 365 for Customer Engagement views.|
+|Description|Type a subject or descriptive name, such as the request, issue, or company name, to identify the case in Microsoft Dynamics 365 for Customer Engagement apps views.|
 |DisplayName|Case Title|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -3200,6 +3200,6 @@ See knowledgebaserecord Entity [KnowledgeBaseRecord_Incident](knowledgebaserecor
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.incident?text=incident EntityType" />

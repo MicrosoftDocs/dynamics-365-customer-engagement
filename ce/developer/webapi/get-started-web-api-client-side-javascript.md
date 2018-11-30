@@ -31,7 +31,7 @@ In HTML web resources, form scripts, or ribbon commands you can use [!INCLUDE[pn
 
 If you are using the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)] apps, use the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods to use Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] and web resources. 
 
-If you are using an earlier version of Dynamics 365 for Customer Engagement, follow instruction available at [Get started with the Microsoft Dynamics 365 for Customer Engagement apps Web API (client-side JavaScript)](https://msdn.microsoft.com/library/gg334279.aspx)  
+If you are using an earlier version of Dynamics 365 for Customer Engagement apps, follow instruction available at [Get started with the Microsoft Dynamics 365 for Customer Engagement Web API (client-side JavaScript)](https://msdn.microsoft.com/library/gg334279.aspx)  
   
 <!--
 
@@ -517,7 +517,7 @@ MyNameSpace.WebAPI = MyNameSpace.WebAPI || {};
 -->  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Work with Dynamics 365 for Customer Engagement apps data using web resources](../work-data-using-web-resources.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)    
  [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)

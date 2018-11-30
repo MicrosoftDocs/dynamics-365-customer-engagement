@@ -911,6 +911,6 @@ See ratingvalue Entity [msdyn_ratingvalue_msdyn_rolecompetencyrequirement_rating
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_rolecompetencyrequirement?text=msdyn_rolecompetencyrequirement EntityType" />
