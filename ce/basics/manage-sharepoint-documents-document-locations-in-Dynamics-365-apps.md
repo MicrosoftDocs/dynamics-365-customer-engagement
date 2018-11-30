@@ -19,9 +19,9 @@ search.app:
   - D365CE
 ---
 
-# Manage your SharePoint documents and document locations from Dynamics 365 for Customer Engagement
+# Manage your SharePoint documents and document locations from Dynamics 365 for Customer Engagement apps
 
-[//]: # (Editor's note, just in case my deleting the comma below seems arbitrary: The comma in the Description metadata field above separates two complete sentences, so it's a perfect place for the comma. In the sentence below, the introductory clause "With Dynamics 365 for Customer Engagement" turns the rest of the sentence into a clause itself, so no comma is needed to divide the two ideas.)
+[//]: # (Editor's note, just in case my deleting the comma below seems arbitrary: The comma in the Description metadata field above separates two complete sentences, so it's a perfect place for the comma. In the sentence below, the introductory clause "With Dynamics 365 for Customer Engagement apps" turns the rest of the sentence into a clause itself, so no comma is needed to divide the two ideas.)
 With [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] and manage them from within your app.
 
 The documents that you create in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.

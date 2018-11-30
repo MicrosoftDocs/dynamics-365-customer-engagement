@@ -45,7 +45,7 @@ Use this report to compare the cost effectiveness and number of responses of two
   
  When you run the report, select the two campaigns that you want to compare.  
   
- ![A campaign comparison report in Dynamics 365 for Customer Engagement](../basics/media/campaign-comparison-report.png "A campaign comparison report in Dynamics 365 for Customer Engagement")  
+ ![A campaign comparison report in Dynamics 365 for Customer Engagement apps](../basics/media/campaign-comparison-report.png "A campaign comparison report in Dynamics 365 for Customer Engagement apps")  
 
 <a name="BKMK_CampaignPerformance"></a>   
 ## Campaign Performance report
