@@ -1,5 +1,5 @@
 ---
-title: "setProgress (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "setProgress (Client API reference) in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"

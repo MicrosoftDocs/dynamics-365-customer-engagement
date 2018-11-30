@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Update a service endpoint imported from a solution (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Walkthrough: Update a service endpoint imported from a solution (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The walkthrough demonstrates updating a service endpoint imported from a solution."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -44,5 +44,5 @@ An extra step is required after importing into an organization a solution contai
 6. Select **Save**.  
   
 ### See also  
- [Azure extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)   
+ [Azure extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
  [Service Bus authentication and authorization](https://azure.microsoft.com/en-us/documentation/articles/service-bus-authentication-and-authorization/)
