@@ -1,6 +1,6 @@
 ---
-title: "Uninstall Dynamics 365 for Customer Engagement for Marketing (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to remove Dynamics 365 for Customer Engagement for Marketing from a Dynamics 365 for Customer Engagement instance"
+title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 for Customer Engagement instance"
 keywords: "uninstall;solutions;administration;instances"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Uninstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] from a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance
+# Uninstall Marketing
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -54,16 +54,16 @@ The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] 
 
 To run the uninstall wizard:
 
-1. [Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md).
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
 1. To see a list of applications you have installed, select the **Applications** tab.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-    The list shows a row named **Dynamics 365 for Customer Engagement Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+    The list shows a row named **Dynamics 365 for Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
 
-1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
+1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 for Customer Engagement instance you are about to uninstall. Confirm that you selected the right one.  
+1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]instance (organization) from which you are about to remove [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Confirm that you selected the right one.  
     ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
 
 1. Under **Other actions**, select **Uninstall Marketing from this org**.
@@ -104,6 +104,6 @@ To remove the services:
 
 ### See also
 
-[Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md)  
+[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Manage Marketing instances](manage-marketing-instances.md)  

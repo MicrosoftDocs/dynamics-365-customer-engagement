@@ -1,6 +1,6 @@
 ---
-title: "Set up a recurring event (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs "
-description: "Describes how recurring events work in Dynamics 365 for Customer Engagement for Marketing"
+title: "Set up a recurring event (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Describes how recurring events work in Dynamics 365 for Marketing"
 keywords: "events; waitlist"
 ms.date: 07/06/2018
 ms.service: dynamics-365-marketing
@@ -121,5 +121,5 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 ### See also
 
-[Event planning and management in Dynamics 365 for Customer Engagement](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

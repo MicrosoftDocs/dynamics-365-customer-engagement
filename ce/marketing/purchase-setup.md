@@ -1,6 +1,6 @@
 ---
-title: "Set up Dynamics 365 for Customer Engagement for Marketing | Microsoft Docs"
-description: "How to run the setup wizard for Dynamics 365 for Customer Engagement for Marketing"
+title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
+description: "How to run the setup wizard for Dynamics 365 for Marketing"
 keywords: "setup; licensing; FRE; Azure; privacy; marketing services; customer-insights services"
 ms.date: 10/10/2018
 ms.service: dynamics-365-marketing
@@ -33,7 +33,7 @@ search.app:
 After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], or signing up for a trial, you'll have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app available on your tenant. To set up the app, you must run its setup wizard.
 
 - If you are setting up a [trial](trial-signup.md), then you will receive a link to the setup wizard in a welcome email. Click that link to launch the wizard.
-- If you setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Customer Engagement for Marketing](purchase-marketing.md)
+- If you setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md)
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the setup wizard will help you review all the relevant privacy policies and set up and integrate these various elements. Proceed as described in the following subsections.
 
@@ -53,7 +53,7 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 >   - Permissions to register applications in [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
 > - An unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app must be available on your tenant.
 > - An unconfigured portal app must be available on your tenant. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Why do I need a portal, and how can I get one?](setup-troubleshooting.md#why-portal)
-> - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 for Customer Engagement International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+> - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.
 > 
@@ -62,8 +62,8 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > [!IMPORTANT]
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can store, monthly email messages you can send, monthly Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
 > 
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 for Customer Engagement Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
-> - For trial and previews, see [Dynamics 365 for Customer Engagement for Marketing limits for trials and previews](trial-preview-limits.md).
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+> - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
 > You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced Settings**  >  **Others**  >  **Quota Limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
@@ -103,5 +103,5 @@ Give consent and enter your postal address:
 
 ### See also
 
-[How Dynamics 365 for Customer Engagement for Marketing uses cookies](cookies.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)  
 [Engage with customers online with portals](portals.md)

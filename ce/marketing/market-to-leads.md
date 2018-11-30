@@ -1,6 +1,6 @@
 ---
-title: "Market to leads (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Customer Engagement for Marketing"
+title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
 keywords: "leads;contacts;marketing;sales"
 ms.date: 04/25/2018
 ms.service: dynamics-365-marketing

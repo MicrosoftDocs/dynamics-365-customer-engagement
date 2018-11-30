@@ -1,6 +1,6 @@
 ---
-title: "Set up a subscription center (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Customer Engagement for Marketing"
+title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -229,5 +229,5 @@ If you open a subscription center by opening its URL directly, the page will loa
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
-[Find your way around](navigation.md)  
-[How Dynamics 365 for Customer Engagement for Marketing uses cookies](cookies.md)
+[Find your way around Dynamics 365 for Marketing](navigation.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

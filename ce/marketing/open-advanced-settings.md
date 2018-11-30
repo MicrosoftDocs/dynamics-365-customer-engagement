@@ -1,6 +1,6 @@
 ---
-title: "Open administration settings (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "Explains how to access admin settings in Dynamics 365 for Customer Engagement for Marketing"
+title: "Open administration settings (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Explains how to access admin settings in Dynamics 365 for Marketing"
 keywords: "administration"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -55,4 +55,4 @@ See the subtopics in this section for details about how to work with each group 
 
 ### See also
 
-[Find your way around Dynamics 365 for Customer Engagement](navigation.md)
+[Find your way around Dynamics 365 for Marketing](navigation.md)

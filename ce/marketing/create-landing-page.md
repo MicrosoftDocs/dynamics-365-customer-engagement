@@ -1,6 +1,6 @@
 ---
-title: "Create a landing page (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a new landing page that includes a form for Dynamics 365 for Customer Engagement for Marketing"
+title: "Create a landing page (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "A tutorial for how to create a new landing page that includes a form for Dynamics 365 for Marketing"
 keywords: "tutorial; landing page; marketing page; form; page"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -118,5 +118,5 @@ To create a landing page and go live:
 [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[How Dynamics 365 for Customer Engagement for Marketing uses cookies](cookies.md)
+[How Dynamics 365 for Marketing uses cookies](cookies.md)
 

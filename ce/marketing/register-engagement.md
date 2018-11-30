@@ -1,6 +1,6 @@
 ---
-title: "Register link clicks and website visits (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Customer Engagement for Marketing"
+title: "Register link clicks and website visits (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
 keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -117,4 +117,4 @@ The same redirect-URL record where you can find the redirecting URL also shows t
 
 [Design lead-scoring models](score-manage-leads.md)  
 [Set up lead scoring](set-up-lead-scoring.md)  
-[How Dynamics 365 for Customer Engagement for Marketing uses cookies](cookies.md)
+[How Dynamics 365 for Marketing uses cookies](cookies.md)
