@@ -39,7 +39,7 @@ Read this topic to get an overview of how to update [!INCLUDE[pn-marketing-busin
 > 
 > ![Update Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Update Marketing using the Applications tab, not the Instances tab")
 > 
-> However, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] also includes two solutions ("[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-portals](../includes/pn-portals.md)] – Base Portal" and "[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]") that *must* be updated separately using the **Instances** tab as described in [Find and apply updates for shared Marketing solutions](#update-shared). Be sure not to update any of the core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions while you are updating these shared solutions, even if they show an update is available.
+> However, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] also includes two solutions ("Dynamics 365 Portals – Base Portal" and "Voice of the Customer for Dynamics 365") that *must* be updated separately using the **Instances** tab as described in [Find and apply updates for shared Marketing solutions](#update-shared). Be sure not to update any of the core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions while you are updating these shared solutions, even if they show an update is available.
 
 ## Solutions included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 

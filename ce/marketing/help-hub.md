@@ -84,7 +84,7 @@ search.app:
 </td></tr>
 
 <tr><td>
-<h2>Marketing with Dynamics 365 for Customer Engagement</h2>
+<h2>Marketing with Dynamics 365</h2>
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>

@@ -39,7 +39,7 @@ Most of your contacts will represent customers or potential customers, but you m
 
 To view, create, or edit a contact, go to **Marketing** &gt; **Customers** &gt; **Contacts**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your contacts. Open any contact to view its details.
 
-The contacts entity is common for and shared by most [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement apps, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] adds several enhancements to it, including:
+The contacts entity is common for and shared by most [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] adds several enhancements to it, including:
 
 - **Marketing source information**: The contact **Details** tab includes a section called **Marketing**, where you can see which marketing initiatives were responsible for generating that contact.
 - **Contact preferences**: The contact **Details** tab includes a section called **Contact preferences**, where you can see information about how that contact prefers to be contacted (or not contacted) by your organization. Important settings for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] here include:

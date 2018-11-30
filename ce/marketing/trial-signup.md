@@ -135,7 +135,7 @@ If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-
 4. Enter the new user's name and other details in the flyout panel. 
    - Make sure the **Domain** is the same as the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.   
    - Create a non-random password and make a note of the password.
-   - Under **Product licenses**, enable licenses for both **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** and **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement Plan Enterprise Edition**.
+   - Under **Product licenses**, enable licenses for both **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** and **Dynamics 365 Customer Engagement Plan Enterprise Edition**.
 
 5. Select **Add** to create the new user, and then select **Send email and close** to close the flyout panel.
 

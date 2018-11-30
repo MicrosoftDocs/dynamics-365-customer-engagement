@@ -82,7 +82,7 @@ DMARC requires you to have either your own envelope domain or your own DKIM sign
 Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
 
 1. Set up an email account that you can read on as many services and domains as you can.
-1. Set up a contact record for each of these addresses in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Set up a contact record for each of these addresses in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 1. Run a [simple email campaign](create-simple-customer-journey.md) that targets all of your test contacts.
 1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labelled as junk.
 

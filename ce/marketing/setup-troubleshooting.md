@@ -154,7 +154,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 #### Step 2: Grant your new account permission to clear the portals cache
 
-Once you have your account and password set up, you must go into Dynamics 365 for Customer Engagement and configure that account as an event-portal administrator. To do this:
+Once you have your account and password set up, you must go into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and configure that account as an event-portal administrator. To do this:
 
 1. Sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
 

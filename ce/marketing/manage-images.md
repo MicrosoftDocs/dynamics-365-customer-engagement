@@ -29,18 +29,18 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message, and you can use similar techniques to add images to your marketing page designs. Another way to make images (and other files) available in [!INCLUDE[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is to upload them directly to the file library, which is shared by all users. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
+In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message, and you can use similar techniques to add images to your marketing page designs. Another way to make images (and other files) available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is to upload them directly to the file library, which is shared by all users. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 
 Here are some best practices for working with images for your marketing materials:
 
-- Sketch out your email messages and marketing pages in an image-editing program before you start trying to design them in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. This will make it easier to experiment, enable you to get your image sizes right, and should speed your work in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+- Sketch out your email messages and marketing pages in an image-editing program before you start trying to design them in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. This will make it easier to experiment, enable you to get your image sizes right, and should speed your work in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - Always crop and size your images before you upload them.
 - When sizing your images, use the dimensions that will apply when viewed on the largest expected customer display.
 - Choose your keywords carefully, and remember to apply them to images. As your library grows, this will become increasingly important.
 
 ## Manage keywords
 
-To help you organize your images, and to help other users find them, [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] also supports a system of keywords that you can use to tag each image. You manage the keywords centrally to ensure that the number of keywords remains manageable and the spelling consistent. When uploading an image, users can choose a keyword, but they can't create new one on the fly.
+To help you organize your images, and to help other users find them, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] also supports a system of keywords that you can use to tag each image. You manage the keywords centrally to ensure that the number of keywords remains manageable and the spelling consistent. When uploading an image, users can choose a keyword, but they can't create new one on the fly.
 
 To manage keywords:
 
@@ -68,7 +68,7 @@ To view and edit your image library:
     - Remove a keyword from an image by selecting the close button **(X)** for the keyword.
     - Remove an image by selecting its close button **(X)** on the right (also an X).
 
-5. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+5. Select **Save** to upload your images to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Files**.
 

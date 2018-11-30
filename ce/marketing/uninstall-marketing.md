@@ -63,7 +63,7 @@ To run the uninstall wizard:
 
 1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]instance (organization) from which you are about to remove [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Confirm that you selected the right one.  
+1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance (organization) from which you are about to remove [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Confirm that you selected the right one.  
     ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
 
 1. Under **Other actions**, select **Uninstall Marketing from this org**.
