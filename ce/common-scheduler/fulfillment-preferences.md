@@ -34,7 +34,7 @@ search.app:
 
 Fulfillment preferences are customizable entities that let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows.
 
-By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time,  such as 10:39 AM. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00 AM**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
+By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time, such as 10:39 AM. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00 AM**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
 
 ## Overview
 
