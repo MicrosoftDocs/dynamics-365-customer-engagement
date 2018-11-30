@@ -40,4 +40,4 @@ If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.m
 - [!INCLUDE[pn_skype_60](../includes/pn-skype-60.md)]  
   
 ### See also  
- [Set up Dynamics 365 for Customer Engagement to make calls with Skype or Skype for Business](../admin/set-up-skype-or-skype-for-business.md)
+ [Set up Dynamics 365 for Customer Engagement apps to make calls with Skype or Skype for Business](../admin/set-up-skype-or-skype-for-business.md)
