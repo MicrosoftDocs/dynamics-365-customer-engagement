@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement"
   - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
 author: shubhadaj
@@ -36,7 +36,7 @@ Make it easier for sales agents to find products and services in a product catal
   
 - Create as many levels of product families as you want by creating a family within a family.  
   
-  ![Hierarchy of families and products in Dynamics 365 for Customer Engagement](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 for Customer Engagement")  
+  ![Hierarchy of families and products in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 for Sales")  
   
 > [!NOTE]
 >  The product family that you use for creating a product, bundle, or another product family becomes the parent family. You can't change the parent family for the child products, bundles, or families. In the preceding example, "Televisions" is the parent family for "LED TVs" and "Plasma TVs," and you can't change these to have a different parent family.  

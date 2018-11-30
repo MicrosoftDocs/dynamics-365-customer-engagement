@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement"
   - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: af99268c-9dc3-4037-b3cc-3d2a0eb2b296
 author: shubhadaj
@@ -100,7 +100,7 @@ Units are the quantities or measurements that you sell your products or services
   
    - **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "packet." Other examples could include ounces, hours, or tons, depending on your product or service.  
   
-     ![Shows how to create a unit group in Dynamics 365 for Customer Engagement](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Customer Engagement for Sales")  
+     ![Shows how to create a unit group in Dynamics 365 for Sales](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Sales")  
   
 6. Select **OK**.  
   
@@ -131,9 +131,9 @@ Units are the quantities or measurements that you sell your products or services
   
       Here's how:  
   
-   ![Create a unit in the unit group in Dynamics 365 for Customer Engagement](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 for Customer Engagement for Sales")  
+   ![Create a unit in the unit group in Dynamics 365 for Sales](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 for Sales")  
   
-   ![Creating a unit with a base unit in Dynamics 365 for Customer Engagement](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 for Customer Engagement for Sales")  
+   ![Creating a unit with a base unit in Dynamics 365 for Sales](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 for Sales")  
   
 4. Select **Save** or **Save and Close**.  
   

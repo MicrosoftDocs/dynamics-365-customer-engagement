@@ -1,5 +1,5 @@
 ---
-title: "Manage playbook templates (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Manage playbook templates (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
 keywords: "playbook, consistent, activity, sales process, business process, best practice"
 ms.date: 10/16/2018
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 66a9d402-bbf6-48ee-86b6-5f93fc864896
 author: shubhadaj
 ms.author: shujoshi
