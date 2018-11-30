@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps 
   - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
@@ -277,7 +277,7 @@ search.app:
   
 1. In the Configuration Wizard, you’ll see a **Server URL** drop-down list. Click the arrow next to the drop-down list, and then do one of the following:  
   
-   - To connect to a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, select **Dynamics 365 for Customer Engagement apps (online)**. If you don’t know if you’re using the online or on-premises version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], look in your browser at the web address for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. If the web address contains “dynamics.com” after the name of your organization, you’re using the online version. Otherwise, it’s the on-premises version.  
+   - To connect to a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, select **Dynamics 365 for Customer Engagement apps **. If you don’t know if you’re using the online or on-premises version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], look in your browser at the web address for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. If the web address contains “dynamics.com” after the name of your organization, you’re using the online version. Otherwise, it’s the on-premises version.  
   
    - To connect to a [!INCLUDE[pn_crm_2013_shortest](../../includes/pn-crm-2013-shortest.md)] (on-premises) organization, there are two types of URLs, depending on whether your computer is connected to the Internet or not:  
   

@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 65f15bc1-3295-4b62-8cf2-1b3ff65b7064
 caps.latest.revision: 64
 author: "mduelae"
@@ -108,7 +108,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 3. To add an organization, choose the option appropriate for you.  
   
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 for Customer Engagement apps (online)** from the drop-down menu.  
+   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 for Customer Engagement apps ** from the drop-down menu.  
   
 4. Click **Connect**.  
   

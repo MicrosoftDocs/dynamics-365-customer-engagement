@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps 
   - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online

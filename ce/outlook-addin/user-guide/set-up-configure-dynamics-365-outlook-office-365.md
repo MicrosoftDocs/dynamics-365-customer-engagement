@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps 
   - Dynamics CRM Online
 ms.assetid: e741c693-4247-4551-b81a-5e8ec5da6567
 caps.latest.revision: 33
@@ -69,7 +69,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
    > [!NOTE]
    >  If the Configuration Wizard doesn’t start automatically, in the Start screen, search for **Configuration Wizard** and run it.  
   
-6. In the list, select **Dynamics 365 for Customer Engagement apps (online)**, and then choose **Connect**.  
+6. In the list, select **Dynamics 365 for Customer Engagement apps **, and then choose **Connect**.  
   
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  

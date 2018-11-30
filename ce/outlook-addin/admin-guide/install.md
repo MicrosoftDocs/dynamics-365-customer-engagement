@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 7e846aff-e472-4a3a-810d-de2aea0817f0
 caps.latest.revision: 63
 author: "mduelae"
@@ -49,10 +49,10 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
    - To install from the web (version 8.x), go to [Microsoft Dynamics CRM 2016 for Microsoft Office Outlook (Outlook Client)](http://go.microsoft.com/fwlink/p/?LinkId=690396), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
 
-   - To install from the web (version 9.0), go to [Dynamics 365 for Customer Engagement apps (online) for Outlook, version 9.0 (Outlook client)](https://www.microsoft.com/en-us/download/details.aspx?id=56972), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
+   - To install from the web (version 9.0), go to [Dynamics 365 for Customer Engagement apps  for Outlook, version 9.0 (Outlook client)](https://www.microsoft.com/en-us/download/details.aspx?id=56972), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
 
      > [!NOTE]
-     >  If you have updated your Dynamics 365 for Customer Engagement apps (online) organziation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/en-us/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
+     >  If you have updated your Dynamics 365 for Customer Engagement apps  organziation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/en-us/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
 
 
 ~~~
@@ -106,7 +106,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 1. To add an organization, choose one of the following:  
 
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 for Customer Engagement apps (online)** from the drop-down list.  
+   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 for Customer Engagement apps ** from the drop-down list.  
 
 2. Click **Connect**.  
 
@@ -120,7 +120,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 <a name="BKMK_OAuth"></a>   
 ## Enable multi-factor authentication through OAuth  
- In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 for Customer Engagement apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 for Customer Engagement apps (online) versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
+ In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 for Customer Engagement apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 for Customer Engagement apps  versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
 
  If you have upgraded your authentication server to use OAuth **prior** to installing Dynamics 365 for Outlook, Dynamics 365 for Outlook will automatically check for and use OAuth for MFA. Users will see the OAuth sign-in form the first time they use Dynamics 365 for Outlook.  
 
