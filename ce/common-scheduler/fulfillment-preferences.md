@@ -4,7 +4,7 @@ ms.custom:
   - dyn365-projectservice
   - dyn365-fieldservice
   - dyn365-customerservice
-ms.date: 11/29/2018
+ms.date: 11/30/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -34,7 +34,7 @@ search.app:
 
 Fulfillment preferences are customizable entities that let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows.
 
-By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time,  such as 10:39 AM. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00am**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
+By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time,  such as 10:39 AM. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00 AM**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
 
 ## Overview
 
@@ -42,7 +42,7 @@ Fulfillment preferences break down into two features: **intervals** and **time g
 
 ### Intervals
 
-Intervals display schedule assistant results in neat time slots **that dictate start time of subsequent bookings**. When configured as 30-minute intervals, the schedule assistant will display a resource available at 9:27 AM as available at 9:30 AM and will book the start time (arrival time) for 9:30 AM. This includes travel time for onsite requirements and work orders, meaning travel time will begin before 9:30 AM, and a field resource will arrive and start work at 9:30 AM. 
+Intervals display schedule assistant results in neat time slots *that dictate start time of subsequent bookings*. When configured as 30-minute intervals, the schedule assistant will display a resource available at 9:27 AM as available at 9:30 AM and will book the start time (arrival time) for 9:30 AM. This includes travel time for onsite requirements and work orders, meaning travel time will begin before 9:30 AM, and a field resource will arrive and start work at 9:30 AM. 
 
 For example, a hair salon may want to offer appointments every hour because 1-hour intervals are a good time estimate for their work, which is mostly consistent and predictable. It's also easier to communicate 1-hour appointments to customers when scheduling.
 
@@ -203,13 +203,13 @@ You can add both an interval and a time group to a single fulfillment preference
 
 ## Configuration notes
 
-- Intervals can also be set for requirement groups. All requirements within that requirement group will inherit the same fulfillment preferences. The fulfillment preferences entity was originally named "time groups," and therefore, the actual schema name for this entity is “msdyn_timegroup,” although the display name is “Fulfillment Preferences”.
+- Intervals can also be set for requirement groups. All requirements within that requirement group will inherit the same fulfillment preferences. The fulfillment preferences entity was originally named "time groups," and therefore, the actual schema name for this entity is **msdyn_timegroup**, although the display name is **Fulfillment Preferences**.
 
 - Time group details are only compatible for individual requirements.
 
 - Fulfillment preferences apply to location-agnostic and onsite requirements. 
 
-- There is an attribute on the booking entity called “Time Group Detail Selected” (msdyn_timegroupdetailselected), which points to the time group detail entity. This value is automatically populated when a booking is created through the schedule assistant. For example, if a requirement is scheduled and the results fall into the time group “9 to 12,” the booking created through the schedule assistant will have the value “9 to 12” in the “time group detail selected” field.
+- There is an attribute on the booking entity called Time Group Detail Selected (**msdyn_timegroupdetailselected**), which points to the time group detail entity. This value is automatically populated when a booking is created through the schedule assistant. For example, if a requirement is scheduled and the results fall into the time group “9 to 12,” the booking created through the schedule assistant will have the value “9 to 12” in the **time group detail selected** field.
 
 - The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the user's time zone.
 
@@ -217,7 +217,7 @@ You can add both an interval and a time group to a single fulfillment preference
 In v3.1 of Universal Resource Scheduling (URS), some features will work when scheduling both individual requirements and groups of requirements, and some features will not work for both. Please use the following table for guidance.
 
 
-| Fulfillment Preference Feature  |  Compatible with scheduling a single requirement  |  Compatible with scheduling a requirement group | 
+| Fulfillment Preference Feature  |  Compatible with scheduling a single requirement?  |  Compatible with scheduling a requirement group? | 
 |---|---|---|---|---|
 | View results by interval  |  Yes |  Yes |
 | Change interval on schedule board  |  Yes |  Yes |
