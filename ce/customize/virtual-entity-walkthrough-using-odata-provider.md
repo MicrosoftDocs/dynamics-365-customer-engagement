@@ -164,7 +164,7 @@ On the Solution Explorer window select **Publish All Customizations**.
 
 After all customizations are published, close the Solution Explorer window.
 
-## View the virtual entity in action with Dynamics 365 for Customer Engagement customer engagement
+## View the virtual entity in action with Dynamics 365 for Customer Engagement
 
 Go to **Service** > **Extensions** > **Tickets**.
 

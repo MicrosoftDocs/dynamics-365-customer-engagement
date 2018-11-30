@@ -43,12 +43,12 @@ search.app:
  If you synchronize records with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], the process is dynamic and unique for each user’s mailbox. The synchronization algorithm ensures that mailboxes are synced according to dynamic parameters such as the number of email messages and the activity within the mailbox. Normally, email synchronization occurs every 5 minutes. When a mailbox has many email messages, the interval can be reduced dynamically to 2 minutes. If the mailbox is less active, the interval can be increased up to 12 minutes. Generally speaking, you can assume that a mailbox will be synced at least once every 12 minutes. Note that you can’t manually synchronize records through [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] but when you track or link (set the regarding record) for email, appointments, or tasks, synchronization happens immediately.  
   
 ## Where can I find information on troubleshooting server-side synchronization issues?  
- You can find information on troubleshooting and known issues here: [Troubleshooting and things to know about Microsoft Dynamics 365 for Customer Engagement for Outlook](../admin-guide/troubleshooting-things-to-know.md) 
+ You can find information on troubleshooting and known issues here: [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin-guide/troubleshooting-things-to-know.md) 
   
 ## Do security permissions affect synchronization?  
  Yes. If a system administrator has implemented security for particular fields or records, it can affect the data that’s synchronized.  
   
-## If I synchronize records with Dynamics 365 for Customer Engagement for Outlook (legacy add-in), how do I change the synchronizing computer (client)?  
+## If I synchronize records with Dynamics 365 for Outlook (legacy add-in), how do I change the synchronizing computer (client)?  
  If you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] (legacy add-in and not the same thing as [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)]) to synchronize records, and if you have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed on more than one computer, you have to select one computer as the synchronizing computer for email, appointments, contacts, and tasks. To change the synchronizing computer:  
   
 1. In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], on the **File** menu, choose **Dynamics 365 for Customer Engagement**, and then choose **Options**.  
@@ -60,8 +60,8 @@ search.app:
 > [!NOTE]
 >  This option only appears when you have multiple computers connected to the same organization.  
   
-## Can I view or control the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook (legacy add-in)?  
- You can view the synchronizing fields and  whether fields are synced one way (from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), two ways (back and forth between [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), or not at all. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook](view-fields-synchronized.md).  
+## Can I view or control the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook (legacy add-in)?  
+ You can view the synchronizing fields and  whether fields are synced one way (from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), two ways (back and forth between [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), or not at all. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook](view-fields-synchronized.md).  
   
  If you’re a system administrator, you can  control field synchronization and sync direction. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Control field synchronization between Dynamics 365 for Customer Engagement and Outlook or Exchange](control-field-synchronization-exchange.md)
   
@@ -69,7 +69,7 @@ search.app:
 >  [!INCLUDE[cc_feature_included_with_2015_update_1_admins](../../includes/cc-feature-included-with-2015-update-1-admins.md)]  
   
 ### See also  
- [Dynamics 365 for Customer Engagement App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
- [Dynamics 365 for Customer Engagement for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   
+ [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
+ [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

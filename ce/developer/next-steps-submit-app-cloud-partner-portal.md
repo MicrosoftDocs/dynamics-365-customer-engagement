@@ -1,5 +1,5 @@
 ---
-title: "Next steps: Submit your app on Cloud Partner Portal (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Next steps: Submit your app on Cloud Partner Portal (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about how to submit an app on Cloud Partner Portal to be listed on AppSource."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -27,7 +27,7 @@ Your app is ready for submission after completing steps 1-5.
 
 If you have been granted access to the [Cloud Partner Portal](https://cloudpartner.azure.com) in response to the information you provided in [step 1](fill-app-submission-form-appsource.md), proceed to [create an offer](https://cloudpartner.azure.com/#new/microsoft-crm/form/offerSettings) on the Cloud partner Portal to submit your app. All apps that are submitted to be listed on AppSource go through a certification process. 
 
-Detailed information about submitting an app for Dynamics 365 for Customer Engagement for Customer Engagement is available in the Cloud Partner Portal [documentation](https://cloudpartner.azure.com/#documentation/crm-create-offer). The portal documentation is only accessible to authorized users of the Cloud Partner Portal.
+Detailed information about submitting an app for Dynamics 365 for Customer Engagement apps is available in the Cloud Partner Portal [documentation](https://cloudpartner.azure.com/#documentation/crm-create-offer). The portal documentation is only accessible to authorized users of the Cloud Partner Portal.
 
 ## See also
 

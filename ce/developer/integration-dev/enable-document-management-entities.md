@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement that can be customized. By default, document management is enabled only for the following entities in a new installation of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]:  
+Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps that can be customized. By default, document management is enabled only for the following entities in a new installation of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]:  
   
 - `Account`  
   
@@ -46,6 +46,6 @@ Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_c
 >  You must have the System Administrator or System Customizer role to enable or disable document management for an entity.  
   
 ### See also  
- [SharePoint Extensions for Dynamics 365 for Customer Engagement](integrate-sharepoint.md)   
+ [SharePoint Extensions for Dynamics 365 for Customer Engagement apps](integrate-sharepoint.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Sample: Enable SharePoint Integration](sample-enable-document-management-entities.md)

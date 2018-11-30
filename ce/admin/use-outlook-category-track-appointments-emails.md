@@ -62,7 +62,7 @@ If an appointment is tracked and is categorized as **Tracked to Dynamics**, remo
 > Assignment of tasks to people that is captured in Outlook will not be synced to Dynamics 365 for Customer Engagement.
 
 ## Use category-based tracking with App for Outlook
-If you have Dynamics 365 for Customer Engagement App for Outlook, you can use category-based tracking with App for Outlook.
+If you have Dynamics 365 App for Outlook, you can use category-based tracking with App for Outlook.
 
 The following table lists different scenarios of tracking.
 
@@ -79,8 +79,8 @@ If you [allow someone else to manage your email and calendar](https://support.of
 
 If your mailbox has the **Tracked to Dynamics 365 for Customer Engagement** category, the delegate can track your emails and appointments by assigning the **Tracked to Dynamics 365 for Customer Engagement** category.
 
-## Category-based tracking with Dynamics 365 for Customer Engagement for Outlook
-Category-based tracking is not supported with Dynamics 365 for Customer Engagement for Outlook. We recommend that you do not enable OrgDBOrgSetting **TrackCategorizedItems** on a Dynamics 365 for Customer Engagement organization set up to use Dynamics 365 for Customer Engagement for Outlook.
+## Category-based tracking with Dynamics 365 for Outlook
+Category-based tracking is not supported with Dynamics 365 for Outlook. We recommend that you do not enable OrgDBOrgSetting **TrackCategorizedItems** on a Dynamics 365 for Customer Engagement organization set up to use Dynamics 365 for Outlook.
 
 ## Disable category-based tracking
 You can disable category-based tracking for the Dynamics 365 for Customer Engagement organization by disabling OrgDBOrgSetting **TrackCategorizedItems**.

@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use the following resources for developing mobile apps for iOS platform that leverage the extensibility features of Microsoft Dynamics 365 for Customer Engagement:
+Use the following resources for developing mobile apps for iOS platform that leverage the extensibility features of Microsoft Dynamics 365 for Customer Engagement apps:
 
 ## iOS Mobile SDK Library
 
@@ -58,7 +58,7 @@ Track the interactions with your recent contacts and learn how to use the librar
 
 ## Early-bound code generation tool
 
-A tool to generate early-bound entity types, for mobile development, from the metadata of a Dynamics 365 for Customer Engagement organization.
+A tool to generate early-bound entity types, for mobile development, from the metadata of a Dynamics 365 for Customer Engagement apps organization.
 
 <div style="background:#002050;display: block;text-align: center;padding: 5px 20px;width: 175px;margin-top: 20px;margin-left: auto;margin-right: auto;">
 <a style="color: #fff;" href="https://github.com/DynamicsCRM/crm-mobilesdk-tool-svcutil" target="_blank" >View on GitHub</a>

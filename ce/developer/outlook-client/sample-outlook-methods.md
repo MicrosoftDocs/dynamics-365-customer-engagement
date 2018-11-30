@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. To download the sample, refer [Sample: Use Dynamics 365 for Customer Engagement for Outlook methods](https://msdn.microsoft.com/en-us/library/gg309513.aspx).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. To download the sample, refer [Sample: Use Dynamics 365 for Customer Engagement for Outlook methods](https://msdn.microsoft.com/en-us/library/gg309513.aspx).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

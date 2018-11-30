@@ -23,13 +23,13 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with a wide variety of programming languages or libraries. The [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] provides a matrix of samples demonstrating how to use the Web API in a number of different ways. This topic introduces the samples available for each group of operations and how to perform these operations using different languages or libraries.
+You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API with a wide variety of programming languages or libraries. The [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] provides a matrix of samples demonstrating how to use the Web API in a number of different ways. This topic introduces the samples available for each group of operations and how to perform these operations using different languages or libraries.
 
 > [!NOTE]
 > With the availability of the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods, we are working on updating the client-side JavaScript samples to use the new client API methods. Check back soon.  
 
 ## Web API Sample Matrix  
- The following table describes the Dynamics 365 for Customer Engagement Web API samples and their language-specific implementations.  
+ The following table describes the Dynamics 365 for Customer Engagement apps Web API samples and their language-specific implementations.  
 
 |Language-neutral description|C# implementation|Client-side JavaScript implementation|  
 |-----------------------------------|------------------------|--------------------------------------------|  
@@ -61,7 +61,7 @@ You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] C
 |[Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)|Under construction.|  
 
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Web API Basic Operations Sample](web-api-basic-operations-sample.md)   
  [Web API Query Data Sample](web-api-query-data-sample.md)   
  [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)   

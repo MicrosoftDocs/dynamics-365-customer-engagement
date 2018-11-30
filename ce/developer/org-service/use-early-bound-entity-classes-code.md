@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, the code generation tool ([!INCLUDE[sdk_CodeGenUtility](../../includes/sdk-codegenutility.md)]) creates early-bound entity classes that you can use to access business data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. These classes include one class for each entity in your installation, including custom entities. Each time you make customizations to your system, you must regenerate these classes. The classes can be used in any project type or built into a class library. You can use early-bound entity classes when creating applications that use [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] as well as plug-ins and custom workflow activities. For more information about using the code generation tool, see [Create Early-Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md).  
+In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, the code generation tool ([!INCLUDE[sdk_CodeGenUtility](../../includes/sdk-codegenutility.md)]) creates early-bound entity classes that you can use to access business data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. These classes include one class for each entity in your installation, including custom entities. Each time you make customizations to your system, you must regenerate these classes. The classes can be used in any project type or built into a class library. You can use early-bound entity classes when creating applications that use [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] as well as plug-ins and custom workflow activities. For more information about using the code generation tool, see [Create Early-Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md).  
   
  The advantages to using early-bound entity classes is that all type references are checked at compile time. The compiled executable contains the code necessary to invoke the types’ properties, methods, and events. For more information, see [Use the Early Bound Entity Classes for Create, Update and Delete](use-early-bound-entity-classes-create-update-delete.md).  
   
@@ -64,7 +64,7 @@ new_bankaccount bankaccount = New new_bankaccount();bankaccount.new_accountnumbe
 [Sample: Serialize and Deserialize an Entity](sample-serialize-deserialize-entity-instance.md)  
   
 ## Code generation example  
- The code generation tool creates classes based on the entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. For example, the code generation tool creates the following class for the `Team` entity.  
+ The code generation tool creates classes based on the entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. For example, the code generation tool creates the following class for the `Team` entity.  
   
 ```csharp  
 /// <summary>  
@@ -1799,7 +1799,7 @@ this.OnPropertyChanged("TransactionCurrency_Team");
 ```  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement on the server](../extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)   
  [Use the Organization Service Context Class](use-the-organizationservicecontext-class.md)   
  [Use the Early Bound Entity Classes for Create, Update and Delete](use-early-bound-entity-classes-create-update-delete.md)   
  [Use the early bound entity classes to associate records](use-early-bound-entity-classes-associate-records.md)   

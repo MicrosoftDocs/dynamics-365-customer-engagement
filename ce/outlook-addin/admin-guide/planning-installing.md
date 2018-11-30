@@ -1,5 +1,5 @@
 ---
-title: "Planning and installing Dynamics 365 for Customer Engagement for Outlook for Microsoft Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement Online | MicrosoftDocs"
+title: "Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement Online | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Planning and installing Dynamics 365 for Customer Engagement for Outlook for Microsoft Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement Online
+# Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement Online
 [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] enables access to the same data through [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] as the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Web client. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users who need access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while they are using the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] application.  
   
 > [!IMPORTANT]

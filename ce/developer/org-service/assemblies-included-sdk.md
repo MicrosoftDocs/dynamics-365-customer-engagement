@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement has several programming assemblies that you can use when writing custom code.  
+[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps has several programming assemblies that you can use when writing custom code.  
 
  The following table lists the assemblies that are included in the SDK.  
 
@@ -63,9 +63,9 @@ search.app:
 |                                                                 | <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase> |                                                                                                                                         Provides classes and methods to define properties and customizations for the Customer Engagement package.                                                                                                                                         |
 
 ### See also  
- [Programming models for Dynamics 365 for Customer Engagement](../programming-models.md)   
+ [Programming models for Dynamics 365 for Customer Engagement apps](../programming-models.md)   
  [Use the Early Bound Entity Classes](use-early-bound-entity-classes-code.md)   
  [Use the Late Bound Entity Class](use-late-bound-entity-class-code.md)   
- [Use Dynamics 365 for Customer Engagement Services](use-services-in-code.md)   
+ [Use Dynamics 365 for Customer Engagement apps Services](use-services-in-code.md)   
  [Entity and attribute naming conventions](entity-attribute-naming-conventions.md)   
  [Introduction to entity attributes](../introduction-entity-attributes.md)

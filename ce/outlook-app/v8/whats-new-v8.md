@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement App for Outlook User's version 8.2"
-description: "Updates to Dynamics 365 for Customer Engagement App for Outlook version 8.2."
+title: "Dynamics 365 App for Outlook User's version 8.2"
+description: "Updates to Dynamics 365 App for Outlook version 8.2."
 ms.custom: ""
 ms.date: 07/24/2018
 ms.reviewer: ""
@@ -24,7 +24,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# What's new with Dynamics 365 for Customer Engagement App for Outlook version 8.2
+# What's new with Dynamics 365 App for Outlook version 8.2
 
 [!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 

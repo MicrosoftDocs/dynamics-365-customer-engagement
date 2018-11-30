@@ -1,5 +1,5 @@
 ---
-title: "Example of going offline with Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Example of going offline with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Example of going offline with Dynamics 365 for Customer Engagement for Outlook
+# Example of going offline with Dynamics 365 for Outlook
 Salespeople can make critical customer information available and up-to-date on business trips with filters. By specifying only the data you need to synchronize with your laptop, you can avoid wasting valuable laptop memory, stay current with the head office, and keep information on your laptop fresh. Meanwhile, managers and co-workers are up-to-date.  
   
  Using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you can set up and activate filters with criteria similar to Advanced Find by specifying the criteria for the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that you want to be available when you go offline. In addition, you can change what data will be available when you synchronize by activating and deactivating the filters.  
@@ -80,5 +80,5 @@ Salespeople can make critical customer information available and up-to-date on b
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
 ### See also  
- [Work offline with Dynamics 365 for Customer Engagement for Outlook](work-offline-dynamics-365-outlook.md)   
- [Choose records to work with offline in Dynamics 365 for Customer Engagement for Outlook](choose-records-work-offline.md)
+ [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
+ [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)

@@ -1,5 +1,5 @@
 ---
-title: "Import data (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Import data (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Overview of the data import feature, which enables data upload from various customer relationship management systems and other data sources."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -19,7 +19,6 @@ helpviewer_keywords:
   - "uploading data from different systems and sources into Microsoft Dynamics CRM"
   - "importing data in Microsoft Dynamics CRM, general tasks"
 ms.assetid: 4ab8f0b9-eb38-45b1-9026-b0415f1ab30e
-caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -32,11 +31,11 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use the *data import* feature. Data import lets you upload data from various customer relationship management systems and data sources into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can import data into standard and customized attributes of most business and custom entities. You can also include related data, such as notes and attachments.  
+If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you can use the *data import* feature. Data import lets you upload data from various customer relationship management systems and data sources into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. You can import data into standard and customized attributes of most business and custom entities. You can also include related data, such as notes and attachments.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a web application tool called Import Data Wizard. You use this tool to import data records from one or more comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps include a web application tool called Import Data Wizard. You use this tool to import data records from one or more comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files.  
   
- For more information about the Import Data Wizard, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Help.  
+ For more information about the Import Data Wizard, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Help.  
   
  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web services provide the following additional capabilities that aren’t available in the Import Data Wizard:  
   
@@ -52,7 +51,7 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
   
 - Add `LookupMap`XML tags in the data map to indicate that the data lookup will be initiated and performed on a source file that is used in the import.  
   
-- Add custom `OwnerMetadata`XML tags in the data map to match the user records in the source file with the records of the user (system user) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+- Add custom `OwnerMetadata`XML tags in the data map to match the user records in the source file with the records of the user (system user) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 - Use optional validation checks.  
   
@@ -73,7 +72,7 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
   
 - Transform the parsed data.  
   
-- Upload the transformed data into the target [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
+- Upload the transformed data into the target [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server.  
   
   You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
   
@@ -100,4 +99,4 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
  [Sample: Import Data Using Complex Data Map](sample-import-data-complex-data-map.md)  
   
 ## Related Sections  
- [Data Management in Dynamics 365 for Customer Engagement](manage-data.md)
+ [Data Management in Dynamics 365 for Customer Engagement apps](manage-data.md)

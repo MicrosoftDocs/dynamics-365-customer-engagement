@@ -1,6 +1,6 @@
 ---
-title: "Create a unit group and add units to that group (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 for Customer Engagement for Sales."
+title: "Create a unit group and add units to that group (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 for Sales."
 keywords: "unit, unit group, measurement, quantity"
 ms.date: 10/09/2018
 ms.service:
@@ -10,7 +10,7 @@ ms.custom:
 ms.topic: article
 applies_to:
   - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: af99268c-9dc3-4037-b3cc-3d2a0eb2b296
 author: shubhadaj
 ms.author: shujoshi

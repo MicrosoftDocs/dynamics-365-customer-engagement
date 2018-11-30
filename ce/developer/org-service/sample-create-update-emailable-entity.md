@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with entity metadata](https://code.msdn.microsoft.com/Samples-of-entities-916efa41).  
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Work with entity metadata](https://code.msdn.microsoft.com/Samples-of-entities-916efa41).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[entities#CreateUpdateEmailableEntity](../../snippets/csharp/CRMV8/entities/cs/createupdateemailableentity.cs#createupdateemailableentity)]  
   
 ### See also  
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](use-organization-service-metadata.md)   
  [Customize entity metadata](../customize-entity-metadata.md)   
  [Sample: Dump Entity Metadata to a File](sample-dump-entity-metadata-file.md)   
  [Create and Update an Emailable Entity](create-update-entity-emailed.md)

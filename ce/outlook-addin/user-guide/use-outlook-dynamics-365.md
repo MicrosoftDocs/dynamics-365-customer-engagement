@@ -22,6 +22,6 @@ search.app:
   - D365Outlook
 ---
 # Use Outlook with Dynamics 365 for Customer Engagement
-[Dynamics 365 for Customer Engagement for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)  
+[Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)  
   
-[Dynamics 365 for Customer Engagement App for Outlook User's Guide, version 8.2](../../outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md)
+[Dynamics 365 App for Outlook User's Guide, version 8.2](../../outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md)

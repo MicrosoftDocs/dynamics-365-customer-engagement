@@ -24,9 +24,9 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
+The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
   
-Clients applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
+Clients applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
   
 In addition to datacenter specific Discovery services, that are available on the 2011 (SOAP) endpoint and through the Web API, there is also a Web API only global Discovery service that spans all operational datacenters. For more information about the Discovery service on the 2011 endpoint see [Discover the URL for your organization using the Organization Service](../org-service/discover-url-organization-organization-service.md).  
   
@@ -38,7 +38,7 @@ Organization information is stored in the `Instance` entity of the Discovery ser
 GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName='myorg')  
 ```  
   
-In the above example, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
+In the above example, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
   
 ### Scope of the returned information
 
@@ -62,7 +62,7 @@ In general, the Web API address of the Discovery service has the following forma
 
 The service base address of the global Discovery service is : `https://globaldisco.crm.dynamics.com/`. This results in the service address of `https://globaldisco.crm.dynamics.com/api/discovery/`.  
   
-The service base address of the Discovery service for a datacenter is : `https://disco.crm[N].dynamics.com/`. This results in the Discovery service address of `https://disco.crm[N].dynamics.com/api/discovery/`. Each datacenter has an N number associated with it. For a complete list of available [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] datacenters, and their N numbers,  see [Download endpoints using Developer resources page](../developer-resources-page.md).  
+The service base address of the Discovery service for a datacenter is : `https://disco.crm[N].dynamics.com/`. This results in the Discovery service address of `https://disco.crm[N].dynamics.com/api/discovery/`. Each datacenter has an N number associated with it. For a complete list of available [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps datacenters, and their N numbers,  see [Download endpoints using Developer resources page](../developer-resources-page.md).  
   
 ### On-premises and IFD Discovery service
 
@@ -75,13 +75,13 @@ The service base address of the Discovery service for an on-premises or IFD depl
   
 ### Authentication
 
-[!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Web API instances of the Discovery service require authentication with OAuth access tokens. On-premise or IFD instances of the Discovery Web API adopt the authentication model of their deployment, supporting either Integrated Windows Authentication (IWA) or OAuth tokens from a trusted token provider. Web Application Session authentication is not supported.  
+[!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps Web API instances of the Discovery service require authentication with OAuth access tokens. On-premise or IFD instances of the Discovery Web API adopt the authentication model of their deployment, supporting either Integrated Windows Authentication (IWA) or OAuth tokens from a trusted token provider. Web Application Session authentication is not supported.  
   
 When the Discovery service is configured for OAuth authentication, a request sent  to the service Web API without an access token triggers a bearer challenge with the authority of the “common” endpoint and the resource ID of the service.  Similarly, when an on-premise deployment is configured for OAuth, a bearer challenge returns the on-premise authority URL and the resource ID of the service.  
   
 ### Web API versioning
 
-Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service . However, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is not tied to the version number of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment. Instead, the global service uses its own version numbering. As of this writing, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is at version 1.0 (v1.0). For example:  
+Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service . However, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps is not tied to the version number of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment. Instead, the global service uses its own version numbering. As of this writing, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps is at version 1.0 (v1.0). For example:  
   
 ```http  
 GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName='myorg')  
@@ -89,7 +89,7 @@ GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName
   
 ### CORS support
 
-The Discovery service Web API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement](../oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
+The Discovery service Web API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps](../oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ### Examples  
   

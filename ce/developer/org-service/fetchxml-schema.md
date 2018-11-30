@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The FetchXML query language is used to create queries against the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement database. The following is the schema for the FetchXML query language. For more information, see [Use FetchXML to Construct a Query](use-fetchxml-construct-query.md).
+The FetchXML query language is used to create queries against the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps database. The following is the schema for the FetchXML query language. For more information, see [Use FetchXML to Construct a Query](use-fetchxml-construct-query.md).
 
 You can find this schema in the `Schemas\9.0.0.2090\Fetch.xsd` folder when you download the Schemas zip file.
 Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
@@ -575,5 +575,5 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
   
 ### See also  
  [Retrieve data with queries](retrieve-data-queries-sdk-assemblies.md)   
- [Schemas used in Dynamics 365 for Customer Engagement](../schemas-used-dynamics-365.md)   
+ [Schemas used in Dynamics 365 for Customer Engagement apps](../schemas-used-dynamics-365.md)   
  [Build Queries with FetchXML](build-queries-fetchxml.md)

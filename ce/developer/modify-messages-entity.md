@@ -1,5 +1,5 @@
 ---
-title: "Modify the messages for an entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Modify the messages for an entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about editing the entity messages by exporting, editing, and importing translations."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -36,7 +36,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-When you customize system entity or system attribute display names, some messages displayed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement will reference the default display names. Edit the default messages to match your customized display names.  
+When you customize system entity or system attribute display names, some messages displayed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps will reference the default display names. Edit the default messages to match your customized display names.  
   
 ## Edit messages by exporting, editing, and importing translations
 

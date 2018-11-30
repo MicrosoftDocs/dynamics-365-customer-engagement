@@ -392,7 +392,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
      You should take the time before your update to verify that customizations are compatible. You should do this early enough that you have time to fix any identified issues. Additionally, Microsoft will run a number of automated tests, and if any of those tests fail in your instance, we will email the administrator a list of potential issues we have identified.  
 
-5. **Create a non-production (Sandbox) instance in which you can test your customizations.**  
+5. **Create a non-Production (Sandbox) instance in which you can test your customizations.**  
 
      Ideally, you should test your customizations prior to update. This will also give you the opportunity to verify compatibility of any third-party customizations. If you identify any potential issues, please work with the solution provider to correct any issues that arise. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)  
 

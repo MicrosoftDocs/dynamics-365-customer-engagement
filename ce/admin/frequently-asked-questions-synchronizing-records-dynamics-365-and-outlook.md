@@ -42,7 +42,7 @@ search.app:
 ## How often are records synchronized through server-side sync?  
  If you synchronize records with [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)], the process is dynamic and unique for each user’s mailbox. The synchronization algorithm ensures that mailboxes are synced according to dynamic parameters such as the number of email messages and the activity within the mailbox. Normally, email synchronization occurs every 5 minutes. When a mailbox has many email messages, the interval can be reduced dynamically to 2 minutes. If the mailbox is less active, the interval can be increased up to 12 minutes. Generally speaking, you can assume that a mailbox will be synced at least once every 12 minutes. 
 
-However, when you use Dynamics 365 for Customer Engagement App for Outlook to track or set the regarding record for an email or appointment, synchronization happens immediately in most scenarios for received emails and sent appointments. If the immediate synchronization in Dynamics 365 for Customer Engagement App for Outlook fails, we leverage server-side synchronization to create or update the activity record in Dynamics 365 for Customer Engagement.
+However, when you use Dynamics 365 App for Outlook to track or set the regarding record for an email or appointment, synchronization happens immediately in most scenarios for received emails and sent appointments. If the immediate synchronization in Dynamics 365 App for Outlook fails, we leverage server-side synchronization to create or update the activity record in Dynamics 365 for Customer Engagement.
   
 ## Where can I find information on troubleshooting server-side synchronization issues?  
  You can find information on troubleshooting and known issues here: [Troubleshooting and things to know about server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md).  
@@ -59,6 +59,6 @@ However, when you use Dynamics 365 for Customer Engagement App for Outlook to tr
   
 ### See also 
  [Integrate your email system with Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md)   
- [Dynamics 365 for Customer Engagement App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
+ [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)

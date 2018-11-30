@@ -34,20 +34,20 @@ Charts on the Unified Interface framework, give you a quick view of how you’re
 
 -   To view records in chart or refresh the chart, choose ![More commands](media/MoreButton.png "More commands") and then choose an  action: **Refresh** or **View Records**.
             
-     ![Dynamics 365 for Customer Engagement for phones and tablets expand and table view of a chart](media/TrackProgressWithCharts_18.png "Dynamics 365 for Customer Engagement for phones and tablets expand and table view of a chart")  
+     ![Dynamics 365 for phones and tablets expand and table view of a chart](media/TrackProgressWithCharts_18.png "Dynamics 365 for phones and tablets expand and table view of a chart")  
   
     ![Record view of chart](../mobile-app/media/Recordview.png "Record view of chart") 
        
 
 Two dimensions charts like Line, Bar, Column, and Area support zooming. Single dimension charts like, Funnel, Doughnut, Pie, and Tag chart don’t support zooming.
 
-![Dynamics 365 for Customer Engagement for phones how to zoom](media/ZoomOnMobilePhone_19.png "Dynamics 365 for Customer Engagement for phones and tablets how to zoom")
+![Dynamics 365 for phones how to zoom](media/ZoomOnMobilePhone_19.png "Dynamics 365 for phones and tablets how to zoom")
 
 **Change the chart view**
  
 Changing the chart view shows you a different breakdown of your data, such as opportunities opened within a specific time period. You can change a chart view by selecting the View selector on the Grid page.
 
-![Dynamics 365 for Customer Engagement for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for Customer Engagement for phones and tablets chnage a chart view")
+![Dynamics 365 for Customer Engagement for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets chnage a chart view")
 
 For example, choose "All Opportunities", then select a different view, both chart and grid will get refreshed.
 

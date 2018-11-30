@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement for Outlook support | MicrosoftDocs"
+title: "Dynamics 365 for Outlook support | MicrosoftDocs"
 ms.custom: ""
 ms.date: 04/04/2017
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Dynamics 365 for Customer Engagement for Outlook support
+# Dynamics 365 for Outlook support
 This topic contains links to information about the supported software requirements for [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
   
 > [!IMPORTANT]
@@ -39,11 +39,11 @@ This topic contains links to information about the supported software requiremen
   
 <a name="BKMK_Office"></a>   
 ## Microsoft Office  
- For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Customer Engagement for Outlook software requirements](software-requirements.md).  
+ For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
 <a name="BKMK_Windows"></a>   
 ## Microsoft Windows  
- For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Customer Engagement for Outlook software requirements](software-requirements.md).  
+ For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
 ### See Also  
- [Microsoft Dynamics 365 for Customer Engagement for Outlook hardware requirements](hardware-requirements.md)   
+ [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md)   

@@ -3,7 +3,7 @@ title: "View user activity on a portal for Dynamics 365 for Customer Engagement 
 description: "Instructions to view activity of a user on a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +28,7 @@ Jay is the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] administr
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
 
 To view activity of a user on a portal:
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to view user’s activity, and then select **Manage**.
 3. Select **Portal Analytics**. The Tracking Portal Interaction page is displayed.
 4. Select **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.

@@ -31,9 +31,9 @@ You can use the Tenant to Tenant Migration feature for Dynamics 365 for Customer
 There are no user-interface changes or version changes as part of this move. You can move one or multiple Dynamics 365 for Customer Engagement (online) instances. Once complete, your Dynamics 365 for Customer Engagement (online) instance(s) will appear in your new tenant.
 
 > [!IMPORTANT]
-> <!-- For versions prior to Dynamics 365 for Customer Engagement (online) version 9.0,-->When moving individual Dynamics 365 for Customer Engagement (online) instances from one tenant to another, if that requires a geographical region change, your tenant becomes a multiregional tenant. Regional features are enabled in the Dynamics 365 admin center  .
+> <!-- For versions prior to Dynamics 365 for Customer Engagement (online) version 9.0,-->When moving individual Dynamics 365 for Customer Engagement (online) instances from one tenant to another, if that requires a geographical region change, your tenant becomes a multiregional tenant. Regional features are enabled in the Dynamics 365 admin center.
 > 
-> You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Customer Engagement for Outlook, server-side sync, SharePoint integration, etc.
+> You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Outlook, server-side sync, SharePoint integration, etc.
 >
 > Dynamics 365 for Customer Engagement (online) version 9.0 does not currently support tenant to tenant migration. Check back later for availability. 
 
@@ -51,7 +51,7 @@ In order to perform this operation, you'll need to provide some information, suc
 
 If you do not have a Dynamics 365 for Customer Engagement subscription and/or trial in the destination tenant, then you will need to create one. You might need to purchase a new Dynamics 365 for Customer Engagement subscription in the destination tenant (or convert a trial to paid), if not already done.
 
-You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source instance type and destination instance type must match (production vs non-production (Sandbox)). These instances should also be version 8.2.2 or below. The users to be migrated from one tenant to another need to be created on the target tenant as well.
+You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source instance type and destination instance type must match (Production vs non-Production (Sandbox)). These instances should also be version 8.2.2 or below. The users to be migrated from one tenant to another need to be created on the target tenant as well.
 
 The destination tenant needs an equal or higher number of active user licenses, Dynamics 365 for Customer Engagement instance licenses for the instances being migrated, and equal or greater storage as the source tenant.
 

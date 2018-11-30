@@ -85,7 +85,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 - System Administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] that you want to manage the encryption key.  
   
 ### Subscription requirements  
- The ability to self-manage database encryption keys requires either Dynamics 365 for Customer Engagement Plan or Dynamics 365 for Customer Engagement Plan.  
+ The ability to self-manage database encryption keys requires the Dynamics 365 for Customer Engagement Plan.  
   
 ### Encryption key requirements  
  If you provide your own encryption key, your key must meet  these  requirements that are accepted by [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  
@@ -99,6 +99,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 For more information about the key types supported by Key Vault by uploading the file in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  Only the encrypted version of your key leaves the original workstation.  For more information about generating and transferring an HSM-protected key over the Internet see [How to generate and transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys).  
   
 <a name="keymgt_tasks"></a>   
+
 ## Key management tasks  
  The following sections describe the tasks you can perform when you choose to self-manage the database encryption key for one or more instances.  
   
@@ -107,7 +108,7 @@ For more information about the key types supported by Key Vault by uploading the
   
 1. Sign in to the [Office 365 Admin center](https://portal.office.com).  
   
-2. Expand **Admin centers**, and then click **Dynamics 365 for Customer Engagement**.  
+2. Expand **Admin centers**, and then click **Dynamics 365**.  
   
 3. Click **Instance**, select the instance where you want to manage the database encryption key, and then click **Edit**.  
   

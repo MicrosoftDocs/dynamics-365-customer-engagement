@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/17/2018
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Troubleshooting and things to know about Microsoft Dynamics 365 for Customer Engagement for Outlook
+# Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook
 This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation and upgrade issues.  
   
 > [!TIP]
@@ -33,7 +33,7 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
 ### Common Data Service for Apps
 
-Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Common Data Service for Apps 2.0. 
+Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for Apps 2.0. 
 
 <a name="BKMK_AssignedTasks"></a>   
 ### Assigned tasks not updated in Outlook after updated in Dynamics 365 for Customer Engagement  
@@ -75,7 +75,7 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
 ### Some fields synchronize data when an activity is created despite synchronization settings  
  When an activity is created, such as a task, some fields may synchronize even if field synchronization is set to not sync. This is a known issue as some fields cannot have an empty value.  
   
-### Users in a different domain cannot install Dynamics 365 for Customer Engagement for Outlook  
+### Users in a different domain cannot install Dynamics 365 for Outlook  
  If the user domain account is in a domain different from the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the user will receive an error message (see below) when installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This is not a supported scenario.  
   
  **Error message**  
@@ -141,10 +141,10 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
    -   MSSQL$Dynamics 365 for Customer Engagement  
   
 <a name="BKMK_OC_disableButton"></a>   
-## Disable the Dynamics 365 for Customer Engagement for Outlook notification bar on the Web application  
- By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 for Customer Engagement web application displays a **Get Dynamics 365 for Customer Engagement for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
+## Disable the Dynamics 365 for Outlook notification bar on the Web application  
+ By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 for Customer Engagement web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
   
-### Remove the Get Dynamics 365 for Customer Engagement for Outlook button from the Microsoft Dynamics 365 for Customer Engagement web application  
+### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 for Customer Engagement web application  
   
 1. With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 for Customer Engagement web application.  
   
@@ -154,7 +154,7 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
   
 4. Click the **Outlook** tab.  
   
-5. Set the value for **Users see “Get Dynamics 365 for Customer Engagement for Outlook” option displayed in the message bar** to **No**.  
+5. Set the value for **Users see “Get Dynamics 365 for Outlook” option displayed in the message bar** to **No**.  
   
 6. Click **OK** to close System Settings.  
   

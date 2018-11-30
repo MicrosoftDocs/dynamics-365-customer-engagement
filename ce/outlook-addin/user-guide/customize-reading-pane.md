@@ -1,5 +1,5 @@
 ---
-title: "Customize the Reading Pane in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Customize the Reading Pane in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize the Reading Pane in Dynamics 365 for Customer Engagement for Outlook
+# Customize the Reading Pane in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], you can choose the sections in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are displayed in the Reading Pane so that you don't have to open the record to see the details.  
   
 1. In the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Navigation Pane, click your organization.  
@@ -47,5 +47,5 @@ When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outloo
 7. Click **OK**.  
   
 ### See also  
- [Do your Dynamics 365 for Customer Engagement work in Outlook using Dynamics 365 for Customer Engagement for Outlook](dynamics-365-work-outlook.md)   
- [Overview of tracking records in Dynamics 365 for Customer Engagement for Outlook](overview-tracking-records.md)   
+ [Do your Dynamics 365 for Customer Engagement work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   

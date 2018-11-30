@@ -1,5 +1,5 @@
 ---
-title: "Advanced deployment options for Microsoft Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Advanced deployment options for Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -22,6 +22,6 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Advanced deployment options for Microsoft Dynamics 365 for Customer Engagement for Outlook
+# Advanced deployment options for Microsoft Dynamics 365 for Outlook
 This section describes advanced deployment options that can be used for a large scale deployment of [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  
   

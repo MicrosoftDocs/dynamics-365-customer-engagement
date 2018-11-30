@@ -1,5 +1,5 @@
 ---
-title: "How field security affects synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "How field security affects synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# How field security affects synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Customer Engagement for Outlook
+# How field security affects synchronization between Dynamics 365 for Customer Engagement and Dynamics 365 for Outlook
 Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] with field level security can impact synchronization between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Consider the following scenario.  
   
 > [!NOTE]

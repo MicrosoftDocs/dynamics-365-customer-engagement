@@ -33,11 +33,11 @@ To view a sample application that uses the helper code and includes the required
  A non-customized early-bound types file that is named `MyOrganizationCrmSdkTypes` is included in the `Microsoft.CrmSdk.Samples.HelperCode-CS` NuGet package to help get you started. However, if your organization has custom or customized entities, you should generate a new early-bound types file. For the purposes of this documentation, the generated classes are included in the global namespace. For more information, see [Create Early Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md).  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement on the server](../extend-dynamics-365-server.md)   
- [Best practices for developing with Dynamics 365 for Customer Engagement](../best-practices-sdk.md)   
+ [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)   
+ [Best practices for developing with Dynamics 365 for Customer Engagement apps](../best-practices-sdk.md)   
  [Helper Code: ServerConnection Class](helper-code-serverconnection-class.md)  
  [Helper Code: SystemUserProvider class](helper-code-systemuserprovider-class.md)   
  [Helper Code: Enumerations for Option Sets](helper-code-enumerations-option-sets.md)   
- [Sample code directory for Dynamics 365 for Customer Engagement](../sample-code-directory.md)   
- [Assemblies Included in the Dynamics 365 for Customer Engagement SDK](assemblies-included-sdk.md)   
- [Use Dynamics 365 for Customer Engagement Services in Code](use-services-in-code.md)
+ [Sample code directory for Dynamics 365 for Customer Engagement apps](../sample-code-directory.md)   
+ [Assemblies Included in the Dynamics 365 for Customer Engagement SDK apps](assemblies-included-sdk.md)   
+ [Use Dynamics 365 for Customer Engagement apps Services in Code](use-services-in-code.md)

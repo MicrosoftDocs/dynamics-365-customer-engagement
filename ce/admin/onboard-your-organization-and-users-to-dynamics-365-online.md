@@ -220,18 +220,18 @@ For more advanced scenarios, consider the following development tools: [Solution
 
   
 <a name="Outlook"></a>   
-### Set up Dynamics 365 for Customer Engagement App for Outlook  
+### Set up Dynamics 365 App for Outlook  
  Your users can tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the familiar [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] environment. Working with a tool they already know speeds up the learning curve and makes them more productive.  
   
  Before deploying [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], you must connect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] using server-side synchronization.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Dynamics 365 for Customer Engagement App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
+-   [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
   
 -   [Set up server-side sync](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
   
--   [Deploy Dynamics 365 for Customer Engagement App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)  
+-   [Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)  
   
 <a name="SharePoint"></a>   
 ### Integrate SharePoint document management  
@@ -413,12 +413,12 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 -   [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 <a name="InstallOutlook"></a>   
-### Install Dynamics 365 for Customer Engagement App for Outlook  
+### Install Dynamics 365 App for Outlook  
  Starting with a tool your users already know speeds up the learning curve and improves productivity.  
   
  If you have deployed [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to your organization, your users can install the app themselves.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
   
 <a name="Office"></a>   
 ### Use Office apps with Dynamics 365 for Customer Engagement  
