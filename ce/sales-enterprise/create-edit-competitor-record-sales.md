@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: fb1a7bdd-0a49-4177-bc95-5837b8c79b60
 author: shubhadaj
 ms.author: shujoshi
@@ -30,7 +30,7 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 ## Create a competitor (Sales Hub)
 
-1.	Select the site map  ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Competitors**.
+1.	Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Competitors**.
 
 2.	On the command bar, select **New**.
 
