@@ -41,7 +41,7 @@ In the New Hosted Control screen:
 
 - Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
 
-- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 for Customer Engagement page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 for Customer Engagement pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
+- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 for Customer Engagement apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 for Customer Engagement apps pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.
 
@@ -62,8 +62,8 @@ This action loads a specific associated view of Dynamics 365 for Customer Engage
 | etn               | The name of the entity for which you want to load list of records of the associated entity.  This is a mandatory parameter|
 | Id                | The ID of the main entity record for which to display the associated entity records.                                    |
 | navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](/dynamics365/customer-engagement/developer/clientapi/reference/formcontext-ui-navigation)      |
-| hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 for Customer Engagement command bar. |
-| hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 for Customer Engagement navigation bar.     |
+| hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 for Customer Engagement apps command bar. |
+| hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 for Customer Engagement apps navigation bar.     |
 
 ### Close
 
@@ -150,7 +150,7 @@ This action moves a Unified Interface Page hosted control to a different panel a
 
 ### Navigate
 
-This action is used to navigate to a Dynamics 365 for Customer Engagement url. The App Id for the App that you select from **Select App Module** window is appended automatically.
+This action is used to navigate to a Dynamics 365 for Customer Engagement apps url. The App Id for the App that you select from **Select App Module** window is appended automatically.
 
 <table>
 <thead>
@@ -166,11 +166,11 @@ This action is used to navigate to a Dynamics 365 for Customer Engagement url. T
 </tr>
 <tr class="even">
 <td>HideCommandBar</td>
-<td>If this parameter is supplied and True, the inner frame will be displayed without loading the Dynamics 365 for Customer Engagement command bar.</td>
+<td>If this parameter is supplied and True, the inner frame will be displayed without loading the Dynamics 365 for Customer Engagement apps command bar.</td>
 </tr>
 <tr class="odd">
 <td>HideNavigationBar</td>
-<td>If this parameter is supplied and True, the form will be displayed without loading the Dynamics 365 for Customer Engagement navigation bar.</td>
+<td>If this parameter is supplied and True, the form will be displayed without loading the Dynamics 365 for Customer Engagement apps navigation bar.</td>
 </tr>
 <tr class="even">
 <td>Frame</td>
@@ -193,7 +193,7 @@ If a <!-- BEGIN ERROR INCLUDE: Unable to resolve [!INCLUDE[pn_unified_service_de
 
 ### New\_CRM\_Page
 
-Creates a page for creating a new Dynamics 365 for Customer Engagement record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
+Creates a page for creating a new Dynamics 365 for Customer Engagement apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
 
 | Parameter   | Description                                                 |
 |-------------|-------------------------------------------------------------|

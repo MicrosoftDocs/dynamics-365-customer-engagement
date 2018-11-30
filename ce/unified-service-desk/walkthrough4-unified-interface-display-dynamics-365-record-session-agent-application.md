@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement record in a session in your agent application | MicrosoftDocs"
+title: "Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
 keywords: ""
 ms.date: 05/07/2018

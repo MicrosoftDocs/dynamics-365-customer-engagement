@@ -54,7 +54,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 
  [Step 3: Add a toolbar and attach it to the toolbar container](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step3)  
 
- [Step 4: Add toolbar buttons and action calls to display Dynamics 365 for Customer Engagement records](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step4)  
+ [Step 4: Add toolbar buttons and action calls to display Dynamics 365 for Customer Engagement apps records](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step4)  
 
  [Step 5: Add the controls to the configuration](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step5)  
 
@@ -155,7 +155,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 9. Click **Save**.  
 
 <a name="Step4"></a>   
-## Step 4: Add toolbar buttons and action calls to display Dynamics 365 for Customer Engagement records  from Unified Interface Apps
+## Step 4: Add toolbar buttons and action calls to display Dynamics 365 for Customer Engagement apps records  from Unified Interface Apps
  In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is clicked, appropriate [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps records are displayed in the hosted controls that were created in step 1. You’ll configure the search button so that clicking the button displays the account and contact submenu items, and clicking a button displays the respective [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps records.  
 
 1. After you save the toolbar in step 3, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
