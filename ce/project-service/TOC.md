@@ -9,6 +9,10 @@
 ## [Resource management guide](implementation-guides/resource-management-guide.md)
 ## [Reporting guide](implementation-guides/reporting-guide.md) 
 
+# [Project Service upgrade (app version 3.x)](upgrade-psa-home-page.md)
+## [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
+## [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
+
 # Project Service (app version 3.x)
 ## [Pricing and costing dimensions](pricing-costing-dimensions.md)
 ### [Create custom fields and entities](create-custom-fields-entities.md)
