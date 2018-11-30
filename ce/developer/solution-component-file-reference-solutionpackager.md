@@ -1,5 +1,5 @@
 ---
-title: "Solution component file reference (SolutionPackager) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Solution component file reference (SolutionPackager) (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This topic describes the folder structure and file naming scheme used by the SolutionPackager tool. The tool is used to decompose (unpack) Dynamics 365 for Customer Engagement solution files into XML files that can be managed by a source code control system."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -422,4 +422,4 @@ Structurexml.xml
 ### See also  
  [Solution Tools for Team Development](solution-tools-team-development.md)   
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)   
- [Programming Reference for Dynamics 365 for Customer Engagement](programming-reference.md)
+ [Programming Reference for Dynamics 365 for Customer Engagement apps](programming-reference.md)

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Work with business process flows (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Work with business process flows (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage."
 ms.custom: ""
 ms.date: 04/05/2018
@@ -77,7 +77,7 @@ This sample demonstrates how to programmatically work with business process flow
 
    |                                 Prompt                                  |                                                                                             Description                                                                                             |
    |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Enter a Dynamics 365 for Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 for Customer Engagement server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
+   |      Enter a Dynamics 365 for Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 for Customer Engagement apps server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
    | Is this organization provisioned in Microsoft online services (y/n) [n] |                                                 Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.                                                  |
    |                          Enter domain\username                          |                                                                                    Type your Microsoft account.                                                                                     |
    |                             Enter password                              |                      Type your password. The characters will show as “\*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.                       |
