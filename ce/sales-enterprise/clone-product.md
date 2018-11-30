@@ -1,6 +1,6 @@
 ---
-title: "Clone a product (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Quickly create a copy of an existing product in Dynamics 365 for Customer Engagement for Sales including all its details by cloning it."
+title: "Clone a product (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Quickly create a copy of an existing product in Dynamics 365 for Sales including all its details by cloning it."
 keywords: "Clone, copy"
 ms.date: 04/01/2018
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 0abe6dc4-c8bc-4d09-aa4f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi
