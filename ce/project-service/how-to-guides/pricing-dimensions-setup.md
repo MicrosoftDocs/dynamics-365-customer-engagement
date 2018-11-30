@@ -25,6 +25,6 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
 We have updated the content of the Pricing dimensions setup guide and moved it into this document library. 
-To learn more about Setting up pricing dimensions, see [Pricing and costing dimensions](../pricing-costing-dimensions.md).
+To learn more about setting up pricing dimensions, see [Pricing and costing dimensions](../pricing-costing-dimensions.md).
  
-You can still access and download the [Pricing dimensions setup guide pdf](https://go.microsoft.com/fwlink/?linkid=2008805), however we will no longer be updating this guide. 
+You can still access and download the [Pricing dimensions setup guide (PDF)](https://go.microsoft.com/fwlink/?linkid=2008805), however we will no longer be updating this guide. 
