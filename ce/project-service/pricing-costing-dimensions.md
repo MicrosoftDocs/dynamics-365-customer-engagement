@@ -1,6 +1,6 @@
 ---
 
-title: Pricing and costing dimensions 
+title: Pricing and costing dimensions home page
 description: This topic provides an overview of pricing dimensions.
 author: rumant
 manager: eichimur
@@ -20,7 +20,7 @@ search.app:
     - D365PS
 ---
 
-# Pricing and costing dimensions 
+# Pricing and costing dimensions home page
 
 The dimensions that are used in human resources to set up pricing and costs fall into two categories:
 
@@ -52,7 +52,7 @@ If you need to price or cost for your resources using additional attributes, you
 ## Pricing human resource time
 How an organization prices human resource time is often an important strategic consideration that directly affects the organization's profitability. Work with the finance teams and practice heads when your organization is ready to identify how it wants to set up bill and cost rates for human resource time.
 
-Other considerations for pricing include whether to re-use fields or entities that are not currently pricing dimensions but apply as a pricing dimension for your organization. Fields like **Transaction Category** (**msdyn_transactioncategory**) and **Bookable Resource** (**bookableresource**) are examples of candidate dimensions.
+Other considerations for pricing include whether to re-use fields or entities that are not currently pricing dimensions but apply as a pricing dimension for your organization. Fields like **Transaction Category** (**msdyn_transactioncategory**) and **Bookable Resource** (**bookableresource**) are examples of candidate dimensions. 
 
 You should also consider whether your pricing dimension should be a table or an option set. If you foresee changes to the values of a dimension which will exceed 10 or 12 and you need additional attributes on these values, you could create an entity rather than an option set. Maintaining an option set, such as adding or removing values, requires an admin or developer whereas adding new rows to a table can be done by most users.
 
@@ -73,3 +73,9 @@ The following example shows bill rates that are set up based on the role and the
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
 
+For more information about pricing dimensions, see:
+
+- [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
+- [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
+- [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
+- [Turn off a pricing dimension](turn-off-pricing-dimension.md)
