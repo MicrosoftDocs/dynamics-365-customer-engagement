@@ -11,7 +11,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/distribute-survey
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Send out an invitation for your Voice of the Customer survey 
 You can invite respondents to take part in a [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  

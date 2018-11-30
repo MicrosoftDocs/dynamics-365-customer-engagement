@@ -11,7 +11,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Design your Voice of the Customer survey 
 Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], designed at least one theme, and made any planning decisions, it’s time to design your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey.  

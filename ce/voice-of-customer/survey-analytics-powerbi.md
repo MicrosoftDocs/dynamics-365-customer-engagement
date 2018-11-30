@@ -2,7 +2,7 @@
 title: "Survey analytics using Power BI (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to connect Voice of the Customer instance to Power BI and get insights about the surveys."
 keywords: "voice of the customer analytics, voice of the customer analytics app for power BI"
-ms.date: 04/23/2018
+ms.date: 11/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -11,18 +11,18 @@ applies_to:
 ms.assetid: 033D39F5-5CB1-436F-966A-74ED90C7E73D
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 
 ---
 
 # Survey analytics using Power BI
 
-Using the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app or service content pack for Power BI, you can connect to your Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
+Using the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app or service content pack for Power BI, you can connect to your Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
 
-## Install and configure Voice of the Customer Analytics for Dynamics 365 for Customer Engagement
+## Install and configure Voice of the Customer Analytics for Dynamics 365
 
-You can install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as an app or a service content pack. 
+You can install Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] as an app or a service content pack. 
 
 If you install it as an app:
 - You can view data only from your connected Voice of the Customer instance. 
@@ -33,7 +33,7 @@ If you install it as a service content pack:
 - You can edit the data to comply with your requirements. 
 - The service content pack isn't automatically upgraded—when a newer version of the service content pack is available, you must install it again. The new version will introduce copies of the dashboard, report, and dataset and won’t modify the already installed ones.
 
-After you install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish).
+After you install Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish).
 
 To install as an app:
 
@@ -45,9 +45,9 @@ To install as an app:
 
 4. In AppSource, select the **Apps** tab.
 
-5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
+5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
-6. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select **Next**.
+6. Enter the URL associated to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] account and select **Next**.
 
 7. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
 
@@ -67,9 +67,9 @@ To install as a service content pack:
 
 5. In AppSource, select the **Apps** tab.
 
-6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
+6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
-7. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select **Next**.
+7. Enter the URL associated to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] account and select **Next**.
 
 8. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
 
@@ -164,7 +164,7 @@ The data is displayed in the following tiles:
 
 ### Surveys
 
-The Survey page in the report displays insights of the surveys created in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. The data on the page is displayed in tiles. You can filter the data by using the following filters:
+The Survey page in the report displays insights of the surveys created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
 - **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
