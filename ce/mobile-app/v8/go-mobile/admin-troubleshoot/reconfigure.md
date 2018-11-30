@@ -1,5 +1,5 @@
 ---
-title: "Reconfigure Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Reconfigure Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 author: "mduelae"
@@ -25,17 +25,17 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Reconfigure Dynamics 365 for Customer Engagement for phones and tablets
+# Reconfigure Dynamics 365 for phones and tablets
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
-## Reconfigure the Dynamics 365 for Customer Engagement for tablets app  
+## Reconfigure the Dynamics 365 for tablets app  
  Reconfiguring deletes all data and metadata from the cache, though you shouldn't rely on this as a security measure.  
   
  If you sign out of one organization and sign in to another, and then use the Reconfigure option on the organization you signed in to, your metadata will still remain for the organization you signed out of. To remove your metadata from the organization you signed out of, you’ll need to sign in to it and use the Reconfigure option there, as well.  
   
  Here's how to do it:  
   
-1. Tap ![Dynamics 365 for Customer Engagement ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement ellipsis").  
+1. Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
   
 2. Tap **Settings**.  
   

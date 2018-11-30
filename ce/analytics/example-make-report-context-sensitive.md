@@ -49,7 +49,7 @@ The following steps describe how to set up a context-sensitive report in [!INCLU
    </fetch>  
    ```  
   
-3. When you upload the report to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] through the **Report: New** form, select all entities in the **Related Record Types** categorization that filtered views are referred to in the report's SQL code.  
+3. When you upload the report to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps through the **Report: New** form, select all entities in the **Related Record Types** categorization that filtered views are referred to in the report's SQL code.  
   
 4. In the **Display In** field, select **Forms for related record types** or **Lists for related record types**. Selecting Lists for related record types lets you run a report from the entity list grid. Selecting **Forms for related record types** lets you run a report from the entity form.  
   

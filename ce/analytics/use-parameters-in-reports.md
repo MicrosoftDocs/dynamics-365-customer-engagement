@@ -112,7 +112,7 @@ You use parameters in reports to control the data retrieved by prompting the use
 
 <a name="BKMK_Hidden"></a>   
 ## Hidden parameters  
- The Report Designer in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] has built-in support for hidden parameters. In addition, you can hide parameters by adding a CRM_ prefix to the parameter name in a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] report. By default, the parameters with a CRM_ prefix are hidden when the report is published through [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. When you run the report, you aren’t prompted to enter parameter values for the hidden parameters.  
+ The Report Designer in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] has built-in support for hidden parameters. In addition, you can hide parameters by adding a CRM_ prefix to the parameter name in a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps report. By default, the parameters with a CRM_ prefix are hidden when the report is published through [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. When you run the report, you aren’t prompted to enter parameter values for the hidden parameters.  
 
 ### Special parameters  
  The following table shows the special hidden parameters that you can use in your reports.  
@@ -135,7 +135,7 @@ You use parameters in reports to control the data retrieved by prompting the use
 |         `CRM_FullName`         |                        The full name of the user on whose behalf the report is running.                         |
 |       `CRM_UserTimeZone`       |                           User’s time zone name, for example, Pacific Standard Time.                            |
 |       `CRM_UILanguageId`       |                                       Current locale (LCID) of the user.                                        |
-|    `CRM_YearStartWeekCode`     |     The first week of the year that’s used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].      |
+|    `CRM_YearStartWeekCode`     |     The first week of the year that’s used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.      |
 |     `CRM_WeekStartDayCode`     |     The first day of the week that is used in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].      |
 |   `CRM_FiscalCalendarStart`    | The start date for the fiscal year that is used in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. |
 |     `CRM_FiscalPeriodType`     |                Specifies how the fiscal year is divided—Quarterly, Monthly, Annually and so on.                 |

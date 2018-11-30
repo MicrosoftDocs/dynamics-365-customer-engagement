@@ -40,7 +40,7 @@ In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the reports run
 ## Allowed types and denied members  
  The RDL Sandboxing feature enables you to create a list of approved types and a list of denied members. The list of approved types is called an allow list. The list of denied members that are not permitted in the RDL expressions is called a block list.  
   
- The following table contains a list of allowed types and denied members available in sandbox mode in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+ The following table contains a list of allowed types and denied members available in sandbox mode in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
 |Allowed Types|Denied Members|  
 |-------------------|--------------------|  

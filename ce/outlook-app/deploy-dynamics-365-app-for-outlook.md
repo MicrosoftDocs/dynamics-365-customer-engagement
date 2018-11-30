@@ -1,5 +1,5 @@
 ---
-title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/15/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps Version 9.x
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
 author: "mduelae"
@@ -40,9 +40,9 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 
 ## Known issues
 
-For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement Readme](../admin/readme-9.md).
+For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md).
 
-There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 for Customer Engagement within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
+There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 for Customer Engagement apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
 The Outlook App is not enabled on Common Data Service for Apps 2.0.
 
@@ -85,17 +85,17 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
-If you have custom security roles defined in Dynamics 365 for Customer Engagement, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
+If you have custom security roles defined in Dynamics 365 for Customer Engagement apps app, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
 1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**) 
 
-![Dynamics 365 for Customer Engagement My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement My Apps page") 
+![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
-![Dynamics 365 for Customer Engagement Manage Roles page](media/ManageRolesPage.png "Dynamics 365 for Customer Engagement Manage Roles page") 
+![Dynamics 365 for Customer Engagement apps Manage Roles page](media/ManageRolesPage.png "Dynamics 365 for Customer Engagement apps Manage Roles page") 
 
 3.  In the flyout that appears on the right, select the security roles to have access to App for Outlook and choose **Save**.
-![Dynamics 365 for Customer Engagement select a Role](media/ManageRolesPage2.png "Dynamics 365 for Customer Engagement select a role")
+![Dynamics 365 for Customer Engagement apps select a Role](media/ManageRolesPage2.png "Dynamics 365 for Customer Engagement apps select a role")
 
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  
@@ -127,7 +127,7 @@ If you have custom security roles defined in Dynamics 365 for Customer Engagemen
 (O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
 (M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
 
-Note: Dynamics 365 for Customer Engagement, version 9 is not available on-premises.
+Note: Dynamics 365 for Customer Engagement apps, version 9 is not available on-premises.
 
 (1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
 
@@ -153,7 +153,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
   
     -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
   
-    -   Your Dynamics 365 for Customer Engagement URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
+    -   Your Dynamics 365 for Customer Engagement apps URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
   
 -   Google Chrome (latest version) on Windows 
   
@@ -190,7 +190,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 <!--
 > [!NOTE]
->  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement on-premises users](#BKMK_DeployOnprem)  
+>  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps on-premises users](#BKMK_DeployOnprem)  
 --> 
 
 #### To push the app to users  
@@ -212,9 +212,9 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 #### To have users install the app themselves  
 
-1. Users click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement**.  
+1. Users click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
 
-2. In the **Apps for Dynamics 365 for Customer Engagement** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
+2. In the **Apps for Dynamics 365 for Customer Engagement apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
 
 > [!NOTE]
 >  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
@@ -222,13 +222,13 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 <!--    
 <a name="BKMK_DeployOnprem"></a>   
 
-## To deploy to Dynamics 365 for Customer Engagement on-premises users  
- Follow these steps if you're using Dynamics 365 for Customer Engagement on-premises.  
+## To deploy to Dynamics 365 for Customer Engagement apps on-premises users  
+ Follow these steps if you're using Dynamics 365 for Customer Engagement apps on-premises.  
 
--   Configure your Dynamics 365 for Customer Engagement server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/dn609803.aspx).  
+-   Configure your Dynamics 365 for Customer Engagement apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
 
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+-   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
 --> 
 
 ## Filter entities and views that appear in Dynamics 365 App for Outlook 
@@ -239,17 +239,17 @@ With the PowerApps App Designer, you can control the specific entities that appe
 1.  From the main menu navigate to **Settings** > **Customizations** > **Customize the System** > **Apps**. 
 2.  Double-click **Dynamics 365 App for Outlook** to open the App Designer
 
-   ![Dynamics 365 for Customer Engagement My Apps page](media/MyAppPage_1.png "Dynamics 365 for Customer Engagement My Apps page") 
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage_1.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
 3.  Choose **Add** > **Entities** and then select the entity you want to add and complete the addition by including all assets.
 
-   ![Dynamics 365 for Customer Engagement My Apps page](media/AddEntities_2.png "Dynamics 365 for Customer Engagement My Apps page")
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_2.png "Dynamics 365 for Customer Engagement apps My Apps page")
 
-   ![Dynamics 365 for Customer Engagement My Apps page](media/AddEntities_3.png "Dynamics 365 for Customer Engagement My Apps page")
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_3.png "Dynamics 365 for Customer Engagement apps My Apps page")
 
 4.  Review the list of Views that are available for the entity and deselect the ones you do not want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an entity and further, on one of the views defined for that entity.
 
-   ![Dynamics 365 for Customer Engagement My Apps page](media/ViewEntities_4.png "Dynamics 365 for Customer Engagement My Apps page")
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/ViewEntities_4.png "Dynamics 365 for Customer Engagement apps My Apps page")
 
 5.  Save your changes and publish the customization.
 

@@ -34,7 +34,7 @@ search.app:
  Instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
     
 <a name="PBI_edit_first"></a>   
-## Do this before you customize a Dynamics 365 for Customer Engagement content pack for Power BI reports  
+## Do this before you customize a Dynamics 365 for Customer Engagement apps content pack for Power BI reports  
  Before you customize a content pack, read  the information here and perform each task  as necessary.  
   
 ### Meet the requirements  
@@ -85,7 +85,7 @@ search.app:
     The content pack queries are updated. This may take several minutes.  
   
 <a name="PBI_edit_report"></a>   
-## Customize a Dynamics 365 for Customer Engagement content pack  
+## Customize a Dynamics 365 for Customer Engagement apps content pack  
  [Change the date format that is displayed in a report](#PBI_edit_date)  
   
  [Add a custom field to a report for any entity except Account](#PBI_edit_field)  
@@ -98,7 +98,7 @@ search.app:
   
 <a name="PBI_edit_date"></a>   
 ### Convert a DateTime field to a Date field for reporting  
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], some dates are saved in a Date/Time/Timezone format, which may not be the preferred format for aggregating data in  a report. You can convert the date displayed in reports for an entity field. For example, the Opportunity Created On field can be converted to a date to report the Opportunities created by day.  
+ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, some dates are saved in a Date/Time/Timezone format, which may not be the preferred format for aggregating data in  a report. You can convert the date displayed in reports for an entity field. For example, the Opportunity Created On field can be converted to a date to report the Opportunities created by day.  
   
 1. In Power BI Desktop, click **Edit Queries**.  
   
@@ -313,7 +313,7 @@ search.app:
   
 <a name="BPI_increaserows"></a>   
 ## Increase the number of rows queried  
- By default, all [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] entity queries in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content packs cannot exceed 100,000 rows. To increase the number of rows that can be queried, follow these steps.  
+ By default, all [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] entity queries in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps content packs cannot exceed 100,000 rows. To increase the number of rows that can be queried, follow these steps.  
   
 > [!IMPORTANT]
 >  Increasing the row count limit can significantly impact the time it takes for a report to refresh. Additionally, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service has a 30-minute limit for running queries. Use caution when increasing the row count limit.  
@@ -347,4 +347,4 @@ search.app:
 3. If multiple destinations are available, select the one you want, and then click **Publish**.  
   
 ### See also  
- [Use Power BI with Dynamics 365 for Customer Engagement](../admin/use-power-bi.md)
+ [Use Power BI with Dynamics 365 for Customer Engagement apps](../admin/use-power-bi.md)
