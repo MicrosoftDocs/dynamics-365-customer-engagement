@@ -1,5 +1,5 @@
 ---
-title: "Use Cortana voice commands in Dynamics 365 for Customer Engagement apps for phones | MicrosoftDocs"
+title: "Use Cortana voice commands in Dynamics 365 for phones | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -26,7 +26,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Use Cortana voice commands in Dynamics 365 for Customer Engagement apps for phones
+# Use Cortana voice commands in Dynamics 365 for phones
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 

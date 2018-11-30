@@ -44,7 +44,7 @@ search.app:
   
 4. On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address.  
   
-   ![Dynamics 365 for Customer Engagement apps for tablets Let's get started screen for iPad](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for Customer Engagement apps for tablets Let's get started screen for iPad")  
+   ![Dynamics 365 for tablets Let's get started screen for iPad](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
   
 5. Tap the **Arrow** button in the lower right corner to continue.  
   
@@ -59,7 +59,7 @@ search.app:
 ## Information for admins  
  For a list of supported phones and tablets, see the compatibility information in [What's supported](../mobile-app/support-phones-tablets.md).  
   
- For information on what your enterprise needs to do before using [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], see [Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+ For information on what your enterprise needs to do before using [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], see [Set up Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
   
  If you’re having problems with the app, see [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md).  
   

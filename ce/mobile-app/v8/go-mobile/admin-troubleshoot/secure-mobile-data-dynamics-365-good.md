@@ -50,7 +50,7 @@ search.app:
   
 4. On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address.  
   
-    ![Dynamics 365 for Customer Engagement apps for tablets Let's get started screen for iPad](../../../media/mobile-start-screen-apple.png "Dynamics 365 for Customer Engagement apps for tablets Let's get started screen for iPad")  
+    ![Dynamics 365 for tablets Let's get started screen for iPad](../../../media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
   
 5. Tap the **Arrow** button in the lower right corner to continue.  
   
@@ -63,9 +63,9 @@ search.app:
   
 <a name="bkmk4"></a>   
 ## Information for admins  
- For a list of supported phones and tablets, see the compatibility information in [TechNet: Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
+ For a list of supported phones and tablets, see the compatibility information in [TechNet: Support for Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
   
- For information on what your enterprise needs to do before using [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], see [TechNet: Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](https://technet.microsoft.com/library/dn531128.aspx).  
+ For information on what your enterprise needs to do before using [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], see [TechNet: Set up Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531128.aspx).  
   
  If you’re having problems with the app, see [TechNet: Troubleshooting and things to know about Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx).  
   

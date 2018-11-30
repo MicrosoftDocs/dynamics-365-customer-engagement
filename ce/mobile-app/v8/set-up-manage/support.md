@@ -1,5 +1,5 @@
 ---
-title: "Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets | MicrosoftDocs"
+title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/22/2018
 ms.reviewer: ""
@@ -22,13 +22,13 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets
+# Support for Dynamics 365 for phones and Dynamics 365 for tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../../../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
 
-CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for Customer Engagement apps for phones that’s based on and shares many of the features of Dynamics 365 for Customer Engagement apps for tablets. To use this new version of Dynamics 365 for Customer Engagement apps for phones, you must be running CRM Online 2015 Update 1 or later or Dynamics CRM 2016 on-premises or later.
+CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for phones that’s based on and shares many of the features of Dynamics 365 for tablets. To use this new version of Dynamics 365 for phones, you must be running CRM Online 2015 Update 1 or later or Dynamics CRM 2016 on-premises or later.
 
 > [!NOTE]
 > Tablet support requires Microsoft Dynamics CRM Online Fall ‘13 or later, or Microsoft Dynamics CRM 2015 or later.
@@ -37,11 +37,11 @@ CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for Customer E
 
 <a name="BKMK_CRMforPhones"></a>   
 
-## Support for Dynamics 365 for Customer Engagement apps for Phones
+## Support for Dynamics 365 for phones
 
 ### Version support
 
-Dynamics 365 for Customer Engagement apps for phones requires and can only connect to Microsoft Dynamics CRM Online 2015 Update 1 (online) or later (Windows Phone*, iPhone, and Android) or Microsoft Dynamics CRM 2016 (on-premises) or later (Windows PHone, iPhone, Android).
+Dynamics 365 for phones requires and can only connect to Microsoft Dynamics CRM Online 2015 Update 1 (online) or later (Windows Phone*, iPhone, and Android) or Microsoft Dynamics CRM 2016 (on-premises) or later (Windows PHone, iPhone, Android).
 
 Dynamics CRM for phones express is deprecated and will not connect to releases **after** Microsoft Dynamics CRM 2016.
 
@@ -57,7 +57,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 
 *Enhancements to the app require this minimum memory amount.
 
-## Support for Dynamics 365 for Customer Engagement apps for tablets
+## Support for Dynamics 365 for tablets
 
 ### Windows tablets
 

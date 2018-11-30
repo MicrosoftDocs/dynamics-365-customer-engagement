@@ -50,4 +50,4 @@ search.app:
  [Troubleshoot a Dynamics 365 for Customer Engagement apps for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
   
 ### See also  
- [Use Cortana voice commands in Dynamics 365 for Customer Engagement apps for phones](use-cortana-voice-commands.md)
+ [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)

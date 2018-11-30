@@ -1,5 +1,5 @@
 ---
-title: "Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets | MicrosoftDocs"
+title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/03/2017
 ms.reviewer: ""

@@ -54,7 +54,7 @@ search.app:
    ![Column resizing handles](../../../media/v6-mobile-column-resizing.png "Column resizing handles")  
   
 #### Sort items  
- You can also sort items in a grid in the Dynamics 365 for Customer Engagement apps for tablets app:  
+ You can also sort items in a grid in the Dynamics 365 for tablets app:  
   
 -   To sort in ascending order by a column, tap that column’s heading.  
   

@@ -220,7 +220,7 @@ Background sync will be disabled if:
 - The application closes for some reason. 
 - Your device locks. 
 
-  Background sync is available on all supported devices. See [Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](../set-up-manage/support.md).
+  Background sync is available on all supported devices. See [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../set-up-manage/support.md).
 
 ## Offline synchronization vs. Offline drafts  
  You’ll have one of two possible offline experiences, depending on which one your admin set up:  
@@ -242,7 +242,7 @@ Background sync will be disabled if:
 
 1.  From the menu, tap **Draft Records**.  
 
-    ![Dynamics 365 for Customer Engagement apps for phones save offline drafts](../../media/crm-ua-moca-offline-save-drafts.png "Dynamics 365 for Customer Engagement apps for phones save offline drafts")
+    ![Dynamics 365 for phones save offline drafts](../../media/crm-ua-moca-offline-save-drafts.png "Dynamics 365 for phones save offline drafts")
 
 2.  Select each record individually and tap **Save**.  
 

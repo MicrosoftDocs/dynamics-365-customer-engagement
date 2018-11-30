@@ -35,7 +35,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 > - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
     
 ## Install the app from your device’s app store  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Customer Engagement apps for phone and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
       
 <a name="BKMK_Signin"></a> 
 ## Signing in and signing out
@@ -69,7 +69,7 @@ You can sign in again as the same or a different user, or you can sign in to a d
 
 **Screen orientation**
 
-For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets apps cannot be changed. 
+For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for phones and Dynamics 365 for tablets apps cannot be changed. 
 
 **The navigation bar**
 
@@ -210,7 +210,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 Two dimensions charts like Line, Bar, Column, and Area support zooming. Single dimension charts like, Funnel, Doughnut, Pie, and Tag chart don’t support zooming.
 
-![Dynamics 365 for Customer Engagement apps for phones how to zoom](media/ZoomOnMobilePhone_19.png "Dynamics 365 for phones and tablets how to zoom")
+![Dynamics 365 for phones how to zoom](media/ZoomOnMobilePhone_19.png "Dynamics 365 for phones and tablets how to zoom")
 
 **Change the chart view**
  
@@ -330,7 +330,7 @@ The mobile app also lets you take notes and attach photos to a note, or take a n
 
 To add a note, open a record and in the notes area enter your note.
 
-![Dynamics 365 for phones and tablets add picture to notes](media/AddPictureToNotes_16.png "Dynamics 365 for Customer Engagement apps for phones add picture to note")
+![Dynamics 365 for phones and tablets add picture to notes](media/AddPictureToNotes_16.png "Dynamics 365 for phones add picture to note")
 
 ### Scan barcodes  
 Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
@@ -412,7 +412,7 @@ Other things to keep in mind about background sync:
   
 - Your device locks.  
   
-  Background sync is available on all supported devices. See [support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](../mobile-app/support-phones-tablets.md).  
+  Background sync is available on all supported devices. See [support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
  
 **Sync conflict resolution** 
 

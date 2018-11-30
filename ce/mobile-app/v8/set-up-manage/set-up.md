@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets | MicrosoftDocs"
+title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/22/2018
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets
+# Set up Dynamics 365 for phones and Dynamics 365 for tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -39,12 +39,12 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-
 ## Get started with [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
   
 ### Requirements  
- For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)], see [Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](support.md). 
+ For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support.md). 
   
-Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics 365 for Customer Engagement apps for tablets require the Microsoft Dynamics CRM Online Fall ‘13 release or later.
+Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics 365 for tablets require the Microsoft Dynamics CRM Online Fall ‘13 release or later.
 
 > [!IMPORTANT]
-> For Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets, Microsoft Dynamics 365 for Customer Engagement apps on-premises deployments require Internet-facing deployment (IFD) for users to access their data. If you have your Microsoft Dynamics 365 for Customer Engagement apps website available over the internet but it is not using the Microsoft Dynamics 365 for Customer Engagement apps IFD configuration, it is not supported. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 for Customer Engagement apps Deployment Manager on your Microsoft Dynamics 365 for Customer Engagement apps Server. The Authentication Summary section should show that both Claims-Based Authentication and Internet-facing deployment (IFD) are enabled. More information: [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).
+> For Dynamics 365 for phones and Dynamics 365 for tablets, Microsoft Dynamics 365 for Customer Engagement apps on-premises deployments require Internet-facing deployment (IFD) for users to access their data. If you have your Microsoft Dynamics 365 for Customer Engagement apps website available over the internet but it is not using the Microsoft Dynamics 365 for Customer Engagement apps IFD configuration, it is not supported. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 for Customer Engagement apps Deployment Manager on your Microsoft Dynamics 365 for Customer Engagement apps Server. The Authentication Summary section should show that both Claims-Based Authentication and Internet-facing deployment (IFD) are enabled. More information: [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).
 
 ![Dynamics 365 for Customer Engagement apps IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 for Customer Engagement apps IFD settings")
 
@@ -117,7 +117,7 @@ Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics
 ### Security privileges  
  [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for Customer Engagement apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
-### Enable dashboards for Dynamics 365 for Customer Engagement apps for phone and Dynamics 365 for Customer Engagement apps for tablet users  
+### Enable dashboards for Dynamics 365 for phones and Dynamics 365 for tablet users  
  Multiple dashboards are available for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
   
 1. [!INCLUDE[proc_settings_customization](../../../includes/proc-settings-customization.md)]  
@@ -139,9 +139,9 @@ Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics
 ### Get your on-premises deployment ready for Dynamics 365 for Customer Engagement apps for Windows 8.1 tablets
 
 > [!IMPORTANT]
-> The following content covering registry changes applies to Dynamics 365 for Customer Engagement apps for tablets and **not** Dynamics 365 for Customer Engagement apps for phones.
+> The following content covering registry changes applies to Dynamics 365 for tablets and **not** Dynamics 365 for phones.
 >
-> The new Dynamics 365 for Customer Engagement apps for tablets Windows 10 app does not require registry changes.
+> The new Dynamics 365 for tablets Windows 10 app does not require registry changes.
 
 To deploy the Dynamics 365 for Customer Engagement apps for Windows 8.1 app, review the following scenarios.
 
@@ -274,7 +274,7 @@ else
   
 18. Exit Registry Editor.  
   
-     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Dynamics 365 for Customer Engagement apps for tablets app](../go-mobile/get-started/install.md)  
+     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](../go-mobile/get-started/install.md)  
   
 <a name="BKMK_Configure"></a>   
 
@@ -287,7 +287,7 @@ else
   
  Custom entities use a fixed custom entity symbol.  
   
- ![Dynamics 365 for Customer Engagement apps for tablets nav bar](../../../admin/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Customer Engagement apps for tablets nav bar")  
+ ![Dynamics 365 for tablets nav bar](../../../admin/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for tablets nav bar")  
   
 ### Simple lists  
  The lists of records that appear on the Sales Dashboard and within a form appear as simple lists. These lists have a different appearance than the typical view of records. There are a few frequently used actions you can perform on a simple list.  
@@ -313,7 +313,7 @@ else
   
   A typical view of records displays all columns in the view definition. A simple list displays the first few columns from the selected view. Simple lists are also capable of displaying images for each record if the entity is enabled to display images.  
   
-  ![Dynamics 365 for Customer Engagement apps for tablets simple list](../../../admin/media/x-microsoft-crm.png "Dynamics 365 for Customer Engagement apps for tablets simple list")  
+  ![Dynamics 365 for tablets simple list](../../../admin/media/x-microsoft-crm.png "Dynamics 365 for tablets simple list")  
   
   The number of fields you’ll see in the list is different depending on whether or not the entity is enabled for images. If it is, the image is the first thing to appear. Next to the image the primary field for the entity is displayed first and wraps up to two lines. The primary field is followed by the first two columns in the view that are not the primary field. Those fields will each appear on one line.  
   
@@ -330,7 +330,7 @@ else
 > [!IMPORTANT]
 > [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
   
- ![Dynamics 365 for Customer Engagement apps for tablets simple activity list](../../../admin/media/y-microsoft-crm.png "Dynamics 365 for Customer Engagement apps for tablets simple activity list")  
+ ![Dynamics 365 for tablets simple activity list](../../../admin/media/y-microsoft-crm.png "Dynamics 365 for tablets simple activity list")  
   
  Some more things to note:  
   
@@ -373,7 +373,7 @@ else
   
 |                                                                                                                                                     |   |                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Sales form in Dynamics 365 for Customer Engagement apps](../../../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365 for Customer Engagement apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for Customer Engagement apps for tablets](../../../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for Customer Engagement apps for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] |
+| ![Sales form in Dynamics 365 for Customer Engagement apps](../../../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365 for Customer Engagement apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../../../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] |
   
  This diagram shows common parts of the updated entity forms in the web application.  
   
@@ -381,7 +381,7 @@ else
   
  [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
   
- ![Diagram of a form in Dynamics 365 for Customer Engagement apps for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics 365 for Customer Engagement apps for tablets")  
+ ![Diagram of a form in Dynamics 365 for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics 365 for tablets")  
   
  **Relationships**  
   
@@ -412,7 +412,7 @@ else
   
  To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, then scroll down and click **Details**. Click **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
   
- ![Hide the Detail tab on Dynamics 365 for Customer Engagement apps for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics 365 for Customer Engagement apps for phones")  
+ ![Hide the Detail tab on Dynamics 365 for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics 365 for phones")  
   
 ### Other differences with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  
@@ -568,13 +568,13 @@ else
  [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
 
 ### Microsoft Dynamics 365 for Customer Engagement apps
-Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets users transitioned to Microsoft Dynamics 365 for Customer Engagement apps on Microsoft Online Services environment will automatically renew their sign-in for **up to**30 days.
+Dynamics 365 for phones and Dynamics 365 for tablets users transitioned to Microsoft Dynamics 365 for Customer Engagement apps on Microsoft Online Services environment will automatically renew their sign-in for **up to**30 days.
 
 ### Microsoft Dynamics CRM 2015 or later (on-premises versions)
-Dynamics 365 for Customer Engagement apps for tablets connections to Microsoft Dynamics CRM 2015 or later require an [Internet-facing deployment](https://technet.microsoft.com/library/dn609803.aspx).
+Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later require an [Internet-facing deployment](https://technet.microsoft.com/library/dn609803.aspx).
 
 > [!NOTE]
-> Microsoft Dynamics CRM 2013 or later is required for Dynamics 365 for Customer Engagement apps for tablets users to connect to their Microsoft Dynamics 365 for Customer Engagement apps organization. Organizations that are using earlier versions of on-premises editions of Microsoft Dynamics 365 for Customer Engagement apps will need to upgrade.
+> Microsoft Dynamics CRM 2013 or later is required for Dynamics 365 for tablets users to connect to their Microsoft Dynamics 365 for Customer Engagement apps organization. Organizations that are using earlier versions of on-premises editions of Microsoft Dynamics 365 for Customer Engagement apps will need to upgrade.
     
 <a name="BKMK_SecuringData"></a>   
 
