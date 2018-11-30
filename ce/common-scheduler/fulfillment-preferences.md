@@ -32,13 +32,13 @@ search.app:
 # Fulfillment preferences
 
 
-Fulfillment preferences are customizable entities that let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning / afternoon time windows.
+Fulfillment preferences are customizable entities that let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows.
 
-By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time,  such as 10:39am. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00am**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
+By default, the schedule assistant displays results based entirely on resource schedules and the earliest available time,  such as 10:39 AM. **With fulfillment preferences** set to hourly, the same resource's availability shows as **11:00am**. This makes it simpler for the scheduler to view and understand availability and communicate it to the customer.
 
 ## Overview
 
-Fulfillment preferences break down into two features: **intervals** and **time groups**. Note that both are designed for intraday work, not multiday work.
+Fulfillment preferences break down into two features: **intervals** and **time groups**. Note that both are designed for intra-day work, not multi-day work.
 
 ### Intervals
 
