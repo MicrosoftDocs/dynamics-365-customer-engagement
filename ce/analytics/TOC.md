@@ -2,6 +2,7 @@
 
 # [Get started](get-started-writing-reports.md)
 ## [Report writing environment using SQL Server Data Tools](report-writing-environment-using-sql-server-data-tools.md)
+## [Install Dynamics 365 Report Authoring Extension](install-dynamics-365-report-authoring-extension.md)
 ## [Create a new report using SQL Server Data Tools](create-a-new-report-using-sql-server-data-tools.md)
 
 # [Working with reports](working-with-microsoft-dynamics-365-reports.md)
