@@ -1,5 +1,5 @@
 ---
-title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: ""
 ms.date: 11/08/2018
@@ -74,7 +74,7 @@ You can create a custom look and feel (a theme), for your app by making changes 
  The easiest and quickest way to create a new theme is to clone and alter an existing theme, then save it, preview and publish. 
  
 1. Go to **Settings > Customizations**. 
-2. Choose **Themes**, and then choose **Dynamics 365 for Customer Engagement Default Theme**. 
+2. Choose **Themes**, and then choose **Dynamics 365 Default Theme**. 
 
 The following screenshot shows the default theme setup.  
   
