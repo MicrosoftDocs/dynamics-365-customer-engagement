@@ -1,5 +1,5 @@
 ---
-title: "Example: Make a report context-sensitive (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Example: Make a report context-sensitive (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -26,9 +26,9 @@ search.app:
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The following steps describe how to set up a context-sensitive report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+The following steps describe how to set up a context-sensitive report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
- For example, if a report displays all activities for a particular account and you want to show this report on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] **Account** form, you must include **Activities** and **Accounts** in the **Related Record Types** categorization and specify **Forms for related record types** in the **Display** in field of the Report: New form.  
+ For example, if a report displays all activities for a particular account and you want to show this report on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps **Account** form, you must include **Activities** and **Accounts** in the **Related Record Types** categorization and specify **Forms for related record types** in the **Display** in field of the Report: New form.  
   
 ## Create and configure a context-sensitive report  
   

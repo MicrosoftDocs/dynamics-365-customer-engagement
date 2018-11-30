@@ -1,5 +1,5 @@
 ---
-title: "Sample: Authenticate users with Dynamics 365 for Customer Engagement apps web services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Sample: Authenticate users with Dynamics 365 for Customer Engagement web services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This sample shows how to authenticate a user with any Microsoft Dynamics 365 for Customer Engagement deployment and obtain a reference to the web services."
 keywords: ""
 ms.date: 10/31/2017
@@ -26,13 +26,13 @@ search.app:
   - D365CE
 ---
 
-# Sample: Authenticate users with Dynamics 365 for Customer Engagement apps web services
+# Sample: Authenticate users with Dynamics 365 for Customer Engagement web services
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample shows how to authenticate a user with any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
- Download the sample: [Authenticate users with Microsoft Dynamics 365 for Customer Engagement apps web services](https://code.msdn.microsoft.com/Authenticate-users-with-707e0375).
+ Download the sample: [Authenticate users with Microsoft Dynamics 365 for Customer Engagement web services](https://code.msdn.microsoft.com/Authenticate-users-with-707e0375).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -44,7 +44,7 @@ This sample shows how to authenticate a user with any [!INCLUDE[pn_dynamics_crm]
  [!code-csharp[authenticatewithnohelp#authenticatewithnohelp](../snippets/csharp/CRMV8/authenticatewithnohelp/cs/authenticatewithnohelp.cs#authenticatewithnohelp)]  
   
 ### See also  
- [Authenticate Users with Dynamics 365 for Customer Engagement apps Web Services](authenticate-users.md)   
+ [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](authenticate-users.md)   
  [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)   
  [Authenticate Office 365 Users with Dynamics 365 for Customer Engagement apps (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  [Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps (online)](connect-microsoft-office-365.md)

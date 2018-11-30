@@ -1,6 +1,6 @@
 ---
-title: "Navigate and use common features (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How do get around and work with common user interface elements in Dynamics 365 for Customer Engagement for Marketing"
+title: "Navigate and use common features (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How do get around and work with common user interface elements in Dynamics 365 for Marketing"
 keywords: "navigation; list view; form view; grids; workflow; business process"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Find your way around Marketing
+# Find your way around Dynamics 365 for Marketing
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -64,7 +64,7 @@ The apps you see listed in your app-selector menu will depend on which apps you 
 
 - **Marketing**: Go here to access all core marketing features, including the **Marketing**, **Portals**, **Events**, **Settings**, and **Training** work areas.
 - **Surveys**: Go here to set up surveys that you can use together with your marketing emails, customer journeys, and events. Surveys are provided by [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)], which is also available for use with other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. To maintain wide compatibility, it uses a slightly different user interface than the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, which is why it is broken out into its own app here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and run online surveys](surveys.md)
-- **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]**: This app combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features *aren’t* included here). It uses an interface similar to the Surveys app. Administrators, and especially customizers, may prefer to work here rather than in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] because more settings are available, and the user interface is the one described in the customizer and portals documentation. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with portals](portals.md), [Customize Dynamics 365 for Customer Engagement for Marketing](customize.md), and [Administrator Guide for Dynamics 365 for Customer Engagement](../admin/admin-guide.md)
+- **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]**: This app combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features *aren’t* included here). It uses an interface similar to the Surveys app. Administrators, and especially customizers, may prefer to work here rather than in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] because more settings are available, and the user interface is the one described in the customizer and portals documentation. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with portals](portals.md), [Customize Dynamics 365 for Marketing](customize.md), and [Administrator Guide for Dynamics 365 for Customer Engagement](../admin/admin-guide.md)
 
 All of the apps listed in the app-selector menu operate on the same database as one another, so settings made in the one app (including for customization, user administration, events, LinkedIn Lead Gen, [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)], and more) will affect all the other apps.
 

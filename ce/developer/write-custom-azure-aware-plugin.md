@@ -1,5 +1,5 @@
 ---
-title: "Write a custom Azure-aware plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Write a custom Azure-aware plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how plug-in code can be added to obtain the Azure service provider and initiate posting the execution context to the service bus by calling IExecutionContext)."
 ms.custom: ""
 ms.date: 06/16/2018
@@ -71,8 +71,8 @@ For a plug-in registered to execute asynchronously, the <xref:Microsoft.Xrm.Sdk.
   
 ### See also
 
-[Azure Extensions for Dynamics 365 for Customer Engagement](azure-extensions.md)<br />
-[Send Dynamics 365 for Customer Engagement Data over the Microsoft Azure Service Bus](work-data-azure-solution.md)<br />
+[Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
+[Send Dynamics 365 for Customer Engagement apps Data over the Microsoft Azure Service Bus](work-data-azure-solution.md)<br />
 [Write a Plug-In](write-plugin.md)<br />
 [Plug-in Isolation, Trust, and the Disallowed List](plugin-isolation-trusts-statistics.md)<br />
 [Event Execution Pipeline](event-execution-pipeline.md)<br />

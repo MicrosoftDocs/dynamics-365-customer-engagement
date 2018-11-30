@@ -30,7 +30,7 @@ Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dy
 > To add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] personal dashboards, you must:  
 > 
 > - Enable [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations for your organization in **Settings** > **Administration** > **System Settings** > **Reporting** tab > **Allow Power BI visualization embedding**.  
-> - Have a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] account and have access to at least one [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [introduction to reporting &amp; analytics with Dynamics 365 for Customer Engagement app](../analytics/reporting-analytics-with-dynamics-365.md)  
+> - Have a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] account and have access to at least one [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [introduction to reporting &amp; analytics with Dynamics 365 for Customer Engagement apps](../analytics/reporting-analytics-with-dynamics-365.md)  
 > - Avoid adding [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to system dashboards. Its not supported. T
   
 <a name="embedPBDashboard"></a>

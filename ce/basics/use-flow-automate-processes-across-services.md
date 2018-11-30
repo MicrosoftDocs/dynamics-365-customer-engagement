@@ -42,7 +42,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
   
    -   Select **Login to flow** to connect with Microsoft Flow and display available flows for you to run. This only appears if you aren’t currently signed in to Microsoft Flow.  
   
-   -   Select a flow to run. See [Run an embedded flow from Dynamics 365 for Customer Engagement](#Flow_run).  
+   -   Select a flow to run. See [Run an embedded flow from Dynamics 365 for Customer Engagement apps](#Flow_run).  
   
 <a name="Flow_run"></a>   
 ## Run an embedded flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
@@ -57,7 +57,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
    > [!TIP]
    >  If you don’t see any flows under Run, click **Login to flow**.  
   
-   ![Run a flow from Dynamics 365 for Customer Engagement](../basics/media/embedflow-run.png "Run a flow from Dynamics 365 for Customer Engagement")  
+   ![Run a flow from Dynamics 365 for Customer Engagement apps](../basics/media/embedflow-run.png "Run a flow from Dynamics 365 for Customer Engagement apps")  
   
 3. If required, input additional information. Then, follow the instructions on your screen to run the flow.  
 

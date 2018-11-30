@@ -1,6 +1,6 @@
 ---
 title: "Web service error codes (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "This topic lists the error codes you might encounter when you debug your code. These error codes are also available in the Dynamics 365 for Customer Engagement SDK package"
+description: "This topic lists the error codes you might encounter when you debug your code. These error codes are also available in the Dynamics 365 for Customer Engagement apps SDK package"
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""

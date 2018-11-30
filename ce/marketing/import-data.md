@@ -1,6 +1,6 @@
 ---
-title: "Import data (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Customer Engagement for Marketing"
+title: "Import data (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
 keywords: "import data;import"
 ms.date: 07/01/2018
 ms.service: dynamics-365-marketing
@@ -40,7 +40,7 @@ You can import data from the following file types:
 
 - Comma-separated value (.csv) file
 - [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates provided by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]  
-  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export Dynamics 365 for Customer Engagement data to Word or Excel docs](export-data-word-excel.md)
+  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data to Word or Excel files](export-data-word-excel.md)
 
 ## Prepare your file for import
 

@@ -9,12 +9,12 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 topic-status: Drafting
 ---
 

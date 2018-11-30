@@ -32,7 +32,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you use **activi
 ## Keep track of notes, tasks, calls, or email with activities
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you use **Activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, assign yourself tasks as you resolve a service case, and stay up-to-date with customer news. These actions are all considered types of activities.  
   
- ![Keep track of activities in Dynamics 365 for Customer Engagement](../basics/media/keep-track-activities.png "Keep track of activities in Dynamics 365 for Customer Engagement")  
+ ![Keep track of activities in Dynamics 365 for Customer Engagement apps](../basics/media/keep-track-activities.png "Keep track of activities in Dynamics 365 for Customer Engagement apps")  
   
 -   To add phone call details, tasks, notes, and more see: [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md).  
   
@@ -54,7 +54,7 @@ You can find your activities under **My Work**. Once there, click the **Activiti
   
 - Click the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
   
-  ![Shows all activities in Dynamics 365 for Customer Engagement](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 for Customer Engagement")  
+  ![Shows all activities in Dynamics 365 for Customer Engagement apps](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 for Customer Engagement apps")  
   
 <a name="Filter"></a>  
  
@@ -65,7 +65,7 @@ You can find your activities under **My Work**. Once there, click the **Activiti
   
 2. Click the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
-   ![Shows all activities in Dynamics 365 for Customer Engagement](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 for Customer Engagement")  
+   ![Shows all activities in Dynamics 365 for Customer Engagement apps](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 for Customer Engagement apps")  
   
 <a name="New"></a>   
 
@@ -112,13 +112,13 @@ To attach a document:
 <a name="MarkOne"></a>   
 
 ## Mark an activity complete  
- After you call someone, complete a task, send an email, or go to an appointment, you can mark the Dynamics 365 for Customer Engagement activity for that action as completed.  
+ After you call someone, complete a task, send an email, or go to an appointment, you can mark the activity for that action as completed.  
   
 1. Open the activity.  
   
 2. On the command bar, click **Mark Complete**.  
   
-   ![Shows closed proposal in Dynamics 365 for Customer Engagement](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 for Customer Engagement")  
+   ![Shows closed proposal in Dynamics 365 for Customer Engagement apps](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 for Customer Engagement apps")  
   
 <a name="MarkSeveral"></a>   
 ## Mark several activities complete at the same time  
@@ -151,5 +151,5 @@ To attach a document:
 ### See also  
  [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md) 
  [Start your day with a dashboard](../basics/start-your-day-dashboard-chart.md)   
- [Overview of Dynamics 365 for Customer Engagement for Sales](../sales-enterprise/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement apps for Sales](../sales-enterprise/overview.md)   
  

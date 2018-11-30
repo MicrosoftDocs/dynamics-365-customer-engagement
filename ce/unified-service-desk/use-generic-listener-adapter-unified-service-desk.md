@@ -1,5 +1,5 @@
 ---
-title: "Use the generic listener adapter in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Use the generic listener adapter in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to use generic listener adapter that can be used as a testing tool for integrating Unified Service Desk with the CTI middleware applications that have the ability to open a URL on the user's computer when a CTI event occurs."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -74,7 +74,7 @@ http://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433
 
  You can use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to define a different port for the generic listener, if required. To do so:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 

@@ -12,7 +12,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Translate or localize your Voice of the Customer survey 
 Once you’ve created your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, you can translate it into other languages.  

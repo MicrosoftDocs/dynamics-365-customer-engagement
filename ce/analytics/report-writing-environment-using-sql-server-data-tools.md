@@ -26,9 +26,9 @@ search.app:
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] reports.  
+This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports.  
   
- You must have the required development tools and appropriate privileges in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to write and publish a report. Also, you should be familiar with:  
+ You must have the required development tools and appropriate privileges in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to write and publish a report. Also, you should be familiar with:  
   
 - [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
@@ -37,7 +37,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
 - To write Fetch-based reports, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] FetchXML language. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
   
 ## Required tools  
- The following are required to write a custom report for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
+ The following are required to write a custom report for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
   
 - **[!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]** . For specific versions, see [Microsoft Dynamics CRM Reporting Authoring Extension requirements](https://technet.microsoft.com/library/hh699754.aspx#report_auth_gen_req).  
   
@@ -49,7 +49,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
   - For [!INCLUDE[pn_MS_Visual_Studio_2010](../includes/pn-ms-visual-studio-2010.md)]: You must select and install the [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)] feature that is included with [!INCLUDE[pn_MS_SQL_Server_2012](../includes/pn-ms-sql-server-2012.md)] or [!INCLUDE[pn_ms_sql_2012_express](../includes/pn-ms-sql-2012-express.md)] on the computer that is running [!INCLUDE[pn_MS_Visual_Studio_2010](../includes/pn-ms-visual-studio-2010.md)]. [Download: Microsoft SQL Server 2012 Express](http://www.microsoft.com/download/details.aspx?id=29062)  
   
-- **Dynamics 365 Report Authoring Extension**. This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (online) only supports Fetch-based reports. Dynamics 365 Report Authoring Extension must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: Dynamics 365 Report Authoring Extension](https://www.microsoft.com/en-us/download/details.aspx?id=56973). For installation instructions, see [Install Dynamics 365 Report Authoring Extension](https://technet.microsoft.com/library/hh699675.aspx).  
+- **Dynamics 365 Report Authoring Extension**. This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps only supports Fetch-based reports. Dynamics 365 Report Authoring Extension must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: Dynamics 365 Report Authoring Extension](https://www.microsoft.com/en-us/download/details.aspx?id=56973). For installation instructions, see [Install Dynamics 365 Report Authoring Extension](https://technet.microsoft.com/library/hh699675.aspx).  
   
 
 > [!NOTE]
@@ -57,10 +57,10 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
 > - Dynamics 365 Report Authoring Extension is available only in a 32-bit version.  
   
 ## Required privileges  
- To deploy custom reports to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you must have a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] account and a security role assigned to you that includes the **PublishReport** privilege. By default, the System Customizer and System Administrator security roles include these privileges.  
+ To deploy custom reports to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you must have a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps account and a security role assigned to you that includes the **PublishReport** privilege. By default, the System Customizer and System Administrator security roles include these privileges.  
   
 ## Report development process  
- The following lists the steps for developing custom [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] reports. You may have to repeat some steps while you develop a report:  
+ The following lists the steps for developing custom [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports. You may have to repeat some steps while you develop a report:  
   
 1. Develop a report concept or specification based on what business information is to be displayed.  
   
@@ -68,7 +68,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
    - Create a new (custom) report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
-   - Download an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] report definition language (.rdl) file. You can do this in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application. More information: [Modify a report (RDL) file](https://technet.microsoft.com/library/dn531075.aspx#bkmk_ModifyRDL)  
+   - Download an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps report definition language (.rdl) file. You can do this in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application. More information: [Modify a report (RDL) file](https://technet.microsoft.com/library/dn531075.aspx#bkmk_ModifyRDL)  
   
 3. Create basic report parameters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Parameters in Reports](../analytics/use-parameters-in-reports.md)  
   
@@ -82,7 +82,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
 7. Preview the report in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], and resolve any errors. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Test and Troubleshoot Reports](../analytics/test-and-troubleshoot-reports.md)  
   
-8. Deploy the report to the reporting server by using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish Reports](../analytics/publish-reports.md)  
+8. Deploy the report to the reporting server by using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish Reports](../analytics/publish-reports.md)  
   
 9. Run the deployed report to verify.  
   

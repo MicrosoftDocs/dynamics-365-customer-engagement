@@ -12,7 +12,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/plan-survey
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Design the right questions for your Voice of the Customer survey 
 Before configuring your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey questions, it’s helpful to plan ahead. Here are a few things to think about to help you design the right questions for your survey:  

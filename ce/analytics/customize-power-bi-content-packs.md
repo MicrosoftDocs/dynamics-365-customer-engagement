@@ -1,6 +1,6 @@
 ---
-title: "Customize Dynamics 365 for Customer Engagement Power BI content packs (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 for Customer Engagement data."
+title: "Customize Dynamics 365 for Customer Engagement apps Power BI content packs (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 for Customer Engagement apps data."
 keywords: "PBI"
 ms.date: 09/30/2017
 ms.service: crm-online
@@ -25,13 +25,13 @@ search.app:
   - D365CE
 ---
 
-# Customize Dynamics 365 for Customer Engagement Power BI content packs
+# Customize Dynamics 365 for Customer Engagement apps Power BI content packs
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
+[!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
   
- Instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
+ Instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
     
 <a name="PBI_edit_first"></a>   
 ## Do this before you customize a Dynamics 365 for Customer Engagement content pack for Power BI reports  
@@ -47,9 +47,9 @@ search.app:
   
   -   [Download the Dynamics CRM Online Sales Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
   
-  -   [Download the Dynamics CRM Online Service Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
+  -   [Download the Dynamics CRM Online Service Manager.PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
   
-  -   [Download the Dynamics 365 for Customer Engagement Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
+  -   [Download the Dynamics 365 for Customer Engagement apps Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
   
   [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] content packs are currently only supported in the U.S. English language.  
   
@@ -68,7 +68,7 @@ search.app:
   
 2. On the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] ribbon, click **Edit Queries**.  
   
-3. In the left navigation pane of the Edit Queries window, under **Queries**, click the **CRMServiceUrl** query, and then on the ribbon, click **Advanced Editor**. In the source definition, replace **base.crm.dynamics.com** with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance URL. For example, if the organization name is *Contoso*, the URL looks like this:  
+3. In the left navigation pane of the Edit Queries window, under **Queries**, click the **CRMServiceUrl** query, and then on the ribbon, click **Advanced Editor**. In the source definition, replace **base.crm.dynamics.com** with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance URL. For example, if the organization name is *Contoso*, the URL looks like this:  
   
     Source = "https://*contoso*.crm.dynamics.com/api/data/v8.0/"  
   
@@ -78,7 +78,7 @@ search.app:
   
    ![Access an OData Feed dialog](../analytics/media/pbi-odata-signin.PNG "Access an OData Feed dialog")  
   
-6. When the sign-in page appears, enter your credentials to authenticate to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
+6. When the sign-in page appears, enter your credentials to authenticate to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance.  
   
 7. In the Access an Odata feed dialog, click **Connect**.  
   

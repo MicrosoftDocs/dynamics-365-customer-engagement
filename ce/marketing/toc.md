@@ -1,4 +1,4 @@
-# [Dynamics 365 for Customer Engagement for Marketing](help-hub.md)
+# [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
 ## [Marketing videos](marketing-videos.md)
@@ -9,7 +9,7 @@
 #### [Sign up for a free trial](trial-signup.md)
 #### [Purchase a production version of Marketing](purchase-marketing.md)
 #### [Run the setup wizard](purchase-setup.md)
-#### [Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md)
+#### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
@@ -97,7 +97,7 @@
 #### [Design interaction-based dynamic segments](segments-interaction.md)
 #### [Define a static segment](segments-static.md)
 #### [Combine segments into a compound segment](segments-compound.md)
-#### [Market to Dynamics 365 for Customer Engagement segments on LinkedIn ](linkedin-matched-audience.md)
+#### [Market to Dynamics 365 for Marketing segments on LinkedIn ](linkedin-matched-audience.md)
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
@@ -156,6 +156,6 @@
 ### [Build and host a custom event portal](developer/event-management-web-application.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
-#### [Dynamics 365 for Customer Engagement for Marketing solutions](developer/marketing-solutions.md)
-#### [Dynamics 365 for Customer Engagement for Marketing entity reference](developer/marketing-entity-reference.md)
+#### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
+#### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
 

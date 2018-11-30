@@ -1,5 +1,5 @@
 ---
-title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic contains a table that lists the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic contains a table that lists the message and entity combinations that support execution of plug-ins for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.
+This topic contains a table that lists the message and entity combinations that support execution of plug-ins for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].
   
  The **Message Availability** column of the table indicates whether a message is available online, offline, or both. The **Entity Deployment** column indicates if the entity can be deployed on the server, on the client, or both. A value of **null** in the **Primary Entity** column means that there is no primary entity associated with the message. The same applies to the **Secondary Entity** column.  
   
@@ -1381,6 +1381,6 @@ This topic contains a table that lists the message and entity combinations that 
 |Win|Quote||Both|Both|  
   
 ### See also  
- [Write Plug-Ins for Dynamics 365 for Customer Engagement](write-plugin-extend-business-processes.md)   
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)   
  [Plug-in Development](plugin-development.md)   
  [Event Framework Overview](introduction-event-framework.md)

@@ -1,6 +1,6 @@
 ---
-title: "Limits for trials and previews (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "Limitations and conditions that apply to trials and previews of Dynamics 365 for Customer Engagement for Marketing"
+title: "Limits for trials and previews (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Limitations and conditions that apply to trials and previews of Dynamics 365 for Marketing"
 keywords: "trial;preview;limits"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing

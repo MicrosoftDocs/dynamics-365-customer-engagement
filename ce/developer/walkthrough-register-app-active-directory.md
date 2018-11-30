@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 for Customer Engagement server, authenticate using OAuth, and access the web services"
 ms.custom: ""
 ms.date: 10/31/2017

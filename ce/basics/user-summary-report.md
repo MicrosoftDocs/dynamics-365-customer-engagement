@@ -35,7 +35,7 @@ search.app:
 Keep user information up to date by running a User Summary report.   
 Get a list of all your users, including their contact information and security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
- ![Default User Summary report in Dynamics 365 for Customer Engagement](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 for Customer Engagement")  
+ ![Default User Summary report in Dynamics 365 for Customer Engagement apps](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 for Customer Engagement apps")  
   
 ### See also  
  [Run a report](../basics/run-report.md)   

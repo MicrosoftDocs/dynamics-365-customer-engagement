@@ -1,5 +1,5 @@
 ---
-title: "Sample: Work with solutions (Dynamics 365 for Customer Engagement SDK)| MicrosoftDocs"
+title: "Sample: Work with solutions (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2017

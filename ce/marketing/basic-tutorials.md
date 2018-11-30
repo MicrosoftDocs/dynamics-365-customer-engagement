@@ -1,6 +1,6 @@
 ---
-title: "Basic tutorials (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "Step-by-step tutorials for learning how to work with core user scenarios in Dynamics 365 for Customer Engagement for Marketing"
+title: "Basic tutorials (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Step-by-step tutorials for learning how to work with core user scenarios in Dynamics 365 for Marketing"
 keywords: "tutorial; basic; overview"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -37,7 +37,7 @@ The tutorials in this section provide exercises that illustrate the core functio
 
 - [Create a simple customer journey](create-simple-customer-journey.md) that sends a marketing email to all members of a segment and records interactions such as message opens and link clicks.
 
-- [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+- [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 - [Create an automated customer journey](create-simple-customer-journey.md) that combines email messaging, landing pages, and multiple paths managed by interactive triggers.
 

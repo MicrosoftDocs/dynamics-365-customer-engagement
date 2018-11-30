@@ -1,5 +1,5 @@
 ---
-title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set client diagnostic logging."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -31,7 +31,7 @@ search.app:
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
-- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 - By manually making changes to the UnifiedServiceDesk.exe.config file. This file must then be distributed to every desktop where you want [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging.  
 

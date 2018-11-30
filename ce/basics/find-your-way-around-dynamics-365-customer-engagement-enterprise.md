@@ -130,7 +130,7 @@ Click the tab for  the product or service you use.
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ##### Dynamics 365 for Customer Engagement - Custom (Settings) sitemap  
- ![Dynamics 365 for Customer Engagement Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement Settings sitemap")  
+ ![Dynamics 365 for Customer Engagement apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement apps Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
   

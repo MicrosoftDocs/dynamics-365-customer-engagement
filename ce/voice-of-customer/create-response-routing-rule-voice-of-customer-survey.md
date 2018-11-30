@@ -11,7 +11,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-advanced-survey
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Create a response routing rule to ask additional questions for a Voice of the Customer survey
 When you want to ask additional questions based on responses in a [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, create one or more response routing rules for the response you want more information about.  

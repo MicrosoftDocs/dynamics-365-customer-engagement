@@ -2,7 +2,7 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: "advanced survey design; interactive survey; response routing"
-ms.date: 05/22/2018
+ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: 0ca65ffc-df3d-4fbb-9c53-d46ac1ce785d
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 topic-status: Drafting
 ms.custom:
@@ -30,7 +30,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -236,10 +236,10 @@ To add an answer tag:
 
 ## Add the unsubscribe option to a survey
 
-You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], the respondent's contact preferences can be updated to prevent further surveys being sent.
+You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the respondent's contact preferences can be updated to prevent further surveys being sent.
 
 > [!NOTE]
-> Unsubscribe actions work only for customer records stored in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and not for anonymous surveys.
+> Unsubscribe actions work only for customer records stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and not for anonymous surveys.
 
 
 1.  [Create a survey that contains the questions to capture reasons for unsubscribing.](design-basic-survey.md#create-or-edit-a-survey)  
@@ -260,7 +260,7 @@ You can configure your survey to create a lead automatically from a survey respo
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -333,7 +333,7 @@ You can configure your survey to automatically send an email response to the cus
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
