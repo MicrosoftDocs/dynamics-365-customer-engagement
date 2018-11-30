@@ -40,7 +40,7 @@ As of December 11, 2018, we will introduce the ability to track your own [!INCLU
 
 [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] is retiring keyword searches on December 11, 2018, and users will not be able to create new keyword search rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed. However, no new [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data will be acquired for these rules. If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you create a separate search rule with the changes and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data untouched.
  
-We will share more detailed information through our help center when the new functionality is available and the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search has been removed. 
+You can find more information about the new functionality in the [Instagram Account search article](instagram-data-acquisition.md). 
 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.10
