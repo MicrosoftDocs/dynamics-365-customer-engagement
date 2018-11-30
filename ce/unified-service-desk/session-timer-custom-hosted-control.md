@@ -11,12 +11,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 044cd615-691e-454d-9877-31095940b226
-caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
 manager: shujoshi

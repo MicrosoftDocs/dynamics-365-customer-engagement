@@ -9,7 +9,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
