@@ -1,5 +1,5 @@
 ---
-title: "Schemas used in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Schemas used in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "The topic contains links to all the schemas needed for features described in the SDK documentation. "
 ms.custom: ""
 ms.date: 12/22/2017
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Schemas used in Dynamics 365 for Customer Engagement
+# Schemas used in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
