@@ -37,7 +37,7 @@ You can create an application adapter if you want to integrate an external appli
   
  [Step 1: Build a sample external application](../unified-service-desk/walkthrough-create-uii-application-adapter.md#CreateExternalApp)  
   
- [Step 2: Configure the external application in Microsoft Dynamics 365 for Customer Engagement.](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureExApp)  
+ [Step 2: Configure the external application in Microsoft Dynamics 365 for Customer Engagement apps.](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureExApp)  
   
  [Step 3: Test the external application](../unified-service-desk/walkthrough-create-uii-application-adapter.md#TestExApp)  
   
@@ -74,7 +74,7 @@ You can create an application adapter if you want to integrate an external appli
    ![Sample external app](../unified-service-desk/media/usd-sample-external-app.PNG "Sample external app")  
   
 <a name="ConfigureExApp"></a>   
-## Step 2: Configure the external application in Microsoft Dynamics 365 for Customer Engagement.  
+## Step 2: Configure the external application in Microsoft Dynamics 365 for Customer Engagement apps.  
  In this step, you will create a hosted control of **External Hosted Application** type to display the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] forms application.  
   
 1. Sign in to **Microsoft Dynamics 365 for Customer Engagement**.  

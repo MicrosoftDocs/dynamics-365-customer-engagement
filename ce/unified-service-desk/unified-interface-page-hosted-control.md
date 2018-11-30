@@ -1,6 +1,6 @@
 ---
-title: "Unified Interface Page (Hosted Control) (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Learn about the Unified Interface Page hosted control type to load a URL or page from Dynamics 365 for Customer Engagement. When a Dynamics 365 for Customer Engagement page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
+title: "Unified Interface Page (Hosted Control) (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn about the Unified Interface Page hosted control type to load a URL or page from Dynamics 365 for Customer Engagement apps. When a Dynamics 365 for Customer Engagement apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 keywords: ""
 ms.date: 04/24/2018
 ms.service: 
@@ -55,7 +55,7 @@ These are the predefined actions for this hosted control type.
 
 ### AssociatedView
 
-This action loads a specific associated view of Dynamics 365 for Customer Engagement. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.
+This action loads a specific associated view of Dynamics 365 for Customer Engagement apps. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.
 
 | Parameter         | Description                                                                                                             |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------|

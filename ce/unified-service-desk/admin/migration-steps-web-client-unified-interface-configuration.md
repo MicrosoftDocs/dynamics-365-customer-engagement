@@ -31,7 +31,7 @@ The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
-- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365 for Customer Engagement.
+- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365 for Customer Engagement apps.
 
 - **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
@@ -80,7 +80,7 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 2: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a solution in the Dynamics 365 for Customer Engagement.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a solution in the Dynamics 365 for Customer Engagement apps.
 
 To import the **USDWebResources** zip folder, follow these steps:
 

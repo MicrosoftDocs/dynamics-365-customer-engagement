@@ -1,6 +1,6 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
-description: "Learn about creating or editing an existing hosted control using Dynamics 365 for Customer Engagement."
+description: "Learn about creating or editing an existing hosted control using Dynamics 365 for Customer Engagement apps."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
