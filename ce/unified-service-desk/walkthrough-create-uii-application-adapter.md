@@ -127,7 +127,7 @@ You can create an application adapter if you want to integrate an external appli
   
 2. In the **New Project** dialog box:  
   
-   1. From the list of installed templates, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select Dynamics 365 for Customer Engagement SDK Templates > **Unified Service Desk** > [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Application Adapter  
+   1. From the list of installed templates, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select Dynamics 365 for Customer Engagement apps SDK Templates > **Unified Service Desk** > [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Application Adapter  
   
    2. Specify the name and location of the project, and click **OK** to create a new project.  
   

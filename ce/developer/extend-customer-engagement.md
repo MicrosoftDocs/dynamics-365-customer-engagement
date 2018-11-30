@@ -34,7 +34,7 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
   
  The xRM platform also controls access to data through security, controls access to the database, and raises events for workflow processes and custom business logic implementations (plug-ins). The platform layer provides for both incoming and outgoing email processing through [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)].
   
- ![Dynamics 365 for Customer Engagement apps SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 for Customer Engagement SDK architecture")  
+ ![Dynamics 365 for Customer Engagement apps SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 for Customer Engagement apps SDK architecture")  
   
 ## In This Section  
  [Dynamics 365 for Customer Engagement application platform - A platform for building extended Dynamics 365 for Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  

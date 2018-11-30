@@ -39,5 +39,5 @@ To view a sample application that uses the helper code and includes the required
  [Helper Code: SystemUserProvider class](helper-code-systemuserprovider-class.md)   
  [Helper Code: Enumerations for Option Sets](helper-code-enumerations-option-sets.md)   
  [Sample code directory for Dynamics 365 for Customer Engagement apps](../sample-code-directory.md)   
- [Assemblies Included in the Dynamics 365 for Customer Engagement SDK apps](assemblies-included-sdk.md)   
+ [Assemblies Included in the Dynamics 365 for Customer Engagement apps SDK apps](assemblies-included-sdk.md)   
  [Use Dynamics 365 for Customer Engagement apps Services in Code](use-services-in-code.md)
