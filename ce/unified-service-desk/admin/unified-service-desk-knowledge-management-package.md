@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement – Knowledge Management package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin

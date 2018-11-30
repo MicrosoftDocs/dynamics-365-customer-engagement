@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement Unified Interface package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
 keywords: ""
 ms.date: 08/17/2018

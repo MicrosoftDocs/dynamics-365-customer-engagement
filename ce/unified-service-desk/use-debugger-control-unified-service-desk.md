@@ -1,5 +1,5 @@
 ---
-title: "Use the Debugger control in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Use the Debugger control in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to use the Debugger hosted control test your UII actions and action calls, view debug output, and view replacement parameters captured during execution in Unifed Service Desk."
 ms.custom: 
   - dyn365-USD

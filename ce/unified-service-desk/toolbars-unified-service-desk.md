@@ -1,5 +1,5 @@
 ---
-title: "Toolbars in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Toolbars in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about configuring toolbars in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

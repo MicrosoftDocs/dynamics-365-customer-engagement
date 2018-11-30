@@ -1,5 +1,5 @@
 ---
-title: "UII computer telephony integration (CTI) framework in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "UII computer telephony integration (CTI) framework in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn information about UII computer telephony integration (CTI) framework in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

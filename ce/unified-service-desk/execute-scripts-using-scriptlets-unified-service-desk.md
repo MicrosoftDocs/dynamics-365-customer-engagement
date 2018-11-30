@@ -1,5 +1,5 @@
 ---
-title: "Execute scripts using scriptlets in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Execute scripts using scriptlets in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter."
 ms.custom: 
   - dyn365-USD

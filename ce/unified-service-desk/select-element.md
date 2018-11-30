@@ -1,5 +1,5 @@
 ---
-title: "SelectElement in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "SelectElement in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about SelectElement in Unified Service Desk to search for a named control on the HTML page."
 ms.custom: 
   - dyn365-USD

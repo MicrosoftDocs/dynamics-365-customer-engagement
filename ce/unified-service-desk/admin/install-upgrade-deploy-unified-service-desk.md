@@ -1,6 +1,6 @@
 ---
-title: "Install, deploy, and upgrade Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to install or upgrade Unified Service Desk for Dynamics 365 for Customer Engagement."
+title: "Install, deploy, and upgrade Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Learn how to install or upgrade Unified Service Desk for Dynamics 365 for Customer Engagement apps."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017

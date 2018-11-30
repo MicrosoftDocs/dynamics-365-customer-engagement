@@ -1,5 +1,5 @@
 ---
-title: "Use custom panel types and panel layouts in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Use custom panel types and panel layouts in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to use custom panel types and panel layouts in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

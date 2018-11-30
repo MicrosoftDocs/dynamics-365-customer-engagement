@@ -1,6 +1,6 @@
 ---
-title: "Update Unified Service Desk for Dynamics 365 for Customer Engagement solution | MicrosoftDocs"
-description: "Learn how to update Unified Service Desk for Dynamics 365 for Customer Engagement."
+title: "Update Unified Service Desk for Dynamics 365 for Customer Engagement apps solution | MicrosoftDocs"
+description: "Learn how to update Unified Service Desk for Dynamics 365 for Customer Engagement apps."
 keywords: ""
 ms.date: 08/23/2017
 ms.service: 

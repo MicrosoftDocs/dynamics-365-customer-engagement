@@ -1,5 +1,5 @@
 ---
-title: "WinDDA events in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "WinDDA events in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about the Windows DDA (WinDDA) events in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

@@ -1,5 +1,5 @@
 ---
-title: "Set up and use Unified Service Desk for Dynamics 365 for Customer Engagement for customer service | MicrosoftDocs"
+title: "Set up and use Unified Service Desk for Dynamics 365 for Customer Engagement apps for customer service | MicrosoftDocs"
 description: "Learn about using Unified Service Desk-related entities to configure an agent application."
 ms.custom: 
   - dyn365-USD

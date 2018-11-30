@@ -1,5 +1,5 @@
 ---
-title: "Use UII hosted controls with Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Use UII hosted controls with Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to use UII hosted controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

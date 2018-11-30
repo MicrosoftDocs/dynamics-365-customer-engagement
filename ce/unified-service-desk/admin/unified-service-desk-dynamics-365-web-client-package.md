@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement Web Client package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps Web Client package | MicrosoftDocs"
 description: "Overview of the Web Client sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin

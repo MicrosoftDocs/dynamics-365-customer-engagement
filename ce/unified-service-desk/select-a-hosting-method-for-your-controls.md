@@ -1,5 +1,5 @@
 ---
-title: "Select a hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Select a hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about different types of hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

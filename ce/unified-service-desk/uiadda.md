@@ -1,5 +1,5 @@
 ---
-title: "UIADDA in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "UIADDA in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about UI Automation data-driven adapter (UIADDA) that provides access to Windows Workflow Foundation and Silverlight applications."
 ms.custom: 
   - dyn365-USD

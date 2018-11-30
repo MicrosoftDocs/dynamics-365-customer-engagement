@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement - Interactive service hub package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps - Interactive service hub package | MicrosoftDocs"
 description: "Overview of the Interactive service hub sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin

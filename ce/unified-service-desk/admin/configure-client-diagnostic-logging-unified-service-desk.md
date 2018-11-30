@@ -1,5 +1,5 @@
 ---
-title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set client diagnostic logging."
 ms.custom: 
   - dyn365-USD, dyn365-admin

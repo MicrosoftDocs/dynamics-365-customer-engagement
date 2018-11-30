@@ -1,5 +1,5 @@
 ---
-title: "View embedded help for actions and events in Unified Service Desk for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "View embedded help for actions and events in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
