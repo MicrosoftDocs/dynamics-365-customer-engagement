@@ -1,5 +1,5 @@
 ---
-title: "Search and sort in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Search and sort in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -27,13 +27,13 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Search and sort in Dynamics 365 for Customer Engagement for phones and tablets
+# Search and sort in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
- To search, tap ![Dynamics 365 for Customer Engagement for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for Customer Engagement for phones and tablets search") on the top of the page, type in the search box, and tap ![Dynamics 365 for Customer Engagement for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for Customer Engagement for phones and tablets search") next to the search box.  
+ To search, tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for phones and tablets search") on the top of the page, type in the search box, and tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for phones and tablets search") next to the search box.  
   
- ![Dynamics 365 for Customer Engagement for phones and tablets search](../../../media/mobile-start-search.png "Dynamics 365 for Customer Engagement for phones and tablets search")  
+ ![Dynamics 365 for phones and tablets search](../../../media/mobile-start-search.png "Dynamics 365 for phones and tablets search")  
   
  Search results include only records that begin with the letters you type. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box. If you type **ski**, the record won’t show up.  
   
@@ -69,4 +69,4 @@ search.app:
 >  [!INCLUDE[cc_feature_included_with_update_2016](../../../../includes/cc-feature-included-with-update-2016.md)]  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

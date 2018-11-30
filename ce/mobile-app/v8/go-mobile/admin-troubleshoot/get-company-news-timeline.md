@@ -1,5 +1,5 @@
 ---
-title: "Get the Company News Timeline for Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Get the Company News Timeline for Dynamics 365 for Customer Engagement for phones and tablets
+# Get the Company News Timeline for Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Create a communication card in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Create a communication card in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-10-31"
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Create a communication card in Dynamics 365 for Customer Engagement for phones and tablets
+# Create a communication card in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
@@ -36,4 +36,4 @@ search.app:
  ![Dynamics 365 for Customer Engagement for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for Customer Engagement for mobile create communication card")  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -1,5 +1,5 @@
 ---
-title: "Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "07/19/2017"
 ms.prod: "crm-2016"
@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for Customer Engagement for phones and tablets
+# Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 

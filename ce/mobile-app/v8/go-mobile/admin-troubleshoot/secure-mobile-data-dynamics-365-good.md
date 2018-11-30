@@ -67,5 +67,5 @@ search.app:
   
  For information on what your enterprise needs to do before using [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], see [TechNet: Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](https://technet.microsoft.com/library/dn531128.aspx).  
   
- If you’re having problems with the app, see [TechNet: Troubleshooting and things to know about Dynamics 365 for Customer Engagement for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx).  
+ If you’re having problems with the app, see [TechNet: Troubleshooting and things to know about Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx).  
   

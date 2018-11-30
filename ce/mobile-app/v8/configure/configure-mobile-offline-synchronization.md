@@ -1,5 +1,5 @@
 ---
-title: "Configure mobile offline synchronization for Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Configure mobile offline synchronization for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 12/18/2017
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "Basic navigation in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Basic navigation in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "08/15/2018"
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Basic navigation in Dynamics 365 for Customer Engagement for phones and tablets
+# Basic navigation in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -36,7 +36,7 @@ search.app:
   
  Tap the menu icon on the top of the page, then select the type of record you want to work with.  
   
- ![Dynamics 365 for Customer Engagement for phones and tablets nav bar](../../../media/mobile-phone-navigation-bar.png "Dynamics 365 for Customer Engagement for phones and tablets nav bar")  
+ ![Dynamics 365 for phones and tablets nav bar](../../../media/mobile-phone-navigation-bar.png "Dynamics 365 for phones and tablets nav bar")  
   
 ## The command bar  
  You can add a new record, change views, or do other tasks from the command bar.  

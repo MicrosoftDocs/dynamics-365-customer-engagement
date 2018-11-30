@@ -50,7 +50,7 @@ search.app:
   
 6. When prompted, type in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials.  
   
-   Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for Customer Engagement for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
+   Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
   
 ## Accessing email and other apps through Dynamics 365 for Customer Engagement for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], along with any settings that need to be configured.  
@@ -61,7 +61,7 @@ search.app:
   
  For information on what your enterprise needs to do before using [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], see [Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
   
- If you’re having problems with the app, see [Troubleshooting and things to know about Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md).  
+ If you’re having problems with the app, see [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md).  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)

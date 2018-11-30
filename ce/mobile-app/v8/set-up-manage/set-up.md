@@ -105,7 +105,7 @@ Microsoft Dynamics 365 for Customer Engagement (online) organizations using Dyna
 ## What users need to do  
   
 ### Install [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
- [Install Dynamics 365 for Customer Engagement for phones and tablets](../go-mobile/get-started/install.md) 
+ [Install Dynamics 365 for phones and tablets](../go-mobile/get-started/install.md) 
   
 > [!TIP]
 >  Be sure to provide users the URL and credentials they need to sign in.  
@@ -132,7 +132,7 @@ Microsoft Dynamics 365 for Customer Engagement (online) organizations using Dyna
   
 6. Click **Save**.  
   
-   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [Basic navigation in Dynamics 365 for Customer Engagement for phones and tablets](../go-mobile/get-started/basic-navigation.md)  
+   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [Basic navigation in Dynamics 365 for phones and tablets](../go-mobile/get-started/basic-navigation.md)  
   
    You can assign security roles to a dashboard so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard, click **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**, and then select   the **Sales Dashboard**. Then, click **Enable Security Roles**.  
  

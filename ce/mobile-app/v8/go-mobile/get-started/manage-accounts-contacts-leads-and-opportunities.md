@@ -1,5 +1,5 @@
 ---
-title: "Manage accounts, contacts, leads, and opportunities in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Manage accounts, contacts, leads, and opportunities in Dynamics 365 for Customer Engagement for phones and tablets
+# Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -58,4 +58,4 @@ search.app:
  [!INCLUDE[cc_privacy_moca_user_content_and_location](../../../../includes/cc-privacy-moca-user-content-and-location.md)]  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

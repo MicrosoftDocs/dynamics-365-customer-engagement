@@ -1,5 +1,5 @@
 ---
-title: "Signing in and signing out on Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Signing in and signing out on Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -27,16 +27,16 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Signing in and signing out on Dynamics 365 for Customer Engagement for phones and tablets
+# Signing in and signing out on Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ### Signing in and signing out  
  To sign in, you’ll need your [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] admin.  
   
-1. Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics 365 for Customer Engagement for phones and tablets continue sign](../../../media/mobile-signin-arrow.png "Dynamics 365 for Customer Engagement for phones and tablets continue sign").  
+1. Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics 365 for phones and tablets continue sign](../../../media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").  
   
-    ![Enter URL to sign into Dynamics 365 for Customer Engagement for phones and tablets](../../../media/mobile-signin-enter-url.png "Enter URL to sign into Dynamics 365 for Customer Engagement for phones and tablets")  
+    ![Enter URL to sign into Dynamics 365 for phones and tablets](../../../media/mobile-signin-enter-url.png "Enter URL to sign into Dynamics 365 for phones and tablets")  
   
 2. On the next screen, enter your user name and password, and tap **Sign in**.  
   
@@ -53,4 +53,4 @@ search.app:
    You can sign in again as the same or a different user, or you can sign in to a different organization.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

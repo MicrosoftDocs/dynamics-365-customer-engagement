@@ -1,5 +1,5 @@
 ---
-title: "Nurture leads through the sales process in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Nurture leads through the sales process in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Nurture leads through the sales process in Dynamics 365 for Customer Engagement for phones and tablets
+# Nurture leads through the sales process in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -44,4 +44,4 @@ search.app:
  To change the status of an opportunity, tap **Qualify**, **Disqualify**, or **Reopen Opportunity** on the command bar.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

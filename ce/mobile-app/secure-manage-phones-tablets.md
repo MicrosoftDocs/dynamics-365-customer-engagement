@@ -1,5 +1,5 @@
 ---
-title: "Secure and manage Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Secure and manage Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 05/05/2017
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Overview of securing and managing Dynamics 365 for Customer Engagement for phones and tablets
+# Overview of securing and managing Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -137,5 +137,5 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
 ### See also
   
 [Good Secure Mobility Platform](http://www1.good.com/good-dynamics-platform)  
-[Dynamics 365 for Customer Engagement for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
+[Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
 [Secure your mobile data with Dynamics 365 for Customer Engagement for Good](secure-mobile-data-dynamics-365-good.md)

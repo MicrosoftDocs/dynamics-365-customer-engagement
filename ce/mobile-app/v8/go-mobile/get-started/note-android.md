@@ -1,5 +1,5 @@
 ---
-title: "A note for Android users of Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "A note for Android users of Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "07/19/2017"
 ms.reviewer: ""
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# A note for Android users of Dynamics 365 for Customer Engagement for phones and tablets
+# A note for Android users of Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -35,4 +35,4 @@ Navigation on [!INCLUDE[tn_android](../../../../includes/tn-android.md)] tablets
  Depending on where you are in the app, the [!INCLUDE[tn_android](../../../../includes/tn-android.md)]**Back** button takes you to the previous form, cancels dialog boxes or error messages, closes the keyboard, or performs other actions depending on the context.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 12/10/2016
 ms.reviewer: ""
@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Install Dynamics 365 for Customer Engagement for phones and tablets
+# Install Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

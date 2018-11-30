@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Install Dynamics 365 for Customer Engagement for phones and tablets
+# Install Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -67,5 +67,5 @@ search.app:
  [!INCLUDE[cc_privacy_crm_for_tablets](../../../../includes/cc-privacy-crm-for-tablets.md)]  
 
 ### See also  
- [Signing in and signing out on Dynamics 365 for Customer Engagement for phones and tablets](sign-in-out.md)   
+ [Signing in and signing out on Dynamics 365 for phones and tablets](sign-in-out.md)   
  [TechNet: Phone and tablet support](https://technet.microsoft.com/library/dn531131.aspx)

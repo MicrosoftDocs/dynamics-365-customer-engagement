@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement for phones and tablets (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Dynamics 365 for phones and tablets (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -24,7 +24,7 @@ search.app:
   - D365Sales
 ---
 
-# Overview of Dynamics 365 for Customer Engagement for phones and tablets 
+# Overview of Dynamics 365 for phones and tablets 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

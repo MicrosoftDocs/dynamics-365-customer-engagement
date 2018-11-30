@@ -96,7 +96,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
   
 <a name="BKMK_UsersToDo"></a>   
 ## What users need to do  
- See this topic: [Dynamics 365 for Customer Engagement for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
+ See this topic: [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
   
 ### Install [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
  [Install Dynamics 365 for Customer Engagement for tablets and phones](dynamics-365-phones-tablets-users-guide.md)  
@@ -126,7 +126,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
   
 6. Click **Save**.  
   
-   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [Get around in Dynamics 365 for Customer Engagement for phones and tablets](dynamics-365-phones-tablets-users-guide.md)  
+   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [Get around in Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)  
   
    You can assign security roles to a dashboard so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard, click **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**, and then select   the **Sales Dashboard**. Then, click **Enable Security Roles**.  
   
@@ -560,9 +560,9 @@ else
  [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]  
   
 ### See Also  
- [Secure and manage Dynamics 365 for Customer Engagement for phones and tablets](secure-manage-phones-tablets.md)   
+ [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md)   
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
  [Install Dynamics 365 for Customer Engagement for tablets and phones](dynamics-365-phones-tablets-users-guide.md)   
- [Dynamics 365 for Customer Engagement for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)   
+ [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)   
  

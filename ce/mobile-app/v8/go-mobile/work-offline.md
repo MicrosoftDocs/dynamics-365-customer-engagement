@@ -1,5 +1,5 @@
 ---
-title: "Work offline with Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Work offline with Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 05/24/2018
 ms.reviewer: ""
@@ -22,14 +22,14 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Work offline with Dynamics 365 for Customer Engagement for phones and tablets
+# Work offline with Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phones and tablets users aren't always going to be connected to a network. Admins can enable and configure mobile offline so even when no network is available users can still be productive with up-to-date information at hand. 
 
 > [!NOTE]
-> We’re working to improve mobile offline capabilities in Dynamics 365 for Customer Engagement for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for Customer Engagement for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
+> We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
 
 ## Mobile offline capabilities for administrators
 
@@ -70,9 +70,9 @@ Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phone
 
 - If user was working on a record and loose the network connection, the updates on the record will be saved in the offline mode and will be synchronized to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] once the user goes back online. The record, once synchronized to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)], will follow the filter rule for availability in offline mode. 
 
-For more information, see [Work offline in Dynamics 365 for Customer Engagement for phones and tablets](https://technet.microsoft.com/library/mt812230.aspx).
+For more information, see [Work offline in Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/mt812230.aspx).
 
-For a list of entities supported in mobile offline, see [Entities displayed in Dynamics 365 for Customer Engagement for phones and tablets](https://technet.microsoft.com/library/dn531159.aspx#Entities%20displayed%20in%20Dynamics%20365%20for%20phones%20and%20tablets).
+For a list of entities supported in mobile offline, see [Entities displayed in Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531159.aspx#Entities%20displayed%20in%20Dynamics%20365%20for%20phones%20and%20tablets).
 
 ## Other offline capabilities
 
@@ -92,7 +92,7 @@ For a list of entities supported in mobile offline, see [Entities displayed in D
 - [Working offline with Dynamics 365 for Customer Engagement](https://youtu.be/V-eIlZ04zQE)
 - [Microsoft Dynamics CRM Online 2016 Update 1 New Features- Mobile Offline](https://youtu.be/GMlm3pnr-Z0)
 
-## Work in disconnected mode with Dynamics 365 for Customer Engagement for phones and tablets 
+## Work in disconnected mode with Dynamics 365 for phones and tablets 
 
 You can continue to work in the mobile apps when the device is disconnected from the internet when you've enabled mobile offline synchronization.
 

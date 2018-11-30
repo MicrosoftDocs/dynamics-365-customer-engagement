@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Secure and manage Dynamics 365 for Customer Engagement for phones and tablets 
+# Secure and manage Dynamics 365 for phones and tablets 
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 

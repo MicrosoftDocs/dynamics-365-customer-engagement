@@ -1,5 +1,5 @@
 ---
-title: "Track your progress with charts in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Track your progress with charts in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Track your progress with charts in Dynamics 365 for Customer Engagement for phones and tablets
+# Track your progress with charts in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
@@ -56,4 +56,4 @@ search.app:
 2.  Select the chart you want to display.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
