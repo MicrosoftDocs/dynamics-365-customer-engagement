@@ -56,7 +56,7 @@ Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/p
   
 5. Set breakpoints in your Visual Studio project as required, and then build/debug your project.  
   
-    When the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application starts automatically on debugging the project, specify the credentials to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to continue with the debugging session until you hit a breakpoint or issue in your code.  
+    When the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application starts automatically on debugging the project, specify the credentials to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance to continue with the debugging session until you hit a breakpoint or issue in your code.  
   
    Additionally, the **Debug Output** tab of the Debugger hosted control in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application provides real time trace information of the underlying execution, which can be also used to debug your custom code. For more information, see [Debug issues in Unified Service Desk](debug-issues-unified-service-desk.md)  
   

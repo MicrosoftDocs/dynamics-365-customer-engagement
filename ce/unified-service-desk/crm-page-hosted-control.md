@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # CRM Page (Hosted Control)
-Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.  
+Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.  
 
  This hosted control type exposes a number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement windows including list manipulation actions, and a find action for displaying a quick search or advanced search page  
 
@@ -47,7 +47,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
   application. This could help agents instantly act or kick start discussion with
   customers, and save crucial interaction time.
 
-- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
+- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
 
 - The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **IE Process** (default) or **Internal WPF** . For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-a-hosting-method-for-your-controls.md).  
 
@@ -62,14 +62,14 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
  These are the predefined actions for this hosted control type.  
 
 ### AssociatedView  
- This action loads a specific associated view of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
+ This action loads a specific associated view of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
 
 
 |  Parameter  |                                                 Description                                                  |
 |-------------|--------------------------------------------------------------------------------------------------------------|
 | navItemName |                        The associated entity that you want to display. Example: Cases                        |
 |     Id      |             The ID of the main entity record for which to display the associated entity records.             |
-|   tabset    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Examples: areaSales or areaService. |
+|   tabset    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. Examples: areaSales or areaService. |
 
  For more information about using this action, see step 5 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).  
 
@@ -142,14 +142,14 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
  This action is equivalent to clicking the forward button on the browser instance.  
 
 ### LoadArea  
- This action loads a specific area from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.  
+ This action loads a specific area from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
 |frame|The name of the frame to affect. If no name is specified, it will automatically target the first frame found on the page.|  
 
 ### LookupInfo  
- Displays a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] lookup information dialog box to allow you to select an entity from a list.  
+ Displays a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps lookup information dialog box to allow you to select an entity from a list.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -181,14 +181,14 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        url        |                                                                                                                                                                                                                  The URL to navigate to. This is a mandatory parameter.                                                                                                                                                                                                                  |
 |      Noscan       |                                                                                                                                                                                           If this parameter is supplied and **True**, the data parameters will not be captured from the page.                                                                                                                                                                                            |
-|  HideCommandBar   |                                                                                                                                                        If this parameter is supplied and **True**, the inner frame will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] command bar.                                                                                                                                                        |
-| HideNavigationBar |                                                                                                                                                          If this parameter is supplied and **True**, the form will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] navigation bar.                                                                                                                                                          |
+|  HideCommandBar   |                                                                                                                                                        If this parameter is supplied and **True**, the inner frame will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps command bar.                                                                                                                                                        |
+| HideNavigationBar |                                                                                                                                                          If this parameter is supplied and **True**, the form will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps navigation bar.                                                                                                                                                          |
 |       Frame       |                                                                                                                                                                          When frames exist on the page, this parameter would specify the name of the frame to navigate, rather than navigating the main window.                                                                                                                                                                          |
 |     postdata      |                Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<http://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as an encoded string with its header type in the intended format.                 |
 |      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify an appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
 
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -224,7 +224,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -232,7 +232,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] form.  
+ This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -248,7 +248,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |height|The height of the hosted control.|  
 
 ### SaveAndClose  
- This action saves the dirty data on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] form, and closes the hosted control.  
+ This action saves the dirty data on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps form, and closes the hosted control.  
 
 <a name="SaveAll"></a>   
 ### SaveAll  
@@ -261,7 +261,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
  This action collapses or expands the ribbon. If you hide the ribbon in the **Navigate** action, it will not be displayed and this action does not work. This action will work only when the ribbon was initially loaded.  
 
 ### ToggleNavigation  
- This action collapses or expands the navigation pane on the left panel of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] window. The navigation must contain a navigation panel for this action to work.  
+ This action collapses or expands the navigation pane on the left panel of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps window. The navigation must contain a navigation panel for this action to work.  
 
 <a name="events"></a>   
 ## Predefined events  
@@ -311,7 +311,7 @@ and the **DataReady** event is fired for inline navigations as well.
 |url|The URL displayed when refresh was requested.|  
 
 ### Saved  
- Occurs after a record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is saved.  
+ Occurs after a record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page is saved.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

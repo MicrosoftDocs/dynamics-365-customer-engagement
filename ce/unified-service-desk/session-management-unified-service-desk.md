@@ -58,7 +58,7 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
   
  In this example, there are two session tabs with the following session names: **Sidney Higa (sample)- Maintenance** and **Like some of our new products (sample)** – Information.  
   
- The first session tab is for the account, and the second session tab is for the case. You can define the format of the text for the session name for an entity using the **Session Lines** configuration (**Settings** > **Unified Service Desk** > **Session Lines**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information, see [Configure the session tab name format](../unified-service-desk/configure-session-information.md#SessionName).  
+ The first session tab is for the account, and the second session tab is for the case. You can define the format of the text for the session name for an entity using the **Session Lines** configuration (**Settings** > **Unified Service Desk** > **Session Lines**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. For more information, see [Configure the session tab name format](../unified-service-desk/configure-session-information.md#SessionName).  
   
 <a name="SessionOverview"></a>   
 ## Session overview  
@@ -68,7 +68,7 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
   
  These entries are not typically populated by a business user, however, a skilled business user may copy and paste existing entries and replace values that will meet their needs. This is because the entries are actually XAML markup often seen in [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] or [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] applications. They can be created with designer tools such as [!INCLUDE[pn_blend_for_visual_studio](../includes/pn-blend-for-visual-studio.md)] in a graphical fashion, or with a text editor. The XAML markup must be properly formatted for it to display correctly in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
- You can define the session overview information for an entity using the **Session Lines** configuration (**Settings** > **Unified Service Desk** > **Session Lines**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information, see [Define session overview information](../unified-service-desk/configure-session-information.md#SessionOverview).  
+ You can define the session overview information for an entity using the **Session Lines** configuration (**Settings** > **Unified Service Desk** > **Session Lines**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. For more information, see [Define session overview information](../unified-service-desk/configure-session-information.md#SessionOverview).  
   
 ### See also  
  [Configure session information](../unified-service-desk/configure-session-information.md)   

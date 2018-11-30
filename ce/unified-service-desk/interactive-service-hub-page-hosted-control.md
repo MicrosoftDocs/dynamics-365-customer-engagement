@@ -35,7 +35,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  Unified Service Desk provides you with a sample package, **Interactive Service Hub**, which demonstrates how easily you can integrate the interactive service hub pages within Unified Service Desk. More information: [Unified Service sample applications](admin/sample-unified-service-desk-applications.md)  
 
 > [!NOTE]
->  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
+>  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
 
 <a name="Create"></a>   
 ## Create an Interactive Service Hub Page hosted control  
@@ -76,7 +76,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 |---------------|--------------------------------------------------------------------------------------------------------------|
 | `navItemName` |                        The associated entity that you want to display. Example: Cases                        |
 |     `Id`      |             The ID of the main entity record for which to display the associated entity records.             |
-|   `tabset`    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Examples: areaSales or areaService. |
+|   `tabset`    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. Examples: areaSales or areaService. |
 
 <a name="Close"></a>   
 ### Close  
@@ -127,7 +127,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  This action is equivalent to clicking the back button in the interactive service hub, which will take you back in the navigation stack of the interactive service hub.  
 
 ### GoHome  
- This action takes you to the homepage specified by the user in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ This action takes you to the homepage specified by the user in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
 
 <a name="MoveToPanel"></a>   
 ### MoveToPanel  
@@ -152,7 +152,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 |      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify an appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
 
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
  You can pass attribute values in name=value pairs as data parameters for this action. For example:  
 
@@ -188,7 +188,7 @@ title=Sample Case
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -196,7 +196,7 @@ title=Sample Case
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the interactive service hub form.  
+ This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps SDK JavaScript into the interactive service hub form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

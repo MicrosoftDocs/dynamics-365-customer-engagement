@@ -139,7 +139,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
 [[$Return.ActionCallName]]  
 ```  
   
- An example of this would be calling CreateEntity on Global Manager. This will create a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and return the GUID of the new record. This new GUID will be in the `$Return` replacement parameter list and can be used as input to the next action.  
+ An example of this would be calling CreateEntity on Global Manager. This will create a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, and return the GUID of the new record. This new GUID will be in the `$Return` replacement parameter list and can be used as input to the next action.  
   
 <a name="Session"></a>   
 ### $Session  
@@ -149,12 +149,12 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
 ### $Settings  
  This section provides user settings that only apply to the current user. These settings are automatically loaded at startup, and may be read using an action call at runtime. These often include settings for the theme selection of the user but may provide access to any user specific settings that the configurator wants to make available.  
   
- These user settings are defined in the **User Settings** area (**Settings** > **User Settings**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ These user settings are defined in the **User Settings** area (**Settings** > **User Settings**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps while configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
  These settings can be used like any other replacement parameter in the system. The Global Manager hosted control provides an action, [SaveSetting](../unified-service-desk/global-manager-hosted-control.md#SaveSetting), which will write user settings to the server, assuming the user has write access. This can be used to store user specific preferences such as theme selection and layouts.  
   
 > [!NOTE]
->  The user settings can be saved to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server if the user has write access.  
+>  The user settings can be saved to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server if the user has write access.  
   
 <a name="Subject"></a>   
 ### $Subject  
@@ -172,7 +172,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="User"></a>   
 ### $User  
- This replacement parameter group is automatically populated with the contents of the current user’s record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For example, if the administrator extends the system user entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to include an agent id, the agent id will appear in this list. This can be used to configure special user settings.  
+ This replacement parameter group is automatically populated with the contents of the current user’s record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. For example, if the administrator extends the system user entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to include an agent id, the agent id will appear in this list. This can be used to configure special user settings.  
   
 ### See also  
  [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md)   
