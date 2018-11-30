@@ -1,5 +1,5 @@
 ---
-title: "Best practice rule categories and parameters (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Best practice rule categories and parameters (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
 ms.custom: ""
 ms.date: 04/24/2018

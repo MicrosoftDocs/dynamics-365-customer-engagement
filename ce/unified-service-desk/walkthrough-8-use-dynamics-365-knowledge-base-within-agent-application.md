@@ -107,7 +107,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Step2"></a>   
 ## Step 2: Configure an action call to display the knowledge base search  
- Create an action call to display the newly created hosted control in the agent desktop. You’ll use the `default` action for the newly created hosted control to display it. After creating the action, add it to the `SessionNew` event for the **Dynamics 365 for Customer Engagement Global Manager** hosted control to automatically load and display the hosted control when a new session is created on opening a case.  
+ Create an action call to display the newly created hosted control in the agent desktop. You’ll use the `default` action for the newly created hosted control to display it. After creating the action, add it to the `SessionNew` event for the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control to automatically load and display the hosted control when a new session is created on opening a case.  
 
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -212,10 +212,10 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 19. Go to **Unified Service Desk** page, and then click **Events**.  
 
-20. Search for the `SessionClosed` event for the **Dynamics 365 for Customer Engagement Global Manager** hosted control, and then click it to open the event configuration page.  
+20. Search for the `SessionClosed` event for the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control, and then click it to open the event configuration page.  
 
     > [!NOTE]
-    >  Ensure that you are editing the configuration of the `SessionClosed` event for the **Dynamics 365 for Customer Engagement Global Manager** hosted control.  
+    >  Ensure that you are editing the configuration of the `SessionClosed` event for the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control.  
 
 21. Click the **Add Action Call record** button to add the action call.  
 
@@ -351,7 +351,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
    |-----------|-----------|  
    |Name|Sample: Show KB Article Tab Action|  
    |Order|50|  
-   |Hosted Control|Dynamics 365 for Customer Engagement Global Manager|  
+   |Hosted Control|Dynamics 365 for Customer Engagement apps Global Manager|  
    |Action|ShowTab|  
    |Data|Sample KB Article|  
 
@@ -415,7 +415,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Field      |                 Value                 |
     |----------------|---------------------------------------|
     |      Name      |  Sample: Copy KB Article Link Action  |
-    | Hosted Control |      Dynamics 365 for Customer Engagement Global Manager      |
+    | Hosted Control |      Dynamics 365 for Customer Engagement apps Global Manager      |
     |     Action     |            CopyToClipboard            |
     |      Data      | data=[[Sample KB Article.publicUrl]+] |
 

@@ -147,12 +147,12 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 3. Click **Hosted Controls**.  
   
-4. Locate the **Dynamics 365 for Customer Engagement Global Manager** hosted control, and click its name in the **Name** column to open it for editing.  
+4. Locate the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control, and click its name in the **Name** column to open it for editing.  
   
    > [!NOTE]
-   > **Dynamics 365 for Customer Engagement Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
+   > **Dynamics 365 for Customer Engagement apps Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
   
-5. On the nav bar, click the down arrow next to the **Dynamics 365 for Customer Engagement Global Manager** hosted control, and then select **UII Actions**.  
+5. On the nav bar, click the down arrow next to the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control, and then select **UII Actions**.  
   
    ![Navigation to UII Actions for hosted control](../../unified-service-desk/media/usd-hosted-contro-uii-action.png "Navigation to UII Actions for hosted control")  
   
@@ -170,10 +170,10 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
     1. In the **Name** field, type **ResetClientCache**.  
   
-    2. In the **Hosted Control** field, specify the **Dynamics 365 for Customer Engagement Global Manager**.  
+    2. In the **Hosted Control** field, specify the **Dynamics 365 for Customer Engagement apps Global Manager**.  
   
        > [!NOTE]
-       > **Dynamics 365 for Customer Engagement Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
+       > **Dynamics 365 for Customer Engagement apps Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
   
     3. In the **Action** field, specify **ResetLocalCache**.  
   

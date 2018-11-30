@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: d6013727-b00e-4671-97c6-f0c0600da980
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -165,7 +164,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
     |Field|Value|  
     |-----------|-----------|  
     |Name|CTIOpenContact|  
-    |Hosted Control|Dynamics 365 for Customer Engagement Global Manager|  
+    |Hosted Control|Dynamics 365 for Customer Engagement apps Global Manager|  
     |Action|Open_CRM_Page|  
     |Data|Id=[[$Context.Id]]<br />LogicalName=[[$Context.LogicalName]]|  
   
@@ -198,7 +197,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. The matching contact record is displayed in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Matching Dynamics 365 for Customer Engagement contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 for Customer Engagement contact record displayed in a session")  
+   ![Matching Dynamics 365 for Customer Engagement apps contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 for Customer Engagement apps contact record displayed in a session")  
   
 4. Check the Debugger hosted control to view the events that got raised as a result of the CTI search. Also check out the **Data Parameters** tab to view the context information in the `$Context` variable and CTI information under the `CTI` variable.  
   

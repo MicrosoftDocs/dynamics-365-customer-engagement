@@ -1,5 +1,5 @@
 ---
-title: "Internet Explorer settings (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Internet Explorer settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
 keywords: ""
 ms.date: 05/07/2018

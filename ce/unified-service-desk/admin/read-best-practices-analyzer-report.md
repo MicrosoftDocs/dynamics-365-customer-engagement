@@ -1,5 +1,5 @@
 ---
-title: "Read Best Practices Analyzer Report (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Read Best Practices Analyzer Report (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
 ms.custom: ""
 ms.date: 05/15/2018

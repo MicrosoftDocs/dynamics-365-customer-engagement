@@ -1,5 +1,5 @@
 ---
-title: "System configurations (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "System configurations (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.custom: ""
 ms.date: 04/24/2018

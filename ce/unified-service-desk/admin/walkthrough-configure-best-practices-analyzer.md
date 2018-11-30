@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.custom: ""
 ms.date: 05/15/2018

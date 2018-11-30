@@ -1,5 +1,5 @@
 ---
-title: Unified Service Desk data compliance under GDPR (Dynamics 365 for Customer Engagement) | MicrosoftDocs
+title: Unified Service Desk data compliance under GDPR (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs
 description: Learn about data in Unified Service Desk that comes under General Data Protection Regulation (GDPR)
 ms.custom: ""
 ms.date: 04/24/2018
