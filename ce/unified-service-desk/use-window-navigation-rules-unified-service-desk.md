@@ -1,5 +1,5 @@
 ---
-title: "Use window navigation rules in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Use window navigation rules in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to use window navigation rules to define the interaction between various controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 6b87e3db-e7f8-45c4-8a47-637d554e4b2d
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi

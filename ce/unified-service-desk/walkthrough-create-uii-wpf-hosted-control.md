@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 4a6e9113-3956-448c-9953-ec7ee6f22d9e
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -61,7 +60,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 2. In the **New Project** dialog box:  
   
-   1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement SDK Templates** > **Unified Service Desk** > **UII WPF Hosted Control**.  
+   1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates** > **Unified Service Desk** > **UII WPF Hosted Control**.  
   
    2.  Specify the name and location of the project, and choose **OK** to create a new project.  
   
