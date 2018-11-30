@@ -38,7 +38,7 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
   
  [Distribute custom host controls using Customization Files](../../unified-service-desk/admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement apps server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 
  [Performance enhancement for CRM entity page loads](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loads.md)
 

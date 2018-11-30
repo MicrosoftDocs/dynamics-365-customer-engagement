@@ -121,7 +121,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 ## Test your custom hosted control  
  After your project builds successfully, test the custom hosted control. Testing consists of two parts: defining the custom hosted control on the server and then connecting to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the server using your client application.  
   
-### Define the custom hosted control and action on the Dynamics 365 for Customer Engagement server  
+### Define the custom hosted control and action on the Dynamics 365 for Customer Engagement apps server  
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   

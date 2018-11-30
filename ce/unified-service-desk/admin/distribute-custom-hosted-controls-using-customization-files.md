@@ -71,4 +71,4 @@ Use the customization files feature to distribute custom hosted controls and fun
   
 ## See also  
  [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement apps server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)

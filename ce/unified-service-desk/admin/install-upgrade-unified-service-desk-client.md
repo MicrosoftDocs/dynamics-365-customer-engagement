@@ -121,7 +121,7 @@ SetupUnifiedServiceDesk.exe uninstall
   
 <a name="BKMK_USDNext"></a>   
 ## Next Step  
- Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)]. For more information, see [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement Server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)]. For more information, see [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement apps server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
 <a name="knownissues"></a>   
 ## Known issues  

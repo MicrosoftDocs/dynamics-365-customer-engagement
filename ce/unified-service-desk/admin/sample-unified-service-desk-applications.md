@@ -36,9 +36,9 @@ To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../include
   
  For information about the requirements for deploying a sample application, see [System requirements for deploying Unified Service Desk sample applications](../../unified-service-desk/admin/unified-service-desk-system-requirements.md#SampleApps).  
   
- For information about the sample applications, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ For information about the sample applications, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement apps server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
 ## See also  
- [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement Server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+ [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement apps server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
  

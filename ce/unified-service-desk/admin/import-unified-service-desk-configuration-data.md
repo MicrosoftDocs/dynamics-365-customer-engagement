@@ -40,7 +40,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 <a name="ConfigMigration"></a>   
 ## Import configuration data by using the Configuration Migration tool  
   
-1. Make sure that the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement Server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+1. Make sure that the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement apps server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 2. Run the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], and click **Import data** in the main screen. For information about downloading the tool, see step 1 in [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md).  
   
@@ -110,8 +110,8 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 12. In the package selection screen, select your custom package to deploy, and follow the wizard screens to deploy the package.  
   
-    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement Server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement apps server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 ## See also  
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)   
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement apps server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)   
  [Troubleshoot Unified Service Desk](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)
