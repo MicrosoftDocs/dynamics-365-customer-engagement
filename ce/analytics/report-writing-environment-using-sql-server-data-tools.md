@@ -34,7 +34,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
 - Creating [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports using [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)].  
   
-- To write Fetch-based reports, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] FetchXML language. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
+- To write Fetch-based reports, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps FetchXML language. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
   
 ## Required tools  
  The following are required to write a custom report for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
@@ -53,7 +53,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
 
 > [!NOTE]
-> - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 for Customer Engagement Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
+> - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
 > - Dynamics 365 Report Authoring Extension is available only in a 32-bit version.  
   
 ## Required privileges  

@@ -32,7 +32,7 @@ You can enable additional languages in [!INCLUDE[pn_dynamics_crm](../includes/pn
   
  You can also set the `Report.LanguageCode` attribute to -1 (minus one) to make the report visible to all users in the base language user interface. For information about the valid Locale ID values, see [MSDN: Microsoft Locale ID Values](https://msdn.microsoft.com/library/ms912047\(WinEmbedded.10\).aspx).  
   
- You can use the report language information in combination with information that is contained in the report entity, report category, and report visibility entities to determine the areas and categories in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] where the report is shown in different user interfaces languages.  
+ You can use the report language information in combination with information that is contained in the report entity, report category, and report visibility entities to determine the areas and categories in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps where the report is shown in different user interfaces languages.  
   
 > [!NOTE]
 >  The `Language` element inside the report definition language (RDL) file does not determine where the report is shown in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. It contains an expression that evaluates to a language code as defined in the Internet Engineering Task Force (IETF) RFC1766 specification. The language code is used mainly for formatting numbers, dates, and times for a specified language. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Language Element (Report) (RDL)](https://msdn.microsoft.com/library/ms153956.aspx).  

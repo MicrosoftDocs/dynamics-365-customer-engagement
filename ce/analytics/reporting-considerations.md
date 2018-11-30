@@ -65,7 +65,7 @@ search.app:
  If needed, there are many Microsoft Dynamics partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data integration tools available. More information: [Find the right partner](http://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
-## Third-party Dynamics 365 for Customer Engagement adapters for SSIS  
+## Third-party Dynamics 365 for Customer Engagement apps adapters for SSIS  
   
 -   [CozyRoc SSIS+ component for Microsoft Dynamics CRM](http://www.cozyroc.com/ssis/dynamics-crm-destination)  
   
