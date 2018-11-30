@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Install Dynamics 365 for Customer Engagement for phones and tablets
+# Install Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -39,7 +39,7 @@ search.app:
 ## Privileges required to run the app  
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
 
 <a name="bkmk2"></a>   
 ## Install the app from your device’s app store  
@@ -50,7 +50,7 @@ search.app:
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app**<br /><br /> [![Download app from Windows Store](../../../media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../../../media/mobile-istore-button.png "Download app from the Apple App Store")](http://go.microsoft.com/fwlink/p/?LinkID=519213)<br /><br /> [![Get the app on Google Play](../../../media/mobile-google-play-button.png "Get the app on Google Play")](http://go.microsoft.com/fwlink/p/?LinkID=519214) | **[!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app**<br /><br /> [![Download app from Windows Store](../../../media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../../../media/mobile-istore-button.png "Download app from the Apple App Store")](http://go.microsoft.com/fwlink/p/?LinkID=313645)<br /><br /> [![Get the app on Google Play](../../../media/mobile-google-play-button.png "Get the app on Google Play")](http://go.microsoft.com/fwlink/p/?LinkID=392774) |
 
-## Looking for a different version of the Dynamics 365 for Customer Engagement for phones app?  
+## Looking for a different version of the Dynamics 365 for phones app?  
  If your organization isn’t ready to use the latest [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app, you may be able to  use the earlier version called [!INCLUDE[pn_crm_for_phones_express](../../../../includes/pn-crm-for-phones-express.md)]. 
 
 <a name="bkmk4"></a>   
@@ -67,5 +67,5 @@ search.app:
  [!INCLUDE[cc_privacy_crm_for_tablets](../../../../includes/cc-privacy-crm-for-tablets.md)]  
 
 ### See also  
- [Signing in and signing out on Dynamics 365 for Customer Engagement for phones and tablets](sign-in-out.md)   
+ [Signing in and signing out on Dynamics 365 for phones and tablets](sign-in-out.md)   
  [TechNet: Phone and tablet support](https://technet.microsoft.com/library/dn531131.aspx)

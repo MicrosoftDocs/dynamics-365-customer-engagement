@@ -1,5 +1,5 @@
 ---
-title: "Get the Company News Timeline for Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: "dyn365-mobile-app"
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps Version 9.x
 author: "mduelae"
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
@@ -35,13 +35,13 @@ Gain valuable insights from the latest news about your customers on your phone o
 > [!IMPORTANT]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
-## Install the solution for Dynamics 365 for Customer Engagement (online)  
+## Install the solution for Dynamics 365 for Customer Engagement apps  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 for Customer Engagement System Administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 for Customer Engagement apps System Administrator credentials.  
   
-2. Click **Admin > Dynamics 365 for Customer Engagement**.  
+2. Click **Admin > Dynamics 365 for Customer Engagement apps**.  
   
-3. On the **Manage all Dynamics 365 for Customer Engagement (online) instances** page, select the instance to add the solution to.  
+3. On the **Manage all Dynamics 365 for Customer Engagement apps instances** page, select the instance to add the solution to.  
   
 4. Click **Solutions**.  
   
