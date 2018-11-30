@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: c9e49c30-dc33-454e-b067-c90ecca6d659
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -79,7 +78,7 @@ string UserDefinedCommand(string command, string request);
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement apps** > **Settings** > **Unified Service Desk**.  
 
 3. On the **Unified Service Desk** page, click **Hosted Controls**.  
 

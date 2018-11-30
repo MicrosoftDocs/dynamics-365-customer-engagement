@@ -1,5 +1,5 @@
 ---
-title: "Unified Interface Settings (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Unified Interface Settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: ""
 ms.date: 08/17/2018
@@ -35,7 +35,7 @@ Unified Interface Settings is a new configuration element introduced under **Adv
 In addition, you can now configure the settings like a theme, Unified Interface App, and assign users (agents) to the Unified Interface Settings record. After creating a Unified Interface Settings record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
 
 > [!NOTE]
-> The Unified Interface Settings configuration option is supported only on Dynamics 365 for Customer Engagement Unified Interface app and not supported on Dynamics 365 for Customer Engagement Web Client.
+> The Unified Interface Settings configuration option is supported only on Dynamics 365 for Customer Engagement Unified Interface app and not supported on Dynamics 365 for Customer Engagement apps Web Client.
 
 
 ## How to create Unified Interface Settings record
@@ -134,9 +134,9 @@ Add users (agents) to a **Configuration**, and no Unified Interface Settings rec
 
  [Walkthrough 2: Display an external webpage in your agent application](../../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)  
 
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement Unified Interface app records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)  
+ [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)  
 
- [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement Unified Interface app record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
 
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)  
 
