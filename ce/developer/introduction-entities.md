@@ -135,6 +135,9 @@ The *entities* are used to model and manage business data in [!INCLUDE[pn_dynami
 
  When a record is assigned to another user or team, the previous owner still has access to this record if the `ShareToPreviousOwnerOnAssign` attribute is set to `true`. However, the previous owner will no longer have ownership of the record.  
 
+> [!NOTE]
+> After changing a record’s ownership to another user, a user will receive an ‘Access Denied’ error when trying to access that record if the user only has ‘User’ level record privilege to that record.
+
 <a name="Share"></a>   
 ### Share  
  For user-owned or team-owned entities, you can share a record with other users or teams. 
@@ -165,6 +168,7 @@ The *entities* are used to model and manage business data in [!INCLUDE[pn_dynami
 -   Anyone with share privileges on a business record can remove sharing for a specified user who has the record shared.  
 
 -   Anyone with share privileges on a business record can remove sharing for all users with whom the record was previously shared.  
+
 
 <a name="Associate"></a>   
 ### Associate  
@@ -202,8 +206,8 @@ The *entities* are used to model and manage business data in [!INCLUDE[pn_dynami
  You can use the <xref:Microsoft.Crm.Sdk.Messages.AssignRequest> message to change the ownership of a record. For more information, see [Assign](introduction-entities.md#Assign). You can use the <xref:Microsoft.Crm.Sdk.Messages.ReassignObjectsOwnerRequest> or <xref:Microsoft.Crm.Sdk.Messages.ReassignObjectsSystemUserRequest> message to do bulk reassignment of all records for an owner.  
 
 > [!NOTE]
-> - By limiting ownership to users or teams, you restrict access to data to authorized users in the organization. However, you can expand data access to additional users and teams by sharing an entity record with them. You can also assign a record to another user or team. Configuring security for user-owned or team-owned entities gives you more access levels for the security roles than for organization-owned entities. The security roles for organization-owned entities have two access levels: None and Global. The user-owned or team-owned entities have five access levels: Global, Deep, Local, Basic, and None.  
-> - After changing a record’s ownership to another user, a user will receive an ‘Access Denied’ error when trying to access that record if the user only has ‘User’ level record privilege to that record.
+> By limiting ownership to users or teams, you restrict access to data to authorized users in the organization. However, you can expand data access to additional users and teams by sharing an entity record with them. You can also assign a record to another user or team. Configuring security for user-owned or team-owned entities gives you more access levels for the security roles than for organization-owned entities. The security roles for organization-owned entities have two access levels: None and Global. The user-owned or team-owned entities have five access levels: Global, Deep, Local, Basic, and None.  
+
 
 <a name="bkmk_RecordStateandStatus"></a>   
 ## Record state and status  
