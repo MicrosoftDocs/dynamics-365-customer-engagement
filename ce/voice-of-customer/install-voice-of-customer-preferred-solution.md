@@ -4,14 +4,14 @@ description: ""
 ms.assetid: 6ede301c-1061-4f13-887f-89dbde408c01
 ms.custom:
   - dyn365-VoC
-ms.date: 07/26/2017
+ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
 applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/install-solution
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Install the Voice of the Customer solution
 This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solutions earlier than 9.0 and latest version.
