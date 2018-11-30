@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -41,11 +41,11 @@ search.app:
 ## The command bar  
  You can add a new record, change views, or do other tasks from the command bar.  
   
- Just tap ![Dynamics 365 for Customer Engagement ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement ellipsis") on the bottom right-hand corner of the page.  
+ Just tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the bottom right-hand corner of the page.  
   
  You can also press and hold an item to display the command bar.  
   
- ![Dynamics 365 for Customer Engagement for mobile command bar](../../../media/mobile-command-bar-phone.PNG "Dynamics 365 for Customer Engagement for mobile command bar")  
+ ![Dynamics 365 for Customer Engagement apps for mobile command bar](../../../media/mobile-command-bar-phone.PNG "Dynamics 365 for Customer Engagement apps for mobile command bar")  
   
  The command bar is context-sensitive, and the available commands change depending on where you are in the app. When you display the command bar for a specific item (when you press and hold the item), the commands that appear are relevant to that item.  
   
@@ -58,10 +58,10 @@ search.app:
   
  When you want to go back to your Home screen, tap **Home**.  
   
- ![Home screen in the Dynamics 365 for Customer Engagement mobile app](../../../media/mobile-home-cent.png "Home screen in the Dynamics 365 for Customer Engagement mobile app")  
+ ![Home screen in the Dynamics 365 for Customer Engagement apps mobile app](../../../media/mobile-home-cent.png "Home screen in the Dynamics 365 for Customer Engagement apps mobile app")  
   
  To create new dashboards in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] and enable them for use in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets, see [Create or customize dashboards](../../../../customize/create-edit-dashboards.md).  
   
 ## Screen orientation
 
-For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets apps cannot be changed. 
+For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets apps cannot be changed. 

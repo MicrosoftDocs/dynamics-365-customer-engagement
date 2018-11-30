@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -47,7 +47,7 @@ search.app:
   
  [TechNet: Troubleshoot problems with CRM for phones express](https://technet.microsoft.com/library/dn660977.aspx)  
   
- [Troubleshoot a Dynamics 365 for Customer Engagement for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
+ [Troubleshoot a Dynamics 365 for Customer Engagement apps for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
   
 ### See also  
- [Use Cortana voice commands in Dynamics 365 for Customer Engagement for phones](use-cortana-voice-commands.md)
+ [Use Cortana voice commands in Dynamics 365 for Customer Engagement apps for phones](use-cortana-voice-commands.md)

@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics CRM Online"
 author: "jimholtz"
 ms.assetid: 70afbe24-617d-428f-8067-da3a6f3fbd5c

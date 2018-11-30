@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 8.x"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement apps Version 8.x"
 ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
 ms.author: "mkaur"

@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -44,7 +44,7 @@ search.app:
   
    Here's how to sign out in case someone else needs to use your device.  
   
-3. From your Home page, tap ![Dynamics 365 for Customer Engagement ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement ellipsis").  
+3. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
   
 4. Tap **Settings**.  
   

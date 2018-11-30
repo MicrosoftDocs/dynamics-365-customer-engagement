@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 author: "mduelae"
@@ -62,4 +62,4 @@ As a Customer Service Manager or Customer Service Rep, use the [!INCLUDE[pn_crm_
 
 ### See also  
  [Manage activities in Dynamics 365 for phones and tablets](manage-activities.md)   
- [Use Cortana voice commands in Dynamics 365 for Customer Engagement for phones](use-cortana-voice-commands.md)
+ [Use Cortana voice commands in Dynamics 365 for Customer Engagement apps for phones](use-cortana-voice-commands.md)

@@ -1,5 +1,5 @@
 ---
-title: "Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement for Good | MicrosoftDocs"
+title: "Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
@@ -26,7 +26,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement for Good
+# Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -34,13 +34,13 @@ search.app:
   
  This app is intended for use only with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../../../../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../../../../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../../../../includes/pn-moca-full.md)] instead from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=313645).  
   
-## Download the Microsoft Dynamics 365 for Customer Engagement for Good app  
+## Download the Microsoft Dynamics 365 for Customer Engagement apps for Good app  
  You can download the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=524762). You can also find the app on the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809).  
   
 > [!IMPORTANT]
 >  [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] requires iOS 7.0 or later. To use the app on an [!INCLUDE[tn_ipad](../../../../includes/tn-ipad.md)], you need [!INCLUDE[pn_crm_2015](../../../../includes/pn-crm-2015.md)] or later. To use the app on an [!INCLUDE[tn_iphone](../../../../includes/tn-iphone.md)], you need [!INCLUDE[pn_crm_online_2015_update_1](../../../../includes/pn-crm-online-2015-update-1.md)] or later or [!INCLUDE[pn_crm_2016](../../../../includes/pn-crm-2016.md)].  
   
-## Start and sign in to the Microsoft Dynamics 365 for Customer Engagement for Good app  
+## Start and sign in to the Microsoft Dynamics 365 for Customer Engagement apps for Good app  
   
 1. Open the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app.  
   
@@ -50,7 +50,7 @@ search.app:
   
 4. On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address.  
   
-    ![Dynamics 365 for Customer Engagement for tablets Let's get started screen for iPad](../../../media/mobile-start-screen-apple.png "Dynamics 365 for Customer Engagement for tablets Let's get started screen for iPad")  
+    ![Dynamics 365 for Customer Engagement apps for tablets Let's get started screen for iPad](../../../media/mobile-start-screen-apple.png "Dynamics 365 for Customer Engagement apps for tablets Let's get started screen for iPad")  
   
 5. Tap the **Arrow** button in the lower right corner to continue.  
   
@@ -58,14 +58,14 @@ search.app:
   
    Now that you’re signed in to the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app, check out the [CRM for Phones and Tablets User’s Guide](../../../../mobile-app/dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
   
-## Accessing email and other apps through Microsoft Dynamics 365 for Customer Engagement for Good  
+## Accessing email and other apps through Microsoft Dynamics 365 for Customer Engagement apps for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../../../../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], along with any settings that need to be configured.  
   
 <a name="bkmk4"></a>   
 ## Information for admins  
- For a list of supported phones and tablets, see the compatibility information in [TechNet: Support for Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
+ For a list of supported phones and tablets, see the compatibility information in [TechNet: Support for Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
   
- For information on what your enterprise needs to do before using [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], see [TechNet: Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](https://technet.microsoft.com/library/dn531128.aspx).  
+ For information on what your enterprise needs to do before using [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], see [TechNet: Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](https://technet.microsoft.com/library/dn531128.aspx).  
   
  If you’re having problems with the app, see [TechNet: Troubleshooting and things to know about Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx).  
   
