@@ -475,18 +475,57 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
     Regardless of which tab you selected in step 1, the email, task, or appointment will be sent from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)], not [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
-### Track appointments from another person in your Dynamics 365 organization
+### Track appointments from another person or create draft appointments 
 
-You can track appointments from another person in your Dynamics 365 organization using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your Dynamics 365 organization. Dynamics 365 provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+Administrators have the ability to implement specific changes that were previously reserved for registry implementations by enabling  OrgDBOrgSetting in Dynamics 365.
+
+Admins can modify this setting to allow users to do the following:
+
+- Track appointments from another person in Dynamics 365.
+
+- Create draft appointments in Dynamics 365 without synchronizing with Exchange. This means you can create appointments in Dynamics 365 and save them, add details, and update appointments without syncing the changes to your Exchange email client. Note, you will need to be on version 9.x (build 9.0.2.2081).
+
+To enable these capabilities, an admin will need enable the OrgDBOrgSetting in Dynamics 365. 
 
 1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
-2. After extracting the tool, enable the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
+2. After extracting the tool, do one of the following:
 
-You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
+- To turn on the option to track appointments from another person, enable the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
 
-After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
+- To create draft appointments in Dynamics 365 without syncing with Exchange, enable the *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
 
- ![Track appointments](media/Trackappointments.png "Track appointments ")
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer* or *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
+
+##### Track appointments from another person
+
+After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
+
+ ![Track appointments](media/Trackappointments.png "Track appointments")
+ 
+ ##### Create draft appointments without syncing with Exchange
+ 
+ Create appointments in Dynamics 365 and have the option to send (synchronize with Exchange) and save (do not synchronize with Exchange).
+ 
+ ![Create an appointment and save it](media/saveappt.png "Create an appointment and save it")
+ 
+ View previously saved draft appointment activity.
+ 
+ ![View previously saved draft](media/saveddraft.png "View previously saved draft")
+ 
+ View all your saved appointments from the activity home page grid.
+ 
+ ![View appointments from the Activity grid](media/viewfromgrid.png "View appointments from the Activity grid")
+ 
+ Note, this capability does not apply to recurring appointment activity. Also, draft appointments that are not synchronized to Exchange still have the same state or status as synced appointments. 
+ 
+ 
+ #### Create draft appointments without synchronizing with Exchange
+
+Appointment activities created in Dynamics 365 are synchronized with Exchange through Server-Side Synchronization. When you open the appointment activity form and create a new appointment or update an existing appointment, the changes are synchronized automatically with Exchange.
+
+If you are on the latest version 9.x (build 9.0.2.2081), you can create appointments in Dynamics 365 without synchronizing with Exchange. This means can create appointments in Dynamics 365 and save them, add details, and update appointments without syncing the changes to your Exchange email client.
+
+To turn enable this, an administrators
 
 ### Search for a contact  
 
