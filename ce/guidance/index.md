@@ -24,7 +24,7 @@ The documentation targets the following customization types:
 - Configuration changes through a Dynamics 365 for Customer Engagement designer or administrative console
 - Client scripts
 - Custom workflow activities and plug-ins
-- Integrations through the Dynamics 365 for Customer Engagement SDK, the various Dynamics 365 for Customer Engagement web based services, Azure, Microsoft Flow, and PowerApps.
+- Integrations through the Dynamics 365 for Customer Engagement apps SDK, the various Dynamics 365 for Customer Engagement web based services, Azure, Microsoft Flow, and PowerApps.
 
 <a name='sections'></a>
 

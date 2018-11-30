@@ -1,5 +1,5 @@
 ---
-title: "Sample: Dump entity privilege information to a file (Dynamics 365 for Customer Engagement SDK) | MicrosoftDocs"
+title: "Sample: Dump entity privilege information to a file (Dynamics 365 for Customer Engagement apps SDK) | MicrosoftDocs"
 description: "This sample shows how to extract entity privilege information into a file using the organization service."
 keywords: ""
 ms.date: 10/31/2017

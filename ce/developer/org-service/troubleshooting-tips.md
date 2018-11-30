@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting tips (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "This topic contains tips to diagnose and fix certain common issues that may arise when developing Dynamics 365 for Customer Engagement SDK–based applications"
+description: "This topic contains tips to diagnose and fix certain common issues that may arise when developing Dynamics 365 for Customer Engagement apps SDK–based applications"
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
