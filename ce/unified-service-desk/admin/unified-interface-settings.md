@@ -35,7 +35,7 @@ Unified Interface Settings is a new configuration element introduced under **Adv
 In addition, you can now configure the settings like a theme, Unified Interface App, and assign users (agents) to the Unified Interface Settings record. After creating a Unified Interface Settings record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
 
 > [!NOTE]
-> The Unified Interface Settings configuration option is supported only on Dynamics 365 for Customer Engagement Unified Interface app and not supported on Dynamics 365 for Customer Engagement apps Web Client.
+> The Unified Interface Settings configuration option is supported only on Dynamics 365 for Customer Engagement apps (Unified Interface apps) and not supported on Dynamics 365 for Customer Engagement apps Web Client.
 
 
 ## How to create Unified Interface Settings record

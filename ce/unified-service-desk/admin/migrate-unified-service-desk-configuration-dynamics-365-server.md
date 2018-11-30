@@ -1,5 +1,5 @@
 ---
-title: "Migrate your Unified Service Desk for Dynamics 365 for Customer Engagement configuration to another Dynamics 365 for Customer Engagement instance | MicrosoftDocs"
+title: "Migrate your Unified Service Desk for Dynamics 365 for Customer Engagement configuration to another Dynamics 365 for Customer Engagement apps instance | MicrosoftDocs"
 description: "Learn how to move a Unified Service Desk for Dynamics 365 for Customer Engagement configuration to another instance."
 ms.custom: 
   - dyn365-USD, dyn365-admin

@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 9fb92472-39af-4816-84eb-4d5ffb8b4b4f
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -163,7 +162,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
 ### Save  
- This action saves the current Dynamics 365 for Customer Engagement page.  
+ This action saves the current Dynamics 365 for Customer Engagement apps page.  
 
 <a name="SaveAll"></a>   
 ### SaveAll  

@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: ba20bfa3-6a1d-4e87-9faa-40317c839be4
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -36,7 +35,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the navigation bar, click or tap **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
+2. On the navigation bar, click or tap **Microsoft Dynamics 365 for Customer Engagement apps**, and then select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

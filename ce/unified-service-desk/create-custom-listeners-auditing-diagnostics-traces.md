@@ -16,7 +16,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: c4290a42-e760-4eba-a11d-de605e239c2d
-caps.latest.revision: 14
 author: kabala123
 ms.author: kabala
 manager: shujoshi
