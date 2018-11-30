@@ -1,6 +1,6 @@
 ---
-title: "Add a payment gateway to your event portal (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs "
-description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Customer Engagement for Marketing"
+title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
 keywords: "events; payment"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -33,7 +33,7 @@ To add a new payment page to your event portal:
 
 1. Make an agreement with a third-party payment provider and prepare a web page that provides a payment front end, as described in their documentation.
 
-1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365 for Customer Engagement—custom** from the app selector.  
+1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365 — custom** from the app selector.  
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 

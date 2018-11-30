@@ -111,7 +111,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 3. If you have additional functionality that you routinely use in your applications, you can add the associated references to the required assemblies now. For more information, see [How to: Add or Remove References by Using the Add Reference Dialog Box](https://msdn.microsoft.com/library/wkze6zky.aspx).  
   
-   Because the Dynamics 365 for Customer Engagement Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 for Customer Engagement do require these; for more information, see [Assemblies included in Dynamics 365 for Customer Engagement SDK](../org-service/assemblies-included-sdk.md).  
+   Because the Dynamics 365 for Customer Engagement Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 for Customer Engagement do require these; for more information, see [Assemblies included in Dynamics 365 for Customer Engagement apps SDK](../org-service/assemblies-included-sdk.md).  
   
 #### Add typical using statements  
   

@@ -1,6 +1,6 @@
 ---
-title: "Add custom validation rules to Dynamics 365 for Customer Engagement for Marketing | Microsoft Docs "
-description: "How to add more rules for validating records before going live in Dynamics 365 for Customer Engagement for Marketing"
+title: "Add custom validation rules to Dynamics 365 for Marketing | Microsoft Docs "
+description: "How to add more rules for validating records before going live in Dynamics 365 for Marketing"
 keywords: "customize;workflow;business process;validation"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing

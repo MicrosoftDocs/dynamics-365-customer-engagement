@@ -1,6 +1,6 @@
 ---
-title: "User Guide (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 for Customer Engagement for Marketing"
+title: "User Guide (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 for Marketing"
 keywords: "user guide"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -32,7 +32,7 @@ search.app:
 <tr><td>
 
 <h2>Learn the basics</h2>
-<li><a href="overview.md" data-raw-source="[Dynamics 365 for Customer Engagement for Marketing overview](overview.md)">Dynamics 365 for Customer Engagement for Marketing overview</a></li>
+<li><a href="overview.md" data-raw-source="[Dynamics 365 for Marketing overview](overview.md)">Dynamics 365 for Marketing overview</a></li>
 <li><a href="browser-requirements.md" data-raw-source="[Browser and system requirements](browser-requirements.md)">Browser and system requirements</a></li>
 <li><a href="navigation.md" data-raw-source="[Find your way around](navigation.md)">Find your way around</a></li>
 <li><a href="designer-shortcuts.md" data-raw-source="[Accessibility and keyboard shortcuts](designer-shortcuts.md)">Accessibility and keyboard shortcuts</a></li>

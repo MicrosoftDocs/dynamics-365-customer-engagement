@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -67,9 +67,9 @@ http://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
  In the syntax, you specify the `key=value` pair to pass parameter list to be used when the event is triggered.  
 
- Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. To do this:  
+ Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. To do this:  
 
-1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 2. Create an action call, called `Action Call for Title Change`, with the following values:  
 
@@ -88,7 +88,7 @@ http://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
     This will cause the `TitleChanged` event to be triggered with the following data parameter: `NewTitle=<NEW_TITLE>`  
 
-   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`http://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`http://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ```  
 if ((window.IsUSD != null) && (window.IsUSD == true))  

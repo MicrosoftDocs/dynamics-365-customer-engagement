@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-USD"
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -41,11 +41,11 @@ Developers and customizers will be able to use the following new features in the
 
 ### General Availability: Support for Unified Interface apps in Unified Service Desk
 
-With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365 for Customer Engagement, which is built based on the Unified Interface framework.
+With the release of [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365 for Customer Engagement apps, which is built based on the Unified Interface framework.
 
-A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps.
 
-The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement apps windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
 ## Preview features
 
@@ -81,11 +81,11 @@ See the video to know [What's New in Unified Service Desk 3.3](https://go.micros
 
 ### Public Preview Feature: Support for Unified Interface Apps in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365 for Customer Engagement, which is built based on the Unified Interface framework.
+With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365 for Customer Engagement apps, which is built based on the Unified Interface framework.
 
-The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page. 
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement apps windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page. 
 
-A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
+A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps. 
 
 When you sign in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you can see an app module selection window that is introduced as part of the Unified Interface supportability. You need to select a Unified Interface app from the list and experience the app in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 

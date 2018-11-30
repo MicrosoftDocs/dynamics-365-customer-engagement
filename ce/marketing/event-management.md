@@ -1,6 +1,6 @@
 ---
-title: "Plan, publicize, and collect registrations for events (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs "
-description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 for Customer Engagement for Marketing"
+title: "Plan, publicize, and collect registrations for events (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 for Marketing"
 keywords: "events; event management"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -24,7 +24,7 @@ search.app:
   - D365Mktg
 ---
 
-# Event planning and management in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+# Event planning and management
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 

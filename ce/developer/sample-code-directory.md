@@ -75,7 +75,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Authentication  
 
 
-[Sample: Authenticate Users with Dynamics 365 for Customer Engagement apps Web Services](sample-authenticate-users-web-services.md)<br />
+[Sample: Authenticate Users with Dynamics 365 for Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
 [Sample: Quick Start for Dynamics 365 for Customer Engagement apps](sample-quick-start.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 for Customer Engagement apps](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
@@ -257,7 +257,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Organization web service  
 
 
-[Sample: Authenticate Users with Dynamics 365 for Customer Engagement apps Web Services](sample-authenticate-users-web-services.md)<br />
+[Sample: Authenticate Users with Dynamics 365 for Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](org-service/sample-execute-multiple-requests.md)<br />
 [Sample: Execute multiple requests in transaction](org-service/sample-execute-multiple-requests-transaction.md)<br />
 [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />

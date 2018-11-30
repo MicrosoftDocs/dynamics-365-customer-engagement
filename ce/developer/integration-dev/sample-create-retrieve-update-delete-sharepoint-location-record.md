@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a SharePoint location record (Dynamics 365 for Customer Engagement SDK)| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a SharePoint location record (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2017

@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an opportunity (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
+title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 09/24/2018
@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 692b7303-d9e1-4323-9e81-ab0dee4cfd2d
 author: shubhadaj
 ms.author: shujoshi
@@ -22,7 +22,6 @@ caps.latest.revision: 58
 topic-status: Drafting
 ---
 
-<!--Note to author: Update ms.date to date of publication. Also, remove keywords entry from metadata.-->
 # Create or edit an opportunity (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

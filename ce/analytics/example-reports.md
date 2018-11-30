@@ -1,5 +1,5 @@
 ---
-title: "Example reports for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Example reports for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This section provides example reports that show how to implement common techniques in your reports for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+This section provides example reports that show how to implement common techniques in your reports for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## Create a report using an example  
   
@@ -34,7 +34,7 @@ This section provides example reports that show how to implement common techniqu
   
 2. During the report configuration, paste the example into the report and follow any additional report configuration instructions included in the example.  
   
-   -   For a Fetch XML example, see [Create a custom Fetch-based report (Dynamics 365 for Customer Engagement (online) and Dynamics 365 for Customer Engagement on-premises)](../analytics/create-a-new-report-using-sql-server-data-tools.md#FetchBased).  
+   -   For a Fetch XML example, see [Create a custom Fetch-based report](../analytics/create-a-new-report-using-sql-server-data-tools.md#FetchBased).  
   
 3. Publish the report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
    

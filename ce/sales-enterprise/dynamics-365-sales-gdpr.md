@@ -3,28 +3,23 @@ title: "Dynamics 365 for Sales and GDPR | MicrosoftDocs"
 description: "Know how Dynamics 365 for Sales complies with GDPR regulations."
 keywords: "Sales, GDPR"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 722fa6d7-0d73-4fd0-a726-8148a8d55657
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Dynamics 365 for Sales and GDPR

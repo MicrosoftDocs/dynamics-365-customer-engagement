@@ -1,6 +1,6 @@
 ---
 title: "Use the XRM tooling common login control in your client applications (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "The Dynamics 365 for Customer Engagement SDK provides you with a template for Visual Studio that enables you to use the common login control in your client applications. The code for Dynamics 365 for Customer Engagement authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for Dynamics 365 for Customer Engagement"
+description: "The Dynamics 365 for Customer Engagement apps SDK provides you with a template for Visual Studio that enables you to use the common login control in your client applications. The code for Dynamics 365 for Customer Engagement authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for Dynamics 365 for Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -83,7 +83,11 @@ There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-stu
   
    1.  In the **Solution Explorer** pane, right-click the project name, and click **Add** > **New Item**.  
   
+<<<<<<< HEAD
    2.  In the **Add New Item** dialog box, from the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**. Click **Dynamics 365 for Customer Engagement apps Login Form for WPF Applications**, and click **OK**.  
+=======
+   2.  In the **Add New Item** dialog box, from the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**. Click **Dynamics 365 for Customer Engagement Login Form for WPF Applications**, and click **OK**.  
+>>>>>>> 58afe5531139485f76d29dc85b1ea680128b55c8
   
    ![Add the common login control template](../media/crm-sdk-v6-xrmtooling-addtemplate01.png "Add the common login control template")  
   

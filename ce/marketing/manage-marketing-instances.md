@@ -1,6 +1,6 @@
 ---
-title: "Manage marketing instances (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs  "
-description: "How to copy a production Dynamics 365 for Customer Engagement for Marketing instance to a sandbox instance for experiments and testing"
+title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs  "
+description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: "administration;admin center;copy;sandbox;instances;backup;recall"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -77,7 +77,7 @@ For details about how to copy a production instance to a sandbox and then run th
 
 ## Reset or delete an instance
 
-For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing from a Dynamics 365 for Customer Engagement instance](uninstall-marketing.md).
+For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing](uninstall-marketing.md).
 
 ## Change the URL for an instance
 
@@ -104,7 +104,7 @@ After the copy, your sandbox instance will be set up as follows:
 
 To copy a production instance to a sandbox:
 
-1. [Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md) and make sure that the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application and its related solutions are all up to date on your production instance, as described in [Keep Marketing up to date](apply-updates.md).
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application and its related solutions are all up to date on your production instance, as described in [Keep Marketing up to date](apply-updates.md).
 
 2. As mentioned in [Prepare for copies and manual backups](#prepare-backup), move all your running live entities to a _stopped_ state if you will make a full copy. You don't have to do this if you're planning to make a minimal copy because live entities aren't copied during a minimal copy.
 
@@ -148,6 +148,6 @@ To copy a production instance to a sandbox:
 
 ### See also
 
-[Open the Dynamics 365 for Customer Engagement admin center](dynamics-365-admin-center.md)  
+[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Uninstall Marketing](uninstall-marketing.md)

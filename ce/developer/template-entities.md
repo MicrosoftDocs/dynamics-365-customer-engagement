@@ -1,5 +1,5 @@
 ---
-title: "Template entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Template entities (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about template entities that help you create layout and content in email messages, articles, contracts, mail merge documents, and Microsoft Office documents."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -42,10 +42,10 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], th
   
  [Template Entity](entities/template.md)  
   
- [Upload and manage document templates in Dynamics 365 for Customer Engagement](upload-manage-document-templates.md)  
+ [Upload and manage document templates in Dynamics 365 for Customer Engagement apps](upload-manage-document-templates.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365 for Customer Engagement](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
   
  [Annotation (Note) Entity](annotation-note-entity.md)  
   

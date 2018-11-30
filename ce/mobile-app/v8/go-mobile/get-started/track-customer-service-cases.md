@@ -1,5 +1,5 @@
 ---
-title: "Track customer service cases in Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Track customer service cases in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 author: "mduelae"
@@ -25,7 +25,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Track customer service cases in Dynamics 365 for Customer Engagement for phones and tablets
+# Track customer service cases in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -41,7 +41,7 @@ As a Customer Service Manager or Customer Service Rep, use the [!INCLUDE[pn_crm_
 |--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                Merge cases                                                                 |                                                                                                   Not available.                                                                                                    |
 |                                                             KB article lookup                                                              |                                                   [!INCLUDE[cc_feature_included_with_update_2016](../../../../includes/cc-feature-included-with-update-2016.md)]                                                    |
-|                                                    Queue filter in **Queue Items** list                                                    | Not available. However, you can change the view so that it filters items by queues. More information: [TechNet: Customize Dynamics 365 for Customer Engagement for phones and tablets](https://technet.microsoft.com/library/dn531159.aspx) |
+|                                                    Queue filter in **Queue Items** list                                                    | Not available. However, you can change the view so that it filters items by queues. More information: [TechNet: Customize Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531159.aspx) |
 |                     **Queue Item Details** button on forms for items that you can route to a queue; for example, cases                     |                                                                                                   Not available.                                                                                                    |
 |                                                  **Similar Cases** area on the case form                                                   |                                                                                                   Not available.                                                                                                    |
 |                                                   Customer contact card on the case form                                                   |                                                             Tap the customer name on the case form to view the customer record and communication card.                                                              |
@@ -61,5 +61,5 @@ As a Customer Service Manager or Customer Service Rep, use the [!INCLUDE[pn_crm_
 3.  Sign in to the web application when it appears. The web app goes right to the case you had open in the mobile app.  
 
 ### See also  
- [Manage activities in Dynamics 365 for Customer Engagement for phones and tablets](manage-activities.md)   
- [Use Cortana voice commands in Dynamics 365 for Customer Engagement for phones](use-cortana-voice-commands.md)
+ [Manage activities in Dynamics 365 for phones and tablets](manage-activities.md)   
+ [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)

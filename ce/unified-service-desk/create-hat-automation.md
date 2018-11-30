@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -97,7 +97,7 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 <a name="verify"></a>   
 ## Verify the HAT hosted control with automation  
   
-1. Deploy the [!INCLUDE[pn_hat](../includes/pn-hat.md)] application to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy the hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md)  
+1. Deploy the [!INCLUDE[pn_hat](../includes/pn-hat.md)] application to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy the hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md)  
   
 2. Copy the required files (workflow and [!INCLUDE[pn_hat](../includes/pn-hat.md)] application assemblies) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
   

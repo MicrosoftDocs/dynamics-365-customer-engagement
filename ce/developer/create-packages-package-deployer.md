@@ -73,7 +73,7 @@ search.app:
 
 2. In the **New Project** dialog box:  
 
-   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement SDK Templates**.  
+   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**.  
 
    2. Ensure that **[!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)]** is selected.  
 

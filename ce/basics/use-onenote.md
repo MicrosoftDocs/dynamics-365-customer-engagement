@@ -24,7 +24,7 @@ search.app:
   - D365CE
 ---
 
-# Use OneNote in Dynamics 365 for Customer Engagement (online)
+# Use OneNote in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -32,7 +32,7 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
   
  [Watch a short video (2:01) about OneNote integration](https://go.microsoft.com/fwlink/p/?linkid=837793)  
   
- More information about setting up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration if you're a system administrator: [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md)  
+ More information about setting up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration if you're a system administrator: [Set up OneNote integration in Dynamics 365 for Customer Engagement apps](../admin/set-up-onenote-integration-in-dynamics-365.md)  
   
 <a name="BKMK_UseOneNote"></a>   
 > [!NOTE]
@@ -55,7 +55,7 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
   
    ![Notebooks in Document Associated Grid](media/document-associated-grid.png "Notebooks in Document Associated Grid")
 
-[//]: # (The graphic for step 3 is the same as for step 1. In the Note in step 3, I used the pn-crm-shortest.md token for "Dynamics 365 for Customer Engagement," to match the token you used above. Also in the Note, please note that I changed ". onetoc2" to ".onetoc2". I assume it and .one are both file name extensions?)
+[//]: # (The graphic for step 3 is the same as for step 1. In the Note in step 3, I used the pn-crm-shortest.md token for "Dynamics 365 for Customer Engagement apps, " to match the token you used above. Also in the Note, please note that I changed ". onetoc2" to ".onetoc2". I assume it and .one are both file name extensions?)
 ### Get started with OneNote (web app)  
 
 1. In the activities area of a record, select **OneNote**.  
@@ -77,6 +77,6 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
 > - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ### See also  
- [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md)   
- [OneNote in Dynamics 365 for Customer Engagement FAQs](../basics/onenote-dynamics-365-faqs.md)   
+ [Set up OneNote integration in Dynamics 365 for Customer Engagement apps](../admin/set-up-onenote-integration-in-dynamics-365.md)   
+ [OneNote in Dynamics 365 for Customer Engagement apps FAQs](../basics/onenote-dynamics-365-faqs.md)   
  [Work with activities](../basics/work-with-activities.md)

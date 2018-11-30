@@ -1,6 +1,6 @@
 ---
-title: "Manage access using Unified Service Desk for Dynamics 365 for Customer Engagement configuration | MicrosoftDocs"
-description: "Learn to control how agents use Unified Service Desk for Dynamics 365 for Customer Engagement by using configuration."
+title: "Manage access using Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration | MicrosoftDocs"
+description: "Learn to control how agents use Unified Service Desk for Dynamics 365 for Customer Engagement apps by using configuration."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -10,13 +10,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 91772c31-da1f-453b-9934-0179bc50c398
-caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -58,9 +57,9 @@ search.app:
 <a name="Create"></a>   
 ## Create a Unified Service Desk configuration  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
+2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement apps**, and then select **Settings**.  
   
 3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
   
@@ -91,7 +90,7 @@ search.app:
   
 ### Set a configuration as the default  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
 2. On the nav bar, click **Main** > **Settings** > **Unified Service Desk**.  
   
@@ -105,7 +104,7 @@ search.app:
 ## Associate auditing and diagnostics with a configuration  
  When you associate an Audit & Diagnostics record with a configuration, only the auditing and diagnostics events specified in the Audit & Diagnostics record are logged, and only for users who are assigned to the configuration. The following procedure describes how to associate an existing Audit & Diagnostics record with a configuration. For information about how to create an Audit & Diagnostics record, see [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md).  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
 2. On the nav bar, click **Main** > **Settings** > **Unified Service Desk**.  
   
@@ -121,9 +120,9 @@ search.app:
 ## Assign users to a Unified Service Desk configuration  
  After you create a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration, you can assign users to it. The users assigned to a configuration can only access components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added to the configuration.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
+2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement apps**, and then select **Settings**.  
   
 3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
   
@@ -161,9 +160,9 @@ search.app:
   
 ### Clone a configuration  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
+2. On the nav bar, click **Microsoft Dynamics 365 for Customer Engagement apps**, and then select **Settings**.  
   
 3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
   

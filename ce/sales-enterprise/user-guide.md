@@ -1,16 +1,16 @@
 ---
-title: "User Guide (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Customer Engagement for Sales"
+title: "User Guide (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales"
 keywords: "sales, User guide"
 ms.date: 07/18/2018
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: shubhadaj
 ms.author: shujoshi
@@ -20,13 +20,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 5
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # User Guide (Sales and Sales Hub)
@@ -126,13 +119,13 @@ search.app:
 <tr><td>
 <h2>Go mobile</h2>
 
-<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for Customer Engagement for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for Customer Engagement for phones and tablets</a></li>
-<li><a href="../mobile-app/dynamics-365-phones-tablets-users-guide.md" data-raw-source="[Dynamics 365 for Customer Engagement for Phones and Tablets User Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)">Dynamics 365 for Customer Engagement for Phones and Tablets User Guide</a></li>
+<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
+<li><a href="../mobile-app/dynamics-365-phones-tablets-users-guide.md" data-raw-source="[Dynamics 365 for Phones and Tablets User Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)">Dynamics 365 for Phones and Tablets User Guide</a></li>
 
 </td>
 <td>
 <h2>Work with Outlook</h2>
-<li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 for Customer Engagement App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 for Customer Engagement App for Outlook User Guide</a></li>
+<li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 App for Outlook User Guide</a></li>
 
 
 </td>

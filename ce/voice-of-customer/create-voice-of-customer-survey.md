@@ -11,7 +11,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Create a Voice of the Customer survey to get customer feedback 
 Create and send out [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys to gain valuable feedback from your customers about your products or services. Respondents can take your surveys on a phone, tablet, or computer. You can see your customer's feedback history as you work a sale or resolve a service case.  

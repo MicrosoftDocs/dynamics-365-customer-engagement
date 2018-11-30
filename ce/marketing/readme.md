@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement for Marketing Readme (Known Issues) | MicrosoftDocs"
+title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
 ms.date: 11/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
@@ -19,13 +19,13 @@ search.app:
   - D365Mktg
 ---
 
-# Dynamics 365 for Customer Engagement for Marketing readme
+# Dynamics 365 for Marketing readme
 
-This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 for Customer Engagement for Marketing.
+This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 for Marketing.
 
 ## Trials
 
-- Trials are subject to the [Dynamics 365 for Customer Engagement for Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
+- Trials are subject to the [Dynamics 365 for Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 - You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial Office 365 tenant](trial-signup.md#add-users).
 - You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, follow the instructions given in [Sign up for a managed Office 365 trial tenant and install the Marketing trial on it](trial-signup.md#get-managed-tenant).
 
@@ -92,8 +92,8 @@ This document provides important, late-breaking information about known issues a
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. <!-- 1156824 -->
-- Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 for Customer Engagement marketing page), then make sure your page uses HTTPS.
-- Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 for Customer Engagement uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
+- Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 for Marketing marketing page), then make sure your page uses HTTPS.
+- Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 for Marketing uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
 - The default lead-matching strategy for landing pages matches email address and landing-page ID (msdyncrm_marketingpageid). Currently, a limitation in the UI means that it's not possible to add the landing-page ID to any new or existing lead-matching strategy. Therefore, you shouldn't remove this attribute from the provided default lead-matching strategy unless you are sure you will never use this kind of strategy. If you have removed this attribute and need it back, or if you need to add it to a custom lead-matching strategy, please contact Microsoft Support. More information: [Set matching strategies](marketing-settings.md#matching-strategy) <!-- 1309673 -->
 
 ## Reusable content blocks
@@ -110,9 +110,9 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365 for Customer Engagement. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
+- If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365 for Marketing. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
-- The event portal included with Dynamics 365 for Customer Engagement for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Customer Engagement for Marketing, so if you want to create a customized event portal to use in production, you must start by creating a new website in your Dynamics 365 for Customer Engagement portal. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).
+- The event portal included with Dynamics 365 for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a customized event portal to use in production, you must start by creating a new website in your Dynamics 365 portal. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).
 - When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.
 
 ### Fixed issues
@@ -126,8 +126,8 @@ This document provides important, late-breaking information about known issues a
 
 ## Social listening for campaigns
 
-- The [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) currently requires that you set it up manually as described in [Integrate Social Engagement with Dynamics 365 for Customer Engagement](../social-engagement/integrate-social-engagement-dynamics-365.md). We will soon roll out a smoother setup experience fine-tuned for the Marketing app. Keep an eye on the [Dynamics 365 for Customer Engagement Team Blog](https://blogs.msdn.microsoft.com/crm/) for updates.
-- The social listening control may not show data on some Dynamics 365 for Customer Engagement instances. If you experience this issue, please contact Microsoft Support. <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
+- The [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) currently requires that you set it up manually as described in [Integrate Social Engagement with Dynamics 365 for Customer Engagement](../social-engagement/integrate-social-engagement-dynamics-365.md). We will soon roll out a smoother setup experience fine-tuned for the Marketing app. Keep an eye on the [Dynamics 365 Team Blog](https://blogs.msdn.microsoft.com/crm/) for updates.
+- The social listening control may not show data on some Dynamics 365 for Marketing instances. If you experience this issue, please contact Microsoft Support. <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
 
 ## Designer feature protection
 
@@ -135,11 +135,11 @@ This document provides important, late-breaking information about known issues a
 
 ## Websites
 
-- The *websites* feature records all visits to any web page that has a Dynamics 365 for Customer Engagement for Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
+- The *websites* feature records all visits to any web page that has a Dynamics 365 for Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
 
 ## General
 
-- If you have different Dynamics 365 for Customer Engagement sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different Dynamics 365 for Customer Engagement user account.
+- If you have different Dynamics 365 for Marketing sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different user account.
 - Please refrain from deactivating publishable Marketing records. Instead, set the publishing states (Status Reason), and use **Stop** buttons to manage records that are no longer required. More information: [Go live with publishable entities and track their status](go-live.md)
-- Dynamics 365 for Customer Engagement for Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md)
+- Dynamics 365 for Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md)
 - Right-to-left (RTL) language support currently has the following limitations: the segmentation designer is usable, but shows its user-interface elements in the wrong order; and the supplied content samples (marketing-page templates, email templates, form templates, and event website) aren't provided in RTL layouts.

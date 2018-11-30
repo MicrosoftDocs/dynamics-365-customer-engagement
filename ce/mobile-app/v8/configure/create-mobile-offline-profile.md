@@ -1,5 +1,5 @@
 ---
-title: "Create a mobile offline profile for Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Create a mobile offline profile for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 12/18/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 8.x"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement apps Version 8.x"
 ms.assetid: c463347e-a057-4230-951a-1cca07b213f0
 caps.latest.revision: 7
 ms.author: "mkaur"

@@ -44,7 +44,7 @@ UFX consists of two components UFX Bag and UFX Query.
 
 A UFX Bag contains static typed data. In memory, it's represented as a dictionary with keys and values. It can be serialized to JSON and XML. Having the data typed allows a **UFX Query** to query data from it, and client UI to bind to it.
 
-> For practical and performance reasons the in-memory bag is implemented on top of the Dynamics 365 for Customer Engagement SDK `Entity` object.
+> For practical and performance reasons the in-memory bag is implemented on top of the Dynamics 365 for Customer Engagement apps SDK `Entity` object.
 
  Sample bag containing two values.
 

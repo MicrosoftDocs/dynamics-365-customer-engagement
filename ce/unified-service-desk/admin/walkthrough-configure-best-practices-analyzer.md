@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.custom: ""
 ms.date: 05/15/2018
 ms.service: usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -32,7 +32,7 @@ This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-pract
 
 In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -78,7 +78,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -211,7 +211,7 @@ In this step, you'll add actions calls the to **[!INCLUDE[pn-best-practices-anal
 
  To add a control to the configuration:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
