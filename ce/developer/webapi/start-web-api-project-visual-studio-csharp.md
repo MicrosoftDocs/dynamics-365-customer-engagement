@@ -30,11 +30,11 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
 ## Prerequisites  
  The following prerequisites are required to build the console application described in this section.  
   
-- [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] installed on your development computer. Any edition, including [Visual Studio Express](https://www.visualstudio.com/products/visual-studio-express-vs.aspx), should be sufficient to work with the Dynamics 365 for Customer Engagement apps Web API.
+- [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] installed on your development computer. Any edition, including [Visual Studio Express](https://www.visualstudio.com/products/visual-studio-express-vs.aspx), should be sufficient to work with the Dynamics 365 for Customer Engagement Web API.
   
 - A [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] client must be installed: either the command-line utility or the Visual Studio extension. For more information, see [Installing NuGet](https://docs.nuget.org/consume/installing-nuget).  
   
-- An internet connection is required to download the [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] package containing the Dynamics 365 for Customer Engagement apps Web API Helper Library, and other dependent packages.
+- An internet connection is required to download the [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] package containing the Dynamics 365 for Customer Engagement Web API Helper Library, and other dependent packages.
   
 <a name="bkmk_createProject"></a>   
 ## Create a project  
@@ -51,7 +51,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 4. In the list of templates, select **Console Application**. (Alternately choose the project type suited to your solution.)  All of the Web API C# samples are console applications.  
   
-   ![A new console app project dialog in Dynamics 365 for Customer Engagement](../media/new-project.PNG "A new console app project dialog in Dynamics 365 for Customer Engagement")  
+   ![A new console app project dialog in Dynamics 365 for Customer Engagement apps](../media/new-project.PNG "A new console app project dialog in Dynamics 365 for Customer Engagement apps")  
   
 5. In the text boxes near the bottom of the form, supply the project name and location, and then select OK. (For this topic, the solution name “StartWebAPI-CS” was used.) The initial solution files will be generated and the solution loaded into [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
   
@@ -62,7 +62,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
  The following procedures explain how to add all required managed references and packages to your project. Consider this a base set of resources that most managed code applications will need for invoking Web API operations.  
   
 #### Add the helper library NuGet package  
- The Dynamics 365 for Customer Engagement apps Web API Helper Library contains classes to assist with supplemental operations, such as application configuration, Dynamics 365 for Customer Engagement apps server authentication, exception handling, and Web communication. For more information, see [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  The use of these classes is optional, although they are used extensively in the Web API samples.  The Dynamics 365 for Customer Engagement Web API Helper Library is distributed in source code form as a NuGet package.  Future updates will be distributed as NuGet package updates.  
+ The Dynamics 365 for Customer Engagement Web API Helper Library contains classes to assist with supplemental operations, such as application configuration, Dynamics 365 for Customer Engagement server authentication, exception handling, and Web communication. For more information, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). The use of these classes is optional, although they are used extensively in the Web API samples.  The Dynamics 365 for Customer Engagement Web API Helper Library is distributed in source code form as a NuGet package.  Future updates will be distributed as NuGet package updates.  
   
  If you have installed the NuGet command line utility or are using the Package Manager Console in Visual Studio:  
   
@@ -82,7 +82,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 6. In the upper left-hand corner, click on **Browse** then enter “`Dynamics 365 for Customer Engagement apps HelperCode`” in the search box and press Enter.  
   
-   ![NuGet Package Manager showing Dynamics 365 for Customer Engagement Helper Code Library &#40;C&#35;&#41;](../media/package-manifest-helper-code.png "NuGet Package Manager showing Dynamics 365 for Customer Engagement Helper Code Library (C#)")  
+   ![NuGet Package Manager showing Dynamics 365 for Customer Engagement apps Helper Code Library &#40;C&#35;&#41;](../media/package-manifest-helper-code.png "NuGet Package Manager showing Dynamics 365 for Customer Engagement apps Helper Code Library (C#)")  
   
 7. Click **Install**.  If the **Preview** dialog is displayed, click **OK**.  
   
@@ -111,7 +111,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 3. If you have additional functionality that you routinely use in your applications, you can add the associated references to the required assemblies now. For more information, see [How to: Add or Remove References by Using the Add Reference Dialog Box](https://msdn.microsoft.com/library/wkze6zky.aspx).  
   
-   Because the Dynamics 365 for Customer Engagement Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 for Customer Engagement do require these; for more information, see [Assemblies included in Dynamics 365 for Customer Engagement apps SDK](../org-service/assemblies-included-sdk.md).  
+   Because the Dynamics 365 for Customer Engagement Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 for Customer Engagement apps do require these; for more information, see [Assemblies included in Dynamics 365 for Customer Engagement apps SDK](../org-service/assemblies-included-sdk.md).  
   
 #### Add typical using statements  
   
@@ -135,7 +135,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
  
 ### Add connection code
 
- This section explains how to add a basic set of settings and instructions to perform these operations.  For more information about the common code used, see [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)  
+ This section explains how to add a basic set of settings and instructions to perform these operations.  For more information about the common code used, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)  
   
 #### Edit the application configuration file
   
@@ -175,7 +175,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 1.  Edit the Program.cs file.  
   
-2.  Add the following property to the Program class.  This property will be initialized after a successful connection to a Dynamics 365 for Customer Engagement apps server.  
+2.  Add the following property to the Program class.  This property will be initialized after a successful connection to a Dynamics 365 for Customer Engagement server.  
   
      `private HttpClient httpClient;`  
   
@@ -199,7 +199,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
     ```  
   
-4.  Next add the `ConnectToCRM` method, which uses the helper library `Configuration` and `Authentication` classes.  The following code demonstrates assigning  values to the [HttpClient](https://msdn.microsoft.com/library/system.net.http.httpclient\(v=vs.118\).aspx) properties so that you can successfully access the release version of the Dynamics 365 for Customer Engagement apps Web API.  
+4.  Next add the `ConnectToCRM` method, which uses the helper library `Configuration` and `Authentication` classes.  The following code demonstrates assigning  values to the [HttpClient](https://msdn.microsoft.com/library/system.net.http.httpclient\(v=vs.118\).aspx) properties so that you can successfully access the release version of the Dynamics 365 for Customer Engagement Web API.  
   
     ```csharp  
   
@@ -255,7 +255,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
 
 ### Next steps
 
- At this point the solution can be built without errors.  If you edit the application configuration file to supply values for your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)], the program should also successfully connect to that server.  The solution represents a skeletal frame that is ready to accept custom code, including calls to the Dynamics 365 for Customer Engagement apps Web API.  
+ At this point the solution can be built without errors.  If you edit the application configuration file to supply values for your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)], the program should also successfully connect to that server.  The solution represents a skeletal frame that is ready to accept custom code, including calls to the Dynamics 365 for Customer Engagement Web API.  
   
 > [!TIP]
 >  Before you leave this topic, consider saving your project as a project template. You can then reuse that template for future learning projects and save yourself some time and effort in setting up new projects. To do this, while your project is open in Microsoft Visual Studio, in the **File** menu select **Export template**. Follow the [Export Template Wizard](https://msdn.microsoft.com/library/xkh1wxd8.aspx) instructions to create the template.  
@@ -263,5 +263,5 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
 ### See also
 
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   
- [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)
