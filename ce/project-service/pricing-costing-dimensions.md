@@ -72,10 +72,3 @@ The following example shows bill rates that are set up based on the role and the
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
-
-For more information about pricing dimensions, see:
-
-- [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
-- [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
-- [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
-- [Turn off a pricing dimension](turn-off-pricing-dimension.md)
