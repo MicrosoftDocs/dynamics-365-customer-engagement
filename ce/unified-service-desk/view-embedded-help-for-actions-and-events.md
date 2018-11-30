@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # View embedded help for actions and events in Unified Service Desk
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 <a name="Actions"></a>   
 ## Embedded help for actions  
@@ -40,7 +40,7 @@ search.app:
 ## Embedded help for events  
  Open an event definition to view the help for the event. To do so:  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk** > **Events**.  
   

@@ -69,7 +69,7 @@ http://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
  Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. To do this:  
 
-1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 2. Create an action call, called `Action Call for Title Change`, with the following values:  
 

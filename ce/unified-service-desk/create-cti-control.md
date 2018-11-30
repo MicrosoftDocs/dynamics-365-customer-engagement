@@ -77,7 +77,7 @@ string UserDefinedCommand(string command, string request);
 <a name="Configure"></a>   
 ## Configure the CTI Control hosted control in Unified Service Desk  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
 
