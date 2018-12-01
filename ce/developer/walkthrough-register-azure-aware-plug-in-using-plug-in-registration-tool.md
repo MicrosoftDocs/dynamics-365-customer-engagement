@@ -42,7 +42,7 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 ## Steps  
  This walkthrough contains the following steps:  
 
-1.  [Connect to the Dynamics 365 for Customer Engagement apps server](#BKMK_Connect)  
+1.  [Connect to the Dynamics 365 for Customer Engagement server](#BKMK_Connect)  
 
 2.  [Register a service endpoint step for an event](#BKMK_Register)  
 
