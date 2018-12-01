@@ -34,13 +34,13 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
 <a name="BKMK_PortalSignIn"></a>   
 ## Signing in to https://portal.office.com  
- For admins and end users, when you sign in to https://portal.office.com, you will go to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Welcome page. The tiles that appear on the Welcome page depend on what licenses you have. For example, if you have licenses for [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you'll see tiles for [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] apps like [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], as well as a tile for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ For admins and end users, when you sign in to https://portal.office.com, you will go to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Welcome page. The tiles that appear on the Welcome page depend on what licenses you have. For example, if you have licenses for [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you'll see tiles for [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] apps like [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], as well as a tile for \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
   
  ![Office 365 welcome page](../admin/media/office-365-welcome-page.png "Office 365 welcome page")  
   
- Click the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tile to go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page. See [For admins and end users: Introducing the Dynamics 365 for Customer Engagement apps home page](../admin/quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
+ Click the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps tile to go to the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps Home page. See [For admins and end users: Introducing the Dynamics 365 for Customer Engagement apps home page](../admin/quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
- If you're a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, you'll see an **Admin** tile. Click this tile to get to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], where you can see your service health, manage users, manage licenses, and more for all the online services associated with your account.  
+ If you're a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrator, you'll see an **Admin** tile. Click this tile to get to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], where you can see your service health, manage users, manage licenses, and more for all the online services associated with your account.  
   
  ![Admin tile on the Office 365 welcome page](../admin/media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
   
@@ -104,7 +104,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
  Your user name depends on whether your organization uses the standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain (for example, username@contoso.onmicrosoft.com) or you have a custom domain (for example, username@contoso.com).  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators can provide the URL and sign-in information.  
+ \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps administrators can provide the URL and sign-in information.  
   
 <a name="BKMK_social"></a>   
 ## Direct sign in to Social Engagement  
@@ -112,11 +112,11 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
  https://listening.microsoft.com/app/\<appID>  
   
- This URL, which includes the appID, is sent to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator in an email invitation.  
+ This URL, which includes the appID, is sent to the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps administrator in an email invitation.  
   
  Your user name depends on whether your organization uses the standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain (for example, username@contoso.onmicrosoft.com) or you have a custom domain (for example, username@contoso.com).  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators can provide the URL and sign-in information.  
+ \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps administrators can provide the URL and sign-in information.  
   
 ### See also  
  [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement apps home page](../admin/quickly-navigate-office-365-app-launcher.md)   

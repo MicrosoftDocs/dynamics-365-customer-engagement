@@ -90,7 +90,7 @@ search.app:
    CertificateReconfiguration.ps1 -certificateFile <Private certificate file (.pfx)> -password <private-certificate-password> -updateCrm -certificateType AlternativeS2STokenIssuer -serviceAccount <serviceAccount> -storeFindType FindBySubjectDistinguishedName  
    ```  
   
-3. Remove the AlternativeS2STokenIssuer type certificate from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] configuration database. To do this, run these [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands.  
+3. Remove the AlternativeS2STokenIssuer type certificate from the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps configuration database. To do this, run these [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands.  
   
    ```  
    Add-PSSnapin Microsoft.Crm.PowerShell   

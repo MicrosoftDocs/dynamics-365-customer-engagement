@@ -25,9 +25,9 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  uses online synchronization filters to determine which records to synchronize between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters.  
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  uses online synchronization filters to determine which records to synchronize between \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters.  
   
- Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], whether the user is on the recipient list or not.   
+ Email is not included in the synchronization filters because email is controlled by when the email is created in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps, whether the user is on the recipient list or not.   
   
 ## Create or modify online synchronization filters  
   
@@ -37,7 +37,7 @@ search.app:
   
 3. Under **Synchronize [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  items with Outlook or Exchange**, click the **filters** link.  
   
-   [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] displays the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
+   \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps displays the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
   
    ![Online synchronization filters](../outlook-app/media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   

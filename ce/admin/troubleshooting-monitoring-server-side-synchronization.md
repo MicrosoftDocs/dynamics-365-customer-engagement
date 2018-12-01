@@ -62,7 +62,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
  **Solution:**  [http://support.microsoft.com/kb/2993502](http://support.microsoft.com/kb/2993502)  
   
 ### Email message has "Pending Send" status  
- If you create an email message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and click the **Send** button, the message will not be sent unless email integration has been correctly configured and enabled for sending email from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ If you create an email message in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps and click the **Send** button, the message will not be sent unless email integration has been correctly configured and enabled for sending email from \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
   
  Verify that the user who sent the email is enabled for sending email.  
   
@@ -70,18 +70,18 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 2. Click **Mailboxes**, and then change the view to **Active Mailboxes.**  
   
-3. Select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record for the user who sent the email, and then click the **Edit** button.  
+3. Select the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps mailbox record for the user who sent the email, and then click the **Edit** button.  
   
 4. Verify the user is correctly configured and enabled for sending email:  
   
-   - If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+   - If the user’s \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 ### Email address requires approval by Office 365 administrator  
  **Alert:** Email cannot be sent/received because the email address of the mailbox \<User Name> requires an approval by an Office 365 administrator. The mailbox has been disabled for sending/receiving email and the owner of the email server profile Exchange Online has been notified.  
   
  **Cause:**  
   
- This error will occur if a user is configured to use the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile but their email address has not been approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator. A user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] needs to approve the email address for each user that uses the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile. The [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile uses server-to-server authentication between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. This authentication is dependent on a trust between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. By verifying the email address in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] will be able to send and receive email for that user without the need to provide any email credentials within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ This error will occur if a user is configured to use the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile but their email address has not been approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator. A user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] needs to approve the email address for each user that uses the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile. The [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile uses server-to-server authentication between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. This authentication is dependent on a trust between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. By verifying the email address in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] will be able to send and receive email for that user without the need to provide any email credentials within \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
   
  **Solution:**  
   
@@ -165,7 +165,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  **Solution:**  
   
- To change the primary synchronization organization and overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > **Test & Enable Mailbox** > select **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps Organization only, even if Exchanges was set to sync with a different Organization**. This will allow server-side synchronization to work for this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance but the other instance would no longer work for synching that mailbox through server-side synchronization. To change the synchronization method for Appointments, Contacts, and Tasks, click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > select **None** for **Appointments, Contacts, and Tasks**.  
+ To change the primary synchronization organization and overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > **Test & Enable Mailbox** > select **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps Organization only, even if Exchanges was set to sync with a different Organization**. This will allow server-side synchronization to work for this \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance but the other instance would no longer work for synching that mailbox through server-side synchronization. To change the synchronization method for Appointments, Contacts, and Tasks, click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > select **None** for **Appointments, Contacts, and Tasks**.  
   
  For more information, see: [When would I want to use this check box?](when-would-want-use-check-box.md)  
   
@@ -212,7 +212,7 @@ For more information, see this [kb article](https://support.microsoft.com/kb/318
   
 2. A server error (for example, invalid profile credentials) or a mailbox error (for example, invalid mailbox credentials).  
   
-   [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] responds to the error as follows:  
+   \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps responds to the error as follows:  
   
 -   For server or mailbox permanent errors, the mailbox is disabled as soon as the error is detected.  
   
@@ -236,10 +236,10 @@ Review the troubleshooting steps in this topic and if the issue is successfully 
 For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md)  
   
 > [!NOTE]
->  We recommend that you don’t use a mixed configuration of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization and server-side synchronization for appointments, contacts, and tasks in the same organization, because it may result in updated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data not synchronizing to all attendees.  
+>  We recommend that you don’t use a mixed configuration of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization and server-side synchronization for appointments, contacts, and tasks in the same organization, because it may result in updated \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps data not synchronizing to all attendees.  
   
 ### Appointment record is not created in Dynamics 365 for Customer Engagement apps when tracked by invitee  
- Consider the following scenario regarding tracking an event in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
+ Consider the following scenario regarding tracking an event in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps:  
   
 1. An event organizer uses [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the synchronization method.  
   
@@ -249,14 +249,14 @@ For most situations not supported by server-side synchronization, you can use th
   
 4. In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the invitee tracks the appointment.  
   
-5. The invitee logs in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and navigates to **Marketing** > **Activities** > **Appointment** > **My Appointments**  
+5. The invitee logs in to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps and navigates to **Marketing** > **Activities** > **Appointment** > **My Appointments**  
   
-Result: the appointment is not created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for the invitee.  
+Result: the appointment is not created in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps for the invitee.  
   
-This is a known issue and is not supported. If the organizer is someone outside of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user who is an invitee can still track the appointment and have the record created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+This is a known issue and is not supported. If the organizer is someone outside of the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps organization, a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps user who is an invitee can still track the appointment and have the record created in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
    
 ### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement apps  
- Changes made to Service Appointments and Activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will update in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] when you synchronize but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Service appointments are scheduled by an agent and need free/busy information for resources available only in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ Changes made to Service Appointments and Activities in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps will update in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] when you synchronize but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. Service appointments are scheduled by an agent and need free/busy information for resources available only in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
   
 ### Be aware of Exchange Online receiving and sending limits  
  For enterprise customers with a large mail flow, make sure you're not running up against Exchange Online receiving and sending limits. See [Exchange Online Limits](https://technet.microsoft.com/library/exchange-online-limits.aspx)  

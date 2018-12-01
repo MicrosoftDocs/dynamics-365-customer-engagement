@@ -33,13 +33,13 @@ search.app:
 > - Microsoft Dynamics 365 for Customer Engagement apps for Finance and Operations - msdyn365finops@microsoft.com
 
 ## Introduction
-Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
+Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admin for your organization,  or recipients added to the notification list by the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
   
- If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md).  
+ If you’re not sure who your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admin is, see [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md).  
   
  If you want to change who receives email communications, see [Manage email notifications](../admin/manage-email-notifications.md).  
   
- If you’re a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, you can also see the latest status of updates and incidents in the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
+ If you’re a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admin, you can also see the latest status of updates and incidents in the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
 ## System updates
 
@@ -60,7 +60,7 @@ The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] te
   
 **How do I find out about security updates?**  
   
- Because the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
+ Because the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team strives to apply risk mitigations in a way that doesn’t require service downtime, \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
   
  For more information about [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security, see [Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365).
  
@@ -199,7 +199,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
 **How do I find out about service incidents?**  
   
- If you open a case to report a service incident, a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] customer support representative will call your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin and follow up with an email when the service incident is resolved.  
+ If you open a case to report a service incident, a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] customer support representative will call your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admin and follow up with an email when the service incident is resolved.  
   
 <a name="bkmk_MajorServiceIncidents"></a>  
 
@@ -208,7 +208,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
  **How do I find out about major service incidents?**  
   
- The [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] policy is to send email updates to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admins of affected customers as soon as we are aware of a major service incident, and a final email once the issue is considered resolved.  
+ The [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] policy is to send email updates to the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admins of affected customers as soon as we are aware of a major service incident, and a final email once the issue is considered resolved.  
   
  You can also see the status of major service incidents in your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
@@ -252,7 +252,7 @@ Communications emails are specific to managing the Dynamics 365 for Customer Eng
  <a name="BKMK_PostPurchase"></a>   
 
 ### Post-purchase customer lifecycle communications  
- Once a customer has purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we send a series of helpful email communications to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
+ Once a customer has purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we send a series of helpful email communications to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
   
  You can easily identify these communications by the dark-blue banner.  
   

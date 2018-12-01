@@ -127,21 +127,21 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
  Note the following about security groups:  
   
-- When users are added to the security group, they are added to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+- When users are added to the security group, they are added to the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance.  
   
-- When users are removed from the group, they are disabled in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+- When users are removed from the group, they are disabled in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance.  
   
 - When a security group is associated with an existing instance with users, all users in the instance that are not members of the group will be disabled.  
   
-- If a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance does not have an associated security group, all users with a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] license will be created as users and enabled in the instance.  
+- If a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance does not have an associated security group, all users with a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps license will be created as users and enabled in the instance.  
   
-- If a security group is associated with an instance, only users with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] licenses that are members of the instance security group will be created as users in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+- If a security group is associated with an instance, only users with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps licenses that are members of the instance security group will be created as users in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance.  
   
 - When you remove a security group that is associated with a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, either by editing the instance and removing the security group or by deleting the security group, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] licensed users who were members of the security group will have the same access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
 - When you assign a security group to an instance, that instance will not show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] for users not in the group.  
   
-- If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+- If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance.  
   
 - You cannot make security groups members of other security groups.
 

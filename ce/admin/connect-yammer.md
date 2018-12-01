@@ -33,7 +33,7 @@ search.app:
   
 ### Prerequisites  
   
-- Before your organization can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
+- Before your organization can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps, your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
 
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] integration is only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .
   
@@ -62,7 +62,7 @@ search.app:
 7. Follow the on-screen instructions to accept the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] terms of service, note which [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network has been set up for you, and connect your organization to it. After your organization is connected, you’ll see a confirmation message at the bottom of the screen.  
   
    > [!NOTE]
-   > [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] only supports connecting to the primary [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network. Connecting to External Networks in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] is not supported.  
+   > \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps only supports connecting to the primary [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network. Connecting to External Networks in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] is not supported.  
   
 8. If desired, stay signed in to your [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account and set your organization’s preferences for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] posts.  
   
@@ -77,7 +77,7 @@ search.app:
 4. If desired, select which record types trigger automatic posts to the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] newsfeed.  
   
 ## Enable Dynamics 365 for Customer Engagement apps entities for Yammer  
- Once you’ve connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you need to specify which [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities are enabled for use with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Enabled entities can be followed by users  
+ Once you’ve connected \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you need to specify which \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps entities are enabled for use with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Enabled entities can be followed by users  
   
 1. [!INCLUDE[proc_settings_system](../includes/proc-settings-system.md)]  
   
@@ -123,7 +123,7 @@ search.app:
 ## Additional considerations  
   
 ### When connecting Dynamics 365 for Customer Engagement apps with a federated Yammer  
- If you have configured [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to use single sign-on, you’ll need to generate and use a temporary password to connect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+ If you have configured [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to use single sign-on, you’ll need to generate and use a temporary password to connect \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
 1. Sign in to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] with the single sign-on credentials.  
   
@@ -135,7 +135,7 @@ search.app:
   
 5. Complete the process to obtain a temporary user name and password.  
   
-6. Use the temporary user name and password to complete the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection configuration.  
+6. Use the temporary user name and password to complete the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection configuration.  
   
 ### Add Yammer sites to the browser as trusted  
  Add your Yammer sites to your browser as trusted. For example, for Dynamics 365 for Customer Engagement apps (online), add the following:  

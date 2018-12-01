@@ -38,7 +38,7 @@ Notice that, even if the latency of a network connection is low, bandwidth can b
 Networks with high bandwidth don’t guarantee low latency. For example, a network path traversing a satellite link often has high latency, even though throughput is very high. It’s common for a network round trip traversing a satellite link to have five or more seconds of latency. An application designed to send a request, wait for a reply, send another request, wait for another reply, and so on, will wait at least five seconds for each packet exchange, regardless of the speed of the server.  
   
 ## How to check latency  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  includes a basic diagnostic tool that analyzes the client-to-organization connectivity and produces a report. To run the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Diagnostics tool, follow these steps.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  includes a basic diagnostic tool that analyzes the client-to-organization connectivity and produces a report. To run the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps Diagnostics tool, follow these steps.  
   
 1. On the user’s computer or device, start a web browser, and sign in to a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  organization.  
   

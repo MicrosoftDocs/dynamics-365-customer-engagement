@@ -50,12 +50,12 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 > 
 > [!INCLUDE[pn_sharepoint_foundation](../includes/pn-sharepoint-foundation.md)] versions aren’t compatible with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  document management.  
 
- Users who access [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] must have appropriate permissions on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection where the document management components are installed. For more information about how to grant membership on a site collection, see the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Help.  
+ Users who access [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps must have appropriate permissions on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection where the document management components are installed. For more information about how to grant membership on a site collection, see the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Help.  
 
 <a name="BKMK_enable_servertoserver"></a>   
 
 ## Server-based SharePoint integration  
- Earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] document management use a client-to-server strategy to authenticate and transmit data from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration provides the following benefits:  
+ Earlier versions of \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps document management use a client-to-server strategy to authenticate and transmit data from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration provides the following benefits:  
 
 - User interface that is consistent with the newly-updated [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  user interface.  
 
@@ -81,7 +81,7 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 
 <a name="BKMK_listComp"></a>   
 ## Dynamics CRM List Component for SharePoint  
- The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] makes [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  documents that are stored on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] available to you in a format that has the look and feel of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . This feature also lets [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  automatically create folders that will be used to store documents related to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+ The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] makes [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  documents that are stored on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] available to you in a format that has the look and feel of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . This feature also lets [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  automatically create folders that will be used to store documents related to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps records on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
 
  The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] has the following benefits:  
 

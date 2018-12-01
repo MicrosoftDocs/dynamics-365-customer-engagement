@@ -33,7 +33,7 @@ On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 
 
 You have options for when you update your Dynamics 365 for Customer Engagement apps (online) organization to Dynamics 365 for Customer Engagement apps (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
- You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
+ You, as a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
 
 1. Review the information in the Updates page in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
 
@@ -230,14 +230,14 @@ Follow the process in the dashed box in the flowchart above.
 <a name="BKMK_Versions"></a>   
 
 ## Recent versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
- To determine your version, sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
+ To determine your version, sign in to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps, and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
 For recent versions, see [Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 <a name="BKMK_howtoknow"></a> 
 
 ## How will I know my organization is ready to update?  
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators will be informed of updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] in multiple ways.  
+ \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrators will be informed of updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] in multiple ways.  
 
 ### Check your instances in the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] Administration Center  
 
@@ -262,7 +262,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 1.  Sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
 
-2.  If an update is available, admins will see a yellow [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] message bar notifying them of an available update.  
+2.  If an update is available, admins will see a yellow \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps message bar notifying them of an available update.  
 
  ![Dynamics 365 for Customer Engagement apps Online update notice in banner bar](../admin/media/customer-driven-update-notice-2.png "Dynamics 365 for Customer Engagement apps Online update notice in banner bar")  
  -->
@@ -277,11 +277,11 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
  ![Deciphering update details](../admin/media/deciphering-update-details.png "Deciphering update details")  
 
 > [!NOTE]
->  If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you’ll see an option **Change target version**. Large companies with extensive and complex customizations to their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available.  
+>  If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you’ll see an option **Change target version**. Large companies with extensive and complex customizations to their \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available.  
 
 <a name="BKMK_ApproveUpdate"></a>   
 ## Approve an update  
- You must be a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator to approve updates.  
+ You must be a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrator to approve updates.  
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
@@ -296,7 +296,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 <a name="BKMK_ReschedUpdate"></a>   
 ## Reschedule an update  
- You must be a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator to reschedule updates.  
+ You must be a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrator to reschedule updates.  
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
 
@@ -309,7 +309,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 4. If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you’ll see a page to select a target version. Select a version, and then click **Next**.  
 
    > [!NOTE]
-   >  Large companies with extensive and complex customizations to their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available. Keep in mind, if you are two versions behind the current version you will have a mandatory update. See [Update policy](../admin/manage-updates.md#BKMK_Policy) for more information.  
+   >  Large companies with extensive and complex customizations to their \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available. Keep in mind, if you are two versions behind the current version you will have a mandatory update. See [Update policy](../admin/manage-updates.md#BKMK_Policy) for more information.  
 
 5. Select new preferred and alternate dates and times for the update, and then click **Next**.  
 
@@ -386,7 +386,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 3. **Watch for communications from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)].**  
 
-     We will send you several communications about this subject to keep you informed about the update. In addition, we send email communications to users who have the System Administrator role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Please make sure the email accounts associated with those user accounts are valid and being monitored. Communications will come from crmoln@microsoft.com, or for partners, you will also receive communications from the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  Partner Team: crmteam@microsoft.com.  
+     We will send you several communications about this subject to keep you informed about the update. In addition, we send email communications to users who have the System Administrator role in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. Please make sure the email accounts associated with those user accounts are valid and being monitored. Communications will come from crmoln@microsoft.com, or for partners, you will also receive communications from the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  Partner Team: crmteam@microsoft.com.  
 
 4. **Verify your customizations are compatible.**  
 
@@ -421,7 +421,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 |Update rescheduled|All Admins|No|Yes|Yes|  
 
 > [!NOTE]
->  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
+>  “All Admins” includes \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
 
 ## Notice about Online Policies
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/legal/intellectualproperty/onlinedisclaimer.aspx).
