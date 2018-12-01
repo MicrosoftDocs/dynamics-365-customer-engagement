@@ -563,7 +563,7 @@ Important note for Field Service or Project Service Automation organizations tha
 
 When you update to version 9.0, or later, you must also update the Project
 Service Automation and Field Service solutions. After updating to version 9.0,
-or later, go to the Dynamics 365 for Customer Engagement apps Administration Center, Manage Solutions page to
+or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
 update the preferred solution.
 
 Mobile Offline

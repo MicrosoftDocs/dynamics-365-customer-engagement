@@ -47,7 +47,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 - System backups are identified as created by **System** on the **Manage backups** page.  
   
-  ![Backup & Restore tab in the Dynamics 365 for Customer Engagement apps Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 for Customer Engagement apps Administration Center")  
+  ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
   
 ### See your system backups  
   

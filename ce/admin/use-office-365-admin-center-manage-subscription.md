@@ -50,11 +50,11 @@ search.app:
   
  Choose the **Instances** tab to edit, copy, and reset, existing instances, configure new instances, manage preferred solutions, and more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)  
   
- ![Dynamics 365 for Customer Engagement apps Administration Center Instances tab](../admin/media/crm-admin-center-instances.png "Dynamics 365 for Customer Engagement apps Administration Center Instances tab")  
+ ![Dynamics 365 Administration Center Instances tab](../admin/media/crm-admin-center-instances.png "Dynamics 365 Administration Center Instances tab")  
   
  Choose the **Updates** tab to approve and schedule updates, change the update target version, and open [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement apps (online) updates](../admin/manage-updates.md)  
   
- ![Dynamics 365 for Customer Engagement apps Administration Center - Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 for Customer Engagement apps Administration Center - Updates tab")  
+ ![Dynamics 365 Administration Center - Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 Administration Center - Updates tab")  
   
 <a name="BKMK_ServiceHealth"></a>   
 
