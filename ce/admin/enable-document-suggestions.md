@@ -37,7 +37,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
 ## Requirements  
  The following are required to use Document Suggestions with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
   
-- [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps   
+- [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps   
   
 - To suggest documents located on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]:  
   
