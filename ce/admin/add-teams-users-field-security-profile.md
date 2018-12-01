@@ -1,5 +1,5 @@
 ---
-title: "Add teams or users to a field security profile for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Add teams or users to a field security profile for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: ff71ac7e-1088-45fb-b998-6a85c155f93b
 caps.latest.revision: 14
@@ -47,4 +47,4 @@ Role-based security controls access to a specific entity type, record-based secu
  [Control data access](../admin/security-roles-privileges.md)   
  [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
- [Synchronize user information between Microsoft Dynamics 365 for Customer Engagement and Active Directory](../admin/synchronize-user-information-active-directory.md)
+ [Synchronize user information between Microsoft Dynamics 365 for Customer Engagement apps and Active Directory](../admin/synchronize-user-information-active-directory.md)

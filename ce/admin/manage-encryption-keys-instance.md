@@ -1,5 +1,5 @@
 ---
-title: "Manage the encryption keys for your Dynamics 365 for Customer Engagement (online) instance | MicrosoftDocs"
+title: "Manage the encryption keys for your Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
 description: "Learn how you can manage database encryption keys for your instance."
 keywords: "encrypt"
 ms.date: 11/26/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 8.2"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 8.2"
 ms.assetid: 47bbbe8f-7839-475d-a844-632aa33fae51
 author: Mattp123
 ms.author: matp
@@ -27,7 +27,7 @@ search.app:
 
 # Manage the encryption keys
 
-Applies to Dynamics 365 for Customer Engagement (online), version 8.2
+Applies to Dynamics 365 for Customer Engagement apps (online), version 8.2
 
 All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
   
@@ -69,7 +69,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 2. The malicious administrator locks the associated [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance and takes or deletes the encryption key that was used to lock the instance.  
   
 > [!IMPORTANT]
-> To prevent the malicious administrator from interrupting the business operations by locking the database, the managed keys feature does not allow the database to be locked for 72 hours after the encryption key is changed. Additionally, anytime an encryption key is changed for a Dynamics 365 for Customer Engagement (online) instance, all Dynamics 365 for Customer Engagement (online) administrators receive an email message alerting them of the key change. This provides up to 72 hours for other administrators to roll back any unauthorized key changes. 
+> To prevent the malicious administrator from interrupting the business operations by locking the database, the managed keys feature does not allow the database to be locked for 72 hours after the encryption key is changed. Additionally, anytime an encryption key is changed for a Dynamics 365 for Customer Engagement apps (online) instance, all Dynamics 365 for Customer Engagement apps (online) administrators receive an email message alerting them of the key change. This provides up to 72 hours for other administrators to roll back any unauthorized key changes. 
   
 <a name="KM_details"></a>   
 
@@ -85,7 +85,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 - System Administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] that you want to manage the encryption key.  
   
 ### Subscription requirements  
- The ability to self-manage database encryption keys requires the Dynamics 365 for Customer Engagement Plan.  
+ The ability to self-manage database encryption keys requires the Dynamics 365 for Customer Engagement apps Plan.  
   
 ### Encryption key requirements  
  If you provide your own encryption key, your key must meet  these  requirements that are accepted by [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  

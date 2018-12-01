@@ -1,5 +1,5 @@
 ---
-title: "Configure SharePoint integration using the list component for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure SharePoint integration using the list component for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5f3ab396-4252-4990-96f3-762be6a8a947
 caps.latest.revision: 17
 author: "Mattp123"
@@ -80,7 +80,7 @@ If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sh
        > [!NOTE]
        >  If you can’t activate this solution, see [Allow HTC files in SharePoint 2013](../admin/configure-sharepoint-integration-using-list-component.md#BKMK_allowHTC).  
   
-4. For detailed document management configuration steps, see [Set up Dynamics 365 for Customer Engagement (online) to use SharePoint Online](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md).  
+4. For detailed document management configuration steps, see [Set up Dynamics 365 for Customer Engagement apps (online) to use SharePoint Online](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md).  
   
 <a name="BKMK_allowHTC"></a>   
 ## Allow HTC files in SharePoint 2013  

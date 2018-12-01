@@ -1,5 +1,5 @@
 ---
-title: "Delete a Dynamics 365 for Customer Engagement business unit | MicrosoftDocs"
+title: "Delete a Dynamics 365 for Customer Engagement apps business unit | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/04/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: d36a3897-24c4-434e-b255-4e1a1233ba41
 caps.latest.revision: 15

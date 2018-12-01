@@ -1,5 +1,5 @@
 ---
-title: "Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint on-premises | MicrosoftDocs"
+title: "Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises | MicrosoftDocs"
 ms.custom: ""
 ms.date: 05/10/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: d3fed784-942b-470d-b01a-ce3f2be3aa04
 caps.latest.revision: 42
 author: "Mattp123"
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint on-premises
+# Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)], server-based [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] integration for document management can  be used to connect [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. When using server-based authentication, [Azure AD Domain Services](https://azure.microsoft.com/documentation/articles/active-directory-ds-overview/) is used as the trust broker and users do not need to sign in to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
- ![Dynamics 365 for Customer Engagement (online) and SharePoint on-premises](../admin/media/sharepoint-on-premises-server-based-authentication.PNG "Dynamics 365 for Customer Engagement (online) and SharePoint on-premises")  
+ ![Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises](../admin/media/sharepoint-on-premises-server-based-authentication.PNG "Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises")  
   
 <a name="perms"></a>   
 ## Permissions required  
@@ -47,7 +47,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
 <a name="setups2s"></a>   
 
-## Set up server-to-server authentication with Dynamics 365 for Customer Engagement (online) and SharePoint on-premises  
+## Set up server-to-server authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises  
  Follow the steps in the order provided to set up [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_sharepoint_2013](../includes/pn-sharepoint-2013.md)] on-premises.  
   
 > [!IMPORTANT]
@@ -113,7 +113,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   > [!IMPORTANT]
   >  At the time of this writing, there is an issue with the RTW version of Microsoft Online Services Sign-In Assistant for IT Professionals. Until the issue is resolved, we recommend that you use the Beta version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Azure Forums: Cannot install Azure Active Directory Module for Windows PowerShell. MOSSIA is not installed](https://social.msdn.microsoft.com/Forums/azure/en-US/46a38822-28a4-4abb-b747-96f7db2a2676/cannot-install-azure-active-directory-module-for-windows-powershell-mossia-is-not-installed?forum=WindowsAzureAD).  
   
-- A suitable claims-based authentication mapping type to use for mapping identities between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. By default, email address is used. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grant Microsoft Dynamics 365 for Customer Engagement permission to access SharePoint and configure the claims-based authentication mapping](../admin/configure-server-based-authentication-sharepoint-on-premises.md#BKMK_grantperm)  
+- A suitable claims-based authentication mapping type to use for mapping identities between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. By default, email address is used. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grant Microsoft Dynamics 365 for Customer Engagement apps permission to access SharePoint and configure the claims-based authentication mapping](../admin/configure-server-based-authentication-sharepoint-on-premises.md#BKMK_grantperm)  
   
 ### Update the SharePoint Server SPN in Azure Active Directory Domain Services  
  On the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises server, in the SharePoint 2013 Management Shell, run these [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands in the order given.  
@@ -230,7 +230,7 @@ Set-SPAuthenticationRealm -Realm $SPOContextId
    ```  
   
 <a name="BKMK_grantperm"></a>   
-### Grant Dynamics 365 for Customer Engagement permission to access SharePoint and configure the claims-based authentication mapping  
+### Grant Dynamics 365 for Customer Engagement apps permission to access SharePoint and configure the claims-based authentication mapping  
  On the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises server, in the SharePoint 2013 Management Shell, run these [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands in the order given.  
   
  The following commands require [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection administration membership.  

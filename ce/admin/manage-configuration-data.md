@@ -1,5 +1,5 @@
 ---
-title: "Move Dynamics 365 for Customer Engagement configuration data across instances and organizations | MicrosoftDocs"
+title: "Move Dynamics 365 for Customer Engagement apps configuration data across instances and organizations | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: eacae026-5406-4837-be76-1b243a4181b0
 caps.latest.revision: 29
@@ -44,7 +44,7 @@ The Configuration Migration tool enables you to move configuration data across [
 
 - Automatically move DateTime fields forward at import for demo environments.
   
-- Embed the exported modules created from this tool (schema and data files) in other programs. For example, you can use the exported data in Dynamics 365 for Customer Engagement Package Deployer along with other solutions files and data to create and deploy packages on a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy packages using Dynamics 365 for Customer Engagement Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
+- Embed the exported modules created from this tool (schema and data files) in other programs. For example, you can use the exported data in Dynamics 365 for Customer Engagement apps Package Deployer along with other solutions files and data to create and deploy packages on a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy packages using Dynamics 365 for Customer Engagement apps Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
   
 > [!IMPORTANT]
 > The Configuration Migration tool does not support filtering of records in an entity. By default, all the records in the selected entity will be exported.  

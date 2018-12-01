@@ -1,5 +1,5 @@
 ---
-title: "Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/12/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 258663fb-fefa-4427-b25d-c935c3896aed
 caps.latest.revision: 13
 author: "jimholtz"
@@ -21,23 +21,23 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement (online)
+# Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll need to renew using the new Dynamics 365 for Customer Engagement plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
+Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll need to renew using the new Dynamics 365 for Customer Engagement apps plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
 
  If you're an existing Dynamics CRM Online customer, you will be notified when your subscription will expire.  At that time, you'll need to start a new subscription with one of the new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] licenses. You can switch before you receive the expiration notice.  
 
- ![Email: Dynamics 365 for Customer Engagement (online) is expiring](../admin/media/expireemail.png "Email: Dynamics 365 for Customer Engagement (online) is expiring")  
+ ![Email: Dynamics 365 for Customer Engagement apps (online) is expiring](../admin/media/expireemail.png "Email: Dynamics 365 for Customer Engagement apps (online) is expiring")  
 
- **Dynamics 365 for Customer Engagement information**  
+ **Dynamics 365 for Customer Engagement apps information**  
 
 -   [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
 
--   [Dynamics 365 for Customer Engagement pricing](https://www.microsoft.com/dynamics365/pricing)
+-   [Dynamics 365 for Customer Engagement apps pricing](https://www.microsoft.com/dynamics365/pricing)
 
--   [Dynamics 365 for Customer Engagement Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
+-   [Dynamics 365 for Customer Engagement apps Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 
 -   [Existing Customer License Transition Guide](http://download.microsoft.com/download/7/A/4/7A421751-435B-4B38-BF1F-45838095465B/Microsoft%20Dynamics%20365%20Transition%20Guide.pdf)  
 
@@ -111,8 +111,8 @@ To renew to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] using the Swi
 
    |                                                                                                                                                                 |                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-   | ![Dynamics 365 for Customer Engagement Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement Sales Plan") |
-   |                ![Dynamics 365 for Customer Engagement Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 for Customer Engagement Customer Service Plan")                |  ![Dynamics 365 for Customer Engagement Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 for Customer Engagement Team Plan")   |
+   | ![Dynamics 365 for Customer Engagement apps Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement apps Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement apps Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement apps Sales Plan") |
+   |                ![Dynamics 365 for Customer Engagement apps Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 for Customer Engagement apps Customer Service Plan")                |  ![Dynamics 365 for Customer Engagement apps Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 for Customer Engagement apps Team Plan")   |
 
 
 6. In the Checkout Step 1 page, click **Have a promo or discount code?**, enter a promo code, and then click **Apply promo code**.  
@@ -186,8 +186,8 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-crm-sho
 
    |                                                                                                                                                                 |                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-   | ![Dynamics 365 for Customer Engagement Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement Sales Plan") |
-   |                ![Dynamics 365 for Customer Engagement Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 for Customer Engagement Customer Service Plan")                |  ![Dynamics 365 for Customer Engagement Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 for Customer Engagement Team Plan")   |
+   | ![Dynamics 365 for Customer Engagement apps Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement apps Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement apps Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement apps Sales Plan") |
+   |                ![Dynamics 365 for Customer Engagement apps Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 for Customer Engagement apps Customer Service Plan")                |  ![Dynamics 365 for Customer Engagement apps Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 for Customer Engagement apps Team Plan")   |
 
 
 5. Mouse over the subscription you want to switch to, and then click **Buy now**.  
@@ -199,7 +199,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-crm-sho
 
 6. Adjust the plan options, and then click **Add to cart**.  
 
-   ![Dynamics 365 for Customer Engagement Enterprise Plan settings](../admin/media/dynamics-365-enterprise-plan-settings.png "Dynamics 365 for Customer Engagement Enterprise Plan settings")  
+   ![Dynamics 365 for Customer Engagement apps Enterprise Plan settings](../admin/media/dynamics-365-enterprise-plan-settings.png "Dynamics 365 for Customer Engagement apps Enterprise Plan settings")  
 
 7. In your cart, click **Add-ons** to add Add-ons like an additional non-Production instance or more storage.  
 
@@ -275,7 +275,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-crm-sho
 
 3. On the right-hand side of the page, click **More actions** > **Cancel subscription**.  
 
-   ![Cancel your Dynamics 365 for Customer Engagement (online) subscription](../admin/media/cancel-your-online-subscription.png "Cancel your Dynamics 365 for Customer Engagement (online) subscription")  
+   ![Cancel your Dynamics 365 for Customer Engagement apps (online) subscription](../admin/media/cancel-your-online-subscription.png "Cancel your Dynamics 365 for Customer Engagement apps (online) subscription")  
 
 4. Fill in the information on the Cancel subscription page, and the click **Cancel subscription**.  
 
@@ -290,11 +290,11 @@ When you check your Dynamics CRM Online subscription (**Billing** > **Subscripti
   ![Subscription cancellation information](../admin/media/subscription-cancellation-information.png "Subscription cancellation information")  
 
 <a name="BKMK_DataSwitch"></a>   
-## What happens to my data when I switch to a Dynamics 365 for Customer Engagement subscription?  
+## What happens to my data when I switch to a Dynamics 365 for Customer Engagement apps subscription?  
  Your data, user records, customization, etc. are stored in your tenant and are not tied directly to a specific CRM Online subscription. When you switch to a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription, the new licenses provide access to your existing CRM organization and will not lead to any loss of data.  
 
 <a name="BKMK_NoSwitch"></a>   
-## What happens if I do not switch to a Dynamics 365 for Customer Engagement subscription?  
+## What happens if I do not switch to a Dynamics 365 for Customer Engagement apps subscription?  
  If you do not switch to a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription before the term end date, the CRM Online subscription will enter into an expired state for 90 days for most subscriptions, in most countries and regions. At the end of the expired state, the subscription moves into the disabled state, which is 90 days for most subscriptions, in most countries and regions. We recommend that you back up your data before the subscription is disabled, but as an admin, you can still access and back up data for your organization while it is in the disabled state. Any customer data that you leave behind may be deleted after 90 days, and will be deleted no later than 180 days after cancellation.  
 
  Here's what to expect for you and your users if your subscription is disabled.  
@@ -305,12 +305,12 @@ When you check your Dynamics CRM Online subscription (**Billing** > **Subscripti
 
 <a name="BKMK_ContactHelp"></a>   
 ## Need help? Contact support.  
- As an admin for Dynamics 365 for Customer Engagement, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also contact support on behalf of Dynamics 365 for Customer Engagement users in your organization. See [Billing and subscription support](billing-support.md).  
+ As an admin for Dynamics 365 for Customer Engagement, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also contact support on behalf of Dynamics 365 for Customer Engagement apps users in your organization. See [Billing and subscription support](billing-support.md).  
 
 ### See also  
  [Important information for CRM Online customers](../admin/important-information-customers.md)   
  [Switch to a different Office 365 for business plan](https://support.office.com/article/Switch-to-a-different-Office-365-for-business-plan-73318661-8f33-478b-bcc7-fb8d69dbb22a?ui=en-US&rs=en-US&ad=US)   
- [Onboard your organization and users to Dynamics 365 for Customer Engagement (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)<br />
- [Purchase and assign Dynamics 365 for Customer Engagement (online) licenses](../admin/purchase-assign-online-licenses.md)   
+ [Onboard your organization and users to Dynamics 365 for Customer Engagement apps (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)<br />
+ [Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](../admin/purchase-assign-online-licenses.md)   
  [Assign or remove licenses for Office 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)
  [Terminology used in the product and documentation](online-terminology.md)

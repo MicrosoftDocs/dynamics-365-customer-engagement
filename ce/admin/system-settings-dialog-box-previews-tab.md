@@ -1,5 +1,5 @@
 ---
-title: "System Settings dialog box - Previews tab for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "System Settings dialog box - Previews tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 06/04/2018
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 85cbd3ee-6a08-4ee2-876f-b4a5039dbbde
 author: jimholtz
 ms.author: jimholtz
@@ -54,7 +54,7 @@ Use the settings on this page to enable preview features in [!INCLUDE[pn_microso
 |**Organization Insights Preview**||
 |Enable Organization Insights Preview|More information: [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)|
 |**Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**||
-|Enable the Dynamics 365 for Customer Engagement Text Analytics Preview|More information: [Public Preview: Topic analysis](https://technet.microsoft.com/library/mt752501.aspx)|
+|Enable the Dynamics 365 for Customer Engagement apps Text Analytics Preview|More information: [Public Preview: Topic analysis](https://technet.microsoft.com/library/mt752501.aspx)|
 |**Sales Insights**||
 |Install Relationship Analytics to enable it for preview|More information: [Preview feature: Get insights on opportunities, activities, and leads of customers](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/sales-insights-addon)|
 

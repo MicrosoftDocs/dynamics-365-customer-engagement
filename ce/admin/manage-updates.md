@@ -1,5 +1,5 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement (online) updates | MicrosoftDocs"
+title: "Manage Dynamics 365 for Customer Engagement apps (online) updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 10/25/2018
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 7341c21e-88d7-4996-ab74-3731f9cbaa1b
 caps.latest.revision: 6
 author: "jimholtz"
@@ -26,12 +26,12 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 for Customer Engagement updates: [Modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog). Microsoft will continue to support older versions of Dynamics within the timeframe of the details in our [Update policy](../admin/manage-updates.md#BKMK_Policy). 
+On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 for Customer Engagement apps updates: [Modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog). Microsoft will continue to support older versions of Dynamics within the timeframe of the details in our [Update policy](../admin/manage-updates.md#BKMK_Policy). 
 
 > [!TIP]
-> Many update questions are answered here: [FAQ for Dynamics 365 for Customer Engagement Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy).
+> Many update questions are answered here: [FAQ for Dynamics 365 for Customer Engagement apps Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy).
 
-You have options for when you update your Dynamics 365 for Customer Engagement (online) organization to Dynamics 365 for Customer Engagement (online), version 9.x. To prepare for a smooth process, use the information in this topic.
+You have options for when you update your Dynamics 365 for Customer Engagement apps (online) organization to Dynamics 365 for Customer Engagement apps (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
 
@@ -40,7 +40,7 @@ You have options for when you update your Dynamics 365 for Customer Engagement (
 2. Approve the update.  
 
    > [!IMPORTANT]
-   > An update in this document refers to a major version release, such as upgrading from Dynamics 365 for Customer Engagement version 8.2 to version 9.x. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
+   > An update in this document refers to a major version release, such as upgrading from Dynamics 365 for Customer Engagement apps version 8.2 to version 9.x. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
    > 
    > For major version updates, your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](../admin/manage-updates.md#BKMK_Policy) below for further details. 
 
@@ -48,9 +48,9 @@ You have options for when you update your Dynamics 365 for Customer Engagement (
 
 <a name="BKMK_UpdateDynamics365"></a> 
 
-## Continuous updates for Dynamics 365 for Customer Engagement (online) 
+## Continuous updates for Dynamics 365 for Customer Engagement apps (online) 
 
-We are transforming how we do service updates for Dynamics 365 for Customer Engagement (online). We will deliver two major releases per year - April and October - offering new capabilities and functionality. These updates will be backward compatible, so your apps and customizations will continue to work post update. New features with major, disruptive changes to the user experience are off by default. This means administrators will be able to first test then enable these features for their organization.   
+We are transforming how we do service updates for Dynamics 365 for Customer Engagement apps (online). We will deliver two major releases per year - April and October - offering new capabilities and functionality. These updates will be backward compatible, so your apps and customizations will continue to work post update. New features with major, disruptive changes to the user experience are off by default. This means administrators will be able to first test then enable these features for their organization.   
 
 In addition to the two major updates, we will continue to deploy regular performance and reliability improvement updates throughout the year. We are phasing deployments over several weeks following safe deployment practices and monitoring updates closely for any issues. 
 
@@ -58,9 +58,9 @@ If you're running Microsoft Dynamics CRM Online, please review the following:
 
 -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 
--   [Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)  
+-   [Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)  
 
--   [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement home page](../admin/quickly-navigate-office-365-app-launcher.md)  
+-   [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement apps home page](../admin/quickly-navigate-office-365-app-launcher.md)  
 
 <a name="BKMK_Policy"></a>   
 
@@ -68,10 +68,10 @@ If you're running Microsoft Dynamics CRM Online, please review the following:
 
 Since every customer will be updated on the continuous delivery schedule, your organization needs to update to the latest version.  
 
-For customers who are currently running older versions of Dynamics 365 for Customer Engagement, we will continue to provide you with the ability to schedule an update to the latest version and want to make sure this effort is as seamless as possible through continuous improvements in our update engine. We will send reminders to schedule your update to Dynamics 365 for Customer Engagement administrators.  
+For customers who are currently running older versions of Dynamics 365 for Customer Engagement, we will continue to provide you with the ability to schedule an update to the latest version and want to make sure this effort is as seamless as possible through continuous improvements in our update engine. We will send reminders to schedule your update to Dynamics 365 for Customer Engagement apps administrators.  
 
-- For Dynamics 365 for Customer Engagement (online) customer engagement applications, we sent update communications in May to all customers running version 8.1 and have scheduled updates.
-- Dynamics 365 for Customer Engagement (Online) **version 8.2 will be fully supported until January 31, 2019**. Customers running version 8.2 should plan to update to the latest version prior to this date. 
+- For Dynamics 365 for Customer Engagement apps (online) customer engagement applications, we sent update communications in May to all customers running version 8.1 and have scheduled updates.
+- Dynamics 365 for Customer Engagement apps (Online) **version 8.2 will be fully supported until January 31, 2019**. Customers running version 8.2 should plan to update to the latest version prior to this date. 
 - From February 1, 2019, onwards, we will only support the latest generally available version.
 
 Here are the recent versions.
@@ -89,12 +89,12 @@ Here are the recent versions.
  Your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
 
 > [!NOTE]
-> For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md).  
+> For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md).  
 
 ### CRM Online 2016 Update 1 – Approach One (recommended)  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
 
- For version information, see: [Dynamics 365 for Customer Engagement (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
+ For version information, see: [Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -102,7 +102,7 @@ Here are the recent versions.
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement")|Sandbox (n)|  
 |Production (n-2)|![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement")|Production (n)|  
 
-n = current version,  Dynamics 365 for Customer Engagement (online), version 9.x
+n = current version,  Dynamics 365 for Customer Engagement apps (online), version 9.x
 
 #### Recommended update approach  
 <!--
@@ -144,7 +144,7 @@ n = current version,  Dynamics 365 for Customer Engagement (online), version 9.x
 ### CRM Online 2016 Update 1 – Approach Two  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
 
-For version information, see: [Dynamics 365 for Customer Engagement (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
+For version information, see: [Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -153,7 +153,7 @@ For version information, see: [Dynamics 365 for Customer Engagement (online) rel
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement")|Production (n)|  
 
-n = current version, Dynamics 365 for Customer Engagement (online), version 9.x
+n = current version, Dynamics 365 for Customer Engagement apps (online), version 9.x
 
 #### Recommended update approach  
 <!--
@@ -192,17 +192,17 @@ n = current version, Dynamics 365 for Customer Engagement (online), version 9.x
 ![Update approach two](media/cdu-approach2-flowchart.png "Update approach two")
 
 
-### December 2016 update for Dynamics 365 for Customer Engagement (online) 
+### December 2016 update for Dynamics 365 for Customer Engagement apps (online) 
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1).  
 
- For version information, see: [Dynamics 365 for Customer Engagement (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
+ For version information, see: [Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 |Version||Update to|  
 |-------------|-|---------------|  
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement")|Production (n)|  
 
-n = current version, Dynamics 365 for Customer Engagement (online), version 9.x
+n = current version, Dynamics 365 for Customer Engagement apps (online), version 9.x
 
 #### Recommended update approach  
 Follow the process in the dashed box in the flowchart above. 
@@ -232,7 +232,7 @@ Follow the process in the dashed box in the flowchart above.
 ## Recent versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
  To determine your version, sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
-For recent versions, see [Dynamics 365 for Customer Engagement (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
+For recent versions, see [Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 <a name="BKMK_howtoknow"></a> 
 
@@ -245,7 +245,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**.  
 
-   ![Dynamics 365 for Customer Engagement option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 for Customer Engagement option in the Admin center drop-down list")  
+   ![Dynamics 365 for Customer Engagement apps option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 for Customer Engagement apps option in the Admin center drop-down list")  
 
 3. On the Instances page, click **Updates**, and then review the update status for your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.  
 
@@ -255,7 +255,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
    -   Clicking **Schedule your update** lets the admin select a target release and then do the scheduling.  
 
-   ![Manage Dynamics 365 for Customer Engagement Online instances](../admin/media/customer-driven-update-notice-1.png "Manage Dynamics 365 for Customer Engagement Online instances")  
+   ![Manage Dynamics 365 for Customer Engagement apps Online instances](../admin/media/customer-driven-update-notice-1.png "Manage Dynamics 365 for Customer Engagement apps Online instances")  
 
 <!-- This banner appears to not happen anymore - May 1 2018  
 ### A notification appears in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application  
@@ -264,7 +264,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 2.  If an update is available, admins will see a yellow [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] message bar notifying them of an available update.  
 
- ![Dynamics 365 for Customer Engagement Online update notice in banner bar](../admin/media/customer-driven-update-notice-2.png "Dynamics 365 for Customer Engagement Online update notice in banner bar")  
+ ![Dynamics 365 for Customer Engagement apps Online update notice in banner bar](../admin/media/customer-driven-update-notice-2.png "Dynamics 365 for Customer Engagement apps Online update notice in banner bar")  
  -->
 
 ### Update notification emails are sent to admins  
@@ -357,11 +357,11 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 ## What happens after an update is approved?  
  When your update has started, you’ll see **Update in progress** under **Status**. The **Reschedule** option will no longer be available.  
 
- ![Reschedule Dynamics 365 for Customer Engagement Online update in progress](../admin/media/customer-driven-update-notice-5d.png "Reschedule Dynamics 365 for Customer Engagement Online update in progress")  
+ ![Reschedule Dynamics 365 for Customer Engagement apps Online update in progress](../admin/media/customer-driven-update-notice-5d.png "Reschedule Dynamics 365 for Customer Engagement apps Online update in progress")  
 
  When your update is done, you’ll see **Updated successfully**.  
 
- ![Successful reschedule of Dynamics 365 for Customer Engagement (online) update](../admin/media/customer-driven-update-notice-5e.png "Successful reschedule of Dynamics 365 for Customer Engagement (online) update")  
+ ![Successful reschedule of Dynamics 365 for Customer Engagement apps (online) update](../admin/media/customer-driven-update-notice-5e.png "Successful reschedule of Dynamics 365 for Customer Engagement apps (online) update")  
 
 <a name="BKMK_PrepareforUpdate"></a>   
 
@@ -369,7 +369,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
  Dynamics 365 for Customer Engagement, version 9.x contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
 
 ### Prepare your users  
- To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 for Customer Engagement (online), version 9](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
+ To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 for Customer Engagement apps (online), version 9](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
 
 <a name="BKMK_Checklist"></a>   
 
@@ -394,7 +394,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 
 5. **Create a non-Production (Sandbox) instance in which you can test your customizations.**  
 
-     Ideally, you should test your customizations prior to update. This will also give you the opportunity to verify compatibility of any third-party customizations. If you identify any potential issues, please work with the solution provider to correct any issues that arise. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)  
+     Ideally, you should test your customizations prior to update. This will also give you the opportunity to verify compatibility of any third-party customizations. If you identify any potential issues, please work with the solution provider to correct any issues that arise. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](../admin/manage-sandbox-instances.md)  
 
 6. **Notify your users prior to the update of [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)].**  
 
@@ -427,6 +427,6 @@ For recent versions, see [Dynamics 365 for Customer Engagement (online) releases
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/legal/intellectualproperty/onlinedisclaimer.aspx).
 
 ### See also  
- [FAQ for Dynamics 365 for Customer Engagement Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy)<br/>
- [Policies and Communications for Dynamics 365 for Customer Engagement (online)](../admin/policies-communications.md)<br/>    
+ [FAQ for Dynamics 365 for Customer Engagement apps Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy)<br/>
+ [Policies and Communications for Dynamics 365 for Customer Engagement apps (online)](../admin/policies-communications.md)<br/>    
  [Manage email notifications](../admin/manage-email-notifications.md)

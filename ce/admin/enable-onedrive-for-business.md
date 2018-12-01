@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: c3742b70-863a-488e-beb3-fb9d63c2e6e5
 caps.latest.revision: 5
 author: "jimholtz"
@@ -36,7 +36,7 @@ This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../
 
  The following are required to use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]:  
   
-- [Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md).  
+- [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md).  
   
 - A [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] license for each user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What is OneDrive for Business?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)  
   
@@ -53,7 +53,7 @@ This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../
   
 2.  Click **Enable OneDrive for Business** to enable it, and then choose **OK**.  
   
-## Controlling access to OneDrive for Business in Dynamics 365 for Customer Engagement  
+## Controlling access to OneDrive for Business in Dynamics 365 for Customer Engagement apps  
  You can toggle availability of [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for end users through the **OneDrive for Business** privilege.  
   
 1. Click **Settings** > **Security** > **Security Roles**.  

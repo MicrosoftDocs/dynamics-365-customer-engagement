@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Set up Cortana integration with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Preview feature: Set up Cortana integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 09/30/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement  (online)"
   - "Dynamics CRM Online"
 ms.assetid: b31d2c05-5785-4827-bd3e-e65ad95040d0
 author: jimholtz
@@ -30,7 +30,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 > [!IMPORTANT]
-> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration.
+> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration.
   
 We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help salespeople keep track of important [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
   

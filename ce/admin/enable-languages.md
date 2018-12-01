@@ -1,5 +1,5 @@
 ---
-title: "Enable languages for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Enable languages for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: d5ac01dc-ebc6-455a-9a73-3367ff69eb1a
 caps.latest.revision: 11
 author: "Mattp123"

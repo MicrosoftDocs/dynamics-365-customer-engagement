@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and monitoring server-side synchronization for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Troubleshooting and monitoring server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 09/30/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 4b5e4f18-cb04-4c4a-bb22-2c3505868e90
 caps.latest.revision: 42
 author: "jimholtz"
@@ -165,7 +165,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  **Solution:**  
   
- To change the primary synchronization organization and overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > **Test & Enable Mailbox** > select **Sync items with Exchange from this Dynamics 365 for Customer Engagement Organization only, even if Exchanges was set to sync with a different Organization**. This will allow server-side synchronization to work for this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance but the other instance would no longer work for synching that mailbox through server-side synchronization. To change the synchronization method for Appointments, Contacts, and Tasks, click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > select **None** for **Appointments, Contacts, and Tasks**.  
+ To change the primary synchronization organization and overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > **Test & Enable Mailbox** > select **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps Organization only, even if Exchanges was set to sync with a different Organization**. This will allow server-side synchronization to work for this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance but the other instance would no longer work for synching that mailbox through server-side synchronization. To change the synchronization method for Appointments, Contacts, and Tasks, click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > select **None** for **Appointments, Contacts, and Tasks**.  
   
  For more information, see: [When would I want to use this check box?](when-would-want-use-check-box.md)  
   
@@ -184,7 +184,7 @@ For more information, see this [kb article](https://support.microsoft.com/kb/318
   
 <a name="BKMK_ExchangeOnline"></a>   
 
-### Using Dynamics 365 for Customer Engagement (online) with Exchange Online  
+### Using Dynamics 365 for Customer Engagement apps (online) with Exchange Online  
  If your company is using [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], note the following:  
   
  [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] supports server-side synchronization with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in the same tenant with Server to Server Authentication. Other authentication methods or settings are not recommended or supported, including:  
@@ -238,7 +238,7 @@ For most situations not supported by server-side synchronization, you can use th
 > [!NOTE]
 >  We recommend that you don’t use a mixed configuration of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization and server-side synchronization for appointments, contacts, and tasks in the same organization, because it may result in updated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data not synchronizing to all attendees.  
   
-### Appointment record is not created in Dynamics 365 for Customer Engagement when tracked by invitee  
+### Appointment record is not created in Dynamics 365 for Customer Engagement apps when tracked by invitee  
  Consider the following scenario regarding tracking an event in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
   
 1. An event organizer uses [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the synchronization method.  
@@ -255,7 +255,7 @@ Result: the appointment is not created in [!INCLUDE[pn_crm_shortest](../includes
   
 This is a known issue and is not supported. If the organizer is someone outside of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user who is an invitee can still track the appointment and have the record created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
    
-### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement  
+### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement apps  
  Changes made to Service Appointments and Activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will update in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] when you synchronize but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Service appointments are scheduled by an agent and need free/busy information for resources available only in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ### Be aware of Exchange Online receiving and sending limits  

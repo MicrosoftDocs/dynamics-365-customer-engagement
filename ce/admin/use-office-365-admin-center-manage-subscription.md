@@ -1,5 +1,5 @@
 ---
-title: "Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement (online) subscription | MicrosoftDocs"
+title: "Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription | MicrosoftDocs"
 ms.custom: ""
 ms.date: 06/19/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 4a55b843-e764-43aa-a818-904b85189cc5
 caps.latest.revision: 5
 author: "jimholtz"
@@ -35,7 +35,7 @@ search.app:
 >  You must have the Global admin role to fully access the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 <a name="BKMK_AppLauncher"></a>   
-## Open Dynamics 365 for Customer Engagement and other services with the app launcher  
+## Open Dynamics 365 for Customer Engagement apps and other services with the app launcher  
  You can open [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and other services such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] from the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher. Choose **Admin** to open the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** to open [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find help for the latest changes in Office 365](https://support.office.com/client/Find-help-for-the-latest-changes-in-Office-365-22E9A8BF-EF08-4B95-B10F-6E839440339C?NS=O365ENTADMIN&Version=15&HelpId=O365E_NewAppLauncher)  
   
  ![Office 365 app launcher](../admin/media/admin-center-app-launcher.png "Office 365 app launcher")  
@@ -46,15 +46,15 @@ search.app:
   
  You access the portal by choosing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
- ![Dynamics 365 for Customer Engagement option on the Office 365 Admin Center menu](../admin/media/o365-admin-center-crm.png "Dynamics 365 for Customer Engagement option on the Office 365 Admin Center menu")  
+ ![Dynamics 365 for Customer Engagement apps option on the Office 365 Admin Center menu](../admin/media/o365-admin-center-crm.png "Dynamics 365 for Customer Engagement apps option on the Office 365 Admin Center menu")  
   
- Choose the **Instances** tab to edit, copy, and reset, existing instances, configure new instances, manage preferred solutions, and more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)  
+ Choose the **Instances** tab to edit, copy, and reset, existing instances, configure new instances, manage preferred solutions, and more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)  
   
- ![Dynamics 365 for Customer Engagement Administration Center Instances tab](../admin/media/crm-admin-center-instances.png "Dynamics 365 for Customer Engagement Administration Center Instances tab")  
+ ![Dynamics 365 for Customer Engagement apps Administration Center Instances tab](../admin/media/crm-admin-center-instances.png "Dynamics 365 for Customer Engagement apps Administration Center Instances tab")  
   
- Choose the **Updates** tab to approve and schedule updates, change the update target version, and open [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement (online) updates](../admin/manage-updates.md)  
+ Choose the **Updates** tab to approve and schedule updates, change the update target version, and open [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement apps (online) updates](../admin/manage-updates.md)  
   
- ![Dynamics 365 for Customer Engagement Administration Center - Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 for Customer Engagement Administration Center - Updates tab")  
+ ![Dynamics 365 for Customer Engagement apps Administration Center - Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 for Customer Engagement apps Administration Center - Updates tab")  
   
 <a name="BKMK_ServiceHealth"></a>   
 

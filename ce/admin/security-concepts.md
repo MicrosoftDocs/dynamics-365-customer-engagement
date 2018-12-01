@@ -1,5 +1,5 @@
 ---
-title: "Security concepts for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Security concepts for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5ca6019e-65f6-4bd8-8bd1-8f66d8814363
 caps.latest.revision: 30
 author: "Mattp123"
@@ -100,4 +100,4 @@ You combine business units, role-based security, record-based security, and fiel
  [Manage teams](../admin/manage-teams.md)   
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
- <!-- [Microsoft Dynamics 365 for Customer Engagement administration best practices](Administration%20best%20practices%20for%20on-premises%20deployments%20of%20Microsoft%20Dynamics%20365.md)   -->
+ <!-- [Microsoft Dynamics 365 for Customer Engagement apps administration best practices](Administration%20best%20practices%20for%20on-premises%20deployments%20of%20Microsoft%20Dynamics%20365.md)   -->

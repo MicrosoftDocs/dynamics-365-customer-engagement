@@ -1,5 +1,5 @@
 ---
-title: "Monitor and manage system jobs for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Monitor and manage system jobs for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/06/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: d8a87798-4163-4785-9985-6fd2993abb85
 caps.latest.revision: 24
 author: "jimholtz"

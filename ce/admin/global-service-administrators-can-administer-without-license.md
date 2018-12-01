@@ -1,5 +1,5 @@
 ---
-title: "Global and Service administrators can administer Dynamics 365 for Customer Engagement (Online) without a license | MicrosoftDocs"
+title: "Global and Service administrators can administer Dynamics 365 for Customer Engagement apps (Online) without a license | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 9707d6fd-f289-4e46-895e-6b871ca3a9ea
 caps.latest.revision: 4
 author: "jimholtz"
@@ -37,7 +37,7 @@ Administrative access mode limits access to those areas of [!INCLUDE[pn_microsof
   
 To give these administrators access to additional areas, such as the Sales, Marketing, and Service areas, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license must be added to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrator user account, by using the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Note that Administrative access mode cannot be changed on the user form in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] application.  
   
-## Create a Dynamics 365 for Customer Engagement administrator account  
+## Create a Dynamics 365 for Customer Engagement apps administrator account  
   
 1. Sign in to the [Office 365 admin center](https://portal.office.com), and then choose **Users** > **Active Users**.  
   

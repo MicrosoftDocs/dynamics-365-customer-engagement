@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Document Management software requirements for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "SharePoint Document Management software requirements for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 736cf9ab-6a7f-4dc8-940a-d7302e09e858
 caps.latest.revision: 55
 author: "Mattp123"
@@ -28,7 +28,7 @@ search.app:
 If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] , you must meet the requirements listed in this topic.  
 
 <a name="docman_online"></a>   
-## Use document management in Dynamics 365 for Customer Engagement (online)  
+## Use document management in Dynamics 365 for Customer Engagement apps (online)  
  If you are using server-based integration with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] or [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1 on-premises (or a later version).  
 
  If you are using the [!INCLUDE[pn_crm_2016_list_component_sharepoint](../includes/pn-crm-2016-list-component-sharepoint.md)], one of the following versions of [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] must be available:  

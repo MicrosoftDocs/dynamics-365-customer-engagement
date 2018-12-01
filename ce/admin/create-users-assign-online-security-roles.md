@@ -1,5 +1,5 @@
 ---
-title: "Create users in Dynamics 365 for Customer Engagement (online) and assign security roles | MicrosoftDocs"
+title: "Create users in Dynamics 365 for Customer Engagement apps (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/11/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5f21f288-f941-4ca0-a15f-a91cd9feee4d
 caps.latest.revision: 4
 author: "jimholtz"
@@ -21,11 +21,11 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Create users in Dynamics 365 for Customer Engagement (online) and assign security roles
+# Create users in Dynamics 365 for Customer Engagement apps (online) and assign security roles
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
+You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
 <a name="BKMK_create_users"></a>   
 
@@ -52,7 +52,7 @@ Some user profile information is maintained and managed in the [!INCLUDE [pn-off
 
 The following table shows the fields that are managed in the **Users** section of the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].
 
-|Dynamics 365 for Customer Engagement user form  |Office 365 / Azure Active Directory user  |
+|Dynamics 365 for Customer Engagement apps user form  |Office 365 / Azure Active Directory user  |
 |---------|---------|
 |User Name     |Username         |
 |Full Name     |First name + Last name         |
@@ -66,7 +66,7 @@ The following table shows the fields that are managed in the **Users** section o
 |Address     |State or province         |
 |Address     |Country or region         |
 
-*To prevent data loss, the Primary Email field does not automatically update and synchronize with Dynamics 365 for Customer Engagement (online).
+*To prevent data loss, the Primary Email field does not automatically update and synchronize with Dynamics 365 for Customer Engagement apps (online).
 
 The following are Office 365 user contact fields.
 
@@ -104,7 +104,7 @@ The following are Office 365 user contact fields.
   
  Security roles are associated with business units. If you have created business units, only those security roles associated with the business unit are available for the users in the business unit. You can use this feature to limit data access to only data owned by the business unit.  
   
- For more information about the difference between [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator roles and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security roles, see [Grant users access to Microsoft Dynamics 365 for Customer Engagement (online) as a Microsoft Online service](../admin/grant-users-access.md).  
+ For more information about the difference between [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator roles and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security roles, see [Grant users access to Microsoft Dynamics 365 for Customer Engagement apps (online) as a Microsoft Online service](../admin/grant-users-access.md).  
   
 > [!IMPORTANT]
 >  You must assign at least one security role to every [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] user. The service does not allow access to users who do not have at least one security role. Even if a user is a member of a team with its own security privileges, the user won’t be able to see some data and may experience other problems when trying to use the system.  
@@ -171,7 +171,7 @@ The following are Office 365 user contact fields.
   
 3. Turn off the **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close** multiple times.  
   
-### Disable a user by removing the user from the security group that is associated with an instance of Dynamics 365 for Customer Engagement (online)  
+### Disable a user by removing the user from the security group that is associated with an instance of Dynamics 365 for Customer Engagement apps (online)  
   
 1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
@@ -197,9 +197,9 @@ The following are Office 365 user contact fields.
 > - Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## Create an Administrative user account
-An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 for Customer Engagement (online) license (after setup).
+An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 for Customer Engagement apps (online) license (after setup).
 
-You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement to create an administrative user. First, you’ll create a user account in Office 365 and then in Dynamics 365 for Customer Engagement (online), select the **Administrative** access mode for the account.
+You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create an administrative user. First, you’ll create a user account in Office 365 and then in Dynamics 365 for Customer Engagement apps (online), select the **Administrative** access mode for the account.
 
 > [!NOTE]
 > See [Create an administrative user and prevent elevation of security role privilege](prevent-elevation-security-role-privilege.md) for an example of how an Administrative user account can be used.
@@ -229,9 +229,9 @@ You need to have the System Administrator security role or equivalent permission
 <a name="BKMK_noninteractiveuser"></a>   
 
 ## Create a non-interactive user account  
- The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement to ERP connector, authenticate and access Dynamics 365 for Customer Engagement (online), without requiring a Dynamics 365 for Customer Engagement (online) license. For each instance of Dynamics 365 for Customer Engagement (online), you can create up to five non-interactive user accounts.  
+ The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to five non-interactive user accounts.  
   
- You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], select the non-interactive access mode for the account.  
+ You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], select the non-interactive access mode for the account.  
   
 1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -269,9 +269,9 @@ All application users are created with a non-interactive user account, however t
  ![Application user](../admin/media/application-user.png "Application user")  
 
 ## How stub users are created
-A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 for Customer Engagement (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. 
+A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 for Customer Engagement apps (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. 
 
-A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
+A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement apps instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
 
   
 ### See also  
@@ -279,4 +279,4 @@ A default security role is automatically assigned to these imported users. The *
  [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)   
  [Add users to Office 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc?ui=en-US&rs=en-US&ad=US)   
  [Security roles and privileges](../admin/security-roles-privileges.md)   
- [Manage Microsoft Dynamics 365 for Customer Engagement (online) licenses](../admin/manage-licenses.md)
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) licenses](../admin/manage-licenses.md)

@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5a297c2d-4336-46c3-952e-625ec22b0382
 caps.latest.revision: 52
 author: "jimholtz"
@@ -38,9 +38,9 @@ You can use [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)
   
  Choose one of the following scenarios to configure [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] for your organization:  
   
--   [Connect Dynamics 365 for Customer Engagement (online) to Exchange Online](connect-exchange-online.md)  
+-   [Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online](connect-exchange-online.md)  
   
--   [Connect Dynamics 365 for Customer Engagement (online) to Exchange Server on-premises](connect-exchange-server-on-premises.md)  
+-   [Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Server on-premises](connect-exchange-server-on-premises.md)  
   
 -   [Connect to a POP3 or SMTP server](../admin/connect-to-pop3-or-smtp-servers.md)
 

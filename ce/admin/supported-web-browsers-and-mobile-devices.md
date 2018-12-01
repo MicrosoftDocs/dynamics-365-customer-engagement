@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 078f5277-db51-4a62-a20c-976db74f17a4
 caps.latest.revision: 29
 author: "Mattp123"
@@ -46,7 +46,7 @@ For a mobile device, such as an iPad or smartphone, the following apps are avail
   
 - [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)]  
   
-For more detailed information about supported phones and tablets, see [Microsoft Dynamics 365 for Customer Engagement mobile and tablet device support](../mobile-app/support-phones-tablets.md).  
+For more detailed information about supported phones and tablets, see [Microsoft Dynamics 365 for Customer Engagement apps mobile and tablet device support](../mobile-app/support-phones-tablets.md).  
   
 > [!NOTE]
 > - Users who try to view [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on an unsupported browser may be redirected to a mobile experience. 
@@ -55,7 +55,7 @@ For more detailed information about supported phones and tablets, see [Microsoft
 > -  If you have added content to forms or dashboards in an iFrame, you might have implemented security restrictions around certain actions in that content, such as external links. Keep in mind that in [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)], this security restriction code will likely be unsupported.  
   
 <a name="BKMK_browserIssues"></a>   
-## Known issues when you run Microsoft Dynamics 365 for Customer Engagement with certain web browsers  
+## Known issues when you run Microsoft Dynamics 365 for Customer Engagement apps with certain web browsers  
  This section describes the known issues when you run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a web browser.  
   
 ### Limited copy and paste support in Firefox and Chrome  

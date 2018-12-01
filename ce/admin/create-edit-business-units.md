@@ -1,5 +1,5 @@
 ---
-title: "Create or edit business units for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create or edit business units for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/02/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
@@ -124,6 +124,6 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 ### See also  
- [Set up a Dynamics 365 for Customer Engagement organization](../admin/set-up-a-dynamics-365-organization.md)   
+ [Set up a Dynamics 365 for Customer Engagement apps organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Delete a business unit](../admin/delete-business-unit.md)   
  [Assign a business unit a different parent business](../admin/assign-business-unit-different-parent.md)

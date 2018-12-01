@@ -1,5 +1,5 @@
 ---
-title: "Integrate (synchronize) your email system with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Integrate (synchronize) your email system with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/25/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 6804d996-86b2-4fb0-aed9-21fbdde0bab5
 caps.latest.revision: 26
 author: "jimholtz"

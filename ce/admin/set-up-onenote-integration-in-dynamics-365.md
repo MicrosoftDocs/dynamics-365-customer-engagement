@@ -1,14 +1,14 @@
 ---
-title: "Set up OneNote integration in Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
-description: "Learn how to integrate OneNote with Dynamics 365 for Customer Engagement (online)."
+title: "Set up OneNote integration in Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+description: "Learn how to integrate OneNote with Dynamics 365 for Customer Engagement apps (online)."
 keywords: "OneNote, notebook, integration, set up"
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: bb4f1489-238e-4b72-b5a3-cb1f36d2a274
 author: jimholtz
 ms.author: jimholtz
@@ -71,7 +71,7 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 5. A [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)]. After the dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is created for that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, you can view and navigate to that notebook from any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client.  
   
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Use OneNote in Dynamics 365 for Customer Engagement (online)](../basics/use-onenote.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Use OneNote in Dynamics 365 for Customer Engagement apps (online)](../basics/use-onenote.md)
   
 ## To turn off OneNote integration  
   
@@ -84,7 +84,7 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
 3. In the **OneNote Integration Setting** dialog box, clear the check boxes for all entities, and then select **Finish**.  
   
 ### See also  
- [Use OneNote in Dynamics 365 for Customer Engagement (online)](../basics/use-onenote.md)   
- [OneNote in Dynamics 365 for Customer Engagement FAQs](../basics/onenote-dynamics-365-faqs.md)   
+ [Use OneNote in Dynamics 365 for Customer Engagement apps (online)](../basics/use-onenote.md)   
+ [OneNote in Dynamics 365 for Customer Engagement apps FAQs](../basics/onenote-dynamics-365-faqs.md)   
  [Turn on server-based SharePoint integration](set-up-sharepoint-integration.md)   
  [Blog: OneNote in CRM](http://blogs.technet.com/b/lystavlen/archive/2015/03/31/make-a-note-of-this.aspx)

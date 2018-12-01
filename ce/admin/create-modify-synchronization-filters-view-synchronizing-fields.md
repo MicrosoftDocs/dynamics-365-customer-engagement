@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -33,7 +33,7 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
   
 - **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] dialog box**. This dialog box has three tabs:  
   
-  - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 for Customer Engagement and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
+  - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
   
   - **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Offline and Outlook filters and templates](../developer/outlook-client/offline-outlook-filters-templates.md) 
   
@@ -47,5 +47,5 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
  
 
 ### See also  
- [Choose the records to synchronize between Dynamics 365 for Customer Engagement and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
+ [Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
  

@@ -1,5 +1,5 @@
 ---
-title: "Email message filtering and correlation for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Email message filtering and correlation for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/16/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 053e42e3-078e-4768-9c76-5ad3a0ff1fa9
 caps.latest.revision: 24
 author: "jimholtz"
@@ -29,20 +29,20 @@ Server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](..
 
 - **All email messages**. All email messages received by the user are tracked (will have activities created).  
 
-- **Email messages in response to Dynamics 365 for Customer Engagement email**. Only replies to email messages that have already been tracked will be saved as email activities. This option uses [smart matching](../admin/email-message-filtering-correlation.md#BKMK_smartmatching), a correlation method that uses the existing properties contained in the email to relate email messages to activities.  
+- **Email messages in response to Dynamics 365 for Customer Engagement apps email**. Only replies to email messages that have already been tracked will be saved as email activities. This option uses [smart matching](../admin/email-message-filtering-correlation.md#BKMK_smartmatching), a correlation method that uses the existing properties contained in the email to relate email messages to activities.  
 
-- **Email messages from Dynamics 365 for Customer Engagement Leads, Contacts, and Accounts**. Only email messages sent from leads, contacts, and accounts in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database are saved as activities.  
+- **Email messages from Dynamics 365 for Customer Engagement apps Leads, Contacts, and Accounts**. Only email messages sent from leads, contacts, and accounts in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database are saved as activities.  
 
-- **Email messages from Microsoft Dynamics 365 for Customer Engagement records that are email enabled**. Email messages are tracked from any record type that contains an email address, including customized record types (entities).  
+- **Email messages from Microsoft Dynamics 365 for Customer Engagement apps records that are email enabled**. Email messages are tracked from any record type that contains an email address, including customized record types (entities).  
 
-By default, the **Email messages in response to Dynamics 365 for Customer Engagement email** option is enabled. Correlation occurs after an email message is filtered. System administrators can turn off all message tracking for a particular user by setting **Incoming Email** under **Synchronization Method** to **None** on the Mailbox form.  
+By default, the **Email messages in response to Dynamics 365 for Customer Engagement apps email** option is enabled. Correlation occurs after an email message is filtered. System administrators can turn off all message tracking for a particular user by setting **Incoming Email** under **Synchronization Method** to **None** on the Mailbox form.  
 
 Email correlation is set on the **Email** tab of the System Settings page and can be enabled or disabled for the entire [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses two kinds of correlation, tracking tokens and smart matching. By default, both correlation types are enabled.  
 
 > [!IMPORTANT]
 >  Tracking tokens are the only supported correlation method that can be used when you use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] connected to an SMTP server and send email to a non-Exchange recipient. In this situation, if tracking tokens are not enabled, then correlation events, such as the automatically creating records based on the regarding object, may not work.  
 
-## How Dynamics 365 for Customer Engagement uses conversations to track emails  
+## How Dynamics 365 for Customer Engagement apps uses conversations to track emails  
  Use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] conversations to increase the probability for email identification and matching. [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] groups together related email and assigns them an id (conversation id), to identify emails that are part of one conversation.  
 
 1. Go to **Settings** > **Administration** > **System Settings**.  
@@ -55,9 +55,9 @@ Email correlation is set on the **Email** tab of the System Settings page and ca
 
    If checked, this option uses the conversation id to identify all the emails that replied to a tracked email.  
 
-## How Dynamics 365 for Customer Engagement associates email addresses with records
+## How Dynamics 365 for Customer Engagement apps associates email addresses with records
 
-When Dynamics 365 for Customer Engagement tracks an email, it associates the email address to a record within Dynamics 365 for Customer Engagement. The contents of the email **From** field can only be associated with one Dynamics 365 for Customer Engagement record. If there are duplicate records within Dynamics 365 for Customer Engagement with the same email address, the contents of the email **From** field will resolve to the first active record in the following order:
+When Dynamics 365 for Customer Engagement apps tracks an email, it associates the email address to a record within Dynamics 365 for Customer Engagement. The contents of the email **From** field can only be associated with one Dynamics 365 for Customer Engagement apps record. If there are duplicate records within Dynamics 365 for Customer Engagement apps with the same email address, the contents of the email **From** field will resolve to the first active record in the following order:
 
 1. SystemUser
 2. Contact
@@ -68,11 +68,11 @@ When Dynamics 365 for Customer Engagement tracks an email, it associates the ema
 7. Business unit
 8. Email-enabled entities (for example: Queues, custom, etc.)
 
-In the email **To** field, all of the Dynamics 365 for Customer Engagement records of email-enabled entities with the email address will be listed.
+In the email **To** field, all of the Dynamics 365 for Customer Engagement apps records of email-enabled entities with the email address will be listed.
 
 <a name="BKMK_tracking-token"></a>   
 
-## How Dynamics 365 for Customer Engagement uses tracking tokens  
+## How Dynamics 365 for Customer Engagement apps uses tracking tokens  
  Tracking tokens increase the probability for email identification and matching. You can use the tracking token feature to improve email message tracking. A tracking token is an alphanumeric string generated by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and appended to the end of an email subject line. It matches email activities with email messages.  
 
  Tracking tokens add an additional correlation component to smart matching. When [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] generates an outgoing email activity, a resulting email response arriving in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system is then correlated to the originating activity.  

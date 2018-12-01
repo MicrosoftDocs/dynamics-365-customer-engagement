@@ -1,5 +1,5 @@
 ---
-title: "Copy a security role for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Copy a security role for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 05/09/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: b363c499-2b87-4227-93a8-6282c5bfc855
 caps.latest.revision: 25
 author: "jimholtz"

@@ -1,5 +1,5 @@
 ---
-title: "Set up SharePoint integration with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Set up SharePoint integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: b066f14a-e1a8-4a35-8f46-98ce79c38af3
 caps.latest.revision: 40
 author: "Mattp123"
@@ -37,7 +37,7 @@ With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use th
   
 - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] documents will display in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] lists.  
   
-- Users can perform [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] actions from the Dynamics 365 for Customer Engagement command bar.  
+- Users can perform [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] actions from the Dynamics 365 for Customer Engagement apps command bar.  
   
 ### See also 
  [Manage your documents](../admin/manage-documents-using-sharepoint.md)   

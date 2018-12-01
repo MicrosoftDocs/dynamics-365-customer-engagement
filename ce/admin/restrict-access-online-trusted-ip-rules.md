@@ -1,5 +1,5 @@
 ---
-title: "Restrict access to Dynamics 365 for Customer Engagement (online) with trusted IP rules | MicrosoftDocs"
+title: "Restrict access to Dynamics 365 for Customer Engagement apps (online) with trusted IP rules | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 45e17aac-7d50-4022-88b2-9dd5d0895b8c
 caps.latest.revision: 4
 author: "jimholtz"
@@ -39,7 +39,7 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
 ## Additional security considerations  
  IP restriction is only enforced during user authentication.  This is done by the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Conditional Access capability. [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] sets a session timeout limit to balance protecting user data and the number of times users are prompted for their sign-in credentials. Trusted IP restriction for devices (including laptops) is not applied until the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] session timeout expires.  
   
- For example, a trusted IP restriction is setup to only allow access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when users are working from a corporate office.  When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user signs in into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using their laptop from their office and establishes a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] session, the user can continue to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] after leaving the office until the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] session timeout expires.  This behavior also applies to mobile and offsite connections such as: Dynamics 365 for Customer Engagement for phones and tablets, and [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].  
+ For example, a trusted IP restriction is setup to only allow access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when users are working from a corporate office.  When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user signs in into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using their laptop from their office and establishes a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] session, the user can continue to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] after leaving the office until the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] session timeout expires.  This behavior also applies to mobile and offsite connections such as: Dynamics 365 for Customer Engagement apps for phones and tablets, and [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].  
   
 <a name="BKMK_CreateSecurityGroup"></a>   
 ## Create security group (optional)  
@@ -68,13 +68,13 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
 2. Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
   
-3. Click **Applications**, and then click  the **Dynamics 365 for Customer Engagement Online** web application.  
+3. Click **Applications**, and then click  the **Dynamics 365 for Customer Engagement apps Online** web application.  
  
-   ![Select the Dynamics 365 for Customer Engagement (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 for Customer Engagement (online) web app") 
+   ![Select the Dynamics 365 for Customer Engagement apps (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 for Customer Engagement apps (online) web app") 
   
 4. Click **Configure**.  
  
-   ![Configure Active Directory properties for Dynamics 365 for Customer Engagement (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 for Customer Engagement (online) instance")
+   ![Configure Active Directory properties for Dynamics 365 for Customer Engagement apps (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 for Customer Engagement apps (online) instance")
 
 5. Set the following on the Properties page:  
   

@@ -1,6 +1,6 @@
 ---
-title: "Migrate Dynamics 365 for Customer Engagement (online) to Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Follow theses steps to migrate from Microsoft Dynamics 365 for Customer Engagement (online) to Microsoft Dynamics 365 for Customer Engagement (on-premises)."
+title: "Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises) | MicrosoftDocs"
+description: "Follow theses steps to migrate from Microsoft Dynamics 365 for Customer Engagement apps (online) to Microsoft Dynamics 365 for Customer Engagement apps (on-premises)."
 ms.custom: ""
 ms.date: 08/21/2018
 ms.reviewer: ""
@@ -9,15 +9,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "Mattp123"
 ms.assetid: e7e8ea24-0872-42e6-bec3-bcf362a26450
 caps.latest.revision: 15
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Migrate Dynamics 365 for Customer Engagement (online) to Dynamics 365 for Customer Engagement (on-premises)
+# Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises)
 
 [!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -40,7 +40,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 -   A calculated field that computes the difference between two dates by using DIFFINDAYS, DIFFINHOURS, DIFFINMINUTES, DIFFINMONTHS, DIFFINWEEKS, or DIFFINYEARS.  
   
- Additionally, you can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. More information: [Set up rules to automatically create or update records in Dynamics 365 for Customer Engagement (Customer Service)](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)   
+ Additionally, you can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. More information: [Set up rules to automatically create or update records in Dynamics 365 for Customer Engagement apps (Customer Service)](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)   
   
 ### Unmanaged solutions  
  Any field in an unmanaged solution that includes a feature introduced in [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] will be removed from the organization. For example, this applies if the field includes one of the following features:  
@@ -51,13 +51,13 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
  Additionally, these behaviors appear:  
   
--   You can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. More information: [Set up rules to automatically create or update records in Dynamics 365 for Customer Engagement (Customer Service)](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
+-   You can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. More information: [Set up rules to automatically create or update records in Dynamics 365 for Customer Engagement apps (Customer Service)](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
 -   Records with date and time fields having values earlier than January 1, 1900 are considered invalid and will return an error message, such as “Invalid Date/Time The date/time format is not valid, or the value is outside the supported range.” When this issue occurs you can’t open forms, view lists, or process workflows from an entity record that has a date and time value that’s before January 1, 1900.  
   
 <a name="BKMK_copykey"></a>   
 
-## Copy your Dynamics 365 for Customer Engagement (online) organization encryption key  
+## Copy your Dynamics 365 for Customer Engagement apps (online) organization encryption key  
  During the import of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database into your [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment, you must provide the organization database encryption key used for your instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].  
   
 1.  Sign in to the instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] that you want to migrate as a user with the system administrator security role.  
@@ -82,19 +82,19 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 
 
 > [!IMPORTANT]
-> Obtaining a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database isn’t available with Dynamics 365 for Customer Engagement (online), version 9.x.
+> Obtaining a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database isn’t available with Dynamics 365 for Customer Engagement apps (online), version 9.x.
   
 <a name="BKMK_restoreBU"></a>   
 
-## Restore the Dynamics 365 for Customer Engagement (online) database  
+## Restore the Dynamics 365 for Customer Engagement apps (online) database  
  The backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database must be restored by using a server running the same or a later version of [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] as the database you receive.  You will be able to request the version you need before you receive the database.  
   
  Restore the copy of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. To do this, follow the steps here.  
   
 > [!IMPORTANT]
->  Your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database may be encrypted with a certificate. For more information, see  [“Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 for Customer Engagement organization database](#BKMK_cert) later in this topic.  
+>  Your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database may be encrypted with a certificate. For more information, see  [“Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 for Customer Engagement apps organization database](#BKMK_cert) later in this topic.  
   
-#### Restore a Dynamics 365 for Customer Engagement (online) organization database to SQL Server  
+#### Restore a Dynamics 365 for Customer Engagement apps (online) organization database to SQL Server  
   
 1.  Open [!INCLUDE[pn-ms-sql-management-studio-long](../includes/pn-ms-sql-management-studio-long.md)], and then connect to the appropriate instance of [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)].  
   
@@ -118,22 +118,22 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 <a name="BKMK_applyUpdates"></a>   
 
-## Apply the latest updates to the Dynamics 365 for Customer Engagement on-premises deployment  
- You must apply the latest [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] updates before you import the Dynamics 365 for Customer Engagement (online) database. More information: [Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
+## Apply the latest updates to the Dynamics 365 for Customer Engagement apps on-premises deployment  
+ You must apply the latest [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] updates before you import the Dynamics 365 for Customer Engagement apps (online) database. More information: [Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
   
 <a name="BKMK_importDB"></a>   
 
-## Import the Dynamics 365 for Customer Engagement (online) database into the Dynamics 365 for Customer Engagement on-premises deployment  
+## Import the Dynamics 365 for Customer Engagement apps (online) database into the Dynamics 365 for Customer Engagement apps on-premises deployment  
  How long it takes to complete the import of the organization database depends on several factors. These factors include the size of the database you are importing, the number of users, and the hardware you use to complete the import.  
   
 > [!NOTE]
 >  The procedure described here uses [!INCLUDE[pn-deployment-manager-long](../includes/pn-deployment-manager-long.md)]. [!INCLUDE[pn-deploymentmanager](../includes/pn-deploymentmanager.md)] is an MMC snap-in that is included with [!INCLUDE[pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)]. Alternatively, your can run [!INCLUDE[pn-powershell](../includes/pn-powershell.md)] commands to complete the import. More information: [Import-CrmOrganization](https://technet.microsoft.com/library/dn833059.aspx)  
 >   
->  To import an organization, you must have the Deployment Administrator Microsoft Dynamics 365 for Customer Engagement role.  
+>  To import an organization, you must have the Deployment Administrator Microsoft Dynamics 365 for Customer Engagement apps role.  
   
 #### Import an organization database using Deployment Manager  
   
-1.  On the [!INCLUDE[pn-ms-windows-server-long](../includes/pn-ms-windows-server-long.md)] running the Microsoft Dynamics 365 for Customer Engagement Server Deployment Tools server role, start **Deployment Manager** (DMSnapin.msc).  
+1.  On the [!INCLUDE[pn-ms-windows-server-long](../includes/pn-ms-windows-server-long.md)] running the Microsoft Dynamics 365 for Customer Engagement apps Server Deployment Tools server role, start **Deployment Manager** (DMSnapin.msc).  
   
 2.  Start the Import Organization Wizard. Right-click **Organizations**, and then click **Import Organization**.  
   
@@ -172,7 +172,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 <a name="BKMK_cert"></a> 
   
-## “Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 for Customer Engagement organization database  
+## “Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 for Customer Engagement apps organization database  
  When you try to restore a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] organization database, you may receive the following error message.  
   
  An exception occurred while executing a Transact-SQL statement or batch. (Microsoft.SqlServer.ConnectionInfo)  
@@ -212,7 +212,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
     ```  
   
-3.  Restore the organization database. To do this, see [Restore the Microsoft Dynamics 365 for Customer Engagement (online) database](#BKMK_restoreBU).  
+3.  Restore the organization database. To do this, see [Restore the Microsoft Dynamics 365 for Customer Engagement apps (online) database](#BKMK_restoreBU).  
   
 > [!IMPORTANT]
 >  We strongly recommend that you store your TDE certificate in a secure location.  If the certificate is lost and the database is encrypted, you will lose your data. For more information about TDE encryption, see [Move a TDE Protected Database to Another SQL Server](https://technet.microsoft.com/library/ff773063.aspx).  

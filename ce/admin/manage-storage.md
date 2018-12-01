@@ -1,5 +1,5 @@
 ---
-title: "Manage storage for Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Manage storage for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 08/23/2018
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: cf4bf53e-4458-4fec-a837-aaa0e946d1ed
 caps.latest.revision: 4
 author: "jimholtz"
@@ -30,7 +30,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
  You can also gain storage by deleting certain types of unnecessary data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For information on deleting data, see: [Free storage space in Dynamics 365 for Customer Engagement](free-storage-space.md).  
   
- For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] plans, see: [Dynamics 365 for Customer Engagement pricing](https://www.microsoft.com/dynamics365/pricing).  
+ For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] plans, see: [Dynamics 365 for Customer Engagement apps pricing](https://www.microsoft.com/dynamics365/pricing).  
   
 ## Monitor the amount of storage your organization is using  
  Monitor your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] storage to make sure you’ve got lots of capacity for growth.  
@@ -45,7 +45,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
    ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
   
-## Add storage to Dynamics 365 for Customer Engagement (online)  
+## Add storage to Dynamics 365 for Customer Engagement apps (online)  
  
 As a global or billing administrator, you can purchase additional storage for your company on Office 365 Admin Center by following the steps below. [Learn how to find your global or billing administrator](../basics/find-administrator-support.md). 
 
@@ -55,7 +55,7 @@ If you purchase through volume licensing or a cloud solutions provider, please c
   
 2. Click **Billing** > **Purchase Services**.  
   
-3. Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 for Customer Engagement - Additional Database Storage** tile.  
+3. Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 for Customer Engagement apps - Additional Database Storage** tile.  
   
    ![Purchase additional online storage](../admin/media/purchase-additional-online-storage.png "Purchase additional online storage")  
   
@@ -68,7 +68,7 @@ If you purchase through volume licensing or a cloud solutions provider, please c
 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System administrators will receive frequent email notifications which will cease once additional storage is added or storage is reduced to below the limit.
 
 ### See also  
- [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)   
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   
  [Free storage space in Microsoft Dynamics 365 for Customer Engagement](free-storage-space.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Global and Service administrators can administer Dynamics 365 for Customer Engagement without a license](../admin/global-service-administrators-can-administer-without-license.md)
+ [Global and Service administrators can administer Dynamics 365 for Customer Engagement apps without a license](../admin/global-service-administrators-can-administer-without-license.md)

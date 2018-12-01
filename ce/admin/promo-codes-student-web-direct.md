@@ -1,5 +1,5 @@
 ---
-title: "Promo codes: Student Web Direct for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Promo codes: Student Web Direct for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 145165e4-6f95-463e-b62c-794d05b16f44
 caps.latest.revision: 5
 author: "jimholtz"
@@ -29,13 +29,13 @@ For current CRM Online customers, we are offering discounted pricing on [!INCLUD
   
 |Existing Dynamics CRM Online User|Application Transition Pricing|Promo Code|Comment|  
 |---------------------------------------|------------------------------------|----------------|-------------|  
-|Professional User Subscription License (USL)|$86 (for Dynamics 365 for Customer Engagement Plan)|Dyn365PLAN1EduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
+|Professional User Subscription License (USL)|$86 (for Dynamics 365 for Customer Engagement apps Plan)|Dyn365PLAN1EduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
 |Professional USL|$76 (for Sales or Customer Service)|Dyn365PROEduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
-|Professional USL Add-on to O365|$66 (for Dynamics 365 for Customer Engagement Plan)|Dyn365O365PLAN1 EduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
+|Professional USL Add-on to O365|$66 (for Dynamics 365 for Customer Engagement apps Plan)|Dyn365O365PLAN1 EduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
 |Professional USL Add-on to O365|$59 (for Sales or Customer Service)|Dyn365O365EduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
 |Basic USL + Field Service or Project Service Automation Add-on|$76 (for Field Service or Project Service)|Dyn365PROEduStu|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
-|Basic USL|$57 (for Dynamics 365 for Customer Engagement Plan)|Dyn365BASPLAN1EduStu|Only applies for existing users as of October 31, 2016|  
+|Basic USL|$57 (for Dynamics 365 for Customer Engagement apps Plan)|Dyn365BASPLAN1EduStu|Only applies for existing users as of October 31, 2016|  
 |Basic USL|$50 (for Sales or Customer Service)|Dyn365BASICEduStu|Only applies for existing users as of October 31, 2016|  
   
 ### See also  
- [Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)
+ [Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)

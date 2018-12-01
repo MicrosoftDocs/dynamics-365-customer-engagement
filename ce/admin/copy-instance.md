@@ -1,5 +1,5 @@
 ---
-title: "Copy an instance of Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Copy an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 09/30/2017
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 475d5b1f-4526-4e76-a4fe-b8fbaf394944
 caps.latest.revision: 4
 author: "jimholtz"
@@ -177,5 +177,5 @@ Once the copy process is complete, the target instance is placed in [Administrat
   
 ### See also  
  [Introducing Sandbox Instances in CRM Online](http://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)   
- [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)
+ [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)

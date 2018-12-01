@@ -1,5 +1,5 @@
 ---
-title: "What's an Office 365 user ID and why do Dynamics 365 for Customer Engagement (online) users need one? | MicrosoftDocs"
+title: "What's an Office 365 user ID and why do Dynamics 365 for Customer Engagement apps (online) users need one? | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 548d5ef8-d391-4ae2-b768-a7e741383e33
 caps.latest.revision: 4
 author: "jimholtz"
@@ -33,7 +33,7 @@ Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] wi
   
  To manage [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user IDs, sign in to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] ([https://portal.office.com](https://portal.office.com)). Here, you can do all sorts of administrative tasks such as create users, assign licenses, and maintain passwords.  
   
- ![Office 365 user ID and Dynamics 365 for Customer Engagement (online)](../admin/media/o365-user-id.png "Office 365 user ID and Dynamics 365 for Customer Engagement (online)")  
+ ![Office 365 user ID and Dynamics 365 for Customer Engagement apps (online)](../admin/media/o365-user-id.png "Office 365 user ID and Dynamics 365 for Customer Engagement apps (online)")  
   
 > [!NOTE]
 > [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] through an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID that’s created and managed in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. For simplicity, we will refer to the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID in this documentation.  
@@ -42,5 +42,5 @@ Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] wi
   
 ### See also  
  [What is my user ID and why do I need it for Office 365?](https://support.office.com/article/What-is-my-user-ID-and-why-do-I-need-it-for-Office-365-37da662b-5da6-4b56-a091-2731b2ecc8b4)   
- [Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement (online) subscription](../admin/use-office-365-admin-center-manage-subscription.md)   
+ [Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription](../admin/use-office-365-admin-center-manage-subscription.md)   
  [Create users and assign security roles](create-users-assign-online-security-roles.md)

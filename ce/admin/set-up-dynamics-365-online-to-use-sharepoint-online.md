@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for Customer Engagement (online) to use SharePoint Online | MicrosoftDocs"
+title: "Set up Dynamics 365 for Customer Engagement apps (online) to use SharePoint Online | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/20/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: c0219d78-f2e2-4fdd-9d54-2d7e1468fc0c
 caps.latest.revision: 11
 author: "jimholtz"
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Set up Dynamics 365 for Customer Engagement (online) to use SharePoint Online
+# Set up Dynamics 365 for Customer Engagement apps (online) to use SharePoint Online
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<
 
@@ -39,7 +39,7 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
 >  For some organizations, using the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution might be a better choice. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SharePoint integration using the list component](configure-sharepoint-integration-using-list-component.md).  
 > 
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement to SharePoint Online](https://go.microsoft.com/fwlink/p/?linkid=837790)  
+> ![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement apps to SharePoint Online](https://go.microsoft.com/fwlink/p/?linkid=837790)  
   
  To set up [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to use [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], complete the following steps.  
   
@@ -70,7 +70,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
   
 <a name="BKMK_ConfigureDocManage"></a>  
  
-## Configure Dynamics 365 for Customer Engagement (online) for SharePoint document management  
+## Configure Dynamics 365 for Customer Engagement apps (online) for SharePoint document management  
  For [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organizations, [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)] introduced a new server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration that removes the need to install or continue to use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution.  
   
  If you are a new organization and have not yet deployed document management, see [Configure a new organization](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md#BKMK_ConfigNewOrg).  

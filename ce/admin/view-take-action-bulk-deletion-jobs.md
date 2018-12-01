@@ -1,5 +1,5 @@
 ---
-title: "View and take action on Dynamics 365 for Customer Engagement bulk deletion jobs | MicrosoftDocs"
+title: "View and take action on Dynamics 365 for Customer Engagement apps bulk deletion jobs | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 8a7e3846-a054-46d6-8a60-898b2c17523d
 caps.latest.revision: 24
 author: "jimholtz"

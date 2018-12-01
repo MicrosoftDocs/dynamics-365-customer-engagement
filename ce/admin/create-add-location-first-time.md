@@ -1,5 +1,5 @@
 ---
-title: "Create or add a document location for the first time for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create or add a document location for the first time for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: ee3d48e4-aa07-47f5-ac09-5ee2b882dc69
 caps.latest.revision: 29
 author: "Mattp123"

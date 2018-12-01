@@ -1,5 +1,5 @@
 ---
-title: "Datacenter regions for Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Datacenter regions for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/16/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 6968d4e5-9482-40f3-ab14-6e4bc0dcc787
 caps.latest.revision: 45
 author: "jimholtz"
@@ -49,6 +49,6 @@ The following table lists the newest datacenter regions. Checkout the interactiv
  Depending on the type of transition, you may be required to go through more steps.  
   
 ### See also  
- [Geo to geo migrations for Dynamics 365 for Customer Engagement (online)](geo-to-geo-migrations.md)   
+ [Geo to geo migrations for Dynamics 365 for Customer Engagement apps (online)](geo-to-geo-migrations.md)   
  [Products by region](https://azure.microsoft.com/regions/services/)   
  [Terminology used in the product and documentation](../../admin/online-terminology.md)

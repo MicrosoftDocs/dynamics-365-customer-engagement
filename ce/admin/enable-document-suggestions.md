@@ -1,5 +1,5 @@
 ---
-title: "Enable document suggestions for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Enable document suggestions for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 80de5c8d-bec9-4779-a83f-1d900eecbf2d
 caps.latest.revision: 19
 author: "Mattp123"

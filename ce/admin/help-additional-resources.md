@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 4cdcdd7b-ced2-40bc-adc4-dd7ea2445e44
 caps.latest.revision: 4
 author: "jimholtz"
@@ -59,9 +59,9 @@ There are several resources available to you covering planning, operating, and u
   
 <a name="crmtrustcenter"></a>   
 
-## Microsoft Dynamics 365 for Customer Engagement (online) Trust Center 
+## Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center 
  
- [The Microsoft Dynamics 365 for Customer Engagement (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ [The Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
    
 <a name="support_and_service"></a>   
 

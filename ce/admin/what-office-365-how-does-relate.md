@@ -1,5 +1,5 @@
 ---
-title: "What is Office 365 and how does it relate to Dynamics 365 for Customer Engagement (online)? | MicrosoftDocs"
+title: "What is Office 365 and how does it relate to Dynamics 365 for Customer Engagement apps (online)? | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 1d489839-9400-4d74-b270-468e33719d80
 caps.latest.revision: 4
 author: "jimholtz"
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# What is Office 365 and how does it relate to Dynamics 365 for Customer Engagement (online)? 
+# What is Office 365 and how does it relate to Dynamics 365 for Customer Engagement apps (online)? 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

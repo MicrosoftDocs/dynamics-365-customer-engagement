@@ -1,5 +1,5 @@
 ---
-title: "Replicate Dynamics 365 for Customer Engagement (online) data to Azure SQL Database | MicrosoftDocs"
+title: "Replicate Dynamics 365 for Customer Engagement apps (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/21/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: a70feedc-12b9-4a2d-baf0-f489cdcc177d
 caps.latest.revision: 46
 author: "Mattp123"
@@ -218,7 +218,7 @@ For information about the programmatic interface for managing configuration and 
 ## Modify an existing Export Profile  
  You can add or remove the entities and relationships in an existing Export Profile that you want to replicate.  
   
-1. In Dynamics 365 for Customer Engagement (online), go to **Settings** > **Data Export**.  
+1. In Dynamics 365 for Customer Engagement apps (online), go to **Settings** > **Data Export**.  
   
 2. In the All Data Export Profile view, select the Export Profile that you want to change.  
   
@@ -393,7 +393,7 @@ Factors that influence the duration of synchronization include the following:
 Based on our monitoring of the service it's been observed that most on-going delta synchronization finishes in 15 minutes when the service operates under the following conditions:
 
 - The synchronization that occurs is a delta synchronization and not the initial synchronization. Delta synchronization is only for data change operations, which include record create, update, and delete transactions. Note that delta synchronization begins once the initial synchronization has finished.
-- The maximum data change rate in Dynamics 365 for Customer Engagement for all the entities in the export profile is less than 3000 records per hour. Any sudden increase in the data change rate due to bulk change of records exceeding the maximum change rate will cause additional latency.
+- The maximum data change rate in Dynamics 365 for Customer Engagement apps for all the entities in the export profile is less than 3000 records per hour. Any sudden increase in the data change rate due to bulk change of records exceeding the maximum change rate will cause additional latency.
 - Each entity added to an export profile has less than 150 attributes.
 - Database connection or SQL statement execution finishes in less than 10 seconds. If this limit is exceeded it will result in additional latency. 
 - No destination database connection or SQL execution errors occur during synchronization.
@@ -550,7 +550,7 @@ PRINT @sql
 EXEC SP_EXECUTESQL @sql;
 ```
 
-## Find the Azure Active Directory tenant Id for your Dynamics 365 for Customer Engagement instances
+## Find the Azure Active Directory tenant Id for your Dynamics 365 for Customer Engagement apps instances
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Go to **Azure Active Directory** > **App registrations** > **Endpoints**.
@@ -615,8 +615,8 @@ AND DL.VersionNumber &gt; A.VersionNumber)
 [!INCLUDE[cc_privacy_data_export](../includes/cc-privacy-data-export.md)]
   
 ### See also  
- [AppSource: Dynamics 365 for Customer Engagement - Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)   
- [What's new with Microsoft Dynamics 365 for Customer Engagement ‒ Data Export Service?](../admin/whats-new-with-data-export-service.md) 
+ [AppSource: Dynamics 365 for Customer Engagement apps - Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)   
+ [What's new with Microsoft Dynamics 365 for Customer Engagement apps ‒ Data Export Service?](../admin/whats-new-with-data-export-service.md) 
  [Manage your data](../admin/manage-your-data.md)  
  [Data Export Service](../developer/data-export-service.md)
-[Team Blog: Introduction to Dynamics 365 for Customer Engagement – Data Export Service](https://blogs.msdn.microsoft.com/crm/2017/04/11/introduction-to-dynamics-365-data-export-service/)
+[Team Blog: Introduction to Dynamics 365 for Customer Engagement apps – Data Export Service](https://blogs.msdn.microsoft.com/crm/2017/04/11/introduction-to-dynamics-365-data-export-service/)

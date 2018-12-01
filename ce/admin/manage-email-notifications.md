@@ -1,5 +1,5 @@
 ---
-title: "Manage email notifications for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Manage email notifications for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: a55db523-8adf-403c-9afb-a55be30e19f8
 caps.latest.revision: 7
 author: "jimholtz"
@@ -43,13 +43,13 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] service team regular
   
 - Email deployments other than [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]  
   
-  If you have been added as an additional recipient, and you want to stop receiving email notifications, please contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin. If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see: [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
+  If you have been added as an additional recipient, and you want to stop receiving email notifications, please contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin. If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md).  
   
   For more information, download the white paper: [Create your Mailbox rule](http://download.microsoft.com/download/D/1/A/D1A64A1D-FD55-43E4-AD71-9D32D16E5F9E/Create%20your%20Mailbox%20rule.docx)  
   
 <a name="BKMK_SendEmailNotifications"></a>   
 ## Send email notifications to multiple recipients  
- By default, Dynamics 365 for Customer Engagement admins will receive update notifications. You can add others to receive update notifications.  
+ By default, Dynamics 365 for Customer Engagement apps admins will receive update notifications. You can add others to receive update notifications.  
   
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
   

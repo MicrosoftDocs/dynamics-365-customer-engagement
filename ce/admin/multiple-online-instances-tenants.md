@@ -1,5 +1,5 @@
 ---
-title: "Multiple Dynamics 365 for Customer Engagement (online) instances or tenants | MicrosoftDocs"
+title: "Multiple Dynamics 365 for Customer Engagement apps (online) instances or tenants | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 2bdb7dc2-da26-4ab7-9e8f-65c04ae6df0d
 caps.latest.revision: 4
 author: "jimholtz"
@@ -46,7 +46,7 @@ search.app:
 ## Uses for multiple instances  
  [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances are similar in concept to a high-rise business complex with floors organized according to business functions. Consider each floor within the building as an application (Sales/Service/Marketing, Vendor management, Wealth management) and consider each unit within a floor as an instance for a specific purpose such as Production, Training, Testing, and Development.  
   
- ![Multiple Dynamics 365 for Customer Engagement instances as units in a building](../admin/media/multi-tenant-3.png "Multiple Dynamics 365 for Customer Engagement instances as units in a building")  
+ ![Multiple Dynamics 365 for Customer Engagement apps instances as units in a building](../admin/media/multi-tenant-3.png "Multiple Dynamics 365 for Customer Engagement apps instances as units in a building")  
   
  Multiple instances are needed when segregation is required of plugins, workflows, or admin resources that cannot be easily isolated by using business units in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
@@ -54,7 +54,7 @@ search.app:
 ## A multi-instance deployment  
  A typical [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] deployment includes one tenant only. A tenant can include one or more [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances; however, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is always associated with a single tenant.  
   
- ![Single tenant deployment in Dynamics 365 for Customer Engagement (online)](../admin/media/multi-tenant-1b.png "Single tenant deployment in Dynamics 365 for Customer Engagement (online)")  
+ ![Single tenant deployment in Dynamics 365 for Customer Engagement apps (online)](../admin/media/multi-tenant-1b.png "Single tenant deployment in Dynamics 365 for Customer Engagement apps (online)")  
   
  This example uses two instances for three teams: Sales, Marketing, and Services.  
   
@@ -110,7 +110,7 @@ search.app:
 ## A multi-tenant deployment  
  Global businesses with regional or country models that differ can use tenants to account for variations in approach, market size, or compliance with legal and regulatory constraints.  
   
- ![Multi-tenant deployment in Dynamics 365 for Customer Engagement (online)](../admin/media/multi-tenant-2.png "Multi-tenant deployment in Dynamics 365 for Customer Engagement (online)")  
+ ![Multi-tenant deployment in Dynamics 365 for Customer Engagement apps (online)](../admin/media/multi-tenant-2.png "Multi-tenant deployment in Dynamics 365 for Customer Engagement apps (online)")  
   
  This example includes a second tenant for Contoso Japan.  
   
@@ -173,6 +173,6 @@ search.app:
 - There can be no duplicate accounts across the tenants or partitions in the on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)].  
   
 ### See also  
- [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)   
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   
  [Using multi-tenancy in Microsoft Dynamics CRM 2013 to address challenges in enterprise business environments (primarily on-premises)](http://www.microsoft.com/download/details.aspx?id=36056)   
  [Blog: Dynamics CRM and multi-tenancy (on-premises)](https://community.dynamics.com/crm/b/salimadamondynamicscrm/archive/2014/01/27/dynamics-crm-and-multi-tenancy.aspx)

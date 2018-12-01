@@ -1,5 +1,5 @@
 ---
-title: "Onboard your organization and users to Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Onboard your organization and users to Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/30/2017
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 41b89fd8-bfaf-40bb-8428-2013b5271230
 author: jimholtz
 ms.author: jimholtz
@@ -33,7 +33,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 > [!NOTE]
 >  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
-## Step One: Try out Dynamics 365 for Customer Engagement (online) in a free 30-day trial  
+## Step One: Try out Dynamics 365 for Customer Engagement apps (online) in a free 30-day trial  
  If you haven’t already purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
   
  To get the most out of your free trial, watch this video: [How to get the most out of your 30-day trial](https://go.microsoft.com/fwlink/p/?linkid=830035).  
@@ -66,19 +66,19 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="BuyDirect"></a>   
 ### Buy direct  
- To buy direct, go to the [Dynamics 365 for Customer Engagement pricing page](https://www.microsoft.com/dynamics365/pricing). This page includes several different plans to fit your organization’s needs.  
+ To buy direct, go to the [Dynamics 365 for Customer Engagement apps pricing page](https://www.microsoft.com/dynamics365/pricing). This page includes several different plans to fit your organization’s needs.  
   
 <a name="VL"></a>   
 ### Buy through volume licensing  
- If your organization has 250 or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users, you may be interested in [purchasing a Dynamics 365 for Customer Engagement enterprise licensing agreement](https://www.microsoft.com/licensing).  
+ If your organization has 250 or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users, you may be interested in [purchasing a Dynamics 365 for Customer Engagement apps enterprise licensing agreement](https://www.microsoft.com/licensing).  
   
 <a name="Partner"></a>   
 ### Buy through a cloud solution provider  
- A cloud solution provider can work closely with you to understand the needs of your business or organization. [Learn how to find a Dynamics 365 for Customer Engagement partner](https://partnercenter.microsoft.com/partner/home).  
+ A cloud solution provider can work closely with you to understand the needs of your business or organization. [Learn how to find a Dynamics 365 for Customer Engagement apps partner](https://partnercenter.microsoft.com/partner/home).  
   
 <a name="support"></a>   
 ### Choose your support  
- Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] investment. Choose a plan that best meets your business requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement support](https://www.microsoft.com/dynamics365/support)  
+ Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] investment. Choose a plan that best meets your business requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement apps support](https://www.microsoft.com/dynamics365/support)  
   
 <a name="Communicate"></a>   
 ### Set up points of contacts for communications  
@@ -86,7 +86,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Policies and communications for Dynamics 365 for Customer Engagement (online)](policies-communications.md)  
+-   [Policies and communications for Dynamics 365 for Customer Engagement apps (online)](policies-communications.md)  
   
 -   [Manage email notifications](manage-email-notifications.md)  
   
@@ -102,7 +102,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 ## Step Three: Plan your deployment and learn about FastTrack  
  Microsoft FastTrack for [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] is our customer success service designed to help you move to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] smoothly and confidently, so you can realize business value faster. When you participate in the FastTrack program, you will receive guidance on best practices and how to plan for successful rollouts. You will also learn ways to enable new users and expand capabilities – all at your own pace. Additionally, you will have access to Microsoft engineering resources committed to make your experience with [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] a success.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the FastTrack customer success service to plan a successful Dynamics 365 for Customer Engagement rollout](https://docs.microsoft.com/dynamics365/get-started/fasttrack/index).  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the FastTrack customer success service to plan a successful Dynamics 365 for Customer Engagement apps rollout](https://docs.microsoft.com/dynamics365/get-started/fasttrack/index).  
   
 <a name="Plan"></a>   
 ### Plan your deployment  
@@ -112,19 +112,19 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Get started administering Dynamics 365 for Customer Engagement (online)](getting-started.md)  
+-   [Get started administering Dynamics 365 for Customer Engagement apps (online)](getting-started.md)  
   
--   [Plan for Dynamics 365 for Customer Engagement deployment and administration](plan-for-deployment-and-administration.md)  
+-   [Plan for Dynamics 365 for Customer Engagement apps deployment and administration](plan-for-deployment-and-administration.md)  
   
 ## Step Four: Onboard your organization  
  After you purchase a subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s time to onboard your organization.  
   
 <a name="SignIn"></a>   
-### Sign in to Dynamics 365 for Customer Engagement (online) and manage your subscription  
+### Sign in to Dynamics 365 for Customer Engagement apps (online) and manage your subscription  
   
--   [Sign in to Dynamics 365 for Customer Engagement and Office 365 apps](sign-in-office-365-apps.md)  
+-   [Sign in to Dynamics 365 for Customer Engagement apps and Office 365 apps](sign-in-office-365-apps.md)  
   
--   [Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement (online) subscription](use-office-365-admin-center-manage-subscription.md)  
+-   [Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription](use-office-365-admin-center-manage-subscription.md)  
   
 -   [Optional: Manage user account synchronization](manage-user-account-synchronization.md)  
   
@@ -135,7 +135,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Grant users access to Dynamics 365 for Customer Engagement (online) as a Microsoft Online service](grant-users-access.md)  
+-   [Grant users access to Dynamics 365 for Customer Engagement apps (online) as a Microsoft Online service](grant-users-access.md)  
   
 -   [Create users and assign security roles](create-users-assign-online-security-roles.md)  
   
@@ -159,7 +159,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Manage storage for Dynamics 365 for Customer Engagement (online)](manage-storage.md)  
+-   [Manage storage for Dynamics 365 for Customer Engagement apps (online)](manage-storage.md)  
   
 <a name="Sandbox"></a>   
 
@@ -170,7 +170,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](manage-sandbox-instances.md)  
+-   [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](manage-sandbox-instances.md)  
   
 -   [Switch an instance](switch-instance.md)  
   
@@ -182,7 +182,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 -   [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md) 
   
--   [Set up a Dynamics 365 for Customer Engagement organization](set-up-a-dynamics-365-organization.md)  
+-   [Set up a Dynamics 365 for Customer Engagement apps organization](set-up-a-dynamics-365-organization.md)  
   
 <a name="Import"></a>   
 ### Import and export data  
@@ -201,22 +201,22 @@ For more advanced scenarios, consider the following development tools: [Solution
 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replicate data to Azure SQL Database using Data Export Service](replicate-data-microsoft-azure-sql-database.md)  
   
 <a name="MoCA"></a>   
-### Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets  
+### Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets  
  The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile apps make it easy to stay connected with your prospects and customers no matter where you are, or what mobile device you’re using. Having access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in the field also improves user adoption and productivity.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
 - [Video: Overview of the mobile app](https://www.youtube.com/embed/KApKrlvMncQ)  
   
-- [Dynamics 365 for Customer Engagement for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+- [Dynamics 365 for Customer Engagement apps for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
-- [Customize Dynamics 365 for Customer Engagement for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
+- [Customize Dynamics 365 for Customer Engagement apps for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
 
 
 <!--  This was originally a mistake to comment out the rest of this document. But restoring the below will take a major review and edit so not going to do that now. 
 
 
-- [Configure mobile offline synchronization for Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+- [Configure mobile offline synchronization for Dynamics 365 for Customer Engagement apps for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
 
   
 <a name="Outlook"></a>   
@@ -254,7 +254,7 @@ For more advanced scenarios, consider the following development tools: [Solution
  Integrating [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], the enterprise social network, with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] encourages the sharing of information across your organization by bringing [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] posts right into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] interface. To integrate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you must have a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise license set up for each user in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can include a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise account license as an add-on to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant through the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect to Yammer](connect-yammer.md)  
   
 <a name="Delve"></a>   
-### Integrate Office Delve to surface trending documents in Dynamics 365 for Customer Engagement (online)  
+### Integrate Office Delve to surface trending documents in Dynamics 365 for Customer Engagement apps (online)  
  [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] proactively surfaces trending documents on a user’s dashboard so they can discover new content and make new connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View relevant and trending information on a dashboard with Office Delve](../basics/view-relevant-trending-information-office-delve.md)  
   
 <a name="Processes"></a>   
@@ -277,12 +277,12 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Customizing"></a>   
 
-### Customize and personalize Dynamics 365 for Customer Engagement (online) for your organization  
+### Customize and personalize Dynamics 365 for Customer Engagement apps (online) for your organization  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] provides point-and-click customization tools to make the system work for your business needs. For example, create or modify fields, forms, views, dashboards, reports, charts, and more.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Video: 6 ways to customize Dynamics 365 for Customer Engagement without writing code](https://www.youtube.com/embed/SycOC_eVBY4)  
+-   [Video: 6 ways to customize Dynamics 365 for Customer Engagement apps without writing code](https://www.youtube.com/embed/SycOC_eVBY4)  
   
 -   [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)  
   
@@ -305,7 +305,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Social Engagement Help Center](http://go.microsoft.com/fwlink/p/?LinkId=394325)  
   
-#### Portals capabilities for Dynamics 365 for Customer Engagement (online)  
+#### Portals capabilities for Dynamics 365 for Customer Engagement apps (online)  
  Portals capabilities for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] empower people who prefer to find answers on their own through self-service and community options. Create portals to provide a more personalized experience for your customers, partners, or internal employees. For example, create portals for:  
   
 -   Customers to submit cases and find knowledge articles  
@@ -316,14 +316,14 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deliver web engagement experience with portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]](../portals/administer-manage-portal-dynamics-365.md)  
   
-#### Dynamics 365 for Customer Engagement - Gamification  
+#### Dynamics 365 for Customer Engagement apps - Gamification  
  [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] allows employees to participate in individual and team-based games which motivate employees to achieve certain pre-defined metrics by offering prizes, awards, privileges, and recognition. The gamification solution relies on fun, engaging activities that drive collaboration and competition to increase performance and participation. The solution uniquely encourages broader participation by getting more employees in the game through drafting teams. Organizations typically see increased productivity, engagement, and performance as well as user adoption of business applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep your employees engaged and productive by using Gamification](../gamification/increase-employee-productivity.md)
   
 #### Versium Predict  
  Use Versium Predict to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns. Build predictive models, score leads, and more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Versium Predict](../versium-predict/versium-predict.md)  
   
 <a name="Preview"></a>   
-### Preview features in Dynamics 365 for Customer Engagement (online)  
+### Preview features in Dynamics 365 for Customer Engagement apps (online)  
  Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)  
   
 <a name="Maintenance"></a>   
@@ -333,45 +333,45 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 
 -   [How do I check my online service health?](check-online-service-health.md)  
   
--   [Policies and communications for Dynamics 365 for Customer Engagement (online)](policies-communications.md)  
+-   [Policies and communications for Dynamics 365 for Customer Engagement apps (online)](policies-communications.md)  
   
 <a name="New"></a>   
 ### Keep track of new features  
   
--   [Dynamics 365 for Customer Engagement Roadmap](http://go.microsoft.com/fwlink/p/?LinkID=826016)  
+-   [Dynamics 365 for Customer Engagement apps Roadmap](http://go.microsoft.com/fwlink/p/?LinkID=826016)  
   
 -   [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
     
--   [Dynamics 365 for Customer Engagement - Online vs on-premises features](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
+-   [Dynamics 365 for Customer Engagement apps - Online vs on-premises features](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 <a name="Troubleshoot"></a>   
 ### Troubleshooting, FAQ, and support  
   
--   [Troubleshoot Dynamics 365 for Customer Engagement problems](../admin/troubleshoot-dynamics-365-problems.md)  
+-   [Troubleshoot Dynamics 365 for Customer Engagement apps problems](../admin/troubleshoot-dynamics-365-problems.md)  
   
 -   [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)  
   
--   [Frequently asked questions about synchronizing records between Dynamics 365 for Customer Engagement and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+-   [Frequently asked questions about synchronizing records between Dynamics 365 for Customer Engagement apps and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
   
 -   [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md)  
   
 -   [Potential issues and resolutions](../mobile-app/troubleshooting-things-know-about-phones-tablets.md)
 
--   [Office 365 Groups in Dynamics 365 for Customer Engagement FAQs](../basics/office-365-groups-dynamics-365-faqs.md)  
+-   [Office 365 Groups in Dynamics 365 for Customer Engagement apps FAQs](../basics/office-365-groups-dynamics-365-faqs.md)  
   
 -   [Support for Dynamics 365 for Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkId=394391)  
   
 <a name="Videos"></a>   
 ### Videos, community, forums, and blogs  
   
--   [Dynamics 365 for Customer Engagement videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
+-   [Dynamics 365 for Customer Engagement apps videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
   
--   [Dynamics 365 for Customer Engagement community, including forums, blogs, and videos](https://go.microsoft.com/fwlink/p/?linkid=825368)  
+-   [Dynamics 365 for Customer Engagement apps community, including forums, blogs, and videos](https://go.microsoft.com/fwlink/p/?linkid=825368)  
   
 <a name="Developers"></a>   
 ### For developers  
   
--   [Dynamics 365 for Customer Engagement Developer Center](http://go.microsoft.com/fwlink/p/?LinkId=526629)  
+-   [Dynamics 365 for Customer Engagement apps Developer Center](http://go.microsoft.com/fwlink/p/?LinkId=526629)  
   
 -   [What’s new for developers](../developer/whats-new-developers.md)
   
@@ -388,29 +388,29 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 ### Train your users  
  Studies show that you can greatly increase user adoption by devoting time to user training. Jumpstart training for your teams with the following resources:  
   
--   [Dynamics 365 for Customer Engagement for Sales - User Guide](../sales-enterprise/user-guide.md)  
+-   [Dynamics 365 for Customer Engagement apps for Sales - User Guide](../sales-enterprise/user-guide.md)  
   
--   [Dynamics 365 for Customer Engagement for Customer Service – User’s Guide](../customer-service/user-guide-customer-service.md)  
+-   [Dynamics 365 for Customer Engagement apps for Customer Service – User’s Guide](../customer-service/user-guide-customer-service.md)  
   
--   [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md)   
+-   [Dynamics 365 for Customer Engagement apps for Field Service - User's Guide](../field-service/user-guide.md)   
   
--   [Dynamics 365 for Customer Engagement for Project Service Automation - User's Guide](../project-service/admin-guide.md)
+-   [Dynamics 365 for Customer Engagement apps for Project Service Automation - User's Guide](../project-service/admin-guide.md)
   
--   [Dynamics 365 for Customer Engagement for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
+-   [Dynamics 365 for Customer Engagement apps for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
   
 -   [Customer Service hub – User’s guide](../customer-service/user-guide-customer-service.md)
   
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
   
 <a name="InstallMoCA"></a>   
-### Install Dynamics 365 for Customer Engagement for phones or Dynamics 365 for Customer Engagement for tablets  
+### Install Dynamics 365 for Customer Engagement apps for phones or Dynamics 365 for Customer Engagement apps for tablets  
  After you set up [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)], your users can install the mobile app themselves.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
 
--   [Install Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  
+-   [Install Dynamics 365 for Customer Engagement apps for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  
   
--   [Dynamics 365 for Customer Engagement for Phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+-   [Dynamics 365 for Customer Engagement apps for Phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 <a name="InstallOutlook"></a>   
 ### Install Dynamics 365 App for Outlook  
@@ -421,7 +421,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
   
 <a name="Office"></a>   
-### Use Office apps with Dynamics 365 for Customer Engagement  
+### Use Office apps with Dynamics 365 for Customer Engagement apps  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] works with many Office apps in addition to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. Working with familiar tools improves user adoption and productivity.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
@@ -434,7 +434,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)  
   
--   [Analyze your Dynamics 365 for Customer Engagement data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)  
+-   [Analyze your Dynamics 365 for Customer Engagement apps data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)  
   
 -   [Export data to Excel](../basics/export-data-excel.md)  
   
@@ -483,6 +483,6 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
   
--   [Dynamics 365 for Customer Engagement community](https://go.microsoft.com/fwlink/p/?linkid=825368)
+-   [Dynamics 365 for Customer Engagement apps community](https://go.microsoft.com/fwlink/p/?linkid=825368)
 
 -->

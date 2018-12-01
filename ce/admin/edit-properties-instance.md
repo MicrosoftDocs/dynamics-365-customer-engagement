@@ -1,5 +1,5 @@
 ---
-title: "Edit properties of a Dynamics 365 for Customer Engagement (online) instance | MicrosoftDocs"
+title: "Edit properties of a Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 3aa9c165-78b7-4c1b-a7c0-25cec0250ead
 caps.latest.revision: 4
 author: "jimholtz"
@@ -76,7 +76,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
 ### See also  
  [Add an instance to your subscription](../admin/add-instance-subscription.md)   
  [Switch an instance](../admin/switch-instance.md)   
- [Manage Dynamics 365 for Customer Engagement (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
+ [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Manage storage for Microsoft Dynamics 365 for Customer Engagement (online)](../admin/manage-storage.md)
+ [Manage storage for Microsoft Dynamics 365 for Customer Engagement apps (online)](../admin/manage-storage.md)
  [User session and access management](user-session-management.md)

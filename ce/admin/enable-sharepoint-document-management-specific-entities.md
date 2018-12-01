@@ -1,5 +1,5 @@
 ---
-title: "Enable SharePoint document management for specific entities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Enable SharePoint document management for specific entities for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/23/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: ac5a3303-206b-43b0-b0a4-d7346a001ba5
 caps.latest.revision: 51
 author: "Mattp123"
@@ -48,7 +48,7 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-microso
   
 5. If you use server-based integration (recommended)  
   
-   - Check **Based on entity** to have  document libraries and folders that are based on the Dynamics 365 for Customer Engagement Account entity automatically  created on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. Users will not be prompted to create them.  
+   - Check **Based on entity** to have  document libraries and folders that are based on the Dynamics 365 for Customer Engagement apps Account entity automatically  created on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. Users will not be prompted to create them.  
   
       If you don't want folders automatically created, clear the **Based on entity** check box.  
   

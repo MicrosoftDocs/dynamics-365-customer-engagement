@@ -1,5 +1,5 @@
 ---
-title: "Configure Relevance Search for the organization for Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Configure Relevance Search for the organization for Dynamics 365 for Customer Engagement apps  | MicrosoftDocs"
 ms.custom: ""
 ms.date: 07/27/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5ec1a73d-06cb-4d40-adab-8bb293bcedbb
 caps.latest.revision: 65
 author: "udag"
@@ -27,7 +27,7 @@ search.app:
 
 Relevance Search delivers fast and comprehensive search results in a single list, sorted by relevance. It uses a dedicated search service external to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Search to improve your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] search experience. As an administrator or customizer, you'll be able to enable and configure Relevance Search in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface without writing code. Many of the configuration steps will look familiar to you, as they use the same user interface as the Quick Find configuration.  
 
- Relevance Search is available in addition to other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] search experience you’re already familiar with. You can still use single-entity Quick Find on the entity grid. You can also use multi-entity Quick Find (now called Categorized Search) from the **Search Dynamics 365 for Customer Engagement data** search box on the navigation bar.  
+ Relevance Search is available in addition to other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] search experience you’re already familiar with. You can still use single-entity Quick Find on the entity grid. You can also use multi-entity Quick Find (now called Categorized Search) from the **Search Dynamics 365 for Customer Engagement apps data** search box on the navigation bar.  
 
  Relevance Search brings the following enhancements and benefits:  
 
@@ -42,7 +42,7 @@ Relevance Search delivers fast and comprehensive search results in a single list
 - Includes the ability to search documents found in Notes and Attachments on Emails and Appointments tracked in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
 <a name="BKMK_CompareCRMSearches"></a>   
-## Compare Dynamics 365 for Customer Engagement searches  
+## Compare Dynamics 365 for Customer Engagement apps searches  
  There are three kinds of search in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
 
 -   Relevance Search  
@@ -179,7 +179,7 @@ By default, some out-of-the-box system entities are included in Relevance Search
 
  The following table contains the **Quick Find Filter** operators that aren’t supported for Relevance Search:  
 
-|Dynamics 365 for Customer Engagement Operator|  
+|Dynamics 365 for Customer Engagement apps Operator|  
 |---------------------------|  
 |**Like**|  
 |**NotLike**|  
