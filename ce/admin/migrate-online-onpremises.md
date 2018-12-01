@@ -26,7 +26,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 > [!IMPORTANT]
 >  This document assumes that you already have a deployment of [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. For information about how to deploy [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)], see [Microsoft Dynamics CRM Server installation](https://technet.microsoft.com/library/hh699742.aspx).  
 >   
->  To migrate from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)], you must have [!INCLUDE[pn-crm-2015](../includes/pn-crm-2015.md)] or a later version.  
+>  To migrate from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to Customer Engagement apps (on-premises), you must have [!INCLUDE[pn-crm-2015](../includes/pn-crm-2015.md)] or a later version.  
   
 <a name="BKMK_feat_and_cust"></a>   
 
@@ -58,7 +58,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_copykey"></a>   
 
 ## Copy your Dynamics 365 for Customer Engagement apps (online) organization encryption key  
- During the import of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database into your [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment, you must provide the organization database encryption key used for your instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].  
+ During the import of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database into your Customer Engagement apps (on-premises) deployment, you must provide the organization database encryption key used for your instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].  
   
 1.  Sign in to the instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] that you want to migrate as a user with the system administrator security role.  
   
@@ -89,7 +89,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 ## Restore the Dynamics 365 for Customer Engagement apps (online) database  
  The backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database must be restored by using a server running the same or a later version of [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] as the database you receive.  You will be able to request the version you need before you receive the database.  
   
- Restore the copy of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. To do this, follow the steps here.  
+ Restore the copy of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target Customer Engagement apps (on-premises) deployment. To do this, follow the steps here.  
   
 > [!IMPORTANT]
 >  Your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database may be encrypted with a certificate. For more information, see  [“Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 for Customer Engagement apps organization database](#BKMK_cert) later in this topic.  
@@ -119,7 +119,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_applyUpdates"></a>   
 
 ## Apply the latest updates to the Dynamics 365 for Customer Engagement apps on-premises deployment  
- You must apply the latest [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] updates before you import the Dynamics 365 for Customer Engagement apps (online) database. More information: [Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
+ You must apply the latest Customer Engagement apps (on-premises) updates before you import the Dynamics 365 for Customer Engagement apps (online) database. More information: [Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
   
 <a name="BKMK_importDB"></a>   
 
@@ -138,7 +138,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 2.  Start the Import Organization Wizard. Right-click **Organizations**, and then click **Import Organization**.  
   
     > [!NOTE]
-    >  You will receive a message if you attempt to import into a [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] version that allows only one organization per deployment. The message notifies you that proceeding will deactivate, but not delete, the existing organization.  
+    >  You will receive a message if you attempt to import into a Customer Engagement apps (on-premises) version that allows only one organization per deployment. The message notifies you that proceeding will deactivate, but not delete, the existing organization.  
   
 3.  Select the [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] and database. In the **Select SQL Server** window, select the [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] where the organization database is restored in the **SQL Server** list, and then select the organization database in the **Organization database** list. Click **Next**.  
   
@@ -146,11 +146,11 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 5.  Specify the [!INCLUDE[pn-sql-server-reporting](../includes/pn-sql-server-reporting.md)] server. In the **Specify Reporting Services Server** window, type the Reporting Services server URL for the organization in the **Report Server URL** field. Click **Next**.  
   
-6.  Select the method for mapping users. Map users from the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] deployment to the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. Users must already exist in Active Directory for the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. The Import Organization Wizard does not create the users automatically. To complete the mappings, the user running the import operation must be mapped to a user in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about how to map users, see [Import an organization](https://technet.microsoft.com/library/dn905200.aspx).  
+6.  Select the method for mapping users. Map users from the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] deployment to the Customer Engagement apps (on-premises) deployment. Users must already exist in Active Directory for the Customer Engagement apps (on-premises) deployment. The Import Organization Wizard does not create the users automatically. To complete the mappings, the user running the import operation must be mapped to a user in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about how to map users, see [Import an organization](https://technet.microsoft.com/library/dn905200.aspx).  
   
 7.  In the System Checks window you receive the results of several environment diagnostic checks. If you receive a red alert, the issue must be resolved prior to completing the wizard. If you receive a yellow warning, you may proceed with the import. Click **Next**.  
   
-     Due to versioning differences between [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)], you may receive a warning. This warning is expected and in most cases shouldn’t prevent the import from completing.  After you successfully complete the steps in this document, the versioning will be correct.  
+     Due to versioning differences between [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and Customer Engagement apps (on-premises), you may receive a warning. This warning is expected and in most cases shouldn’t prevent the import from completing.  After you successfully complete the steps in this document, the versioning will be correct.  
   
 8.  Begin the import. In the Ready to Import window, verify that the information is correct, and then click **Import**.  
   
