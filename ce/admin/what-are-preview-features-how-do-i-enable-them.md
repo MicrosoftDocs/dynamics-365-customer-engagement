@@ -80,7 +80,7 @@ The following table lists preview features as well as learning resources for eac
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  
   
 ## How do I enable a preview feature?  
- To enable a preview feature, you must be a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps administrator.  
+ To enable a preview feature, you must be a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator.  
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   

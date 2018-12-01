@@ -41,10 +41,10 @@ To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcr
   
  You can detect duplicates:  
   
-- When you create or update records for entities that enabled for duplicate detection. This includes records created with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  web application. The duplicate detection dialog is only displayed for the records created or updated in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps user interface (UI). For example, for records created by a workflow, the duplicate detection dialog is not displayed.  
+- When you create or update records for entities that enabled for duplicate detection. This includes records created with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  web application. The duplicate detection dialog is only displayed for the records created or updated in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user interface (UI). For example, for records created by a workflow, the duplicate detection dialog is not displayed.  
   
   > [!NOTE]
-  > [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  has the ability to detect duplicates for the updated UI entities when you create or update records using entity forms or grid views in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps web application.  
+  > [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  has the ability to detect duplicates for the updated UI entities when you create or update records using entity forms or grid views in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web application.  
   
 - When [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes from offline to online.  
   
@@ -55,7 +55,7 @@ To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcr
   
 To check for duplicates in the web application, you can use **Detect Duplicates** capability provided in **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the nav bar in the grid. The duplicate records are also detected when you import data programmatically or through Import Data Wizard. In addition, you can check for duplicates by running scheduled duplicate detection jobs. For step-by-step instructions on how to set up the duplicate detection job, see [Run system jobs to detect duplicates](run-bulk-system-jobs-detect-duplicate-records.md).  
   
-A duplicate detection job runs in the background while you do other things in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . You can request email notification from \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps upon the completion of a duplicate detection job.  
+A duplicate detection job runs in the background while you do other things in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . You can request email notification from [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps upon the completion of a duplicate detection job.  
   
 ### See also  
  [Import data (all record types)](../admin/import-data-all-record-types.md)   

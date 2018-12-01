@@ -26,12 +26,12 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] can use their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator role to create and edit users, reset user passwords, manage user licenses, manage domains, and assign admin permissions to other users in their organization, among other things. However, if admins want someone else to do these administrative tasks, they can delegate this role to an authorized \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps partner. When admins authorize a partner to take on this role, the partner is referred to as a delegated admin. A delegated admin can perform routine tasks such as adding users and resetting passwords, or more complex tasks such as adding a domain. A delegated admin can have access to multiple tenants, which can simplify and consolidate tenant management.  
+Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] can use their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator role to create and edit users, reset user passwords, manage user licenses, manage domains, and assign admin permissions to other users in their organization, among other things. However, if admins want someone else to do these administrative tasks, they can delegate this role to an authorized [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps partner. When admins authorize a partner to take on this role, the partner is referred to as a delegated admin. A delegated admin can perform routine tasks such as adding users and resetting passwords, or more complex tasks such as adding a domain. A delegated admin can have access to multiple tenants, which can simplify and consolidate tenant management.  
   
  You can see the new Delegated Admin user in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  revisions 2040 or greater or in [!INCLUDE[pn_crm_2015_update_0_2](../includes/pn-crm-2015-update-0-2.md)]. This user won’t appear in standard provided views. You must create a custom view to see it.  
   
 > [!TIP]
->  To determine your revision of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , in the upper-right corner of your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps screen, choose the **Settings** gear (![User settings button](../admin/media/user-settings-button.png "User settings button")) > **About**.  
+>  To determine your revision of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , in the upper-right corner of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps screen, choose the **Settings** gear (![User settings button](../admin/media/user-settings-button.png "User settings button")) > **About**.  
 > 
 >  Your revision should be 2040 or above for both numbers highlighted.  
   
@@ -54,7 +54,7 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.
    ![Delegated admin appears in user list](../admin/media/delegated-admin-user.png "Delegated admin appears in user list")  
   
 ## How to get authorized as a delegated admin  
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps partners can be authorized to be delegated admins for a company in several ways:  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps partners can be authorized to be delegated admins for a company in several ways:  
   
 1. A partner can offer the customer to become a delegated admin for their account by sending a link to the delegated admin offer. The customer will need to accept and sign in with their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  credentials.  
   

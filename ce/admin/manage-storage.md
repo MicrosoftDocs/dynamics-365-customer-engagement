@@ -35,7 +35,7 @@ You can manage your organization’s data storage capacity in connection with yo
 ## Monitor the amount of storage your organization is using  
  Monitor your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] storage to make sure you’ve got lots of capacity for growth.  
   
- If your total storage used is 80% or more of capacity, \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admins will receive email notifications and alerts will appear on the Service Health page.  
+ If your total storage used is 80% or more of capacity, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admins will receive email notifications and alerts will appear on the Service Health page.  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
@@ -65,7 +65,7 @@ If you purchase through volume licensing or a cloud solutions provider, please c
 
 ## What happens if you exceed your storage limit?
 
-\[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps System administrators will receive frequent email notifications which will cease once additional storage is added or storage is reduced to below the limit.
+[!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System administrators will receive frequent email notifications which will cease once additional storage is added or storage is reduced to below the limit.
 
 ### See also  
  [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   

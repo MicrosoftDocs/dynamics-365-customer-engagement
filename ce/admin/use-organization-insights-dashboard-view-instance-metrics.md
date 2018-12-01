@@ -67,7 +67,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Active Users|Total number of active users (unique users) who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|  
   
 ### How to interpret this chart  
- This chart shows the adoption and usage of your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance based on active users (unique users) with read, write, create, and update actions.  
+ This chart shows the adoption and usage of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance based on active users (unique users) with read, write, create, and update actions.  
   
 ## Most Active Users (Reads)  
  ![Organization Insights Most Active Users (Reads) chart](../admin/media/organization-insights-most-active-users-reads-chart.png "Organization Insights Most Active Users (Reads) chart")  
@@ -76,10 +76,10 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 | Chart element |                                                                                                        Description                                                                                                        |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     Reads     | List of most active users who performed an operation that caused a `Retrieve` or `Retrieve Multiple` SDK call in your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance over the selected time period. |
+|     Reads     | List of most active users who performed an operation that caused a `Retrieve` or `Retrieve Multiple` SDK call in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance over the selected time period. |
   
 ### How to interpret this chart  
- This chart lists the top ten users who performed the most `Read` operations in your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance.  
+ This chart lists the top ten users who performed the most `Read` operations in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
   
 ## Most Active Users (Changes)  
  ![Organization Insights Most Active Users (Changes) chart](../admin/media/organization-insights-most-active-users-changes-chart.png "Organization Insights Most Active Users (Changes) chart")  
@@ -88,12 +88,12 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 | Chart element |                                                                                            Description                                                                                             |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Creates    |  List of most active users who performed an operation that caused a `Create` SDK call in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance over the selected time period.   |
-|    Updates    | List of most active users who  performed an operation that caused an `Update` SDK call  in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance over the selected time period. |
-|    Deletes    | List of most active users who  performed an operation that caused a `Delete` SDK call  in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance over the selected time period.  |
+|    Creates    |  List of most active users who performed an operation that caused a `Create` SDK call in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance over the selected time period.   |
+|    Updates    | List of most active users who  performed an operation that caused an `Update` SDK call  in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance over the selected time period. |
+|    Deletes    | List of most active users who  performed an operation that caused a `Delete` SDK call  in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance over the selected time period.  |
   
 ### How to interpret this chart  
- This chart lists the top ten users who  performed the most change  operations (creates, updates, deletes) in your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance.  
+ This chart lists the top ten users who  performed the most change  operations (creates, updates, deletes) in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
   
 <a name="BKMK_SpecificOperations"></a>   
 ## Active Users Performing Specific Operations  
@@ -109,7 +109,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Deletes|Total number of unique users who performed an operation that caused a `Delete` SDK call. Deletes for all entities are included.|  
   
 ### How to interpret this chart  
- This chart shows how many unique users are performing which types of operations (create, update, deletes, reads) in your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance over the specified time.  
+ This chart shows how many unique users are performing which types of operations (create, update, deletes, reads) in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance over the specified time.  
   
 <a name="BKMK_TotalOperations"></a>   
 ## Total Operations  
@@ -125,7 +125,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Reads|Total number of **Retrieve** and **Retrieve Multiple** SDK calls. Reads for all entities are included.|  
   
 ### How to interpret this chart  
- This chart shows how many operations (create, update, deletes, reads) have occurred in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance over the specified time.  
+ This chart shows how many operations (create, update, deletes, reads) have occurred in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance over the specified time.  
   
 <a name="BKMK_PageRequests"></a>   
 ## Total Page Requests  
@@ -140,7 +140,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Reports|Number of requests for reports.|  
   
 ### How to interpret this chart  
- This chart shows the number of page load requests for forms, dashboards, and reports.    This is a count of requests received by the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps server. Pages that are cached while browsing won't be counted.  
+ This chart shows the number of page load requests for forms, dashboards, and reports.    This is a count of requests received by the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps server. Pages that are cached while browsing won't be counted.  
   
 ### See also  
 [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  

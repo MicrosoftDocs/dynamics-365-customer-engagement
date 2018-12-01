@@ -89,7 +89,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 <a name="BKMK_AdminMode"></a>   
 ## Administration mode  
- When you place a Sandbox instance in administration mode only users with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.  
+ When you place a Sandbox instance in administration mode only users with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.  
   
 > [!NOTE]
 > - You can only place Sandbox instances in administration mode.  

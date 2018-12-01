@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  makes it simple for users to combine a broad spectrum of services that can be initiated from within \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps, such as messaging, social engagement, and document routing services.  
+Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  makes it simple for users to combine a broad spectrum of services that can be initiated from within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, such as messaging, social engagement, and document routing services.  
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
   
@@ -41,9 +41,9 @@ Once the embedded Flows feature is enabled, the following privileges are added i
   
 ## Prerequisites  
   
-- A Flow connection for \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
+- A Flow connection for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
   
-- One or more flows created in the Flow environment to use with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 for Customer Engagement apps (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
+- One or more flows created in the Flow environment to use with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 for Customer Engagement apps (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
   
 ## Enable or disable Flow in your Dynamics 365 for Customer Engagement apps organization  
  By default, all security roles allow users to run flows on the records that they have access to.  

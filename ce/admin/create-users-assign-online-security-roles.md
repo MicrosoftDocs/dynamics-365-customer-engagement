@@ -92,7 +92,7 @@ The following are Office 365 user contact fields.
   
 - If you have more user licenses than you are using, contact support to reduce the number of licenses. You cannot reduce the number of licenses to less than you are currently using or less than your offer allows. Any changes are reflected in your next billing cycle.  
   
-- Each user license requires a unique Microsoft account, and every user who logs on to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  needs a license. Most \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps subscriptions include a specific number of user licenses.  
+- Each user license requires a unique Microsoft account, and every user who logs on to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  needs a license. Most [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps subscriptions include a specific number of user licenses.  
   
 <a name="BKMK_AssignSecurity"></a>   
 ## Assign a security role to a user  
@@ -187,7 +187,7 @@ The following are Office 365 user contact fields.
 > You can also delete users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. When you remove a user from your subscription, the license assigned to that user automatically becomes available to be assigned to a different user. If you want the user to still have access to other applications you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete them as a user. Instead, simply remove the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  license you've assigned to them.  
 > 
 > [!NOTE]
-> When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. You have to do that separately.  
+> When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You have to do that separately.  
 > 
 > [!TIP]
 > To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  

@@ -34,7 +34,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
 <a name="BKMK_InstallInsights"></a>   
 ## Install a preferred solution  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps System Administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator credentials.  
   
 2. Select **Admin centers** > **Dynamics 365**  
   
@@ -52,7 +52,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
 
 ## Update a preferred solution
 
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps System Administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator credentials.  
   
 2. Select **Admin centers** > **Dynamics 365**  
   
@@ -73,7 +73,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. Sign in to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
+2. Sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 3. Select **Settings** > **Solutions**.  
   

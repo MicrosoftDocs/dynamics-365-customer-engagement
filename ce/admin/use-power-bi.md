@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , sales, marketing, and service personnel in your organization have a powerful new way to work with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps data.  
+The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data.  
   
 <a name="PowerBIGetstarted"></a>   
 ## Get started using Power BI with Dynamics 365 for Customer Engagement apps (online)  
@@ -46,7 +46,7 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
 3. For the Sales Manager and Service Manager content packs, enter the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance, such as *<https://OrganizationName.crm.dynamics.com>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , and click **Next**.  
   
    > [!NOTE]
-   >  If your data center is outside of North America the crm.dynamics.com domain name may be different, such as crm2.dynamics.com, crm3.dynamics.com, crm4.dynamics.com, etc. To find the domain name, in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps web app go to **Settings** > **Customizations** > **Developer Resources**. The URLs listed will indicate the correct domain name.  
+   >  If your data center is outside of North America the crm.dynamics.com domain name may be different, such as crm2.dynamics.com, crm3.dynamics.com, crm4.dynamics.com, etc. To find the domain name, in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web app go to **Settings** > **Customizations** > **Developer Resources**. The URLs listed will indicate the correct domain name.  
   
     For the Marketing content pack, enter the URL as *<https://OrganizationName.marketing.dynamics.com/analytics>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , and click **Next**  
   
@@ -95,7 +95,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
   
 <a name="CRMOnline_PBIDesktop"></a>   
 ## Use Power BI Desktop to connect directly to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance  
- You can connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to create custom \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps reports and dashboards for use with the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service.  
+ You can connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to create custom [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps reports and dashboards for use with the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service.  
   
 ### Requirements  
   

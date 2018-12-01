@@ -44,7 +44,7 @@ search.app:
 ## Manage instances and updates in the Dynamics 365 Administration Center  
  The [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] is your portal site to manage [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances and updates.  
   
- You access the portal by choosing \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+ You access the portal by choosing [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
  ![Dynamics 365 for Customer Engagement apps option on the Office 365 Admin Center menu](../admin/media/o365-admin-center-crm.png "Dynamics 365 for Customer Engagement apps option on the Office 365 Admin Center menu")  
   

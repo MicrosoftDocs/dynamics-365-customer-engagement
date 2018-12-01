@@ -45,7 +45,7 @@ search.app:
   
    ![Office 365 Purchase Services](../admin/media/office-365-purchase-services.png "Office 365 Purchase Services")  
   
-3. Select the subscription that best fits your company's \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps needs.  
+3. Select the subscription that best fits your company's [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps needs.  
   
 4. Click **Buy now** and then follow the steps to purchase a new license.  
   

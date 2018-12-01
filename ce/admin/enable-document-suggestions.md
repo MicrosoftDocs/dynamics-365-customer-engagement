@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  web browser and mobile users be aware of important documents related to what they're working on in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps such as a big sales opportunity. You, as the admin, define relevant fields. A recommendation engine using [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] text analytics uses keyword matching to associate related records to find similar documents. You create similarity rules in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps to provide your own similarity logic. \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps then presents a list of suggested documents to the user while the user works in the current record.  
+Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  web browser and mobile users be aware of important documents related to what they're working on in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps such as a big sales opportunity. You, as the admin, define relevant fields. A recommendation engine using [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] text analytics uses keyword matching to associate related records to find similar documents. You create similarity rules in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to provide your own similarity logic. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps then presents a list of suggested documents to the user while the user works in the current record.  
   
  ![Document recommendations feature diagram](../admin/media/document-recommendations.png "Document recommendations feature diagram")  
   
@@ -35,7 +35,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
  Document Suggestions searches other like-entities to determine similarities found in documents located on a [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] site, [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or external location. Suggested documents can be in several different formats such as [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)], [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], Adobe PDF, and text files. When similar documents are found Document Suggestions presents them offering  you  the ability to open the document or make a copy.  
   
 ## Requirements  
- The following are required to use Document Suggestions with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
+ The following are required to use Document Suggestions with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 - [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps   
   
@@ -43,7 +43,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
   - Access to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], or [!INCLUDE[pn_sharepoint_2016](../includes/pn-sharepoint-2016.md)].  
   
-  - Document management must be set up in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. See [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
+  - Document management must be set up in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. See [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
   
 - Relevance Search must be enabled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search for the organization](../admin/configure-relevance-search-organization.md)  
   
@@ -53,7 +53,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
   - An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription is required to use the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics service.  
   
-  - A system administrator must enable the text analytics connection in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
+  - A system administrator must enable the text analytics connection in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
   
 - A system administrator must define a similarity rule for each entity type that is to be included in Document Suggestions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create similar record suggestion mappings](../admin/public-preview-microsoft-cognitive-services-integration.md#create_similar_record_rules)  
   

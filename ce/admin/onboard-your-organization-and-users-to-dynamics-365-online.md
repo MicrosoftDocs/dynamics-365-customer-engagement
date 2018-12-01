@@ -34,12 +34,12 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 >  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for Dynamics 365 for Customer Engagement apps (on-premises). If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 ## Step One: Try out Dynamics 365 for Customer Engagement apps (online) in a free 30-day trial  
- If you haven’t already purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
+ If you haven’t already purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
   
  To get the most out of your free trial, watch this video: [How to get the most out of your 30-day trial](https://go.microsoft.com/fwlink/p/?linkid=830035).  
   
 ## Step Two: Buy and manage a subscription  
- With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can evolve your business on your terms. Start with just what you need to run your business. For example, you might want to start with the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps for Sales app or the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps for Customer Service app, and then add more apps as your needs change. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
+ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can evolve your business on your terms. Start with just what you need to run your business. For example, you might want to start with the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Sales app or the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Customer Service app, and then add more apps as your needs change. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
   
  There are four ways to buy a subscription of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]:  
   
@@ -70,7 +70,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="VL"></a>   
 ### Buy through volume licensing  
- If your organization has 250 or more \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps users, you may be interested in [purchasing a Dynamics 365 for Customer Engagement apps enterprise licensing agreement](https://www.microsoft.com/licensing).  
+ If your organization has 250 or more [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps users, you may be interested in [purchasing a Dynamics 365 for Customer Engagement apps enterprise licensing agreement](https://www.microsoft.com/licensing).  
   
 <a name="Partner"></a>   
 ### Buy through a cloud solution provider  
@@ -78,11 +78,11 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="support"></a>   
 ### Choose your support  
- Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps investment. Choose a plan that best meets your business requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement apps support](https://www.microsoft.com/dynamics365/support)  
+ Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps investment. Choose a plan that best meets your business requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement apps support](https://www.microsoft.com/dynamics365/support)  
   
 <a name="Communicate"></a>   
 ### Set up points of contacts for communications  
- Microsoft regularly maintains and updates [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps admin for your organization receives email notifications. You have control over who should receive these email communications.  
+ Microsoft regularly maintains and updates [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin for your organization receives email notifications. You have control over who should receive these email communications.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -97,7 +97,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 <a name="POR"></a>   
 
 ### Add a Partner of Record to share account details with your partner  
- Many customers choose to work with a designated Microsoft partner to set up, customize, deploy, and administer their \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps instance(s). If you have a partner assisting you, this process can be facilitated by selecting a designated Partner of Record (POR) inside the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Portal. This enables the sharing of select details, such as contact and user information with your POR. Sharing this information will allow your partner to more quickly access information about your account, create support requests on your behalf, and work with Microsoft to assist with your accounts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
+ Many customers choose to work with a designated Microsoft partner to set up, customize, deploy, and administer their [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance(s). If you have a partner assisting you, this process can be facilitated by selecting a designated Partner of Record (POR) inside the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Portal. This enables the sharing of select details, such as contact and user information with your POR. Sharing this information will allow your partner to more quickly access information about your account, create support requests on your behalf, and work with Microsoft to assist with your accounts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
   
 ## Step Three: Plan your deployment and learn about FastTrack  
  Microsoft FastTrack for [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] is our customer success service designed to help you move to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] smoothly and confidently, so you can realize business value faster. When you participate in the FastTrack program, you will receive guidance on best practices and how to plan for successful rollouts. You will also learn ways to enable new users and expand capabilities – all at your own pace. Additionally, you will have access to Microsoft engineering resources committed to make your experience with [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] a success.  
@@ -106,9 +106,9 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="Plan"></a>   
 ### Plan your deployment  
- Many decisions you make at the beginning and throughout the deployment process can have downstream effects and impact other phases of the plan. Developing a plan to deploy \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps is important in determining the actions to take from inception to go live. The amount of resources involved in planning depends on the size and scope of the project. Large organizations may need a deployment team, while a small organization may assign these functions to a key person.  
+ Many decisions you make at the beginning and throughout the deployment process can have downstream effects and impact other phases of the plan. Developing a plan to deploy [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps is important in determining the actions to take from inception to go live. The amount of resources involved in planning depends on the size and scope of the project. Large organizations may need a deployment team, while a small organization may assign these functions to a key person.  
   
- Often times an organization will employ an independent software vendor (ISV), value-added reseller, or partner to help implement and maintain a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps deployment. Partners bring experience, best practices, and industry expertise that will be valuable in the planning and deployment process. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
+ Often times an organization will employ an independent software vendor (ISV), value-added reseller, or partner to help implement and maintain a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps deployment. Partners bring experience, best practices, and industry expertise that will be valuable in the planning and deployment process. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -131,7 +131,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 <a name="Users"></a>   
 
 ### Add users and assign security roles  
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps uses role-based security. The security role assigned to a user determines the tasks the user is permitted to perform and the data the user is permitted to view. Every user must be assigned at least one security role to access \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps uses role-based security. The security role assigned to a user determines the tasks the user is permitted to perform and the data the user is permitted to view. Every user must be assigned at least one security role to access [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -176,7 +176,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="SystemSettings"></a>   
 ### Set organization-wide system settings  
- When you first set up \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps, you’ll want to set system-wide settings.  
+ When you first set up [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, you’ll want to set system-wide settings.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -186,7 +186,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Import"></a>   
 ### Import and export data  
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps provides an import tool for importing simple data stored in files. If the import tool doesn't satisfy your data import requirements, you may want to contact a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps provides an import tool for importing simple data stored in files. If the import tool doesn't satisfy your data import requirements, you may want to contact a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -202,7 +202,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="MoCA"></a>   
 ### Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets  
- The \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps mobile apps make it easy to stay connected with your prospects and customers no matter where you are, or what mobile device you’re using. Having access to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps data in the field also improves user adoption and productivity.  
+ The [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps mobile apps make it easy to stay connected with your prospects and customers no matter where you are, or what mobile device you’re using. Having access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data in the field also improves user adoption and productivity.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -221,9 +221,9 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Outlook"></a>   
 ### Set up Dynamics 365 App for Outlook  
- Your users can tap the power of \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps from the familiar [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] environment. Working with a tool they already know speeds up the learning curve and makes them more productive.  
+ Your users can tap the power of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps from the familiar [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] environment. Working with a tool they already know speeds up the learning curve and makes them more productive.  
   
- Before deploying [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], you must connect \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] using server-side synchronization.  
+ Before deploying [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], you must connect [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] using server-side synchronization.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -235,7 +235,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="SharePoint"></a>   
 ### Integrate SharePoint document management  
- When you integrate [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps, your teams can store documents with associated \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps records and take advantage of all the other document management features provided by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
+ When you integrate [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, your teams can store documents with associated [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records and take advantage of all the other document management features provided by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
   
  After you integrate [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], or [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
   
@@ -247,11 +247,11 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Skype"></a>   
 ### Integrate Skype or Skype for Business  
- If your organization uses [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can take advantage of connectivity features like click-to-call or user presence from within \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skype for Business and Skype integration](skype-business-integration.md)  
+ If your organization uses [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can take advantage of connectivity features like click-to-call or user presence from within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skype for Business and Skype integration](skype-business-integration.md)  
   
 <a name="Yammer"></a>   
 ### Integrate Yammer  
- Integrating [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], the enterprise social network, with \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps encourages the sharing of information across your organization by bringing [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] posts right into the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps interface. To integrate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you must have a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise license set up for each user in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. You can include a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise account license as an add-on to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant through the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect to Yammer](connect-yammer.md)  
+ Integrating [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], the enterprise social network, with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps encourages the sharing of information across your organization by bringing [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] posts right into the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps interface. To integrate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you must have a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise license set up for each user in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You can include a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise account license as an add-on to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant through the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect to Yammer](connect-yammer.md)  
   
 <a name="Delve"></a>   
 ### Integrate Office Delve to surface trending documents in Dynamics 365 for Customer Engagement apps (online)  
@@ -259,9 +259,9 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Processes"></a>   
 ### Guide staff through common tasks with business processes  
- To help ensure that staff follow consistent steps every time they work with customers, \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps includes several ready-to-use business processes for common sales, service, and marketing scenarios. \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps also includes mobile task flows, and business rules/recommendations that you can use to apply form logic. You can use a drag-and-drop designer to create business processes, task flows, or business rules/recommendations.  
+ To help ensure that staff follow consistent steps every time they work with customers, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps includes several ready-to-use business processes for common sales, service, and marketing scenarios. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps also includes mobile task flows, and business rules/recommendations that you can use to apply form logic. You can use a drag-and-drop designer to create business processes, task flows, or business rules/recommendations.  
   
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] appsalso includes other processes like work flows and dialogs that serve different purposes.
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] appsalso includes other processes like work flows and dialogs that serve different purposes.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
 
@@ -278,7 +278,7 @@ For more advanced scenarios, consider the following development tools: [Solution
 <a name="Customizing"></a>   
 
 ### Customize and personalize Dynamics 365 for Customer Engagement apps (online) for your organization  
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps provides point-and-click customization tools to make the system work for your business needs. For example, create or modify fields, forms, views, dashboards, reports, charts, and more.
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps provides point-and-click customization tools to make the system work for your business needs. For example, create or modify fields, forms, views, dashboards, reports, charts, and more.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -297,7 +297,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
  You may be interested in any of the following additional products and services as you onboard your organization to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
 
 #### Social Engagement  
- Connect \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to get social insights in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] collects data from social media channels, such as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and blogs, and presents it in charts and graphs that you can use to spot emerging trends in people's comments, whether positive, negative, or neutral. Drill down into the data and analyze social conversations about your brand. Pinpoint what you're doing right and address potential concerns.  
+ Connect [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to get social insights in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] collects data from social media channels, such as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and blogs, and presents it in charts and graphs that you can use to spot emerging trends in people's comments, whether positive, negative, or neutral. Drill down into the data and analyze social conversations about your brand. Pinpoint what you're doing right and address potential concerns.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -382,7 +382,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 ## Step Five: Onboard your users  
  After onboarding your organization, it's time to onboard your users.  
   
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps includes separate apps for Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Financials, and Operations. Having separate apps makes it easy for users to focus on just the tasks they need for their role.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps includes separate apps for Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Financials, and Operations. Having separate apps makes it easy for users to focus on just the tasks they need for their role.  
    
 <a name="Train"></a>   
 ### Train your users  
@@ -422,7 +422,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 <a name="Office"></a>   
 ### Use Office apps with Dynamics 365 for Customer Engagement apps  
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps works with many Office apps in addition to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. Working with familiar tools improves user adoption and productivity.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps works with many Office apps in addition to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. Working with familiar tools improves user adoption and productivity.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -446,9 +446,9 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 <a name="Dashboards"></a>   
 ### Empower your users with rich dashboards and reports  
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps is all about gaining insights from data. Dashboards collect a user’s most important data in one place in easy-to-read charts and lists. Users can select the dashboard that’s right for their role, or as the administrator or system customizer, you can modify the system dashboards or create new ones. Users can also create their own dashboards.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps is all about gaining insights from data. Dashboards collect a user’s most important data in one place in easy-to-read charts and lists. Users can select the dashboard that’s right for their role, or as the administrator or system customizer, you can modify the system dashboards or create new ones. Users can also create their own dashboards.  
   
- \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps also comes with many built-in reports that your organization can use as is or modify. Or create new reports. When you need to provide deeper insights, take advantage of Power BI.
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps also comes with many built-in reports that your organization can use as is or modify. Or create new reports. When you need to provide deeper insights, take advantage of Power BI.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -470,7 +470,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 <a name="NewForUsers"></a>   
 
 ### Keep users up-to-date with the latest  
- Let your users know and get excited about the latest updates to \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
+ Let your users know and get excited about the latest updates to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
   
 <a name="Help"></a>   
 

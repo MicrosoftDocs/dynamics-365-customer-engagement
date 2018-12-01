@@ -78,7 +78,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
  If your organization is already using document management with [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], you can switch to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)  
   
 > [!IMPORTANT]
->  The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] builds the SharePoint library using the internal name of the document-enabled entity in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration uses the entity display name. When you upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, be sure to check that the display names in your document library on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] match the entity display names in \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] ["Validation Error" when you try to configure server-based SharePoint integration for Microsoft Dynamics CRM Online and SharePoint Online](http://go.microsoft.com/fwlink/p/?LinkID=402112).  
+>  The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] builds the SharePoint library using the internal name of the document-enabled entity in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration uses the entity display name. When you upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, be sure to check that the display names in your document library on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] match the entity display names in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] ["Validation Error" when you try to configure server-based SharePoint integration for Microsoft Dynamics CRM Online and SharePoint Online](http://go.microsoft.com/fwlink/p/?LinkID=402112).  
   
  ![SharePoint library name and entity display name](../admin/media/crm-itpro-crmo365tg-sharepointname.png "SharePoint library name and entity display name")  
   
@@ -87,12 +87,12 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 <a name="BKMK_ConfigNewOrg"></a>   
 
 ### Configure a new organization  
- If your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps organization has not deployed document management, when a \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps System Administrator logs in an alert message will be displayed to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration.  
+ If your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization has not deployed document management, when a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator logs in an alert message will be displayed to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration.  
   
  ![Enable Server-Based SharePoint Integration alert](../admin/media/crm-and-sharepoint-online-enable-now.png "Enable Server-Based SharePoint Integration alert")  
   
 > [!NOTE]
->  If you don’t see the alert and have not previously enabled server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, clear your browser cache or open \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with InPrivate browsing to have the alert display again. Once you configure server-based integration, the alert will no longer appear.  
+>  If you don’t see the alert and have not previously enabled server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, clear your browser cache or open [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with InPrivate browsing to have the alert display again. Once you configure server-based integration, the alert will no longer appear.  
   
 1. In the Enable Server-based SharePoint Integration alert click **Next**.  
   
@@ -107,7 +107,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
   
    ![Enter the URL of the SharePoint site](../admin/media/crmandsharepointonlineenablestep3.png "Enter the URL of the SharePoint site")  
   
-4. The URL will be checked for being a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site and for existing in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps organization. After enabling server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration you can’t go back to the previous client-side integration. Choose **Enable**.  
+4. The URL will be checked for being a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site and for existing in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization. After enabling server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration you can’t go back to the previous client-side integration. Choose **Enable**.  
   
 After you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] the options to Install List Components and to enable server-based integration will no longer appear as an option in Document Management.  
   

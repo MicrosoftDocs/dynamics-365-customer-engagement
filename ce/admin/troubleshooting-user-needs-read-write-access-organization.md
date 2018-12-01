@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You don’t have sufficient permissions to access [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . A \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps system administrator will need to do the following in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps application:  
+You don’t have sufficient permissions to access [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . A [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator will need to do the following in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps application:  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

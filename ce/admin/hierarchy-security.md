@@ -87,7 +87,7 @@ The hierarchy security model is an extension to the existing [!INCLUDE[pn_micros
   
  ![Set up hierarchy security in Dynamics 365 for Customer Engagement](../admin/media/hierarchy-security-setup.PNG "Set up hierarchy security in Dynamics 365 for Customer Engagement")  
   
- Set the **Depth** to a desired value to limit how many levels deep a manager has a Read-only access to the data of their reports. For example, if the depth equals to 2, a manager can only access his accounts and the accounts of the reports two levels deep. In our example, if you log in into \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps not as an Administrator, who can see all accounts, but, as the VP of Sales, you’ll only be able to see the active accounts of the users shown in the red rectangle, as illustrated below:  
+ Set the **Depth** to a desired value to limit how many levels deep a manager has a Read-only access to the data of their reports. For example, if the depth equals to 2, a manager can only access his accounts and the accounts of the reports two levels deep. In our example, if you log in into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps not as an Administrator, who can see all accounts, but, as the VP of Sales, you’ll only be able to see the active accounts of the users shown in the red rectangle, as illustrated below:  
   
  ![Read access for VP of Sales in Dynamics 365 for Customer Engagement](../admin/media/sales-vp-access.png "Read access for VP of Sales in Dynamics 365 for Customer Engagement")  
   

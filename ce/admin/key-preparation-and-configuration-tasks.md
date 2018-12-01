@@ -30,7 +30,7 @@ This topic, which is intended for administrators and business users of [!INCLUDE
 <a name="bkmk_commonconfig"></a>   
 
 ## Common configuration settings for Internet Explorer  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  is a web-based application and uses web browsers, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], as the user interface to view, add, or edit information that you’ve stored in the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps database. Make the following common [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] configuration settings to optimize your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps experience.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  is a web-based application and uses web browsers, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], as the user interface to view, add, or edit information that you’ve stored in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps database. Make the following common [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] configuration settings to optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps experience.  
   
  **Increase disk space for temporary Internet files**  
   
@@ -46,19 +46,19 @@ This topic, which is intended for administrators and business users of [!INCLUDE
   
 **Retain browsing history**  
   
-To optimize your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps experience, we recommend that you do not select the option to delete the browsing history when you exit from your browser. If you select this option, it deletes everything marked in your **Browsing history** settings, such as temporary Internet files, cookies, and history (by default, the check boxes for these options are selected). Deleting your temporary Internet files causes [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to cache the files again, and deleting cookies signs you out of \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
+To optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps experience, we recommend that you do not select the option to delete the browsing history when you exit from your browser. If you select this option, it deletes everything marked in your **Browsing history** settings, such as temporary Internet files, cookies, and history (by default, the check boxes for these options are selected). Deleting your temporary Internet files causes [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to cache the files again, and deleting cookies signs you out of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 1. Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
   
 2. Click or tap the **General** tab, and in the **Browsing history** section, make sure that the **Delete browsing history on exit** check box is cleared.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps websites.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps websites.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
   
    **If you experience slower performance in Internet Explorer**  
   
-If your \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps performance is slower in Internet Explorer than in other browsers, set **JavaScript Timer Frequency** to **Maximum Performance**.  
+If your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps performance is slower in Internet Explorer than in other browsers, set **JavaScript Timer Frequency** to **Maximum Performance**.  
   
 1. Go to **Control Panel** > **System and Security** > **Power Options**.  
   
@@ -144,26 +144,26 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
  Each environment requires a thoughtful decision on what to include and exclude, and there is always a possibility that excluding files from scans could lead to unwanted consequences. Use the following list alongside your well-planned internal IT management policies:  
   
-- Check for any interference from desktop security software. Some antivirus programs include a feature known as ScriptScan that can affect the performance of \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps. Most programs have functionality to disable scanning on certain websites. Make sure that the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps URL is added to this list. For McAfee specifically, see the following KB articles for this setting:  
+- Check for any interference from desktop security software. Some antivirus programs include a feature known as ScriptScan that can affect the performance of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Most programs have functionality to disable scanning on certain websites. Make sure that the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps URL is added to this list. For McAfee specifically, see the following KB articles for this setting:  
   
   -   [McAfee Knowledge Base Article: KB65382](https://kc.mcafee.com/corporate/index?page=content&id=KB65382)  
   
   -   [Microsoft Support Knowledge Base Article: KB924341](http://go.microsoft.com/fwlink/p/?LinkId=232344)  
   
-- If you use other antivirus software, make sure that the URL of the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps website is included in the trusted zone for the virus scanning, and disable on-access scanning for the \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps website.  For more information, see the specific antivirus application documentation.  
+- If you use other antivirus software, make sure that the URL of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps website is included in the trusted zone for the virus scanning, and disable on-access scanning for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps website.  For more information, see the specific antivirus application documentation.  
   
 <a name="bkmk_importantemail"></a>   
 
 ## Important email messages from Microsoft Dynamics 365 for Customer Engagement apps  
- Microsoft occasionally sends out email messages to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  users or administrators. These messages provide information about how to use \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps and also contain important billing or upgrade details.  
+ Microsoft occasionally sends out email messages to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  users or administrators. These messages provide information about how to use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and also contain important billing or upgrade details.  
   
  Make sure that the following email addresses are added to the allowed list for your email application:  
   
 - <strong>crmonl@microsoft.com</strong>. This email alias sends information about updates to the service.  
   
-- <strong>billing@microsoft.com</strong>. This email alias sends information about \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps billing.  
+- <strong>billing@microsoft.com</strong>. This email alias sends information about [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps billing.  
   
-- <strong>msonlineservicesteam@microsoftonline.com</strong>. This email alias sends informational email messages when you sign up for \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps.  
+- <strong>msonlineservicesteam@microsoftonline.com</strong>. This email alias sends informational email messages when you sign up for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 <a name="bkmk_availableresources"></a>   
 
