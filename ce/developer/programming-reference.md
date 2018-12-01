@@ -28,7 +28,7 @@ This section contains reference documentation of the public assemblies, web serv
 ## In This Section  
  [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
  [Entity Reference](about-entity-reference.md)<br />
- [Dynamics 365 for Customer Engagement apps Organization Service 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-general-ce-9)<br />
+ [Dynamics 365 for Customer Engagement Organization Service 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-general-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps XRM Tooling 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-xrmtooling-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps Virtual Entity 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-virtualentity-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps Workflow 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-workflow-ce-9)<br />

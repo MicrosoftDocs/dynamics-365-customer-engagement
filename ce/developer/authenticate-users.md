@@ -46,4 +46,4 @@ search.app:
   
  [Use the Dynamics 365 for Customer Engagement apps Web API](use-microsoft-dynamics-365-web-api.md)  
   
- [Use the Dynamics 365 for Customer Engagement apps Organization service](use-microsoft-dynamics-365-organization-service.md)
+ [Use the Dynamics 365 for Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)

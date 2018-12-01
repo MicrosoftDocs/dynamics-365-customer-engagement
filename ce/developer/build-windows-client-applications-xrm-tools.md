@@ -58,7 +58,7 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
   
 ### See also  
  [Sample: Quick start for XRM Tooling API](xrm-tooling/sample-quick-start-xrm-tooling-api.md)   
- [Use the Dynamics 365 for Customer Engagement apps Organization service](use-microsoft-dynamics-365-organization-service.md)   
+ [Use the Dynamics 365 for Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)   
  [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)   
  [Write Applications and Server Extensions](extend-dynamics-365-server.md)   
  [Blog: PowerShell module for performing data operations and manipulating user and system settings in CRM](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
