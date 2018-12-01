@@ -36,9 +36,9 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
   - If you are creating Windows applications for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, use XRM tooling assemblies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [.NET Development: Use XRM Tooling assemblies](#XrmTooling)  
 
-  - If you are creating non-Windows applications for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], use Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement apps Web API](use-microsoft-dynamics-365-web-api.md)  
+  - If you are creating non-Windows applications for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], use Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
 
-- If your code is not written using  the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)], use  Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement apps Web API](use-microsoft-dynamics-365-web-api.md)  
+- If your code is not written using  the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)], use  Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
 
   The following flow diagram illustrates which development style to choose when developing for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
 

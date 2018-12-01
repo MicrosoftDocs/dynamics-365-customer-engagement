@@ -117,7 +117,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 1.  In the **Solution Explorer**, open **Program.cs** for editing.  
   
-2.  At the top of the file, add the following `using` statements, which reference namespaces commonly used in Dynamics 365 for Customer Engagement apps Web API-based solutions.  
+2.  At the top of the file, add the following `using` statements, which reference namespaces commonly used in Dynamics 365 for Customer Engagement Web API-based solutions.  
   
     ```csharp
     using Microsoft.Crm.Sdk.Samples.HelperCode;  
