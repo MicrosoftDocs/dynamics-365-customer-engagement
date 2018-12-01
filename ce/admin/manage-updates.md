@@ -380,13 +380,13 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
      You will be informed of a pending update in multiple ways. See [How will I know my organization is ready to update?](../admin/manage-updates.md#BKMK_howtoknow) in this topic.  
 
-2. **Involve your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] partner.**  
+2. **Involve your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  partner.**  
 
-     If you have a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] partner of record, we strongly recommend that you contact them for guidance and assistance. If you do not have a partner, you may consult the [!INCLUDE[sdk_Dynamics_Marketplace](../includes/sdk-dynamics-marketplace.md)] to identify a partner. Please note that there may be charges from partners for their services.  
+     If you have a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  partner of record, we strongly recommend that you contact them for guidance and assistance. If you do not have a partner, you may consult the [!INCLUDE[sdk_Dynamics_Marketplace](../includes/sdk-dynamics-marketplace.md)] to identify a partner. Please note that there may be charges from partners for their services.  
 
 3. **Watch for communications from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)].**  
 
-     We will send you several communications about this subject to keep you informed about the update. In addition, we send email communications to users who have the System Administrator role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Please make sure the email accounts associated with those user accounts are valid and being monitored. Communications will come from crmoln@microsoft.com, or for partners, you will also receive communications from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Partner Team: crmteam@microsoft.com.  
+     We will send you several communications about this subject to keep you informed about the update. In addition, we send email communications to users who have the System Administrator role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Please make sure the email accounts associated with those user accounts are valid and being monitored. Communications will come from crmoln@microsoft.com, or for partners, you will also receive communications from the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  Partner Team: crmteam@microsoft.com.  
 
 4. **Verify your customizations are compatible.**  
 

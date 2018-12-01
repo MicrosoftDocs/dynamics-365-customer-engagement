@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] often hear similar questions from our customers. To help answer your billing and subscription management questions as quickly as possible, we’ve put together this list of the most frequently asked questions.  
+Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  often hear similar questions from our customers. To help answer your billing and subscription management questions as quickly as possible, we’ve put together this list of the most frequently asked questions.  
   
 ## How do I find the correct Dynamics 365 for Customer Engagement apps (online) billing and subscription support team?  
  Before contacting [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] services billing support, you’ll need to determine which platform your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account is hosted on because each platform has its own billing and subscription management support team. The simplest way to do this is to match your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account sign-in to one of the formats listed here:  
@@ -68,7 +68,7 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
  You can now extend your free trial on a self-serve extension on the [Admin portal](https://portal.office.com/default.aspx) for a one-time extension of 30 days. Alternatively, you can submit a service request via the portal or call the Billing Support toll free numbers. Please note that for self-serve extensions you’re required to enter your credit card information, but your credit card won’t be charged for trial extensions.  
   
 ## How do I migrate from Dynamics 365 for Customer Engagement apps (online) to the on-premises version of Dynamics 365 for Customer Engagement?  
- If your organization is considering changing from [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] to the on-premises (server-based) version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you will need to work with [Technical support](contact-technical-support.md).  
+ If your organization is considering changing from [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] to the on-premises (server-based) version of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , you will need to work with [Technical support](contact-technical-support.md).  
   
 ## How do I cancel my Dynamics 365 for Customer Engagement apps (online) subscription?  
  The instructions in this section apply to subscriptions made through [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] as well as through [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
@@ -104,7 +104,7 @@ In addition, you can now do a self-serve cancellation of your subscription from 
 ## How do I apply for a credit due to a Dynamics 365 for Customer Engagement apps (online) service outage?  
  The instructions in this section are common for subscriptions made through [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] as well as through [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
- You may be eligible for a billing credit if your online service level falls below 99.9% availability. For complete details, including a critical list of exclusions, see the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=272903).  
+ You may be eligible for a billing credit if your online service level falls below 99.9% availability. For complete details, including a critical list of exclusions, see the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=272903).  
   
  Submit a claim by contacting Billing support. To contact billing support, please refer to the [Contact information for billing support](../admin/contact-information-microsoft-dynamics-365-online-billing-support.md) page.  
   

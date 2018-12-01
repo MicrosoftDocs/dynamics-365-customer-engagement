@@ -113,10 +113,10 @@ Use the email address provided by your [!INCLUDE[pn_crm_shortest](../includes/pn
 ## Common error messages  
   
 ### I receive this license error: “The selected user or the user trying to log on has not been assigned a security role, and does not have sufficient privileges for this action”  
- This error must be fixed by someone that has permissions to add security roles to users in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as your system administrator. To learn how to add security roles, see [Security roles and privileges](security-roles-privileges.md).  
+ This error must be fixed by someone that has permissions to add security roles to users in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , such as your system administrator. To learn how to add security roles, see [Security roles and privileges](security-roles-privileges.md).  
   
 ### When I try to sign in, [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] continues to redirect to another web page and gets into a loop until I choose the [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] window.  
- To avoid this error, add the URLs used for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to trusted sites in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]:  
+ To avoid this error, add the URLs used for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  to trusted sites in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]:  
   
 1. In [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], on the **Tools** menu, select **Internet Options**.  
   
@@ -137,7 +137,7 @@ Use the email address provided by your [!INCLUDE[pn_crm_shortest](../includes/pn
 6. Click or tap **Close**, and then click or tap **OK**.  
   
 ### Why do I have to sign in again? Can I change the amount of time I'm signed in?  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] keeps you signed in for 8 hours. When you've been signed in for 7 hours and 40 minutes, a message will appear warning that your session is about to expire, and you then have 20 minutes to respond. Click or tap **OK**, sign in again, and then click the back button on your browser to return to the area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in which you were working. You can’t change the amount of time you’re signed in.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  keeps you signed in for 8 hours. When you've been signed in for 7 hours and 40 minutes, a message will appear warning that your session is about to expire, and you then have 20 minutes to respond. Click or tap **OK**, sign in again, and then click the back button on your browser to return to the area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in which you were working. You can’t change the amount of time you’re signed in.  
   
 ### See also  
  [Sign in to Dynamics and Office 365 apps](sign-in-office-365-apps.md)    

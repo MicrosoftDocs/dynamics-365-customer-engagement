@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Use the Service tab in System Settings to set preferences for the customer service area, such as service level agreements and entitlements in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Use the Service tab in System Settings to set preferences for the customer service area, such as service level agreements and entitlements in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   

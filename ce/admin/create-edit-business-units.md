@@ -25,15 +25,15 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit is a logical grouping of related business activities.  
+In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , a business unit is a logical grouping of related business activities.  
   
  If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization is structured around departments or divisions that have separate products, customers, and marketing lists, you might want to create business units. Business units are mapped to an organization’s departments or divisions. Users can securely access data in their own business unit, but they can’t access data in other business units.  
   
- Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)  
+ Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)  
   
  Keep the following in mind when creating business units:  
   
-- The organization (also known as the root business unit) is the top level of a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] business unit hierarchy. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically creates the organization when you install or provision [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can’t change or delete the organization name.  
+- The organization (also known as the root business unit) is the top level of a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  business unit hierarchy. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically creates the organization when you install or provision [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can’t change or delete the organization name.  
   
 - Each business unit can have just one parent business unit.  
   

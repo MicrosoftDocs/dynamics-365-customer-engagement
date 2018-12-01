@@ -25,5 +25,5 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can set up folders to save and manage your documents, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
+With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , you can set up folders to save and manage your documents, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   

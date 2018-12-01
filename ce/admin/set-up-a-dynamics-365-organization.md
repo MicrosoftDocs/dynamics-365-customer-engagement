@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This section describes how to set up your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. You will learn about managing business units and sites, adding resources and selecting language options.  
+This section describes how to set up your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  organization. You will learn about managing business units and sites, adding resources and selecting language options.  
 
 ### See also
 [Terminology used in the product and documentation](online-terminology.md)

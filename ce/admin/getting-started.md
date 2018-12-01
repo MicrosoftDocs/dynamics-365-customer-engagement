@@ -25,5 +25,5 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-As a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator, you’ll find the information that you need here to get your organization started with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+As a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator, you’ll find the information that you need here to get your organization started with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
   

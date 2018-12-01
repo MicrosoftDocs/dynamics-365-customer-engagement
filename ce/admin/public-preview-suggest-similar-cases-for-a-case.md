@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You're working on a support case and you wonder if there's a similar case that might help you resolve yours. With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics, you can quickly find related cases and use them to resolve your current case. Keywords or key phrases  in a service case are used to find similar cases.  
+You're working on a support case and you wonder if there's a similar case that might help you resolve yours. With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  and [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics, you can quickly find related cases and use them to resolve your current case. Keywords or key phrases  in a service case are used to find similar cases.  
   
 > [!IMPORTANT]
 > - This feature is currently only available for instances in the United States (US) region.  

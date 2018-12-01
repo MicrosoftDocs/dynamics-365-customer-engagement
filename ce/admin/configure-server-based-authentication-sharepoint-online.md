@@ -63,6 +63,6 @@ search.app:
   
 <a name="BKMK_info_trans_CRMtoSP"></a>   
 ## Information transmitted between Dynamics 365 for Customer Engagement apps (online) and SharePoint when you use server-based SharePoint integration  
- When you use the document management feature in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, the following information is transmitted between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]:  
+ When you use the document management feature in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  by using server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, the following information is transmitted between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]:  
   
 - Entity name for the entity that is used to create folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], such as Account, Article, or Lead. To configure the entities that are integrated, go to **Settings** > **Document Management** > **Document Management Settings**.

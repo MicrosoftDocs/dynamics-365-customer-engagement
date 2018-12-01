@@ -41,7 +41,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
   
    - **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application. After you save the change, it may take up to 5 minutes for the friendly name to appear in the application.  
   
-   - **URL**. The URL is used to construct the URL for users to sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. We recommend that you limit the length of the URL name to reduce the overall length of the URL.  
+   - **URL**. The URL is used to construct the URL for users to sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . We recommend that you limit the length of the URL name to reduce the overall length of the URL.  
   
      > [!WARNING]
      >  There are important tasks that you must communicate to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users immediately following a URL name change.  

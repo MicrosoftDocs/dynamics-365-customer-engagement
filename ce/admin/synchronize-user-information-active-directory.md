@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports two methods for authenticating users:  
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  supports two methods for authenticating users:  
   
 - Integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]  
   
 - Claims-based authentication  
   
-By default, customers who purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and deploy it on-premises use [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]. These customers also can set up claims-based authentication for Internet-facing deployments (IFDs) of the product.  
+By default, customers who purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  and deploy it on-premises use [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]. These customers also can set up claims-based authentication for Internet-facing deployments (IFDs) of the product.  
   
 With integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)], each user record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] must be associated with a user account in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] to enable log on to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When the user records are associated, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically reads and stores other information about the user record (including the first and last name, the email address, and the globally unique identifier, or GUID) from the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service.  
   

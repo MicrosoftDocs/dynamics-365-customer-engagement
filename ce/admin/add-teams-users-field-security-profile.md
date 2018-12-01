@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Role-based security controls access to a specific entity type, record-based security controls access to individual records, and field-level security controls access to specific fields. You can use a field security profile to manage the permission of users and teams to read, create, or write in secured fields. For example, the System Administrator field security profile gives full access to all secured fields in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Role-based security controls access to a specific entity type, record-based security controls access to individual records, and field-level security controls access to specific fields. You can use a field security profile to manage the permission of users and teams to read, create, or write in secured fields. For example, the System Administrator field security profile gives full access to all secured fields in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

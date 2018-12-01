@@ -90,7 +90,7 @@ For multinational companies with employees and customers distributed around the 
    > 
    >  You cannot start a new [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance until you click **Configure** and complete the configuration process.  
    > 
-   > [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances will not come prepared with sample data when configured by a Global administrator who does not have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
+   > [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances will not come prepared with sample data when configured by a Global administrator who does not have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  system administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
   
 5. On the **configure new instance** page, select a region for the instance.  
   
@@ -99,7 +99,7 @@ For multinational companies with employees and customers distributed around the 
    > [!IMPORTANT]
    >  After a base currency is selected it cannot be changed.  
    > 
-   >  Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application, only the base currency will be used for reporting. To select a different currency, click **Change currency** and select a different one or specify a custom currency.  
+   >  Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  application, only the base currency will be used for reporting. To select a different currency, click **Change currency** and select a different one or specify a custom currency.  
   
 7. On the confirmation page, verify that the settings are correct and then click **Configure**.  
   
