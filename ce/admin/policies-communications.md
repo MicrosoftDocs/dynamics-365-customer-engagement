@@ -33,7 +33,7 @@ search.app:
 > - Microsoft Dynamics 365 for Customer Engagement apps for Finance and Operations - msdyn365finops@microsoft.com
 
 ## Introduction
-Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
+Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
   
  If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md).  
   
@@ -252,7 +252,7 @@ Communications emails are specific to managing the Dynamics 365 for Customer Eng
  <a name="BKMK_PostPurchase"></a>   
 
 ### Post-purchase customer lifecycle communications  
- Once a customer has purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we send a series of helpful email communications to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+ Once a customer has purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we send a series of helpful email communications to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
   
  You can easily identify these communications by the dark-blue banner.  
   

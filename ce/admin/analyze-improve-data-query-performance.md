@@ -39,7 +39,7 @@ You can analyze and optimize query performance using the Data Performance view, 
 -   Depending on the number of tables related to the entity, some entities cannot have more than twenty optimizations.  
   
 > [!NOTE]
->  The Data Performance feature is available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+>  The Data Performance feature is available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
   
 ## Use the All Data Performance Logs view to apply or remove an optimization  
   

@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<
 
-When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can:  
+When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , you can:  
   
 - Create, upload, view, and delete documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
   
@@ -46,7 +46,7 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
 <a name="BKMK_AssignPermission"></a>   
 
 ## Assign user permissions to the Team SharePoint site  
- Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users are not automatically allowed access to your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sites. You must work within the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site to assign specific permission levels to individual users or groups.  
+ Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users are not automatically allowed access to your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sites. You must work within the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site to assign specific permission levels to individual users or groups.  
   
 #### Assign users to the Team site  
   
@@ -100,7 +100,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
   
    ![Select Online as the SharePoint sites location](../admin/media/crmandsharepointonlineenablestep2.png "Select Online as the SharePoint sites location")  
   
-3. If your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not connected to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site, enter the URL (for example <https://contoso.sharepoint.com>) of your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site that you will use for auto folder creation, and then choose **Next**.  
+3. If your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  is not connected to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site, enter the URL (for example <https://contoso.sharepoint.com>) of your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site that you will use for auto folder creation, and then choose **Next**.  
   
    > [!TIP]
    >  To see your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collections, in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **SharePoint**, and then click **site collections**.  
@@ -118,7 +118,7 @@ Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short
 ## Using Document Management  
  You are now ready to add document storage locations to the entities you enabled above and start managing documents. Begin by opening a document management-enabled record (for example, Contact).  
   
-1. Browse to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web application.  
+1. Browse to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  web application.  
   
 2. Choose an account, such as the **Adventure Works** sample account.  
   

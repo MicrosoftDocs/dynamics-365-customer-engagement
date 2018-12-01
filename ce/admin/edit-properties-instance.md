@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
+Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
   
 ## Edit an instance  
   
@@ -44,7 +44,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
    - **URL**. The URL is used to construct the URL for users to sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . We recommend that you limit the length of the URL name to reduce the overall length of the URL.  
   
      > [!WARNING]
-     >  There are important tasks that you must communicate to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users immediately following a URL name change.  
+     >  There are important tasks that you must communicate to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  users immediately following a URL name change.  
      > 
      > - For users of the web application, send information that includes the new URL with instructions about how to bookmark it.  
      > - For users of [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)], the following two tasks must be completed in the order specified here:  
@@ -66,10 +66,10 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
   
    - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the **Manage your Dynamics 365 instances** page, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments, you can enter *Contoso Sales and Marketing* or, if the instance is for development and testing, enter a relevant name such as *Contoso Development*.  
   
-   - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Learn more: [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)  
+   - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps . Learn more: [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)  
   
      > [!IMPORTANT]
-     >  If you do not specify a security group, all users who have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license will be added to this instance.  
+     >  If you do not specify a security group, all users who have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  license will be added to this instance.  
   
 6. Click **Save**.  
   

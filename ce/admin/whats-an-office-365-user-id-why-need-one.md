@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID, see the Note later in this topic). Access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is controlled through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID.  
+Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID, see the Note later in this topic). Access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is controlled through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID.  
   
  The user ID is in this format: `username@yourcompany.onmicrosoft.com`. Please note that although it resembles an email address, **this is a sign-in ID and not an email address**. It can be used as an email address, but only if you have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription with [Exchange Online](http://products.office.com/exchange/exchange-online).  
   

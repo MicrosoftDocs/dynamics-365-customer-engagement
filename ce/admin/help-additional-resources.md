@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
 
 > [!NOTE]
 > To contact technical support, see:
@@ -35,7 +35,7 @@ There are several resources available to you covering planning, operating, and u
  
 ## Help for administrators
 
- The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:    
+ The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps :    
   
 -   [Administer Dynamics 365 for Customer Engagement](admin-guide.md)  
   
@@ -55,7 +55,7 @@ There are several resources available to you covering planning, operating, and u
 
 ## Security and service continuity  
 
- When a business allows an external service provider to store and manage its data, key considerations must include security, data protection, privacy, and data ownership. [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] takes these concerns seriously and has applied its years of cloud and on-premises experience with security and privacy to delivery of the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] service. This focus is highlighted by the 99.9% uptime provision of the service-level agreement (SLA).  
+ When a business allows an external service provider to store and manage its data, key considerations must include security, data protection, privacy, and data ownership. [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] takes these concerns seriously and has applied its years of cloud and on-premises experience with security and privacy to delivery of the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  service. This focus is highlighted by the 99.9% uptime provision of the service-level agreement (SLA).  
   
 <a name="crmtrustcenter"></a>   
 

@@ -84,7 +84,7 @@ The following are Office 365 user contact fields.
   
  **About user licenses**  
   
-- [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] uses user licenses to provide access to your organization. You need one user license per person with an active user record who logs into your organization.  
+- [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  uses user licenses to provide access to your organization. You need one user license per person with an active user record who logs into your organization.  
   
 - When you add a new person, the **New user account** form displays the number of user licenses available. If you reach your limit, the **On** button is no longer available. You can add additional licenses by choosing **Billing** > **Purchase Services** from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -98,7 +98,7 @@ The following are Office 365 user contact fields.
 ## Assign a security role to a user  
  Security roles control a user’s access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user’s view of data and on the user’s interactions with that data.  
   
- [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] provides a default set of security roles. If necessary for your organization, you can create new security roles by editing one of the default security roles and then saving it under a new name.  
+ [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  provides a default set of security roles. If necessary for your organization, you can create new security roles by editing one of the default security roles and then saving it under a new name.  
   
  You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to the user.  
   
@@ -151,7 +151,7 @@ The following are Office 365 user contact fields.
   
 3. Under **Product licenses**, click **Edit**.  
   
-4. Turn on a **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close**.  
+4. Turn on a **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps ** license, and then click **Save** > **Close**.  
   
 5. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
@@ -169,7 +169,7 @@ The following are Office 365 user contact fields.
   
 2. In the right-side menu, under **Product licenses**, click **Edit**.  
   
-3. Turn off the **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close** multiple times.  
+3. Turn off the **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps ** license, and then click **Save** > **Close** multiple times.  
   
 ### Disable a user by removing the user from the security group that is associated with an instance of Dynamics 365 for Customer Engagement apps (online)  
   
@@ -231,7 +231,7 @@ You need to have the System Administrator security role or equivalent permission
 ## Create a non-interactive user account  
  The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to five non-interactive user accounts.  
   
- You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], select the non-interactive access mode for the account.  
+ You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , select the non-interactive access mode for the account.  
   
 1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   

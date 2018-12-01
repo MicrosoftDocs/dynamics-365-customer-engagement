@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] gives you the following options to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data:  
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  gives you the following options to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data:  
   
 - Web browser. No need to install anything to run [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from a computer running a supported web browser.  
 

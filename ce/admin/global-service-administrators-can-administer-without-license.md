@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-By default, all [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license are granted the following two levels of permission in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+By default, all [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  license are granted the following two levels of permission in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
 -   System administrator security role  
   
@@ -45,7 +45,7 @@ To give these administrators access to additional areas, such as the Sales, Mark
   
 3. Next to **Product licenses**, click **Edit**.  
   
-4. Make sure a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license is **not** assigned to this user, and then click **Save**.  
+4. Make sure a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  license is **not** assigned to this user, and then click **Save**.  
   
    > [!IMPORTANT]
    > Unlicensed [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global and Service administrators have access to the *administrative* areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. However, if the administrator also needs access to additional areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] you must select a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license for the user.  

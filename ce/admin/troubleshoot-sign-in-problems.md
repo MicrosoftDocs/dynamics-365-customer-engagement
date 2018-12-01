@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
+Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
   
 > [!IMPORTANT]
 >  If you’re an administrator, make sure to check the [Service Health Dashboard](https://portal.office.com/ServiceStatus/ServiceStatus.aspx) for maintenance issues.  

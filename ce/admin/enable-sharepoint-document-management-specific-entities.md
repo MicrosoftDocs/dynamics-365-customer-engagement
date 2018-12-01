@@ -55,7 +55,7 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamic
       When you first visit the documents grid, if you want users to confirm folder creation corresponding to the entity record on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], clear the **Automatically create folder** check box.  
   
      > [!IMPORTANT]
-     >  If you have [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], make sure the site is under the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances.  
+     >  If you have [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], make sure the site is under the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances.  
      > 
      >  The **Folders will be automatically created on the SharePoint site** option was first introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)].  
      >
