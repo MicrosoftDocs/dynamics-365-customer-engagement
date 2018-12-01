@@ -27,7 +27,7 @@ search.app:
 
 Importing data is often the first important task that you need to perform after you have installed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You can import data from various \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps systems and data sources into standard and customized fields of most business and custom entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can include related data, such as notes and attachments. To assure data integrity, you can enable duplicate detection that prevents importing duplicate records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Detect duplicate data](../admin/detect-duplicate-data.md). For more complex data import scenarios, you can write code using the data import web service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import data using web services](../developer/import-data.md).
   
- Preliminary steps before you import the data into \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps Customer Engagement include:  
+ Preliminary steps before you import the data into \[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps include:  
   
 1. Preparing source data files in one of the following formats: comma-separated values (.csv), XML Spreadsheet 2003 (.xml), Compressed (.zip) or text files. You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
   

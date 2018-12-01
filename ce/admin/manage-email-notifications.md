@@ -53,7 +53,7 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  service team r
   
 1. Sign in to [https://portal.office.com](https://portal.office.com).  
   
-2. On the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] menu bar, click **Admin centers** > **\[!INCLUDE\[pn_crm_shortest]\(\.\./includes/pn\-crm\-shortest\.md\)\] apps** > **Instances** tab.  
+2. On the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] menu bar, click **Admin centers** > **Dynamics 365** > **Instances** tab.  
   
 3. Choose an instance that has notifications you want to change.  
   
