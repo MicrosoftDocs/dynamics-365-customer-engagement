@@ -32,7 +32,7 @@ This section contains reference documentation of the public assemblies, web serv
  [Dynamics 365 for Customer Engagement apps XRM Tooling 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-xrmtooling-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps Virtual Entity 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-virtualentity-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps Workflow 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-workflow-ce-9)<br />
- [Dynamics 365 for Customer Engagement apps Package Deployer 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployer-ce-9)<br />
+ [Dynamics 365 for Customer Engagement Package deployer 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployer-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps Outlook Client 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-outlookclient-ce-9)<br />
  [Dynamics 365 for Customer Engagement apps Deployment Service 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9)<br />
  [Online Management API for Customer Engagement apps Reference](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com)<br />
