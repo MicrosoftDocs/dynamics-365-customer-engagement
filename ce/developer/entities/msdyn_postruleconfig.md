@@ -152,7 +152,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Determine whether to post this message to the Yammer Activity Stream. Please do not check this box if this message contains sensitive information requiring Microsoft Dynamics 365 for Customer Engagement access.|
+|Description|Determine whether to post this message to the Yammer Activity Stream. Please do not check this box if this message contains sensitive information requiring Microsoft Dynamics 365 for Customer Engagement apps access.|
 |DisplayName|Post to Yammer Activity Stream|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -767,6 +767,6 @@ See msdyn_postconfig Entity [msdyn_postconfig_msdyn_postruleconfig](msdyn_postco
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_postruleconfig?text=msdyn_postruleconfig EntityType" />

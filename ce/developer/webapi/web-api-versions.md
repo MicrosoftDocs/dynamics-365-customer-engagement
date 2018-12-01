@@ -48,7 +48,7 @@ Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-on
 |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Authenticate to Dynamics 365 for Customer Engagement apps with the Web API](authenticate-web-api.md)   
  [Web API types and operations](web-api-types-operations.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)

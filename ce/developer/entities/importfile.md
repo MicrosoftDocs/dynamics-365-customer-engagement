@@ -243,7 +243,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Choose a data map to match the import file and its column headers with the record types and fields in Microsoft Dynamics 365 for Customer Engagement. If the column headers in the file match the display names of the target fields in Microsoft Dynamics 365 for Customer Engagement, we import the data automatically. If not, you can manually define matches during import.|
+|Description|Choose a data map to match the import file and its column headers with the record types and fields in Microsoft Dynamics 365 for Customer Engagement apps. If the column headers in the file match the display names of the target fields in Microsoft Dynamics 365 for Customer Engagement apps, we import the data automatically. If not, you can manually define matches during import.|
 |DisplayName|Data Map|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -554,7 +554,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Tells whether an automatic system map was applied to the import file, which automatically maps the import data to the target entity in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Tells whether an automatic system map was applied to the import file, which automatically maps the import data to the target entity in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName|Use System Map|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -739,7 +739,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -946,7 +946,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1412,6 +1412,6 @@ See businessunit Entity [BusinessUnit_ImportFiles](businessunit.md#BKMK_Business
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.importfile?text=importfile EntityType" />

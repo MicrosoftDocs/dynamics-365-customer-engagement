@@ -17,7 +17,7 @@ search.app:
 ---
 # ChannelAccessProfile Entity Reference
 
-Information about permissions needed to access Dynamics 365 for Customer Engagement through external channels.For internal use only
+Information about permissions needed to access Dynamics 365 for Customer Engagement apps through external channels.For internal use only
 
 
 ## Messages
@@ -1244,6 +1244,6 @@ See privilege Entity [ChannelAccessProfile_Privilege](privilege.md#BKMK_ChannelA
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.channelaccessprofile?text=channelaccessprofile EntityType" />

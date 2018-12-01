@@ -57,7 +57,7 @@ There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-stu
   
    2. Ensure that **[!INCLUDE[pn_NET_Framework_452_short](../../includes/pn-net-framework-452-short.md)]** is selected.  
   
-   3. Select **WPF Application for Dynamics 365 for Customer Engagement**.  
+   3. Select **WPF Application for Dynamics 365 for Customer Engagement apps**.  
   
    4. Specify the name and location of the project, and click **OK**.  
   
@@ -65,7 +65,7 @@ There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-stu
   
 3. To test the project:  
   
-   1. Save the project and press F5 or click **Debug** > **Start Debugging** to verify if the project compiles successfully. On successful compilation, you’ll see a MainWindow with **Login to Dynamics 365 for Customer Engagement** button. Click the button to display the common login control.  
+   1. Save the project and press F5 or click **Debug** > **Start Debugging** to verify if the project compiles successfully. On successful compilation, you’ll see a MainWindow with **Login to Dynamics 365 for Customer Engagement apps** button. Click the button to display the common login control.  
   
    2. Test the authentication by providing your credentials to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], and then click **Login**. A message displays your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connection status.  
   
@@ -83,7 +83,11 @@ There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-stu
   
    1.  In the **Solution Explorer** pane, right-click the project name, and click **Add** > **New Item**.  
   
+<<<<<<< HEAD
+   2.  In the **Add New Item** dialog box, from the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**. Click **Dynamics 365 for Customer Engagement apps Login Form for WPF Applications**, and click **OK**.  
+=======
    2.  In the **Add New Item** dialog box, from the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**. Click **Dynamics 365 for Customer Engagement Login Form for WPF Applications**, and click **OK**.  
+>>>>>>> 58afe5531139485f76d29dc85b1ea680128b55c8
   
    ![Add the common login control template](../media/crm-sdk-v6-xrmtooling-addtemplate01.png "Add the common login control template")  
   
@@ -91,7 +95,7 @@ There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-stu
   
    ![Verify that the login control renders properly](../media/crm-sdk-v6-xrmtooling-addtemplate03.png "Verify that the login control renders properly")  
   
-4. You must now call the newly added login control from your application. To do this, add a **Button** control on your MainWindow.xaml file, and set the name and content to **btnSignIn** and **Sign in to Dynamics 365 for Customer Engagement** respectively.  
+4. You must now call the newly added login control from your application. To do this, add a **Button** control on your MainWindow.xaml file, and set the name and content to **btnSignIn** and **Sign in to Dynamics 365 for Customer Engagement apps** respectively.  
   
    ![Add a control to call the login form](../media/crm-sdk-v6-xrmtooling-addtemplate02.png "Add a control to call the login form")  
   
@@ -145,13 +149,13 @@ There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-stu
   
 9. To test the project:  
   
-   1. Save the project and press F5 or click **Debug** > **Start Debugging** to verify if the project compiles successfully. On successful compilation, you will see a MainWindow with the new **Sign In to Dynamics 365 for Customer Engagement** button. Click it to display the common login control.  
+   1. Save the project and press F5 or click **Debug** > **Start Debugging** to verify if the project compiles successfully. On successful compilation, you will see a MainWindow with the new **Sign In to Dynamics 365 for Customer Engagement apps** button. Click it to display the common login control.  
   
    2. Test the authentication by providing your credentials to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], and then click **Login**. If successful, a message appears stating the version and the organization name that you are connected to. Click **OK** to close the message.  
   
    ![Project test results](../media/crm-sdk-v6-xrmtooling-addtemplate05.png "Project test results")  
   
-    3.  If you click **Sign In to Dynamics 365 for Customer Engagement** again, the application prompts you to either choose the saved credentials from the last sign-in activity, or to re-enter the new credentials.  
+    3.  If you click **Sign In to Dynamics 365 for Customer Engagement apps** again, the application prompts you to either choose the saved credentials from the last sign-in activity, or to re-enter the new credentials.  
   
    ![Stored credentials](../media/crm-sdk-v6-xrmtooling-addtemplate06.png "Stored credentials")  
   

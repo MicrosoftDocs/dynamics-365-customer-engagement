@@ -1,5 +1,5 @@
 ---
-title: Understand accessibility app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement | Microsoft Docs
+title: Understand accessibility app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement apps | Microsoft Docs
 description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement for Customer Engagement
 keywords: App designer; site map designer; my apps; Dynamics 365 for Customer Engagement
 author: Mattp123
@@ -17,7 +17,7 @@ search.app:
   - D365CE
 ---
 
-# Accessibility in Dynamics 365 for Customer Engagement app designer, site map designer, and My Apps page
+# Accessibility in Dynamics 365 for Customer Engagement apps app designer, site map designer, and My Apps page
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -106,4 +106,4 @@ Microsoft is committed to making its products and services easier for everyone. 
 
 ## See also
 
-[Use keyboard shortcuts in Dynamics 365 for Customer Engagement applications](../basics/keyboard-shortcuts.md)
+[Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps applications](../basics/keyboard-shortcuts.md)

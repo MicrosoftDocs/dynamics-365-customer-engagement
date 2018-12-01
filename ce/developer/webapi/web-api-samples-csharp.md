@@ -32,7 +32,7 @@ This topic provides information about the Web API samples implemented with C#. W
 
 <a name="bkmk_prerequisites"></a>   
 ## Prerequisites  
- The following is required to build and run the Dynamics 365 for Customer Engagement apps Web API C# samples :  
+ The following is required to build and run the Dynamics 365 for Customer Engagement Web API C# samples :  
   
 - A version of Microsoft Visual Studio 2015 or later.  A free version, [Visual Studio Community](https://www.visualstudio.com/products/visual-studio-community-vs.aspx), is available for download [here](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx).  
   
@@ -64,14 +64,14 @@ This topic provides information about the Web API samples implemented with C#. W
 ## Common elements found in each sample  
  Most of the samples have a similar structure and contain common methods and resources, typically to provide the basic infrastructure for a Web API C# program.  
   
- Many of these common elements are also present when creating a new solution that will access the Dynamics 365 for Customer Engagement apps Web API. For more information, see [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md).  
+ Many of these common elements are also present when creating a new solution that will access the Dynamics 365 for Customer Engagement Web API. For more information, see [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md).  
   
 ### Utilized libraries and frameworks  
  This C# implementation depends upon the following helper code for HTTP communication, application configuration, authentication, error handling, and JSON serialization.  
   
 -   The standard .NET Framework HTTP messaging classes that are contained in the  [System.Net.Http namespace](https://msdn.microsoft.com/library/system.net.http\(v=vs.110\).aspx), particularly [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netframework-4.7.1), [HttpRequestMessage](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httprequestmessage?view=netframework-4.7.1), and [HttpResponseMessage](https://msdn.microsoft.com/library/system.net.http.httpresponsemessage\(v=vs.110\).aspx), are used for HTTP messaging.  
   
--   The Dynamics 365 for Customer Engagement apps Web API Helper Library is used to read the application configuration file, authenticate with the Dynamics 365 for Customer Engagement apps server, and assist in operation error handling.  For more information, see [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
+-   The Dynamics 365 for Customer Engagement Web API Helper Library is used to read the application configuration file, authenticate with the Dynamics 365 for Customer Engagement server, and assist in operation error handling.  For more information, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
   
 -   The Newtonsoft [Json.NET](http://www.newtonsoft.com/json) library supports the JSON data format.  
   
@@ -125,7 +125,7 @@ JObject contact2 = JsonConvert.DeserializeObject<JObject>(await response.Content
 ```  
   
 ### Response success and error handling  
- In general, the samples take a straightforward approach to processing HTTP responses. If the request succeeds, information about the operation is typically output to the console. If the response also carries a JSON payload or useful headers, this information is only processed upon success. And lastly, if a Dynamics 365 for Customer Engagement apps entity was created, the `entityUris` collection is updated with the URI of that resource. The [DeleteRequiredRecords](#bkmk_deleteRequiredRecords) method uses this collection to optionally delete data created by the sample from your Dynamics 365 for Customer Engagement apps server.  
+ In general, the samples take a straightforward approach to processing HTTP responses. If the request succeeds, information about the operation is typically output to the console. If the response also carries a JSON payload or useful headers, this information is only processed upon success. And lastly, if a Dynamics 365 for Customer Engagement apps entity was created, the `entityUris` collection is updated with the URI of that resource. The [DeleteRequiredRecords](#bkmk_deleteRequiredRecords) method uses this collection to optionally delete data created by the sample from your Dynamics 365 for Customer Engagement server.  
   
  If the request failed, the program outputs a contextual message about the operation that failed, and then it throws a custom exception of type `CrmHttpResponseException`. The exception-handler outputs more information about the exception and then control passes to a `finally` block that includes cleanup logic, again including a call to `DeleteRequiredRecords`. The following code demonstrates this error-handling approach on a POST request to create a record.  
   
@@ -153,7 +153,7 @@ throw new CrmHttpResponseException(response.Content);
   
 -   All of the pertinent C# sample code is contained in the primary source file named `Program.cs`, which contains a single class with the same name as the sample project.  
   
--   The sample classes, as well as the [Dynamics 365 for Customer Engagement apps Web API Helper Library](use-microsoft-dynamics-365-web-api-helper-library-csharp.md), is contained in the namespace `Microsoft.Crm.Sdk.Samples`.  
+-   The sample classes, as well as the [Dynamics 365 for Customer Engagement Web API Helper Library](use-microsoft-dynamics-365-web-api-helper-library-csharp.md), is contained in the namespace `Microsoft.Crm.Sdk.Samples`.  
   
 -   The samples are liberally commented: summaries are provided at the class and method levels, and most key individual statements have associated same- or single-line comments.  Supplemental files, such as the application configuration file `App.config`, also often contain important comments.  
   
@@ -193,7 +193,7 @@ Console.ReadLine();
   
 <a name="bkmk_connectToCrm"></a>   
 #### ConnectToCRM method  
- This method calls upon the helper libraries to read the application configuration file and then establishes a connection to the specified Dynamics 365 for Customer Engagement apps server. The result of these steps is the initialization of a [HttpClient](https://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.110\).aspx) class property that is used throughout the program to send web requests and receive responses.  Note the following properties are set on this object:  
+ This method calls upon the helper libraries to read the application configuration file and then establishes a connection to the specified Dynamics 365 for Customer Engagement server. The result of these steps is the initialization of a [HttpClient](https://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.110\).aspx) class property that is used throughout the program to send web requests and receive responses.  Note the following properties are set on this object:  
   
 ```csharp  
   
@@ -207,7 +207,7 @@ httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(
   
 ```  
   
- For more information about sample application configuration and authentication, see [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
+ For more information about sample application configuration and authentication, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
   
 <a name="bkmk_createRequiredRecords"></a>   
 #### CreateRequiredRecords method  
@@ -223,10 +223,10 @@ httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(
   
 <a name="bkmk_deleteRequiredRecords"></a>   
 #### DeleteRequiredRecords method  
- This companion method optionally deletes sample records and other Dynamics 365 for Customer Engagement apps server resources created in the program and particularly by the [CreateRequiredRecords](#bkmk_createRequiredRecords) method. It queries the user for verification of this operation, then it iterates through the `entityUris` collection and attempts to delete each element with a HTTP DELETE message.  
+ This companion method optionally deletes sample records and other Dynamics 365 for Customer Engagement server resources created in the program and particularly by the [CreateRequiredRecords](#bkmk_createRequiredRecords) method. It queries the user for verification of this operation, then it iterates through the `entityUris` collection and attempts to delete each element with a HTTP DELETE message.  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)   

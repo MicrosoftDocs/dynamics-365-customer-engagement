@@ -1,5 +1,5 @@
 ---
-title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the different types of business logic you can use in your app"
 ms.custom: ""
 ms.date: 11/09/2018
@@ -27,7 +27,7 @@ search.app:
 
 Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 for Customer Engagement apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
   
-Dynamics 365 for Customer Engagement includes five  types of processes, each designed for a different purpose:  
+Dynamics 365 for Customer Engagement apps includes five  types of processes, each designed for a different purpose:  
   
 - Business process flows  
   
@@ -76,7 +76,7 @@ Dynamics 365 for Customer Engagement includes five  types of processes, each des
 ## Where do I go to create processes?  
  There are two paths to navigate to processes:  
   
-- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
+- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
   
 - In solution explorer. **Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
   
@@ -130,7 +130,7 @@ Dynamics 365 for Customer Engagement includes five  types of processes, each des
 |**Stop Workflow**|Workflow, Action|Stops the current workflow or action. You can set a status of either **Succeeded** or **Canceled** and specify a status message.|  
 |**Custom Step**|Workflow, Action|Provides extensions to the logical elements available by default. Steps can include conditions, actions, other steps, or a combination of these elements. Developers can create custom workflow steps. By default, there are no custom steps available.|
 
-For more information for developers, see the Developer Guide topic [Automate your business processes in Customer Engagement](../developer/automate-business-processes-customer-engagement.md).
+For more information for developers, see the Developer Guide topic [Automate your business processes in Customer Engagement apps](../developer/automate-business-processes-customer-engagement.md).
   
 ### See also  
  [Business process flows overview](../customize/business-process-flows-overview.md)   

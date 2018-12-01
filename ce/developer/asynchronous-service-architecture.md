@@ -1,6 +1,6 @@
 ---
 title: "Asynchronous service architecture (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "The system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of Dynamics 365 for Customer Engagement apps is that the asynchronous service can be hosted on servers other than the Dynamics 365 for Customer Engagement apps server, resulting in improved performance."
+description: "The system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of Dynamics 365 for Customer Engagement apps is that the asynchronous service can be hosted on servers other than the Dynamics 365 for Customer Engagement server, resulting in improved performance."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""

@@ -337,6 +337,6 @@ GET [Organization URI]/api/data/v9.0/$metadata
 ```  
 
 ### See also  
- [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Authenticate to Dynamics 365 for Customer Engagement apps with the Web API](authenticate-web-api.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)

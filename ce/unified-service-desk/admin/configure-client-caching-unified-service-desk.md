@@ -111,7 +111,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
  At times, it may be necessary to force a cache reset for a specific user to clear and reset the cache store. You can do this in two ways: From the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server or by using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application on the user’s computer.  
   
 <a name="UsingCRMServer"></a>   
-### Using the Dynamics 365 for Customer Engagement apps server  
+### Using the Dynamics 365 for Customer Engagement server  
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
@@ -178,7 +178,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 11. Click **Save** and then close the action call.  
   
-    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 for Customer Engagement apps server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
+    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
   
 ## See also  
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)   

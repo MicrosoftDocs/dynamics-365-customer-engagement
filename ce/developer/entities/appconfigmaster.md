@@ -17,7 +17,7 @@ search.app:
 ---
 # AppConfigMaster Entity Reference
 
-Contains the master list of all properties that can be customized for apps in Dynamics 365 for Customer Engagement. For internal use only.
+Contains the master list of all properties that can be customized for apps in Dynamics 365 for Customer Engagement apps. For internal use only.
 
 
 ## Messages
@@ -501,6 +501,6 @@ See organization Entity [organization_appconfigmaster](organization.md#BKMK_orga
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.appconfigmaster?text=appconfigmaster EntityType" />

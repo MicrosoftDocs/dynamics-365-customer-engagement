@@ -101,7 +101,7 @@ Visual representation of metadata can be very useful, especially when you are tr
 ## About the diagrams  
  You can find the diagrams for many system entities in the SDK documentation, in the topics that describe the entity capabilities. In each box in the diagram, the first line in bold text is the name of the entity. Subsequent lines contain the names of the attributes used to define the relationships for that entity. The tool does not generate lines showing the relationships to the following entities: organization, business unit, and user (systemuser). This is done to simplify the diagram. Color coding is used to indicate the owner relationship for each entity. The following diagram describes the color coding:  
   
- ![Diagram key for Dynamics 365 for Customer Engagement apps entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 for Customer Engagement apps entity relationship diagrams")  
+ ![Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams")  
   
 <a name="Generate"></a>   
 ## Generate entity diagrams with the metadata diagram tool  

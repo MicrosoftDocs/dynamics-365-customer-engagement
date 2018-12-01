@@ -25,7 +25,7 @@ search.app:
 
 Use the configuration class hierarchy to specify the required connection data for accessing [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web services from your application. You can supply this connection data either by setting values directly in your code, possibly from user input, using the `Configuration` base class. More typically, you supply this information in settings stored in your application configuration file, using the derived class, `FileConfiguration`.  
 
- The source code for the configuration class hierarchy is located in the file Configuration.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/). The configuration class hierarchy is designed to work in conjunction with the `Authentication`class to enable you to establish a secure connection to your Dynamics 365 for Customer Engagement apps service. For more information, see             [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
+ The source code for the configuration class hierarchy is located in the file Configuration.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/). The configuration class hierarchy is designed to work in conjunction with the `Authentication`class to enable you to establish a secure connection to your Dynamics 365 for Customer Engagement service. For more information, see             [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
 
 <a name="bkmk_Connectiondata"></a>
 
@@ -36,7 +36,7 @@ Use the configuration class hierarchy to specify the required connection data fo
 
 | Connection data |     Deployments     |                                                                                                                                  Description                                                                                                                                  |
 |-----------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Service URL   |         All         |                                                                                                                   The base URL to the Dynamics 365 for Customer Engagement apps service                                                                                                                    |
+|   Service URL   |         All         |                                                                                                                   The base URL to the Dynamics 365 for Customer Engagement service                                                                                                                    |
 |    Username     |         All         |                                                                                                                   The user name registered in Dynamics 365 for Customer Engagement apps                                                                                                                    |
 |    Password     |         All         |                                                                                                                          The password for that user                                                                                                                           |
 |     Domain      |         All         |                                                                                                  The domain of the Dynamics 365 for Customer Engagement apps service for Active Directory authentication                                                                                                   |
@@ -49,7 +49,7 @@ Use the configuration class hierarchy to specify the required connection data fo
 
 ### FileConfiguration connection settings
 
- Most of the Dynamics 365 for Customer Engagement apps Web API samples use the derived class, `FileConfiguration`, to extract the connection data from the application configuration file, App.config. This file has several application settings that apply to the different Dynamics 365 for Customer Engagementapps Server deployment modes. The `connectionString` setting contains the service URL and user name. Additionally, the `ClientId`and `RedirectUrl` settings are required for online or Internet-facing deployments (IFD). The following lines, excerpted from the default App.config file provided with most of the Web API samples, contain this connection data as placeholder values. You must replace these placeholders with values specific to the current user, your Dynamics 365 for Customer Engagement apps server, and your client application.  
+ Most of the Dynamics 365 for Customer Engagement Web API samples use the derived class, `FileConfiguration`, to extract the connection data from the application configuration file, App.config. This file has several application settings that apply to the different Dynamics 365 for Customer Engagementapps Server deployment modes. The `connectionString` setting contains the service URL and user name. Additionally, the `ClientId`and `RedirectUrl` settings are required for online or Internet-facing deployments (IFD). The following lines, excerpted from the default App.config file provided with most of the Web API samples, contain this connection data as placeholder values. You must replace these placeholders with values specific to the current user, your Dynamics 365 for Customer Engagement server, and your client application.  
 
 ```xml  
 <connectionStrings> 
@@ -101,7 +101,7 @@ Use the configuration class hierarchy to specify the required connection data fo
 
 ## Usage
 
- The `FileConfiguration` and `Authentication` classes are designed to be used in tandem to read the connection information in App.config and to then establish a secure connection to the target Dynamics 365 for Customer Engagement apps service. This can be implemented with the following statements.  
+ The `FileConfiguration` and `Authentication` classes are designed to be used in tandem to read the connection information in App.config and to then establish a secure connection to the target Dynamics 365 for Customer Engagement service. This can be implemented with the following statements.  
 
 ```csharp  
 FileConfiguration config = new FileConfiguration(null); Authentication auth = new Authentication(config); httpClient = new HttpClient(auth.ClientHandler, true);  
@@ -137,7 +137,7 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
 
 ## Default configuration file listing
 
- The file App.config, provided with most Dynamics 365 for Customer Engagement apps Web API samples, contains placeholder connection values that must be edited by the developer or site administrator.  
+ The file App.config, provided with most Dynamics 365 for Customer Engagement Web API samples, contains placeholder connection values that must be edited by the developer or site administrator.  
 
 ```xml  
 <?xml version="1.0" encoding="UTF-8"?>
@@ -406,7 +406,7 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
 
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   
  [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md)   
- [Use the Dynamics 365 for Customer Engagement apps Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)   
  [SDK samples Helper code for Organization Service endpoint](https://www.nuget.org/packages/Microsoft.CrmSdk.Samples.HelperCode-CS)  

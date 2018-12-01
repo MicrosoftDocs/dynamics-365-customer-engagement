@@ -142,5 +142,5 @@ Follow the given steps to create a new Web API request to test connection with y
 ## See Also
 
 [Use Postman to perform operations](use-postman-perform-operations.md)<br>
-[Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)<br>
+[Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
 [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md)

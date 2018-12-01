@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Dynamics 365 for Customer Engagement apps Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
+Dynamics 365 for Customer Engagement Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
 ## Detect duplicate during Create operation
 

@@ -857,7 +857,7 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 ### See also  
 
- [Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   
  [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md)   
  [Update and delete entities using the Web API](update-delete-entities-using-web-api.md)   

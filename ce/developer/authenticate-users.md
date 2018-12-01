@@ -44,6 +44,6 @@ search.app:
   
  [Authorization Code Grant Flow](https://msdn.microsoft.com/en-us/library/azure/dn645542.aspx)  
   
- [Use the Dynamics 365 for Customer Engagement apps Web API](use-microsoft-dynamics-365-web-api.md)  
+ [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
   
- [Use the Dynamics 365 for Customer Engagement apps Organization service](use-microsoft-dynamics-365-organization-service.md)
+ [Use the Dynamics 365 for Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)

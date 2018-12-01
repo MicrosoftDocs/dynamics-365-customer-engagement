@@ -137,6 +137,6 @@ search.app:
 
 
 ## See also  
- [Deploy packages using Dynamics 365 for Customer Engagement apps Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)   
+ [Deploy packages using Dynamics 365 for Customer Engagement Package deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
 
