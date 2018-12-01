@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-As a [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator, you manage the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [Office 365 admin center](https://portal.microsoftonline.com/).  
+As a [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator, you manage the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [Office 365 admin center](https://portal.microsoftonline.com/).  
    
 ### See also  
  [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)<br />

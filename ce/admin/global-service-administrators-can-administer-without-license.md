@@ -25,15 +25,15 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-By default, all [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  license are granted the following two levels of permission in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+By default, all [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license are granted the following two levels of permission in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
 -   System administrator security role  
   
 -   Administrative access mode  
   
-The system administrator security role is typically granted to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  administrators giving them unrestricted access to the administrative (Settings) areas, which are used for managing and configuring features of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+The system administrator security role is typically granted to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.dministrators giving them unrestricted access to the administrative (Settings) areas, which are used for managing and configuring features of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
-Administrative access mode limits access to those areas of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  used to configure or customize the system.  
+Administrative access mode limits access to those areas of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps used to configure or customize the system.  
   
 To give these administrators access to additional areas, such as the Sales, Marketing, and Service areas, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license must be added to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrator user account, by using the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Note that Administrative access mode cannot be changed on the user form in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] application.  
   
@@ -45,7 +45,7 @@ To give these administrators access to additional areas, such as the Sales, Mark
   
 3. Next to **Product licenses**, click **Edit**.  
   
-4. Make sure a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  license is **not** assigned to this user, and then click **Save**.  
+4. Make sure a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license is **not** assigned to this user, and then click **Save**.  
   
    > [!IMPORTANT]
    > Unlicensed [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global and Service administrators have access to the *administrative* areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. However, if the administrator also needs access to additional areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] you must select a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license for the user.  

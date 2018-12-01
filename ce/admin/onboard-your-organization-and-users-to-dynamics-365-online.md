@@ -421,7 +421,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
   
 <a name="Office"></a>   
-### Use Office apps with Dynamics 365 for Customer Engagement apps  
+### Use Office apps with Dynamics 365 for Customer Engagement apps 
  [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps works with many Office apps in addition to [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. Working with familiar tools improves user adoption and productivity.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]

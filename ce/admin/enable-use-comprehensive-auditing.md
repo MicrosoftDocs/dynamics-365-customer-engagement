@@ -71,7 +71,7 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Create, read, update, delete (CRUD)     |Logging all CRUD activities essential for understanding the impact of a problem and being compliant with data protection impact assessments (DPIA). |
 |Multiple record view     |Users of Dynamics view information in bulk, like grid views, Advanced Find search, etc. Critical customer content information is part of these views.|
 |Export to Excel     |Exporting data to Excel moves the data outside of the secure environment and is vulnerable to threats.|
-|SDK calls via surround or custom apps     |Actions taken via the core platform or surround apps calling into the SDK to perform an action needs to be logged.|
+|SDK calls via surround or custom apps    |Actions taken via the core platform or surround apps calling into the SDK to perform an action needs to be logged.|
 |All support CRUD activities     |Microsoft support engineer activities on customer environment.|
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
@@ -100,7 +100,7 @@ The following Microsoft Social Engagement (MSE) entities and actions are logged.
 |Social Profile   |Create, Update, Reauthenticate, Delete   |
 |User   |Edit Role, E-mail   |
 |Azure Event Hubs   |Create, Update, Delete   |
-|Dynamics 365 for Customer Engagement apps   |Create, Update, Refresh, Delete   |
+|Dynamics 365 for Customer Engagement apps  |Create, Update, Refresh, Delete   |
 |Allowed Domain   |Add, Delete   |
 |Automation Rule   |Create, Update, Delete   |
 |AR Notification   |Enable, Disable   |
@@ -143,7 +143,7 @@ The Dynamics 365 for Customer Engagement apps schema contains fields specific to
 |EntityId     |Edm.Guid        |No         |Unique identifier of the entity          |
 |EntityName     |Edm.String         |No         |Name of the entity in the Dynamics 365 for Customer Engagement apps organization          |
 |Fields     |Edm.String          |No         |JSON of Key Value pair reflecting the values that were created or updated         |
-|Id     |Edm.String          |No         |Entity name in Dynamics 365 for Customer Engagement apps          |
+|Id     |Edm.String          |No         |Entity name in Dynamics 365 for Customer Engagement apps         |
 |Query     |Edm.String         |No         |The Filter query parameters used while executing the FetchXML          |
 |QueryResults     |Edm.String         |No         |One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call          |
 |ServiceContextId     |Edm.Guid         |No         |The unique id associated with service context          |

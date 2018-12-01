@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
+Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
  You can use two types of teams:  
   
@@ -41,7 +41,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
 - Your organization’s policies require the ability for records to be owned by entities other than users, such as the team entity.  
   
-- The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  system.  
+- The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps system.  
   
 - Daily reporting on progress by owning teams is required.  
   
@@ -49,7 +49,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
 - The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume are not provided.  
   
-- The number of teams is not known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  system.  
+- The number of teams is not known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps system.  
   
 - The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write, and Share access rights on the same account.  
   

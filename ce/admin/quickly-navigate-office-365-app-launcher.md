@@ -44,7 +44,7 @@ search.app:
 > [!NOTE]
 > **TIP**: If you've just started a trial or upgraded to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)], you might need to refresh or open a new browser session to see your apps. There might be a delay for your instance to fully provision.  
 > 
->  For [!INCLUDE[pn_CRM_Online_Government_Full](../includes/pn-crm-online-government-full.md)] subscriptions, the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher will take users to either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  or the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Admins will go to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+>  For [!INCLUDE[pn_CRM_Online_Government_Full](../includes/pn-crm-online-government-full.md)] subscriptions, the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher will take users to either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps or the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Admins will go to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
   
 <a name="BKMK_SelectAdminFromAppLaunch"></a>   
 ## For admins: Get to the admin center through the Office 365 app launcher  
@@ -72,7 +72,7 @@ search.app:
  See the next section to see what you can do with the home page.  
   
 <a name="BKMK_ViewApps"></a>   
-### View your apps  
+### View your apps 
  Any [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] app for which you have a license appears as an app module tile on this page. If you have multiple instances of an app, select the tile for the instance you want to open.  
   
  In this example, there are two instances of [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] displayed.  
@@ -101,7 +101,7 @@ search.app:
 > -   [Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)  
   
 <a name="BKMK_PinApps"></a>   
-### Pin your frequently-used apps  
+### Pin your frequently-used apps 
  For companies with lots of [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] apps, you can do a variety of things to make the home page more manageable.  For example, pin your frequently-used apps to the top of your page.  
   
 1. Select the app on the home page.  
@@ -121,7 +121,7 @@ search.app:
    Pinned in the task pane.  
   
 <a name="BKMK_SearchApps"></a>   
-### Search your apps  
+### Search your apps 
  If you have a lot of apps, you can search for specific ones.  
   
  ![Search for Dynamics 365 for Customer Engagement apps apps](../admin/media/search-dynamics-365-apps.png "Search for Dynamics 365 for Customer Engagement apps apps")  

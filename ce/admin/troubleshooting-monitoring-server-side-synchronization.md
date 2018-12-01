@@ -81,7 +81,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  **Cause:**  
   
- This error will occur if a user is configured to use the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile but their email address has not been approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator. A user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] needs to approve the email address for each user that uses the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile. The [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile uses server-to-server authentication between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. This authentication is dependent on a trust between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. By verifying the email address in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] will be able to send and receive email for that user without the need to provide any email credentials within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
+ This error will occur if a user is configured to use the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile but their email address has not been approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator. A user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] needs to approve the email address for each user that uses the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile. The [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile uses server-to-server authentication between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. This authentication is dependent on a trust between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. By verifying the email address in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] will be able to send and receive email for that user without the need to provide any email credentials within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
  **Solution:**  
   
@@ -161,7 +161,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
 4.  Click **Save** > **Publish**.  
   
 ### Appointments, contacts, and tasks can't be synchronized  
- **Alert:** Appointments, contacts, and tasks can't be synchronized because the email address of the mailbox \<Mailbox Name> is configured with another [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  organization. The best practice is to overwrite the configuration when you test and enable the mailbox in your primary organization. Also, change the synchronization method for your mailbox in non-primary organizations to None.  
+ **Alert:** Appointments, contacts, and tasks can't be synchronized because the email address of the mailbox \<Mailbox Name> is configured with another [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. The best practice is to overwrite the configuration when you test and enable the mailbox in your primary organization. Also, change the synchronization method for your mailbox in non-primary organizations to None.  
   
  **Solution:**  
   
@@ -174,7 +174,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
 <a name="BKMK_SSSGmail"></a>   
 
 ### Email fails to be sent or received when server-side synchronization is configured with Gmail  
- If [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  is configured to use Server-Side Synchronization with Gmail, you may encounter one of the following errors:  
+ If [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is configured to use Server-Side Synchronization with Gmail, you may encounter one of the following errors:  
   
 -   Email cannot be received for the mailbox \<Mailbox Name>. Make sure that the credentials specified in the mailbox are correct and have sufficient permissions for receiving email. Then, enable the mailbox for email processing.  
   
@@ -231,7 +231,7 @@ Review the troubleshooting steps in this topic and if the issue is successfully 
   
 - [!INCLUDE[pn_ms_Exchange_Server_2003_short](../includes/pn-ms-exchange-server-2003-short.md)] and [!INCLUDE[pn_ms_Exchange_Server_2007_short](../includes/pn-ms-exchange-server-2007-short.md)].  
   
-- Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
+- Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
   
 For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md)  
   
@@ -255,7 +255,7 @@ Result: the appointment is not created in [!INCLUDE [pn-crm-shortest](../include
   
 This is a known issue and is not supported. If the organizer is someone outside of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization, a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user who is an invitee can still track the appointment and have the record created in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
    
-### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement apps  
+### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement apps 
  Changes made to Service Appointments and Activities in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps will update in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] when you synchronize but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Service appointments are scheduled by an agent and need free/busy information for resources available only in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 ### Be aware of Exchange Online receiving and sending limits  

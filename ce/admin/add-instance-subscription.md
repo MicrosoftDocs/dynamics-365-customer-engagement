@@ -26,9 +26,9 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
+You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  Professional user license subscription.  
+ Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional user license subscription.  
   
  You must have the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] Global administrator to do these tasks. For more information, see [Assigning administrator roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
@@ -40,9 +40,9 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
   ![Select an app to configure your instance](../admin/media/select-app-configure-instance.png "Select an app to configure your instance")  
   
-- **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  application.  
+- **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application.  
   
-- **URL**. The URL is used to construct the URL for users to sign-in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  application. Therefore, we recommend that you limit the length of URL name to reduce the overall length of the URL.  
+- **URL**. The URL is used to construct the URL for users to sign-in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application. Therefore, we recommend that you limit the length of URL name to reduce the overall length of the URL.  
   
 - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the instance picker, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments you can enter *Contoso Sales and Marketing* or if the instance is for development and for testing purposes enter a relevant name such as *Contoso Development*.  
   
@@ -54,9 +54,9 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
 - **Country/Region**. You can specify a region for the instance.  
   
   > [!NOTE]
-  >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+  >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
-- **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  application, only the base currency will be used for reporting.  
+- **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application, only the base currency will be used for reporting.  
   
     > [!WARNING]
     >  Once set, the base currency cannot be changed.  
@@ -93,11 +93,11 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
    > 
    >  You cannot start a new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance until you click **Configure** and complete the configuration process.  
    > 
-   > [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances will not come prepared with sample data when configured by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator who does not have a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  System administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
+   > [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances will not come prepared with sample data when configured by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator who does not have a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps System administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
   
 5. On the **configure new instance** page, enter your settings, and then click **Next**.  
   
-6. On the **Confirm some details** page, verify that the country/region and currency displayed are correct. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  application, only the base currency will be used for reporting.  
+6. On the **Confirm some details** page, verify that the country/region and currency displayed are correct. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application, only the base currency will be used for reporting.  
   
    > [!WARNING]
    >  After a base currency is selected it cannot be changed.  
@@ -146,7 +146,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
 - You cannot make security groups members of other security groups.
 
 > [!NOTE]
->  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 for Customer Engagement apps (online)](../admin/grant-users-access.md).  
+>  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 for Customer Engagement apps (online)](../admin/grant-users-access.md).  
   
 ### Create a security group and add members to the security group  
   
@@ -184,11 +184,11 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
 3. In **security settings**, search for a specific security group, and then click **Next** > **Save**.  
   
 > [!TIP]
->  To force an immediate synchronization between the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , do the following:  
+>  To force an immediate synchronization between the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, do the following:  
 > 
-> - Sign out of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
-> - Close all open browsers used for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
-> - Sign back in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
+> - Sign out of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
+> - Close all open browsers used for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
+> - Sign back in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
   
 ### See also  
  [Edit properties of an instance](../admin/edit-properties-instance.md)   

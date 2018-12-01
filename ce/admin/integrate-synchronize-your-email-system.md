@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  is to store all customer communications in one place, so anyone with the appropriate permissions can see all relevant customer records. For example, view all email associated with a particular contact, account, opportunity, or case.  
+One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is to store all customer communications in one place, so anyone with the appropriate permissions can see all relevant customer records. For example, view all email associated with a particular contact, account, opportunity, or case.  
   
  To store email and other messaging records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, you need to synchronize your email system with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You can do this with server-side synchronization. 
    

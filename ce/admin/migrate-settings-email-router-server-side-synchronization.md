@@ -26,12 +26,12 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 > [!NOTE]
-> The Microsoft Dynamics CRM Email Router has been deprecated and was removed in version 9.0 of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . To prepare for this change, we strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 
+> The Microsoft Dynamics CRM Email Router has been deprecated and was removed in version 9.0 of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. To prepare for this change, we strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 
 
-Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
+Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
   
 > [!NOTE]
->  An organization can only use either the Email Router or server-side synchronization to process email. You can define what to use in the **Email** tab of System Settings in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . If you select server-side synchronization, the Email Router stops functioning for the organization.  
+>  An organization can only use either the Email Router or server-side synchronization to process email. You can define what to use in the **Email** tab of System Settings in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. If you select server-side synchronization, the Email Router stops functioning for the organization.  
 > 
 >  To switch from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] synchronization to server-side synchronization, simply change the synchronization method in mailbox records to server-side synchronization. That’s all you have to do to make the change from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization to server-side synchronization.  
 

@@ -1,5 +1,5 @@
 ---
-title: "Configure date settings for demo data for Dynamics 365 for Customer Engagement apps  | MicrosoftDocs"
+title: "Configure date settings for demo data for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/20/2017
 ms.reviewer: ""

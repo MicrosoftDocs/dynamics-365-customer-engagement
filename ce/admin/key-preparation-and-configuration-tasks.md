@@ -25,16 +25,16 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This topic, which is intended for administrators and business users of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , even before your business begins to use it.  
+This topic, which is intended for administrators and business users of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, even before your business begins to use it.  
   
 <a name="bkmk_commonconfig"></a>   
 
 ## Common configuration settings for Internet Explorer  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  is a web-based application and uses web browsers, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], as the user interface to view, add, or edit information that you’ve stored in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps database. Make the following common [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] configuration settings to optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps experience.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is a web-based application and uses web browsers, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], as the user interface to view, add, or edit information that you’ve stored in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps database. Make the following common [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] configuration settings to optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps experience.  
   
  **Increase disk space for temporary Internet files**  
   
- To make sure that Internet files for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  are not being deleted, increase the disk space for temporary Internet files.  
+ To make sure that Internet files for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps are not being deleted, increase the disk space for temporary Internet files.  
   
 1. Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
   
@@ -52,9 +52,9 @@ To optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] ap
   
 2. Click or tap the **General** tab, and in the **Browsing history** section, make sure that the **Delete browsing history on exit** check box is cleared.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
   
    **If you experience slower performance in Internet Explorer**  
   
@@ -140,7 +140,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
 <a name="bkmk_antivirusormalware"></a>   
 
 ## Antivirus or malware application settings  
- Depending on your antivirus or malware application settings, virus scanning can block certain files, making them inaccessible to other applications and causing an adverse effect on [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  performance.  
+ Depending on your antivirus or malware application settings, virus scanning can block certain files, making them inaccessible to other applications and causing an adverse effect on [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps performance.  
   
  Each environment requires a thoughtful decision on what to include and exclude, and there is always a possibility that excluding files from scans could lead to unwanted consequences. Use the following list alongside your well-planned internal IT management policies:  
   
@@ -154,8 +154,8 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 <a name="bkmk_importantemail"></a>   
 
-## Important email messages from Microsoft Dynamics 365 for Customer Engagement apps  
- Microsoft occasionally sends out email messages to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  users or administrators. These messages provide information about how to use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and also contain important billing or upgrade details.  
+## Important email messages from Microsoft Dynamics 365 for Customer Engagement apps 
+ Microsoft occasionally sends out email messages to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps users or administrators. These messages provide information about how to use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and also contain important billing or upgrade details.  
   
  Make sure that the following email addresses are added to the allowed list for your email application:  
   
@@ -168,11 +168,11 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
 <a name="bkmk_availableresources"></a>   
 
 ## Available resources for Microsoft Dynamics 365 for Customer Engagement apps users  
- We want you and your organization to take full advantage of the extensive content and materials available that can help your business be more successful while you are using [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . For a list of available resources, including training materials and information about how to support your online organization, see the [Help and additional resources](help-additional-resources.md).  
+ We want you and your organization to take full advantage of the extensive content and materials available that can help your business be more successful while you are using [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. For a list of available resources, including training materials and information about how to support your online organization, see the [Help and additional resources](help-additional-resources.md).  
   
 <a name="bkmk_techsupp"></a>   
 
-## Technical support for Microsoft Dynamics 365 for Customer Engagement apps  
+## Technical support for Microsoft Dynamics 365 for Customer Engagement apps 
  If you cannot find the answers you need in the resources discussed earlier, you can submit a technical support request to [!INCLUDE[pn_ms_Customer_Support_Services](../includes/pn-ms-customer-support-services.md)]. Technical support incidents provide reactive support that focuses on a specific problem, error message, or functionality that is not working as intended. For assistance information, see [Support](http://go.microsoft.com/fwlink/p/?LinkID=394391).  
   
 ### Maximize your technical support experience  
@@ -186,7 +186,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
    Provide detailed information, including the exact error message that you are seeing. Include a screen capture if you can.  
   
-- What were you doing in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  when the error occurred?  
+- What were you doing in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps when the error occurred?  
   
    Provide the exact steps that you are performing to reproduce the error. This lets the Support team better analyze why you may be experiencing it.  
   
@@ -194,16 +194,16 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
    Provide the version of the operating system, browser, and if applicable, the version of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] on the computers where the issue is occurring.  
   
-- Does the issue affect all users or a certain type of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  security role or only certain users?  
+- Does the issue affect all users or a certain type of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security role or only certain users?  
   
   When possible, provide log files (if you know how to find them). This applies to applications such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. The following table lists the location of the log or trace files for these applications.  
   
 |                                                                                     |                                                                      |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 |                                 **Logs or Traces**                                  |                        **Log File Location**                         |
-|    [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
-| [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
-|   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
+|    [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
+| [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
+|   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
   
 ### See also  
  [Set up a Dynamics 365 for Customer Engagement apps organization](../admin/set-up-a-dynamics-365-organization.md)

@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  application. 
+New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps application. 
 
 > [!IMPORTANT]
 > These security enhancements are also available for:
@@ -43,11 +43,11 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Security Enhancements: User session management](https://youtu.be/9eR8hP6S-YM).  
 
 ## User session timeout
-By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
+By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
 
 You can change this behavior.
 
-- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .
+- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 
 > [!NOTE]
 > User session timeout is not enforced in the following:
@@ -58,7 +58,7 @@ You can change this behavior.
 
 ## Configure session timeout 
 
-1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , choose **Settings** > **Administration** > **System Settings** > **General** tab.
+1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, choose **Settings** > **Administration** > **System Settings** > **General** tab.
 2. Under **Set session timeout**, set the values to apply to all your users.
 
 > [!NOTE]
@@ -69,9 +69,9 @@ You can change this behavior.
 
 ## Inactivity timeout
 
-By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  does not enforce an inactivity session timeout.  A user can remain logged in the application until the session timeout expires.  You can change this behavior.
+By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps does not enforce an inactivity session timeout.  A user can remain logged in the application until the session timeout expires.  You can change this behavior.
 
-- To enforce users to automatically signed out after a pre-determined period of inactivity, admins can set an inactivity timeout period for each of their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instances. The application signs out the user when the inactivity session expires.
+- To enforce users to automatically signed out after a pre-determined period of inactivity, admins can set an inactivity timeout period for each of their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances. The application signs out the user when the inactivity session expires.
 
 > [!NOTE]
 > Inactivity session timeout is not enforced in the following:
@@ -82,11 +82,11 @@ By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  does n
 
 To enforce the inactivity session timeout for Web Resources, Web Resources need to include the ClientGlobalContext.js.aspx file in their solution.
 
-The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  portal has its own settings to manage its session timeout and inactivity session timeout independent of these system settings.
+The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps portal has its own settings to manage its session timeout and inactivity session timeout independent of these system settings.
 
 ## Configure inactivity timeout
 
-1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , choose **Settings** > **Administration** > **System Settings** > **General tab**.
+1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, choose **Settings** > **Administration** > **System Settings** > **General tab**.
 2. Under **Set inactivity timeout**, set the values to apply to all your users.
 
 > [!NOTE]
@@ -96,10 +96,10 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  portal has its
 
 ## Access management
 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  uses Azure Active Directory as the identity provider.  To secure the user’s access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , the following were implemented:
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps uses Azure Active Directory as the identity provider.  To secure the user’s access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the following were implemented:
 
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
-- To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .
+- To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 
 ## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
 

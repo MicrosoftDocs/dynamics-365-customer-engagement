@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-To improve accessibility when reading and editing email in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
+To improve accessibility when reading and editing email in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
 
 ## For admins: Install the app
 

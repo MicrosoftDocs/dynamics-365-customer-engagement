@@ -1,5 +1,5 @@
 ---
-title: "Free storage space in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Free storage space in Dynamics 365 for Customer Engagement apps |  MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/09/2018
 ms.reviewer: ""
@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-These are ways to reduce the amount of storage space used by removing or deleting different types of information from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . Use one or more of these methods to control your total data storage usage with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
+These are ways to reduce the amount of storage space used by removing or deleting different types of information from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Use one or more of these methods to control your total data storage usage with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
   
 > [!WARNING]
 >  The suggestions in this topic include deleting notes, attachments, import history, and other data. Before you delete data, be sure that the data is no longer needed because you cannot retrieve deleted data. There is no “undo” to restore your data once it has been deleted. This means it may make more sense for you to increase the amount of storage space you have with your [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)] instead of reducing the amount of storage space used.  
 > 
 > [!NOTE]
->  Except for methods 3 and 5, all these methods require that you have an administrator [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  security role, such as System Administrator. This gives you permission to delete records in bulk and to delete system jobs.  
+>  Except for methods 3 and 5, all these methods require that you have an administrator [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps scurity role, such as System Administrator. This gives you permission to delete records in bulk and to delete system jobs.  
 >
 >  After performing actions to free up storage, the system can take up to 24 hours to update storage information. We recommend waiting up to 24 hours and monitoring your storage.  
   
@@ -70,7 +70,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -109,7 +109,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ## Method 3: Remove email attachments using Advanced Find  
   
 > [!WARNING]
->  If you delete this data, the attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
+>  If you delete this data, the attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
   
 1. Choose **Advanced Find**.  
   
@@ -129,7 +129,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ## Method 4: Remove email messages with attachments using a bulk deletion job  
   
 > [!WARNING]
->  If you delete this data, the email messages and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
+>  If you delete this data, the email messages and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
@@ -159,7 +159,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -171,7 +171,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ## Method 5: Remove notes with attachments using Advanced Find  
   
 > [!WARNING]
->  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+>  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 1. Choose **Advanced Find**.  
   
@@ -191,7 +191,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ## Method 6: Remove notes with attachments using a bulk deletion job  
   
 > [!WARNING]
->  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+>  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
@@ -217,7 +217,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -270,7 +270,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -314,7 +314,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -324,7 +324,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 <a name="BKMK_Method10"></a>   
 ## Method 10: Delete audit logs  
- When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  creates audit logs to store the audit history of the records. You can delete these audit logs to free space when they are no longer needed.  
+ When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps creates audit logs to store the audit history of the records. You can delete these audit logs to free space when they are no longer needed.  
   
 > [!WARNING]
 >  When you delete an audit log, you can no longer view the audit history for the period covered by that audit log.  
@@ -343,4 +343,4 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)   
- [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](manage-online-instances.md)
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps online) instances](manage-online-instances.md)

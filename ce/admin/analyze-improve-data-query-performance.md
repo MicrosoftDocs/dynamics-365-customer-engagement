@@ -39,7 +39,7 @@ You can analyze and optimize query performance using the Data Performance view, 
 -   Depending on the number of tables related to the entity, some entities cannot have more than twenty optimizations.  
   
 > [!NOTE]
->  The Data Performance feature is available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
+>  The Data Performance feature is available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
 ## Use the All Data Performance Logs view to apply or remove an optimization  
   
@@ -59,7 +59,7 @@ You can analyze and optimize query performance using the Data Performance view, 
   
 3. Select the entity that you want to create an optimization for, and then click **OPTIMIZE**.  To remove an applied optimization, click **REMOVE OPTIMIZATION**.  
   
-   Optimizations take effect immediately after they are applied. However, for entities that have large tables, it can take two or more hours before the optimization fully takes effect. Optimizations are processed as an asynchronous process and can be viewed in the **Settings** > **System Jobs** area of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . Notice that an optimization may not be completely applied even after the system job is completed because the actual index must be built in the back-end storage engine.  
+   Optimizations take effect immediately after they are applied. However, for entities that have large tables, it can take two or more hours before the optimization fully takes effect. Optimizations are processed as an asynchronous process and can be viewed in the **Settings** > **System Jobs** area of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Notice that an optimization may not be completely applied even after the system job is completed because the actual index must be built in the back-end storage engine.  
   
 ### See also  
  [Performance tuning and optimization](../admin/performance-tuning-and-optimization.md)   

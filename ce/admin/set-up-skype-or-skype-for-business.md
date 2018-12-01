@@ -25,11 +25,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , your organization can benefit from these capabilities:  
+When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, your organization can benefit from these capabilities:  
   
-- Real-time communications with customers, colleagues, and team members without leaving [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . Click or tap a person’s phone number to call them.  
+- Real-time communications with customers, colleagues, and team members without leaving [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Click or tap a person’s phone number to call them.  
   
-- Track meetings as Activities in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+- Track meetings as Activities in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 - Get Presence information for members of the same email domain you are signed in with in [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
@@ -37,7 +37,7 @@ When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.
   
 ## Set up Skype in Microsoft Dynamics 365 for Customer Engagement apps (online)  
   
-1. Verify that IM presence is enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . Go to **Settings** > **Administration** > **System Settings** > **General tab**.  
+1. Verify that IM presence is enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Go to **Settings** > **Administration** > **System Settings** > **General tab**.  
   
    ![Set the IM presence option](../admin/media/crm-itpro-crmo365tg2-presencesetting.png "Set the IM presence option")  
   

@@ -53,9 +53,9 @@ To maintain the integrity of your data, it’s a good idea to set up duplicate d
        > [!IMPORTANT]
        >  Duplicates aren’t detected when a user merges two records, activates or deactivates a record, or saves a completed activity.  
   
-   - **When [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] goes from offline to online**  
+   - **When [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] goes from offline to online**  
   
-        For users of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], the system detects duplicates when the user synchronizes their data after working offline, as long as users have enabled duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. To enable duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], choose **File > Dynamics 365 for Customer Engagement apps > Options**. Choose the **Local Data** tab, and then select the **Enable duplicate detection during offline to online synchronization** check box.  
+        For users of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], the system detects duplicates when the user synchronizes their data after working offline, as long as users have enabled duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. To enable duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], choose **File** > **Dynamics 365**  > **Options**. Choose the **Local Data** tab, and then select the **Enable duplicate detection during offline to online synchronization** check box.  
   
    - **During data import**  
   

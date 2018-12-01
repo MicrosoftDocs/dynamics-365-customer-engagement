@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  gives you the following options to access [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data:  
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps gives you the following options to access [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data:  
   
 - Web browser. No need to install anything to run [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from a computer running a supported web browser.  
 
@@ -40,7 +40,7 @@ search.app:
  Users can work in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] by using a supported browser on a mobile device, or by using [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)]. For more information about the mobile experience in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], see [Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
 ## Microsoft Office requirements  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  leverages the capabilities of on-premises versions of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] or [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] and integrates with [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. For more information about the supported versions of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)], see [Supported versions of Office](web-application-requirements.md#supported-versions-of-office).  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps leverages the capabilities of on-premises versions of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] or [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] and integrates with [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. For more information about the supported versions of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)], see [Supported versions of Office](web-application-requirements.md#supported-versions-of-office).  
   
  [!INCLUDE[cc_Office365PlanRequirement](../includes/cc-office365planrequirement.md)]  
   

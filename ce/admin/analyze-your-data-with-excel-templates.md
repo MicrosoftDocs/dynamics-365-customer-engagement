@@ -118,7 +118,7 @@ search.app:
   
  [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can use the Settings page to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
   
-#### For admins: Upload the Excel template into Dynamics 365 for Customer Engagement apps  
+#### For admins: Upload the Excel template into Dynamics 365 for Customer Engagement apps 
   
 1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, go to **Settings** > **Templates** > **Document Templates**.  
   
@@ -132,7 +132,7 @@ search.app:
   
    Non-admin users can upload a template for their own use from a list of records.  
   
-#### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365 for Customer Engagement apps  
+#### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365 for Customer Engagement apps 
   
 1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, open a page with a list of records, for example, the list of Sales Opportunities. Go to **Sales** > **Opportunities** > **My Open Opportunities**.  
   

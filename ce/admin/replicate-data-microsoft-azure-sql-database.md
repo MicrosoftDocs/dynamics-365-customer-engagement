@@ -25,12 +25,12 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps -[!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is an add-on service made available on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] that adds the ability to replicate [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  data to a [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)] store in a customer-owned [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription. The supported target destinations are [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)] and [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] virtual machines.  The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] intelligently synchronizes the entire [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data initially and thereafter synchronizes on a continuous basis as changes occur (delta changes) in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  system. This helps enable several analytics and reporting scenarios on top of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] data and analytics services and opens up new possibilities for customers and partners to build custom solutions.  
+The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps -[!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is an add-on service made available on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] that adds the ability to replicate [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps data to a [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)] store in a customer-owned [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription. The supported target destinations are [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)] and [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] virtual machines.  The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] intelligently synchronizes the entire [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data initially and thereafter synchronizes on a continuous basis as changes occur (delta changes) in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps system. This helps enable several analytics and reporting scenarios on top of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] data and analytics services and opens up new possibilities for customers and partners to build custom solutions.  
   
 > [!NOTE]
 >  You can use the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] with:  
 > 
-> - [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps   
+> - [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  
 > - [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]  
   
 For information about the programmatic interface for managing configuration and administration of the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)], see [Data Export Service](../developer/data-export-service.md).
@@ -82,9 +82,9 @@ For information about the programmatic interface for managing configuration and 
   
 - Grant PermissionsToSecrets permission to the application with the id "b861dbcc-a7ef-4219-a005-0e4de4ea7dcf." This can be completed by running the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] command below and is used to access the Key Vault that contains the connection string secret. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to set up Azure Key Vault](#SetupAzureKV)  
   
-- The Key Vault should be tagged with the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  organization (OrgId) and tenant ids (TenantId).  This can be completed by running the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] command below. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to set up Azure Key Vault](#SetupAzureKV)  
+- The Key Vault should be tagged with the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization (OrgId) and tenant ids (TenantId).  This can be completed by running the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] command below. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to set up Azure Key Vault](#SetupAzureKV)  
   
-### [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps   
+### [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  
   
 - A [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] or later version instance.  
   
@@ -92,7 +92,7 @@ For information about the programmatic interface for managing configuration and 
   
 - The entities that will be added to the Export Profile must be enabled with change tracking. To ensure a standard or custom entity can be synchronized go to **Customization** > **Customize the System**, and then click the entity. On the **General** tab make sure the **Change Tracking** option under the **Data Services** section is enabled.  
   
-- You must have the System Administrator security role in the instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
+- You must have the System Administrator security role in the instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
 ### Web browser  
  Enable pop-ups for the domain https://discovery.crmreplication.azure.net/ in your web browser. This is required for auto-sign in when you navigate to Settings > Data Export.  
@@ -101,7 +101,7 @@ For information about the programmatic interface for managing configuration and 
 ## Services, credentials, and privileges required  
  To use the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] feature, you must have the following services, credentials, and privileges.  
   
-- A [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  subscription. Only users that are assigned the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  System Administrator security role can set up or make changes to an Export Profile.  
+- A [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Only users that are assigned the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps System Administrator security role can set up or make changes to an Export Profile.  
   
 - [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription that includes the following services.  
   
@@ -110,14 +110,14 @@ For information about the programmatic interface for managing configuration and 
   - [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  
   
 > [!IMPORTANT]
->  To use the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  and [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] services must operate under the same tenant and within the same [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Azure integration with Office 365](https://support.office.com/article/Azure-integration-with-Office-365-a5efce5d-9c9c-4190-b61b-fd273c1d425f)  
+>  To use the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] services must operate under the same tenant and within the same [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Azure integration with Office 365](https://support.office.com/article/Azure-integration-with-Office-365-a5efce5d-9c9c-4190-b61b-fd273c1d425f)  
 > 
->  The [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)] service can be in the same or a different tenant from the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  service.  
+>  The [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)] service can be in the same or a different tenant from the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps service.  
   
 <a name="shouldknowDES"></a>   
 ## What you should know before using the Data Export Service  
   
-- Export Profiles must be deleted and then re-created whenever you perform any of the following actions on a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance. 
+- Export Profiles must be deleted and then re-created whenever you perform any of the following actions on a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance. 
   - Restore an instance.
   - Copy (either full or minimal) an instance.
   - Reset an instance.
@@ -125,11 +125,11 @@ For information about the programmatic interface for managing configuration and 
 
   To do this, delete the Export Profile in the EXPORT PROFILES view, then delete the tables and stored procedures, and then create a new profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to delete all Data Export Profile tables and stored procedures](#Delete_DEP)  
   
-- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] doesn’t work for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  sandbox instances that are configured with **Enable administration mode** turned on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administration mode](manage-sandbox-instances.md#administration-mode)  
+- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] doesn’t work for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps sandbox instances that are configured with **Enable administration mode** turned on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administration mode](manage-sandbox-instances.md#administration-mode)  
 
 - The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] does not drop (delete) the associated tables, columns, or stored procedure objects in the destination Azure SQL database when the following actions occur.
-  - An entity is deleted in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .
-  - A field is deleted in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .
+  - An entity is deleted in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
+  - A field is deleted in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
   - An entity is removed from an Export Profile.
    
     These items must be dropped manually.  [How to delete Data Export Profile tables and stored procedures for a specific entity](#drop_entity)
@@ -137,13 +137,13 @@ For information about the programmatic interface for managing configuration and 
   
 <a name="dataexportprofile"></a>   
 ## Export Profile  
- To export data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  administrator creates an Export Profile.  Multiple profiles can be created and activated to synchronize data to different destination databases simultaneously.  
+ To export data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps administrator creates an Export Profile.  Multiple profiles can be created and activated to synchronize data to different destination databases simultaneously.  
   
- The Export Profile is the core concept of  the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]. The Export Profile gathers set up and configuration information to synchronize data with the destination database. As part of the Export Profile, the administrator provides a list of entities to be exported to the destination database. Once activated, the Export Profile starts the automatic synchronization of data. Initially, all data that corresponds to each selected entity is exported. Thereafter, only the changes to data as they occur to the entity records or metadata in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  are synchronized continuously using a push mechanism in near real time. Therefore, you don’t need to set up a schedule to retrieve data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .  
+ The Export Profile is the core concept of  the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]. The Export Profile gathers set up and configuration information to synchronize data with the destination database. As part of the Export Profile, the administrator provides a list of entities to be exported to the destination database. Once activated, the Export Profile starts the automatic synchronization of data. Initially, all data that corresponds to each selected entity is exported. Thereafter, only the changes to data as they occur to the entity records or metadata in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps are synchronized continuously using a push mechanism in near real time. Therefore, you don’t need to set up a schedule to retrieve data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
- Only entities that have change tracking enabled can be added to the Export Profile. Notice that, most of the standard [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  entities which capture data are change tracking enabled. Custom entities must be explicitly enabled for change tracking before you can add them to an Export Profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable change tracking to control data synchronization](../admin/enable-change-tracking-control-data-synchronization.md)  
+ Only entities that have change tracking enabled can be added to the Export Profile. Notice that, most of the standard [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps entities which capture data are change tracking enabled. Custom entities must be explicitly enabled for change tracking before you can add them to an Export Profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable change tracking to control data synchronization](../admin/enable-change-tracking-control-data-synchronization.md)  
   
- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] does both metadata and data synchronization. Each entity translates into one table, and each field translates into a column in the destination database table. Table and column names use the schema name of the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  metadata.  
+ The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] does both metadata and data synchronization. Each entity translates into one table, and each field translates into a column in the destination database table. Table and column names use the schema name of the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps metadata.  
   
  Once activated, an Export Profile gathers statistics for data synchronization that helps in operational visibility and diagnostics of the data exported.  
   
@@ -165,17 +165,17 @@ For information about the programmatic interface for managing configuration and 
 ## Create an Export Profile  
  Ensure that following requirements are met before creating an Export Profile.  
   
-- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] solution is installed in your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance.  
+- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] solution is installed in your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance.  
   
 - Maintain the [!INCLUDE[pn-sql](../includes/pn-sql.md)] Database connection string in the Key Vault and copy the Key Vault URL to provide in the Export Profile. More information: [Azure: Get started with Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started/)  
   
 - The entities to be added to the Export Profile are enabled for change tracking. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable change tracking to control data synchronization](../admin/enable-change-tracking-control-data-synchronization.md)  
   
-- Your [!INCLUDE[pn-sql](../includes/pn-sql.md)] Database service has enough storage space to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  data.  
+- Your [!INCLUDE[pn-sql](../includes/pn-sql.md)] Database service has enough storage space to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps data.  
   
-- You are a System Administrator in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance.  
+- You are a System Administrator in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance.  
   
-1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , go to **Settings** > **Data Export**.  
+1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, go to **Settings** > **Data Export**.  
   
 2. Review the notice, and click **Continue** or **Cancel** if you don't want to export data.  
   
@@ -272,7 +272,7 @@ For information about the programmatic interface for managing configuration and 
    >   - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
    >   - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
   
-   1. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance and go to **Settings** > **Data Export**.  
+   1. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance and go to **Settings** > **Data Export**.  
   
    2. Open the Export Profile that includes record synch failures.  
   
@@ -379,12 +379,12 @@ The statement has been terminated.
   
 ## About data synchronization latency
 
-The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is architected to synchronize data changes to the destination database using a push mechanism by listening to changes as they happen in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . The service strives to push data within a few minutes, but there are number of factors that can influence end-to-end synchronization latency. 
+The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is architected to synchronize data changes to the destination database using a push mechanism by listening to changes as they happen in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. The service strives to push data within a few minutes, but there are number of factors that can influence end-to-end synchronization latency. 
 
 Factors that influence the duration of synchronization include the following: 
 
-- The current work load on [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . 
-- The data change rate in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . 
+- The current work load on [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. 
+- The data change rate in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. 
 - The number of entities added to each export profile and their attributes. 
 - SQL Server performance. For example:
   - SQL connection setup time. 
@@ -413,12 +413,12 @@ When the above conditions are met, 15 minutes is a typical synchronization laten
   
 - $connectionString. The connection string to the [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)]. You can use the ADO.NET connection string as it is displayed in your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] dashboard.  
   
-- $organizationIdList = Comma separated list of allowed [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  organizations, listed by organization Id (organizationId), to enable for [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)].  To find an organization's Id, in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  go to **Settings** > **Customizations** > **Developer Resources**. The organization Id is under **Instance Reference Information**.  
+- $organizationIdList = Comma separated list of allowed [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organizations, listed by organization Id (organizationId), to enable for [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)].  To find an organization's Id, in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps go to **Settings** > **Customizations** > **Developer Resources**. The organization Id is under **Instance Reference Information**.  
   
 - $tenantId.  Specifies the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Id to which the Key Vault subscription.  
   
 > [!IMPORTANT]
->  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription can have multiple [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Ids. Make sure that you select the correct [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Id that is associated with the instance of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  that you will use for data export.  
+>  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription can have multiple [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Ids. Make sure that you select the correct [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Id that is associated with the instance of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps that you will use for data export.  
 
 ```powershell
 # -------------------------------------------------------------------------------- #

@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, its matchcode can be checked automatically against the matchcodes of existing records. By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  has simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
+To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, its matchcode can be checked automatically against the matchcodes of existing records. By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps has simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
   
  Duplicate detection works by comparing generated match codes of existing records with each new record being created. These match codes are created as each new record is created. Therefore, there is potential for one or more duplicate records to be created if they are processed at the exact same moment. In addition to detecting duplicates as they are created, you should schedule duplicate detection jobs to check for other potential duplicate records.  
   
@@ -41,10 +41,10 @@ To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcr
   
  You can detect duplicates:  
   
-- When you create or update records for entities that enabled for duplicate detection. This includes records created with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  web application. The duplicate detection dialog is only displayed for the records created or updated in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user interface (UI). For example, for records created by a workflow, the duplicate detection dialog is not displayed.  
+- When you create or update records for entities that enabled for duplicate detection. This includes records created with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web application. The duplicate detection dialog is only displayed for the records created or updated in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user interface (UI). For example, for records created by a workflow, the duplicate detection dialog is not displayed.  
   
   > [!NOTE]
-  > [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  has the ability to detect duplicates for the updated UI entities when you create or update records using entity forms or grid views in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web application.  
+  > [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps has the ability to detect duplicates for the updated UI entities when you create or update records using entity forms or grid views in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web application.  
   
 - When [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes from offline to online.  
   

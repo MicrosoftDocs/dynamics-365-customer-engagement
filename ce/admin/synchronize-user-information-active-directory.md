@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  supports two methods for authenticating users:  
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps supports two methods for authenticating users:  
   
 - Integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]  
   
 - Claims-based authentication  
   
-By default, customers who purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  and deploy it on-premises use [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]. These customers also can set up claims-based authentication for Internet-facing deployments (IFDs) of the product.  
+By default, customers who purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and deploy it on-premises use [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]. These customers also can set up claims-based authentication for Internet-facing deployments (IFDs) of the product.  
   
 With integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)], each user record in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps must be associated with a user account in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] to enable log on to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. When the user records are associated, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically reads and stores other information about the user record (including the first and last name, the email address, and the globally unique identifier, or GUID) from the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service.  
   
@@ -42,7 +42,7 @@ To ensure that the user can successfully log on to [!INCLUDE [pn-crm-shortest](.
 Before you start, be sure to record the value of the **User SamAccountName logon** attribute for the affected user before updating the corresponding user record in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 > [!NOTE]
->  For information about synchronizing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], see the blog post [How to Synchronize CRM Online with your Active Directory](http://blogs.msdn.com/b/crm/archive/2013/07/18/how-to-synchronize-crm-online-with-your-active-directory.aspx).  
+>  For information about synchronizing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], see the blog post [How to Synchronize CRM Online with your Active Directory](http://blogs.msdn.com/b/crm/archive/2013/07/18/how-to-synchronize-crm-online-with-your-active-directory.aspx).  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

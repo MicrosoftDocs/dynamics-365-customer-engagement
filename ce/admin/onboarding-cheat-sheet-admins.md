@@ -35,7 +35,7 @@ Here are the seven steps to getting your organization on board with Dynamics 365
   
 -   [Integrate (synchronize) your email system](integrate-synchronize-your-email-system.md)
   
-## Step three: Get mobile apps  
+## Step three: Get mobile apps 
   
 -   [Dynamics 365 for Customer Engagement apps for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   

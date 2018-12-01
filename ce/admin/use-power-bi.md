@@ -25,11 +25,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data.  
+The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data.  
   
 <a name="PowerBIGetstarted"></a>   
 ## Get started using Power BI with Dynamics 365 for Customer Engagement apps (online)  
- The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  content packs for [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] cloud service allow you to easily access and analyze your sales, service, or marketing data.  
+ The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps content packs for [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] cloud service allow you to easily access and analyze your sales, service, or marketing data.  
   
  To create a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard using a  content pack, follow these instructions.  
   
@@ -43,22 +43,22 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
    - **Dynamics Marketing**  
   
-3. For the Sales Manager and Service Manager content packs, enter the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance, such as *<https://OrganizationName.crm.dynamics.com>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , and click **Next**.  
+3. For the Sales Manager and Service Manager content packs, enter the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance, such as *<https://OrganizationName.crm.dynamics.com>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, and click **Next**.  
   
    > [!NOTE]
    >  If your data center is outside of North America the crm.dynamics.com domain name may be different, such as crm2.dynamics.com, crm3.dynamics.com, crm4.dynamics.com, etc. To find the domain name, in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web app go to **Settings** > **Customizations** > **Developer Resources**. The URLs listed will indicate the correct domain name.  
   
-    For the Marketing content pack, enter the URL as *<https://OrganizationName.marketing.dynamics.com/analytics>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps , and click **Next**  
+    For the Marketing content pack, enter the URL as *<https://OrganizationName.marketing.dynamics.com/analytics>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, and click **Next**  
   
 4. Under **Authentication method**, select **oAuth2**.  
   
-5. Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  organization data is imported and several visualizations become available.  
+5. Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps organization data is imported and several visualizations become available.  
   
 > [!TIP]
 >  If the content pack you select does not open in your web browser, in the left pane of your Power BI workspace click the content pack under **Dashboards**.  
   
 ### Content packs available for download.  
- The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  content packs support the default out-of-box entities. However, you can customize  the following content packs by downloading the .PBIX file and then using [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to customize the content pack before uploading it to the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service.  
+ The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps content packs support the default out-of-box entities. However, you can customize  the following content packs by downloading the .PBIX file and then using [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to customize the content pack before uploading it to the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service.  
   
 - [Download the Dynamics CRM Online Sales Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
   
@@ -81,7 +81,7 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
 ### Enable [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations in the organization  
   
-1. Sign-in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  as a user with the system administrator security role.  
+1. Sign-in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps as a user with the system administrator security role.  
   
 2. Go to **Settings** > **Administration** > **System Settings**.  
   
@@ -89,13 +89,13 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
 4. Click **OK**.  
   
-To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tiles to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , see [Embed  Power BI tiles on your personal dashboard  ](../basics/add-edit-power-bi-visualizations-dashboard.md#embed--power-bi-tiles-on-your-personal-dashboard).  
+To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tiles to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, see [Embed  Power BI tiles on your personal dashboard  ](../basics/add-edit-power-bi-visualizations-dashboard.md#embed--power-bi-tiles-on-your-personal-dashboard).  
   
-To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , see [Add a Power BI dashboard on your personal dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md).  
+To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, see [Add a Power BI dashboard on your personal dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md).  
   
 <a name="CRMOnline_PBIDesktop"></a>   
-## Use Power BI Desktop to connect directly to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance  
- You can connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to create custom [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps reports and dashboards for use with the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service.  
+## Use Power BI Desktop to connect directly to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance  
+ You can connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to create custom [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps reports and dashboards for use with the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service.  
   
 ### Requirements  
   
@@ -103,7 +103,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
   
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop).  
   
-- [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance  
+- [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance  
   
 ### Connect to [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)]  
   
@@ -111,7 +111,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
   
 2. From the Home tab, click **Get Data**, and then click **More**.  
   
-3. In the Get Data list, select **Dynamics 365 for Customer Engagement apps Online**.  
+3. In the Get Data list, select **Dynamics 365 for Customer Engagement Online**.  
   
 4. Enter the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] OData endpoint URL. It should look similar to this URL, where *OrganizationName* is the name of your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] organization, and **v8.1** is the version. Click **OK**.  
   
@@ -121,18 +121,18 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
 > Currently, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service isn’t compatible with the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 9.0 OData endpoint. When you try to use the version 9.0 OData endpoint with the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service the error message “The feed's metadata document appears to be invalid” is displayed. To work around this incompatibility, use the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 8.2 OData endpoint.For more information about the different endpoint versions, see [Web API URL and versions]( https://msdn.microsoft.com/library/gg334391.aspx#bkmk_url_and_versions).
 > 
 > [!TIP]
->  You can find your OData endpoint URL in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  web client. Go to **Settings** > **Customizations** > **Developer Resources** and locate the URL under **Instance Web API**.  
+>  You can find your OData endpoint URL in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web client. Go to **Settings** > **Customizations** > **Developer Resources** and locate the URL under **Instance Web API**.  
   
 5. In the Access an OData feed dialog click **Organizational account**, and then click **Connect**.  
   
    > [!NOTE]
-   >  If you aren't signed in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance, click **Sign-in** on the Access OData feed dialog before you click Connect.  
+   >  If you aren't signed in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance, click **Sign-in** on the Access OData feed dialog before you click Connect.  
   
 6. The organization database entity tables appear in the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] Navigator window. You can select both default and custom entities. For more information about creating reports with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)], see [Power BI Support: Report View in Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-report-view/).  
   
    ![Select entity table](../admin/media/pbi-select-entity-table.PNG "Select entity table")  
   
    > [!TIP]
-   >  You can use similar steps to connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query by selecting **From Other Sources** on the **Power Query** tab in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+   >  You can use similar steps to connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query by selecting **From Other Sources** on the **Power Query** tab in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
   
 ### See also  

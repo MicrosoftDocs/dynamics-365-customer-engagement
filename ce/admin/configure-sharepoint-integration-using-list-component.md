@@ -30,10 +30,10 @@ If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sh
 > [!WARNING]
 > [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] has removed code-based sandbox solutions. Notice that the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is a sandboxed solution that requires a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sandbox environment.  
 > 
-> - If you're integrating [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for the first time, use server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
+> - If you're integrating [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for the first time, use server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
 > - If you currently use the list component, we strongly recommend that you switch to server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)  
   
-1. Make sure that you meet the requirements to use the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  documentation management feature with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. For more information, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 for Customer Engagement](../admin/sharepoint-document-management-software-requirements.md).  
+1. Make sure that you meet the requirements to use the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps documentation management feature with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. For more information, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 for Customer Engagement](../admin/sharepoint-document-management-software-requirements.md).  
   
 2. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   

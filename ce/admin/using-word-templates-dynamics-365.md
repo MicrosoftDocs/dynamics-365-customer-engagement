@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 
- After you create and import [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] templates into [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , with one click users can generate standardized documents automatically populated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data. This feature has some special considerations you should know about to successfully create [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates.  
+ After you create and import [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] templates into [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, with one click users can generate standardized documents automatically populated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data. This feature has some special considerations you should know about to successfully create [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates.  
 
 > [!TIP]
 > [![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Create documents directly from Dynamics CRM by using Word and Excel templates (2:38)](http://go.microsoft.com/fwlink/p/?LinkID=723604)  
@@ -208,14 +208,14 @@ search.app:
 
 <a name="BKMK_Upload"></a>  
 
-## Step 4: Upload the Word template back into Dynamics 365 for Customer Engagement apps  
+## Step 4: Upload the Word template back into Dynamics 365 for Customer Engagement apps 
 When you have your [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] template built the way you want, save it so you can upload it into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
 
  Access to the newly created Word template depends on how you uploaded it and to the access granted to the security role. Be sure to check out [Use Security Roles to control access to templates](../admin/using-word-templates-dynamics-365.md#BKMK_SecurityRoles).  
 
  [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can use the Settings page to upload the [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
 
-### For admins: Upload the Word template into Dynamics 365 for Customer Engagement apps  
+### For admins: Upload the Word template into Dynamics 365 for Customer Engagement apps 
 
 1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, go to **Settings** > **Templates** > **Document Templates**.  
 
@@ -229,7 +229,7 @@ When you have your [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]
 
    Non-admin users can upload a template for their own use from a list of records.  
 
-### For non-admins or admins wanting to create a personal template: Upload the Word template into Dynamics 365 for Customer Engagement apps  
+### For non-admins or admins wanting to create a personal template: Upload the Word template into Dynamics 365 for Customer Engagement apps 
 
 1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, open a page with a list of records, for example, the list of customer accounts in Sales.  
 

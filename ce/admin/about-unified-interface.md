@@ -73,7 +73,7 @@ Unified interface is a metadata driven experience. All controls experiences are 
 ## Getting started with Unified Interface experience
 When you are provisioning a new Dynamics 365 for Customer Engagement apps org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options, or an org with no customization, you will see the following Unified Interface apps:
 
-|Choice while provisioning  |Unified Interface apps  |
+|Choice while provisioning  |Unified Interface apps |
 |---------|---------|
 |Sales     |Sales Hub         |
 |Customer service     |Customer Service Hub         |

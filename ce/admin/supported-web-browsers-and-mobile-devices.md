@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Users can access the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  Web application with the most recent versions of these popular browsers:  
+Users can access the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps Web application with the most recent versions of these popular browsers:  
   
 - [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]   
   
@@ -49,14 +49,14 @@ For a mobile device, such as an iPad or smartphone, the following apps are avail
 For more detailed information about supported phones and tablets, see [Microsoft Dynamics 365 for Customer Engagement apps mobile and tablet device support](../mobile-app/support-phones-tablets.md).  
   
 > [!NOTE]
-> - Users who try to view [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  on an unsupported browser may be redirected to a mobile experience. 
+> - Users who try to view [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps on an unsupported browser may be redirected to a mobile experience. 
 >   - For [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] and later, users are redirected to the Unified Interface experience. For more information see [Unified Interface Overview](about-unified-interface.md). 
->   - For versions earlier than [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], users are redirected to [!INCLUDE [pn-crm-for-phones-express](../includes/pn-crm-for-phones-express.md)]. This is a basic service that has limited functionality, and isn’t intended to serve as a substitute for the full feature set of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . We recommend that users choose a supported browser or a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  app specific to the device. 
+>   - For versions earlier than [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], users are redirected to [!INCLUDE [pn-crm-for-phones-express](../includes/pn-crm-for-phones-express.md)]. This is a basic service that has limited functionality, and isn’t intended to serve as a substitute for the full feature set of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. We recommend that users choose a supported browser or a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps app specific to the device. 
 > -  If you have added content to forms or dashboards in an iFrame, you might have implemented security restrictions around certain actions in that content, such as external links. Keep in mind that in [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)], this security restriction code will likely be unsupported.  
   
 <a name="BKMK_browserIssues"></a>   
 ## Known issues when you run Microsoft Dynamics 365 for Customer Engagement apps with certain web browsers  
- This section describes the known issues when you run [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  in a web browser.  
+ This section describes the known issues when you run [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps in a web browser.  
   
 ### Limited copy and paste support in Firefox and Chrome  
  Copy and paste functionality by using the clipboard is not yet fully supported on the [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)] and [!INCLUDE[tn_chrome](../includes/tn-chrome.md)] web browsers; the **Copy a Link** button at the top of the page may not function as expected.  

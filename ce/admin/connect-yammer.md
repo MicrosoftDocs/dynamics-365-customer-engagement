@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives colleagues at your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings.  
   
- After you set up your organization to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], employees will see posts in a newsfeed on their [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  dashboard whenever people update customer info, and they’ll be able to join in the conversation with their own posts.  
+ After you set up your organization to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], employees will see posts in a newsfeed on their [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps dashboard whenever people update customer info, and they’ll be able to join in the conversation with their own posts.  
   
 ## Connect your organization to Yammer  
   
@@ -35,13 +35,13 @@ search.app:
   
 - Before your organization can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
 
-- [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] integration is only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps .
+- [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] integration is only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
   
 - [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
 - You’ll also need to have verified system administrator privileges for your organization’s [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account.  
   
-- Install the most recent product updates for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+- Install the most recent product updates for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 - Meet [browser and system requirements](https://support.office.com/article/Yammer-admin-guide-a9c206d4-fb18-4250-bec6-e783b926e4f6).  
   
@@ -55,7 +55,7 @@ search.app:
   
 4. Read the disclaimer, and then choose **Continue**.  
   
-5. Choose **Authorize [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  (or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)]) to connect to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]**.  
+5. Choose **Authorize [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps (or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)]) to connect to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]**.  
   
 6. Sign in to your enterprise [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account using your administrator credentials.  
   
@@ -70,9 +70,9 @@ search.app:
   
 1. Make sure you’re signed in to your enterprise [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account using your administrator credentials.  
   
-2. If desired, select whether [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] posts are **public** (everyone sees [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  posts in the newsfeed, or **private** (people must “follow” a record to see posts about that record in the newsfeed).  
+2. If desired, select whether [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] posts are **public** (everyone sees [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps posts in the newsfeed, or **private** (people must “follow” a record to see posts about that record in the newsfeed).  
   
-3. If desired, select the default group where you would like [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  posts to appear.  
+3. If desired, select the default group where you would like [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps posts to appear.  
   
 4. If desired, select which record types trigger automatic posts to the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] newsfeed.  
   
@@ -114,9 +114,9 @@ search.app:
   
  When you have [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] set up, keep these things in mind:  
   
-- All user posts (conversations) are stored in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+- All user posts (conversations) are stored in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
-- All system posts are stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps .  
+- All system posts are stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 - If the Post to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Activity Stream rule (or posttoyammer attribute) is set to True in Post Rules Configuration, that activity will post to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   

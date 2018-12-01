@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  uses several Microsoft URLs to help provide security, services, and features. However, your computer or your organization’s computer network may block access to some of these URLs. Blocking any of the required URLs will cause [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  to operate incorrectly or not at all.  
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps uses several Microsoft URLs to help provide security, services, and features. However, your computer or your organization’s computer network may block access to some of these URLs. Blocking any of the required URLs will cause [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to operate incorrectly or not at all.  
   
  You may see a network or server error message if your computer or your organization's network blocks the URLs you need. The error message might look like one of these:  
   
@@ -36,7 +36,7 @@ search.app:
 You can unblock these URLs on your computer by adding them to a list of approved sites in your browser.  
   
 > [!IMPORTANT]
->  If the following procedure doesn’t unblock the URLs required for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps , ask your system administrator to unblock the URLs on the organization’s network.  
+>  If the following procedure doesn’t unblock the URLs required for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, ask your system administrator to unblock the URLs on the organization’s network.  
    
 ### Unblock Dynamics 365 for Customer Engagement apps URLs in Internet Explorer  
   

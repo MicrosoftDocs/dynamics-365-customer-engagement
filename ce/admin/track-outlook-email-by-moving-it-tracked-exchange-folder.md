@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 
- Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
+ Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
 
  ![Exchange email folder tracking in Dynamics 365 for Customer Engagement](../outlook-app/media/exchange-folder-tracking-dynamics-crm.png "Exchange email folder tracking in Dynamics 365 for Customer Engagement")  
 
@@ -49,7 +49,7 @@ To see folder tracking in action, see the video [Folder Level Tracking in CRM On
 
 1. In the web app, on the nav bar, click **Options** ![Options button for Dynamics 365 for Customer Engagement](media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement").  
 
-2. In the **Set Personal Options** dialog box, click the **Email** tab, and then under **Select the email messages to track in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps **, click **Configure Folder Tracking Rules**.  
+2. In the **Set Personal Options** dialog box, click the **Email** tab, and then under **Select the email messages to track in Dynamics 365**, click **Configure Folder Tracking Rules**.  
 
 3. In the **Folder-Level Tracking** dialog box, under **Exchange Folder**, click **+ New Folder Mapping**, click the down arrow in the box that appears, and then select the folder you want to track.  
 

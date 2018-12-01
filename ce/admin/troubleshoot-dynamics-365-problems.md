@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . Use the following list of troubleshooting topics to quickly find information to solve your issue.  
+We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Use the following list of troubleshooting topics to quickly find information to solve your issue.  
   
 ## Outlook and email integration  
   
