@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance. A “package” can consist of any or all of the following:  
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a Dynamics 365 for Customer Engagement apps (on-premises) or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  instance. A “package” can consist of any or all of the following:  
   
 - One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
   
@@ -216,15 +216,15 @@ Get-Help “Crm”
  
 ### Use the cmdlet to connect to your Dynamics 365 for Customer Engagement apps instance  
   
-1. Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 for Customer Engagement apps server.  
+1. Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  or Dynamics 365 for Customer Engagement apps (on-premises) instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 for Customer Engagement apps server.  
   
    ```  
    $Cred = Get-Credential  
    ```  
   
-2. Use the following command to get a connection to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. We will store the connection information in the `$CRMConn` variable:  
+2. Use the following command to get a connection to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps  or Dynamics 365 for Customer Engagement apps (on-premises) instance. We will store the connection information in the `$CRMConn` variable:  
   
-   - If you are connecting to the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance:  
+   - If you are connecting to the Dynamics 365 for Customer Engagement apps (on-premises) instance:  
   
      ```  
      $CRMConn = Get-CrmConnection -ServerUrl http://<your_CRM_Server> -OrganizationName <your_Org_Name> -Credential $Cred  
