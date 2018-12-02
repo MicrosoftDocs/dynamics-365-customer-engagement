@@ -40,9 +40,9 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
   ![Select an app to configure your instance](../admin/media/select-app-configure-instance.png "Select an app to configure your instance")  
   
-- **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application.  
+- **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
-- **URL**. The URL is used to construct the URL for users to sign-in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application. Therefore, we recommend that you limit the length of URL name to reduce the overall length of the URL.  
+- **URL**. The URL is used to construct the URL for users to sign-in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Therefore, we recommend that you limit the length of URL name to reduce the overall length of the URL.  
   
 - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the instance picker, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments you can enter *Contoso Sales and Marketing* or if the instance is for development and for testing purposes enter a relevant name such as *Contoso Development*.  
   
@@ -56,7 +56,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   > [!NOTE]
   >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
-- **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application, only the base currency will be used for reporting.  
+- **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, only the base currency will be used for reporting.  
   
     > [!WARNING]
     >  Once set, the base currency cannot be changed.  
@@ -97,7 +97,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
 5. On the **configure new instance** page, enter your settings, and then click **Next**.  
   
-6. On the **Confirm some details** page, verify that the country/region and currency displayed are correct. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application, only the base currency will be used for reporting.  
+6. On the **Confirm some details** page, verify that the country/region and currency displayed are correct. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, only the base currency will be used for reporting.  
   
    > [!WARNING]
    >  After a base currency is selected it cannot be changed.  

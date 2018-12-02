@@ -66,7 +66,7 @@ When you are ready to move to a new plan—either now or during renewal—you’
 
 <a name="BKMK_Option1"></a>   
 ### Option 1:  For Enterprise, Professional, Field Service, Project Service Automation, or Basic Users, consider Dynamics 365 for Customer Engagement apps Plan 
- This option is ideal if you want to take advantage of functionality in multiple Dynamics 365 for Customer Engagement apps applications, or the new functionality that Dynamics 365 for Customer Engagement apps Plan has to offer. Dynamics 365 for Customer Engagement apps Plan includes Customer Service, Sales, Project Service Automation, Field Service, and PowerApps.  
+ This option is ideal if you want to take advantage of functionality in multiple Dynamics 365 for Customer Engagement apps, or the new functionality that Dynamics 365 for Customer Engagement apps Plan has to offer. Dynamics 365 for Customer Engagement apps Plan includes Customer Service, Sales, Project Service Automation, Field Service, and PowerApps.  
 
 <a name="BKMK_Option2"></a>   
 ### Option 2:  For Professional Users, consider [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)]  
@@ -100,7 +100,7 @@ When you are ready to move to a new plan—either now or during renewal—you’
  Choose this option if you purchased a Basic User plus Field Service plan. Field Service is intended for users who will be engaging in any kind of field technician, scheduler, or dispatcher role. This license includes all of the functionality of the Field Service add-on, plus PowerApps, Social Engagement, Gamification, Mobile Offline, Project Online Premium, and Voice of Customer. This would not include write access to cases or leads – for this access the Project Service Automation user should license Dynamics 365 for Customer Engagement apps Plan.  
 
 <a name="BKMK_HowToUpgrade"></a>   
-## How to upgrade to Dynamics 365 for Customer Engagement apps Plan or switch to a Dynamics 365 for Customer Engagement apps Application  
+## How to upgrade to Dynamics 365 for Customer Engagement apps Plan or switch to a Dynamics 365 for Customer Engagement apps  
  You can switch to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] now, or wait until it’s time to renew, and then upgrade during the renewal process. Either way, you’ll work with your account representative or partner to make the switch, unless you bought your subscription directly from Microsoft, in which case you can switch in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  To learn more, see  [Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)](../admin/switch-dynamics-crm-online-dynamics-365.md).  
 
 ### See also  

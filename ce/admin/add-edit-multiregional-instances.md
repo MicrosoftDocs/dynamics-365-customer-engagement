@@ -54,7 +54,7 @@ For multinational companies with employees and customers distributed around the 
   > [!IMPORTANT]
   >  If you do not specify a security group, all users associated with the subscription who have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license will be added to the new instance.  
   
-- **Organizational language**. This language will be used for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps application.  
+- **Organizational language**. This language will be used for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
 - **Base currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application, only the base currency will be used for reporting.  
   
@@ -99,7 +99,7 @@ For multinational companies with employees and customers distributed around the 
    > [!IMPORTANT]
    >  After a base currency is selected it cannot be changed.  
    > 
-   >  Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application, only the base currency will be used for reporting. To select a different currency, click **Change currency** and select a different one or specify a custom currency.  
+   >  Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, only the base currency will be used for reporting. To select a different currency, click **Change currency** and select a different one or specify a custom currency.  
   
 7. On the confirmation page, verify that the settings are correct and then click **Configure**.  
   

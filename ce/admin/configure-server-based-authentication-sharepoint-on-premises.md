@@ -249,14 +249,14 @@ Set-SPAuthenticationRealm -Realm $SPOContextId
   
    ```  
   
-2. Grant [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps application access to the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. Replace *<https://sharepoint.contoso.com/sites/crm/>* with your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URL.  
+2. Grant [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps access to the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. Replace *<https://sharepoint.contoso.com/sites/crm/>* with your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URL.  
   
    > [!NOTE]
-   >  In the following example, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps application is granted permission to the specified [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection by using the –Scope site collection parameter. The Scope parameter accepts the following options. Choose the scope that is most appropriate for your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] configuration.  
+   >  In the following example, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps is granted permission to the specified [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection by using the –Scope site collection parameter. The Scope parameter accepts the following options. Choose the scope that is most appropriate for your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] configuration.  
    > 
-   > - `site`. Grants the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps application permission to the specified [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] website only. It doesn’t grant permission to any subsites under the named site.  
-   >   - `sitecollection`. Grants the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps application permission to all websites and subsites within the specified [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection.  
-   >   - `sitesubscription`. Grants the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps application permission to all websites in the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, including all site collections, websites, and subsites.  
+   > - `site`. Grants the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps permission to the specified [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] website only. It doesn’t grant permission to any subsites under the named site.  
+   >   - `sitecollection`. Grants the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps permission to all websites and subsites within the specified [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection.  
+   >   - `sitesubscription`. Grants the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps permission to all websites in the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, including all site collections, websites, and subsites.  
   
    ```  
    $app = Get-SPAppPrincipal -NameIdentifier $issuer -Site "https://sharepoint.contoso.com/sites/crm/"  

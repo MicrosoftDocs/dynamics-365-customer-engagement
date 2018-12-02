@@ -45,9 +45,9 @@ In response to the unique and evolving requirements of the United States public 
   
 - [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Team Members, for Government  
   
-- Enhance Support for Dynamics 365 for Customer Engagement apps Applications and Plan 1 for Government  
+- Enhance Support for Dynamics 365 for Customer Engagement apps and Plan 1 for Government  
   
-- Pro Direct Support for Dynamics 365 for Customer Engagement apps Applications and Plan 1 for Government  
+- Pro Direct Support for Dynamics 365 for Customer Engagement apps and Plan 1 for Government  
   
 - [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Portal for Government  
   

@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps application. 
+New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. 
 
 > [!IMPORTANT]
 > These security enhancements are also available for:

@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps application and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
+You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video on copying an instance to a Sandbox instance: [Microsoft Dynamics CRM 2013 Spring '14 Online New Features -Copy](http://youtu.be/y6duFi8nZaE).  
