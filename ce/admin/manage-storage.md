@@ -28,12 +28,12 @@ search.app:
 
 You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   
- You can also gain storage by deleting certain types of unnecessary data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For information on deleting data, see: [Free storage space in Dynamics 365 for Customer Engagement](free-storage-space.md).  
+ You can also gain storage by deleting certain types of unnecessary data in Customer Engagement apps. For information on deleting data, see: [Free storage space in Dynamics 365 for Customer Engagement](free-storage-space.md).  
   
  For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps plans, see: [Dynamics 365 for Customer Engagement apps pricing](https://www.microsoft.com/dynamics365/pricing).  
   
 ## Monitor the amount of storage your organization is using  
- Monitor your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] storage to make sure you’ve got lots of capacity for growth.  
+ Monitor your Customer Engagement apps storage to make sure you’ve got lots of capacity for growth.  
   
  If your total storage used is 80% or more of capacity, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admins will receive email notifications and alerts will appear on the Service Health page.  
   

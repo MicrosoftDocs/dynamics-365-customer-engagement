@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
+Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps or another Customer Engagement apps service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
   
 > [!IMPORTANT]
 >  If you’re an administrator, make sure to check the [Service Health Dashboard](https://portal.office.com/ServiceStatus/ServiceStatus.aspx) for maintenance issues.  
@@ -50,7 +50,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
   
 <a name="BKMK_forenduser"></a>   
 ### For admins and end users: Sign in at https://portal.office.com  
- For admins and end users, when you sign in to https://portal.office.com, you will go to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Welcome page. The tiles that appear on the Welcome page depend on what licenses you have. For example, if you have licenses for [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you'll see tiles for [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] apps like [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], as well as a tile for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
+ For admins and end users, when you sign in to https://portal.office.com, you will go to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Welcome page. The tiles that appear on the Welcome page depend on what licenses you have. For example, if you have licenses for [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and Customer Engagement apps, you'll see tiles for [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] apps like [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], as well as a tile for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
  ![Office 365 welcome page](../admin/media/office-365-welcome-page.png "Office 365 welcome page")  
   
@@ -74,10 +74,10 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
  For information on the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 for Customer Engagement apps home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
 ### If you’re an end user  
- You can sign in directly to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can also sign in at https:/portal.office.com.  
+ You can sign in directly to Customer Engagement apps or [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can also sign in at https:/portal.office.com.  
   
 #### Sign in directly to Dynamics 365 for Customer Engagement apps (online)  
- Your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator provides the direct [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)  
+ Your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator provides the direct Customer Engagement apps URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)  
   
 > [!NOTE]
 >  If you’re in a region other than North America, substitute “*crm*” in the URL with:  
@@ -97,7 +97,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
   
 - username@contoso.com (custom domain)  
   
-**What if I’m still using a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] to sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]?**  
+**What if I’m still using a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] to sign in to Customer Engagement apps?**  
   
 Use the email address provided by your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator (sent in an email invitation). Verify that you’re using the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address that the email invitation was sent to. Note that you can’t sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] with a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. [Troubleshoot problems with your Microsoft account user name or password.](http://go.microsoft.com/fwlink/p/?LinkId=225672)  
   

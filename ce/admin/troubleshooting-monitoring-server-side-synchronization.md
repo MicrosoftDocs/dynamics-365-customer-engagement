@@ -81,13 +81,13 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  **Cause:**  
   
- This error will occur if a user is configured to use the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile but their email address has not been approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator. A user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] needs to approve the email address for each user that uses the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile. The [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile uses server-to-server authentication between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. This authentication is dependent on a trust between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. By verifying the email address in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] will be able to send and receive email for that user without the need to provide any email credentials within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
+ This error will occur if a user is configured to use the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile but their email address has not been approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator. A user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] needs to approve the email address for each user that uses the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile. The [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile uses server-to-server authentication between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. This authentication is dependent on a trust between Customer Engagement apps and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]. By verifying the email address in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, Customer Engagement apps will be able to send and receive email for that user without the need to provide any email credentials within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
  **Solution:**  
   
  To approve one or more mailboxes:  
   
-1. Sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to Customer Engagement apps as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   
@@ -108,7 +108,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  Mailboxes must be approved before the email will be processed. To approve mailboxes:  
   
-1. Sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to Customer Engagement apps as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   
@@ -185,9 +185,9 @@ For more information, see this [kb article](https://support.microsoft.com/kb/318
 <a name="BKMK_ExchangeOnline"></a>   
 
 ### Using Dynamics 365 for Customer Engagement apps (online) with Exchange Online  
- If your company is using [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], note the following:  
+ If your company is using [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with Customer Engagement apps, note the following:  
   
- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] supports server-side synchronization with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in the same tenant with Server to Server Authentication. Other authentication methods or settings are not recommended or supported, including:  
+ Customer Engagement apps supports server-side synchronization with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in the same tenant with Server to Server Authentication. Other authentication methods or settings are not recommended or supported, including:  
   
 - Using Credentials Specified by a User or Queue  
   
@@ -203,7 +203,7 @@ For more information, see this [kb article](https://support.microsoft.com/kb/318
 -   Using non-default [network ports](https://technet.microsoft.com/library/hh699823.aspx)  
 -->
  
-- Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
+- Connecting Customer Engagement apps with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
   
 ### Mailbox deliveries regularly disabled  
  Mailbox delivery errors are classified as follows:  
@@ -231,7 +231,7 @@ Review the troubleshooting steps in this topic and if the issue is successfully 
   
 - [!INCLUDE[pn_ms_Exchange_Server_2003_short](../includes/pn-ms-exchange-server-2003-short.md)] and [!INCLUDE[pn_ms_Exchange_Server_2007_short](../includes/pn-ms-exchange-server-2007-short.md)].  
   
-- Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
+- Server-side synchronization in Customer Engagement apps, or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
   
 For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md)  
   

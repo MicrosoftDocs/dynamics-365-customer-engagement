@@ -41,7 +41,7 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement apps to SharePoint Online](https://go.microsoft.com/fwlink/p/?linkid=837790)  
   
- To set up [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to use [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], complete the following steps.  
+ To set up Customer Engagement apps to use [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], complete the following steps.  
   
 <a name="BKMK_AssignPermission"></a>   
 
@@ -71,7 +71,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 <a name="BKMK_ConfigureDocManage"></a>  
  
 ## Configure Dynamics 365 for Customer Engagement apps (online) for SharePoint document management  
- For [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organizations, [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)] introduced a new server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration that removes the need to install or continue to use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution.  
+ For Customer Engagement apps organizations, [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)] introduced a new server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration that removes the need to install or continue to use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution.  
   
  If you are a new organization and have not yet deployed document management, see [Configure a new organization](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md#BKMK_ConfigNewOrg).  
   

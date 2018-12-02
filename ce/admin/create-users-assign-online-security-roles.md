@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
+You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to Customer Engagement apps. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
 <a name="BKMK_create_users"></a>   
 
@@ -35,20 +35,20 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Add People to Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?linkid=836826).  
   
 > [!NOTE]
->  When you create a user and assign a license in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], the user is also created in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The synchronization process between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] can take a few minutes to complete.  
+>  When you create a user and assign a license in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], the user is also created in Customer Engagement apps. The synchronization process between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and Customer Engagement apps can take a few minutes to complete.  
 > 
->  By entering a user ID and password, a user can access the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to view information about the service. However, the user will not have access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until you assign at least one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security role to this user.  
+>  By entering a user ID and password, a user can access the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to view information about the service. However, the user will not have access to Customer Engagement apps until you assign at least one Customer Engagement apps security role to this user.  
 > 
 > [!TIP]
->  To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
+>  To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and Customer Engagement apps, do the following:  
 > 
-> - Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> - Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> - Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Sign out of Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Close all open browsers used for Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Sign back in to Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## User profile information
 
-Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user, these user profile fields are automatically updated and synchronized in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.
+Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user, these user profile fields are automatically updated and synchronized in your Customer Engagement apps instances.
 
 The following table shows the fields that are managed in the **Users** section of the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].
 
@@ -80,7 +80,7 @@ The following are Office 365 user contact fields.
  For step-by-step instructions, see [Assign, reassign, or remove licenses](http://go.microsoft.com/fwlink/p/?LinkId=255449).  
   
 > [!IMPORTANT]
->  Licensed users must be assigned at least one [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security role to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+>  Licensed users must be assigned at least one [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security role to access Customer Engagement apps.  
   
  **About user licenses**  
   
@@ -104,12 +104,12 @@ The following are Office 365 user contact fields.
   
  Security roles are associated with business units. If you have created business units, only those security roles associated with the business unit are available for the users in the business unit. You can use this feature to limit data access to only data owned by the business unit.  
   
- For more information about the difference between [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator roles and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security roles, see [Grant users access to Microsoft Dynamics 365 for Customer Engagement apps (online) as a Microsoft Online service](../admin/grant-users-access.md).  
+ For more information about the difference between [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator roles and Customer Engagement apps security roles, see [Grant users access to Microsoft Dynamics 365 for Customer Engagement apps (online) as a Microsoft Online service](../admin/grant-users-access.md).  
   
 > [!IMPORTANT]
->  You must assign at least one security role to every [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] user. The service does not allow access to users who do not have at least one security role. Even if a user is a member of a team with its own security privileges, the user won’t be able to see some data and may experience other problems when trying to use the system.  
+>  You must assign at least one security role to every Customer Engagement apps user. The service does not allow access to users who do not have at least one security role. Even if a user is a member of a team with its own security privileges, the user won’t be able to see some data and may experience other problems when trying to use the system.  
   
- In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]:  
+ In Customer Engagement apps:  
   
 1.  Click **Settings** > **Security** > **Users**.  
   
@@ -129,17 +129,17 @@ The following are Office 365 user contact fields.
  There are five [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator roles with varying levels of permissions. For example, the password reset administrator role can reset user passwords only; the user management administrator role can reset user passwords as well as add, edit, or delete user accounts; and the global administrator role can add online service subscriptions for the organization and can manage all aspects of subscriptions. For detailed information about [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator roles, see [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444).  
   
 > [!NOTE]
-> [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator roles are valid only for managing aspects of the online service subscription. These roles don’t affect permissions within the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service.  
+> [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator roles are valid only for managing aspects of the online service subscription. These roles don’t affect permissions within the Customer Engagement apps service.  
   
 <a name="BKMK_enableuser"></a>   
 
 ## Enable or disable users  
- To enable a user, assign a license to the user and add a user to the security group that is associated with an instance of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. If you enable a user that was disabled, you must send a new invitation for the user to access the system.  
+ To enable a user, assign a license to the user and add a user to the security group that is associated with an instance of Customer Engagement apps. If you enable a user that was disabled, you must send a new invitation for the user to access the system.  
   
- To disable a user, remove a license from the user or remove the user from the security group that is associated with an instance of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Removing a user from the security group doesn’t remove the user’s license. If you want to make the license available to another user, you have to remove the license from the disabled user.  
+ To disable a user, remove a license from the user or remove the user from the security group that is associated with an instance of Customer Engagement apps. Removing a user from the security group doesn’t remove the user’s license. If you want to make the license available to another user, you have to remove the license from the disabled user.  
   
 > [!NOTE]
->  Removing all security roles from the user prevents the user from signing into and accessing [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Removing security roles from a user isn’t a recommended method of removing access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+>  Removing all security roles from the user prevents the user from signing into and accessing Customer Engagement apps. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in Customer Engagement apps. Removing security roles from a user isn’t a recommended method of removing access to Customer Engagement apps.  
   
  You must be a member of an appropriate administrator role to do these tasks. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)  
   
@@ -155,7 +155,7 @@ The following are Office 365 user contact fields.
   
 5. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
-6. Choose the security group that is associated with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization.  
+6. Choose the security group that is associated with your Customer Engagement apps organization.  
   
 7. Under **Members**, click **Edit**, and then **Add members**. Select from the list of users with [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] licenses or use **Search** to find users.  
   
@@ -175,7 +175,7 @@ The following are Office 365 user contact fields.
   
 1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
-2. Choose the security group that is associated with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization.  
+2. Choose the security group that is associated with your Customer Engagement apps organization.  
   
 3. In the right-side menu, under **Members**, click **Edit**.  
   
@@ -190,11 +190,11 @@ The following are Office 365 user contact fields.
 > When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You have to do that separately.  
 > 
 > [!TIP]
-> To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
+> To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and Customer Engagement apps, do the following:  
 > 
-> - Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> - Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> - Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Sign out of Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Close all open browsers used for Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Sign back in to Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## Create an Administrative user account
 An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 for Customer Engagement apps (online) license (after setup).
@@ -206,9 +206,9 @@ You need to have the System Administrator security role or equivalent permission
 
 1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-    Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** Access Mode.
+    Be sure to assign a Customer Engagement apps license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** Access Mode.
   
-2. Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+2. Go to Customer Engagement apps.  
   
 3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -216,7 +216,7 @@ You need to have the System Administrator security role or equivalent permission
   
 5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
 
-    You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
+    You then need to remove the Customer Engagement apps license from the account.  
   
 6. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -224,7 +224,7 @@ You need to have the System Administrator security role or equivalent permission
   
 8. Choose the Administrative user account and under **Product licenses**, click **Edit**.  
   
-9. Turn off the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license,  and then click **Save** > **Close** multiple times.
+9. Turn off the Customer Engagement apps license,  and then click **Save** > **Close** multiple times.
 
 <a name="BKMK_noninteractiveuser"></a>   
 
@@ -235,9 +235,9 @@ You need to have the System Administrator security role or equivalent permission
   
 1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-    Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account.  
+    Be sure to assign a Customer Engagement apps license to the account.  
   
-2. Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+2. Go to Customer Engagement apps.  
   
 3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -245,7 +245,7 @@ You need to have the System Administrator security role or equivalent permission
   
 5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Non-interactive** for Access Mode.  
   
-    You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
+    You then need to remove the Customer Engagement apps license from the account.  
   
 6. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -253,9 +253,9 @@ You need to have the System Administrator security role or equivalent permission
   
 8. Choose the non-interactive user account and under **Product licenses**, click **Edit**.  
   
-9. Turn off the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license,  and then click **Save** > **Close** multiple times.  
+9. Turn off the Customer Engagement apps license,  and then click **Save** > **Close** multiple times.  
   
-10. Go back to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and confirm that the non-interactive user account **Access Mode** is still set for **Non-interactive**.  
+10. Go back to Customer Engagement apps and confirm that the non-interactive user account **Access Mode** is still set for **Non-interactive**.  
   
 <a name="BKMK_ApplicationUser"></a>   
 

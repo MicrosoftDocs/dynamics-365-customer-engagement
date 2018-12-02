@@ -29,15 +29,15 @@ search.app:
 Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps often hear similar questions from our customers. To help answer your billing and subscription management questions as quickly as possible, we’ve put together this list of the most frequently asked questions.  
   
 ## How do I find the correct Dynamics 365 for Customer Engagement apps (online) billing and subscription support team?  
- Before contacting [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps services billing support, you’ll need to determine which platform your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account is hosted on because each platform has its own billing and subscription management support team. The simplest way to do this is to match your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account sign-in to one of the formats listed here:  
+ Before contacting [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps services billing support, you’ll need to determine which platform your Customer Engagement apps account is hosted on because each platform has its own billing and subscription management support team. The simplest way to do this is to match your Customer Engagement apps account sign-in to one of the formats listed here:  
   
 ### Microsoft online services platform  
- If you sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account with a user name that follows this format, `email@contoso.onmicrosoft.com`, you’re on the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. To find a contact in billing and subscription support, you can:  
+ If you sign in to your Customer Engagement apps account with a user name that follows this format, `email@contoso.onmicrosoft.com`, you’re on the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. To find a contact in billing and subscription support, you can:  
   
-- Find your local [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] [billing support number](http://go.microsoft.com/fwlink/p/?LinkID=278814).  
+- Find your local Customer Engagement apps [billing support number](http://go.microsoft.com/fwlink/p/?LinkID=278814).  
   
 ### Microsoft commerce transaction platform  
- If you sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account with a user name that follows this format, `email@live.com`, you’re on the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] commerce transaction platform. To find a contact in billing and subscription support, you can submit a query to CRMAOC@microsoft.com.  
+ If you sign in to your Customer Engagement apps account with a user name that follows this format, `email@live.com`, you’re on the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] commerce transaction platform. To find a contact in billing and subscription support, you can submit a query to CRMAOC@microsoft.com.  
   
 ## What billing activities do I need to contact Dynamics 365 for Customer Engagement apps (online) Billing Support to manage?  
  The instructions in this section apply equally to subscriptions purchased for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], as well as [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
@@ -99,7 +99,7 @@ In addition, you can now do a self-serve cancellation of your subscription from 
   
  To reactivate an expired [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps account, you’ll need to contact billing and subscription support. Please refer to the [Billing support](../admin/billing-support.md) page.  
   
- If you saved your data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] workbook before canceling your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account, you should be able to import the saved data.  
+ If you saved your data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] workbook before canceling your Customer Engagement apps account, you should be able to import the saved data.  
   
 ## How do I apply for a credit due to a Dynamics 365 for Customer Engagement apps (online) service outage?  
  The instructions in this section are common for subscriptions made through [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps as well as through [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  

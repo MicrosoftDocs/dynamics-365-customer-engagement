@@ -38,7 +38,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps us
   
 <a name="KM_tasks"></a>   
 ## Introduction to key management  
- With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] key management, administrators can provide their own encryption key or have an encryption key generated for them, which is used to protect the database for an instance.  
+ With Customer Engagement apps key management, administrators can provide their own encryption key or have an encryption key generated for them, which is used to protect the database for an instance.  
   
  The key management feature supports both PFX and BYOK encryption key files, such as those stored in a hardware security module (HSM). To use the upload encryption key option you need both the public and private encryption key.  
   
@@ -144,7 +144,7 @@ For more information about the key types supported by Key Vault by uploading the
   
     4.  Click **close** to close the manage your database encryption key dialog box.  
   
-    5.  An email message is sent to all [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrators in your organization. This occurs whenever a key is changed for an instance.  
+    5.  An email message is sent to all Customer Engagement apps administrators in your organization. This occurs whenever a key is changed for an instance.  
   
 Notice that the key name you specified to manage database encryption settings now appears under **Current Encryption Key**.  
   

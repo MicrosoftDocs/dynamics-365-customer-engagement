@@ -33,9 +33,9 @@ On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 
 
 You have options for when you update your Dynamics 365 for Customer Engagement apps (online) organization to Dynamics 365 for Customer Engagement apps (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
- You, as a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
+ You, as a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator, decide when to install Customer Engagement apps major updates for your organization. To update to the latest release of Customer Engagement apps, complete these two steps:  
 
-1. Review the information in the Updates page in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
+1. Review the information in the Updates page in the Customer Engagement apps Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
 
 2. Approve the update.  
 
@@ -86,10 +86,10 @@ Here are the recent versions.
 
 ## Update scenarios  
 
- Your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
+ Your Customer Engagement apps update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
 
 > [!NOTE]
-> For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md).  
+> For information on Customer Engagement apps instances, see [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md).  
 
 ### CRM Online 2016 Update 1 – Approach One (recommended)  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
@@ -229,7 +229,7 @@ Follow the process in the dashed box in the flowchart above.
 
 <a name="BKMK_Versions"></a>   
 
-## Recent versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
+## Recent versions of Customer Engagement apps  
  To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
 For recent versions, see [Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
@@ -237,7 +237,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 <a name="BKMK_howtoknow"></a> 
 
 ## How will I know my organization is ready to update?  
- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrators will be informed of updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] in multiple ways.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrators will be informed of updates to Customer Engagement apps in multiple ways.  
 
 ### Check your instances in the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] Administration Center  
 
@@ -247,7 +247,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
    ![Dynamics 365 for Customer Engagement apps option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 for Customer Engagement apps option in the Admin center drop-down list")  
 
-3. On the Instances page, click **Updates**, and then review the update status for your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.  
+3. On the Instances page, click **Updates**, and then review the update status for your Customer Engagement apps instances.  
 
     Note the following:  
 
@@ -258,9 +258,9 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
    ![Manage Dynamics 365 for Customer Engagement apps Online instances](../admin/media/customer-driven-update-notice-1.png "Manage Dynamics 365 for Customer Engagement apps Online instances")  
 
 <!-- This banner appears to not happen anymore - May 1 2018  
-### A notification appears in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application  
+### A notification appears in your Customer Engagement apps web application  
 
-1.  Sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
+1.  Sign in to your Customer Engagement apps instance.  
 
 2.  If an update is available, admins will see a yellow [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps message bar notifying them of an available update.  
 
@@ -268,7 +268,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
  -->
 
 ### Update notification emails are sent to admins  
- [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] system administrators will receive an email from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Team. You can use the links in the email to learn more about your update or reschedule it.  
+ [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] system administrators will receive an email from the Customer Engagement apps Team. You can use the links in the email to learn more about your update or reschedule it.  
 
 <a name="BKMK_decipherupdate"></a>   
 ## Deciphering the update information  
@@ -277,7 +277,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
  ![Deciphering update details](../admin/media/deciphering-update-details.png "Deciphering update details")  
 
 > [!NOTE]
->  If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you’ll see an option **Change target version**. Large companies with extensive and complex customizations to their [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available.  
+>  If you are eligible to update to multiple versions of Customer Engagement apps, you’ll see an option **Change target version**. Large companies with extensive and complex customizations to their [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available.  
 
 <a name="BKMK_ApproveUpdate"></a>   
 ## Approve an update  
@@ -306,7 +306,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
    ![Click Reschedule to reschedule an update in Dynamics 365 for Customer Engagement](../admin/media/cdu-notice.png "Click Reschedule to reschedule an update in Dynamics 365 for Customer Engagement")  
 
-4. If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you’ll see a page to select a target version. Select a version, and then click **Next**.  
+4. If you are eligible to update to multiple versions of Customer Engagement apps, you’ll see a page to select a target version. Select a version, and then click **Next**.  
 
    > [!NOTE]
    >  Large companies with extensive and complex customizations to their [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available. Keep in mind, if you are two versions behind the current version you will have a mandatory update. See [Update policy](../admin/manage-updates.md#BKMK_Policy) for more information.  
@@ -323,7 +323,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 <a name="BKMK_UpdateStatus"></a>   
 ## Update status  
- To better track and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] updates, we added more granular update status to the Updates page.  At the date and time of your update, the status for your instance will show **Updating instance**.  
+ To better track and manage your Customer Engagement apps updates, we added more granular update status to the Updates page.  At the date and time of your update, the status for your instance will show **Updating instance**.  
 
  ![Update Now status](../admin/media/update-now-status.png "Update Now status")  
 
@@ -333,9 +333,9 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 |        Status        |                                                                                       Description                                                                                        |
 |----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Queued (Not Started) |                                                                The update is queued and will start at the scheduled time.                                                                |
-|        Backup        | The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is being backed up.  A copy of the instance is backed up before the update for recovery purposes. |
-|       Restore        |                                        The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is being restored.                                         |
-|   Database Upgrade   |                                         The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is being updated.                                         |
+|        Backup        | The Customer Engagement apps instance is being backed up.  A copy of the instance is backed up before the update for recovery purposes. |
+|       Restore        |                                        The Customer Engagement apps instance is being restored.                                         |
+|   Database Upgrade   |                                         The Customer Engagement apps instance is being updated.                                         |
 
 <a name="BKMK_SendEmailNotifications"></a>   
 ## Send email notifications to multiple recipients  
@@ -369,11 +369,11 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
  Dynamics 365 for Customer Engagement, version 9.x contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
 
 ### Prepare your users  
- To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 for Customer Engagement apps (online), version 9](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
+ To prepare your users for the changes to Customer Engagement apps, visit [What's new in Dynamics 365 for Customer Engagement apps (online), version 9](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
 
 <a name="BKMK_Checklist"></a>   
 
-## Checklist for the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update  
+## Checklist for the Customer Engagement apps update  
  Most of the update process is handled by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. However, there are a few things that you must do to prepare.  
 
 1. **Know when your update is scheduled.**  
@@ -402,7 +402,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 7. **Watch for Update Completion or Reschedule emails from Microsoft.**  
 
-   Once your organization is updated, you’ll receive a notification from [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] indicating that your organization is ready to use.  
+   Once your organization is updated, you’ll receive a notification from Customer Engagement apps indicating that your organization is ready to use.  
 
 <a name="BKMK_CommSchedule"></a>   
 ## Schedule for update communications  

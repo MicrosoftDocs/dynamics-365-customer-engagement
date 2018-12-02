@@ -28,20 +28,20 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
+New to Customer Engagement apps? We've put together step-by-step guidance whether you’re still evaluating Customer Engagement apps, ready to make a purchase, or ready to onboard your organization and users.  
   
 > [!NOTE]
->  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for Dynamics 365 for Customer Engagement apps (on-premises). If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
+>  This topic is targeted at administrators for Customer Engagement apps. Many of the features covered in this topic are also available for Dynamics 365 for Customer Engagement apps (on-premises). If a feature is available only for Customer Engagement apps, it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 ## Step One: Try out Dynamics 365 for Customer Engagement apps (online) in a free 30-day trial  
- If you haven’t already purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
+ If you haven’t already purchased Customer Engagement apps, we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
   
  To get the most out of your free trial, watch this video: [How to get the most out of your 30-day trial](https://go.microsoft.com/fwlink/p/?linkid=830035).  
   
 ## Step Two: Buy and manage a subscription  
- With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can evolve your business on your terms. Start with just what you need to run your business. For example, you might want to start with the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Sales app or the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Customer Service app, and then add more apps as your needs change. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
+ With Customer Engagement apps, you can evolve your business on your terms. Start with just what you need to run your business. For example, you might want to start with the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Sales app or the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Customer Service app, and then add more apps as your needs change. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
   
- There are four ways to buy a subscription of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]:  
+ There are four ways to buy a subscription of Customer Engagement apps:  
   
 -   Convert from a trial  
   
@@ -53,7 +53,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="Convert"></a>   
 ### Convert from a trial  
- The simplest way to buy [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is to click the **Buy Now** button from one of the sidebars in the free 30-day trial:  
+ The simplest way to buy Customer Engagement apps is to click the **Buy Now** button from one of the sidebars in the free 30-day trial:  
   
  ![Trial Buy Now button on Learning Path sidebar](../admin/media/trial-buy-now-button-on-learning-path-sidebar.png "Trial Buy Now button on Learning Path sidebar")  
   
@@ -82,7 +82,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="Communicate"></a>   
 ### Set up points of contacts for communications  
- Microsoft regularly maintains and updates [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin for your organization receives email notifications. You have control over who should receive these email communications.  
+ Microsoft regularly maintains and updates Customer Engagement apps to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin for your organization receives email notifications. You have control over who should receive these email communications.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -92,7 +92,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="Subscription"></a>   
 ### Manage subscriptions, licenses, and user accounts  
- As a [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator, you manage the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)  
+ As a [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator, you manage the Customer Engagement apps subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)  
   
 <a name="POR"></a>   
 
@@ -117,7 +117,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 -   [Plan for Dynamics 365 for Customer Engagement apps deployment and administration](plan-for-deployment-and-administration.md)  
   
 ## Step Four: Onboard your organization  
- After you purchase a subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s time to onboard your organization.  
+ After you purchase a subscription to Customer Engagement apps, it’s time to onboard your organization.  
   
 <a name="SignIn"></a>   
 ### Sign in to Dynamics 365 for Customer Engagement apps (online) and manage your subscription  
@@ -155,7 +155,7 @@ For more advanced scenarios, consider the following development tools: [Solution
 <a name="Storage"></a>   
 
 ### Manage storage  
- You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
+ You can manage your organization’s data storage capacity in connection with your subscription to Customer Engagement apps. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -166,7 +166,7 @@ For more advanced scenarios, consider the following development tools: [Solution
 ### Create a Sandbox (non-Production instance)  
  You can create a Sandbox instance (non-production environment) for development, testing, training, and other non-production uses. Then when you’re ready to turn the Sandbox instance into your Production instance, you can switch it.  
   
- You get one free Sandbox instance with your purchase of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You can also purchase additional Sandbox instances.  
+ You get one free Sandbox instance with your purchase of Customer Engagement apps. You can also purchase additional Sandbox instances.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -198,7 +198,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 -   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
   
-[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replicate data to Azure SQL Database using Data Export Service](replicate-data-microsoft-azure-sql-database.md)  
+Customer Engagement apps also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replicate data to Azure SQL Database using Data Export Service](replicate-data-microsoft-azure-sql-database.md)  
   
 <a name="MoCA"></a>   
 ### Set up Dynamics 365 for Customer Engagement apps for phones and Dynamics 365 for Customer Engagement apps for tablets  
@@ -239,11 +239,11 @@ For more advanced scenarios, consider the following development tools: [Solution
   
  After you integrate [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], or [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
   
- **[!INCLUDE[pn_onenote](../includes/pn-onenote.md)].** When you turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration, your teams can use [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review notes and store them with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up OneNote integration in Dynamics 365 for Customer Engagement](set-up-onenote-integration-in-dynamics-365.md)  
+ **[!INCLUDE[pn_onenote](../includes/pn-onenote.md)].** When you turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration, your teams can use [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review notes and store them with Customer Engagement apps records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up OneNote integration in Dynamics 365 for Customer Engagement](set-up-onenote-integration-in-dynamics-365.md)  
   
- **[!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].** Use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] to store private documents while working in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For example, start working on a document privately, such as a draft sales pitch. When the draft is far enough along, move it to an Office 365 Group for team collaboration. [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] provides 1 TB or more of storage and documents are automatically synced to your desktop and mobile devices. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OneDrive for Business to manage your private documents](../basics/use-onedrive-business-manage-private-documents.md)  
+ **[!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].** Use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] to store private documents while working in Customer Engagement apps. For example, start working on a document privately, such as a draft sales pitch. When the draft is far enough along, move it to an Office 365 Group for team collaboration. [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] provides 1 TB or more of storage and documents are automatically synced to your desktop and mobile devices. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OneDrive for Business to manage your private documents](../basics/use-onedrive-business-manage-private-documents.md)  
   
- **[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].** [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a shared workspace for email, conversations, files, and events. Your teams can use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] to collaborate with people across your company, even if they don’t have access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For example, create a group for your sales team, invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)  
+ **[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].** [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a shared workspace for email, conversations, files, and events. Your teams can use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] to collaborate with people across your company, even if they don’t have access to Customer Engagement apps. For example, create a group for your sales team, invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)  
   
 <a name="Skype"></a>   
 ### Integrate Skype or Skype for Business  
@@ -294,7 +294,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 <a name="Additional"></a>   
 ### Additional products and services  
- You may be interested in any of the following additional products and services as you onboard your organization to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ You may be interested in any of the following additional products and services as you onboard your organization to Customer Engagement apps.  
 
 #### Social Engagement  
  Connect [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to get social insights in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] collects data from social media channels, such as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and blogs, and presents it in charts and graphs that you can use to spot emerging trends in people's comments, whether positive, negative, or neutral. Drill down into the data and analyze social conversations about your brand. Pinpoint what you're doing right and address potential concerns.  
@@ -306,7 +306,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 -   [Social Engagement Help Center](http://go.microsoft.com/fwlink/p/?LinkId=394325)  
   
 #### Portals capabilities for Dynamics 365 for Customer Engagement apps (online)  
- Portals capabilities for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] empower people who prefer to find answers on their own through self-service and community options. Create portals to provide a more personalized experience for your customers, partners, or internal employees. For example, create portals for:  
+ Portals capabilities for Customer Engagement apps empower people who prefer to find answers on their own through self-service and community options. Create portals to provide a more personalized experience for your customers, partners, or internal employees. For example, create portals for:  
   
 -   Customers to submit cases and find knowledge articles  
   
@@ -475,7 +475,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 <a name="Help"></a>   
 
 ### How to get help  
- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] provides Learning Path in-app guided tasks and videos in additional to eBooks and more traditional Help content.
+ Customer Engagement apps provides Learning Path in-app guided tasks and videos in additional to eBooks and more traditional Help content.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   

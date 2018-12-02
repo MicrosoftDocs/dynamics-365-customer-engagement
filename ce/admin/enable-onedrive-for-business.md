@@ -34,7 +34,7 @@ This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../
 > [!NOTE]
 >  This topic applies to organizations deploying online versions of [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] and [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. For information on integrating [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] on-premises with Dynamics 365 for Customer Engagement, or an online/on-premises mix of these products, see: [Enable OneDrive for Business (on-premises)](../admin/connect-onedrive-business.md).  
 
- The following are required to use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]:  
+ The following are required to use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] with Customer Engagement apps:  
   
 - [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md).  
   

@@ -25,11 +25,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This section describes how to integrate [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] features, such as similar cases and suggest knowledge articles.  
+This section describes how to integrate [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] with Customer Engagement apps features, such as similar cases and suggest knowledge articles.  
 
 
 > [!IMPORTANT]
-> - [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is only available for instances in the United States (US) region.  
+> - [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] integration with Customer Engagement apps is only available for instances in the United States (US) region.  
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  

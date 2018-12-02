@@ -26,14 +26,14 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.   
+Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement apps instances.   
   
 <a name="BKMK_DailySystemBackup"></a>  
  
 ## Daily system backups  
  Good news! Some backups take place without you having to do anything.  
   
- About [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] **system backups**:  
+ About Customer Engagement apps **system backups**:  
   
 - All your instances are backed up.  
   

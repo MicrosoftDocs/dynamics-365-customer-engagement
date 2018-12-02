@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] metrics such as the number of active users and page requests.  
+Use the Organization Insights dashboard to get a quick view of key Customer Engagement apps metrics such as the number of active users and page requests.  
   
 > [!IMPORTANT]
 >  The Organization Insights dashboard is a preview feature in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md) [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  

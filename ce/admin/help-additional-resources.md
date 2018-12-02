@@ -61,7 +61,7 @@ There are several resources available to you covering planning, operating, and u
 
 ## Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center 
  
- [The Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ [The Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in Customer Engagement apps.  
    
 <a name="support_and_service"></a>   
 

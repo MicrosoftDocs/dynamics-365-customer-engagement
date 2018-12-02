@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID, see the Note later in this topic). Access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is controlled through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID.  
+Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID, see the Note later in this topic). Access to Customer Engagement apps is controlled through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID.  
   
  The user ID is in this format: `username@yourcompany.onmicrosoft.com`. Please note that although it resembles an email address, **this is a sign-in ID and not an email address**. It can be used as an email address, but only if you have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription with [Exchange Online](http://products.office.com/exchange/exchange-online).  
   
@@ -36,7 +36,7 @@ Each user signs in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] ap
  ![Office 365 user ID and Dynamics 365 for Customer Engagement apps (online)](../admin/media/o365-user-id.png "Office 365 user ID and Dynamics 365 for Customer Engagement apps (online)")  
   
 > [!NOTE]
-> [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] through an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID that’s created and managed in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. For simplicity, we will refer to the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID in this documentation.  
+> Customer Engagement apps uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access Customer Engagement apps through an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID that’s created and managed in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. For simplicity, we will refer to the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID in this documentation.  
   
  If you company uses on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] for user identity, you have options that can simplify user management such as providing a single sign-on experience for your users. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage user account synchronization](../admin/manage-user-account-synchronization.md)  
   

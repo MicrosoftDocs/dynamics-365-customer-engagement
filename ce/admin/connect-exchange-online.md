@@ -37,7 +37,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
 <a name="BKMK_GetExchangeReady"></a>   
 
 ## Get Exchange ready  
- To use [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription that comes as part of an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription or that can be subscribed to separately. For information on [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], see:  
+ To use [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with Customer Engagement apps, you must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription that comes as part of an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription or that can be subscribed to separately. For information on [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], see:  
   
 -   [Exchange Online](https://technet.microsoft.com/library/jj200580\(v=exchg.150\).aspx)  
   
@@ -51,7 +51,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
 <a name="BKMK_VerifyProfile"></a>   
 
 ## Verify you have the profile: Microsoft Exchange Online  
- If you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription in the same tenant as your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] creates a default profile for the email connection: **Microsoft Exchange Online**. To verify this profile:  
+ If you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription in the same tenant as your Customer Engagement apps subscription, Customer Engagement apps creates a default profile for the email connection: **Microsoft Exchange Online**. To verify this profile:  
   
 1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  
   
@@ -59,7 +59,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
   
    ![Verify the Microsoft Exchange Online profile](../admin/media/exchange-online-profile.png "Verify the Microsoft Exchange Online profile")  
   
-    If the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile is missing, verify you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription and that it exists in the same tenant as your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription.  
+    If the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile is missing, verify you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription and that it exists in the same tenant as your Customer Engagement apps subscription.  
   
 3. If there are multiple profiles, click the **Microsoft Exchange Online** profile and set it as default.  
   

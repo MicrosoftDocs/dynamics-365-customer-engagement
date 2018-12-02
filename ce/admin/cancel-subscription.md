@@ -45,7 +45,7 @@ You should have also made the following decisions:
   
 <a name="BKMK_CancellingCRM"></a>   
 ## Canceling your Dynamics 365 for Customer Engagement apps subscription  
- If you have been using [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for training, demonstrations, or testing and you don’t want to keep any of your data, you can simply contact billing support with the information in [Before you call](../admin/cancel-subscription.md#BKMK_BeforeYouCall). On the [Billing and subscription support](billing-support.md) page select [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. If you want to save your data, you need to also do the following:  
+ If you have been using [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for training, demonstrations, or testing and you don’t want to keep any of your data, you can simply contact billing support with the information in [Before you call](../admin/cancel-subscription.md#BKMK_BeforeYouCall). On the [Billing and subscription support](billing-support.md) page select Customer Engagement apps. If you want to save your data, you need to also do the following:  
   
 - If you want to keep the data, you can export the data. For more information, see [Export Data to Excel](../basics/export-data-excel.md).  
   
@@ -58,11 +58,11 @@ You should have also made the following decisions:
 ## Canceling your Dynamics 365 for Customer Engagement apps (online) subscription as part of your migration to Dynamics 365 for Customer Engagement apps (on-premises)  
  If you have decided to migrate to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps (on-premises Edition), you first migrate your data and then cancel your [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)]. To begin the migration process, you will need to work with one of the following Microsoft support teams.  
   
-- If you're on the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] platform for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (most customers are), contact [Technical support](contact-technical-support.md).  
+- If you're on the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] platform for Customer Engagement apps (most customers are), contact [Technical support](contact-technical-support.md).  
   
 - If you're on the Microsoft Commerce Transaction Platform, contact Billing support.  
   
-   Select the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] tab on the [Billing and subscription support](billing-support.md) page for help to determine which platform you are on.  
+   Select the Customer Engagement apps tab on the [Billing and subscription support](billing-support.md) page for help to determine which platform you are on.  
   
 [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps customer service will process your request, transfer your data to a secure site at the requested time, and notify your IT department that the data is available to be downloaded.  
   

@@ -49,9 +49,9 @@ One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-dyn
   
 - **Enables multiple scenarios, including hybrid scenarios**. You can use server-side synchronization to connect:  
   
-  - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
+  - Customer Engagement apps to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
-  - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
+  - Customer Engagement apps to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
   
   - [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps Server (on-premises) to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
   

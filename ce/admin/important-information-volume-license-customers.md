@@ -27,7 +27,7 @@ search.app:
 
 Your Dynamics CRM Online plan is being retired. When it's time to renew, you will need to renew using one of the Dynamics 365 for Customer Engagement apps plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
   
- If you're an existing Dynamics CRM Online customer, you will be notified when your subscription will expire.  At that time, you'll need to start a new subscription with one of the new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] licenses. You can switch before you receive the expiration notice.  
+ If you're an existing Dynamics CRM Online customer, you will be notified when your subscription will expire.  At that time, you'll need to start a new subscription with one of the new Customer Engagement apps licenses. You can switch before you receive the expiration notice.  
 
 > [!IMPORTANT]
 > It is important that you switch your users from CRM Online licenses to Dynamics 365 for Customer Engagement apps licenses in order to avoid any service disruption.
