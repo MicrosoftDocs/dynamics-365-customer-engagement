@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 11/19/2018
+ms.date: 12/03/2018
 ms.service:
   - "crm-online"
 ms.topic: article
