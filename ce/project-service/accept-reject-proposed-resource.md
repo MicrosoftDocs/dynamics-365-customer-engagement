@@ -32,7 +32,7 @@ Click on the arrow to open to open the team member and click on the Proposed Res
 
 The grid shows the proposed resource’s current bookings and bookings once the proposal is accepted. From here you can select the proposed resource and click Accept Proposals for them to be booked onto your team.  You can also reject the resource and resubmit the request.
 
-![Accpeting a resource proposal](media/RM-how-to-20.png 
+![Accpeting a resource proposal](media/RM-how-to-20.png) 
 
 As with directly fulfilling a generic resource with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
 
