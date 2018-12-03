@@ -3,7 +3,7 @@ title: Moving around Unified Interface-enabled apps in Dynamics 365 for Customer
 description: 
 keywords: 
 author: ReneeW-CPub
-applies_to: Dynamics 365 for Customer Engagement (online)
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.author: renwe
 manager: renwe
 ms.date: 05/30/2018

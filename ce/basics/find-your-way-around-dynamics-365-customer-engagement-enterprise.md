@@ -3,7 +3,7 @@ title: Find your way around Dynamics 365 for Customer Engagement | Microsoft Doc
 description: Know the sitemap of Microsoft Dynamics 365 for Customer Engagement
 keywords: Microsoft Dynamics 365 for Customer Engagement apps; Customer Service; Sitemap;
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.author: anjgup
 manager: sakudes
 ms.date: 08/02/2017

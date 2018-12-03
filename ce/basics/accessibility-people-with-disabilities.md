@@ -3,7 +3,7 @@ title: Accessibility for people with disabilities (Dynamics 365 for Customer Eng
 description: Accessibility keyboard shortcuts for people with disabilities
 keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagagement
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement Version 8.x
 ms.date: 05/30/2018
 ms.service: dynamics-365-crossapp
