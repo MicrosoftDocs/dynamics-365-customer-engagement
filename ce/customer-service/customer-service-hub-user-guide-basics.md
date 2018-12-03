@@ -231,7 +231,7 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
 -   Sort the entries by latest or oldest entry.
 
 ### **Related section**  
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience.
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
 
 For example:
 
@@ -262,6 +262,7 @@ Similarly,
 
 > [!NOTE]
 > Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
+
 
 #### Reference Panel reflow
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
