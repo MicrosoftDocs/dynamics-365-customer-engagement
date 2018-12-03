@@ -1,5 +1,5 @@
 ---
-title: "System Settings dialog box - Marketing tab for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "System Settings dialog box - Marketing tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 09/30/2017
@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 873c4108-7757-4b38-b734-8b1d5ceddc58
 author: shubhadaj
 ms.author: shujoshi
@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Use the settings on this page to configure marketing settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Use the settings on this page to configure marketing settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
 
 ## Open the Marketing System Settings dialog box (if it isn’t already open)  
 
@@ -50,7 +50,7 @@ Use the settings on this page to configure marketing settings for [!INCLUDE[pn_m
 |                              **Set whether direct email through mail merge is enabled in campaigns**                              |                                                                                                                                                                                                                                                          |
 |                                                Enable Direct Email via Mail Merge                                                 | Default: Yes. If Yes, users can send email as a campaign activity using the mail merge feature. **Note:**  To enable this option, the security role assigned to users for whom you want to enable mail merge must also include the Mail Merge privilege. |
 | **Set whether campaign responses are created for incoming campaign activity email (Available only if Email tracking is enabled)** |                                                                                                                                                                                                                                                          |
-|                                           Create campaign responses for incoming email                                            |                     Default: Yes. If Yes, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] creates campaign response records automatically when email messages are received in response to a specific marketing campaign.                     |
+|                                           Create campaign responses for incoming email                                            |                     Default: Yes. If Yes, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps creates campaign response records automatically when email messages are received in response to a specific marketing campaign.                     |
 |                        **Set the auto-unsubscribe options (Available only if Email tracking is enabled)**                         |                                                                                                                                                                                                                                                          |
 |                          Set "Do Not Send Marketing Material" option when unsubscribe email is received                           |                         Default: No. If Yes, when an unsubscribe email is received, the preference setting for the account, contact, or lead from the marketing list gets updated automatically to not send marketing materials.                         |
 |                                      Send acknowledgement to customers when they unsubscribe                                      |                                                 If the previous setting **Set “Do Not Send Marketing Material”** is Yes, you can use this setting to send a response to customers when they unsubscribe.                                                 |

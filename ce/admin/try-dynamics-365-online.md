@@ -1,5 +1,5 @@
 ---
-title: "Try Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Try Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: ac59dbce-a401-426f-a7da-b2f336aac1d6
 caps.latest.revision: 4
 author: "jimholtz"
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Try Dynamics 365 for Customer Engagement (online)
+# Try Dynamics 365 for Customer Engagement apps (online)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -30,17 +30,17 @@ We're excited about the release of [!INCLUDE [pn-crm-9-0-0-online](../includes/p
 ## Partners and Customizers
 If you are a partner signing up on behalf of a customer, or are using this trial for development purposes, go to [https://trials.dynamics.com/Dynamics365/Signup/#](https://trials.dynamics.com/Dynamics365/Signup/#). You'll have the choice to add your trial to an existing tenant. You will also need to decide which apps to install when you start your trial. For more information on which scenario is right for you, see [Installation options](#installation-options) below. 
 
-## New Dynamics 365 for Customer Engagement (online) customers  
+## New Dynamics 365 for Customer Engagement apps (online) customers  
  If you're a new customer, we've made onboarding quick and easy. See the following for information on these applications available with [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].  
 
--   [Dynamics 365 for Customer Engagement for Sales](https://www.microsoft.com/dynamics365/sales)  
--   [Dynamics 365 for Customer Engagement for Customer Service](https://www.microsoft.com/dynamics365/customer-service)  
--   [Dynamics 365 for Customer Engagement for Field Service](https://www.microsoft.com/dynamics365/field-service)    
--   [Dynamics 365 for Customer Engagement for Project Service Automation](https://www.microsoft.com/dynamics365/project-service-automation)  
+-   [Dynamics 365 for Customer Engagement apps for Sales](https://www.microsoft.com/dynamics365/sales)  
+-   [Dynamics 365 for Customer Engagement apps for Customer Service](https://www.microsoft.com/dynamics365/customer-service)  
+-   [Dynamics 365 for Customer Engagement apps for Field Service](https://www.microsoft.com/dynamics365/field-service)    
+-   [Dynamics 365 for Customer Engagement apps for Project Service Automation](https://www.microsoft.com/dynamics365/project-service-automation)  
 
 On any of the above pages, scroll down and click **Get Started** to start a 30-day trial. For more information on which scenario is right for you, see the [Installation options](#installation-options) section below.
 
-## Current Dynamics 365 for Customer Engagement (online) customers  
+## Current Dynamics 365 for Customer Engagement apps (online) customers  
  If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] subscription, there are a couple ways to see the latest version in action.  
 
 ### Start a trial  
@@ -71,7 +71,7 @@ For more information about the scenario choices, see the [Installation options](
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following videos:  
 >   
-> -   [Get the most out of your free 30-day Dynamics 365 for Customer Engagement trial](https://go.microsoft.com/fwlink/p/?linkid=835893).  
+> -   [Get the most out of your free 30-day Dynamics 365 for Customer Engagement apps trial](https://go.microsoft.com/fwlink/p/?linkid=835893).  
 > -   [How to buy Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?linkid=835890).  
 
 
@@ -102,7 +102,7 @@ For more information about the scenario choices, see the [Installation options](
 ## Installation options
 You can choose to start a trial for all Customer Engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
 
-![Dynamics 365 for Customer Engagement app switcher](../admin/media/app-switcher75.png "Dynamics 365 for Customer Engagement app switcher")  
+![Dynamics 365 for Customer Engagement apps app switcher](../admin/media/app-switcher75.png "Dynamics 365 for Customer Engagement apps app switcher")  
 
 The following table shows what’s installed for each choice, what you see in the app switcher, and where you can use it.
 
@@ -127,7 +127,7 @@ The following table shows what’s installed for each choice, what you see in th
 |                                                                                                 | Dynamics 365 - custom |  Full suite of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] capabilities, including administration  |      Web       |
 
 ### See also  
- [Onboard your organization and users to Dynamics 365 for Customer Engagement (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
+ [Onboard your organization and users to Dynamics 365 for Customer Engagement apps (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
  [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md)<br />
- [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../admin/manage-online-instances.md)   
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

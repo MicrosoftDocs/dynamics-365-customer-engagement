@@ -65,4 +65,4 @@ You can check whether entities are eligible to participate in a relationship wit
 [Metadata and data models](../metadata-data-models.md)<br />
 [Browse the Metadata for Your Organization](../browse-your-metadata.md)<br />
 [Use the Organization service with Dynamics 365 for Customer Engagement apps metadata](../org-service/use-organization-service-metadata.md)<br />
-[Use the Dynamics 365 for Customer Engagement apps Web API](../use-microsoft-dynamics-365-web-api.md)
+[Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)

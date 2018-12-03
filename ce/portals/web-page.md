@@ -1,7 +1,7 @@
 ---
 title: "Create and manage web pages in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to create and manage web pages in a portal."
-ms.date: 05/24/2018
+ms.date:12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 

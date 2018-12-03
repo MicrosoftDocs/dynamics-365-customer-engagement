@@ -1,5 +1,5 @@
 ---
-title: "Reset a Dynamics 365 for Customer Engagement user's password | MicrosoftDocs"
+title: "Reset a Dynamics 365 for Customer Engagement apps user's password | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: fd3c2656-0108-4e25-a5ab-c786ebe7a000
 caps.latest.revision: 4
 author: "jimholtz"

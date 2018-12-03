@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 7f04a24b-9275-4286-8d51-9ce29a0433ce
 caps.latest.revision: 8
 author: "jimholtz"
@@ -32,7 +32,7 @@ Check out the following for more "What's new" and release history information:
 - [What's new in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new)
  
 > [!TIP]
->  To see the versions that apply to the updates below, see [Support: Dynamics 365 for Customer Engagement (online) releases](https://support.microsoft.com/kb/2925359)  
+>  To see the versions that apply to the updates below, see [Support: Dynamics 365 for Customer Engagement apps (online) releases](https://support.microsoft.com/kb/2925359)  
 
 <a name="BKMK_July2017"></a>
 
@@ -40,7 +40,7 @@ Check out the following for more "What's new" and release history information:
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
-|[Public Preview: Introducing Live Assist for Dynamics 365 for Customer Engagement Powered by CaféX](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
+|[Public Preview: Introducing Live Assist for Dynamics 365 for Customer Engagement apps Powered by CaféX](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
 |[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)|Added new topic. |
@@ -51,17 +51,17 @@ The following are topics for features that were delivered out of band since the 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
-|[Purchase and assign Dynamics 365 for Customer Engagement (online) licenses](purchase-assign-online-licenses.md)| Added information about PowerApps licensing.|
+|[Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](purchase-assign-online-licenses.md)| Added information about PowerApps licensing.|
 |[What's new with instance management](new-instance-management.md)|New topic.|
 |[Common Data Service instances](common-data-service-instances.md)|New topic.|
-|[User Guide (Dynamics 365 for Customer Engagement for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)|Updated topic.|
+|[User Guide (Dynamics 365 for Customer Engagement apps for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)|Updated topic.|
 |[What's supported](../mobile-app/support-phones-tablets.md)|Updated topic.|
 |[Enable accessible email flow](deploy-email-unified-interface.md)|Added new topic.|
 |[Contact Technical Support](contact-technical-support.md)|Updated topic for new ticket process.|
 |[Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|Updated topic.|
 |[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)|Updated topic for version 1.3.0.1|
-|[Invite users to Dynamics 365 for Customer Engagement with Azure Active Directory B2B collaboration](invite-users-azure-active-directory-b2b-collaboration.md)|Added new topic.|
+|[Invite users to Dynamics 365 for Customer Engagement apps with Azure Active Directory B2B collaboration](invite-users-azure-active-directory-b2b-collaboration.md)|Added new topic.|
 |[About the Microsoft Cloud Germany datacenter](datacenter/about-microsoft-cloud-germany.md)|Added new topic.|
-|[Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement (online)](switch-dynamics-crm-online-dynamics-365.md)|Updated topic.|
+|[Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)](switch-dynamics-crm-online-dynamics-365.md)|Updated topic.|
 |[Manage Support instances](support-instance.md)|Added new topic.|
 |[Security enhancements: User session and access management](user-session-management.md)|Added new topic.|

@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 91e10e68-8edf-4eee-a69e-9d9b6fac16f9
 caps.latest.revision: 9
 author: "Mattp123"
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You're working on a support case and you wonder if there's a similar case that might help you resolve yours. With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics, you can quickly find related cases and use them to resolve your current case. Keywords or key phrases  in a service case are used to find similar cases.  
+You're working on a support case and you wonder if there's a similar case that might help you resolve yours. With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics, you can quickly find related cases and use them to resolve your current case. Keywords or key phrases  in a service case are used to find similar cases.  
   
 > [!IMPORTANT]
 > - This feature is currently only available for instances in the United States (US) region.  
@@ -46,7 +46,7 @@ You're working on a support case and you wonder if there's a similar case that m
   
 2. Click **System Settings** and open the **Previews** tab.  
   
-3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 for Customer Engagement Text Analytics Preview** to **Yes**.  
+3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 for Customer Engagement apps Text Analytics Preview** to **Yes**.  
   
 4. Click **OK** to give your consent.  
   
@@ -54,7 +54,7 @@ You're working on a support case and you wonder if there's a similar case that m
   
 <a name="BKMK_ConnectTextAnalytics"></a>   
 
-## Connect Dynamics 365 for Customer Engagement (online) to the Cognitive Services Text Analytics service  
+## Connect Dynamics 365 for Customer Engagement apps (online) to the Cognitive Services Text Analytics service  
  If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
   
 <a name="BKMK_SetUpSimilarCase"></a>   

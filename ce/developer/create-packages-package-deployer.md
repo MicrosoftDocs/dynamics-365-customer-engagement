@@ -1,5 +1,5 @@
 ---
-title: "Create packages for the Dynamics 365 for Customer Engagement apps Package Deployer (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Create packages for the Dynamics 365 for Customer Engagement Package deployer (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Create packages for the Dynamics 365 for Customer Engagement apps Package Deployer
+# Create packages for the Dynamics 365 for Customer Engagement Package deployer
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

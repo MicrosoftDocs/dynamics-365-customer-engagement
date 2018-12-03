@@ -3,7 +3,7 @@ title: "Restrict access to a portal by using IP address in Dynamics 365 for Cust
 description: "Instructions to restrict portal access by IP address."
 ms.custom: 
   - dyn365-portal
-ms.date: 11/30/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

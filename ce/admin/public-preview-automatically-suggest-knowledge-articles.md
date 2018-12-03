@@ -7,8 +7,8 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: ee417009-afaf-4a63-9d8b-ef756a37decf
 author: Mattp123
 ms.author: matp
@@ -50,7 +50,7 @@ You want your customer service reps to quickly resolve cases with high customer 
 
 2. Click **System Settings** and open the **Previews** tab.  
 
-3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 for Customer Engagement Text Analytics Preview** to **Yes**.  
+3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 for Customer Engagement apps Text Analytics Preview** to **Yes**.  
 
 4. Click **OK** to give your consent.  
 
@@ -58,7 +58,7 @@ You want your customer service reps to quickly resolve cases with high customer 
 
 <a name="BKMK_ConnectTextAnalytics"></a>   
 
-## Connect Dynamics 365 for Customer Engagement (online) to the Cognitive Services Text Analytics service  
+## Connect Dynamics 365 for Customer Engagement apps (online) to the Cognitive Services Text Analytics service  
  If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
 
 <a name="BKMK_SetUpKnowledgeSearch"></a>   

@@ -36,7 +36,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
    ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
-2. In the **Publish to Dynamics 365 for Customer Engagement** dialog box, enter the Dynamics 365 for Customer Engagement apps server name and your credentials.  
+2. In the **Publish to Dynamics 365 for Customer Engagement** dialog box, enter the Dynamics 365 for Customer Engagement server name and your credentials.  
   
    ![Publish to Dynamics 365 for Customer Engagement apps dialog box](../unified-service-desk/media/usd-deploy.png "Publish to Dynamics 365 for Customer Engagement apps dialog box")  
   

@@ -1,5 +1,5 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement (online) Sandbox instances | MicrosoftDocs"
+title: "Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/06/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: cc85ee44-cbbd-4b0d-ae00-84cc0673527b
 caps.latest.revision: 4
 author: "jimholtz"
@@ -25,15 +25,15 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
+A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
   
 > [!NOTE]
-> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 for Customer Engagement Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
+> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 for Customer Engagement apps Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
 >
 > Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
 
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 for Customer Engagement (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
+> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 for Customer Engagement apps (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
   
 <a name="BKMK_View"></a>   
 
@@ -53,7 +53,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 ## Reset a Sandbox instance  
  You can reset a Sandbox instance to delete and re-provision it. Consider a reset when you want to:  
   
-- Change to a different version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+- Change to a different version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
 - Create a new project  
   
@@ -89,7 +89,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 <a name="BKMK_AdminMode"></a>   
 ## Administration mode  
- When you place a Sandbox instance in administration mode only users with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.  
+ When you place a Sandbox instance in administration mode only users with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.  
   
 > [!NOTE]
 > - You can only place Sandbox instances in administration mode.  

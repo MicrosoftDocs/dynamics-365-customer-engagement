@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 2a46ffd4-9f2c-438e-a5c6-61e86d885949
 caps.latest.revision: 36
 author: "jimholtz"
@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 
- Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
+ Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
 
  ![Exchange email folder tracking in Dynamics 365 for Customer Engagement](../outlook-app/media/exchange-folder-tracking-dynamics-crm.png "Exchange email folder tracking in Dynamics 365 for Customer Engagement")  
 
@@ -39,9 +39,9 @@ To see folder tracking in action, see the video [Folder Level Tracking in CRM On
 
 ## Requirements for using tracked folders  
 
-- The tracking folders feature must also be enabled by your administrator. For more information, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator. For admin information on enabling tracked folders, see [Configure folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md).  
+- The tracking folders feature must also be enabled by your administrator. For more information, contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator. For admin information on enabling tracked folders, see [Configure folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md).  
 
-- Your organization must use server-side synchronization as your email synchronization method. If you don’t know which synchronization method your organization uses, contact your Dynamics 365 for Customer Engagement administrator. For admin information about setting up server-side synchronization, see [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+- Your organization must use server-side synchronization as your email synchronization method. If you don’t know which synchronization method your organization uses, contact your Dynamics 365 for Customer Engagement apps administrator. For admin information about setting up server-side synchronization, see [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
 
 <a name="Setup"></a>   
 
@@ -49,7 +49,7 @@ To see folder tracking in action, see the video [Folder Level Tracking in CRM On
 
 1. In the web app, on the nav bar, click **Options** ![Options button for Dynamics 365 for Customer Engagement](media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement").  
 
-2. In the **Set Personal Options** dialog box, click the **Email** tab, and then under **Select the email messages to track in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]**, click **Configure Folder Tracking Rules**.  
+2. In the **Set Personal Options** dialog box, click the **Email** tab, and then under **Select the email messages to track in Dynamics 365**, click **Configure Folder Tracking Rules**.  
 
 3. In the **Folder-Level Tracking** dialog box, under **Exchange Folder**, click **+ New Folder Mapping**, click the down arrow in the box that appears, and then select the folder you want to track.  
 
@@ -68,11 +68,11 @@ To see folder tracking in action, see the video [Folder Level Tracking in CRM On
 
 ## Best practices for folder tracking  
 
-- Make sure to take advantage of folder tracking on your mobile devices. If your device supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] email, folder tracking will work automatically. You don’t need to install anything. Just drag or move email to a tracked folder to automatically track that email in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Make sure to take advantage of folder tracking on your mobile devices. If your device supports [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] email, folder tracking will work automatically. You don’t need to install anything. Just drag or move email to a tracked folder to automatically track that email in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
 
 - Whether you set a regarding record for a folder or not depends on how you plan to use the folder:  
 
-  - If you receive a small volume of email from many different customers, you may want to create a single folder called “Track in Dynamics 365 for Customer Engagement” (or similar name) that isn’t linked to a particular record. That way, you can drag messages to that folder to track them automatically. If you later want to link an email message in that folder to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, open that activity record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and then fill in the Regarding field.  
+  - If you receive a small volume of email from many different customers, you may want to create a single folder called “Track in Dynamics 365 for Customer Engagement” (or similar name) that isn’t linked to a particular record. That way, you can drag messages to that folder to track them automatically. If you later want to link an email message in that folder to a specific [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps record, open that activity record in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and then fill in the Regarding field.  
 
   - If you receive large volumes of email from a particular customer, create a folder (or use an existing folder) just for that customer and link it to a specific record. For example, create a Contoso folder and set the regarding record to a Contoso account record or opportunity record.  
 
@@ -105,5 +105,5 @@ To see folder tracking in action, see the video [Folder Level Tracking in CRM On
 |                      Two users move the same email message to separate folders that have different regarding records                      |                                                                                                                                                                                                                                                               You can only set one regarding record for an email message. In this case, the record that’s processed first is linked to the regarding record.                                                                                                                                                                                                                                                               |
 
 ### See also  
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)<br />
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)<br />
  [Configure folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md)

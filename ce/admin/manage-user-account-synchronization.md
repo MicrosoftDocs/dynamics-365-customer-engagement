@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: d72e27e3-a8c4-4d0d-96d1-c7f3f85bafdb
 caps.latest.revision: 5
 author: "jimholtz"
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Because [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user identities are provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], you have multiple options for managing user synchronization between your online and on-premises environments.  
+Because [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps user identities are provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], you have multiple options for managing user synchronization between your online and on-premises environments.  
   
 ## Decide on a user management approach  
  You can choose from three main identity models in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] when you set up and manage user accounts:
@@ -53,7 +53,7 @@ Review the following resources to equip you to make the right decision for your 
   
  https://\<*yourCRMOrganizationName*>.crm.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
   
- You can get the \<*yourCRMOrganizationName*> by looking at the URL you use to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. For example, in https://contoso.crm.dynamics.com, *contoso* is \<*yourCRMOrganizationName*>.  
+ You can get the \<*yourCRMOrganizationName*> by looking at the URL you use to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. For example, in https://contoso.crm.dynamics.com, *contoso* is \<*yourCRMOrganizationName*>.  
   
 > [!IMPORTANT]
 > The following URLs would be used for subscriptions hosted in these locations.  
@@ -81,4 +81,4 @@ Review the following resources to equip you to make the right decision for your 
   
    Your URL should look like: https://<em>contoso</em>.crm.dynamics.com?whr=*<http://sts1.fabrikam.com/adfs/services/trust>*  
   
-   Send this URL to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users and encourage them to bookmark it.
+   Send this URL to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps users and encourage them to bookmark it.

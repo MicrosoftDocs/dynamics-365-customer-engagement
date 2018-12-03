@@ -3,7 +3,7 @@ title: "Dynamics 365 for Customer Engagement Portal FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 9/25/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

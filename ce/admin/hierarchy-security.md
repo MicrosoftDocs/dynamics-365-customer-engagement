@@ -1,5 +1,5 @@
 ---
-title: "Hierarchy security for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Hierarchy security for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: cb5bc112-03f3-4de4-ae5b-998b1e22503e
 caps.latest.revision: 30
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The hierarchy security model is an extension to the existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security models that use business units, security roles, sharing, and teams. It can be used in conjunction with all other existing security models. The hierarchy security offers a more granular access to records for an organization and helps to bring the maintenance costs down. For example, in complex scenarios, you can start with creating several business units and then add the hierarchy security. This will achieve a more granular access to data with far less maintenance costs that a large number of business units may require.  
+The hierarchy security model is an extension to the existing [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security models that use business units, security roles, sharing, and teams. It can be used in conjunction with all other existing security models. The hierarchy security offers a more granular access to records for an organization and helps to bring the maintenance costs down. For example, in complex scenarios, you can start with creating several business units and then add the hierarchy security. This will achieve a more granular access to data with far less maintenance costs that a large number of business units may require.  
   
 <a name="BKMK_Securitymodels"></a>   
 ## Manager hierarchy and Position hierarchy security models  
@@ -87,7 +87,7 @@ The hierarchy security model is an extension to the existing [!INCLUDE[pn_micros
   
  ![Set up hierarchy security in Dynamics 365 for Customer Engagement](../admin/media/hierarchy-security-setup.PNG "Set up hierarchy security in Dynamics 365 for Customer Engagement")  
   
- Set the **Depth** to a desired value to limit how many levels deep a manager has a Read-only access to the data of their reports. For example, if the depth equals to 2, a manager can only access his accounts and the accounts of the reports two levels deep. In our example, if you log in into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] not as an Administrator, who can see all accounts, but, as the VP of Sales, you’ll only be able to see the active accounts of the users shown in the red rectangle, as illustrated below:  
+ Set the **Depth** to a desired value to limit how many levels deep a manager has a Read-only access to the data of their reports. For example, if the depth equals to 2, a manager can only access his accounts and the accounts of the reports two levels deep. In our example, if you log in into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps not as an Administrator, who can see all accounts, but, as the VP of Sales, you’ll only be able to see the active accounts of the users shown in the red rectangle, as illustrated below:  
   
  ![Read access for VP of Sales in Dynamics 365 for Customer Engagement](../admin/media/sales-vp-access.png "Read access for VP of Sales in Dynamics 365 for Customer Engagement")  
   

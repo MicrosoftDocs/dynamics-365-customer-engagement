@@ -1,6 +1,6 @@
 ---
 title: "Introduction to the event framework (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Event framework enables your custom code to be developed and integrated into Dynamics 365 for Customer Engagement apps server"
+description: "Event framework enables your custom code to be developed and integrated into Dynamics 365 for Customer Engagement server"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""

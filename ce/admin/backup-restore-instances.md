@@ -1,5 +1,5 @@
 ---
-title: "Backup and restore instances of Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
+title: "Backup and restore instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 02/26/2018
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 82d04aae-5557-44da-9658-d1cf1b1c4825
 caps.latest.revision: 4
 author: "jimholtz"
@@ -26,14 +26,14 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.   
+Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement apps instances.   
   
 <a name="BKMK_DailySystemBackup"></a>  
  
 ## Daily system backups  
  Good news! Some backups take place without you having to do anything.  
   
- About [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] **system backups**:  
+ About Customer Engagement apps **system backups**:  
   
 - All your instances are backed up.  
   
@@ -47,11 +47,11 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 - System backups are identified as created by **System** on the **Manage backups** page.  
   
-  ![Backup & Restore tab in the Dynamics 365 for Customer Engagement Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 for Customer Engagement Administration Center")  
+  ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
   
 ### See your system backups  
   
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   
 2. Click **Admin centers** > **Dynamics 365**.  
   
@@ -65,13 +65,13 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 <a name="BKMK_ODBCRMManaged"></a>   
 
-## On-demand backup: Dynamics 365 for Customer Engagement managed  
- Automated system backups are great, but you will want to be able to make your own backups before making some significant customization change or applying a version update. You can do this with on-demand [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] managed  backups.  
+## On-demand backup: Dynamics 365 for Customer Engagement apps managed  
+ Automated system backups are great, but you will want to be able to make your own backups before making some significant customization change or applying a version update. You can do this with on-demand [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps managed  backups.  
   
 > [!NOTE]
 >  A backup is created for you when we update your instance.  
   
- About [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] managed **on-demand backups**:  
+ About [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps managed **on-demand backups**:  
   
 - You can back up Production and Sandbox instances.  
   
@@ -89,13 +89,13 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 
 - On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
   
-  ![Edit, Delete, and Restore buttons for Dynamics 365 for Customer Engagement on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 for Customer Engagement on-demand backups.")  
+  ![Edit, Delete, and Restore buttons for Dynamics 365 for Customer Engagement apps on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 for Customer Engagement apps on-demand backups.")  
   
 <a name="BKMK_CreateCRMBackup"></a>   
 
-### Create an on-demand backup of a Dynamics 365 for Customer Engagement instance  
+### Create an on-demand backup of a Dynamics 365 for Customer Engagement apps instance  
   
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   
 2. Click **Admin centers** > **Dynamics 365**.  
   
@@ -111,7 +111,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 7. Click **Create**.  
   
-   ![Form for creating a new Dynamics 365 for Customer Engagement (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 for Customer Engagement (online) backup.")  
+   ![Form for creating a new Dynamics 365 for Customer Engagement apps (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 for Customer Engagement apps (online) backup.")  
   
    A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
   
@@ -120,10 +120,10 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 <a name="BKMK_EditBackups"></a>   
 
-### Edit a Dynamics 365 for Customer Engagement on-demand backup  
+### Edit a Dynamics 365 for Customer Engagement apps on-demand backup  
  Edit a backup to change its label and your notes about the backup.  
   
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   
 2. Click **Admin centers** > **Dynamics 365**.  
   
@@ -141,10 +141,10 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 <a name="BKMK_RestoreBackups"></a>   
 
-### Restore a Dynamics 365 for Customer Engagement on-demand backup  
+### Restore a Dynamics 365 for Customer Engagement apps on-demand backup  
  You can only restore to Sandbox instances. To restore to a Production instance, first switch it to a Sandbox instance, restore to it, and then switch it back to a Production instance. See [Switch an instance](../admin/switch-instance.md).  
   
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   
 2. Click **Admin centers** > **Dynamics 365**.  
   
@@ -171,10 +171,10 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 <a name="BKMK_DeleteCRMBackup"></a>   
 
-### Delete a Dynamics 365 for Customer Engagement on-demand backup  
- You can use the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to delete [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-managed, on-demand backups.  You can't delete system backups.  
+### Delete a Dynamics 365 for Customer Engagement apps on-demand backup  
+ You can use the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to delete [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps-managed, on-demand backups.  You can't delete system backups.  
   
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   
 2. Click **Admin centers** > **Dynamics 365**.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Choose the records to synchronize between Dynamics 365 for Customer Engagement and Outlook or Exchange | MicrosoftDocs"
+title: "Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 413db37c-1f03-4fc0-aaf1-b13c12407c6c
 caps.latest.revision: 53
 author: "jimholtz"
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Choose the records to synchronize between Dynamics 365 for Customer Engagement and Exchange 
+# Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Exchange 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses online synchronization filters to determine which records to synchronize between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters.  
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps uses online synchronization filters to determine which records to synchronize between [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters.  
   
- Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], whether the user is on the recipient list or not.   
+ Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, whether the user is on the recipient list or not.   
   
 ## Create or modify online synchronization filters  
   
@@ -35,9 +35,9 @@ search.app:
   
 2. In the **Set Personal Options** dialog box, click the **Synchronization** tab.  
   
-3. Under **Synchronize [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] items with Outlook or Exchange**, click the **filters** link.  
+3. Under **Synchronize [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps items with Outlook or Exchange**, click the **filters** link.  
   
-   [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] displays the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
+   [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps displays the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
   
    ![Online synchronization filters](../outlook-app/media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
@@ -78,5 +78,5 @@ search.app:
    ![Sync filters dialog box showing grouped criteria](../outlook-app/media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ### See also  
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md) 
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md) 
 

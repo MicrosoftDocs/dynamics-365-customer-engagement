@@ -47,27 +47,23 @@ To remove an appointment or service activity from the calendar, delete the recor
 4. If this is a recurring appointment, click **Recurrence**, and then select the time, pattern, and date range you want.  
   
 5. Click **Save**. If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
-
-> [!Note]
->  You may have the option to create an appointment in Dynamics 365 for Customer Engagement apps and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange. You will only see these options if your admin as enabled this specific setting. For more information, [OrgDBOrgSettings tool](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
-
-  
+ 
 If you want to add an attachment, make sure you save the appointment first. Then, in the **Attachments** section, click the **Add attachment record** button ![Add Appointment button](../basics/media/plus-sign-icon.png "Add Appointment button") (you may have to scroll to the right to see the button) and browse for the file. The attachment size limitation is the same as the email attachment size limitation, which can be changed by your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)
 
 > [!IMPORTANT]
 >  If you plan to include appointments in solutions, we strongly recommend that you don’t include only appointments and only recurring appointments in separate solutions. If you install and uninstall separate solutions with different appointment types, you’ll encounter a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] error and you’ll have to recreate the appointments. 
 
-<!-- Commented out deprecated features>      
- **If you’re using Dynamics 365 for Outlook**  
-  
- Keep the following in mind if you’re using [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] in addition to the web application:  
-  
--   If you’re using the [!INCLUDE[pn_crm_online_2015_update](../includes/pn-crm-online-2015-update.md)] or later, [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] or later, or [!INCLUDE[pn_crm_2015_outlook](../includes/pn-crm-2015-outlook.md)] or later, you can synchronize appointment attachments between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] if your system administrator has enabled attachment synchronization. You can insert the attachments in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
-  
--   Appointments created in the web application and synchronized with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] automatically set a 15-minute reminder and appear on the [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] calendar. You can change the reminder in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
-  
--   Service calendar items aren’t added to your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] calendar.  
--->  
+## Create draft appointments synchronizing with Exchange
+
+Create an appointment in Dynamics 365 for Customer Engagement apps and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange.Note, you will need to be on version 9.x (build 9.0.2.2081).
+
+To enable this capabilities, an admin will need enable the *OrgDBOrgSetting* in Dynamics 365. 
+
+1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
+2. After extracting the tool, enable the *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
+
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
+
 ### See also  
  [Navigate the service calendar (Customer Service app)](../customer-service/navigate-service-calendar-cs-app.md) </br>
  [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)   

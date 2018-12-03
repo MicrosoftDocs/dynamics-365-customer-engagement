@@ -1,5 +1,5 @@
 ---
-title: "Use the Organization Insights solution to view metrics about your Dynamics 365 for Customer Engagement (online) instance | MicrosoftDocs"
+title: "Use the Organization Insights solution to view metrics about your Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/11/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5e6f6b85-1a25-4c56-a92f-59f0a289e9c6
 caps.latest.revision: 5
 author: "jimholtz"

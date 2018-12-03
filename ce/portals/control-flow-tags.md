@@ -2,7 +2,7 @@
 title: "Use control flow tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about control flow tags available in portal"
 keywords: "control flow tags; liquid tags"
-ms.date: 05/04/2018
+ms.date:12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 

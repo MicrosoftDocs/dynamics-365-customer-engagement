@@ -1,5 +1,5 @@
 ---
-title: "Enable embedded Flow in your Dynamics 365 for Customer Engagement organization | MicrosoftDocs"
+title: "Enable embedded Flow in your Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/20/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 5d83e4d6-7b2c-432d-8f6a-222793ac9677
 caps.latest.revision: 11
 author: "Mattp123"
@@ -25,12 +25,12 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] makes it simple for users to combine a broad spectrum of services that can be initiated from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], such as messaging, social engagement, and document routing services.  
+Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps makes it simple for users to combine a broad spectrum of services that can be initiated from within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, such as messaging, social engagement, and document routing services.  
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
   
 The embedded Flow feature is not available in the following service or geographic regions.
-- Microsoft Dynamics 365 for Customer Engagement Government
+- Microsoft Dynamics 365 for Customer Engagement apps Government
 - Germany
 
 Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
@@ -41,11 +41,11 @@ Once the embedded Flows feature is enabled, the following privileges are added i
   
 ## Prerequisites  
   
-- A Flow connection for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
+- A Flow connection for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
   
-- One or more flows created in the Flow environment to use with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 for Customer Engagement (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
+- One or more flows created in the Flow environment to use with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 for Customer Engagement apps (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
   
-## Enable or disable Flow in your Dynamics 365 for Customer Engagement organization  
+## Enable or disable Flow in your Dynamics 365 for Customer Engagement apps organization  
  By default, all security roles allow users to run flows on the records that they have access to.  
   
  To enable or disable embedded Microsoft Flows in your organization, follow these steps.  

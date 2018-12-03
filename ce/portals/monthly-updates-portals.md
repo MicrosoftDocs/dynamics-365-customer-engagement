@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365 for Customer Engagement."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 10/17/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal

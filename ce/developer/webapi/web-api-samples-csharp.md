@@ -153,7 +153,7 @@ throw new CrmHttpResponseException(response.Content);
   
 -   All of the pertinent C# sample code is contained in the primary source file named `Program.cs`, which contains a single class with the same name as the sample project.  
   
--   The sample classes, as well as the [Dynamics 365 for Customer Engagement apps Web API Helper Library](use-microsoft-dynamics-365-web-api-helper-library-csharp.md), is contained in the namespace `Microsoft.Crm.Sdk.Samples`.  
+-   The sample classes, as well as the [Dynamics 365 for Customer Engagement Web API Helper Library](use-microsoft-dynamics-365-web-api-helper-library-csharp.md), is contained in the namespace `Microsoft.Crm.Sdk.Samples`.  
   
 -   The samples are liberally commented: summaries are provided at the class and method levels, and most key individual statements have associated same- or single-line comments.  Supplemental files, such as the application configuration file `App.config`, also often contain important comments.  
   
@@ -193,7 +193,7 @@ Console.ReadLine();
   
 <a name="bkmk_connectToCrm"></a>   
 #### ConnectToCRM method  
- This method calls upon the helper libraries to read the application configuration file and then establishes a connection to the specified Dynamics 365 for Customer Engagement apps server. The result of these steps is the initialization of a [HttpClient](https://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.110\).aspx) class property that is used throughout the program to send web requests and receive responses.  Note the following properties are set on this object:  
+ This method calls upon the helper libraries to read the application configuration file and then establishes a connection to the specified Dynamics 365 for Customer Engagement server. The result of these steps is the initialization of a [HttpClient](https://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.110\).aspx) class property that is used throughout the program to send web requests and receive responses.  Note the following properties are set on this object:  
   
 ```csharp  
   
