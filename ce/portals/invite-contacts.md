@@ -53,7 +53,7 @@ To create an invitation record within [!INCLUDE[pn-dynamics-crm](../includes/pn-
 
 3.	On the command bar, select **Create Invitation**.
 
-4.	On the **New Invitation** page, enter the required details in the fields. More information: [New invitation form fields](#new-invitation-form-fields)
+4.	On the **Invitation** page, enter appropriate values in the fields. More information: [Invitation attributes](#invitation-attributes)
 
 5.	Select **Save**.
 
@@ -85,9 +85,9 @@ You can create invitations for your contacts and then send all invitations at on
     > [!div class="mx-imgBorder"]
     > ![Confirmation to send multiple invitations](media/confirm-multiple-invites-portal-app.png "Confirmation to send multiple invitations")
 
-## New invitation form fields
+## Invitation attributes
 
-The Invitation form has the following fields:
+The table below explains the attributes of the **Invitation** page:
 
 
 |  Name    |    Description    |
