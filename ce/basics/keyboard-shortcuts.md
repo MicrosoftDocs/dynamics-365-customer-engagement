@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use keyboard shortcuts in Dynamics 365 for Customer Engagement appsapplications
+# Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 for Customer Engagement appsapplications. 
+Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 for Customer Engagement apps. 
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 

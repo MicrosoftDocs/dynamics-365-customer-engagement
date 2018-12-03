@@ -35,7 +35,7 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-    #### If using the Dynamics 365 for Customer Engagement appsapps   
+    #### If using the Dynamics 365 for Customer Engagement apps   
 
    1.  On the right side, choose the **Charts** pane.  
   
@@ -100,7 +100,7 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-   **If using the Dynamics 365 for Customer Engagement appsapps:**  
+   **If using the Dynamics 365 for Customer Engagement apps:**  
   
 3. On the right side, choose the **Charts** pane.  
 

@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Analyze your Dynamics 365 for Customer Engagement appsapps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
+# Analyze your Dynamics 365 for Customer Engagement apps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

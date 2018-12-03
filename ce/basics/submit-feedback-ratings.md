@@ -28,7 +28,7 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
  For example, if the  Case entity is enabled for feedback, you can capture feedback on the support experience the customer received for the case. When several customers are rating a record, the ratings can be consolidated for each record through a custom rollup field. In a sales scenario, you can enable the Product entity for feedback to capture users' feedback on the products you sell.  
   
- A system administrator or customizer can enable an entity for feedback. If you want to capture feedback for any specific entity, talk to your system administrator or customizer. [Find the administrator or support person for Dynamics 365 for Customer Engagement appsapps.](../basics/find-administrator-support.md) 
+ A system administrator or customizer can enable an entity for feedback. If you want to capture feedback for any specific entity, talk to your system administrator or customizer. [Find the administrator or support person for Dynamics 365 for Customer Engagement apps.](../basics/find-administrator-support.md) 
   
 ## Add feedback  
  You can add feedback to any record by using the associated list of records. Or, you can ask your system administrator or customizer to add a sub grid to the entity form.  

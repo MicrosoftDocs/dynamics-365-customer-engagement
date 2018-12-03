@@ -78,7 +78,7 @@ Use contacts to keep track of the people you do business with. Learn how to impo
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
 ### See also  
- [Find your way around Dynamics 365 for Customer Engagement appsapps](../basics/navigation-customer-engagement-enterprise.md)  
+ [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
  [Import contacts](../basics/import-contacts.md)    
  [Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)   

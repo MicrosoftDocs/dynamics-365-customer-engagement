@@ -29,7 +29,7 @@ Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest
 ## Create an email signature  
  To edit a signature if you are not a system administrator:  
   
-1. Click the **Settings** button ![Options button for Dynamics 365 for Customer Engagement appsapps](../basics/media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement appsapps") in the upper-right corner of the screen.  
+1. Click the **Settings** button ![Options button for Dynamics 365 for Customer Engagement apps](../basics/media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement apps") in the upper-right corner of the screen.  
   
 2. Click **Options**, and then click the **Email Signatures** tab.  
   

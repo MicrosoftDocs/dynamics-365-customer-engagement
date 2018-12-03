@@ -1,5 +1,5 @@
 ---
-title: "Use OneNote in Dynamics 365 for Customer Engagement appsapps (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Use OneNote in Dynamics 365 for Customer Engagement apps (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Use OneNote integration to store and share notes related to Dynamics 365 for Customer Engagement appsrecords."
 keywords: "OneNote, Notes, notebook"
 ms.date: 03/08/2017
@@ -24,7 +24,7 @@ search.app:
   - D365CE
 ---
 
-# Use OneNote in Dynamics 365 for Customer Engagement appsapps
+# Use OneNote in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -32,7 +32,7 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
   
  [Watch a short video (2:01) about OneNote integration](https://go.microsoft.com/fwlink/p/?linkid=837793)  
   
- More information about setting up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration if you're a system administrator: [Set up OneNote integration in Dynamics 365 for Customer Engagement appsapps](../admin/set-up-onenote-integration-in-dynamics-365.md)  
+ More information about setting up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration if you're a system administrator: [Set up OneNote integration in Dynamics 365 for Customer Engagement apps](../admin/set-up-onenote-integration-in-dynamics-365.md)  
   
 <a name="BKMK_UseOneNote"></a>   
 > [!NOTE]
@@ -77,6 +77,6 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
 > - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ### See also  
- [Set up OneNote integration in Dynamics 365 for Customer Engagement appsapps](../admin/set-up-onenote-integration-in-dynamics-365.md)   
- [OneNote in Dynamics 365 for Customer Engagement appsapps FAQs](../basics/onenote-dynamics-365-faqs.md)   
+ [Set up OneNote integration in Dynamics 365 for Customer Engagement apps](../admin/set-up-onenote-integration-in-dynamics-365.md)   
+ [OneNote in Dynamics 365 for Customer Engagement apps FAQs](../basics/onenote-dynamics-365-faqs.md)   
  [Work with activities](../basics/work-with-activities.md)

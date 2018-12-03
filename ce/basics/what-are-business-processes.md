@@ -45,5 +45,5 @@ search.app:
   
 ### See also  
  [Understanding how data is organized in Customer Engagement](../basics/how-data-organized.md)   
- [Business apps in Dynamics 365 for Customer Engagement appsapps](../basics/business-apps-dynamics-365.md)   
+ [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md)   
  [Find your business apps](../basics/where-find-business-apps.md)   

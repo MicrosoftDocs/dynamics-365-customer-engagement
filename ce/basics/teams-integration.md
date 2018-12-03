@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Preview: Integrate Dynamics 365 for Customer Engagement appsapps with Microsoft Teams 
+# Preview: Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -31,19 +31,19 @@ search.app:
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement appsapps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With the Dynamics 365 for Customer Engagement appsapp for Teams integration, you add the Dynamics 365 for Customer Engagement appsapps features you rely on to the Teams app you collaborate with.
+If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With the Dynamics 365 for Customer Engagement appsapp for Teams integration, you add the Dynamics 365 for Customer Engagement apps features you rely on to the Teams app you collaborate with.
 
-Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement appsapps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
+Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 <!-- Cindy will provide new video when it's published. -->
 
 The Dynamics 365 for Customer Engagement appsapp for Teams provides the following:
 
 - **Collaboration hub**: Access records together with the Office applications you need to close deals.
-- **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t Dynamics 365 for Customer Engagement appsapps user.
+- **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t Dynamics 365 for Customer Engagement apps user.
 - **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365 for Customer Engagementapps.
-- **Teams mobile app**: Search and update records from Microsoft Teams mobile app using the Dynamics 365 for Customer Engagement appsapps bot while on the go. 
+- **Teams mobile app**: Search and update records from Microsoft Teams mobile app using the Dynamics 365 for Customer Engagement apps bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Teams app](media/teams-intro.png "Features of Teams app")

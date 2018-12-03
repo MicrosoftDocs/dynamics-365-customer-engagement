@@ -48,7 +48,7 @@ This will improve your product and drive support calls down.
  The report provides a list of cases that you can group by  
  owner, customer, status reason, product, priority, subject, origin, case type, satisfaction, service level, or severity.  
   
- ![Case Summary Table reportin Dynamics 365 for Customer Engagement appsapps](../basics/media/case-summary-table-report.png "Case Summary Table reportin Dynamics 365 for Customer Engagement appsapps")  
+ ![Case Summary Table reportin Dynamics 365 for Customer Engagement apps](../basics/media/case-summary-table-report.png "Case Summary Table reportin Dynamics 365 for Customer Engagement apps")  
 
 <a name="BKMK_NeglectedCases"></a>
 # Neglected Cases report
@@ -56,7 +56,7 @@ Improve your service team’s KPIs and get your cases closed. Quickly identify a
   
  When you run the report, choose the number of days that cases haven’t been updated. The report shows a list of open cases that have no changes to activities, including scheduled activities and notes.  
   
- ![Neglected Cases report in Dynamics 365 for Customer Engagement appsapps](../basics/media/negected-cases-report.png "Neglected Cases report in Dynamics 365 for Customer Engagement appsapps")  
+ ![Neglected Cases report in Dynamics 365 for Customer Engagement apps](../basics/media/negected-cases-report.png "Neglected Cases report in Dynamics 365 for Customer Engagement apps")  
 
 <a name="BKMK_ServiceActivity"></a>
 # Service Activity Volume report
@@ -70,7 +70,7 @@ The information in the report helps you identify which issues your customers are
   
  You can change the **Group by** filter to see knowledge base articles grouped by subject of the article or case, or by the product associated with the case.  
   
- ![Report of  top knowledge base articles in Dynamics 365 for Customer Engagement appsapps](../basics/media/top-kb-articles.png "Report of  top knowledge base articles in Dynamics 365 for Customer Engagement appsapps")  
+ ![Report of  top knowledge base articles in Dynamics 365 for Customer Engagement apps](../basics/media/top-kb-articles.png "Report of  top knowledge base articles in Dynamics 365 for Customer Engagement apps")  
   
 <a name="BKMK_Activities"></a>  
 # Activities report
@@ -78,7 +78,7 @@ To provide better service to your customers, get a quick view of all the activit
   
  When you run the report, choose **Show All** to get a detail view of all the activity. Activities can be grouped by owner or activity type, or by the record the activity is associated to.  
   
- ![Exmple of an Activities Report in Dynamics 365 for Customer Engagement appsapps](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 for Customer Engagement appsapps")  
+ ![Exmple of an Activities Report in Dynamics 365 for Customer Engagement apps](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 for Customer Engagement apps")  
  
 ### See also  
  [Run a report](../basics/run-report.md)   

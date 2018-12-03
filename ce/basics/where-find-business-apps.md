@@ -32,7 +32,7 @@ Business apps are available to users based on their security roles. If your syst
   
 2. Click the App Launcher button ![App launcher](../basics/media/app-chooser.png "App launcher") in the upper-left corner, and then click Dynamics 365 for Customer Engagement.  
   
-    The Dynamics 365 for Customer Engagement appsapps home page opens, which is where you'll find all your Dynamics 365 for Customer Engagement appsapps. You'll see all published business apps based on your organization's licensing options, and your security role.  
+    The Dynamics 365 for Customer Engagement apps home page opens, which is where you'll find all your Dynamics 365 for Customer Engagement apps. You'll see all published business apps based on your organization's licensing options, and your security role.  
   
 3. Click the app that you want to use.  
   
@@ -89,4 +89,4 @@ The following table describes what each app is used for, whether it's designed f
   
 ### See also  
  [Dynamics 365 for Customer Engagement business apps](../basics/business-apps-dynamics-365.md)   
- [Find your way around Dynamics 365 for Customer Engagement appsapps](../basics/navigation-customer-engagement-enterprise.md)
+ [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)

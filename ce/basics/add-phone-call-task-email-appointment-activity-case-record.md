@@ -112,7 +112,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
  This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
- ![Add notes or OneNote notes in Dynamics 365 for Customer Engagement appsapps](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 for Customer Engagement appsapps")  
+ ![Add notes or OneNote notes in Dynamics 365 for Customer Engagement apps](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 for Customer Engagement apps")  
   
 1.  Open the record you want to add the activity to.  
   
