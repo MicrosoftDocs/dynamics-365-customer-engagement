@@ -32,7 +32,7 @@ The following are error messages with possible resolutions.
 
 ## Error messages in the Teams app
 
-### Error: This record is not connected to Dynamics 365 for Customer Engagement apps. Repin the tab and try again.
+### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 for Customer Engagement apps. However, changes made to the record in Teams will update in Dynamics 365 for Customer Engagement apps.
 
 This is the connection error notification bar:
@@ -43,10 +43,10 @@ This is the connection error notification bar:
 > [!IMPORTANT]
 > When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time to make the SharePoint file library connection. Wait a few minutes and then refresh your browser to retry the connection.
 
-Try repinning the Dynamics 365 for Customer Engagement apps tab. To repin, remove the tab and then re-add, as follows:
+Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as follows:
 
 1. In Microsoft Teams, select the channel with the error.
-2. Select the Dynamics 365 for Customer Engagement tab with the error.
+2. Select the Dynamics 365 tab with the error.
 3. Select the down arrow next to the tab, and then select **Remove**.
 
    > [!div class="mx-imgBorder"] 
@@ -66,7 +66,7 @@ Try repinning the Dynamics 365 for Customer Engagement apps tab. To repin, remov
 
 and
 
-### Error: Sorry! Your Dynamics 365 for Customer Engagement apps org is not the latest version and is not supported for this feature. Please select a different org or contact your Dynamics 365 for Customer Engagement apps admin to do an update.
+### Error: Sorry! Your Dynamics 365 org is not the latest version and is not supported for this feature. Please select a different org or contact your Dynamics 365 admin to do an update.
 
 > [!div class="mx-imgBorder"] 
 > ![Org is not up to date](media/teams-error-org-not-latest.png "Org is not up to date")
@@ -101,4 +101,4 @@ You need to be a member of the connected channel team to view files. Contact the
 > [!div class="mx-imgBorder"] 
 > ![File sharing not set up](media/teams-error-file-sharing.png "File sharing not set up")
 
-This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 for Customer Engagement apps for Teams and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).
+This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).

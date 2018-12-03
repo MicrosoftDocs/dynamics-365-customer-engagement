@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use the Dynamics 365 for Customer Engagement app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
+You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
 ## Conversation tab
 
@@ -49,7 +49,7 @@ If you have more than one organization or Unified Interface app, you can use the
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
-> - Only Dynamics 365 for Customer Engagement apps version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected organization are listed. 
 
