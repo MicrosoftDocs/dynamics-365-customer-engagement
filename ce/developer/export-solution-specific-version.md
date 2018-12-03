@@ -1,4 +1,5 @@
 ---
+redirect_url: create-export-import-unmanaged-solution
 title: "Export a solution for a specific Dynamics 365 version (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to target and manage which Dynamics 365 version you wish to export a solution for"
 ms.custom: ""

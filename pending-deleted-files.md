@@ -10,3 +10,4 @@ These files have been redirected, but the actual .md topic files can't been remo
 
 ce/admin/integrate-with-microsoft-teams.md
 ce/admin/set-privacy-preferences-organization.md
+ce/developer/export-solution-specific-version.md
