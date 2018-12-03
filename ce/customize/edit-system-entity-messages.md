@@ -1,8 +1,8 @@
 ---
-title: "Edit system entity messages with PowerApps | MicrosoftDocs"
+title: "Edit system entity messages | MicrosoftDocs"
 description: "Learn how to edit system entity messages"
 ms.custom: ""
-ms.date: 04/09/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -28,7 +28,7 @@ search.app:
 
 <a name="BKMK_EditSystemEntityMessages"></a>   
 
- The default display name of some system entities is used in user interface text and error messages in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. If you change the display name, you should also update any messages that use the default display name. For example, if you change the display name from “Account” to “Company,” you could still see an error message using the old name.  
+ The default display name of some system entities is used in user interface text and error messages. If you change the display name, you should also update any messages that use the default display name. For example, if you change the display name from “Account” to “Company,” you could still see an error message using the old name.  
   
  In the solution explorer, below the entity, if you see a **Messages** node you can edit certain text that includes references to the original entity display name. Editing this text is straightforward. Open the message to see a form with three fields:  
   

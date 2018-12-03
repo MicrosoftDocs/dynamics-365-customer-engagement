@@ -1,8 +1,8 @@
 ---
-title: "Edit filter criteria and change sort order in views with PowerApps | MicrosoftDocs"
+title: "Edit filter criteria and change sort order in views | MicrosoftDocs"
 description: "Learn how to edit filter criteria and change sort order in views"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
