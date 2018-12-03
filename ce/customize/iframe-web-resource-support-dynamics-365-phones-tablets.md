@@ -1,5 +1,5 @@
 ---
-title: "iFrame and web resource support in Dynamics 365 for Customer Engagement for tablets and phones | MicrosoftDocs"
+title: "iFrame and web resource support in Dynamics 365 for Customer Engagement apps for tablets and phones | MicrosoftDocs"
 description: "Learn how iFrames or web resources can be used with Dynamics 365 for Customer Engagement for tablets and phones"
 ms.custom: ""
 ms.date: 04/10/2018

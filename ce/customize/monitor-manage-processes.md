@@ -1,5 +1,5 @@
 ---
-title: "Monitor and manage workflow processes (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Monitor and manage workflow processes (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/30/2017
 ms.reviewer: ""
@@ -71,5 +71,5 @@ To monitor and manage processes, you must locate the process, evaluate the statu
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Configure workflow processes](../customize/configure-workflow-steps.md)   
  [Best practices for workflow processes](../customize/best-practices-workflow-processes.md) <br />
- [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md) 
- [Asynchronous service in Dynamics 365 for Customer Engagement](../developer/asynchronous-service.md)
+ [Create custom business logic with processes] <br />(guide-staff-through-common-tasks-processes.md) 
+ [Asynchronous service in Dynamics 365 for Customer Engagement apps](../developer/asynchronous-service.md)
