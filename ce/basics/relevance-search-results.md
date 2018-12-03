@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
 ms.assetid: 1de4065e-f361-4d11-a8bb-bb7c0d0c686b
 author: shubhadaj
 ms.author: "t-mijosh"
@@ -59,7 +59,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
 ## Use Relevance Search  
  When Relevance Search is enabled for your organization, it becomes the default search experience. When you enter a search term in **Search Dynamics 365 for Customer Engagement apps data** on the navigation bar, and then select the Enter key or select the search button, the **Relevance Search** search results page appears. Search results are shown in a single list ordered by relevance. To learn how to change your default search experience, see [Select a default search experience](#BKMK_DefaultOption).  
   
- Start a new search by entering a search term in the **Relevance Search** search box or in the **Search Dynamics 365 for Customer Engagement data** search box on the nav bar, as shown here.  
+ Start a new search by entering a search term in the **Relevance Search** search box or in the **Search Dynamics 365 for Customer Engagement appsdata** search box on the nav bar, as shown here.  
   
  ![Relevance Search](../basics/media/relevance-search.png "Relevance Search")  
   

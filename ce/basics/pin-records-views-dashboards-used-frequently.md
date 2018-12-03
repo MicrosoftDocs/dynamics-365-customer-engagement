@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 author: "mduelae"
 ms.assetid: 12a83cb3-cce2-42cf-aaff-8eb3fc7d9bcb
@@ -32,7 +32,7 @@ You probably work with the same records all the time. For example, you may acces
   
 ### Get back to recently used items  
   
-1. On the global nav bar, click the **Recently Viewed Items** button ![Recently Viewed Items button in Dynamics 365 for Customer Engagement](../basics/media/recently-viewed-items-icon.PNG "Recently Viewed Items button in Dynamics 365 for Customer Engagement apps").  
+1. On the global nav bar, click the **Recently Viewed Items** button ![Recently Viewed Items button in Dynamics 365 for Customer Engagement apps](../basics/media/recently-viewed-items-icon.PNG "Recently Viewed Items button in Dynamics 365 for Customer Engagement apps").  
   
 2. Do one of the following:  
   

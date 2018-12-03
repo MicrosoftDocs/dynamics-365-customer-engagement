@@ -1,9 +1,9 @@
 ---
-title: Find your way around Dynamics 365 for Customer Engagement | Microsoft Docs
+title: Find your way around Dynamics 365 for Customer Engagement apps| Microsoft Docs
 description: Know the sitemap of Microsoft Dynamics 365 for Customer Engagement
 keywords: Microsoft Dynamics 365 for Customer Engagement apps; Customer Service; Sitemap;
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.author: anjgup
 manager: sakudes
 ms.date: 08/02/2017
@@ -49,7 +49,7 @@ Click the tab for  the product or service you use.
   
   ![Dynamics 365 for Customer Engagement app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 for Customer Engagement app switcher")  
   
-#### Find your way around the Sales, Customer Service, or Dynamics 365 for Customer Engagement - Custom app  
+#### Find your way around the Sales, Customer Service, or Dynamics 365 for Customer Engagement apps- Custom app  
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
  The following illustrations describe the sitemaps for the  Sales, Customer Service, and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – Custom apps.  
@@ -129,7 +129,7 @@ Click the tab for  the product or service you use.
   
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
-##### Dynamics 365 for Customer Engagement - Custom (Settings) sitemap  
+##### Dynamics 365 for Customer Engagement apps- Custom (Settings) sitemap  
  ![Dynamics 365 for Customer Engagement apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement apps Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  

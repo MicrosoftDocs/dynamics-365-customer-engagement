@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement (on-premises)"
 author: "shubhadaj"
 ms.assetid: 03968b0d-5505-45d0-90ff-4bacefbf3559
@@ -25,7 +25,7 @@ search.app:
 
 Business apps are available to users based on their security roles. If your system administrator has created any new apps,  they will be visible to you if your security role has been given access to those apps. For information on business apps in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Dynamics 365 for phones and tablets - User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md). 
   
-## Open business apps from the Dynamics 365 for Customer Engagement home page  
+## Open business apps from the Dynamics 365 for Customer Engagement appshome page  
  This option is available only to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps customers.  
   
 1. Sign in to the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] admin center at: https://portal.office.com.  

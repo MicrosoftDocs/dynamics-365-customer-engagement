@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "index-page "
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 820dc548-667d-4e12-82c2-0c76314144b3
 caps.latest.revision: 4
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_crm_online](../includes/pn-crm-online.md)] offers a number of tools for collaboration. Through integration with other Microsoft collaboration tools, users of Dynamics 365 for Customer Engagement apps can work closely with team members, even if they are not also users of the Dynamics 365 for Customer Engagement applications.
+[!INCLUDE[pn_crm_online](../includes/pn-crm-online.md)] offers a number of tools for collaboration. Through integration with other Microsoft collaboration tools, users of Dynamics 365 for Customer Engagement apps can work closely with team members, even if they are not also users of the Dynamics 365 for Customer Engagement apps.
 
 - **[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]** - Out-of-the-box integration with [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for agenda, conversation, OneNote, documents, and member management. See [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md).
 

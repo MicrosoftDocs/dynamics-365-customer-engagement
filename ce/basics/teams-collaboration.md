@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
@@ -42,7 +42,7 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 2. Select the **Dynamics 365** icon to pin a Dynamics 365 for Customer Engagement apps record to a channel.
 
    > [!div class="mx-imgBorder"]
-   > ![Add Dynamics 365 for Customer Engagement Team channel](media/teams-add-channel.png "Add Dynamics 365 for Customer Engagement Team channel")
+   > ![Add Dynamics 365 for Customer Engagement appsTeam channel](media/teams-add-channel.png "Add Dynamics 365 for Customer Engagement appsTeam channel")
 
 3. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 

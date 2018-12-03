@@ -1,13 +1,13 @@
 ---
-title: "Use OneNote in Dynamics 365 for Customer Engagement (online) (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Use OneNote integration to store and share notes related to Dynamics 365 for Customer Engagement records."
+title: "Use OneNote in Dynamics 365 for Customer Engagement apps (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Use OneNote integration to store and share notes related to Dynamics 365 for Customer Engagement appsrecords."
 keywords: "OneNote, Notes, notebook"
 ms.date: 03/08/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: e47db291-7f10-43c2-b29c-c348618e537b
 author: jimholtz

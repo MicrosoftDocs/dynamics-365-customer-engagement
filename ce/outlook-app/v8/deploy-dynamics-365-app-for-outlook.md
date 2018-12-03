@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
 author: "mduelae"
@@ -291,4 +291,4 @@ You will receive the message **Sorry, something went wrong. Please try again, or
  [Read more details about supported clients in this blog: Dynamics 365 App for Outlook Support Matrix](https://blogs.msdn.microsoft.com/crm/2016/12/13/dynamics-365-app-for-outlook-support-matrix/)   
  [Set up server-side synchronization of email, appointments, contacts, and tasks](https://technet.microsoft.com/library/dn531109.aspx)   
  [Add users, licenses, and security roles](http://msdn.microsoft.com/23612155-f92d-4871-a109-186419d5c19d)   
- [Add interoperation features to Microsoft Dynamics 365 for Customer Engagement apps (online)](https://technet.microsoft.com/library/jj591548.aspx)
+ [Add interoperation features to Microsoft Dynamics 365 for Customer Engagement apps ](https://technet.microsoft.com/library/jj591548.aspx)

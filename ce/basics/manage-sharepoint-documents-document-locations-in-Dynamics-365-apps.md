@@ -6,7 +6,7 @@ ms.date: 10/24/2017
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 247ced8f-f79f-4447-8690-3c22c1489544
 author: jimholtz
@@ -181,4 +181,4 @@ When you select one or more documents in the Documents list, you can take the fo
 -   Edit properties
 
 ### See also
-[Configure Dynamics 365 for Customer Engagement for Sales to integrate with SharePoint](../admin/set-up-sharepoint-integration.md)  
+[Configure Dynamics 365 for Customer Engagement appsfor Sales to integrate with SharePoint](../admin/set-up-sharepoint-integration.md)  

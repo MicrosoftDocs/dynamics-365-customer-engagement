@@ -1,9 +1,9 @@
 ---
-title: Moving around Unified Interface-enabled apps in Dynamics 365 for Customer Engagement using a screen reader| Microsoft Docs
+title: Moving around Unified Interface-enabled apps in Dynamics 365 for Customer Engagement appsusing a screen reader| Microsoft Docs
 description: 
 keywords: 
 author: ReneeW-CPub
-applies_to: Dynamics 365 for Customer Engagement (online)
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.author: renwe
 manager: renwe
 ms.date: 05/30/2018
@@ -21,7 +21,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Screen readers make Dynamics 365 for Customer Engagement applications accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
+Screen readers make Dynamics 365 for Customer Engagement apps accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)

@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: d8029ee8-6c19-4ce8-96eb-3a74b48c4d37
 caps.latest.revision: 11
@@ -55,7 +55,7 @@ Get a quick view of all the activities associated with opportunities such as pho
 The information in this report helps you see how your sales team is performing against their sales goals. This report displays a chart of your target goals and your actual goals.  
   
 > [!NOTE]
->  The report is generated from data that is rolled up to the goals at a set time. If the data is not up-to-date, then wait until the next time the data is rolled up. For more information, contact your Dynamics 365 for Customer Engagement admin.  
+>  The report is generated from data that is rolled up to the goals at a set time. If the data is not up-to-date, then wait until the next time the data is rolled up. For more information, contact your Dynamics 365 for Customer Engagement appsadmin.  
   
  ![Progress Against Goals Report in Dynamics 365 for Customer Engagement](../basics/media/progress-against-goals-report.png "Progress Against Goals Report in Dynamics 365 for Customer Engagement")  
 

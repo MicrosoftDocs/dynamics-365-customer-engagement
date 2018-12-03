@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement apps"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 0fff48c9-f565-4a7a-a632-95142177902d
 caps.latest.revision: 35
@@ -33,7 +33,7 @@ If you would like another person in your organization to handle an account or co
   
     In the command bar, click the **More Commands** button![More commands button](../basics/media/morecommands.gif "More commands button"), and then click **Assign**.  
   
-3. If using the Dynamics 365 for Customer Engagement applications:    In the command bar, click More Commands (![More commands button](../basics/media/morecommands.gif "More commands button")), and then click **Assign**.  
+3. If using the Dynamics 365 for Customer Engagement apps:    In the command bar, click More Commands (![More commands button](../basics/media/morecommands.gif "More commands button")), and then click **Assign**.  
    &lt;!--&gt;  
     If using Dynamics 365 app for Outlook: In the **Collaborate** group, click **Assign**.  
    -->
