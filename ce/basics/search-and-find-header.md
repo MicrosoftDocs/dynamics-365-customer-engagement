@@ -1,5 +1,5 @@
 ---
-title: "Search and Find in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Search and Find in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/24/2018
 ms.reviewer: ""

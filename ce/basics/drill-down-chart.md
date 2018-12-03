@@ -30,7 +30,7 @@ You can drill down into a segment on a chart to filter chart data for that segme
   
 2. [!INCLUDE[proc_follow_step_for_app_youre_using](../includes/proc-follow-step-for-app-youre-using.md)]  
   
-      #### If using the Dynamics 365 for Customer Engagement apps 
+      #### If using the Dynamics 365 for Customer Engagement appsapps 
   
     1.  Click the **Charts** area.  
   

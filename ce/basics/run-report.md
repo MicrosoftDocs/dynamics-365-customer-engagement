@@ -39,7 +39,7 @@ For more information on organizing and creating reports, see: [Customize and org
    > [!NOTE]
    >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
   
-   ![Default reports in Dynamics 365 for Customer Engagement apps](../basics/media/default-reports.png "Default reports in Dynamics 365 for Customer Engagement apps")  
+   ![Default reports in Dynamics 365 for Customer Engagement appsapps](../basics/media/default-reports.png "Default reports in Dynamics 365 for Customer Engagement appsapps")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]

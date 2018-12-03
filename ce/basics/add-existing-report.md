@@ -1,5 +1,5 @@
 ---
-title: "Add a report from outside Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Add a report from outside Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Add a report from outside Dynamics 365 for Customer Engagement apps
+# Add a report from outside Dynamics 365 for Customer Engagement appsapps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

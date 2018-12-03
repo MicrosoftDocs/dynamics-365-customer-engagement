@@ -33,7 +33,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report.  
   
-   **If using the Dynamics 365 for Customer Engagement apps:**  
+   **If using the Dynamics 365 for Customer Engagement appsapps:**  
   
    1.  Click **More Commands**![More Commands button in Appointment Activity](../basics/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then click **Share**.  
   
@@ -57,7 +57,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, click **Edit**.  
   
-   **If using the Dynamics 365 for Customer Engagement apps:**  
+   **If using the Dynamics 365 for Customer Engagement appsapps:**  
   
    1.  On the command bar, click **Edit**.  
   

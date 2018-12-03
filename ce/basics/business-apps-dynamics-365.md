@@ -1,5 +1,5 @@
 ---
-title: "Business apps in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Business apps in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -67,7 +67,7 @@ search.app:
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Where to find your business apps](../basics/where-find-business-apps.md)  
   
 ## Upgrading from prior versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
- For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 for Customer Engagement app - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
+ For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 for Customer Engagement appsapp - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
    
 ### See also  
- [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)
+ [Find your way around Dynamics 365 for Customer Engagement appsapps](../basics/navigation-customer-engagement-enterprise.md)

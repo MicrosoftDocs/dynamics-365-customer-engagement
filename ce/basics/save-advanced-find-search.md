@@ -40,7 +40,7 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
   
         At the bottom of the **Select** list, the **Related** section shows related record types. For example, most record types have a related Notes record type. To select fields from a related record type, select field, and a new **Select** link appears.  
          
-        If you’re using Dynamics 365 for Customer Engagement apps, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
+        If you’re using Dynamics 365 for Customer Engagement appsapps, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
          
         ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
   

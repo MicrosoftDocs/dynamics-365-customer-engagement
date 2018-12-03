@@ -55,7 +55,7 @@ If you want to add an attachment, make sure you save the appointment first. Then
 
 ## Create draft appointments synchronizing with Exchange
 
-Create an appointment in Dynamics 365 for Customer Engagement apps and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange.Note, you will need to be on version 9.x (build 9.0.2.2081).
+Create an appointment in Dynamics 365 for Customer Engagement appsapps and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange.Note, you will need to be on version 9.x (build 9.0.2.2081).
 
 To enable this capabilities, an admin will need enable the *OrgDBOrgSetting* in Dynamics 365. 
 

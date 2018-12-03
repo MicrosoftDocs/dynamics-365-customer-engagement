@@ -111,6 +111,6 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
 -->
 More information:
 
-- [Use keyboard shortcuts in Dynamics 365 for Customer Engagement applications](keyboard-shortcuts.md)   
+- [Use keyboard shortcuts in Dynamics 365 for Customer Engagement appsapplications](keyboard-shortcuts.md)   
 - [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
 

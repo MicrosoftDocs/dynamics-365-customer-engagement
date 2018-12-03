@@ -32,7 +32,7 @@ You probably work with the same records all the time. For example, you may acces
   
 ### Get back to recently used items  
   
-1. On the global nav bar, click the **Recently Viewed Items** button ![Recently Viewed Items button in Dynamics 365 for Customer Engagement apps](../basics/media/recently-viewed-items-icon.PNG "Recently Viewed Items button in Dynamics 365 for Customer Engagement apps").  
+1. On the global nav bar, click the **Recently Viewed Items** button ![Recently Viewed Items button in Dynamics 365 for Customer Engagement appsapps](../basics/media/recently-viewed-items-icon.PNG "Recently Viewed Items button in Dynamics 365 for Customer Engagement appsapps").  
   
 2. Do one of the following:  
   
@@ -40,7 +40,7 @@ You probably work with the same records all the time. For example, you may acces
   
    - Under **Recent Views**, choose the view you want to go back to. To pin the view to the top of the **Recent Views** list, point at the view, and then click the **Pin** button ![Pin button](../basics/media/pin-icon.gif "Pin button").  
      <!-- TODO: This image is missing>  
-     ![Recently Viewed Items in Dynamics 365 for Customer Engagement apps](../basics/media/search-records.png "Recently Viewed Items in Dynamics 365 for Customer Engagement apps")  
+     ![Recently Viewed Items in Dynamics 365 for Customer Engagement appsapps](../basics/media/search-records.png "Recently Viewed Items in Dynamics 365 for Customer Engagement appsapps")  
      -->  
      > [!NOTE]
      >  Pinned items are sorted by when you pin them. Unpinned items are sorted by when you access them.  

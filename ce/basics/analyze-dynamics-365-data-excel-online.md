@@ -1,5 +1,5 @@
 ---
-title: "Analyze your Dynamics 365 for Customer Engagement data in Excel Online | MicrosoftDocs"
+title: "Analyze your Dynamics 365 for Customer Engagement appsdata in Excel Online | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Analyze your Dynamics 365 for Customer Engagement apps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
+# Analyze your Dynamics 365 for Customer Engagement appsapps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -46,7 +46,7 @@ search.app:
   
 To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Export to Excel** > **Open in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]**.  
   
- ![Export Dynamics 365 for Customer Engagement data to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 for Customer Engagement data to Excel Online")  
+ ![Export Dynamics 365 for Customer Engagement appsdata to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 for Customer Engagement appsdata to Excel Online")  
   
 > [!NOTE]
 >  By default, you can’t open your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] in the **Advanced Find** view. However, you can save your advanced find as a personal view and then go to your personal view to do an ad-hoc analysis in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  
@@ -82,7 +82,7 @@ To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-cr
   
  To see video captions, click the **Closed Caption (CC)** button ![YouTube Closed Caption button](../basics/media/youtube-closed-caption-button.png "YouTube Closed Caption button") in the lower-right corner of the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] window.  
   
- [![Banner for Dynamics 365 for Customer Engagement YouTube channel](../basics/media/see-more-videos-on-youtube.png "Banner for Dynamics 365 for Customer Engagement YouTube channel")](http://go.microsoft.com/fwlink/p/?LinkID=325001)  
+ [![Banner for Dynamics 365 for Customer Engagement appsYouTube channel](../basics/media/see-more-videos-on-youtube.png "Banner for Dynamics 365 for Customer Engagement appsYouTube channel")](http://go.microsoft.com/fwlink/p/?LinkID=325001)  
 <!-- The fwlink above is correct - updated to point to the how-to playlists
 -->
 

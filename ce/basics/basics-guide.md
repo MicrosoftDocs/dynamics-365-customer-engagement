@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Basics Guide for Dynamics 365 for Customer Engagement apps
+# Basics Guide for Dynamics 365 for Customer Engagement appsapps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -59,7 +59,7 @@ features, data, or even fields on screens, depending on your role.
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
 
 ## What to read next
- - [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md)
+ - [Business apps in Dynamics 365 for Customer Engagement appsapps](../basics/business-apps-dynamics-365.md)
 
  - [Find your business apps](../basics/where-find-business-apps.md)
 
@@ -70,7 +70,7 @@ If it turns out that you can’t see or access something described in this guide
  - [Submit feedback or ratings](submit-feedback-ratings.md)
  
 ## See also  
- [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)    
+ [Find your way around Dynamics 365 for Customer Engagement appsapps](../basics/navigation-customer-engagement-enterprise.md)    
  [Manage accounts and contacts](../basics/accounts-contacts.md)     
  [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)     
  [Reports](../basics/run-report.md)     

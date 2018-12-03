@@ -28,7 +28,7 @@ search.app:
   
  If your organization is set up to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you’ll see posts on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] dashboard when colleagues update customer info and you can comment on their posts—asking questions, offering congratulations, and so on.  
 
-To set up Yammer to work with Dynamics 365 for Customer Engagement apps, see [Connect Dynamics 365 for Customer Engagement apps to Yammer](../admin/connect-yammer.md).
+To set up Yammer to work with Dynamics 365 for Customer Engagement appsapps, see [Connect Dynamics 365 for Customer Engagement appsapps to Yammer](../admin/connect-yammer.md).
   
 > [!IMPORTANT]
 >  Before you can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
@@ -42,5 +42,5 @@ To set up Yammer to work with Dynamics 365 for Customer Engagement apps, see [Co
 - **You can share files and discuss content without ever leaving your browser.** Share documents, PDFs, images, and videos across teams quickly and easily.  
   
 ### See also  
- [Connect Dynamics 365 for Customer Engagement apps to Yammer](../admin/connect-yammer.md)   
+ [Connect Dynamics 365 for Customer Engagement appsapps to Yammer](../admin/connect-yammer.md)   
  [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)
