@@ -36,6 +36,8 @@
         href: reference/microsoft-ciframework/setWidth.md
       - name: "getWidth"
         href: reference/microsoft-ciframework/getWidth.md
+      - name: "getEntityMetadata"
+        href: reference/microsoft-ciframework/getEntityMetadata.md
       - name: "setMode"
         href: reference/microsoft-ciframework/setMode.md
       - name: "getMode"
