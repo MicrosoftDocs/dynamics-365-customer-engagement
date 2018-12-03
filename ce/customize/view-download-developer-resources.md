@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This page is designed for developers who want to link to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] SDK, developer tools, or want to know the service endpoint URLs.  
+This page is designed for developers who want to link to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps SDK, developer tools, or want to know the service endpoint URLs.  
   
  **Organization Unique Name**  
   
@@ -41,13 +41,13 @@ This page is designed for developers who want to link to the [!INCLUDE[pn_dynami
   
  **Developer Center** 
 
- The [Dynamics 365 for Customer Engagement Developer Center](http://www.crmdevelopercenter.com) on MSDN contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, forums, and more. 
+ The [Dynamics 365 for Customer Engagement apps Developer Center](http://www.crmdevelopercenter.com) on MSDN contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, forums, and more. 
  
-For more information about using each item on the developer resources page, see [Download the endpoints using the Dynamics 365 for Customer Engagement Developer resources page](../developer/developer-resources-page.md).   
+For more information about using each item on the developer resources page, see [Download the endpoints using the Dynamics 365 for Customer Engagement apps Developer resources page](../developer/developer-resources-page.md).   
   
  **Discovery Service**  
   
- This is a Web service that provides information about the organizations that are available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server using the SOAP protocol. This information includes the URL for each organization.  
+ This is a Web service that provides information about the organizations that are available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server using the SOAP protocol. This information includes the URL for each organization.  
   
  **Organization Service**  
   

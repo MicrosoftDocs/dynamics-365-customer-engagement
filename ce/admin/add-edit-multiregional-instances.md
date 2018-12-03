@@ -25,18 +25,18 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
+For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps instance on the [Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Enterprise subscription.  
+ Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Enterprise subscription.  
   
  You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or Customer Engagement apps System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
 > [!NOTE]
->  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+>  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 <a name="BKMK_info_instance"></a>   
 ## What information do I need to create an instance?  
- During the initial configuration an instance, you can accept the default values, or enter different values to create a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance.  
+ During the initial configuration an instance, you can accept the default values, or enter different values to create a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
   
 - **Region**. Choose from the following: Asia Pacific (APAC); Canada (CAN); Europe, Middle-East, Africa (EMEA); India (IND); Japan (JPN); North America (NA); Oceania (OCE); South America (LATAM/SAM).  
   
@@ -88,9 +88,9 @@ For multinational companies with employees and customers distributed around the 
    > [!IMPORTANT]
    >  If the instance does not appear in the list or is in a state other than **ready to configure**, wait a few minutes and then try again.  
    > 
-   >  You cannot start a new [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps instance until you click **Configure** and complete the configuration process.  
+   >  You cannot start a new [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance until you click **Configure** and complete the configuration process.  
    > 
-   > [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances will not come prepared with sample data when configured by a Global administrator who does not have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps system administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
+   > [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances will not come prepared with sample data when configured by a Global administrator who does not have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps system administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
   
 5. On the **configure new instance** page, select a region for the instance.  
   
@@ -106,7 +106,7 @@ For multinational companies with employees and customers distributed around the 
 8. On the **Your Microsoft Dynamics 365 for Customer Engagement apps organization is ready** page, click **Launch Dynamics 365 for Customer Engagement apps (online)** to start [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to prepare the instance for users such as assign security roles, create teams, customize, and import data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Getting started](getting-started.md).  
   
    > [!TIP]
-   >  Note the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance URL that is displayed on the page. You can use this URL to directly access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance.  
+   >  Note the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance URL that is displayed on the page. You can use this URL to directly access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
   
 <a name="BKMK_ConfigureManage"></a>   
 ## Configure and manage a regional instance  

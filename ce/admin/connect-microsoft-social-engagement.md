@@ -34,7 +34,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
 <a name="BKMK_Connect"></a>   
 ## Connect Dynamics 365 for Customer Engagement apps (online) to Social Engagement for Social Insights  
- To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], be an authorized [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user and have a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance provisioned for this [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
+ To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], be an authorized [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user and have a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance provisioned for this [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   
 > [!NOTE]
 >  You must ensure that your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps domain is added to the list of allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
@@ -56,7 +56,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
 >  If you want to switch to a different [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance, you are asked to confirm it by clicking or tapping the **Confirm** button. Changing the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance, may cause any existing [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls on forms and dashboards to display error messages, because the new instance may not have matching data. All existing [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls may need to be reconfigured. Also, the existing [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] data in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps may need to be reset to remove references to the old instance data.  
 > 
 > [!NOTE]
->  In [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], only one [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance is provided for connection to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
+>  In [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], only one [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance is provided for connection to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   
 ## Assign Social Engagement licenses to Dynamics 365 for Customer Engagement apps users  
  [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps customers automatically have access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] as part of their subscription at no additional charge. .  

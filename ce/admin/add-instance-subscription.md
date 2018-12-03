@@ -28,13 +28,13 @@ search.app:
 
 You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional user license subscription.  
+ Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional user license subscription.  
   
  You must have the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] Global administrator to do these tasks. For more information, see [Assigning administrator roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
 <a name="BKMK_info_instance"></a>   
 ## What information do I need to create an instance?  
- When you add an instance, you can accept the default values, or enter different values to create a Customer Engagement apps instance.  
+ When you add an instance, you can accept the default values, or enter different values to create a Customer Engagement instance.  
   
 - **Select which scenario fits you best**. The apps you can choose depend on the licenses you've purchased. If you haven't purchased any [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] licenses, you'll only see **None of these (don't preinstall any apps)**.  
   
@@ -54,7 +54,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
 - **Country/Region**. You can specify a region for the instance.  
   
   > [!NOTE]
-  >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+  >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 - **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, only the base currency will be used for reporting.  
   
@@ -91,9 +91,9 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
    > [!TIP]
    >  If the instance does not appear in the list or is in a state other than **ready to configure**, wait a few minutes and then try again. Or, close your Customer Engagement apps browser session and open a new session to force an update to the **Manage your Dynamics 365 instances** page.  
    > 
-   >  You cannot start a new Customer Engagement apps instance until you click **Configure** and complete the configuration process.  
+   >  You cannot start a new Customer Engagement instance until you click **Configure** and complete the configuration process.  
    > 
-   > Customer Engagement apps instances will not come prepared with sample data when configured by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator who does not have a Customer Engagement apps license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps System administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
+   > Customer Engagement instances will not come prepared with sample data when configured by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator who does not have a Customer Engagement apps license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps System administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
   
 5. On the **configure new instance** page, enter your settings, and then click **Next**.  
   
@@ -108,11 +108,11 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
 <a name="BKMK_effectonstor"></a>   
 ## What is the effect of an additional instance on storage?  
- When you add a new Customer Engagement apps instance, the new instance and any existing instances will consume the existing storage that is available to the account. Warnings will be communicated when storage is near capacity.  
+ When you add a new Customer Engagement instance, the new instance and any existing instances will consume the existing storage that is available to the account. Warnings will be communicated when storage is near capacity.  
   
 <a name="BKMK_man_sec_group"></a>   
 ## Control user access to instances: security groups and licenses  
- If your company has multiple Customer Engagement apps instances, you can use security groups to control which licensed users can be a member of a particular instance.  
+ If your company has multiple Customer Engagement instances, you can use security groups to control which licensed users can be a member of a particular instance.  
   
  Consider the following example scenario:  
   
@@ -127,21 +127,21 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
  Note the following about security groups:  
   
-- When users are added to the security group, they are added to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
+- When users are added to the security group, they are added to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   
-- When users are removed from the group, they are disabled in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
+- When users are removed from the group, they are disabled in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   
 - When a security group is associated with an existing instance with users, all users in the instance that are not members of the group will be disabled.  
   
-- If a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance does not have an associated security group, all users with a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps license will be created as users and enabled in the instance.  
+- If a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance does not have an associated security group, all users with a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps license will be created as users and enabled in the instance.  
   
-- If a security group is associated with an instance, only users with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps licenses that are members of the instance security group will be created as users in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
+- If a security group is associated with an instance, only users with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps licenses that are members of the instance security group will be created as users in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   
-- When you remove a security group that is associated with a Customer Engagement apps instance, either by editing the instance and removing the security group or by deleting the security group, Customer Engagement apps licensed users who were members of the security group will have the same access to Customer Engagement apps.  
+- When you remove a security group that is associated with a Customer Engagement instance, either by editing the instance and removing the security group or by deleting the security group, Customer Engagement apps licensed users who were members of the security group will have the same access to Customer Engagement apps.  
   
 - When you assign a security group to an instance, that instance will not show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] for users not in the group.  
   
-- If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance.  
+- If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   
 - You cannot make security groups members of other security groups.
 
@@ -175,7 +175,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add users individually to Office 365 - Admin Help](http://go.microsoft.com/fwlink/p/?LinkID=615205)  
   
-### Associate a security group with a Dynamics 365 for Customer Engagement apps instance  
+### Associate a security group with a Dynamics 365 for Customer Engagement instance  
   
 1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **Dynamics 365**.  
   

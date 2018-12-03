@@ -47,7 +47,7 @@ By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps sets a 
 
 You can change this behavior.
 
-- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
+- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 
 > [!NOTE]
 > User session timeout is not enforced in the following:
@@ -71,7 +71,7 @@ You can change this behavior.
 
 By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps does not enforce an inactivity session timeout.  A user can remain logged in the application until the session timeout expires.  You can change this behavior.
 
-- To enforce users to automatically signed out after a pre-determined period of inactivity, admins can set an inactivity timeout period for each of their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances. The application signs out the user when the inactivity session expires.
+- To enforce users to automatically signed out after a pre-determined period of inactivity, admins can set an inactivity timeout period for each of their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances. The application signs out the user when the inactivity session expires.
 
 > [!NOTE]
 > Inactivity session timeout is not enforced in the following:
@@ -121,9 +121,9 @@ These security enhancements are shipped disabled by default.  Administrators can
 
 To obtain SDK sample code (for reference, not required to configure and enable session timeout):
 
-1. Access your Dynamics 365 for Customer Engagement apps server using your administrator account.
+1. Access your Dynamics 365 for Customer Engagement server using your administrator account.
 2. Open a browser session and download the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=50032).
-3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement apps server.
+3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement server.
 4. Open a PowerShell command prompt.
 5. Navigate to the downloaded SDK folder.
 6. Open the SampleCode\PS folder.
@@ -133,7 +133,7 @@ After updating to a supported on-premises version, follow the steps below to ena
 
 ### User session timeout
 
-System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 for Customer Engagement apps instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
+System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 for Customer Engagement instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
 
 **Enable user session timeout**
 

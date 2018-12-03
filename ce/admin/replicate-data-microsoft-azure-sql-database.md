@@ -117,7 +117,7 @@ For information about the programmatic interface for managing configuration and 
 <a name="shouldknowDES"></a>   
 ## What you should know before using the Data Export Service  
   
-- Export Profiles must be deleted and then re-created whenever you perform any of the following actions on a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance. 
+- Export Profiles must be deleted and then re-created whenever you perform any of the following actions on a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. 
   - Restore an instance.
   - Copy (either full or minimal) an instance.
   - Reset an instance.
@@ -165,7 +165,7 @@ For information about the programmatic interface for managing configuration and 
 ## Create an Export Profile  
  Ensure that following requirements are met before creating an Export Profile.  
   
-- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] solution is installed in your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance.  
+- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] solution is installed in your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
   
 - Maintain the [!INCLUDE[pn-sql](../includes/pn-sql.md)] Database connection string in the Key Vault and copy the Key Vault URL to provide in the Export Profile. More information: [Azure: Get started with Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started/)  
   
@@ -173,7 +173,7 @@ For information about the programmatic interface for managing configuration and 
   
 - Your [!INCLUDE[pn-sql](../includes/pn-sql.md)] Database service has enough storage space to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps data.  
   
-- You are a System Administrator in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance.  
+- You are a System Administrator in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
   
 1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, go to **Settings** > **Data Export**.  
   
@@ -272,7 +272,7 @@ For information about the programmatic interface for managing configuration and 
    >   - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
    >   - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
   
-   1. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instance and go to **Settings** > **Data Export**.  
+   1. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance and go to **Settings** > **Data Export**.  
   
    2. Open the Export Profile that includes record synch failures.  
   
@@ -550,7 +550,7 @@ PRINT @sql
 EXEC SP_EXECUTESQL @sql;
 ```
 
-## Find the Azure Active Directory tenant Id for your Dynamics 365 for Customer Engagement apps instances
+## Find the Azure Active Directory tenant Id for your Dynamics 365 for Customer Engagement instances
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Go to **Azure Active Directory** > **App registrations** > **Endpoints**.

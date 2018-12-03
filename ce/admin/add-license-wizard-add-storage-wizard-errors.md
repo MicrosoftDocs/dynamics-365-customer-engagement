@@ -32,7 +32,7 @@ You may see an error while running the Add User License Wizard if you have:
 - Attempted to remove licenses, which would result in less than the minimum number of licenses required by your offer.  
   
   > [!IMPORTANT]
-  >  To see other offers available to you, on the **Subscription Management** page, under **Application Usage**, click or tap **View Offers**. If you are eligible to change your current offer, the offers will be listed. If you are not eligible for an offer at this time, contact the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps sales team.  
+  >  To see other offers available to you, on the **Subscription Management** page, under **Application Usage**, click or tap **View Offers**. If you are eligible to change your current offer, the offers will be listed. If you are not eligible for an offer at this time, contact the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] sales team.  
   
 You may see an error while running the Add Storage Wizard if you have:  
   

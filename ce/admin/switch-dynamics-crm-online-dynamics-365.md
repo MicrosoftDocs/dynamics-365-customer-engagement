@@ -111,7 +111,7 @@ To renew to [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] using the Swi
 
    |                                                                                                                                                                 |                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-   | ![Dynamics 365 for Customer Engagement apps Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement apps Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement apps Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement apps Sales Plan") |
+   | ![Dynamics 365 for Customer Engagement apps Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement apps Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement Sales Plan") |
    |                ![Dynamics 365 for Customer Engagement apps Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 for Customer Engagement apps Customer Service Plan")                |  ![Dynamics 365 for Customer Engagement apps Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 for Customer Engagement apps Team Plan")   |
 
 
@@ -186,7 +186,7 @@ To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-crm-sho
 
    |                                                                                                                                                                 |                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-   | ![Dynamics 365 for Customer Engagement apps Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement apps Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement apps Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement apps Sales Plan") |
+   | ![Dynamics 365 for Customer Engagement apps Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 for Customer Engagement apps Plan Enterprise Edition") | ![Dynamics 365 for Customer Engagement Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 for Customer Engagement Sales Plan") |
    |                ![Dynamics 365 for Customer Engagement apps Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 for Customer Engagement apps Customer Service Plan")                |  ![Dynamics 365 for Customer Engagement apps Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 for Customer Engagement apps Team Plan")   |
 
 

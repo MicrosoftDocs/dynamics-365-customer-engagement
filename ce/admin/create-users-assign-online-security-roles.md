@@ -48,7 +48,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
   
 ## User profile information
 
-Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user, these user profile fields are automatically updated and synchronized in your Customer Engagement apps instances.
+Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user, these user profile fields are automatically updated and synchronized in your Customer Engagement instances.
 
 The following table shows the fields that are managed in the **Users** section of the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].
 
@@ -271,7 +271,7 @@ All application users are created with a non-interactive user account, however t
 ## How stub users are created
 A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 for Customer Engagement apps (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. 
 
-A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement apps instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
+A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
 
   
 ### See also  

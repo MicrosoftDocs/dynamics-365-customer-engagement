@@ -59,7 +59,7 @@ As updates are deployed to the Dynamics 365 for Customer Engagement apps service
 
 ### App version
 
-Application version represents the binary version that is deployed to the Dynamics 365 for Customer Engagement apps servers. These updates contain product improvements and bug fixes that are delivered through application code changes.
+Application version represents the binary version that is deployed to the Dynamics 365 for Customer Engagement servers. These updates contain product improvements and bug fixes that are delivered through application code changes.
 
 ### DB version
 

@@ -131,7 +131,7 @@
 #### [OData v4 Data Provider requirements ](virtual-entity-odata-provider-requirements.md)
 #### [Virtual entity walkthrough using the OData v4 Data Provider](virtual-entity-walkthrough-using-odata-provider.md)
 #### [Preview Feature: Azure Cosmos DB for DocumentDB API Data Provider requirements](virtual-entity-documentdb-provider-requirements.md)
-### [Define alternate keys to reference Dynamics 365 for Customer Engagement apps records ](define-alternate-keys-reference-records.md)
+### [Define alternate keys](define-alternate-keys-reference-records.md)
 
 # [Create or edit a web resource](create-edit-web-resources.md) 
 ## [Web resource properties](web-resource-properties-legacy.md)

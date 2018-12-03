@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement apps instances.   
+Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement instances.   
   
 <a name="BKMK_DailySystemBackup"></a>  
  
@@ -93,7 +93,7 @@ Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] app
   
 <a name="BKMK_CreateCRMBackup"></a>   
 
-### Create an on-demand backup of a Dynamics 365 for Customer Engagement apps instance  
+### Create an on-demand backup of a Dynamics 365 for Customer Engagement instance  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   

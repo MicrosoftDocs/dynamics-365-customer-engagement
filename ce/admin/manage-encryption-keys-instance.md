@@ -46,27 +46,27 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps us
   
  The manage keys feature lets you perform the following tasks.  
   
-- Enable the ability to self-manage database encryption keys that are associated with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instances.  
+- Enable the ability to self-manage database encryption keys that are associated with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instances.  
   
 - Generate new encryption keys or upload existing .PFX or .BYOK encryption key files.  
   
-- Lock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance.  
+- Lock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance.  
   
   > [!CAUTION]
-  >  You should never lock an instance as part of your normal business process. While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance is locked it takes the instance completely offline and it cannot be accessed by anyone, including [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Additionally, services such as synchronization and maintenance are all stopped. An appropriate reason why you would lock an instance is when you move your database from online to on-premises. Locking the instance can make sure that your online data is never accessed again by anyone.  
+  >  You should never lock an instance as part of your normal business process. While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is locked it takes the instance completely offline and it cannot be accessed by anyone, including [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Additionally, services such as synchronization and maintenance are all stopped. An appropriate reason why you would lock an instance is when you move your database from online to on-premises. Locking the instance can make sure that your online data is never accessed again by anyone.  
   > 
   >  A locked instance  can’t be restored from backup.  
   
-- Unlock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance. To unlock a locked instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, you must upload the encryption key that was used to lock it. While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance is locked, it cannot be accessed by anyone.  
+- Unlock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance. To unlock a locked instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, you must upload the encryption key that was used to lock it. While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is locked, it cannot be accessed by anyone.  
   
 <a name="KM_risk"></a>  
  
 ## Understand the potential risk when you manage your keys  
- As with any business critical application, personnel within your organization who have administrative-level access must be trusted. Before you use the key management feature, you should understand the risk when you manage your database encryption keys. It is conceivable that a malicious administrator (a person who is granted or has gained administrator-level access with intent to harm an organization's security or business processes) working within your organization might use the manage keys feature to create a key and use it to lock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance. Consider the following sequence of events.  
+ As with any business critical application, personnel within your organization who have administrative-level access must be trusted. Before you use the key management feature, you should understand the risk when you manage your database encryption keys. It is conceivable that a malicious administrator (a person who is granted or has gained administrator-level access with intent to harm an organization's security or business processes) working within your organization might use the manage keys feature to create a key and use it to lock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance. Consider the following sequence of events.  
   
 1. The malicious administrator signs in to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)], goes to the edit page for an instance, and then generates a new encryption key to use to encrypt the instance. As part of the key generation, the malicious [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator downloads the encryption key.  
   
-2. The malicious administrator locks the associated [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance and takes or deletes the encryption key that was used to lock the instance.  
+2. The malicious administrator locks the associated [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance and takes or deletes the encryption key that was used to lock the instance.  
   
 > [!IMPORTANT]
 > To prevent the malicious administrator from interrupting the business operations by locking the database, the managed keys feature does not allow the database to be locked for 72 hours after the encryption key is changed. Additionally, anytime an encryption key is changed for a Dynamics 365 for Customer Engagement apps (online) instance, all Dynamics 365 for Customer Engagement apps (online) administrators receive an email message alerting them of the key change. This provides up to 72 hours for other administrators to roll back any unauthorized key changes. 
@@ -167,7 +167,7 @@ Notice that the key name you specified to manage database encryption settings no
  A locked instance remains inaccessible to everyone, including [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)], until a tenant administrator in your organization unlocks it by using the key that was used to lock it.  
   
 > [!CAUTION]
->  While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps instance is locked it takes the instance completely offline and it cannot be accessed by anyone, including [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Additionally, services such as synchronization and maintenance are all stopped. You should never lock an instance as part of your normal business process. A common reason why you would lock an instance is when you move your database from online to on-premises. Locking the instance can make sure that your online data is never access again by anyone.  
+>  While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is locked it takes the instance completely offline and it cannot be accessed by anyone, including [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Additionally, services such as synchronization and maintenance are all stopped. You should never lock an instance as part of your normal business process. A common reason why you would lock an instance is when you move your database from online to on-premises. Locking the instance can make sure that your online data is never access again by anyone.  
 > 
 >  A locked instance  can’t be restored from backup.  
   

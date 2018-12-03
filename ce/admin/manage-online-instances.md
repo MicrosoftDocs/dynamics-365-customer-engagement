@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You manage your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances from the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+You manage your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances from the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
   
 1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in using Global administrator credentials.  
   

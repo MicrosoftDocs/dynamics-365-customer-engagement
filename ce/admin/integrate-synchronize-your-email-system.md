@@ -53,9 +53,9 @@ One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-dyn
   
   - Customer Engagement apps to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
   
-  - [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps Server (on-premises) to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
+  - [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] server (on-premises) to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
   
-  - [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps Server (on-premises) to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
+  - [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] server (on-premises) to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
 - **Synchronize appointments, contacts, and tasks**. In addition to email, you can synchronize [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] appointments, contacts, and tasks.  
   
