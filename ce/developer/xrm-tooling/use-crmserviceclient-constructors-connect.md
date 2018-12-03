@@ -24,9 +24,9 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-To connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you create an instance of the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, and then use one of the constructors to connect. All the calls to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class are thread safe.  
+To connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, you create an instance of the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, and then use one of the constructors to connect. All the calls to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class are thread safe.  
 
- Apart from the constructors mentioned in this topic, you can also use connection strings with <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](use-connection-strings-xrm-tooling-connect.md)  
+ Apart from the constructors mentioned in this topic, you can also use connection strings with <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](use-connection-strings-xrm-tooling-connect.md)  
 
 <a name="orgServiceproxy"></a>
 
@@ -42,7 +42,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(<orgServiceProxy>);
 
 ## Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] using OrganizationWebProxyClient
 
- Use the following constructor to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the user-provided <xref:Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient> instance. This constructor is introduced in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
+ Use the following constructor to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the user-provided <xref:Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient> instance. This constructor is introduced in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.  
 
 ```csharp
 CrmServiceClient crmSvc = new CrmServiceClient(<orgWebProxyClient>);  
@@ -66,7 +66,7 @@ CrmServiceClient crmSvc = new CrmServiceClient("<UserName>", CrmServiceClient.Ma
 
 ## Connect to [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] (Office 365) using OAuth
 
- Use the following constructor to use OAuth protocol to connect to your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance in [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)]. The OAuth support is introduced in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
+ Use the following constructor to use OAuth protocol to connect to your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance in [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)]. The OAuth support is introduced in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.  
 
 ```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient("<UserName>", CrmServiceClient.MakeSecureString("<Password>"), "<CrmRegion>", "<OrgName>", useUniqueInstance:false, <orgDetail>,  
@@ -110,7 +110,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential(
 
 ## Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Internet-facing deployment (IFD) using OAuth
 
- Use the following constructor to use the OAuth protocol in [!INCLUDE[pn_adfs_windows_server_2012R2_long](../../includes/pn-adfs-windows-server-2012r2-long.md)] to connect to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] IFD instance. For this constructor to work, the computer where [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] is installed must have been configured to use [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] 2.2 as the security token service (STS). The OAuth support for connecting to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] IFD instance is introduced in [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)].  
+ Use the following constructor to use the OAuth protocol in [!INCLUDE[pn_adfs_windows_server_2012R2_long](../../includes/pn-adfs-windows-server-2012r2-long.md)] to connect to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] IFD instance. For this constructor to work, the computer where [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps is installed must have been configured to use [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] 2.2 as the security token service (STS). The OAuth support for connecting to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] IFD instance is introduced in [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)].  
 
 ```csharp
 CrmServiceClient crmSvc = new CrmServiceClient("<UserName>", CrmServiceClient.MakeSecureString("<Password>"), "<HomeRealm>", "<HostName>", "<Port>", "<OrgName>", useSsl:true, useUniqueInstance:false,   
@@ -141,9 +141,9 @@ CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential(
 
 ### See also
 
- [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement](use-connection-strings-xrm-tooling-connect.md)   
- [Use XRM Tooling Windows PowerShell Cmdlets to connect to Dynamics 365 for Customer Engagement](use-powershell-cmdlets-xrm-tooling-connect.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement](use-xrm-tooling-execute-actions.md)   
- [Sample: Quick Start for Dynamics 365 for Customer Engagement](../sample-quick-start.md)   
+ [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](use-connection-strings-xrm-tooling-connect.md)   
+ [Use XRM Tooling Windows PowerShell Cmdlets to connect to Dynamics 365 for Customer Engagement apps](use-powershell-cmdlets-xrm-tooling-connect.md)   
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)   
+ [Sample: Quick Start for Dynamics 365 for Customer Engagement apps](../sample-quick-start.md)   
  <xref:Microsoft.Xrm.Tooling.Connector.AuthenticationType>   
  [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)

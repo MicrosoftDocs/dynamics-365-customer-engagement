@@ -29,11 +29,11 @@ search.app:
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
-> The Dynamics 365 for Customer Engagement bot for Teams is currently only available for organizations in the North American region.
+> The Dynamics 365 for Customer Engagement apps bot for Teams is currently only available for organizations in the North American region.
 
-The Dynamics 365 for Customer Engagement app for Teams bot feature allows you to interact with Dynamics 365 for Customer Engagement (online) to find, display, and update the records within Microsoft Teams conversations.
+The Dynamics 365 for Customer Engagement app for Teams bot feature allows you to interact with Dynamics 365 for Customer Engagement apps to find, display, and update the records within Microsoft Teams conversations.
 
-Find and open the Dynamics 365 for Customer Engagement bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 for Customer Engagement**.
+Find and open the Dynamics 365 for Customer Engagement apps bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 for Customer Engagement apps**.
 
 The **Conversation** tab opens with the welcome message sent by the bot. Select **Sign in**.
 
@@ -66,7 +66,7 @@ Edit and update a record.
 > ![Update a record](media/teams-bot-edit-record.png "Update a record")
 
 ## Post
-Create a post in Dynamics 365 for Customer Engagement (online).
+Create a post in Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Create a post](media/teams-bot-create-post.png "Create a post")
@@ -78,4 +78,4 @@ Use the bot menu for other actions such as change the org or app module.
 > ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")
 
 ### See also  
- [Set up the Dynamics 365 for Customer Engagement bot](teams-install-app.md#set-up-the-dynamics-365-bot)
+[Set up the Dynamics 365 for Customer Engagement apps bot](teams-install-app.md#set-up-the-dynamics-365-for-customer-engagement-apps-bot)

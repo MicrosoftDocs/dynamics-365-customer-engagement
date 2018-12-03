@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: c51639b3-9ca6-4d2b-81a7-1aa9f2d68785
 caps.latest.revision: 6
 author: "jimholtz"
@@ -33,7 +33,7 @@ https://blogs.msdn.microsoft.com/crm/2018/06/19/de-mystifying-versioning-in-dyna
 
 Version information can be useful for feature version requirements and managing updates. It's easy to determine your version of Dynamics 365 for Customer Engagement.
 
-On the Dynamics 365 for Customer Engagement nav bar, select **Settings** (![Settings button on the nav bar](media/settings-gear-icon.png "Settings button on the nav bar")) > **About**.
+On the Dynamics 365 for Customer Engagement apps nav bar, select **Settings** (![Settings button on the nav bar](media/settings-gear-icon.png "Settings button on the nav bar")) > **About**.
 
 ![Select Settings > About](media/personal-settings-about-hl.png "Select Settings > About")
 
@@ -55,11 +55,11 @@ Let's break down these numbers.
 
 ## Why two version numbers?
 
-As updates are deployed to the Dynamics 365 for Customer Engagement service, there are two separate versions that are tracked.
+As updates are deployed to the Dynamics 365 for Customer Engagement apps service, there are two separate versions that are tracked.
 
 ### App version
 
-Application version represents the binary version that is deployed to the Dynamics 365 for Customer Engagement servers. These updates contain product improvements and bug fixes that are delivered through application code changes.
+Application version represents the binary version that is deployed to the Dynamics 365 for Customer Engagement apps servers. These updates contain product improvements and bug fixes that are delivered through application code changes.
 
 ### DB version
 
@@ -80,7 +80,7 @@ As described in the scenarios above, it's entirely normal for the app version an
 ## More information on versions
 
 Check out these additional sources for more information on versioning and updates:
-- [Microsoft Dynamics 365 for Customer Engagement Online releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
+- [Microsoft Dynamics 365 for Customer Engagement apps Online releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 - [Release notes](https://docs.microsoft.com/business-applications-release-notes/)
 - [Manage updates](manage-updates.md)
 

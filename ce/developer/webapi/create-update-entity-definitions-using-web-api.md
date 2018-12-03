@@ -799,9 +799,9 @@ OData-Version: 4.0
   
 ### See also
 
- [Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md)   
+ [Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md)   
  [Query Metadata using the Web API](query-metadata-web-api.md)   
  [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)   
  [Model entity relationships using the Web API](create-update-entity-relationships-using-web-api.md)   
- [Use the Organization service with Dynamics 365 for Customer Engagement metadata](../org-service/use-organization-service-metadata.md)   
+ [Use the Organization service with Dynamics 365 for Customer Engagement apps metadata](../org-service/use-organization-service-metadata.md)   
  [Customize Entity Attribute Metadata](../customize-entity-attribute-metadata.md)

@@ -1,5 +1,5 @@
 ---
-title: "Xrm.WebApi (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Xrm.WebApi (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"

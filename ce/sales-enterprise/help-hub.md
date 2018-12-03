@@ -1,6 +1,6 @@
 ---
-title: "Documentation resources for Dynamics 365 for Customer Engagement for Sales | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 for Customer Engagement for Sales."
+title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
+description: "A starting point for browsing help content for Dynamics 365 for Sales."
 keywords: "sales;help"
 ms.date: 10/16/2018
 ms.service:
@@ -9,12 +9,12 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 topic-status: Drafting
 ---
 
@@ -26,9 +26,9 @@ topic-status: Drafting
 
 <h2>Get started</h2>
 
-<li><a href="overview.md" data-raw-source="[Dynamics 365 for Customer Engagement for Sales Overview](overview.md)">Dynamics 365 for Customer Engagement for Sales Overview</a></li>
+<li><a href="overview.md" data-raw-source="[Dynamics 365 for Sales Overview](overview.md)">Dynamics 365 for Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
-<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for Customer Engagement for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for Customer Engagement for phones and tablets</a></li>
+<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
 
 <li><a href="../sales-enterprise/embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](../sales-enterprise/embedded-intelligence.md)">Embedded intelligence Overview</a></li>
 
@@ -69,7 +69,7 @@ topic-status: Drafting
 
 <h2>AI for Sales</h2>
 
-<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 for Customer Engagement AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 for Customer Engagement AI for Sales</a></li>
+<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 AI for Sales</a></li>
 
 </td><td>
 
@@ -82,7 +82,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>GDPR</h2>
-<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Customer Engagement for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Customer Engagement for Sales &amp; GDPR</a></li>
+<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Sales &amp; GDPR</a></li>
 </td> <td>
 
 <h2>Troubleshooting</h2>

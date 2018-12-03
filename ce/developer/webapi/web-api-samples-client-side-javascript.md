@@ -29,7 +29,7 @@ search.app:
 
 With the availability of the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods, we are working on updating the client-side JavaScript samples to use the new client API methods. Check back soon.
 
-If you are using an earlier version of Dynamics 365 for Customer Engagement, see [Web API Samples (Client-side JavaScript)](https://msdn.microsoft.com/library/mt770370.aspx)
+If you are using an earlier version of Dynamics 365 for Customer Engagement apps, see [Web API Samples (Client-side JavaScript)](https://msdn.microsoft.com/library/mt770370.aspx)
 
 <!--This topic provides common understanding about Web API samples using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]. While each sample focuses on a different aspect of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API, they all follow similar process and structure described in this topic.  
 

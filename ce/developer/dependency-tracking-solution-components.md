@@ -1,5 +1,5 @@
 ---
-title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Solution component dependencies help make sure you have a reliable experience working with solutions. They can be viewed in the application by clicking Show Dependencies"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -33,7 +33,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Solutions are made of solution components. You’ll use the **Solutions** area in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
+Solutions are made of solution components. You’ll use the **Solutions** area in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
   
  Solution components often depend on other solution components. You can’t delete any solution component that has dependencies on another solution component. For example, a customized ribbon typically requires image or script web resources to display icons and perform actions using scripts. As long as the customized ribbon is in the solution, the specific web resources it uses are required. Before you can delete the web resources you must remove references to them in the customized ribbon. These solution component dependencies can be viewed in the application by clicking **Show Dependencies**.  
   
@@ -64,7 +64,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   There are three types of solution component dependencies:  
   
   **Solution Internal**  
-  Internal dependencies are managed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. They exist when a particular solution component can’t exist without another solution component.  
+  Internal dependencies are managed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. They exist when a particular solution component can’t exist without another solution component.  
   
   **Published**  
   Published dependencies are created when two solution components are related to each other and then published. To remove this type of dependency, the association must be removed and the entities published again.  
@@ -132,7 +132,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_Entity"></a>   
 ### Entity (Entity)  
- The primary structure used to model and manage data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Charts, forms, entity relationships, views, and attributes associated with an entity are deleted automatically when the entity is deleted because of the internal dependencies between them. Entities frequently have published dependencies with processes, dashboards, and email templates.  
+ The primary structure used to model and manage data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Charts, forms, entity relationships, views, and attributes associated with an entity are deleted automatically when the entity is deleted because of the internal dependencies between them. Entities frequently have published dependencies with processes, dashboards, and email templates.  
   
 <a name="BKMK_FieldSecurityProfile"></a>   
 ### Field security profile (FieldSecurityProfile)  
@@ -164,7 +164,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_Role"></a>   
 ### Security role (Role)  
- Grouping of security privileges. Users are assigned roles that authorize their access to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system. Entity forms can be associated with specific security roles to control who can view the form. This creates a published dependency between the security role and the form.  
+ Grouping of security privileges. Users are assigned roles that authorize their access to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system. Entity forms can be associated with specific security roles to control who can view the form. This creates a published dependency between the security role and the form.  
   
 > [!NOTE]
 >  Only security roles from the organization business unit can be added to a solution. Only a user with read access to those security roles can add them to a solution.  
@@ -185,7 +185,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
 >  Web resources may depend on other web resources based on relative links. For example, an HTML web resource may use a CSS or script web resource. A [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource displayed outside of an entity form or chart must have an HTML web resource to host it. These dependencies aren’t tracked as solution dependencies.  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   

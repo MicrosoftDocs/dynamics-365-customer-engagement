@@ -1,6 +1,6 @@
 ---
-title: "Set up social listening (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs "
-description: "How to integrate with Microsoft Social Engagement to enable social listening in Dynamics 365 for Customer Engagement for Marketing"
+title: "Set up social listening (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "How to integrate with Microsoft Social Engagement to enable social listening in Dynamics 365 for Marketing"
 keywords: "Voice of the Customer; Surveys; survey"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -31,7 +31,7 @@ search.app:
 
 Social listening in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] enables you to embed charts, information, and analytics from  [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] into any type of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] record to see how people on social media are reacting to your campaigns, events, brands, and more.
 
-![Social listening in Dynamics 365 for Customer Engagement for Marketing](media/social-listening-panel.png "Social listening in Dynamics 365 for Customer Engagement for Marketing")
+![Social listening in Dynamics 365 for Marketing](media/social-listening-panel.png "Social listening in Dynamics 365 for Marketing")
 
 To use this feature, your organization must purchase the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] product (also available separately) and integrate it with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. For a detailed introduction to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)], see [Connect with customers. Empower your organization. Create real results.](../social-engagement/overview.md).
 

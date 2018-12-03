@@ -1,7 +1,7 @@
 ---
 title: "Set up Power BI integration with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to set up Power BI integration with your portal."
-ms.date: 11/20/2018
+ms.date:12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -31,7 +31,7 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 **Set up Power BI integration**
 
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want enable Power BI integration, and then select **Manage**.
 

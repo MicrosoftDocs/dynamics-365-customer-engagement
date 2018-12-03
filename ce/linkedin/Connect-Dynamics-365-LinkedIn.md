@@ -25,12 +25,12 @@ search.app:
 
 # Establish a connection between [!include[Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] and LinkedIn
 
-Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] campaign accounts to a [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)] organization, a [!include[LinkedIn](../includes/pn-linkedin.md)] member with access to [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)]. In [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)], this user requires at least a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.  
+Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] campaign accounts to a [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)] organization, a [!include[LinkedIn](../includes/pn-linkedin.md)] member with access to [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)]. This user requires at least a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.  
 More information about assigning security roles to users: [TechNet: Create users and assign Microsoft Dynamics 365 for Customer Engagement (online) security roles](https://technet.microsoft.com/library/jj191623.aspx).
 
-## Authorize [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)] to sync data from [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager
+## Authorize [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)] apps to sync data from [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager
 
-1. In [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)], go to **Sales** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms** > **[!include[LinkedIn](../includes/pn-linkedin.md)] User Profile**.
+1. Go to **Sales** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms** > **[!include[LinkedIn](../includes/pn-linkedin.md)] User Profile**.
 
 2. To add a new [!include[LinkedIn](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
 
@@ -42,12 +42,12 @@ More information about assigning security roles to users: [TechNet: Create users
 5. In the permissions dialog box, select **Allow**.  
    ![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permissions dialog box")  
 
-6. Check and confirm the [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)] organization you want to sync your LinkedIn data to.  
+6. Check and confirm the [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)] organization you want to sync your LinkedIn data to.  
    ![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "Confirm the name of your Dynamics 365 for Customer Engagement organization")
 
 After successful authorization, the [!include[LinkedIn](../includes/pn-linkedin.md)] accounts appear on the **[!include[LinkedIn](../includes/pn-linkedin.md)] User Profile** record. You can review the details of the [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; try refreshing the view if you don’t see them.
 
-[!include[LinkedIn](../includes/pn-linkedin.md)] form submissions are now synced automatically to [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)]. You’ll be able to see the data in [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)] as soon as the sync is complete, which might take a few minutes. 
+[!include[LinkedIn](../includes/pn-linkedin.md)] form submissions are now synced automatically to the destination system. You’ll be able to see the data in [!include[Dynamics 365 for Customer Engagement (online)](../includes/pn-crm-online-shortest.md)] apps as soon as the sync is complete, which might take a few minutes. 
 
 ![User profile in the LinkedIn Lead Gen Connector](media/LinkedIn-user-profile-information.png "User profile in the LinkedIn Lead Gen Connector")
 
@@ -59,5 +59,5 @@ If you want synchronize the LinkedIn data retroactively after migrating to a to 
 
 ### See also
 
-[How to sync LinkedIn leads by using Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)  
-[Install Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)
+[How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)  
+[Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)

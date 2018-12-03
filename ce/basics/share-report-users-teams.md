@@ -33,7 +33,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report.  
   
-   **If using the Dynamics 365 for Customer Engagement web application:**  
+   **If using the Dynamics 365 for Customer Engagement apps:**  
   
    1.  Click **More Commands**![More Commands button in Appointment Activity](../basics/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then click **Share**.  
   
@@ -43,7 +43,7 @@ When you create a new report, share it with other people on your team or in your
   
    4.  In the **Share Report dialog** box, select the type of share access that you want. The available permissions are: Read, Write, Delete, Append, Assign, or Share.  
   
-&lt;!--&gt; <strong>If using Dynamics 365 for Customer Engagement for Outlook:</strong>  
+&lt;!--&gt; <strong>If using Dynamics 365 for Outlook:</strong>  
   
     1.  In the list of reports, select a report, and in the **Collaborate** group, click **Share**.  
   
@@ -57,13 +57,13 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, click **Edit**.  
   
-   **If using the Dynamics 365 for Customer Engagement web application:**  
+   **If using the Dynamics 365 for Customer Engagement apps:**  
   
    1.  On the command bar, click **Edit**.  
   
    2.  On the **Actions**![action](../basics/media/action-button.gif "action") menu, click **Make Report Available to Organization**.  
   
-   <!--**If using Dynamics 365 for Customer Engagement for Outlook:**  
+   <!--**If using Dynamics 365 for Outlook:**  
   
    1.  In the **Records** group, click **Edit**.  
   

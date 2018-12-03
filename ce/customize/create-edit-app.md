@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
 keywords: ""
 ms.date: 11/09/2018
@@ -30,7 +30,7 @@ search.app:
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-In Dynamics 365 for Customer Engagement for Customer Engagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
+In Dynamics 365 for Customer Engagement apps, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 
 ## Prerequisites
 Verify the following prerequisites before you start creating an app:
@@ -59,7 +59,7 @@ Verify the following prerequisites before you start creating an app:
   
      - **Unified Interface**: This is the newer responsive web browser client that has a similar interface across PC and mobile devices.  
 
-     - **Web**: This is the classic [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web browser client.  
+     - **Web**: This is the classic [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web browser client.  
     
    - **App URL Suffix**: The app URL is automatically populated based on the app name that you specify. You'll see a preview of how the complete URL looks. The app URL must be unique.  
   
@@ -99,9 +99,9 @@ Verify the following prerequisites before you start creating an app:
 2. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
  
 <a name="LaunchApp"></a>   
-## Run a model-driven app
+## Run an app
 
-Go to the [Dynamics 365 for Customer Engagement home page](https://home.dynamics.com/) and then select the app you want. If there are several apps available, search for the app by typing in the search box.
+Go to the [Dynamics 365 for Customer Engagement apps home page](https://home.dynamics.com/) and then select the app you want. If there are several apps available, search for the app by typing in the search box.
 
 From within an app, the following features include filtering by record type:
 - Categorized search and Relevance search results

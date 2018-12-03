@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [work with duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [work with duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -42,7 +42,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[DuplicateDetection#BulkDetectDuplicates](../../snippets/csharp/CRMV8/duplicatedetection/cs/bulkdetectduplicates.cs#bulkdetectduplicates)]  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365 for Customer Engagement](../detect-duplicate-data-for-developers.md)   
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](../detect-duplicate-data-for-developers.md)   
  [Enable and disable duplicate detection](../enable-disable-duplicate-detection.md)   
  [Run Duplicate Detection](../run-duplicate-detection.md)   
  <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest>  

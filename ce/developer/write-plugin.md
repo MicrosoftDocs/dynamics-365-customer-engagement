@@ -1,5 +1,5 @@
 ---
-title: "Write a plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Write a plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about plug-in design, writing a basic plug-in, writing a plug-in constructor, and web access for isolated plug-ins."
 ms.custom: ""
 ms.date: 10/03/2018
@@ -33,7 +33,7 @@ Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> 
 
 ## Plug-in design
 
- Your plug-in design should take into account the web application *auto-save* feature introduced in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Auto-save is enabled by default but can be disabled at an organization level. When auto-save is enabled there is no **Save** button. The web application will save data in the form automatically 30 seconds after the last unsaved change. You can apply form scripts to disable the auto-save behaviors on a form level. Depending on how you registered your plug-in, auto-save may result in your plug-in being called more frequently for individual field changes instead of one plug-in invocation for all changes. You should assume that any user can save any record at any time, whether this is done using Ctrl+S, by pressing a save button, or automatically due to the auto-save feature.  
+ Your plug-in design should take into account the web application *auto-save* feature introduced in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. Auto-save is enabled by default but can be disabled at an organization level. When auto-save is enabled there is no **Save** button. The web application will save data in the form automatically 30 seconds after the last unsaved change. You can apply form scripts to disable the auto-save behaviors on a form level. Depending on how you registered your plug-in, auto-save may result in your plug-in being called more frequently for individual field changes instead of one plug-in invocation for all changes. You should assume that any user can save any record at any time, whether this is done using Ctrl+S, by pressing a save button, or automatically due to the auto-save feature.  
   
  It is a best practice to register your plug-in or workflow on entities and specific fields that matter most. Avoid registering a plug-in or workflow for changes to all entity fields. If you have an existing plug-or workflow that was implemented before the availability of the auto save feature, you should re-test that code to verify its proper operation. For more information see [Manage auto-save](../customize/manage-auto-save.md).  
   

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Audit entity data changes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Audit entity data changes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Sample demonstrating how to audit entity data changes."
 keywords: ""
 ms.date: 10/31/2017
@@ -47,7 +47,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[Auditing#Auditing](../snippets/csharp/CRMV8/auditing/cs/auditing.cs#auditing)]  
   
 ### See also  
- [Audit Entity Data Changes in Dynamics 365 for Customer Engagement](audit-entity-data-changes.md)   
+ [Audit Entity Data Changes in Dynamics 365 for Customer Engagement apps](audit-entity-data-changes.md)   
  [Sample: Audit User Access](sample-audit-user-access.md)   
  [Audit Entity](entities/audit.md)<!-- Bug 696490 -->  
  <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsAuditEnabled>   

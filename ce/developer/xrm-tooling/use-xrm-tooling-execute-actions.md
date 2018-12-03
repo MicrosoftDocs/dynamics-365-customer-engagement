@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-After you are connected to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class object to perform actions on your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data such as create, update, retrieve or delete data. This section provides some examples on how you can perform actions in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] using XRM tooling.  
+After you are connected to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, you can use the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class object to perform actions on your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data such as create, update, retrieve or delete data. This section provides some examples on how you can perform actions in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps using XRM tooling.  
   
 ## In This Section  
  [Create data using XRM tooling](use-xrm-tooling-create-data.md)  
@@ -38,5 +38,5 @@ After you are connected to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics
  [Execute organization request using XRM tooling](use-messages-executecrmorganizationrequest-method.md)  
   
 ### See also  
- [Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)   
  [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)

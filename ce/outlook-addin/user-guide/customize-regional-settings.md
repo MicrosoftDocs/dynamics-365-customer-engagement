@@ -1,5 +1,5 @@
 ---
-title: "Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/11/2016
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,13 +27,13 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Customer Engagement for Outlook
+# Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook
 You can change how [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] displays number, currency, time, and date formats to match your company’s regional settings.  
   
 > [!NOTE]
 >  The **Set Personal Options** dialog box is only accessible in [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)].  
   
-1.  In Outlook 2010 or Outlook 2013, on the **File** tab, click or tap **Dynamics 365 for Customer Engagement** > **Options**.  
+1.  In Outlook 2010 or Outlook 2013, on the **File** tab, click or tap **Dynamics 365 for Customer Engagement apps** > **Options**.  
   
 2.  In the **Set Personal Options** dialog box, on the **Formats** tab, in the **Current Format** list, select the name of the language and country or region for the format that you want to personalize, and then click or tap **Customize**.  
   

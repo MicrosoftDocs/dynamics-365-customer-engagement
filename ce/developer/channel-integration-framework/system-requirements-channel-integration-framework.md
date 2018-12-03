@@ -1,6 +1,6 @@
 ---
 title: "System requirements of Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn about the system requirements of Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement and how to get started using it."
+description: "Learn about the system requirements of Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps and how to get started using it."
 keywords: ""
 ms.date: 10/01/2018
 ms.service:
@@ -22,11 +22,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
 
-This topic describes the system requirements of the Dynamics 365 for Customer Engagement Channel Integration Framework.
+This topic describes the system requirements of the Dynamics 365 Channel Integration Framework.
 
-## Dynamics 365 for Customer Engagement
+## Dynamics 365 for Customer Engagement apps
 
-- Dynamics 365 for Customer Engagement (online) version 9.0.2 and higher versions
+- Dynamics 365 for Customer Engagement version 9.0.2 and higher versions
 
 ## Supported browsers
 

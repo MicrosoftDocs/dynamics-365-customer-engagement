@@ -2,7 +2,7 @@
 title: "Connect a portal to a Dynamics 365 for Customer Engagement online organization | MicrosoftDocs"
 description: "Learn how to connect a portal to a Dynamics 365 for Customer Engagement online organization and how to renew the authentication key."
 keywords: "portal authentication key, connect with Dynamics 365 for Customer Engagement"
-ms.date: 02/22/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
@@ -46,7 +46,7 @@ The details of an authentication key is displayed on Portal Admin Center and por
 
 **Portal Admin Center**
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal key you want to see, and then select **Manage**.
 3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
@@ -112,7 +112,7 @@ You must renew the key every two years to ensure that your portal can connect to
 > [!NOTE]
 > To renew the key, you must have permissions to [Manage your Portal](manage-portal.md).
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to update the key, and then select **Manage**.
 3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 

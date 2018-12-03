@@ -9,8 +9,8 @@ ms.custom:
   - "dyn365-USD"
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -101,7 +101,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
  Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
   
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement.  
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement apps.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -113,7 +113,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
    1.  In the **Name** field, type **Action Call for Custom Display**.  
   
-   2.  In the **Hosted Control** field, select **Dynamics 365 for Customer Engagement Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
+   2.  In the **Hosted Control** field, select **Dynamics 365 for Customer Engagement apps Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
   
    3.  In the **Action** field, select **SetTheme**.  
   

@@ -1,6 +1,6 @@
 ---
 redirect_url: https://docs.microsoft.com/power-platform/admin/get-help-support
-title: "Contact Dynamics 365 for Customer Engagement Technical Support | MicrosoftDocs"
+title: "Contact Dynamics 365 for Customer Engagement apps Technical Support | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/08/2018
 ms.reviewer: ""
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: a852882d-8672-4ade-87d5-dc0262c45fa9
 caps.latest.revision: 63

@@ -28,7 +28,7 @@ search.app:
 
 Welcome to Dynamics 365 for Customer Engagement for Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
-## Dynamics 365 for Customer Engagement for Customer Engagement apps, version 9.1
+## Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.1
 
 Customer Engagement apps version 9.1 introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
 

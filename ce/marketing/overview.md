@@ -1,6 +1,6 @@
 ---
-title: "Overview (Dynamics 365 for Customer Engagement for Marketing)"
-description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Customer Engagement for Marketing"
+title: "Overview (Dynamics 365 for Marketing)"
+description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
 keywords: "features; benefits; overview"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -88,7 +88,7 @@ Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications su
 > [!NOTE]
 > [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically shares data with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Dynamics 365 for Marketing](navigation.md)
 
 ## Design attractive and effective messages for email marketing campaigns
 
@@ -199,7 +199,7 @@ Use other parts of the **Event** work area to work with specific record types th
 
 After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event portal, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only. Open an event record and change its status to **Published** to publish it on the portal.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365 for Customer Engagement](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
 
 ## Generate, score, and qualify leads for sales
 

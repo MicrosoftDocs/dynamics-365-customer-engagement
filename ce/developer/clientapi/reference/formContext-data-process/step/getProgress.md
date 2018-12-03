@@ -1,5 +1,5 @@
 ---
-title: "getProgress (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "getProgress (Client API reference) in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.date: 11/20/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -46,6 +46,3 @@ This method is supported only for the action steps; not for the data steps. Acti
 [setProgress](setprogress.md)
 
 [formContext.data.process](../../formContext-data-process.md)
- 
-
-

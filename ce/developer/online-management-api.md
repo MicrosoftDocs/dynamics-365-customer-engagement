@@ -1,5 +1,5 @@
 ---
-title: "Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Online Management API for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
@@ -13,7 +13,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Online Management API for Dynamics 365 for Customer Engagement 
+# Online Management API for Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

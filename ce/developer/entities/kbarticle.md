@@ -204,7 +204,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select which language the article must be available in. This list is based on the list of language packs that are installed in your Microsoft Dynamics 365 for Customer Engagement environment.|
+|Description|Select which language the article must be available in. This list is based on the list of language packs that are installed in your Microsoft Dynamics 365 for Customer Engagement apps environment.|
 |DisplayName|Language|
 |Format|Language|
 |IsValidForForm|True|
@@ -1017,6 +1017,6 @@ See systemuser Entity [lk_kbarticlebase_createdby](systemuser.md#BKMK_lk_kbartic
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.kbarticle?text=kbarticle EntityType" />

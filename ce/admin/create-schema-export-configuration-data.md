@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 author: "jimholtz"
 ms.assetid: 61660b0d-4628-436d-804c-d2538be2813e
 caps.latest.revision: 15
@@ -41,9 +41,9 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 2. On the main screen, click **Create schema**, and click **Continue**.  
   
-3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance from where you want to export data. If you have multiple organizations on the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization to connect to.  
   
 5. From the **Select the solution** list, select a solution from where you want to export the data:  
   
@@ -67,7 +67,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
    -   If you want to remove all the items in the **Selected Fields and Entities** and start over, click **Clear Selection**.  
   
-   ![Remove a relationship in a Dynamics 365 for Customer Engagement schema](../admin/media/config-migration-create-schema-2.png "Remove a relationship in a Dynamics 365 for Customer Engagement schema")  
+   ![Remove a relationship in a Dynamics 365 for Customer Engagement apps schema](../admin/media/config-migration-create-schema-2.png "Remove a relationship in a Dynamics 365 for Customer Engagement apps schema")  
   
 9. To validate the selected data to be exported, click **Tools** > **Validate Schema**.  
   
@@ -109,15 +109,15 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 <a name="ReuseSchematoExportData"></a>   
 ## Reuse an existing schema to export configuration data  
- You can reuse a schema file that was generated using the Configuration Migration tool to quickly export data across [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances without having to create the schema all over again.  
+ You can reuse a schema file that was generated using the Configuration Migration tool to quickly export data across [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instances without having to create the schema all over again.  
   
 1. Start the Configuration Migration tool.  
   
 2. On the main screen, click **Export data**, and click **Continue**.  
   
-3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps instance from where you want to export data. If you have multiple organizations on the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization to connect to.  
   
 5. On the next screen, select the schema file to be used for the data export.  
   

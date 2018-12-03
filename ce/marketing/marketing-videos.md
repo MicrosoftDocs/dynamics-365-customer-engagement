@@ -1,6 +1,6 @@
 ---
 title: "Video overviews and instructions for Marketing | Microsoft Docs"
-description: "Find video-based information about Dynamics 365 for Customer Engagement for Marketing"
+description: "Find video-based information about Dynamics 365 for Marketing"
 keywords: "videos;how-to;overview"
 ms.date: 08/02/2018
 ms.service: dynamics-365-marketing
@@ -38,7 +38,7 @@ If you are new to [!INCLUDE[pn-marketing-business-app-module-name](../includes/p
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Overview (Marketing)](overview.md)
 
-For an even more detailed video overview of the features and benefits of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], including extended feature demos, see [Dynamics 365 for Customer Engagement for Marketing | Business Applications Spring 2018 Release](https://www.youtube.com/watch?v=LWQ4C0kAPo4)  (36:51).
+For an even more detailed video overview of the features and benefits of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], including extended feature demos, see [Dynamics 365 for Marketing | Business Applications Spring 2018 Release](https://www.youtube.com/watch?v=LWQ4C0kAPo4)  (36:51).
 
 ## Design marketing emails
 

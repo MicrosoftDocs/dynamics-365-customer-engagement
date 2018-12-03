@@ -1,9 +1,9 @@
 ---
 title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Microsoft Docs
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
-keywords: Customer Service Hub; Interactive service hub; Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement (online) version 9.0
+keywords: Customer Service Hub; Interactive service hub; Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement apps version 9.0
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
+applies_to: Dynamics 365 for Customer Engagement
 ms.author: anjgup
 manager: shujoshi
 ms.date: 07/12/2018
@@ -28,13 +28,13 @@ The Interactive Service hub's intuitive interface combined vital information in 
 
 ## Introduction to the Customer Service Hub app
 
-With [!INCLUDE[](../includes/pn-crm-online.md)] version 9.0, Customer Service Hub offers a focused, interactive interface as an app module running on Unified Interface. Designed with a **build once, deploy everywhere** philosophy, Unified Interface features a new Custom Control Framework, responsive UI design, Right-to-Left support, and soon will be compliant with Web Content Accessibility Guidelines (WCAG) 2.0 .
+With [!include[](../includes/pn-crm-9-0-0-online.md)], Customer Service Hub offers a focused, interactive interface as an app module running on Unified Interface. Designed with a **build once, deploy everywhere** philosophy, Unified Interface features a new Custom Control Framework, responsive UI design, Right-to-Left support, and soon will be compliant with Web Content Accessibility Guidelines (WCAG) 2.0 .
 
 Unified Interface eliminates the prolonged initial metadata download and brings greater parity with Dynamics 365 for Customer Engagement web client in terms of supported entities, controls, and extensibility. Also, because it is an app module, Customer Service Hub is completely role-based and metadata-driven, allowing greater customization flexibility. It makes it easy and intuitive for system administrators to filter forms, dashboards, and other metadata components shown to business users, so that they can deliver tailored apps.
 
 ## Versions eligible for upgrade
 
-Organizations using Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 for Customer Engagement (online and on-premises) Update 2.1 are eligible to upgrade to Dynamics 365 for Customer Engagement (online) version 9.0 during the [customer-driven update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 for Customer Engagement Update 2.1.
+Organizations using Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 for Customer Engagement apps (online and on-premises) Update 2.1 are eligible to upgrade to [!include[](../includes/pn-crm-9-0-0-online.md)] during the [customer-driven update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 for Customer Engagement Update 2.1.
 
 ## Prepare for upgrade
 
@@ -49,7 +49,7 @@ Before you upgrade, it is important to note that once you upgrade to Customer Se
 The next sections describe notable upgrade-specific changes, general customization, and user experience changes in Dynamics 365 for Customer Engagement apps version 9.0.
 
 ## Convert Interactive experience forms to Main forms
-Like Dynamics 365 for Customer Engagement web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to Dynamics 365 for Customer Engagement (online) version 9.0, and will import any solution into Dynamics 365 for Customer Engagement (online) version 9.0 and later. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
+Like Dynamics 365 for Customer Engagement web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to [!include[](../includes/pn-crm-9-0-0-online.md)], and will import any solution into [!include[](../includes/pn-crm-9-0-0-online.md)] and later. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
 
 ![Converting Interactive experience forms to Main forms](media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
 
@@ -61,17 +61,17 @@ Like Dynamics 365 for Customer Engagement web client, the Customer Service Hub a
 
 ## Support for Interactive experience forms
 
-Unified Interface does not use Interactive experience forms, so they will no longer be used or supported in Dynamics 365 for Customer Engagement apps version 9.0 and later. The configuration settings specific to these forms, like the ability to create or re-order Interactive experience forms, would also be removed.
+Unified Interface does not use Interactive experience forms, so they will no longer be used or supported in [!include[](../includes/pn-crm-9-0-0-online.md)] and later. The configuration settings specific to these forms, like the ability to create or re-order Interactive experience forms, would also be removed.
 
 ## Entity support and deprecation
 
-With Dynamics 365 for Customer Engagement (online) version 9.0, Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property will be removed from the future version of Dynamics 365 for Customer Engagement SDK for Customer Engagement.
+With [!include[](../includes/pn-crm-9-0-0-online.md)], Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property will be removed from the future version of Dynamics 365 for Customer Engagement apps SDK for Customer Engagement.
 
 ## Unified Service Desk
 
-Customer Service Hub isn't supported on Internet Explorer 11 in Dynamics 365 for Customer Engagement (online) version 9.0.1. And, because Unified Service Desk uses Internet Explorer 11, it doesn't support the Customer Service Hub app. This support will be available in an upcoming version of the app.
+Customer Service Hub isn't supported on Internet Explorer 11 in [!include[](../includes/pn-crm-9-0-1-online.md)]. And, because Unified Service Desk uses Internet Explorer 11, it doesn't support the Customer Service Hub app. This support will be available in an upcoming version of the app.
 
-## User interface improvements in Dynamics 365 for Customer Engagement apps version 9.0
+## User interface improvements in [!include[](../includes/pn-crm-9-0-0-online.md)]
 
 - Launch the Customer Service Hub app from **Navigation** or **My Apps** page
 
@@ -91,7 +91,7 @@ Customer Service Hub isn't supported on Internet Explorer 11 in Dynamics 365 for
 
 ## After the upgrade
 
-Once you’ve upgraded to Dynamics 365 for Customer Engagement (online) version 9.0, Customer Service Hub will be provisioned for your org and will be updated with your customizations from Interactive Service hub.
+Once you’ve upgraded to [!include[](../includes/pn-crm-9-0-0-online.md)], Customer Service Hub will be provisioned for your org and will be updated with your customizations from Interactive Service hub.
 
 > [!NOTE]
 > System administrators and customizers must perform the [ Post-upgrade configurations](#post-upgrade-configurations-for-system-administrators) described later in this document. They should review the Customer Service Hub's runtime experience and compare it with Interactive Service hub before releasing the app to business users for consumption.
@@ -117,10 +117,10 @@ As Main forms are supported in Unified Interface as well as in Dynamics 365 for 
 
 ## Work with solutions
 
-- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 for Customer Engagement (online and on-premises) Update 2.1 into Dynamics 365 for Customer Engagement (online) version 9.0 or later would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
+- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 for Customer Engagement (online and on-premises) Update 2.1 into [!include[](../includes/pn-crm-9-0-0-online.md)] or later would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
 
 
-- Uninstalling older solutions after upgrading to Dynamics 365 for Customer Engagement (online) version 9.0 or later might require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains business process flows. While upgrading, all business process flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
+- Uninstalling older solutions after upgrading to [!include[](../includes/pn-crm-9-0-0-online.md)] or later might require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains business process flows. While upgrading, all business process flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
 
   ![Error message provides a link to the details](media/upgrade-details-link-error.png)
 

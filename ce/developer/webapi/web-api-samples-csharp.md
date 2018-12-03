@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic provides information about the Web API samples implemented with C#. While each sample focuses on a different aspect of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API, they share similar characteristics and structure.  
+This topic provides information about the Web API samples implemented with C#. While each sample focuses on a different aspect of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API, they share similar characteristics and structure.  
   
 > [!NOTE]
 >  This implementation approach uses low-level object creation and explicit HTTP message calls. This approach allows for control and demonstration  of the low level object properties which control the behavior of the Web API. This is intended to help you understand the inner workings  but doesn't necessarily represent an approach which will provide the best developer productivity experience.  
@@ -38,12 +38,12 @@ This topic provides information about the Web API samples implemented with C#. W
   
 - An Internet connection to download and update the referenced NuGet packages.  
   
-- Access to  Dynamics 365 for Customer Engagement Online or on-premises (or later). For all Dynamics 365 for Customer Engagement installation types, a user account with privileges to perform CRUD operations is required.  
+- Access to  Dynamics 365 for Customer Engagement apps Online or on-premises (or later). For all Dynamics 365 for Customer Engagement apps installation types, a user account with privileges to perform CRUD operations is required.  
   
-- In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)], you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
+- In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
 
 > [!NOTE]
-> These samples require version 2.x of assembly [Microsoft.IdentityModel.Client.ActiveDirectory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet) for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)].
+> These samples require version 2.x of assembly [Microsoft.IdentityModel.Client.ActiveDirectory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet) for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)] apps.
   
 <a name="bkmk_webApiSamplesListing"></a>   
 ## Web API samples listing (C#)  
@@ -51,8 +51,8 @@ This topic provides information about the Web API samples implemented with C#. W
   
 |Sample|Sample Group|Description|  
 |------------|------------------|-----------------|  
-|[Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)|[Web API Basic Operations Sample](web-api-basic-operations-sample.md)|Demonstrates how to create, retrieve, update, delete, associate and disassociate Dynamics 365 for Customer Engagement entity records.|  
-|[Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)|[Web API Query Data Sample](web-api-query-data-sample.md)|Demonstrates how to use OData v4 query syntax and functions as well as Dynamics 365 for Customer Engagement query functions. Includes examples of working with pre-defined queries and using FetchXML to perform queries.|  
+|[Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)|[Web API Basic Operations Sample](web-api-basic-operations-sample.md)|Demonstrates how to create, retrieve, update, delete, associate and disassociate Dynamics 365 for Customer Engagement apps entity records.|  
+|[Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)|[Web API Query Data Sample](web-api-query-data-sample.md)|Demonstrates how to use OData v4 query syntax and functions as well as Dynamics 365 for Customer Engagement apps query functions. Includes examples of working with pre-defined queries and using FetchXML to perform queries.|  
 |[Web API Conditional Operations Sample (C#)](web-api-conditional-operations-sample-csharp.md)|[Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)|Demonstrates how to perform conditional operations you specify with ETag criteria.|  
 |[Web API Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)|[Web API Functions and Actions Sample](web-api-functions-actions-sample.md)|Demonstrates how to use bound and unbound functions and actions, including custom actions.|  
   
@@ -78,7 +78,7 @@ This topic provides information about the Web API samples implemented with C#. W
 #### Json.NET Library  
  Because C# and most other managed languages do not natively support the JSON data format, the best current approach is to use a library for this functionality. For more information, see [An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET](https://msdn.microsoft.com/library/bb299886.aspx). Json.NET is a popular choice for .NET projects. It provides a robust, performant, open-source ([MIT licensed](https://opensource.org/licenses/MIT)) framework for serializing, converting, parsing, querying, and formatting JSON data. For more information, see the [Json.NET documentation](http://www.newtonsoft.com/json/help/html/Introduction.htm).  
   
- In the C# samples, this library is primarily used to serialize data between .NET objects and HTTP message bodies. Although the library provides several methods to accomplish this task, the approach used by the samples is to create individual [JObject](http://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JObject.htm) instances to represent Dynamics 365 for Customer Engagement entity instances (records).  For example, the following code creates the variable `contact1` that represents a Dynamics 365 for Customer Engagement <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" /> instance, then supplies values for a select set of properties for this type.  
+ In the C# samples, this library is primarily used to serialize data between .NET objects and HTTP message bodies. Although the library provides several methods to accomplish this task, the approach used by the samples is to create individual [JObject](http://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JObject.htm) instances to represent Dynamics 365 for Customer Engagement apps entity instances (records).  For example, the following code creates the variable `contact1` that represents a Dynamics 365 for Customer Engagement apps <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" /> instance, then supplies values for a select set of properties for this type.  
   
 ```csharp  
   
@@ -125,7 +125,7 @@ JObject contact2 = JsonConvert.DeserializeObject<JObject>(await response.Content
 ```  
   
 ### Response success and error handling  
- In general, the samples take a straightforward approach to processing HTTP responses. If the request succeeds, information about the operation is typically output to the console. If the response also carries a JSON payload or useful headers, this information is only processed upon success. And lastly, if a Dynamics 365 for Customer Engagement entity was created, the `entityUris` collection is updated with the URI of that resource. The [DeleteRequiredRecords](#bkmk_deleteRequiredRecords) method uses this collection to optionally delete data created by the sample from your Dynamics 365 for Customer Engagement server.  
+ In general, the samples take a straightforward approach to processing HTTP responses. If the request succeeds, information about the operation is typically output to the console. If the response also carries a JSON payload or useful headers, this information is only processed upon success. And lastly, if a Dynamics 365 for Customer Engagement apps entity was created, the `entityUris` collection is updated with the URI of that resource. The [DeleteRequiredRecords](#bkmk_deleteRequiredRecords) method uses this collection to optionally delete data created by the sample from your Dynamics 365 for Customer Engagement server.  
   
  If the request failed, the program outputs a contextual message about the operation that failed, and then it throws a custom exception of type `CrmHttpResponseException`. The exception-handler outputs more information about the exception and then control passes to a `finally` block that includes cleanup logic, again including a call to `DeleteRequiredRecords`. The following code demonstrates this error-handling approach on a POST request to create a record.  
   

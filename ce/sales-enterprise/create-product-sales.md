@@ -1,6 +1,6 @@
 ---
-title: "Create a product (Dynamics 365 for Customer Engagement for Sales) | MicrosoftDocs"
-description: "Use products in Dynamics 365 for Customer Engagement for Sales to define the products or services that your organization offers."
+title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
 keywords: "product, service"
 ms.date: 04/01/2018
 ms.service:
@@ -9,12 +9,12 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -117,7 +117,7 @@ Products are the backbone of your business. They can be physical products or ser
   
 7. In the **Price List Items** section, select the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
-8. In the **Default price list** box, select a default price list. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] uses this price list for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
+8. In the **Default price list** box, select a default price list. This price list is used for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
   
    > [!NOTE]
    >  A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in **Step 7**).  

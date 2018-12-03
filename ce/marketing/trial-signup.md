@@ -1,6 +1,6 @@
 ---
-title: "Sign up and install a free trial (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to sign up for a trial of Dynamics 365 for Customer Engagement for Marketing, obtain prerequisite software, and set up the trial"
+title: "Sign up and install a free trial (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to sign up for a trial of Dynamics 365 for Marketing, obtain prerequisite software, and set up the trial"
 keywords: "trial"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -38,7 +38,7 @@ You can install and use a trial version of [!INCLUDE[pn-marketing-business-app-m
 > [!IMPORTANT]
 > - You will receive a trial [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance together with your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You must run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial instance, and can't install it on a production instance.
 > - You can install, at most, one [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-> - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 for Customer Engagement International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+> - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
 The procedure for setting up your trial depends on whether you already have a *managed* [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant (which is a tenant where Azure Active Directory (Azure AD) is available). Nearly all organizations that already use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] or [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have managed tenants, but if your organization doesn't currently use any [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services (or have only ever set up a trial tenant), then you must set up a managed trial tenant first.
 
@@ -80,7 +80,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
 1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com/).
 
-1. Select the **Dynamics 365 for Customer Engagement for Sales** tile.  
+1. Select the **Dynamics 365 for Sales** tile.  
     ![Select the Sales tile](media/trial-signup0.png "Select the Sales tile")
 
 1. The page automatically scrolls down to the bottom. *Don’t select the **Marketing** tile*&mdash;instead select the **Sign up here** link next to "Are you signing up on behalf of a customer or using this trial for development purposes?"  
@@ -135,7 +135,7 @@ If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-
 4. Enter the new user's name and other details in the flyout panel. 
    - Make sure the **Domain** is the same as the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.   
    - Create a non-random password and make a note of the password.
-   - Under **Product licenses**, enable licenses for both **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** and **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement Plan Enterprise Edition**.
+   - Under **Product licenses**, enable licenses for both **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** and **Dynamics 365 Customer Engagement Plan Enterprise Edition**.
 
 5. Select **Add** to create the new user, and then select **Send email and close** to close the flyout panel.
 

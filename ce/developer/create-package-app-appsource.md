@@ -1,5 +1,5 @@
 ---
-title: "Step 4: Create an AppSource package for your app (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Step 4: Create an AppSource package for your app (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about how to create an AppSource package (.zip file) to include your solution and demo data files along with other required files."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -38,7 +38,7 @@ You must create an AppSource package (.zip file) to include your solution and de
 
 A package lets you bundle and deploy multiple files related to your app at once. 
 
-1. Create a Dynamics 365 for Customer Engagement package to include the solution and configuration data files that you created in [Step 2: Create a managed solution for your app](create-solution-app-appsource.md). A package can also contain custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. For more information about creating a package file, see [Create packages for the Dynamics 365 for Customer Engagement Package Deployer](create-packages-package-deployer.md).
+1. Create a Dynamics 365 for Customer Engagement apps package to include the solution and configuration data files that you created in [Step 2: Create a managed solution for your app](create-solution-app-appsource.md). A package can also contain custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. For more information about creating a package file, see [Create packages for the Dynamics 365 for Customer Engagement Package deployer](create-packages-package-deployer.md).
 
     After you have created a package, your package will consist of the following things:
 
@@ -82,7 +82,7 @@ You can reuse the **[Content_Types].xml** that you created in the previous secti
 
 ## Create an icon for your AppSource package
 
-Create an icon file of size 32x32 to display along with the preferred solution name and description in the Dynamics 365 for Customer Engagement Administration Center portal. Valid file formats are PNG and JPG.
+Create an icon file of size 32x32 to display along with the preferred solution name and description in the Dynamics 365 for Customer Engagement apps Administration Center portal. Valid file formats are PNG and JPG.
 
 ## Create an HTML file for license terms
 

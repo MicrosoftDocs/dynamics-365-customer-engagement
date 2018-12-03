@@ -1,6 +1,6 @@
 ---
 title: "Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 for Customer Engagement Unified Interface Apps using a browser-based JavaScript API library."
+description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 for Customer Engagement apps (Unified Interface apps) using a browser-based JavaScript API library."
 keywords: ""
 ms.date: 10/01/2018
 ms.service:
@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Preview: Dynamics 365 for Customer Engagement Channel Integration Framework Guide
+# Preview: Dynamics 365 for Customer Engagement apps Channel Integration Framework Guide
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.

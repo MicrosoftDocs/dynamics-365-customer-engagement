@@ -11,7 +11,7 @@ applies_to: "Dynamics 365 for Customer Engagement (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Design a theme for your Voice of the Customer surveys to match your company's style 
 Before you start designing [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys, you'll want to define one or more themes to use to match your company's style. Themes define the color scheme for your surveys. You can design multiple themes if you want to use different ones for other surveys.  

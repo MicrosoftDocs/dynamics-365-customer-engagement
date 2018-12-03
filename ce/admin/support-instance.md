@@ -1,5 +1,5 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement (online) Support instances | MicrosoftDocs"
+title: "Manage Dynamics 365 for Customer Engagement apps (online) Support instances | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 2e4db92a-515b-4976-875a-d97d88af081f
 caps.latest.revision: 4
 author: "jimholtz"
@@ -25,12 +25,12 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A Support instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your production instance so it does not impact your business operations. Dynamics 365 for Customer Engagement System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
+A Support instance is any non-Production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. Dynamics 365 for Customer Engagement apps System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
 
 **What is a Support instance?**
 
 -  It is an instance created in your tenant by Microsoft for purposes of preventing, detecting, or repairing problems affecting the operation of your online service.
--  It does not require any additional non-production instance to be purchased.
+-  It does not require any additional non-Production instance to be purchased.
 -  The database size of a Support instance does not count towards your storage limit.
 -  It resides in the same regional datacenter as your source instance. 
 

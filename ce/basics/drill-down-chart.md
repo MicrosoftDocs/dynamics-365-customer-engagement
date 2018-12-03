@@ -30,12 +30,12 @@ You can drill down into a segment on a chart to filter chart data for that segme
   
 2. [!INCLUDE[proc_follow_step_for_app_youre_using](../includes/proc-follow-step-for-app-youre-using.md)]  
   
-      #### If using the Dynamics 365 for Customer Engagement web application  
+      #### If using the Dynamics 365 for Customer Engagement apps 
   
     1.  Click the **Charts** area.  
   
 <!--
-    ###### If using Dynamics 365 for Customer Engagement for Outlook  
+    ###### If using Dynamics 365 for Outlook  
   
     1.  In the ribbon, click **Chart Pane**, and then select where you want the chart to be displayed.  
 -->    

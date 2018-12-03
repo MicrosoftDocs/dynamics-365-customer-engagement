@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Set up Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,12 +27,12 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Set up Dynamics 365 for Customer Engagement for Outlook
-If your users run a recent version of Microsoft Outlook, they can use Microsoft Dynamics 365 for Customer Engagement for Outlook. Dynamics 365 for Customer Engagement for Outlook makes it easier for your team to work with Dynamics 365 for Customer Engagement data in the familiar Outlook environment.
+# Set up Dynamics 365 for Outlook
+If your users run a recent version of Microsoft Outlook, they can use Microsoft Dynamics 365 for Outlook. Dynamics 365 for Outlook makes it easier for your team to work with Dynamics 365 for Customer Engagement apps data in the familiar Outlook environment.
 
-This section covers installing and deploying Dynamics 365 for Customer Engagement for Outlook.
+This section covers installing and deploying Dynamics 365 for Outlook.
 
 > [!IMPORTANT]
-> You must have the latest version of Dynamics 365 for Customer Engagement for Outlook (version 8.2.2.137) to connect to Dynamics 365 for Customer Engagement apps version 9.0. Version 8.2.2.137 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Customer Engagement for Outlook and Dynamics 365 for Customer Engagement apps version 9.0. For more information, see [Update for Dynamics 365 for Customer Engagement for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
+> You must have the latest version of Dynamics 365 for Outlook (version 8.2.2.137) to connect to Dynamics 365 for Customer Engagement apps apps version 9.0. Version 8.2.2.137 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Outlook and Dynamics 365 for Customer Engagement apps apps version 9.0. For more information, see [Update for Dynamics 365 for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
 >
-> As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have decided not to deprecate Dynamics 365 for Customer Engagement for Outlook (Outlook add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
+> As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have decided not to deprecate Dynamics 365 for Outlook (Outlook add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.

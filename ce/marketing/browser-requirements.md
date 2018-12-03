@@ -1,6 +1,6 @@
 ---
-title: "Browser requirements for Dynamics 365 for Customer Engagement for Marketing | Microsoft Docs"
-description: "Learn about the browser requirements for Dynamics 365 for Customer Engagement for Marketing"
+title: "Browser requirements for Dynamics 365 for Marketing | Microsoft Docs"
+description: "Learn about the browser requirements for Dynamics 365 for Marketing"
 keywords: "browser;requirements"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing

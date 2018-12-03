@@ -1,6 +1,6 @@
 ---
 redirect_url: https://docs.microsoft.com/power-platform/admin/settings-privacy-security
-title: "Set privacy preferences for a Dynamics 365 for Customer Engagement organization | MicrosoftDocs"
+title: "Set privacy preferences for a Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 82047a4c-b097-4fa4-9542-557eadbe3827
 caps.latest.revision: 12
 author: "jimholtz"
@@ -29,7 +29,7 @@ search.app:
 Manage users’ data privacy by controlling when to send error notifications, and also let users know how their privacy is protected by displaying your organization’s own privacy statement instead of the one from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)].  
   
 ## Set error reporting preferences for the organization  
- When errors occur in the product, data about the problem is sent to [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. This data – an error report - allows [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] to track and address errors relating to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can help [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] improve products and services when you allow the system to send these error reports.  
+ When errors occur in the product, data about the problem is sent to [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. This data – an error report - allows [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] to track and address errors relating to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. You can help [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] improve products and services when you allow the system to send these error reports.  
   
  By default, individual users in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] have a measure of control over whether to send error reports to [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. But you, as an administrator, can override their preferences and set up the error reporting preferences for the entire organization.  
   
@@ -76,10 +76,10 @@ Manage users’ data privacy by controlling when to send error notifications, an
   
 5. To make sure the link is correct, choose **Test URL**.  
   
-   After you add the privacy statement URL, the link directs all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users to the specified link.  
+   After you add the privacy statement URL, the link directs all [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps users to the specified link.  
   
 > [!NOTE]
 >  Any user with the System Administrator security role will always see the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] privacy statement and not the organization’s privacy statement.  
   
 ### See also  
- [Get Help from the Microsoft Dynamics 365 for Customer Engagement Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)
+ [Get Help from the Microsoft Dynamics 365 for Customer Engagement apps Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)

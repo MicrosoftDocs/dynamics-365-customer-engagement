@@ -91,7 +91,7 @@ Filter posts by [author tags](author-tags.md). Author tags are a convenient way 
 ## Labels  
  Narrow your data set to see only posts that are assigned the selected labels. You can also exclude labels when you apply the labels filter to find posts that don't have a specific label. Any label that an administrator defined in **Settings** > **Global Settings** > **Labels** is available as a filter value.  
   
-## Link to Dynamics 365 for Customer Engagement  
+## Link to Dynamics 365  
  Find posts that either are or aren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
   
 ## Post Tags and Intentions  

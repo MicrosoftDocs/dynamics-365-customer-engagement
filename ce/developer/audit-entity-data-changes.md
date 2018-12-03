@@ -1,5 +1,5 @@
 ---
-title: "Audit entity data changes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Audit entity data changes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Supports auditing of entity and attribute data changes on a per organization basis."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -28,8 +28,7 @@ search.app:
 
 Organizations need to track changes made to business data for maintaining security, examining the history of a particular data record, 
 documenting modifications for future analysis and record keeping, and being in compliance with regulations. 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support auditing of entity and attribute data changes on a per 
-organization basis.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support auditing of entity and attribute data changes on a per organization basis.  
   
 ## In This Section  
  [Auditing Feature Overview](auditing-overview.md)  
@@ -45,4 +44,4 @@ organization basis.
  [Sample: Audit User Access](sample-audit-user-access.md)  
   
 ## Related Sections  
- [Data Management in Dynamics 365 for Customer Engagement](manage-data.md)
+ [Data Management in Dynamics 365 for Customer Engagement apps](manage-data.md)

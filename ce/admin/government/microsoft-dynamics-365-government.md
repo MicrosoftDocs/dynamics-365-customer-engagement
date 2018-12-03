@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement Government | MicrosoftDocs"
-description: "Microsoft Dynamics 365 for Customer Engagement Government is available to qualified government entities in the United States."
+title: "Dynamics 365 for Customer Engagement apps Government | MicrosoftDocs"
+description: "Microsoft Dynamics 365 for Customer Engagement apps Government is available to qualified government entities in the United States."
 ms.custom: ""
 ms.date: 10/02/2018
 ms.reviewer: ""
@@ -9,8 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: e4876ab0-4cc9-44fe-b3ed-ddfe04a990e2
 caps.latest.revision: 35
 author: "jimholtz"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 for Customer Engagement Government 
+# Dynamics 365 for Customer Engagement apps Government 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -31,33 +31,33 @@ In response to the unique and evolving requirements of the United States public 
 ## About [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans  
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans are available to qualified government and private entities, limited to (i) United States (US) federal, state, local, tribal, and territorial government entities; (ii) private entities using [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] to provide solutions to a government entity or a qualified member of the cloud community; and (iii) private entities with customer data subject to government regulations for which the use of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is the appropriate service to meet the regulatory requirements. Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans is restricted to the offerings described below, each plan is offered as a monthly subscription and can be licensed to an unlimited number of users:  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Plan 1 for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] Plan 1 for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Sales, for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Sales, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Customer Service, for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Customer Service, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Field Service, for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Field Service, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Project Service Automation, for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Project Service Automation, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Case Management, for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Case Management, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Team Members, for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Team Members, for Government  
   
-- Enhance Support for Dynamics 365 for Customer Engagement Applications and Plan 1 for Government  
+- Enhance Support for Dynamics 365 for Customer Engagement apps and Plan 1 for Government  
   
-- Pro Direct Support for Dynamics 365 for Customer Engagement Applications and Plan 1 for Government  
+- Pro Direct Support for Dynamics 365 for Customer Engagement apps and Plan 1 for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Portal for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Portal for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Portal Page Views for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Portal Page Views for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Production Instance for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Production Instance for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Non-Production Instance for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Non-Production Instance for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Database Storage for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Database Storage for Government  
   
 ### What is “customer data” and “customer content?”  
  This section describes [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] commitments that apply to customer content and to customer data.  
@@ -86,7 +86,7 @@ In response to the unique and evolving requirements of the United States public 
 ## Certifications and accreditations  
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a High Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO). It is important to note that, at the present time, the latest brand ([!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)]) may not show in our ATOs; however, this does not entail a degradation of the security protections afforded to the online services environment as there is application service continuity between the previous brand (Microsoft CRM Online Government) and [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], as described above. As Microsoft moves to refresh FedRAMP artifacts as part of the standard audit cycles, branding references will be updated accordingly.  
   
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the [Dynamics 365 for Customer Engagement Trust Center](https://www.microsoft.com/trustcenter/cloudservices/dynamics365) for more detailed information related to certifications and accreditations.  
+ [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the [Dynamics 365 for Customer Engagement apps Trust Center](https://www.microsoft.com/trustcenter/cloudservices/dynamics365) for more detailed information related to certifications and accreditations.  
   
 ## [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] and other Microsoft services  
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] includes several features that allow users to address customer calls through [!INCLUDE[pn_skype_for_business](../../includes/pn-skype-for-business.md)], email editing for sales materials and, in general, integration with other Microsoft enterprise service offerings such as [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] for Government. [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is deployed within Microsoft datacenters in a manner consistent with a multi-tenant, public cloud deployment model; however, client applications including but not limited to the web-user client, [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)], [!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)], [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] and any third-party client application that connects to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] are not part of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)]'s accreditation boundary and government customers are responsible for managing them.  
@@ -102,6 +102,6 @@ In response to the unique and evolving requirements of the United States public 
  When a user of an organization employing [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] attempts to access [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], the user is redirected to a login page hosted on the organization’s [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server. The user provides his credentials to his organization's [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server, which attempts to authenticate the credentials using the organization’s existing Active Directory infrastructure. If the credentials are authenticated, the organization’s [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server issues a SAML (Security Assertion Markup Language) ticket containing information about the user’s identity and group membership. The customer [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server signs this ticket using one half of an asymmetric key pair and it sends the ticket to AAD via encrypted TLS. AAD validates the signature using the other half of the asymmetric key pair and grants access based on the ticket. The user's identity and group membership information remain in an encrypted fashion in AAD; in other words, limited user-identifiable information is stored in AAD. Full details of the AAD security architecture and control implementation can be found in the [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] SSP. The AAD account management services are hosted on physical servers managed by the Microsoft Global Foundation Services (GFS). Network access to these servers is controlled by GFS-managed network devices using rules set by [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)]. Users do not interact directly with AAD.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement (online) Government - Feature availability](government-feature-availability.md)<br/>
- [Dynamics 365 for Customer Engagement IP Address Ranges (prior to v9.x)](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
- [Dynamics 365 for Customer Engagement IP Address Ranges (v9.x)](https://www.microsoft.com/download/confirmation.aspx?id=57063) Focus only on AzureCloud.usgovtexas and AzureCloud.usgovvirginia <br/> 
+ [Dynamics 365 for Customer Engagement apps (online) Government - Feature availability](government-feature-availability.md)<br/>
+ [Dynamics 365 for Customer Engagement apps IP Address Ranges (prior to v9.x)](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
+ [Dynamics 365 for Customer Engagement apps IP Address Ranges (v9.x)](https://www.microsoft.com/download/confirmation.aspx?id=57063) Focus only on AzureCloud.usgovtexas and AzureCloud.usgovvirginia <br/> 

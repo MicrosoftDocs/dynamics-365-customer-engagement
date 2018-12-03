@@ -1,6 +1,6 @@
 ---
-title: "Migrate your Unified Service Desk for Dynamics 365 for Customer Engagement configuration to another Dynamics 365 for Customer Engagement instance | MicrosoftDocs"
-description: "Learn how to move a Unified Service Desk for Dynamics 365 for Customer Engagement configuration to another instance."
+title: "Migrate your Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration to another Dynamics 365 for Customer Engagement apps instance | MicrosoftDocs"
+description: "Learn how to move a Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration to another instance."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -47,7 +47,7 @@ After you have completed the development or configuration of your agent applicat
 > [!IMPORTANT]
 >  The [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] provides logging support to record detailed information about:  
 > 
-> - Errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance using the tool.  
+> - Errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps instance using the tool.  
 > - Activities performed by the tool during the schema definition and export and import of the configuration data.  
 > - Data that was imported using the tool.  
 > 

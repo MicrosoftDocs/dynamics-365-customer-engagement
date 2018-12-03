@@ -1,5 +1,5 @@
 ---
-title: "Sample: Detect solution dependencies (Dynamics 365 for Customer Engagement SDK)| MicrosoftDocs"
+title: "Sample: Detect solution dependencies (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2017
@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with solutions](https://code.msdn.microsoft.com/Sample-Work-with-solutions-a496ee8f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement apps. Download the sample: [Work with solutions](https://code.msdn.microsoft.com/Sample-Work-with-solutions-a496ee8f).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -45,7 +45,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[solutions#GetSolutionDependencies](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies.cs#getsolutiondependencies)]  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Security enhancements: User session and access management with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Security enhancements: User session and access management with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/19/2018
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 599f849d-c4cb-4b1c-84a0-9fde48a1601a
 caps.latest.revision: 59
 author: "jimholtz"
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
+New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. 
 
 > [!IMPORTANT]
 > These security enhancements are also available for:
@@ -43,11 +43,11 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Security Enhancements: User session management](https://youtu.be/9eR8hP6S-YM).  
 
 ## User session timeout
-By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
+By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
 
 You can change this behavior.
 
-- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
+- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 
 > [!NOTE]
 > User session timeout is not enforced in the following:
@@ -58,7 +58,7 @@ You can change this behavior.
 
 ## Configure session timeout 
 
-1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], choose **Settings** > **Administration** > **System Settings** > **General** tab.
+1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, choose **Settings** > **Administration** > **System Settings** > **General** tab.
 2. Under **Set session timeout**, set the values to apply to all your users.
 
 > [!NOTE]
@@ -69,9 +69,9 @@ You can change this behavior.
 
 ## Inactivity timeout
 
-By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] does not enforce an inactivity session timeout.  A user can remain logged in the application until the session timeout expires.  You can change this behavior.
+By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps does not enforce an inactivity session timeout.  A user can remain logged in the application until the session timeout expires.  You can change this behavior.
 
-- To enforce users to automatically signed out after a pre-determined period of inactivity, admins can set an inactivity timeout period for each of their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances. The application signs out the user when the inactivity session expires.
+- To enforce users to automatically signed out after a pre-determined period of inactivity, admins can set an inactivity timeout period for each of their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps instances. The application signs out the user when the inactivity session expires.
 
 > [!NOTE]
 > Inactivity session timeout is not enforced in the following:
@@ -82,11 +82,11 @@ By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] does not enf
 
 To enforce the inactivity session timeout for Web Resources, Web Resources need to include the ClientGlobalContext.js.aspx file in their solution.
 
-The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] portal has its own settings to manage its session timeout and inactivity session timeout independent of these system settings.
+The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps portal has its own settings to manage its session timeout and inactivity session timeout independent of these system settings.
 
 ## Configure inactivity timeout
 
-1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], choose **Settings** > **Administration** > **System Settings** > **General tab**.
+1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, choose **Settings** > **Administration** > **System Settings** > **General tab**.
 2. Under **Set inactivity timeout**, set the values to apply to all your users.
 
 > [!NOTE]
@@ -96,14 +96,14 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] portal has its own s
 
 ## Access management
 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] uses Azure Active Directory as the identity provider.  To secure the user’s access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the following were implemented:
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps uses Azure Active Directory as the identity provider.  To secure the user’s access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the following were implemented:
 
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
-- To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
+- To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 
-## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement (on-premises) deployments
+## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
 
-These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement (on-premises) builds listed below.
+These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
 
 > [!NOTE]
 > This applies to customers with the following versions of Dynamics 365 for Customer Engagement:
@@ -117,13 +117,13 @@ These security enhancements are shipped disabled by default.  Administrators can
 > **Requirement**
 > These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
 > - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
-> - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
+> - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 
 To obtain SDK sample code (for reference, not required to configure and enable session timeout):
 
-1. Access your Dynamics 365 for Customer Engagement server using your administrator account.
-2. Open a browser session and download the [Dynamics 365 for Customer Engagement Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=50032).
-3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement server.
+1. Access your Dynamics 365 for Customer Engagement apps server using your administrator account.
+2. Open a browser session and download the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=50032).
+3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement apps server.
 4. Open a PowerShell command prompt.
 5. Navigate to the downloaded SDK folder.
 6. Open the SampleCode\PS folder.
@@ -133,7 +133,7 @@ After updating to a supported on-premises version, follow the steps below to ena
 
 ### User session timeout
 
-System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 for Customer Engagement instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
+System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 for Customer Engagement apps instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
 
 **Enable user session timeout**
 
@@ -149,7 +149,7 @@ System admins can now force users to re-authenticate after a set period.  You ca
 
 ### Access token management
 
-To better protect user access and data privacy in Dynamics 365 for Customer Engagement, when a user signs out in the web client and needs to return to the application, they will need to enter their credentials again in all open browser sessions. Dynamics 365 for Customer Engagement ensures that the sign-in token was originally generated for the current browser and computer.
+To better protect user access and data privacy in Dynamics 365 for Customer Engagement, when a user signs out in the web client and needs to return to the application, they will need to enter their credentials again in all open browser sessions. Dynamics 365 for Customer Engagement apps ensures that the sign-in token was originally generated for the current browser and computer.
 
 **Enable access token management**
 

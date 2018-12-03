@@ -1,5 +1,5 @@
 ---
-title: "Secure and manage Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+title: "Secure and manage Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
 ms.date: 05/05/2017
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement apps
 author: "mduelae"
 ms.assetid: 59af6fe5-f6e0-43d0-addc-044009bc0a23
 caps.latest.revision: 24
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Overview of securing and managing Dynamics 365 for Customer Engagement for phones and tablets
+# Overview of securing and managing Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -39,7 +39,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
    >  This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)].  
   
 <a name="BKMK_MobileIntune"></a>   
-## Manage Dynamics 365 for Customer Engagement on mobile devices with [!INCLUDE[pn_microsoft_intune](../includes/pn-microsoft-intune.md)]  
+## Manage Dynamics 365 for Customer Engagement apps on mobile devices with [!INCLUDE[pn_microsoft_intune](../includes/pn-microsoft-intune.md)]  
  If your organization is set up with [!INCLUDE[pn_intune](../includes/pn-intune.md)], you can use it to manage the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets apps on Apple, Android, and Windows 10 tablets and phones. [!INCLUDE[pn_intune](../includes/pn-intune.md)] manages encryption at the device level, as well as app-to-app communications. With [!INCLUDE[pn_intune](../includes/pn-intune.md)], you can selectively wipe managed apps and related data on devices that are unenrolled, no longer compliant, lost, stolen, or retired from use.  
   
  With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)], you can use [!INCLUDE[pn_intune](../includes/pn-intune.md)] mobile application management (MAM) to manage [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile applications for [!INCLUDE[tn_apple](../includes/tn-apple.md)] and [!INCLUDE[tn_android](../includes/tn-android.md)] without enrolling the device. This protects company data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] without requiring you to enroll and deeply manage the end user's entire device. This is particularly useful for bring-your-own-device (BYOD) scenarios where end users don’t want to or can’t enroll their devices for IT management. This capability is also useful if a device is already enrolled in another mobile application management solution.  
@@ -51,7 +51,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
   
 -   [Documentation for Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx)  
   
-## Set up  conditional access to Dynamics 365 for Customer Engagement (online)  
+## Set up  conditional access to Dynamics 365 for Customer Engagement apps  
  You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://technet.microsoft.com/en-us/library/dn919655.aspx).  
   
 > [!NOTE]
@@ -64,7 +64,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
  [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] is a special version of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] that works with the [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)] mobile security platform. [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] is currently supported for [!INCLUDE[tn_Apple_ipad](../includes/tn-apple-ipad.md)] and [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)] running iOS 7 or later. To use [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], you must have [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] server software and services from [Good Technology](http://www1.good.com/).  
   
 ### Prepare to use [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)]  
- Your organization should have services set up with [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. Then follow the common directions for configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] in [Set up Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+ Your organization should have services set up with [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. Then follow the common directions for configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
   
  In addition, the [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] admin should do the following:  
   
@@ -77,7 +77,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
 ### What users need to do  
  Users should update to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] application. On the Apple App store, the latest version is 1.1. On the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) or Good Control Console, the latest version is listed as 1.1.0.  
   
- Direct your users to [Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement for Good](http://go.microsoft.com/fwlink/p/?LinkID=525026)  
+ Direct your users to [Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good](http://go.microsoft.com/fwlink/p/?LinkID=525026)  
   
 ### Install [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)]  
  The app is listed in the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) and can be downloaded from the [Apple App Store](http://go.microsoft.com/fwlink/p/?LinkId=524762).  
@@ -126,7 +126,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
   
 - Enable the **Prevent Data Leakage** setting in the **Security Policies** tab to cover other situations including using a secure app for email, and handling of copy/paste scenarios.  
   
-  ![Enable to prevent data leakage in Dynamics 365 for Customer Engagement](../admin/media/good-prevent-data-leakage.png "Enable to prevent data leakage in Dynamics 365 for Customer Engagement")  
+  ![Enable to prevent data leakage in Dynamics 365 for Customer Engagement apps](../admin/media/good-prevent-data-leakage.png "Enable to prevent data leakage in Dynamics 365 for Customer Engagement apps")  
   
 - All data stored on the client when using [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] is encrypted using [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] APIs.  
   
@@ -137,5 +137,5 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
 ### See also
   
 [Good Secure Mobility Platform](http://www1.good.com/good-dynamics-platform)  
-[Dynamics 365 for Customer Engagement for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
-[Secure your mobile data with Dynamics 365 for Customer Engagement for Good](secure-mobile-data-dynamics-365-good.md)
+[Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
+[Secure your mobile data with Dynamics 365 for Customer Engagement apps for Good](secure-mobile-data-dynamics-365-good.md)

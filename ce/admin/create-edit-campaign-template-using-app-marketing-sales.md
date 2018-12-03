@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a campaign template using in-app marketing (Sales) for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create or edit a campaign template using in-app marketing (Sales) for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 07423d4c-8546-48e6-878a-6d54ecc0901f
 caps.latest.revision: 42
 author: "jimholtz"
@@ -45,7 +45,7 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
   
 - Open the campaign that you want to copy. Click **Copy as Template**, type a name for the template, and click **Save**.  
   
-  If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
+  If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
 > [!NOTE]
 > [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] 

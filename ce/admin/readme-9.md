@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement apps for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 11/19/2018
@@ -7,8 +7,8 @@ ms.service:
   - "crm-online"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.x"
-  - "Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.x (on-premises)"
+  - "Dynamics 365 for Customer Engagement  for Customer Engagement apps version 9.x"
+  - "Dynamics 365 for Customer Engagement  for Customer Engagement apps version 9.x (on-premises)"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: ReneeW-CPub
 ms.author: renwe
@@ -16,15 +16,15 @@ manager: annbe
 
 ---
 
-Dynamics 365 for Customer Engagement for Customer Engagement<br>Readme / Known Issues
+Dynamics 365 for Customer Engagement apps for Customer Engagement<br>Readme / Known Issues
 =========================================================
 
 This document provides important information about these product versions:
 
--   Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0
--   Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0.1
--   Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0.2
--   Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0.2 (on-premises)
+-   Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0
+-   Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0.1
+-   Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0.2
+-   Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0.2 (on-premises)
 
 You'll also find information about known issues and possible workarounds.
 
@@ -41,7 +41,7 @@ Channel Integration Framework
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
 
-Starting with Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0, connections to Customer
+Starting with Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0, connections to Customer
 Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
@@ -50,14 +50,14 @@ required to take the following actions to maintain the connectivity to Dynamics
 
 1.  Use [supported
     browsers](https://technet.microsoft.com/library/hh699710.aspx) to access the
-    Microsoft Dynamics 365 for Customer Engagement web application. For help identifying if a browser
+    Microsoft Dynamics 365 for Customer Engagement apps web application. For help identifying if a browser
     supports the TLS 1.2 requirement, go to this [validation test
     page](https://go.microsoft.com/fwlink/?linkid=874490).
 
 2.  Recompile your custom Windows clients that were built using the .NET
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
-3.  Download and update Dynamics 365 for Customer Engagement for Outlook to [version
+3.  Download and update Dynamics 365 for Outlook to [version
     8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
 
 4.  Download the [latest version of developer
@@ -144,7 +144,7 @@ Sales and Customer Service web client apps
 
 -   In order for the entity name to work with Customer Service embedded knowledge search, the maximum entity name length, including the       publisher prefix, can’t exceed 24 characters.
     
--   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 for Customer Engagement for Customer Engagement custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
+-   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 for Customer Engagement apps for Customer Engagement custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
 
 
 Sales Hub and Customer Service Hub apps 
@@ -161,7 +161,7 @@ in the browser or on mobile devices for each scenario. 
 
  
 
-### Sales Hub app on Dynamics 365 for Customer Engagement for tablets and Dynamics 365 for Customer Engagement for phones
+### Sales Hub app on Dynamics 365 for Customer Engagement apps for tablets and Dynamics 365 for Customer Engagement apps for phones
 
 -   An error is displayed on iPads whenever a user tries to add a product to an
     opportunity. The workaround is to dismiss the error.
@@ -187,7 +187,7 @@ in the browser or on mobile devices for each scenario. 
 
 -   Links in the body of an email aren't selectable.
 
-### Customer Service Hub app on Dynamics 365 for Customer Engagement for tablets and Dynamics 365 for Customer Engagement for phones 
+### Customer Service Hub app on Dynamics 365 for Customer Engagement apps for tablets and Dynamics 365 for Customer Engagement apps for phones 
 
 -   Forms
 
@@ -260,14 +260,14 @@ in the browser or on mobile devices for each scenario. 
 
 ### Sales (professional license)
 
--   After the purchase of professional licenses for Dynamics 365 for Customer Engagement for Sales, the
+-   After the purchase of professional licenses for Dynamics 365 for Customer Engagement apps for Sales, the
     admin will not see a Sales Professional option while configuring the
     instance under **Which scenario fits best**. Instead, the admin must select
     **None**.
 
 -   After the instance has been configured, a licensed admin must go to the
     Admin Center, select the instance just created, select Solutions, and
-    install **Dynamics 365 for Customer Engagement for Sales, Professional**.
+    install **Dynamics 365 for Customer Engagement apps for Sales, Professional**.
 
 -   The professional license app access option is not available as a security
     role. Before the licensed users can access the app, the admin must give them
@@ -294,7 +294,7 @@ App modules and the app designer
 
 -   In the app designer, the option to set **App for Outlook Dashboard** as your
     default dashboard is available for all Unified Interface apps, but the
-    dashboard is only supported for Dynamics 365 for Customer Engagement App for Outlook. If you select
+    dashboard is only supported for Dynamics 365 App for Outlook. If you select
     this dashboard for another app, the dashboard will not load and users will
     see a blank screen or error message.
 
@@ -435,7 +435,7 @@ The date time control in Unified Interface relies on browser support. It has
 known issues in browsers such as Internet Explorer 11 and Firefox. It also has
 localization and format issues.
 
-Dynamics 365 for Customer Engagement App for Outlook
+Dynamics 365 App for Outlook
 ----------------------------
 
 -   Initial loading might take some time.
@@ -453,19 +453,19 @@ Dynamics 365 for Customer Engagement App for Outlook
     unresponsive.
 
 -   If there are any custom security roles, [the roles need to be assigned to
-    Dynamics 365 for Customer Engagement App for Outlook App
+    Dynamics 365 App for Outlook App
     Module](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#provide-security-role-access).
 
-Dynamics 365 for Customer Engagement for Outlook
+Dynamics 365 for Outlook
 ------------------------
 
--   Microsoft has released Dynamics 365 for Customer Engagement for Outlook version 8.2.2.137 update.
+-   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
     This update includes support for Transport Layer Security (TLS) 1.2, which
-    is required for connecting Dynamics 365 for Customer Engagement for Outlook with Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for Customer Engagement for
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for Customer Engagement apps for
     Outlook](https://www.microsoft.com/download/details.aspx?id=56327).
 
--   In offline mode, adding an attachment to a Note in Dynamics 365 for Customer Engagement for Outlook
-    might show the message “Microsoft Dynamics 365 for Customer Engagement has encountered an error.” A
+-   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
+    might show the message “Microsoft Dynamics 365 for Customer Engagement apps has encountered an error.” A
     workaround for this issue is to dismiss the notification and upload the
     attachment.
 
@@ -476,15 +476,15 @@ Inactivity timeout
 
     -   Outlook
 
-    -   Dynamics 365 for Customer Engagement for tablets
+    -   Dynamics 365 for Customer Engagement apps for tablets
 
-    -   Dynamics 365 for Customer Engagement for phones
+    -   Dynamics 365 for Customer Engagement apps for phones
 
     -   Unified Interface
 
     -   Live Assist (Chat)
 
--   Portal capabilities for Dynamics 365 for Customer Engagement for Customer Engagement has its own session and inactivity
+-   Portal capabilities for Dynamics 365 for Customer Engagement apps for Customer Engagement has its own session and inactivity
     timeout settings that are independent of the timeout settings in System
     Settings. This is by design.
 
@@ -558,30 +558,30 @@ Web client visual refresh
         changes and might leave an empty space. However, this empty space will
         disappear on refresh.
 
-Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 for Customer Engagement for Customer Engagement version 9.0, or later 
+Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 for Customer Engagement apps for Customer Engagement version 9.0, or later 
 -------------------------------------------------------------------------------------------------------------------------------
 
 When you update to version 9.0, or later, you must also update the Project
 Service Automation and Field Service solutions. After updating to version 9.0,
-or later, go to the Dynamics 365 for Customer Engagement Administration Center, Manage Solutions page to
+or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
 update the preferred solution.
 
 Mobile Offline
 --------------
 
-We’re working to improve mobile offline capabilities in Dynamics 365 for Customer Engagement for phones
+We’re working to improve mobile offline capabilities in Dynamics 365 for Customer Engagement apps for phones
 and tablets for release in the second quarter of 2019, and are currently
 onboarding only a limited set of new customers. When a preview program opens for
-mobile offline capabilities in Dynamics 365 for Customer Engagement for phones and tablets, we’ll let
+mobile offline capabilities in Dynamics 365 for Customer Engagement apps for phones and tablets, we’ll let
 customers know. Existing customers who are already using mobile offline
 capabilities are not affected.
 
-**Note:** The mobile app for Dynamics 365 for Customer Engagement for Field Service continues to support
+**Note:** The mobile app for Dynamics 365 for Customer Engagement apps for Field Service continues to support
 mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
-- The next version of Dynamics 365 for Customer Engagement for Customer Engagement (on-premises) release will support only Unified Service Desk 4.0 and later versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement for Customer Engagement (on-premises) will not be supported.
+- The next version of Dynamics 365 for Customer Engagement apps for Customer Engagement (on-premises) release will support only Unified Service Desk 4.0 and later versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement apps for Customer Engagement (on-premises) will not be supported.
 
 - Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
 
@@ -595,7 +595,7 @@ Unified Service Desk
 
     To learn more about the features, see the [Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk).
 
--   **Interactive Service Hub**: With the Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365 for Customer Engagement, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app.
+-   **Interactive Service Hub**: With the Dynamics 365 for Customer Engagement apps for Customer Engagement apps version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365 for Customer Engagement, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app.
 
     More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
@@ -603,7 +603,7 @@ Unified Service Desk
 
     More information: [Embedded intelligence](https://docs.microsoft.com/dynamics365/customer-engagement/admin/embedded-intelligence)
 
--   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Customer Engagement for Sales**: This is not supported.
+-   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Customer Engagement apps for Sales**: This is not supported.
 
 -   **Multi-select option sets**: Although multi-select option sets display fine when hosted in Unified Service Desk (using [CRM Page](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type of hosted control), you cannot change selections in multi-select option sets using the Unified Service Desk APIs.
 

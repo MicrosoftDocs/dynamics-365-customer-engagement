@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -30,7 +30,7 @@ search.app:
 # Debug your custom code for Unified Service Desk
 Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] involves compiling your custom code into an assembly (DLL file), and then distributing the assembly to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory on each client computer.  
   
- Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] requires access to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] solutions deployed.  
+ Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] requires access to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] solutions deployed.  
   
  To effectively debug your custom code, set your Visual Studio project properties to:  
   
@@ -56,7 +56,7 @@ Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/p
   
 5. Set breakpoints in your Visual Studio project as required, and then build/debug your project.  
   
-    When the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application starts automatically on debugging the project, specify the credentials to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to continue with the debugging session until you hit a breakpoint or issue in your code.  
+    When the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application starts automatically on debugging the project, specify the credentials to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance to continue with the debugging session until you hit a breakpoint or issue in your code.  
   
    Additionally, the **Debug Output** tab of the Debugger hosted control in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application provides real time trace information of the underlying execution, which can be also used to debug your custom code. For more information, see [Debug issues in Unified Service Desk](debug-issues-unified-service-desk.md)  
   

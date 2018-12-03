@@ -1,6 +1,6 @@
 ---
-title: "Design dynamic profile segments in explore view (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to use the explore view to construct segment clauses in Dynamics 365 for Customer Engagement for Marketing"
+title: "Design dynamic profile segments in explore view (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to use the explore view to construct segment clauses in Dynamics 365 for Marketing"
 keywords: "segment; compound segment"
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing

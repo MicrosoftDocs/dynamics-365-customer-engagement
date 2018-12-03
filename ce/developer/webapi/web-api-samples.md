@@ -1,6 +1,6 @@
 ---
 title: "Web API Samples (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "The Dynamics 365 for Customer Engagement SDK provides a matrix of samples demonstrating how to use the Web API in a number of different ways. Find here the C# and JavaScript implementations of Basic Operations, Query Data, Conditional Operations and Functions and Actions sample"
+description: "The Dynamics 365 for Customer Engagement apps SDK provides a matrix of samples demonstrating how to use the Web API in a number of different ways. Find here the C# and JavaScript implementations of Basic Operations, Query Data, Conditional Operations and Functions and Actions sample"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with a wide variety of programming languages or libraries. The [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] provides a matrix of samples demonstrating how to use the Web API in a number of different ways. This topic introduces the samples available for each group of operations and how to perform these operations using different languages or libraries.
+You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API with a wide variety of programming languages or libraries. The [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] provides a matrix of samples demonstrating how to use the Web API in a number of different ways. This topic introduces the samples available for each group of operations and how to perform these operations using different languages or libraries.
 
 > [!NOTE]
 > With the availability of the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods, we are working on updating the client-side JavaScript samples to use the new client API methods. Check back soon.  

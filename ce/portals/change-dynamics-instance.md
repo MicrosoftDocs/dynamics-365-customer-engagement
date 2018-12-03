@@ -1,7 +1,7 @@
 ---
 title: "Change the Dynamics 365 for Customer Engagement instance, audience, or type of Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to change the Dynamics 365 for Customer Engagement instance, audience, or type of a portal."
-ms.date: 05/25/2018
+ms.date:12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -26,13 +26,13 @@ search.app:
 
 After your portal is created and provisioned, you can change the details of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and portal.
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]  Administration center, and then select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and then select the **Applications** tab.
 
 2. Select the name of the portal you want to edit, and then select **Manage**.
 
-3. Select the **Manage [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
+3. Select the **Manage Dynamics 365 Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
 
-4. Select **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
+4. Select **Update Dynamics 365 Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
 
 5. Select the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 

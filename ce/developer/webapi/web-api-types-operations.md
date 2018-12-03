@@ -117,7 +117,7 @@ GET [Organization URI]/api/data/v9.0/$metadata
 
 <a name="bkmk_entityTypes"></a>   
 ## Entity types  
- The <xref:Microsoft.Dynamics.CRM.EntityTypeIndex> lists each of the system entity types exposed through the web API which store business data. An entity type is a named structured type with a key. It defines the named properties and relationships of an entity. Entity types may derive by single inheritance from other entity types. <xref:Microsoft.Dynamics.CRM.MetadataEntityTypeIndex> lists each of the entity types used to manage system metadata. Both are entity types but the way you work with them is different. See [Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md) for information about using model entities. Each entity type is included within an `EntityType` element in the `$metadata`. The following is the definition of the <xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" /> from the `$metadata` with properties and navigation properties removed.  
+ The <xref:Microsoft.Dynamics.CRM.EntityTypeIndex> lists each of the system entity types exposed through the web API which store business data. An entity type is a named structured type with a key. It defines the named properties and relationships of an entity. Entity types may derive by single inheritance from other entity types. <xref:Microsoft.Dynamics.CRM.MetadataEntityTypeIndex> lists each of the entity types used to manage system metadata. Both are entity types but the way you work with them is different. See [Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md) for information about using model entities. Each entity type is included within an `EntityType` element in the `$metadata`. The following is the definition of the <xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" /> from the `$metadata` with properties and navigation properties removed.  
 
 ```xml  
 <EntityType Name="account" BaseType="mscrm.crmbaseentity">  
@@ -338,5 +338,5 @@ GET [Organization URI]/api/data/v9.0/$metadata
 
 ### See also  
  [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
- [Authenticate to Dynamics 365 for Customer Engagement with the Web API](authenticate-web-api.md)   
+ [Authenticate to Dynamics 365 for Customer Engagement apps with the Web API](authenticate-web-api.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)

@@ -8,8 +8,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 caps.latest.revision: 31
 author: "jimholtz"
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Administrator Guide for Dynamics 365 for Customer Engagement
+# Administrator Guide for Dynamics 365 for Customer Engagement apps 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -89,7 +89,7 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <li><a href="https://docs.microsoft.com/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365 for Customer Engagement</a></li>
 <li><a href="release-history.md" data-raw-source="[Release history](release-history.md)">Release history</a></li>
-<li><a href="readme-9.md" data-raw-source="[Dynamics 365 for Customer Engagement Readme](readme-9.md)">Dynamics 365 for Customer Engagement Readme</a></li>
+<li><a href="readme-9.md" data-raw-source="[Dynamics 365 for Customer Engagement apps Readme](readme-9.md)">Dynamics 365 for Customer Engagement apps Readme</a></li>
 </td>
 </tr>
 </table>

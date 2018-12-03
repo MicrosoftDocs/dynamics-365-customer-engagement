@@ -3,7 +3,7 @@ title: "Manage SharePoint documents on a portal in Dynamics 365 for Customer Eng
 description: "Instructions to manage SharePoint document in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/17/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -53,7 +53,7 @@ To use the document management capabilities of [!INCLUDE[pn-sharepoint-short](..
 > [!NOTE]
 > You must be a global administrator to perform this action.
 
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want enable SharePoint integration, and then select **Manage**.
 

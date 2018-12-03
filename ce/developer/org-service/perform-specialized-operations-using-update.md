@@ -37,7 +37,7 @@ search.app:
   
  *\<entity> refers to any entity that provides this attribute.  
   
- These specialized messages will continue to work with the 2011 endpoint. However, the recommendation is to use the `UpdateRequest` or <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method when possible to set these attributes. The `Update` message simplifies the Organization Service and makes it easier to code standard data integration tools used with Dynamics 365 for Customer Engagement. In addition, it is easier to code and register a plug-in to execute for a single **Update** message instead of multiple specialized messages. The <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForUpdate> property for the above listed attributes has been changed to `true` in this release to enable this capability.  
+ These specialized messages will continue to work with the 2011 endpoint. However, the recommendation is to use the `UpdateRequest` or <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method when possible to set these attributes. The `Update` message simplifies the Organization Service and makes it easier to code standard data integration tools used with Dynamics 365 for Customer Engagement apps. In addition, it is easier to code and register a plug-in to execute for a single **Update** message instead of multiple specialized messages. The <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForUpdate> property for the above listed attributes has been changed to `true` in this release to enable this capability.  
   
  You can continue to use these specialized messages of the 2011 endpoint in your code. However, the Web API that eventually replaces the Organization Service supports only the **Update** message for these types of operations. If you want to get a head start on changing your code to align with the Web API, you can now do so. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md).  
   
@@ -55,4 +55,4 @@ search.app:
   
 ### See also  
  [Write plug-ins to extend business processes](../write-plugin-extend-business-processes.md)   
- [Automate your business processes in Customer Engagement](../automate-business-processes-customer-engagement.md)
+ [Automate your business processes in Customer Engagement apps](../automate-business-processes-customer-engagement.md)

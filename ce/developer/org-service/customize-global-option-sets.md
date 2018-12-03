@@ -99,7 +99,7 @@ Typically, you use global option sets to set fields so that different fields can
   
 ### See also  
  [Customize Dynamics 365 for Customer Engagement applications](../customize-dev/customize-applications.md)   
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](use-organization-service-metadata.md)   
  [Insert, update, delete, and order global option set options](insert-update-delete-order-global-option-set-options.md)   
  [Sample: Create Global Option Set](sample-create-global-option-set.md)   
  [Sample: Work with Global Option Sets](sample-work-global-option-sets.md)   

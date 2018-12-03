@@ -1,5 +1,5 @@
 ---
-title: "Assemblies included in Dynamics 365 for Customer Engagement SDK (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Assemblies included in Dynamics 365 for Customer Engagement apps SDK (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn about assemblies such as Microsoft.Crm.Sdk.Proxy.dll, Microsoft.Xrm.Sdk.dll, Microsoft.Xrm.Sdk.Workflow.dll, Microsoft.Crm.Tools.EmailProviders.dll and Microsoft.Xrm.Sdk.Deployment.dll that you can use when writing custom code"
 ms.custom: ""
 ms.date: 11/20/2017
@@ -20,11 +20,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Assemblies included in Dynamics 365 for Customer Engagement SDK
+# Assemblies included in Dynamics 365 for Customer Engagement apps SDK
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement has several programming assemblies that you can use when writing custom code.  
+[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps has several programming assemblies that you can use when writing custom code.  
 
  The following table lists the assemblies that are included in the SDK.  
 
@@ -49,7 +49,7 @@ search.app:
 |                Microsoft.Xrm.Sdk.Deployment.dll                 |                                                                        |                                                                                                                                                        Defines types and methods for interacting with the Deployment Web Service.                                                                                                                                                         |
 |                                                                 |                  <xref:Microsoft.Xrm.Sdk.Deployment>                   |                                                                                                                                                   Defines the data contracts necessary to communicate with the Deployment Web Service.                                                                                                                                                    |
 |                                                                 |               <xref:Microsoft.Xrm.Sdk.Deployment.Proxy>                |                                                                                                                                                        Defines a helper class to generate a proxy for the Deployment Web Service.                                                                                                                                                         |
-|                 Microsoft.Xrm.Tooling.Connector                 |                                                                        |                                                                      Provides the low-level interaction and wrapper methods for the Dynamics 365 for Customer Engagement SDK assembly APIs. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)                                                                      |
+|                 Microsoft.Xrm.Tooling.Connector                 |                                                                        |                                                                      Provides the low-level interaction and wrapper methods for the Dynamics 365 for Customer Engagement apps SDK assembly APIs. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)                                                                      |
 |                                                                 |                 <xref:Microsoft.Xrm.Tooling.Connector>                 |                                                                                                                                                 Provides classes and methods to interact with the Customer Engagement SDK assembly APIs.                                                                                                                                                  |
 |                                                                 |              <xref:Microsoft.Xrm.Tooling.Connector.Model>              |                                                                                                                                              Provides classes and events to communicate with the Customer Engagement Discovery Service APIs.                                                                                                                                              |
 |             Microsoft.Xrm.Tooling.CrmConnectControl             |                                                                        | Defines a WPF user control that provides a common user interface for the sign-in experience to Dynamics 365 for Customer Engagement with built-in encryption for securely storing your credentials/profile, and then reusing it at runtime to automatically sign in to Dynamics 365 for Customer Engagement. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md) |
@@ -63,9 +63,9 @@ search.app:
 |                                                                 | <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase> |                                                                                                                                         Provides classes and methods to define properties and customizations for the Customer Engagement package.                                                                                                                                         |
 
 ### See also  
- [Programming models for Dynamics 365 for Customer Engagement](../programming-models.md)   
+ [Programming models for Dynamics 365 for Customer Engagement apps](../programming-models.md)   
  [Use the Early Bound Entity Classes](use-early-bound-entity-classes-code.md)   
  [Use the Late Bound Entity Class](use-late-bound-entity-class-code.md)   
- [Use Dynamics 365 for Customer Engagement Services](use-services-in-code.md)   
+ [Use Dynamics 365 for Customer Engagement apps Services](use-services-in-code.md)   
  [Entity and attribute naming conventions](entity-attribute-naming-conventions.md)   
  [Introduction to entity attributes](../introduction-entity-attributes.md)

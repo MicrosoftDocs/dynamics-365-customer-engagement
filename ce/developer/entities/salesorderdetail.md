@@ -241,7 +241,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the product exists in the Microsoft Dynamics 365 for Customer Engagement product catalog or is a write-in product specific to the order.|
+|Description|Select whether the product exists in the Microsoft Dynamics 365 for Customer Engagement apps product catalog or is a write-in product specific to the order.|
 |DisplayName|Select Product|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2237,6 +2237,6 @@ See msdyn_agreement Entity [msdyn_msdyn_agreement_salesorderdetail_Agreement](ms
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.salesorderdetail?text=salesorderdetail EntityType" />

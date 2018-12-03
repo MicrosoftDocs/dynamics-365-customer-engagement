@@ -3,7 +3,7 @@ title: "Invite contacts to your portal in Dynamics 365 for Customer Engagement  
 description: "Instructions to create and configure invitations in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

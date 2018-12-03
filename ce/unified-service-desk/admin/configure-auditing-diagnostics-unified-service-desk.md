@@ -1,5 +1,5 @@
 ---
-title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement (on-premises) apps"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
@@ -36,7 +36,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
  When you configure auditing and diagnostics in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], keep in mind the following functionality:  
 
-- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing requires a Listener Hosted Control to record and save audit activity. Similarly, you can channel diagnostic logging using a Listener Hosted Control, but it’s not required, and by default, diagnostic logging is recorded on the local computer.  
 
@@ -103,7 +103,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 #### Standard auditing by adding an audit flag  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -132,7 +132,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 6. Click **Save**.  
 
-7. To view audit logging, sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and then from a productivity area click **Advanced Find**. In the Look for list, select `UII Audit`, and then click **Results** to see all audit logging details.  
+7. To view audit logging, sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and then from a productivity area click **Advanced Find**. In the Look for list, select `UII Audit`, and then click **Results** to see all audit logging details.  
 
 <a name="BKMK_Diagnostics"></a>   
 ## Diagnostics  

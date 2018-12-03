@@ -1,5 +1,5 @@
 ---
-title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "A plug-in is custom business logic that you can integrate with Dynamics 365 for Customer Engagement (online) Customer Engagement to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -43,6 +43,6 @@ A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dyna
  [Plug-in Registration Entities](plug-in-registration-entities.md) 
   
 ## Related Sections  
- [Developer Guide for Dynamics 365 for Customer Engagement](developer-guide.md)<br />     
- [Write Workflows to Automate Business Processes in Dynamics 365 for Customer Engagement](automate-business-processes-customer-engagement.md)<br />     
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)<br /> 
+ [Developer Guide for Dynamics 365 for Customer Engagement apps](developer-guide.md)<br />     
+ [Write Workflows to Automate Business Processes in Dynamics 365 for Customer Engagement apps](automate-business-processes-customer-engagement.md)<br />     
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)<br /> 

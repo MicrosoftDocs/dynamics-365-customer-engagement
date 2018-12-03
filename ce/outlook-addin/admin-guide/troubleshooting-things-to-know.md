@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Customer Engagement for Outlook | MicrosoftDocs"
+title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/17/2018
 ms.reviewer: ""
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: b61a8103-1686-47ef-ab28-1a547d61f8f8
 caps.latest.revision: 80
 author: "mduelae"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Troubleshooting and things to know about Microsoft Dynamics 365 for Customer Engagement for Outlook
+# Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook
 This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation and upgrade issues.  
   
 > [!TIP]
@@ -33,10 +33,10 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
 ### Common Data Service for Apps
 
-Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Common Data Service for Apps 2.0. 
+Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for Apps 2.0. 
 
 <a name="BKMK_AssignedTasks"></a>   
-### Assigned tasks not updated in Outlook after updated in Dynamics 365 for Customer Engagement  
+### Assigned tasks not updated in Outlook after updated in Dynamics 365 for Customer Engagement apps  
  Consider the following scenario:  
   
 - In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], User 1 assigns [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task to User 2.  
@@ -75,7 +75,7 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
 ### Some fields synchronize data when an activity is created despite synchronization settings  
  When an activity is created, such as a task, some fields may synchronize even if field synchronization is set to not sync. This is a known issue as some fields cannot have an empty value.  
   
-### Users in a different domain cannot install Dynamics 365 for Customer Engagement for Outlook  
+### Users in a different domain cannot install Dynamics 365 for Outlook  
  If the user domain account is in a domain different from the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the user will receive an error message (see below) when installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This is not a supported scenario.  
   
  **Error message**  
@@ -90,18 +90,18 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
  Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](http://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
   
 ### Automatic email tagging off by default  
- This setting is in the Microsoft Dynamics 365 for Customer Engagement Diagnostics tool included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Click **Start** > **All Programs** > **Microsoft Dynamics 365 for Customer Engagement** > **Diagnostics** > **Synchronization Troubleshooting** tab.  
+ This setting is in the Microsoft Dynamics 365 for Customer Engagement apps Diagnostics tool included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Click **Start** > **All Programs** > **Microsoft Dynamics 365 for Customer Engagement apps** > **Diagnostics** > **Synchronization Troubleshooting** tab.  
   
  Automatic email tagging is set to be off by default. If you enable this setting but reinstall [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], automatic email tagging will be off.  
   
-### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement  
+### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 for Customer Engagement apps  
  Changes made to Service Appointments and Activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] will update in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] when you synchronize, but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 ### Different time value in date and time fields with User Local or Time-Zone Independent behavior  
  If you have system out-of-the box or custom date and time fields with User Local or Time-Zone Independent behavior, the date/time information for years before 1900 won’t display as entered when viewing in the list of records and reading pane in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. The date and time values are correct in the database and will appear as expected in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application.  
   
 <a name="BKMK_OnlineandO365"></a>   
-## Microsoft Dynamics 365 for Customer Engagement (online) with Office 365  
+## Microsoft Dynamics 365 for Customer Engagement apps  with Office 365  
  When you try to connect to an organization that is part of your [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] subscription by using the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] or [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], you cannot connect. To resolve this issue, verify, and if necessary, correct the following:  
   
 - Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://<em>OrganizationName</em>.onmicrosoft.com or https://<em>OrganizationName</em>.crm.dynamics.com. If you are not certain of the URL, contact your system administrator  
@@ -138,15 +138,15 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
   
    -   Event sources that begin with MSCRM (such as MSCRMAddin and MSCRMAddressBook)  
   
-   -   MSSQL$Dynamics 365 for Customer Engagement  
+   -   MSSQL$Dynamics 365 for Customer Engagement apps  
   
 <a name="BKMK_OC_disableButton"></a>   
-## Disable the Dynamics 365 for Customer Engagement for Outlook notification bar on the Web application  
- By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 for Customer Engagement web application displays a **Get Dynamics 365 for Customer Engagement for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
+## Disable the Dynamics 365 for Outlook notification bar on the Web application  
+ By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 for Customer Engagement apps web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
   
-### Remove the Get Dynamics 365 for Customer Engagement for Outlook button from the Microsoft Dynamics 365 for Customer Engagement web application  
+### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 for Customer Engagement apps web application  
   
-1. With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 for Customer Engagement web application.  
+1. With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 for Customer Engagement apps web application.  
   
 2. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
   
@@ -154,7 +154,7 @@ Microsoft Dynamics 365 for Customer Engagement for Outlook is not enabled on Com
   
 4. Click the **Outlook** tab.  
   
-5. Set the value for **Users see “Get Dynamics 365 for Customer Engagement for Outlook” option displayed in the message bar** to **No**.  
+5. Set the value for **Users see “Get Dynamics 365 for Outlook” option displayed in the message bar** to **No**.  
   
 6. Click **OK** to close System Settings.  
   

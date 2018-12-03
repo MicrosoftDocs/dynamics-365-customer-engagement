@@ -3,13 +3,15 @@ title: "Find your way around the Sales Hub app | MicrosoftDocs"
 description: "Learn how to get around and navigate through the Sales Hub app."
 keywords: "Navigate, Sales Hub"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-author: "shubhadaj"
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
 ms.assetid: 792b7301-d9a1-4323-9e81-ab0dee5ced2d
+author: shubhadaj
 ms.author: shujoshi
 manager: brycho
 ms.reviewer: 
@@ -17,13 +19,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Find your way around the Sales Hub app

@@ -1,14 +1,14 @@
 ---
-title: "Set up OneNote integration in Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
-description: "Learn how to integrate OneNote with Dynamics 365 for Customer Engagement (online)."
+title: "Set up OneNote integration in Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+description: "Learn how to integrate OneNote with Dynamics 365 for Customer Engagement apps (online)."
 keywords: "OneNote, notebook, integration, set up"
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: bb4f1489-238e-4b72-b5a3-cb1f36d2a274
 author: jimholtz
 ms.author: jimholtz
@@ -29,11 +29,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Gather your thoughts, ideas, plans and research in one single place with [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Gather your thoughts, ideas, plans and research in one single place with [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
- When you turn on [!INCLUDE[pn_microsoft_onenote](../includes/pn-microsoft-onenote.md)] integration in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], you have the benefits of using [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review customer notes from within your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.  
+ When you turn on [!INCLUDE[pn_microsoft_onenote](../includes/pn-microsoft-onenote.md)] integration in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you have the benefits of using [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review customer notes from within your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records.  
   
- You can configure [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] when you're also using [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)]. You must have a subscription to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] to use [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ You can configure [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in Customer Engagement apps when you're also using [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)]. You must have a subscription to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] to use [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in Customer Engagement apps.  
   
 <a name="BKMK_EnableSharePointInt"></a>   
 ## Step 1: Turn on server-based SharePoint integration  
@@ -69,9 +69,9 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
    ![Select OneNote integration for an entity](../admin/media/onenote-select-entity.png "Select OneNote integration for an entity")  
   
-5. A [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)]. After the dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is created for that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, you can view and navigate to that notebook from any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client.  
+5. A [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. After the dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is created for that [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps record, you can view and navigate to that notebook from any [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps client.  
   
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Use OneNote in Dynamics 365 for Customer Engagement (online)](../basics/use-onenote.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Use OneNote in Dynamics 365 for Customer Engagement apps (online)](../basics/use-onenote.md)
   
 ## To turn off OneNote integration  
   
@@ -84,7 +84,7 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
 3. In the **OneNote Integration Setting** dialog box, clear the check boxes for all entities, and then select **Finish**.  
   
 ### See also  
- [Use OneNote in Dynamics 365 for Customer Engagement (online)](../basics/use-onenote.md)   
- [OneNote in Dynamics 365 for Customer Engagement FAQs](../basics/onenote-dynamics-365-faqs.md)   
+ [Use OneNote in Dynamics 365 for Customer Engagement apps (online)](../basics/use-onenote.md)   
+ [OneNote in Dynamics 365 for Customer Engagement apps FAQs](../basics/onenote-dynamics-365-faqs.md)   
  [Turn on server-based SharePoint integration](set-up-sharepoint-integration.md)   
  [Blog: OneNote in CRM](http://blogs.technet.com/b/lystavlen/archive/2015/03/31/make-a-note-of-this.aspx)

@@ -1,6 +1,6 @@
 ---
-title: "Design dynamic profile segments in the standard view (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "How to use the standard view to construct segments in Dynamics 365 for Customer Engagement for Marketing"
+title: "Design dynamic profile segments in the standard view (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "How to use the standard view to construct segments in Dynamics 365 for Marketing"
 keywords: "segment; compound segment"
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
@@ -31,9 +31,9 @@ search.app:
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
-- **Profile segments** query the _profile_ records stored in the customer-interaction database. Profiles records are synced between your Dynamics 365 for Customer Engagement database and the customer-interaction database and include the entities you normally work with in the Dynamics 365 for Customer Engagement UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#dci-sync).
+- **Profile segments** query the _profile_ records stored in the customer-interaction database. Profiles records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#dci-sync).
 
-- **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 for Customer Engagement UI, but they _aren't_ synced to the Dynamics 365 for Customer Engagement database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
 This topic describes how to work with profile segments. For more about interaction segments, see [Design interaction-based dynamic segments](segments-interaction.md).
 

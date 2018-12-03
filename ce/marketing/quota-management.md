@@ -1,6 +1,6 @@
 ---
-title: "Monitor your monthly quotas (Dynamics 365 for Customer Engagement for Marketing) | Microsoft Docs"
-description: "View your remaining monthly credits for sending marketing email messages and other metered services in Dynamics 365 for Customer Engagement for Marketing"
+title: "Monitor your monthly quotas (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "View your remaining monthly credits for sending marketing email messages and other metered services in Dynamics 365 for Marketing"
 keywords: "administration; quota; email"
 ms.date: 10/10/2018
 ms.service: dynamics-365-marketing
@@ -45,8 +45,8 @@ To find this information, go to **Settings** > **Advanced Settings** > **Others*
 > [!Note]
 > Quotas and other limits are different based on whether you are running a trial, preview, or subscribed version of the product. 
 >
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 for Customer Engagement Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
-> - For trial and previews, see [Dynamics 365 for Customer Engagement for Marketing limits for trials and previews](trial-preview-limits.md).
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+> - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
 > See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 

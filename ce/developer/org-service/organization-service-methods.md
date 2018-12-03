@@ -62,6 +62,6 @@ The <xref:Microsoft.Xrm.Sdk.IOrganizationService> interface provides a set of me
  [Use ExecuteMultiple to improve performance for bulk data load](use-executemultiple-improve-performance-bulk-data-load.md)<br />
  [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)<br />
  [Microsoft.Crm.Sdk Messages](organization-service-messages.md)<br />
- [Authenticate users in Dynamics 365 for Customer Engagement](../authenticate-users.md)<br />
+ [Authenticate users in Dynamics 365 for Customer Engagement apps](../authenticate-users.md)<br />
  [Sample: Create, Retrieve, Update and Delete (CRUD) Using Strong Types](sample-create-retrieve-update-delete-records-early-bound.md)<br />
  [Sample: Create, Retrieve, Update and Delete (CRUD) Using Property Bag (Loosely-typed)](sample-create-retrieve-update-delete-late-bound.md)

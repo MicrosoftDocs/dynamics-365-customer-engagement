@@ -1,6 +1,6 @@
 ---
-title: "Connect to Yammer (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Read about how you can connect Dynamics 365 for Customer Engagement to Yammer."
+title: "Connect to Yammer (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Read about how you can connect Dynamics 365 for Customer Engagement apps to Yammer."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to connect directly to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for social networking in your company. 
+To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps to connect directly to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for social networking in your company. 
 
 ### Prerequisites 
 
@@ -40,14 +40,14 @@ To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](.
   
  You’ll notice that, if you enable the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection, Activity Feeds behavior changes, as shown here:  
   
-- User posts (manual posts) added through the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface are created and stored directly in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Existing user posts, created before the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection was enabled, aren’t migrated from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+- User posts (manual posts) added through the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps user interface are created and stored directly in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Existing user posts, created before the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection was enabled, aren’t migrated from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
-- Auto posts are created and stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Auto posts are created and stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
   
   > [!NOTE]
   >  Selective auto posts are stored in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in addition to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], if you set the `msdyn_PostRuleConfig.msdyn_PostToYammer` attribute to `true`. Some of the auto post rules for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] are enabled out-of-the-box. Other rules can be enabled by the administrator. To see the auto post rules that are available for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application, on the nav bar, click **[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]** > **Settings** > **Post Rule Configurations**. Click the **All Activity Feeds Rules** drop-down list, and then click **All Yammer Rules**.  
   
-- Objects, except users, are followed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. You must enable the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection before you can follow an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+- Objects, except users, are followed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. You must enable the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection before you can follow an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
 - Users are only followed in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. A user must have a valid [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account to be followed.  
   
@@ -65,4 +65,4 @@ To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](.
  [Activity Feeds Entities](activity-feeds-entities.md)   
  [Post Entity](entities/post.md)   
  [Collaborate and communicate with Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526704)   
- [Connect Microsoft Dynamics CRM to Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526705)
+ [Connect Microsoft Dynamics 365 for Customer Engagement to Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526705)

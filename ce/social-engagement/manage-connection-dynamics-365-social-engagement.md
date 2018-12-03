@@ -23,10 +23,10 @@ search.app:
   - D365SE
 ---
 
-# Manage the connection between Dynamics 365 for Customer Engagement and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+# Manage the connection between Dynamics 365 for Customer Engagement apps and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-Understand how to change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and the consequences of doing so.    
-You must already have a working connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] established and you need to be have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to perform the following tasks.
+Understand how to change the settings for your connections with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and the consequences of doing so.    
+You must already have a working connection established and you need to be have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to perform the following tasks.
 
 The link between a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record can be broken when:  
 
@@ -34,11 +34,11 @@ The link between a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagemen
 
 - The associated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance is experiencing downtime, or has expired.  
 
-- The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance is enabled, but the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been disassociated from the social activity, or has been deleted in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], or, in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been [unlinked](create-dynamics-365-record-from-social-post.md#remove-a-linked-dynamics-365-record-from-a-post) from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post.
+- The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance is enabled, but the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been disassociated from the social activity, or has been deleted, or, in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been [unlinked](create-dynamics-365-record-from-social-post.md) from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post.
 
 ## Edit an established connection
 
-After you connect a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], it will show in the list on **Settings** > **Connections** > **Microsoft Dynamics 365 for Customer Engagement**.  
+After you connect a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], it will show in the list on **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
 ![Microsoft Dynamics 365 for Customer Engagement Connections](media/connected-dynamics-365-instances-list.png "Microsoft Dynamics 365 for Customer Engagement Connections")  
 
@@ -46,9 +46,9 @@ Click the row associated with the connection to open the **Dynamics 365 for Cust
 
 ![Dynamics 365 for Customer Engagement instance details](media/dynamics-365-connection-settings-detailed.png "Dynamics 365 for Customer Engagement instance details")  
 
-- **Name**: Shows the name of this connection to identify the instance quickly when creating a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The display name corresponds with your organization name in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], unless a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] administrator changes the name while setting up the connection.
+- **Name**: Shows the name of this connection to identify the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance quickly when creating a social activity. The display name corresponds with your organization name in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], unless a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] administrator changes the name while setting up the connection.
 
-- **Dynamics 365 for Customer Engagement Instance**: URL for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance.  
+- **Dynamics 365 Instance**: URL for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance.  
 
 - **Organization language**: See the organizational language of your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance.  
 
@@ -64,13 +64,13 @@ Make the necessary changes to the metadata and then click **Save** to apply the 
 
 ### Change the default Dynamics 365 for Customer Engagement instance to use in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances, you can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to more than one instance. In this case, you can set the instance as a default connection that will be used most often to create new records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Users can choose a different instance when creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
+If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances, you can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to more than one instance. In this case, you can set the instance as a default connection that will be used most often to create new records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Users can choose a different instance when creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
 
-1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365 for Customer Engagement**.  
+1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
-2. In the **Microsoft Dynamics 365 for Customer Engagement Connections** pane, select the instance you want to set as the default.  
+2. In the **Microsoft Dynamics 365 Connections** pane, select the instance you want to set as the default.  
 
-3. In the **Dynamics 365 for Customer Engagement Instance** pane, set the **Set as default** option to ON.  
+3. In the **Dynamics 365 Instance** pane, set the **Set as default** option to ON.  
 
 4. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
 
@@ -80,7 +80,7 @@ If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/p
 
 - If you maintain more than one connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you can delete one connection and still use the other connections.  
 
-- If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 for Customer Engagement (online) and Social Engagement](connect-dynamics-365-social-engagement.md)  
+- If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 for Customer Engagement apps and Social Engagement](connect-dynamics-365-social-engagement.md)  
 
 - No new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records can be created after deleting a connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, unless a connection is re-established.  
 
@@ -91,13 +91,13 @@ If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/p
 
 You can delete connections if you don't want to create new records in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance anymore.
 > [!NOTE]
->  You can't delete a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to [deactivate or delete all automation rules](automation-rules.md) using that connection.
+>  You can't delete a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You will first need to [deactivate or delete all automation rules](automation-rules.md) using that connection.
 
-1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365 for Customer Engagement**.  
+1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
-2. Find the connected instance in the list of **Microsoft Dynamics 365 for Customer Engagement Connections**.  
+2. Find the connected instance in the list of **Microsoft Dynamics 365 Connections**.  
 
-3. Click the **Delete this connection to Dynamics 365 for Customer Engagement** button ![Delete button](media/trashbin-icon.png "Delete button").  
+3. Click the **Delete this connection to Dynamics 365** button ![Delete button](media/trashbin-icon.png "Delete button").  
 
 4. Confirm your deletion.  
 
@@ -109,7 +109,7 @@ You can delete already-established connections between a [!INCLUDE[pn_netbreeze_
 
 - If you maintain one single connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you can disable it but you won’t be able to create new external links from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 
-- Posts linked to that instance’s disabled connection will persist, but details about the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record won’t be available. You can enable the instance to continue to create external links to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and see the updated record details. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the connection between Dynamics 365 for Customer Engagement and Social Engagement](connect-dynamics-365-social-engagement.md)  
+- Posts linked to that instance’s disabled connection will persist, but details about the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record won’t be available. You can enable the instance to continue to create external links to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and see the updated record details. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the connection between Dynamics 365 for Customer Engagement apps and Social Engagement](connect-dynamics-365-social-engagement.md)  
 
 The following table summarizes the impact on a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post when the status of an associated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance changes.  
 
@@ -126,20 +126,20 @@ The following table summarizes the impact on a [!INCLUDE[pn_netbreeze_short](../
 
 |                                                                                                                                                                                                     Status of associated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record                                                                                                                                                                                                      |                                       Impact if [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is linked  with a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post                                       | Impact if [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is not linked with a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                      In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been dissociated from the social activity.                                                                                                                                                       | -   The linkage with the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post is broken.<br />-   The associated [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post is available for linking again. |                                                                                       N/A                                                                                        |
-|                                                                                                                                                                     In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been deleted.                                                                                                                                                                     |                                                                                                                      Same as above.                                                                                                                       |                                                                                       N/A                                                                                        |
-|                                                                                                                                                                            In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the social activity has been deleted, but the linked record is available.                                                                                                                                                                             |                                                                                                                      Same as above.                                                                                                                       |                                                                                       N/A                                                                                        |
-| In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been unlinked from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove a linked Dynamics 365 for Customer Engagement record from a post](create-dynamics-365-record-from-social-post.md#remove-a-linked-dynamics-365-record-from-a-post) |                                                                    The [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post is available for linking again.                                                                     |                                                                                       N/A                                                                                        |
+|                                                                                                                                                      The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been dissociated from the social activity.                                                                                                                                                       | -   The linkage with the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post is broken.<br />-   The associated [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post is available for linking again. |                                                                                       N/A                                                                                        |
+|                                                                                                                                                                     The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been deleted.                                                                                                                                                                     |                                                                                                                      Same as above.                                                                                                                       |                                                                                       N/A                                                                                        |
+|                                                                                                                                                                            The social activity has been deleted, but the linked record is available.                                                                                                                                                                             |                                                                                                                      Same as above.                                                                                                                       |                                                                                       N/A                                                                                        |
+| In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been unlinked from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove a linked Dynamics 365 for Customer Engagement record from a post](create-dynamics-365-record-from-social-post.md) |                                                                    The [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post is available for linking again.                                                                     |                                                                                       N/A                                                                                        |
 
 ### Disable an existing connection  
 
 If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance temporarily, without deleting the connection, you can also disable the connection to an instance.  
 > [!NOTE]
-> You can't disable a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to [deactivate or delete all automation rules](automation-rules.md) using that connection. 
+> You can't disable a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You will first need to [deactivate or delete all automation rules](automation-rules.md) using that connection. 
 
-1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365 for Customer Engagement**.  
+1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
-2. Find the connected instance in the list of **Microsoft Dynamics 365 for Customer Engagement Connections**.  
+2. Find the connected instance in the list of **Microsoft Dynamics 365 Connections**.  
 
 3. Set the **Enable instance** option to OFF.  
 

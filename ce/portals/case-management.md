@@ -1,7 +1,7 @@
 ---
 title: "Manage cases in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to manage cases in a portal."
-ms.date: 05/29/2018
+ms.date:12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 

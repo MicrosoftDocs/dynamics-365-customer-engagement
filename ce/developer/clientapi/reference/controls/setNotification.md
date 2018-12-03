@@ -1,5 +1,5 @@
 ---
-title: "setNotification (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "setNotification (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -17,7 +17,7 @@ search.app:
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Displays an error message for the control to indicate that data isn’t valid. When this method is used,  a red "X" icon appears next to the control. On Dynamics 365 for Customer Engagement mobile clients, tapping on the icon will display the message. 
+Displays an error message for the control to indicate that data isn’t valid. When this method is used,  a red "X" icon appears next to the control. On Dynamics 365 for Customer Engagement apps mobile clients, tapping on the icon will display the message. 
 
 ## Control types supported
 

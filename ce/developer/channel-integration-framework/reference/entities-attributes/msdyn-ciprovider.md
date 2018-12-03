@@ -1,5 +1,5 @@
 ---
-title: "msdyn_ciprovider Entity reference for Channel Integration Framework (CIF) in Dynamics 365 for Customer Engagement | Microsoft Docs"
+title: "msdyn_ciprovider Entity reference for Channel Integration Framework (CIF) in Dynamics 365 for Customer Engagement apps | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 10/01/2018
@@ -51,7 +51,7 @@ Base entity for Channel Integration Framework.
 | msdyn_ciproviderapiversion | API Version  | The version of the Channel Integration Framework APIs. |
 | msdyn_trustedDomain  | Trusted Domains | An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Ad the domain (URL) to access the Channel Integration Framework APIs.|
 | msdyn_AppSelector | Select the Unified Interface Apps for the Channel | The list of Unified Interface Apps where the channel is displayed for the agents. |
-| msdyn_RoleSelector | Select Roles for the Channel | The security roles that are present in Dynamics 365 for Customer Engagement.|
+| msdyn_RoleSelector | Select Roles for the Channel | The security roles that are present in Dynamics 365 for Customer Engagement apps.|
 
 ## Related topics
 

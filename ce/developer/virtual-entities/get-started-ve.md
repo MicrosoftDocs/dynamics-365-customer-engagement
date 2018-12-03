@@ -19,14 +19,14 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Starting with the [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], virtual entities enable the integration of data residing in external systems by seamlessly representing that data as entities in Dynamics 365 for Customer Engagement, without replication of data and often without custom coding. The initial implementation of this feature provides just read-only support for such entities, and has a number of other limitations described in the section [Limitations of Virtual Entities](#limitations-of-virtual-entities) below. Besides these limitations, virtual entities behave the same as other custom entities. 
+Starting with the [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], virtual entities enable the integration of data residing in external systems by seamlessly representing that data as entities in Dynamics 365 for Customer Engagement apps, without replication of data and often without custom coding. The initial implementation of this feature provides just read-only support for such entities, and has a number of other limitations described in the section [Limitations of Virtual Entities](#limitations-of-virtual-entities) below. Besides these limitations, virtual entities behave the same as other custom entities. 
 
 Virtual entities replace previous client-side and server-side approaches to integrating external data, which required customized code and suffered from numerous limitations, including imperfect integration, data duplication, or extensive commitment of development resources.  In addition, for administrators and system customizers, the use of virtual entities greatly simplifies administration and configuration.
 
 This section discusses the implications of virtual entities for developers. For more information about managing virtual entities from the user interface, see [Create and edit virtual entities](../../customize/create-edit-virtual-entities.md). 
 
 ## Virtual entities, data providers and data sources
-A virtual entity is a definition of an entity in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] platform metadata without the associated physical tables for entity instances created in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] database. Instead during runtime, when an entity instance is required, its state is dynamically retrieved from the associated external system. Each virtual entity type is associated with a *virtual entity data provider* and (optionally) some configuration information from an associated *virtual entity data source*. 
+A virtual entity is a definition of an entity in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps platform metadata without the associated physical tables for entity instances created in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps database. Instead during runtime, when an entity instance is required, its state is dynamically retrieved from the associated external system. Each virtual entity type is associated with a *virtual entity data provider* and (optionally) some configuration information from an associated *virtual entity data source*. 
 
 A data provider is a particular type of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] [plugin](../plugin-development.md), which is registered against CRUD events that occur in the platform. This initial release only supports READ operations. 
 
@@ -43,12 +43,12 @@ In this example, a corresponding virtual entity data source would also be provid
 
 ## Limitations of Virtual Entities
 In this release, there are some limitations to virtual entities that you need to be aware of when evaluating whether you can use virtual entities with your external data.
-- Data is read-only. The virtual entity feature doesn’t support pushing changes made in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] back to the external system.
+- Data is read-only. The virtual entity feature doesn’t support pushing changes made in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps back to the external system.
 - Only organization-owned entities are supported. The security filtering applied to user-owned entities is not supported. Access to the virtual entity data can be turned on or off for individual users based on their security role. Field-level security is not supported.
-- It must be possible to model the external data as a [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] entity. This means:
+- It must be possible to model the external data as a [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps entity. This means:
   - All entities in the external data source must have an associated GUID primary key.  
-  - All entity properties must be represented as [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] attributes. You can use simple types representing text, numbers, optionsets, dates, images, and lookups. 
-  - You must be able to model any entity relationships in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)].
+  - All entity properties must be represented as [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps attributes. You can use simple types representing text, numbers, optionsets, dates, images, and lookups. 
+  - You must be able to model any entity relationships in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps.
   - An attribute on a virtual entity cannot be calculated or rollup.  Any desired calculations must be done on the external side, possibly within or directed by the data provider.
 
 - Auditing and change tracking is not supported.  These may be implemented within the external data store.
@@ -59,4 +59,4 @@ In this release, there are some limitations to virtual entities that you need to
 
 <!-- TODO: Make bulleted list into table.  Make more complete by reviewing API modification tables. -->
 
-For more information about how these limitations are reflected in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] API, see [API considerations of virtual entities](api-considerations-ve.md). 
+For more information about how these limitations are reflected in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps API, see [API considerations of virtual entities](api-considerations-ve.md). 

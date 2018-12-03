@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The Web API is new for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. It provides a modern, RESTful web service you can use to interact with data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] using a wide variety of platforms, programming languages and devices.  
+The Web API is new for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. It provides a modern, RESTful web service you can use to interact with data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps using a wide variety of platforms, programming languages and devices.  
   
 ## In this section  
  [Compose Http requests and handle errors](compose-http-requests-handle-errors.md)  
