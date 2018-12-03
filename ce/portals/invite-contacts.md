@@ -3,7 +3,7 @@ title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to create and configure invitations in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 12/04/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -40,21 +40,58 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 > [!NOTE]
 > The invitation is sent only to the primary email (emailaddress1) of the contact. The invitation will not be sent to the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
-> The **Send Invitation** workflow is supported only in web client.
 
-## Create and configure invitations
+## Create and configure invitations in web client
 
-To create an Invitation record within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], select the **Create Invitation** button in the command bar. The button is available when a single Contact is selected in a Contact View and when viewing a Contact record. Selecting the button will open a new invitation form for the Contact. Invitations can also be created via the Invitations View by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the Invitation to the Contact(s).
+To create an invitation record within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], select the **Create Invitation** button in the command bar. The button is available when a single contact is selected in a Contact view and when viewing a contact record. Selecting the button will open a new invitation form for the contact. Invitations can also be created via the Invitations view by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the invitation to the contact(s). The invitation will not be sent to the contact(s) until the **Send Invitation** workflow is initiated.
 
-## Run the Send Invitation workflow
+## Create invitations in Dynamics 365 Portal app
 
-The invitation will not be sent to the Contact(s) until the **Send Invitation** workflow is initiated.
+1.	Go to **Portals** > **Contacts**.
 
-The Invitation Form has the following fields:
+2.	Select a contact or open the contact record to be invited.
+
+3.	On the command bar, select **Create Invitation**.
+
+4.	On the **New Invitation** page, enter the required details in the fields. More information: [New invitation form fields](#new-invitation-form-fields)
+
+5.	Select **Save**.
+
+6.	On the command bar, select **Flow** > **Send Invitation**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Send invitation workflow](media/send-invitation-portal-app.png "Send invitation workflow")
+
+7.	In the confirmation window, select **OK**. The invitation will be sent to the selected contact.
+
+    > [!div class="mx-imgBorder"]
+    > ![Confirmation to send an invitation](media/confirm-invitation-portal-app.png "Confirmation to send an invitation")
+
+### Send multiple invitations
+
+You can create invitations for your contacts and then send all invitations at once.
+
+1.	Create invitations for the required contacts and then go to **Portals** > **Invitations**.
+
+2.	Select the created invitations.
+
+3.	On the command bar, select **Flow** > **Send Invitation**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Send invitation workflow](media/send-invitation-portal-app.png "Send invitation workflow")
+
+4.	In the confirmation window, select **OK**. The invitations will be sent to the selected contacts.
+
+    > [!div class="mx-imgBorder"]
+    > ![Confirmation to send multiple invitations](media/confirm-multiple-invites-portal-app.png "Confirmation to send multiple invitations")
+
+## New invitation form fields
+
+The Invitation form has the following fields:
 
 
-|                 Name                  |                                                                                                                            Description                                                                                                                             |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Name    |    Description    |
+|-------|------------|
 |                 Name                  |                                                                                                      A descriptive name for helping recognize the invitation.                                                                                                      |
 |                 Type                  |                                             **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                              |
 |             Owner/Sender              | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
