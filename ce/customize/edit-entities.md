@@ -1,8 +1,8 @@
 ---
-title: "Edit an entity in PowerApps | MicrosoftDocs"
+title: "Edit an entity | MicrosoftDocs"
 description: "Learn the different ways that an entity can be edited"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
