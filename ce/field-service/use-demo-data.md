@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Experiment with demo data (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Applies to [!include[](../includes/pn-crm-2016-shortest.md)]
 
 To become familiar with Dynamics 365 for Customer Engagement for Field Service, it’s useful to have a pre-configured environment to explore. For this purpose, we’ve created a separate sample data installation package (English-language only at this time) that makes it easier to learn about these solutions. 
 

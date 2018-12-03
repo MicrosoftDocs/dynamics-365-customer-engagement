@@ -29,6 +29,8 @@ search.app:
 
 # Use the Glympse solution to track the location of a technician
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Share your technician’s location with your customers with Integration with Glympse for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Glympse works with [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] and offers integration with Glympse services that allow you to track the location of technicians as they travel to customer sites. This is done by sharing a real-time map that continuously updates estimated time of arrival.
 
 Integration with Glympse for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is available as a preferred provider solution that your administrator can add from the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Admin Center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visit the Glympse website](http://glympse.com/)

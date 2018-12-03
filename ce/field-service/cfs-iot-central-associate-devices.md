@@ -11,9 +11,8 @@ ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
   - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "shellyhaverkamp"
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+ms.author: "vihuang"
+ms.reviewer: "krbjoran"
 search.audienceType: 
   - admin
   - customizer

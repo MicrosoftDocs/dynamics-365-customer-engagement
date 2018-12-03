@@ -17,11 +17,10 @@ search.app:
   - D365FS
 ---
 
-Deployment 
-===========
+# Deployment of the Resource Scheduling Optimization (RSO) solution
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Prerequisites 
---------------
+## Prerequisites 
 
 To deploy Resource Scheduling Optimization, you must first do the following:
 
@@ -48,8 +47,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
     deployment app’s page. If additional RSO instances are needed for dev/test,
     contact your technical account manager.
 
-Deployment steps 
------------------
+## Deployment steps 
 
 > [!NOTE]
 > **Do not** install the Resource Scheduling Optimization solution from the solution page. Follow the next steps using the RSO deployment app to deploy.

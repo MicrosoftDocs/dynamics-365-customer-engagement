@@ -7,8 +7,8 @@ ms.suite: ""
 ms.technology: 
   - "field-service"
 ms.tgt_pltfrm: ""
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+ms.author: "vihuang"
+ms.reviewer: "krbjoran"
 search.audienceType: 
   - admin
   - customizer

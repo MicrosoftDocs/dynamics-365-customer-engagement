@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 for Customer Engagement (online)"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 author: FieldServiceDave
-ms.author: "krbjoran"
+ms.reviewer: "krbjoran"
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
   - admin
@@ -24,4 +24,7 @@ search.app:
 ---
 
 # AppSource for Field Service
-To better accommodate industry requirements and augment core Field Service functions, many developers, consultants, and business analysts have published Dynamics 365 for Customer Engagement apps specially designed for Field Service. From Internet of Things (IoT) scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services).
+
+[!include[](../includes/pn-crm-9-0-0-online.md)]
+
+To better accommodate industry requirements and augment core functions, many developers, consultants, and business analysts have published apps specially designed for field service. From Internet of Things (IoT) scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services).
