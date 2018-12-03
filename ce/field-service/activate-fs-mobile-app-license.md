@@ -2,7 +2,7 @@
 title: "Activate Field Service mobile licenses (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/25/2018
-ms.reviewer: ""
+ms.reviewer: krbjoran
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Activate Field Service mobile licenses
-
+   
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you set up an organization to use the [!include[Dynamics 365 for Customer Engagement for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. 
@@ -66,6 +66,8 @@ Note that you need the Dynamics 365 for Customer Engagement organization ID to c
         
   > ![OrgID](media/admin-orgid.png)  
         
+
+
 
 
 
