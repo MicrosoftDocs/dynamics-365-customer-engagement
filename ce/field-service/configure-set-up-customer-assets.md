@@ -40,9 +40,8 @@ Customer asset functionality lets you maintain a list of serviceable items relat
   
 Customer asset records can be configured in a hierarchy in order to maintain service history at the sub-component level.  
   
- < [!NOTE]
-
- < To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
+> [!NOTE]
+> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
   
  
 ## Create customer assets manually  
