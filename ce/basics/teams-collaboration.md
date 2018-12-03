@@ -71,9 +71,9 @@ There are two connection states possible when connecting Dynamics 365 for Custom
 
 The successful connection state indicates that the connection was successfully saved in Dynamics 365 for Customer Engagement apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 for Customer Engagement apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 for Customer Engagement apps. 
 
-A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-apps-repin-the-tab-and-try-again)
+A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
-### View and associate files
+### View and associate files 
 
 > [!NOTE]
 > This feature is currently only available for organizations in the North American region.
