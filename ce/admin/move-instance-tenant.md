@@ -46,14 +46,14 @@ In order to perform this operation, you'll need to provide some information, suc
 - What is the destination tenant domain and its region? (example: EMEA, NA, APAC)
 - Does the destination tenant have a valid Dynamics 365 for Customer Engagement apps subscription?
 - Does the destination tenant have enough available user licenses?
-- Does the destination tenant have enough Dynamics 365 for Customer Engagement apps instance licenses?
+- Does the destination tenant have enough Dynamics 365 for Customer Engagement instance licenses?
 - Does the destination tenant have enough Dynamics 365 for Customer Engagement apps storage available for the instances being migrated?
 
 If you do not have a Dynamics 365 for Customer Engagement apps subscription and/or trial in the destination tenant, then you will need to create one. You might need to purchase a new Dynamics 365 for Customer Engagement apps subscription in the destination tenant (or convert a trial to paid), if not already done.
 
 You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source instance type and destination instance type must match (Production vs non-Production (Sandbox)). These instances should also be version 8.2.2 or below. The users to be migrated from one tenant to another need to be created on the target tenant as well.
 
-The destination tenant needs an equal or higher number of active user licenses, Dynamics 365 for Customer Engagement apps instance licenses for the instances being migrated, and equal or greater storage as the source tenant.
+The destination tenant needs an equal or higher number of active user licenses, Dynamics 365 for Customer Engagement instance licenses for the instances being migrated, and equal or greater storage as the source tenant.
 
 ## How the move works
 

@@ -37,7 +37,7 @@ You can choose to work with a designated Microsoft partner who can provide the s
   
 3. Select a subscription, click **Buy now**.  
   
-   ![Dynamics 365 for Customer Engagement apps Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 for Customer Engagement apps Sales Plan buy now")  
+   ![Dynamics 365 for Customer Engagement Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 for Customer Engagement Sales Plan buy now")  
   
 4. Fill in the number of users and a promo code, if you have one, then click **Next**.  
   

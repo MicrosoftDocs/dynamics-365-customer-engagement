@@ -89,7 +89,7 @@ Here are the recent versions.
  Your Customer Engagement apps update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
 
 > [!NOTE]
-> For information on Customer Engagement apps instances, see [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md).  
+> For information on Customer Engagement instances, see [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md).  
 
 ### CRM Online 2016 Update 1 – Approach One (recommended)  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
@@ -247,7 +247,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
    ![Dynamics 365 for Customer Engagement apps option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 for Customer Engagement apps option in the Admin center drop-down list")  
 
-3. On the Instances page, click **Updates**, and then review the update status for your Customer Engagement apps instances.  
+3. On the Instances page, click **Updates**, and then review the update status for your Customer Engagement instances.  
 
     Note the following:  
 
@@ -260,7 +260,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 <!-- This banner appears to not happen anymore - May 1 2018  
 ### A notification appears in your Customer Engagement apps web application  
 
-1.  Sign in to your Customer Engagement apps instance.  
+1.  Sign in to your Customer Engagement instance.  
 
 2.  If an update is available, admins will see a yellow [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps message bar notifying them of an available update.  
 
@@ -333,9 +333,9 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 |        Status        |                                                                                       Description                                                                                        |
 |----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Queued (Not Started) |                                                                The update is queued and will start at the scheduled time.                                                                |
-|        Backup        | The Customer Engagement apps instance is being backed up.  A copy of the instance is backed up before the update for recovery purposes. |
-|       Restore        |                                        The Customer Engagement apps instance is being restored.                                         |
-|   Database Upgrade   |                                         The Customer Engagement apps instance is being updated.                                         |
+|        Backup        | The Customer Engagement instance is being backed up.  A copy of the instance is backed up before the update for recovery purposes. |
+|       Restore        |                                        The Customer Engagement instance is being restored.                                         |
+|   Database Upgrade   |                                         The Customer Engagement instance is being updated.                                         |
 
 <a name="BKMK_SendEmailNotifications"></a>   
 ## Send email notifications to multiple recipients  

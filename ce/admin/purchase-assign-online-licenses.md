@@ -49,7 +49,7 @@ search.app:
   
 4. Click **Buy now** and then follow the steps to purchase a new license.  
   
-   ![Dynamics 365 for Customer Engagement apps Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 for Customer Engagement apps Sales Plan buy now")  
+   ![Dynamics 365 for Customer Engagement Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 for Customer Engagement Sales Plan buy now")  
   
 <a name="BKMK_AssignLicense"></a>  
  

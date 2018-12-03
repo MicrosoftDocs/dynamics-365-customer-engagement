@@ -60,7 +60,7 @@ Select the **Message center** on your home dashboard (from the menu: **Health** 
   
 ## View instance service health  
 
-If your company has multiple instances of Customer Engagement apps, you can see the health status for individual Customer Engagement apps instances in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+If your company has multiple instances of Customer Engagement apps, you can see the health status for individual Customer Engagement instances in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   

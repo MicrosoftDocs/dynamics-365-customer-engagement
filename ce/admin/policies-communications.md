@@ -177,7 +177,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 ### Unplanned maintenance  
  From time to time, Customer Engagement apps inevitably encounters unplanned issues that require changes to ensure availability. Microsoft strives to provide as much notification as possible during these events. Because these events can’t be predicted, they are not considered planned maintenance.  
   
- When this happens, your organization receives an “Unplanned Maintenance” email. These emails go out to all Customer Engagement apps System Administrators in every Customer Engagement apps instance that is affected by the unplanned maintenance.  
+ When this happens, your organization receives an “Unplanned Maintenance” email. These emails go out to all Customer Engagement apps System Administrators in every Customer Engagement instance that is affected by the unplanned maintenance.  
   
  You can also see the status of current unplanned maintenance activities on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   Planned and unplanned maintenance emails can be identified by the light-orange banner.  

@@ -133,7 +133,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 #### Import an organization database using Deployment Manager  
   
-1.  On the [!INCLUDE[pn-ms-windows-server-long](../includes/pn-ms-windows-server-long.md)] running the Microsoft Dynamics 365 for Customer Engagement apps Server Deployment Tools server role, start **Deployment Manager** (DMSnapin.msc).  
+1.  On the [!INCLUDE[pn-ms-windows-server-long](../includes/pn-ms-windows-server-long.md)] running the Microsoft Dynamics 365 for Customer Engagement server Deployment Tools server role, start **Deployment Manager** (DMSnapin.msc).  
   
 2.  Start the Import Organization Wizard. Right-click **Organizations**, and then click **Import Organization**.  
   
