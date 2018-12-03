@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/set-privacy-preferences-organization.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/settings-privacy-security",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/admin/integrate-with-microsoft-teams.md",
+      "redirect_url": "../basics/teams-integration",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/developer/export-solution-specific-version.md",
+      "redirect_url": "create-export-import-unmanaged-solution",
+      "redirect_document_id": "true"
+    },
+    {
       "source_path": "ce/field-service/fulfillment-preferences.md",
       "redirect_url": "overview",
       "redirect_document_id": "true"

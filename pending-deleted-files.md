@@ -6,7 +6,7 @@ This file tracks files marked for deletion. Localization requirements mean that 
 
 These files have been redirected, but the actual .md topic files can't been removed yet.
 
-**Branch:** master
+These files have been deleted, but the list hasn't been communicated to loc yet.
 
 ce/admin/integrate-with-microsoft-teams.md
 ce/admin/set-privacy-preferences-organization.md
