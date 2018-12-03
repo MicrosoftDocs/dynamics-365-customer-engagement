@@ -2,7 +2,7 @@
 title: "Connect a portal to a Dynamics 365 for Customer Engagement online organization | MicrosoftDocs"
 description: "Learn how to connect a portal to a Dynamics 365 for Customer Engagement online organization and how to renew the authentication key."
 keywords: "portal authentication key, connect with Dynamics 365 for Customer Engagement"
-ms.date: 11/30/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 

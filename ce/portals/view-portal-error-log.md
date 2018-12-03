@@ -2,7 +2,7 @@
 title: "Viewing portal error logs and storing them in Azure Blob storage | MicrosoftDocs"
 description: "Learn how to view portal error logs and store them in your Azure Blob storage account."
 keywords: "portal error logs, store portal error logs in Azure Blob storage"
-ms.date: 11/30/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 

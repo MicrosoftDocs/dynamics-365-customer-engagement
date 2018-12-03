@@ -3,7 +3,7 @@ title: "Moderate forums on a portal in Dynamics 365 for Customer Engagement | Mi
 description: "Instructions to moderate forums in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
