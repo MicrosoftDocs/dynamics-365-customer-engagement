@@ -197,13 +197,13 @@ If you have more than one set of content settings, exactly one of them will be t
 
 Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
 
-All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
+All segment membership criteria are re-evaluated at the start of each recurrence, so contacts can be added or removed between cycles.
 
 To set up a recurring journey:
 
 1. Open your journey and go to the **General** tab.
 1. Set **Is recurring** to **Yes**. This opens two additional settings here.
-1. Set the **Recurrence interval** to the number of days each iteration should last.
+1. Set the **Recurrence interval** to the number of days each recurrence should last.
 1. Set the **Recurrence count** to the maximum number of recurrences each contact can experience.
 
 > [!NOTE]
