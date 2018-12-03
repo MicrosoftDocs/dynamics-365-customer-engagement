@@ -2,7 +2,7 @@
 title: "Implement General Data Protection Regulations in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
 description: "Learn how to implement General Data Protection Regulations in Microsoft Dynamics 365 for Customer Engagement portals."
 keywords: "portal GDPR, implement GDPR in portal"
-ms.date: 06/08/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 

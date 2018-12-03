@@ -3,7 +3,7 @@ title: "Define entity forms and custom logic within a portal in Dynamics 365 for
 description: "Instructions to create entity forms in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 07/05/2018
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

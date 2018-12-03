@@ -3,7 +3,7 @@ title: "View the primary domain name in Dynamics 365 for Customer Engagement | M
 description: "Instructions to view the primary domain name for a portal in Dynamics 365 for Customer Engagement."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date:12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -2,7 +2,7 @@
 title: "Migrate Dynamics 365 for Customer Engagement Portal configuration | MicrosoftDocs"
 description: "Learn how to migrate Dynamics 365 for Customer Engagement Portal configuration."
 keywords: ""
-ms.date: 10/17/2018
+ms.date:12/03/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
