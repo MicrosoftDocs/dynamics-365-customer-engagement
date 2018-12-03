@@ -62,7 +62,7 @@ To enable this capabilities, an admin will need enable the *OrgDBOrgSetting* in 
 1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
 2. After extracting the tool, enable the *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
 
-You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit *OrgDBOrgSetting *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
 
 ### See also  
  [Navigate the service calendar (Customer Service app)](../customer-service/navigate-service-calendar-cs-app.md) </br>
