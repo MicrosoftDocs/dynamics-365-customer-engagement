@@ -2,6 +2,7 @@
 title: "Connected Field Service for Azure IoT Central - Overview | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 11/08/2018
+ms.author: "vihuang"
 ms.reviewer: "krbjoran"
 ms.suite: ""
 ms.technology: 

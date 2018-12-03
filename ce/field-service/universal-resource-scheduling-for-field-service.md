@@ -29,6 +29,8 @@ search.app:
 
 # Universal Resource Scheduling for Field Service
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This article describes how Dynamics 365 for Customer Engagement for Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
 
 ## Overview

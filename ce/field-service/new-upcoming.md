@@ -22,6 +22,8 @@ search.app:
 ---
 # New and upcoming features in Field Service
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The team is excited to announce our newest updates! Ranging from the Unified Interface framework, data compliance, all the way to more powerful search queries for resource scheduling, and more. You asked, we listened.
 
 Take a look at the [Spring '18 Release Notes for Business Applications](https://docs.microsoft.com/en-us/business-applications-release-notes/April18/dynamics365-field-service/whats-new-field-service) to see our newest enhancements and additions.

@@ -1,5 +1,5 @@
 ---
-title: "Make grids (lists) editable by using the Editable Grid custom control with PowerApps | MicrosoftDocs"
+title: "Make grids (lists) editable by using the editable grid custom control | MicrosoftDocs"
 description: "Learn how to use the editable grid custom control"
 ms.custom: ""
 ms.date: 10/19/2018
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In previous releases of Dynamics 365 for Customer Engagement, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
+In previous releases of Dynamics 365 for Customer Engagement apps, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
   
  ![Editable grid examples](../customize/media/editable-grid-examples.png "Editable grid examples")  
   
