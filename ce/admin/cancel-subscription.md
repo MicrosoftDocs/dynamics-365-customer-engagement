@@ -55,7 +55,7 @@ You should have also made the following decisions:
   
 <a name="BKMK_CancelingCRMONprem"></a>  
  
-## Canceling your Dynamics 365 for Customer Engagement apps (online) subscription as part of your migration to Dynamics 365 for Customer Engagement apps (on-premises)  
+## Canceling your Customer Engagement apps (online) subscription as part of your migration to Customer Engagement apps (on-premises)  
  If you have decided to migrate to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps (on-premises Edition), you first migrate your data and then cancel your [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)]. To begin the migration process, you will need to work with one of the following Microsoft support teams.  
   
 - If you're on the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] platform for Customer Engagement apps (most customers are), contact [Technical support](contact-technical-support.md).  
