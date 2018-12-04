@@ -26,7 +26,7 @@ Channel Integration Framework is a cloud-to-cloud extensible framework to integr
 ## Can I integrate a two-way communication channel?
 Yes, you can integrate two-way communication that enables to set the context of inbound and/or outbound according to your business and process workflows.
 
-## Does Channel Integration Framework works with Unified Interface Apps?
+## Does Channel Integration Framework work with Unified Interface Apps?
 Yes, Channel Integration Framework works only with Unified Interface Apps.
 
 ## Is Channel Integration Framework a softphone?
@@ -36,13 +36,20 @@ No, Channel Integration Framework provides an extensible framework to integrate 
 No, Channel Integration Framework provides an extensible framework to configure the channel provider to make inbound or/and outbound calls or messages.
 
 ## Is Channel Integration Framework a server-side API?
-No, Channel Integration Framework provides JavaScript library which exposes APIs to consume and perform the certain operations like getting and setting Click-to-act functionality, dimensions and so on.
+No, Channel Integration Framework provides JavaScript library which exposes APIs that you can consume to perform the following operations:
+- Create, retrieve, update and delete entity records
+- Getting and setting Click-to-Act functionality
+- Search among records of a particular entity type
+- Getting and setting the panel width, etc.
 
 ## Does Channel Integration Framework manage call or chat sessions?
 No, Channel Integration Framework does not manage call or chat sessions.
 
 ## Is Channel Integration Framework dependent on operating systems and browsers?
 No, the Channel Integration Framework is operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
+
+## Are there any browsers that Channel Integration Framework does not support ?
+Yes, Channel Integration Framework does not support Internet Explorer and Firefox browsers.
 
 > [!NOTE]
 > The widget domain needs to be accorded permission to use appropriate media like pop-ups, microphone as required. For Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
