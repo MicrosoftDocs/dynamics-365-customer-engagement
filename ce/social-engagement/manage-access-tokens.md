@@ -2,7 +2,7 @@
 title: "Manage access tokens in Social Engagement | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
 keywords: "tokens, oauth, validation"
-ms.date: 29/11/2018
+ms.date: 12/04/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -45,7 +45,7 @@ Adding tokens for data acquisition allows you to acquire posts from some sources
 
 ### Add a Facebook acquisition token and allow data acquisition  
 
-You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to them.  
+You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page and the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to them.  
 
 > [!NOTE]
 > Provided tokens will expire after 60 days. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will notify you to reauthenticate your profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
@@ -55,9 +55,9 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_in
 
 1. Go to **Settings** > **Social Profiles**.  
 
-2. Select the appropriate social profile or create a new one, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition profile details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow data acquisition**, and enter your log-in credentials.  
+2. Select the appropriate social profile or create a new one, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition profile details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow data acquisition**, and enter your sign-in credentials.  
 
-3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts. The token will become active after you select the check box.  
+3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol"), and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts. The token will become active after you select the check box.  
 
 4. Select **Save**.  
 
