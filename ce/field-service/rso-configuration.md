@@ -268,22 +268,21 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
 
 ### Default optimization goal
 
-When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. 
-
-- The default goal has the following constraints and objectives enabled. The user can modify as needed or create a new optimization goal and associate it as a default goal.
+When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+
+**Engine Effort Level** determines how much effort RSO makes to find the best combination of resources, route, and day or time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
 
-- The default goal is used when single resource optimization is selected from the schedule board.
+The default goal is used when single resource optimization is selected from the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
-  
-
-**Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
+ 
 
 ### Define constraints
 
