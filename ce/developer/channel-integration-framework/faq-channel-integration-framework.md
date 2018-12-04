@@ -42,7 +42,10 @@ No, Channel Integration Framework provides JavaScript library which exposes APIs
 No, Channel Integration Framework does not manage call or chat sessions.
 
 ## Is Channel Integration Framework dependent on operating systems and browsers?
-No, the Channel Integration Framework is an operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
+No, the Channel Integration Framework is operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
+
+> [!NOTE]
+> The widget domain needs to be accorded permission to use appropriate media like pop-ups, microphone as required. For Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ## See also
 
