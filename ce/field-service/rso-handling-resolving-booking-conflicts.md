@@ -1,8 +1,8 @@
 ---
-title: "Resolving booking conflicts | MicrosoftDocs"
+title: "Resolving booking conflicts in Resource Scheduling Opimtization for Dynamics 365| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2018
+ms.date: 12/03/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -27,29 +27,29 @@ search.app:
   - D365FS
 ---
 
-# Resolving Resource Scheduling Optimization booking conflicts
+# Resolving booking conflicts in Resource Scheduling Optimization
 
-In scenarios where a related resource, requirement, or booking are edited by a dispatcher or field technician during optimization, this can cuase a conflict and the RSO solution provides a way to understand the conflicts and resolve them.
+Conflicts will arise when a related resource, requirement, or booking is edited by a dispatcher or field technician during optimization; the Resource Scheduling Optimization solution provides a way to understand these conflicts and resolve them.
 
-First, in such scenarios, the optimization request will have a status of **Completed with Conflicts** (in earlier versions the status showed as **Failed**).
+In conflict scenarios, the optimization request will have the status **Completed with Conflicts** (in earlier versions, the status showed as **Failed**).
 
-Second, within the Optimization Request Booking view, a user is able to see the exact bookings that were edited during optimization and thus are conflicted. These bookings will have a Booking Status of **Simulation** along with a conflicted icon. The Operation Details column will show additional details such as the specific data that was modified during optimization. 
+Within the Optimization Request Booking view, you can see the conflicted bookings that were edited during optimization. These bookings will have a booking status of **Simulation**, along with a conflicted icon. 
 
+The **Operation Details** column shows additional details, like the specific data modified during optimization. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict.png)
 
-Next, a user can select one or more conflicted bookings (with a Simulation status), and choose either:
+To resolve the issue, select one or more conflicted bookings (with a Simulation status), and choose either:
 
-**Apply with Overwrite** - system will commit the simulation booking i.e. choose optimization results
-**Discard** - system will remove simulation booking i.e. choose the manual edits from the dispatcher or field technician 
+- **Apply with Overwrite**: commit the simulation booking, favoring optimization results.
+- **Discard**: remove simulation booking, favoring the manual booking edits from the dispatcher or field technician.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict-override.png)
 
-After selecting **Apply** or **Discard**, the Optimization Status will change to **Completed** 
-
+After selecting **Apply with Overwrite** or **Discard**, the optimization status changes to **Completed**, and the conflict is resolved. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict2.png)
