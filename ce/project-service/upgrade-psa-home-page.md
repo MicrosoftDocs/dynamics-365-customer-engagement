@@ -28,8 +28,9 @@ search.app:
 ## Upgrade from Project Service Automation version 2.x or 1.x to version 3
 The release of Project Service Automation (PSA) version 3 includes significant changes. This release is built on the Unified Interface framework for an improved user experience. The redesigned app delivers a consistent, uniform user interface, and follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application including changes to pricing, booking and assigning resources, time, expenses, and approvals.  
 
-Customers will need to opt-in to install or upgrade to Project Service version 3.x because along with important, new functionality, this version has completely new user experience for the web. Not all customers may be ready to take on this new web client hence the need to make this opt-in. 
-Here are instructions to opt-in:
+Customers will need to opt-in to install or upgrade to Project Service version 3.x because along with important, new functionality, this version has completely new user experiences for the web client, often referred to as the Unified Interface. Since a new web client may involve some user training, we are only lighting this up for customers that are explicity interested in moving to this release. Here are instructions for indicating this interest or to opt-in for the version 3.x of Project Service Automation. 
+## Please note that despite the opt-in process, Project Service Automation version 3.x is a completely supported version and should be considered generally available.## 
+
 1. Access the Dynamics Insider Portal here: http://experience.dynamics.com/insider
 2. Log in with your Insider credentials.
 3. On the Insider home page, search for a program with the name “Opt-in to Upgrade Project and Field Service - Unified Interface.”
