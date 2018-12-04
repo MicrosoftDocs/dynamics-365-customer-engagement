@@ -1,7 +1,7 @@
 ---
-title: "Enable additional languages (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Enable additional languages (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
