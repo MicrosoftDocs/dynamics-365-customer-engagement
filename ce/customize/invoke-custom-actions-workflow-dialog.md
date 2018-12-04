@@ -1,8 +1,8 @@
 ---
-title: "Invoke custom actions from a workflow with PowerApps | MicrosoftDocs"
+title: "Invoke custom actions from a workflow | MicrosoftDocs"
 description: "Learn how to invoke a custom action from a workflow"
 ms.custom: ""
-ms.date: 04/10/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
