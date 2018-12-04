@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: 
 ms.service: business-applications
 ms.technology: Dynamics 365 for Project Service 3.x
-ms.author: john.burrows
+ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
@@ -40,9 +40,11 @@ Here are instructions to opt-in:
 8. Once you receive the email, you can access your Dynamics 365 Admin portal to install or upgrade Field Service and/or Project Service Automation on the enabled instance. 
 9. For any questions and discussion on the functionality, please use the Forum on the program page. Use the Microsoft Support process to log any issues/bugs. 
 
-
+Note:
 • If the identified instance has both Field and Project Service installed, please plan to upgrade both solutions before resuming normal use of the instance.
+
 • For a smooth install experience, please make sure that the identified instance meets all the prerequisites listed on the Insider Program page.
+
 • These releases of Field and Project Service will only be available for install or upgrade on the identified instances. They will not show up for any other orgs, even if they are on the same tenant.
 
 > [!IMPORTANT]
