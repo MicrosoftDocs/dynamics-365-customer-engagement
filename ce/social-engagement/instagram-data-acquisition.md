@@ -25,7 +25,7 @@ search.app:
 On December 11, 2018, two changes are introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Accounts search and the removal of the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search. 
 
 ## [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
-Keyword searches are retired by [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] on December 11, 2018. Due to this change we are also removing the keyword searches functionality in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)]. 
+Keyword searches are retired by [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] on December 11, 2018. Due to this change we are also removing the keyword searches  functionality in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)]. 
 
 ## How [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search rules work after December 11, 2018?
 
@@ -34,7 +34,7 @@ Since the functionality of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)
 Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed.
 If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule.
 
-In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you setup a separate rule with the changes, and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as is. 
+In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you setup a separate rule with the changes, and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as is.. 
 
 ## Introduction of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Account search
 
