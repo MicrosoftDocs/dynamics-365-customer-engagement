@@ -1,8 +1,8 @@
 ---
-title: "Make grids (lists) editable by using the Editable Grid custom control with PowerApps | MicrosoftDocs"
+title: "Make grids (lists) editable by using the Editable Grid custom control | MicrosoftDocs"
 description: "Learn how to use the editable grid custom control"
 ms.custom: ""
-ms.date: 10/19/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Make grids (lists) editable using the Editable Grid custom control
+# Make grids (lists) editable using the editable grid custom control
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
