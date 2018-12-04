@@ -2,7 +2,7 @@
 title: "Define ribbon enable rules (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining specific rules to control when the ribbon elements are enabled during configuration of ribbon elements. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -72,7 +72,7 @@ Uses the  `<CrmClientTypeRule>` element to allow definition of rules depending o
 -   `CrmForOutlookOfflineAccess`  
 
 ### Custom Rule
- Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript library that returns a Promise (Unified client) or boolean (Unified client and web client).
+ Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript library that returns a Promise (Unified Interface) or boolean (Unified Interface and web client).
 
 ```JavaScript
 function EnableRule()
@@ -85,8 +85,8 @@ function EnableRule()
 > [!NOTE]
 >  Custom rules that do not return a value quickly can affect the performance of the ribbon. If you have to perform logic that might take some time to complete, use the following strategy to make your custom rule asynchronous:
 
-#### Unified client
- Unified client rules support returning a Promise rather than boolean for asynchronous rule evaluation
+#### Unified Interface
+ Unified Interface rules support returning a Promise rather than boolean for asynchronous rule evaluation
  ```JavaScript
 function EnableRule()
 {
