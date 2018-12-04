@@ -1,7 +1,7 @@
 ---
 title: "Manage dashboard components (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -22,7 +22,7 @@ search.app:
 ---
 # Manage dashboard components
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can create and design dashboards to show the information that you want exactly how you want to see it. While designing the dashboard, you can rearrange or remove the components that you have already added and change the height and width of a component.  
   

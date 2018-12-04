@@ -1,8 +1,8 @@
 ---
-title: "Manage access to PowerApps apps by using security roles | MicrosoftDocs"
-description: "Learn how to control access to your PowerApps apps"
+title: "Manage access to apps by using security roles | MicrosoftDocs"
+description: "Learn how to control access to your apps"
 keywords: ""
-ms.date: 04/12/2018
+ms.date: 12/04/2018
 ms.service: crm-online
 ms.custom: 
   - dyn365-deflc
