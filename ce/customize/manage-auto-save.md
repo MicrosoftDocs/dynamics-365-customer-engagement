@@ -1,7 +1,7 @@
 ---
 title: "Disable auto-save (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -22,7 +22,7 @@ search.app:
 ---
 # Disable auto-save
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Auto-save helps people focus on their work without having to manage saving data in the form. Most people will appreciate not having to explicitly save data each time they update a record, but some organizations may have customizations that were designed expecting an explicit save. For these organizations there are options to manage how auto-save is applied.  
   
