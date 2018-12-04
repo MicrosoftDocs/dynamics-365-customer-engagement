@@ -41,6 +41,7 @@ Here are instructions to opt-in:
 9. For any questions and discussion on the functionality, please use the Forum on the program page. Use the Microsoft Support process to log any issues/bugs. 
 
 Note:
+
 • If the identified instance has both Field and Project Service installed, please plan to upgrade both solutions before resuming normal use of the instance.
 
 • For a smooth install experience, please make sure that the identified instance meets all the prerequisites listed on the Insider Program page.
