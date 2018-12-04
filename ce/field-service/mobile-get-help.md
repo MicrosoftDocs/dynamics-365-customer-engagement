@@ -34,9 +34,9 @@ For help with errors, unexpected behavior, crashes, and bugs [create a Dynamics 
 
 ## General inquires 
 
-For general inquiries, how to questions, best practice advice, and feature requests send an email to <7db59e0f.microsoft.com@amer.teams.ms>.
+For general inquiries, how to questions, best practice advice, and feature requests [send us an email](mailto:7db59e0f.microsoft.com@amer.teams.ms).
 
 
-[send an email](mailto:7db59e0f.microsoft.com@amer.teams.ms)
+
 
 
