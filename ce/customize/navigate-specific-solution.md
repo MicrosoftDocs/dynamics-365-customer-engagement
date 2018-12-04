@@ -1,8 +1,8 @@
 ---
-title: "Navigate to a specific solution with PowerApps | MicrosoftDocs"
+title: "Navigate to a specific solution | MicrosoftDocs"
 description: "Learn how to locate and open a specific solution in your environment"
 ms.custom: ""
-ms.date: 04/26/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

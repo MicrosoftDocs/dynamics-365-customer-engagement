@@ -1,8 +1,8 @@
 ---
-title: "Manage app properties in the PowerApps app designer | MicrosoftDocs"
+title: "Manage app properties in the app designer | MicrosoftDocs"
 description: "Learn how to manage the properties for your app"
 keywords: ""
-ms.date: 04/12/2018
+ms.date: 12/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
