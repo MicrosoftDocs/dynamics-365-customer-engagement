@@ -1,7 +1,7 @@
 ---
 title: "Use Liquid types for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid types in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 15dd8131-f40d-4d8c-8394-f9102dd34691
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Available Liquid types
 

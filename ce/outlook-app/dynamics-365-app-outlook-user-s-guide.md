@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/22/2018
+ms.date: 10/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,13 @@ caps.latest.revision: 99
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Dynamics 365 App for Outlook User Guide  
 
@@ -468,6 +475,50 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
     Regardless of which tab you selected in step 1, the email, task, or appointment will be sent from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)], not [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
+#### Track appointments from another person in your Dynamics 365 for Customer Engagement apps organization
+
+You can track appointments from another person in your Dynamics 365 for Customer Engagement apps organization using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your organization. Dynamics 365 for Customer Engagement apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+
+1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
+2. After extracting the tool, enable the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
+
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
+
+After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
+
+ ![Track appointments](media/Trackappointments.png "Track appointments ")
+
+##### Track appointments from another person
+
+After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
+
+ ![Track appointments](media/Trackappointments.png "Track appointments")
+ 
+ ##### Create draft appointments without syncing with Exchange
+ 
+ Create appointments in Dynamics 365 and have the option to send (synchronize with Exchange) and save (do not synchronize with Exchange).
+ 
+ ![Create an appointment and save it](media/saveappt.png "Create an appointment and save it")
+ 
+ View previously saved draft appointment activity.
+ 
+ ![View previously saved draft](media/saveddraft.png "View previously saved draft")
+ 
+ View all your saved appointments from the activity home page grid.
+ 
+ ![View appointments from the Activity grid](media/viewfromgrid.png "View appointments from the Activity grid")
+ 
+ Note, this capability does not apply to recurring appointment activity. Also, draft appointments that are not synchronized to Exchange still have the same state or status as synced appointments. 
+ 
+ 
+ #### Create draft appointments without synchronizing with Exchange
+
+Appointment activities created in Dynamics 365 are synchronized with Exchange through Server-Side Synchronization. When you open the appointment activity form and create a new appointment or update an existing appointment, the changes are synchronized automatically with Exchange.
+
+If you are on the latest version 9.x (build 9.0.2.2081), you can create appointments in Dynamics 365 without synchronizing with Exchange. This means can create appointments in Dynamics 365 and save them, add details, and update appointments without syncing the changes to your Exchange email client.
+
+To turn enable this, an administrators
+
 ### Search for a contact  
 
 -   Enter a value in the search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking status**, **Business phone**, or **Email** fields.  
@@ -506,6 +557,9 @@ Follow these steps to enable a custom entity to appear in Quick create.
 2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
 
    ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
+   
+    > [!NOTE]
+   > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook).
 
 ## Search on custom field in Regarding lookup
 
@@ -526,6 +580,9 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365. In most scenarios, the Outlook item is immediately created in Dynamics 365. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
 
 ![Outlook app sync](media/sync_table.png "Outlook app sync")
+
+   > [!NOTE]
+   > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
 
 If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an item to Dynamics 365, the track status of the item will be “Pending”.
 

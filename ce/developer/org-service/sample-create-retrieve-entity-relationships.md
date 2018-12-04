@@ -6,12 +6,16 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 2e1eafb6-18f3-40e3-820c-5e0d0f6a2bf3
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Create and retrieve entity relationships

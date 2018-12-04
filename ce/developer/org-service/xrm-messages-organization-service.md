@@ -22,6 +22,10 @@ caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # xRM messages in the Organization service
 

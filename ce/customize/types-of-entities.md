@@ -17,10 +17,14 @@ ms.assetid: 2f3f6053-0b9e-41e7-bd94-2239351e9f4b
 caps.latest.revision: 41
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Types of entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_TypesOfEntities"></a>   
 

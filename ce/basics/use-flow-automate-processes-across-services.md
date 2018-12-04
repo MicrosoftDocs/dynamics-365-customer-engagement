@@ -13,6 +13,10 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: "Mattp123"
 ms.author: "matp"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Use Microsoft Flow to automate processes across services
 

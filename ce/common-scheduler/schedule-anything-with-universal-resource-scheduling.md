@@ -1,10 +1,10 @@
 ---
 title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
 ms.date: 09/30/2017
-searchScope:
+searchScope: 
   - Customer Service
   - Field Service
   - Project Service
@@ -23,6 +23,14 @@ ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 
@@ -92,7 +100,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 1. From the main menu, click **Sales**, **Service**, or **Marketing**.  
   
-2. Choose and entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
+2. Choose an entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
   
 3. From the list of leads choose an existing lead.  
   

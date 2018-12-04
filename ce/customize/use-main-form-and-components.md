@@ -13,10 +13,14 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "powerapps"
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Use the main form and its components
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
  
 Forms in the Unified interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
 

@@ -1,7 +1,7 @@
 ---
-title: "Enable additional languages (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Enable additional languages (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,10 @@ ms.assetid: ece68f5f-ad40-4bfa-465a-3e5bafb854aa
 caps.latest.revision: 55
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 <a name="BKMK_Localization"></a>   

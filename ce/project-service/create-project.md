@@ -1,27 +1,28 @@
 ---
-title: "Create a project (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Create a project (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create a project in Project Service
 author: krbjoran
-ms.assetid: 5d6eccd1-8bc6-4bc4-abcc-9c4647042499
-caps.latest.revision: 13
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# Create a project (Project Service Automation)
+# Create a project (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Create a project using the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] when you want to create an opportunity, quote, or contract for project-based services. The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities help you manage your project from opportunity through completion. When you create a project, you’ll also create a work breakdown structure, which affects your quotes, cost estimates, and resource management.  
   

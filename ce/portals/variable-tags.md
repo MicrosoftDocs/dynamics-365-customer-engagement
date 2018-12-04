@@ -5,15 +5,22 @@ keywords: "variable tags; liquid tags"
 ms.date: 05/04/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 59FD4F2D-8F26-4B9D-818F-E37C10156396
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Variable tags

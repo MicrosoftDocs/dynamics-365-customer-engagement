@@ -17,6 +17,10 @@ caps.latest.revision: 38
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Actions on SharePoint location records
 

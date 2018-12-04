@@ -1,23 +1,30 @@
 ---
 title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; create a knowledge article, send a knowledge article for review; knowledge manager dashboard; Create and manage knpwledge article versions
 author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
-manager: shellyha
-ms.date: 02/20/2018
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Reduce call handling times with Knowledge articles in the Customer Service Hub
+# Create and manage knowledge articles
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+Reduce call handling times with Knowledge articles in the Customer Service Hub application.
   
 With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
@@ -28,7 +35,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 
 ## Knowledge management process  
- The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub.  
+ The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
  ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365")  
   
@@ -159,6 +166,8 @@ You can preview the content to view its compatibility on multiple devices, like 
 2.  On the Business process flow, select **Author**.  
   
 3.  In the **Mark for Review** field, select **Mark Complete**.  
+
+    ![Knowledge article review](media/ka-review.png)
   
 4.  To assign the knowledge article to another reviewer or team, on the command bar, select **Assign** and select the user or a team.  
   
@@ -330,7 +339,9 @@ If the article has information that complements an existing knowledge article, a
   
     -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
   
-    -   Select **Publish**.  
+    -   Select **Publish**. 
+
+        ![Knowledge article publish](media/ka-publish.png)
 
 
 ## Track basic details of an article  
@@ -382,9 +393,11 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
         The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
   
-   - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the normalized rating based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
+   - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
   
 3. Select **Save**.
+
+   ![Knowledge article feedback](media/ka-feedback.png)
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
@@ -414,9 +427,11 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
-#### Manage versions in alternate keys for Knowledge article entity
+#### Manage versions in alternate keys for knowledge article entity
 If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
 
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
+[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)

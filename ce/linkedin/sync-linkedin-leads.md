@@ -5,15 +5,22 @@ keywords: "linkedin lead gen, lead gen form, get started"
 ms.date: 04/02/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-LinkedIn
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # How to sync [!include[LinkedIn](../includes/pn-linkedin.md)] leads by using [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)]

@@ -1,12 +1,12 @@
 ---
-title: "Manage app properties in the PowerApps app designer | MicrosoftDocs"
+title: "Manage app properties in the app designer | MicrosoftDocs"
 description: "Learn how to manage the properties for your app"
 keywords: ""
-ms.date: 04/12/2018
+ms.date: 12/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "powerapps"
@@ -19,11 +19,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Manage app properties in the app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 App properties define important details about the app, like its title or URL. You define app properties when you create an app. If you want to change those properties later, you can do that in the app designer.  
 

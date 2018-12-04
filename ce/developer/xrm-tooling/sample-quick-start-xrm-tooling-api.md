@@ -15,6 +15,10 @@ caps.latest.revision: 20
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Quick start for XRM Tooling API
 
@@ -169,7 +173,7 @@ namespace QuickStartXRMToolingWPFClient
             updateData.Add("telephone1", new CrmDataTypeWrapper("555-0161", CrmFieldType.String));   
             bool updateAccountStatus = _ctrl.CrmConnectionMgr.CrmSvc.UpdateEntity("account","accountid",_accountId,updateData);  
   
-            // Validate if the the account record was updated successfully, and then display the updated information  
+            // Validate if the account record was updated successfully, and then display the updated information  
             if (updateAccountStatus == true)  
             {  
                 UpdateStatus("***************************************");  

@@ -13,6 +13,11 @@ ms.assetid: 36cebc83-203f-4afc-9070-efebd8b592ec
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Dynamics 365 for Marketing solutions
 

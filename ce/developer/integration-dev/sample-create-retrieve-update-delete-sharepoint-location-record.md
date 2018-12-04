@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: bc1c1d14-4be9-48fb-a7dd-bccbacd722f8
 author: KumarVivek
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 27
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Create, retrieve, update, and delete a SharePoint location record

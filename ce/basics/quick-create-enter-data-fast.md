@@ -15,6 +15,10 @@ ms.assetid: 201e9f66-56e7-4f58-b51e-9c73cf5f50b8
 caps.latest.revision: 19
 ms.author: "brycho"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Quick create--Enter new records--fast!
 

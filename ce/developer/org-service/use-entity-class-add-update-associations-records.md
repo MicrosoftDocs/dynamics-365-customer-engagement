@@ -15,6 +15,10 @@ caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the Entity class to add or update associations between related records
 

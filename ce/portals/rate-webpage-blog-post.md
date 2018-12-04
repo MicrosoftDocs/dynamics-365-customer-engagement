@@ -1,7 +1,7 @@
 ---
 title: "Rate or vote on a webpage or blog post on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable and manage ratings on a web page or a blog post on a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: a3408b16-dbf3-4939-ba36-e8019d979e21
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Rate or vote on a webpage or blog post on a portal
 Ratings provide users with the ability to rate or vote on a webpage or [blog post](manage-blogs.md). Ratings can also be enabled for comments on pages or blog posts. By default, this feature is disabled, but it can be enabled on a page-by-page basis within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].

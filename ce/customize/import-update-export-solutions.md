@@ -17,10 +17,14 @@ ms.assetid: 56363ea3-ea76-4311-9b7a-b71675e446fb
 caps.latest.revision: 57
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Import, update, and export solutions 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. You can import the default solution only to the organization from which you exported it, but not into a different organization.  
 

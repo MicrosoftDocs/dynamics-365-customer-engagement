@@ -17,10 +17,14 @@ ms.assetid: 1a9d27e1-4dd7-4063-87a5-3d7565fc6194
 caps.latest.revision: 25
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Specify a default view
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
   
 <a name="BKMK_SetDefaultView"></a>   

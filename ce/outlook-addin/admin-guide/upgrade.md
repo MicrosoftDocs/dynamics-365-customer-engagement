@@ -14,6 +14,13 @@ caps.latest.revision: 64
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Upgrade Microsoft Dynamics CRM for Outlook
 Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  

@@ -9,6 +9,10 @@ ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Best practices: Client scripting in Customer Engagement
 
@@ -59,7 +63,7 @@ On the Internet, you can find many examples or suggestions that describe using u
 
 ## Avoid using jQuery for form scripts
 
-We do not recommend using jQuery in form scripts and ribbon commands. Most of the benefit provided by jQuery is that it allows for easy cross-browser manipulation of the DOM. This is explicitly unsupported within form scripts and ribbon commands. Restrict your scripts to use the objects/methods avaailable in the [Xrm object model](understand-clientapi-object-model.md). 
+We do not recommend using jQuery in form scripts and ribbon commands. Most of the benefit provided by jQuery is that it allows for easy cross-browser manipulation of the DOM. This is explicitly unsupported within form scripts and ribbon commands. Restrict your scripts to use the objects/methods available in the [Xrm object model](understand-clientapi-object-model.md). 
 
 If you decide to use the remaining capabilities of jQuery that are useful with Customer Engagement and include the ability to use **$.ajax**, consider the following:
 

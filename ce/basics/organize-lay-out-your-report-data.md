@@ -15,6 +15,10 @@ caps.latest.revision: 23
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Organize and lay out your report data
 

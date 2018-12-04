@@ -3,9 +3,10 @@ title: "Create or edit a goal (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
 keywords: "Goal, target"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -13,7 +14,7 @@ applies_to:
 ms.assetid: 161f9a27-3709-42c7-bca0-8538250e5de0
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,7 +27,7 @@ topic-status: Drafting
 
 Use goals to keep track of your progress on achieving target revenue.  
   
-## Create a goal (Sales Hub app)
+## Create a goal (Sales Hub)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
@@ -102,7 +103,7 @@ Use goals to keep track of your progress on achieving target revenue.
 
 13.	Select **Save** or **Save & Close**.
 
-## Create a goal (Sales app)
+## Create a goal (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
     #### Check your security role  

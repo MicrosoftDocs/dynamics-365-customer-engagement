@@ -5,15 +5,22 @@ keywords: "filter, filtering, Social Engagement"
 ms.date: 03/07/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: ba690f72-43cd-4fdb-a400-b3a9e3eb2f22
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Get to know your filters

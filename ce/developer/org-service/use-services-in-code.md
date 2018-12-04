@@ -14,6 +14,10 @@ ms.assetid: bae224ef-2f5d-4555-a33c-9225b9365ed6
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use Dynamics 365 services in code
 

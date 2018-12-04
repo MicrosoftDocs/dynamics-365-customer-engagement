@@ -4,10 +4,10 @@ description: "Use the out-of-the-box sales process to close more deals and impro
 keywords: "Lead, Qualify, Opportunity "
 ms.date: 09/20/2017
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 512ad50d-6dda-42b9-832d-f72adf923821
@@ -19,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 21
 topic-status: Tech Reviewing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Nurture sales from lead to order (Sales and Sales Hub)

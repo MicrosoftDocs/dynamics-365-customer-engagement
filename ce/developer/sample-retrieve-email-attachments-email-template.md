@@ -18,6 +18,10 @@ caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Retrieve email attachments for an email template
 

@@ -22,6 +22,10 @@ caps.latest.revision: 28
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Use aggregation in FetchXML
 

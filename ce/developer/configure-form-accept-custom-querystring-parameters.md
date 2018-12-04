@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 6c05ff14-2d5a-4e90-a3c4-dc7ca1ec4698
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Configure a form to accept custom querystring parameters
 

@@ -15,11 +15,15 @@ caps.latest.revision: 6
 author: "Mattp123"
 ms.author: "matp"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Report considerations and best practices
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Make sure that your reports execute reliably and efficiently by understanding the best practices and considerations described here.  
   

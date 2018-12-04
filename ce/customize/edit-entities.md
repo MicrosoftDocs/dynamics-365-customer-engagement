@@ -1,8 +1,8 @@
 ---
-title: "Edit an entity in PowerApps | MicrosoftDocs"
+title: "Edit an entity | MicrosoftDocs"
 description: "Learn the different ways that an entity can be edited"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,14 @@ ms.assetid: 8b00780c-74f0-4e3a-b570-b9289d0d5383
 caps.latest.revision: 41
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Edit an entity
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_EditingEntities"></a>   
 

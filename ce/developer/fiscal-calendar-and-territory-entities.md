@@ -23,6 +23,10 @@ caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Fiscal calendar and territory entities
 

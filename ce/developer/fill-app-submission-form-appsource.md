@@ -14,6 +14,10 @@ ms.assetid: d2e85cac-4308-4f70-bb64-8480bfce2e42
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Step 1: Fill the app submission form on AppSource
 

@@ -1,6 +1,6 @@
 ---
 title: "Create an inventory adjustment (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: f819da43-ccc8-4c76-9467-3c4a4d8f4c18
 caps.latest.revision: 16
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Add or subtract inventory from a warehouse (Field Service)
 

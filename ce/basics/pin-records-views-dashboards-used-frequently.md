@@ -15,6 +15,10 @@ ms.assetid: 12a83cb3-cce2-42cf-aaff-8eb3fc7d9bcb
 caps.latest.revision: 7
 ms.author: "mkaur"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Get back to (or pin) the records, views, or dashboards you used most recently
 

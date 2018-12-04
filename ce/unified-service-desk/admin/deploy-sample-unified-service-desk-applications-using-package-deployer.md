@@ -1,14 +1,13 @@
 ---
 title: "Deploy sample Unified Service Desk for Dynamics 365 Customer Engagement applications using Package Deployer | MicrosoftDocs"
 description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
-ms.custom:
-  - dyn365-USD, dyn365-admin
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+keywords: ""
+ms.date: 08/17/2018
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-USD, dyn365-admin"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
@@ -18,8 +17,17 @@ applies_to:
 ms.assetid: fe906d8e-a06b-46e6-84c9-0c0710157b33
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
+
 # Overview of Package Deployer and the sample applications
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
 
@@ -29,7 +37,7 @@ manager: sakudes
 > - The sample applications are not supported for production use.  
 >   - Only one [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package can be deployed in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to avoid any loss or overlap of functionality. If you want to install another [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, remove the existing one, and then install the other package. For information about removing an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, see [Remove a sample Unified Service Desk package](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Remove).  
 >   - Before deploying a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package on a production instance, ensure that you test the package on a pre-production instance, preferably a mirror image of the production instance. Also, be sure to back up the production instance before deploying the package.  
->   - You can also use [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy packages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy packages using CRM Package Deployer and Windows PowerShell](../../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
+>   - You can also use [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy packages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy packages using CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
 
 
 <a name="twodot1apps"></a>   
@@ -43,7 +51,7 @@ manager: sakudes
 |                                   [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - New Environment                                    |                                                                                                                                                                                                                                                                 This sample application package can be used to help accelerate setting up the new development environment for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Install this package in a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] non-production organization that does not have an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution configured or sample application installed. For more information about the scenarios supported in this sample application, see [Unified Service Desk New Environment sample package](../../unified-service-desk/admin/unified-service-desk-new-environment-package.md).                                                                                                                                                                                                                                                                  |
 |                               [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Interactive Service Hub                                |                                                                                                                                Interactive Service Hub provides an intuitive interface to simplify the day-to-day job for customer support agents. Interactive Service Hub displays all the vital information related to customers in one place and lets customer support agents focus on things that require attention. Interactive Service Hub is available with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] and [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] (on-premises) or later.      For more information about the scenarios supported in this sample application, see [Unified Service Desk Interactive Service Hub package](../../unified-service-desk/admin/unified-service-desk-interactive-service-hub-package.md ).<br /><br /> This sample application package contains the solutions and sample configuration data, which demonstrates how you can integrate Interactive Service Hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].                                                                                                                                |
 |                                      [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Web Client                                      |                                                                                                                                                                                                                                                                                                         The sample application package demonstrates customer service scenarios that can be delivered using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and Microsoft Dynamics CRM 2013 or later. This sample helps administrators and system customizers understand the configurability of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. For more information about the scenarios supported in this sample application, see [Unified Service Desk 365 Web Client package](../../unified-service-desk/admin/unified-service-desk-dynamics-365-web-client-package.md).                                                                                                                                                                                                                                                                                                          |
-|                                  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Unified Interface                                   |                                                                                                                                                                                                                                                                                                                                                                        This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions. It helps you to integrate Unified Interface apps with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] environment.<br><br> **Note:** The Unified Interface sample application is available for use from [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)].                                                                                                                                                                                                                                                                                                                                                                         |
+|                                  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Unified Interface                                   |                                                                                                                                                                                                                                                                                                                                                                        This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions. It helps you to integrate Unified Interface apps with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] environment. For more information about the scenarios supported in this sample application, see [Unified Service Desk 365 Unified Interface package](../../unified-service-desk/admin/unified-service-desk-dynamics-365-unified-interface-package.md)<br><br> **Note:** The Unified Interface sample application is available for use from [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)].                                                                                                                                                                                                                                                                                                                                                                         |
 | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |                                                                                                          This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] solutions. [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant rules.<br><br> **Note:** This package is available separately for [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or lower versions until [!INCLUDE [pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)].                                                                                                          |
 
 <a name="Deploy"></a>   
@@ -129,6 +137,6 @@ manager: sakudes
 
 
 ## See also  
- [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](../../admin/deploy-packages-using-package-deployer-windows-powershell.md)   
+ [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
 

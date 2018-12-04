@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 79e49782-edd1-41ef-b110-2c2ed0771058
 caps.latest.revision: 62
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Configure Azure integration with Dynamics 365 Customer Engagement
 

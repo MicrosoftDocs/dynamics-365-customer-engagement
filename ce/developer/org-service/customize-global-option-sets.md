@@ -13,6 +13,10 @@ ms.assetid: 6786ff10-0e38-4f5c-b973-c682d1d60de5
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Customize global option sets
 

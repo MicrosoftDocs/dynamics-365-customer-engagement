@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: a3008ed8-a934-4790-9979-43be7b5e7aaf
 author: JimDaly
@@ -30,6 +30,10 @@ helpviewer_keywords:
   - "samples for working with solutions, installing or upgrading solutions"
   - "working with solutions samples"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Work with solutions

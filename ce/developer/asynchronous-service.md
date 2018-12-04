@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 1a668103-29aa-40d1-877a-263487ba3be1
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Asynchronous service in Dynamics 365 Customer Engagement
 

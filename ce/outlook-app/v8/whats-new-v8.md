@@ -2,24 +2,42 @@
 title: "Dynamics 365 App for Outlook User's version 8.2"
 description: "Updates to Dynamics 365 App for Outlook version 8.2."
 ms.custom: ""
-ms.date: 05/21/2018
+ms.date: 07/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"  
+  - "Dynamics 365 (online)"
   - "Dynamics 365 Version 8.x"
 ms.assetid: db584cf3-6662-46507a8e5-8b30a668e9aa
 caps.latest.revision: 99
 author: "mkaur"
 ms.author: "mkaur"
 manager: "brycho"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # What's new with Dynamics 365 App for Outlook version 8.2
 
 [!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
+
+### July 12, 2018 
+1. Addressed bug fixes. 
+
+### June 14, 2018 
+1. Fix for appointment attachments not synchronizing from Outlook to Dynamics 365. 
+2. Addressed other bug fixes.
+
+### May 20, 2018 
+1. [Experience App for Outlook as a pinnable taskpane.](dynamics-365-app-outlook-user-s-guide-v8.md) 
+2. Address reliability fixes. 
 
 ### May 5, 2018
 

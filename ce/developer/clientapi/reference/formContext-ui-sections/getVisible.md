@@ -8,6 +8,10 @@ ms.assetid: 8b145597-1b8c-4208-94f3-4e88b3c49582
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getVisible (Client API reference)
 

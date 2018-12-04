@@ -1,7 +1,7 @@
 ---
 title: "UIA property list in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about UIA property list in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: c8e19ae7-f240-4eed-b607-6c8e2d69e1ed
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # UIA property list in Unified Service Desk
 The following is a list of the UIA properties:  

@@ -14,6 +14,10 @@ ms.assetid: a3954fc9-6b40-4b7d-ba6e-51c50e004723
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create and update an emailable entity
 

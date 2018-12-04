@@ -9,6 +9,10 @@ ms.assetid: a04043de-3497-433a-ae73-4101806dd931
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # formContext.ui.quickForms (Client API reference)
 

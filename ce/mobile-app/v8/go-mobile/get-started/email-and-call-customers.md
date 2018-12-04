@@ -19,6 +19,13 @@ ms.assetid: d004982d-3fe4-49a5-9df5-6949118451d4
 caps.latest.revision: 28
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Email and call customers in Dynamics 365 for phones and tablets
 

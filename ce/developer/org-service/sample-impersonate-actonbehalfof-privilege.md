@@ -6,12 +6,16 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: c484a6b6-e3ca-4eae-a734-68e8d38db501
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Impersonate using the ActOnBehalfOf privilege

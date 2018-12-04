@@ -2,7 +2,7 @@
 title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,10 @@ caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Multi-Select Picklist attributes
 
@@ -22,6 +26,8 @@ manager: "amyla"
 
 > [!NOTE]
 > Multi-select picklist attributes were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
+>
+> Clients that do not use the current .NET assemblies need to include <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion> with a value of `9.0.0.0` or higher in order to work with <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion>.
 
 Customizers can define an attribute that allows selection of multiple options. The <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> class defines an attribute type that inherits from the <xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata> class. Just like the <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata> class, this attribute includes an <xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadata> <xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadata.Options> property that contains the valid options for the attribute. The difference is that the values you get or set are an <xref:Microsoft.Xrm.Sdk.OptionSetValueCollection> type that contains an array of integers representing the selected options. Formatted values for this attribute are a semi-colon separated string containing the labels of the selected options.
 

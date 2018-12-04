@@ -1,27 +1,28 @@
 ---
-title: "Schedule a project with a work breakdown structure (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Schedule a project with a work breakdown structure (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to schedule a project with a work breakdown structure in Project Service
 author: krbjoran
-ms.assetid: fd065c58-fee1-4810-898c-145c6e487087
-caps.latest.revision: 12
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# Schedule a project with a work breakdown structure (Project Service Automation)
+# Schedule a project with a work breakdown structure (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 A project schedule communicates what work needs to be performed, which resources will perform the work, and the timeframe in which that work needs to be completed. The project schedule reflects all the work associated with delivering the project on time. One of the first steps in the initiation phase of the project is to come up with a project schedule. To establish a project schedule, you need to create a work breakdown structure.  
   
@@ -143,4 +144,4 @@ You’ll use the following types of tasks when creating your work breakdown stru
 7.  Click **Save** at the bottom right corner of the screen when you’re done making changes.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project manager guide](../project-service/project-manager-guide.md)

@@ -1,8 +1,8 @@
 ---
-title: "Change custom entity icons in PowerApps | MicrosoftDocs"
+title: "Change custom entity icons in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 definition: "Learn how to change the icon for a custom entity"
 ms.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,18 +11,21 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 477f9792-8207-49ef-8968-45274b5355a8
 caps.latest.revision: 19
 ms.author: "matp"
 manager: "kvivek"
 tags: 
- - "Links to topic not migrated"
+  - "Links to topic not migrated"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Change icons for custom entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 When you create a custom entity, it is automatically assigned a default icon, and all custom entities by default use the same icon. If your organization has several custom entities, it can be helpful to change the icon associated with one or more custom entities to help users differentiate them.  
   

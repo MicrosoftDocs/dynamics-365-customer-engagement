@@ -8,6 +8,10 @@ ms.assetid: dff20ae0-c9ec-4413-9cd1-0ff77639ad91
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Save event arguments (Client API reference)
 

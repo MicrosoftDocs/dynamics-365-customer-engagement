@@ -18,6 +18,10 @@ caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Distribute a quick campaign
 

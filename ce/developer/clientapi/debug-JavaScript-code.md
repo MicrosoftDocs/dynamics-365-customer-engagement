@@ -5,10 +5,14 @@ ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: 3edad039-4397-4984-a29b-9307a7a2aaee 
+ms.assetid: 3edad039-4397-4984-a29b-9307a7a2aaee
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Debug your JavaScript code for Customer Engagement
 

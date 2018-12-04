@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 (on-premises)"
 ms.assetid: f3492a19-2a93-4477-853f-ee6bd3ea750d
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Stop and start the asynchronous service
 

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "enabling and disabling auditing, default settings for enabled auditing"
   - "configuring entities and attributes for auditing, auditable entities"
   - "configuring entities and attributes for auditing, difference between enabling for different levels"
-  - "auditing, see 'auditing entity data changes in Microsoft Dynamics CRM'"
+  - auditing, see 'auditing entity data changes in Microsoft Dynamics CRM'
   - "enabling and disabling auditing, auditable entities"
   - "configuring entities and attributes for auditing, default settings for enabled auditing"
   - "auditing levels, descriptions of the three levels"
@@ -29,6 +29,10 @@ caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Configure entities and attributes for auditing
 

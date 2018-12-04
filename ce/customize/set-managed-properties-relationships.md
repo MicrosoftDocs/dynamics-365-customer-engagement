@@ -18,10 +18,14 @@ caps.latest.revision: 33
 ms.author: "matp"
 manager: "kvivek"
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Set managed properties for relationships
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_ManagedProperties"></a>   
 

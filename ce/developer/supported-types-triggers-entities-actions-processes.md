@@ -15,6 +15,10 @@ caps.latest.revision: 33
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Supported types, triggers, entities, and actions for processes
 

@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: ccc4abde-9e4b-427a-a98c-c2b6bfce1195
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Work with Customer Engagement data in your Azure solution
 

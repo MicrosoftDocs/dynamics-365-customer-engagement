@@ -1,7 +1,7 @@
 ---
 title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to configure web form properties for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/29/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: bb532e07-356f-4dc1-adcb-1de2efcc6149
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Define web form properties for portals
 

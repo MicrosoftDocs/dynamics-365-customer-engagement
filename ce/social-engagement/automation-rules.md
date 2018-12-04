@@ -5,15 +5,22 @@ keywords: "automation rule, automated task"
 ms.date: 01/24/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 8be7abf8-618b-4788-91cb-b992ca3fbf8d
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Route posts using automation rules
@@ -74,7 +81,7 @@ The following section explains more about the available actions for automation r
 Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md), [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
 <a name="assignAutomation"></a>   
-### Assign posts to a user or a group in Social Engagement  
+### Assign posts to a user or a group in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
 Automatically assign posts that match your defined filters to a user or a group in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can assign every post with a purchase intention to your sales team to follow up on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
 <a name="set_label"></a>   
@@ -106,11 +113,11 @@ You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-
   
 1. Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
   
-2. Set a custom timeframe for the period you want to review for missed posts.  
+2. Set a custom time frame for the period you want to review for missed posts.  
   
 3. Click the filter icon and add a **Link to Dynamics 365** filter. Set its value to **Not linked to a Dynamics 365 record**.  
   
-   All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instanceand you can manually link them.  
+   All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and you can manually link them.  
   
 4. Open the post list and click **Link to Dynamics 365** ![Link to Dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
@@ -127,13 +134,13 @@ Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_
   
 3. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings** > **Global Settings** > **Connections** > **Azure Event Hubs**.  Check the connection string and the name of the event hub and make sure they match exactly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with events from Social Engagement in Azure Event Hubs](work-with-event-hubs.md)  
   
-**Identify missed psots**  
+**Identify missed posts**  
   
 Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can quickly find how many posts were missed.  
   
 1.  Open the automation rule with the **Stream to Event Hubs** actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
   
-2.  Set a custom timeframe for the time period you want to review for missed posts. This shows the number of posts that should show as individual events in the event hub.  
+2.  Set a custom time frame for the time period you want to review for missed posts. This shows the number of posts that should show as individual events in the event hub.  
   
 3.  Compare the number of posts resulting in step 2 with the actual results showing in the event hub.  
   
@@ -200,12 +207,12 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 4.  Confirm your deletion.  
   
 <a name="quick_create"></a>   
-## Quickly create an automation rule while working in Social Engagement  
-When working with data sets in Social Engagement, you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
+## Quickly create an automation rule while working in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
+When working with data sets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
 <a name="conflicting_rules"></a>   
-## How Social Engagement handles conflicting automation rules  
-A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, Social Engagement will execute the actions from the rule that was added most recently.  
+## How [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] handles conflicting automation rules  
+A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will execute the actions from the rule that was added most recently.  
   
 > [!CAUTION]
 >  If a post matches the filters for multiple automation rules, only the last created (the newest) automation rule will process the post.  

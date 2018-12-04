@@ -1,7 +1,7 @@
 ---
 title: "Replacement parameters in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: fbef0bd3-e118-4a5b-8568-897538972066
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Replacement parameters in Unified Service Desk
 
@@ -50,7 +56,7 @@ Replacement parameters can be used throughout the application to pull data from 
   
 - `[[$User.fullname]]`  
   
-  These values will change as the user interacts in the the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Action calls will pick up the current value and use in its parameter list, or wherever else it may be used. Any time the variables are updated, a **NotifyContextChange** event is fired in the base controls even if the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context didn’t change itself. This allows features like the Session Lines to recheck the values of the replacement parameters to see if it needs to update its display.  
+  These values will change as the user interacts in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Action calls will pick up the current value and use in its parameter list, or wherever else it may be used. Any time the variables are updated, a **NotifyContextChange** event is fired in the base controls even if the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context didn’t change itself. This allows features like the Session Lines to recheck the values of the replacement parameters to see if it needs to update its display.  
   
 <a name="SystemReplacementParameters"></a>   
 ## System Replacement Parameters  

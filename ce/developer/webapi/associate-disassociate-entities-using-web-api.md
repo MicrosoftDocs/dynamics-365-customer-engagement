@@ -15,6 +15,10 @@ caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Associate and disassociate entities using the Web API
 

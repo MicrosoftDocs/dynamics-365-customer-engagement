@@ -13,12 +13,17 @@ applies_to:
 author: "jimholtz"
 ms.assetid: 5355ef54-ce27-4383-bf21-1419c71f4cc4
 caps.latest.revision: 29
-ms.author: "rdubois"
-manager: "brycho"
+mms.author: "jimholtz"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   

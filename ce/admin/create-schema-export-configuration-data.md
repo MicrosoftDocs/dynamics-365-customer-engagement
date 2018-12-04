@@ -13,12 +13,17 @@ applies_to:
 author: "jimholtz"
 ms.assetid: 61660b0d-4628-436d-804c-d2538be2813e
 caps.latest.revision: 15
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create a schema to export configuration data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The Configuration Migration tool lets you build a schema to describe your export data. It also enables you to check for any missing dependencies and relationships in the entities or fields to be exported to avoid an inconsistent data set.  
   

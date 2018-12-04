@@ -5,14 +5,21 @@ keywords: "author management, delete author, block author, export author informa
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 9404a5d0-f5c8-48b4-b1c7-1ea56125fcdc
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage an author's data

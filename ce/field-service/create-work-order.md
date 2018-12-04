@@ -1,6 +1,6 @@
 ---
 title: "Create a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 9279d5ba-505c-4cf3-9e3f-1436ab7f52a4
 caps.latest.revision: 24
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Create a work order to coordinate and schedule resources and activities (Field Service)
 

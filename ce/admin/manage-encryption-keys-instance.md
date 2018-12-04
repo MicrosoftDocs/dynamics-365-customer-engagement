@@ -2,11 +2,11 @@
 title: "Manage the encryption keys for your Dynamics 365 (online) instance | MicrosoftDocs"
 description: "Learn how you can manage database encryption keys for your instance."
 keywords: "encrypt"
-ms.date: 12/12/2017
+ms.date: 11/26/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 8.2"
 ms.assetid: 47bbbe8f-7839-475d-a844-632aa33fae51
@@ -18,11 +18,16 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 4
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Manage the encryption keys
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to Dynamics 365 (online), version 8.2
 
 All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
   

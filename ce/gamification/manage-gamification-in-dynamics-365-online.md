@@ -5,15 +5,22 @@ keywords: "install, solution, manage, uninstall"
 ms.date: 04/18/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Install and configure the Gamification solution in Dynamics 365 (online)

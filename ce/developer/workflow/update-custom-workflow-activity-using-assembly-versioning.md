@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 195362cb-792a-4a02-a2bb-852aa431706f
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Update a custom workflow activity using assembly versioning
 

@@ -17,10 +17,14 @@ ms.assetid: 72bacfbb-96a3-4daa-88ff-11bdaaac9a3d
 caps.latest.revision: 57
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Use the solution explorer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  
   

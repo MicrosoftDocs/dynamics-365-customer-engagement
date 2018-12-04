@@ -5,15 +5,22 @@ keywords: ""
 ms.date: 11/10/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 7341ed32-5cf7-4bde-ab7a-d92c2b86e2a1
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Gamification help and training

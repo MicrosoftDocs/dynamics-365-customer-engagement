@@ -28,6 +28,10 @@ caps.latest.revision: 82
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Introduction to activity feeds
 

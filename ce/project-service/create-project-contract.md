@@ -1,27 +1,28 @@
 ---
-title: "Create a project contract (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Create a project contract (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create a project contract in Project Service
 author: krbjoran
-ms.assetid: 6a0a248d-da9b-4bb5-93d7-8219ac0d8a41
-caps.latest.revision: 12
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# Create a project contract (Project Service Automation)
+# Create a project contract (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Now that you’ve won the quote for your project, it’s time to create a contract with your customer and make it official. You can create one or more contracts for each quote. When you’re creating a contract, you’re in the **Contract** phase of your project.  
   

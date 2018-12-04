@@ -1,7 +1,7 @@
 ---
 title: "Subscribe to alerts on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create and manage alerts in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 1d0b49f7-46ce-4598-bb0f-aa7f8218a92c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Subscribe to alerts
 

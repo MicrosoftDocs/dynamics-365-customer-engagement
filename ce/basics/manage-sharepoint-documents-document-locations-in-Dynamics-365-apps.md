@@ -5,14 +5,18 @@ keywords: "document, SharePoint, share, manage"
 ms.date: 10/24/2017
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 247ced8f-f79f-4447-8690-3c22c1489544
-author: brycho
-ms.author: brycho
-manager: amyla
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 topic-status: Editing
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 
 # Manage your SharePoint documents and document locations from Dynamics 365

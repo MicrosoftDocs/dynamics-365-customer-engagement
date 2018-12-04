@@ -1,1 +1,0 @@
-Asynchronously retrieves the business process flows enabled for an entity that the current user can switch to.

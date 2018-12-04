@@ -14,6 +14,10 @@ caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create and retrieve Outlook filters
 

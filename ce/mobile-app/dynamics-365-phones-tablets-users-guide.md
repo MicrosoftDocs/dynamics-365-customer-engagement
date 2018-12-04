@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/24/2018
+ms.date: 08/15/2018
 ms.reviewer: "kvivek"
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,11 +9,18 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"  
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # User Guide (Dynamics 365 for phones and tablets)
@@ -35,7 +42,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin.
 
-1.  Open your app, enter your Dynamics 365 web address, and tap ![Dynamics Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics Dynamics 365 for phones and tablets continue sign").
+1.  Open your app, enter your Dynamics 365 web address, and tap ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
 
     ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
 
@@ -59,6 +66,10 @@ You can sign in again as the same or a different user, or you can sign in to a d
 2. Select the App that you want to work with.
 
 ![Choose an app](media/ChooseAnApp.png "Choose an app")
+
+**Screen orientation**
+
+For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for phones and Dynamics 365 for tablets apps cannot be changed. 
 
 **The navigation bar**
 

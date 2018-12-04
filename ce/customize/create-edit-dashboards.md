@@ -1,7 +1,7 @@
 ---
 title: "Create or edit dashboards | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,15 +10,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 ms.assetid: 641885d2-4a08-41b8-b914-d9a244e4d5b1
 caps.latest.revision: 10
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit dashboards
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
 There are two types of dashboards, user dashboards and system dashboards. Any user can create a dashboard visible only to them in their work area such as Sales, Service, or Marketing. An admin or customizer creates or customizes system dashboards that, when published, are visible to everyone in the organization. A user can choose to set their user dashboard as their default dashboard and override the system dashboard. This topic focuses on system dashboards.  
   

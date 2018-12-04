@@ -8,6 +8,10 @@ ms.assetid: 9a8802ad-80aa-4386-a192-573280587546
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # isDefaultPrevented (Client API reference)
 

@@ -1,25 +1,26 @@
 ---
-title: "White papers - Dynamics 365 for Project Service Automation | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: White papers for Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
+description: A collection of white papers for Project Service
 author: krbjoran
-ms.assetid: 2cd17b73-9ebb-4df7-9854-86e42087b518
-caps.latest.revision: 9
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# White papers for Project Service Automation
+# White papers for Project Service
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,4 +39,4 @@ These white papers are designed to provide in-depth information for [!INCLUDE[pn
 -   [Resource management for project service](http://go.microsoft.com/fwlink/?LinkId=825244)  
   
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)
+ [Overview of Project Service](../project-service/overview.md)

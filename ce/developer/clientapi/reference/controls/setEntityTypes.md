@@ -8,6 +8,10 @@ ms.assetid: 93154168-1e9f-4849-b4bb-be8804f86f81
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setEntityTypes (Client API reference)
 

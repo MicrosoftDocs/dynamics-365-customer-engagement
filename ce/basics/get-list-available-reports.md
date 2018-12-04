@@ -15,6 +15,10 @@ caps.latest.revision: 13
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Get a list of available reports
 

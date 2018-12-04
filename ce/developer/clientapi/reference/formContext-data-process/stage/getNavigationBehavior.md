@@ -1,6 +1,6 @@
 ---
 title: "getNavigationBehavior (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 01/22/2018    
+ms.date: 01/22/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -8,6 +8,10 @@ ms.assetid: 649fe7b0-016d-409f-ba3c-b14e0f1953e0
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getNavigationBehavior (Client API reference)
 

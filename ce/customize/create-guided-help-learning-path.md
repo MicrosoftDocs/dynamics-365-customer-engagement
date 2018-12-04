@@ -5,13 +5,17 @@ keywords: ""
 ms.date: 10/25/2017
 ms.service: dynamics-365
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
 author: udaykirang
 ms.author: udag
 manager: sakudes
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Create your own guided help (Learning Path) for your customers

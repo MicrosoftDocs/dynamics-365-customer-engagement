@@ -1,1 +1,0 @@
-Sets a **Process** as the active process.

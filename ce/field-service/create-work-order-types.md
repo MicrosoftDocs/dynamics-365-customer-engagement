@@ -1,6 +1,6 @@
 ---
 title: "Create work order types (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 26e4d82d-94a3-4353-a5fc-2b0553623861
 caps.latest.revision: 14
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Create work order types (Field Service)
 

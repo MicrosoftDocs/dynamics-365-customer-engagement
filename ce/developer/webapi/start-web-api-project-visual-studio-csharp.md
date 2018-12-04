@@ -15,6 +15,10 @@ caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Start a Dynamics 365 Web API project in Visual Studio (C#)
 

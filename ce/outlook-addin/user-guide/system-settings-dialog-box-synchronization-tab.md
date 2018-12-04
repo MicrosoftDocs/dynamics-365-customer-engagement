@@ -17,6 +17,13 @@ caps.latest.revision: 23
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # System Settings dialog box - Synchronization tab
 Use the settings on this page to determine how data is synchronized between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. For example, you can control synchronization between pairs of fields or enable or disable synchronization of additional mailing addresses, assigned tasks, or appointment attachments.  

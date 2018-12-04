@@ -8,6 +8,10 @@ ms.assetid: 03e05957-b48b-4387-9133-d573847e700b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getViewSelector (Client API reference)
 

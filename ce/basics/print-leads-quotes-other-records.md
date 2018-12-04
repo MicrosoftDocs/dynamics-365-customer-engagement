@@ -14,6 +14,10 @@ ms.assetid: d807028a-0847-4bd0-94bb-61cd2fe4017d
 caps.latest.revision: 9
 ms.author: "anbichse"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Print leads, quotes, and other records
 

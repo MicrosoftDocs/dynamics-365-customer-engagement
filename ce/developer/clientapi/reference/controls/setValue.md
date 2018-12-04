@@ -8,6 +8,10 @@ ms.assetid: 3fae9b24-adf8-41bb-86a4-8959bf3fcf8b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setValue (Client API reference)
 

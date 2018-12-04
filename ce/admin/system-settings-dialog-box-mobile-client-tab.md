@@ -15,10 +15,15 @@ caps.latest.revision: 1
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # System Settings dialog box - Mobile Client tab
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Use the settings on this page to...
 

@@ -935,7 +935,7 @@ Namespace Microsoft.Crm.Sdk.Samples
      Console.WriteLine()
 
      ' *****************************************************************************
-     '    LNQ        Using a a picklist to order by
+     '    LNQ        Using a picklist to order by
      ' *****************************************************************************
 
      Console.WriteLine()

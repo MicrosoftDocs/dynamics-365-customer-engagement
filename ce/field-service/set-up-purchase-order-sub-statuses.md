@@ -1,6 +1,6 @@
 ---
 title: "Set up purchase order sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 531e9570-9d0b-4239-acef-a2237440d903
 caps.latest.revision: 14
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up purchase order sub-statuses to track purchase order status more precisely (Field Service)
 

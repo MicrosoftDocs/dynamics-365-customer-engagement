@@ -5,7 +5,7 @@ keywords: "Auto-number attributes"
 ms.date: 06/13/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "CRM 2017"
   - "Dynamics 365"
 ms.assetid: e97477d2-5509-9f5e-76e0-e0039b2e72c8
@@ -13,6 +13,10 @@ author: kabala123
 ms.author: kabala
 manager: kudesia
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Create auto-number attributes

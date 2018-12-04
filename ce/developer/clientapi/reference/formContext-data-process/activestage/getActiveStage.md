@@ -8,6 +8,10 @@ ms.assetid: 57a17f91-38f2-4666-bd23-0b7c63b0516f
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getActiveStage (Client API reference)
 

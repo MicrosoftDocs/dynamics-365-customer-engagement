@@ -19,6 +19,13 @@ caps.latest.revision: 13
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Customize the Reading Pane in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], you can choose the sections in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are displayed in the Reading Pane so that you don't have to open the record to see the details.  

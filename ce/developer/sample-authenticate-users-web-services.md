@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3bde1482-60d4-489b-8379-49d3bc2f4abc
 author: JimDaly
@@ -20,6 +20,10 @@ helpviewer_keywords:
   - "authenticating users with Microsoft Dynamics CRM web services, authentication sample"
   - "sample for authenticating users with Microsoft Dynamics CRM web services"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Authenticate users with Dynamics 365 web services

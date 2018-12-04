@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: d5483d27-ee03-428f-ad70-2765765ae262
 author: JimDaly
@@ -20,6 +20,10 @@ helpviewer_keywords:
   - "performing a bulk deletion of exported records sample"
   - "sample for performing a bulk deletion of exported records"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Bulk delete exported records

@@ -1,6 +1,6 @@
 ---
 title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 5a02d87a-56f4-47e8-ab2d-5d816e60dc8a
 caps.latest.revision: 21
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up customer agreements so you can automatically generate work orders and invoices (Field Service)
 
@@ -76,7 +83,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
     -   If you choose to have the system auto-generate work orders, then choose how many days in advance to **Generate Work Order Days in Advance**. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare.  
   
-    - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Time Window Start** and **Time Date Window End** fields that aid the schedule assistant.  
+    - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields that aid the schedule assistant.  
   
     -   The **Priority** will pass down to every work order that is generated from this agreement schedule.  
   

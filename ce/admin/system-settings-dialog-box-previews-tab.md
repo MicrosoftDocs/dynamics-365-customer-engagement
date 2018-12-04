@@ -6,7 +6,7 @@ ms.date: 06/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 85cbd3ee-6a08-4ee2-876f-b4a5039dbbde
@@ -18,11 +18,16 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # System Settings dialog box - Previews tab
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Use the settings on this page to enable preview features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
   

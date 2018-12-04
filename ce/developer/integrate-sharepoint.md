@@ -15,6 +15,10 @@ caps.latest.revision: 52
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Integrate Dynamics 365 Customer Engagement with SharePoint
 

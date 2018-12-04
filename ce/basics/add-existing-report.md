@@ -15,6 +15,10 @@ caps.latest.revision: 25
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Add a report from outside Dynamics 365 Customer Engagement
 

@@ -1,27 +1,28 @@
 ---
-title: "Sign in (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Sign in (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to sign in to Project Service
 author: krbjoran
-ms.assetid: 3843007b-863a-48fc-9ed0-2dbf9a56eb0a
-caps.latest.revision: 14
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# Sign in (Project Service Automation)
+# Sign in (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, you need to have the following information from your Dynamics 365 administrator:  
   

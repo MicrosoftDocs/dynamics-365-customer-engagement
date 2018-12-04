@@ -1,6 +1,6 @@
 ---
 title: "Configure the schedule board (Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Configure the schedule board for resource availability (Field Service)
 
@@ -71,7 +78,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
    - **Teams** filters by teams that have been set up.  
   
-   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-unit-control-access-records.md)  
+   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-units.md)  
   
 ### Set default filters  
  ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
@@ -139,7 +146,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ## Configure Booking Requirements  
  The booking requirements area is shown at the bottom of the schedule board and lists all unscheduled bookings. You can easily drag and drop unscheduled bookings from the list onto the schedule board.  
   
- You can also right-click on an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
+ You can also select an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
   
 -   Go to the list of existing unscheduled booking requirements in the lower pane of the schedule board.  
   

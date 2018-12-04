@@ -2,14 +2,13 @@
 title: "Create a site map for an app in PowerApps | MicrosoftDocs"
 description: "Learn how to create a site map for you app"
 keywords: ""
-ms.date: 04/05/2018
+ms.date: 11/28/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 2461bd71-6cb4-46b7-8d1f-6a0aa3dca809
 ms.author: "matp"
@@ -19,11 +18,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 18
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Create a site map for an app using the site map designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. Use the designer to drag components onto the design canvas, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
   

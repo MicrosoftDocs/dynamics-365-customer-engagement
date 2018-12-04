@@ -7,7 +7,7 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [">= dynamics-usd-3"],
       "xref_query_tags": [
         "/dotnet",
         "/dynamics365/customer-engagement/web-api"
@@ -69,30 +69,15 @@
           "ReferenceTOCUrl": "/dotnet/api/usd-3-dotnet/toc.json"
         }
       ]
-    },
-    {
-      "docset_name": "powerapps-cds-docs",
-      "build_source_folder": "powerapps-cds",
-      "build_output_subfolder": "powerapps-cds-docs",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement",
-  "git_repository_branch_open_to_public_contributors": "live",
+  "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -119,6 +104,10 @@
   ],
   "branch_target_mapping": {
     "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "JimHoltzMatp": [
       "Publish",
       "Pdf"
     ]

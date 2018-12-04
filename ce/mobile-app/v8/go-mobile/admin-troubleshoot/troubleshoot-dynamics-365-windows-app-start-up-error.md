@@ -19,6 +19,13 @@ ms.assetid: 66361a6d-4cac-40a0-acf4-95669a2ae97b
 caps.latest.revision: 33
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Troubleshoot a Dynamics 365 for Windows app start-up error
 

@@ -8,6 +8,10 @@ ms.assetid: 09fd288c-d687-4976-b708-29a466fc35b1
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # removeOption (Client API reference)
 

@@ -5,15 +5,22 @@ keywords: ""
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 31346f85-42c9-4675-a8dd-062da7b94d4f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Manage Stream TV games in Gamification

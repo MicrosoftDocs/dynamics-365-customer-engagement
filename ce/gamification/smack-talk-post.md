@@ -1,7 +1,7 @@
 ---
 title: "Smack Talk in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Brag about your wins and rank on the leaderboard by posting on the smack talk board."
-ms.custom:
+ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
@@ -15,6 +15,13 @@ caps.latest.revision: 13
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 # Post on the smack talk board in Gamification
 

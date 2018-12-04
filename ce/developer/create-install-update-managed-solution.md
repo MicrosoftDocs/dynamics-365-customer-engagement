@@ -23,6 +23,10 @@ caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create, install, and update a managed solution
 

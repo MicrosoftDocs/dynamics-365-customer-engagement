@@ -1,8 +1,8 @@
 ---
-title: "Create N:N (many-to-many) relationships in PowerApps | MicrosoftDocs"
+title: "Create N:N (many-to-many) relationships in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create many-to-may relationships"
 ms.custom: ""
-ms.date: 04/03/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,17 +11,20 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 248cecfd-c9e8-430b-b4b0-860669866084
 caps.latest.revision: 33
 ms.author: "matp"
 manager: "kvivek"
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create N:N (many-to-many) relationships
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
 

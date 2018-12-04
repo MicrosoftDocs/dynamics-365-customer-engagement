@@ -13,6 +13,11 @@ ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Publish custom channel on AppSource
 

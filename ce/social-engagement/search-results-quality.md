@@ -2,18 +2,25 @@
 title: "Manage the quality of your search results in Social Engagement | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
 keywords: "block content, block authors"
-ms.date: 02/01/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 302a0005-c7b0-4247-8d2d-663685716b75
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage the quality of your search results
@@ -127,7 +134,7 @@ You can perform quality management over the entire application by blocking irrel
   
 - Exclude authors who publish irrelevant posts that match one of your search topics.  
   
-- Get additional post quota. Ask your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin to add more posts to your solution’s quota in the [Office 365 admin center](https://portal.office.com/).  
+-   [Get additional post quota](manage-post-quota.md). Ask your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin to add more posts to your solution’s quota in the [Office 365 admin center](https://portal.office.com/).  
   
 ### Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

@@ -15,11 +15,15 @@ caps.latest.revision: 7
 author: "Mattp123"
 ms.author: "matp"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Work with Dynamics 365 reports
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This section describes the different features that are available to determine how reports display in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

@@ -15,6 +15,10 @@ caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Authenticate to Dynamics 365 Customer Engagement with the Web API
 

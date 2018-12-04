@@ -1,7 +1,7 @@
 ---
 title: "Copyright | Microsoft Docs"
 description: "Review the copyright for this documentation."
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
@@ -14,6 +14,13 @@ author: ReneeW-CPub
 ms.author: renwe
 manager: renwe
 ms.service: dynamics-365-marketing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 # Copyright
 [!INCLUDE[cc_copy_doc_provided_as_is](../includes/cc-copy-doc-provided-as-is.md)]  

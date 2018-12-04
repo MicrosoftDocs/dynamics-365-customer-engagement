@@ -1,1 +1,0 @@
-Gets display state of the tab.

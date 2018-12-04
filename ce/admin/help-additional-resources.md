@@ -15,16 +15,21 @@ caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Help and additional resources
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 > [!NOTE]
 > To contact technical support, see:
-> - [Enter a support request through the new support center](contact-technical-support.md#enter-a-support-request-through-the-new-support-center)
+> - [Enter a support request through the new support center](https://docs.microsoft.com/power-platform/admin/get-help-support)
   
 <a name="help_for_admins"></a>  
  
@@ -56,7 +61,7 @@ There are several resources available to you covering planning, operating, and u
 
 ## Microsoft Dynamics 365 (online) Trust Center 
  
- [The Microsoft Dynamics 365 (online) Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ [The Microsoft Dynamics 365 (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
    
 <a name="support_and_service"></a>   
 

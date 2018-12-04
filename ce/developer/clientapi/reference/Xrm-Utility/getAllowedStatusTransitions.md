@@ -8,6 +8,10 @@ ms.assetid: 28c36741-0070-435c-a42f-49f4dda2ef7f
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # getAllowedStatusTransitions (Client API reference)

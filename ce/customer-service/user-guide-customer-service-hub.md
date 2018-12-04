@@ -1,17 +1,23 @@
 ---
 title: User Guide (Dynamics 365 for Customer Service) | Microsoft Docs
-description: Understand Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+description: Guide to know and understand the Customer Service Hub for Customer Service in Microsoft Dynamics 365
+keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365; User guide
 author: anjgupta
-applies_to: Dynamics 365 (online) 
+applies_to: Dynamics 365 (online)
 ms.author: anjgup
-manager: shellyha
-ms.date: 02/20/2018
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # User Guide (Customer Service Hub)
@@ -20,7 +26,7 @@ ms.custom:
 
 Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
 
-The Customer Service Hub in Microsoft Dynamics 365 is optimized for the Customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
+The Customer Service Hub in Microsoft Dynamics 365 is optimized for the customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
 
 Customer Service Hub is based on the Unified Interface framework. Some of the key highlights are:
 
@@ -49,9 +55,11 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
   
 [Use SLA on the Customers Service Hub records](customer-service-hub-user-guide-case-sla.md#use-sla-on-the-customer-service-hub-records)
   
-[Reduce call handling times with Knowledge Articles](customer-service-hub-user-guide-knowledge-article.md)
+[Reduce call handling times with knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
+
+[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
 
 ## Accessibility and GDPR
 
@@ -71,4 +79,4 @@ Refer below to know how the Customer Service Hub app complies to accessibility a
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)
 
-[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md)

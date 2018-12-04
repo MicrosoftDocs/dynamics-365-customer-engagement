@@ -15,6 +15,10 @@ caps.latest.revision: 29
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Retrieve and detect changes to metadata
 

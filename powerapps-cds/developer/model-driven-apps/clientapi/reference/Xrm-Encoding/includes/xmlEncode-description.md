@@ -1,1 +1,0 @@
-Applies XML encoding to a string.

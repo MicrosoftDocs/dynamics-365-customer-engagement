@@ -18,6 +18,10 @@ caps.latest.revision: 56
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Azure extensions for Dynamics 365 Customer Engagement
 

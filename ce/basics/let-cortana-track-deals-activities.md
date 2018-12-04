@@ -6,7 +6,7 @@ ms.date: 09/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9c21a26c-e500-4667-aa50-676a59b63d9e
@@ -18,6 +18,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 8
 topic-status: Drafting
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 
 # Preview feature: Let Cortana help you track your Dynamics 365 deals and activities 

@@ -14,6 +14,10 @@ ms.assetid: dee40fe5-1942-4521-986f-714edfd36433
 caps.latest.revision: 37
 ms.author: "anbichse"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Import accounts, leads, or other data
 

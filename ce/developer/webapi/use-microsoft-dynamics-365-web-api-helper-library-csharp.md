@@ -14,6 +14,10 @@ ms.assetid: ba9d94fe-d189-4873-aef5-0010f3ccecba
 caps.latest.revision: 7
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the Dynamics 365 Web API Helper Library (C#)
 

@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) Sandbox instances | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 11/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,17 +14,24 @@ ms.assetid: cc85ee44-cbbd-4b0d-ae00-84cc0673527b
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage Sandbox instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
   
 > [!NOTE]
->  With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
-> 
+> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
+>
+> Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
+
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
   
@@ -42,6 +49,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
    On the **Manage your Dynamics 365 instances** page, you’ll see a list of all your instances.  
   
 <a name="BKMK_Reset"></a>   
+
 ## Reset a Sandbox instance  
  You can reset a Sandbox instance to delete and re-provision it. Consider a reset when you want to:  
   
@@ -54,10 +62,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 - Remove an instance containing Personally Identifiable Information (PII) data  
   
 > [!NOTE]
-> - You can only reset Sandbox instances.  
-> - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Reset](http://youtu.be/nJDyuFdh0Nk).  
-> 
->     This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
+> You can only reset Sandbox instances.  
   
  **An example scenario**  
   

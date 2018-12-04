@@ -4,10 +4,10 @@ description: "Add planning and campaign activities to a campaign to make it succ
 keywords: "Campaign Activities, Campaign, Quick Campaign, Distribute"
 ms.date: 05/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8b0e36fe-695d-44bb-9fe3-de3819bc894d
@@ -19,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 51
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Add an activity to a campaign using in-app marketing (Sales)

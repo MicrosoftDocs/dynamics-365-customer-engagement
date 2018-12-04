@@ -2,7 +2,7 @@
 title: "Event execution pipeline (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The messages that contains business entity information and core operation information which are passed through the event execution pipeline where it can be read or modified by the platform core operation and any registered plug-ins. "
 ms.custom: ""
-ms.date: 12/03/2017
+ms.date: 12/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,10 @@ caps.latest.revision: 42
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Event execution pipeline
 
@@ -43,7 +47,7 @@ The event execution pipeline processes events either synchronously or asynchrono
 
 ## Pipeline stages
 
-The event pipeline is divided into multiple stages, of which three are available to register custom developed or 3rd party plug-ins. Multiple plug-ins that are registered in each stage can be further be ordered (ranked) within that stage during plug-in registration.  
+The event pipeline is divided into multiple stages, of which three are available to register custom developed or 3rd party plug-ins. Multiple plug-ins that are registered in each stage can be further ordered (ranked) within that stage during plug-in registration.  
 
 
 |          Event          |   Stage name   | Stage number |                                                                                                                                                                                    Description                                                                                                                                                                                    |
@@ -71,7 +75,9 @@ Because a single [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] ser
 
 ## Inclusion in database transactions
 
-Plug-ins may or may not execute within the database transaction of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform. Whether a plug-in is part of the transaction is dependent on how the message request is processed by the pipeline. You can check if the plug-in is executing in-transaction by reading the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsInTransaction> property inherited by <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> that is passed to the plug-in. If a plug-in is executing in the database transaction and allows an exception to be passed back to the platform, the entire transaction will be rolled back. Stages 20 and 40 are guaranteed to be part of the database transaction while stage 10 may be part of the transaction.  
+Plug-ins registered to run asynchronously do not participate in database transactions.
+
+Synchronous plug-ins may or may not execute within the database transaction of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform. Whether a plug-in is part of the transaction is dependent on how the message request is processed by the pipeline. You can check if the plug-in is executing in-transaction by reading the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsInTransaction> property inherited by <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> that is passed to the plug-in. If a plug-in is executing in the database transaction and allows an exception to be passed back to the platform, the entire transaction will be rolled back. Stages 20 and 40 are guaranteed to be part of the database transaction while stage 10 may be part of the transaction.  
 
 Any registered plug-in that executes during the database transaction and that passes an exception back to the platform cancels the core operation. This results in a rollback of the core operation. In addition, any pre-event or post event registered plug-ins that have not yet executed and any workflow that is triggered by the same event that the plug-in was registered for will not execute.  
 

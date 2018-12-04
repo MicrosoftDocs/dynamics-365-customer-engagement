@@ -14,6 +14,13 @@ ms.assetid: 249b15b0-e4fc-43e9-b28a-f933022b7168
 caps.latest.revision: 7
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Publish a mobile offline profile
 

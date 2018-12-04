@@ -1,6 +1,6 @@
 ---
 title: "Set up RTV sub-statuses  (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: a7ecdd69-392e-4b2a-9c95-a9e4fed0c8fb
 caps.latest.revision: 13
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up RTV sub-statuses to specify return status more precisely (Field Service)
 

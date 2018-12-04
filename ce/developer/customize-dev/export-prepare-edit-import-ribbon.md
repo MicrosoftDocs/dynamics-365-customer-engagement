@@ -19,6 +19,10 @@ caps.latest.revision: 36
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Export, prepare to edit, and import the ribbon
 

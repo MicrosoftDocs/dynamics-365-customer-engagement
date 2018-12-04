@@ -15,6 +15,10 @@ caps.latest.revision: 17
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use messages with the ExecuteCrmOrganizationRequest method
 

@@ -41,6 +41,10 @@ caps.latest.revision: 42
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Email activity entities
 

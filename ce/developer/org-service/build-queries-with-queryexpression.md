@@ -29,6 +29,10 @@ caps.latest.revision: 48
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Build queries with QueryExpression
 

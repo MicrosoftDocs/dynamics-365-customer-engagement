@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 68a5e1da-7432-4520-a9df-72372ddb8a20
 author: JimDaly
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 21
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Set the state of a workflow

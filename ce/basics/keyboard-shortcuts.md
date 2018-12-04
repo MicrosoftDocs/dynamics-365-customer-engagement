@@ -12,8 +12,12 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
-ms.custom:
+ms.custom: 
   - dyn365-a11y
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 
@@ -179,7 +183,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 [Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
 
-[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
+[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 

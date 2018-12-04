@@ -14,6 +14,10 @@ ms.assetid: 69ee2add-7ec7-445f-a075-ac89c614e8a9
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Next steps: Submit your app on Cloud Partner Portal
 

@@ -13,12 +13,17 @@ applies_to:
 author: "jimholtz"
 ms.assetid: 04e482ab-5c7c-4f8b-ad22-f7ca48ae3c15
 caps.latest.revision: 11
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Import configuration data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 After exporting your configuration data from the source [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you are now ready to import it to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   

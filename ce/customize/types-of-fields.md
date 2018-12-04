@@ -6,7 +6,7 @@ ms.date: 04/25/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "powerapps"
@@ -19,11 +19,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 25
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Types of fields and field data types
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_TypesOfFields"></a>   
 ## Types of fields  

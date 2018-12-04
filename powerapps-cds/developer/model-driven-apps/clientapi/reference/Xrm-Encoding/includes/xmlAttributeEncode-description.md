@@ -1,1 +1,0 @@
-Applies attribute encoding to a string.

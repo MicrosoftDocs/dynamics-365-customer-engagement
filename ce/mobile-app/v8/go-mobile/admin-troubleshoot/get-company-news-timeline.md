@@ -15,6 +15,13 @@ ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 10
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Get the Company News Timeline for Dynamics 365 for phones and tablets
 

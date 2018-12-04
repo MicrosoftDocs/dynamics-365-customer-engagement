@@ -15,10 +15,15 @@ caps.latest.revision: 7
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Verify network capacity and throughput for clients
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The primary characteristics of a network that affect the performance of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] clients, such as the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], are *bandwidth* and *latency*.  
   

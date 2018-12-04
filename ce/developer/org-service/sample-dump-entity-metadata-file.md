@@ -14,6 +14,10 @@ ms.assetid: 0a0247f3-3a59-42d1-b865-54d0f34e4aad
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Dump entity metadata to a file
 

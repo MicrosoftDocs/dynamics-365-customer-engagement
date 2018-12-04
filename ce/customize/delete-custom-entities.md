@@ -1,8 +1,8 @@
 ---
-title: "Delete custom entities in PowerApps | MicrosoftDocs"
+title: "Delete custom entities | MicrosoftDocs"
 description: "Learn how to delete a custom entity"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 12/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,14 @@ ms.assetid: e6ed6324-16ae-4c2b-b9a0-2422f54ccafb
 caps.latest.revision: 41
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Delete custom entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_DeleteCustomEntities"></a>   
   

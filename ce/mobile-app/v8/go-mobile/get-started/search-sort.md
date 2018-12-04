@@ -19,14 +19,21 @@ ms.assetid: ee969f36-5efc-4a54-8bba-a92a822a8d1c
 caps.latest.revision: 24
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Search and sort in Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
- To search, tap ![Dynamics Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics Dynamics 365 for phones and tablets search") on the top of the page, type in the search box, and tap ![Dynamics Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics Dynamics 365 for phones and tablets search") next to the search box.  
+ To search, tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for phones and tablets search") on the top of the page, type in the search box, and tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for phones and tablets search") next to the search box.  
   
- ![Dynamics Dynamics 365 for phones and tablets search](../../../media/mobile-start-search.png "Dynamics Dynamics 365 for phones and tablets search")  
+ ![Dynamics 365 for phones and tablets search](../../../media/mobile-start-search.png "Dynamics 365 for phones and tablets search")  
   
  Search results include only records that begin with the letters you type. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box. If you type **ski**, the record won’t show up.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Use faceted search to improve portal search in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable or disable faceted search."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: f7941412-68ea-4de5-bc35-97aed1c8639f
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Use faceted search to improve portal search
 

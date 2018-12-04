@@ -1,7 +1,7 @@
 ---
 title: "Call center challenges and how Unified Service Desk for Dynamics 365 Customer Engagement can help | MicrosoftDocs"
-description: "Understand how Unified Service Desk can help your service agents." 
-ms.custom:
+description: "Understand how Unified Service Desk can help your service agents."
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,9 +19,14 @@ ms.assetid: d05a55c8-f73a-4f91-8c33-f5fdbc69b01d
 caps.latest.revision: 4
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Call center industry concerns
 Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], it’s important to have an overview of the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps address these challenges.  

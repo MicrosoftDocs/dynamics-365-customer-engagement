@@ -1,7 +1,7 @@
 ---
 title: "Monitor and manage system jobs for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,18 +14,23 @@ ms.assetid: d8a87798-4163-4785-9985-6fd2993abb85
 caps.latest.revision: 24
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Monitor and manage system jobs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Several [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features use system jobs to perform tasks automatically, including workflows, import, and duplicate detection, running independently or in the background.  
   
- You can monitor them to ensure that they run smoothly or have completed successfully.  
+ You can monitor them to ensure that they run smoothly or have completed successfully. Go to **Settings** > **System Jobs** to see a grid view of system jobs.
   
 ## Monitoring system jobs  
- If there is a problem with a system job, you can cancel, postpone, pause, or resume it.  
+ If there is a problem with a system job, you can cancel, postpone, pause, or resume it. Select a job and then select the **Actions** menu.
   
 - **Canceling system jobs**  
   

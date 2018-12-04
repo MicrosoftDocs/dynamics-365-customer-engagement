@@ -27,6 +27,10 @@ caps.latest.revision: 55
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Queue entities
 

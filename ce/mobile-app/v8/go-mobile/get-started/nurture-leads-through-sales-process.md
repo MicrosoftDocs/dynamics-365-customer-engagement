@@ -19,6 +19,13 @@ ms.assetid: 16aefb72-8ff0-462e-8230-85cdedeac826
 caps.latest.revision: 30
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Nurture leads through the sales process in Dynamics 365 for phones and tablets
 

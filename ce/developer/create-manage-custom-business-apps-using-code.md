@@ -14,6 +14,10 @@ ms.assetid: d1980bd7-ea0d-4a66-84c4-de602bdd867d
 caps.latest.revision: 12
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create and manage custom business apps in Customer Engagement using code
 
@@ -234,7 +238,7 @@ To disassociate a security role from a business app, you use the DELETE request 
 
 ## Manage your business apps and its components
 
-This section provides you information information about retrieving your apps, updating app properties, retrieving app components, and deleting apps.
+This section provides you information about retrieving your apps, updating app properties, retrieving app components, and deleting apps.
 
 ### Retrieve published apps
 To retrieve published apps, use the following request:

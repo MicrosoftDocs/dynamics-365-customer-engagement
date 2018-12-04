@@ -1,7 +1,7 @@
 ---
 title: "Search Path Node Tag in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about Search Path node that describes the search path to identify the control in the Java accessibility tree."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 31b95b66-c66b-4b84-b74c-941d18dac910
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Search Path Node Tag in Unified Service Desk
 The Search Path node describes the search path to identify the control in the Java accessibility tree. There are four search path elements that can be used to identify the desired UI control.  

@@ -1,7 +1,7 @@
 ---
 title: "Manage knowledge articles using content access levels for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 07/04/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 49278e54-57cf-453f-b16a-b2aaee7798a9
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Manage knowledge articles by using content access levels
 

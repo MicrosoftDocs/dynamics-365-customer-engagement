@@ -1,17 +1,25 @@
 ---
 title: Configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 | Microsoft Docs
 description: Know how to configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365
-keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Customer Service Hub
+keywords: Configure interactive dashboards; Customer Service; Microsoft Dynamics 365; Customer Service Hub; Configure entities, fields, and security roles for the interactive dashboards; Configure dashboard colors
 author: anjgupta
 ms.author: anjgup
-manager: sakudes
+manager: shujoshi
 ms.date: 03/15/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
   - Dynamics 365 (online)
   - Dynamics 365 Version 9.x
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Configure interactive dashboards in the Customer Service Hub
@@ -66,26 +74,10 @@ The interactive dashboards come in two flavors:
   
  ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
   
-## Configure entities, fields, and security roles for the interactive dashboards  
- When you configure interactive dashboards, your first task is to enable entities, fields, and security roles, so that interactive dashboards can be configured  for them.  
-  
-### Enable entities  
- You can create interactive dashboards for all entities in the Customer Service Hub. You can also enable custom entities and custom activities for interactive dashboards. To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
-  
- Out of the box, the following entities are enabled for interactive dashboards in the Customer Service Hub:  
-  
--   Cases
--   Contacts
--   Accounts 
--   Social Profiles  
--   Queues
--   Knowledge Articles  
--   Activities: 
-    - Email
-    - Phone Call
-    - Task
-    - Appointment
-    - Social Activity  
+## Configure filter fields and security roles for the interactive dashboards  
+ When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
+
+To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
 > [!NOTE]
 > All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 web application.

@@ -12,8 +12,12 @@ author: "ReneeW-CPub"
 ms.author: "renwe"
 manager: "annbe"
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
-ms.custom:
+ms.custom: 
   - dyn365-a11y
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Accessibility for people with disabilities
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)  

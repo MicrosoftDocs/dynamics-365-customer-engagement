@@ -17,6 +17,10 @@ ms.assetid: 2eb9a727-0eae-4595-b44d-093f3065b54e
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Web service error codes
 

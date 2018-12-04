@@ -17,6 +17,10 @@ caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 <!-- jdaly bug 700711 determines whether this page should be removed  -->
 

@@ -1,15 +1,14 @@
 ---
-title: "Quickstart to add or edit app components with PowerApps | MicrosoftDocs"
-description: "Use the PowerApps app designer to add or edit components"
+title: "Add or edit app components with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
 keywords: ""
-ms.date: 03/30/2018
+ms.date: 11/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 author: "Mattp123"
 ms.assetid: be93b9d7-f1c2-4ee7-8d7c-0f5c34dfa5f7
 ms.author: matp
@@ -18,11 +17,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 17
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
-# Add or edit app components in the PowerApps app designer
+# Add or edit app components in the Dynamics 365 for Customer Engagement app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 An app is composed of various components. You can add two types of components to an app: artifacts and entity assets. In the context of the app designer, entities, dashboard, and business process flows are all artifacts of an app. Entity assets consist of forms, views, charts, and dashboards.  
   

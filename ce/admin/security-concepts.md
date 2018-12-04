@@ -15,10 +15,15 @@ caps.latest.revision: 30
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Security concepts
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to protect the data integrity and privacy in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
   

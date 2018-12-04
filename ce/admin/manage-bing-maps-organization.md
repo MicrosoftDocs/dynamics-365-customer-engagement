@@ -13,12 +13,17 @@ applies_to:
 author: "jimholtz"
 ms.assetid: f756b11d-65fc-47ac-8bea-1ba3def724f0
 caps.latest.revision: 29
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage Bing Maps for your organization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Learn how you can manage [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] for your entire [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. When [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] is turned on, people see a map of a customer’s location when they view contacts, leads, or accounts.  
   

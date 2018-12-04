@@ -6,7 +6,7 @@ ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: fef4451b-a749-4db4-a8cf-08e577dff2d8
 author: JimDaly
@@ -21,6 +21,10 @@ helpviewer_keywords:
   - "samples for early-bound classes, creating; retrieving; updating; and deleting records (early bound) sample"
   - "creating; retrieving; updating; and deleting records (early bound) sample, early-bound class samples"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Create, retrieve, update, and delete records (early bound)

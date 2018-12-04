@@ -6,7 +6,7 @@ ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 0537eac1-c997-4091-970f-e726109b1247
 author: KumarVivek
@@ -20,6 +20,10 @@ helpviewer_keywords:
   - "users and teams, assigning records sample"
   - "assigning records sample, system user entity"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Assign a record to a team

@@ -1,6 +1,6 @@
 ---
 title: "Configure and set up customer assets (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 75a7739a-53e8-43e7-bd6d-ca7317a69d30
 caps.latest.revision: 16
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Configure and set up customer assets to maintain a list of serviceable items (Field Service)
 
@@ -33,9 +40,8 @@ Customer asset functionality lets you maintain a list of serviceable items relat
   
 Customer asset records can be configured in a hierarchy in order to maintain service history at the sub-component level.  
   
- < [!NOTE]
-
- < To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
+> [!NOTE]
+> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
   
  
 ## Create customer assets manually  

@@ -19,6 +19,13 @@ caps.latest.revision: 19
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # The Outlook email address should be the same as the Dynamics 365 email address
 You’re seeing the following error message:  

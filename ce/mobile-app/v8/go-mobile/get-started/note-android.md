@@ -14,6 +14,13 @@ author: "jimholtz"
 ms.assetid: 181a4a85-b1dd-4ec9-a21b-b8b5bd9acb29
 caps.latest.revision: 8
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # A note for Android users of Dynamics 365 for phones and tablets
 

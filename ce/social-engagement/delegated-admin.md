@@ -5,15 +5,22 @@ keywords: "administrator, delegated admin, partner admin"
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 74b59106-5d8d-4bbe-9759-126583cba116
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Enable a partner as a delegated admin

@@ -15,6 +15,10 @@ caps.latest.revision: 13
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use XRM tooling to execute actions in Dynamics 365
 

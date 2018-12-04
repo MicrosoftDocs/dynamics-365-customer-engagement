@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Create a UII WPF Hosted Control | MicrosoftDocs"
 description: "Demonstrates how you can build a WPF-based User Interface Integration (UII) hosted control that interacts with Unified Service Desk and external applications (standalone and web)."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 4a6e9113-3956-448c-9953-ec7ee6f22d9e
 caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Walkthrough: Create a UII WPF Hosted Control in Unified Service Desk
 This walkthrough demonstrates how you can build a [Windows Presentation Foundation (WPF)](https://msdn.microsoft.com/library/ms754130\(v=vs.110\).aspx)-based [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted control that interacts with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and external applications (standalone and web).  

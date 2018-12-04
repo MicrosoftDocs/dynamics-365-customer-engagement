@@ -1,7 +1,7 @@
 ---
 title: "What's new in Universal Resource Scheduling for Dynamics 365 | MicrosoftDocs"
-description: "Learn how the latest release makes optimizing resource scheduling and management even more powerful. The new capabilities apply to Universal Resource Scheduling version 2.2.0.49, Field Service version 7.2.0.43, and Project Service Automation version 2.2.0.74 for Dynamics 365."    
-ms.custom:
+description: "Learn how the latest release makes optimizing resource scheduling and management even more powerful. The new capabilities apply to Universal Resource Scheduling version 2.2.0.49, Field Service version 7.2.0.43, and Project Service Automation version 2.2.0.74 for Dynamics 365."
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -20,6 +20,13 @@ caps.latest.revision: 11
 author: krbjoran
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
 # What's new in Universal Resource Scheduling for [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)]

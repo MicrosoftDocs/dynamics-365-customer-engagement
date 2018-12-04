@@ -1,6 +1,6 @@
 ---
 title: "Set up booking statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 9b793b5d-7fc0-4c59-9189-08e41bcef8b7
 caps.latest.revision: 12
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up booking statuses (Field Service)
 

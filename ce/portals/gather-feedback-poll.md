@@ -1,7 +1,7 @@
 ---
 title: "Gather feedback by using polls on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create polls on a portal and gather feedback by using them."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 59c7a298-2f82-4de1-96bd-9e5bfd9e7544
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Gather feedback by using polls on a portal
 Polls give your web audiences a quick and easy way to voice their opinion on specific topics, and then immediately and automatically see feedback from their vote.

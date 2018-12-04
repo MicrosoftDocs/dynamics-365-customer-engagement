@@ -8,6 +8,10 @@ ms.assetid: 9f7b1636-7255-4a62-939e-185359f0a428
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getLabel (Client API reference)
 

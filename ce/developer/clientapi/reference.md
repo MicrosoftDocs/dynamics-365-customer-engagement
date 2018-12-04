@@ -10,6 +10,10 @@ ms.assetid:
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Client API Reference for Customer Engagement
 

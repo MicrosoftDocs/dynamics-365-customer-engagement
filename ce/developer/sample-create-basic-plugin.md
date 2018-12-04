@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 40a9c015-696f-43e4-9b4d-209fe7b8ace6
 author: JimDaly
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 16
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Create a basic plug-in

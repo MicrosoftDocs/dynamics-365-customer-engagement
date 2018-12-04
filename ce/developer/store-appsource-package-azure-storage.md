@@ -14,6 +14,10 @@ ms.assetid: 270d7049-b933-4214-a088-79ed23c4323b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Step 5: Store your AppSource Package on Azure Storage and generate a URL with SAS key
 

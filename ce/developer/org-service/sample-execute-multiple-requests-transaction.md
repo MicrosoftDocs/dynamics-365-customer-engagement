@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1ba7b824-6cbf-41f8-87a3-901d42ab5aa1
 author: JimDaly
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 8
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Execute multiple requests in transaction

@@ -1,5 +1,6 @@
 ---
 title: "For partners: the Delegated Administrator for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: Use this role to delegate admins to manage users, licenses, permissions, and domains.
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -14,11 +15,16 @@ ms.assetid: 02aa7752-3df6-4528-9108-d037b14056ba
 caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # For partners: the Delegated Administrator
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] can use their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator role to create and edit users, reset user passwords, manage user licenses, manage domains, and assign admin permissions to other users in their organization, among other things. However, if admins want someone else to do these administrative tasks, they can delegate this role to an authorized [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] partner. When admins authorize a partner to take on this role, the partner is referred to as a delegated admin. A delegated admin can perform routine tasks such as adding users and resetting passwords, or more complex tasks such as adding a domain. A delegated admin can have access to multiple tenants, which can simplify and consolidate tenant management.  
   
@@ -61,7 +67,7 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.
   
 -   [Learn how to provide technical support as a delegated admin](https://msdn.microsoft.com/library/partnercenter/mt157012.aspx)  
   
--   [Leearn how to do common partner tasks](https://partnercenter.microsoft.com/partner/howto)  
+-   [Learn how to do common partner tasks](https://partnercenter.microsoft.com/partner/howto)  
   
 -   [Learn about the Microsoft Cloud Solution Provider (CSP) program](http://go.microsoft.com/fwlink/p/?LinkID=617116)  
   

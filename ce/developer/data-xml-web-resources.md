@@ -1,7 +1,6 @@
 ---
 title: "Data (XML) Web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about using data (XML) Web resources to save and access data. 
-"
+description: "Learn about using data (XML) Web resources to save and access data."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -18,6 +17,10 @@ caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Data (XML) Web resources
 

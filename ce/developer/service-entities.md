@@ -18,6 +18,10 @@ caps.latest.revision: 25
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Service entities in Dynamics 365 Customer Engagement
 

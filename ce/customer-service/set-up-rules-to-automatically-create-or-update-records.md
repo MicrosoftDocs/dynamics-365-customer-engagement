@@ -1,22 +1,28 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 for Customer Service
-keywords: Set up rules automatically; Dynamics 365; Customer Service
+keywords: Set up rules automatically; Dynamics 365; Customer Service; Activities and entities supported by record creation and update rules  ; Activate or deactivate a rule  ; Set up a rule to create and update records automatically  ;
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Set up rules to automatically create or update records (Customer Service)
+# Set up rules to automatically create or update records
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -29,7 +35,10 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
-<a name="bkmk_SupportedActivities"></a>   
+> [!NOTE]
+> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the February 2019 release.
+
 ## Activities and entities supported by record creation and update rules  
  By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
@@ -43,7 +52,6 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
 These activities can be converted to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.  
 
-<a name="bkmk_ExternalSources"></a>   
 ## Capture data from external sources  
  You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
@@ -58,8 +66,6 @@ These activities can be converted to any default (system) entity records or cust
 > [!NOTE]
 >  Any configuration done in the channel properties is only valid if those name-value pairs exist in the JSON payload. Also, you must only use parameters received from the external application in the rule item conditions and as record properties.
 
-
-<a name="bkmk_ActivateDeactivate"></a>   
 ## Activate or deactivate a rule  
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
@@ -67,13 +73,14 @@ These activities can be converted to any default (system) entity records or cust
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customize/configure-workflow-steps.md)  
 
-<a name="bkmk_RuleAndQueues"></a>   
 ## How do record creation and update rules work with queues?  
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
 
  For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
 
-<a name="bkmk_RulesInSolutions"></a>   
+> [!NOTE]
+> When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
+  
 ## Rules in solutions  
  The record creation and update rules can be packaged as a part of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution. Customizers and developers distribute solutions so organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to install and uninstall the business functionality defined by the solution.  
 
@@ -83,58 +90,58 @@ These activities can be converted to any default (system) entity records or cust
 
 - Any rules upgraded to and edited in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported back to an earlier release.  
 
-<a name="bkmk_Prereqs"></a>   
 ## Prerequisites 
 
 Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
 
 If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance meets the prerequisites, all you need to do is set up rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.  
 
-<a name="bkmk_SetUpRules"></a>   
 ## Set up a rule to create and update records automatically  
+  
+1.  Make sure that you have the customer service, sales manager, or marketing manager role or equivalent permissions.  
+  
+    #### Check your security role  
+  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)] 
 
-1. Make sure that you have the customer service, sales manager, or marketing manager role or equivalent permissions.  
+2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+  
+3. Select **Automatic Record Creation and Update Rules**.
 
-   #### Check your security role  
-
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-
-2. Go to **Settings** > **Service Management**. 
-
-3. Click **Automatic Record Creation and Update Rules**.  
-
-4. To create a record creation and update rule, click **New**.  
-
-    -OR-  
-
-    To edit an existing rule, in the list of rules, open the rule you want to edit.  
-
-5. Type or modify information in the fields.  
-
-    Hover over the field labels to see what to enter:  
-
-   - **Name**. Type the name of the rule.  
-
-   - **Source Type**. From the drop-down list, select the activity that’s the source of the record.  
-
-   - **Queue**. Select the queue the rule applies to. Incoming activity arrives in the queue, and then the valid rule and rule item applies for creation or update of records.  
-
-        Here are a few things to consider:  
-
-     - For all activities and custom activities, except email, specifying a queue is optional. For all such activities you can have only one rule with an associated queue and one rule without an associated queue active at any given time. For example, for a Social Activity source type, you can have two active rules, one with a queue specified, and one without a queue.  
-
-     - If you selected Email as the source type for this rule, you can’t activate the rule unless you select a queue.  
-
-       > [!NOTE]
-       >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
-
-6. Click **Save**.  
+  
+4.  To create a record creation and update rule, select **New**.  
+  
+     -OR-  
+  
+     To edit an existing rule, in the list of rules, select and open the rule you want to edit.  
+  
+5.  Type or modify information in the fields.  
+  
+     Hover over the field labels to see what to enter:  
+  
+    - **Name**. Type the name of the rule.  
+  
+    - **Source Type**. From the drop-down list, select the activity that’s the source of the record.  
+  
+    - **Queue**. Select the queue the rule applies to. Incoming activity arrives in the queue, and then the valid rule and rule item applies for creation or update of records.  
+  
+         Here are a few things to consider:  
+  
+        -   For all activities and custom activities, except email, specifying a queue is optional. For all such activities you can have only one rule with an associated queue and one rule without an associated queue active at any given time. For example, for a Social Activity source type, you can have two active rules, one with a queue specified, and one without a queue.  
+  
+        -   If you selected Email as the source type for this rule, you can’t activate the rule unless you select a queue.  
+  
+        > [!NOTE]
+        >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
+        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
+  
+6.  Select **Save**.  
 
 ## Set Channel Properties
 
-1.  Under **Channel Properties**, in the **Additional Properties** box, click a channel property group.  
+1.  Under **Channel Properties**, in the **Additional Properties** box, select a channel property group.  
 
     > [!NOTE]
     >  When you select a property group for a record creation and update rule, you can use the channel property group’s property items in the rule item conditions or while setting properties for the target record. After you activate a rule, you can’t remove or change the selected property group. You can select another property group only after you remove the referenced property items of the previous property group from the rule items. When you try to select a new property group without removing the property references of the previous property group, you’ll see an error.  
@@ -179,7 +186,7 @@ If the source type for the rule is set to Social Activity, specify the condition
    > [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
 ## Set record creation details
-In the **Specify Record Creation and Update Details** section, click ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
+In the **Specify Record Creation and Update Details** section, select ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
 
 1.  In the **Name** box, enter a meaningful name for the rule item.  
 
@@ -200,14 +207,14 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 
 3.  Add steps to create or update records for the incoming activity that matches the conditions you defined earlier.  
 
-    a.  Under **Actions**, click **Add Step** > **Create record**.  
+    a.  Under **Actions**, select **Add Step** > **Create record**.  
 
     b.  In the **Create** box, select the record type for the record you want to create from the incoming activity. For example, if you want to create a case from the social activity, select **Case**.  
 
       > [!NOTE]
       >  If the incoming activity has a regarding object set, and if the regarding object entity and the entity selected in the **Create Record** step aren’t the same, no workflow is applied and the actions defined in the rule are not executed.  
 
-    c.  Click **Set Properties**.  
+    c.  Select **Set Properties**.  
 
        The entity form is displayed. You can map the target entity fields to the social activity record data, including channel properties. Some of the mappings are available out of the box: Case title, Customer, and Origin (highlighted in yellow). The out-of-the-box mappings can be changed and new mappings can be added using the **Form Assistant** control.  
 
@@ -215,11 +222,11 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 
        The new record that is created will be automatically set as the regarding record of the incoming activity record. There is only one regarding object to the social activity, so, only one **Create** record action is possible in the **Actions** section.  
 
-    d.  To add more actions, under **Specify Other Actions**, click **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
+    d.  To add more actions, under **Specify Other Actions**, select **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
 
        Learn more about each of these actions in [Configure workflow steps](../customize/configure-workflow-steps.md).  
 
-4.  Click **Save and Close**.  
+4.  Select **Save and Close**.  
 
     > [!NOTE]
     > - Data types "Option Set" and "Two Option" are not supported in string type conditions.  
@@ -229,9 +236,9 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a record creation and update rule](../customer-service/set-up-rules-to-automatically-create-or-update-records.md#bkmk_ActivateRule).  
 
 > [!TIP]
->  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ApplyRecordCreationAndUpdateRuleRequest Class](../developer/webapireference/actions/applyrecordcreationandupdaterule.md)  -->
+>  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. 
 
-<a name="bkmk_SetUpChannelProperties"></a>   
+
 ## Set up channel properties  
  Every default or custom activity has an **Additional Parameters** attribute. This attribute stores the JSON payload received from an external application.  
 
@@ -241,7 +248,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 ### Create channel property groups and add channel properties  
 
-1. After you save the record creation and update rule form, under **Channel Properties** section, in the **Additional Properties** box, click the lookup button, and then click **New**.  
+1. After you save the record creation and update rule form, under **Channel Properties** section, in the **Additional Properties** box, select the lookup button, and then select **New**.  
 
    ![Add channel properties for record creation rule](../customer-service/media/crm-ua-record-creation-rule-additional-properties.png "Add channel properties for record creation rule")  
 
@@ -256,9 +263,9 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 3. The **Source Type** field will be automatically set to the source type of the record creation and update rule.  
 
-4. Click **Save**.  
+4. Select **Save**.  
 
-5. In the **Channel Properties** section, click **+** to add in the group-specific channel properties.  
+5. In the **Channel Properties** section, select **+** to add in the group-specific channel properties.  
 
 6. In the **Channel Property** form, enter the following:  
 
@@ -293,13 +300,12 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
    d. **Description**. Type details to further explain what the property is for.  
 
-7. When you’re done, click **Save & Close**.  
+7. When you’re done, select **Save & Close**.  
 
     You can see all the properties in the channel property group form.  
 
    ![Add channel properties to channel property group](../customer-service/media/crm-ua-channel-property-group.png "Add channel properties to channel property group")  
 
-<a name="bkmk_ActivateRule"></a>   
 ## Activate a record creation and update rule  
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
@@ -307,22 +313,21 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 1.  Go to **Settings** > **Service Management**. 
 
-2.  Click **Automatic Record Creation and Update Rules**.  
+2.  Select **Automatic Record Creation and Update Rules**.  
 
-3.  Open the rule you want to activate, and on the command bar, click **Activate**.  
+3.  Open the rule you want to activate, and on the command bar, select **Activate**.  
 
     > [!NOTE]
     >  You can have two record creation and update rules active at a time for any source type, except email—one with queue and one without a queue. You can have only one record creation and update rule active for the source type Email, and this rule should have a queue specified.  
 
-     After the rule is active, the only way to change the rule is to first deactivate it. Open the rule, and on the command bar, click **Deactivate**.  
+     After the rule is active, the only way to change the rule is to first deactivate it. Open the rule, and on the command bar, select **Deactivate**.  
 
-<a name="bkmk_RecordCreationFromQueue"></a>   
 ## Manage automatic record creation and update from a queue form  
- You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
+ You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
-<a name="bkmk_Upgrade"></a>   
+
 ## Upgrade considerations  
  Here are a few things you should know if you’re upgrading to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later from an earlier release, and have existing case creation rules for email and social activity.  
 
@@ -338,5 +343,6 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 | An active case creation rule for social or email source types, without a queue specified |                                                                                  All such rules will be upgraded and deactivated. This is because even in [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], a case creation rule without a queue did not apply and create any record.                                                                                   |
 
 ### See also  
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
- [Create or change a queue](../customer-service/create-edit-queue.md)
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
+
+[Create or change a queue](set-up-queues-manage-activities-cases.md)

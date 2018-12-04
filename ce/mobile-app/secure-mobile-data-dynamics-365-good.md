@@ -15,10 +15,20 @@ ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 26
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Secure your mobile data from loss or theft
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
+](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
 [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], protects your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data is protected by [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] data from your device.  
   

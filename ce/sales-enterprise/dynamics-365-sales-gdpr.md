@@ -6,7 +6,7 @@ ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 722fa6d7-0d73-4fd0-a726-8148a8d55657
@@ -18,6 +18,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Dynamics 365 for Sales and GDPR

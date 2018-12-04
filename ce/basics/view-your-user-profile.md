@@ -15,6 +15,10 @@ caps.latest.revision: 28
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # View your user profile  
 

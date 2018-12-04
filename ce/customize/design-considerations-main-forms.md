@@ -1,8 +1,8 @@
 ---
-title: "Design considerations for main forms with PowerApps | MicrosoftDocs"
+title: "Design considerations for main forms | MicrosoftDocs"
 description: "Learn how to design main forms"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,14 @@ ms.assetid: a83872f4-9e36-413b-8561-41a1e5ffe5dd
 caps.latest.revision: 17
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Design considerations for main forms
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for model-driven apps, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   

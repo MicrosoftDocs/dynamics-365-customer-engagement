@@ -14,6 +14,10 @@ ms.assetid: "00564289-496e-4fd1-85c6-5e2d354a2f4d"
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Application platform for building extended xRM applications
 

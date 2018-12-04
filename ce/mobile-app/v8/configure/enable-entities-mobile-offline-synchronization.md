@@ -14,6 +14,13 @@ ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Enable entities for mobile offline synchronization
 

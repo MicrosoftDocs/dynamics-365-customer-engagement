@@ -14,6 +14,10 @@ author: "shubhadaj"
 ms.assetid: 03968b0d-5505-45d0-90ff-4bacefbf3559
 caps.latest.revision: 15
 ms.author: "shujoshi"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Where to find your business apps
 

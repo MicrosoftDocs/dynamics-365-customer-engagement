@@ -17,12 +17,16 @@ ms.assetid: f993c4ed-1fc3-4e47-bef1-d38695ddb11a
 caps.latest.revision: 57
 ms.author: "matp"
 manager: "kvivek"
---- 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
+---
 <a name="BKMK_UsingDefaultSolution"></a>   
 
 # Use the default solution to customize  
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  When you customize a model-driven app, you may work with the default solution. To open the default solution, open solution explorer.  
   

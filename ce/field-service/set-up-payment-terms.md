@@ -1,6 +1,6 @@
 ---
 title: "Set up payment terms (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 4534f14f-41fd-47fa-a28f-f966c5dc70af
 caps.latest.revision: 13
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up payment terms for purchase orders (Field Service)
 

@@ -1,8 +1,8 @@
 ---
-title: "Create a business process flow in PowerApps | MicrosoftDocs"
+title: "Create a business process flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create a business process flow"
 ms.custom: ""
-ms.date: 06/04/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,24 +11,27 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.assetid: efe86ab3-430f-485a-b924-6ed82cfbb449
 caps.latest.revision: 39
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create a business process flow to standardize processes
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This topic shows how to create a business process flow with [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
+This topic shows how to create a business process flow with Dynamics 365 for Customer Engagement. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   
  When a user starts a business process flow, the stages and steps of the process are displayed in the process bar at the top of a form:  
   
  ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
   
- [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
+ Dynamics 365 for Customer Engagement comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
   
 <a name="BKMK_Createbusinessprocessflows"></a>   
 ## Create a business process flow  
@@ -196,22 +199,8 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
 To specify privileges on a business process flow, open the business process flow definition for editing, and then select **Edit Security Roles** in the command bar of the business process flow designer. See Step 14 earlier in the topic for more details.  
 
-## Preview feature: Add an on-demand action to a business process flow
-The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a new business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> 
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-### Enable Action Step support for business process flows 
-
-1.	Go to **Settings** > **Administration** > **System Settings**.
-2.	Select the **Preview** tab.
-3.	Review, and if you agree, accept the license terms.
-4.	Select **Enable Action Step Support for Business Process Flows Preview**, and then select **OK**.
-
-    ![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
+## Add an on-demand action to a business process flow
+The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
 
 ### Add on-demand workflows or actions using an Action Step
 Suppose that, as part of the opportunity qualification process, the Contoso organization requires all opportunities to be reviewed by a designated reviewer. Subsequently, the Contoso organization created an action that: 
@@ -234,9 +223,8 @@ Now, members of Contoso’s salesforce can kick-off the action from the **Opport
 > - To be able to execute an action or workflow on demand, the business process flow must include an Action Step. If the Action Step runs a workflow, the workflow must be configured to run on demand.
 > - The entity associated with the action or workflow must be the same as the entity associated with the business process flow.
 
-### Limitations of using Action Steps in a business process flow
+### Limitation of using Action Steps in a business process flow
 
-- Any user customization that uses Action Steps is not supported when importing or exporting solutions.
 - Actions are not available as Action Steps if the input or output parameters are Entity, EntityCollection, or OptionSet (Picklist) types. Actions with more than one EntityReference output parameter or any number of EntityReference input parameters are not available as Action Steps. Actions not associated with a primary entity (global action) are not available as Action Steps.
 
   

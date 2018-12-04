@@ -1,12 +1,12 @@
 ---
 title: "Sample: Import data using complex data map (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Sample demonstrates how to to create new records with data import by using a complex data map."
+description: "Sample demonstrates how to create new records with data import by using a complex data map."
 keywords: ""
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1ed89b35-a84d-488e-b58c-4ed6eb26018c
 author: JimDaly
@@ -23,6 +23,10 @@ helpviewer_keywords:
   - "creating new records in Microsoft Dynamics CRM by using data import sample"
   - "importing data by using complex data maps sample"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Import data using complex data map
@@ -42,7 +46,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
- This sample shows how to to create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using data import. The sample uses a complex data map.  
+ This sample shows how to create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using data import. The sample uses a complex data map.  
   
 ## Example  
  [!code-csharp[DataImport#ImportWithCreate](../snippets/csharp/CRMV8/dataimport/cs/importwithcreate.cs#importwithcreate)]  

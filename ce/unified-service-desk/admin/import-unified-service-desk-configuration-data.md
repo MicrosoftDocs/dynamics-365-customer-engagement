@@ -1,9 +1,9 @@
 ---
 title: "Import Unified Service Desk for Dynamics 365 Customer Engagement configuration data | MicrosoftDocs"
 description: "Learn how configuration data can be imported in to a target Dynamics 365 Customer Engagement instance."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 08/23/2017
+ms.date: 10/29/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -19,9 +19,14 @@ ms.assetid: 5fac5524-0f6b-4e8d-a43d-81626e33421a
 caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # About configuration data
 You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] by using either of the following ways:  
@@ -95,7 +100,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 7. Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Dynamics 365 Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx) in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] SDK help.  
   
-8. Save your project, and then build it (**Build** > **Build Solution**) to create the package. All the contents in the *\<Project>*\Bin\Debug folder are your package. Note that an assembly file (.dll) is created with the same name as your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project name; this file contains the custom code that that you created in the previous step.  
+8. Save your project, and then build it (**Build** > **Build Solution**) to create the package. All the contents in the *\<Project>*\Bin\Debug folder are your package. Note that an assembly file (.dll) is created with the same name as your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project name; this file contains the custom code that you created in the previous step.  
   
 9. Copy the entire contents from your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project debug folder (*\<Project>*\Bin\Debug) to the **PackageDeployer** folder, that is, at the same location as the **PackageDeployer.exe** file. You are prompted to replace some files; accept the confirmation to replace the files in the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] folder.  
   

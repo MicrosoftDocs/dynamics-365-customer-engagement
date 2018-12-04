@@ -16,10 +16,15 @@ caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Backup and restore instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.   
   

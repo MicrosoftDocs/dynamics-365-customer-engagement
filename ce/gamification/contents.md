@@ -9,8 +9,15 @@ ms.assetid: 0fc4e31a-eb65-4989-9baa-2788f5316dc0
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 # Table of contents
 

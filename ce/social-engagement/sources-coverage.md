@@ -5,14 +5,21 @@ keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, 
 ms.date: 05/08/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Find out what&#39;s covered by sources
@@ -76,7 +83,7 @@ To add a private messages rule, see [Add a private messages rule](add-rules-sear
 
 Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
-Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
+Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
 
 ## Privacy notice
 

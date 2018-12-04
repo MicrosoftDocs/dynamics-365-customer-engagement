@@ -5,15 +5,22 @@ keywords: "search optimization, search topic, search rule"
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Refine your search rules to find relevant content

@@ -5,15 +5,22 @@ keywords: "commissioner, game manager, overview"
 ms.date: 10/18/2017
 ms.service: dynamics-365-sales
 ms.topic: index-page
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 9cbe15a2-8239-4601-8af2-50a92c28f81f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Overview for commissioners and game managers in Gamification

@@ -16,6 +16,10 @@ ms.assetid: dfcafa54-d368-46c8-8760-19bcbc4c6797
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Insert, update, delete, and order global option set options
 

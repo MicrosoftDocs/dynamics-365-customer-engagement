@@ -20,6 +20,10 @@ caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Add a security principal (user or team) to a queue (early bound)
 

@@ -6,7 +6,7 @@ ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 791aa59d-b217-4e8d-93d3-edd4ecfc8403
 author: KumarVivek
@@ -18,6 +18,10 @@ ms.tgt_pltfrm:
 helpviewer_keywords: 
   - "sharing records sample"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages

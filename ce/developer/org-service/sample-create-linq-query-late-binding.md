@@ -23,6 +23,10 @@ caps.latest.revision: 19
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create a LINQ query with late binding
 

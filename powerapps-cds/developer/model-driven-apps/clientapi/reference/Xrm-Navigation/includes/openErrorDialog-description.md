@@ -1,1 +1,0 @@
-Displays an error dialog.

@@ -1,8 +1,8 @@
 ---
-title: "Delete fields in PowerApps | MicrosoftDocs"
+title: "Delete fields | MicrosoftDocs"
 description: "Learn how to delete fields"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,10 +18,14 @@ caps.latest.revision: 33
 ms.author: "matp"
 manager: "kvivek"
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Delete fields
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_DeletingFields"></a>   
  

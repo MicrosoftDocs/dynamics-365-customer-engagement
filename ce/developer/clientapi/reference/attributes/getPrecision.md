@@ -8,6 +8,10 @@ ms.assetid: 610b9b53-9c29-4228-8ef3-0c05aae14a2b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getPrecision (Client API reference)
 

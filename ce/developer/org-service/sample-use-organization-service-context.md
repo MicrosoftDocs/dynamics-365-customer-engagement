@@ -6,7 +6,7 @@ ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1b18abeb-faa2-461b-b36d-0db5b489dc80
 author: JimDaly
@@ -16,14 +16,18 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-- "sample for performing basic operations by using the organization service context"
-- "using the organization service context to perform basic operations sample, early-bound class samples"
-- "sample for using the organization service context to perform basic operations"
-- "performing basic operations by using the organization service context sample, early-bound class samples"
-- "early-bound class samples, performing basic operations by using the organization service context sample"
-- "samples for early-bound classes, performing basic operations by using the organization service context sample"
+  - "sample for performing basic operations by using the organization service context"
+  - "using the organization service context to perform basic operations sample, early-bound class samples"
+  - "sample for using the organization service context to perform basic operations"
+  - "performing basic operations by using the organization service context sample, early-bound class samples"
+  - "early-bound class samples, performing basic operations by using the organization service context sample"
+  - "samples for early-bound classes, performing basic operations by using the organization service context sample"
 caps.latest.revision: 22
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Use the organization service context

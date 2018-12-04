@@ -18,6 +18,10 @@ caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Convert an opportunity to a quote, sales order or invoice
 

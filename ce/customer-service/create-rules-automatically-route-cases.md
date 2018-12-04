@@ -7,25 +7,32 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Create rules to automatically route cases (Customer Service)
+# Create rules to automatically route cases
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.  
+Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
 > [!NOTE]
-> This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)].  
+> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the February 2019 release. 
 
-<a name="bkmk_CreateRule"></a>   
+
 ## Create a routing rule set  
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -40,19 +47,19 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
 
-3. Click **Routing Rule Sets**.  
+3. Select **Routing Rule Sets**.  
 
-4. To create a new routing rule set, click **New**.  
+4. To create a new routing rule set, select **New**.  
 
     -OR-  
 
-    To edit a routing rule set that you already have, in the list of records, click the rule that’s in the Draft state, and then on the command bar, click **Edit**.  
+    To edit a routing rule set that you already have, in the list of records, select the rule that’s in the Draft state, and then on the command bar, select **Edit**.  
 
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
 
-6. After you enter information in all the required fields, click **Save**.  
+6. After you enter information in all the required fields, select **Save**.  
 
-7. In the **Rule Items** section, click the **Add Rule Item** button **+** to specify conditions for routing cases to a queue.  
+7. In the **Rule Items** section, select the **Add Rule Item** button **+** to specify conditions for routing cases to a queue.  
 
     You can add multiple conditions here and arrange them in the desired order. The rule items are run in the same order. As soon as an applicable rule item (based on the If Conditions) is applied on the case, the other rule items are not run on the case.  
 
@@ -69,30 +76,27 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
       !["Then Conditions" for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png "Then Conditions  for routing rule in Dynamics CRM")  
 
 
-~~~
+
 > [!TIP]
 >  To group conditions in the criteria, use the **Group And** or **Group Or** options.  
-~~~
+
 
 8. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
 
-9. In the Routing Rule Set record, click **Activate** so that the rule set is applied to the cases matching the conditions in the rule.  
+9. In the Routing Rule Set record, select **Activate** so that the rule set is applied to the cases matching the conditions in the rule.  
 
 > [!NOTE]
 > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.  
 > - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.  
 
-<a name="bkmk_ApplyRule"></a>   
 ## Apply a routing rule set  
  An active routing rule set automatically applies to all automatically-created cases.  
 
- To manually apply the rule to existing or manually-created cases, in the list of cases, select the cases that you want to route using this rule, and on the command bar, click **Apply Routing Rule**.  
+ To manually apply the rule to existing or manually-created cases, in the list of cases, select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.  
 
 > [!NOTE]
->  If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column “Route Case” to your spreadsheet, and add the value “No” for all the cases that you don’t want to route.  
-
+>  If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
+  
 ### See also 
- [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   
- [Create or change a queue](../customer-service/create-edit-queue.md)</br>
- [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
- [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)   
+[Create and manage queues](set-up-queues-manage-activities-cases.md)
+

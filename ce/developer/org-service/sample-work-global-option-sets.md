@@ -16,6 +16,10 @@ ms.assetid: 348e0bc9-ddde-4bbe-a0aa-968d0d6b0ac2
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Work with global option sets
 

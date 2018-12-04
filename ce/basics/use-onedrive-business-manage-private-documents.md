@@ -6,7 +6,7 @@ ms.date: 03/08/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9dbd9d2f-4978-4a65-988c-f9928a0722e0
@@ -18,6 +18,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 19
 topic-status: Editing
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 
 # Use OneDrive for Business to manage your private documents

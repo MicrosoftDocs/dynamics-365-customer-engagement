@@ -14,6 +14,13 @@ author: "jimholtz"
 ms.assetid: 48b551f7-89da-4fa4-abf7-50ac2184fc94
 caps.latest.revision: 7
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Use your browser for non-mobile features in Dynamics 365 for phones and tablets
 

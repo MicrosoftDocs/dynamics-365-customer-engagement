@@ -6,12 +6,16 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 41d4f199-7004-4458-a39a-5f9025550932
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Dump entity relationship information to a file

@@ -1,7 +1,7 @@
 ---
 title: "Manage access using Unified Service Desk for Dynamics 365 Customer Engagement configuration | MicrosoftDocs"
 description: "Learn to control how agents use Unified Service Desk for Dynamics 365 Customer Engagement by using configuration."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,9 +19,14 @@ ms.assetid: 91772c31-da1f-453b-9934-0179bc50c398
 caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Use Unified Service Desk configuration to manage access
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is a great way to filter things that you want your agents to see without having to manage their security roles. Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added in a configuration assigned to them.  

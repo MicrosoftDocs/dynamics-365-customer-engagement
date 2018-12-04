@@ -2,7 +2,7 @@
 title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 05/01/2018
+ms.date: 09/24/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 692b7303-d9e1-4323-9e81-ab0dee4cfd2d
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,7 +31,7 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
   
  At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
-## Create an opportunity (Sales Hub app)
+## Create an opportunity (Sales Hub)
 
 If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
@@ -103,7 +103,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
-## Add products to an opportunity (Sales Hub app)
+## Add products to an opportunity (Sales Hub)
 
 You can add a product or product bundle to an opportunity. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
@@ -135,7 +135,22 @@ You can add a product or product bundle to an opportunity. The product can be an
    
 7. Select **Save**.
 
-## Recalculate an opportunity (Sales Hub app)
+The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
+
+The icon for each product line item shows whether it is a product, product bundle, or a product family. 
+
+Here are the actions you can take on the products added to the **Product Line Items** grid:
+
+|To                                    |Do This                                                       |
+|--------------------------------------|--------------------------------------------------------------|
+|Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**. |
+|Delete a product associated with the opportunity |Select the product, and on the command bar, select **Delete Opportunity Product**. |
+|View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
+|See and add related products for cross-selling or upselling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
+
+
+## Recalculate an opportunity (Sales Hub)
 
 To change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
 
@@ -149,7 +164,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 5.	On the command bar, select **Recalculate Opportunity**.
 
-## Create an opportunity (Sales app)
+## Create an opportunity (Sales)
 
 If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 

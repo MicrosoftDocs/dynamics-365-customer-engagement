@@ -14,6 +14,10 @@ ms.assetid: 47d7105c-6d09-4448-b68a-abf85026d1c9
 caps.latest.revision: 9
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: iOS Activity Tracker for Dynamics 365 and Web API
 

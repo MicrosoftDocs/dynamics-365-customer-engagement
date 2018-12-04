@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 (online) to use SharePoint Online | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 09/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,16 +15,21 @@ caps.latest.revision: 11
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Set up Dynamics 365 (online) to use SharePoint Online
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<
 
 When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can:  
   
 - Create, upload, view, and delete documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-- Use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management abilities within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as checking the document in and out, viewing version history, and changing document properties.  
+- Use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management abilities within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as checking the document in and out and changing document properties.  
   
 - Enable non-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, such as customers who want to review a bid, to directly access the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] documents, provided they have the appropriate permissions.  
   

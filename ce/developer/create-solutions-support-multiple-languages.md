@@ -1,23 +1,31 @@
 ---
 title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: 
+  - "crm-online"
+ms.custom: 
+  - ""
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
-caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
+
 # Create solutions that support multiple languages
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
   
@@ -35,7 +43,7 @@ manager: "amyla"
 
  <a name="BKMK_Localizable_Web_Resources"></a>
  ## String (RESX) web resources
- With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](.../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
+ With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
 
  For earlier versions, see [Developer option](https://msdn.microsoft.com/library/hh670609(v=crm.8).aspx#BKMK_DeveloperOption)
   

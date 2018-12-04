@@ -4,15 +4,22 @@ description: "Learn how to create and manage web pages in a portal."
 ms.date: 05/24/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 78CBFF42-2130-473D-91A6-8FA5597685F6
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Create and manage web pages

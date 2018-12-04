@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: bb4f1489-238e-4b72-b5a3-cb1f36d2a274
@@ -18,11 +18,16 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 27
 topic-status: Editing
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Set up OneNote integration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Gather your thoughts, ideas, plans and research in one single place with [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

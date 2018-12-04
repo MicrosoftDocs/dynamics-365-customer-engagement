@@ -2,18 +2,25 @@
 title: "Define activity maps in Social Engagement | Microsoft Docs"
 description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
 keywords: "activiy map, localtion analysis, live map"
-ms.date: 11/01/2017
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Define activity maps to view real-time data
@@ -148,10 +155,11 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
 6.  When you’re done, click the area filter button again to disable it, or click ![Area filter disable](media/disable-area-filter-icon.png "Area filter disable") at the top of the selector.  
   
-## View an activity map’s data in other areas of Social Engagement  
- View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+## View an activity map’s data in other areas of [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
+View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
   
 ## Delete an activity map  
  If you don't want to use an activity map anymore, you can delete it from your list.  
@@ -169,7 +177,7 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
  View an activity map on a large screen, in full-screen mode. You can display this large screen at prominent places as appropriate for your business to demonstrate the trends about your products, brand, or organization.  
   
 > [!NOTE]
->  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to sign in again.  
+>  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to [sign in](https://social.dynamics.com/login) again.  
   
 1. Go to **Activity Maps**.  
   

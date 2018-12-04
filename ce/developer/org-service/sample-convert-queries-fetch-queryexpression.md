@@ -20,6 +20,10 @@ caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Convert queries between Fetch and QueryExpression
 

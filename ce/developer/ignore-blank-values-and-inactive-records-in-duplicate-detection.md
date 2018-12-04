@@ -14,6 +14,10 @@ ms.assetid: 7b905429-1bde-4ba5-a523-62ab770b2582
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Ignore blank values and inactive records in duplicate detection
 

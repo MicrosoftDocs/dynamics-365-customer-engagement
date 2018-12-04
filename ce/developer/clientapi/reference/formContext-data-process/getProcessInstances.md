@@ -8,6 +8,10 @@ ms.assetid: 4ed6c991-59c9-4a69-90d4-635f3f1d397b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getProcessInstances (Client API reference)
 

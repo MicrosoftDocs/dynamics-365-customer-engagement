@@ -2,7 +2,7 @@
 title: "Create or edit an order (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
 keywords: "Order, quote, accepted"
-ms.date: 09/22/2017
+ms.date: 10/29/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 19543bce-3228-4723-825f-2358c4b18ff7
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

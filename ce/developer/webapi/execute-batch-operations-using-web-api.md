@@ -15,6 +15,10 @@ caps.latest.revision: 11
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Execute batch operations using the Web API
 

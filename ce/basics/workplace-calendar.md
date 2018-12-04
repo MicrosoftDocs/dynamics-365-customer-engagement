@@ -15,6 +15,10 @@ caps.latest.revision: 28
 author: "shubhadaj"
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Use the workplace calendar
 
@@ -48,5 +52,6 @@ Use the calendar to view appointments and service activities you need to partici
  You can create an appointment or service activity from a normal calendar as well as a service calendar. More information: [Create or edit an appointment](../basics/create-edit-appointment.md),  
   
 ### See also  
- [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
- [Schedule a service activity](../customer-service/schedule-service-activity.md)
+[Force an activity into a time slot in the service schedule (Customer Service app)](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md) </br>
+
+[Schedule a service activity (Customer Service app)](../customer-service/schedule-service-activity-cs-app.md)

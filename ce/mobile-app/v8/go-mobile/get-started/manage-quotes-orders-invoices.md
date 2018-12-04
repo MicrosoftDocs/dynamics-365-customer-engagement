@@ -16,6 +16,13 @@ author: "jimholtz"
 ms.assetid: fd821fc0-3654-403b-b7c1-591f9c4ada89
 caps.latest.revision: 24
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Manage quotes, orders, and invoices in Dynamics 365 for phones and tablets
 

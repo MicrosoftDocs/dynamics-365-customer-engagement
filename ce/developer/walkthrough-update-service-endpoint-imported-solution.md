@@ -14,6 +14,10 @@ ms.assetid: 8c860992-d3c6-4bfa-86c4-98018af6f22c
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Update a service endpoint imported from a solution
 

@@ -6,12 +6,16 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: f2321671-f4dc-4abd-ac50-edddfa170fd2
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Dump attribute metadata to a file

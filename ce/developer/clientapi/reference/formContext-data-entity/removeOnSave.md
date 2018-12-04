@@ -8,6 +8,10 @@ ms.assetid: 14a92f7c-f4c0-475d-8797-dcbb283db37a
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # removeOnSave (Client API reference)
 

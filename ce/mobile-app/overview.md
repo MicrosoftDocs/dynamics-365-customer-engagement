@@ -15,6 +15,13 @@ ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Overview of Dynamics 365 for phones and tablets 

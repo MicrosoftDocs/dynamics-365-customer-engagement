@@ -19,6 +19,13 @@ ms.assetid: 39d3726f-5631-45f1-b9b8-6724567da26a
 caps.latest.revision: 26
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Pin your favorites in Dynamics 365 for phones and tablets
 

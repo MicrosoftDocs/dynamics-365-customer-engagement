@@ -5,13 +5,20 @@ keywords: "lead matching, field mapping, linkedin leads, lead record"
 ms.date: 04/02/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] ads

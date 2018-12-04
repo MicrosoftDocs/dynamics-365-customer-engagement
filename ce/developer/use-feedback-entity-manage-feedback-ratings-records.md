@@ -14,6 +14,10 @@ ms.assetid: c0d69f7b-5016-44e7-8b73-1f8c2de5b526
 caps.latest.revision: 13
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the Feedback entity to manage feedback and ratings for Dynamics 365 records
 

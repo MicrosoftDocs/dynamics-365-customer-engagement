@@ -2,17 +2,24 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 06/13/2018
+ms.date: 11/21/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-ms.custom:
+manager: shellyha
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
@@ -24,6 +31,66 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.11
+
+### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
+
+As of December 11, 2018, we will introduce the ability to track your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You will be able to acquire posts and comments on your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts. To use this new functionality, the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Account needs to be linked to the respective Facebook page. Users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will need to authenticate or re-authenticate their Facebook Acquisition profile and set up [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search rules. 
+
+[!INCLUDE [tn-instagram](../includes/tn-instagram.md)] is retiring keyword searches on December 11, 2018, and users will not be able to create new keyword search rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed. However, no new [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data will be acquired for these rules. If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you create a separate search rule with the changes and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data untouched.
+ 
+We will share more detailed information through our help center when the new functionality is available and the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search has been removed. 
+
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.10
+
+### Introducing 5 languages for the user interface	
+
+We're introducing the translations for Bosnian, Croatian, Serbian, Slovenian, and Thai across the user interface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
+
+### Home - your new start page
+
+After signing in to [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)], the app presents a new start page called **Home**. It provides helpful resources and additional information in one spot. We'll be adding more features to the start page in future releases.
+
+### Quick setup and initial insights in fresh solutions
+
+[!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will guide users of newly created solutions to success. This quick setup is available to you on **Home** if your solution doesn't have any search topics set up yet. 
+You will create your first search topic and get initial insights within minutes.
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
+
+### Provide your feedback about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+After signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can select the smiley symbol and provide your feedback about the app and the service. We're looking forward to hearing your thoughts and continue to refine the product based on your feedback.
+
+![Provide feedback in Social Engagement](media/feedback-prompt.png)
+
+### Compliance stream for WordPress comments and Disqus
+
+When a comment on WordPress is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] databases. 
+If a user decides to delete their Disqus profile, all related comments and threads are deleted in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] too. 
+
+### Removal of interaction token for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+
+With this release, we're following [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 changes from August 1, 2018: [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] stops supporting engagement actions for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles. Interaction tokens for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] users were removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and you won’t be able to add them anymore.
+
+Good to know: This change doesn't affect the way you [work with social profiles](manage-social-profiles.md) for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].You still need to create a **Facebook Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
+
+### New sign-in URL for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+A new sign-in page is available to sign in directly to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without memorizing the solution URL or going through the Office 365 portal. Go to [http://social.dynamics.com/login](http://social.dynamics.com/login) to sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+
+### Removal of interaction functionality for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+
+With the release of [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 on August 1, 2018, [social profiles for Facebook](manage-social-profiles.md) users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can't interact with posts anymore. With this release, we're removing the option to create new [interaction tokens for Facebook user](manage-access-tokens.md) profiles. The logic for data acquisition doesn't change. You still need to create a **[!INCLUDE [tn-facebook](../includes/tn-facebook.md)] Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
+
+With the upcoming Update 1.8 in August, we'll also remove the interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.6
 
@@ -38,6 +105,7 @@ On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement
 ### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between web browsers and web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1. 
+
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will remove the support of TLS 1.0 and TLS 1.1 in order to align with [!INCLUDE [cc-microsoft](../includes/cc-microsoft.md)] compliance requirements and security best practices.
 
 #### What is the impact?
@@ -47,7 +115,8 @@ After [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
 #### How to avoid interruptions in the user experience
 
 We recommend switching to a browser supporting TLS 1.2.
-All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) releases after April 2016 support TLS 1.2.
+
+All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) after April 2016 support TLS 1.2.
 
 | Browser |  | Version| Remarks |
 |---------|---|--------|---------|
@@ -68,7 +137,7 @@ All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) rele
 
 ### Attachments in private messages now show in the post list
 
-Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
@@ -94,7 +163,7 @@ Existing search rules for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] 
 
 The [author tags filter](understand-filters.md#author-tags) now lets you exclude specific author tags from your data set. 
 
-### Usability improvements extended tweet length
+### Usability improvements for extended tweet length
 
 Twitter extended its support for longer messages in November 2017. For most languages, the limits were the same. This update adds support for Korean, Thai, and Simplified Chinese. 
 
@@ -140,7 +209,7 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
 
-[Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
+[Read more about the experience for Facebook pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
 

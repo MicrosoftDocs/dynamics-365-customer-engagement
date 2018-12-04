@@ -13,12 +13,17 @@ applies_to:
 author: "jimholtz"
 ms.assetid: 292d8a45-c318-408a-a545-14589d5210d2
 caps.latest.revision: 20
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create or edit a site to specify location
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can create a new site to add an office location or other facility where service operations take place. You can also edit the details, such as the street address or phone number, for an existing site.  
   

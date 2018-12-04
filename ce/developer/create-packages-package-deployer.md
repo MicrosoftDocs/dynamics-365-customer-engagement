@@ -14,6 +14,10 @@ caps.latest.revision: 59
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create packages for the Dynamics 365 Package Deployer
 

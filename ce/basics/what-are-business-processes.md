@@ -14,6 +14,10 @@ ms.assetid: b0c0a758-2f03-4679-b81c-560779a6dc7d
 caps.latest.revision: 5
 author: "brycho"
 ms.author: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # What are business processes?
 

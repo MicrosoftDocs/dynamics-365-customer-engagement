@@ -1,6 +1,6 @@
 ---
 title: "Create a return to vendor (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 2e8df23a-6b4c-442a-8c1d-3b597f193c09
 caps.latest.revision: 14
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Return a product to the vendor (Field Service)
 

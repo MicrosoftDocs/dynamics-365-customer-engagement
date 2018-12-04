@@ -15,10 +15,15 @@ ms.assetid: 137b4aa7-2c90-4584-a2bd-38c812788121
 caps.latest.revision: 23
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Synchronize user information with Active Directory
 
-Applies to [!INCLUDE[pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
+[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports two methods for authenticating users:  
   

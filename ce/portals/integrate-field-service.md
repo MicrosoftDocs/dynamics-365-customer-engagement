@@ -1,7 +1,7 @@
 ---
 title: "Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to integrate Field Service with a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 5ef08d6b-37c8-41ea-815b-e4a633786f7d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Integrate Field Service
 

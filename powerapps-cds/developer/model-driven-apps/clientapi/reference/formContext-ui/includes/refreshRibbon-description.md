@@ -1,1 +1,0 @@
-Causes the ribbon to re-evaluate data that controls what is displayed in it.

@@ -17,10 +17,14 @@ ms.assetid: 59cfa5e6-638a-437f-a462-fddfd26fb07d
 caps.latest.revision: 8
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Optimize form performance
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly your forms will load. Many of these recommendations are about how a developer may implement form scripts for your organization. Be sure to discuss these recommendations with developers who create form scripts for your forms.  
   

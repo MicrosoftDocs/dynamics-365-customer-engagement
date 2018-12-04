@@ -1,6 +1,6 @@
 ---
 title: "Set up work order sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 402b977f-390e-4ed7-89d1-4188636cf7f6
 caps.latest.revision: 13
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up work order sub-statuses to map work order status more precisely (Field Service)
 

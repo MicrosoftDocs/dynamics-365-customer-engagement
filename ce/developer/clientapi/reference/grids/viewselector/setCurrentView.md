@@ -8,6 +8,10 @@ ms.assetid: f5ee65bf-2964-49c9-9dd2-d81416353bf3
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setCurrentView (Client API reference)
 

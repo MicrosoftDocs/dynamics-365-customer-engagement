@@ -13,7 +13,7 @@ ms.reviewer: ""
 redirect_url: /dynamics365/customer-engagement/portals/liquid-tags
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Available tags
 

@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
-ms.custom: ""
+keywords: ""
 ms.date: 05/07/2018
-ms.reviewer: ""
-ms.service: "usd"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: 
+  - "usd"
+ms.custom: 
+  - ""
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
@@ -15,10 +15,20 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1B1325DF-1C3A-4205-9C01-E51BE0472FAD
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
+
 # Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application
 This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
   
@@ -215,17 +225,19 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 >  Try the next walkthrough to present enhanced session information in your agent application: [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md). 
   
 ### See also
- [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
+ [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)
 
- [Preview feature: Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
+ [Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
 
- [Preview feature: Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md) 
+ [Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md) 
 
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)  
 
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
 
- [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)
+
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md) 
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
  

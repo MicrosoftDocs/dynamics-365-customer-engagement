@@ -19,6 +19,13 @@ ms.assetid: e9db0517-cd29-4764-8c0a-6aef5a23f8ee
 caps.latest.revision: 40
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets
 

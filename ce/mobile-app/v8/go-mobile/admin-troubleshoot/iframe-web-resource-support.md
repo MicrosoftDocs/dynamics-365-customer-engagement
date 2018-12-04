@@ -17,6 +17,13 @@ ms.assetid: d4bcbe8e-75c5-4489-b8f1-50641a87f684
 caps.latest.revision: 24
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # iFrame and web resource support in Dynamics 365 for tablets
 

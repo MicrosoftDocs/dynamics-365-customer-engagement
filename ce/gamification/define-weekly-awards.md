@@ -5,15 +5,22 @@ keywords: ""
 ms.date: 10/18/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: f34678ce-1037-4788-8394-f83866583c3c
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Create weekly awards to keep players and fans engaged

@@ -8,6 +8,10 @@ ms.assetid: d87e0614-f365-4ed1-992a-741575bb2b7e
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getGlobalContext (Client API reference)
 

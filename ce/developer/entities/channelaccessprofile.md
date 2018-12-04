@@ -10,6 +10,10 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ChannelAccessProfile Entity Reference
 
@@ -327,7 +331,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the the channel access profiles status.|
+|Description|Select the channel access profiles status.|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|

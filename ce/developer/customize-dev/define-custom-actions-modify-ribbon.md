@@ -19,6 +19,10 @@ caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Define custom actions to modify the ribbon
 

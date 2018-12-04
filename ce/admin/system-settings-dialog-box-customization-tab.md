@@ -13,12 +13,17 @@ applies_to:
 author: "jimholtz"
 ms.assetid: d1d78ba3-58a9-4608-acfc-eb1da235fe1b
 caps.latest.revision: 25
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # System Settings dialog box - Customization tab 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Use the Customization tab in System Settings to set preferences for plug-in and workflow tracing and also the use of application mode..  
   

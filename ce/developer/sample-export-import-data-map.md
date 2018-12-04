@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 66255050-1a19-4bd2-a839-3cc45e7947d8
 author: JimDaly
@@ -20,6 +20,10 @@ helpviewer_keywords:
   - "exporting and importing data maps sample"
   - "importing data in Microsoft Dynamics CRM, sample for exporting and importing data maps"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Export and import a data map

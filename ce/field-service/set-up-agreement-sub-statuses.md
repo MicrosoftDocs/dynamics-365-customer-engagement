@@ -1,6 +1,6 @@
 ---
 title: "Set up agreement sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 555c9d08-b907-4527-847a-d3377b4dc384
 caps.latest.revision: 12
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up agreement sub-statuses to specify agreement status more precisely (Field Service)
 

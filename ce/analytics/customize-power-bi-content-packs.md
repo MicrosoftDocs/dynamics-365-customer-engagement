@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 424d7f29-de44-4ce0-94f1-be8777ad6485
@@ -19,11 +19,15 @@ ms.tgt_pltfrm:
 caps.latest.revision: 16
 topic-status: Drafting
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Customize Dynamics 365 Power BI content packs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
   

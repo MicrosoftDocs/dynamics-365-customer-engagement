@@ -15,6 +15,10 @@ caps.latest.revision: 19
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Use OneDrive for Business to manage your private documents
 

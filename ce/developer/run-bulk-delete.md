@@ -15,10 +15,10 @@ helpviewer_keywords:
   - "running bulk delete, using query expressions to describe the records to delete"
   - "using query expressions to describe the records to delete"
   - "bulk deletion operation entity, running bulk delete"
-  - "BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'"
+  - BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'
   - "running bulk delete, running asynchronously without blocking other activities"
   - "bulk delete operation records, items returned in"
-  - "submitting a bulk delete job by using the BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'"
+  - submitting a bulk delete job by using the BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'
   - "running bulk delete, required privileges"
   - "running bulk delete, supported entities"
   - "running bulk delete, bulk deletion operation entity"
@@ -27,6 +27,10 @@ caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Run bulk delete
 

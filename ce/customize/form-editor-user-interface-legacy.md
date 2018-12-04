@@ -1,7 +1,8 @@
 ---
-title: Overview of the form editor user interface for PowerApps | MicrosoftDocs
-description: Know the form editor user interface to edit forms in PowerApps
+title: Overview of the form editor user interface | MicrosoftDocs
+description: Know the form editor user interface to edit forms
 keywords: Forms; Main form;  Unified interface apps; Dynamics 365 for customer engagement
+ms.date: 12/04/2018
 author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
@@ -10,10 +11,14 @@ applies_to:
 ms.author: "matp"
 manager: "kvivek"
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Overview of the form editor user interface
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The form editor displays commands in three tabs: **File**, **Home**, and **Insert**. More information: 
 

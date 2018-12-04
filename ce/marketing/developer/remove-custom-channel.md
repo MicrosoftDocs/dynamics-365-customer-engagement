@@ -1,7 +1,7 @@
 ---
 title: "Remove custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 instance."
-ms.custom:
+ms.custom: 
   - dyn365-developer
   - dyn365-marketing
 ms.date: 04/01/2018
@@ -15,6 +15,11 @@ ms.assetid: 9b170052-5300-4d69-af80-c81247c2fdab
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Remove custom channel
 

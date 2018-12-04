@@ -15,6 +15,10 @@ caps.latest.revision: 13
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # View relevant and trending information on a dashboard with Office Delve
 

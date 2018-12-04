@@ -26,12 +26,16 @@ helpviewer_keywords:
   - "incident, definition"
   - "tracking incidents and activities, incident (case) entities"
   - "incident states, types of"
-  - "case entities, see 'incident (case) entities'"
+  - case entities, see 'incident (case) entities'
 ms.assetid: 441cd857-456f-4319-a0e3-69555277eee5
 caps.latest.revision: 29
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Incident (case) entities
 

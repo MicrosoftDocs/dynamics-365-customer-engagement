@@ -8,12 +8,16 @@ ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to:
- - "Dynamics 365 (online)"
+applies_to: 
+  - "Dynamics 365 (online)"
 ms.assetid: 8c212d9c-cfd6-4dcb-9d11-04b7cb472dbc
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Use the Organization Service to read and write data or metadata

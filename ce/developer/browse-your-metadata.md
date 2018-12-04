@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 46306470-dca2-4d4e-8a98-d7a6eb47ecfe
 author: JimDaly
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 40
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Browse the metadata for your organization

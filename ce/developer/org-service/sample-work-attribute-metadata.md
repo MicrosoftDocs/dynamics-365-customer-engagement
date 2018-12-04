@@ -6,12 +6,16 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 377198f5-ac08-40e1-a727-f3ac51e7a01e
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Work with attribute metadata

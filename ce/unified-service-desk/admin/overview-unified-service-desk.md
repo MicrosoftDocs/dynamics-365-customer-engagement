@@ -1,7 +1,7 @@
 ---
 title: "Overview of Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Get started with Unified Service Desk for Dynamics 365 Customer Engagement" 
-ms.custom:
+description: "Get started with Unified Service Desk for Dynamics 365 Customer Engagement"
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,9 +19,14 @@ ms.assetid: bccc29e3-23a7-4d5a-b53f-432510e63c99
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # What is Unified Service Desk?
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] Customer Engagement provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business critical information so they can quickly engage with customers and address queries and issues.  

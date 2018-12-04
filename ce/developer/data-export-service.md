@@ -14,6 +14,10 @@ ms.assetid: a80ea2c1-c8f6-4edf-8841-18707e83059b
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Data Export Service
 

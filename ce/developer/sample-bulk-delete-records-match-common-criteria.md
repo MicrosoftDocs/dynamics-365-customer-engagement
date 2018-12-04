@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1e5fb8b0-5938-4af7-a21d-7365b27b6e1e
 author: JimDaly
@@ -23,6 +23,10 @@ helpviewer_keywords:
   - "deleting related records in bulk sample"
   - "sample for bulk deletion of records that match common criteria"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Bulk delete records that match common criteria

@@ -15,6 +15,10 @@ ms.assetid: 5768a0f0-21c0-4c7b-9c2a-992c21df406c
 caps.latest.revision: 22
 ms.author: "mkaur"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Drill down in a chart
 

@@ -8,6 +8,10 @@ ms.assetid: 44296667-f1cd-49be-a300-7259bc3b41e0
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getGlobalContext.userSettings (Client API reference)
 
@@ -31,7 +35,7 @@ Returns the date formatting information for the current user.
 
 **Type**: Object
 
-**Description**: An object with informatiuon about date formatting such as **FirstDayOfWeek**, **LongDatePattern**, **MonthDayPattern**, **TimeSeparator**, and so on.
+**Description**: An object with information about date formatting such as **FirstDayOfWeek**, **LongDatePattern**, **MonthDayPattern**, **TimeSeparator**, and so on.
 
 ## defaultDashboardId 
 

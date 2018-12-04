@@ -15,6 +15,10 @@ caps.latest.revision: 30
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Step 2: Register for Microsoft Partner Network account
 

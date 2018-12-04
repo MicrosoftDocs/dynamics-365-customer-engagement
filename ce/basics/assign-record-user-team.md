@@ -14,6 +14,10 @@ ms.assetid: 0fff48c9-f565-4a7a-a632-95142177902d
 caps.latest.revision: 35
 ms.author: "anbichse"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Assign a record to a user or team
 

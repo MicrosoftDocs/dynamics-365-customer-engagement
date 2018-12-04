@@ -15,6 +15,10 @@ caps.latest.revision: 36
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Collaborate with your colleagues using Office 365 Groups
 

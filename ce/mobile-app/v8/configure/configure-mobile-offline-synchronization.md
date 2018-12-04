@@ -14,6 +14,13 @@ ms.assetid: 720cf240-721d-48a0-bfc8-43afb1e1ba7c
 caps.latest.revision: 7
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Configure mobile offline synchronization 
 

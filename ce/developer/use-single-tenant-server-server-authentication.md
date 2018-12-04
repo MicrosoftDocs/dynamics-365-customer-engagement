@@ -14,6 +14,10 @@ ms.assetid: e238f839-3592-44c4-9f82-dc287551c581
 caps.latest.revision: 7
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use Single-Tenant Server-to-server authentication
 

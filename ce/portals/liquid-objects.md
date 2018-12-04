@@ -1,7 +1,7 @@
 ---
 title: "Use Liquid objects for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid objects in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: e550b7a3-6d32-491a-a036-ce24b36f4037
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Available Liquid objects
 

@@ -5,15 +5,22 @@ keywords: "player stats, team stats, statistics"
 ms.date: 01/11/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: f4169614-f6d8-11e7-8c3f-9a214cf093ae
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Get insights into stats from other players and teams

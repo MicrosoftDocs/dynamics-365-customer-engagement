@@ -8,6 +8,10 @@ ms.assetid: 99e82b80-b6c3-4ee8-83cc-637b13ed8498
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setSearchQuery (Client API reference)
 

@@ -1,8 +1,8 @@
 ---
-title: "Get started with model-driven app making in PowerApps | MicrosoftDocs"
-description: "Learn how you can get started building and customizing model-driven apps"
+title: "Get started with app making | MicrosoftDocs"
+description: "Learn how you can get started building and customizing apps"
 ms.custom: ""
-ms.date: 04/10/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +17,16 @@ ms.assetid: d6bd269e-0000-44e9-b686-a6240a101ec7
 caps.latest.revision: 14
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Get started with app making and customization
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You can tailor a model-driven app to more closely fit your organization’s industry, nomenclature, and unique business processes. You can implement many customizations without writing any code.  
+You can tailor an app to more closely fit your organization’s industry, nomenclature, and unique business processes. You can implement many customizations without writing any code.  
   
  The following table shows some examples of customizations:  
   

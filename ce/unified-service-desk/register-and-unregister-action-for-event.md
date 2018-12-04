@@ -1,7 +1,7 @@
 ---
 title: "Register and unregister action for event in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The topic describes the events that can be registered/unregistered for an action."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 26d5f5a6-2c9d-421c-bf44-1a87afdb5c33
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Register and unregister action for event in Unified Service Desk
 This topic describes the events that can be registered/unregistered for an action.  

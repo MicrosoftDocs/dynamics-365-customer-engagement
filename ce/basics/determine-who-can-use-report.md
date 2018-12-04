@@ -15,6 +15,10 @@ caps.latest.revision: 35
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Determine who can use a report
 

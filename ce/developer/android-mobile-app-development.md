@@ -14,6 +14,10 @@ caps.latest.revision: 25
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Resources for Android mobile application development

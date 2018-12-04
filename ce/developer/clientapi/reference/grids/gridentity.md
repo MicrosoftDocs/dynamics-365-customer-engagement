@@ -8,6 +8,10 @@ ms.assetid: cc2b7eca-61f4-4949-8398-52c9fc36721c
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # GridEntity (Client API reference)
 

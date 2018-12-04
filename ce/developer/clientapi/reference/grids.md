@@ -8,6 +8,10 @@ ms.assetid: 9d35c036-637f-4580-8ba0-027a44c0fdee
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Grids and subgrids in Customer Engagement (Client API reference)
 

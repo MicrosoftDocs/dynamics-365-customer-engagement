@@ -1,8 +1,8 @@
 ---
-title: "Create or edit quick create forms in PowerApps | MicrosoftDocs"
+title: "Create or edit quick create forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit a quick create form"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,16 +11,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 68ca9059-cc5a-45e7-88bd-cc57186bbb48
 caps.latest.revision: 18
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit quick create forms for a streamlined data entry experience
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   

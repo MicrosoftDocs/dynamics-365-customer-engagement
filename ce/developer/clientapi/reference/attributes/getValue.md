@@ -1,6 +1,6 @@
 ---
 title: "getValue (Client API reference)| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 10/16/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -8,6 +8,10 @@ ms.assetid: acc78a1e-212a-4eef-88c5-8272f9ba3009
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getValue (Client API reference)
 
@@ -38,6 +42,7 @@ All
 | memo  | [String](https://msdn.microsoft.com/library/ecczf11c.aspx)  |
 | money| [Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)  |
 | optionset | [Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)  |
+| multiselectoptionset | Array of [Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)  |
 | string | [String](https://msdn.microsoft.com/library/ecczf11c.aspx) |
 
 

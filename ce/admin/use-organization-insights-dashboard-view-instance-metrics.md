@@ -6,7 +6,7 @@ ms.date: 10/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: f8f35728-62c8-4461-a7b8-2945360c1b3a
@@ -18,11 +18,16 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 4
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Preview feature: Use the Organization Insights dashboard to view metrics about your instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] metrics such as the number of active users and page requests.  
   

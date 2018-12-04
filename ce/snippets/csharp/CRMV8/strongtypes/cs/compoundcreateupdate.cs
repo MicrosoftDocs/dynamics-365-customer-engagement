@@ -46,7 +46,7 @@ namespace Microsoft.Crm.Sdk.Samples
         /// Create and configure the organization service proxy.
         /// Creates an account and some associated letters with a nested operation.
         /// Updates those records with a nested operation.
-        // </summary>
+        /// </summary>
         /// <param name="serverConfig">Contains server connection information.</param>
         /// <param name="promptForDelete">When True, the user will be prompted to delete all
         /// created entities.</param>

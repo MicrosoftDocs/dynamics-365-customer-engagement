@@ -1,7 +1,7 @@
 ---
-title: "Configure actions for workflows in PowerApps | MicrosoftDocs"
+title: "Configure actions for workflows in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,16 +10,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 author: "Mattp123"
 ms.assetid: 6dbc0f10-7ac5-4685-ab74-22d24bf7102d
 caps.latest.revision: 19
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Configure custom actions from a workflow
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can enable a custom action from a workflow without writing code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md).  
   
@@ -85,7 +88,7 @@ Actions also have something that workflow processes don’t – input and output
  You should consult with the developer who will use this message to determine whether it must be in transaction or not. Generally, an action should be in transaction if the actions performed by the business process don’t make sense unless all of them are completed successfully. The classic example is transferring funds between two bank accounts. If you withdraw funds from one account you must deposit them in the other. If either fails, both must fail.  
   
 > [!NOTE]
->  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services message.  
+>  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a Dynamics 365 for Customer Engagement web services message.  
   
  **Activate As**  
  Like all processes, you can activate the process as a template and use it as an advanced starting point for processes that follow a similar pattern.  

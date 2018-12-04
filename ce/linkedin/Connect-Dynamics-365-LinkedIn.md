@@ -5,15 +5,22 @@ keywords: "LinkedIn Lead Gen Connector, connection, Dynamics 365, Customer Engag
 ms.date: 04/02/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 4140669d-2155-4f43-a4fc-253b67e42f7d
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-LinkedIn
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Establish a connection between [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] and LinkedIn

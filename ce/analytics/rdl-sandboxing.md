@@ -16,11 +16,15 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # RDL sandboxing for Dynamics 365 (online)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the reports run in the sandbox mode. This is done by enabling Report Definition Language (RDL) Sandboxing in [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. The RDL Sandboxing lets you detect and restrict the usage of specific types of resources. As a result, certain features in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] may not be available. For more information, see [MSDN: Enabling and Disabling RDL Sandboxing](https://msdn.microsoft.com/library/ee210591.aspx).  
   

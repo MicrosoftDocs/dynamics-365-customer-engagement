@@ -19,6 +19,10 @@ caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Plan for solution development
 

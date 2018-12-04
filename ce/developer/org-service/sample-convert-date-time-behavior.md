@@ -15,6 +15,10 @@ caps.latest.revision: 18
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Convert date and time behavior
 

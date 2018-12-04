@@ -14,6 +14,13 @@ caps.latest.revision: 46
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Install Microsoft Dynamics 365 for Outlook for desktop virtualization
 This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with roaming user profiles by using [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)][!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], formerly Terminal Services, is a server role in [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] that provides technologies that enable users to access session-based desktops, virtual machine-based desktops, or applications in the data center from both within a corporate network and from the Internet.  
@@ -80,12 +87,12 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
 9. Exit Registry Editor.  
   
 <a name="BKMK_Citrix"></a>   
-## Support for Citrix XenApp 6.5 and 7.0-7.6 session virtualization for Microsoft Dynamics 365 for Outlook on a single XenApp instance  
- [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will support Citrix XenApp 6.5 and 7.0 -7.6 with session virtualization for [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)] on a single XenApp instance.  
+## Support for Citrix XenApp 6.5 and 7.0-7.18 session virtualization for Microsoft Dynamics 365 for Outlook on a single XenApp instance  
+ [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will support Citrix XenApp 6.5 and 7.0 -7.18 with session virtualization for [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)] on a single XenApp instance.  
   
  Please note that Citrix deployment may include a complex configuration topology based on other configurations, and these are not supported. For example, these configurations are not supported:  
   
-- Citrix products like XenApp (except for versions 6.5 and 7.0-7.6), XenDesktop, and XenServer and versions of these products  
+- Citrix products like XenApp (except for versions 6.5 and 7.0-7.18), XenDesktop, and XenServer and versions of these products  
   
 - Application streaming modes  
   

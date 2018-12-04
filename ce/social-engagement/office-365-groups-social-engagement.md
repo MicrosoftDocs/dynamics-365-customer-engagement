@@ -9,10 +9,17 @@ ms.assetid: caf4691a-20d4-4abf-a471-29d13553c439
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
-# Work with Office 365 Groups in Social Engagement
+# Work with Office 365 Groups in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Groups are shared workspaces where group members can collaborate and quickly get stuff done. To collaborate with a group of users in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] you can share social profiles and streams, or assign posts to groups. You can create and manage groups in [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] or [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Groups are automatically synced to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], but you cannot change them from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   

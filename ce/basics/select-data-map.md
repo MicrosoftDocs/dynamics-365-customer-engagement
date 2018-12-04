@@ -14,6 +14,10 @@ caps.latest.revision: 41
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Select a data map
 

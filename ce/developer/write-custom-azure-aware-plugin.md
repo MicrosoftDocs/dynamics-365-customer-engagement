@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 35d8e05c-245a-4eff-bc5f-3a4ee8ffcb46
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Write a custom Azure-aware plug-in
 
@@ -38,7 +42,7 @@ Note that it is possible for synchronous registered plug-ins to post the executi
 In the following sample plug-in code has been added to obtain the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] service provider and initiate posting the execution context to the service bus by calling <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)>. Tracing code has been added to facilitate debugging of the plug-in because the plug-in must run in the sandbox.  
 
 > [!NOTE]
-> The `serviceEndpointId` passed into the the constructor in this code is the one you get from creating a service endpoint as described in [Walkthrough: Configure Azure (SAS) for integration with Customer Engagement](walkthrough-configure-azure-sas-integration.md)
+> The `serviceEndpointId` passed into the constructor in this code is the one you get from creating a service endpoint as described in [Walkthrough: Configure Azure (SAS) for integration with Customer Engagement](walkthrough-configure-azure-sas-integration.md)
 >
 > You can query available service endpoints for your environment using a `GET` request to Web API using your browser with a query like this: *`[organization Uri]`*`/api/data/v9.0/serviceendpoints?$select=name,description,serviceendpointid`
   

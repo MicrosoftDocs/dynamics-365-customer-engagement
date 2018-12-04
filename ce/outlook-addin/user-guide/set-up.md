@@ -19,6 +19,13 @@ caps.latest.revision: 45
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Set up Dynamics 365 for Outlook
   

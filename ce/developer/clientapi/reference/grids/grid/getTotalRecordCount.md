@@ -8,6 +8,10 @@ ms.assetid: 8305f0cb-9959-4429-a721-a864ade4cd35
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getTotalRecordCount (Client API reference)
 

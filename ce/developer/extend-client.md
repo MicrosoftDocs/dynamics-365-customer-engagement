@@ -21,6 +21,10 @@ caps.latest.revision: 46
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Extend Dynamics 365 Customer Engagement on the client
 

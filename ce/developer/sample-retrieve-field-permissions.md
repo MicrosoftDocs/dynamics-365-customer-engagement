@@ -18,6 +18,10 @@ caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Retrieve field permissions
 

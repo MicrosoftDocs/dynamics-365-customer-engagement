@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

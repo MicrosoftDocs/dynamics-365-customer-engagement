@@ -24,6 +24,10 @@ caps.latest.revision: 45
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Package and distribute extensions using solutions
 

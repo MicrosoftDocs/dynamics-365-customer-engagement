@@ -5,11 +5,19 @@ keywords: Customer Service Hub; Interactive Service hub; Keyboard shortcuts; Key
 author: anjgupta
 applies_to: Dynamics 365 (online); Dynamics 365 Version 8.x
 ms.author: anjgup
-manager: sakudes
+manager: shujoshi
 ms.date: 04/01/2018
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Keyboard navigation support for the Customer Service Hub
@@ -18,7 +26,9 @@ ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
 
 Microsoft is committed to making its products and services easier for everyone to use.
 
-Dynamics 365 now supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
+Dynamics 365 supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
+
+The Customer Service Hub app is based in Unified Interface. To see the list of keyboard shortcuts that apply to an app based on Unified Interface, see [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md).
 
 
 |To do |Select|  
@@ -40,5 +50,5 @@ Dynamics 365 now supports moving around the Customer Service Hub (formerly known
 ## See also
 [Customer Service Hub – User's guide](../customer-service/user-guide-customer-service-hub.md)
 
-[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
+
 

@@ -14,6 +14,10 @@ ms.assetid: cdcb02f5-3baa-4fb7-8fb3-6fe53c2d4271
 caps.latest.revision: 11
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Web API Samples
 

@@ -1,8 +1,8 @@
 ---
-title: "Map entity fields in PowerApps | MicrosoftDocs"
+title: "Map entity fields | MicrosoftDocs"
 description: "Learn how to map entity fields"
 ms.custom: ""
-ms.date: 04/12/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,10 +18,14 @@ caps.latest.revision: 33
 ms.author: "matp"
 manager: "kvivek"
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Map entity fields
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_mappingEntityFields"></a>   
  
@@ -88,3 +92,6 @@ tags:
   
 ## Automatically generate field mappings  
  You can also generate mappings automatically but you should use care when doing this with system entities. Use this when you create custom entities and want to leverage mapping. When viewing the list of mappings, in the **More Actions** menu select **Generate Mappings**. This removes any existing mappings and replaces them with suggested mappings that are based only on the fields that have similar names and data types. If you use this on a system entity, you could lose some expected mappings. For custom entities, it helps save time because you can more easily delete any mappings you don’t want and add any others that the generate mappings action didn’t create.  
+
+[Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)<br />
+[Create N:N (many-to-many) relationships](create-and-edit-nn-many-to-many-relationships.md)

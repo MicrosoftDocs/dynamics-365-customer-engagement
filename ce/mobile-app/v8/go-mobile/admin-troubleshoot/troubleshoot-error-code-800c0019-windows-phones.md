@@ -19,6 +19,13 @@ ms.assetid: 4b968f74-0d02-4139-848e-6da502aff04c
 caps.latest.revision: 17
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Troubleshoot error code 800c0019 on Windows Phones
 

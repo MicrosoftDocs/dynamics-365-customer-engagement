@@ -5,20 +5,27 @@ keywords: "portal error logs, store portal error logs in Azure Blob storage"
 ms.date: 02/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9CE45197-4457-44D2-A7C3-B756BB3E6129
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-portal
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
-# Viewing portal error logs
+# View portal error logs
 
 As a portal administrator or developer, you can use portal capabilities for Dynamics 365 to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
 

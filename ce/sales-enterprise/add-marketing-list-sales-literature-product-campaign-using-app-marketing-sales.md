@@ -1,6 +1,6 @@
 ---
 title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -16,6 +16,13 @@ caps.latest.revision: 44
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)
 

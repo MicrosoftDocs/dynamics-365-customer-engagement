@@ -5,15 +5,22 @@ keywords: "AppSource, LinkedIn Lead Gen Connector, Installation, Setup"
 ms.date: 04/02/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1f4ee997-8460-4f6c-a77e-138e850ecd97
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-LinkedIn
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] from AppSource

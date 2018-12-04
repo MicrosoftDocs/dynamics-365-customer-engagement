@@ -20,6 +20,10 @@ caps.latest.revision: 34
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Write plug-ins to extend business processes
 

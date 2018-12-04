@@ -20,6 +20,10 @@ caps.latest.revision: 75
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use access teams and owner teams to collaborate and share information
 

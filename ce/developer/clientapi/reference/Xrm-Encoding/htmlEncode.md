@@ -9,6 +9,10 @@ ms.assetid: 4ef7160b-ac01-4d08-8a98-f8e3012ef20b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # htmlEncode (Client API reference)
 

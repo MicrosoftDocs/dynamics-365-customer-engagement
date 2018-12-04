@@ -21,13 +21,17 @@ helpviewer_keywords:
   - "states, knowledge base entities"
   - "knowledge base entities, publishing and unpublishing knowledge base articles"
   - "knowledge base entities, KB articles states"
-  - "KB articles, see 'knowledge base entities'"
+  - KB articles, see 'knowledge base entities'
   - "search keywords, knowledge base entities"
 ms.assetid: 7d0f1da8-1d6b-4795-a4c1-b0ed898e59f0
 caps.latest.revision: 39
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Work with knowledge articles in Dynamics 365
 

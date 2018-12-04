@@ -15,6 +15,13 @@ ms.assetid: 6818238b-1645-4710-a193-0015acb04196
 caps.latest.revision: 97
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Install Dynamics 365 for phones and tablets
 

@@ -2,7 +2,7 @@
 title: "Streamline JavaScript web resource development using Fiddler AutoResponder (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about how to setup and use AutoResponder in Fiddler for local debugging of JavaScript web resources."
 ms.custom: ""
-ms.date: 03/02/2018
+ms.date: 09/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,6 +14,10 @@ ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "sakudes"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Streamline JavaScript web resource development using Fiddler AutoResponder
 
@@ -31,7 +35,7 @@ While developing and debugging JavaScript web resources, you can use AutoRespond
 
 > [!NOTE]
 > If it is the first time you are enabling this setting, Fiddler will prompt you to install a certificate. Install the certificate and restart Fiddler so that the new settings take effect.<br />
-> If you have run Fiddler in the past and get a `NET::ERR_CERT_AUTHORITY_INVALID` error, in the **HTTPS** tab, click the **Actions** button and choose **Reset All Certificates**. This will will also present a number of prompts for the new certificates to be installed.
+> If you have run Fiddler in the past and get a `NET::ERR_CERT_AUTHORITY_INVALID` error, in the **HTTPS** tab, click the **Actions** button and choose **Reset All Certificates**. This will also present a number of prompts for the new certificates to be installed.
 
 ## Configure AutoResponder
 
@@ -54,24 +58,25 @@ While developing and debugging JavaScript web resources, you can use AutoRespond
    You can then edit the string to match to simplify it. With web resources, the URL will contain generated values in the URL or in a query string to make sure that the latest published version is included in the response. You will probably see the `EXACT` value will look something like this:<br />
     ```
     EXACT:https://<org URL>/%7B636556138760000160%7D/WebResources/new_testscript.js?    ver=-1229805553
-    ```<br />
+    ```
+  
     You can simplify this to remove the generated values and use this instead:<br />
+
     ```
     /WebResources/new_testscript.js
-    ```<br />
+    ```
+
    The bottom row is left blank. Type the path to your local file on your disk on this bottom row and <strong>Save</strong>.<br />
+
    ![Add path to your local file in Rule editor](media/fiddler-save-rule.png "Add path to your local file in Rule editor")<br />
 
- 
-
- 
 By following the above steps, Fiddler is configured to listen to the requests and responds with the local file instead of passing the request over the network.
 
 ## Update and test your code
 
 1. Apply changes to your local file.
 2. Start Fiddler trace capture again and go back to your browser and hard reload the page with empty cache.
-3. In the browser developer tools you can see that the file that is now received will be the the local one.
+3. In the browser developer tools you can see that the file that is now received will be the local one.
 4. Continue repeating this process while updating your code until you get the results you require.
 
 

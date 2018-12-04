@@ -14,6 +14,10 @@ ms.assetid: feb3e634-7c60-46fd-8b92-3f5682b1570b
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Download tools from NuGet 
 
@@ -79,6 +83,14 @@ You can download tools used in development from NuGet using the  powershell scri
     $pdFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf.'}
     move .\Tools\$pdFolder\tools\*.* .\Tools\PackageDeployment
     Remove-Item .\Tools\$pdFolder -Force -Recurse
+
+    ##
+    ##Download Package Deployer PowerShell module
+    ##
+    ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
+    $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
+    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
+    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
 
     ##
     ##Remove NuGet.exe

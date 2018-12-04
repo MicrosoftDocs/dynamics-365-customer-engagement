@@ -15,6 +15,10 @@ caps.latest.revision: 38
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Create or edit a report using the Report Wizard
 

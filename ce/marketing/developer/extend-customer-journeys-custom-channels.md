@@ -1,7 +1,7 @@
 ---
 title: "Extend customer journeys using custom channels (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Beyond the out-of-the box tiles (channels) provided for customer journeys, partners can create custom channels to extend the marketing capabilities in Dynamics 365 for Marketing."
-ms.custom:
+ms.custom: 
   - dyn365-developer
   - dyn365-marketing
 ms.date: 04/01/2018
@@ -15,6 +15,11 @@ ms.assetid: 01bb6aef-5162-4c7c-8cce-f80996bdd150
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Extend customer journeys using custom channels
 

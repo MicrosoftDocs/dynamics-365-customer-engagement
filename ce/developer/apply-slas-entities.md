@@ -14,6 +14,10 @@ ms.assetid: 1b94bd7c-d683-4595-b402-47959137c3fd
 caps.latest.revision: 21
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Apply SLAs to entities
 

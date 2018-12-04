@@ -1,7 +1,7 @@
 ---
-title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/08/2017
+ms.date: 11/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,11 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-author: "mduelae"
+author: "Mattp123"
 ms.assetid: a3e6a322-18f7-48bd-aaea-bff7675d1378
 caps.latest.revision: 35
-ms.author: "mkaur"
+ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
 

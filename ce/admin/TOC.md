@@ -4,6 +4,7 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 (online)](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
+## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
@@ -74,7 +75,7 @@
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Dynamics 365 and Active Directory](synchronize-user-information-active-directory.md)
-## [Create or edit a business unit](create-edit-business-unit-control-access-records.md)
+<!-- removed as duplicate  ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md) -->
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 
@@ -87,11 +88,12 @@
 ## [Delete instance](delete-instance.md)
 ## [Backup and restore instances](backup-restore-instances.md)
 ## [Support instances](support-instance.md) 
-<!-- ## [Move instance](move-instance-tenant.md) -->
+## [Move instance](move-instance-tenant.md)
 ## [Common Data Service instances](common-data-service-instances.md)
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+## [Migrate Dynamics 365 (online) to Dynamics 365 (on-premises)](migrate-online-onpremises.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
 
@@ -120,6 +122,7 @@
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
+## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 
 # [Performance tuning and optimization](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
@@ -130,7 +133,6 @@
 ## [Add or remove sample data](add-remove-sample-data.md)
 ## [Import data](import-data-all-record-types.md)
 ## [Template for data import](download-template-data-import.md)
-## [Preview feature: Import bulk data](import-bulk-data-data-loader.md)
 ## [Detect duplicate data](detect-duplicate-data.md)
 ## [Duplicate detection rules](set-up-duplicate-detection-rules-keep-data-clean.md)
 ## [Turn duplicate detection rules on or off](turn-duplicate-detection-rules-off-whole-organization.md)
@@ -160,7 +162,7 @@
 ## [Email](create-templates-email.md)
 ## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
-## [Entitlements](../customer-service/set-up-entitlements-quickly-templates.md)
+## [Entitlements](../customer-service/set-up-entitlements-templates.md)
 ## [Excel](analyze-your-data-with-excel-templates.md)
 ## [Word](using-word-templates-dynamics-365.md)
 ## [Create signature for email or queue](../basics/create-signature-dynamics-365-email-queue.md)
@@ -231,6 +233,7 @@
 ### [Add Office 365 Online services](add-office-365-online-services.md)
 #### [Connect Dynamics 365 (online) to Exchange Online](connect-exchange-online.md)
 #### [Connect Dynamics 365 (online) to SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+#### [Setup Microsoft Teams integration](integrate-with-microsoft-teams.md)
 #### [Skype for Business and Skype integration](skype-business-integration.md)
 #### [Set up Dynamics 365 (online) to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
 #### [Deploy Office 365 Groups](deploy-office-365-groups.md)

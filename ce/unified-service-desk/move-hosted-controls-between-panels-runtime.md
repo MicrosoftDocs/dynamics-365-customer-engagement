@@ -1,7 +1,7 @@
 ---
 title: "Move hosted controls between panels at runtime in Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
 description: "Learn about moving hosted controls between panels at runtime Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 77956def-6316-45b2-9fc3-eee2b06bb505
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Move hosted controls between panels at runtime Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides the ability to move applications between panels at runtime. You can do so by using the [MoveToPanel](../unified-service-desk/global-manager-hosted-control.md#MoveToPanel) action for the **Global Manager** hosted control type. This action takes two parameters:  

@@ -1,7 +1,7 @@
 ---
 title: "Create an action call for a UII action | MicrosoftDocs"
 description: "Learn about creating an action call for a UII action."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 5b8bac46-075e-4ad7-864f-a3a08ca8c743
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Create an action call for a UII action in Unified Service Desk
 There are two ways in which you can create an action call for a [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] action:  

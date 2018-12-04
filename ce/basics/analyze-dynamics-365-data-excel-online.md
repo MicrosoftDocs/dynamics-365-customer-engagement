@@ -15,6 +15,10 @@ caps.latest.revision: 30
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "sakudes"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Analyze your Customer Engagement data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
 

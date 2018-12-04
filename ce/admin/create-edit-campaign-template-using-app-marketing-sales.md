@@ -15,10 +15,15 @@ caps.latest.revision: 42
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create or edit a campaign template using in-app marketing (Sales)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Save time when creating multiple campaigns by creating a campaign template. Campaign templates contain prefilled data that you specify, so you don’t have to reenter the same information for each campaign. You can either create a new campaign template or copy an existing campaign to use as a template.  
   

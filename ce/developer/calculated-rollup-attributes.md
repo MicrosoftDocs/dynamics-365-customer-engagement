@@ -1,7 +1,6 @@
 ---
 title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about common elements and characterstics, calculated attributes, rollup attributes, retrieve a calculated rollup field value immediately, and 
-SourceTypeMasks enumeration."
+description: "Learn about common elements and characterstics, calculated attributes, rollup attributes, retrieve a calculated rollup field value immediately, and SourceTypeMasks enumeration."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -16,6 +15,10 @@ caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Calculated and rollup attributes
 

@@ -25,6 +25,10 @@ caps.latest.revision: 37
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use FetchXML to construct a query
 
@@ -115,7 +119,11 @@ string fetch2 = @"
      </entity>   
    </fetch> ";   
   
-EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fetch2));foreach (var c in result.Entities)   {   System.Console.WriteLine(c.Attributes["name"]);   }  
+EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fetch2));
+foreach (var c in result.Entities)
+{
+   System.Console.WriteLine(c.Attributes["name"]);
+}  
 ```  
   
 ## Query Results  

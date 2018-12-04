@@ -15,6 +15,10 @@ caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Promote an email message to Dynamics 365
 

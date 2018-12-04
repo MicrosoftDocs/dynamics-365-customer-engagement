@@ -2,7 +2,7 @@
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 04/16/2018
+ms.date: 10/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,13 +15,23 @@ ms.assetid: 7341c21e-88d7-4996-ab74-3731f9cbaa1b
 caps.latest.revision: 6
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage updates 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You have options for when you update your Dynamics 365 Online organization to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. To prepare for a smooth process, use the information in this topic.
+On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 updates: [Modernizing the way we update Dynamics 365](https://aka.ms/dynamics365updatesblog). Microsoft will continue to support older versions of Dynamics within the timeframe of the details in our [Update policy](../admin/manage-updates.md#BKMK_Policy). 
+
+> [!TIP]
+> Many update questions are answered here: [FAQ for Dynamics 365 Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy).
+
+You have options for when you update your Dynamics 365 Online organization to Dynamics 365 (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
 
@@ -30,7 +40,7 @@ You have options for when you update your Dynamics 365 Online organization to [!
 2. Approve the update.  
 
    > [!IMPORTANT]
-   > An update in this document refers to a major version release, such as upgrading from Dynamics 365 version 8.2 to version 9.0. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
+   > An update in this document refers to a major version release, such as upgrading from Dynamics 365 version 8.2 to version 9.x. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
    > 
    > For major version updates, your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](../admin/manage-updates.md#BKMK_Policy) below for further details. 
 
@@ -38,8 +48,13 @@ You have options for when you update your Dynamics 365 Online organization to [!
 
 <a name="BKMK_UpdateDynamics365"></a> 
 
-## Updating to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
- [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] is the next generation of intelligent business applications that enable your organization to grow, evolve and transform to meet the needs of your customers and capture new opportunities. Microsoft introduced new plans for customers effective November 1, 2016, that may be similar but not identical to your current plan.  You have some choices to make. Please review the following:  
+## Continuous updates for Dynamics 365 (online) 
+
+We are transforming how we do service updates for Dynamics 365 (online). We will deliver two major releases per year - April and October - offering new capabilities and functionality. These updates will be backward compatible, so your apps and customizations will continue to work post update. New features with major, disruptive changes to the user experience are off by default. This means administrators will be able to first test then enable these features for their organization.   
+
+In addition to the two major updates, we will continue to deploy regular performance and reliability improvement updates throughout the year. We are phasing deployments over several weeks following safe deployment practices and monitoring updates closely for any issues. 
+
+If you're running Microsoft Dynamics CRM Online, please review the following:  
 
 -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 
@@ -50,32 +65,36 @@ You have options for when you update your Dynamics 365 Online organization to [!
 <a name="BKMK_Policy"></a>   
 
 ## Update policy  
- Microsoft delivers new features and improvements to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] twice a year through updates. To ensure our customers always get the best possible value, we advise customers to run the latest version. However, we also realize that in certain circumstances, some customers are unable to update their solutions with the frequency of our updates.  
 
- We enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for updates. Customers have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
+Since every customer will be updated on the continuous delivery schedule, your organization needs to update to the latest version.  
 
- In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on **n-2** and chose not to take the available **n-1**, then you would need to take **n** as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
+For customers who are currently running older versions of Dynamics 365, we will continue to provide you with the ability to schedule an update to the latest version and want to make sure this effort is as seamless as possible through continuous improvements in our update engine. We will send reminders to schedule your update to Dynamics 365 administrators.  
+
+- For Dynamics 365 (online) customer engagement applications, we sent update communications in May to all customers running version 8.1 and have scheduled updates.
+- Dynamics 365 (Online) **version 8.2 will be fully supported until January 31, 2019**. Customers running version 8.2 should plan to update to the latest version prior to this date. 
+- From February 1, 2019, onwards, we will only support the latest generally available version.
 
 Here are the recent versions.
 
 |  |Version  |Name  |
 |---------|---------|---------|
-|n     |9.0         |Dynamics 365, version 9.0         |
+|n     |9.x         |Dynamics 365, version 9.x         |
 |n-1     |8.2         |Dynamics 365, version 8.2         |
 |n-2     |8.1         |Microsoft Dynamics CRM Online 2016 Update 1          |
 
 <a name="BKMK_Scenarios"></a>   
 
 ## Update scenarios  
+
  Your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
 
 > [!NOTE]
 > For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 (online) instances](../admin/manage-online-instances.md).  
 
-### [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] – Approach One (recommended)  
+### CRM Online 2016 Update 1 – Approach One (recommended)  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
 
- For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) 
+ For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -83,10 +102,10 @@ Here are the recent versions.
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-2)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
 
-n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] 
+n = current version,  Dynamics 365 (online), version 9.x
 
 #### Recommended update approach  
-
+<!--
 1. Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
 
    1. Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
@@ -119,8 +138,10 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
        If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
 
    4. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+-->
+![Update approach one (recommended)](media/cdu-approach1-flowchart.png "Update approach one (recommended)")
 
-### [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] – Approach Two  
+### CRM Online 2016 Update 1 – Approach Two  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
 
 For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
@@ -132,10 +153,10 @@ For version information, see: [Dynamics 365 (online) releases](https://support.m
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
 
-n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
+n = current version, Dynamics 365 (online), version 9.x
 
 #### Recommended update approach  
-
+<!--
 1. Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
 
    1. Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
@@ -167,8 +188,11 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
    2. Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
 
    3. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+-->
+![Update approach two](media/cdu-approach2-flowchart.png "Update approach two")
 
-### [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] 
+
+### December 2016 update for Dynamics 365 (online) 
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1).  
 
  For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
@@ -178,10 +202,12 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
 
-n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
+n = current version, Dynamics 365 (online), version 9.x
 
 #### Recommended update approach  
+Follow the process in the dashed box in the flowchart above. 
 
+<!--
 1. Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
 
    1. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
@@ -199,7 +225,7 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
    2. Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
 
    3. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
+-->
 
 <a name="BKMK_Versions"></a>   
 
@@ -340,10 +366,10 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 <a name="BKMK_PrepareforUpdate"></a>   
 
 ## Prepare your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization for the update  
- Dynamics 365, version 9.0 contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
+ Dynamics 365, version 9.x contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
 
 ### Prepare your users  
- To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
+ To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
 
 <a name="BKMK_Checklist"></a>   
 
@@ -398,8 +424,9 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
 
 ## Notice about Online Policies
-Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/legal/intellectualproperty/onlinedisclaimer.aspx).
 
 ### See also  
- [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)    
+ [FAQ for Dynamics 365 Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy)<br/>
+ [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)<br/>    
  [Manage email notifications](../admin/manage-email-notifications.md)

@@ -14,6 +14,10 @@ ms.assetid: d9bb79a5-2bfa-4ffe-8cb4-60f192359489
 caps.latest.revision: 34
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Dynamics 365 Web API Versions
 

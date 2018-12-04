@@ -20,6 +20,10 @@ caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Process quotes, sales orders and invoices
 

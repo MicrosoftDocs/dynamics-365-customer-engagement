@@ -1,7 +1,7 @@
 ---
 title: Find your way around Dynamics 365 | Microsoft Docs
-description: Know the sitemap of Microsoft Dynamics 365 
-keywords: Microsoft Dynamics 365; Customer Service; Sitemap;  
+description: Know the sitemap of Microsoft Dynamics 365
+keywords: Microsoft Dynamics 365; Customer Service; Sitemap;
 author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
@@ -9,6 +9,10 @@ manager: sakudes
 ms.date: 08/02/2017
 ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Find your way around Dynamics 365 or Dynamics CRM (earlier versions)
 

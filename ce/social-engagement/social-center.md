@@ -5,15 +5,22 @@ keywords: "social center, streams, post list, social engagement, engagement"
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 4388d9c3-ff21-bdb5-7757-69093b2576ef
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Keep track of live data streams with Social Center

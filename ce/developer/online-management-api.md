@@ -8,6 +8,10 @@ ms.assetid: b9ee3048-7065-48e6-87fc-7728c51bdd4e
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Online Management API for Dynamics 365 Customer Engagement 
 

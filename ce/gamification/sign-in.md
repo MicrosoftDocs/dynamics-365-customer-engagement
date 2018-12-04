@@ -5,15 +5,22 @@ keywords: "sign in, sign-in, login, log in"
 ms.date: 10/19/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: b3513a9c-ff38-4896-a2ad-afdd08d23135
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # How to sign in to the Gamification portal

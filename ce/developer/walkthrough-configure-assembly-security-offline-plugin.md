@@ -15,6 +15,10 @@ caps.latest.revision: 12
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Configure assembly security for an offline plug-in
 

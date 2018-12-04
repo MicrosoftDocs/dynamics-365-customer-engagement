@@ -19,6 +19,13 @@ caps.latest.revision: 28
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange
 You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] to set many options that affect tracking and synchronization.  

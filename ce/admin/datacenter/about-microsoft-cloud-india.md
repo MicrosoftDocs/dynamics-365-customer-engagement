@@ -14,10 +14,15 @@ ms.assetid: a90de9f5-15ed-4e72-ba2e-9c981ebf3199
 caps.latest.revision: 20
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # About the Microsoft Cloud India datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 <a name="BKMK_NewCloud"></a>   
 ## New Microsoft Cloud Services in India  

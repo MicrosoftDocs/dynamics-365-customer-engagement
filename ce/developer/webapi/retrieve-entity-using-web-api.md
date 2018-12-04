@@ -15,6 +15,10 @@ caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Retrieve an entity using the Web API

@@ -1,6 +1,6 @@
 ---
 title: "Create an RMA sub-status (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: c41cd2be-31d9-4cfd-91ff-8167fdf5f476
 caps.latest.revision: 14
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Create an RMA sub-status for when a product needs to be returned (Field Service)
 

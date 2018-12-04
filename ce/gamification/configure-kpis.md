@@ -5,15 +5,22 @@ keywords: "Gamification, KPI, saved view, configuration"
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]

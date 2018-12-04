@@ -15,10 +15,15 @@ caps.latest.revision: 42
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Configure server-based authentication with Dynamics 365 (online) and SharePoint on-premises
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)], server-based [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] integration for document management can  be used to connect [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. When using server-based authentication, [Azure AD Domain Services](https://azure.microsoft.com/documentation/articles/active-directory-ds-overview/) is used as the trust broker and users do not need to sign in to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
@@ -101,7 +106,9 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
   -   [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](http://www.microsoft.com/download/details.aspx?id=39267)  
   
-  -   [Azure Active Directory Module for Windows PowerShell (64-bit version)](http://go.microsoft.com/fwlink/p/?linkid=236297)  
+  -   [MSOnlineExt](https://www.powershellgallery.com/packages/MSOnlineExt/)  
+     -   To install the MSOnlineExt module, enter the following command from an administrator PowerShell session.
+         `PS> Install-Module -Name "MSOnlineExt"`
   
   > [!IMPORTANT]
   >  At the time of this writing, there is an issue with the RTW version of Microsoft Online Services Sign-In Assistant for IT Professionals. Until the issue is resolved, we recommend that you use the Beta version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Azure Forums: Cannot install Azure Active Directory Module for Windows PowerShell. MOSSIA is not installed](https://social.msdn.microsoft.com/Forums/azure/en-US/46a38822-28a4-4abb-b747-96f7db2a2676/cannot-install-azure-active-directory-module-for-windows-powershell-mossia-is-not-installed?forum=WindowsAzureAD).  

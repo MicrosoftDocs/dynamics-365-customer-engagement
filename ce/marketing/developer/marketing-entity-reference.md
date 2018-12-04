@@ -13,6 +13,11 @@ ms.assetid: 1550af17-6bb8-47dd-a096-1060213faf1c
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Dynamics 365 for Marketing entity reference
 

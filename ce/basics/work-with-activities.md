@@ -14,6 +14,10 @@ ms.assetid: 672cc271-0891-42b4-a686-a11cf4b11708
 caps.latest.revision: 5
 author: "brycho"
 ms.author: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Work with activities
 

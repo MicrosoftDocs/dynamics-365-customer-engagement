@@ -8,6 +8,10 @@ ms.assetid: a977a250-b79f-4c88-a6af-776350b110f7
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getActiveProcess (Client API reference)
 

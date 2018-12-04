@@ -1,14 +1,13 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about Session Tabs type of hosted control in Unified Service Desk."
-ms.custom:
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+keywords: ""
+ms.date: 08/17/2018
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-USD"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
@@ -16,11 +15,20 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 590fe7cf-9281-41ee-ba7e-c0914ef9e44a
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
+
 # Session Tabs (Hosted Control)
 Use **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
   
@@ -85,7 +93,14 @@ Use **Session Tabs** type of hosted control to display customer information in a
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|SessionId|This is the ID of the session for which you want to reset the progress indicator. The ID can also be retrieved from the context using the replacement parameter: [[context.sessionid]]|  
+|SessionId|This is the ID of the session for which you want to reset the progress indicator. The ID can also be retrieved from the context using the replacement parameter: [[context.sessionid]]|
+
+### SwitchSession  
+ This action is used to switch the session between the local sessions. Also, switch from local to global session.
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+|SessionId|This is the ID of the global or local session. The global session ID can also be retrieved from the context using the replacement parameter: [[$Session.Global]g]</br>For example: `sessionid=[[$Session.Global]g]`| 
   
 <a name="Events"></a>   
 ## Predefined events  

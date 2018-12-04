@@ -21,6 +21,10 @@ caps.latest.revision: 11
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Test for a null value
 

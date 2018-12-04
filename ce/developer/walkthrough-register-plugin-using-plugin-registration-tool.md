@@ -15,6 +15,10 @@ caps.latest.revision: 48
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Register a plug-in using the plug-in registration tool
 

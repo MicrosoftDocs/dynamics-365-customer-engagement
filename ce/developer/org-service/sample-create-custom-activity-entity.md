@@ -14,6 +14,10 @@ ms.assetid: d227f8b1-65c7-4d08-9fdc-6162c3f0bdbb
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create a custom activity entity
 

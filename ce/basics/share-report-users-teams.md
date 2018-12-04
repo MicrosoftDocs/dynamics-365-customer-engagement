@@ -15,6 +15,10 @@ caps.latest.revision: 34
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Share a report with other users or teams
 

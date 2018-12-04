@@ -19,6 +19,10 @@ caps.latest.revision: 46
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Keep track of notes, tasks, calls, or email with activities
 

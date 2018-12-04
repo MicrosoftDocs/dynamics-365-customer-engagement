@@ -1,7 +1,7 @@
 ---
 title: "Datacenter regions for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,10 +14,15 @@ ms.assetid: 6968d4e5-9482-40f3-ab14-6e4bc0dcc787
 caps.latest.revision: 45
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Datacenter regions
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is being hosted in datacenters in more and more regions. After [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] becomes available in a new region, the following apply:  
   
@@ -25,7 +30,7 @@ ms.author: "jimholtz"
   
 - For existing [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organizations, [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will soon accommodate migrations to datacenters in the new region when requested by the customer as long as the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization meets certain business requirements.  
   
-The following table lists the newest datacenter regions. The [datacenter maps](http://go.microsoft.com/fwlink/p/?LinkId=522460) show all the regions. Or use the interactive data map: [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
+The following table lists the newest datacenter regions. Checkout the interactive data map: [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
   
 |Datacenter regions|Service area|Information|  
 |------------------------|------------------|-----------------|  
@@ -45,5 +50,5 @@ The following table lists the newest datacenter regions. The [datacenter maps](h
   
 ### See also  
  [Geo to geo migrations for Dynamics 365 (online)](geo-to-geo-migrations.md)   
- [Products by region](https://azure.microsoft.com/en-us/regions/services/)   
+ [Products by region](https://azure.microsoft.com/regions/services/)   
  [Terminology used in the product and documentation](../../admin/online-terminology.md)

@@ -14,6 +14,10 @@ ms.assetid: 67571a52-57bf-4872-add5-11f76d3b5adc
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Retrieve, update, and delete entities
 

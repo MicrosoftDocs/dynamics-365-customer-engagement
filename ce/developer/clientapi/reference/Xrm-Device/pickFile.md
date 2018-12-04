@@ -8,6 +8,10 @@ ms.assetid: c777a0b8-2b07-458b-8a4f-8938f7a2e696
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # pickFile (Client API reference)
 

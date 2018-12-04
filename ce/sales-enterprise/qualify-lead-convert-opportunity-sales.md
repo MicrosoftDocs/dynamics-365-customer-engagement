@@ -3,9 +3,10 @@ title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales)
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -13,7 +14,7 @@ applies_to:
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,7 +31,7 @@ Does your lead have what you're looking for&mdash;and vice versa? After you've i
 Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  
   
 <a name="bkmk1"></a>   
-## Qualify a lead (Sales Hub app)
+## Qualify a lead (Sales Hub)
 
 1.	Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
@@ -46,7 +47,7 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
 
 
 <a name="bkmk2"></a>   
-## Qualify a lead (Sales app)  
+## Qualify a lead (Sales)  
   
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   
