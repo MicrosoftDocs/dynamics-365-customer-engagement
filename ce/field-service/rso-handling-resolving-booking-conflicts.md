@@ -2,7 +2,7 @@
 title: "Resolving booking conflicts in Resource Scheduling Opimtization for Dynamics 365| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/03/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
