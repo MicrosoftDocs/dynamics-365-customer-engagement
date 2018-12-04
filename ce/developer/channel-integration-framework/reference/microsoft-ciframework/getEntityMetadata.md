@@ -24,7 +24,7 @@ manager: shujoshi
 
 ## Syntax
 
-`Microsoft.CIFramework.removeHandler(entityName, attributes).then(successCallback, errorCallback)`
+`Microsoft.CIFramework.getEntityMetadata(entityName, attributes).then(successCallback, errorCallback)`
 
 ## Parameters
 
