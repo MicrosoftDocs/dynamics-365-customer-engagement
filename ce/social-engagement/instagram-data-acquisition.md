@@ -20,7 +20,7 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search and [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
+# [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] account search and [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
 
 On December 11, 2018, two changes will be introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and are removing the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search functionality. 
 
