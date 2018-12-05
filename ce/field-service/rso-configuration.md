@@ -380,7 +380,7 @@ The default goal is used when single resource optimization is selected from the 
 
 ### Define objectives
 
-Add and rank the objectives of RSO scheduling by using the Move Up, Move Down buttons
+Add and rank the objectives of RSO scheduling by using the **Move Up** and **Move Down** buttons, as seen in the following screenshot.
 
 
 > [!div class="mx-imgBorder"]
