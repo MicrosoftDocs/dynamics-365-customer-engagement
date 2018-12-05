@@ -42,6 +42,8 @@ No, Channel Integration Framework provides JavaScript library which exposes APIs
 - Search among records of a particular entity type
 - Getting and setting the panel width, etc.
 
+More information: [Microsoft.CIFramework methods (CIF JavaScript API reference)](reference/microsoft-ciframework.md).
+
 ## Does Channel Integration Framework manage call or chat sessions?
 No, Channel Integration Framework does not manage call or chat sessions.
 
@@ -64,7 +66,7 @@ No, the Channel Integration Framework (CIF) solution should not be bundled with 
 
 ## See also
 
-[Overview of Channel Integration Framework](overview-channel-integration-framework.md)
-
+[Dynamics 365 Channel Integration Framework Guide](index.md)<br />
+[Overview of Channel Integration Framework](overview-channel-integration-framework.md)<br />
 [System requirements of Channel Integration Framework](system-requirements-channel-integration-framework.md)
 
