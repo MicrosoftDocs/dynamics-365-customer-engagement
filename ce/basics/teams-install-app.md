@@ -146,10 +146,10 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration Preview features
 
-Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For full Teams integration, the Dynamics 365 for Customer Engagement apps admin should enable the following setting.
+Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For Teams integration in Customer Engagement apps, the Customer Engagement apps admin should enable the following setting.
 
 > [!NOTE]
-> This setting is currently only available for organizations in the North American region. We've also noted in the document which features are available only in the North American region.
+> This setting is currently only available for organizations in the North American region. 
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
