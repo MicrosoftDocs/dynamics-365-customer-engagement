@@ -58,9 +58,6 @@ The Edge process WebView control supports using `window.top.notifyUSD` to open t
 
 When you execute a long-running script with edge process, the Unified Service client application Desk freezes and you must restart client application. It is recommeneded to review the script to that caused to freeze and then restart Unified Service Desk client application.
 
-#### Support 
-
-
 #### Support for downloading files with Edge process
 
 When you host your web application in Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
