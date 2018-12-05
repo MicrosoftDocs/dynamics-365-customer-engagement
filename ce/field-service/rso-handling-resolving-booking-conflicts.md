@@ -2,7 +2,7 @@
 title: "Resolving booking conflicts in Resource Scheduling Opimtization for Dynamics 365| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/04/2018
+ms.date: 12/05/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -42,8 +42,8 @@ The **Operation Details** column shows additional details, like the specific dat
 
 To resolve the issue, select one or more conflicted bookings (with a Simulation status), and choose either:
 
-- **Apply with Overwrite**: commit the simulation booking, favoring optimization results.
-- **Discard**: remove simulation booking, favoring the manual booking edits from the dispatcher or field technician.
+- **Apply with Overwrite**: commit the simulation booking, favoring optimization results
+- **Discard**: remove simulation booking, favoring the manual booking edits from the dispatcher or field technician
 
 
 > [!div class="mx-imgBorder"]
