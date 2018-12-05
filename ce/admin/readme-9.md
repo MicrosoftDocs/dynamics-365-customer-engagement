@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 11/19/2018
+ms.date: 12/03/2018
 ms.service:
   - "crm-online"
 ms.topic: article
@@ -157,7 +157,7 @@ in the browser or on mobile devices for each scenario. 
 
 | **Service**                                       | **Unified Interface app in a browser** | **Unified Interface app on mobile** | **Web client in a browser** |
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
-| Sales                                             | –                                      | Sales Hub                           | Sales                       |
+| Sales                                             | Sales Hub                                      | Sales Hub                           | –                       |
 | Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
 | Customer Service – Case management scenarios      | Customer Service Hub                   | Customer Service Hub                | –                           |
 

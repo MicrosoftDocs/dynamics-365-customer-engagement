@@ -1,8 +1,8 @@
 ---
-title: "Import translated entity and field text with PowerApps | MicrosoftDocs"
+title: "Import translated entity and field text | MicrosoftDocs"
 description: "Learn how to import translated entity and field text"
 ms.custom: ""
-ms.date: 04/10/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
