@@ -222,6 +222,33 @@ caption=Case is open |
 
 6. Save the changes.
 
+## EdgeSingleProcess global UII option
+
+With the Edge WebView control, every domain will have respective process. If your organization requires common authentication mode across different domains, the Edge process may not support the same authentication.
+
+To use common authentication mode across different domains, use `EdgeSingleProcess` global UII option to ensure all the processes with different domains are created in a single process at the run-time. 
+
+To use the `EdgeSingleProcess`, you must add the UII option and set the value to `True`.
+
+### Add the UII option
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)] > **Options**.  
+
+3. click **New** on the **Active UII Options** page.
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **EdgeSingleProcess** for the **Name** field.
+
+6. Type **True** for the **Value** field.
+
+7. Click **Save**.
+
+> [!NOTE]
+> If you set the value as `False` or leave the field blank, the option will be disabled.
+
 ## Limitations
 
 To learn about the limitatons of edge process, see [edge process limitaitons](release-notes.md#edge-process)

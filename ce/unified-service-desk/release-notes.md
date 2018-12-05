@@ -34,17 +34,54 @@ search.app:
 
 ### Edge process
 
-#### CloseAndPrompt action
+#### Support for CloseAndPrompt action in Edge process
 
 The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement Web Client. When you make changes in a webpage or a form on Web Client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-#### Alert dialog support with WebView control
+#### Support for alert dialog with WebView control
 
 The Edge process doesn't support the native JavaScript alert dialog in the WebView. When you use Edge WebView control, the alert dialog shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
 
-#### Confirm dialog support
+#### Support for confirm dialog
 
 The Edge process doesn't support the confirm dialog in the WebView. If your custom code uses the confirm dialog, the Edge process in the WebView does not support the execution and your code may fail.
+
+#### Support for multiple page navigation in Edge process
+
+The Edge process WebView control doesn't support the multiple page navigation for the hosted control. even though, during the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URLs does not perform the nagivation in Unified Service Desk client application at the run-time. That is, if you perform navigation form the first URL to second URL, the webpage does not render the second URL.
+
+#### Use window.top.notifyUSD to open event in a new browser
+
+The Edge process WebView control supports using `window.top.notifyUSD` to open the event in new browser instead of `window.open`.
+
+#### Using Lon- running script with Edge process freezes Unified Service Desk
+
+When you execute a long-running script with edge process, the Unified Service client application Desk freezes and you must restart client application. It is recommeneded to review the script to that caused to freeze and then restart Unified Service Desk client application.
+
+<!--#### Support for Edge process pooling
+
+The pooling feature is not supported with Edge process. -->
+
+#### Support for downloading files with Edge process
+
+When you host your web application in Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
+
+A workaround is to open the Edge browser seperately, navigate to the website URL and download the file.
+
+#### Support for launching application for a URI with Edge process
+
+When you host your web application in Unified Service Desk client application using Edge process, launching application for a URI is not supported with Edge process.
+
+Some of the URI schemes and applications are as follows:
+
+| URI Scheme | Launches |
+| ----------:|----------|
+|bingmaps | Maps app |
+|mailto: | Default email app |
+|ms-call:|  Call app |
+|ms-chat: | Messaging app |
+
+A workaround is to open the Edge browser seperately, navigate to the website URL and select the URI scheme to launch the application.
 
 ## Unified Service Desk 4.0 known issues and limitations
 
@@ -95,7 +132,7 @@ Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-s
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.<br>
 
