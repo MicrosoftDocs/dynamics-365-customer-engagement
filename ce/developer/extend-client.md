@@ -1,6 +1,6 @@
 ---
 title: "Extend Dynamics 365 for Customer Engagement apps on the client (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn how developers can extend and customize Dynamics 365 for Customer Engagement apps in clients such as web applications, Dynamics 365 for Customer Engagement apps for phones, and Dynamics 365 for Customer Engagement apps for tablets by using JavaScript and web resources"
+description: "Learn how developers can extend and customize Dynamics 365 for Customer Engagement apps in clients such as web applications, Dynamics 365 for phones, and Dynamics 365 for tablets by using JavaScript and web resources"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
