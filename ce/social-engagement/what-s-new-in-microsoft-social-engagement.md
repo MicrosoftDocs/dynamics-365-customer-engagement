@@ -34,7 +34,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Introducing new languages
 
-This release introduces new languages for sentiment analysis, search rule, and the user interface. 
+This release introduces new languages for sentiment analysis, search rules, and the user interface. 
 
 The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md) with Update 1.12:
 - Bahasa
