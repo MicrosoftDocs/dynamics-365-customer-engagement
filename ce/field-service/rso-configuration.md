@@ -348,27 +348,27 @@ The default goal is used when single resource optimization is selected from the 
     > 
     > [!NOTE]
     > 
-    > - If the above fields are conflicting, RSO uses **Time From Promised** and
+    > - If these fields are conflicting, RSO uses **Time From Promised** and
     > **Time To Promised** first. Then it will use one or a combination of other
     > fields.
     > - RSO will ensure the **Estimated Arrival Time** falls into the window
     > specified above. It does not guarantee that the booking’s end time will fall
     > within the time window.
-    - **Empty time values (v3.0+)** 
+        - **Empty time values (v3.0+)** 
 
-    > RSO will respect scenarios when only a start or end time is defined on a requirement.
+     RSO will respect scenarios when only a start or end time is defined on a requirement.
 
-    > In the example below where a requirement has only a time window start value, RSO schedule the requirement anytime after 1:00 PM regardless of date.
+     In the example below where a requirement has only a time window start value, RSO schedule the requirement anytime after 1:00 PM regardless of date.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
 
-    > This logic applies to the below fields 
+    This logic applies to the below fields 
 
-    > On Resource Requirement entity 
-     > -	Time Window Start/End 
-     > -	Time From Promised/ Time To Promised 
-     > -	From Date/ To Date 
+    On Resource Requirement entity 
+        -	Time Window Start/End 
+        -	Time From Promised/ Time To Promised 
+        -	From Date/ To Date 
 
     > On Resource Booking entity 
      >   -	Time Window Start/End 
