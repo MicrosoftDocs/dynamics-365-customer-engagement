@@ -25,8 +25,8 @@ search.app:
 # Upgrade home page
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-## Upgrade from Project Service Automation version 2.x or 1.x to version 3
-The release of Project Service Automation (PSA) version 3 includes significant changes. This release is built on the Unified Interface framework for an improved user experience. The redesigned app delivers a consistent, uniform user interface, and follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application including changes to pricing, booking and assigning resources, time, expenses, and approvals.  
+## Upgrade from Project Service Automation version 2.x or 1.x to version 3.x
+The release of Project Service Automation (PSA) version 3.x includes significant changes. This release is built on the Unified Interface framework for an improved user experience. The redesigned app delivers a consistent, uniform user interface, and follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application including changes to pricing, booking and assigning resources, time, expenses, and approvals.  
 
 Customers must opt-in to install or upgrade to version 3.x of PSA. This is because in addition to new functionality, version 3.x has a completely new user experience for the web client, which is often referred to as the Unified Interface. Because a new web client may involve some user training, this is being made available only to customers who are explicitly interested in moving to this release. 
 Complete the following steps to verify interest in or to opt-in for version 3.x of PSA. 
@@ -55,7 +55,7 @@ To ensure a successful install experience, make sure that the identified instanc
 >- Carefully review the “What’s new or changed in Project Service Automation version 3” and “Upgrade considerations” topics listed below. An awareness and understanding of the changes between versions will help you with the upgrade process.
 >- Upgrade your sandbox instance to evaluate the changes on your implementation before you upgrade your production instance. 
 
-The following topics provide information about the major changes in PSA, along with considerations and recommendations for planning your upgrade to version 3.
+The following topics provide information about the major changes in PSA, along with considerations and recommendations for planning your upgrade to version 3.x.
 
 - [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
 - [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
