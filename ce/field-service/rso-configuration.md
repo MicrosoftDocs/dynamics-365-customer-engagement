@@ -286,97 +286,81 @@ The default goal is used when single resource optimization is selected from the 
 
 ### Define constraints
 
-- **Schedule Within Working Hours**: Creates the booking if it can be
-    completed within the resource’s working hours. Verifies the booking is not
-    scheduled out of the resource’s working hours. This includes travel time
-    from the last booking to the resource’s end location, although it’s not
-    shown on the schedule board in a visual way.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
+#### Schedule Within Working Hours
+Creates the booking if it can be completed within the resource’s working hours. Verifies the booking is not scheduled out of the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although it’s not shown on the schedule board in a visual way.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
 
-- **Meets Required Characteristics**: Verifies the resource has all the
-    required characteristics and should have minimum required skill level.
+#### Meets Required Characteristics
+Verifies the resource has all the required characteristics and should have minimum required skill level.
 
-- **Scheduling Lock Option**: If marked, this will respect lock options
-    configured on a booking record.
+#### Scheduling Lock Option
+If marked, this will respect lock options configured on a booking record.
     
-- **Matches resource type**: RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
+#### Matches resource type
+RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
-    Bookable resources include these resource types:
+Bookable resources include these resource types:
 
-    - Generic *
-    - Users *
-    - Contacts *
-    - Accounts *
-    - Equipment *
-    - Facility *
-    - Crew
-    - Pool
+- Generic *
+- Users *
+- Contacts *
+- Accounts *
+- Equipment *
+- Facility *
+- Crew
+- Pool
 
-    * Indicates resource types the optimization will consider
+/* Indicates resource types the optimization will consider
 
-    In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
+In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
 
-    Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
+Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
     
-- **Scheduling Windows**: If marked, RSO will schedule work to comply within
-    the time window start and end fields on the resource requirement or booking
-    record.
+#### Scheduling Windows 
+If marked, RSO will schedule work to comply within the time window start and end fields on the resource requirement or booking record.
 
-  - If **From Date** and **To Date** on resource requirement or **Date
-      Window Start** and **Date Window End** on resource booking are set as
-      shown in the following example, it indicates you want RSO to schedule
-      the booking on 5/24/2018 and time of day doesn’t matter.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
+- If **From Date** and **To Date** on resource requirement or **Date Window Start** and **Date Window End** on resource booking are set as shown in the following example, it indicates you want RSO to schedule the booking on 5/24/2018 and time of day doesn’t matter.
+ > [!div class="mx-imgBorder"]
+ > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
 
-  - If **Time Window Start** and **Time Window End** are set as shown in the
-    following example, it indicates you want RSO to schedule a booking from 2 AM
-    to 6 AM and the date doesn’t matter.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
+- If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want RSO to schedule a booking from 2 AM to 6 AM and the date doesn’t matter.
+ > [!div class="mx-imgBorder"]
+ > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
-  - If **Time From Promised** and **Time To Promised** are set as shown in the
-    following example, it indicates you want RSO to schedule a booking between 4
-    AM and 8 AM on 5/24/2018. It has to be a specific date and specific time
-    range.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
-    > 
-    > [!NOTE]
-    > 
-    > - If these fields are conflicting, RSO uses **Time From Promised** and
-    > **Time To Promised** first. Then it will use one or a combination of other
-    > fields.
-    > - RSO will ensure the **Estimated Arrival Time** falls into the window
-    > specified above. It does not guarantee that the booking’s end time will fall
-    > within the time window.
-   - **Empty time values (v3.0+)** 
+- If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want RSO to schedule a booking between 4 AM and 8 AM on 5/24/2018. It has to be a specific date and specific time range.
+ > [!div class="mx-imgBorder"]
+ > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
+  
+> [!NOTE]
+> 
+> - If these fields are conflicting, RSO uses **Time From Promised** and > **Time To Promised** first. Then it will use one or a combination of other fields.
+> - RSO will ensure the **Estimated Arrival Time** falls into the window specified above. It does not guarantee that the booking’s end time will fall within the time window.
+  - **Empty time values (v3.0+)** 
+  RSO will respect scenarios when only a start or end time is defined on a requirement.
+     
+  In the following example, a requirement has only a time window start value; RSO schedules the requirement any time after 1:00 PM regardless of date.
 
-     RSO will respect scenarios when only a start or end time is defined on a requirement.
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
 
-     In the example below where a requirement has only a time window start value, RSO schedule the requirement anytime after 1:00 PM regardless of date.
+  This logic applies to the following fields. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
-
-    This logic applies to the following fields. 
-
-    On the Resource Requirement entity: 
+  On the Resource Requirement entity: 
         -	Time Window Start/End 
         -	Time From Promised/ Time To Promised 
         -	From Date/ To Date 
 
-    On the Resource Booking entity: 
+  On the Resource Booking entity: 
         -	Time Window Start/End 
         -	Time From Promised/ Time To Promised 
         -	From Date/ To Date 
 
-- **Restricted Resources**: If marked, RSO will not schedule a restricted
-    resource to the booking.
+#### Restricted Resources
+If marked, RSO will not schedule a restricted resource to the booking.
 
 ### Define objectives
 
