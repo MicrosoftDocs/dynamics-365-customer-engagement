@@ -2,7 +2,7 @@
 title: "FAQs for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: "Frequently asked question about the Channel Integration Framework (CIF) and its APIs for Dynamics 365."
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/05/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -27,7 +27,7 @@ Channel Integration Framework is a cloud-to-cloud extensible framework to integr
 Yes, you can integrate two-way communication that enables to set the context of inbound and/or outbound according to your business and process workflows.
 
 ## Does Channel Integration Framework work with Unified Interface Apps?
-Yes, Channel Integration Framework works only with Unified Interface Apps.
+Yes, Channel Integration Framework works only with Unified Interface Apps. As of now, Channel Integration Framework does not support Web Client.
 
 ## Is Channel Integration Framework a softphone?
 No, Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 Unified Interface Apps.
@@ -47,6 +47,9 @@ No, Channel Integration Framework does not manage call or chat sessions.
 
 ## Is Channel Integration Framework dependent on operating systems and browsers?
 No, the Channel Integration Framework is operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
+
+## Which web browsers does Channel Integration Framework support ?
+Channel Integration Framework is supported on Microsoft Edge and Google Chrome. 
 
 ## Are there any browsers that Channel Integration Framework does not support ?
 Yes, Channel Integration Framework does not support Internet Explorer and Firefox browsers.
