@@ -3,7 +3,7 @@ title: "Crowdsource ideas on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,12 +29,8 @@ Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
 
 > [!NOTE]
-> The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
-
-## Access permissions
-
-- **Read** access to an idea forum can be restricted to certain web roles by using the Roles with Read Access relationship. This relationship specifies the web roles that have permission to see and participate in the idea forum. Any portal users associated with any of these roles will be granted access to the idea forum. See [Create web roles for portals](create-web-roles.md).  
-- **Change** access to an idea forum is controlled through the Moderators relationship. There is currently no front-side moderation functionality built into the idea portal application.
+> - The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
+> - Restricting access to Idea forums by using web roles is not supported.
 
 ## Idea Forum attributes and relationships
 
