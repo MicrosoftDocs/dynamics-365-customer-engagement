@@ -4,7 +4,7 @@ author: fieldservicedave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 10/31/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -397,7 +397,7 @@ Add and rank the objectives of RSO scheduling by using the Move Up, Move Down bu
     > [!NOTE]
     > This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
 
-- **Locked bookings:** Once a booking is created, a lock can be set on the
+- **Locked bookings**: Once a booking is created, a lock can be set on the
     scheduling lock options field in the RSO section of the booking. The options
     are Time Range, Resource, Time, and Resource and Time. When the locked
     bookings objective is selected, RSO will try to include locked bookings into
@@ -437,45 +437,42 @@ Add and rank the objectives of RSO scheduling by using the Move Up, Move Down bu
     Importance**=1 for low priority and RSO will score 1 urgent requirement the
     same as 10 low-priority requirements because both scores are 10.
 
-- **Maximize Preferred Resources (v3.0+)** -  RSO will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
+- **Maximize Preferred Resources (v3.0+)**:  RSO will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
-This is achieved by adding the "Maximize Preferred Resources" objective in your RSO goal and adding a preferred resource(s) on the requirement that will be optimized.
+This is achieved by adding the "Maximize Preferred Resources" objective to your RSO goal and adding a preferred resource(s) on the requirement that will be optimized.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of maximize preferred resource objective in a goal](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
 
 
-Below is an example of adding a resource (e,g: Jorge Gault) as a preferred resource to a requirement.
+The following screenshot shows an example of adding a resource to a requirement (for example: Jorge Gault) as a preferred resource.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement with preferred resource](./media/scheduling-rso-3-0-requirement-preferred-resources.png)
 
 
-After running an Optimization Schedule, the requirement is scheduled to the preferred resource. In the example below, work order 00100 is scheduled to Jorge Gault.
+After running an optimization schedule, the requirement is scheduled to the preferred resource. In the following example, work order 00100 is scheduled to Jorge Gault.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
 
 > [!Note]
-> The Maximize Preferred Resources objective only applies to **preferred** resources. **Restricted** resources is a constraint that can be added to the goal.
+> The Maximize Preferred Resources objective only applies to **preferred** resources. 
 
+- **Best Matching Skill Level (v3.0+)**: RSO will consider the proficiency rating when matching characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the optimization goal.
 
-- **Best Matching Skill Level (v3.0+)** - RSO will consider the proficiency rating when matching the characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the Optimization Goal.
+    If the "Meets Required Characteristics" constraint **is checked**: 
+    - Resources without the characteristic (skill) or lower-than-required proficiency ratings are not eligible at all
+    - Resources with the exact skill level (best matching) get the highest score
+    - The more overqualified a resource is, the lower score their score will be  
 
+    If the "Meets Required Characteristics" constraint **is unchecked**: 
+    - Less qualified resources and resources without the skill can still be booked
+    - Overqualified resources get a higher score than less qualified resources
+    - The more overqualified a resource is, the lower their score will be 
+    - The less qualified a resource is, the lower their score will be 
+    - Resources without the skill get the lowest score
 
-  - If ‘Meets Required Characteristics’ constraint **is checked** 
-    - resources without the characteristic (skill) or less qualified (less proficiency rating than required) are not eligible at all
-    - resources with the exact skill level (best matching) get the highest score
-    - the more overqualified a resource is, the less score they will get 
- 
-
-  - If ‘Meets Required Characteristics’ constraint **is unchecked**, resources without the skill or less qualified can still be booked
-    - overqualified resources get a higher score than less qualified ones
-    - the more overqualified a resource is, the less score they will get 
-    - the less-qualified a resource is, the less score they will get 
-    - Resource without the skill get the lowest score but not zero
-
-**For example:** If a characteristic (skill) rating model is from 1 to 10, and the requirement asks for a skill level of 4, below is the score distribution based on skill level of the resource 
-
+For example, if a characteristic (skill) rating model ranges from 1 to 10, and the requirement asks for a skill level of 4, the following example shows the score distribution based on skill level of the resource.
 
 
 > [!div class="mx-imgBorder"]
