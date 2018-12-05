@@ -228,26 +228,33 @@ With the Edge WebView control, every domain will have respective process. If you
 
 To use common authentication mode across different domains, use `EdgeSingleProcess` global UII option to ensure all the processes with different domains are created in a single process at the run-time. 
 
-To use the `EdgeSingleProcess`, you must add the UII option and set the value to `True`.
+To use the `EdgeSingleProcess`, you must add the UII option and set the value to `True`. More information: [EdgeSingleProcess](admin/manage-options-unified-service-desk.md)
 
 ### Add the UII option
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)] > **Options**.  
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
-3. click **New** on the **Active UII Options** page.
+3. Select **Options**.  
 
-4. Choose **Others** for the **Global Option** field.
+4. Select **New** on the **Active UII Options** page.
 
-5. Type **EdgeSingleProcess** for the **Name** field.
+5. Choose **Others** for the **Global Option** field.
 
-6. Type **True** for the **Value** field.
+6. Type **EdgeSingleProcess** for the **Name** field.
 
-7. Click **Save**.
+7. Type **True** for the **Value** field.
+
+8. Click **Save**.
 
 > [!NOTE]
 > If you set the value as `False` or leave the field blank, the option will be disabled.
+
+
+## Sign out from sessions when using Edge porcess
+
+To sign out from sessions when using the edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
 
 ## Limitations
 
