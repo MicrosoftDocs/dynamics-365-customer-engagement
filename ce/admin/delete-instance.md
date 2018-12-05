@@ -1,7 +1,7 @@
 ---
 title: "Delete an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 12/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -32,6 +32,9 @@ You can delete [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Sand
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
+   > [!NOTE]
+   > Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
 3. Choose the **Instances** tab.  

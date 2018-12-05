@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/06/2018
+ms.date: 12/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -32,8 +32,13 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 >
 > Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
 
+<!--
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 for Customer Engagement apps (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
+-->
+
+> [!NOTE]
+> Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
   
 <a name="BKMK_View"></a>   
 

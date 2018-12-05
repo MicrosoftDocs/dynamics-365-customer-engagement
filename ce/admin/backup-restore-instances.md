@@ -2,7 +2,7 @@
 title: "Backup and restore instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 02/26/2018
+ms.date: 12/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -53,6 +53,9 @@ Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] app
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or Delegated Admin security roles.  
   
+   > [!NOTE]
+   > Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+
 2. Click **Admin centers** > **Dynamics 365**.  
   
 3. Click the **Backup & Restore** tab.  
