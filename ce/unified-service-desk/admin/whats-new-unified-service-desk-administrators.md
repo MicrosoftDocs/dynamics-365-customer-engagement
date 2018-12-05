@@ -34,7 +34,7 @@ search.app:
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
-### Hosting application in Microsoft using the Edge Process hosting type
+### Public Preview: Hosting application in Microsoft using the Edge Process hosting type
 
 Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
 Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.

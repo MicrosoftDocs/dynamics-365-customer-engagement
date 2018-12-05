@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Edge Process
+# Public preview: Edge Process
 
 The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Edge, it will work in Unified Service Desk. You can select Edge Process as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
@@ -222,19 +222,9 @@ caption=Case is open |
 
 6. Save the changes.
 
-## Limitations of Edge process
+## Limitations
 
-### CloseAndPrompt action
-
-The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement Web Client. When you make changes in a webpage or a form on Web Client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
-
-### Alert dialog support with WebView control
-
-The Edge process doesn't support the native JavaScript alert dialog in the WebView. When you use Edge WebView control, the alert dialog shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
-
-### Confirm dialog support
-
-The Edge process doesn't support the confirm dialog in the WebView. If your custom code uses the confirm dialog, the Edge process in the WebView does not support the execution and your code may fail.
+To learn about the limitatons of edge process, see [edge process limitaitons](release-notes.md#edge-process)
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
