@@ -58,8 +58,8 @@ Yes, Channel Integration Framework does not support Internet Explorer and Firefo
 > The widget domain needs to be accorded permission to use appropriate media like pop-ups, microphone as required. For Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ## Can partners package solutions that have a dependency on Channel Integration Framework(CIF) solution, together with the CIF solution?
-No, the Channel Integration Framework(CIF) solution should not be bundled with another solution. Partners can create solutions that:
-- Add a check to their package looking for the Channel Integration Framework(CIF) solution (also mentioning the minimum supported version), which causes installation to fail in case the CIF solution is not present.
+No, the Channel Integration Framework (CIF) solution should not be bundled with another solution. Partners can create solutions that:
+- Add a check to their package looking for the Channel Integration Framework (CIF) solution (also mentioning the minimum supported version), which causes installation to fail in case the CIF solution is not present.
 - Also, you can add Configuration Experience to the acquire flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution do any additional setup or license acquisition remotely before installing.
 
 ## See also
