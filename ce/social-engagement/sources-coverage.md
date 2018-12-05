@@ -2,7 +2,7 @@
 title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
-ms.date: 29/11/2018
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
