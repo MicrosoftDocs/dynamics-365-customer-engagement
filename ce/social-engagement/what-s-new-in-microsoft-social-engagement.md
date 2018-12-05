@@ -28,9 +28,20 @@ Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 
 If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Get started with Social Engagement](get-started.md).
 
-For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
-
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.12
+
+### Introducing new languages
+
+This release introduces new languages for sentiment analysis, search rule, and the user interface. 
+
+The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md) with Update 1.12:
+- Bahasa
+- Czech
+- Hungarian
+- Hindi
+- Korean
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.11
 
