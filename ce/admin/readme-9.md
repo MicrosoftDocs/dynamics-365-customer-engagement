@@ -34,7 +34,7 @@ Channel Integration Framework
 
 - By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
 
-- It is not possible for users to work in parallel on quick create, task flows and Channel Integration Framework(CIF) panel, because quick create and task flows render on top of CIF panel.
+- It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
