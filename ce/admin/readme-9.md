@@ -30,7 +30,7 @@ You'll also find information about known issues and possible workarounds.
 
 Channel Integration Framework
 -----------------------------
-- Channel Integration Framework does not support Internet Explorer and Firefox browsers.
+- Channel Integration Framework does not support Internet Explorer and Firefox browsers. Channel Integration Framework currently supports Microsoft Edge and Google Chrome web browsers.
 
 - The `onsendkbarticle` event will not raise because the control is not available in Unified Interface.
 
