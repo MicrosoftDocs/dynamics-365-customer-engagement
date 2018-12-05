@@ -28,6 +28,9 @@ search.app:
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
 
+> [!IMPORTANT]
+> If your organization is eligible for Social Engagement and you've signed up for the Dynamics 365 AI for Market Insights Preview, all existing data, searches, and users are migrated to the new experience. If you want to go back to use Social Engagement, a global admin can remove the the Dynamics 365 AI for Market Insights (Preview) license in the Office 365 admin center and ensure a Social Engagement license is assigned. This will roll back to the former experience with Social Engagement branding. 
+
 ## Prepare your organization
 
 For step-by-step instructions on adding a service to an existing [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, see [Office help: Manage a subscription](http://go.microsoft.com/fwlink/p/?LinkId=392376).
