@@ -18,7 +18,7 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-# What's new in Channel Integration Framework
+# What's new in Channel Integration Framework (CIF)
 
 The December'18 release of Channel Integration Framework (CIF) introduces the following new features.
 
@@ -31,6 +31,8 @@ The December'18 release of Channel Integration Framework (CIF) introduces the fo
 
 - [Ability to pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
 - Ability to add an additional Trusted Domain if the initial landing URL and the final domain from which the communication widget is hosted are different. More information: [Configure channel provider in Channel Integration Framework (CIF)](configure-channel-provider-channel-integration-framework.md)
+
+Here is the download link for Channel Integration Framework solution: [Download Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70).
 
 ## See Also
 

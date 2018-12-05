@@ -51,11 +51,11 @@ No, the Channel Integration Framework is operating system and web browser agnost
 ## Which web browsers does Channel Integration Framework support ?
 Channel Integration Framework is supported on Microsoft Edge and Google Chrome. 
 
-## Are there any browsers that Channel Integration Framework does not support ?
-Yes, Channel Integration Framework does not support Internet Explorer and Firefox browsers.
-
 > [!NOTE]
 > The widget domain needs to be accorded permission to use appropriate media like pop-ups, microphone as required. For Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
+
+## Are there any browsers that Channel Integration Framework does not support ?
+Yes, Channel Integration Framework does not support Internet Explorer and Firefox browsers.
 
 ## Can partners package solutions that have a dependency on Channel Integration Framework(CIF) solution, together with the CIF solution?
 No, the Channel Integration Framework (CIF) solution should not be bundled with another solution. Partners can create solutions that:
