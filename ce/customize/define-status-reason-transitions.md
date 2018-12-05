@@ -1,8 +1,8 @@
 ---
-title: "Define status reason transitions with PowerApps | MicrosoftDocs"
+title: "Define status reason transitions | MicrosoftDocs"
 description: "Learn how to define status reason transitions"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 11/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: dbc4f436-0b23-42f9-8079-b0de482aaebe
 caps.latest.revision: 11

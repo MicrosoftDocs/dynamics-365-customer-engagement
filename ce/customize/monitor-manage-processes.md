@@ -1,7 +1,7 @@
 ---
 title: "Monitor and manage workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -22,7 +22,7 @@ search.app:
 ---
 # Monitor and manage workflow processes
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 To monitor and manage processes, you must locate the process, evaluate the status, and perform any actions necessary to address problems.  
   

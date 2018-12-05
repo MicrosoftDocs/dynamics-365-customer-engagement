@@ -1,8 +1,8 @@
 ---
-title: "Delete custom entities in PowerApps | MicrosoftDocs"
+title: "Delete custom entities | MicrosoftDocs"
 description: "Learn how to delete a custom entity"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 12/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

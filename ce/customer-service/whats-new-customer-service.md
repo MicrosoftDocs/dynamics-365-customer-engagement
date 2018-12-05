@@ -61,7 +61,7 @@ With the Customer Engagement apps version 9.1 release, Service Management moves 
 See the [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md) to learn more about Customer Service admin settings.
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
+> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the February 2019 release.
 
 
 ### See also
