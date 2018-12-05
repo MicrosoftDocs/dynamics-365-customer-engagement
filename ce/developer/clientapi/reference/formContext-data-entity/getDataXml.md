@@ -33,7 +33,7 @@ search.app:
 
 ## Remarks
 
-This method does not work with Microsoft Dynamics 365 for Customer Engagement apps for tablets.
+This method does not work with Microsoft Dynamics 365 for tablets.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "close (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 12/04/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 for Customer Engagement (online)"
@@ -27,7 +27,7 @@ search.app:
 
 The HTML **Window.close** method is suppressed. To close a form window, you must use this method. If there are any unsaved changes in the form, the user will be prompted whether they want to save their changes before the window closes.
 
-For Microsoft Dynamics 365 for Customer Engagement apps for tablets, this method mimics the behavior of the back navigation button.
+For Microsoft Dynamics 365 for tablets, this method mimics the behavior of the back navigation button.
 
 ### Related topics
 
