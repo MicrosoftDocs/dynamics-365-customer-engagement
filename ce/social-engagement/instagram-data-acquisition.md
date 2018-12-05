@@ -2,7 +2,7 @@
 title: "Instagram business account search rules | Microsoft Docs"
 description: "Learn more about the changes to Instagram data acquisition and search rules."
 keywords: "Instagram, data acquisition, search rules"
-ms.date: 12/07/2018
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 967a4c6c-38de-4714-a65e-13832668c696
@@ -22,14 +22,14 @@ search.app:
 
 # [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search and [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
 
-On December 11, 2018, two changes are introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Accounts search and the removal of the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search. 
+On December 11, 2018, two changes will be introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Accounts and are removing the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search functionality. 
 
 ## [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
 Keyword searches are retired by [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] on December 11, 2018. Due to this change we are also removing the keyword searches  functionality in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)]. 
 
 ## How [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search rules work after December 11, 2018?
 
-Since the functionality of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword searches is removed starting December 11th, no new keyword search queries for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] can be setup. 
+Since the functionality of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword searches is removed starting December 11th, no new keyword search queries for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] can be set up. 
 
 Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed.
 If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule.
