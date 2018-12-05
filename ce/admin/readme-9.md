@@ -32,10 +32,6 @@ Channel Integration Framework
 -----------------------------
 - Channel Integration Framework does not support Internet Explorer and Firefox browsers. Channel Integration Framework currently supports Microsoft Edge and Google Chrome web browsers.
 
-- The `onsendkbarticle` event will not raise because the control is not available in Unified Interface.
-
-- The `msdyn_ciprovider` entity is accessible only for the administrator roles. As a result, the panel will not load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the `msdyn_ciprovider` entity. Then add the role to the users who will access the Channel Integration Framework.
-
 - By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
 
 - It is not possible for users to work in parallel on task flows and Channel Integration Framework(CIF) panel, because task flows render on top of CIF panel.
