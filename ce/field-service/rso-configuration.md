@@ -287,12 +287,12 @@ The default goal is used when single resource optimization is selected from the 
 ### Define constraints
 
 #### Schedule Within Working Hours
-Creates the booking if it can be completed within the resource’s working hours. Verifies the booking is not scheduled out of the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although it’s not shown on the schedule board in a visual way.
+This creates the booking if it can be completed within the resource’s working hours. Verifies the booking is not scheduled out of the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although it’s not visually displayed on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
 
 #### Meets Required Characteristics
-Verifies the resource has all the required characteristics and should have minimum required skill level.
+This verifies the resource has all the required characteristics and should have minimum required skill level.
 
 #### Scheduling Lock Option
 If marked, this will respect lock options configured on a booking record.
@@ -300,7 +300,7 @@ If marked, this will respect lock options configured on a booking record.
 #### Matches resource type
 RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
-Bookable resources include these resource types:
+Bookable resources include these types:
 
 - Generic *
 - Users *
@@ -313,9 +313,9 @@ Bookable resources include these resource types:
 
 \* Indicates resource types the optimization will consider
 
-In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
+In general, resource types define how the resource relates to the organization. For example, resources with the resource type **Users** are typically employees, whereas the resource type **Contacts** or **Accounts** are typically contractors.
 
-Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
+Additionally, requirements allow multi-select so you can specify which resource types you need for a given requirement.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
