@@ -25,6 +25,7 @@ manager: shujoshi
 | Topic | Updates |
 |-------|-------|
 | [Get Channel Integration Framework](get-channel-integration-framework.md) | Channel Integration Framework (CIF) is an application (solution) available in Microsoft AppSource. You can get the solution from within the Dynamics 365 or directly from Microsoft AppSource. |
+| [Download Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70) | Download link for Channel Integration Framework. |
 | [Microsoft.CIFramework API reference documentation](reference/microsoft-ciframework.md) | Provides documentation for the JavaScript APIs of Channel Integration Framework (CIF). |
 | [Events documentation](reference/client-side-events.md) | Provides documentation for events that trigger client-side code in Dynamics 365 Unified Interface. |
 | Entity reference documentation | Provides information about the new entities introduced for Channel Integration Framework (CIF). See [msdyn_ciprovider](reference/entities-attributes/msdyn-ciprovider.md) |
