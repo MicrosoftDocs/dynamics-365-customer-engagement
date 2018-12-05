@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: ""
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 11/21/2018
+ms.date: 12/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -146,7 +146,10 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 
 ## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
-Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 (online). For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
+Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For full Teams integration, the Dynamics 365 for Customer Engagement apps admin should enable the following setting.
+
+> [!NOTE]
+> This setting is currently only available for organizations in the North American region. 
 
 1. Sign in as a System administrator to Dynamics 365 (online).
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
