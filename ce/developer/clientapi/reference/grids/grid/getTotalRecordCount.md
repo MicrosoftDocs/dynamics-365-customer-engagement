@@ -20,7 +20,7 @@ search.app:
 [!INCLUDE[./includes/getTotalRecordCount-description.md](./includes/getTotalRecordCount-description.md)]
 
 - When the Dynamics 365 for Outlook client isn’t connected to the server, this number is limited to those records that the user has selected to take offline.
-- For Dynamics 365 for Customer Engagement apps mobile clients, this method will return the number of records in the subgrid.
+- For Dynamics 365 for Customer Engagement mobile clients, this method will return the number of records in the subgrid.
 
 ## Grid types supported
 

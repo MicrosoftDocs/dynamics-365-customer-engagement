@@ -213,7 +213,7 @@ search.app:
 <tr>
 <td>IsVisibleInMobileClient</td>
 <td>Boolean</td>
-<td>Indicates whether Microsoft Dynamics 365 for Customer Engagement apps for tablets users can see data for this entity.</td>
+<td>Indicates whether Microsoft Dynamics 365 for tablets users can see data for this entity.</td>
 </tr>
 <tr>
 <td>IsEnabledInUnifiedInterface</td>

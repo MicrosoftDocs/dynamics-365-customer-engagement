@@ -21,7 +21,7 @@ search.app:
 Each item represents one of the available navigation options available in the navigation bar for entities that have been updated to the new user experience or on the left side of the form for entities that have not been updated.
 
 > [!NOTE]
-> These methods do not work with Microsoft Dynamics 365 for Customer Engagement apps for tablets.
+> These methods do not work with Microsoft Dynamics 365 for tablets.
 
 ## Navigation item methods
 
