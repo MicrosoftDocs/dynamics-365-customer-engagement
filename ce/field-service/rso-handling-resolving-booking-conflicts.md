@@ -33,7 +33,7 @@ Conflicts will arise when a related resource, requirement, or booking is edited 
 
 In conflict scenarios, the optimization request will have the status **Completed with Conflicts** (in earlier versions, the status showed as **Failed**).
 
-Within the Optimization Request Booking view, you can see the conflicted bookings that were edited during optimization. These bookings will have a booking status of **Simulation**, along with a conflicted icon. 
+Within the optimization request booking view, you can see the conflicted bookings that were edited during optimization. These bookings will have a booking status of **Simulation**, along with a conflicted icon. 
 
 The **Operation Details** column shows additional details, like the specific data modified during optimization. 
 
