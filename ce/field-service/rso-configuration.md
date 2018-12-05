@@ -311,7 +311,7 @@ Bookable resources include these resource types:
 - Crew
 - Pool
 
-/* Indicates resource types the optimization will consider
+\* Indicates resource types the optimization will consider
 
 In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
 
