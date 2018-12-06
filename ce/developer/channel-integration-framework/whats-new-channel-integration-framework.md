@@ -50,7 +50,7 @@ Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.ge
 More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md).
 
 
-## Download Channel Integration Framework
+## Download Dynamics 365 Channel Integration Framework
 
 Download link for Channel Integration Framework solution: [Download Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70).
 
