@@ -1,20 +1,20 @@
 ---
 title: "Configure Relevance Search for the organization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 07/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5ec1a73d-06cb-4d40-adab-8bb293bcedbb
 caps.latest.revision: 65
-author: "udag"
-ms.author: "t-mijosh"
-manager: "ryjones"
+author: udag
+ms.author: t-mijosh
+manager: ryjones
 search.audienceType: 
   - admin
 search.app: 

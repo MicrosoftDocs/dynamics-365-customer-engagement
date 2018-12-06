@@ -73,7 +73,7 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 
 The first page of the wizard lets you choose where you will install the app and to choose an address where your portals and landing pages will run.
 
-![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
+![Choose an organization and name your portal](media/setup-form-1.png Choose an organization and name your portal)
 
 Choose an instance and name your portal:
 
@@ -87,7 +87,7 @@ Choose an instance and name your portal:
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup wizard lists each of these and provides links for more information. It also asks you to enter your organization's postal address.
 
-![Provide consent and enter your postal address](media/setup-form-2.png "Provide consent and enter your postal address")
+![Provide consent and enter your postal address](media/setup-form-2.png Provide consent and enter your postal address)
 
 Give consent and enter your postal address:
 

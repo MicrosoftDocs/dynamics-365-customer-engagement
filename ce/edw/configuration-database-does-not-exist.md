@@ -1,11 +1,11 @@
 ---
 title: "The configuration database does not exist on the specified SQL Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 211692df-d41a-48b0-ac60-324436e99db7
 caps.latest.revision: 6
 robots: noindex,nofollow

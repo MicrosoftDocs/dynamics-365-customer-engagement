@@ -32,7 +32,7 @@ Group Policy provides an infrastructure for centralized configuration management
 > 
 >  To complete this procedure, you must be a member of the Domain Administrators security group, the Enterprise Administrators security group, or the Group Policy Creator Owners security group.  
   
-<a name="BKMK_PreparingGroupPolicy"></a>   
+<a name=BKMK_PreparingGroupPolicy></a>   
 ## Preparing Dynamics 365 for Outlook for a Group Policy deployment  
  Use this procedure to create the CRMClient_*bitversion*.msi file that is required for a [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Group Policy deployment.  
   
@@ -88,7 +88,7 @@ Group Policy provides an infrastructure for centralized configuration management
   
    9. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is available in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for all authenticated users the next time that they log on to the domain. To limit the scope to a specific organizational unit (OU), group, or individual user, in Group Policy Management, expand **Group Policy Objects**, and click the GPO named *Microsoft Dynamics 365 for Customer Engagement apps Users*, and then add or remove the security objects that you want, such as a group, in the **Security Filtering** area of the publication on the **Scope** tab.  
   
-<a name="BKMK_PublishAssign"></a>   
+<a name=BKMK_PublishAssign></a>   
 ## Publish versus Assign  
  When you publish an application by using GPO deployment, it is made available for users to install by using Program and Features (or in previous versions of Windows, Add or Remove Programs) in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)]. Assigned applications are installed when a user logs on to the domain.  
   

@@ -1,12 +1,12 @@
 ---
 title: "Archive - Social Engagement 2016 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2016."
-keywords: ""
+keywords: 
 ms.date: 04/10/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 6bc1005f-f38e-4637-bb1e-fbacd82b3349
 author: m-hartmann
 ms.author: mhart

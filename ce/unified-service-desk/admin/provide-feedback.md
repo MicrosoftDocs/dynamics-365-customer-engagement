@@ -1,20 +1,20 @@
 ---
 title: "Provide feedback about Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about providing feedback about Unified Service Desk."
-ms.custom: ""
+ms.custom: 
 ms.date: 04/24/2018
-ms.service: "usd"
-ms.topic: "article"
+ms.service: usd
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 23F085E7-C2E2-44C0-80C1-9E65CCA209E9
-author: "kabala123"
-ms.author: "kabala"
-manager: "shujoshi"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 

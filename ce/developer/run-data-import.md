@@ -1,30 +1,30 @@
 ---
 title: "Run data import (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Data importation runs directly on the Dynamics 365 for Customer Engagement server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "running data import, transforming parsed data"
-  - "running data import, obtaining auditing data"
-  - "running data import, parsing source data"
-  - "running data import, uploading transformed data to target servers"
-  - "running data import, multiple jobs"
-  - "using import logs to learn about importing failures, viewing"
-  - "running data import, viewing import logs to obtain information about importing failures"
-  - "running data import, setting up asynchronous jobs to run on servers"
-  - "import logs, viewing"
+  - running data import, transforming parsed data
+  - running data import, obtaining auditing data
+  - running data import, parsing source data
+  - running data import, uploading transformed data to target servers
+  - running data import, multiple jobs
+  - using import logs to learn about importing failures, viewing
+  - running data import, viewing import logs to obtain information about importing failures
+  - running data import, setting up asynchronous jobs to run on servers
+  - import logs, viewing
 ms.assetid: 1c819f28-9eec-49eb-af22-f4e95f916205
 caps.latest.revision: 33
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

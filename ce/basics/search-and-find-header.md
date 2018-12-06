@@ -1,19 +1,19 @@
 ---
 title: "Search and Find in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 08/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d0634607-b17f-4f33-aa15-e26ebed441f7
 caps.latest.revision: 2
-ms.author: "t-mijosh"
-manager: "ryjones"
+ms.author: t-mijosh
+manager: ryjones
 search.audienceType: 
   - enduser
 search.app: 

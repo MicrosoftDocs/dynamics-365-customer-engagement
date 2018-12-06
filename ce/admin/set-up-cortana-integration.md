@@ -1,14 +1,14 @@
 ---
 title: "Preview feature: Set up Cortana integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics CRM Online
 ms.assetid: b31d2c05-5785-4827-bd3e-e65ad95040d0
 author: jimholtz
 ms.author: jimholtz

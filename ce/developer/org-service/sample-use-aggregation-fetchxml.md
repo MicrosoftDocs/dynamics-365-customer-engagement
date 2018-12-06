@@ -1,27 +1,27 @@
 ---
 title: "Sample: Use aggregation in FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve aggregate record data using FetchXML"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "retrieving aggregate record data by using FetchXML sample"
-  - "using aggregation in FetchXML sample"
-  - "FetchXML queries, samples"
-  - "sample for retrieving aggregate record data by using FetchXML"
-  - "building queries with FetchXML, samples"
-  - "sample for using aggregation in FetchXML"
+  - retrieving aggregate record data by using FetchXML sample
+  - using aggregation in FetchXML sample
+  - FetchXML queries, samples
+  - sample for retrieving aggregate record data by using FetchXML
+  - building queries with FetchXML, samples
+  - sample for using aggregation in FetchXML
 ms.assetid: 283151dc-212c-445d-8181-9baec0dcba75
 caps.latest.revision: 28
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

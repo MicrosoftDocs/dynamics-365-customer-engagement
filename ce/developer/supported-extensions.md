@@ -1,20 +1,20 @@
 ---
 title: "Supported extensions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "You can customize  Dynamics 365 for Customer Engagement apps by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 for Customer Engagement apps SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 for Customer Engagement."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/20/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9386a572-0f6c-4edb-91f1-021ee63e6a58
 caps.latest.revision: 64
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

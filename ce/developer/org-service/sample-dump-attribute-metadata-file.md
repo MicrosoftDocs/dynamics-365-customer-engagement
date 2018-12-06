@@ -1,13 +1,13 @@
 ---
 title: "Sample: Dump attribute metadata to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write out all the attribute metadata to an XML file. It uses the RetrieveAllEntitiesRequest message."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f2321671-f4dc-4abd-ac50-edddfa170fd2
 author: JimDaly
 ms.author: jdaly

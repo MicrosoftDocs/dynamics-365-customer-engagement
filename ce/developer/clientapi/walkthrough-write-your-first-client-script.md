@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: Write your first client script in Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
-applies_to: "Dynamics 365 for Customer Engagement (online)"
+ms.service: crm-online
+ms.topic: conceptual
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 73dfc13c-a18c-42fc-b511-a37896c2f893
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -36,7 +36,7 @@ All marketing email messages that you create by using [!INCLUDE[pn-marketing-bus
 - **Legal requirements**: Many countries/regions have laws that require all marketing email messages to include an unsubscribe link.
 - **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove those that don't include an unsubscribe link.
 
-All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
+All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required do not bulk email option.
 
 Each subscription list exists as a static marketing list, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
@@ -44,22 +44,22 @@ The only way a contact can access a subscription center is by clicking a link se
 
 A default subscription center is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but it is very simple: it includes the minimum contact fields and the required **do not bulk email** check box. In this exercise, we'll walk through the process of creating a subscription list and adding it to a subscription form. We'll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
 
-<a name="create-subscription-list"></a>
+<a name=create-subscription-list></a>
 
 ## Create a subscription list
 
 Subscription lists are based on the standard (static) marketing lists feature of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To create one:
 
 1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], open the app selector, and then select the **Surveys** app module. (Marketing lists aren't included in the current version of the Marketing work area, so one place you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You could also use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.)  
-    ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")
+    ![How to open the surveys app](media/app-selector-surveys.png How to open the surveys app)
 
 2. The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app: it's horizontal and displayed at the top of the screen. Use it to navigate to **Marketing** &gt; **Customers** &gt; **Marketing Lists**.  
-    ![How to open marketing lists in the surveys app](media/surveys-app-lists.png "How to open marketing lists in the surveys app")
+    ![How to open marketing lists in the surveys app](media/surveys-app-lists.png How to open marketing lists in the surveys app)
 
 3. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
 
 4. The **New Marketing List** page opens.  
-    ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")
+    ![How to configure a list as a subscription list](media/subscription-list-example.png How to configure a list as a subscription list)
 
     Make the following settings (at minimum):
    - **Name**: Enter a descriptive name
@@ -85,14 +85,14 @@ Now that you have a subscription list available, you can add it to a subscriptio
     > You could instead edit an existing form by choosing it from the list, but for this exercise we'll describe how to create a new one. Note that if you edit an existing form, your edits will affect all marketing pages that use that form because forms are imported by reference, not copied to the page like template content.
 
 4. The **Select a Form Template** dialog box opens.  
-    ![How to find a subscription center template](media/form-template-subcenter.png "How to find a subscription center template")
+    ![How to find a subscription center template](media/form-template-subcenter.png How to find a subscription center template)
 
     Do the following:
     - It's important to select a template of the correct type (subscription center), so start by filtering the template list by choosing the **Type** tab, and then choose **Subscription center** from the drop-down list here.
     - Choose a template (we'll show the **1-Column Subscription Center** for this exercise), and then choose **Select**.
 
 5. Your selected template is now copied to your new form design.  
-    ![Edit the heading inserted by the form template](media/form-headings-from-template.png "Edit the heading inserted by the form template")
+    ![Edit the heading inserted by the form template](media/form-headings-from-template.png Edit the heading inserted by the form template)
 
     As you can see, the template has already provided the following:
    - A basic contact-information form that includes several typical fields
@@ -103,10 +103,10 @@ Now that you have a subscription list available, you can add it to a subscriptio
      Work directly on the canvas to select each of the placeholder headings (including the brackets) and replace them with actual headings (for example, **Update your contact information** and **Newsletter subscriptions**).
 
      > [!TIP]
-     > Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin ("lorem ipsum") text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
+     > Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin (lorem ipsum) text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
 
 6. On the **Toolbox** tab, scroll down until you find the **Subscription Lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the **Newsletter subscriptions** heading.  
-    ![Add a subscription list to the form](media/from-add-subscription-list.png "Add a subscription list to the form")
+    ![Add a subscription list to the form](media/from-add-subscription-list.png Add a subscription list to the form)
 
     > [!TIP]
     > Only forms of type Subscription Center show subscription lists in the **Toolbox**.
@@ -140,7 +140,7 @@ To work with content settings records, go to **Marketing** &gt; **Templates** &g
 
 Each field shown here (besides the **Name** and **Default** setting) can be referenced dynamically in your email messages. The two fields, **Address Main** and **Subscription Center** must be referenced in all marketing emails, so they are likewise required here.
 
-![Content-settings settings](media/content-settings-general.png "Content settings")
+![Content-settings settings](media/content-settings-general.png Content settings)
 
 To specify a subscription center:
 
@@ -149,13 +149,13 @@ To specify a subscription center:
 1. Select the assist-edit button **&lt;/&gt;** for the **Subscription Center** field.
 
 1. A drop-down list opens. Select **Marketing Page**. This identifies the type of entity you are referencing.  
-    ![Choose the Marketing Page entity](media/assist-edit-subcenter-1.png "Choose the Marketing Page entity")
+    ![Choose the Marketing Page entity](media/assist-edit-subcenter-1.png Choose the Marketing Page entity)
 
 1. Assist-edit adds some code and then opens a new drop-down list that shows each marketing page available in your system. Select the name of the subscription page you want to reference.  
-    ![Choose a specific marketing page](media/assist-edit-subcenter-2.png "Choose a specific marketing page")
+    ![Choose a specific marketing page](media/assist-edit-subcenter-2.png Choose a specific marketing page)
 
 1. Assist-edit adds the GUID (a unique ID code) for the page you selected, and then opens a third drop-down list that shows the names of several relevant attributes from the Marketing Page entity. We are looking for the page URL, so choose **FullPageUrl**.  
-    ![Choose the field value to find with the expression](media/assist-edit-subcenter-3.png "Choose the field value to find with the expression")
+    ![Choose the field value to find with the expression](media/assist-edit-subcenter-3.png Choose the field value to find with the expression)
 
     > [!TIP]
     > The expression you just created by using assist-edit is of the form:
@@ -177,7 +177,7 @@ As mentioned, content settings are defined on the customer journey level, and ap
 1. Find your journey in the list, or select **New** in the command bar to create a new one.
 
 1. Go to the **General** page of the customer journey record.  
-    ![Where to set content settings for a journey](media/journey-general-content-settings.png "Where to set content settings for a journey")
+    ![Where to set content settings for a journey](media/journey-general-content-settings.png Where to set content settings for a journey)
 
 1. Use the **Content Settings** field to choose the Content Setting record that applies to the current journey.
 
@@ -187,16 +187,16 @@ To add a subscription center link to a marketing email:
 
 1. While working in a text element, add some link text (such as **manage subscriptions**) at an appropriate place.
 
-1. Select the anchor text, and then select the **Link** button ![The link button](media/email-link-button.png "The Link button") from the floating toolbar, which opens the **Link** dialog box.
+1. Select the anchor text, and then select the **Link** button ![The link button](media/email-link-button.png The Link button) from the floating toolbar, which opens the **Link** dialog box.
 
 1. Select the assist-edit button for the **Link** field, and then choose **msdyncrm\_contentsettings** from the first drop-down list and **msdyncrm\_subscriptioncenter** from the second one to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_subscriptioncenter}}**.  
-    ![The email Link dialog](media/email-link-dialog.png "The email Link dialog box")  
+    ![The email Link dialog](media/email-link-dialog.png The email Link dialog box)  
 
 1. Select **OK** to create the link.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
 
-<a name="target-subscription-list"></a>   
+<a name=target-subscription-list></a>   
 
 ## Set up a customer journey that targets a subscription list
 
@@ -209,16 +209,16 @@ To set up a segment tile to target a subscription list:
 1. Select a child segment tile and open the **Properties** tab.
 
 1. Set the **Segment source** to **Subscription Marketing List**, which activates the **Marketing List** field. Then set the **Marking List** to the name of the subscription list you want to use for this journey.  
-    ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
+    ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png Set a segment tile to load a subscription list)
 
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
-<a name="test-sub-center"></a>
+<a name=test-sub-center></a>
 
 ## Test your subscription center
 
-Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey, and links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
+Subscription centers only work when they know who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey, and links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
 
 If you open a subscription center by opening its URL directly, the page will load, but the form will be empty, all subscription lists will be cleared, and you won't be able to submit it. To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
 

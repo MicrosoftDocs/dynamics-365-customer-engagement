@@ -1,24 +1,24 @@
 ---
 title: "Customize visualizations and dashboards (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about configuring dashboards in such a way that enables you to view data from multiple areas of Dynamics 365 for Customer Engagement such as sales, marketing, and service. You can even adjust the data displayed in visualizations and dashboards per your business requirements by applying filters. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "visualizations"
-  - "charts"
-  - "dashboards"
+  - visualizations
+  - charts
+  - dashboards
 ms.assetid: 275d803b-68ea-41d0-9a31-e0adbb9c1815
 caps.latest.revision: 37
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

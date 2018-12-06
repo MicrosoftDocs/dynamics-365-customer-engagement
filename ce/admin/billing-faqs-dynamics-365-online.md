@@ -1,21 +1,21 @@
 ---
 title: "Billing FAQs for Dynamics 365 for Customer Engagement apps (online) Customer Engagement | MicrosoftDocs"
 description: "We’ve put together this list of the most frequently asked billing and subscription management questions for Dynamics 365 for Customer Engagement apps (online) Customer Engagement"
-ms.custom: ""
+ms.custom: 
 ms.date: 08/18/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: fb3338ce-6522-46af-9c1e-71a368424e50
 caps.latest.revision: 63
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

@@ -41,7 +41,7 @@ search.app:
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
-![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
+![The designer toolbar and content area](media/designer-tools-ill.png The designer toolbar and content area)
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
@@ -87,7 +87,7 @@ search.app:
 
 When a text element is selected, you are able to enter and style text within that element. The keyboard shortcuts listed in the following subsections are active while you are working with a text element.
 
-![The text-element toolbar](media/text-block-toolbar.png "The text-element toolbar")
+![The text-element toolbar](media/text-block-toolbar.png The text-element toolbar)
 
 #### Navigating within a text element
 
@@ -155,9 +155,9 @@ When a text element is selected, you are able to enter and style text within tha
 
 Most of the standard screen navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
-![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
+![An example of a customer journey](media/customer-journey.png An example of a customer journey)
 
-<a name="canvas-tabs"></a>
+<a name=canvas-tabs></a>
 
 ### Move between canvas tabs
 
@@ -173,9 +173,9 @@ The canvas includes a side panel with tabs that provide a **Toolbox** of availab
 1. Press space to open the **Add** menu.
 1. Use the arrow keys to select a tile type from the **Add** menu.
 1. Press space to choose the tile type currently selected in the **Add** menu.  
-    ![Add a tile from the toolbar](media/cj-add-menu-ill.png "Choose the type of tile you want to add")
+    ![Add a tile from the toolbar](media/cj-add-menu-ill.png Choose the type of tile you want to add)
 1. Use the arrow keys to select where you want to insert the new tile in the pipeline. Select a new-tile position to place the tile in a new position, or select an existing tile to place the tile as a child of that tile.  
-    ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
+    ![Choose where to add the new tile](media/cj-add-location-ill.png Choose where to add the new tile)
 1. Press space to place the tile in the selected position.
 
 ### Delete a tile

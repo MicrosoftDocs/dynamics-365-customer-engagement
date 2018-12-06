@@ -1,13 +1,13 @@
 ---
 title: "Sample: Detect solution dependencies (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d347f96b-a137-42e1-a9bf-fac6d6133330
 author: JimDaly
 ms.author: jdaly
@@ -16,9 +16,9 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "detecting solution dependencies sample"
-  - "sample for detecting solution dependencies"
-  - "solution entities samples, detecting solution dependencies sample"
+  - detecting solution dependencies sample
+  - sample for detecting solution dependencies
+  - solution entities samples, detecting solution dependencies sample
 topic-status: Drafting
 search.audienceType: 
   - developer

@@ -1,14 +1,14 @@
 ---
 title: "Maintain an external org chart (Dynamics 365 for Sales) | Microsoft Docs"
 description: "Manage live org charts by organizing contacts in Dynamics 365 for Sales."
-keywords: "org chart, account form, contact hierarchy"
+keywords: org chart, account form, contact hierarchy
 ms.date: 11/08/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 247486b3-428f-457a-a6f5-5708bc4bc3bd
 author: m-hartmann
 ms.author: mhart

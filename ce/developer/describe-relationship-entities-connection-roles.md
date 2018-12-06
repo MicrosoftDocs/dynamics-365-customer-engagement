@@ -1,27 +1,27 @@
 ---
 title: "Describe a relationship between entities with connection roles (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-decription: "Describing a relationship between entities using create connection roles and connection role categories."
-ms.custom: ""
+decription: Describing a relationship between entities using create connection roles and connection role categories.
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "connecting roles to make a relationship"
-  - "assigning roles"
-  - "applying two matching roles to connect records, reciprocal roles"
-  - "specifying categories for connection roles"
-  - "creating connection roles, related messages and attributes"
-  - "describing the relationship between records by assigning roles"
-  - "describing a relationship between entities by using connection roles"
+  - connecting roles to make a relationship
+  - assigning roles
+  - applying two matching roles to connect records, reciprocal roles
+  - specifying categories for connection roles
+  - creating connection roles, related messages and attributes
+  - describing the relationship between records by assigning roles
+  - describing a relationship between entities by using connection roles
 ms.assetid: 19b6da03-5c17-4f6d-8521-32aa68d60f2e
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

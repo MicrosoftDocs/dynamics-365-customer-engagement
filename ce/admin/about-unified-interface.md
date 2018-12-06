@@ -1,21 +1,21 @@
 ---
 title: "About Unified Interface Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/15/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

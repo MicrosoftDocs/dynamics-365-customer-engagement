@@ -1,20 +1,20 @@
 ---
 title: "Submit feedback or ratings for information stored in your system (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "shubhadaj"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shubhadaj
 ms.assetid: b5eb89bc-e828-4b0a-bf80-87f399e4695a
 caps.latest.revision: 9
-ms.author: "shujoshi"
-manager: "sakudes"
+ms.author: shujoshi
+manager: sakudes
 search.audienceType: 
   - enduser
 search.app: 

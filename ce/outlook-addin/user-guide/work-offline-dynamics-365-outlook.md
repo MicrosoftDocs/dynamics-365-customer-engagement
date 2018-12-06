@@ -36,16 +36,16 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 The following operating systems are supported for offline mode.
 
- ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+ ![Offline Support](../media/OfflineSupport.PNG Offline Support) 
   
-<a name="BeforeYouGoOffline"></a>   
+<a name=BeforeYouGoOffline></a>   
 ## Before you go offline  
  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
   
 > [!TIP]
 >  The first time you go offline, it can take a significant amount of time to synchronize your local data with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server if you have a lot of data. For example, in customer service situations, a parent case may have thousands of child cases. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] isn’t available when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is synchronizing. You can shorten the time by using the offline synchronization filters to limit the amount of synchronized data.  
   
-<a name="GoOffline"></a>   
+<a name=GoOffline></a>   
 ## Go offline  
   
 - When you’re ready to go offline, in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], choose **File** > **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** > **Go Offline**.  
@@ -59,14 +59,14 @@ The following operating systems are supported for offline mode.
   >   - The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] menu displays the **Go Online** option.  
   >   - If you’re using [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] 2010 or [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] 2013, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] tab displays the **Go Online** button.  
   
-<a name="GoBackOnline"></a>   
+<a name=GoBackOnline></a>   
 ## Go back online  
   
 1. Make sure you’re connected to your organization’s network.  
   
 2. Choose **File** > **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** > **Go Online**.  
   
-<a name="UnavailableFeatures"></a>   
+<a name=UnavailableFeatures></a>   
 ## What features are unavailable offline?  
   
 ### Not available offline  
@@ -129,7 +129,7 @@ The following operating systems are supported for offline mode.
   
 -   Mail-merge templates  
   
-<a name="OtherThingsToKnow"></a>   
+<a name=OtherThingsToKnow></a>   
 ## Other things to know about going offline  
   
 - **Shared use of a computer.** Any users who log on locally to a computer that has [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed can potentially access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data stored in the offline database. Shared use of a computer running [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is not supported.  

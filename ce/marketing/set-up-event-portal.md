@@ -34,7 +34,7 @@ search.app:
 
 The event portal is a customer-facing website that people can use to read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a site map of your event portal as your attendees will see it.
 
-![Sitemap for the standard event portal](media/event-portal-sitemap-ill.png "Site map for the standard event portal")
+![Sitemap for the standard event portal](media/event-portal-sitemap-ill.png Site map for the standard event portal)
 
 The event portal is built by using the standard portals capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution, so you can see all its constituent elements by going to the **Portals** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. However, you usually won't need to work with any of these elements unless you want to customize the portal. The event portal is preconfigured to publish all the relevant information about each published event, and to enable visitors to register for the event, create an account (including username and password), edit their profile, and choose session passes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with Dynamics 365 for Customer Engagement portals](portals.md)
 
@@ -46,7 +46,7 @@ Most of the information shown on the portal comes directly from your event model
 
 To publish an event, session, or track, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Published**. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event portal.
 
-![The Publish Status menu](media/event-publish-ill.png "How to set the publish status of an event to the portal")
+![The Publish Status menu](media/event-publish-ill.png How to set the publish status of an event to the portal)
 
 The following table summarizes how to publish each publishable entity to the portal, and which types of information are publish for each of them. Be especially careful and thorough when entering values for published fields, because they are exposed to the public.
 
@@ -67,7 +67,7 @@ The portal features a banner image for each event, and also shows speaker photos
 - You can customize the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal banner image** setting.
 
 - Speaker images come from each speaker record (not from the associated contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
-    ![Edit the speaker image](media/speaker-edit-image.png "Edit the speaker image")
+    ![Edit the speaker image](media/speaker-edit-image.png Edit the speaker image)
 
 - Sponsor images come from each sponsorship record, which you can edit by working in the event record where the sponsorship applies (found on the **Agenda** tab, which links to related sponsorship records), or by finding the appropriate sponsorship record under **Events** > **Sponsorship management** > **Sponsorships**. As with speaker images, you can edit the image by selecting the existing photo (or generic placeholder) in the heading area of the sponsorship record page.
 
@@ -80,7 +80,7 @@ To find the URL for your sample event portal and open it:
 1. Open the **General** tab and find the **Key information** section.
 1. The **Event URL** field here shows the address of the portal for this event. Select the globe button at the edge of this field to open the URL.
 
-<a name="angular"></a>
+<a name=angular></a>
 
 ## Customize the event portal and host it anywhere
 

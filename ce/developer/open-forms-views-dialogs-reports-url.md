@@ -1,23 +1,23 @@
 ---
 title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 for Customer Engagement apps forms, views, dialogs, and reports in other applications"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "URL Addressable"
-  - "entity forms, open with url"
-  - "views, open with url"
+  - URL Addressable
+  - entity forms, open with url
+  - views, open with url
 ms.assetid: a8015117-1aa1-40df-b418-e563424b7558
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

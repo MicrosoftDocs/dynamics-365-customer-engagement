@@ -1,13 +1,13 @@
 ---
 title: "Work with accounts and contacts (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 ms.date: 08/11/2018
-ms.service: "crm-online"
-ms.topic: "get-started-article"
+ms.service: crm-online
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
-ms.author: "shujoshi"
+ms.author: shujoshi
 search.audienceType: 
   - enduser
 search.app: 

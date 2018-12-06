@@ -1,30 +1,30 @@
 ---
 title: "Use FetchXML aggregation (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the grouping and aggregation features of FetchXML that let you calculate sum, average min, max and count"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "FetchXML queries"
-  - "using FetchXML aggregation (grouping), code examples"
-  - "using FetchXML aggregation (grouping), null value limitations when computing averages (avgaggregate attribute)"
-  - "using FetchXML aggregation (grouping), difference between aggregate queries and standard queries"
-  - "using FetchXML aggregation (grouping), aggregation functions supported"
-  - "FetchXML queries, grouping and aggregation features"
-  - "FetchXML queries, using FetchXML to construct queries"
-  - "building queries with FetchXML, using FetchXML aggregation (grouping)"
-  - "using FetchXML aggregation (grouping), effects of null values when minimum or maximum data is computed"
+  - FetchXML queries
+  - using FetchXML aggregation (grouping), code examples
+  - using FetchXML aggregation (grouping), null value limitations when computing averages (avgaggregate attribute)
+  - using FetchXML aggregation (grouping), difference between aggregate queries and standard queries
+  - using FetchXML aggregation (grouping), aggregation functions supported
+  - FetchXML queries, grouping and aggregation features
+  - FetchXML queries, using FetchXML to construct queries
+  - building queries with FetchXML, using FetchXML aggregation (grouping)
+  - using FetchXML aggregation (grouping), effects of null values when minimum or maximum data is computed
 ms.assetid: be0fb5cf-4ba8-487f-b517-ae1c24045478
 caps.latest.revision: 31
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

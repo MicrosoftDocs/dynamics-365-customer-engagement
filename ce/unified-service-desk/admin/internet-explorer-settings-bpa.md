@@ -1,19 +1,17 @@
 ---
 title: "Internet Explorer settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service:
-  - "usd"
-ms.custom:
-  - ""
+  - usd
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 104DE14D-F43E-4414-AC83-5C1157E79831
 author: kabala123
 ms.author: kabala

@@ -1,19 +1,17 @@
 ---
 title: "Walkthrough 6: Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service: 
-  - "usd"
-ms.custom: 
-  - ""
+  - usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: B87B63D0-7BE3-4B43-806A-29429D9DE75A
 author: kabala123
 ms.author: kabala

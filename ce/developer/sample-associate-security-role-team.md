@@ -1,24 +1,24 @@
 ---
 title: "Sample: Associate a security role to a team (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to assign a security role to a team by using the AssignRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "assigning a role to a team, sample"
-  - "assigning a security role, sample"
-  - "team security sample, assigning roles"
+  - assigning a role to a team, sample
+  - assigning a security role, sample
+  - team security sample, assigning roles
 ms.assetid: 6097b89f-b3a6-472b-8fed-4f1aef62817f
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,12 +1,12 @@
 ---
 title: "Run games in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
-keywords: "game, gamification KPI, game setup"
+keywords: game, gamification KPI, game setup
 ms.date: 10/27/2017
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ec71f8e3-5cc9-4941-8067-5bf8e1081da9
 author: m-hartmann
 ms.author: mhart

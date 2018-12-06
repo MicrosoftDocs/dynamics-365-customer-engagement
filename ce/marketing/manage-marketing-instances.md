@@ -45,7 +45,7 @@ Instance management operations are a standard feature of [!INCLUDE[pn-microsoftc
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and customer-insights services are external to the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] platform server, and thus follow their own lifecycle. These services aren't directly accessible to users, so when backup and restore operations are used on the organization database, you must consider their impact on these connected services.
 
-<a name="prepare-backup"></a>
+<a name=prepare-backup></a>
 
 ## Prepare for copies and manual backups
 
@@ -85,7 +85,7 @@ For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instanc
 
 Do not attempt to change the URL for a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. If you require a different URL, then you must set up a new [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance at the new URL and then reinstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] there.
 
-<a name="copy-to-sandbox"></a>
+<a name=copy-to-sandbox></a>
 
 ## Copy your current production instance to a sandbox
 
@@ -109,7 +109,7 @@ To copy a production instance to a sandbox:
 2. As mentioned in [Prepare for copies and manual backups](#prepare-backup), move all your running live entities to a _stopped_ state if you will make a full copy. You don't have to do this if you're planning to make a minimal copy because live entities aren't copied during a minimal copy.
 
 3. Return to the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and go to the **Instances** tab. Select your production instance (the instance you are copying from) and then select **Copy** from the side panel.  
-    ![Select the Copy button](media/copy-instance-start.png "Select the Copy button")
+    ![Select the Copy button](media/copy-instance-start.png Select the Copy button)
 
     > [!NOTE]
     > You must already have a sandbox instance available before you can copy a production instance to it. Make sure you see a sandbox listed on your **Instances** tab. If you don't have one, contact Microsoft Support for assistance.
@@ -118,7 +118,7 @@ To copy a production instance to a sandbox:
     > This operation will completely delete your current sandbox instance and replace it with a copy of your production instance.
 
 4. The **Copy instance** page opens.   
-    ![The copy instance page](media/copy-instance-details.png "The copy instance page")
+    ![The copy instance page](media/copy-instance-details.png The copy instance page)
  
     Do the following:
     1. Select your sandbox instance from the **Target instance** drop-down list.
@@ -126,18 +126,18 @@ To copy a production instance to a sandbox:
     1. To start copying, select **Copy**.
 
 5. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] starts copying your instance, which can take some time. You can monitor its progress in the admin center. When the sandbox shows a **State** of **Ready**, select it, and then select **Admin** from the side panel.   
-    ![Select the Admin button](media/copy-instance-open-admin-settings.png "Select the Admin button")
+    ![Select the Admin button](media/copy-instance-open-admin-settings.png Select the Admin button)
 
 6. The **Admin settings** page opens. Clear the **Enable administration mode** check box, if needed, and then select **Save**. (For more information about this setting, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).)  
-    ![The Admin settings page](media/copy-instance-admin-mode.png "The Admin settings page")
+    ![The Admin settings page](media/copy-instance-admin-mode.png The Admin settings page)
  
 7. Select the **Applications** tab in the admin center to see a list of applications you have installed.  
-    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
+    ![Open the Applications tab](media/update-app-tab.png Open the Applications tab)
  
-8. Select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
+8. Select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item, and then select the **Manage** button ![The Manage button](media/update-manage-button.png The Manage button) in the side panel.
 
 9. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select your sandbox instance from drop-down list and choose a new and unique prefix for your sandbox portal.  
-    ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
+    ![Choose an organization and name your portal](media/setup-form-1.png Choose an organization and name your portal)
     
    > [!NOTE]
    > You need to rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on your sandbox because your sandbox needs portals, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, and customer-insights services that are separate from your production services.

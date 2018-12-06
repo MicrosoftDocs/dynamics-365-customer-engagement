@@ -1,19 +1,17 @@
 ---
 title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service:
-  - "usd"
-ms.custom:
-  - ""
+  - usd
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 7ECEC924-5089-4D9C-88B3-50D1BD7B03A9
 author: kabala123
 ms.author: kabala

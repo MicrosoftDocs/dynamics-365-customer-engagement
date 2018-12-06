@@ -1,13 +1,13 @@
 ---
 title: "Monthly updates in Voice of the Customer for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365 for Customer Engagement."
-keywords: "what's new in voice of the customer"
+keywords: what's new in voice of the customer
 ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8AFEFC49-D1F6-4BE5-B2D8-C4D22525E8D1
 author: sbmjais
 ms.author: shjais

@@ -1,19 +1,19 @@
 ---
 title: "Use editable grids in Customer Engagement (Dynamics 365 for Customer Engagement Developer Guide) | MicrosoftDocs"
 description: "Editable grid is a new custom control in Dynamics 365 for Customer Engagement that provides rich inline editing capabilities on web and mobile clients (Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/18/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ffc75be6-cf2b-4707-9cdc-871e17544056
 caps.latest.revision: 16
-author: "KumarVivek"
-ms.author: "kvivek"
+author: KumarVivek
+ms.author: kvivek
 search.audienceType: 
   - developer
 search.app: 

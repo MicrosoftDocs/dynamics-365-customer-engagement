@@ -1,13 +1,13 @@
 ---
 title: "Sample: Import data using complex data map (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Sample demonstrates how to create new records with data import by using a complex data map."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1ed89b35-a84d-488e-b58c-4ed6eb26018c
 author: JimDaly
 ms.author: jdaly
@@ -16,12 +16,12 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "importing data in Microsoft Dynamics CRM, sample for importing data by using complex data maps"
-  - "sample for importing data by using complex data maps"
-  - "sample for creating new records in Microsoft Dynamics CRM by using data import"
-  - "importing data in Microsoft Dynamics CRM, sample for creating new records in Microsoft Dynamics CRM by using data import"
-  - "creating new records in Microsoft Dynamics CRM by using data import sample"
-  - "importing data by using complex data maps sample"
+  - importing data in Microsoft Dynamics CRM, sample for importing data by using complex data maps
+  - sample for importing data by using complex data maps
+  - sample for creating new records in Microsoft Dynamics CRM by using data import
+  - importing data in Microsoft Dynamics CRM, sample for creating new records in Microsoft Dynamics CRM by using data import
+  - creating new records in Microsoft Dynamics CRM by using data import sample
+  - importing data by using complex data maps sample
 topic-status: Drafting
 search.audienceType: 
   - developer

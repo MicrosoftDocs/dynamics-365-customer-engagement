@@ -1,20 +1,20 @@
 ---
 title: "Walkthrough: Configure assembly security for an offline plug-in  (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The topic provides a walkthrough on configuring assembly security for an offline plug-in."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bb9ff0b6-ef76-473e-a24b-2921c8acec23
 caps.latest.revision: 12
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

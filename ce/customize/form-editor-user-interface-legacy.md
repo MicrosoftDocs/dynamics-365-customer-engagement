@@ -4,11 +4,11 @@ description: Know the form editor user interface to edit forms in PowerApps
 keywords: Forms; Main form;  Unified interface apps; Dynamics 365 for Customer Engagement apps
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
-ms.author: "matp"
-manager: "kvivek"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+ms.author: matp
+manager: kvivek
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
 search.audienceType: 
   - customizer

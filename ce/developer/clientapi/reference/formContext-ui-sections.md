@@ -2,13 +2,13 @@
 title: "formContext.ui.sections (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 for Customer Engagement (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: e362dfb2-cb64-49f5-b3d4-d77e813325ca
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

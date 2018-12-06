@@ -1,19 +1,19 @@
 ---
 title: "Walkthrough: Multi-tenant server-to-server authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This walkthrough describes the steps to create a multi-tenant web application that can connect to a December 2016 Update for Dynamics 365 for Customer Engagement (online) tenant using the Visual Studio 2015 MVC web application template"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9d09f7e8-c1fc-45c8-9755-ac17785f0818
 caps.latest.revision: 8
-author: "paulliew"
-ms.author: "jdaly"
+author: paulliew
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 

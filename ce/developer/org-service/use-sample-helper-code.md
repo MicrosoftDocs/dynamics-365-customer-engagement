@@ -1,20 +1,20 @@
 ---
 title: "Use the Organization Service sample and helper code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Some tasks that are common to all Dynamics 365 for Customer Engagement samples such as connecting to Dynamics 365 for Customer Engagement web services, registering a computing device with Microsoft account and creating additional users in Active Directory and Dynamics 365 for Customer Engagement (online) Customer Engagement are done using the sample helper code available in Developers Guide for Dynamics 365 for Customer Engagement (SDK)."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3afa448b-aa1d-42bb-a725-23b7f5eeb411
 caps.latest.revision: 36
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

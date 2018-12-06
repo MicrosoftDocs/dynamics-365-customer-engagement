@@ -105,7 +105,7 @@ By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)
    <system.webServer>
     <httpProtocol>
       <customHeaders>
-         <add name="P3P" value='CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL"'/>
+         <add name=P3P value='CP=ALL ADM DEV PSAi COM OUR OTRo STP IND ONL'/>
       </customHeaders>
     </httpProtocol>
    </system.webServer>

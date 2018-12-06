@@ -1,18 +1,18 @@
 ---
 title: "Use Microsoft Flow to automate processes across services (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 7aebc737-667f-44d1-bb05-e4573be1e0b2
 caps.latest.revision: 7
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
-ms.author: "matp"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - enduser
 search.app: 

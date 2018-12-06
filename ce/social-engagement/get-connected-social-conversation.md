@@ -4,12 +4,12 @@ description: "Get an overview on how Social Engagement can help your organizatio
 ms.custom:
   - dyn365-socialengagement
 ms.date: 09/12/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: 3097ddac-ea16-4448-8ac8-b97d85224ecc
 caps.latest.revision: 45
 author: m-hartmann

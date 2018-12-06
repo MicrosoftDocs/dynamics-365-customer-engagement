@@ -26,14 +26,14 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
-<a name="bkmk4"></a>   
+<a name=bkmk4></a>   
 
 ## Create a communication card  
  Communication cards provide a quick way to email or call your contact just by tapping the email address or phone number on the card. Communication cards appear on contact forms, but you can also create a communication card from a contact in the Pinned Tiles section of your Home screen by expanding the pinned tile.  
   
  Press and hold a contact tile that’s pinned to the dashboard, and then tap **Larger** on the command bar.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for Customer Engagement apps for mobile create communication card")  
+ ![Dynamics 365 for Customer Engagement apps for mobile create communication card](../../../media/mobile-create-comm-card.png Dynamics 365 for Customer Engagement apps for mobile create communication card)  
   
 ### See also  
  [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

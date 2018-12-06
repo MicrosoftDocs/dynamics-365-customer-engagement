@@ -36,15 +36,15 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 > - If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
 > - If your organization synchronizes records through server-side synchronization, you can track email messages through folder tracking. Folder tracking is a powerful and intuitive way to track email directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
 
-<a name="TrackVSSetRegarding"></a>   
+<a name=TrackVSSetRegarding></a>   
 ## Using the Track button vs. the Set Regarding button  
  To track a record in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you click or tap the **Track** button or the **Set Regarding** button for the record you want to track.  
 
- ![Two Tracking and Set Regarding buttons in Dynamics 365 for Customer Engagement apps](../media/tracking-and-set-regarding-buttons.png "Two Tracking and Set Regarding buttons in Dynamics 365 for Customer Engagement apps")  
+ ![Two Tracking and Set Regarding buttons in Dynamics 365 for Customer Engagement apps](../media/tracking-and-set-regarding-buttons.png Two Tracking and Set Regarding buttons in Dynamics 365 for Customer Engagement apps)  
 
  You can use either button to track a record, but it’s almost always better to use the **Set Regarding** button. When you use the **Set Regarding** button, you can link an email message, appointment, or task to a specific [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record such as an account or opportunity, or even a custom record type (entity). Some organizations also use the **Set Regarding** button to track projects.  
 
-<a name="TrackingPane"></a>   
+<a name=TrackingPane></a>   
 ## Using the tracking pane  
  When a record is tracked, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the record. This pane shows:  
 
@@ -62,14 +62,14 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
   For example, the following screen shot shows the tracking pane for a tracked task linked to the Adventure Works account:  
 
-  ![Tracking Pane with Set Regarding record in Dynamics 365 for Customer Engagement apps](../media/tracking-pane.png "Tracking Pane with Set Regarding record in Dynamics 365 for Customer Engagement apps")  
+  ![Tracking Pane with Set Regarding record in Dynamics 365 for Customer Engagement apps](../media/tracking-pane.png Tracking Pane with Set Regarding record in Dynamics 365 for Customer Engagement apps)  
 
   You can open the regarding record, parent record for a contact, or related records directly from the tracking pane. The tracking pane also includes an **Options** button that provides quick access to personal tracking options.  
 
 > [!NOTE]
 >  If you track an email message without first expanding a distribution list, the tracking pane displays the name of the distribution list. To track the individual email addresses, expand the distribution list before you track the message.  
 
-<a name="AfterTracking"></a>   
+<a name=AfterTracking></a>   
 ## What can you do after you track a record?  
  After you track a record, you can use the buttons on the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] ribbon to do the following tasks.  
 
@@ -77,17 +77,17 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 |                                                                                                                                                   |                                                                                                                                                             |                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 |                                                                **To do this task**                                                                |                                                                         **Choose**                                                                          |              **Applies to**              |
-|                            Open the record directly in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]                             |           ![View in Dynamics 365 for Customer Engagement apps button image in Dynamics 365 for Customer Engagement apps](../media/view-crm-button.png "View in Dynamics 365 for Customer Engagement apps button image in Dynamics 365 for Customer Engagement apps")            | Email, appointments, contacts, and tasks |
-| Add a connection between the record and any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record capable of tracking connections |              ![Add Connection button image in Dynamics 365 for Customer Engagement apps](../media/add-connection-button.png "Add Connection button image in Dynamics 365 for Customer Engagement apps")               | Email, appointments, contacts, and tasks |
-|                Convert the record into a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] opportunity, lead, or case                |                      ![Convert To button image in Dynamics 365 for Customer Engagement apps](../media/convert-button.png "Convert To button image in Dynamics 365 for Customer Engagement apps")                      |      Email, appointments, and tasks      |
-|                                 Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] template                                  |                                   ![Insert Template button](../media/insert-template-button.png "Insert Template button")                                   |                  Email                   |
-|                          Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Knowledge base article                           |              ![Insert Article button image in Dynamics 365 for Customer Engagement apps](../media/insert-article-button.png "Insert Article button image in Dynamics 365 for Customer Engagement apps")               |                  Email                   |
-|                              Attach [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] sales literature                               | ![Attach Sales Literature button image in Dynamics 365 for Customer Engagement apps](../media/attach-sales-literature-button.png "Attach Sales Literature button image in Dynamics 365 for Customer Engagement apps") |                  Email                   |
+|                            Open the record directly in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]                             |           ![View in Dynamics 365 for Customer Engagement apps button image in Dynamics 365 for Customer Engagement apps](../media/view-crm-button.png View in Dynamics 365 for Customer Engagement apps button image in Dynamics 365 for Customer Engagement apps)            | Email, appointments, contacts, and tasks |
+| Add a connection between the record and any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record capable of tracking connections |              ![Add Connection button image in Dynamics 365 for Customer Engagement apps](../media/add-connection-button.png Add Connection button image in Dynamics 365 for Customer Engagement apps)               | Email, appointments, contacts, and tasks |
+|                Convert the record into a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] opportunity, lead, or case                |                      ![Convert To button image in Dynamics 365 for Customer Engagement apps](../media/convert-button.png Convert To button image in Dynamics 365 for Customer Engagement apps)                      |      Email, appointments, and tasks      |
+|                                 Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] template                                  |                                   ![Insert Template button](../media/insert-template-button.png Insert Template button)                                   |                  Email                   |
+|                          Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Knowledge base article                           |              ![Insert Article button image in Dynamics 365 for Customer Engagement apps](../media/insert-article-button.png Insert Article button image in Dynamics 365 for Customer Engagement apps)               |                  Email                   |
+|                              Attach [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] sales literature                               | ![Attach Sales Literature button image in Dynamics 365 for Customer Engagement apps](../media/attach-sales-literature-button.png Attach Sales Literature button image in Dynamics 365 for Customer Engagement apps) |                  Email                   |
 
 > [!TIP]
 >  If these buttons aren’t available, it may be that the record marked to be tracked isn’t synchronized yet. This can happen if your organization uses server-side synchronization to synchronize email, appointments, contacts, and tasks, but the synchronization hasn’t happened yet. If the **View in Dynamics 365 for Customer Engagement apps** button is enabled, the record has been synchronized. You can also use the tracking pane (as described previously) to determine whether the record has been synchronized.  
 
-<a name="OtherThingsToKnow"></a>   
+<a name=OtherThingsToKnow></a>   
 ## Other things to know about tracking records  
 
 - **Using multiple computers.** You can use multiple computers to track items using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. For example, you might use a desktop computer and a laptop. Only one computer can be the synchronizing computer, however. Changes or updates to synchronized records will not show up in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] if the synchronizing computer is not connected to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  

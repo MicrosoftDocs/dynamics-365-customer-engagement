@@ -1,12 +1,12 @@
 ---
 title: "Install and configure Dynamics 365 for Customer Engagement – Gamification in Dynamics 365 for Customer Engagement (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 for Customer Engagement (online) and  its associated web portal and security roles."
-keywords: "install, solution, manage, uninstall"
+keywords: install, solution, manage, uninstall
 ms.date: 04/18/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
 author: m-hartmann
 ms.author: mhart

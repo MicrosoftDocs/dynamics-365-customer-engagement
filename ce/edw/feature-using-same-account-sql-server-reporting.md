@@ -1,11 +1,11 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement Server feature using the same account as instance of SQL Server Reporting Services | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: d2d2dc47-96f2-4452-9d6a-6b35c0b2aedc
 caps.latest.revision: 8
 robots: noindex,nofollow

@@ -1,20 +1,20 @@
 ---
 title: "FetchXML schema (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The FetchXML query language is used to create queries against the Dynamics 365 for Customer Engagement database"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 82cae525-a789-4884-9fc0-a3e874ee1567
 caps.latest.revision: 21
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -33,7 +33,7 @@ search.app:
 
  Call or send email to your customers easily from the mobile apps. Tap any phone number in a record to start a call, or on the communication card for a contact, tap the email button to send an email, or the phone button to start a call.  
   
- ![Dynamics 365 for phones and tablets communication card](../../../media/mobile-communication-card.png "Dynamics 365 for phones and tablets communication card")  
+ ![Dynamics 365 for phones and tablets communication card](../../../media/mobile-communication-card.png Dynamics 365 for phones and tablets communication card)  
   
  In [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)], tapping the phone button starts a [!INCLUDE[pn_skype](../../../../includes/pn-skype.md)] call. In [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], it starts a phone call.  
   

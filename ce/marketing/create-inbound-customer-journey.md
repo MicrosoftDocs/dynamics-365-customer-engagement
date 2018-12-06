@@ -33,7 +33,7 @@ search.app:
 
 Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] by using the same basic tools as you would to create an outbound customer journey (as we've seen in several previous exercises). The most important difference is that you typically start an inbound customer journey with a landing page or event instead of a segment. In this configuration, all contacts (both new and existing) who submit the form from the landing page or register for the event immediately start down that journey.
 
-![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
+![An example of a simple inbound journey](media/journey-inbound-example.png An example of a simple inbound journey)
 
 Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](embed-forms.md) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing pages.
 

@@ -203,11 +203,11 @@ $rpid,
 
 [parameter(position=2)]
 
-$adfsPath = "https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx"
+$adfsPath = https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx
 
 )
 
-$state = "ReturnUrl=$path"
+$state = ReturnUrl=$path
 
 $encodedPath = [uri]::EscapeDataString($state)
 
@@ -215,7 +215,7 @@ $encodedRpid = [uri]::EscapeDataString($rpid)
 
 $encodedPathRpid = [uri]::EscapeDataString("RPID=$encodedRpid&RelayState=$encodedPath")
 
-$idpInitiatedUrl = "{0}?RelayState={1}" -f $adfsPath, $encodedPathRpid
+$idpInitiatedUrl = {0}?RelayState={1} -f $adfsPath, $encodedPathRpid
 
 Write-Output $idpInitiatedUrl
 ```
@@ -263,7 +263,7 @@ The federation metadata URL is https://idp.contoso.com/idp/shibboleth
 ```
 <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
 
-Location="https://idp.contoso.com/idp/profile/SAML2/Redirect/SSO"/>
+Location=https://idp.contoso.com/idp/profile/SAML2/Redirect/SSO/>
 ```
 
 Configure the service providers (relying parties) by setting up the [metadata-providers.xml](https://wiki.shibboleth.net/confluence/display/IDP30/MetadataConfiguration).  
@@ -271,18 +271,18 @@ Configure the service providers (relying parties) by setting up the [metadata-pr
 -   Each service provider federation metadata (&lt;SPSSODescriptor&gt;) must include an assertion consumer service post binding. One option is to use a [FilesystemMetadataProvider](https://wiki.shibboleth.net/confluence/display/IDP30/FilesystemMetadataProvider) and reference a configuration file that contains:  
 
 ```
-<AssertionConsumerService index="1" isDefault="true"
+<AssertionConsumerService index=1 isDefault=true
 
 Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
 
-Location="https://portal.contoso.com/signin-saml2"/>
+Location=https://portal.contoso.com/signin-saml2/>
 ```
 
 The Location attribute corresponds to the**AssertionConsumerServiceUrl** (Wreply) setting.
 
 -   The service provider federation metadata should specify an **entityID** attribute for the EntityDescriptor that corresponds to the **AuthenticationType** setting.
 
-**&lt;EntityDescriptor entityID="<https://portal.local.contoso.com/"&gt>;...**
+**&lt;EntityDescriptor entityID=<https://portal.local.contoso.com/&gt>;...**
 
 > [!Note] 
 > A standard Shibboleth configuration only uses the following settings (with example values):   
@@ -341,17 +341,17 @@ $providerId,
 
 [parameter(position=2)]
 
-$shibbolethPath = "https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO"
+$shibbolethPath = https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO
 
 )
 
-$state = "ReturnUrl=$path"
+$state = ReturnUrl=$path
 
 $encodedPath = [uri]::EscapeDataString($state)
 
 $encodedRpid = [uri]::EscapeDataString($providerId)
 
-$idpInitiatedUrl = "{0}?providerId={1}&target={2}" -f $shibbolethPath, $encodedRpid, $encodedPath
+$idpInitiatedUrl = {0}?providerId={1}&target={2} -f $shibbolethPath, $encodedRpid, $encodedPath
 
 Write-Output $idpInitiatedUrl
 ```
@@ -373,7 +373,7 @@ The domain name of the portal.
 
 .EXAMPLE
 
-PS C:\\> .\\Add-AdxPortalRelyingPartyTrustForSaml.ps1 -domain "portal.contoso.com"
+PS C:\\> .\\Add-AdxPortalRelyingPartyTrustForSaml.ps1 -domain portal.contoso.com
 
 #>
 
@@ -387,13 +387,13 @@ $domain,
 
 [parameter(Position=1)]
 
-$callbackPath = "/signin-saml2"
+$callbackPath = /signin-saml2
 
 )
 
-$VerbosePreference = "Continue"
+$VerbosePreference = Continue
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = Stop
 
 Import-Module adfs
 
@@ -409,25 +409,25 @@ $name
 
 )
 
-$identifier = "https://{0}/" -f $name
+$identifier = https://{0}/ -f $name
 
-$samlEndpoint = New-ADFSSamlEndpoint -Binding POST -Protocol SAMLAssertionConsumer -Uri ("https://{0}{1}" -f $name, $callbackPath)
+$samlEndpoint = New-ADFSSamlEndpoint -Binding POST -Protocol SAMLAssertionConsumer -Uri (https://{0}{1} -f $name, $callbackPath)
 
 $identityProviderValue = Get-ADFSProperties | % { $_.Identifier.AbsoluteUri }
 
 $issuanceTransformRules = @'
 
-@RuleTemplate = "MapClaims"
+@RuleTemplate = MapClaims
 
-@RuleName = "Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Account Name to Name ID claim"
+@RuleName = Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Account Name to Name ID claim
 
 c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"]
 
 => issue(Type = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format"] = "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent");
 
-@RuleTemplate = "LdapClaims"
+@RuleTemplate = LdapClaims
 
-@RuleName = "Send LDAP Claims"
+@RuleName = Send LDAP Claims
 
 c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]
 
@@ -437,9 +437,9 @@ c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccou
 
 $issuanceAuthorizationRules = @'
 
-@RuleTemplate = "AllowAllAuthzRule"
+@RuleTemplate = AllowAllAuthzRule
 
-=> issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
+=> issue(Type = http://schemas.microsoft.com/authorization/claims/permit, Value = true);
 
 '@
 
@@ -449,7 +449,7 @@ Add-ADFSRelyingPartyTrust -Name $name -Identifier $identifier -SamlEndpoint $sam
 
 # add the 'Identity Provider' claim description if it is missing
 
-if (-not (Get-ADFSClaimDescription | ? { $_.Name -eq "Persistent Identifier" })) {
+if (-not (Get-ADFSClaimDescription | ? { $_.Name -eq Persistent Identifier })) {
 
 Add-ADFSClaimDescription -name "Persistent Identifier" -ClaimType "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent" -IsOffered:$true -IsAccepted:$true
 

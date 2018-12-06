@@ -1,24 +1,24 @@
 ---
 title: "Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 for Customer Engagement server, authenticate using OAuth, and access the web services"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 helpviewer_keywords: 
-  - "mobile, modern"
-  - "register, registration"
-  - "app"
+  - mobile, modern
+  - register, registration
+  - app
 ms.assetid: dd48aa30-7b05-4b15-a039-ff6522da8613
 caps.latest.revision: 57
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

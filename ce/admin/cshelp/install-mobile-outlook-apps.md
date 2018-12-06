@@ -1,20 +1,20 @@
 ---
 title: "Install mobile and Outlook apps for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 90712d5b-6035-4ef0-9805-04bca45e17e0
 caps.latest.revision: 1
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

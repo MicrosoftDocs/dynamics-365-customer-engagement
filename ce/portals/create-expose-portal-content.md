@@ -45,7 +45,7 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
 
 5. Select **Create**.
 
-   ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
+   ![Create portal content using administrative wizard](media/create-portal-content.png Create portal content by using the administrative wizard)  
 
 **Dynamics 365 for Customer Engagement Portal app**
 
@@ -64,4 +64,4 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
 
 4.	Select **Create**.
 
-    ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")
+    ![Create portal content using administrative wizard](media/create-portal-content.png Create portal content by using the administrative wizard)

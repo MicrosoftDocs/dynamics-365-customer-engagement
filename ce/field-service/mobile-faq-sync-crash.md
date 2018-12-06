@@ -49,7 +49,7 @@ In the Field Service Mobile app, double check that the URL, username, and passwo
 
 ## 2. There is no mobile project in Woodford, or the mobile project is unpublished
 
-To fix this, login to Dynamics 365 for Customer Engagement as an administrator in a non-private Internet Explorer, and navigate to **Settings > Woodford > MobileCRM Woodford** to verify a mobile project exists. A blue circle with an upward-pointing arrow indicates it is published, as seen in the below screenshot. The value for "Is published" will also be set to "True."
+To fix this, login to Dynamics 365 for Customer Engagement as an administrator in a non-private Internet Explorer, and navigate to **Settings > Woodford > MobileCRM Woodford** to verify a mobile project exists. A blue circle with an upward-pointing arrow indicates it is published, as seen in the below screenshot. The value for Is published will also be set to True.
 
 ![Screenshot of the Woodford option in the D365 menu](media/Mobile-FAQs-image3.png)
 
@@ -77,7 +77,7 @@ Finally, double click on the project (template) to view it. Select **Publish**
 
 ## 3. The mobile project is published to a later version than the mobile app
 
-In order for the mobile app to work, the Woodford solution version number must not exceed your mobile app version number. For example, if your mobile app is verion 9.1, but your Woodford solution is published to 9.2 or greater, this will result in an "Unsupported metadata version" error, as seen below.
+In order for the mobile app to work, the Woodford solution version number must not exceed your mobile app version number. For example, if your mobile app is verion 9.1, but your Woodford solution is published to 9.2 or greater, this will result in an Unsupported metadata version error, as seen below.
 
 ![Screenshot of the unsupported metadata version error](media/Mobile-FAQs-image10.png)  
 

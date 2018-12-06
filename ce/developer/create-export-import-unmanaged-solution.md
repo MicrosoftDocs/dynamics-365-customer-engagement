@@ -1,37 +1,37 @@
 ---
 title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "An unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "unmanaged solutions, creating; exporting; or importing"
-  - "troubleshooting, importing solutions from earlier versions"
-  - "solutions configuration page, about"
-  - "solutions, maximum size of solutions to import"
-  - "solution publishers, creating"
-  - "creating solution publishers, list of fields for"
-  - "distributing managed solutions, by using solution publishers"
-  - "creating; exporting; or importing unmanaged solutions, creating solution publishers"
-  - "creating; exporting; or importing unmanaged solutions, troubleshooting for importing from earlier versions"
-  - "creating; exporting; or importing unmanaged solutions"
-  - "unmanaged solutions, exporting and importing"
-  - "unmanaged solutions, list of and description of fields"
-  - "exporting or importing unmanaged solutions, about"
-  - "creating; exporting; or importing unmanaged solutions, using the solutions configuration page"
-  - "troubleshooting for importing solutions from earlier versions"
-  - "creating; exporting; or importing unmanaged solutions, list of and description of fields for unmanaged solutions"
-  - "importing unmanaged solutions, troubleshooting for importing from earlier versions"
+  - unmanaged solutions, creating; exporting; or importing
+  - troubleshooting, importing solutions from earlier versions
+  - solutions configuration page, about
+  - solutions, maximum size of solutions to import
+  - solution publishers, creating
+  - creating solution publishers, list of fields for
+  - distributing managed solutions, by using solution publishers
+  - creating; exporting; or importing unmanaged solutions, creating solution publishers
+  - creating; exporting; or importing unmanaged solutions, troubleshooting for importing from earlier versions
+  - creating; exporting; or importing unmanaged solutions
+  - unmanaged solutions, exporting and importing
+  - unmanaged solutions, list of and description of fields
+  - exporting or importing unmanaged solutions, about
+  - creating; exporting; or importing unmanaged solutions, using the solutions configuration page
+  - troubleshooting for importing solutions from earlier versions
+  - creating; exporting; or importing unmanaged solutions, list of and description of fields for unmanaged solutions
+  - importing unmanaged solutions, troubleshooting for importing from earlier versions
 ms.assetid: d5a39fc3-054f-48d3-8dfc-64c4f8afe4dd
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

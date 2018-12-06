@@ -1,20 +1,20 @@
 ---
 title: "Get started with the Dynamics 365 for Customer Engagement Web API (client-side JavaScript) | MicrosoftDocs"
 description: "JavaScript can be used in HTML web resources, form scripts or ribbon commands to perform operations on Dynamics 365 for Customer Engagement data using Web API"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: get-started-dynamics-365-web-api-client-side-JavaScript
 caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

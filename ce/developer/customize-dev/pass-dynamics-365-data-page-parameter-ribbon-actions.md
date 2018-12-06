@@ -1,22 +1,22 @@
 ---
 title: "Pass Customer Engagement data from a page as a parameter to Ribbon actions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The topic describes options for using the <CrmParameter> element to retrieve these values. "
-ms.custom: ""
+ms.custom: 
 ms.date: 01/22/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon, pass data to"
+  - ribbon, pass data to
 ms.assetid: 15245f11-a7e6-445a-8f18-06765268f1ad
 caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,12 +1,12 @@
 ---
 title: "Social Engagement integration with Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 for Customer Engagement and additional services."
-keywords: "social insights, dynamics 365, UCI, unified interface, integration, component"
+keywords: social insights, dynamics 365, UCI, unified interface, integration, component
 ms.date: 10/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 author: m-hartmann
 ms.author: mhart

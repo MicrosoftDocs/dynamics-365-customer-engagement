@@ -1,12 +1,12 @@
 ---
 title: "Security Roles in Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
 description: "Learn about the security roles used in Microsoft Dynamics 365 for Customer Engagement – Gamification."
-keywords: "security roles, game manager, commissioner, permissions"
+keywords: security roles, game manager, commissioner, permissions
 ms.date: 03/19/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 997fe3ba-01d7-f0fb-6111-5340f6ff7bab
 author: m-hartmann
 ms.author: mhart

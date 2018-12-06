@@ -1,19 +1,19 @@
 ---
 title: "Copyright | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "index-page "
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: index-page 
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9fa443ab-bcd1-43e3-9bc5-b9c6ceb28f0f
 caps.latest.revision: 25
-author: "ReneeW-CPub"
-ms.author: "renwe"
-manager: "amyla"
+author: ReneeW-CPub
+ms.author: renwe
+manager: amyla
 robots: noindex,nofollow
 search.audienceType: 
   - developer

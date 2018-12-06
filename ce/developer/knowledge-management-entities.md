@@ -1,27 +1,27 @@
 ---
 title: "Knowledge management entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: ""
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "knowledge base entities, managing knowledge bases"
-  - "knowledge base entities, service entities"
-  - "service entities, knowledge base entities"
-  - "knowledge base, definition"
-  - "KB"
-  - "knowledge base entities, introduction"
-  - "managing knowledge bases, knowledge base entities"
+  - knowledge base entities, managing knowledge bases
+  - knowledge base entities, service entities
+  - service entities, knowledge base entities
+  - knowledge base, definition
+  - KB
+  - knowledge base entities, introduction
+  - managing knowledge bases, knowledge base entities
 ms.assetid: 7f481592-217a-45a7-9604-4995c142d295
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -61,7 +61,7 @@ When you're creating dynamic segments for account-based marketing, you'll probab
 
 1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.
 
-    ![Remove the default contact group](media/abm-segment-1.png "Remove the default contact group")
+    ![Remove the default contact group](media/abm-segment-1.png Remove the default contact group)
 
 1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Account** from here.
 
@@ -70,21 +70,21 @@ When you're creating dynamic segments for account-based marketing, you'll probab
     **Account | Address 1: City | is | Chicago**  
     **And | Account | Annual Revenue | ≥ | 100000**
 
-    ![Example account query](media/abm-segment-2.png "Example account query")
+    ![Example account query](media/abm-segment-2.png Example account query)
 
 1. When you're done setting up your account query, you must create a relation to the contact entity. To do that, select the **+ And** button to add a new **Select a profile or relationship** drop-down list, and choose **contact\_account\_parentcustomerid\_&lt;Your\_Dynamics\_Domain&gt;** from that list. This value describes a relationship between the **contact** entity and the **account** entity, where the **parentcustomerid** field of the contact entity contains the ID of the account record that contact belongs to (in other words, it finds the contacts that belong to the accounts we've found so far). Then set the last drop-down list to **All\*** to find all matching contacts.
 
-    ![Add the relationship between account and contact](media/abm-segment-3.png "Add the relationship between account and contact")
+    ![Add the relationship between account and contact](media/abm-segment-3.png Add the relationship between account and contact)
 
 1. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title).
 
-    ![Add contact filters as needed](media/abm-segment-4.png "Add contact filters as needed")
+    ![Add contact filters as needed](media/abm-segment-4.png Add contact filters as needed)
 
 1. When you're done, **Save** your segment and **Go live**.
 
 1. After a few minutes, you'll be able to open the **Members** tab to see which contacts are included in your new segment. Note that the list includes a column that shows which account each contact belongs to.
 
-    ![Segment members with accounts](media/abm-segment-5.png "Segment members with accounts")
+    ![Segment members with accounts](media/abm-segment-5.png Segment members with accounts)
 
 ### Create a static segment using an account filter
 
@@ -96,7 +96,7 @@ When you set up a static segment, you'll mark a check box for each specific cont
 
 1. Open the **Definition** tab, where you'll find a list of contacts and filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
 
-    ![A static segment with filter](media/abm-segment-static.png "A static segment with filter")
+    ![A static segment with filter](media/abm-segment-static.png A static segment with filter)
 
 1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by account ID. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
 
@@ -143,7 +143,7 @@ For more information about dynamic content and handlebars expressions, see [Add 
 
 You must set each customer journey to be _either_ contact-based _or_ account-based. This option modifies many of the ways that the journey's tiles will work. Use the **Target** setting on the **General** tab to configure this option for each journey.
 
-![Set a journey to target accounts](media/abm-journeys-target.png "Set a journey to target accounts")
+![Set a journey to target accounts](media/abm-journeys-target.png Set a journey to target accounts)
 
 The following subsections summarize how various tiles behave for account-based journeys. Tiles not mentioned here work the same for both contact and account-based journeys (as described in the [Customer journey tiles reference](customer-journey-tiles-reference.md)).
 
@@ -156,7 +156,7 @@ For account-based journeys, trigger tiles can work based on contacts or on accou
 
 Use the **Based on** property to set this option for each tile. This option is not available to triggers in contact-based journeys.
 
-![An account-based trigger](media/abm-journeys-trigger.png "An account-based trigger")
+![An account-based trigger](media/abm-journeys-trigger.png An account-based trigger)
 
 ### Activity tiles
 
@@ -164,7 +164,7 @@ When a contact flows through an activity tile in account-based journeys, you can
 
 Use the **Create for each** and **Assigned to** settings to choose these options for each activity tile. The account option is only available when you are working with an account-based journey.
 
-![Create an activity for each account](media/abm-journeys-activity.png "Create an activity for each account")
+![Create an activity for each account](media/abm-journeys-activity.png Create an activity for each account)
 
 ### Launch-workflow tiles
 
@@ -175,7 +175,7 @@ When you are creating an account-based journey, you can control how each launch-
 
 Use the **Launch for each** setting to choose this option for each launch-workflow tile. The account option is only available when you are working with an account-based journey.
 
-![Launch a workflow for each account](media/abm-journeys-workflow.png "Launch a workflow for each account")
+![Launch a workflow for each account](media/abm-journeys-workflow.png Launch a workflow for each account)
 
 ### Create-lead tiles
 
@@ -186,7 +186,7 @@ When you are creating an account-based journey, you can control how each create-
 
 Use the **Create for each** setting to choose this option for each create-lead tile. The account option is only available when you are working with an account-based journey.
 
-![Create account-based leads](media/abm-journeys-leads.png "Create account-based leads")
+![Create account-based leads](media/abm-journeys-leads.png Create account-based leads)
 
 > [!NOTE]
 > The create-lead tile doesn't try to match any existing leads. It always creates new leads, regardless of whether you are creating account or contact leads.
@@ -195,7 +195,7 @@ Use the **Create for each** setting to choose this option for each create-lead t
 
 When you are viewing insights on the Designer tab for an account-based journey, you can filter the KPIs shown for any selected tile by account. To do so, select a tile and then choose an account from the **Filter by account** field in the **Data** tab.
 
-![Filter insights by account](media/abm-journeys-data.png "Filter insights by account")
+![Filter insights by account](media/abm-journeys-data.png Filter insights by account)
 
 ## Account-based leads and lead scoring
 
@@ -210,7 +210,7 @@ Leads can be associated with accounts or contacts. If a lead is associated with 
 
 To set a scoring model to be lead-based or account-based, use the **Entity target** setting on the **Summary** tab for the model.
 
-![Set a scoring model to target accounts](media/abm-scoring-target.png "Set a scoring model to target accounts")
+![Set a scoring model to target accounts](media/abm-scoring-target.png Set a scoring model to target accounts)
 
 One way to score a lead based on the account associated with it is to set up a condition tile with the following properties:
 
@@ -218,13 +218,13 @@ One way to score a lead based on the account associated with it is to set up a c
 
 1. Add an **Expression** where **Parent Account for lead account = _&lt;account-ID&gt;_** , where you can find the account ID by opening the account record and checking for the value of **id** parameter at the end of the page URL.
 
-    ![A condition that scores leads by account name](media/abm-scoring-expression.png "A condition that scores leads by account name")
+    ![A condition that scores leads by account name](media/abm-scoring-expression.png A condition that scores leads by account name)
 
 For more information about lead scoring in Marketing, see [Design lead-scoring models](score-manage-leads.md).
 
 To view and assign which contact and/or account is associated with each lead, open the lead and then select the **Inquiry** stage of the **Lead-to-opportunity marketing sales process** business process display. Then view or edit the **Existing contact?** and **Existing account?** fields shown here.
 
-![Assign an account to a lead](media/abm-lead-assign-account.png "Assign an account to a lead")
+![Assign an account to a lead](media/abm-lead-assign-account.png Assign an account to a lead)
 
 ## Account insights
 

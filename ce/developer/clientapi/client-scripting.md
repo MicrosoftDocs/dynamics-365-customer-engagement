@@ -2,14 +2,14 @@
 title: "Client scripting in Customer Engagement using JavaScript | MicrosoftDocs"
 description: "Learn how to use Client API in Customer Engagement to apply custom business process logic for displaying data on a form."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

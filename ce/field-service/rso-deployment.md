@@ -31,7 +31,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 
 - Install Dynamics 365 for Customer Engagement for Field Service.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)
 
 -  Under Purchase Services, find Resource Scheduling Optimization. After buying
@@ -39,7 +39,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
     **Billing** \> **Purchase services**. Scroll down to find Dynamics 365 for Customer Engagement for
     Field Service, Enterprise Edition – Resource Scheduling Optimization. The price of RSO is based on schedulable resources.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/f2c51af5f406959188248862933fcecd.png)
 
     The RSO instance is associated with a single Dynamics 365 for Customer Engagement organization in
@@ -57,14 +57,14 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 2. Select the **Resource Scheduling Optimization** application to configure or
     manage.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/rso-welcome.png)
 
 3. Select the organization where the RSO solution will be installed, review the
     Terms of Service and select the agreement box, and then select **Deploy** to
     start the RSO deployment.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/rso-instance.png)
 
 4. Click **Upgrade to new version** to apply a new update if one is available.

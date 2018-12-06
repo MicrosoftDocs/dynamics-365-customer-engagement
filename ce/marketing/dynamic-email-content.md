@@ -30,7 +30,7 @@ search.app:
 
 Dynamic content gets resolved just before a message is sent to a specific individual. You'll typically use dynamic content to merge information from the recipient's contact record (such as first and last name), to place special links, and to place information and links from the content settings. If you're comfortable working in code, you can also create custom logic that includes conditional statements, for-each loops, and more. You can use dynamic content anywhere in your message body and can also use a few types of dynamic values in the message header fields (subject, from address, and from name).
 
-<a name="content-settings"></a>
+<a name=content-settings></a>
 
 ## Use content settings to set up repositories of standard and required values for email messages
 
@@ -50,7 +50,7 @@ To view, edit, or create a content-settings set:
 
 1. The **Content Settings** form opens. If you are editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you are creating a new one, you can just start filling in the fields.  
 
-    ![The content-settings form](media/content-settings-form.png "The content-settings form")
+    ![The content-settings form](media/content-settings-form.png The content-settings form)
 
 1. Make the following settings, as needed:
 
@@ -67,7 +67,7 @@ To view, edit, or create a content-settings set:
 
 1. If you are editing a content-settings record that was already live, then the record is republished automatically when you save it. If you are creating a new record, then select **Go live** on the command bar to publish it to the marketing services so you can start using it.
 
-<a name="assist-edit"></a>
+<a name=assist-edit></a>
 
 ## Use assist-edit to place dynamic field values
 
@@ -121,14 +121,14 @@ Non-contextual field expressions (which use the form  `{{EntityName(RecordID).Fi
 
 On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Advanced Header** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
 
-![Advanced header settings for email messages](media/email-advanced-header-settings.png "Advanced header settings for email messages")
+![Advanced header settings for email messages](media/email-advanced-header-settings.png Advanced header settings for email messages)
 
 Though these settings provide assist-edit buttons, you must only place static values, or values from the **Contact[context]** entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities or lookup-field values.
 
 > [!TIP]
 > You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
-<a name="advanced-dynamic-content"></a>
+<a name=advanced-dynamic-content></a>
 
 ## Advanced dynamic content
 
@@ -138,7 +138,7 @@ Though these settings provide assist-edit buttons, you must only place static va
 > 
 > `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
 > 
-> Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
+> Then open the **Preview** tab. If the preview shows Advanced dynamic content is enabled, then you have the feature. If instead you see the entire line of code, plus error messages like We couldn't resolve the message template or HTML property not found, then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
 
 You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. For best results, enter the code while working on the **HTML** tab of the content designer.
 
@@ -159,7 +159,7 @@ You can place nearly any database value into your messages using the same types 
 > [!NOTE]
 > You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
-In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra "hop" in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
+In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra hop in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
 
 - `{{EntityName.RelationshipName.FieldName}}`
 - `{{EntityName(RecordID).RelationshipName.FieldName}}`
@@ -273,7 +273,7 @@ Where:
 - The loop block must always open with `{{#each … }}`.
 - `Entity.RelationshipName` identifies the set of related records that the loop will iterate over.
 - The loop starts with the first available related record, and repeats for each available related record until all related records have been listed. Note that the related records will be returned in an arbitrary and unpredictable order.
-- `{{this.RelatedField<n>}}` identifies a field name from the related record. The "this" part of this expression refers to the related record being processed in the current loop iteration, and must be followed by a valid field name for the related entity. You can include any number of fields in each loop.
+- `{{this.RelatedField<n>}}` identifies a field name from the related record. The this part of this expression refers to the related record being processed in the current loop iteration, and must be followed by a valid field name for the related entity. You can include any number of fields in each loop.
 - The loop block must always close with `{{/each}}`.
 
 For example, your database could include a list of products that a contact has ordered. You could list these in an email message using code such as:
@@ -289,7 +289,7 @@ For example, your database could include a list of products that a contact has o
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
 
-<a name="enter-code"></a>
+<a name=enter-code></a>
 
 ## How to enter advanced dynamic content in the designer
 

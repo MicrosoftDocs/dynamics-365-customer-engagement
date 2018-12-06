@@ -4,10 +4,10 @@ description: "Learn how to let other players know that you are out of the office
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6f66f024-5c8a-49fa-845e-43f66af19799

@@ -1,19 +1,17 @@
 ---
 title: "Unified Service Desk and Unified Interface configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk and Unified Interface walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service: 
-  - "usd"
-ms.custom: 
-  - ""
+  - usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 66972CCA-1A61-4377-AE17-A165C36E0419
 author: kabala123
 ms.author: kabala

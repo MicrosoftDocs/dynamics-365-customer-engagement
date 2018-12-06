@@ -1,19 +1,19 @@
 ---
 title: "Export, import, or remove a model-driven app | MicrosoftDocs"
 description: "Learn you can export, import, or remove a model-driven app"
-keywords: ""
+keywords: 
 ms.date: 04/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -1,13 +1,13 @@
 ---
 title: "Sample: Create a basic plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write a basic plug-in that can access the Dynamics 365 for Customer Engagement organization Web service. "
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 40a9c015-696f-43e4-9b4d-209fe7b8ace6
 author: JimDaly
 ms.author: jdaly

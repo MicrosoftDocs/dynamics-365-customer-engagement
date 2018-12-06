@@ -1,20 +1,20 @@
 ---
 title: "Replicate Dynamics 365 for Customer Engagement apps (online) data to Azure SQL Database | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a70feedc-12b9-4a2d-baf0-f489cdcc177d
 caps.latest.revision: 46
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

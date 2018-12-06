@@ -1,20 +1,20 @@
 ---
 title: "Analyze best practices in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the best practices analyzer, which performs analysis on the Internet Explorer settings, Unified Service Desk configurations in Dynamics 365 for Customer Engagement apps, and system configurations on which you install Unified Service Desk, and displays a report to review and mitigate the issues."
-ms.custom: ""
+ms.custom: 
 ms.date: 04/24/2018
-ms.service: "usd"
-ms.topic: "article"
+ms.service: usd
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 8ED5D0F6-4A3E-49FA-A399-0AEDFF2236AA
-author: "kabala123"
-ms.author: "kabala"
-manager: "shujoshi"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 

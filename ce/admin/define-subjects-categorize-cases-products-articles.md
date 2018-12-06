@@ -1,20 +1,20 @@
 ---
 title: "Define subjects to categorize cases, products, and articles for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/01/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "shubhadaj"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: shubhadaj
 ms.assetid: 1f07c7ea-9d85-49e6-a41d-7d49841340dd
 caps.latest.revision: 27
-ms.author: "shujoshi"
-manager: "brycho"
+ms.author: shujoshi
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
