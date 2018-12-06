@@ -1,16 +1,16 @@
 ---
-title: "Connect Dynamics 365 (online) to Exchange Online | MicrosoftDocs"
-description: "Connect Dynamics 365 (online) to Exchange Online"
+title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online | MicrosoftDocs"
+description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online"
 ms.custom: ""
-ms.date: 09/08/2018
+ms.date: 12/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement  (online)"
+  - "Dynamics 365 for Customer Engagement  Version 9.x"
 ms.assetid: 1b2b7846-5a69-4af7-849d-0c0acc300a7e
 caps.latest.revision: 22
 author: "jimholtz"
@@ -22,14 +22,14 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Connect Dynamics 365 (online) to Exchange Online
+# Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] hosted as online services, connecting the two is a simpler, more straightforward configuration.  
+With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] hosted as online services, connecting the two is a simpler, more straightforward configuration.  
   
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Connect Dynamics 365 (online) to Exchange Online using server-side sync](https://go.microsoft.com/fwlink/p/?linkid=836831).  
+> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online using server-side sync](https://go.microsoft.com/fwlink/p/?linkid=836831).  
 > 
 > [!IMPORTANT]
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
@@ -37,7 +37,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 <a name="BKMK_GetExchangeReady"></a>   
 
 ## Get Exchange ready  
- To use [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription that comes as part of an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription or that can be subscribed to separately. For information on [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], see:  
+ To use [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with Customer Engagement apps, you must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription that comes as part of an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription or that can be subscribed to separately. For information on [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], see:  
   
 -   [Exchange Online](https://technet.microsoft.com/library/jj200580\(v=exchg.150\).aspx)  
   
@@ -51,7 +51,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 <a name="BKMK_VerifyProfile"></a>   
 
 ## Verify you have the profile: Microsoft Exchange Online  
- If you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription in the same tenant as your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] creates a default profile for the email connection: **Microsoft Exchange Online**. To verify this profile:  
+ If you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription in the same tenant as your Customer Engagement apps subscription, Customer Engagement apps creates a default profile for the email connection: **Microsoft Exchange Online**. To verify this profile:  
   
 1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  
   
@@ -59,7 +59,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
   
    ![Verify the Microsoft Exchange Online profile](../admin/media/exchange-online-profile.png "Verify the Microsoft Exchange Online profile")  
   
-    If the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile is missing, verify you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription and that it exists in the same tenant as your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription.  
+    If the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile is missing, verify you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription and that it exists in the same tenant as your Customer Engagement apps subscription.  
   
 3. If there are multiple profiles, click the **Microsoft Exchange Online** profile and set it as default.  
   
@@ -129,7 +129,7 @@ All new users will have these settings applied to their mailbox.
  You need to approve the email address of each user mailbox or queue before the mailbox can process email.  
   
 > [!NOTE]
->  You must be an Office 365 Global administrator to approve emails.  
+>  You must be an Office 365 Global administrator or a Dynamics 365 service administrator to approve emails.  
   
 1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
   
@@ -149,7 +149,7 @@ All new users will have these settings applied to their mailbox.
   
 3. Select the mailboxes you want to test, and then click **Test & Enable Mailboxes**.  
   
-    This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] tries to process the email again after some time or disables the mailbox for email processing.  
+    This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tries to process the email again after some time or disables the mailbox for email processing.  
   
     To see alerts for an individual mailbox, open the mailbox and then under **Common**, click **Alerts**.  
   
@@ -160,7 +160,7 @@ All new users will have these settings applied to their mailbox.
     Make sure you’ve got a good connection to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] by running the [Microsoft Remote Connectivity Analyzer](https://testconnectivity.microsoft.com/). For information on what tests to run, see [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx).  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 <a name="BKMK_TestEmailConfig"></a>   
 
@@ -170,10 +170,10 @@ All new users will have these settings applied to their mailbox.
   
 2. Select the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile, and then click **Test & Enable Mailboxes**.  
   
-    When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] tests the email configuration of all the mailboxes associated with the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
+    When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tests the email configuration of all the mailboxes associated with the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
