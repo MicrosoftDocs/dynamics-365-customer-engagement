@@ -47,7 +47,7 @@ Here is the download link for Channel Integration Framework solution: [Download 
 
 ## Adding a new Custom Parameters field
 
-We have a new field that is used for configuring channel providers, namely Custom Parameters. Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) will return this as value of key `customParams`. More information: [Configure Channel Integration Framework](configure-channel-integration-framework.md)
+We have a new field that is used for configuring channel providers, namely Custom Parameters. Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) will return this as value of key `customParams`. More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md)
 
 ## See Also
 
