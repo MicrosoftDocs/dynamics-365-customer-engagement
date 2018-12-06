@@ -2,7 +2,7 @@
 title: "Troubleshooting and monitoring server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 09/30/2017
+ms.date: 12/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -87,7 +87,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  To approve one or more mailboxes:  
   
-1. Sign in to Customer Engagement apps as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to Customer Engagement apps as a user with the Office 365 global administrator role or the Dynamics 365 service administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   
@@ -108,7 +108,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  Mailboxes must be approved before the email will be processed. To approve mailboxes:  
   
-1. Sign in to Customer Engagement apps as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to Customer Engagement apps as a user with the Office 365 global administrator role or the Dynamics 365 service administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   

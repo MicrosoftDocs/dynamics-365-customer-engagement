@@ -38,7 +38,7 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 > [!NOTE]
 > The [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin can manage instances of version 8.1 ([!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]) or later.  
   
- ![Dynamics 365 for Customer Engagement apps service admin](../admin/media/dynamics-365-service-admin.png "Dynamics 365 for Customer Engagement apps service admin")  
+ ![Dynamics 365 service admin](../admin/media/dynamics-365-service-admin.png "Dynamics 365 service admin")  
   
  Here's a matrix of what's available with the various [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] roles.  
   
@@ -48,9 +48,9 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 |Exchange admin|n/a|n/a|n/a|n/a|n/a|n/a|n/a|Yes|Yes|  
 |Office 365 service admin|No|No|No|No|No|No|Yes|Yes|Yes|  
 |Office 365 user|No|No|No|No|No|No|No|No|No|  
-|Dynamics 365 for Customer Engagement apps service admin|Yes|Yes|Yes|Yes|No|Yes<sup>1</sup>|Yes|Yes|Yes|  
+|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes<sup>1</sup>|Yes|Yes|Yes|  
 
-<sup>1</sup>To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role or the **Dynamics 365 for Customer Engagement apps service admin** role. The Dynamics 365 for Customer Engagement apps service admin User Principal Name (UPN) must match the email address in Dynamics 365 for Customer Engagement. If the email address and the UPN are different then only an Office 365 global admin can approve the email address.
+<sup>1</sup>To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role or the **Dynamics 365 service administrator** role. The Dynamics 365 service admin User Principal Name (UPN) must match the email address in Dynamics 365 for Customer Engagement. If the email address and the UPN are different then only an Office 365 global admin can approve the email address.
 
 To approve emails for Dynamics 365 for Customer Engagement apps (on-premises), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege.  A system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
 
