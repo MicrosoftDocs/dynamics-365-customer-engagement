@@ -3,7 +3,7 @@ title: "Configure a contact for use on a portal in Dynamics 365  | MicrosoftDocs
 description: "Instructions to add and configure a contact to be used in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/04/2018
+ms.date: 12/06/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,9 +37,9 @@ Complete the change password workflow, and the necessary fields will be automati
     > [!div class="mx-imgBorder"]
     > ![Task flow icon](media/task-flow.png "Task flow icon")
 
-2.	Select the **Change password for portals contact** task flow.
+2.	Select the **Change password for portal contact** task flow.
 
-3.	In the **Change password for portals contact** pane, select or create a contact to change the password, and then select **Next**.
+3.	In the **Change password for portal contact** pane, select or create a contact to change the password, and then select **Next**.
 
     > [!div class="mx-imgBorder"]
     > ![Select a contact to change the password](media/change-password-select-contact.png "Select a contact to change the password")
