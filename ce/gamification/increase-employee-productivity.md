@@ -1,14 +1,14 @@
 ---
 title: "Increase employee productivity with Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
 description: "Learn how to drive results and keep your employees engaged while having fun."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.custom: 
   - dyn365-gamification
 ms.topic: home-page
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6a70c280-4e08-4382-bb53-af82d0bfa9fb
 author: m-hartmann
 ms.author: mhart

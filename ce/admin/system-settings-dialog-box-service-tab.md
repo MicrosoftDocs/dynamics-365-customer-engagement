@@ -1,20 +1,20 @@
 ---
 title: "System Settings dialog box - Service tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/01/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "anjgupta"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: anjgupta
 ms.assetid: 926c05fe-4499-4f5b-ab0c-39d29589f094
 caps.latest.revision: 29
-ms.author: "anjgup"
-manager: "shujoshi"
+ms.author: anjgup
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 

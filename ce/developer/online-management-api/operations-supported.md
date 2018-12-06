@@ -2,12 +2,12 @@
 title: "Operations supported by Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Provides information about the operations you can perform using the Online Management API to manage your Customer Engagement instances."
 ms.date: 11/16/2018
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 ms.assetid: 63600a55-a1f0-491f-83f6-b3252566d27e
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

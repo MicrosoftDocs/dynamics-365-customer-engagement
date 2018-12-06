@@ -1,11 +1,11 @@
 ---
 title: "There was a problem with the specified website | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: bb35e14c-3721-4139-b565-8b7bc30d47ed
 caps.latest.revision: 8
 robots: noindex,nofollow

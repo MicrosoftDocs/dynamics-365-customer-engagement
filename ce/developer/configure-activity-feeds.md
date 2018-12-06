@@ -1,32 +1,32 @@
 ---
 title: "Configure activity feeds (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The following sections contain information about how to configure your system for activity feeds."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "configuring activity feeds, auto post rules; plug-ins; workflows; and wall controls"
-  - "plug-ins and workflows, configuring activity feeds"
-  - "wall controls, configuring activity feeds"
-  - "auto post rules, configuring activity feeds"
-  - "business entities to configure for activity feeds, list of"
-  - "activity feeds, business entities for"
-  - "activity feeds, configuring"
-  - "activity feeds, installing"
-  - "configuration entities, used for"
-  - "activity feeds, configuration entities for"
-  - "installing and configuring activity feeds"
+  - configuring activity feeds, auto post rules; plug-ins; workflows; and wall controls
+  - plug-ins and workflows, configuring activity feeds
+  - wall controls, configuring activity feeds
+  - auto post rules, configuring activity feeds
+  - business entities to configure for activity feeds, list of
+  - activity feeds, business entities for
+  - activity feeds, configuring
+  - activity feeds, installing
+  - configuration entities, used for
+  - activity feeds, configuration entities for
+  - installing and configuring activity feeds
 ms.assetid: 02d73faa-8261-4c6f-aeb6-77f200f57cee
 caps.latest.revision: 74
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

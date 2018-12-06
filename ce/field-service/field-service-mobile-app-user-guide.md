@@ -36,7 +36,7 @@ search.app:
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service installation (online)](../field-service/install-field-service.md)   
   
-<a name="bkmk_install"></a>   
+<a name=bkmk_install></a>   
 ## Install the mobile app on a phone or tablet  
  [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is supported on the following devices:  
   
@@ -48,21 +48,21 @@ search.app:
   
   To download the app, search for **field service mobile** in your device's app store.  
   
-  ![Download the Field Service Mobile app](../field-service/media/field-service-download-mobile-app.png "Download the Field Service Mobile app")  
+  ![Download the Field Service Mobile app](../field-service/media/field-service-download-mobile-app.png Download the Field Service Mobile app)  
   
-<a name="bkmk_signin"></a>   
+<a name=bkmk_signin></a>   
 ## Sign in and sync data
  To sign in, you need your organization's Dynamics 365 for Customer Engagement URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
   
 1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign in completes, you'll see the Home screen. 
   
-   ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
+   ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG Home screen in the Field Service Mobile app)  
   
 2. To sync your device to the server, tap the **Sync** button to download changes made on the server to your phone or tablet, and upload information from your device to the server.  
   
-   ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")  
+   ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG Sync the Field Service Mobile app device)  
   
-<a name="bkmk_online"></a>   
+<a name=bkmk_online></a>   
 ## Work online or offline  
  [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) lets you work online or offline. Online mode requires an Internet connection; offline mode does not.  
   
@@ -73,16 +73,16 @@ search.app:
   
 - To work online, tap the Online/Offline mode button.  The screenshot shows how the button looks when you’re online.  
   
-  ![Online mode in the Field Service Mobile app](../field-service/media/field-service-online-mode.PNG "Online mode in the Field Service Mobile app")  
+  ![Online mode in the Field Service Mobile app](../field-service/media/field-service-online-mode.PNG Online mode in the Field Service Mobile app)  
   
 ### Offline mode  
  When you're working offline, the information you need is downloaded to your device. This way you can continue your work even without an Internet connection. When you enter information, it’s saved to your device and sent to the server on the next sync.  
   
 - To work offline, tap the Online/Offline Mode button.  The screenshot shows how the button looks when you’re offline.  
   
-  ![Offline mode in the Field Service Mobile app](../field-service/media/field-service-offline-mode.PNG "Offline mode in the Field Service Mobile app")  
+  ![Offline mode in the Field Service Mobile app](../field-service/media/field-service-offline-mode.PNG Offline mode in the Field Service Mobile app)  
   
-<a name="bkmk_getaround"></a>   
+<a name=bkmk_getaround></a>   
 ## Get around the app (for all security roles)  
  When you first sign in to [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you’ll see your home screen, which shows you a list of actionable items. To get more information, tap any of the items.  
   
@@ -92,7 +92,7 @@ search.app:
 ### Dashboard  
  Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
   
- ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG "Dashboard screen in the Field Service Mobile app")  
+ ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG Dashboard screen in the Field Service Mobile app)  
   
 ### Accounts  
  In Accounts you can see a list of your service accounts.  
@@ -101,7 +101,7 @@ search.app:
   
  To add a new account, tap the **+**  button, and then add your information.  
   
- ![Account view in the Field Service Mobile app](../field-service/media/field-service-mobile-account-view.PNG "Account view in the Field Service Mobile app")  
+ ![Account view in the Field Service Mobile app](../field-service/media/field-service-mobile-account-view.PNG Account view in the Field Service Mobile app)  
   
  Tap an account name to see the account information.  
   
@@ -109,14 +109,14 @@ search.app:
   
  To get more information related to the account, tap any of the buttons at the bottom.  
   
- ![Edit account view in the Field Service Mobile app](../field-service/media/field-service-edit-account-view.PNG "Edit account view in the Field Service Mobile app")  
+ ![Edit account view in the Field Service Mobile app](../field-service/media/field-service-edit-account-view.PNG Edit account view in the Field Service Mobile app)  
   
 ### Bookable resources  
  In Bookable Resources shows your work order bookings.  
   
  By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.  
   
- ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")  
+ ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG Bookable Resource Bookings in the agenda view)  
   
 ### Contacts  
  Contacts shows a list of all your account contacts.  
@@ -125,7 +125,7 @@ search.app:
   
  To add a new contact, tap the **+** button, and then add your information  
   
- ![Contact view in the Field Service Mobile app](../field-service/media/field-service-contact-view.PNG "Contact view in the Field Service Mobile app")  
+ ![Contact view in the Field Service Mobile app](../field-service/media/field-service-contact-view.PNG Contact view in the Field Service Mobile app)  
   
  Tap a contact’s name to see the account information.  
   
@@ -133,29 +133,29 @@ search.app:
   
  To get more information about the contact, tap any of the buttons at the bottom.  
   
- ![Edit a contact](../field-service/media/field-service-edit-contact.PNG "Edit a contact")  
+ ![Edit a contact](../field-service/media/field-service-edit-contact.PNG Edit a contact)  
   
 ### Customer assets  
  In Customer Assets you'll see which products a customer uses.  
   
  To add new customer assets, tap the **+**  button, and then add the asset information.  
   
- ![Add new customer asset](../field-service/media/field-service-customer-asset.PNG "Add new customer asset")  
+ ![Add new customer asset](../field-service/media/field-service-customer-asset.PNG Add new customer asset)  
   
  To see information related to the asset, tap the asset name on the left.  
   
- ![Edit customer assets](../field-service/media/field-service-edit-customer-assets.PNG "Edit customer assets")  
+ ![Edit customer assets](../field-service/media/field-service-edit-customer-assets.PNG Edit customer assets)  
   
 ### Products  
  Products shows a list of your products, including the price, type of product, quantity on hand, and more.  
   
  To add a new product, tap the **+**  button, and then add the product information.  
   
- ![Add new product](../field-service/media/field-service-add-new-product.PNG "Add new product")  
+ ![Add new product](../field-service/media/field-service-add-new-product.PNG Add new product)  
   
  To see details about the product, tap **Products**, and then tap a product in the list.  
   
- ![View more product info](../field-service/media/field-service-view-more-porduct-info.PNG "View more product info")  
+ ![View more product info](../field-service/media/field-service-view-more-porduct-info.PNG View more product info)  
   
 ### Agreements  
  Agreements is where you can see customer contracts.  
@@ -169,15 +169,15 @@ search.app:
    > [!NOTE]
    >  This will gray your name out on the schedule board, which lets the dispatcher and scheduling assistant know that you aren't available.  
   
-   ![Request time off](../field-service/media/field-service-request-time-off.PNG "Request time off")  
+   ![Request time off](../field-service/media/field-service-request-time-off.PNG Request time off)  
   
 ### Map  
  The map shows the location of your accounts and contacts on a map.  
   
  To filter the view, tap **Accounts** or **Contacts**.  
  
-> [!div class="mx-imgBorder"]
-> ![Map view](../field-service/media/field-service-map-view.png "Map view")  
+> [!div class=mx-imgBorder]
+> ![Map view](../field-service/media/field-service-map-view.png Map view)  
   
 ### Calendar  
  The calendar shows your appointments on a calendar.  
@@ -190,9 +190,9 @@ search.app:
   
  Tap the **Menu** button in the top right to send logs, view privacy info, and more.  
   
- ![About the Field Service Mobile app device](../field-service/media/field-service-about-mobile-device.PNG "About the Field Service Mobile app device")  
+ ![About the Field Service Mobile app device](../field-service/media/field-service-about-mobile-device.PNG About the Field Service Mobile app device)  
   
-<a name="bkmk_fieldagents"></a>   
+<a name=bkmk_fieldagents></a>   
 ## Review work order bookings  
  When a work order is assigned to you, it shows up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile).  
   
@@ -202,11 +202,11 @@ search.app:
   
 2. By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.  
   
-   ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")  
+   ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG Bookable Resource Bookings in the agenda view)  
   
    You can also tap the Arrow button to see your bookings for the next day. Or, you can use the  filter to see work orders with a specific booking status.  
   
-   ![Booking info view](../field-service/media/field-service-book-view-info.PNG "Booking info view")  
+   ![Booking info view](../field-service/media/field-service-book-view-info.PNG Booking info view)  
   
 ## Open a work order  
   
@@ -214,7 +214,7 @@ search.app:
   
 2. To open the work order in full screen view, at the top, double-tap **Work Order**.  
   
-   ![View work order](../field-service/media/field-service-view-work-order.PNG "View work order")  
+   ![View work order](../field-service/media/field-service-view-work-order.PNG View work order)  
   
 ## See the location of a work order on a map  
   
@@ -222,7 +222,7 @@ search.app:
   
 2. To get driving directions, tap the Driving Direction button. This opens the default driving directions app on your mobile device. It provides turn-by-turn directions from your location to the work order location.  
   
-   ![Work order map view](../field-service/media/field-service-work-order-map-view.PNG "Work order map view")  
+   ![Work order map view](../field-service/media/field-service-work-order-map-view.PNG Work order map view)  
   
 ## Update work order status  
  The minute you start driving to the next job, it’s important to update the status of the work order. This keeps the dispatcher up to date on what’s going on with the work order, and lets the dispatch team provide the customer with the current status.  
@@ -233,7 +233,7 @@ search.app:
   
 3. Select a status. If you’re driving to the work order location, then update your status to **Traveling**.  
   
-   ![Update booking status](../field-service/media/field-service-update-booking-status.PNG "Update booking status")  
+   ![Update booking status](../field-service/media/field-service-update-booking-status.PNG Update booking status)  
   
    > [!NOTE]
    >  Make sure to update the status again when you arrive on site, and again when you complete the work order.  
@@ -248,22 +248,22 @@ search.app:
   
 - Open the work order, tap **Booking**, and then change the **Start Time**.  
   
-  ![Update work order start time](../field-service/media/field-service-update-start-time.PNG "Update work order start time")  
+  ![Update work order start time](../field-service/media/field-service-update-start-time.PNG Update work order start time)  
   
 ## Check work order details  
  To get more information on what work needs to be done for the service call, look at the **Info**, **Other**, and **Incidents** tabs.  
   
  The **Info** tab provides service account info, address, priority, and more.  
   
- ![Work order Info tab](../field-service/media/field-service-info-tab.PNG "Work order Info tab")  
+ ![Work order Info tab](../field-service/media/field-service-info-tab.PNG Work order Info tab)  
   
  The **Other** tab provides billing account info, service time windows, price lists, and more.  
   
- ![Work order Other tab](../field-service/media/field-service-other-tab.PNG "Work order Other tab")  
+ ![Work order Other tab](../field-service/media/field-service-other-tab.PNG Work order Other tab)  
   
  The **Incidents** tab shows which incidents are linked to the work order.  
   
- ![Work order Incidents tab](../field-service/media/field-service-incidents-tab.PNG "Work order Incidents tab")  
+ ![Work order Incidents tab](../field-service/media/field-service-incidents-tab.PNG Work order Incidents tab)  
   
 ## Check service tasks, products, and services  
  When a work order is created, incidents are added to the work order, which includes a list of service tasks, products, and services.  
@@ -274,13 +274,13 @@ search.app:
   
 1. Open the work order, and then tap **Service Tasks**.  
   
-   ![List of service tasks](../field-service/media/field-service-list-service-tasks.PNG "List of service tasks")  
+   ![List of service tasks](../field-service/media/field-service-list-service-tasks.PNG List of service tasks)  
   
 2. Tap a service task to open it.  
   
 3. When the service task is open, add notes, mark percentage complete, and how long it took to complete the task.  
   
-   ![Work Order Service Task details view](../field-service/media/field-service-service-task-details-view.PNG "Work Order Service Task details view")  
+   ![Work Order Service Task details view](../field-service/media/field-service-service-task-details-view.PNG Work Order Service Task details view)  
   
 4. When you’re done tap, the **Save** button.  
   
@@ -290,11 +290,11 @@ search.app:
   
 2. Tap a product name to open it.  
   
-   ![List of products](../field-service/media/field-service-list-products.PNG "List of products")  
+   ![List of products](../field-service/media/field-service-list-products.PNG List of products)  
   
 3. Mark if the product was used, enter the correct quantity, make sure the price is correct, and add any additional notes.  
   
-   ![Mark product as used](../field-service/media/field-service-mark-product-used.PNG "Mark product as used")  
+   ![Mark product as used](../field-service/media/field-service-mark-product-used.PNG Mark product as used)  
   
 4. When you’re done, tap the **Save** button.  
   
@@ -304,11 +304,11 @@ search.app:
   
 2. Tap a service name to open it.  
   
-   ![List of labor service](../field-service/media/field-service-list-labor-service.PNG "List of labor service")  
+   ![List of labor service](../field-service/media/field-service-list-labor-service.PNG List of labor service)  
   
 3. If the service was performed, mark it as used, and then add any additional information.  
   
-   ![Mark service as used](../field-service/media/field-service-mark-service-used.PNG "Mark service as used")  
+   ![Mark service as used](../field-service/media/field-service-mark-service-used.PNG Mark service as used)  
   
 4. When you’re done, tap the Save button.  
   
@@ -319,7 +319,7 @@ search.app:
   
 1. Open the work order, tap **Notes**, and then tap the **Camera** button.  
   
-   ![Add picture](../field-service/media/field-service-add-picture.PNG "Add picture")  
+   ![Add picture](../field-service/media/field-service-add-picture.PNG Add picture)  
   
 2. Tap the **Camera** button to take the picture  
   
@@ -331,11 +331,11 @@ search.app:
   
 2. To add notes, tap the **Add** button **+**  .  
   
-   ![Add notes in the Field Service Mobile app](../field-service/media/field-service-add-notes.PNG "Add notes in the Field Service Mobile app")  
+   ![Add notes in the Field Service Mobile app](../field-service/media/field-service-add-notes.PNG Add notes in the Field Service Mobile app)  
   
 3. Add your notes in the **Description** area.  
   
-   ![Type notes in field service](../field-service/media/field-service-type-your-notes.PNG "Type notes in field service")  
+   ![Type notes in field service](../field-service/media/field-service-type-your-notes.PNG Type notes in field service)  
   
 4. When you’re done, tap **Save**.  
   
@@ -347,7 +347,7 @@ search.app:
   
 3. Tap the **Menu** button to add attachments, signatures, record video and more.  
   
-   ![Add attachments and signatures](../field-service/media/field-service-add-attachments-signature.PNG "Add attachments and signatures")  
+   ![Add attachments and signatures](../field-service/media/field-service-add-attachments-signature.PNG Add attachments and signatures)  
   
 4. When you’re done, tap **Save**.  
   
@@ -358,7 +358,7 @@ If work still needs to be done, you can create a follow-up booking.
   
 2. Tap the **Menu** button , and then tap **Create follow up**.  
   
-   ![Create a follow up](../field-service/media/field-service-create-follow-up.PNG "Create a follow up")  
+   ![Create a follow up](../field-service/media/field-service-create-follow-up.PNG Create a follow up)  
   
 3. Tap **Open**, and then add your information  
   

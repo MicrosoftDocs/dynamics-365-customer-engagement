@@ -1,12 +1,12 @@
 ---
 title: "Social Engagement 2018 Update 1.9 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
-keywords: "readme, known issues, information"
+keywords: readme, known issues, information
 ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart

@@ -1,14 +1,14 @@
 ---
 title: "Embedded Intelligence for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e5374d5a-bf3e-4cd2-a062-ecd607a9771e
 author: udaykirang
 ms.author: udag

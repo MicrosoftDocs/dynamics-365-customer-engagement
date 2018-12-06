@@ -1,13 +1,13 @@
 ---
 title: "Troubleshoot Voice of the Customer | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Voice of the Customer solution."
-keywords: "troubleshoot voice of the customer"
+keywords: troubleshoot voice of the customer
 ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: C3787135-8818-42F6-A63C-F968EBB60802
 author: sbmjais
 ms.author: shjais

@@ -35,12 +35,12 @@ In the current version of [!INCLUDE[pn-marketing-business-app-module-name](../in
 
 Use the app-selector menu to switch between Surveys and your other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps.
 
-![The app-selector menu](media/nav-apps-surveys-ill.png "The app-selector menu")
+![The app-selector menu](media/nav-apps-surveys-ill.png The app-selector menu)
 
 
 Unlike other [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] apps and work areas, the Surveys app provides a navigator at the top of the page rather than in a side column.
 
-![How to navigate to and around the Surveys app](media/surveys-navigation-ill.png "How to navigate to and around the Surveys app")
+![How to navigate to and around the Surveys app](media/surveys-navigation-ill.png How to navigate to and around the Surveys app)
 
 Go to **Voice of the Customer** to design your surveys. The functionality provided here is the same as that provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications that include the Voice of the Customer feature.
 

@@ -1,11 +1,11 @@
 ---
 title: "Data encryption will be active after the install or upgrade | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 8ffd2e56-4961-4aa9-ac22-e52455fbfdbf
 caps.latest.revision: 8
 robots: noindex,nofollow

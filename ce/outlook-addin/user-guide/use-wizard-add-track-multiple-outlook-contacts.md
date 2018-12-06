@@ -58,7 +58,7 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
   
    - **Company Name**. Group the contacts by the matching account name in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The wizard lists the number of contacts associated with each account. Choose the link to verify the list of names for each account.  
   
-   - **Email Domain**. Group the contacts by email domain. The email domain is the part of the address after the @ symbol. For example, in the email address someone@contoso.com, "contoso.com" is the domain. Choose the link to verify the list of names in each domain.  
+   - **Email Domain**. Group the contacts by email domain. The email domain is the part of the address after the @ symbol. For example, in the email address someone@contoso.com, contoso.com is the domain. Choose the link to verify the list of names in each domain.  
   
    - **Categories**. Group the contacts by the category you use to organize contacts in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], if applicable. Choose the link to verify the list of names for each category.  
   

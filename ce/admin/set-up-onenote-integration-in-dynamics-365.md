@@ -1,14 +1,14 @@
 ---
 title: "Set up OneNote integration in Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 description: "Learn how to integrate OneNote with Dynamics 365 for Customer Engagement apps (online)."
-keywords: "OneNote, notebook, integration, set up"
+keywords: OneNote, notebook, integration, set up
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: bb4f1489-238e-4b72-b5a3-cb1f36d2a274
 author: jimholtz
 ms.author: jimholtz

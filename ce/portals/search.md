@@ -85,7 +85,7 @@ The following site settings are related to global search:
 | Name    | Default value     | Description       |
 |-----------------------|--------------------|-------------|
 | Search/Enabled | True  | A Boolean value that indicates whether search is enabled. If you set its value to false, global search in the portal is turned off.<br>If you are using out-of-the-box web templates and you turn this setting off, the search box will not be displayed in the header as well as on the search page. Also, no results are returned even if the direct URL for the search page is hit.  |
-| Search/Filters  | Content:adx_webpage;Events:adx_event,adx_eventschedule;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea,adx_ideacomment;Issues:adx_issueforum,adx_issue,adx_issuecomment;Help Desk:incident | A collection of search logical name filter options. Defining a value here will add drop-down filter options to global search. This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".  |
+| Search/Filters  | Content:adx_webpage;Events:adx_event,adx_eventschedule;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea,adx_ideacomment;Issues:adx_issueforum,adx_issue,adx_issuecomment;Help Desk:incident | A collection of search logical name filter options. Defining a value here will add drop-down filter options to global search. This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment.  |
 | Search/IndexQueryName   | Portal search  | The name of the system view used by the portal search query to define the fields of an entity enabled that are indexed and searched.   |
 | Search/Query  | +(@Query) _title:(@Query) _logicalname:adx_webpage\~0.9^0.2 -_logicalname:adx_webfile\~0.9 adx_partialurl:(@Query) _logicalname:adx_blogpost\~0.9^0.1 -_logicalname:adx_communityforumthread\~0.9   | This setting adds additional weights and filters to the query that a user enters in the default search box that is displayed on the portal. In the default value, @Query is the query text entered by a user.<br>For information on how to modify this value, follow [Lucene query syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html).<br>**Important**: This weighting and filtering only applies to the search box that comes in the default search page of the portal. If you are using a liquid search tag to create your own search page, then this setting doesn’t apply. |
 | Search/Stemmer  | English    | The language used by the portal search's stemming algorithm.   |
@@ -101,21 +101,21 @@ The following content snippets are related to global search:
 
 | Name   | Default value  | Description   |
 |------------------|-----------------|--------------------|
-| Header/Search/Label| Search| This content snippet determines the watermark text shown in the search box in the portal header.<br>![Search label](media/search-label.png "Search label")    |
-| Header/Search/ToolTip| Search  | This content snippet determines the tooltip text shown when you hover over the search icon in the portal header.<br>![Search tooltip](media/search-tooltip.png "Search tooltip")  |
-| Search/Default/FilterText| All   | This content snippet determines the default text shown in the filter drop-down list next to the search box.<br>![Search filter text](media/search-filter-text.png "Search filter text")  |
-| Search/Facet/All| All| This content snippet determines the default text shown for “all records facet” in the “Record Type” facet of the search result page.<br>![All facet](media/facet-all.png "All facet") |
-| Search/Facet/ClearConstraints   | Clear All  | This content snippet determines the label of the button that resets all the facets applied in the search results page.<br>![Reset all facets ](media/facet-clear-all.png "Reset all facets") |
-| Search/Facet/Downloads   | Downloads   | This content snippet determines the label displayed in the search results of annotation attachments and web file records in the “Record Type” facet.<br>![Download facet](media/facet-download.png "Download facet")|
-| Search/Facet/Less    | Show less  | This content snippet determines the label of the button that collapses facet results.<br>![Show less facet](media/facet-show-less.png "Show less facet") |
-| Search/Facet/ModifiedDate  | Modified date  | This content snippet determines the label of the header shown for the Modified date facet.<br>![Modified date](media/facet-modified-date.png "Modified date facet")   |
-| Search/Facet/More   | Show more  | This content snippet determines the label of the button that expands facet results.<br>![Show more facet](media/facet-show-more.png "Show more facet")  |
-| Search/Facet/Product  | Products | This content snippet determines the label of the Products facet.<br>![Products facet](media/facet-product.png "Products facet")  |
-| Search/Facet/Rating   | Rating   | This content snippet determines the label of the Rating facet.<br>![Ratings facet](media/facet-rating.png "Ratings facet")  |
-| Search/Facet/RecordType   | Record Type | This content snippet determines the label of the Record Type facet.<br>![Record Type facet](media/facet-record-type.png "Record Type facet")     |
-| Search/Facet/SortOrder/AverageUserRating | Average User Ratings | This content snippet determines the label shown for the “Sort by Average User Ratings” option in the sorting drop-down list on the Search Results page.<br>![Sort by average user rating](media/sort-avg-user-rating.png "Sort by average user rating")  |
-| Search/Facet/SortOrder/Relevance| Relevance| This content snippet determines the label shown for the “Sort by Relevance” option in the sorting drop-down list on the Search Results page.<br>![Sort by relevance](media/sort-relevance.png "Sort by relevance")|
-| Search/Facet/SortOrder/Views| View Count| This content snippet determines the label shown for the “Sort by View Count” option in the sorting drop-down list on the Search Results page.<br>![Sort by view count](media/sort-view-count.png "Sort by view count")|
+| Header/Search/Label| Search| This content snippet determines the watermark text shown in the search box in the portal header.<br>![Search label](media/search-label.png Search label)    |
+| Header/Search/ToolTip| Search  | This content snippet determines the tooltip text shown when you hover over the search icon in the portal header.<br>![Search tooltip](media/search-tooltip.png Search tooltip)  |
+| Search/Default/FilterText| All   | This content snippet determines the default text shown in the filter drop-down list next to the search box.<br>![Search filter text](media/search-filter-text.png Search filter text)  |
+| Search/Facet/All| All| This content snippet determines the default text shown for “all records facet” in the “Record Type” facet of the search result page.<br>![All facet](media/facet-all.png All facet) |
+| Search/Facet/ClearConstraints   | Clear All  | This content snippet determines the label of the button that resets all the facets applied in the search results page.<br>![Reset all facets ](media/facet-clear-all.png Reset all facets) |
+| Search/Facet/Downloads   | Downloads   | This content snippet determines the label displayed in the search results of annotation attachments and web file records in the “Record Type” facet.<br>![Download facet](media/facet-download.png Download facet)|
+| Search/Facet/Less    | Show less  | This content snippet determines the label of the button that collapses facet results.<br>![Show less facet](media/facet-show-less.png Show less facet) |
+| Search/Facet/ModifiedDate  | Modified date  | This content snippet determines the label of the header shown for the Modified date facet.<br>![Modified date](media/facet-modified-date.png Modified date facet)   |
+| Search/Facet/More   | Show more  | This content snippet determines the label of the button that expands facet results.<br>![Show more facet](media/facet-show-more.png Show more facet)  |
+| Search/Facet/Product  | Products | This content snippet determines the label of the Products facet.<br>![Products facet](media/facet-product.png Products facet)  |
+| Search/Facet/Rating   | Rating   | This content snippet determines the label of the Rating facet.<br>![Ratings facet](media/facet-rating.png Ratings facet)  |
+| Search/Facet/RecordType   | Record Type | This content snippet determines the label of the Record Type facet.<br>![Record Type facet](media/facet-record-type.png Record Type facet)     |
+| Search/Facet/SortOrder/AverageUserRating | Average User Ratings | This content snippet determines the label shown for the “Sort by Average User Ratings” option in the sorting drop-down list on the Search Results page.<br>![Sort by average user rating](media/sort-avg-user-rating.png Sort by average user rating)  |
+| Search/Facet/SortOrder/Relevance| Relevance| This content snippet determines the label shown for the “Sort by Relevance” option in the sorting drop-down list on the Search Results page.<br>![Sort by relevance](media/sort-relevance.png Sort by relevance)|
+| Search/Facet/SortOrder/Views| View Count| This content snippet determines the label shown for the “Sort by View Count” option in the sorting drop-down list on the Search Results page.<br>![Sort by view count](media/sort-view-count.png Sort by view count)|
 |||
 
 ## Entity-specific handling
@@ -148,7 +148,7 @@ As part of portal global search, a variety of special characters and syntaxes ar
 
     - **Wildcard search**: There are two types of wildcards available to be used within single terms of search queries (not within phrase queries): Single character wildcard search and multiple character wildcard search.
 
-        - **Single character wildcard search**: To perform a single character wildcard search, use the question mark (?) symbol. The single character wildcard search looks for terms that match that with the single character replaced. For example, to search for "text" or "test" you can use the search query as “te?t”.
+        - **Single character wildcard search**: To perform a single character wildcard search, use the question mark (?) symbol. The single character wildcard search looks for terms that match that with the single character replaced. For example, to search for text or test you can use the search query as “te?t”.
 
         - **Multiple character wildcard search**: To perform a multiple character wildcard search, use the asterisk (\*) symbol. Multiple character wildcard searches look for zero or more characters. For example, to search for test, tests or tester, you can use the search query as “test*”. You can also use multiple character wildcard search in the middle of the query. For example, “te*t”.
 
@@ -162,13 +162,13 @@ As part of portal global search, a variety of special characters and syntaxes ar
 
     - **Boosting a term**: Global search provides the relevance level of matching documents based on the terms found. To boost a term, use the caret (^) symbol with a boost factor (a number) at the end of the term you are searching. The higher the boost factor, the more relevant the term will be.
 
-        Boosting allows you to control the relevance of a document by boosting its term. For example, if you are searching for Smart TV and you want the term "Smart" to be more relevant, boost it using the ^ symbol along with the boost factor next to the term. You would type: Smart^4 TV. This will make documents with the term Smart appear more relevant.
+        Boosting allows you to control the relevance of a document by boosting its term. For example, if you are searching for Smart TV and you want the term Smart to be more relevant, boost it using the ^ symbol along with the boost factor next to the term. You would type: Smart^4 TV. This will make documents with the term Smart appear more relevant.
 
-        You can also boost phrase terms as in the example: "Smart TV"^4 "New TV". In this case, the “Smart TV” phrase would be boosted in comparison to “New TV”.
+        You can also boost phrase terms as in the example: Smart TV^4 New TV. In this case, the “Smart TV” phrase would be boosted in comparison to “New TV”.
 
         By default, the boost factor is 1. Although the boost factor must be positive, it can be less than 1 (for example, 0.2).
 
-- **Boolean operators**: Boolean operators allow terms to be combined through logic operators. Global search supports OR, AND, NOT, "+", and "-" as Boolean operators.
+- **Boolean operators**: Boolean operators allow terms to be combined through logic operators. Global search supports OR, AND, NOT, +, and - as Boolean operators.
 
     > [!NOTE]
     > Boolean operators must be written in uppercase.
@@ -179,9 +179,9 @@ As part of portal global search, a variety of special characters and syntaxes ar
 
     - **NOT**: The NOT operator excludes records that contain the term after NOT. This is equivalent to a difference using sets. The symbol ! can be used in place of the word NOT. For example, the search query “Smart NOT TV” (excluding quotation marks) will search for all records that have the word Smart but don’t have the word TV in them. This query can also be written as “Smart ! TV”.
 
-    - **Plus (+) symbol**: The plus (+) symbol, also known as the required operator, requires that the term after the "+" symbol exists somewhere in a record. For example, the search query “Smart + TV” will search for all records where the word TV must be present, and the word Smart may be present as well. 
+    - **Plus (+) symbol**: The plus (+) symbol, also known as the required operator, requires that the term after the + symbol exists somewhere in a record. For example, the search query “Smart + TV” will search for all records where the word TV must be present, and the word Smart may be present as well. 
 
-    - **Minus (–) symbol**: The minus (-) symbol, also known as the prohibit operator, excludes documents that contain the term after the "-" symbol. For example, the search query “Smart - TV” will search for all records where the word Smart is present, and the word TV must not be present.
+    - **Minus (–) symbol**: The minus (-) symbol, also known as the prohibit operator, excludes documents that contain the term after the - symbol. For example, the search query “Smart - TV” will search for all records where the word Smart is present, and the word TV must not be present.
 
 - **Grouping**: Portal global search supports using parentheses to group clauses to form sub queries. This can be very useful if you want to control the Boolean logic for a query. For example, if you want to search for all records where either one of the terms “HD” or “Smart” is present but the word TV is always present, then the query can be written as “(HD or Smart) AND TV” (excluding quotation marks).
 
@@ -232,7 +232,7 @@ To block the Case entity from getting indexed, you must rename the view of the C
 
 2.	Go to **Settings** > **Customization** > **Customize the System**.
 
-    ![Customize the system](media/customize-system.png "Customize the system")
+    ![Customize the system](media/customize-system.png Customize the system)
 
 3.	In the customization dialog, go to **Components** > **Entities** > **Case** in the left navigation pane. 
 
@@ -240,15 +240,15 @@ To block the Case entity from getting indexed, you must rename the view of the C
 
 5.	Select the **Portal Search** view from the list and open it in view editor.
 
-    ![Case view](media/case-view.png "Case view")
+    ![Case view](media/case-view.png Case view)
 
 6.	In the view editor, select **View Properties**.
 
-    ![View editor](media/view-editor.png "View editor")
+    ![View editor](media/view-editor.png View editor)
 
 7.	Rename the view according to the requirement. Ensure that the new name doesn't have the “Portal Search” term in it.
 
-    ![View properties](media/view-properties.png "View properties")
+    ![View properties](media/view-properties.png View properties)
 
 8.	Save the changes and close the view editor.
 
@@ -273,6 +273,6 @@ The modified value will be:
 
 Once this site setting is changed, the Case entity will be removed from filters on the search page as well as in the header.
 
-![Search on page](media/search-on-page.png "Search on page")
+![Search on page](media/search-on-page.png Search on page)
 
-![Search in header](media/search-in-header.png "Search in header")
+![Search in header](media/search-in-header.png Search in header)

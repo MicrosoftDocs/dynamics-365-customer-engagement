@@ -1,17 +1,17 @@
 ---
 title: "Architecture overview of Channel Integration Framework (CIF) helps| Microsoft Docs"
 description: "Learn the architecture overview of Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps."
-keywords: ""
+keywords: 
 ms.date: 10/01/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
+  - dyn365-a11y
+  - dyn365-developer
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 937bd2df-0b5c-48c8-b415-285820b246c9
 author: kabala123
 ms.author: kabala

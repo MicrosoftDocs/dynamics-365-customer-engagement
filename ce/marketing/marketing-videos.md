@@ -34,7 +34,7 @@ If you are new to [!INCLUDE[pn-marketing-business-app-module-name](../includes/p
 
 ## Get a quick overview
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
+<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e frameborder=0 allowfullscreen=></iframe></div>
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Overview (Marketing)](overview.md)
 
@@ -42,7 +42,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 ## Design marketing emails
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
+<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824 frameborder=0 allowfullscreen=></iframe></div>
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
@@ -55,7 +55,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 ## Use customer journeys to create automated campaigns
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399 frameborder=0 allowfullscreen=></iframe></div>
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
@@ -69,7 +69,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 ## Qualify your hottest leads with automated lead scoring
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
+<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398 frameborder=0 allowfullscreen=></iframe></div>
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 

@@ -1,34 +1,34 @@
 ---
 title: "Use field security to control access to field values (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides field-level security to restrict access to high business impact (custom and OOB) fields to specific users and teams."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "field-level security in CRM, when aggregating on secured attributes"
-  - "field-level security in CRM, explained"
-  - "field-level security in CRM, when ordering on secured attributes"
-  - "controlling access to field values by using field-level security"
-  - "field-level security in CRM, behavior of secured fields when sharing records"
-  - "secured fields"
-  - "field-level security in CRM, behavior of secured fields for Create or Update"
-  - "field-level security in CRM, when grouping on secured attributes"
-  - "field-level security in CRM, behavior of secured fields for filtered views or offline synchronization"
-  - "using field-level security to control access to field values in CRM"
-  - "security roles that allow access to secured fields"
-  - "field-level security in CRM, secured attributes in column sets"
-  - "field-level security in CRM, secured attributes in the filter condition"
+  - field-level security in CRM, when aggregating on secured attributes
+  - field-level security in CRM, explained
+  - field-level security in CRM, when ordering on secured attributes
+  - controlling access to field values by using field-level security
+  - field-level security in CRM, behavior of secured fields when sharing records
+  - secured fields
+  - field-level security in CRM, behavior of secured fields for Create or Update
+  - field-level security in CRM, when grouping on secured attributes
+  - field-level security in CRM, behavior of secured fields for filtered views or offline synchronization
+  - using field-level security to control access to field values in CRM
+  - security roles that allow access to secured fields
+  - field-level security in CRM, secured attributes in column sets
+  - field-level security in CRM, secured attributes in the filter condition
 ms.assetid: bd42f612-f01c-47dd-9859-69f6024af263
 caps.latest.revision: 42
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -35,7 +35,7 @@ CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for phones tha
 >
 > For on-premises deployments of Dynamics 365 for Customer Engagement apps, the mobile apps require an [Internet-facing deployment](https://technet.microsoft.com/library/dn609803.aspx) of Microsoft Dynamics 365 for Customer Engagement apps Server that uses claims-based authentication.
 
-<a name="BKMK_CRMforPhones"></a>   
+<a name=BKMK_CRMforPhones></a>   
 
 ## Support for Dynamics 365 for phones
 
@@ -78,7 +78,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 >
 > Additional screen sizes and resolutions are supported because Windows can use system scaling.
 
-<a name="BKMK_iPad"></a>   
+<a name=BKMK_iPad></a>   
 
 ### Apple iPad  
 You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
@@ -98,7 +98,7 @@ You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for
   
 - In the [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] app, go to the home screen, and then open the command bar. Tap **Settings**, and then tap **About**.  
   
-<a name="BKMK_Nexus"></a>   
+<a name=BKMK_Nexus></a>   
 
 ### Android  
 You can run the [!INCLUDE[pn_moca_CRM_Android](../../../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements:
@@ -111,7 +111,7 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../../../includes/pn-moca-crm-and
 
 [Download Microsoft Dynamics 365 for Customer Engagement apps for Android from Google play](http://go.microsoft.com/fwlink/p/?LinkID=392913)
   
-<a name="BKMK_BrowserSupport"></a>   
+<a name=BKMK_BrowserSupport></a>   
 
 ## Web browser support for tablets  
 You can run Microsoft Dynamics 365 for Customer Engagement apps in the default web browser on any of the supported [Windows tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Windows8) listed earlier. For [Apple iPad tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_iPad), iOS 7, iOS 8, and iOS 9 are supported. For [Android](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Nexus), versions 4.2.2, 4.3, 4.4, 5.0, and 6.0 are supported for the tablets listed earlier.

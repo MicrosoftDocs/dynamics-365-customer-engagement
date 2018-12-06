@@ -1,27 +1,27 @@
 ---
 title: "Sample: Use duplicate detection when creating and updating records (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to detect duplicate records when when creating and updating entity records."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "running duplicate detection to create and update records sample"
-  - "duplicate detection, sample for invoking duplicate detection to create and update records"
-  - "detecting duplicate data in Microsoft Dynamics CRM, sample for invoking duplicate detection to create and update records"
-  - "sample for running duplicate detection to create and update records"
-  - "sample for invoking duplicate detection to create and update records"
-  - "invoking duplicate detection to create and update records sample"
+  - running duplicate detection to create and update records sample
+  - duplicate detection, sample for invoking duplicate detection to create and update records
+  - detecting duplicate data in Microsoft Dynamics CRM, sample for invoking duplicate detection to create and update records
+  - sample for running duplicate detection to create and update records
+  - sample for invoking duplicate detection to create and update records
+  - invoking duplicate detection to create and update records sample
 ms.assetid: 99e3570c-39d6-46a2-9574-e8dedc99fd65
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

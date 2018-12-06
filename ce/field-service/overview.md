@@ -98,5 +98,5 @@ Work orders describe the work that a technician needs to perform at a customer l
 ## Watch an overview video
 In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
 
- <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Customer Engagement for Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 for Customer Engagement for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
+ <a name=heroArea></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Customer Engagement for Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG Manage your mobile workforce with Dynamics 365 for Customer Engagement for Field Service)](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 

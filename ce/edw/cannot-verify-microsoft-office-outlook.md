@@ -1,11 +1,11 @@
 ---
 title: "Cannot verify Microsoft Office Outlook | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ef560690-e2f8-44d7-9c17-72c6680c90cd
 caps.latest.revision: 3
 robots: noindex,nofollow

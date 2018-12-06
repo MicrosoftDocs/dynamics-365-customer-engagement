@@ -1,11 +1,11 @@
 ---
 title: "The organization database selected for import is a different version | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 4c7e07f9-4b8e-4113-99dd-88b1d8920427
 caps.latest.revision: 5
 robots: noindex,nofollow

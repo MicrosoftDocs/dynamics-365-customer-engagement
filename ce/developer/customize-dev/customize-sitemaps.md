@@ -1,19 +1,19 @@
 ---
 title: "Customize SiteMaps (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The SiteMap provides the structure for navigation in Dynamics 365 for Customer Engagement. The SiteMap entity stores information about the site map, and the SiteMap.SiteMapXml attribute stores the XML that defines the site map."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 54f00cc7-0653-423d-abe0-5344ad3711c3
 caps.latest.revision: 14
-author: "KumarVivek"
-ms.author: "kvivek"
+author: KumarVivek
+ms.author: kvivek
 search.audienceType: 
   - developer
 search.app: 

@@ -1,11 +1,11 @@
 ---
 title: "You've encountered a check that does not have a Help topic | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: f207aaf9-354b-433f-bc05-162242f5306f
 caps.latest.revision: 11
 robots: noindex,nofollow

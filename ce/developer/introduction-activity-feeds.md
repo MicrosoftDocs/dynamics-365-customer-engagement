@@ -1,33 +1,33 @@
 ---
 title: "Introduction to activity feeds (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic provides information about activity feeds terminology, definitions and entity model."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "retrieving posts and pages of posts, for displaying on personal or record walls"
-  - "activity feed posts, character limits (character limits)"
-  - "activity feeds, related entities and their descriptions"
-  - "creating posts for activity feeds"
-  - "activity feed mentions, definition and use"
-  - "activity feeds, introduction to"
-  - "activity feeds, posts in"
-  - "activity feed mentions, expression and sample for adding to a post"
-  - "activity feeds, collaborating with"
-  - "activity feeds, creating posts for"
-  - "posts in activity feeds, displaying on personal or record walls"
-  - "collaborating with activity feeds"
-  - "activity feeds, terms and definitions"
+  - retrieving posts and pages of posts, for displaying on personal or record walls
+  - activity feed posts, character limits (character limits)
+  - activity feeds, related entities and their descriptions
+  - creating posts for activity feeds
+  - activity feed mentions, definition and use
+  - activity feeds, introduction to
+  - activity feeds, posts in
+  - activity feed mentions, expression and sample for adding to a post
+  - activity feeds, collaborating with
+  - activity feeds, creating posts for
+  - posts in activity feeds, displaying on personal or record walls
+  - collaborating with activity feeds
+  - activity feeds, terms and definitions
 ms.assetid: 1b9e7311-36a6-4f57-a834-429651110515
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,30 +1,30 @@
 ---
 title: "Connection entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Connection entites help you enable, create, and query connections."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating graphs and charts to visually represent connections"
-  - "connection entities, using to create connections"
-  - "connecting two records"
-  - "creating multiple connections and roles for records"
-  - "querying connections for data"
-  - "connections, definition"
-  - "enabling connections, connection entities"
-  - "creating connection roles between records"
-  - "associating entity records, connection entities"
+  - creating graphs and charts to visually represent connections
+  - connection entities, using to create connections
+  - connecting two records
+  - creating multiple connections and roles for records
+  - querying connections for data
+  - connections, definition
+  - enabling connections, connection entities
+  - creating connection roles between records
+  - associating entity records, connection entities
 ms.assetid: 98700871-a986-4982-900e-5fd5f6ee5a26
 caps.latest.revision: 37
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

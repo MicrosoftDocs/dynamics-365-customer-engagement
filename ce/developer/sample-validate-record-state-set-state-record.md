@@ -1,24 +1,24 @@
 ---
 title: "Sample: Validate record state and set the state of the record (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample demonstrates how to validate a change of state of an entity and set a state of an entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "setting record states sample"
-  - "validating record states sample"
-  - "record states, sample for validating and setting"
+  - setting record states sample
+  - validating record states sample
+  - record states, sample for validating and setting
 ms.assetid: 6b2f00ca-dbac-47d8-ab4a-0be52b72f05d
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

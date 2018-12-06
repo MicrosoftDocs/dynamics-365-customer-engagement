@@ -33,7 +33,7 @@ The **Explore** view provides a graphical map of the path you're creating when y
 
 To use the explorer, select the **Explore** button when you want to add a clause to group on the **Definition** or **Flow** tab.
 
-![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
+![The segment explorer](media/segment-explorer-example1.png The segment explorer)
 
 The map at the top of the explorer shows the entities that are available for use when creating segments. The map is updated as you build your query group to indicate which paths are still valid. It uses the following colors and line weights to indicate this:
 
@@ -57,12 +57,12 @@ Because the path ends with contacts, the result is a list of contacts who live i
 
 The following image shows this example query midway through construction, where we're adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can (and can't) do next.
 
-![The segment explorer map, showing progress](media/segment-explorer-example2.png "The segment explorer map, showing progress")
+![The segment explorer map, showing progress](media/segment-explorer-example2.png The segment explorer map, showing progress)
 
 > [!NOTE]
 > On adding the final **Contacts** entity to the expression we've been describing in this example, you'll be asked to choose which of the available paths to use.
 > 
-> ![The multiple-paths dialog](media/segment-explorer-multiple-paths.png "The multiple-paths dialog")
+> ![The multiple-paths dialog](media/segment-explorer-multiple-paths.png The multiple-paths dialog)
 > 
 > The correct one is **contact\_account\_accountid\__\<suffix\>_**, which establishes how the contact entity relates to the account entity.
 

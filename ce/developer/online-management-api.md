@@ -1,13 +1,13 @@
 ---
 title: "Online Management API for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
-applies_to: "Dynamics 365 for Customer Engagement (online)"
+ms.service: crm-online
+ms.topic: conceptual
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: b9ee3048-7065-48e6-87fc-7728c51bdd4e
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

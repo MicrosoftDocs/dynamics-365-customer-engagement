@@ -38,7 +38,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
    > [!IMPORTANT]
    >  This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../../../includes/pn-crm-online-2016-update-shortest.md)].  
   
-<a name="BKMK_MobileIntune"></a>   
+<a name=BKMK_MobileIntune></a>   
 
 ## Manage Dynamics 365 for Customer Engagement apps on mobile devices with [!INCLUDE[pn_microsoft_intune](../../../includes/pn-microsoft-intune.md)]  
  If your organization is set up with [!INCLUDE[pn_intune](../../../includes/pn-intune.md)], you can use it to manage the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] for phones and tablets apps on Apple, Android, and Windows 10 tablets and phones. [!INCLUDE[pn_intune](../../../includes/pn-intune.md)] manages encryption at the device level, as well as app-to-app communications. With [!INCLUDE[pn_intune](../../../includes/pn-intune.md)], you can selectively wipe managed apps and related data on devices that are unenrolled, no longer compliant, lost, stolen, or retired from use.  
@@ -129,7 +129,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
   
 - Enable the **Prevent Data Leakage** setting in the **Security Policies** tab to cover other situations including using a secure app for email, and handling of copy/paste scenarios.  
   
-  ![Enable to prevent data leakage in Dynamics 365 for Customer Engagement apps](../../../admin/media/good-prevent-data-leakage.png "Enable to prevent data leakage in Dynamics 365 for Customer Engagement apps")  
+  ![Enable to prevent data leakage in Dynamics 365 for Customer Engagement apps](../../../admin/media/good-prevent-data-leakage.png Enable to prevent data leakage in Dynamics 365 for Customer Engagement apps)  
   
 - All data stored on the client when using [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] is encrypted using [!INCLUDE[pn_good_dynamics](../../../includes/pn-good-dynamics.md)] APIs.  
   

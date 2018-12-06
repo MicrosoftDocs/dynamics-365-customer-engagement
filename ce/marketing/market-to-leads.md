@@ -36,7 +36,7 @@ search.app:
 Read this topic to learn how to integrate sales-driven (lead-centered) and marketing-driven (contact-centered) processes using [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Techniques include:
 
 - Build marketing segments by querying lead records.
-- Automatically generate contact records based on "orphaned" lead records and associate the two.
+- Automatically generate contact records based on orphaned lead records and associate the two.
 - Make marketing contacts easy to tell apart from sales contacts so you can set up custom views that show the right contacts to the right people.
 
 The resulting system will align with industry best practices and provide many benefits for your customer-engagement process, including:
@@ -61,23 +61,23 @@ For example, to set up a segment that finds all the leads collected at a recent 
 
 5. By default, the query designer opens with a segment group that already has the **Contact** entity selected. But we don't want to search on contacts, so choose the close button to remove the default query group.  
     <br/>
-    ![Close the default query group](media/leads-segment-close-group.png "Close the default query group")
+    ![Close the default query group](media/leads-segment-close-group.png Close the default query group)
 
 6. Choose **Lead** from the **Select a profile or relationship** drop-down list.  
     <br/>
-    ![Create a lead query group](media/leads-segment-lead-group.png "Create a lead query group")
+    ![Create a lead query group](media/leads-segment-lead-group.png Create a lead query group)
 
-7. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".  
+7. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of Contoso Ltd Conference.  
     <br/>
-    ![An example lead query](media/leads-segment-lead-clause.png "An example lead query")
+    ![An example lead query](media/leads-segment-lead-clause.png An example lead query)
 
 8. All segments must end by making a connection to the contact entity, so choose **And** to add a new clause to your expression and set it to **lead\_contact\_parentcontactid\__&lt;ServerSuffix&gt;_**, which links from the lead record to the related contact record based on the lead's parent contact ID.  
     <br/>
-    ![Link to the related contact records](media/leads-segment-lead-relation.png "Link to the related contact records")
+    ![Link to the related contact records](media/leads-segment-lead-relation.png Link to the related contact records)
 
 9. Set the new relation to **All&ast;** to find all contacts that relate to the found leads.  
     <br/>
-    ![The final lead segment query](media/leads-segment-lead-final.png "The final lead segment query")
+    ![The final lead segment query](media/leads-segment-lead-final.png The final lead segment query)
 
 10. Choose **Go Live** from the command bar to publish the segment.
 
@@ -89,7 +89,7 @@ To solve this, you can use [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-36
 
 Also, any user can manually select or create a contact for a lead by using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process on the lead record.
 
-![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
+![Manually link a lead to a contact record](media/leads-related-contact.png Manually link a lead to a contact record)
 
 ## Keep automatically generated contacts from confusing users
 

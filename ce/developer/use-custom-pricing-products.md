@@ -1,20 +1,20 @@
 ---
 title: "Use custom pricing for products (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Use the CalculatePrice message to define custom pricing for products in opportunities, quotes, orders and invoices."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b54fd2ea-811d-4b83-8638-86dd87038fd7
 caps.latest.revision: 13
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

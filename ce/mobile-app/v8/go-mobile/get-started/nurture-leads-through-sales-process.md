@@ -34,7 +34,7 @@ search.app:
 ## Track leads through the sales process  
  Move customers through the sales process, from lead to close, with the process bar. Once you’ve completed the steps in one stage, you can move on to the next one. The process bar highlights the stage you’re in so you know where you are in the process, and shows you what to do next.  
   
- ![Process bar in Dynamics 365 for Customer Engagement apps mobile app](../../../media/process-bar-dynamics-365-mobile-app.png "Process bar in Dynamics 365 for Customer Engagement apps mobile app")  
+ ![Process bar in Dynamics 365 for Customer Engagement apps mobile app](../../../media/process-bar-dynamics-365-mobile-app.png Process bar in Dynamics 365 for Customer Engagement apps mobile app)  
   
  For example, in the illustration above, you start the process with a lead. In the first stage (**Qualify**), you qualify or disqualify the lead based on criteria established by your company. If you qualify the lead, it’s converted to an opportunity. The process bar then walks you through the rest of the stages: **Develop**, **Propose**, and **Close**.  
   

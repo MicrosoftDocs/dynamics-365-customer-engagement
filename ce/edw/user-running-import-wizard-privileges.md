@@ -1,11 +1,11 @@
 ---
 title: "The user that is running Import Wizard does not have sufficient privileges | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 959afe9c-a7e1-4c80-bed2-0c2c49119ddd
 caps.latest.revision: 3
 robots: noindex,nofollow

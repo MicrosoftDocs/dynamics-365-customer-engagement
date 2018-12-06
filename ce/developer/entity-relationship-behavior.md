@@ -1,35 +1,35 @@
 ---
 title: "Entity relationship behavior (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-descriptions: "Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes"
-ms.custom: ""
+descriptions: Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes
+ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "entity relationship behaviors, automating business processes"
-  - "entity relationship behaviors, preserving data integrity"
-  - "reparent actions"
-  - "automating business processes"
-  - "entity relationship behaviors, overview"
-  - "parental relationships between entities"
-  - "entity relationship behaviors, parental relationships between entities"
-  - "cascading behaviors from one-to-many entity relationships"
-  - "entity relationship behaviors, reparent actions"
-  - "configuring entity relationship behaviors, associated classes and properties to use"
-  - "entity relationship behaviors, configuring entity relationship behaviors"
-  - "entity relationship behaviors, cascading behaviors from one-to-many entity relationships"
-  - "preserving data integrity"
-  - "entity relationship behaviors, cascading behaviors of related entities in the entity hierarchy"
+  - entity relationship behaviors, automating business processes
+  - entity relationship behaviors, preserving data integrity
+  - reparent actions
+  - automating business processes
+  - entity relationship behaviors, overview
+  - parental relationships between entities
+  - entity relationship behaviors, parental relationships between entities
+  - cascading behaviors from one-to-many entity relationships
+  - entity relationship behaviors, reparent actions
+  - configuring entity relationship behaviors, associated classes and properties to use
+  - entity relationship behaviors, configuring entity relationship behaviors
+  - entity relationship behaviors, cascading behaviors from one-to-many entity relationships
+  - preserving data integrity
+  - entity relationship behaviors, cascading behaviors of related entities in the entity hierarchy
 ms.assetid: 841dbfc8-05e1-4992-83ac-b9d47eab1e7b
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

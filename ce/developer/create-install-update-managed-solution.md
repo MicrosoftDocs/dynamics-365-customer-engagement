@@ -1,27 +1,27 @@
 ---
 title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating managed solutions"
-  - "updating managed solutions"
-  - "managed solutions, creating; installing; and updating"
-  - "creating; installing; and updating managed solutions, installing managed solutions"
-  - "creating; installing; and updating managed solutions, updating managed solutions"
-  - "installing managed solutions"
-  - "solutions, creating; installing; and updating managed solutions"
-  - "creating; installing; and updating managed solutions, creating managed solutions"
+  - creating managed solutions
+  - updating managed solutions
+  - managed solutions, creating; installing; and updating
+  - creating; installing; and updating managed solutions, installing managed solutions
+  - creating; installing; and updating managed solutions, updating managed solutions
+  - installing managed solutions
+  - solutions, creating; installing; and updating managed solutions
+  - creating; installing; and updating managed solutions, creating managed solutions
 ms.assetid: 78ec9f71-7845-46c7-be6d-7ac5ade85e28
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

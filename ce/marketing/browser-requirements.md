@@ -45,6 +45,6 @@ Regardless of which supported browser you use, you must configure your browser a
 
 If you are using [!INCLUDE[pn-microsoft-edge](../includes/pn-microsoft-edge.md)] on a touch device, such as a tablet, then you must do the following to enable the touch-based drag-and-drop features:
 1. Run [!INCLUDE[pn-microsoft-edge](../includes/pn-microsoft-edge.md)].
-2. Type "about:flags" into the address bar and select **Enter**.
+2. Type about:flags into the address bar and select **Enter**.
 3. A page of local browser settings opens. Under **Standards Preview**, set **Enable touch events** to **Always on**.
 4. Restart your browser.

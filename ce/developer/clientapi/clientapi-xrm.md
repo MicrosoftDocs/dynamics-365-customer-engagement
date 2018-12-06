@@ -2,14 +2,14 @@
 title: "Client API Xrm object for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "The topic provides client API reference for Dynamics 365 for Customer Engagement apps."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 15272ad9-25d7-499e-9361-a65f789daf20
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,12 +1,12 @@
 ---
 title: "Install the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to install the Social Selling Assistant in Dynamics 365 for Customer Engagement apps."
-keywords: "SSA, Social Selling Assistant, install, Dynamics 365 for Customer Engagement"
+keywords: SSA, Social Selling Assistant, install, Dynamics 365 for Customer Engagement
 ms.date: 12/08/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 788e0559-68f8-404c-b215-cf4b76a9cc18
 author: m-hartmann
 ms.author: mhart

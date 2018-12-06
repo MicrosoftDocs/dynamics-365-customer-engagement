@@ -71,20 +71,20 @@ Here's an example of how to define a segment that starts by finding a collection
 1. Fill out the **General** tab with a name and description for your new segment.
 
 1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
-    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
+    ![Close the default group](media/segment-opportunity-close-group.png Close the default group)
 
 1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
-    ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
+    ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png Select the waitlist-item entity)
 
 1. Complete the row to create the logical expression:  
     **Opportunity | Total Amount | &ge; | 10000**.  
-    ![Start with the opportunity entity](media/segment-example-opportunity1.png "Start with the opportunity entity")
+    ![Start with the opportunity entity](media/segment-example-opportunity1.png Start with the opportunity entity)
 
 1. Select **+And** to add a new clause to the group. Now you must choose the relation between the opportunity entity and the contact entity, which is where we need to end up. Choose **opportunity&#95;contact&#95;customerid&#95;_&lt;suffix&gt;_** and set it to match **All&#42;**.  
-    ![Set the relation from opportunity to contact](media/segment-example-opportunity2.png "Set the relation from opportunity to contact")
+    ![Set the relation from opportunity to contact](media/segment-example-opportunity2.png Set the relation from opportunity to contact)
 
 1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **contact&#95;_&lt;suffix&gt;_** entity and set it to **All&#42;** to find all contacts associated with the selected opportunities.  
-    ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
+    ![Finish the path to the contact entity](media/segment-example-opportunity3.png Finish the path to the contact entity)
 
 1. Your group will now find contacts associated with opportunities valued over $10,000.
 
@@ -102,7 +102,7 @@ When you're working on the **Designer** tab, use the **+ Add Group** button to a
 
 The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups are combined, and how contacts flow into and out of the segment as a result of the operation from each group.
 
-![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
+![Sankey diagram on the Flow tab](media/segment-sankey-example.png Sankey diagram on the Flow tab)
 
 You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
 

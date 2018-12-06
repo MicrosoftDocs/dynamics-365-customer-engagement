@@ -1,24 +1,24 @@
 ---
 title: "Plan for solution development (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Solutions introduce factors to take into consideration during your planning. The following topics introduce strategies to use while planning your solution development efforts."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "planning for solution development, introduction"
-  - "planning for solution development, factors to consider and strategies for"
-  - "solution development, planning for"
+  - planning for solution development, introduction
+  - planning for solution development, factors to consider and strategies for
+  - solution development, planning for
 ms.assetid: d46dda82-a358-40ba-b751-771e8da86d81
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

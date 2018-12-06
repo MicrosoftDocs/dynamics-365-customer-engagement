@@ -1,13 +1,13 @@
 ---
 title: "Plan a survey to be created by using Voice of the Customer | MicrosoftDocs"
 description: "Plan to create a survey using Voice of the Customer."
-keywords: "plan a survey; survey best practices; survey question types"
+keywords: plan a survey; survey best practices; survey question types
 ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ad3388d5-4c50-4005-a067-8498069ead93
 author: sbmjais
 ms.author: shjais

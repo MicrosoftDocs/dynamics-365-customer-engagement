@@ -1,20 +1,20 @@
 ---
 title: "Use the late bound entity class in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Entity class lets you use late binding so that you can work with types such as custom entities and custom attributes that weren’t available when your application was compiled"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 75c9f21a-9bb7-4324-8a50-c655fc4b589d
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

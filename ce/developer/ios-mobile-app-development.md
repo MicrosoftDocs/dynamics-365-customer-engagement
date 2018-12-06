@@ -1,19 +1,19 @@
 ---
 title: "Resources for iOS mobile application development"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: E0FD188C-A992-488C-92B2-E32F6FBDD05F
 caps.latest.revision: 25
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "amyla"
+author: SushantSikka
+ms.author: susikka
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,20 +1,20 @@
 ---
 title: "Activity entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "In Dynamics 365 for Customer Engagement (online), activities are tasks that you or your teams perform when they contact customers, for example, sending letters or making telephone calls."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c433ebc0-f3c1-47a4-a7df-8ffe821b51c0
 caps.latest.revision: 32
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

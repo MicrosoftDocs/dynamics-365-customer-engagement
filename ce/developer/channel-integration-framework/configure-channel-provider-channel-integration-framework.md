@@ -1,17 +1,17 @@
 ---
 title: "Configure channel provider in Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn how to configure a channel provider install and setup Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps."
-keywords: ""
+keywords: 
 ms.date: 10/01/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
+  - dyn365-a11y
+  - dyn365-developer
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5612019a-a4b5-4ba5-a232-6b7d66bdfc21
 author: kabala123
 ms.author: kabala

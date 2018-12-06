@@ -1,27 +1,27 @@
 ---
 title: "Retrieve data with queries using SDK assemblies (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "There are several ways to create queries in Dynamics 365 for Customer Engagement (online) Customer Engagement. This topic lists the basic capabilities of each query style"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "queries, using to retrieve data"
-  - "creating queries to retrieve data, by using FetchXML"
-  - "creating queries to retrieve data, by using .NET language-Integrated Query (LINQ)"
-  - "retrieving data, by creating queries"
-  - "creating queries to retrieve data, early and late binding scenarios"
-  - "creating queries to retrieve data, by using QueryExpression"
+  - queries, using to retrieve data
+  - creating queries to retrieve data, by using FetchXML
+  - creating queries to retrieve data, by using .NET language-Integrated Query (LINQ)
+  - retrieving data, by creating queries
+  - creating queries to retrieve data, early and late binding scenarios
+  - creating queries to retrieve data, by using QueryExpression
 ms.assetid: e9d32d0c-c0f1-43bf-8bc8-a1f8836f661a
 caps.latest.revision: 30
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

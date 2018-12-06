@@ -4,10 +4,10 @@ description: "Brag about your wins and rank on the leaderboard by posting on the
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 958c8d0d-d57e-492b-bb83-1594c4d1a984

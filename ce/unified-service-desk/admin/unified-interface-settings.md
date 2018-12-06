@@ -1,19 +1,19 @@
 ---
 title: "Unified Interface Settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "usd"
+  - usd
 ms.custom: 
-  - ""
+  - 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 88B92EC9-81ED-4EB0-8269-2DC0624B6DBA
 author: kabala123
 ms.author: kabala
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: ">=dynamics-usd-4"
+monikerRange: >=dynamics-usd-4
 ---
 
 # Preview feature - Set default Unified Interface App using Unified Interface Settings

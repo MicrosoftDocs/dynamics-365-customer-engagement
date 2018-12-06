@@ -29,12 +29,12 @@ search.app:
 Whether you add a team member directly to a project on the Team tab, or book a resource to a project or requirement from the schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
 
 *Choosing the allocation method when adding a team member to a project*
-> [!div class="mx-imgBorder"] 
+> [!div class=mx-imgBorder] 
 > ![Choosing the allocation method when adding a team member to a project](media/FAQ-Allocation-Methods-1.png)
 
 
 *Choosing the allocation method from the schedule board*
-> [!div class="mx-imgBorder"] 
+> [!div class=mx-imgBorder] 
 > ![Choosing the allocation method from the schedule board](media/FAQ-Allocation-Methods-2.png)
  
 

@@ -1,19 +1,19 @@
 ---
 title: "Activate Field Service mobile licenses (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 09/25/2018
 ms.reviewer: krbjoran
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: activate-fs-mobile-app-license
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shellyhaverkamp
 ms.author: FieldServiceDave
-ms.manager: "shellyhaverkamp"
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer

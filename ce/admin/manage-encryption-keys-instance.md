@@ -1,14 +1,14 @@
 ---
 title: "Manage the encryption keys for your Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
 description: "Learn how you can manage database encryption keys for your instance."
-keywords: "encrypt"
+keywords: encrypt
 ms.date: 11/26/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 8.2"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 8.2
 ms.assetid: 47bbbe8f-7839-475d-a844-632aa33fae51
 author: Mattp123
 ms.author: matp

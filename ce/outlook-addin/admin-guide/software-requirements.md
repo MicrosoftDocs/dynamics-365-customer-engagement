@@ -37,7 +37,7 @@ search.app:
   
 *This feature is available only if your organization has updated to [!INCLUDE[pn_crm_online_2015_update_1_1](../../includes/pn-crm-online-2015-update-1-1.md)], [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
   
-<a name="BMK_OC_software_prereqs"></a>   
+<a name=BMK_OC_software_prereqs></a>   
 ## Microsoft Dynamics 365 for Outlook software feature prerequisites  
  The following software must be installed and running on the computer before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)]:  
   
@@ -79,7 +79,7 @@ search.app:
   
 - [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]  
   
-<a name="BKMK_OC_additional_reqs"></a>   
+<a name=BKMK_OC_additional_reqs></a>   
 ### Additional Microsoft Dynamics 365 for Outlook software requirements  
  If needed, the following software will be installed by [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)]:  
   
@@ -115,7 +115,7 @@ search.app:
 
 The following operating systems are supported for offline mode.
 
- ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+ ![Offline Support](../media/OfflineSupport.PNG Offline Support) 
 
   
 ### See Also  

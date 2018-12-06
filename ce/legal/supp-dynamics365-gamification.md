@@ -24,7 +24,7 @@ offered subject to the Data Processing Terms of the Online Services Terms. This
 supplement is also not subject to any references or statements made on the
 Microsoft Trust Center.
 
-THIS SUPPLEMENT IS PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND
+THIS SUPPLEMENT IS PROVIDED AS-IS, WITH ALL FAULTS, AND AS AVAILABLE, AND
 ARE EXCLUDED FROM THE SLAS AND LIMITED WARRANTY described in the Online Services
 Terms and materials referenced therein. This supplement may not be covered by
 customer support.

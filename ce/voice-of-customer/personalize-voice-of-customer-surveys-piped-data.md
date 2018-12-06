@@ -2,13 +2,13 @@
 title: "Personalize Voice of the Customer for Dynamics 365 for Customer Engagement survey with piped data | MicrosoftDocs"
 description: ""
 ms.assetid: e788349d-acc4-4f07-bbf1-2fcc397261fe
-keywords: ""
+keywords: 
 ms.custom:
   - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
-ms.topic: "article"
-applies_to: "Dynamics 365 for Customer Engagement (online)"
+ms.topic: article
+applies_to: Dynamics 365 for Customer Engagement (online)
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey
 author: sbmjais
 ms.author: shjais

@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
-<a name="bkmk7"></a> 
+<a name=bkmk7></a> 
   
 ## Use your browser for features not in the app  
  The following features in the web application aren’t available in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets:  

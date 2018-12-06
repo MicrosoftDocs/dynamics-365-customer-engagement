@@ -1,12 +1,12 @@
 ---
 title: "Social Engagement scenarios for the marketing department | Microsoft Docs"
 description: "Review marketing scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: f19b9b6d-bb95-4c8d-bb3c-a4f98504e514
 author: m-hartmann
 ms.author: mhart

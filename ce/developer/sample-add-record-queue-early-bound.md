@@ -1,23 +1,23 @@
 ---
 title: "Sample: Add a record to a queue (early bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-decription: "The sample code demonstrates how to add a record to a queue, and creates source and destination queues."
-ms.custom: ""
+decription: The sample code demonstrates how to add a record to a queue, and creates source and destination queues.
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "adding records to queues (early bound), sample"
-  - "sample for adding records to queues (early bound)"
+  - adding records to queues (early bound), sample
+  - sample for adding records to queues (early bound)
 ms.assetid: 250690a7-854d-4a69-adb9-d621834344fa
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

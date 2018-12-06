@@ -1,35 +1,35 @@
 ---
 title: "Customize entity and attribute mappings (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about mapping attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Use the customization tools in the application to map attributes."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "attribute maps, requirements for"
-  - "customizing entity and attribute mappings, using entity and attribute mapping data"
-  - "mapping entities and attributes, auto-mapping attributes between entities"
-  - "creating or updating attribute map records, requirements for attribute maps"
-  - "customizing entity and attribute mappings, creating new entity records that are related"
-  - "customizing entity and attribute mappings, auto-mapping attributes between entities"
-  - "mapping entities and attributes, mapping behavior in Dynamics CRM"
-  - "customizing entity and attribute mappings, using mapping to streamline data entry when creating new records"
-  - "customizing entity and attribute mappings, setting default values for records created in context of other records"
-  - "customizing entity and attribute mappings, mapping attributes between entities that have entity relationships"
-  - "customizing entity and attribute mappings, mapping behavior in Dynamics CRM"
-  - "mapping behavior in Dynamics CRM"
-  - "entity and attribute mappings, mapping attributes between entities that have entity relationships"
-  - "auto-mapping attributes between entities"
-  - "mapping entities and attributes, mapping attributes between entities that have entity relationships"
+  - attribute maps, requirements for
+  - customizing entity and attribute mappings, using entity and attribute mapping data
+  - mapping entities and attributes, auto-mapping attributes between entities
+  - creating or updating attribute map records, requirements for attribute maps
+  - customizing entity and attribute mappings, creating new entity records that are related
+  - customizing entity and attribute mappings, auto-mapping attributes between entities
+  - mapping entities and attributes, mapping behavior in Dynamics CRM
+  - customizing entity and attribute mappings, using mapping to streamline data entry when creating new records
+  - customizing entity and attribute mappings, setting default values for records created in context of other records
+  - customizing entity and attribute mappings, mapping attributes between entities that have entity relationships
+  - customizing entity and attribute mappings, mapping behavior in Dynamics CRM
+  - mapping behavior in Dynamics CRM
+  - entity and attribute mappings, mapping attributes between entities that have entity relationships
+  - auto-mapping attributes between entities
+  - mapping entities and attributes, mapping attributes between entities that have entity relationships
 ms.assetid: de18a3d7-4d6a-4ec8-8a26-570818a4cf7a
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

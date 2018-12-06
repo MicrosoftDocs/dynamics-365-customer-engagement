@@ -33,7 +33,7 @@ To secure these features, entity permissions allow for granular rights to be gra
 2. Select **Add** to add an existing entity permission to a web role. 
 3. Select **New** to create a new Entity Permission record.
 
-    ![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
+    ![Add entity permissions to a web role](media/add-entity-permission-web-role.png Add entity permissions to a web role)  
 
 When creating a new Entity Permission record, the first step is to determine the entity that will be secured. The next step is to define scope, as discussed below, and&mdash;for any scope other than Global&mdash;the relationships that define that scope. Finally, determine the rights that are being granted to the role via this permission. Note that rights are cumulative, so if a user is in a role that grants Read, and another that grants Read and Update, the user will have Read and Update rights for any records that overlap between the two roles.
 
@@ -96,21 +96,21 @@ This role has a related Entity Permission for the Lead entity, with a Global sco
 
 Users in this role can access all leads via entity lists or forms on the portal.
 
-![Grant global permissions to a lead](media/grant-global-permission-leads.png "Grant global permissions to a lead")  
+![Grant global permissions to a lead](media/grant-global-permission-leads.png Grant global permissions to a lead)  
 
 We will now add a Child permission to the Global Lead permission. With the Parent Permission record open, go to the **Child Entity Permissions** subgrid, select **New** to open a lookup for entity permissions, select the magnifying glass, and then select **New** to add a new record.
 
-![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
+![Add entity permissions to a web role](media/add-entity-permission-web-role.png Add entity permissions to a web role)  
 
 Select the entity as Tasks and the scope as Parental. Note that you can then select the parent relationship (**Lead\_Tasks**). This permission implies that a contact that is in a web role with the parent permission will then have global permission to all tasks that are related to leads.
 
 Remember that in order for your list to respect these permissions, you must have enabled Entity Permissions on the list AND there must be actions that will actually allow users to perform the actions for which their permissions have been granted. Furthermore, permissions must also be enabled on the [entity form](entity-forms-custom-logic.md) record, and that form must be surfacing a page that has a subgrid on it for the entity that you want to enable with child permissions, in this case Tasks. Furthermore, to enable Read or Create permissions for tasks, you will need to configure those entity forms too, and edit the forms to remove the Regarding lookup field.  
 
-![Edit a web page form](media/edit-webpage-form.png "Edit a web page form")  
+![Edit a web page form](media/edit-webpage-form.png Edit a web page form)  
 
 This then grants permissions for all tasks that are related to leads. If tasks are being surfaced on an entity list, a filter is essentially added to the list so that only tasks that are related to a lead will show up in the list. In our example, they are being surfaced with a subgrid on an entity form.
 
-![Task example](media/tasks-example.png "Task example")  
+![Task example](media/tasks-example.png Task example)  
 
 ## Contact-scoped permissions for tasks
 

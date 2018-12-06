@@ -4,10 +4,10 @@ description: "Learn how to schedule and send automatic emails to players to keep
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1e93e7a0-a0f6-4817-a361-a173df8fc74b

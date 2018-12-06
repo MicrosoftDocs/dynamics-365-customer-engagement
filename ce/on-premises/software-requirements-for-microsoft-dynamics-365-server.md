@@ -21,7 +21,7 @@ ms.author: matp
 
 This topic lists the software and application requirements for this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
   
-<a name="windows_server_ops"></a>   
+<a name=windows_server_ops></a>   
 ## Windows Server operating system  
  This version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] can be installed only on [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] 64-bit-based computers. The specific versions and editions of [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] that are supported for installing and running this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] are listed in the following sections.  
   
@@ -54,11 +54,11 @@ This topic lists the software and application requirements for this version of [
 >   
 >  [!INCLUDE[pn_crm_report_ext_SRS_short](../includes/pn-crm-report-ext-srs-short.md)] cannot be installed on Server Core. This is because [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)], which is required by [!INCLUDE[pn_crm_report_ext_SRS_short](../includes/pn-crm-report-ext-srs-short.md)], cannot be installed on a Windows Server running Server Core.  
   
-<a name="Server_virtualization"></a>   
+<a name=Server_virtualization></a>   
 ## Server virtualization  
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] servers can be deployed in a virtualized environment by using [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] with [!INCLUDE[pn_Hyper-V](../includes/pn-hyper-v.md)] or virtualization solutions from vendors who participate in the Microsoft Windows Server Virtualization Validation Program (SVVP). You must understand the limitations and best practices of server virtualization before you try to virtualize your installation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].   
   
-<a name="Active_directory_modes"></a>   
+<a name=Active_directory_modes></a>   
 ## Active Directory modes  
  The computer that [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is running on must be a member of a domain that is running in one of the following [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service forest and domain functional levels:  
   
@@ -77,7 +77,7 @@ This topic lists the software and application requirements for this version of [
 > -   When you use the Add Users Wizard, only users from trusted domains in the current forest will be displayed. Users from trusted external forests aren’t supported and don’t appear in the wizard.  
 > -   Installing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] in an LDAP directory that is running in Active Directory Application Mode (ADAM) is not supported.  
   
-<a name="IIS"></a>   
+<a name=IIS></a>   
 ## Internet Information Services (IIS)  
  This version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] supports [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] version 10.  
   
@@ -86,7 +86,7 @@ This topic lists the software and application requirements for this version of [
 > [!IMPORTANT]
 >  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can’t use a website that has more than one HTTP or HTTPS binding. Although [!INCLUDE[pn_iis](../includes/pn-iis.md)] supports multiple HTTP and HTTPS bindings, there is a limitation in using additional bindings with [!INCLUDE[pn_WCF_long](../includes/pn-wcf-long.md)]. [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] is required when you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Before you install or upgrade, you must remove the additional bindings from the website used for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or select a different website.  
   
-<a name="sql_server_editions"></a>   
+<a name=sql_server_editions></a>   
 ## SQL Server editions  
  Any one of the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions is required, running, and available for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
   
@@ -101,7 +101,7 @@ This topic lists the software and application requirements for this version of [
 > -  [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
 
   
-<a name="Claims_and_IFD_requirements"></a>   
+<a name=Claims_and_IFD_requirements></a>   
 ## Accessing Microsoft Dynamics 365 for Customer Engagement from the internet - Claims-based authentication and IFD requirements  
  The following items are required or recommended for [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)]. This topic assumes you will be using [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] as the [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)]. <!-- For more information about configuring [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for claims-based authentication, see [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](configure-ifd-for-dynamics-365.md).  -->
   
@@ -142,7 +142,7 @@ This topic lists the software and application requirements for this version of [
   
 -   The **[!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)]** account of each Microsoft Dynamics 365 for Customer Engagement website must have read permission to the private key of the encryption certificate specified when configuring claims-based authentication. You can use the Certificates [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in to edit permissions for the encryption certificate found in the Personal store of the local computer account.  
   
-<a name="software_component_prerequisites"></a>   
+<a name=software_component_prerequisites></a>   
 ## Software component prerequisites  
  The following [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] components must be installed and running on the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] before you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]:  
   
@@ -172,7 +172,7 @@ This topic lists the software and application requirements for this version of [
   
 -   [!INCLUDE[pn_microsoft_ASP.NET](../includes/pn-microsoft-asp-net.md)] (Must be registered, but does not have to be running.)  
   
-<a name="verify_prerequisites"></a>   
+<a name=verify_prerequisites></a>   
 ## Verify prerequisites  
  Before you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you should understand the following:  
   

@@ -4,10 +4,10 @@ description: "Learn more about the most asked questions on various topics and fe
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 338b81d8-3dc8-4d0a-bfd0-4ac7a3fb71aa

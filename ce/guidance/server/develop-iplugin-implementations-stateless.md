@@ -21,7 +21,7 @@ manager: "michu"
 
 ## Symptoms
 
-Members of classes that implement the <xref href="Microsoft.Xrm.Sdk.IPlugin?text=IPlugin interface" /> are exposed to potential thread-safety issues which could lead to:
+Members of classes that implement the <xref href=Microsoft.Xrm.Sdk.IPlugin?text=IPlugin interface /> are exposed to potential thread-safety issues which could lead to:
 
 - Data inconsistencies
 - Slower plugin executions
@@ -39,13 +39,13 @@ Read-only, static, and constant members are inherently thread-safe and can also 
     ```csharp
     public class Valid_ClassConstantMember : IPlugin
     {
-        public const string validConstantMember = "Plugin registration not valid for {0} message.";
+        public const string validConstantMember = Plugin registration not valid for {0} message.;
 
         public void Execute(IServiceProvider serviceProvider)
         {
             var context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
 
-            if (context.MessageName.ToLower() != "create")
+            if (context.MessageName.ToLower() != create)
                 throw new InvalidPluginExecutionException(String.Format(Valid_ClassConstantMember.validConstantMember, context.MessageName));
         }
     }
@@ -74,7 +74,7 @@ Read-only, static, and constant members are inherently thread-safe and can also 
 
         private string ValidHelperMethod()
         {
-            return String.Format("{0} is the config value.", this.validConfigField);
+            return String.Format({0} is the config value., this.validConfigField);
         }
     }
     ```
@@ -96,7 +96,7 @@ Read-only, static, and constant members are inherently thread-safe and can also 
     
         private bool ValidMemberMethod(IPluginExecutionContext context)
         {
-            if (context.MessageName.ToLower() == "create")
+            if (context.MessageName.ToLower() == create)
                 return true;
             else
                 return false;
@@ -135,8 +135,8 @@ Read-only, static, and constant members are inherently thread-safe and can also 
         private void AccessViolationProperties()
         {
             //Accessing the context and service fields exposes this IPlugin implementation to thread-safety issues
-            var entity = new Entity("task");
-            entity["regardingid"] = new EntityReference(this.context.PrimaryEntityName, this.context.PrimaryEntityId);
+            var entity = new Entity(task);
+            entity[regardingid] = new EntityReference(this.context.PrimaryEntityName, this.context.PrimaryEntityId);
     
             var id = this.service.Create(entity);
         }
@@ -167,8 +167,8 @@ Read-only, static, and constant members are inherently thread-safe and can also 
         private void AccessViolationProperties()
         {
             //Accessing the Context and Service properties exposes this IPlugin implementation to thread-safety issues
-            var entity = new Entity("task");
-            entity["regardingid"] = new EntityReference(this.Context.PrimaryEntityName, this.Context.PrimaryEntityId);
+            var entity = new Entity(task);
+            entity[regardingid] = new EntityReference(this.Context.PrimaryEntityName, this.Context.PrimaryEntityId);
     
             var id = this.Service.Create(entity);
         }

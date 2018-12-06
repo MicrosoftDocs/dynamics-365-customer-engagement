@@ -1,23 +1,23 @@
 ---
 title: "Sample: Create, retrieve, update, and delete an email attachment (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create, retrieve, update, and delete email attachments using methods such as IOrganizationService.Entity, IOrganizationService.ColumnSet, IOrganizationService.Entity, IOrganizationService.Guid"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sample for creating; retrieving; updating; and deleting email attachments, activity entities"
-  - "activity entities samples, creating; retrieving; updating; and deleting email attachments"
+  - sample for creating; retrieving; updating; and deleting email attachments, activity entities
+  - activity entities samples, creating; retrieving; updating; and deleting email attachments
 ms.assetid: 918c0b7e-2850-40c5-8333-5dad6d83b850
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

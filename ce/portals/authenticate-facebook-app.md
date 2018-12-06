@@ -91,7 +91,7 @@ The Value and Website of each site setting must also be added into the site sett
 
 ## Add the Facebook page tab to your Facebook page
 
-If you do not have a Facebook Page, follow the instructions here to create one [Create a Page](https://www.facebook.com/pages/create/). If you will be using an existing page, the current Facebook user must have sufficient permission to add a Page Tab to the Page. If your Facebook Page does not already have the Page Tab functionality enabled, you must enable it by browsing to a specific URL (substituting the relevant App ID and "next" URL value). The URL below can be used if you substitute the App ID and encoded URL with your information. Further details can be found in [Using Page Tabs](https://developers.facebook.com/docs/appsonfacebook/pagetabs/) and [URL Encoding](http://ascii.cl/url-encoding.htm).  
+If you do not have a Facebook Page, follow the instructions here to create one [Create a Page](https://www.facebook.com/pages/create/). If you will be using an existing page, the current Facebook user must have sufficient permission to add a Page Tab to the Page. If your Facebook Page does not already have the Page Tab functionality enabled, you must enable it by browsing to a specific URL (substituting the relevant App ID and next URL value). The URL below can be used if you substitute the App ID and encoded URL with your information. Further details can be found in [Using Page Tabs](https://developers.facebook.com/docs/appsonfacebook/pagetabs/) and [URL Encoding](http://ascii.cl/url-encoding.htm).  
 
 `https://www.facebook.com/dialog/pagetab?app_id=0123456789&next=http%3a%2f%2ffacebook-contoso.com%2F`
 
@@ -105,7 +105,7 @@ By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)
    <system.webServer>
     <httpProtocol>
       <customHeaders>
-         <add name="P3P" value='CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL"'/>
+         <add name=P3P value='CP=ALL ADM DEV PSAi COM OUR OTRo STP IND ONL'/>
       </customHeaders>
     </httpProtocol>
    </system.webServer>

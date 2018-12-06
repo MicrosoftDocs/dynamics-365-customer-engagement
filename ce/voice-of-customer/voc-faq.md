@@ -1,13 +1,13 @@
 ---
 title: "Voice of the Customer FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Voice of the Customer"
-keywords: "voice of the customer FAQ; voice of the customer frequently asked questions"
+keywords: voice of the customer FAQ; voice of the customer frequently asked questions
 ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 592F664E-D6A5-4A90-8B7E-07BC85212A96
 author: sbmjais
 ms.author: shjais

@@ -1,12 +1,12 @@
 ---
 title: "Social Insights widgets in Dynamics 365 for Customer Engagement from Social Engagement | Microsoft Docs"
 description: "Find out which Social Insights widgets are available to show on forms in Dynamics 365 for Customer Engagement."
-keywords: "widget, visualization, social insights, social engagement"
+keywords: widget, visualization, social insights, social engagement
 ms.date: 06/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: b2a35d49-bcd1-430e-bc76-98cf6350d005
 author: m-hartmann
 ms.author: mhart

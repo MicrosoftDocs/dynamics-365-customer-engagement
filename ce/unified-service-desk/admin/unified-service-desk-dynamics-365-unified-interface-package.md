@@ -1,20 +1,20 @@
 ---
 title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "crm-online"
+  - crm-online
 ms.custom: 
-  - ""
+  - 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: FA01CA74-AD17-44A1-8AAD-C296B549F8A2
 author: kabala123
 ms.author: kabala

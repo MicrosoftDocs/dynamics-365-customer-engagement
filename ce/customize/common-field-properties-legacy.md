@@ -4,8 +4,8 @@ description: Understand the Common field properties for Main form in Dynamics 36
 Keywords: Main form; Common field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: matp
 manager: kvivek
 ms.date: 04/02/2018

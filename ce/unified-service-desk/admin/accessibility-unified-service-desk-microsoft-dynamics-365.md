@@ -5,18 +5,18 @@ ms.custom:
   - dyn365-a11y
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Unified Service Desk 3.x"
+  - Unified Service Desk 3.x
 ms.assetid: f43d9d0d-50fa-4ffa-908a-e592b40371b4
 author: kabala123
 ms.author: kabala
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 manager: shujoshi
 search.audienceType: 
   - admin

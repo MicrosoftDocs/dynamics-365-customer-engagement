@@ -53,7 +53,7 @@ The table below explains the Web Role attributes used by [!INCLUDE[pn-dynamics-c
 Now that the Web Role has been created, you will be able to configure it to meet your needs via various permissions, rules, and associations.
 
 - **Optional default web role for authenticated users**: By enabling the **Authenticated Users Role**, it will become the default web role for all users. This role is commonly used to provide a predetermined access for users that are not associated to any other roles. Keep in mind that users can have multiple web roles, but there can only be one Authenticated Users web role for authenticated users.
-- **Optional default web role for unauthenticated users**: The **Anonymous Users Role** is intended to be used with Entity Permissions. It will not respect any other rules or permissions. By enabling the "Anonymous Users Role" it will become the default web role for all users. There can only be one Anonymous Users web role for unauthenticated users.
+- **Optional default web role for unauthenticated users**: The **Anonymous Users Role** is intended to be used with Entity Permissions. It will not respect any other rules or permissions. By enabling the Anonymous Users Role it will become the default web role for all users. There can only be one Anonymous Users web role for unauthenticated users.
 
 ### See also
 

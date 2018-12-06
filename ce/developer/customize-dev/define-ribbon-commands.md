@@ -1,22 +1,22 @@
 ---
 title: "Define ribbon commands (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "A Ribbon command creates a reusable definition that can be referenced by ribbon control elements."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon, commands"
+  - ribbon, commands
 ms.assetid: 7c6c4d14-428d-4b96-9fe3-5260c3a6ae36
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

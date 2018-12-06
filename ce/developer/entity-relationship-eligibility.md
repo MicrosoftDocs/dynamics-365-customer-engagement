@@ -1,24 +1,24 @@
 ---
 title: "Entity relationship eligibility (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The article lists the messages that you can use to determine whether entities can participate in entity relationships"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "determining whether entities can participate in entity relationships, messages for"
-  - "entity relationship eligibility, determining whether entities can participate in entity relationships"
-  - "entities"
-  - "confirming that entities can participate in entity relationships, messages for"
+  - determining whether entities can participate in entity relationships, messages for
+  - entity relationship eligibility, determining whether entities can participate in entity relationships
+  - entities
+  - confirming that entities can participate in entity relationships, messages for
 ms.assetid: 960606ca-ff63-4b82-9fd6-2d2243a78043
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

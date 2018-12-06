@@ -1,28 +1,28 @@
 ---
 title: "Lead entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about lead entity that represents an individual who is interested in receiving specific information about products or services offered by the company."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "lead entity, managing leads"
-  - "lead entity, associated information"
-  - "leads"
-  - "lead entity, converting leads to qualified leads"
-  - "lead entity, introduction"
-  - "lead entity"
-  - "managing leads, lead entity"
-  - "lead entity, definition"
+  - lead entity, managing leads
+  - lead entity, associated information
+  - leads
+  - lead entity, converting leads to qualified leads
+  - lead entity, introduction
+  - lead entity
+  - managing leads, lead entity
+  - lead entity, definition
 ms.assetid: a3e17cc7-a4ff-4a10-bc7a-ae03e055b30f
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

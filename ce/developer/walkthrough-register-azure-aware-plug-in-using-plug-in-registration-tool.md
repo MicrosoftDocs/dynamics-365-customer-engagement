@@ -1,20 +1,20 @@
 ---
 title: "Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The walkthrough demonstrates how to register a service endpoint step using the Plug-in Registration Tool. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: adc9af13-8505-4701-ab74-064df1f346a0
 caps.latest.revision: 64
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

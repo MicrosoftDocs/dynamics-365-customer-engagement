@@ -3,8 +3,8 @@ title: Quick help for Customer Service Hub for Dynamics 365 for Customer Engagem
 description: Your starting point for help of Customer Service Hub for Dynamics 365 for Customer Engagement
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018

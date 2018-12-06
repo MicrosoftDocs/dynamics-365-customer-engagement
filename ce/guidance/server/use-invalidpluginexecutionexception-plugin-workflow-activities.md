@@ -45,7 +45,7 @@ Unhandled exceptions of other types should only occur when unexpected errors are
     
     private void ThrowPluginException()
     {
-        throw new InvalidPluginExecutionException("Throwing a plug-in exception in a member method body");
+        throw new InvalidPluginExecutionException(Throwing a plug-in exception in a member method body);
     }
     ```
 
@@ -60,7 +60,7 @@ Unhandled exceptions of other types should only occur when unexpected errors are
         }
         catch (CustomException ex)
         {
-            throw new InvalidPluginExecutionException("Unable to save the contact. This is likely caused by..."), ex);
+            throw new InvalidPluginExecutionException(Unable to save the contact. This is likely caused by...), ex);
         }
     
         // Invocation of a valid scenario in a member method
@@ -84,7 +84,7 @@ Unhandled exceptions of other types should only occur when unexpected errors are
     
     private void ThrowGuardedMemberException()
     {
-        throw new CustomException("Throwing a custom exception in a guarded member");
+        throw new CustomException(Throwing a custom exception in a guarded member);
     }
     ```
 
@@ -106,7 +106,7 @@ Unhandled exceptions of other types should only occur when unexpected errors are
     
     private void UnguardedMemberThrowException()
     {
-        throw new CustomException("Throwing an unguarded custom exception in a member method body");
+        throw new CustomException(Throwing an unguarded custom exception in a member method body);
     }
     ```
 
@@ -138,7 +138,7 @@ Unhandled exceptions of other types should only occur when unexpected errors are
     
     private void GuardedMemberThrowException()
     {
-        throw new CustomException("Throwing a guarded custom exception in a member method body");
+        throw new CustomException(Throwing a guarded custom exception in a member method body);
     }
     ```
 

@@ -1,19 +1,19 @@
 ---
 title: "Use Unified Service Desk Administrator app to administer and manage Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to use the Unified Service Desk Administrator app to administer Unified Service Desk client."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 6190932E-FE9C-4167-B33D-C360A4E5D8F4
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: ">=dynamics-usd-4"
+monikerRange: >=dynamics-usd-4
 ---
 
 # Preview feature: Administer and manage Unified Service Desk using the Administrator app

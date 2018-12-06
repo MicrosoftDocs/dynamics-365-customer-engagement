@@ -1,12 +1,12 @@
 ---
 title: "Sign in to Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
 description: "Learn how to sign in to the Gamification web portal to participate in Games, view leaderboards and engage with fellow players."
-keywords: "sign in, sign-in, login, log in"
+keywords: sign in, sign-in, login, log in
 ms.date: 10/19/2017
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b3513a9c-ff38-4896-a2ad-afdd08d23135
 author: m-hartmann
 ms.author: mhart

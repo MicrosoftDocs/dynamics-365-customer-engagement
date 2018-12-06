@@ -1,26 +1,26 @@
 ---
 title: "Organize your solutions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This document lists down some strategies to organize your solutions"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "solutions, multiple solutions with some shared components"
-  - "solution libraries"
-  - "compartmentalizing your solutions, multiple solutions with some shared components"
-  - "solutions, compartmentalizing"
-  - "compartmentalizing your solutions, strategies for"
-  - "compartmentalizing your solutions, solution libraries"
+  - solutions, multiple solutions with some shared components
+  - solution libraries
+  - compartmentalizing your solutions, multiple solutions with some shared components
+  - solutions, compartmentalizing
+  - compartmentalizing your solutions, strategies for
+  - compartmentalizing your solutions, solution libraries
 ms.assetid: 5ed0e4b8-8747-410a-afbe-beef147d986d
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

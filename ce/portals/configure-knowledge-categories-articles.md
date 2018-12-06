@@ -49,7 +49,7 @@ This section helps you understand how to create a new category for knowledge art
 
 4. In the **Select Category to Associate with** field, select the category you want to associate to the article, and then select **Associate**.
 
-   ![Associate a category to a knowledge article](media/kb-associate-category.png "Associate a category to a knowledge article")
+   ![Associate a category to a knowledge article](media/kb-associate-category.png Associate a category to a knowledge article)
 
 > [!NOTE]
 > You can also add related articles, related products, and keywords to a knowledge article. For more information on managing knowledge articles, see [manage knowledge articles](../customer-service/customer-service-hub-user-guide-knowledge-article.md).
@@ -60,13 +60,13 @@ This section helps you understand how to create a new category for knowledge art
 
 2. On the **Summary** tab, under **Related information**, select **Related Categories**.
 
-    ![View associated categories to a knowledge article](media/kb-related-categories.png "View associate categories to a knowledge article")
+    ![View associated categories to a knowledge article](media/kb-related-categories.png View associate categories to a knowledge article)
 
 3. Select the category you want to remove.
 
 4. From **More Commands**, select **Remove**.
 
-    ![Delete an associated category from a knowledge article](media/kb-remove-category.png "Delete an associated category from a knowledge article")
+    ![Delete an associated category from a knowledge article](media/kb-remove-category.png Delete an associated category from a knowledge article)
 
 ## Delete a knowledge category
 

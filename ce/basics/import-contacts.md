@@ -1,19 +1,19 @@
 ---
 title: "Import contacts (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 476018f9-e481-46ba-a9d1-c87cb4dd810a
 caps.latest.revision: 60
-ms.author: "anbichse"
-manager: "brycho"
+ms.author: anbichse
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 

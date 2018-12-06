@@ -35,5 +35,5 @@ More information:
 > [!NOTE]
 > You can view all the entities and their properties, attributes, and relationships by using the Entity Metadata Browser tool. More information: [Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)
 
-> [!div class="nextstepaction"]
+> [!div class=nextstepaction]
 > [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)

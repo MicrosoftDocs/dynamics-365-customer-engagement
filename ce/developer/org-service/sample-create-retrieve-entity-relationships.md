@@ -1,13 +1,13 @@
 ---
 title: "Sample: Create and retrieve entity relationships (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to verify that entities are eligible to participate in an entity relationship and then creates a 1:N and an N:N entity relationship."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2e1eafb6-18f3-40e3-820c-5e0d0f6a2bf3
 author: JimDaly
 ms.author: jdaly

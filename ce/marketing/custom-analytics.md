@@ -37,8 +37,8 @@ search.app:
 
 To create custom analytics, you can connect two different data sources, each of which provides a different type of data:
 
-- **Profile data** includes the entities and records that you see, edit, and create when working directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. These include common entities like contacts, accounts, leads, events, customer journeys, and more. You'll use the [!include[](../includes/pn-power-bi.md)] data connector called "Common Data Services for Apps" for this type of data.
-- **Interaction data** includes information about how your contacts interacted with your marketing initiatives, including email opens, email clicks, event registrations, page submissions, and more. You can see this type of information when you look at the insights built into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you can't create these records nor view them directly. In the current release, you'll use the [!include[](../includes/pn-power-bi.md)] "[!include[](../includes/pn-azure-blob-storage.md)]" connector for this type of data. In future releases you'll also be able use the dataflow connector.
+- **Profile data** includes the entities and records that you see, edit, and create when working directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. These include common entities like contacts, accounts, leads, events, customer journeys, and more. You'll use the [!include[](../includes/pn-power-bi.md)] data connector called Common Data Services for Apps for this type of data.
+- **Interaction data** includes information about how your contacts interacted with your marketing initiatives, including email opens, email clicks, event registrations, page submissions, and more. You can see this type of information when you look at the insights built into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you can't create these records nor view them directly. In the current release, you'll use the [!include[](../includes/pn-power-bi.md)] [!include[](../includes/pn-azure-blob-storage.md)] connector for this type of data. In future releases you'll also be able use the dataflow connector.
 
 You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database from [!include[](../includes/pn-power-bi.md)] to fetch your profile data, but to access interaction data you'll need to set up [!include[](../includes/pn-azure-blob-storage.md)], configure [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to save interaction data there, and then connect [!include[](../includes/pn-power-bi.md)] to your blob storage.
 
@@ -57,11 +57,11 @@ You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../include
 
 1. In the Storage Explorer, navigate down to the blob storage container you just created.
 
-    ![Azure Storage Explorer](media/custom-analytics-storage-explorer.png "Azure Storage Explorer")
+    ![Azure Storage Explorer](media/custom-analytics-storage-explorer.png Azure Storage Explorer)
 
 1. Right-click on your blob storage container and then select **Get shared access signature** from the context menu. The **Shared Access Signature** dialog opens.
 
-    ![The Shared Access Signature dialog](media/custom-analytics-sas.png "The Shared Access Signature dialog")
+    ![The Shared Access Signature dialog](media/custom-analytics-sas.png The Shared Access Signature dialog)
 
     Make the following settings:
 
@@ -70,13 +70,13 @@ You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../include
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
 
-    ![Copy the URL](media/custom-analytics-sas-created.png "Copy the URL")
+    ![Copy the URL](media/custom-analytics-sas-created.png Copy the URL)
 
 1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **CDS-A connector settings**. The **Marketing Settings** page opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
 
 1. The **CDS-A Connector Configuration** page opens.
 
-    ![CDS-A connector configuration](media/custom-analytics-cds-a-config.png "CDS-A connector configuration")
+    ![CDS-A connector configuration](media/custom-analytics-cds-a-config.png CDS-A connector configuration)
 
     Make the following settings:
 
@@ -103,7 +103,7 @@ Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and conne
 
 1. The first time you open the [!include[](../includes/pn-power-bi.md)] template you'll be asked to specify connection strings and credentials to connect to both [!include[](../includes/pn-azure-blob-storage.md)] and to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-    ![The Power BI email marketing analyzer](media/custom-analytics-pbi-connect.png "The Power BI email marketing analyzer")
+    ![The Power BI email marketing analyzer](media/custom-analytics-pbi-connect.png The Power BI email marketing analyzer)
 
     - To connect to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, use the same user credentials that you use to sign into Marketing.
     - You can find connection details for your [!include[](../includes/pn-azure-blob-storage.md)] by using the Storage Explorer app.
@@ -111,4 +111,4 @@ Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and conne
 
 The email marketing analyzer provides many views, charts, and analytics that marketers should find useful. Use the standard features of the [!include[](../includes/pn-power-bi-desktop.md)] to explore the data sources and analytical displays, and to customize them as required.
 
-![The Power BI email marketing analyzer](media/custom-analytics-pbi-template.png "The Power BI email marketing analyzer")
+![The Power BI email marketing analyzer](media/custom-analytics-pbi-template.png The Power BI email marketing analyzer)

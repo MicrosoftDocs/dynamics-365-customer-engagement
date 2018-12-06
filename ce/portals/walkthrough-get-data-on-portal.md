@@ -30,7 +30,7 @@ An entity form record allows an administrator to render a [!INCLUDE[pn-dynamics-
 
 This functionality can be taken advantage of for many reasons and use cases, but a common example of how this can be leveraged would be to build a new form under the Lead entity within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] **Customize the System** interface, then create an entity form record that can be surfaced on the portal to capture lead data through a contact page or some type of information request page. In fact, this specific example is used for the default **Contact Us** page within the portals available in the December 2016 Update for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online) release. Other examples include using an entity form for profile management or a single page survey.
 
-![Contact Us Web Form in Dynamics 365 for Customer Engagement on the left, and its rendering in the portal on the right side.](media/contact-us-web-form.png "A Contact Us web form in Dynamics 365 for Customer Engagement next to its rendering in the portal")
+![Contact Us Web Form in Dynamics 365 for Customer Engagement on the left, and its rendering in the portal on the right side.](media/contact-us-web-form.png A Contact Us web form in Dynamics 365 for Customer Engagement next to its rendering in the portal)
 
 Entity forms contain relationships to webpages and additional properties to control the initialization of the form within the portal. The relationship to a webpage allows dynamic retrieval of the form definition for a given page node within the portal website.
 
@@ -53,7 +53,7 @@ For this demonstration, let’s consider a scenario in which Contoso, Inc. would
 
    5. Save it and publish.
 
-      ![Creating a custom form in Dynamics 365 for Customer Engagement to be rendered on a portal.](media/create-custom-suggestion-form.png "Creating a custom form in Dynamics 365 for Customer Engagement to be rendered on a portal.")
+      ![Creating a custom form in Dynamics 365 for Customer Engagement to be rendered on a portal.](media/create-custom-suggestion-form.png Creating a custom form in Dynamics 365 for Customer Engagement to be rendered on a portal.)
 
 4. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** > **Entity Forms** and create a new entity form record. Name it **Suggestion**, set its **Entity Name** field to **Suggestion (new_suggestion)**, set its **Form Name** to **Suggestion Form**, set its **Tab Name** to **Suggestion**, set its **Form Type** as **Insert**, and modify any of the other options as needed.
 
@@ -65,7 +65,7 @@ For this demonstration, let’s consider a scenario in which Contoso, Inc. would
 
 When a user visits the Contoso portal, navigates to this form, and enters the relevant data and submits it, a new record will automatically be generated in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] with the submitted information.
 
-![Custom suggestion form rendered on a portal.](media/custom-suggestion-form-rendered.png "Custom suggestion form rendered on a portal")
+![Custom suggestion form rendered on a portal.](media/custom-suggestion-form-rendered.png Custom suggestion form rendered on a portal)
 
 
 ### Entity form metadata
@@ -75,7 +75,7 @@ These records allow for additional configuration and manipulation of specific el
 
 To add metadata records to an entity form, you can go to the **Entity Form Metadata Associated View** from the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] navigation menu, or you can create these records directly from the entity form itself by using the Entity Form Metadata subgrid toward the bottom of the record’s form.
 
-![Entity Form Metadata](media/entity-form-metadata.png "Entity Form Metadata")
+![Entity Form Metadata](media/entity-form-metadata.png Entity Form Metadata)
 
 Entity form metadata records can be used for a variety of scenarios, including controlling the style of a field, prepopulating a field with a specific value, setting values on the form upon save, validating user-entered values, and more.
 
@@ -97,7 +97,7 @@ Building on the previous example of the administrator of Contoso, Inc. creating 
 
    3. Set **Web Page for Create** to **Suggestions**, and add a create button or empty list text as needed.
 
-      ![Create an entity list](media/create-entity-list.png "Create an entity list")
+      ![Create an entity list](media/create-entity-list.png Create an entity list)
 
 3. In the portal, create a new child page named **Suggestions List**. Set **Page Template** to **Full Page**, set **Entity List** to **Suggestions List**, and add an introduction to the exposed view.
 
@@ -134,7 +134,7 @@ The best way to fully grasp how a web form is used within a portal is to provide
 
 5. Switch to the **Insert** tab of the **Information** form, select **Section**, and choose **Two Columns**. Move the default Name and Owner fields to this section and delete the old one.  Open the properties of the Name field and clear the **Visible by default** option on the **Display** tab.
 
-    ![Create a survey form to facilitate the survey questions and responses.](media/create-custom-survey-form.png "Create a survey form to facilitate the survey questions and responses.")
+    ![Create a survey form to facilitate the survey questions and responses.](media/create-custom-survey-form.png Create a survey form to facilitate the survey questions and responses.)
 
 6. Save the form, then select **Save As** in the ribbon to create a copy of the form named **Survey Step 2**. Select **Save As** again to create another copy named **Survey Step 1**.
 7. Open the **Survey Step 1** form, switch to the **Insert** tab, and then select **Section** > **Two Columns**.  
@@ -147,7 +147,7 @@ The best way to fully grasp how a web form is used within a portal is to provide
 
 11. Open the properties of each field. On the **Formatting** tab, set the **Control Formatting** to **Check box**. Save and close the form.
 
-    ![Step 1 of the survey form with two questions for a user to answer.](media/create-survey-step-1-form.png "Step 1 of the survey form with two questions for a user to answer.")
+    ![Step 1 of the survey form with two questions for a user to answer.](media/create-survey-step-1-form.png Step 1 of the survey form with two questions for a user to answer.)
 
 12. Open the **Survey Step 2** form, switch to the **Insert** tab, and select **Section** > **One Column**.  
 
@@ -165,7 +165,7 @@ The best way to fully grasp how a web form is used within a portal is to provide
 
     Finally, drag the **Regarding Contact** field to the first section of the **General** tab to track which user filled out the survey. Save and close the form, and then select **Publish All Customizations**.
 
-    ![The main Information form with all survey fields added to it.](media/create-survey-main-form.png "The main Information form with all survey fields added to it.")
+    ![The main Information form with all survey fields added to it.](media/create-survey-main-form.png The main Information form with all survey fields added to it.)
 
 17. Go to **Portals** > **Web Forms** and create a new web form named **Contoso Ltd. Survey**.  Set the **Authentication Required** field to **Yes** and the **Multiple Records Per User Permitted** field to **No**. Save the form, but keep it open.
 
@@ -178,7 +178,7 @@ The best way to fully grasp how a web form is used within a portal is to provide
     6. Set the **Target Entity Portal User Lookup Attribute** to **Regarding Contact (new_regardingcontact)**.
     7. Save the form, but keep it open.
 
-        ![The first step of the survey form created.](media/survey-step-1-form.png "The first step of the survey form created.")
+        ![The first step of the survey form created.](media/survey-step-1-form.png The first step of the survey form created.)
 
 19. On the “Survey Step 1” Web Form Step record:
     1. Open the **Next Step** lookup field, and select **New** to create a new Web Form Step.
@@ -196,15 +196,15 @@ The best way to fully grasp how a web form is used within a portal is to provide
     2. Select **Add New Web Form Metadata** and set the **Attribute Logical Name** on this new record to **Contoso Ltd. Rating (new_contosoltdrating)** and the **Style** to **Option Set as Horizontal Radio Button List**.
     3. Save and close all the open forms.
 
-        ![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")
+        ![The second step of the survey form created.](media/survey-step-2-form.png The second step of the survey form created.)
 
 21. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** > **Web Pages** and create a new Web Page named **Contoso Ltd. Survey**.  Set the **Website** to **Contoso Ltd.”**, the **Parent Page** to **Home**, the **Partial URL** to **contoso-ltd-survey**, the **PageTemplate** to **Full Page**, the **Publishing State** to **Published**, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
 
 Granted, these steps are very complex and require several [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records to work in tandem with one another to achieve the result. However, after the process is complete, users can navigate to the page that you’ve created on the portal and fill out the survey as intended.
 
-![First step in the survey form rendered on a portal..](media/survey-step-1-form-rendered.png "First step in the survey form rendered on a portal.")
+![First step in the survey form rendered on a portal..](media/survey-step-1-form-rendered.png First step in the survey form rendered on a portal.)
 
-![Second step in the survey form rendered on a portal.](media/survey-step-2-form-rendered.png "Second step in the survey form rendered on a portal.")
+![Second step in the survey form rendered on a portal.](media/survey-step-2-form-rendered.png Second step in the survey form rendered on a portal.)
 
 Each completed survey that is submitted will become a record within the **Portals** > **Survey** entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and this record will contain the contact who completed the web form along with all their responses for tabulation.
 

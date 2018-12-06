@@ -45,30 +45,30 @@ There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-
 1.	When you sign in on the Dynamics 365 for Customer Engagement mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
 2.	Select **Field Resource Hub**.
 
-![Choose an app](media/ChooseAnApp_.png "Choose an app")
+![Choose an app](media/ChooseAnApp_.png Choose an app)
 
 **The navigation bar**
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png "More Button")
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png More Button)
 
-![Nav Bar](media/NavBar_2.png "Nav Bar")
+![Nav Bar](media/NavBar_2.png Nav Bar)
 
 **Favorites and recently used records**
 
 The Favorites and Recently Used sections provide quick access to your records, views, and dashboards. 
 
-- To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.
+- To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png Menu button) button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png Fav Button) button.
 
 - To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to Favorites.
 
-  ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
+  ![Favorites and Recent items](media/Favs_3.png Favorites and Recent items)
   
 ## Work orders  
  Work orders have information on what work needs to be done at a customer site. They're used to coordinate and schedule resources and activities, and can be used for installations, repairs, or preventative maintenance. 
  
  To find and open a work order:  
   
-1.  Tap the menu button ![Menu button](media/MenuButton.png "Menu button"), and then tap **Work Orders**.  
+1.  Tap the menu button ![Menu button](media/MenuButton.png Menu button), and then tap **Work Orders**.  
   
 2.  From the list of work orders, tap a work order number to open it.  
   
@@ -77,11 +77,11 @@ The Favorites and Recently Used sections provide quick access to your records, v
 ## Resource Bookings  
 Resource bookings provides an overview of resource schedule and bookings for a day, week, or month view. Bookings can be created for a specific work order or without a work order.
 
-- To see your bookings in a calendar view, tap the menu button ![Menu button](media/MenuButton.png "Menu button"), and then tap **Resource Bookings**. 
+- To see your bookings in a calendar view, tap the menu button ![Menu button](media/MenuButton.png Menu button), and then tap **Resource Bookings**. 
 
 - To create a new booking, tap **New** on the command bar and then fill in the required information.
 
-![Resource Booking](media/booking_4.png "Resource Booking")
+![Resource Booking](media/booking_4.png Resource Booking)
   
 ## Customer assets  
  Customer assets provide information on which product a customer is using. This is where a list of serviceable items that are related to a service location are maintained. 
@@ -90,7 +90,7 @@ Resource bookings provides an overview of resource schedule and bookings for a d
  
  To find and open a customer asset:  
   
-1.  Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Customer Assets**.  
+1.  Tap the menu ![Menu button](media/MenuButton.png Menu button) button, and then tap **Customer Assets**.  
   
 2.  From the list of customer assets, tap an asset name to open it.  
 
@@ -99,7 +99,7 @@ Resource bookings provides an overview of resource schedule and bookings for a d
   
  To find a product:  
   
-1.  Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Products**.  
+1.  Tap the menu ![Menu button](media/MenuButton.png Menu button) button, and then tap **Products**.  
   
 2.  From the list of products, tap the product name to open it.  
   
@@ -108,7 +108,7 @@ Resource bookings provides an overview of resource schedule and bookings for a d
   
  To submit a time off request:  
   
-1.  Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Time Off Requests.**  
+1.  Tap the menu ![Menu button](media/MenuButton.png Menu button) button, and then tap **Time Off Requests.**  
    
 2.  Tap **New** on the command bar.  
   

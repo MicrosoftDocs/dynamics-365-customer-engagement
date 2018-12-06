@@ -36,7 +36,7 @@ To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldser
   
 Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] beyond what is shipped out of the box from the app store, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin will need to install the Woodford mobile solution for your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] account.  
   
-<a name="bkmk_step1 "></a>   
+<a name=bkmk_step1 ></a>   
 ## Step 1: Download and install the Resco Mobile Woodford solution  
  You need administrator permissions to install the Woodford mobile solution. You also need to use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] or [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)].  
   
@@ -46,51 +46,51 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
   
 3. From the main menu, go to **Settings** > **Solutions**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Solutions menu](../field-service/media/fsm-install-solutions-subarea.PNG "Solutions menu")  
+    > [!div class=mx-imgBorder]
+    > ![Solutions menu](../field-service/media/fsm-install-solutions-subarea.PNG Solutions menu)  
   
 4. On the **All Solutions** page, select **Import**.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Import solution menu](../field-service/media/fsm-install-import-button.PNG "Import solution menu")  
+    > [!div class=mx-imgBorder]
+    > ![Import solution menu](../field-service/media/fsm-install-import-button.PNG Import solution menu)  
   
 5. In the **Import Solution** dialog box, select **Browse**, and then choose the Woodford file you downloaded in Step 1. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Choose the Woodford mobile solution to import](../field-service/media/do-not-use1.PNG "Choose the Woodford mobile solution to import")  
+    > [!div class=mx-imgBorder]
+    > ![Choose the Woodford mobile solution to import](../field-service/media/do-not-use1.PNG Choose the Woodford mobile solution to import)  
   
 6. Click **Next** to start the import. When the import is complete, select **Close**. You should see **Woodford** listed on the **All Solutions** page.  
 
-   > [!div class="mx-imgBorder"]
-   > ![Resco Mobile Dynamics 365 for Customer Engagement solution](../field-service/media/fsm-install-woodford-solution.png "Resco Mobile Dynamics 365 for Customer Engagement solution")  
+   > [!div class=mx-imgBorder]
+   > ![Resco Mobile Dynamics 365 for Customer Engagement solution](../field-service/media/fsm-install-woodford-solution.png Resco Mobile Dynamics 365 for Customer Engagement solution)  
   
 7. To publish the Woodford solution, select **Publish All Customizations**, and then refresh the page.  
-   > [!div class="mx-imgBorder"]
-   > ![Publish customizations](../field-service/media/fsm-install-publish-customizations.PNG "Publish customizations")  
+   > [!div class=mx-imgBorder]
+   > ![Publish customizations](../field-service/media/fsm-install-publish-customizations.PNG Publish customizations)  
   
 8. You should now see the **Woodford** solution listed on the **Settings** menu. To verify this, go to **Settings**, and then select **Woodford**.  
   
    > [!IMPORTANT]
    >  If you don’t see **Woodford** under the **Settings** menu, refresh the page.  
   
-   > [!div class="mx-imgBorder"]
-   > ![Installed Woodford solution](../field-service/media/fsm-install-wodford-subarea.PNG "Installed Woodford solution")  
+   > [!div class=mx-imgBorder]
+   > ![Installed Woodford solution](../field-service/media/fsm-install-wodford-subarea.PNG Installed Woodford solution)  
   
 9. In the **Increase Quota** dialog box, set the quota to 100 MB, and then select **OK**. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Increase quota](../field-service/media/field-service-increase-quota.PNG "Increase quota")  
+   > [!div class=mx-imgBorder]
+   > ![Increase quota](../field-service/media/field-service-increase-quota.PNG Increase quota)  
   
 10. In the **Register User** dialog box, enter your user information, and then select **Register**.  
   
 11. In the **Update available** dialog box, when you're prompted about an available update, select **Later**.  
   
-    > [!div class="mx-imgBorder"]
-    > ![Update available option](../field-service/media/do-not-use5.PNG "Update available option")  
+    > [!div class=mx-imgBorder]
+    > ![Update available option](../field-service/media/do-not-use5.PNG Update available option)  
   
      You have now installed the solution.  
   
-<a name="bkmk_step2"></a>   
+<a name=bkmk_step2></a>   
 ## Step 2: Import the field service mobile project template into the Woodford solution  
  After the Woodford solution is installed, you’ll need to download a template that will help you configure the mobile app. The template is required if you are using the Woodford solution.  
   
@@ -110,8 +110,8 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
   
 3. Select **Import**, and then import the mobile project template file that you saved in Step 1.  
   
-   > [!div class="mx-imgBorder"]
-   > ![Import project file](../field-service/media/field-service-import-project-file.PNG "Import project file")  
+   > [!div class=mx-imgBorder]
+   > ![Import project file](../field-service/media/field-service-import-project-file.PNG Import project file)  
   
 4. In the **Add Mobile Project** dialog box do this:  
   
@@ -126,8 +126,8 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
   
    4.  For **Roles**, select the roles you want this mobile template to apply to, and then select **OK**. A user who signs in and has a role that matches the role you select here, will inherit this configuration on their mobile app.  
   
-   > [!div class="mx-imgBorder"]
-   > ![Project template details](../field-service/media/field-service-add-project-template-details.PNG "Project template details")  
+   > [!div class=mx-imgBorder]
+   > ![Project template details](../field-service/media/field-service-add-project-template-details.PNG Project template details)  
   
 5. To publish the template file, on the **Mobile Project** tab, select **Edit**.  
   
@@ -136,8 +136,8 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
    >   
    >  Make sure to match the first two numbers of the mobile app that you have installed to the published version in the project. If the number of the published version of the project is greater than the app version, you see an error about unsupported metadata  when you try to sync. The version only needs to match the first decimal.  
   
-   > [!div class="mx-imgBorder"]
-   > ![Edit project template](../field-service/media/field-service-edit-project-template.PNG "Edit project template")  
+   > [!div class=mx-imgBorder]
+   > ![Edit project template](../field-service/media/field-service-edit-project-template.PNG Edit project template)  
   
 6. On the next screen, select **Publish All**.  
   

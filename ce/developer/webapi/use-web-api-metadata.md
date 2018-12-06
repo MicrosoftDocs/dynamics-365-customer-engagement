@@ -1,20 +1,20 @@
 ---
 title: "Use the Web API with metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The section provides guidance about how to use the Web API with the entity types included in Web API Metadata EntityType Reference."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a0edc029-c6db-48ac-9538-b0270fe94440
 caps.latest.revision: 10
-author: "brandonsimons" # GitHub ID
-ms.author: "jdaly"
-manager: "amyla"
+author: brandonsimons # GitHub ID
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

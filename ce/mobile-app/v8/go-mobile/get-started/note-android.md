@@ -30,7 +30,7 @@ Navigation on [!INCLUDE[tn_android](../../../../includes/tn-android.md)] tablets
   
  When you scroll on an [!INCLUDE[tn_android](../../../../includes/tn-android.md)] tablet by swiping left or right, the app scrolls a whole page at a time instead of a partial page. You can also use the arrow buttons at the bottom of the screen to scroll left or right.  
   
- ![Dynamics 365 for Customer Engagement apps for Android scroll button](../../../media/v6-mobile-android-scrollbutton.png "Dynamics 365 for Customer Engagement apps for Android scroll button")  
+ ![Dynamics 365 for Customer Engagement apps for Android scroll button](../../../media/v6-mobile-android-scrollbutton.png Dynamics 365 for Customer Engagement apps for Android scroll button)  
   
  Depending on where you are in the app, the [!INCLUDE[tn_android](../../../../includes/tn-android.md)]**Back** button takes you to the previous form, cancels dialog boxes or error messages, closes the keyboard, or performs other actions depending on the context.  
   

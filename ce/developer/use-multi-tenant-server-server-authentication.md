@@ -1,19 +1,19 @@
 ---
 title: "Use Multi-Tenant Server-to-server authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn how to use multi-tenant Server-to-server authentication using an Azure AD tenant"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a77637f4-420a-4686-9084-d0288d9154af
 caps.latest.revision: 12
-author: "paulliew"
-ms.author: "jdaly"
+author: paulliew
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
