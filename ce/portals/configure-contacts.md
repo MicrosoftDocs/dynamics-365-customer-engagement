@@ -32,7 +32,7 @@ Complete the change password workflow, and the necessary fields will be automati
 
 ## Change password for a contact in Dynamics 365 Portal app
 
-1.	Select **Task Flow** from the toolbar at the top.
+1.	Select **Task Flow** on the toolbar at the top.
 
     > [!div class="mx-imgBorder"]
     > ![Task flow icon](media/task-flow.png "Task flow icon")
@@ -49,7 +49,7 @@ Complete the change password workflow, and the necessary fields will be automati
     > [!div class="mx-imgBorder"]
     > ![Enter new password for the contact](media/change-password-new-password.png "Enter new password for the contact")
 
-    If you do not enter a password and select **Next**, you are prompted to select if you want to remove password for the selected contact.
+    If you do not enter a password and select **Next**, you'll be asked whether you want to remove password for the selected contact.
 
     > [!div class="mx-imgBorder"]
     > ![Remove password for the contact](media/change-password-remove-password.png "Remove password for the contact")
