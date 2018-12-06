@@ -2,7 +2,7 @@
 title: "What's new in Channel Integration Framework (CIF)| Microsoft Docs"
 description: "Read about the new features provided in the latest release of Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 12/05/2018
+ms.date: 12/06/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
