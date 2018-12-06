@@ -73,6 +73,9 @@ To run the uninstall wizard:
 ## Remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]
 The uninstall wizard removes the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, but it leaves several solutions on your instance. You should clean these up to help keep your instance lean and running smoothly.
 
+> [!NOTE]
+> The following procedure lists the uninstall order for solutions that are included in the latest version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you are uninstalling an earlier version, then just skip over any solution listed here that you don't see on your installation.
+
 To remove the services:
 
 1. Use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.  
@@ -82,23 +85,33 @@ To remove the services:
 
 1. Find each of the following solutions and remove them, one at a time, in the order listed here. To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
 
-    - MicrosoftDynamics_MktEmailTemplates
+    - MicrosoftDynamics_MktEmailTemplates (if present)
+    - MicrosoftDynamics_MktPortalsLink
+    - MicrosoftDynamics_EvtMgmtPortalsLink
+    - MicrosoftDynamics_EvtMgmtVocLink
+    - MicrosoftDynamics_MktVocLink
+    - MicrosoftDynamics_MktVocIntegration
+    - MicrosoftDynamics_GwennolOptimalEmailSendingTime
     - MicrosoftDynamics_MktIntegration
-    - MicrosoftDynamics_MktPageTemplates
+    - MicrosoftDynamics_SocialEngagement
+    - MicrosoftDynamics_LinkedInMatchedAudiences
     - MicrosoftDynamics_MktLeadGenLink
     - MicrosoftDynamics_MktConsentManagement
     - MicrosoftDynamics_MktQuotaInfo
-    - MicrosoftDynamics_MktLeadManagement
-    - MicrosoftDynamics_MktPortalsLink
-    - MicrosoftDynamics_MktVocLink
+    - MicrosoftDynamics_MktPageTemplates (if present)
     - MicrosoftDynamics_MktEvtMgmtLink
+    - MicrosoftDynamics_MktLeadManagement
     - MicrosoftDynamics_Marketing
-    - MicrosoftDynamics_MarketingAnchorSolution
-    - MicrosoftDynamics_EvtMgmtVocLink
-    - MicrosoftDynamics_EvtMgmtPortalsLink
     - MicrosoftDynamics_EventManagement
-    - MicrosoftDynamics_EventManagementAnchorSolution
-    - LinkedInLeadGenIntegration
+    - MicrosoftDynamics_ReusableBlocks
+    - MicrosoftDynamics_DigitalAssets
+    - MicrosoftDynamics_Calendar
+    - MicrosoftDynamics_MktVocEmailAnchorSolution
+    - SMBMarketingDemoData (if present)
+
+1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
+
+1. If you're no longer using the [!include[](../includes/cc-linkedin-solution.md)], then also remove the LinkedInLeadGenIntegration solution.
 
 1. If you're no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, you can also delete their related solutions.
 
