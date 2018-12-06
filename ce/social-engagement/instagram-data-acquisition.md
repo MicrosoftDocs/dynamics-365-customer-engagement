@@ -22,12 +22,12 @@ search.app:
 
 # [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] account search and [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
 
-On December 11, 2018, two changes will be introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and are removing the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search functionality. 
+On December 10, 2018, two changes will be introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and are removing the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search functionality. 
 
 ## [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
-Keyword searches will be retired by [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] on December 11, 2018. Due to this change, we will also be removing the keyword search functionality in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)]. 
+Keyword searches will be retired by [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] on December 10, 2018. Due to this change, we will also be removing the keyword search functionality in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)]. 
 
-## How will [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search rules work after December 11, 2018?
+## How will [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search rules work after December 10, 2018?
 
 Since the functionality of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword searches will be removed on December 11th, no new keyword search queries for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] can be set up. 
 
