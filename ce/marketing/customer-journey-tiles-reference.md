@@ -105,7 +105,7 @@ Action tiles launch workflows or create new action records within [!INCLUDE[pn-m
 
 An *activity* is a record of a planned or completed real-world activity, such as an appointment, task, or phone call, that relates to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Most forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] include an activity wall that shows all the activities that various users planned or completed in relation to that record, such as phone conversations with a specific contact, or meetings related to planning a particular event. Records for planned activities can function as a to-do list for the users they are assigned to, and records for completed activities can contain details about what happened or what the outcome was.
 
-Activity tiles are stand-alone, so they can neither host nor be nested under other tiles.
+Activity tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 When a contact enters an activity tile, the tile generates a new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] activity related to that contact (or the company the contact works for), and then the contact proceeds immediately to the next step in their customer journey.
 
@@ -130,7 +130,7 @@ Use a launch-workflow tile to invoke a custom workflow at any point in the custo
 > - **Activated as a process**: Only activated workflows can be used, and each workflow must be activated as a process (not as a process template).
 > - **"Scope" and "Start when" fields are ignored**: These settings, if made for the workflow, are ignored when launched by a customer journey.
 
-Launch-workflow tiles are stand-alone, so they can neither host nor be nested under other tiles.
+Launch-workflow tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 Launch-workflow tiles provide the following settings in the **Properties** pane while selected:
 
@@ -196,14 +196,14 @@ A segment is a collection of contacts grouped according to some common attribute
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile is always either hosts or is nested below another segment tile, so at minimum you'll have a host segment with a single nested segment. The host tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+Each segment tile always either contains or is nested below another segment tile, so at minimum you'll have a container segment with a single nested segment. The container tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 ![A segment tile with two nested segments](media/cj-segment-stack.png "A segment tile with two nested segments")
 
-The previous image shows a segment stack built with two nested segments. The population of the resulting target segment, which is what will be processed by the customer journey, depends on the logic established by the hosting segment tile:
+The previous image shows a segment stack built with two nested segments. The population of the resulting target segment, which is what will be processed by the customer journey, depends on the logic established by the container segment tile:
 
-- When the hosting segment is set to use *union* logic, any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
-- When the hosting segment is set to use *intersection* logic, then only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
+- When the container segment is set to use *union* logic, any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
+- When the container segment is set to use *intersection* logic, then only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
 
 ### Record updated
 
@@ -211,7 +211,7 @@ Use the record-updated tile to monitor all records belonging to a specific entit
 
 For example, you could use this tile to monitor lead records for a change in the email address field. Then, each time a user changes the email field of a lead record, the record-updated tile will find the contact associated with that lead and add the contact to the journey.
 
-Record-updated tiles are stand-alone, so they can neither host nor be nested under other tiles.
+Record-updated tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 Record-updated tiles provide the following settings in the **Properties** pane while selected:
 
@@ -230,7 +230,7 @@ Flow-control tiles create a pause or a branch in your pipeline, where contacts w
 
 The scheduler tile holds contacts for some amount of time before sending them on to the next tile in their journey. You could use this to insert a delay of, say, a week between sending an initial marketing email message and then sending a reminder. You can set the schedule using a relative time (such as: wait 7 days) or an absolute time (such as: wait until May 21, 2018).
 
-Scheduler tiles are stand-alone, so they can neither host nor be nested under other tiles.
+Scheduler tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 Scheduler tiles provide the following settings in the **Properties** pane while selected:
 
@@ -249,7 +249,7 @@ A typical use of this is to set up an email tile followed by a trigger tile that
 
 A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific landing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, landing page, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a nested tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
 
-Trigger tiles are stand-alone, so they can neither host nor be nested under other tiles.
+Trigger tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 When you add a trigger to your pipeline, it immediately creates a fork, with the true path marked with a check and leaving the right edge of the tile, and the false path marked with an X and leaving the bottom edge of the tile.
 
@@ -271,7 +271,7 @@ Splitter tiles add a fork to the customer journey pipeline, sending a random sel
 
 You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and establishes the basis for dividing the contacts (by percentage or absolute value), while each splitter-branch tile establishes the specific portion or number of contacts travelling down the path it controls. The bottom splitter-branch tile always implements a "remaining" rule, which applies to all contacts that don't fulfil any of the other available rules.
 
-Splitter and splitter-branch tiles are stand-alone, so they can neither host nor be nested under other tiles.
+Splitter and splitter-branch tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 When you add a splitter to your pipeline, it immediately creates a fork and adds a new "remaining" splitter-branch tile at the bottom path.
 
