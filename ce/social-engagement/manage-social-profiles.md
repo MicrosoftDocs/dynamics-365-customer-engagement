@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 28/11/2018
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -41,7 +41,7 @@ Data acquisition and acquisition of private messages from your social profiles r
 
 Currently, you can add the following social profiles: 
 
-- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] Acquisition**: This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] Acquisition**: This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
 
 - **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
 
