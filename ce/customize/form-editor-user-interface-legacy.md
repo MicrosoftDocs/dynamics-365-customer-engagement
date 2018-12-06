@@ -1,7 +1,8 @@
 ---
-title: Overview of the form editor user interface for PowerApps | MicrosoftDocs
-description: Know the form editor user interface to edit forms in PowerApps
+title: Overview of the form editor user interface | MicrosoftDocs
+description: Know the form editor user interface to edit forms
 keywords: Forms; Main form;  Unified interface apps; Dynamics 365 for customer engagement
+ms.date: 12/04/2018
 author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"

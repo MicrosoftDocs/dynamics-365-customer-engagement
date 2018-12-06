@@ -21,6 +21,8 @@ search.app:
 
 # Set up custom fields as pricing dimensions 
 
+Before you begin, this topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md) and [Add custom fields to price setup and transactional entities](field-references.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+
 This topic provides information about setting up custom pricing dimensions. In the Project Service web interface, on the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, Project Service installation creates 2 rows in the grid on this tab:
 
 - **msdyn_resourcecategory** (Role)

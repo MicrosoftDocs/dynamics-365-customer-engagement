@@ -1,8 +1,8 @@
 ---
-title: "Enable an entity for feedback with PowerApps | MicrosoftDocs"
+title: "Enable an entity for feedback | MicrosoftDocs"
 description: "Learn how to enable feedback for an entity"
 ms.custom: ""
-ms.date: 09/30/2018
+ms.date: 11/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

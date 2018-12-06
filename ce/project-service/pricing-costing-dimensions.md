@@ -1,6 +1,6 @@
 ---
 
-title: Pricing and costing dimensions 
+title: Pricing and costing dimensions home page
 description: This topic provides an overview of pricing dimensions.
 author: rumant
 manager: eichimur
@@ -20,7 +20,7 @@ search.app:
     - D365PS
 ---
 
-# Pricing and costing dimensions 
+# Pricing and costing dimensions home page
 
 The dimensions that are used in human resources to set up pricing and costs fall into two categories:
 
@@ -42,7 +42,7 @@ This will allow you to set up the price and cost for each role and organizationa
 > [!IMPORTANT]
 > If you have been the using out-of-the box fields of role and organizational unit as pricing dimensions prior to version 3 of PSA, there will not be any observable change. You can continue to use Project Service as usual. 
 
-If you see the need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics:
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics, however note that you must complete the procedures in the order listed below:
 
 - [Create custom fields and entities](create-custom-fields-entities.md)
 - [Add custom fields to price setup and transactional entities](field-references.md)
@@ -52,7 +52,7 @@ If you see the need to price or cost for your resources using additional attribu
 ## Pricing human resource time
 How an organization prices human resource time is often an important strategic consideration that directly affects the organization's profitability. Work with the finance teams and practice heads when your organization is ready to identify how it wants to set up bill and cost rates for human resource time.
 
-Other considerations for pricing include whether to re-use fields or entities that are not currently pricing dimensions but apply as a pricing dimension for your organization. Fields like **Transaction Category** (**msdyn_transactioncategory**) and **Bookable Resource** (**bookableresource**) are examples of candidate dimensions.
+Other considerations for pricing include whether to re-use fields or entities that are not currently pricing dimensions but apply as a pricing dimension for your organization. Fields like **Transaction Category** (**msdyn_transactioncategory**) and **Bookable Resource** (**bookableresource**) are examples of candidate dimensions. 
 
 You should also consider whether your pricing dimension should be a table or an option set. If you foresee changes to the values of a dimension which will exceed 10 or 12 and you need additional attributes on these values, you could create an entity rather than an option set. Maintaining an option set, such as adding or removing values, requires an admin or developer whereas adding new rows to a table can be done by most users.
 
@@ -72,4 +72,3 @@ The following example shows bill rates that are set up based on the role and the
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
-
