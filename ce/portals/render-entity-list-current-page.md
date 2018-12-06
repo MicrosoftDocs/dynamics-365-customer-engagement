@@ -3,7 +3,7 @@ title: "Render the entity list associated with the current page in a portal in D
 description: "Sample code to render the entity list associated with the current page in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

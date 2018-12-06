@@ -3,7 +3,7 @@ title: "Configure OAuth2 provider settings for a portal in Dynamics 365 for Cust
 description: "Instructions to add and configure OAuth2 provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

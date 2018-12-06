@@ -2,7 +2,7 @@
 title: "Use variable tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about variable tags available in portal"
 keywords: "variable tags; liquid tags"
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 

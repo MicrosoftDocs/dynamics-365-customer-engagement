@@ -3,7 +3,7 @@ title: "Rate or vote on a webpage or blog post on a portal in Dynamics 365 for C
 description: "Instructions to enable and manage ratings on a web page or a blog post on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

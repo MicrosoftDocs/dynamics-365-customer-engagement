@@ -4,7 +4,7 @@ description: "Instructions to place child nodes by using shortcuts for portals."
 ms.custom: 
   - dyn365-a11y
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

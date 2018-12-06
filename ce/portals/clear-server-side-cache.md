@@ -3,7 +3,7 @@ title: "Clear the server-side cache for a portal in Dynamics 365 for Customer En
 description: "Instructions to force the portal to refresh its cache immediately."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

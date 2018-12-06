@@ -3,7 +3,7 @@ title: "Manage knowledge articles using content access levels for portals in Dyn
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

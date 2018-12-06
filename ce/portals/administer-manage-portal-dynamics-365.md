@@ -2,7 +2,7 @@
 title: "Administer and manage portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Get started with administering and managing portals."
 keywords: "portals, portal capabilities for Dynamics 365 for Customer Engagement, get started with portals"
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
