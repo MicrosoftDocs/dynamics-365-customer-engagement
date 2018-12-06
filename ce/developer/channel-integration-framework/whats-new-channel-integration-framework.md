@@ -45,6 +45,10 @@ Channel Integration Framework allows you to add an additional Trusted Domain if 
 
 Here is the download link for Channel Integration Framework solution: [Download Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70).
 
+## Adding a new Custom Parameters field
+
+We have a new field that is used for configuring channel providers, namely Custom Parameters. Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) will return this as value of key `customParams`. More information: [Configure Channel Integration Framework](configure-channel-integration-framework.md)
+
 ## See Also
 
 [Dynamics 365 Channel Integration Framework Guide](index.md)
