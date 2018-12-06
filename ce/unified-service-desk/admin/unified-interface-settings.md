@@ -5,8 +5,6 @@ keywords:
 ms.date: 08/17/2018
 ms.service: 
   - usd
-ms.custom: 
-  - 
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
