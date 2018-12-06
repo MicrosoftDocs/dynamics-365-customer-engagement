@@ -14,7 +14,7 @@ helpviewer_keywords:
   - using transformation mapping to modify data before importing
   - transformation mappings, definition
   - adding transformation mappings for importing, list of valid property values
-  - adding transformation mappings for importing, transformations: concatenation; split; substring; replace; assign value; add to date; and others
+  - "adding transformation mappings for importing, transformations: concatenation; split; substring; replace; assign value; add to date; and others"
   - implementing transformation mapping, by using the transformation mapping entity
   - adding transformation mappings for importing, using the transformation mapping and transformation parameter mapping entities
   - transformation mappings for importing, adding

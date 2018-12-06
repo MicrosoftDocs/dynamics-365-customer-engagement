@@ -12,7 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
   - IDiscoveryService web service, request and response classes
-  - IDiscoveryService web service, base classes: DiscoveryRequest and DiscoveryResponse
+  - "IDiscoveryService web service, base classes: DiscoveryRequest and DiscoveryResponse"
   - request and response classes, discovery service messages
   - discovery service messages (request and response classes)
 ms.assetid: 053f259e-40c9-46ba-8c47-39e29e228590

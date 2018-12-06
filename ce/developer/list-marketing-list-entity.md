@@ -17,7 +17,7 @@ helpviewer_keywords:
   - list (marketing list) entity, managing lists
   - list (marketing list) entity, adding members to lists
   - lists (marketing lists), introduction
-  - list (marketing list) entity, types of lists: dynamic and static
+  - "list (marketing list) entity, types of lists: dynamic and static"
 ms.assetid: 720709e2-32e0-44bc-87dc-445cb5d16e91
 caps.latest.revision: 23
 author: JimDaly

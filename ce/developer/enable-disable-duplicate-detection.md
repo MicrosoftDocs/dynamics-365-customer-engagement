@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
   - duplicate detection, enabling
-  - enabling duplicate detection, in three areas: globally; for entities; for specific operations
-  - enabling duplicate detection, how to enable: messages; properties; and attributes to set
+  - "enabling duplicate detection, in three areas: globally; for entities; for specific operations"
+  - "enabling duplicate detection, how to enable: messages; properties; and attributes to set"
   - enabling duplicate detection, rules must be published before running
 ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
