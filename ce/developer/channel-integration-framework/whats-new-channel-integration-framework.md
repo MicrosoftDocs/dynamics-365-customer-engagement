@@ -20,7 +20,7 @@ manager: shujoshi
 
 # What's new in Channel Integration Framework (CIF)
 
-The December'18 release of Channel Integration Framework (CIF) introduces the following new features.
+The topic provides the list of new features introduced for Dynamics 365 Channel Integration Framework (CIF) version 1.0.
 
 ## JavaScript Channel Integration Framework APIs
 
