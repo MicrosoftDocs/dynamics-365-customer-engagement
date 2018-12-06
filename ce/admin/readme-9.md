@@ -28,9 +28,9 @@ This document provides important information about these product versions:
 
 You'll also find information about known issues and possible workarounds.
 
-Channel Integration Framework
+Dynamics 365 Channel Integration Framework
 -----------------------------
-- Channel Integration Framework does not support Internet Explorer and Firefox browsers. Channel Integration Framework currently supports Microsoft Edge and Google Chrome web browsers.
+- Channel Integration Framework (CIF) does not support Internet Explorer and Firefox browsers. Channel Integration Framework currently supports Microsoft Edge and Google Chrome web browsers.
 
 - By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
 
