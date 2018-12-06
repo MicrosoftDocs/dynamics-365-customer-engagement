@@ -1,5 +1,5 @@
 ---
-title: "Set up time groups (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Fulfillment preferences (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/06/2018
@@ -25,7 +25,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Set up time groups for scheduling
+# Fulfillment preferences
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
