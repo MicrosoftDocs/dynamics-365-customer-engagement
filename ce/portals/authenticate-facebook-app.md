@@ -3,7 +3,7 @@ title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamic
 description: "Instructions to authenticate the Facebook app to sign in to a portal."
 ms.custom:
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

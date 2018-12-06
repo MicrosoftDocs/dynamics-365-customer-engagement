@@ -3,7 +3,7 @@ title: "Manage web links in Dynamics 365 for Customer Engagement or on portals i
 description: "Instructions to manage web links in Dynamics 365 for Customer Engagement or on portals."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

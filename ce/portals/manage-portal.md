@@ -2,7 +2,7 @@
 title: "Administer a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal

@@ -3,7 +3,7 @@ title: "Configure WS-Federation provider settings for a portal in Dynamics 365 f
 description: "Instructions to add and configure WS-Federation provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

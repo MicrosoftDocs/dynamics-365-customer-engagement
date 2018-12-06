@@ -3,7 +3,7 @@ title: "Gather feedback by using polls on a portal in Dynamics 365 for Customer 
 description: "Instructions to create polls on a portal and gather feedback by using them."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

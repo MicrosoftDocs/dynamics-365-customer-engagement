@@ -3,7 +3,7 @@ title: "Create a custom page template by using Liquid and a web template page te
 description: "Instructions to create a custom page template by using Liquid operators."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

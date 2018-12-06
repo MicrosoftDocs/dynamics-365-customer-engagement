@@ -3,7 +3,7 @@ title: "Render an RSS feed using custom page template for a portal in Dynamics 3
 description: "Instructions to create a custom page template and use it to render an RSS feed."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -3,7 +3,7 @@ title: "Enable Azure storage for portals in Dynamics 365 for Customer Engagement
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

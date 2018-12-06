@@ -3,7 +3,7 @@ title: "Store source content by using web templates on a portal in Dynamics 365 
 description: "Instructions to store content by using web templates on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
