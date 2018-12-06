@@ -22,9 +22,6 @@ manager: shujoshi
 
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
 
-> [!IMPORTANT]
-> 44px on the side-panel has been reserved for future functionality and it will not be available for widgets to use.
-
 ## Syntax
 
 `Microsoft.CIFramework.setWidth(value).then(successCallback, errorCallback);`
