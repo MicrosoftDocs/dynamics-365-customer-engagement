@@ -1,8 +1,8 @@
 ---
-title: "Channel Integration Framework (CIF) | Microsoft Docs"
+title: "Dynamics 365 Channel Integration Framework (CIF) Guide | Microsoft Docs"
 description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library."
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:

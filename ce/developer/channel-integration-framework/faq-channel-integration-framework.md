@@ -2,7 +2,7 @@
 title: "FAQs for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: "Frequently asked question about the Channel Integration Framework (CIF) and its APIs for Dynamics 365."
 keywords: ""
-ms.date: 12/05/2018
+ms.date: 12/06/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -18,10 +18,10 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Frequently asked questions (FAQs) for Channel Integration Framework (CIF)
+# Frequently asked questions (FAQs) for Dynamics 365 Channel Integration Framework (CIF)
 
-## What is Channel Integration Framework?
-Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
+## What is Dynamics 365 Channel Integration Framework?
+Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
 
 ## Can I integrate a two-way communication channel?
 Yes, you can integrate two-way communication that enables to set the context of inbound and/or outbound according to your business and process workflows.

@@ -2,7 +2,7 @@
 title: "Architecture overview of Channel Integration Framework (CIF) helps| Microsoft Docs"
 description: "Learn the architecture overview of Channel Integration Framework (CIF) for Microsoft Dynamics 365."
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -18,9 +18,9 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Architecture overview of Channel Integration Framework 
+# Architecture overview of Dynamics 365 Channel Integration Framework 
 
-Channel Integration Framework provides an extensible framework to integrate third-party Computer Telephony Integration (CTI) systems to serve your customers with more focus and agility.
+Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party Computer Telephony Integration (CTI) systems to serve your customers with more focus and agility.
 
 > [!div class="mx-imgBorder"]
 > ![High level architecture diagram of the channel integration framework](media/cif-high-level-architecture.PNG "High level architecture diagram of the channel integration framework")
