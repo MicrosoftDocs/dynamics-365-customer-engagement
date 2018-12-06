@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps (online) instances | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 12/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -26,6 +26,9 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You manage your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances from the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+
+> [!NOTE]
+> Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
   
 1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in using Global administrator credentials.  
   
