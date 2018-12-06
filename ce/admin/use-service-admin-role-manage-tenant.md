@@ -1,7 +1,7 @@
 ---
 title: "Use the Dynamics 365 for Customer Engagement apps (online) service admin role to manage your tenant | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -42,7 +42,7 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
   
  Here's a matrix of what's available with the various [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] roles.  
   
-|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Dynamics 365 for Customer Engagement apps licenses|Approve Dynamics 365 for Customer Engagement apps emails<sup>1</sup>|Access support requests|Access Service health|Access Message center|  
+|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Customer Engagement licenses|Approve Customer Engagement emails<sup>1</sup>|Access support requests|Access Service health|Access Message center|  
 |--------------------------------|----------------------|------------------|-----------------------------|------------------------|-------------------------------|---------------------------------|-----------------------------|---------------------------|---------------------------|  
 |Office 365 global admin|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
 |Exchange admin|n/a|n/a|n/a|n/a|n/a|n/a|n/a|Yes|Yes|  
