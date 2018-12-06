@@ -11,9 +11,9 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - activity entities, core activities: tasks; faxes; phone calls; letters
-  - tasks; faxes; phone calls; and letters, core activity entities
-  - managing relationship entities, activity entities
+  - "activity entities, core activities: tasks; faxes; phone calls; letters"
+  - "tasks; faxes; phone calls; and letters, core activity entities"
+  - "managing relationship entities, activity entities"
 ms.assetid: 414b1727-13f5-49df-b6a8-ccb730c1dc3d
 caps.latest.revision: 13
 author: JimDaly
