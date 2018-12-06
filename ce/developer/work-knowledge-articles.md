@@ -1,33 +1,33 @@
 ---
 title: "Work with knowledge articles in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The section provides information about working with the new native Dynamics 365 for Customer Engagement knowledge management capabilities."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "knowledge base entities, creating and searching for knowledge base articles"
-  - "creating a subject tree hierarchy (best practice), knowledge base entities"
-  - "creating and searching for knowledge base articles, knowledge base entities"
-  - "knowledge base entities, templates for"
-  - "publishing and unpublishing knowledge base articles, knowledge base entities"
-  - "knowledge base entities, creating a subject tree hierarchy (best practice)"
-  - "knowledge base entities, specifying search keywords"
-  - "states, knowledge base entities"
-  - "knowledge base entities, publishing and unpublishing knowledge base articles"
-  - "knowledge base entities, KB articles states"
+  - knowledge base entities, creating and searching for knowledge base articles
+  - creating a subject tree hierarchy (best practice), knowledge base entities
+  - creating and searching for knowledge base articles, knowledge base entities
+  - knowledge base entities, templates for
+  - publishing and unpublishing knowledge base articles, knowledge base entities
+  - knowledge base entities, creating a subject tree hierarchy (best practice)
+  - knowledge base entities, specifying search keywords
+  - states, knowledge base entities
+  - knowledge base entities, publishing and unpublishing knowledge base articles
+  - knowledge base entities, KB articles states
   - KB articles, see 'knowledge base entities'
-  - "search keywords, knowledge base entities"
+  - search keywords, knowledge base entities
 ms.assetid: 7d0f1da8-1d6b-4795-a4c1-b0ed898e59f0
 caps.latest.revision: 39
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

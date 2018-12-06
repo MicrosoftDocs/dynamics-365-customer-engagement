@@ -108,18 +108,18 @@ When you log onto the Dynamics 365 for Customer Engagement apps mobile app, you 
 
 To verify offline synchronization is enabled on your app look at the offline synchronization status in the footer of the app. The status also lets you know the entities that are available in offline and, for each of these available entities, when the data is last synchronized with Dynamics 365 for Customer Engagement apps.  
 
-![Status on footer](../../media/offline-status.png "Status on footer")
+![Status on footer](../../media/offline-status.png Status on footer)
 
 The following table lists the various status icons and what they mean.
 
 |Mobile offline synchronization status icon |Status |Description  |
 |---------|---------|---------|
-|![Available](../../media/green-icon.png "Available")     |Available         |Offline synchronization is available as the device database is available.         |
-|![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can tap on the link in the status to download the metadata if it's pending from Dynamics 365 for Customer Engagement apps.|
-|![Not available](../../media/red-icon.png "Not available")     |Initializing         |Offline database is being setup.         |
-|![Not available](../../media/red-icon.png "Not available")      |Not available         |Offline synchronization is not available as the database is not created on your mobile device.        |
+|![Available](../../media/green-icon.png Available)     |Available         |Offline synchronization is available as the device database is available.         |
+|![Available warning ](../../media/green-icon-exclamation.png Available warning)     |Available          |Warning due to metadata mismatch. You can tap on the link in the status to download the metadata if it's pending from Dynamics 365 for Customer Engagement apps.|
+|![Not available](../../media/red-icon.png Not available)     |Initializing         |Offline database is being setup.         |
+|![Not available](../../media/red-icon.png Not available)      |Not available         |Offline synchronization is not available as the database is not created on your mobile device.        |
 |![Not available warning](../../media/red-icon-exclamation.png)     |Not available         |Offline synchronization is not available. A background fix is in process.          |
-|![Not available](../../media/red-icon.png "Not available")      |Error         |The database is not available.         |
+|![Not available](../../media/red-icon.png Not available)      |Error         |The database is not available.         |
 
 > [!NOTE]
 > If there is no status in the footer, offline synchronization is not enabled for your app or the user has not been added to the mobile offline profile.
@@ -130,13 +130,13 @@ You can check the reason for the offline synchronization status by clicking on t
 
 | |  |
 |---------|---------|
-|![Number of entities enabled](../../media/flyout-entities-enabled.png "Number of entities enabled")<br/>Number of entities enabled     |![Status reasons](../../media/flyout-status-reasons.png "Status reasons")<br/>Status reasons         |
+|![Number of entities enabled](../../media/flyout-entities-enabled.png Number of entities enabled)<br/>Number of entities enabled     |![Status reasons](../../media/flyout-status-reasons.png Status reasons)<br/>Status reasons         |
 
 #### Last Sync Time 
 
 For offline available entities, when you navigate to the entities grid or form, you can check in the footer when data is last synchronized with Dynamics 365 for Customer Engagement apps.
 
-![Last sync time](../../media/last-sync-time.png "Last sync time")
+![Last sync time](../../media/last-sync-time.png Last sync time)
 
 #### Status on sitemap 
 
@@ -146,7 +146,7 @@ You can also check the status of entities enabled for offline on the sitemap. A 
 - Red – entity is enabled for offline but is not available to work in when offline due to an error
 - No rectangle – entity is not enabled for offline  
 
-![Status on sitemap](../../media/status-on-sitemap.png "Status on sitemap")
+![Status on sitemap](../../media/status-on-sitemap.png Status on sitemap)
 
 ### Offline data
 
@@ -161,7 +161,7 @@ As soon as the application is disconnected from the server you will see an indic
 
 | |  |
 |---------|---------|
-|![Tap Offline](../../media/tap-offline.png "Tap Offline")<br/>Tap offline     |![Tap Reconnect](../../media/tap-reconnect.png "Tap Reconnect")<br/>Tap Reconnect         |
+|![Tap Offline](../../media/tap-offline.png Tap Offline)<br/>Tap offline     |![Tap Reconnect](../../media/tap-reconnect.png Tap Reconnect)<br/>Tap Reconnect         |
 
 ### Working in offline mode
 
@@ -197,7 +197,7 @@ Changes done in offline mode on your device that create conflicts with Dynamics 
 
 When resolving a sync error, an exclamation mark (!) highlights the conflict fields before you update them. If a record has changed Dynamics 365 for Customer Engagement apps between the time your device retrieved the record and when it tries to update or delete that record, you'll see an exclamation mark (!) by the relevant field and you'll need to resubmit your updated changes. 
 
-![Exclamation shows conflict field](../../media/exclamation-conflict-field.png "Exclamation shows conflict field")
+![Exclamation shows conflict field](../../media/exclamation-conflict-field.png Exclamation shows conflict field)
 
 ### Background sync
 
@@ -242,7 +242,7 @@ Background sync will be disabled if:
 
 1.  From the menu, tap **Draft Records**.  
 
-    ![Dynamics 365 for phones save offline drafts](../../media/crm-ua-moca-offline-save-drafts.png "Dynamics 365 for phones save offline drafts")
+    ![Dynamics 365 for phones save offline drafts](../../media/crm-ua-moca-offline-save-drafts.png Dynamics 365 for phones save offline drafts)
 
 2.  Select each record individually and tap **Save**.  
 

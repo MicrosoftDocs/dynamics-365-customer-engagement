@@ -1,29 +1,29 @@
 ---
 title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Solution component dependencies help make sure you have a reliable experience working with solutions. They can be viewed in the application by clicking Show Dependencies"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "solution components"
-  - "solution component dependencies, dependency tracking for solution components"
-  - "solution component dependencies, checking for"
-  - "checking for solution component dependencies"
-  - "dependency tracking for solution components, list of available solution components and their location"
-  - "solution component dependencies, types of"
-  - "dependency tracking for solution components, checking for solution component dependencies"
-  - "dependency tracking for solution components, types of solution component dependencies"
+  - solution components
+  - solution component dependencies, dependency tracking for solution components
+  - solution component dependencies, checking for
+  - checking for solution component dependencies
+  - dependency tracking for solution components, list of available solution components and their location
+  - solution component dependencies, types of
+  - dependency tracking for solution components, checking for solution component dependencies
+  - dependency tracking for solution components, types of solution component dependencies
 ms.assetid: d14563f7-1fae-4a54-82af-afacf5c8fd56
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

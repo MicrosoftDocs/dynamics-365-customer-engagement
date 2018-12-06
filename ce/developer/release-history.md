@@ -1,22 +1,22 @@
 ---
 title: "Release history (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic records significant incremental changes to the SDK content for this release for this over time."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 122ac8e4-ea24-4184-ac33-b1e3bcf073a0
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 tags: 
-  - "aug2017"
-  - "MigrationHO"
+  - aug2017
+  - MigrationHO
 search.audienceType: 
   - developer
 search.app: 

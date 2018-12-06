@@ -1,20 +1,20 @@
 ---
 title: "Web API Samples (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic provides a description of various Web API samples that are implemented using Client-side JavaScript"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a32e9a04-7bc1-41dd-b9af-bb4f21a613c6
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

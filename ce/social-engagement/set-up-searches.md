@@ -1,12 +1,12 @@
 ---
 title: "Set up searches to listen to social media conversations | Microsoft Docs"
 description: "Review this guide to set up searches and find data in Social Engagement."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 76d88e28-2d9e-418f-bc96-90c7d9f993e4
 author: m-hartmann
 ms.author: mhart

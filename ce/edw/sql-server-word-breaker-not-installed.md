@@ -1,11 +1,11 @@
 ---
 title: "The SQL Server word breaker for the selected language is not installed | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 0ff70af7-ac3e-4dd9-a870-feaae03199c0
 caps.latest.revision: 3
 robots: noindex,nofollow

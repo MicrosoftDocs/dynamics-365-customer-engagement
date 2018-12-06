@@ -1,19 +1,19 @@
 ---
 title: "AppSource for Field Service (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 9/20/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: activate-fs-mobile-app-license
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: FieldServiceDave
-ms.reviewer: "krbjoran"
-ms.manager: "shellyhaverkamp"
+ms.reviewer: krbjoran
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer

@@ -1,18 +1,18 @@
 ---
 title: "Understand views | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 11/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 826fb059-a552-4db5-bf40-6a80cfa0fc0e
 ms.author: matp
 manager: kvivek
-author: "Mattp123"
+author: Mattp123
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

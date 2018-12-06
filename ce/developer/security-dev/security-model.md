@@ -1,32 +1,32 @@
 ---
 title: "Security model (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "record-based security, definition"
-  - "security model of Microsoft Dynamics CRM, types of security"
-  - "field-level security, definition"
-  - "goals for the security model in Microsoft Dynamics CRM, security model of Microsoft Dynamics CRM"
-  - "types of security in Microsoft Dynamics CRM, role-based security"
-  - "types of security in Microsoft Dynamics CRM, field-level security"
-  - "role-based security, definition"
-  - "learning about development in CRM, security model of Microsoft Dynamics CRM"
-  - "security model of Microsoft Dynamics CRM, goals for"
-  - "security model of Microsoft Dynamics CRM, overview of"
-  - "types of security in Microsoft Dynamics CRM, record-based security"
+  - record-based security, definition
+  - security model of Microsoft Dynamics CRM, types of security
+  - field-level security, definition
+  - goals for the security model in Microsoft Dynamics CRM, security model of Microsoft Dynamics CRM
+  - types of security in Microsoft Dynamics CRM, role-based security
+  - types of security in Microsoft Dynamics CRM, field-level security
+  - role-based security, definition
+  - learning about development in CRM, security model of Microsoft Dynamics CRM
+  - security model of Microsoft Dynamics CRM, goals for
+  - security model of Microsoft Dynamics CRM, overview of
+  - types of security in Microsoft Dynamics CRM, record-based security
 ms.assetid: b5b10592-5e1f-4243-be90-2fedd718ad9c
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

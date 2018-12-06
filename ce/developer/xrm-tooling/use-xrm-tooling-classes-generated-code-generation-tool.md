@@ -1,20 +1,20 @@
 ---
 title: "Use XRM tooling with classes generated using the code-generation tool (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "CrmServiceClient class can be used to set up your entity and data context classes by using the code-generation tool. The sample shows how to create a connection to Dynamics 365 for Customer Engagement by using an instance of this class, and then set the value of the OrganizationServiceProxy object to the CrmServiceClient.OrganizationServiceProxy property"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7c81c1e5-2229-4a15-8374-6ee9456d18a9
 caps.latest.revision: 19
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

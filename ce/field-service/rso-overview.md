@@ -31,7 +31,7 @@ RSO is one of three ways to schedule with Dynamics 365 for Customer Engagement f
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
     panel to the resource’s calendar above.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/29a8d922fb088fa1d668c598f6887e65.png)
 
 2.  **Scheduling Assistant**: This allows you to filter resources on the left
@@ -39,7 +39,7 @@ RSO is one of three ways to schedule with Dynamics 365 for Customer Engagement f
     system recommends available resources on the right and displays estimated
     travel times.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
 
 3.  **Resource Scheduling Optimization**: This add-on evaluates routes and
@@ -47,7 +47,7 @@ RSO is one of three ways to schedule with Dynamics 365 for Customer Engagement f
     maximize working hours and more, based on your configured objectives, such
     as “minimize travel time” and “maximize working hours.”
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
 ## Benefits of using Resource Scheduling Optimization 
@@ -91,6 +91,6 @@ for urgent situations.
 -   [Scheduling anything in Dynamics 365 for Customer Engagement with Universal Resource
     Scheduling](https://www.microsoft.com/en-US/dynamics/crm-customer-center/scheduling-anything-in-dynamics-365-with-universal-resource-scheduling.aspx)
 
-<a name="bkmk_step3 "></a>   
+<a name=bkmk_step3 ></a>   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]

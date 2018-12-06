@@ -70,7 +70,7 @@ search.app:
   
 #### Download the software  
   
-1. In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** icon ![Dynamics 365 for Customer Engagement apps web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 for Customer Engagement apps web client Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
+1. In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** icon ![Dynamics 365 for Customer Engagement apps web client Settings button](../media/mp-ua-r16-settings.png Dynamics 365 for Customer Engagement apps web client Settings button), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
   
 2. On the **Apps for Dynamics 365 for Customer Engagement apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.  
   
@@ -81,7 +81,7 @@ search.app:
   
     The software will start downloading and you’ll see the following dialog box:  
   
-    ![Getting Started with Dynamics 365 for Outlook dialog box](../media/outlook-setup-gettingstarted.png "Getting Started with Dynamics 365 for Outlook dialog box")  
+    ![Getting Started with Dynamics 365 for Outlook dialog box](../media/outlook-setup-gettingstarted.png Getting Started with Dynamics 365 for Outlook dialog box)  
   
 4. In the **Getting Started with Dynamics 365 for Outlook** dialog box, under **2. Configure**, click **Copy** to copy your organization’s URL to your computer’s Clipboard. You’ll paste this URL in the following **Configure** step.  
   
@@ -105,7 +105,7 @@ search.app:
 ### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
- ![Add a Dynamics 365 for Customer Engagement apps Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 for Customer Engagement apps Organization dialog box")  
+ ![Add a Dynamics 365 for Customer Engagement apps Organization dialog box](../media/crm-outlook-add-organization.png Add a Dynamics 365 for Customer Engagement apps Organization dialog box)  
   
 1. Press **Ctrl+V** to paste the URL you copied in the preceding **Download the software** step, and then click **Connect**. You can also enter a Server URL or a Discovery URL.  
   
@@ -119,7 +119,7 @@ search.app:
 ## CRM 2015 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)]. [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 for Customer Engagement apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
- ![Video button](../media/video-button.png "Video button") [Watch a video on setup, configuration, and upgrading (5:19)](http://go.microsoft.com/fwlink/p/?LinkId=522526)  
+ ![Video button](../media/video-button.png Video button) [Watch a video on setup, configuration, and upgrading (5:19)](http://go.microsoft.com/fwlink/p/?LinkId=522526)  
   
 > [!IMPORTANT]
 > - To install and use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)].  
@@ -162,7 +162,7 @@ search.app:
   
 1. In the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar.  
   
-    ![Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Customer Engagement apps for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Outlook")  
+    ![Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Customer Engagement apps for Outllook](../media/install-crm-outloook-message-bar.png Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Outlook)  
   
    > [!TIP]
    >  If you prefer, you can [download the software from this page](http://go.microsoft.com/fwlink/p/?LinkID=403030).  
@@ -171,7 +171,7 @@ search.app:
   
     The software will start downloading and you’ll see the following dialog box:  
   
-    ![Getting Started with Dynamics 365 for Outlook dialog box](../media/outlook-setup-gettingstarted.png "Getting Started with Dynamics 365 for Outlook dialog box")  
+    ![Getting Started with Dynamics 365 for Outlook dialog box](../media/outlook-setup-gettingstarted.png Getting Started with Dynamics 365 for Outlook dialog box)  
   
 3. In the **Getting Started with Dynamics 365 for Outlook** dialog box, under **2. Configure**, click **Copy** to copy your organization’s URL to your computer’s Clipboard. You’ll paste this URL in the following **Configure** step.  
   
@@ -195,7 +195,7 @@ search.app:
 ### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
- ![Add a Dynamics 365 for Customer Engagement apps Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 for Customer Engagement apps Organization dialog box")  
+ ![Add a Dynamics 365 for Customer Engagement apps Organization dialog box](../media/crm-outlook-add-organization.png Add a Dynamics 365 for Customer Engagement apps Organization dialog box)  
   
 1. Press **Ctrl+V** to paste the URL you copied in the preceding **Download the software** step, and then click **Connect**. You can also enter a Server URL or a Discovery URL.  
   
@@ -246,7 +246,7 @@ search.app:
   
    - **From the message bar in Dynamics 365 for Customer Engagement apps:**  In the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar. If you see one or more **Security Warning** dialog boxes, click **Run** in each.  
   
-      ![Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Customer Engagement apps for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Customer Engagement apps for Outllook")  
+      ![Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Customer Engagement apps for Outllook](../media/install-crm-outloook-message-bar.png Dynamics 365 for Customer Engagement apps message bar for installing Dynamics 365 for Customer Engagement apps for Outllook)  
   
    - **From the web:** [Go to the download page](http://go.microsoft.com/fwlink/p/?LinkID=393787), and then download and run the appropriate executable file (32-bit or 64-bit), depending on your system and the version of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] you use.  
   
@@ -288,7 +288,7 @@ search.app:
        > [!NOTE]
        >  If you’re unsure of what url to use, check with your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrator.  
   
-        ![Screenshot of the configuration wizard](../media/crm-outlook-configuration-wizard.PNG "Screenshot of the configuration wizard")  
+        ![Screenshot of the configuration wizard](../media/crm-outlook-configuration-wizard.PNG Screenshot of the configuration wizard)  
   
 2. Click **Test Connection**. This adds organizations to the **Organization Information** list. If you’re prompted for credentials, select from the following options:  
   

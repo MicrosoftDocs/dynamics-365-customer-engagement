@@ -37,11 +37,11 @@ This topic contains links to information about the supported software requiremen
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
   
-<a name="BKMK_Office"></a>   
+<a name=BKMK_Office></a>   
 ## Microsoft Office  
  For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
-<a name="BKMK_Windows"></a>   
+<a name=BKMK_Windows></a>   
 ## Microsoft Windows  
  For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   

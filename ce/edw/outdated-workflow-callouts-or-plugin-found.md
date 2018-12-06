@@ -1,11 +1,11 @@
 ---
 title: "Outdated workflow callouts or plug-in callouts were found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: eda097af-a345-4127-9a28-741e3b464446
 caps.latest.revision: 5
 robots: noindex,nofollow

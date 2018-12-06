@@ -1,20 +1,20 @@
 ---
 title: "Specify time zone settings for a user (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about using the UserSettings entity to specify time zone settings for a user in Dynamics 365 for Customer Engagement. The following attributes are exposed for the UserSettings entity related to time zone. All time zone attributes in the UserSettings entity are of Integer data type. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1cb725f8-cdc3-4b34-a59e-fe50612e6345
 caps.latest.revision: 8
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

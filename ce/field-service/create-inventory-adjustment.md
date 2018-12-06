@@ -34,7 +34,7 @@ You can do an inventory adjustment in [!INCLUDE[pn_dyn_365_field_service](../inc
   
 Let's say you're getting a new shipment of  Product A that you're going to add to Warehouse 1. In this case you would create a new inventory adjustment record and specify the warehouse. Next you'll add the product to the inventory adjustment record and specify the product, unit, and quantity.  
   
-<a name="BKMK_1"></a>   
+<a name=BKMK_1></a>   
 ## Step 1: Create an inventory adjustment  
   
 1.  From the main menu, click **Field Service** > **Inventory Adjustments**.  
@@ -51,7 +51,7 @@ Let's say you're getting a new shipment of  Product A that you're going to add t
   
 5.  Click **Save**.  
   
-<a name="BKMK_2"></a>   
+<a name=BKMK_2></a>   
 ## Step 2: Add products to the inventory adjustment  
   
 1.  From the top menu, click the drop-down arrow next to the item you created, and then click **Products**.  

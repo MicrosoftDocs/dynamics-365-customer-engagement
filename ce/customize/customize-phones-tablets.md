@@ -1,19 +1,19 @@
 ---
 title: "Customize Dynamics 365 for Customer Engagement for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 03/08/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement (online)
+author: mduelae
 ms.assetid: a3e6a322-18f7-48bd-aaea-bff7675d1378
 caps.latest.revision: 35
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

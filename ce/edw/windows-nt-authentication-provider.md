@@ -1,11 +1,11 @@
 ---
 title: "Windows NT Authentication Provider | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ef40507a-722f-4d85-a29a-27a0f70d7a80
 caps.latest.revision: 7
 robots: noindex,nofollow

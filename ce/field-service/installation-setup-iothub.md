@@ -45,7 +45,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
-<a name="bkmk_install"></a>   
+<a name=bkmk_install></a>   
 ## Install Connected Field Service  
  Install the Connected Field Service solution from your Office 365 admin portal. The solution includes a sample thermostat simulator app that you can use to send test alerts to connected devices that are registered in field service.  
   
@@ -96,7 +96,7 @@ This guide provides all the steps required for getting up and running with Conne
   
    Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees.  
   
-<a name="bkmk_register"></a>   
+<a name=bkmk_register></a>   
 ## Register devices that you want to monitor in Dynamics 365 for Customer Engagement  
  To monitor a device, you need to create and register an asset.  
   
@@ -145,7 +145,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 6. Copy the IP address when you see this message.  
   
-   ![Microsoft SQL message](../field-service/media/do-not-use3.png "Microsoft SQL message")  
+   ![Microsoft SQL message](../field-service/media/do-not-use3.png Microsoft SQL message)  
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   
@@ -240,7 +240,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 3.  In the Category field, use the search button to find and to add the device to a category.  
   
-<a name="bkmk_Categorize"></a>   
+<a name=bkmk_Categorize></a>   
 ## Categorize devices  
  You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
@@ -268,7 +268,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 3.  In the **Category** field, use the search button to find and add the device to a category.  
   
-<a name="bkmk_deviceReading"></a>   
+<a name=bkmk_deviceReading></a>   
 ## View device readings  
  Once a device is registered, you can open the record to view the readings sent by the device. For example, if you’re monitoring a thermostat, your reading will show the thermostat temperature.  
   
@@ -280,7 +280,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 3.  Refer to the **Connect Device Readings** section to view the device readings.  
   
-<a name="bkmk_remotely"></a>   
+<a name=bkmk_remotely></a>   
 ## Remotely send commands to a registered device  
  When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
   
@@ -297,7 +297,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 4.  Enter a **Name** for the command.  
   
-5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}`  
+5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. `{CommandName:Reset Thermostat,Parameters:{}}` `{CommandName:Notification,Parameters:{Message:Technician has been dispatched}}` `{CommandName:Set Values,Parameters:{Reading:{Temperature:30,Humidity:30}}}`  
   
     > [!NOTE]
     >  Before sending a command make sure there are no spaces or extra characters in the command.  
@@ -326,7 +326,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 3.  Scroll down to the **Command** section to view the history.  
   
-<a name="bkmk_bussinessFlow"></a>   
+<a name=bkmk_bussinessFlow></a>   
 ## Create business process flows to automatically handle incoming IoT alerts  
  When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customize/create-business-process-flow.md)  
   
@@ -346,7 +346,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 -   JSON-Based Field Value - Get Boolean (Action)  
   
-<a name="bkmk_IOTDashboard"></a>   
+<a name=bkmk_IOTDashboard></a>   
 ## View the IoT dashboard  
  The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
   
@@ -360,7 +360,7 @@ This guide provides all the steps required for getting up and running with Conne
   
     -   The third chart shows alerts along with the action taken to resolve the issue.  
   
-<a name="bkmk_step3 "></a>   
+<a name=bkmk_step3 ></a>   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
   

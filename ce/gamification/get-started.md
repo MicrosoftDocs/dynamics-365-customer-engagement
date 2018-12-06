@@ -4,10 +4,10 @@ description: "Learn about the underlying concepts of Gamification before setting
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: f37b3fc7-2c99-46ac-aa75-526baac4d434

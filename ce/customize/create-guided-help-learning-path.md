@@ -1,12 +1,12 @@
 ---
 title: "Create your own guided help (Learning Path) (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/25/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
 author: udaykirang
 ms.author: udag

@@ -1,15 +1,15 @@
 ---
 title: "Types of views (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 3ce9dd7c-41eb-4517-8e18-fcf50e953483
 ms.author: matp
 manager: kvivek

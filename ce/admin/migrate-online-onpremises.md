@@ -1,21 +1,21 @@
 ---
 title: "Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises) | MicrosoftDocs"
 description: "Follow theses steps to migrate from Microsoft Dynamics 365 for Customer Engagement apps (online) to Microsoft Dynamics 365 for Customer Engagement apps (on-premises)."
-ms.custom: ""
+ms.custom: 
 ms.date: 08/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: Mattp123
 ms.assetid: e7e8ea24-0872-42e6-bec3-bcf362a26450
 caps.latest.revision: 15
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 ---
 # Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises)
 

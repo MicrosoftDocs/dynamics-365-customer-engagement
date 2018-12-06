@@ -23,7 +23,7 @@ search.app:
   - D365Portals
 ---
 # Place child nodes by using shortcuts for portals
-Use shortcuts to place child nodes throughout your portal's sitemap that simply point to other nodes that exist in your sitemap, or to URLs external to your portal. In other words, webpages, web files, events, and forums can all be considered "solid" nodes of your portal's sitemap: they are added to your sitemap and when you navigate to them, you see the actual content of those nodes directly. Shortcuts, on the other hand, can be considered “intangible” nodes: they are also added to the sitemap (unlike web links, which are not), but when you navigate to them, you see the content for the target "solid" node that the shortcut points to, and that content is rendered by the page template for that node.
+Use shortcuts to place child nodes throughout your portal's sitemap that simply point to other nodes that exist in your sitemap, or to URLs external to your portal. In other words, webpages, web files, events, and forums can all be considered solid nodes of your portal's sitemap: they are added to your sitemap and when you navigate to them, you see the actual content of those nodes directly. Shortcuts, on the other hand, can be considered “intangible” nodes: they are also added to the sitemap (unlike web links, which are not), but when you navigate to them, you see the content for the target solid node that the shortcut points to, and that content is rendered by the page template for that node.
 
 ## Manage shortcuts in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
@@ -51,7 +51,7 @@ Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynami
 | Title                              | The title for the shortcut. This is the name that will appear in the sitemap and child navigation view areas. If left blank, the title (or name) of the target entity will be shown instead. |
 | Description                        | A description to appear in child nav views. Optional.                                                                                                                                        |
 | Display Order                      | The front-side editable order that the shortcut will appear in sitemap and child nav views, in relation to other nodes in the site map.                                                      |
-| Disable Shortcut Target Validation | If unchecked, the security of the shortcut will be based on the target. Otherwise, it will be based on the parent. For more details, see "Security" below.                                   |
+| Disable Shortcut Target Validation | If unchecked, the security of the shortcut will be based on the target. Otherwise, it will be based on the parent. For more details, see Security below.                                   |
 ||
 
 > [!Note]

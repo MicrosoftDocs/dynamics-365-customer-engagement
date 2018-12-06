@@ -1,16 +1,16 @@
 ---
 title: "Types of fields and field data types in PowerApps | MicrosoftDocs"
 description: "Understand the different field and data types available for your app"
-keywords: ""
+keywords: 
 ms.date: 04/25/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
 ms.author: matp
 manager: kvivek

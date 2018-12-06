@@ -1,24 +1,24 @@
 ---
 title: "Configure data import (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Configuration information that is required for importing data is contained in the data import entity and the import source file entity. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "data importing, configuring"
-  - "configuring data importing, tasks for"
-  - "importing data, configuring"
-  - "configuring data importing, by using the import (data import) and import file (import source file) entities"
+  - data importing, configuring
+  - configuring data importing, tasks for
+  - importing data, configuring
+  - configuring data importing, by using the import (data import) and import file (import source file) entities
 ms.assetid: e0b5bdd7-b307-4b26-9171-518cb00ed7b0
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

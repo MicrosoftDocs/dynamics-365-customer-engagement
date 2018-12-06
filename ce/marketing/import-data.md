@@ -52,7 +52,7 @@ Here are some guidelines to help make sure that your file will be imported succe
    - .csv file: A data file with a .csv file extension. Typically a .csv file consists of fields and records, stored as text, in which the fields are separated from one other by commas.
    - [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
-3. If your import file is a .csv file, make sure that it is correctly delimited. You can use double quotation marks (") or single quotation marks (') as data delimiters.
+3. If your import file is a .csv file, make sure that it is correctly delimited. You can use double quotation marks () or single quotation marks (') as data delimiters.
 
 4. Make sure the first line of the file is a row of column headings. Add column headings (text used in the first row of a workbook or file that labels the data in each column) if they are not already present.
 
@@ -80,8 +80,8 @@ For example, the following lines show what the data might look like for a .csv f
 
 ```Excel
 Company,Last Name,First Name,Topic,Email,Mobile Phone
-"Designer Bikes""Groth""Brian""Mountain bikes""someone@example.com""555-555-0112"
-"Major Sporting [!INCLUDE[pn-good-shortest](../includes/pn-good-shortest.md)]s""Bedecs""Anna""Components""555-555-0171"
+Designer BikesGrothBrianMountain bikessomeone@example.com555-555-0112
+Major Sporting [!INCLUDE[pn-good-shortest](../includes/pn-good-shortest.md)]sBedecsAnnaComponents555-555-0171
 ```
 
 > [!NOTE]
@@ -119,7 +119,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 8. On the **Review Mapping** page, review how your column headings are mapped to the fields in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
-    ![The Review Mapping page](media/import-csv-mapping.png "The Review Mapping page")
+    ![The Review Mapping page](media/import-csv-mapping.png The Review Mapping page)
 
    - On the left side, by default the **Primary Fields** section of the **Review Mapping** page shows all the required fields for the entity that must be mapped for the data to be imported successfully.
    - If you've selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
@@ -132,11 +132,11 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
    - If the column headings don't match, the unmapped fields will be shown with a red exclamation point.
    - Select a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] field to map to the unmapped column heading of your file.
    - You can also choose **Ignore** from the drop-down list for one or more optional fields. Data from ignored columns won't be imported into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].  
-     ![A field set to be ignored during import](media/import-csv-ignore.png "A field set to be ignored during import")
+     ![A field set to be ignored during import](media/import-csv-ignore.png A field set to be ignored during import)
 
-10. If any column in your source file includes a fixed set of values, you must map the column to a field of type **Option Set** type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, click the ![The Option Set button](media/import-option-set-button.png "Click the Option Set button to map field values") button next to the option set field. The **Option set mapping** section opens:
+10. If any column in your source file includes a fixed set of values, you must map the column to a field of type **Option Set** type. A column of this type has values such as Yes or No, or Hot, Warm, or Cold. To do this, click the ![The Option Set button](media/import-option-set-button.png Click the Option Set button to map field values) button next to the option set field. The **Option set mapping** section opens:
 
-     ![The option-set value mapping menu](media/import-option-set-values.png "The option-set value mapping menu")
+     ![The option-set value mapping menu](media/import-option-set-values.png The option-set value mapping menu)
 
     - For each **Source Option Values** item, click an item from the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** list to map it, and then click OK.
     - The **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** drop-down list combines the values available in the incoming file with those already in the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database. For example:
@@ -144,22 +144,22 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
       - **Values already in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**: Cold, Warm, Hot
       - **Resulting target values**: Cold, Warm, Hot, Low, High
 
-    - After import, the import wizard will add all mapped values to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but will drop unmapped values from the import file that aren't yet in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For example, you could map the "Low" source value to the "Cold" target value, but map the "High" source value to the (new) "High" target value. Based on these mappings, the import wizard creates "High" as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] target value. It does not create "Low" as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] target value because you didn't map any source to this target value.
+    - After import, the import wizard will add all mapped values to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but will drop unmapped values from the import file that aren't yet in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For example, you could map the Low source value to the Cold target value, but map the High source value to the (new) High target value. Based on these mappings, the import wizard creates High as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] target value. It does not create Low as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] target value because you didn't map any source to this target value.
 
       > [!NOTE]
-      > You can also map a column in your source file to a field of type "Two Options" and "Multiselect Option Set" (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** list. When mapping to a field of type "Multiselect Option Set," if your source file includes values that aren't available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], new values won't be created in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+      > You can also map a column in your source file to a field of type Two Options and Multiselect Option Set (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren't available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], new values won't be created in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 11. If some data in your source file references other existing records in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you must map the column in the source file to a lookup field of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-     For example, you might want to import a file named Leads.csv, which contains customer records. The **Customer** column in Leads.csv contains the associated account or contact data. To map this, select the ![The Lookup Reference button](media/import-lookup-reference-button.png "The Lookup Reference button") button next to the lookup field. The **Lookup Reference** section opens and lists the entities related to the current entity.
+     For example, you might want to import a file named Leads.csv, which contains customer records. The **Customer** column in Leads.csv contains the associated account or contact data. To map this, select the ![The Lookup Reference button](media/import-lookup-reference-button.png The Lookup Reference button) button next to the lookup field. The **Lookup Reference** section opens and lists the entities related to the current entity.
 
-    ![The Lookup Reference section](media/import-lookup-reference-section.png "The Lookup Reference section")
+    ![The Lookup Reference section](media/import-lookup-reference-section.png The Lookup Reference section)
 
      For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.
 
 12. To save your mapping settings for next time, enter a name in the **Name your data map** box. This way, the next time you need to import a similar set of data, you'll be able to use this mapping again.
 
-     ![Name your data map here](media/import-save-settings.png "Name your data map to use it again")
+     ![Name your data map here](media/import-save-settings.png Name your data map to use it again)
 
 13. When you're ready to continue, select **Finish Import** to import that data by using your mappings.
 
@@ -194,7 +194,7 @@ You must wait for an import job to be completed before you can repair failures.
 1. After the import is complete, the **Success**, **Failure**, and **Partial Import** columns will show the number of records that were successfully imported, failed to be imported, or were partially imported.
 1. Open the import file to view the records that were not imported or were partially imported. Double-click the import file record.
 1. Use the tabs to see information about failures, success, or partial failure of records during import.  
-![Results of your import](media/import-results.png "Results of your import")
+![Results of your import](media/import-results.png Results of your import)
 1. On the **Failures** tab, select **Export Error Rows** to export rows that failed to be imported to a new .csv file. You can correct the errors in this file, and then import it.
 
 ## Delete imported records

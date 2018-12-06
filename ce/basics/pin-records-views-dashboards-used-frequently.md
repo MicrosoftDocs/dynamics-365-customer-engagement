@@ -1,20 +1,20 @@
 ---
 title: "Get back to (or pin) the records, views, or dashboards you used most recently (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: mduelae
 ms.assetid: 12a83cb3-cce2-42cf-aaff-8eb3fc7d9bcb
 caps.latest.revision: 7
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: mkaur
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 

@@ -1,22 +1,22 @@
 ---
 title: "Write mobile and modern apps (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement apps provide separate clients for phones and tablets which adapt to system customizations and configurations"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "mobile, modern,app"
+  - mobile, modern,app
 ms.assetid: 16d118f7-b8fa-4a23-8e56-6148669d3bc0
 caps.latest.revision: 24
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "sakudes"
+author: SushantSikka
+ms.author: susikka
+manager: sakudes
 search.audienceType: 
   - developer
 search.app: 

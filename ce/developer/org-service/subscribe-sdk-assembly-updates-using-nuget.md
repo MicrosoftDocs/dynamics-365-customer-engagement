@@ -1,20 +1,20 @@
 ---
 title: "Subscribe to SDK assembly updates using NuGet (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use of NuGet packages in your application project enables you to keep your project up-to-date with the latest releases of the SDK assemblies and tools. Learn how to subscribe to SDK assembly updates using NuGet"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 39957a5b-ca3b-4598-93d3-7846503acaeb
 caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

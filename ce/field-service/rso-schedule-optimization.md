@@ -44,7 +44,7 @@ search.app:
     - A typical error would be that the SASKey has not been configured,
         meaning RSO Azure resources are not set up correctly.
 
-      > [!div class="mx-imgBorder"]
+      > [!div class=mx-imgBorder]
       > ![](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
 
 ### Buttons and functions for optimization schedules 
@@ -53,7 +53,7 @@ search.app:
     them. Notice the **Status** in this screenshot is **Unpublished**. To
     publish, click **Publish** in the upper left.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/bbe38ac8b3f58d5e4efa2ba02569aedd.png)
 
 - **PUBLISH ALL**: Publishes all schedules.
@@ -63,7 +63,7 @@ search.app:
 
 The next screenshot shows the publish status of the schedule, the date it was last modified, and the next scheduled run date and time.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![](media/23236bac372efcec3f509581b6eeb026.png)
 
 - **RUN NOW**: Run RSO on demand, regardless of the timer setting.
@@ -71,29 +71,29 @@ The next screenshot shows the publish status of the schedule, the date it was la
   > [!NOTE]
   > RUN NOW is also an API. The user can call this API to run RSO per their business needs. For example, whenever there is a P1 work order requirement, you can re-run RSO right away.
 
-  > [!div class="mx-imgBorder"]
+  > [!div class=mx-imgBorder]
   > ![](media/aca2f6dd56b36554da71ec18db377610.png)
 
 ## Monitoring optimization requests
 
 Once a schedule has been published, you can open it and monitor the scheduling optimization requests (RSO jobs). You can drill into each of these to see the bookings associated with that RSO job run.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![](media/98f6a265bb86b85773c06dcb989447f1.png)
 
 1. You can see which resources are being optimized, and which are not (and for
     what reason).  
     
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/6de4990e642d4562abf53d7d7c611ae4.png)
  
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/1df29d0660d6ec43db91d6225ebed17a.png)
 
 2. You can view booking details as well as analytic charts showing how many
     hours of travel time versus how many work hours are scheduled for this run.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/90184c1cc8f19a3d3bb9aeea31eed69d.png)
 
 ## Leveraging the schedule board to review optimization results 
@@ -107,12 +107,12 @@ With schedule board integration, you can:
 
 **How to get there:** Navigate to your Optimization Schedules, select your schedule, and click **SCHEDULE BOARD** on the grid view, or open the Optimization Schedules record form and click **SCHEDULE BOARD** on the form.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![](media/c7f68e46401aff45535576fb1176baf7.png)
 
 </br>
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![](media/0cf8f7f1138f3f06eed053bb175a2412.png)
 
 </br>
@@ -120,7 +120,7 @@ With schedule board integration, you can:
 **Feature Details**: After clicking **SCHEDULE BOARD**, you will see the
 following:
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![](media/103235c890fd2d8b65bf7ab21e067400.png)
 
 1. In the Filter section, the system prepopulated filters match **Scope** \>
@@ -140,17 +140,17 @@ following:
 
 5. The icon and tooltip indicate resources not in the optimization scope.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/788cb6d9aafe0054cc7f80104b1c9118.png)
 
 6. The lock icon and tooltip indicate that the booking has been locked.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/bc24e45a8cb7c5b1abbe5bcf1dc9582c.png)
 
 7. Yellow lines indicate the start and end time for the optimization range.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/9d7bade5e07d6be6a9de9eb71f0767fb.png)
 
 8. **From** / **To** date and time match the time range defined in the
@@ -159,13 +159,13 @@ following:
     optimization schedules, the change will apply to all of these schedules with
     the same scope.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/bb08f80f5a17873c061505d0f5b805cd.png)
 
 9. Select a goal and click **Run Now** to trigger an on-demand optimization
     request.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![](media/2a968cbadafd96d1881d1e01053b8680.png)
 
 10. The optimization request will show the status and details. If an exception
@@ -186,14 +186,14 @@ You can schedule lock options. There are four types:
        this indicates you want RSO to reoptimize this booking on 5/25/2018 and
        time of day doesn’t matter.
 
-     > [!div class="mx-imgBorder"]
+     > [!div class=mx-imgBorder]
      > ![](media/ff525574bddea8e5b50adbb2e1381267.png)
 
    - If **Time Window Start** and **Time Window End** are set as shown in this
      screenshot, it indicates you want RSO to schedule the booking from 3 AM to 6
      AM and date doesn’t matter.
 
-     > [!div class="mx-imgBorder"]
+     > [!div class=mx-imgBorder]
      > ![](media/79a74b15392b9d62cdef7c9334e65520.png)
 
    - If **Time From Promised** and **Time To Promised** are set as shown in this
@@ -201,14 +201,14 @@ You can schedule lock options. There are four types:
      10 AM on 5/24/2018 and it has to be within that specific date and specific
      time range.
 
-     > [!div class="mx-imgBorder"]
+     > [!div class=mx-imgBorder]
      > ![](media/15e2c158dedd80554b7eb933d6c57122.png)
 
    - If **Date Window Start/End** and **Time From/To Promised** are set as shown
      in this screenshot, it indicates you want RSO to schedule a booking between
      3 AM and 6 AM on 5/25/2018.
 
-     > [!div class="mx-imgBorder"]
+     > [!div class=mx-imgBorder]
      > ![](media/1da5485805579d347ce208cdcde0a22c.png)
 
      > [!NOTE]

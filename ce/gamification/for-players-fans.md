@@ -4,10 +4,10 @@ description: "Find a collection of pointers to the most relevant help articles w
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: index-page
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4aa06e76-6c87-424e-9068-58e706ddd7f9

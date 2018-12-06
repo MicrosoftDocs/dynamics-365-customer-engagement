@@ -1,13 +1,13 @@
 ---
 title: "getGlobalContext (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 01/23/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 for Customer Engagement (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: d87e0614-f365-4ed1-992a-741575bb2b7e
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

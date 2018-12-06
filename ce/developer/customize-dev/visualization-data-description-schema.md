@@ -1,20 +1,20 @@
 ---
 title: "Visualization data description schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. "
-ms.custom: ""
+ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c923e9fd-c687-4671-9ffd-1306da9f80d8
 caps.latest.revision: 14
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

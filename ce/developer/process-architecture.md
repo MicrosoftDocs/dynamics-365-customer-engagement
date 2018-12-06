@@ -1,20 +1,20 @@
 ---
 title: "Dynamics 365 for Customer Engagement Process architecture (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic illustrates the high-level system architecture for Dynamics 365 for Customer Engagement apps, and highlights parts of the system that are specific to processes."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/16/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8150b437-8c14-4668-910d-2910ba16b503
 caps.latest.revision: 28
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

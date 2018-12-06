@@ -1,11 +1,11 @@
 ---
 title: "Cannot find the Setup configuration file | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 54e163ea-ca95-43ee-a300-30f4d696df99
 caps.latest.revision: 4
 robots: noindex,nofollow

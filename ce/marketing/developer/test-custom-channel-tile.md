@@ -38,7 +38,7 @@ To make the custom channel tile available in the customer journey designer:
     ![Custom Content tiles](../media/marketing-custom-channel-tile.png)
 
 
-> [!div class="nextstepaction"]
+> [!div class=nextstepaction]
 > [Publish custom channel on AppSource](publish-custom-channel-appsource.md)
 
 ### See also

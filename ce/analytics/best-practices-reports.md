@@ -1,22 +1,22 @@
 ---
 title: "Best practices for reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5e78f1bf-9124-4a83-b049-c257e8237ff3
 caps.latest.revision: 16
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: Mattp123
+ms.author: matp
+manager: amyla
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - customizer
 search.app: 

@@ -1,17 +1,17 @@
 ---
 title: "Manage access to PowerApps apps by using security roles | MicrosoftDocs"
 description: "Learn how to control access to your PowerApps apps"
-keywords: ""
+keywords: 
 ms.date: 04/12/2018
 ms.service: crm-online
 ms.custom: 
   - dyn365-deflc
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: c00f867d-78f0-4f3e-a716-f7b25f9d343a
 ms.author: matp
 manager: kvivek

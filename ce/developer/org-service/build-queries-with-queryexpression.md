@@ -1,34 +1,34 @@
 ---
 title: "Build queries with QueryExpression (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the QueryExpression class to programmatically build a query containing data filters and search conditions that define the scope of a database search"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "saving queries"
-  - "query expressions, used for single-object searches"
-  - "complex queries, introduction"
-  - "building queries by using QueryExpression, creating queries that contain data filters and search conditions"
-  - "query expressions, about; definition; using"
-  - "QueryBase; QueryExpression; and QueryByAttribute classes, differences between"
-  - "building queries by using QueryExpression, introduction"
-  - "queries, samples"
-  - "QueryBase; QueryExpression; and QueryByAttribute classes, introduction to building queries"
-  - "creating queries to retrieve records, available types in CRM"
-  - "queries, simple"
-  - "queries, saving"
-  - "queries, complex"
+  - saving queries
+  - query expressions, used for single-object searches
+  - complex queries, introduction
+  - building queries by using QueryExpression, creating queries that contain data filters and search conditions
+  - query expressions, about; definition; using
+  - QueryBase; QueryExpression; and QueryByAttribute classes, differences between
+  - building queries by using QueryExpression, introduction
+  - queries, samples
+  - QueryBase; QueryExpression; and QueryByAttribute classes, introduction to building queries
+  - creating queries to retrieve records, available types in CRM
+  - queries, simple
+  - queries, saving
+  - queries, complex
 ms.assetid: 44d32c72-284a-43d3-96f5-d9b0a0486949
 caps.latest.revision: 48
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -23,7 +23,7 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 > 
 >  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/en-us/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
 
-<a name="BKMK_Compare"></a>   
+<a name=BKMK_Compare></a>   
 ## Comparing Dynamics 365 App for Outlook with Dynamics 365 for Outlook  
  The following table compares [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] features with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (also known as the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] client or add-in) as of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)].  
 
@@ -53,7 +53,7 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 |                              Create Word mail-merge documents                               |                                            No                                             |                                        Yes                                        |
 |                                Control field synchronization                                |                                            No                                             |                                        Yes                                        |
 
-<a name="BKMK_Requirements"></a>   
+<a name=BKMK_Requirements></a>   
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
 
@@ -159,7 +159,7 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 ### Supported clients per feature  
  The [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] features supported depend on the client you're running. The following table summarizes which features are supported for each client/configuration of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
 
- ![Clients supported for each Dynamics 365 App for Outlook feature](media/clients-supported-for-each-dynamics-365-app-for-outlook-feature.png "Clients supported for each Dynamics 365 App for Outlook feature")  
+ ![Clients supported for each Dynamics 365 App for Outlook feature](media/clients-supported-for-each-dynamics-365-app-for-outlook-feature.png Clients supported for each Dynamics 365 App for Outlook feature)  
 
  (1)  [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] supports [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)], [!INCLUDE[tn_Safari](../includes/tn-safari.md)] 9, [!INCLUDE[tn_Safari](../includes/tn-safari.md)] 10, [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)], and [!INCLUDE[tn_chrome](../includes/tn-chrome.md)].  
 
@@ -202,7 +202,7 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 |German - 1031|Polish - 1045|Vietnamese - 1066|  
 |Greek - 1032|Portuguese (Brazil) - 1046||  
 
-<a name="BKMK_Deploy"></a>   
+<a name=BKMK_Deploy></a>   
 ## Deploy Dynamics 365 App for Outlook  
  After setting up [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] and setting the required privileges, you can push [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to some or all users, or you can have users install it themselves as needed.  
 
@@ -228,14 +228,14 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 
 #### To have users install the app themselves  
 
-1. Users click the **Settings** button ![Settings button](media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365**.  
+1. Users click the **Settings** button ![Settings button](media/mp-ua-r16-settings.png Settings button), and then click **Apps for Dynamics 365**.  
 
 2. In the **Apps for Dynamics 365** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
 
 > [!NOTE]
 >  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](http://go.microsoft.com/fwlink/p/?LinkID=613099).  
 
-<a name="BKMK_DeployOnprem"></a>   
+<a name=BKMK_DeployOnprem></a>   
 ## To deploy to Dynamics 365 on-premises users  
  Follow these steps if you're using Dynamics 365 on-premises.  
 
@@ -243,15 +243,15 @@ People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-cr
 
 -   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
 
-<a name="BKMK_Troubleshoot"></a>   
+<a name=BKMK_Troubleshoot></a>   
 ## Troubleshooting installation problems  
  If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)  
 
-<a name="BKMK_Explore"></a>   
+<a name=BKMK_Explore></a>   
 ## Explore the User’s Guide and train your users  
  To learn how to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], [see the Dynamics 365 App for Outlook User’s Guide](http://go.microsoft.com/fwlink/p/?LinkID=613099).  
 
- ![Dynamics 365 App for Outlook User's Guide page](media/dynamics-365-app-for-outlook-user-s-guide-page.png "Dynamics 365 App for Outlook User's Guide page")  
+ ![Dynamics 365 App for Outlook User's Guide page](media/dynamics-365-app-for-outlook-user-s-guide-page.png Dynamics 365 App for Outlook User's Guide page)  
 
 ## See Also  
  [Dynamics 365 App for Outlook User's Guide](http://go.microsoft.com/fwlink/p/?LinkID=613099)   

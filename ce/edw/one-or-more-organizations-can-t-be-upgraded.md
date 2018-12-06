@@ -1,11 +1,11 @@
 ---
 title: "One or more organizations can't be upgraded | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: e633cad0-3cfd-4327-85dd-25859c47b802
 caps.latest.revision: 6
 robots: noindex,nofollow

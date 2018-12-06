@@ -1,20 +1,20 @@
 ---
 title: "Query metadata using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The capability to query system metadata is available using the Web API as well as using the organization service by using RetrieveMetadataChangesRequest"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3ad4a332-a304-421f-a9fa-82ea3e0503fe
 caps.latest.revision: 18
-author: "brandonsimons" # GitHub ID
-ms.author: "jdaly"
-manager: "amyla"
+author: brandonsimons # GitHub ID
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

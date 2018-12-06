@@ -65,9 +65,9 @@ You can create two option set-based dimensions. Use **Resource Work Location** t
 You can create data for entity-based dimensions manually, or by using Microsoft Excel import or service calls. Use the steps in this procedure to create two standard titles, **Systems Engineer** and **Senior Systems Engineer** from the entity-based dimension, **Standard Title**. If the data that you want to create is small, as in the following example, you can use a standard form.
 
 1. In PSA, click **Advanced Find**. Select the entity **Standard Title** and then click **Results**. All of the rows in the **Standard Title** entity will be shown.
-2. Click **New**. In the **Name** field, enter "Systems Engineer" and then click **Save**.
+2. Click **New**. In the **Name** field, enter Systems Engineer and then click **Save**.
 3. Close the form. 
-4. Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".
+4. Repeat steps 1 - 3 to create another standard title for Senior Systems Engineer.
 
 > ![Sample Data for Standard Title entity ](media/ST-data.png)
 

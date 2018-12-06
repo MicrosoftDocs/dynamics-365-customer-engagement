@@ -41,7 +41,7 @@ You can see a list of all your event records by going to **Events** &gt; **Event
 
 If you often run similar events, then you can save time by setting up one or more [event templates](event-templates.md) and then choosing an appropriate template when you first create a new event. 
 
-![Example of an event record](media/event-record.png "An example of an event record")
+![Example of an event record](media/event-record.png An example of an event record)
 
 As with many other forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
 
@@ -121,7 +121,7 @@ When you're looking at a list view of team members, the list includes both a **U
 
 The core attractions of your event offering will typically be its sessions and speakers. A simple event might have just one session, whereas a conference will typically have several sessions spread over several days.
 
-<a name="sessions"></a>
+<a name=sessions></a>
 
 ### Set up event sessions and tracks
 
@@ -136,7 +136,7 @@ Use the **Agenda** tab of an event record to view and set up sessions and sessio
 - Each session is associated with a specific event and speaker, and includes scheduling details.
 - For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
 
-<a name="speakers"></a>
+<a name=speakers></a>
 
 ### Set up and assign session speakers
 
@@ -152,7 +152,7 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 - A speaker record must exist.
 - If you're assigning a session, a session record must exist. (For single-session events, you might not have a session record and instead will treat the event itself as a session.)
 
-<a name="event-passes"></a>
+<a name=event-passes></a>
 
 ## Set up event passes
 
@@ -164,9 +164,9 @@ For a simple event, you might set up just one pass type, which grants access to 
 
 To view and create passes for an event, open the appropriate event record and go to its **Registration & Attendance** tab.
 
-When setting up a pass, pay attention to the **Passes Allocated** field, where you set the number of passes available, and its related fields: **Passes Sold** and **Passes Remaining**. Each time a pass is granted to an attendee, the **Passes Sold** number automatically increases and the **Passes Remaining** number decreases. When **Passes Remaining** reaches zero, that pass will be shown on the portal as "sold out" and will no longer be available for purchase by further attendees. If you set **Passes Allocated** to zero, that pass won't be shown on the portal at all; you might do this for VIP passes, or to keep a pass as a draft until you're ready to publish it by setting **Passes Allocated** to a positive value.
+When setting up a pass, pay attention to the **Passes Allocated** field, where you set the number of passes available, and its related fields: **Passes Sold** and **Passes Remaining**. Each time a pass is granted to an attendee, the **Passes Sold** number automatically increases and the **Passes Remaining** number decreases. When **Passes Remaining** reaches zero, that pass will be shown on the portal as sold out and will no longer be available for purchase by further attendees. If you set **Passes Allocated** to zero, that pass won't be shown on the portal at all; you might do this for VIP passes, or to keep a pass as a draft until you're ready to publish it by setting **Passes Allocated** to a positive value.
 
-<a name="venues"></a>
+<a name=venues></a>
 
 ## Set up the event venue
 

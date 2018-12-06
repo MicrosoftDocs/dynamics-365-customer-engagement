@@ -1,22 +1,22 @@
 ---
 title: "Programming models (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement apps offers several programming models designed to give you the flexibility to decide what works best for your needs."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 14127ed4-0506-4071-a408-6052048ba299
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 tags: 
-  - "aug2017"
-  - "MigrationHO"
+  - aug2017
+  - MigrationHO
 search.audienceType: 
   - developer
 search.app: 

@@ -1,29 +1,29 @@
 ---
 title: "Use LINQ to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Discusses how to use .NET Language-Integrated Query(LINQ) query provider in Dynamics 365 for Customer Engagement to construct a query"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "LINQ operators and their limitations, select clause"
-  - "LINQ operators and their limitations, orderby operator"
-  - "LINQ operators and their limitations, from clause"
-  - "LINQ operators and their limitations"
-  - "LINQ operators and their limitations, join clause"
-  - "LINQ operators and their limitations, where clause"
-  - "LINQ queries, using LINQ to construct queries"
-  - "using LINQ to construct queries, LINQ operators and their limitations"
+  - LINQ operators and their limitations, select clause
+  - LINQ operators and their limitations, orderby operator
+  - LINQ operators and their limitations, from clause
+  - LINQ operators and their limitations
+  - LINQ operators and their limitations, join clause
+  - LINQ operators and their limitations, where clause
+  - LINQ queries, using LINQ to construct queries
+  - using LINQ to construct queries, LINQ operators and their limitations
 ms.assetid: 8fda7c51-ce40-4263-aeac-804dc79ea212
 caps.latest.revision: 41
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

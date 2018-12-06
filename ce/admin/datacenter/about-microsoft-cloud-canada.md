@@ -1,19 +1,19 @@
 ---
 title: "About Microsoft Cloud Canada  | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: f54d7392-fae3-4a72-8f2a-ad3b932834dc
 caps.latest.revision: 8
-author: "jimholtz"
-ms.author: "jimholtz"
+author: jimholtz
+ms.author: jimholtz
 search.audienceType: 
   - admin
 search.app: 

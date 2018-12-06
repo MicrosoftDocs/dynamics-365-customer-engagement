@@ -1,20 +1,20 @@
 ---
 title: "Stop and start the asynchronous service (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about stopping and starting the asynchronous service by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: f3492a19-2a93-4477-853f-ee6bd3ea750d
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

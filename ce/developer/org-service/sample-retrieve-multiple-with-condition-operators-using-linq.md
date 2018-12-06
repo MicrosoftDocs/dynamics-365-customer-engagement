@@ -1,24 +1,24 @@
 ---
 title: "Sample: Retrieve multiple with condition operators using LINQ (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve multiple condition operators with .NET Language-Integrated Query (LINQ)"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "retrieving multiple condition operators by using LINQ sample"
-  - "sample for retrieving multiple condition operators by using LINQ"
-  - "LINQ query examples and samples, retrieving multiple condition operators by using LINQ sample"
+  - retrieving multiple condition operators by using LINQ sample
+  - sample for retrieving multiple condition operators by using LINQ
+  - LINQ query examples and samples, retrieving multiple condition operators by using LINQ sample
 ms.assetid: 38c7ffda-ac37-49d2-a627-b15384a8246b
 caps.latest.revision: 20
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

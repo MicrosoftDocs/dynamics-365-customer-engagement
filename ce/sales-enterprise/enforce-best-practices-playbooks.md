@@ -1,16 +1,16 @@
 ---
 title: "Enforce best practices with playbooks (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Guide your team members with predefined activities to ensure they follow a consistent approach on recurrent events or scenarios."
-keywords: "playbook, consistent, best practice"
+keywords: playbook, consistent, best practice
 ms.date: 10/16/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 5cf16e02-ed49-4a65-917d-e4768e3ed497
 author: shubhadaj
 ms.author: shujoshi

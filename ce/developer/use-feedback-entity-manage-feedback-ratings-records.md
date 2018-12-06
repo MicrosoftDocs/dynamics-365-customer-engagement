@@ -1,19 +1,19 @@
 ---
 title: "Use the Feedback entity to manage feedback and ratings for Dynamics 365 for Customer Engagement records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the feedback eneity to obtain feedback and ratings for the records."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c0d69f7b-5016-44e7-8b73-1f8c2de5b526
 caps.latest.revision: 13
-author: "KumarVivek"
-ms.author: "kvivek"
+author: KumarVivek
+ms.author: kvivek
 search.audienceType: 
   - developer
 search.app: 

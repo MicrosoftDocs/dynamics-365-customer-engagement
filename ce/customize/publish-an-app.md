@@ -1,15 +1,15 @@
 ---
 title: "Publish a Dynamics 365 for Customer Engagement app using the app designer | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 11/18/2016
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "shubhadaj"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shubhadaj
 ms.assetid: b0bbadd4-50d6-45d6-930c-1896fb11cc02
 ms.author: shujoshi
 ms.reviewer: 

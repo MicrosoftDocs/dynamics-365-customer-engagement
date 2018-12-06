@@ -1,25 +1,25 @@
 ---
 title: "Messages in the discovery service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses the messages that are used with the discovery service DiscoveryRequest) method. Some supported messages are RetrieveUserIdByExternalIdRequest, RetrieveOrganizationRequest and RetrieveOrganizationsRequest."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "discovery service web service, messages in"
-  - "messages in the discovery service, about"
-  - "discovery service web service, supported messages for the Execute method"
-  - "discovery service web service, deployment types"
+  - discovery service web service, messages in
+  - messages in the discovery service, about
+  - discovery service web service, supported messages for the Execute method
+  - discovery service web service, deployment types
 ms.assetid: d6ecf6b2-6d20-4d7f-8577-ef5d42637a1a
 caps.latest.revision: 32
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,12 +1,12 @@
 ---
 title: "Manage access tokens in Social Engagement | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
-keywords: "tokens, oauth, validation"
+keywords: tokens, oauth, validation
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
 author: m-hartmann
 ms.author: mhart

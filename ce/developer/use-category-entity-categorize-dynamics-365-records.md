@@ -1,19 +1,19 @@
 ---
 title: "Use the Category entity to categorize Dynamics 365 for Customer Engagement records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about categorizing the entity records using category entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ee0b24ea-c0f5-4f6a-bd66-53b7617f62cc
 caps.latest.revision: 9
-author: "KumarVivek"
-ms.author: "kvivek"
+author: KumarVivek
+ms.author: kvivek
 search.audienceType: 
   - developer
 search.app: 

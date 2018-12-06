@@ -1,11 +1,11 @@
 ---
 title: "Microsoft SQL Server full-text search component is not installed | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 765e9c0e-3045-4d28-bc73-a3b9e58db3d4
 caps.latest.revision: 4
 robots: noindex,nofollow

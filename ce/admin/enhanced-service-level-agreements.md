@@ -1,20 +1,20 @@
 ---
 title: "Enhanced service level agreements for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "anjgupta"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: anjgupta
 ms.assetid: 67599faa-8b55-420a-b0eb-9161b35a67ff
 caps.latest.revision: 11
-ms.author: "anjgup"
-manager: "sakudes"
+ms.author: anjgup
+manager: sakudes
 search.audienceType: 
   - admin
 search.app: 

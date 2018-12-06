@@ -40,7 +40,7 @@ The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../
 
 The first thing you do each time you create a new message, page, or form is to choose a template.  You can easily work with the supplied content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
 
-![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
+![Dialog for choosing an email template](media/email-template-dialog.png Dialog box for choosing an email template)
 
 When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 
@@ -53,12 +53,12 @@ You can easily create custom templates to match your organization's communicatio
 
 All email and page templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide style controls to help you quickly adapt them to the colors used by your organization or campaign. The style settings vary according to which template you choose. Designs based on a blank template don't provide styling controls unless you (or your system customizer) have programmed them to do so by using the right HTML markup.
 
-![Style settings for email templates](media/email-template-styles.png "Style settings for email templates")
+![Style settings for email templates](media/email-template-styles.png Style settings for email templates)
 
 Here are some common style settings provided by the out-of-the-box templates:
 
-- **Outer background**: The color shown outside of your message content (behind the "paper")
-- **Inner background**: The color shown behind your message content (the "paper color")
+- **Outer background**: The color shown outside of your message content (behind the paper)
+- **Inner background**: The color shown behind your message content (the paper color)
 - **Hero image settings**: The hero image, when present, is usually the largest image on the page, generally located at or near the top of the message. These settings control the source URL of the image and the style settings that affect it. Use the browse button for the **Hero image** setting to choose an image from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] image library.
 - **Font and body text settings**: These set typographical options that apply to most of the text in your message, but usually not headings.
 - **Colors**: A good graphic design shouldn't include too many colors, and the colors should harmonize with each other. Templates typically use two to four colors that you can set individually to match your preferred color palette. These colors typically map to heading text, call-to-action buttons, text-box backgrounds, and borders used in the design. The following naming conventions are used most typically (additional colors are sometimes provided):

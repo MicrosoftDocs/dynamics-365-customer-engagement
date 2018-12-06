@@ -52,13 +52,13 @@ To create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience
 
 1. Open the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience** tab.  
 
-    ![The LinkedIn Matched Audience tab](media/linkedin-segment.png "The LinkedIn Matched Audience tab")
+    ![The LinkedIn Matched Audience tab](media/linkedin-segment.png The LinkedIn Matched Audience tab)
 
 1. Select **Next** to initiate the matched-audience wizard, which will walk you through all the steps needed to sign in to your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account and authorize the integration.
 
 1. Follow the instructions on your screen to complete the integration. When you're done, you'll be in the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign manager, where you can see your new audience and all the other audiences  you have uploaded so far.  
 
-    ![Matched Audiences on LinkedIn](media/linkedin-matched-audiences.png "Matched Audiences on LinkedIn")
+    ![Matched Audiences on LinkedIn](media/linkedin-matched-audiences.png Matched Audiences on LinkedIn)
 
 1. You can now use your new audience to target a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign. Please see the [LinkedIn documentation](https://www.linkedin.com/help/lms) for details.
 

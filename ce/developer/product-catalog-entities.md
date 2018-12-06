@@ -1,26 +1,26 @@
 ---
 title: "Product catalog entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Enables the creation of rich product classification systems that support the definition of: hierarchical structures, product bundles, or related products, multiple pricing or discounting models, automatic price lists, and localized names and descriptions."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "product catalog entities, deactivating obsolete products"
-  - "product catalog entities, associating products with accounts and sales literature"
-  - "deactivating obsolete products, product catalog entities"
-  - "product catalog entities, terms defined for products and pricing"
-  - "product catalog entities, introduction"
-  - "associating products with accounts and sales literature, product catalog entities"
+  - product catalog entities, deactivating obsolete products
+  - product catalog entities, associating products with accounts and sales literature
+  - deactivating obsolete products, product catalog entities
+  - product catalog entities, terms defined for products and pricing
+  - product catalog entities, introduction
+  - associating products with accounts and sales literature, product catalog entities
 ms.assetid: 1915ba81-7d8f-46a7-88de-4c7a1aa24b04
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

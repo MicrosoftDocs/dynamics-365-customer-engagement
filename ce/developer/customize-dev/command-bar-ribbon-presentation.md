@@ -1,20 +1,20 @@
 ---
 title: "Command bar or ribbon presentation (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Data defining commands in Dynamics 365 for Customer Engagement (online) Customer Engagement can be presented in several different ways depending on the client and differences in how some entities are treated. You need to take these factors into consideration as you change ribbon commands or define new ones."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0eda8edd-3fc1-4b88-9413-b3cd89a30028
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

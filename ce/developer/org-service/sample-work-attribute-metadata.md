@@ -1,13 +1,13 @@
 ---
 title: "Sample: Work with attribute metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to perform various actions on attributes."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 377198f5-ac08-40e1-a727-f3ac51e7a01e
 author: JimDaly
 ms.author: jdaly

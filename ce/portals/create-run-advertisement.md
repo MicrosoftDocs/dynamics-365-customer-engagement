@@ -27,7 +27,7 @@ Create text or image-based ads and have them run in multiple placements througho
 
 ## Create a new advertisement
 
-Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the ad placement. The ad must be associated with an ad placement to appear on the portal. For this demonstration, the out-of-the-box example "Place Holder" ad and "Sidebar Bottom" ad placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity before you create more complex ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration call on the "Sidebar Bottom" ad placement name.
+Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the ad placement. The ad must be associated with an ad placement to appear on the portal. For this demonstration, the out-of-the-box example Place Holder ad and Sidebar Bottom ad placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity before you create more complex ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration call on the Sidebar Bottom ad placement name.
 
 1. Go to **Portals** > **Ads**
 2. Open the **Placeholder** ad associated with the **Company Portal** website (this can be done with the starter site of your choosing by selecting **+New** and creating an identical ad below the Website). 
@@ -39,17 +39,17 @@ Within the Ad form, you specify a **Name** to describe the ad, the **Website** w
 ## Create a new advertisement placements
 
 1. Go to **Portals** > **Ad Placements**.
-2. Select the Web Template Field to select a Web Template. For demonstration purposes, the "Random Ad" Web Template was chosen.
+2. Select the Web Template Field to select a Web Template. For demonstration purposes, the Random Ad Web Template was chosen.
 3. On the rightmost corner of the Ads grid, select **+** to select the ad created in the previous step.
 4. Select the **Save** icon in the lower-right corner
 
 When creating a new ad placement, specify a **Name** to describe the ad placement and the **Website** where the ad placement will be displayed as required. The example Web Templates that enable the use of ads as an out-of-the-box feature will be displayed within the lookup of the Web Template field in the form. These templates are also intended to be used as a source to create custom templates.
 
-![See lookup record](media/see-lookup-record.png "See lookup record")  
+![See lookup record](media/see-lookup-record.png See lookup record)  
 
-![Sidebar bottom settings](media/set-sidebar-bottom.png "Sidebar bottom settings")  
+![Sidebar bottom settings](media/set-sidebar-bottom.png Sidebar bottom settings)  
 
-![Ad company portal](media/ad-company-portal.png "Ad company portal")  
+![Ad company portal](media/ad-company-portal.png Ad company portal)  
 
 > [!NOTE] 
 > The ad created above will not be displayed on the home page of the starter portal.
@@ -63,12 +63,12 @@ This template renders an ad by name, or a random ad from an ad placement. Curren
 ```
 {% include 'ad' ad_name:'Name' %}
 {% include 'ad' ad_placement_name:'Placement Name' %}
-1. {% include 'Random Ad' placement:ads.placements["Sidebar Bottom"] %}
+1. {% include 'Random Ad' placement:ads.placements[Sidebar Bottom] %}
 ```
 OR 
 
 ```
-1. {% include 'Ad Template' ad:ads{"Retail Ad - Go Greene"] %}
+1. {% include 'Ad Template' ad:ads{Retail Ad - Go Greene] %}
 ```
 
 

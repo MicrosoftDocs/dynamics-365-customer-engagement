@@ -22,8 +22,8 @@ Boost your sales close rates with information that will help you find, understan
  [!INCLUDE[pn_insights](../includes/pn-insights.md)], powered by InsideView is a preferred provider solution that your administrator can add from the Dynamics 365 for Customer Engagement Administration Center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md)  
   
 ## Get started  
- [![Reader button](../insights-insideview/media/reader-button.png "Reader button")](http://go.microsoft.com/fwlink/p/?LinkId=328957) [Insights, powered by InsideView User Guide](http://go.microsoft.com/fwlink/p/?LinkID=328957)  
+ [![Reader button](../insights-insideview/media/reader-button.png Reader button)](http://go.microsoft.com/fwlink/p/?LinkId=328957) [Insights, powered by InsideView User Guide](http://go.microsoft.com/fwlink/p/?LinkID=328957)  
   
- [![Reader button](../insights-insideview/media/reader-button.png "Reader button")](http://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](http://go.microsoft.com/fwlink/p/?LinkId=524621)  
+ [![Reader button](../insights-insideview/media/reader-button.png Reader button)](http://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](http://go.microsoft.com/fwlink/p/?LinkId=524621)  
   
  [InsideView home page](http://go.microsoft.com/fwlink/p/?LinkId=524622)

@@ -1,12 +1,12 @@
 ---
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
-keywords: "get started, onboarding, key features"
+keywords: get started, onboarding, key features
 ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 author: m-hartmann
 ms.author: mhart

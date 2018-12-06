@@ -29,7 +29,7 @@ search.app:
 The topics in this folder apply to Dynamics 365 for Customer Engagement apps, version 8.x. Other topics apply to Dynamics 365 for Customer Engagement apps, version 9.x or both 9.x and 8.x. Review the **Applies to** at the top of each topic.
 
 > [!TIP]
->  To determine your revision of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../../admin/media/user-settings-button.png "User settings button")) > **About**.  
+>  To determine your revision of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../../admin/media/user-settings-button.png User settings button)) > **About**.  
 
 ## Privacy notice  
  [!INCLUDE [cc-privacy-crm-mobile-offline](../../includes/cc-privacy-crm-mobile-offline.md)]

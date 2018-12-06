@@ -36,7 +36,7 @@ search.app:
   
  Here's how to do it:  
   
-1. Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+1. Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png Dynamics 365 for Customer Engagement apps ellipsis).  
   
 2. Tap **Settings**.  
   

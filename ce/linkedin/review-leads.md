@@ -32,7 +32,7 @@ When a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matches a lead reco
 To see the details of a lead record, go to **Sales** > **Leads** and select the lead record from the list. If the lead was created by [!include[Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)], the lead source is **[!include[LinkedIn](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, the system updates the lead field values by using the information submitted by the lead on [!include[LinkedIn](../includes/pn-linkedin.md)].
 More information about creating or editing a lead: [Dynamics 365 for Customer Engagement Help & Training: Create or edit a lead](https://go.microsoft.com/fwlink/p?linkid=832163).
 
-![Review and analyze leads and lead performance](media/See-details-of-lead.png "Review and analyze leads and lead performance")
+![Review and analyze leads and lead performance](media/See-details-of-lead.png Review and analyze leads and lead performance)
 
 1. Information about the lead from [!include[LinkedIn](../includes/pn-linkedin.md)]
 2. Source from which the lead originated and the [!include[LinkedIn](../includes/pn-linkedin.md)] campaign related to this lead
@@ -42,11 +42,11 @@ More information about creating or editing a lead: [Dynamics 365 for Customer En
 
 Work with a dashboard containing charts about the source of new leads, or create new dashboards by using the charts that matter the most to get your reporting completed.</br>
 
-![Review aggregated lead performance](media/Review-aggregated-lead-performance.png "Review aggregated lead performance")
+![Review aggregated lead performance](media/Review-aggregated-lead-performance.png Review aggregated lead performance)
 
 When you create your own dashboard, consider adding a chart for the record type **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions** to see how your campaigns perform compared to each other. Or, you can create a **Leads by Source** chart for the record type **Lead**. Give it a try!
 
-![Add a component to dashboard](media/Add-component-to-dashboard.png "Add a component to the dashboard")
+![Add a component to dashboard](media/Add-component-to-dashboard.png Add a component to the dashboard)
 
 More information about building custom dashboards: [Create or customize dashboards](https://go.microsoft.com/fwlink/p/?linkid=834422) and [Manage dashboard components](https://go.microsoft.com/fwlink/p/?linkid=320334) in [Dynamics 365 for Customer Engagement Help Center](http://go.microsoft.com/fwlink/p/?LinkId=394323).
 
@@ -54,7 +54,7 @@ More information about building custom dashboards: [Create or customize dashboar
 
 To see all form submissions, go to **Sales** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!include[LinkedIn](../includes/pn-linkedin.md)] members when they answered the underlying [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen form. 
 
-![Analyze LinkedIn Lead Gen Forms](media/Analyze-LinkedIn-lead-gen-forms.png "Analyze LinkedIn Lead Gen Forms")
+![Analyze LinkedIn Lead Gen Forms](media/Analyze-LinkedIn-lead-gen-forms.png Analyze LinkedIn Lead Gen Forms)
 
 ## Establish and grow relationships with [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator
 

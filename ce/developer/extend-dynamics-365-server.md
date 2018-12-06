@@ -1,31 +1,31 @@
 ---
 title: "Extend Dynamics 365 for Customer Engagement apps on the server (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The section describes capabilities to extend Dynamics 365 for Customer Engagement apps on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "Microsoft Dynamics CRM, programming the SDK"
-  - "programming the Microsoft Dynamics CRM SDK, introduction"
-  - "Microsoft Dynamics CRM SDK, programming the SDK"
-  - "Microsoft Dynamics CRM Online, programming the SDK"
-  - "Microsoft Dynamics CRM, writing code for"
-  - "programming Microsoft Dynamics CRM Online, introduction"
-  - "writing code for Microsoft Dynamics CRM, introduction"
-  - "programming Microsoft Dynamics CRM, introduction"
-  - "Microsoft Dynamics CRM Online, writing code for"
-  - "writing code for Microsoft Dynamics CRM Online, introduction"
+  - Microsoft Dynamics CRM, programming the SDK
+  - programming the Microsoft Dynamics CRM SDK, introduction
+  - Microsoft Dynamics CRM SDK, programming the SDK
+  - Microsoft Dynamics CRM Online, programming the SDK
+  - Microsoft Dynamics CRM, writing code for
+  - programming Microsoft Dynamics CRM Online, introduction
+  - writing code for Microsoft Dynamics CRM, introduction
+  - programming Microsoft Dynamics CRM, introduction
+  - Microsoft Dynamics CRM Online, writing code for
+  - writing code for Microsoft Dynamics CRM Online, introduction
 ms.assetid: 608aa482-1727-4809-95b4-a2953dbc54d9
 caps.latest.revision: 44
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

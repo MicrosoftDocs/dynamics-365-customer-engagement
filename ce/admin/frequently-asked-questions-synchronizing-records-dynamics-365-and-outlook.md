@@ -1,20 +1,20 @@
 ---
 title: "Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/15/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a6b483be-88ff-4264-b834-92a536deb45e
 caps.latest.revision: 50
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

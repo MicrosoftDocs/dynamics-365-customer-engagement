@@ -1,21 +1,21 @@
 ---
 title: "Create and design forms | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 99c795e0-9165-4112-85b1-6b5e1a4aa5ec
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: rdubois
+manager: brycho
 tags: 
-  - "Links to topic not migrated"
+  - Links to topic not migrated
 search.audienceType: 
   - customizer
 search.app: 

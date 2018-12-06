@@ -27,7 +27,7 @@ With Dynamics 365 for Customer Engagement for Customer Engagement, you have seve
 -   **Application updates**, which are provided as an update package that can be automatically installed by using [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)].  
   
   
-<a name="BKMK_CRMSetup"></a>   
+<a name=BKMK_CRMSetup></a>   
 ## Dynamics 365 for Customer Engagement for Customer Engagement Setup update  
  Dynamics 365 for Customer Engagement for Customer Engagement Setup update, also known as *self-healing* Setup, makes sure that you have the latest version of Setup. By using this feature, you can update the Setup program, before it installs anything on the computer, for the following Dynamics 365 for Customer Engagement for Customer Engagement applications:  
   
@@ -39,7 +39,7 @@ With Dynamics 365 for Customer Engagement for Customer Engagement, you have seve
   
  To use Setup update, select **Get updates for Microsoft Dynamics 365 for Customer Engagement** during Setup.  For  Dynamics 365 for Customer Engagement for Outlook, Setup update applies the latest published update package at the end of Setup.  
   
-<a name="BKMK_UpdateRollup"></a>   
+<a name=BKMK_UpdateRollup></a>   
 ## Microsoft Dynamics 365 for Customer Engagement for Customer Engagement application updates  
  Dynamics 365 for Customer Engagement for Customer Engagement publishes updates in a package format that is a collection of software updates. Microsoft fully tests and supports installing any published update for Dynamics 365 for Customer Engagement for Customer Engagement at the time of its release. <!-- Get the latest Dynamics 365 for Customer Engagement application updates [KB: Microsoft Dynamics 365 for Customer Engagement on-premises cumulative updates](https://support.microsoft.com/kb/3142345).  -->
   

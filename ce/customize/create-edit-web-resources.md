@@ -1,21 +1,21 @@
 ---
 title: "Create or edit web resources in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create or edit a web resource"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: ef4ba8df-9ba9-4066-b40d-def9761c7de2
 caps.latest.revision: 21
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

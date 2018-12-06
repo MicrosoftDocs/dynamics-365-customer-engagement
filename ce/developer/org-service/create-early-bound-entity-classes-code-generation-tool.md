@@ -1,13 +1,13 @@
 ---
 title: "Create early bound entity classes with the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 05/11/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 06abab26-40fc-4b85-9a2a-5e68903ea138
 author: JimDaly
 ms.author: jdaly

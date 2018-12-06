@@ -1,20 +1,20 @@
 ---
 title: "Get started with SharePoint integration (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "By using SharePoint Server document management capabilities, you can control how documents are created, reviewed, published and disposed or archived"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 00e5e847-d64c-46c8-92a2-19bcf17b9a76
 caps.latest.revision: 57
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

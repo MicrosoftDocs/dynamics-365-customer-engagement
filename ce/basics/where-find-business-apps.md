@@ -1,19 +1,19 @@
 ---
 title: "Where to find your business apps (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
-author: "shubhadaj"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises)
+author: shubhadaj
 ms.assetid: 03968b0d-5505-45d0-90ff-4bacefbf3559
 caps.latest.revision: 15
-ms.author: "shujoshi"
+ms.author: shujoshi
 search.audienceType: 
   - enduser
 search.app: 

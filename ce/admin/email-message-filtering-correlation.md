@@ -1,20 +1,20 @@
 ---
 title: "Email message filtering and correlation for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 053e42e3-078e-4768-9c76-5ad3a0ff1fa9
 caps.latest.revision: 24
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

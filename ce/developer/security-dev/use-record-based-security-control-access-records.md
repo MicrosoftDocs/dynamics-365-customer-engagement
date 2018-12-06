@@ -1,20 +1,20 @@
 ---
 title: "Use record-based security to control access to records (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides record-based security to manage access rights to individual Customer Engagement records."
-ms.custom: ""
+ms.custom: 
 ms.date: 08/18/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f2b7ddcc-6678-492f-8b4b-478e00049362
 caps.latest.revision: 39
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

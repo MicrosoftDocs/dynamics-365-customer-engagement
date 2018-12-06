@@ -30,7 +30,7 @@ Liquid objects can return one of seven basic types: **String**, **Number**, **Bo
 A String is declared by wrapping text in single or double quotes.
 
 ```
-{% assign string_a = "Hello World!" %}
+{% assign string_a = Hello World! %}
 
 {% assign string_b = 'Single quotes work too.' %}
 ```
@@ -96,7 +96,7 @@ This entity list has {{ entitylist.views.size }} views.
 Dictionaries hold a collection of values that can be accessed by a string key. You can access a given item by string key using \[ \], iterate over them using the **for tag**, and get the number of items in the dictionary using the size property.
 
 ```
-{{ request.params["ID"] }}
+{{ request.params[ID] }}
 
 {% if request.params.size > 0 %}
 
@@ -118,7 +118,7 @@ A DateTime object represents a specific date and time.
 Null represents an empty or non-existent value. Any outputs that attempt to return a null value will render nothing. It will be treated as false in conditions.
 
 ```
-{% if request.params["ID"] %}
+{% if request.params[ID] %}
 
 This will render if the ID request parameter is NOT null.
 

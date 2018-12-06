@@ -4,12 +4,12 @@ description: "Configure your browser to allow pop-up windows and JavaScript."
 ms.custom: 
   - dyn365-socialengagement
 ms.date: 09/12/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: b7134fb0-2a84-4881-9ded-05fab9edcfc8
 caps.latest.revision: 11
 author: m-hartmann

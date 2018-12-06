@@ -1,22 +1,22 @@
 ---
 title: "Azure integration with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about connecting Dynamics 365 for Customer Engagement apps with the Azure platform by coupling the Dynamics 365 for Customer Engagement apps event execution pipeline to the Azure Service Bus."
-ms.custom: ""
+ms.custom: 
 ms.date: 09/19/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "azure, about crm integration"
+  - azure, about crm integration
 ms.assetid: fbfa6e40-52d2-4042-a9fb-93f1b1cd1c1a
 caps.latest.revision: 73
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

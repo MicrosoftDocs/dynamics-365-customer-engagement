@@ -3,11 +3,11 @@ title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft
 description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365 for Customer Engagement
 keywords: 
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "ReneeW-CPub"
-ms.author: "renwe"
-manager: "annbe"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: ReneeW-CPub
+ms.author: renwe
+manager: annbe
 ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app

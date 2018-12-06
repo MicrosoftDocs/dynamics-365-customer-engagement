@@ -3,21 +3,21 @@ title: "Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Product documentation for Dynamics 365 for Customer Engagement apps and services. Formerly known as Dynamics CRM."
 ms.date: 06/06/2018
 ms.service: dynamics-365-crossapp
-ms.topic: "index-page"
+ms.topic: index-page
 ms.custom:
   - dyn365-customerservice
   - dyn365-marketing
   - dyn365-Sales
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e25bb9ce-315e-44e2-b4a1-8dcd310ddc1b
 ms.author: jdaly
 author: JimDaly
 manager: jdaly
 nodes_to_expand:
-- "Core Content"
-- "Solutions Content"
+- Core Content
+- Solutions Content
 ---
 
 # [!INCLUDE [pn-dyn-365](includes/pn-dyn-365.md)] for Customer Engagement 

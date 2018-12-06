@@ -1,28 +1,28 @@
 ---
 title: "Which entities are customizable? (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about the entities properties that are customizable."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "which entities are customizable?"
-  - "entity metadata properties that control customization"
-  - "customizing entities, fully customizable entities"
-  - "customizing entities, properties of customizable entities"
-  - "customizing entities, entity metadata properties that control customization"
-  - "entities, which entities are customizable?"
-  - "customizing entities, which entities are customizable?"
+  - which entities are customizable?
+  - entity metadata properties that control customization
+  - customizing entities, fully customizable entities
+  - customizing entities, properties of customizable entities
+  - customizing entities, entity metadata properties that control customization
+  - entities, which entities are customizable?
+  - customizing entities, which entities are customizable?
 ms.assetid: f9807600-8cfd-4879-9005-f3a2068aceb8
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

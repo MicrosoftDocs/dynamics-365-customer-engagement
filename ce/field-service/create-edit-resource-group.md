@@ -45,7 +45,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
    - **Business Unit**  
   
-        To locate and select a business unit, click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
+        To locate and select a business unit, click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif Lookup button).  
   
    - **Description**  
   
@@ -59,7 +59,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
 7. In the **Look Up** dialog box, select the users, facilities/equipment, teams, or other resource groups to add to this resource group.  
   
-    Adding other resource groups to a resource group is a good way to manage large numbers of resources. For example, you could add the resource groups of "senior technicians" and "junior technicians" to a resource group of "technicians."  
+    Adding other resource groups to a resource group is a good way to manage large numbers of resources. For example, you could add the resource groups of senior technicians and junior technicians to a resource group of technicians.  
   
 8. Click **OK** to add the selected resources to the resource group.  
   

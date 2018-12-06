@@ -9,9 +9,9 @@ ms.date: 04/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 search.audienceType: 
   - customizer

@@ -1,19 +1,19 @@
 ---
 title: "Plug-in isolation, trusts, and statistics (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about collecting run-time statistics and monitors plug-ins and custom workflow activities that execute in the sandbox."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fe83bfd4-7ac1-4b9c-8cea-dc32d3ed60b6
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

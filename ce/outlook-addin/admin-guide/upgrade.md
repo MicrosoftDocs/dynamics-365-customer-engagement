@@ -41,7 +41,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
 |December 2016 Update for Dynamics 365 for Customer Engagement apps|Version: 08.02.0000.0749.<br /><br /> Published: 12/16/2016.<br /><br /> [Download](https://www.microsoft.com/download/details.aspx?id=54515).<br /><br /> This is an update for CRM 2016 for Outlook and not a full installation.|  
 |Dynamics 365 for Outlook|This is the new name for Dynamics CRM for Outlook.|  
   
-<a name="BKMK_Requirements"></a>  
+<a name=BKMK_Requirements></a>  
 ## Microsoft Dynamics CRM for Outlook upgrade requirements  
   
 |                                                          Requirement                                                           |                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                    |
@@ -52,7 +52,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
 |                                                      Verify base language                                                      |                                                                                                       To upgrade [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the base language of [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] must match the base language of [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)].                                                                                                        |
 |       Verify [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] is in online mode        | You cannot upgrade [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] when it is in **Go offline** mode. You must bring [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] online before you can upgrade to [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)]. To check, in [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)]: click **File** > **Dynamics CRM** and verify the tile says **Go Offline**. |
   
-<a name="BKMK_Task1"></a>   
+<a name=BKMK_Task1></a>   
 ## Task 1: Upgrade Dynamics CRM 2015 for Outlook to Dynamics CRM 2016 for Outlook  
  Follow this procedure to upgrade to [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] on a computer that has [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] installed.  
   
@@ -82,7 +82,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 7. On the completion page of the **Microsoft Dynamics 365 for Outlook Setup** wizard, click **Close**.  
   
-<a name="BKMK_Task2"></a>   
+<a name=BKMK_Task2></a>   
 ## Task 2: Update Dynamics 2016 for Outlook  
  Follow this procedure to upgrade [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] on a computer that has it installed.  
   
@@ -90,7 +90,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 2.  Complete the installation steps and close the program.  
   
-<a name="BKMK_Task3"></a>   
+<a name=BKMK_Task3></a>   
 ## Task 3: Configure Dynamics 365 for Outlook  
  After the upgrade from [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] attempts to use the configuration information that was used by [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)].  
   
@@ -120,11 +120,11 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 6. If you are a member of more than one organization, restart the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] to designate a different organization as your current organization.  
   
-<a name="BKMK_Silent"></a>   
+<a name=BKMK_Silent></a>   
 ## Silent installation and configuration  
  You use the command prompt to install and configure [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-using-command-prompt.md)  
   
-<a name="BKMK_Architecture"></a>   
+<a name=BKMK_Architecture></a>   
 ## Cross-architecture upgrade of Microsoft Dynamics 365 for Outlook  
  If you intend to change to a different architecture (move from 32-bit to 64-bit) while upgrading, note the following:  
   

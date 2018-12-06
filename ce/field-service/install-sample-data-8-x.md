@@ -1,17 +1,17 @@
 ---
 title: "Sample data installation (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 09/28/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
+  - field-service
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "krbjoran"
-ms.author: "shellyha"
-ms.manager: "shellyha"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: krbjoran
+ms.author: shellyha
+ms.manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -79,7 +79,7 @@ You should plan for the computer to remain connected to a network, and for the i
 
 The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of screensaver settings, with screensaver turned off](media/sample-data-1.png)
 
 ## Download and unpack
@@ -104,7 +104,7 @@ The **FPSMasterData** package is designed to install with one user named Spencer
 
 To create or configure users, go to **Settings** > **Security** > **Users**, and do the following:
 
-1. Set UserFullname="Spencer Low" with username "spencerl" (**lowercase**) to the Project Manager and Practice Manager roles.
+1. Set UserFullname=Spencer Low with username spencerl (**lowercase**) to the Project Manager and Practice Manager roles.
 
 2. Select the **Spencer Low** user, and then select **Manage Roles**. Find and select the **System Administrator** role, and then select **OK** to grant full admin rights to Spencer Low. This step is necessary to ensure that sample records are created with the correct user ownership and therefore populate views correctly.
 
@@ -124,18 +124,18 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
 
     a. Select deployment type **Office 365**.
 
-    b. Use the user and password of the system administrator user configured in "Create or configure users" ("Spencer Low" with "spencerl" username).
+    b. Use the user and password of the system administrator user configured in Create or configure users (Spencer Low with spencerl username).
 
     c. Make sure **Display list of available organizations** is selected.
 
-      > [!div class="mx-imgBorder"]
-      > ![Screenshot of package deployer window with "Display list of available organizations" checked](media/sample-data-2.png)
+      > [!div class=mx-imgBorder]
+      > ![Screenshot of package deployer window with Display list of available organizations checked](media/sample-data-2.png)
 
 4. Select the Dynamics 365 for Customer Engagement organization where you want to install the sample data.
 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
 
 6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
@@ -154,10 +154,10 @@ After the sample data completely loads, sign in as the Spencer Low user and conf
 
 - If the Field Service application is installed, go to **Project Service** > **Settings** > **Price Lists**. Confirm that bill rates and costs rates exist. Go to **Field Service** > **Settings** > **Price Lists** and check that bill rates and costs rates exist, with the appropriate currency, for each country/region in the data set.
 
-  > [!div class="mx-imgBorder"]
+  > [!div class=mx-imgBorder]
   > ![Screenshot of active price lists](media/sample-data-4.png)
 
-  > [!div class="mx-imgBorder"]
+  > [!div class=mx-imgBorder]
   > ![Screenshot of active organizational units](media/sample-data-5.png)
 
 ## Technical notes
@@ -256,7 +256,7 @@ If you need to change the work hours for sample bookable resources, go to **Univ
 
 Select a user (for example, Spencer Low) and change Spencer's work hours to the hours you want to apply to multiple users. Go to **Universal Resource Scheduling** > **Settings** > **Work Hour Templates** and edit the **Default Work Template** record. In the **Template Resource** field, select a user with work hours that you want to apply to other resources. Go to **Universal Resource Scheduling** > **Scheduling** > **Resources** > **Active Bookable Resources**. Select the resources you want to change, and then select **Set Calendar**. On the **Work Template** drop-down list, select the **Default Work Hour** template or another template with the correct templating resource. When you go the schedule board, you should be able to see that the resources now have updated work hours.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of active bookable resources](media/sample-data-6.png)
 
   

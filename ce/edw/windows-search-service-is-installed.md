@@ -1,11 +1,11 @@
 ---
 title: "Windows Search Service is installed | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 80e8d771-8575-4f75-913a-1e2c3f0de6b8
 caps.latest.revision: 3
 robots: noindex,nofollow

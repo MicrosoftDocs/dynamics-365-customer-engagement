@@ -4,24 +4,24 @@ description: "Understand how Unified Service Desk can help your service agents."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: d05a55c8-f73a-4f91-8c33-f5fdbc69b01d
 caps.latest.revision: 4
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 

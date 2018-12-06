@@ -1,19 +1,19 @@
 ---
 title: "Ignore blank values and inactive records in duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Improve result quality by creating duplicate detection rules that ignore blank values and inactive records."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7b905429-1bde-4ba5-a523-62ab770b2582
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

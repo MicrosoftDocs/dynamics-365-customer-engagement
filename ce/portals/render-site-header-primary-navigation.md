@@ -30,28 +30,28 @@ Render a website header and primary navigation bar, using portals settings, snip
 
 
 ```xml
-<div class="masthead hidden-xs">
-  <div class="container">
-    <div class="toolbar">
-      <div class="toolbar-row">
+<div class=masthead hidden-xs>
+  <div class=container>
+    <div class=toolbar>
+      <div class=toolbar-row>
 
         {% assign search_enabled = settings['search/enabled'] | boolean | default:true %}
         {% assign search_page = sitemarkers['Search'] %}
         {% if search_enabled and search_page %}
-          <div class="toolbar-item toolbar-search">
-            <form method="GET" action="{{ search_page.url }}" role="search">
-              <label for="q" class="sr-only">
-                  {{ snippets["Header/Search/Label"] | default:"Search" }}
+          <div class=toolbar-item toolbar-search>
+            <form method=GET action={{ search_page.url }} role=search>
+              <label for=q class=sr-only>
+                  {{ snippets[Header/Search/Label] | default:Search }}
               </label>
-              <div class="input-group">
-                <input type="text" class="form-control" id="q" name="q"
-                  placeholder="{{ snippets["Header/Search/Label"] | default:"Search" }}"
-                  value="{{ params.q }}"
-                  title="{{ snippets["Header/Search/Label"] | default:"Search" }}">
-                <div class="input-group-btn">
-                  <button type="submit" class="btn btn-default"
-                    title="{{ snippets["Header/Search/ToolTip"] | default:"Search" }}">
-                    <span class="fa fa-search" aria-hidden="true"></span>
+              <div class=input-group>
+                <input type=text class=form-control id=q name=q
+                  placeholder={{ snippets[Header/Search/Label] | default:Search }}
+                  value={{ params.q }}
+                  title={{ snippets[Header/Search/Label] | default:Search }}>
+                <div class=input-group-btn>
+                  <button type=submit class=btn btn-default
+                    title={{ snippets[Header/Search/ToolTip] | default:Search }}>
+                    <span class=fa fa-search aria-hidden=true></span>
                   </button>
                 </div>
               </div>
@@ -59,43 +59,43 @@ Render a website header and primary navigation bar, using portals settings, snip
           </div>
         {% endif %}
 
-        <div class="toolbar-item">
-          <div class="btn-toolbar" role="toolbar">
+        <div class=toolbar-item>
+          <div class=btn-toolbar role=toolbar>
             {% if user %}
-              <div class="btn-group">
-                <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                  <span class="fa fa-user" aria-hidden="true"></span>
-                  <span class="username">{{ user.fullname }}</span>
-                  <span class="caret"></span>
+              <div class=btn-group>
+                <a href=# class=btn btn-default dropdown-toggle data-toggle=dropdown>
+                  <span class=fa fa-user aria-hidden=true></span>
+                  <span class=username>{{ user.fullname }}</span>
+                  <span class=caret></span>
                 </a>
-                <ul class="dropdown-menu pull-right" role="menu">
-                  {% assign show_profile_nav = settings["Header/ShowAllProfileNavigationLinks"] | boolean | default:true %}
+                <ul class=dropdown-menu pull-right role=menu>
+                  {% assign show_profile_nav = settings[Header/ShowAllProfileNavigationLinks] | boolean | default:true %}
                   {% if show_profile_nav %}
-                    {% assign profile_nav = weblinks["Profile Navigation"] %}
+                    {% assign profile_nav = weblinks[Profile Navigation] %}
                     {% if profile_nav %}
                       {% for link in profile_nav.weblinks %}
                         <li>
-                          <a href="{{ link.url }}">{{ link.name }}</a>
+                          <a href={{ link.url }}>{{ link.name }}</a>
                         </li>
                       {% endfor %}
                     {% endif %}
                   {% else %}
-                    <li><a href="{{ sitemarkers['Profile'].url }}">{{ snippets["Profile Link Text"] | default:"Profile" }}</a></li>
+                    <li><a href={{ sitemarkers['Profile'].url }}>{{ snippets[Profile Link Text] | default:Profile }}</a></li>
                   {% endif %}
-                  <li class="divider"></li>
+                  <li class=divider></li>
                   <li>
-                    <a href="/account-signout?returnUrl={{ request.raw_url }}">
-                      {{ snippets["links/logout"] | default:"Sign Out" }}
+                    <a href=/account-signout?returnUrl={{ request.raw_url }}>
+                      {{ snippets[links/logout] | default:Sign Out }}
                     </a>
                   </li>
                 </ul>
               </div>
             {% else %}
-              <div class="btn-group">
-                <a class="btn btn-primary"
-                  href="{{ sitemarkers['Login'].url | add_query:'returnurl', request.path_and_query }}">
-                  <span class="fa fa-sign-in" aria-hidden="true"></span>
-                  {{ snippets["links/login"] | default:"Sign In" }}
+              <div class=btn-group>
+                <a class=btn btn-primary
+                  href={{ sitemarkers['Login'].url | add_query:'returnurl', request.path_and_query }}>
+                  <span class=fa fa-sign-in aria-hidden=true></span>
+                  {{ snippets[links/login] | default:Sign In }}
                 </a>
               </div>
             {% endif %}
@@ -107,50 +107,50 @@ Render a website header and primary navigation bar, using portals settings, snip
     {% editable snippets 'Header' type: 'html' %}
   </div>
 </div>
-<div class="header-navbar navbar navbar-default navbar-static-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+<div class=header-navbar navbar navbar-default navbar-static-top role=navigation>
+  <div class=container>
+    <div class=navbar-header>
+      <button type=button class=navbar-toggle data-toggle=collapse data-target=#header-navbar-collapse>
+        <span class=sr-only>Toggle navigation</span>
+        <span class=icon-bar></span>
+        <span class=icon-bar></span>
+        <span class=icon-bar></span>
       </button>
-      <div class="navbar-left visible-xs">
+      <div class=navbar-left visible-xs>
         {% editable snippets 'Mobile Header' type: 'html' %}
       </div>
     </div>
-    <div id="header-navbar-collapse" class="navbar-collapse collapse">
-      <div class="navbar-left hidden-xs">
+    <div id=header-navbar-collapse class=navbar-collapse collapse>
+      <div class=navbar-left hidden-xs>
         {% editable snippets 'Navbar Left' type: 'html' %}
       </div>
-      {% assign primary_nav = weblinks["Primary Navigation"] %}
+      {% assign primary_nav = weblinks[Primary Navigation] %}
       {% if primary_nav %}
-        <div class="navbar-left {% if primary_nav.editable %}xrm-entity xrm-editable-adx_weblinkset{% endif %}" data-weblinks-maxdepth="2">
-          <ul class="nav navbar-nav weblinks">
+        <div class=navbar-left {% if primary_nav.editable %}xrm-entity xrm-editable-adx_weblinkset{% endif %} data-weblinks-maxdepth=2>
+          <ul class=nav navbar-nav weblinks>
             {% for link in primary_nav.weblinks %}
               {% if link.display_page_child_links %}
                 {% assign sublinks = sitemap[link.url].children %}
               {% else %}
                 {% assign sublinks = link.weblinks %}
               {% endif %}
-              <li class="weblink {% if sublinks.size > 0 %} dropdown{% endif %}">
+              <li class=weblink {% if sublinks.size > 0 %} dropdown{% endif %}>
                 <a
                   {% if sublinks.size > 0 %}
-                    href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    href=# class=dropdown-toggle data-toggle=dropdown
                   {% else %}
-                    href="{{ link.url }}"
+                    href={{ link.url }}
                   {% endif %}
-                  {% if link.nofollow %}rel="nofollow"{% endif %}
-                  {% if link.tooltip %}title="{{ link.tooltip }}"{% endif %}>
+                  {% if link.nofollow %}rel=nofollow{% endif %}
+                  {% if link.tooltip %}title={{ link.tooltip }}{% endif %}>
                   {% if link.image %}
                     {% if link.image.url startswith '.' %}
-                      <span class="{{ link.image.url | split:'.' | join }}" aria-hidden="true"></span>
+                      <span class={{ link.image.url | split:'.' | join }} aria-hidden=true></span>
                     {% else %}
-                      <img src="{{ link.image.url }}"
-                        alt="{{ link.image.alternate_text | default:link.tooltip }}"
-                        {% if link.image.width %}width="{{ link.image.width }}"{% endif %}
-                        {% if link.image.height %}height="{{ link.image.height }}"{% endif %}
+                      <img src={{ link.image.url }}
+                        alt={{ link.image.alternate_text | default:link.tooltip }}
+                        {% if link.image.width %}width={{ link.image.width }}{% endif %}
+                        {% if link.image.height %}height={{ link.image.height }}{% endif %}
                       />
                     {% endif %}
                   {% endif %}
@@ -158,25 +158,25 @@ Render a website header and primary navigation bar, using portals settings, snip
                     {{ link.name }}
                   {% endunless %}
                   {% if sublinks.size > 0 %}
-                    <span class="caret"></span>
+                    <span class=caret></span>
                   {% endif %}
                 </a>
   
                 {% if sublinks.size > 0 %}
-                  <ul class="dropdown-menu" role="menu">
+                  <ul class=dropdown-menu role=menu>
                     {% if link.url %}
                       <li>
-                        <a href="{{ link.url }}"
-                          {% if link.nofollow %}rel="nofollow"{% endif %}
-                          {% if link.tooltip %}title="{{ link.tooltip }}"{% endif %}>{{ link.name }}</a>
+                        <a href={{ link.url }}
+                          {% if link.nofollow %}rel=nofollow{% endif %}
+                          {% if link.tooltip %}title={{ link.tooltip }}{% endif %}>{{ link.name }}</a>
                       </li>
-                      <li class="divider"></li>
+                      <li class=divider></li>
                     {% endif %}
                     {% for sublink in sublinks %}
                       <li>
-                        <a href="{{ sublink.url }}"
-                          {% if sublink.nofollow %}rel="nofollow"{% endif %}
-                          {% if sublink.tooltip %}title="{{ link.tooltip }}"{% endif %}>
+                        <a href={{ sublink.url }}
+                          {% if sublink.nofollow %}rel=nofollow{% endif %}
+                          {% if sublink.tooltip %}title={{ link.tooltip }}{% endif %}>
                           {{ sublink.name | default:sublink.title }}
                         </a>
                       </li>
@@ -190,7 +190,7 @@ Render a website header and primary navigation bar, using portals settings, snip
           {% editable primary_nav %}
         </div>
       {% endif %}
-      <div class="navbar-right hidden-xs">
+      <div class=navbar-right hidden-xs>
         {% editable snippets 'Navbar Right' type: 'html' %}
       </div>
     </div>

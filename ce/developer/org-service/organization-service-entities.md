@@ -1,20 +1,20 @@
 ---
 title: "Organization service entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic lists the entities available in default deployments of Dynamics 365 for Customer Engagement."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 236ceb66-5dde-48bb-bffb-5733fd8548fe
 caps.latest.revision: 97
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -48,9 +48,9 @@ The procedure for setting up your trial depends on whether you already have a *m
 
 If you try to install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on an unmanaged tenant, you'll see the following error message when you try to run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard:
 
-![Unmanaged organization error](media/setup-ts-unmanaged-aad.png "Unmanaged organization error")
+![Unmanaged organization error](media/setup-ts-unmanaged-aad.png Unmanaged organization error)
 
-<a name="install-on-existing-tenant"></a>
+<a name=install-on-existing-tenant></a>
 
 ## Install the trial on an existing, managed [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
 
@@ -59,7 +59,7 @@ To sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](
 1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com/).
 
 2. Find and select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]** tile.  
-    ![The Marketing trial tile](media/trial-signup-tile.png "The Marketing trial tile")
+    ![The Marketing trial tile](media/trial-signup-tile.png The Marketing trial tile)
 
     > [!NOTE]
     > In some countries/regions, Microsoft offers concierge trials instead of self-service trials. If you don't see the **Marketing** tile on [trials.dynamics.com](https://trials.dynamics.com/), then go instead to [this sign-up page](https://dynamics.microsoft.com/en-us/get-started/?appname=marketing) to request a call back and get started with a concierge trial, in which a consultant will help you set up and get started with your trial.
@@ -72,7 +72,7 @@ To sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](
 
 6. When your trial instance is ready you'll receive an email with a link to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard. Click the link to launch the wizard and then follow the instructions in [Run the setup wizard](purchase-setup.md) as you work through it.
 
-<a name="get-managed-tenant"></a>
+<a name=get-managed-tenant></a>
 
 ## Sign up for a managed [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial tenant and install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on it
 
@@ -81,20 +81,20 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com/).
 
 1. Select the **Dynamics 365 for Sales** tile.  
-    ![Select the Sales tile](media/trial-signup0.png "Select the Sales tile")
+    ![Select the Sales tile](media/trial-signup0.png Select the Sales tile)
 
-1. The page automatically scrolls down to the bottom. *Don’t select the **Marketing** tile*&mdash;instead select the **Sign up here** link next to "Are you signing up on behalf of a customer or using this trial for development purposes?"  
-    ![Location of the sign up here link](media/trial-signup1.png "Location of the sign up here link")
+1. The page automatically scrolls down to the bottom. *Don’t select the **Marketing** tile*&mdash;instead select the **Sign up here** link next to Are you signing up on behalf of a customer or using this trial for development purposes?  
+    ![Location of the sign up here link](media/trial-signup1.png Location of the sign up here link)
 
 1. A dialog box opens. Choose the **No, continue signing up** link.  
-    ![Select continue signing up](media/trial-signup2.png "Select continue signing up")
+    ![Select continue signing up](media/trial-signup2.png Select continue signing up)
 
 1. A form opens, requesting your contact details. Enter your information.
    > [!IMPORTANT]
    > You must register in a country/region where the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial is available.
 
 1. Continue by following the instructions on your screen and providing the information requested. The last page of the setup asks you to choose a scenario. Be sure to select **All of these**, which makes sure your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user account gets created with system admin privileges, and then select **Complete Setup**.  
-    ![Choose to enable all the apps](media/trial-signup3.png "Choose to enable all the apps")
+    ![Choose to enable all the apps](media/trial-signup3.png Choose to enable all the apps)
 
 1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization will be ready and will open in your browser. Be sure to make a note of your org's URL and your other account details, such as the user name, password, and email address you chose while setting it up.
 
@@ -111,7 +111,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
 1. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Install the trial on an existing, managed Office 365 tenant](#install-on-existing-tenant). Be sure to sign up for the trial using the email address that was created for you when you set up this trial tenant.
 
-<a name="add-users"></a>
+<a name=add-users></a>
 
 ## Add more users to a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial running on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
 

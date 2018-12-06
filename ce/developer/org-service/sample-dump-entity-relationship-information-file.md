@@ -1,13 +1,13 @@
 ---
 title: "Sample: Dump entity relationship information to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write out all the entity relationship metadata to an XML file. It uses the RetrieveAllEntitiesRequest message. "
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 41d4f199-7004-4458-a39a-5f9025550932
 author: JimDaly
 ms.author: jdaly

@@ -1,23 +1,23 @@
 ---
 title: "Walkthrough 5: Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
 description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
-ms.custom: ""
+ms.custom: 
 ms.date: 05/07/2018
-ms.reviewer: ""
-ms.service: "usd"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: usd
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: ED76404B-A0DD-4F59-83FB-C1036BE92961
-author: "kabala123"
-ms.author: "kabala"
-manager: "shujoshi"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer

@@ -25,13 +25,13 @@ search.app:
 # Install Microsoft Dynamics 365 for Outlook for desktop virtualization
 This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with roaming user profiles by using [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)][!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], formerly Terminal Services, is a server role in [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] that provides technologies that enable users to access session-based desktops, virtual machine-based desktops, or applications in the data center from both within a corporate network and from the Internet.  
   
-<a name="BKMK_OC_roamingprofiles"></a>   
+<a name=BKMK_OC_roamingprofiles></a>   
 ## Roaming user profiles  
  A roaming user profile is a copy of the local user profile that is copied to, and stored on, a server share. The advantage of roaming user profiles is that users do not have to create a profile on each computer that they use on a network. Their profile is downloaded to each computer that they log on to on a network. Changes made to a roaming user profile are synchronized with the server copy of the profile when the user logs off.  
   
  While the roaming user profile moves with the user, software applications such as [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] do not. Identical applications have to be installed on each computer that the user logs on to.  
   
-<a name="BMK_OC_RDS"></a>   
+<a name=BMK_OC_RDS></a>   
 ## Windows Server Remote Desktop Services  
  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is supported for running on [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)][!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. When users run an application on [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], the application execution occurs on the server. Only keyboard, mouse, and display information are transmitted over the network. Users see only their own individual sessions, which are managed transparently by the server operating system and remain independent of any other client session.  
   
@@ -86,7 +86,7 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
   
 9. Exit Registry Editor.  
   
-<a name="BKMK_Citrix"></a>   
+<a name=BKMK_Citrix></a>   
 ## Support for Citrix XenApp 6.5 and 7.0-7.18 session virtualization for Microsoft Dynamics 365 for Outlook on a single XenApp instance  
  [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will support Citrix XenApp 6.5 and 7.0 -7.18 with session virtualization for [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)] on a single XenApp instance.  
   

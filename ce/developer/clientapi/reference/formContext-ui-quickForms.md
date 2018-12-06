@@ -2,13 +2,13 @@
 title: "formContext.ui.quickForms (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 for Customer Engagement (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: a04043de-3497-433a-ae73-4101806dd931
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

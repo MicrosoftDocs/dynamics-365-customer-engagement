@@ -1,31 +1,31 @@
 ---
 title: "Field security entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using field security entities to apply field-level security, which restricts field access to specified users and teams."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "field-level security, scope of"
-  - "applying field-level security"
-  - "secured fields, sharing"
-  - "restricting field access"
-  - "field security profile records, creating"
-  - "securing fields vs. securing records"
-  - "field permission attributes"
-  - "field-level security, setting up and using"
-  - "creating field security profile records"
-  - "field access, restricting"
-  - "sharing secured fields"
+  - field-level security, scope of
+  - applying field-level security
+  - secured fields, sharing
+  - restricting field access
+  - field security profile records, creating
+  - securing fields vs. securing records
+  - field permission attributes
+  - field-level security, setting up and using
+  - creating field security profile records
+  - field access, restricting
+  - sharing secured fields
 ms.assetid: 3fa8b175-a73e-4b38-b73d-e385a7c6ced5
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

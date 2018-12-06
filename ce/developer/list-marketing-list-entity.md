@@ -1,28 +1,28 @@
 ---
 title: "List (marketing list) entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about list management and the list (marketing list) entity that help you create lists of potential customers or existing customers for marketing purposes."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "lists (marketing lists), managing"
+  - lists (marketing lists), managing
   - marketing lists, see 'list (marketing list) entity'
-  - "adding members to lists"
-  - "list (marketing list) entity, managing lists"
-  - "list (marketing list) entity, adding members to lists"
-  - "lists (marketing lists), introduction"
-  - "list (marketing list) entity, types of lists: dynamic and static"
+  - adding members to lists
+  - list (marketing list) entity, managing lists
+  - list (marketing list) entity, adding members to lists
+  - lists (marketing lists), introduction
+  - list (marketing list) entity, types of lists: dynamic and static
 ms.assetid: 720709e2-32e0-44bc-87dc-445cb5d16e91
 caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,22 +1,22 @@
 ---
 title: "Register and Deploy Plug-Ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about programmatically register plug-ins and custom workflow activities with Dynamics 365 for Customer Engagement apps by writing registration code using certain SDK classes."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 f1_keywords: 
-  - "plugins"
-  - "plugin"
+  - plugins
+  - plugin
 ms.assetid: c3ee3447-ec0d-494e-8b35-4ec58ce93eea
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

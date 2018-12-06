@@ -1,17 +1,17 @@
 ---
 title: "Authenticate channel users in Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn how to authenticate channel users in the Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps. The Channel Integration Framework supports the SAML based Single Sign-On (SSO) for your agents or users to log in to the widget (channel)."
-keywords: ""
+keywords: 
 ms.date: 10/01/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
+  - dyn365-a11y
+  - dyn365-developer
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 47B90869-152B-48A6-A249-F37059FF9C12
 author: kabala123
 ms.author: kabala

@@ -1,37 +1,37 @@
 ---
 title: "User and team entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about user and team management using which you can create and maintain user accounts and profiles."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a88d9a7c-865c-45cc-be2a-fb5693a58268
 author: KumarVivek
 ms.author: kvivek
 manager: amyla
 helpviewer_keywords: 
-  - "user settings"
-  - "users, significant attributes"
-  - "users and teams, introduction"
-  - "systemuser entity"
-  - "user accounts"
-  - "access types, users"
-  - "team entity"
-  - "teams and users, introduction"
-  - "users, noninteractive"
-  - "records owned, users and teams"
-  - "user license types"
-  - "bulk-assigning of records"
-  - "license types, users"
-  - "system user (user) entity, user and team entities"
-  - "user access types"
-  - "records, bulk-assigning"
-  - "users, synchronizing with Microsoft Office 365"
-  - "security roles, users"
-  - "teams, definition"
+  - user settings
+  - users, significant attributes
+  - users and teams, introduction
+  - systemuser entity
+  - user accounts
+  - access types, users
+  - team entity
+  - teams and users, introduction
+  - users, noninteractive
+  - records owned, users and teams
+  - user license types
+  - bulk-assigning of records
+  - license types, users
+  - system user (user) entity, user and team entities
+  - user access types
+  - records, bulk-assigning
+  - users, synchronizing with Microsoft Office 365
+  - security roles, users
+  - teams, definition
 topic-status: Drafting
 search.audienceType: 
   - developer

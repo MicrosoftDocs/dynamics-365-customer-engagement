@@ -1,29 +1,29 @@
 ---
 title: "Retrieve and delete the history of audited data changes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Programmatically retrieve the audit change history or delete audit records."
-ms.custom: ""
+ms.custom: 
 ms.date: 03/20/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "retrieving and deleting changed-data history (audit history), new partitions created quarterly"
-  - "partitions created quarterly for auditing, used by Microsoft Dynamics 365 and SQL Server with auditing"
-  - "retrieving and deleting changed-data history (audit history), obtaining a list of partitions"
-  - "obtaining changed-data history"
-  - "audit records and history, retrieving and deleting data for"
-  - "deleting audit records, using Microsoft Dynamics 365 and SQL Server with auditing"
-  - "changed-data history, obtaining"
-  - "deleting change history (audit records), how to"
+  - retrieving and deleting changed-data history (audit history), new partitions created quarterly
+  - partitions created quarterly for auditing, used by Microsoft Dynamics 365 and SQL Server with auditing
+  - retrieving and deleting changed-data history (audit history), obtaining a list of partitions
+  - obtaining changed-data history
+  - audit records and history, retrieving and deleting data for
+  - deleting audit records, using Microsoft Dynamics 365 and SQL Server with auditing
+  - changed-data history, obtaining
+  - deleting change history (audit records), how to
 ms.assetid: 53b9a1ac-f9c0-490f-a42f-2efc231b67ff
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

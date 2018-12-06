@@ -1,20 +1,20 @@
 ---
 title: "Create an administrative user and prevent elevation of security role privilege (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 85bb4fd5-da15-4fd6-b297-2b772fb3a5c3
 caps.latest.revision: 5
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

@@ -1,16 +1,16 @@
 ---
 title: "Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional."
-keywords: "Dynamics 365 for Sales, Professional, Enterprise"
+keywords: Dynamics 365 for Sales, Professional, Enterprise
 ms.date: 06/22/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 2987af09-2270-4dae-8fac-0e048d2cc08e
 author: shubhadaj
 ms.author: shujoshi
