@@ -60,7 +60,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 8. Drag a **Segment Group** tile to the first position on the canvas, and then add an **Activity** tile right after it.  
     ![A simple journey to generate activities](media/journey-generate-simple.png "A simple journey to generate activities")  
 
-9. Expand the **Segment Group** tile to expose its child **Segment** tile. Then select the child tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
+9. Expand the **Segment Group** tile to expose its nested **Segment** tile. Then select the nested tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
     ![Assign a segment to the segment tile](media/journey-assign-segment.png "Assign a segment to the segment tile")
 
     [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)

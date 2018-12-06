@@ -57,9 +57,9 @@ To create a customer journey that executes a one-time email blast:
     Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment. Drag a **Segment Group** tile from the **Toolbox** tab onto the first position of the pipeline.
 
 4. Select the expand button at the lower-right corner of your new **Segment Group** tile to view the member segments of this group. Right now, there's just one, so select it.  
-    ![Expand the segment tile to view its child tiles](media/journey-segment-expand.png "Expand the segment tile to view its child tiles")
+    ![Expand the segment tile to view its nested tiles](media/journey-segment-expand.png "Expand the segment tile to view its nested tiles")
 
-5. With the child segment still selected, open the **Properties** tab to the right of the canvas.
+5. With the nested segment still selected, open the **Properties** tab to the right of the canvas.
     ![Assign a segment to the segment tile](media/journey-segment-props.png "Assign a segment to the segment tile")
 
     The **Properties** tab provides settings that apply to the selected tile. Set the **Segment** to the name of the segment that you want to target with your campaign.

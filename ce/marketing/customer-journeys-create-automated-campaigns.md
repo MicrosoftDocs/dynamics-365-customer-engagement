@@ -86,10 +86,10 @@ Legend:
 1. **Tile type**: Shows what type of tile it is (segment, email, trigger, and so on). The icon and color also indicate this.
 1. **Tile name**: Shows the name assigned to this particular tile.
 1. **Tile status**: Shows key statistics about the tile, such as how many contacts are waiting here or how many messages it has sent so far. The information shown varies by tile type.
-1. **Expand button**: Some types of tiles can include child tiles, which are shown nested below their parent tile. Select the expand button to open or close the child-tile display. Tiles that don't accept child tiles don't show a button here.
-1. **Child tiles**: You can view, select, configure, or remove existing child tiles here when the parent tile is expanded. You can add new child tiles by dragging them here or to the parent tile (this also works when the parent is collapsed).
+1. **Expand button**: Some types of tiles can include nested tiles, which are shown nested below their host tile. Select the expand button to open or close the nested-tile display. Tiles that don't accept nested tiles don't show a button here.
+1. **Nested tiles**: You can view, select, configure, or remove existing nested tiles here when the host tile is expanded. You can add new nested tiles by dragging them here or to the host tile (this also works when the host is collapsed).
 
-To configure a tile or child tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
+To configure a tile or nested tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
 
 ### Add tiles by using the command bar and arrow keys
 
