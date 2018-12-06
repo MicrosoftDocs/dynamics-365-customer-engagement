@@ -43,7 +43,7 @@ Open Solution Explorer for the pricing dimension solution and then click **Publi
 ## Set up bookable resource as a pricing dimension
 
 1. In the web interface, go to **Project Service** > **Settings** > **Parameters**. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, notice that the grid on the tab shows the records in the pricing dimensions entity. 
-2. Add **Bookable Resource** to this list of pricing dimensions as **msydyn_bookableresource**. 
+2. Add **Bookable Resource** to this list of pricing dimensions as **msdyn_bookableresource**. 
 3. Indicate the context in which the bookable resource works as a pricing dimension and set the **Applicable to cost** and **Applicable to sales** values.
 4. In the **Dimension Type** field, select **Amount-based**. 
 5. Select the cost and sales priority for the bookable resource. Typically, when included as a pricing dimension, a bookable resource has the highest priority so setting this to **1** (or **0** depending on how you count the priority) would ensure that behavior.
