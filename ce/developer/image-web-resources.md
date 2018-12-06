@@ -1,22 +1,22 @@
 ---
 title: "Image web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using image web resources to make images available for use in Dynamics 365 for Customer Engagement apps. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "images"
-  - "web resource, image"
+  - images
+  - web resource, image
 ms.assetid: dfa3f3e2-471e-4295-be47-ab6936189340
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

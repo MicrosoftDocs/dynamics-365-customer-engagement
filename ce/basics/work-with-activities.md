@@ -1,19 +1,19 @@
 ---
 title: "Work with activities and the activities feed (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 672cc271-0891-42b4-a686-a11cf4b11708
 caps.latest.revision: 5
-author: "brycho"
-ms.author: "brycho"
+author: brycho
+ms.author: brycho
 search.audienceType: 
   - enduser
 search.app: 

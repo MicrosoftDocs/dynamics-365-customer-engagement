@@ -1,24 +1,24 @@
 ---
 title: "Sample: Convert an appointment to a recurring appointment (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to convert an appointment to a recurring appointment series by using the AddRecurrenceRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "schedule and appointment entities"
-  - "sample for converting appointments to recurring appointments"
-  - "converting appointments to recurring appointments sample, schedule and appointment entities samples"
+  - schedule and appointment entities
+  - sample for converting appointments to recurring appointments
+  - converting appointments to recurring appointments sample, schedule and appointment entities samples
 ms.assetid: 0b2a00b8-f970-4201-b10f-9ec13fa32afe
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

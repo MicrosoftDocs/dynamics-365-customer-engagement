@@ -1,13 +1,13 @@
 ---
 title: "Sample: Dump entity privilege information to a file (Dynamics 365 for Customer Engagement apps SDK) | MicrosoftDocs"
 description: "This sample shows how to extract entity privilege information into a file using the organization service."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 22c60ceb-a0d4-460f-a3ce-d8541cf2da21
 author: JimDaly
 ms.author: jdaly

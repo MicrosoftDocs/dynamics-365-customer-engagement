@@ -1,29 +1,29 @@
 ---
 title: "Product pricing methods (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Use the ProductPriceLevel.PricingMethodCode attribute to determine product prices."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "setting prices"
-  - "pricing methods, formulas for"
-  - "pricing methods, about"
-  - "pricing methods"
-  - "product catalog entities, pricing methods"
-  - "setting prices, attributes and values for"
-  - "product catalog entities, formulas for pricing"
-  - "product catalog entities, setting prices"
+  - setting prices
+  - pricing methods, formulas for
+  - pricing methods, about
+  - pricing methods
+  - product catalog entities, pricing methods
+  - setting prices, attributes and values for
+  - product catalog entities, formulas for pricing
+  - product catalog entities, setting prices
 ms.assetid: 0198d2a3-ddfb-474f-9a52-990cf6d1ca5b
 caps.latest.revision: 29
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

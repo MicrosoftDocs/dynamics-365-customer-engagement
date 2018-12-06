@@ -41,11 +41,11 @@ Your resources can use the Project Finder Mobile app on their phone with [!INCLU
   
 4. Set **Allow skill update by resource** to **Yes**.  
   
-   ![ProjectService&#95;ProjectFinderEnable](../project-service/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService&#95;ProjectFinderEnable](../project-service/media/project-service-project-finder-enable.png ProjectService_ProjectFinderEnable)  
   
    This is a global setting. Project managers can set whether an individual project will be visible on that project's **Project Team** page.  
   
-   ![ProjectService&#95;ProjectTeamVisible](../project-service/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService&#95;ProjectTeamVisible](../project-service/media/project-service-project-team-visible.png ProjectService_ProjectTeamVisible)  
   
 ## Email notifications  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sends emails regarding resource requests to the following recipients at the following times:  

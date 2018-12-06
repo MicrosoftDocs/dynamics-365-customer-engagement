@@ -1,28 +1,28 @@
 ---
 title: "UserQuery (saved view) entity (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about saved queries which are business entities that define the parameters and criteria of a database search."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "saved view and saved queries, definitions"
-  - "user query (saved view) entity, as FetchXML statements"
-  - "user query (saved view) entity, Advanced Find section of Microsoft Dynamics CRM"
-  - "user query (saved view) entity, about"
-  - "saved view and saved queries, database searches"
-  - "user query (saved view) entity, import and export capabilities"
-  - "saved view and saved queries"
+  - saved view and saved queries, definitions
+  - user query (saved view) entity, as FetchXML statements
+  - user query (saved view) entity, Advanced Find section of Microsoft Dynamics CRM
+  - user query (saved view) entity, about
+  - saved view and saved queries, database searches
+  - user query (saved view) entity, import and export capabilities
+  - saved view and saved queries
 ms.assetid: b40b50ae-70f6-4868-a1ed-f50414af1c6b
 caps.latest.revision: 13
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

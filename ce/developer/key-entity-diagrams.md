@@ -1,23 +1,23 @@
 ---
 title: "Key to entity diagrams (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about key to entity diagrams to simplify the diagrams and color coding concepts. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "entities"
-  - "entity model diagrams"
-  - "entity relationship diagrams, download set"
+  - entities
+  - entity model diagrams
+  - entity relationship diagrams, download set
 ms.assetid: 1cb0ae80-2277-41e4-a776-bbe978feafc7
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

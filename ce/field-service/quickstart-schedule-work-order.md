@@ -59,21 +59,21 @@ imported from the Package Deployer is recommended. You also need a phone or tabl
 
 Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, go to the [Field Service installation walkthrough](install-field-service.md) for steps to install it. 
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find Field Service in the main menu](media/qs-1-img1.png) 
 
 ### Make sure the mobile solution is installed
 
 Sign in as a system administrator and verify that the Woodford solution listed in **Settings** > **Solutions**. See the following screenshot for reference. If you don't see the Woodford solution go to [mobile solution activation walkthrough](activate-fs-mobile-app-license.md) for steps to install it.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find the Woodford solution in Settings](media/qs-1-img2.png) 
 
 ### Make sure sample data is installed
 
 When sample data is installed, you see multiple records in **Field Service** > **Work Orders**. If you don't see any sample records, check out these [instructions for importing sample data](install-sample-data-8-x.md) for more information.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to verify that sample data is installed](media/qs-1-img4.png) 
 
  ## 1. Assign the dispatcher role to a user 
@@ -84,7 +84,7 @@ When sample data is installed, you see multiple records in **Field Service** > *
 
 - Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is only acting as a dispatcher, then assign the **Field Service—Dispatcher** role.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing field service roles on the Manage Roles dialog](media/qs-1-img6.png)
 
 ## 2. Create a work order or use one from sample data
@@ -100,19 +100,19 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
     - For **Work Order Type**, select an account from the list or create a new one. 
     - For **System Status**, select **Open-Unscheduled**.
     
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot the Summary tab fields for a work order](media/qs-1-img7.png)  
  
 4. On the **Settings** tab: 
     - For **Price List**, select a price list from list or create new one. 
     - Set **Taxable** to **No**.
     
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Settings tab fields for a work order](media/qs-1-img8.png) 
 
 5. On the **Address** tab, enter a valid address. Then choose **Save and close**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the Address tab fields for a work order](media/qs-1-img9.png)  
 
 ## 3. Assign the field technician role to a resource 
@@ -124,22 +124,22 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 > [!NOTE]
 > The user needs a Dynamics 365 for Customer Engagement for Field Service license. After you create the user, verify that you can sign in with the new user record. You may be prompted to set a temporary password.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the Field Service - Resource role on the Manage Roles dialog](media/qs-1-img10.png)
 
 3. Open the field technician’s user record.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the field technician user record](media/qs-1-img11.png)
 
 4. Select **Field Security Profiles**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find Field Security Profiles on the menu](media/qs-1-img12.png)
 
 5. Assign the **Field Service – Resource** field security profile to the field technician user. Note that field technicians can't edit fields on mobile work orders unless they have this profile assigned. 
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the field technician profile view](media/qs-1-img14.png)
 
 ### Set up geo-coding for the field technician user
@@ -147,17 +147,17 @@ Next you need to set up geo-coding for the field technician user. Field technici
 
 1. Navigate to **Settings** > **Users**, and then open the user record to verify there is an address. Addresses are based on the address for the user's record set in Office 365. 
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot shohowing a user address](media/qs-1-img18.png)  
 
 2. If there isn't an address for the user, navigate to the Admin center. Find the user record.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the user record in Office 365](media/qs-1-img19.png)  
 
 3. Enter an address, and then choose **Save**. To see the updated address in the Dynamics 365 for Customer Engagement organization, go back to the field technician user record and refresh the page.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the address fields for the user in Office 365](media/qs-1-img20.png)  
 
 ### Set up geo-coding for the organization
@@ -166,27 +166,27 @@ Setting up geocoding for an organization enables the system to attach latitudes 
 
 1. Navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing settings for scheduling parameters](media/qs-1-img22.png)  
 
 2. Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the Bing maps API field](media/qs-1-img23.png)  
 
 3. Navigate to the user record, and then select **Geocode**. 
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing geocoding on the user record](media/qs-1-img24.png)  
 
 4. Confirm the address, and then choose **Close**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the Found Places dialog](media/qs-1-img25.png)  
 
 5. Choose **Change** to populate the **Scheduling** section of the user record with the latitude and longitude.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Schedule a work order and view it on the mobile application image26](media/qs-1-img26.png)   
 
 > [!NOTE]
@@ -198,7 +198,7 @@ Next, create a bookable resource record for the field technician user. Creating 
 
 1. Navigate to **Field Service** > **Administration** > **Resources**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find the Active Bookable Resources grid](media/qs-1-img28.png)
 
 2. Choose **New**.
@@ -214,7 +214,7 @@ Next, create a bookable resource record for the field technician user. Creating 
     - Display on Schedule Board = **Yes**
     - Enable for Availability Search = **Yes**
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
 
 ## 5. Add the bookable resource to the schedule board
@@ -223,41 +223,41 @@ Next, you add the field technician to the schedule board.
 
 1. Navigate to **Field Service** > **Schedule Board**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find the Schedule Board in the menu](media/qs-1-img32.png)
 
 2. In the **Filter and Map View** panel, select **Options** > **Select Resources**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the Filter and Map view panel](media/qs-1-img33.png)
 
 3. Find the new field technician with the **Resource Type** set to **User**, and then move the user to selected resources. Choose **Apply**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing the Apply command for a selected resource](media/qs-1-img35.png)
 
 ## 6. Schedule the work order to the bookable resource
 
 In the lower pane, find the work order to schedule. This work order is listed in the **Open Requirements** view, and the **Unscheduled Work Orders** view. To schedule the work order, drag it to the field technician.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing how to schedule the work order for the bookable resource](media/qs-1-img36.png)
 
 ## 7. View the scheduled work order on mobile
 
 If necessary, download the **Field Service Mobile (2017)** mobile app from the app store for your phone or tablet.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Schedule a work order and view it on the mobile application image37](media/qs-1-img37.png)
 
 1. Navigate to the **Field Service Mobile (2017)** mobile app, and then choose **Setup**. 
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing where to find the Setup option on the field service mobile app](media/qs-1-img38.png)
 
 2. Select the Dynamics 365 for Customer Engagement account.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing list of accounts on the field service mobile app](media/qs-1-img39.png)
 
 3. Sign in with the username and password for the field technician:
@@ -266,10 +266,10 @@ If necessary, download the **Field Service Mobile (2017)** mobile app from the a
 - For the **Username**, enter the username of the field technician. For example, username@org.onmicrosoft.com
 - For the **Password**, enter the password you set for the field technician.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing sign-in credentials for a field service user](media/qs-1-img40.png)
 
 4. In the **Booking** tab, verify that the work order (or booking) is scheduled for the field technician.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot showing a work order in the field service mobile app](media/qs-1-img41.png)

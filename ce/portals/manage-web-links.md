@@ -3,7 +3,7 @@ title: "Manage web links in Dynamics 365 for Customer Engagement or on portals i
 description: "Instructions to manage web links in Dynamics 365 for Customer Engagement or on portals."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -43,11 +43,11 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the 
 
 7. Select the down arrow next to your web link set name at the top of the screen, and then select **Web Links**.
 
-    ![Select web link](media/web-link.png "Select web link")
+    ![Select web link](media/web-link.png Select web link)
 
 8. To create a new web link, select **Add New Web Link**.
 
-    ![Add web link](media/add-web-link.png "add web link")
+    ![Add web link](media/add-web-link.png add web link)
 
 9. To edit an existing web link, select the web link name.
 
@@ -61,11 +61,11 @@ To modify a web link set, you need appropriate permissions and the web link set 
 
 1.  Point to the web link set and select the **Edit** button that appears. 
 
-    ![Edit primary navigation](media/edit-primary-nav.png "Edit primary navigation")
+    ![Edit primary navigation](media/edit-primary-nav.png Edit primary navigation)
 
     A dialog box appears with a list of web links that can be reordered or removed, and an option to add new links.
 
-    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png "Edit primary navigation dialog box")
+    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png Edit primary navigation dialog box)
 
 2. To reorder the web links, use the move icon to drag and drop the web links.
 
@@ -75,7 +75,7 @@ To modify a web link set, you need appropriate permissions and the web link set 
 
 5.  To add a new web link, select the row with the green plus icon.
 
-    ![Add new link to primary navigation](media/add-new-link.png "Add new link to primary navigation")
+    ![Add new link to primary navigation](media/add-new-link.png Add new link to primary navigation)
 
 6.  Enter a name for the web link.
 
@@ -96,10 +96,10 @@ The table below explains many of the standard Web Link Set properties used by po
 
 | Name    | Description                                                                                                                                                                                  |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name    | The descriptive name of the web link set. This value usually describes the placement of the set in the page template such as "Primary Navigation." This field is required.                   |
+| Name    | The descriptive name of the web link set. This value usually describes the placement of the set in the page template such as Primary Navigation. This field is required.                   |
 | Website | The website to which the entity belongs. This field is required.                                                                                                                             |
-| Title   | An optional title for the web link set. This value can be used on the portal if it's part of the page template. It could be something like "Our Partners" and be displayed in a side bar.    |
-| Copy    | An optional description for the web link set. This value can be used on the portal if it's part of the page template. It could further describe something like "Our Partners" in a side bar. |
+| Title   | An optional title for the web link set. This value can be used on the portal if it's part of the page template. It could be something like Our Partners and be displayed in a side bar.    |
+| Copy    | An optional description for the web link set. This value can be used on the portal if it's part of the page template. It could further describe something like Our Partners in a side bar. |
 ||
 
 ## Web link attributes and relationships
@@ -115,7 +115,7 @@ The table below explains many of the standard Web Link properties used by [!INCL
 |           Page           |                                                                                          An optional webpage from the same website to link to.                                                                                          |
 |        External URL      |                                                                                An optional URL to link to. This value can be any properly formatted URL.                                                                                |
 |       Description        |                                                              An optional summary for the web link. This value can be used on the portal if it's part of the page template.                                                              |
-|     Publishing State     | The current publishing workflow state of the web link, which may dictate whether the web link is visible on the site. The most common use of this feature is to provide "published/draft" control over content. This field is required. |
+|     Publishing State     | The current publishing workflow state of the web link, which may dictate whether the web link is visible on the site. The most common use of this feature is to provide published/draft control over content. This field is required. |
 |    Robots Follow Link    |                                                           Indicates whether or not search indexers should follow and index the contents of the link. This field is required.                                                            |
 |      Display Order       |                                                  An integer value indicating the order in which the web link will be placed, relative to other web links within the same web link set.                                                  |
 | Display Page Child Links |  In a template that supports multilevel web link sets, generate child links for this entity using the portal site map provider. Note that this option is only valid for web links that refer to internal pages, and not external URLs.  |
@@ -129,8 +129,8 @@ The table below explains many of the standard Web Link properties used by [!INCL
 |                          |                                                                                                                                                                                                                                         |
 
 > [!Note]
-> - When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. This validation can be disabled with the "Disable Page Validation" option. 
->   - Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.
+> - When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. This validation can be disabled with the Disable Page Validation option. 
+>   - Users with content management permissions may be granted the ability to use Preview Mode, which allows these users to see (preview) unpublished content.
 
 ### See also
 

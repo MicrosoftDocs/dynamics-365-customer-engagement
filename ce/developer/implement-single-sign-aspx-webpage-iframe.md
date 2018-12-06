@@ -1,25 +1,25 @@
 ---
 title: "Implement single sign-on from an ASPX webpage or IFRAME (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic describes how to develop a custom webpage that can make SDK calls to Dynamics 365 for Customer Engagement apps on behalf of the Dynamics 365 for Customer Engagement apps user who is signed in"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "single sign-on from an ASPX webpage or IFRAME, implementing"
-  - "ASPX webpage with (optionally) IFRAME display, implementing single sign-on from an ASPX webpage or IFRAME"
-  - "Windows Azure-hosted webpage, implementing single sign-on from an ASPX webpage or IFRAME"
-  - "implementing single sign-on from an ASPX webpage or IFRAME, ASPX webpage with (optionally) IFRAME display"
-  - "custom website makes SDK calls to CRM on behalf of logged-on user, separate website for"
+  - single sign-on from an ASPX webpage or IFRAME, implementing
+  - ASPX webpage with (optionally) IFRAME display, implementing single sign-on from an ASPX webpage or IFRAME
+  - Windows Azure-hosted webpage, implementing single sign-on from an ASPX webpage or IFRAME
+  - implementing single sign-on from an ASPX webpage or IFRAME, ASPX webpage with (optionally) IFRAME display
+  - custom website makes SDK calls to CRM on behalf of logged-on user, separate website for
 ms.assetid: c2b38554-eab9-4793-a2f5-62b7a11d99f7
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

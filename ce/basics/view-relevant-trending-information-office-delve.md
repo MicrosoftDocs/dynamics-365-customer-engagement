@@ -1,20 +1,20 @@
 ---
 title: "View relevant and trending information on a dashboard with Office Delve (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e2d95967-f70b-4a68-97d9-a9c889d8fa4f
 caps.latest.revision: 13
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 

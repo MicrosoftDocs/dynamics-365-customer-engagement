@@ -1,20 +1,20 @@
 ---
 title: "Connect to Dynamics 365 for Customer Engagement web services using OAuth (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn how to connect to Dynamics 365 for Customer Engagement web services using OAuth and how the ADAL API manages OAuth 2.0 authentication with the Dynamics 365 for Customer Engagement web service identity provider"
-ms.custom: ""
+ms.custom: 
 ms.date: 03/13/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 05696c45-2a01-4787-aad5-87e2afef2b7f
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

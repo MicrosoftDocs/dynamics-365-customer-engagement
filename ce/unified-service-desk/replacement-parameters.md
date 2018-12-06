@@ -4,17 +4,17 @@ description: "Replacement parameters can be used throughout the application to p
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: fbef0bd3-e118-4a5b-8568-897538972066
 caps.latest.revision: 7
 author: kabala123

@@ -1,16 +1,16 @@
 ---
 title: "Import and export data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "index-page "
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: index-page 
 ms.assetid: fe4feb5a-abd2-47d6-a210-0d31791c1e98
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
+author: jimholtz
+ms.author: jimholtz
 search.audienceType: 
   - enduser
 search.app: 

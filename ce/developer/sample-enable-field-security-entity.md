@@ -1,23 +1,23 @@
 ---
 title: "Sample: Enable field security for an entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to enable field security for an entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "field security entities sample, enabling"
-  - "enabling field security, sample"
+  - field security entities sample, enabling
+  - enabling field security, sample
 ms.assetid: e0219990-26af-46d2-beba-f021b26021cc
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

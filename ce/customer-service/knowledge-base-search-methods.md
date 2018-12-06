@@ -4,9 +4,9 @@ description: Know how the Knowledge base search mechanisms and methods works in 
 keywords: Search the knowledge base; Dynamics 365 for Customer Engagement; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "Dynamics 365 for Customer Engagement Version 8.2"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement Version 8.2
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018

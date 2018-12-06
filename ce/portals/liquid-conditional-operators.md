@@ -3,7 +3,7 @@ title: "Use Liquid conditional operators for a portal in Dynamics 365 for Custom
 description: "Learn about the available liquid conditional operators in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +28,7 @@ When used in conditional statements (**if**,**unless**), some Liquid values will
 In Liquid, null and the Boolean value false are treated as false;everything else is treated as true. Empty strings, empty arrays, etc. are treated as true. For examples,
 
 ```
-{% assign empty_string = "" %}
+{% assign empty_string =  %}
 {% if empty_string %}
 <p>This will render.</p>
 {% endif %}

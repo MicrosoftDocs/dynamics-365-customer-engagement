@@ -1,22 +1,22 @@
 ---
 title: "Model your business data in Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about customizing data model that uses entities to define the data tracked in the system."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "model business data"
-  - "entity model"
+  - model business data
+  - entity model
 ms.assetid: 6715b15f-7654-4ded-a2df-a69dce501f20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

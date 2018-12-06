@@ -1,20 +1,20 @@
 ---
 title: "Sample: Simplified connection quick start (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "This sample shows you how to connect to the Dynamics 365 for Customer Engagement (online) Customer Engagement web services using the CrmServiceClient and perform basic create, update, retrieve, and delete operations on an entity. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a4fb3634-948e-4bac-a32f-f626c78d83a0
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

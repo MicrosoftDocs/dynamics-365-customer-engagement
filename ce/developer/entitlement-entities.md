@@ -1,20 +1,20 @@
 ---
 title: "Entitlement entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about entitlement entities that allow you to set a default entitlement for a customer and control entitlement terms for incidents."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 30023495-fc7e-4b42-aa61-29d43647606a
 caps.latest.revision: 20
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

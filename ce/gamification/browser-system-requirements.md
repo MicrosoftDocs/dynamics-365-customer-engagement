@@ -1,12 +1,12 @@
 ---
 title: "Browser requirements for Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
 description: "Required browser settings to enable a seamless experience in Dynamics 365 for Customer Engagement - Gamification"
-keywords: "browser settings, javascript, cookies"
+keywords: browser settings, javascript, cookies
 ms.date: 01/11/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b79dc1de-ca01-45f9-b5ac-123f3d26111b
 author: m-hartmann
 ms.author: mhart

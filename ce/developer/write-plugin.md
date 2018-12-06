@@ -1,20 +1,20 @@
 ---
 title: "Write a plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about plug-in design, writing a basic plug-in, writing a plug-in constructor, and web access for isolated plug-ins."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/03/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3ebc5b7c-313a-44c2-b6e0-b6740a0a24de
 caps.latest.revision: 62
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

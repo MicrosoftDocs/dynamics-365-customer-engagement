@@ -3,7 +3,7 @@ title: "Create and expose portal content easily in Dynamics 365 for Customer Eng
 description: "Instructions to create and expose portal content by using the administrative wizard in Dynamics 365 for Customer Engagement."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -45,7 +45,7 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
 
 5. Select **Create**.
 
-   ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
+   ![Create portal content using administrative wizard](media/create-portal-content.png Create portal content by using the administrative wizard)  
 
 **Dynamics 365 for Customer Engagement Portal app**
 
@@ -64,4 +64,4 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
 
 4.	Select **Create**.
 
-    ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")
+    ![Create portal content using administrative wizard](media/create-portal-content.png Create portal content by using the administrative wizard)

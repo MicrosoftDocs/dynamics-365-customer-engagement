@@ -1,27 +1,27 @@
 ---
 title: "Import data (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Overview of the data import feature, which enables data upload from various customer relationship management systems and other data sources."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "Import Data wizard, capabilities of the"
-  - "importing data in Microsoft Dynamics CRM, data import defined"
-  - "importing data in Microsoft Dynamics CRM, capabilities of the Import Data wizard"
-  - "importing data in Microsoft Dynamics CRM, overview"
-  - "importing data in Microsoft Dynamics CRM, uploading data from different CRM systems and sources into Microsoft Dynamics CRM"
-  - "uploading data from different systems and sources into Microsoft Dynamics CRM"
-  - "importing data in Microsoft Dynamics CRM, general tasks"
+  - Import Data wizard, capabilities of the
+  - importing data in Microsoft Dynamics CRM, data import defined
+  - importing data in Microsoft Dynamics CRM, capabilities of the Import Data wizard
+  - importing data in Microsoft Dynamics CRM, overview
+  - importing data in Microsoft Dynamics CRM, uploading data from different CRM systems and sources into Microsoft Dynamics CRM
+  - uploading data from different systems and sources into Microsoft Dynamics CRM
+  - importing data in Microsoft Dynamics CRM, general tasks
 ms.assetid: 4ab8f0b9-eb38-45b1-9026-b0415f1ab30e
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

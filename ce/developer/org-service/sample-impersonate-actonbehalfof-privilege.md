@@ -1,13 +1,13 @@
 ---
 title: "Sample: Impersonate using the ActOnBehalfOf privilege (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to impersonate another user by setting the CallerId property of the organization web service proxy"
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c484a6b6-e3ca-4eae-a734-68e8d38db501
 author: JimDaly
 ms.author: jdaly

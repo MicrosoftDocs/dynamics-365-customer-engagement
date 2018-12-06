@@ -1,7 +1,7 @@
 ---
 title: "Reset a Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to reset a portal."
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -40,7 +40,7 @@ To reset a configured portal:
 
 3.	Go to **Portal Actions** > **Reset Portal**.
 
-    ![Reset a portal](media/reset-portal.png "Reset a portal")
+    ![Reset a portal](media/reset-portal.png Reset a portal)
 
 4.	Select **Reset** in the confirmation window.
 
@@ -52,7 +52,7 @@ To reset a configured portal:
 
 If your portal is not provisioned correctly, it goes into an error state and the following screen is displayed. In this case, you can also reset the portal by selecting **Reset Portal** on the error screen.
 
-![Error while provisioning a portal](media/provision-portal-error.png "Error while provisioning a portal")
+![Error while provisioning a portal](media/provision-portal-error.png Error while provisioning a portal)
 
 ## Troubleshooting
 
@@ -62,13 +62,13 @@ This section provides information about troubleshooting issues while resetting a
 
 If a portal reset request could not be submitted, an error is displayed as shown in the following image. In this case, you must close and reopen the Portal Admin Center, and try to reset the portal again. If the issue persists, contact Microsoft support.
 
-![Error while resetting a portal](media/reset-portal-request-error.png "Error while resetting a portal")
+![Error while resetting a portal](media/reset-portal-request-error.png Error while resetting a portal)
 
 ### Reset portal job fails
 
 If a reset portal job fails, an error message is displayed along with the **Reset Portal** action.
 
-![Error while resetting a portal](media/reset-portal-error.png "Error while resetting a portal")
+![Error while resetting a portal](media/reset-portal-error.png Error while resetting a portal)
 
 Typically, these are transient errors and you must select **Reset Portal** to restart the job. If the issue persists, contact Microsoft support.
 

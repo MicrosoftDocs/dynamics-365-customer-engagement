@@ -3,7 +3,7 @@ title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamic
 description: "Instructions to authenticate the Facebook app to sign in to a portal."
 ms.custom:
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -105,7 +105,7 @@ By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)
    <system.webServer>
     <httpProtocol>
       <customHeaders>
-         <add name="P3P" value='CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL"'/>
+         <add name=P3P value='CP=ALL ADM DEV PSAi COM OUR OTRo STP IND ONL'/>
       </customHeaders>
     </httpProtocol>
    </system.webServer>

@@ -1,20 +1,20 @@
 ---
 title: "Web API types and operations (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic describes what is available for you to use vis-a-vis the Web API and will introduce important topics and how you can find information you need from the documentation generated from the service and metadata documents as well as the documentation of the system entity types, functions, and actions"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d80cfb87-d4f1-4c75-bcc8-4f54d1351e26
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

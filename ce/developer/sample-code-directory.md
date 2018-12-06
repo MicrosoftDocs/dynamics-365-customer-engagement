@@ -1,13 +1,13 @@
 ---
 title: "Sample code directory (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Listings of sample code topics included in the Customer Engagement SDK."
-keywords: ""
+keywords: 
 ms.date: 11/16/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ce3c5bdf-0fe8-424b-96bc-ce3fe7adcd2e
 author: JimDaly
 ms.author: jdaly
@@ -16,7 +16,7 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "directory"
+  - directory
 caps.latest.revision: 61
 topic-status: Drafting
 search.audienceType: 

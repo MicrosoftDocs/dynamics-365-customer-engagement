@@ -1,20 +1,20 @@
 ---
 title: "Synchronize user information between Dynamics 365 for Customer Engagement apps and Active Directory | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (on-premises)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (on-premises)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 137b4aa7-2c90-4584-a2bd-38c812788121
 caps.latest.revision: 23
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

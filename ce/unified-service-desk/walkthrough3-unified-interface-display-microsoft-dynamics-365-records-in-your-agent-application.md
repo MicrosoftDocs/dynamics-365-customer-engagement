@@ -1,19 +1,17 @@
 ---
 title: "Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records of Unified Interface app in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service: 
-  - "usd"
-ms.custom: 
-  - ""
+  - usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: FD393D95-FBB9-434B-86B1-23747FBB5B70
 author: kabala123
 ms.author: kabala

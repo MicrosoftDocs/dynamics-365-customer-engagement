@@ -40,7 +40,7 @@ search.app:
 
 The designer features a drag-and-drop interface for building and working with the design, plus an optional HTML editor for working directly with code and a preview tool that can show how your design will look on various form factors and orientations.
 
-The designer adapts itself to your current context (email, landing page, and so on) to provide only those design elements and settings that apply there, but its basic functionality remains the same. It also provides a "foreign content mode", which is activated if you paste HTML from a third-party application directly into the HTML code editor; in this case, the designer 0 know which type of content you are designing and therefore hides context-specific features and provides a more generic design interface.
+The designer adapts itself to your current context (email, landing page, and so on) to provide only those design elements and settings that apply there, but its basic functionality remains the same. It also provides a foreign content mode, which is activated if you paste HTML from a third-party application directly into the HTML code editor; in this case, the designer 0 know which type of content you are designing and therefore hides context-specific features and provides a more generic design interface.
 
 This topic describes how to work with the designer in general, in all contexts. For more information about how the designer fits into the various specific contexts, and for details specific to just one context, see the topics linked in the list at the start of this introduction.
 
@@ -48,7 +48,7 @@ This topic describes how to work with the designer in general, in all contexts. 
 
 Most non-template entities that provide the content designer also support templates, so when you first create a marketing email, page, or form, you'll be asked to choose a template.
 
-![Select an Email Template window](media/select-template-email.png "Choose an email template")
+![Select an Email Template window](media/select-template-email.png Choose an email template)
 
 The template picker provides many controls for searching, sorting, and filtering the templates. Use these controls to find templates that might meet your requirements, then select a template to see a preview and more details about it in the **Preview** area. When you've found the right template, select **Select** to apply it to your new design.
 
@@ -64,7 +64,7 @@ After you've chosen a template, the designer shows your selected template conten
 
 Most of the time you spend creating a marketing email, page, or form, you'll be using the designer or the HTML editor to add content, configure design elements, load images, apply styles, and more.
 
-![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
+![The designer toolbar and content area](media/designer-tools-ill.png The designer toolbar and content area)
 
 The designer features a toolbar and a content area. The toolbar provides a few basic commands and three navigation tabs (**Design**, **HTML**, and **Preview**), which control what you can see and do in the content area.
 
@@ -72,7 +72,7 @@ The designer features a toolbar and a content area. The toolbar provides a few b
 
 Choose **Designer** in the designer toolbar to open the graphical designer. It lets you assemble and design your content without using any code at all. In most cases, you'll never need to go to the **HTML** view unless you want to.
 
-![The designer canvas and toolbox](media/designer-canvas-ill.png "The designer canvas and toolbox")
+![The designer canvas and toolbox](media/designer-canvas-ill.png The designer canvas and toolbox)
 
 The graphical designer provides an editable preview (canvas), where you can select, edit, or remove content; and a set of tabs for adding design elements and working with the design:
 
@@ -107,7 +107,7 @@ The HTML editor provides a few handy code-editing features such as syntax colori
 
 Though the drag-and-drop editor provides an editable preview, this preview is still just an approximation, and includes a few compromises in its presentation to allow for its editing features. To get a better idea of how your design will look, go to the designer's **Preview** tab.
 
-![Preview mode selector](media/preview-mode-ill.png "Choose a preview mode")
+![Preview mode selector](media/preview-mode-ill.png Choose a preview mode)
 
 Use the buttons in the left column of the **Preview** tab to see how your design will look on different screen sizes and orientations, such as desktop, tablet landscape, or mobile portrait. The preview also reflects the responsive design features built into many of the templates. However, the preview doesn't run any custom scripts you might have added (such as for validating form input).
 

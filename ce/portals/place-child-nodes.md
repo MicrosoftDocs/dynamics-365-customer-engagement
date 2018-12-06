@@ -4,7 +4,7 @@ description: "Instructions to place child nodes by using shortcuts for portals."
 ms.custom: 
   - dyn365-a11y
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -51,7 +51,7 @@ Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynami
 | Title                              | The title for the shortcut. This is the name that will appear in the sitemap and child navigation view areas. If left blank, the title (or name) of the target entity will be shown instead. |
 | Description                        | A description to appear in child nav views. Optional.                                                                                                                                        |
 | Display Order                      | The front-side editable order that the shortcut will appear in sitemap and child nav views, in relation to other nodes in the site map.                                                      |
-| Disable Shortcut Target Validation | If unchecked, the security of the shortcut will be based on the target. Otherwise, it will be based on the parent. For more details, see "Security" below.                                   |
+| Disable Shortcut Target Validation | If unchecked, the security of the shortcut will be based on the target. Otherwise, it will be based on the parent. For more details, see Security below.                                   |
 ||
 
 > [!Note]

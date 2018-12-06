@@ -1,22 +1,22 @@
 ---
 title: "Install or uninstall a model-driven app | MicrosoftDocs"
 description: "Learn how to install or uninstall a model-driven app"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/10/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
 caps.latest.revision: 9
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

@@ -1,20 +1,20 @@
 ---
 title: "Configure actions for workflows in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/08/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 6dbc0f10-7ac5-4685-ab74-22d24bf7102d
 caps.latest.revision: 19
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

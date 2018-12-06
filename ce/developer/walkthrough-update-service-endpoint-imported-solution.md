@@ -1,19 +1,19 @@
 ---
 title: "Walkthrough: Update a service endpoint imported from a solution (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The walkthrough demonstrates updating a service endpoint imported from a solution."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8c860992-d3c6-4bfa-86c4-98018af6f22c
 caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 

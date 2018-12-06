@@ -1,14 +1,14 @@
 ---
 title: "Best practices: Client scripting in Customer Engagement apps | MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

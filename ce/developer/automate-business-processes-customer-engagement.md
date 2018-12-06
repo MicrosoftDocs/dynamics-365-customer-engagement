@@ -1,23 +1,23 @@
 ---
 title: "Automate your business processes in Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about automating your business processess. A business process can be of two types: automated processes that rely solely on communication among applications based on a set of rules, and interactive processes that also rely on people to initiate and run the process, and to make the appropriate decisions during the running of the process."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "process"
-  - "workflow"
+  - process
+  - workflow
 ms.assetid: 3ef415ed-d815-45de-8a7c-398b80d23cbd
 caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

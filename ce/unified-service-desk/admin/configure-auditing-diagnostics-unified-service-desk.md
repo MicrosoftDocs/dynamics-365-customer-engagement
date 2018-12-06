@@ -4,23 +4,23 @@ description: "Learn how to set auditing and diagnostics."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 27b03f6a-2297-425e-be79-d4e6c960890b
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 

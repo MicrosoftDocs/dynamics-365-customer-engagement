@@ -1,25 +1,25 @@
 ---
 title: "Discovery service messages (request and response classes) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "IDiscoveryService web service, request and response classes"
+  - IDiscoveryService web service, request and response classes
   - "IDiscoveryService web service, base classes: DiscoveryRequest and DiscoveryResponse"
-  - "request and response classes, discovery service messages"
-  - "discovery service messages (request and response classes)"
+  - request and response classes, discovery service messages
+  - discovery service messages (request and response classes)
 ms.assetid: 053f259e-40c9-46ba-8c47-39e29e228590
 caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

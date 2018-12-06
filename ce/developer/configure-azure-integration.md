@@ -1,20 +1,20 @@
 ---
 title: "Configure Azure integration with Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic describes configuring Azure integration with Dynamics 365 for Customer Engagement apps."
-ms.custom: ""
+ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 79e49782-edd1-41ef-b110-2c2ed0771058
 caps.latest.revision: 62
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

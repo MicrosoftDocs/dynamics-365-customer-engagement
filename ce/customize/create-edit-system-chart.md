@@ -1,21 +1,21 @@
 ---
 title: "Create or edit a system chart in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit a chart"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: e02d58f7-6b1c-4a51-b801-a4d9f24729c5
 caps.latest.revision: 29
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

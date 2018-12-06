@@ -1,20 +1,20 @@
 ---
 title: "Create or edit business units for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
-ms.author: "jimholtz"
-manager: "kvivek"
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

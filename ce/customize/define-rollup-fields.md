@@ -1,22 +1,22 @@
 ---
 title: "Define rollup fields with PowerApps | MicrosoftDocs"
 description: "Learn how to define rollup fields"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
 caps.latest.revision: 58
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

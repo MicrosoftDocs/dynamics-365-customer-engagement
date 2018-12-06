@@ -1,20 +1,20 @@
 ---
 title: "Annotation (note) entity | MicrosoftDocs"
 description: "Learn about annotation entity to append additional information to any record in the database. The annotation  entity represents an annotation and contains the annotation text, who created and modified the annotation, and whether a file is attached to the annotation."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 662cf95d-3bca-464a-983b-54b572e79aa2
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

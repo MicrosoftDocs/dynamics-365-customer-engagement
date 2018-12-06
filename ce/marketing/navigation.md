@@ -52,13 +52,13 @@ Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications su
 
 - *Entities* represent a specific type of data, such as a contact, lead, email message, or customer journey. Entities use a structured data format, which defines the collection of fields available to the entity. Each entity consists of a collection of individual records. For example, for the contacts entity, each record describes a single person, and each record includes a collection of fields such as first name, last name, and email address. Entities normally present two views: a list view, which is typically a table listing available records; and a form view, which shows all available data and settings for a single record. Use the side navigator to move between entities in your current work area.
 
-<a name="move-between-apps"></a>
+<a name=move-between-apps></a>
 
 ### Move between apps
 
 Use the app-selector menu to switch between [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and your other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps.
 
-![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
+![The app-selector menu](media/nav-apps-ill.png The app-selector menu)
 
 The apps you see listed in your app-selector menu will depend on which apps you have licensed. When [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is installed, you will have the following three apps at least:
 
@@ -74,17 +74,17 @@ It's easy to get around [!INCLUDE[pn-marketing-business-app-module-name](../incl
 
 Usually, the navigator is docked and out of the way, but still provides quick links to common features.
 
-![Navigation controls, compact view](media/nav-collapsed-ill.png "Navigation controls, compact view")
+![Navigation controls, compact view](media/nav-collapsed-ill.png Navigation controls, compact view)
 
 Expand the navigator to gain easy access to all features and work areas.
 
-![Navigation controls, expanded view](media/nav-expanded-ill.png "Navigation controls, expanded view")
+![Navigation controls, expanded view](media/nav-expanded-ill.png Navigation controls, expanded view)
 
 ## Working with list views
 
 Usually, when you first open an entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the contacts entity, you'll see a list of individual contacts.
 
-![A typical list view](media/list-view.png "A typical list view")
+![A typical list view](media/list-view.png A typical list view)
 
 From here, you can do the following:
 
@@ -101,7 +101,7 @@ From here, you can do the following:
 
 Forms show all the details about a single record and sometimes also provide special features for working with it, such as the digital content designer for marketing emails and marketing pages. Usually you'll open a form by selecting a record that appears in a list view, but you can also open a form by following a link from another form to a related record.
 
-![A typical form view](media/form-view.png "A typical form view")
+![A typical form view](media/form-view.png A typical form view)
 
 From here, you can do the following:
 
@@ -115,7 +115,7 @@ From here, you can do the following:
 
 Business processes help everyone follow best practices, even for situations that don't occur very often. Where available, business processes provide a step-by-step timeline for the stages of a process at the top of the form view for the relevant record. You open the menu for the active stage, enter each field of required and business-critical data, and then select the next stage when you're ready to work with it. Some business processes (such as a telemarketing script) can be completed in the time it takes to make a single phone call, while others (like event planning) might take several weeks.
 
-![A typical business process display](media/business-process.png "A typical business process display")
+![A typical business process display](media/business-process.png A typical business process display)
 
 ### See also
 

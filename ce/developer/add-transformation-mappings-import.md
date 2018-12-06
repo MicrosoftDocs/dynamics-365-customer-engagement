@@ -1,30 +1,30 @@
 ---
 title: "Add transformation mappings for import (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Transformation mapping enables optional modification of source data before importation."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "using transformation mapping to modify data before importing"
-  - "transformation mappings, definition"
-  - "adding transformation mappings for importing, list of valid property values"
+  - using transformation mapping to modify data before importing
+  - transformation mappings, definition
+  - adding transformation mappings for importing, list of valid property values
   - "adding transformation mappings for importing, transformations: concatenation; split; substring; replace; assign value; add to date; and others"
-  - "implementing transformation mapping, by using the transformation mapping entity"
-  - "adding transformation mappings for importing, using the transformation mapping and transformation parameter mapping entities"
-  - "transformation mappings for importing, adding"
-  - "adding transformation mappings for importing, using transformation mapping to modify data before importing"
-  - "adding transformation mappings for importing, available transformations with their descriptions and input parameters"
-  - "transformations for mapping, concatenation; split; substring; replace; assign value; add to date; and others"
+  - implementing transformation mapping, by using the transformation mapping entity
+  - adding transformation mappings for importing, using the transformation mapping and transformation parameter mapping entities
+  - transformation mappings for importing, adding
+  - adding transformation mappings for importing, using transformation mapping to modify data before importing
+  - adding transformation mappings for importing, available transformations with their descriptions and input parameters
+  - transformations for mapping, concatenation; split; substring; replace; assign value; add to date; and others
 ms.assetid: c5c6c8ac-0206-4658-8f4b-58310ecd9c29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

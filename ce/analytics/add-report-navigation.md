@@ -1,22 +1,22 @@
 ---
 title: "Add report navigation (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a12434b2-dfb4-44c8-93fe-640084360d9c
 caps.latest.revision: 14
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: Mattp123
+ms.author: matp
+manager: amyla
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - customizer
 search.app: 

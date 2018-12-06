@@ -55,8 +55,8 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <td>End date in the MM-DD-YYYY format until which you want to retrieve interactions. Optional.</td>
 </tr>
 <tr>
-<td valign="top"><code>InteractionType</code></td>
-<td valign="top">Edm.String</td>
+<td valign=top><code>InteractionType</code></td>
+<td valign=top>Edm.String</td>
 <td>Type of interaction to be retrieved. Required.<br/> You can specify one of the following values:
 <ul>
 <li>ActivityContactBlocked</li>
@@ -128,7 +128,7 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 </tr>
 <tr>
 <td><code>msdyncrm_LoadInteractionsPublicResponse</code></td>
-<td><a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> </td>
+<td><a href=/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types>ComplexType</a> </td>
 <td>Contains the response from msdyncrm_LoadInteractionsPublic action. It contains the following properties that contain the structured data of the type:
 <table>
 <tr>
@@ -160,8 +160,8 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0
   
 {
-    "InteractionType": "WebsiteClicked",
-    "ContactId": "0dbe0fa3-8e18-e811-a951-000d3a37caec",
+    InteractionType: WebsiteClicked,
+    ContactId: 0dbe0fa3-8e18-e811-a951-000d3a37caec,
 }
 ```
 
@@ -175,9 +175,9 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyncrm_LoadInteractionsPublicResponse",
+    @odata.context:[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyncrm_LoadInteractionsPublicResponse,
     "Data":"[{\"InteractionId\":\"172C1E59A3CD4D85B392316DD76651CE\",\"InteractionType\":\"EmailSent\",\"Timestamp\":\"2018-02-23T13:10:48Z\",\"OrganizationId\":\"e47e99c2-20e3-4ef3-bbd4-288258bd6bf9\",\"EmailDomain\":\"microsoft.com\",\"ActivityId\":\"b6aeb700-f1c1-4cb1-e8f8-e883eac6bfbc\",\"SendingId\":\"5a019802-f763-3b72-fc91-0a9c95b67c5f\",\"ContactId\":\"0dbe0fa3-8e18-e811-a951-000d3a37caec\",\"MessageId\":\"5a2f3e76-9518-e811-a951-000d3a38caec\",\"CustomerJourneyId\":\"4c3846a1-9618-e811-a951-000d3a37cafc\",\"CustomerJourneyIterationId\":\"538825cf-fe1c-4fee-a671-7984eabb62eb\",\"UsageType\":\"CustomerJourney\",\"EmailAddressUsed\":\"sample@adventure-works.com\"}]",
-    "NextSkipToken":null
+    NextSkipToken:null
 }
 ```
 

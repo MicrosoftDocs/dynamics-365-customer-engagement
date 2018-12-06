@@ -1,20 +1,20 @@
 ---
 title: "Enable embedded Flow in your Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/20/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5d83e4d6-7b2c-432d-8f6a-222793ac9677
 caps.latest.revision: 11
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

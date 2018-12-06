@@ -4,17 +4,17 @@ description: "Learn using the KM Control type of hosted control to display knowl
 ms.custom: 
   - dyn365-USD
 ms.date: 08/17/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 8c4b9dd8-d37c-4256-b6c1-f2e42105c52b
 author: kabala123
 ms.author: kabala

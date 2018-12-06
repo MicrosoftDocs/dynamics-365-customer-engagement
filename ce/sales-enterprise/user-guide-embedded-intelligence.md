@@ -1,14 +1,14 @@
 ---
 title: "User guide for Embedded intelligence for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "User guide for enabling and configuring Embedded intelligence and GDPR"
-keywords: "embedded intelligence, user guide"
+keywords: embedded intelligence, user guide
 ms.date: 05/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b9930c9c-8eff-49ea-b0ea-8a385c3af246
 author: udaykirang
 ms.author: udag

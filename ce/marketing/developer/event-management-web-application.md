@@ -35,7 +35,7 @@ The frontend part of the application is bundled into two resource files that are
 
 Although, the frontend definition is hosted on Dynamics 365 for Customer Engagement Portal, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 for Customer Engagement Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), and the code containing the business logic behind it resides in Event Management plugins which is not customizable.
 
-![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
+![Portal Hosted](../media/portal-hosted.png Portal Hosted)
 
 ### Developing and customizing the web application on Dynamics 365 for Customer Engagement Portal hosted backend
 
@@ -46,7 +46,7 @@ To develop and customize the frontend part of the web application:
 1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
-1. Create a new Chrome shortcut and add `--disable-web-security --user-data-dir="C:\chromeTest"` to bypass the same origin policy.
+1. Create a new Chrome shortcut and add `--disable-web-security --user-data-dir=C:\chromeTest` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add a trailing slash at the end of the url.
 1. Bypass anti-CSRF token for local development. To do that, you need to go to **Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. 
 1. Restart the Dynamics 365 for Customer Engagement Portal website to see the changes.
@@ -79,7 +79,7 @@ To develop and customize the frontend part of the web application:
 1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular application. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
-1. Create a new Chrome shortcut and add `--disable-web-security --user-data-dir="C:\chromeTest"` to bypass the same origin policy.
+1. Create a new Chrome shortcut and add `--disable-web-security --user-data-dir=C:\chromeTest` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add the trailing slash at the end of the url.
 1. Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you have created.
 

@@ -1,12 +1,12 @@
 ---
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
-keywords: "quota, post quota, contingent"
+keywords: quota, post quota, contingent
 ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 9d9e5115-52c7-4f21-a90b-3bde6804d2fe
 author: m-hartmann
 ms.author: mhart

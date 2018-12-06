@@ -3,7 +3,7 @@ title: "Subscribe to alerts on a portal in Dynamics 365 for Customer Engagement 
 description: "Instructions to create and manage alerts in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,7 +35,7 @@ Users can indicate they wish to receive notification when new posts are created 
 2. Navigate to a **Forum Thread**.
 3. Select **Subscribe**.
 
-![Subscribe to alerts](media/subscribe-alerts.png "Subscribe to alerts")  
+![Subscribe to alerts](media/subscribe-alerts.png Subscribe to alerts)  
 
 ## Unsubscribe from alerts in the portal
 
@@ -45,7 +45,7 @@ Users can indicate that they do not wish to receive notification when new posts 
 2. Navigate to a **Forum Thread**.
 3. Select **Unsubscribe**.
 
-![Unsubscribe from alerts](media/unsubscribe-alerts.png "Unsubscribe from alerts")  
+![Unsubscribe from alerts](media/unsubscribe-alerts.png Unsubscribe from alerts)  
 
 ## Manage forum alerts in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
 

@@ -1,26 +1,26 @@
 ---
 title: "Use the QueryByAttribute class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "In Dynamics 365 for Customer Engagement (online) Customer Engagement, you can use the QueryByAttribute class to build queries that test a set of attributes against a set of values"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "QueryByAttribute class, about; properties for; and code example"
-  - "building queries by using QueryExpression, QueryByAttribute class"
-  - "testing a set of attributes against a set of values, QueryByAttribute class"
-  - "QueryByAttribute class, searching for entities where attributes match specified values"
-  - "using the QueryByAttribute class"
+  - QueryByAttribute class, about; properties for; and code example
+  - building queries by using QueryExpression, QueryByAttribute class
+  - testing a set of attributes against a set of values, QueryByAttribute class
+  - QueryByAttribute class, searching for entities where attributes match specified values
+  - using the QueryByAttribute class
 ms.assetid: 3e0b0dcd-449c-4107-9f08-ddf71db29261
 caps.latest.revision: 29
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

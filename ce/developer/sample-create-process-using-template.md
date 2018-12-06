@@ -1,20 +1,20 @@
 ---
 title: "Sample: Create a process using a template (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This sample demonstrates how to create a workflow process using a template using the CreateWorkflowFromTemplateRequest"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5c7f045f-7b57-4e44-a99c-becefe533035
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

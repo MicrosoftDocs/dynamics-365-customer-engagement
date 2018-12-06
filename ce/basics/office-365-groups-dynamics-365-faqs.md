@@ -1,20 +1,20 @@
 ---
 title: "Office 365 Groups in Dynamics 365 for Customer Engagement appsFAQs (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3f170665-f0eb-4af7-a177-67bce539419f
 caps.latest.revision: 15
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 

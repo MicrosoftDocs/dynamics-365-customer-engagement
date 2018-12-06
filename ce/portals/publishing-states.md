@@ -1,7 +1,7 @@
 ---
 title: "Create and manage publishing states in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to create and manage publishing states in a portal."
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -52,13 +52,13 @@ Publishing states can be created, edited, and deleted within [!INCLUDE[pn-dynami
 
 You can also manage publish states under the **Publishing States** section on the website record.
 
-![Manage publishing states](media/publishing-states.png "Manage publishing states") 
+![Manage publishing states](media/publishing-states.png Manage publishing states) 
 
 ## Manage publishing states on a portal
 
 While publishing states and their attributes must be managed within Dynamics 365 for Customer Engagement, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal front-side editing interface.
 
-![Select publishing state on a portal](media/publishing-states-portal.png "Select publishing state on a portal")
+![Select publishing state on a portal](media/publishing-states-portal.png Select publishing state on a portal)
 
 ### Publishing state attributes
 
@@ -67,7 +67,7 @@ While publishing states and their attributes must be managed within Dynamics 365
 |Name|The descriptive name of the state. This field is required.|
 |Website|The website to which the state belongs. This field is required.|
 |Is Default|If checked, designates this state as the default state for the website. This will determine the default state selected when creating new entities through the portal front-side editing interface.<br>**Note**:Only one Publishing State in a given Website should be marked as the default state.|
-|Is Visible|If checked, designates that entities associated with this state will be considered visible (or published) on the portal.<br>While an entity associated with a non-visible state will not be visible on the portal, an entity associated with a visible state may also not be visible, due to security permissions, expiration dates, or other visibility rules.<br>Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.|
+|Is Visible|If checked, designates that entities associated with this state will be considered visible (or published) on the portal.<br>While an entity associated with a non-visible state will not be visible on the portal, an entity associated with a visible state may also not be visible, due to security permissions, expiration dates, or other visibility rules.<br>Users with content management permissions may be granted the ability to use Preview Mode, which allows these users to see (preview) unpublished content.|
 |Display Order|An integer value indicating the order in which the state will be placed, in menus and drop-down lists for selecting a Publishing State – mostly found in the portal front-side editing interfaces.|
 |||
 
@@ -93,7 +93,7 @@ If the logged-in user who is attempting the change is in any of the roles you as
 
 7. Under **Web Roles**, browse and add the appropriate web roles.
 
-    ![Create publishing state transition rule](media/publishing-state-transition-rule.png "Create publishing state transition rule")
+    ![Create publishing state transition rule](media/publishing-state-transition-rule.png Create publishing state transition rule)
 
 8. Select **Save**.
 
@@ -105,6 +105,6 @@ For example, say you wanted someone in the content publishing role to be able to
 
 To do this, you would create a rule with the grant change permission and apply it to the branch in question (or the home page if the rule is to apply to the entire site). You would then associate this rule with the draft state.
 
-![Create state-based control rule](media/state-based-control-rule.png "Create state-based control rule")
+![Create state-based control rule](media/state-based-control-rule.png Create state-based control rule)
 
 You would then associate this rule with the appropriate web role, for example, Content publishing. Assuming this web role is not associated with a more permissive rule (i.e. a rule that grants change regardless of publishing state) then users in the content publishing web role will be able to modify pages in the draft state but will not be able to modify pages in the published state.

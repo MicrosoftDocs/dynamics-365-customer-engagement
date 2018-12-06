@@ -3,7 +3,7 @@ title: "Web form metadata for a portal in Dynamics 365 for Customer Engagement |
 description: "Instructions to add and configure web form metadata for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +28,7 @@ The Web Form Metadata contains additional behavior modification logic to augment
 ## Add a new record
 1. On the Web Form Step that has fields that you would like to modify, select the **Metadata** link in the top navigation.
 
-![Select metadata in Dynamics 365 for Customer Engagement](media/select-metadata-dynamics-365.png "Select metadata in Dynamics 365 for Customer Engagement")  
+![Select metadata in Dynamics 365 for Customer Engagement](media/select-metadata-dynamics-365.png Select metadata in Dynamics 365 for Customer Engagement)  
 2. select **Add New Web Form Metadata**.
 
 ## Web form metadata properties

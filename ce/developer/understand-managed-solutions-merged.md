@@ -1,20 +1,20 @@
 ---
 title: "Understand how managed solutions are merged (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "To avoid multiple installed solutions from interfering with one another, follow best practices while constructing a solution"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 79c15784-56d2-46b0-bc78-b60c3d01cbb6
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

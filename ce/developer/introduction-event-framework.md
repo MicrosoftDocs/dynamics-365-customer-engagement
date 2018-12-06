@@ -1,20 +1,20 @@
 ---
 title: "Introduction to the event framework (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Event framework enables your custom code to be developed and integrated into Dynamics 365 for Customer Engagement server"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6116dde0-c6f5-4858-a4f9-93ccf495d39a
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

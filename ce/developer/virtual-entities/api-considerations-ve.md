@@ -1,14 +1,14 @@
 ---
 title: "API considerations of virtual entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996dea
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

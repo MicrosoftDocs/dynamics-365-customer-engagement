@@ -31,7 +31,7 @@ search.app:
 
 Social listening in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] enables you to embed charts, information, and analytics from  [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] into any type of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] record to see how people on social media are reacting to your campaigns, events, brands, and more.
 
-![Social listening in Dynamics 365 for Marketing](media/social-listening-panel.png "Social listening in Dynamics 365 for Marketing")
+![Social listening in Dynamics 365 for Marketing](media/social-listening-panel.png Social listening in Dynamics 365 for Marketing)
 
 To use this feature, your organization must purchase the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] product (also available separately) and integrate it with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. For a detailed introduction to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)], see [Connect with customers. Empower your organization. Create real results.](../social-engagement/overview.md).
 
@@ -55,13 +55,13 @@ To set up social listening for a record:
 
 1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to the record where you want to set up social listening displays, and go to the tab where your admin or customizer added the social listening control.
 
-1. Select the **Configure Social Engagement** button ![The Configure Social Engagement button](media/social-listening-setup-button.png "The Configure Social Engagement button") in the upper corner of the **Social Insights** area.
+1. Select the **Configure Social Engagement** button ![The Configure Social Engagement button](media/social-listening-setup-button.png The Configure Social Engagement button) in the upper corner of the **Social Insights** area.
 
-    ![Location of the Configure Social Engagement button](media/social-listening-empty.png "Location of the Configure Social Engagement button")
+    ![Location of the Configure Social Engagement button](media/social-listening-empty.png Location of the Configure Social Engagement button)
 
 1. The **Configure Social Insights** dialog box opens.
 
-    ![Configure social insights](media/social-listening-configure.png "Configure social insights")
+    ![Configure social insights](media/social-listening-configure.png Configure social insights)
 
     Make the following settings:
 

@@ -1,12 +1,12 @@
 ---
 title: "Connect Social Engagement to Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365 for Customer Engagement."
-keywords: "connect, connection, integration, dynamice 365"
+keywords: connect, connection, integration, dynamice 365
 ms.date: 09/19/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
 author: m-hartmann
 ms.author: mhart

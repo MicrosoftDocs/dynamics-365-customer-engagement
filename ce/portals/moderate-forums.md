@@ -3,7 +3,7 @@ title: "Moderate forums on a portal in Dynamics 365 for Customer Engagement | Mi
 description: "Instructions to moderate forums in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -38,7 +38,7 @@ For portal users with moderation permission, moderation controls will automatica
 
 2. In the **Delete this thread?** pop-up window, select **Yes**.
 
-    ![Delete a forum thread](media/delete-forum-thread.png "Delete a forum thread")  
+    ![Delete a forum thread](media/delete-forum-thread.png Delete a forum thread)  
 
 ### Edit the forum thread
 
@@ -48,7 +48,7 @@ For portal users with moderation permission, moderation controls will automatica
 
 3. Select **Save**.
 
-    ![Edit a forum thread](media/edit-forum-thread.png "Edit a forum thread")
+    ![Edit a forum thread](media/edit-forum-thread.png Edit a forum thread)
 
 ### Delete a forum post
 
@@ -58,7 +58,7 @@ For portal users with moderation permission, moderation controls will automatica
 
 3. In the **Delete this thread?** pop-up window, select **Yes**.
 
-    ![Delete a forum post](media/delete-forum-post.png "Delete a forum post")  
+    ![Delete a forum post](media/delete-forum-post.png Delete a forum post)  
 
 ### Edit a forum post
 
@@ -70,7 +70,7 @@ For portal users with moderation permission, moderation controls will automatica
 
 4. Select **Save**.
 
-    ![Edit a forum post](media/edit-forum-post.png "Edit a forum post")
+    ![Edit a forum post](media/edit-forum-post.png Edit a forum post)
 
 ### See also
 

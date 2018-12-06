@@ -4,13 +4,13 @@ description: Overview of Customer Service in Microsoft Dynamics 365 for Customer
 keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement
 ms.date: 06/01/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-customerservice"
+  - dyn365-customerservice
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
 author: anjgupta
 ms.author: anjgup

@@ -1,22 +1,22 @@
 ---
 title: "Get started writing reports with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 07/12/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab
 caps.latest.revision: 14
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - customizer
 search.app: 

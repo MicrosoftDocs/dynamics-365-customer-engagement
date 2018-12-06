@@ -4,10 +4,10 @@ description: "Learn how you can find out about your ranking in the games you par
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 088b9a63-9cda-4e45-80b6-5482ac81147b

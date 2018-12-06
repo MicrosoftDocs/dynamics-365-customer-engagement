@@ -1,19 +1,19 @@
 ---
 title: "Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the knowledge management solution in Microsoft Dynamics 365 for Customer Engagement apps that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD"
+  - dyn365-USD
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: c2e0f4b1-c09a-413c-b703-03ff851ffb9d
 author: kabala123
 ms.author: kabala

@@ -1,19 +1,19 @@
 ---
 title: "Download the Web Client - Unified Interface Migration Assistant | MicrosoftDocs"
 description: "Download Web Client - Unified Interface Migration Assistant to migrate your Unified Service Desk configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface App"
-keywords: ""
+keywords: 
 ms.date: 07/30/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: AC23FCF9-5B36-4C1B-9B29-31F93ADEB3AF
 author: kabala123
 ms.author: kabala

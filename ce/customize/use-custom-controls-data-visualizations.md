@@ -1,22 +1,22 @@
 ---
 title: "Use custom controls for data visualizations in PowerApps | MicrosoftDocs"
 description: "Learn how to use custom controls for fields"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 0d6064cd-4d38-4fc2-a564-735cb453a4b2
 caps.latest.revision: 8
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

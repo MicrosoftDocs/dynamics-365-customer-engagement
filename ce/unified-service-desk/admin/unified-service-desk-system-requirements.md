@@ -1,19 +1,19 @@
 ---
 title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 for Customer Engagement apps. "
-keywords: ""
+keywords: 
 ms.date: 11/02/2018
 ms.service:
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom:
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 8a0e7dc4-5d32-412a-ae72-b6ce010c1c85
 author: kabala123
 ms.author: kabala

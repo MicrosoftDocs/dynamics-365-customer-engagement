@@ -1,28 +1,28 @@
 ---
 title: "Prepare source files for import (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Data import supports source files formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "preparing source files for importing, providing maps for multiple-entity data"
-  - "importing source files, preparing source files for importing"
-  - "importing source files"
-  - "preparing source files for importing, creating data source files"
-  - "importing source files, creating data source files"
-  - "preparing source files for importing, allowable separators for field values"
-  - "preparing source files for importing, types of contents for allowable source files"
-  - "preparing source files for importing, allowable characters for field values"
+  - preparing source files for importing, providing maps for multiple-entity data
+  - importing source files, preparing source files for importing
+  - importing source files
+  - preparing source files for importing, creating data source files
+  - importing source files, creating data source files
+  - preparing source files for importing, allowable separators for field values
+  - preparing source files for importing, types of contents for allowable source files
+  - preparing source files for importing, allowable characters for field values
 ms.assetid: 78230676-f2ed-453a-aba0-887c860329e0
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

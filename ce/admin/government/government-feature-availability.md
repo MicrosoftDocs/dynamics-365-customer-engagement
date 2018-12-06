@@ -1,20 +1,20 @@
 ---
 title: "Dynamics 365 for Customer Engagement apps (online) Government - Feature availability | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5cf2c742-d2d7-46cd-9a97-67befd696820
 caps.latest.revision: 16
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

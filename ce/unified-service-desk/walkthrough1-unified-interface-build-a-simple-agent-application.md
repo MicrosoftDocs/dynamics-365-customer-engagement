@@ -1,19 +1,17 @@
 ---
 title: "Walkthrough 1: Build a simple agent application in Unified Service Desk for Dynamics 365 for Customer Engagement apps (Unified Interface apps) (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Customer Engagement."
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service: 
-  - "usd"
-ms.custom: 
-  - ""
+  - usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 75042EF8-9CA4-464B-A587-47B1F8265210
 author: kabala123
 ms.author: kabala

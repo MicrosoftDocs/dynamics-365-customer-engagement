@@ -1,11 +1,11 @@
 ---
 title: "Language Pack not installed | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 68fef610-81ac-452b-b74c-5797cb9d0711
 caps.latest.revision: 2
 robots: noindex,nofollow

@@ -1,11 +1,11 @@
 ---
 title: "Verify Service Principal Name for Microsoft Dynamics 365 for Customer Engagement service accounts | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 943ca5a3-afdd-4fd4-8462-a0fdcdbd58f9
 caps.latest.revision: 10
 robots: noindex,nofollow

@@ -1,46 +1,46 @@
 ---
 title: "Email activity entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The email activity in Dynamics 365 for Customer Engagement lets you track and manage email communications with customers."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "bulk email, process sequence"
-  - "email activity entities, attaching files to email"
-  - "email activity entities, process sequence for bulk email"
-  - "attaching files to email"
-  - "tracking and managing customer email"
-  - "email attachments, maximum and default sizes"
-  - "email activity entities, introduction"
-  - "email activity entities, sending bulk email"
-  - "email activity entities, blocked email"
-  - "using email templates"
-  - "sending bulk email"
-  - "email routing, software for"
-  - "email activity entities, email templates"
-  - "email activity entities, tracking and managing customer email"
-  - "email activity entities, approved users and queues"
-  - "templates, email"
-  - "blocked email"
-  - "configuring email delivery"
-  - "email attachments, reusing (saved as BLOBs)"
-  - "email routing, supported protocols"
-  - "email activity entities"
-  - "email attachments, about"
-  - "email actions, creating, retrieving, updating, deleting"
-  - "email activity entities, configuring delivery"
-  - "email activity entities, routing email"
+  - bulk email, process sequence
+  - email activity entities, attaching files to email
+  - email activity entities, process sequence for bulk email
+  - attaching files to email
+  - tracking and managing customer email
+  - email attachments, maximum and default sizes
+  - email activity entities, introduction
+  - email activity entities, sending bulk email
+  - email activity entities, blocked email
+  - using email templates
+  - sending bulk email
+  - email routing, software for
+  - email activity entities, email templates
+  - email activity entities, tracking and managing customer email
+  - email activity entities, approved users and queues
+  - templates, email
+  - blocked email
+  - configuring email delivery
+  - email attachments, reusing (saved as BLOBs)
+  - email routing, supported protocols
+  - email activity entities
+  - email attachments, about
+  - email actions, creating, retrieving, updating, deleting
+  - email activity entities, configuring delivery
+  - email activity entities, routing email
 ms.assetid: 4c27c9ae-c0e8-4de4-bba7-bf957a873ff5
 caps.latest.revision: 42
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

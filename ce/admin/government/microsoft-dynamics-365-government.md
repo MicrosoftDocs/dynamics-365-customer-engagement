@@ -1,21 +1,21 @@
 ---
 title: "Dynamics 365 for Customer Engagement apps Government | MicrosoftDocs"
 description: "Microsoft Dynamics 365 for Customer Engagement apps Government is available to qualified government entities in the United States."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: e4876ab0-4cc9-44fe-b3ed-ddfe04a990e2
 caps.latest.revision: 35
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

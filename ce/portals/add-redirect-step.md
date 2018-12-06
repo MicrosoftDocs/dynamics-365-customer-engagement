@@ -3,7 +3,7 @@ title: "Configure a redirect step type for a portal in Dynamics 365 for Customer
 description: "Instructions to add and configure a redirect step for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -1,11 +1,11 @@
 ---
 title: "Verify the service account for a Microsoft Dynamics 365 for Customer Engagement service | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: bf391b1b-88b1-4157-a054-4fde0643d93d
 caps.latest.revision: 6
 robots: noindex,nofollow

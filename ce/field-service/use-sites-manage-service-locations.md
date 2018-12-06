@@ -4,8 +4,8 @@ description: Know how to use sites to manage your service locations in Dynamics 
 keywords: Use sites to manage your service locations; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017

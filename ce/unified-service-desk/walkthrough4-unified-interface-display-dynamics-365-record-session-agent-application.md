@@ -1,19 +1,17 @@
 ---
 title: "Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 05/07/2018
 ms.service: 
-  - "usd"
-ms.custom: 
-  - ""
+  - usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 1B1325DF-1C3A-4205-9C01-E51BE0472FAD
 author: kabala123
 ms.author: kabala

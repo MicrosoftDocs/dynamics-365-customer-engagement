@@ -1,19 +1,19 @@
 ---
 title: "Use Dynamics 365 for Customer Engagement services in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses about the Discovery Service and Organization Service that can be used to identify your organization and to access Dynamics 365 for Customer Engagement data"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bae224ef-2f5d-4555-a33c-9225b9365ed6
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

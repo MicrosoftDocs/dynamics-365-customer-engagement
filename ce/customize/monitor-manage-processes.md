@@ -1,20 +1,20 @@
 ---
 title: "Monitor and manage workflow processes (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: a987a803-4674-4eb0-87de-caefa003b1eb
 caps.latest.revision: 12
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

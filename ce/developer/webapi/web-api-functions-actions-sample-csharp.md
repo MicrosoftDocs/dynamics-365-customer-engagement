@@ -1,19 +1,19 @@
 ---
 title: "Web API Functions and Actions Sample (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API and C#"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b14a8bff-bf05-412c-89f6-ba7b503dcb51
 caps.latest.revision: 13
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 

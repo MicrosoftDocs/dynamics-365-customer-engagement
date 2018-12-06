@@ -1,26 +1,26 @@
 ---
 title: "Extend Dynamics 365 for Customer Engagement apps on the client (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn how developers can extend and customize Dynamics 365 for Customer Engagement apps in clients such as web applications, Dynamics 365 for phones, and Dynamics 365 for tablets by using JavaScript and web resources"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "extending Microsoft Dynamics CRM and Dynamics CRM Online, building solutions and modeling your business data"
-  - "building solutions by extending Microsoft Dynamics CRM and Dynamics CRM Online"
-  - "modeling your business data by extending Microsoft Dynamics CRM and Dynamics CRM Online"
-  - "extending Microsoft Dynamics CRM and Dynamics CRM Online, introduction"
-  - "extending Microsoft Dynamics CRM and Dynamics CRM Online, with solutions; customizations; reports; plug-ins; processes; workflows; dashboards; SharePoint; and Outlook"
+  - extending Microsoft Dynamics CRM and Dynamics CRM Online, building solutions and modeling your business data
+  - building solutions by extending Microsoft Dynamics CRM and Dynamics CRM Online
+  - modeling your business data by extending Microsoft Dynamics CRM and Dynamics CRM Online
+  - extending Microsoft Dynamics CRM and Dynamics CRM Online, introduction
+  - extending Microsoft Dynamics CRM and Dynamics CRM Online, with solutions; customizations; reports; plug-ins; processes; workflows; dashboards; SharePoint; and Outlook
 ms.assetid: c6562c62-34fa-40c8-9f48-fae3e7d8b551
 caps.latest.revision: 46
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

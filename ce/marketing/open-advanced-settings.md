@@ -35,18 +35,18 @@ Administrators use advanced settings to fine-tune application behavior, set defa
 1. Sign in as a user with administrator privileges.
 1. Expand the side navigator bar and select the ellipsis (**…**) to open the work area menu.
 
-    ![Open the work area menu](media/open-settings-menu-ill.png "Open the work area menu")
+    ![Open the work area menu](media/open-settings-menu-ill.png Open the work area menu)
 
 1. Select **Settings** from the work area menu.
 1. The side navigator is updated to show pages available in the **Settings** work area. Select **Advanced Settings**.
 
-    ![Open the advanced settings](media/nav-advanced-settings.png "Open advanced settings")
+    ![Open the advanced settings](media/nav-advanced-settings.png Open advanced settings)
 
 You now see **Advanced Settings** in the main area of the window.
 
 ## Work with advanced settings
 
-  ![The advanced settings overview](media/admin-overview.png "Advanced settings overview")
+  ![The advanced settings overview](media/admin-overview.png Advanced settings overview)
 
 - Use the **Settings Overview** column on the left side of the window to navigate between settings pages, which are organized into sections. Select an entry under a heading to open the related settings page. You can also collapse or expand the section headings as needed.
 - When you first open the **Advanced Settings** page, the main part of the window provides the same sections as the **Settings Overview** column, and provides icons for opening the same settings pages that are also available in the navigator.

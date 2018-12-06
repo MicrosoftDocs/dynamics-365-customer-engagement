@@ -37,7 +37,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 > [!NOTE]
 >  Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise you can add them manually when you create a work order.   
   
-<a name="BKMK_workorderlifecycle"></a>   
+<a name=BKMK_workorderlifecycle></a>   
 ## Work order lifecycle  
   
 - **Work order creation:** A work order is created, usually from a case or opportunity  
@@ -52,7 +52,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made and an invoice is generated for the corresponding account.  
   
-  ![Work order lifecycle in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 for Customer Engagement field service")  
+  ![Work order lifecycle in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-work-order-lifecycle.png Work order lifecycle in Dynamics 365 for Customer Engagement field service)  
   
 ||||||||  
 |-|-|-|-|-|-|-|  
@@ -61,7 +61,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 |**Work order status**|Open - unscheduled|Open - unscheduled|Open - unscheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
-<a name="BKMK_newworkorder"></a>   
+<a name=BKMK_newworkorder></a>   
 ## Create a work order  
   
 1. From the main menu, click **Field Service** > **Work orders**.  
@@ -98,7 +98,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
     - **Location**: Shows the address location on the map.  
   
-<a name="BKMK_Addtasks"></a>   
+<a name=BKMK_Addtasks></a>   
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   

@@ -1,20 +1,20 @@
 ---
 title: "Use change tracking to synchronize data with external systems (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "The change tracking feature in Dynamics 365 for Customer Engagement apps provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8a927ac0-29c3-4222-8137-36549a0dc660
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

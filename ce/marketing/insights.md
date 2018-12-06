@@ -46,23 +46,23 @@ search.app:
 
 For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** form view using the form-view selector above the record name. (Some entities, including redirect URLs and websites, don't provide this drop-down list and instead show analytics on the same form view as the settings.)
 
-![Open the insights form view](media/insights-form-view-selector.png "Open the insights form view")
+![Open the insights form view](media/insights-form-view-selector.png Open the insights form view)
 
 ### Move between insight categories
 
 Once you have an **Insights** form view open, you can navigate between the available categories of analytics using the tabs below the record name.
 
-![Insights tabs](media/insights-tabs.png "Insights tabs")
+![Insights tabs](media/insights-tabs.png Insights tabs)
 
-<a name="filter"></a>
+<a name=filter></a>
 
 ### Filter insights by date range and usage
 
 At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date ( **From** and **To** settings) or usage (such as which customer journey an email was used in).
 
-![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
+![Filter insights by date range and usage](media/insights-filters.png Filter insights by date range and usage)
 
-<a name="contact-insights"></a>
+<a name=contact-insights></a>
 
 ## Contact insights
 
@@ -103,17 +103,17 @@ Customer journeys provide two insights tabs: **Designer** and **Insights**. The 
 
 The **Designer** insights view is unique for customer journeys. Here, you can see your journey pipeline. It looks the same here as when you were designing the journey, but now it presents results and doesn't include a toolbox or editing controls. Above each tile, you can see an overview of how contacts flowed through that tile, as shown in the following illustration. By inspecting these values, you can get a quick overview of how your various contacts flowed through the structure, which path they chose, and which problems they may have had. (Each of these KPIs is also shown in the **Data** panel when a tile is selected.)
 
-![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis.png "Contact flow KPIs in the insights view of the customer journey pipeline")
+![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis.png Contact flow KPIs in the insights view of the customer journey pipeline)
 
 Legend:
 
-1. **Inflow** ![Inflow KPI icon](media/tile-kpi-inflow-icon.png "Inflow KPI icon"): Shows the number of contacts that entered the tile.
+1. **Inflow** ![Inflow KPI icon](media/tile-kpi-inflow-icon.png Inflow KPI icon): Shows the number of contacts that entered the tile.
 1. **Blocked** ![Blocked KPI icon](media/tile-kpi-blocked-icon.png "Blocked KPI icon"): Shows the number of contacts that were blocked from continuing the journey at this tile. There are three main reasons that a contact might get blocked here: they unsubscribed from the mailing list targeted by the journey, they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey. (This isn't related to the blocked KPI associated with email insights.)
-1. **Failed** ![Failed KPI icon](media/tile-kpi-failed-icon.png "Failed KPI icon"): Shows the number of contacts that failed to be processed by the tile, typically because of an internal error. 
+1. **Failed** ![Failed KPI icon](media/tile-kpi-failed-icon.png Failed KPI icon): Shows the number of contacts that failed to be processed by the tile, typically because of an internal error. 
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
 
-![Data panel showing tile results](media/insights-journey-data-panel.png "Data panel showing tile results")
+![Data panel showing tile results](media/insights-journey-data-panel.png Data panel showing tile results)
 
 All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
@@ -131,7 +131,7 @@ In addition to the **Volume** section, some tiles also show additional sections 
     > [!NOTE]
     > On selecting **View details**, the details you see may include results from several different customer jouneys&mdash;for example, if you open an email message that has been reused. To view detailed results for just one journey, use the [filter settings](#filter) to choose a journey name after the related record opens.
 
-<a name="email-insights"></a>  
+<a name=email-insights></a>  
 
 ## Email insights
 

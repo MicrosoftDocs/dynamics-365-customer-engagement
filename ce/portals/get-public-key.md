@@ -1,7 +1,7 @@
 ---
 title: "Download public key of Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to download public key of a portal."
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -32,7 +32,7 @@ The public key of a portal is used to configure Live Assist for Dynamics 365 for
 
 3.	Go to **Portal Actions** > **Get Public Key**. The key is displayed.
 
-    ![Get public key of a portal](media/get-public-key.png "Get public key of a portal")
+    ![Get public key of a portal](media/get-public-key.png Get public key of a portal)
 
 4.	Select **Download as Text** to download the key in a text file.
 

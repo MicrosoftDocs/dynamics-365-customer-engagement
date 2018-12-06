@@ -1,21 +1,21 @@
 ---
 title: "Sample: Dump global option set information to a file | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: b9437469-70b5-4a3c-ae49-115522fb5cee
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

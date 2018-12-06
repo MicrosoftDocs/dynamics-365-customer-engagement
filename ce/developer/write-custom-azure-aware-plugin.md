@@ -1,20 +1,20 @@
 ---
 title: "Write a custom Azure-aware plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how plug-in code can be added to obtain the Azure service provider and initiate posting the execution context to the service bus by calling IExecutionContext)."
-ms.custom: ""
+ms.custom: 
 ms.date: 06/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 35d8e05c-245a-4eff-bc5f-3a4ee8ffcb46
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

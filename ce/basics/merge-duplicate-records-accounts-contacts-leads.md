@@ -1,19 +1,19 @@
 ---
 title: "Merge duplicate records for accounts, contacts, or leads (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: jimholtz
 ms.assetid: 3e3aba01-d5d0-469b-8b21-e857ad9e64dd
 caps.latest.revision: 50
-mms.author: "jimholtz"
-manager: "kvivek"
+mms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 

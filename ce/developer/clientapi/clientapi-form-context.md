@@ -1,14 +1,14 @@
 ---
 title: "Client API form context in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 05/11/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0cf94e8d-801a-451f-98c3-130e912f963b
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

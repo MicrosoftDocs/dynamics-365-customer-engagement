@@ -21,7 +21,7 @@ ms.author: matp
 
 The following requirements and recommendations apply to new and existing installations of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
   
-<a name="sql_gen_rec"></a>   
+<a name=sql_gen_rec></a>   
 ## General recommendations  
   
 -   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] requires an instance of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] be installed, running, and available. All installations of the supported [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] editions can be used as the reporting server. However, the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] edition must match the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] edition.  
@@ -74,7 +74,7 @@ The following requirements and recommendations apply to new and existing install
   
 -   We recommend that common language runtime (CLR) be enabled on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that hosts the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database. CLR can show a significant improvement in performance for some features such as time zone conversions when you run dashboards, charts, advanced finds, and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CLR Integration - Enabling](https://docs.microsoft.com/sql/relational-databases/clr-integration/clr-integration-enabling?view=sql-server-2017)  
 <!--  
-<a name="sql2016_perf"></a>   
+<a name=sql2016_perf></a>   
 ## Improve performance when you use  Microsoft Dynamics 365 for Customer Engagement with SQL Server 2016  
  The following settings can help improve [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application performance and should be configured on the SQL Server 2016 instance where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization databases are serviced.  
   

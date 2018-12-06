@@ -1,22 +1,22 @@
 ---
 title: "Edit system entity messages with PowerApps | MicrosoftDocs"
 description: "Learn how to edit system entity messages"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 3ccbd8de-8d6f-4058-87f7-15463667cfc6
 caps.latest.revision: 41
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

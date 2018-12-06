@@ -1,20 +1,20 @@
 ---
 title: "Form XML schema | MicrosoftDocs"
 description: "Learn about schema definition for form customizations."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c30b5fba-d0d9-4963-9b64-f793b192deae
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

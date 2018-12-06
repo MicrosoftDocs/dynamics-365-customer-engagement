@@ -3,7 +3,7 @@ title: "Enable header and footer output caching on a portal for Dynamics 365 for
 description: "Instructions to enable header and footer output caching on a portal for existing users."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -49,16 +49,16 @@ For a user who upgraded to a newer version of Portals, output caching is disable
 
         ```
         <li>
-            <a href="{% if homeurl%}/{{ homeurl }}{% endif %}/Account/Login/LogOff?returnUrl={{ request.raw_url_encode | escape }}" title="{{ snippets["links/logout"] | default:resx["Sign_Out"] | escape }}">
-            {{ snippets["links/logout"] | default:resx["Sign_Out"] | escape }}
+            <a href={% if homeurl%}/{{ homeurl }}{% endif %}/Account/Login/LogOff?returnUrl={{ request.raw_url_encode | escape }} title={{ snippets[links/logout] | default:resx[Sign_Out] | escape }}>
+            {{ snippets[links/logout] | default:resx[Sign_Out] | escape }}
             </a>
         </li>
         </ul>
         </li>
         {% else %}
         <li>
-            <a href="{% if homeurl%}/{{ homeurl }}{% endif %}/SignIn?returnUrl={{ request.raw_url_encode }}">
-            {{ snippets["links/login"] | default:resx["Sign_In"] }}
+            <a href={% if homeurl%}/{{ homeurl }}{% endif %}/SignIn?returnUrl={{ request.raw_url_encode }}>
+            {{ snippets[links/login] | default:resx[Sign_In] }}
             </a>
         </li>
         ```
@@ -67,16 +67,16 @@ For a user who upgraded to a newer version of Portals, output caching is disable
 
          ```
         <li>
-            <a href="{% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_out_url_substitution }}" title="{{ snippets["links/logout"] | default:resx["Sign_Out"] | escape }}">
-            {{ snippets["links/logout"] | default:resx["Sign_Out"] | escape }}
+            <a href={% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_out_url_substitution }} title={{ snippets[links/logout] | default:resx[Sign_Out] | escape }}>
+            {{ snippets[links/logout] | default:resx[Sign_Out] | escape }}
             </a>
         </li>
         </ul>
         </li>
         {% else %}
         <li>
-            <a href="{% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_in_url_substitution }}">
-            {{ snippets["links/login"] | default:resx["Sign_In"] }}
+            <a href={% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_in_url_substitution }}>
+            {{ snippets[links/login] | default:resx[Sign_In] }}
             </a>
         </li>
         ```
@@ -85,15 +85,15 @@ For a user who upgraded to a newer version of Portals, output caching is disable
         **Existing code**
         ```
     	{% assign current_page = page.adx_partialurl %}
-		{% assign sr_page = sitemarkers["Search"].url | remove: '/' %}
-		{% assign forum_page = sitemarkers["Forums"].url | remove: '/' %}
+		{% assign sr_page = sitemarkers[Search].url | remove: '/' %}
+		{% assign forum_page = sitemarkers[Forums].url | remove: '/' %}
 		{% if current_page == sr_page or current_page == forum_page %}
-		  <section class="page_section section-landing-{{ current_page }} color-inverse">
-		    <div class="container">
-		      <div class="row ">
-		        <div class="col-md-12 text-center">
+		  <section class=page_section section-landing-{{ current_page }} color-inverse>
+		    <div class=container>
+		      <div class=row >
+		        <div class=col-md-12 text-center>
 		          {% if current_page == sr_page %}
-		            <h1 class="section-landing-heading">{% editable snippets 'Search/Title' default: resx['Discover_Contoso'] %}</h1>
+		            <h1 class=section-landing-heading>{% editable snippets 'Search/Title' default: resx['Discover_Contoso'] %}</h1>
 		            {% include 'Search' %}
 		          {% endif %}
 		        </div>
@@ -108,19 +108,19 @@ For a user who upgraded to a newer version of Portals, output caching is disable
         ```
         {% substitution %}
 		  {% assign current_page = page.id %}
-		  {% assign sr_page = sitemarkers["Search"].id %}
-		  {% assign forum_page = sitemarkers["Forums"].id %}
+		  {% assign sr_page = sitemarkers[Search].id %}
+		  {% assign forum_page = sitemarkers[Forums].id %}
 		  {% if current_page == sr_page or current_page == forum_page %}
-		    {% assign section_class = "section-landing-search" %}
+		    {% assign section_class = section-landing-search %}
 		    {% if current_page == forum_page %}
-		      {% assign section_class = "section-landing-forums" %}
+		      {% assign section_class = section-landing-forums %}
 		    {% endif %}
-		   <section class="page_section section-landing-{{ current_page }} {{ section_class | h }} color-inverse">
-		      <div class="container">
-		        <div class="row ">
-		          <div class="col-md-12 text-center">
+		   <section class=page_section section-landing-{{ current_page }} {{ section_class | h }} color-inverse>
+		      <div class=container>
+		        <div class=row >
+		          <div class=col-md-12 text-center>
 		            {% if current_page == sr_page %}
-		              <h1 class="section-landing-heading">{% editable snippets 'Search/Title' default: resx['Discover_Contoso'] %}</h1>
+		              <h1 class=section-landing-heading>{% editable snippets 'Search/Title' default: resx['Discover_Contoso'] %}</h1>
 		              {% include 'Search' %}
 		            {% endif %}
 		          </div>
@@ -143,13 +143,13 @@ For a user who upgraded to a newer version of Portals, output caching is disable
     **Existing code**
     
     ```
-    <section id="gethelp" class="page_section section-diagonal-right color-inverse {% if page %}{% unless page.parent %}home-section{% endunless %}{% endif %} hidden-print">
+    <section id=gethelp class=page_section section-diagonal-right color-inverse {% if page %}{% unless page.parent %}home-section{% endunless %}{% endif %} hidden-print>
     ```
 
     **Updated code**
 
     ```
-    <section id="gethelp" class="page_section section-diagonal-right color-inverse {% substitution %}{% if page %}{% unless page.parent %}home-section{% endunless %}{% endif %}{% endsubstitution %} hidden-print">
+    <section id=gethelp class=page_section section-diagonal-right color-inverse {% substitution %}{% if page %}{% unless page.parent %}home-section{% endunless %}{% endif %}{% endsubstitution %} hidden-print>
     ```
 
 5. Save the web template.
@@ -164,13 +164,13 @@ For a user who upgraded to a newer version of Portals, output caching is disable
     **Existing code**
 
     ```
-    <a href="/{{ language.url }}" title="{{ language.name }}" data-code="{{ language.code }}">{{ language.name }}</a>
+    <a href=/{{ language.url }} title={{ language.name }} data-code={{ language.code }}>{{ language.name }}</a>
     ```
 
     **Updated code**
 
     ```
-    <a href="/{{ language.url_substitution }}" title="{{ language.name }}" data-code="{{ language.code }}">{{ language.name }}</a>
+    <a href=/{{ language.url_substitution }} title={{ language.name }} data-code={{ language.code }}>{{ language.name }}</a>
     ```
 
 5. Save the web template.

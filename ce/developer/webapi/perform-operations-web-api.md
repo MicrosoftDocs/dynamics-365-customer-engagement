@@ -1,20 +1,20 @@
 ---
 title: "Perform operations using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement Web API provides a modern, RESTful web service that you can use to interact with data in Dynamics 365 for Customer Engagement using a wide variety of platforms, programming languages and devices. Read about the operations that can be performed using the Web API"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b7ae4dd3-e9ee-45cc-a345-2fb7be5eddc6
 caps.latest.revision: 12
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

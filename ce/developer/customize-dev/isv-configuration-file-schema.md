@@ -1,20 +1,20 @@
 ---
 title: "ISV configuration file schema | MicrosoftDocs"
 description: "The topic shows you the schema definition for the ISV Configuration section of an import/export customization file."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7e473dfe-f4fd-4c5a-bd43-96fc487620dd
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

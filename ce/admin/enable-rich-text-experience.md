@@ -1,21 +1,21 @@
 ---
 title: "Rich text experience for appointment activities | MicrosoftDocs"
 description: "Enable the rich text experience for appointment activities with Microsoft Dynamics 365 for Customer Engagement apps (online) to Microsoft Dynamics 365 for Customer Engagement apps (on-premises)."
-ms.custom: ""
+ms.custom: 
 ms.date: 08/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: Mattp123
 ms.assetid: 502d88cd-3cf7-4611-b68e-15fcfddc19a5
 caps.latest.revision: 15
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 ---
 # Rich text experience for appointment activities
 

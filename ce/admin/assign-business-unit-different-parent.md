@@ -1,20 +1,20 @@
 ---
 title: "Assign a business unit a different parent business for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: edfab119-5a81-4dfe-ba53-78c834c67650
 caps.latest.revision: 13
-ms.author: "jimholtz"
-manager: "kvivek"
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

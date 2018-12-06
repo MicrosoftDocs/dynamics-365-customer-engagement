@@ -2,7 +2,7 @@
 title: "Implement General Data Protection Regulations in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
 description: "Learn how to implement General Data Protection Regulations in Microsoft Dynamics 365 for Customer Engagement portals."
 keywords: "portal GDPR, implement GDPR in portal"
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
@@ -46,7 +46,7 @@ Regulations for identifying minors vary by country/region. Because a minor can o
 - **Is Minor**: Indicates that the contact is considered a minor in their jurisdiction. By default, **No** is selected.
 - **Is Minor with Parental Consent**: Indicates that the contact is considered a minor in their jurisdiction and has parental consent. By default, **No** is selected.
 
-    ![Identify minor portal users and obtain parental consent](media/identify-minor-in-portal.png "Identify minor portal users and obtain parental consent")
+    ![Identify minor portal users and obtain parental consent](media/identify-minor-in-portal.png Identify minor portal users and obtain parental consent)
 
 The following site settings control the use of portals by minors and minors without parental consent:
 
@@ -58,11 +58,11 @@ The following site settings control the use of portals by minors and minors with
 
 If a portal user is determined to be a minor and the portal is configured to block minors, an appropriate message appears and content is not shown.
 
-![Age requirements message](media/gdpr-age-req.png "Age requirements message")
+![Age requirements message](media/gdpr-age-req.png Age requirements message)
 
 If a portal user is determined to be a minor without parental consent, and the portal is configured to block minors without parental consent, an appropriate message appears and content is not shown.
 
-![Parental consent message](media/gdpr-parental-consent.png "Parental consent message")
+![Parental consent message](media/gdpr-parental-consent.png Parental consent message)
 
 The following content snippets control messages that appear when the portal is used by minors and minors without parental consent. You can change the message according to your requirements.
 
@@ -80,7 +80,7 @@ When someone registers using an external provider and the portal is configured t
 
 According to the GDPR, portal users must agree to the terms and conditions to allow marketing, profiling, or access to private information. As an administrator, you can publish your own terms and conditions to get consent of the portal user before they are authenticated to the site.
 
-![Portal terms and conditions](media/gdpr-terms-agreement.png "Portal terms and conditions")
+![Portal terms and conditions](media/gdpr-terms-agreement.png Portal terms and conditions)
 
 The following content snippets control the display of terms and conditions on the screen. You can change the text according to your requirements.
 
@@ -105,7 +105,7 @@ The following site settings control the terms publication date and whether the t
 The following field is added in the portal contact record to store the date and time a portal user agreed to the terms and conditions:
 - **Portal Terms Agreement Date**: Indicates the date and time that the person agreed to the portal terms and conditions.
 
-    ![Portal Terms Agreement Date](media/portal-terms-agreement.png "Portal Terms Agreement Date")
+    ![Portal Terms Agreement Date](media/portal-terms-agreement.png Portal Terms Agreement Date)
 
 ### See also
 

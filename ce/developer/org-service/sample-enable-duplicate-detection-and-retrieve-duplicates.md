@@ -1,25 +1,25 @@
 ---
 title: "Sample: Enable duplicate detection and retrieve duplicates (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to enable duplicate detection and retrieve duplicate records based on active duplicate detection rules."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "detecting duplicate data in Microsoft Dynamics CRM, sample for enabling duplicate detection and retrieving duplicates"
-  - "duplicate detection, sample for enabling duplicate detection and retrieving duplicates"
-  - "enabling duplicate detection and retrieving duplicates sample"
-  - "sample for enabling duplicate detection and retrieving duplicates"
+  - detecting duplicate data in Microsoft Dynamics CRM, sample for enabling duplicate detection and retrieving duplicates
+  - duplicate detection, sample for enabling duplicate detection and retrieving duplicates
+  - enabling duplicate detection and retrieving duplicates sample
+  - sample for enabling duplicate detection and retrieving duplicates
 ms.assetid: f3c2e3c0-5d17-43d8-a614-d772ae1c747e
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

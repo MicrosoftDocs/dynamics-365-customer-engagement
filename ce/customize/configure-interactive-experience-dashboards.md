@@ -5,16 +5,16 @@ keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for C
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 search.audienceType: 
   - customizer

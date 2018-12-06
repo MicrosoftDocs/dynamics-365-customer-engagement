@@ -3,7 +3,7 @@ title: "Define entity forms and custom logic within a portal in Dynamics 365 for
 description: "Instructions to create entity forms in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,7 +25,7 @@ search.app:
 
 A data-driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal, entity forms are created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and then placed into webpages in the portal or used in conjunction with subgrids and entity lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md) 
 
-![Contact us form](media/contact-us-form.png "Contact us form")  
+![Contact us form](media/contact-us-form.png Contact us form)  
 
 ## Add a form to your portal
 
@@ -58,7 +58,7 @@ A managed form can be configured to display a map control to either display an e
 
 The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrive values from them. The Entity Form record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
 
-![Geolocation data in entity form](media/geolocation-managed-form.png "Geolocation data in entity form") 
+![Geolocation data in entity form](media/geolocation-managed-form.png Geolocation data in entity form) 
 
 > [!Note]
 > - The address field in a read-only entity form is replaced with the map when geolocation is enabled.

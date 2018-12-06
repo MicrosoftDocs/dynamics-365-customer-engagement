@@ -1,21 +1,21 @@
 ---
 title: "Enable the hybrid experience | MicrosoftDocs"
 Description: Some features are not yet present in the Unified Interface but can be enabled for display as legacy dialogs in the Unified Interface through the hybrid experience.
-ms.custom: ""
+ms.custom: 
 ms.date: 11/26/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 17408cd1-e85e-4a96-b975-0c032d036467
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 

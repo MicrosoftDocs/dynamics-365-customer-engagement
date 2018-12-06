@@ -45,27 +45,27 @@ See below for common prerequisite troubleshooting questions.
 
 When logged in to Dynamics 365 for Customer Engagement as an administrator or Field Service role, you'll see the Field Service module, as seen in the screenshot below.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Field Service in left navigation bar](media/Perform-Initial-Configurations-image1.png)  
 
 ### How do I know if the mobile solution is installed?
 
 When logged in as an administrator, Woodford will appear under **Settings > Solutions** and as an icon under Settings.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Woodford solution in solutions views](media/Perform-Initial-Configurations-image2.png)  
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Woodford under Settings](media/Perform-Initial-Configurations-image3.png)  
 
 ### How do I know if sample data is imported?
 
 If sample data has already been imported, you'll see multiple records under **Field Service > Work Orders**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Work orders in left navigatiion bar](media/Perform-Initial-Configurations-image4.png)  
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Active Work orders view](media/Perform-Initial-Configurations-image5.png)  
 
 ## Step 1: Resource scheduling
@@ -78,14 +78,14 @@ This is all accomplished by **geocoding**, where the solution associates a latit
 
 Navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Resource Scheduling Administration in Dynamics 365 for Customer Engagement dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
 Set **Connect to Maps** to **Yes**.
 
 The API key will populate automatically and use the Bing Maps API.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of setting COnnect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
 Save and close.
@@ -96,7 +96,7 @@ Later in this topic, we'll test geocoding and location services to make sure the
 
 Next up, navigate to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Enabling entities for scheduling](media/Perform-Initial-Configurations-image8.png)  
 
 This is where administrators decide which entities can be scheduled to Resources. When Field Service is installed, work orders are enabled for resource scheduling, and when Project Service is installed, projects are enabled. This is made possible by a solution called [Universal Resource Scheduling](universal-resource-scheduling.md) that adds scheduling capabilities to entities and makes use of the schedule board. Any entity (including custom entities) can be enabled for scheduling; typical examples include cases, opportunities, and orders.
@@ -107,24 +107,24 @@ Next, verify that work orders are enabled for resource scheduling.
 
 Navigate to **Field Service > Administration > Field Service Settings**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Field Service Administration from Dynamics 365 for Customer Engagement dropdown menu](media/Perform-Initial-Configurations-image9.png)  
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Field Service Settings](media/Perform-Initial-Configurations-image10.png)  
 
 In the **Other** section, decide if you would like the application to auto geocode addresses. The recommended setting is **Yes.**
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of setting Auto Geocode Addresses to Yes](media/Perform-Initial-Configurations-image11.png)  
 
-"Auto geocode addresses" means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses  requires the user to select a Geocode button.
+Auto geocode addresses means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses  requires the user to select a Geocode button.
 
 Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
 
 An example, as seen below, is **WO** and **100**. This is recommended, but not required.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Work Order Prefix and starting number](media/Perform-Initial-Configurations-image12.png)  
 
 ## Step 3: Test Geocoding
@@ -135,22 +135,22 @@ Navigate to **Field Service > Work Orders** and select **+New**.
 
 Begin typing an address.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Work Order address form](media/Perform-Initial-Configurations-image13.png)  
 
 The system will find the address and present it as a suggestion.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of address](media/Perform-Initial-Configurations-image14.png)  
 
 After selecting the correct address, the form will populate the rest of the address, **including the latitude and longitude**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of address with latitude and longitude populated on work order form](media/Perform-Initial-Configurations-image15.png)  
 
 If you don't want the system to auto geocode addresses, select the geocode button in the top ribbon.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Geocode button](media/Perform-Initial-Configurations-image16.png)  
 
 >[!Note]
@@ -159,7 +159,7 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 >[!Note]
 > **Pro Tip \#2:** It's possible to geocode multiple records at one time by selecting the records from a view. In the screenshot below, we are mass geocoding accounts.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of mass Geocoding multiple account records](media/Perform-Initial-Configurations-image17.png)  
 
 ## Step 4: Mobile
@@ -170,7 +170,7 @@ The following steps in this section require that you have the mobile solution (R
 
 In a **non-private Internet Explorer browser**, log into your Dynamics 365 for Customer Engagement organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of opening Internet Explorer from Edge](media/Perform-Initial-Configurations-image18.png)  
 
 >[!Note]
@@ -178,7 +178,7 @@ In a **non-private Internet Explorer browser**, log into your Dynamics 365 for C
 
 Whether you access from Internet Explorer or the standalone application, you will land on the Woodford interface, as seen below.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Woodford interface](media/Perform-Initial-Configurations-image19.png)  
 
 Next, navigate to **Plugins > Delete**.
@@ -187,7 +187,7 @@ Select work orders and related work order entities, such as work order products,
 
 This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more details, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  
 
 **Save**.
@@ -196,7 +196,7 @@ Next up, navigate to Mobile Projects and double-click on your mobile project tem
 
 Select **Configuration** in the left pane.
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Screenshot of Woodford mobile Configurations](media/Perform-Initial-Configurations-image21.png)  
 
 This section details many configurations regarding the Field Service Mobile (2017) app user interface and how data passes back and forth between the mobile application and the server.

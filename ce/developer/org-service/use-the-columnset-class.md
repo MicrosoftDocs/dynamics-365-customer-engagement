@@ -1,27 +1,27 @@
 ---
 title: "Use the ColumnSet class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the ColumnSet class to specify what attributes to return from a query expression"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "reducing query results by defining the attributes to return, ColumnSet class"
-  - "ColumnSet class, about and code example"
-  - "ColumnSet class, specifying what attributes to return from a query expression"
-  - "ColumnSet class, reducing query results by defining the attributes to return"
-  - "using the ColumnSet class"
-  - "specifying what attributes to return from a query expression, ColumnSet class"
+  - reducing query results by defining the attributes to return, ColumnSet class
+  - ColumnSet class, about and code example
+  - ColumnSet class, specifying what attributes to return from a query expression
+  - ColumnSet class, reducing query results by defining the attributes to return
+  - using the ColumnSet class
+  - specifying what attributes to return from a query expression, ColumnSet class
 ms.assetid: b74367ff-cd14-4305-9601-7c00acb80a0d
 caps.latest.revision: 21
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

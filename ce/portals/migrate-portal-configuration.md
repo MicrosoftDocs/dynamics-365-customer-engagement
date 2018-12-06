@@ -2,7 +2,7 @@
 title: "Migrate Dynamics 365 for Customer Engagement Portal configuration | MicrosoftDocs"
 description: "Learn how to migrate Dynamics 365 for Customer Engagement Portal configuration."
 keywords: ""
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -54,13 +54,13 @@ You can export portal configuration data from a source system by using portal-sp
 3.	Double-click the **DataMigrationUtility.exe** file in the 
 `<your_folder>\Tools\ConfigurationMigration` folder to run the Configuration Migration tool, choose **Export data** in the main screen, and then select **Continue**.
     
-    > [!div class="mx-imgBorder"]
-    ![Export configuration data](media/export-config-data.png "Export configuration data")
+    > [!div class=mx-imgBorder]
+    ![Export configuration data](media/export-config-data.png Export configuration data)
 
 4.	On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and want to select the organization from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
-    > [!div class="mx-imgBorder"]
-    ![Provide authentication details to connect to your Dynamics 365 for Customer Engagement instance from where you want to export data](media/export-config-login.png "Provide authentication details to connect to your Dynamics 365 for Customer Engagement instance from where you want to export data")
+    > [!div class=mx-imgBorder]
+    ![Provide authentication details to connect to your Dynamics 365 for Customer Engagement instance from where you want to export data](media/export-config-login.png Provide authentication details to connect to your Dynamics 365 for Customer Engagement instance from where you want to export data)
 
 5.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization to connect to. 
 
@@ -71,13 +71,13 @@ You can export portal configuration data from a source system by using portal-sp
 
 7.	In **Save to data file**, specify the name and location of the data file to be exported.
 
-    > [!div class="mx-imgBorder"]
-    ![Specify schema and target files](media/export-config-file-name.png "Specify schema and target files")
+    > [!div class=mx-imgBorder]
+    ![Specify schema and target files](media/export-config-file-name.png Specify schema and target files)
 
 8.	Select **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.
 
-    > [!div class="mx-imgBorder"]
-    ![Progress of configuration data export](media/export-config-status.png "Progress of configuration data export")
+    > [!div class=mx-imgBorder]
+    ![Progress of configuration data export](media/export-config-status.png Progress of configuration data export)
 
     > [!IMPORTANT]
     > The Configuration Migration tool does not support filtering of records in an entity. By default, all the records in the selected entity will be exported. Therefore, if you have created more than one website record, all website records will be exported.
@@ -88,8 +88,8 @@ You can export portal configuration data from a source system by using portal-sp
 
 1.	Run the Configuration Migration tool and choose **Import data** in the main screen, and then select **Continue**.
 
-    > [!div class="mx-imgBorder"]
-    ![Import configuration data](media/import-config-data.png "Import configuration data")
+    > [!div class=mx-imgBorder]
+    ![Import configuration data](media/import-config-data.png Import configuration data)
 
 2.	On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and want to select the organization from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
@@ -101,8 +101,8 @@ You can export portal configuration data from a source system by using portal-sp
 
 4.	The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**. 
 
-    > [!div class="mx-imgBorder"]
-    ![Progress of configuration data import](media/import-config-status.png "Progress of configuration data import")
+    > [!div class=mx-imgBorder]
+    ![Progress of configuration data import](media/import-config-status.png Progress of configuration data import)
 
 5.	The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import. 
 

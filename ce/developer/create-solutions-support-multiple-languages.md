@@ -1,15 +1,13 @@
 ---
 title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: 
-  - "crm-online"
-ms.custom: 
-  - ""
+  - crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
 ms.author: jdaly

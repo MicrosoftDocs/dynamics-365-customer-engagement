@@ -3,7 +3,7 @@ title: "Use Liquid objects for a portal in Dynamics 365 for Customer Engagement 
 description: "Learn about the available liquid objects in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -33,9 +33,9 @@ To access an object attribute by name, use a dot . To render an object's attribu
 Attributes of an object can also be accessed by using a string name and \[\]. This is useful in cases where the desired attribute is determined dynamically, or the attribute name contains characters , spaces, special characters, and so on that would be invalid when using the . syntax.
 
 ```
-{{ page["title"] }}
+{{ page[title] }}
 
-{% assign attribute_name = "Name with spaces" %}
+{% assign attribute_name = Name with spaces %}
 
 {{ object[attribute_name] }}
 ```
@@ -68,13 +68,13 @@ The ads object allows you to select a specific ad or ad placement:
 ```
 <div>
 
-{% assign ad = ads["Ad Name"] %}
+{% assign ad = ads[Ad Name] %}
 
 <h4>{{ ad.title }}</h4>
 
-<a href="{{ ad.redirect_url }}">
+<a href={{ ad.redirect_url }}>
 
-<img src="{{ ad.image.url }}" alt="{{ ad.image.alternate_text }}" />
+<img src={{ ad.image.url }} alt={{ ad.image.alternate_text }} />
 
 </a>
 
@@ -86,14 +86,14 @@ The ads object allows you to select a specific ad or ad placement:
 |Attribute   |Description   |
 |---|---|
 | placements        | Returns the adplacements object.    |
-| \[ad name or id\] | You can access any ad by its Name or Id properties. <br> `{% assign ad = ads["Ad Name"] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
+| \[ad name or id\] | You can access any ad by its Name or Id properties. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
 
 
 ### Ad Placements attributes
 
 |Attribute   |Description   |
 |---|---|
-| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.<br>`{% assign placement = ads.placements["Placement Name or Id"] %}`<br>`{% assign placement = ads.placements["2423d713-abb3-44c3-8a7d-c445e16fccad"] %}`  |
+| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
 
 ### Ad Placement attributes
 
@@ -139,19 +139,19 @@ The blogs object allows you to select a specific blog or blog posts.
 ```
 {% assign posts = blogs.posts | paginate: 0,4 %}
 
-<div class="content-panel panel panel-default">
+<div class=content-panel panel panel-default>
 
-<div class="panel-heading">
+<div class=panel-heading>
 
-{% assign sitemarker = sitemarkers["Blog Home"] %}
+{% assign sitemarker = sitemarkers[Blog Home] %}
 
-{% assign snippet = snippets["Home Blog Activity Heading"] %}
+{% assign snippet = snippets[Home Blog Activity Heading] %}
 
-<a class="pull-right" href="{{sitemarker.url}}"> All Blogs </a>
+<a class=pull-right href={{sitemarker.url}}> All Blogs </a>
 
 <h4>
 
-<a class="feed-icon fa fa-rss-square" href="{{ blogs.feedpath }}" />
+<a class=feed-icon fa fa-rss-square href={{ blogs.feedpath }} />
 
 {{ snippet.adx_value }}
 
@@ -159,37 +159,37 @@ The blogs object allows you to select a specific blog or blog posts.
 
 </div>
 
-<ul class="list-group">
+<ul class=list-group>
 
 {% for post in posts.all %}
 
-<li class="list-group-item" >
+<li class=list-group-item >
 
-<a class="user-avatar" href="{{ post.author_url }}">
+<a class=user-avatar href={{ post.author_url }}>
 
-<img src="{{ post.user_image_url }}" />
+<img src={{ post.user_image_url }} />
 
 </a>
 
-<h4 class="list-group-item-heading">
+<h4 class=list-group-item-heading>
 
-<a href="{{ post.app_relative_path }}">{{ post.title }}</a>
+<a href={{ post.app_relative_path }}>{{ post.title }}</a>
 
 </h4>
 
-<div class="content-metadata">
+<div class=content-metadata>
 
-<abbr class="timeago">{{ post.publish_date }}</abbr>
-
-&ndash;
-
-<a href="{{ post.author_url }}"> {{ post.author_name }} </a>
+<abbr class=timeago>{{ post.publish_date }}</abbr>
 
 &ndash;
 
-<a href="{{ post.application_path }}#comments">
+<a href={{ post.author_url }}> {{ post.author_name }} </a>
 
-<span class="fa fa-comment" aria-hidden="true"></span> {{ post.comment_count }}
+&ndash;
+
+<a href={{ post.application_path }}#comments>
+
+<span class=fa fa-comment aria-hidden=true></span> {{ post.comment_count }}
 
 </a>
 
@@ -216,9 +216,9 @@ The following table explains the attributes associated with the blogs object.
 | \[blog name or id\] | You can access any blog by its Name or Id properties.                   
 
 ```
-{% assign blog = blogs["Blog Name"] %}                             
+{% assign blog = blogs[Blog Name] %}                             
 
-{% assign blog = blogs["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}  |
+{% assign blog = blogs[da8b8a92-2ee6-476f-8a21-782b047ff460] %}  |
 ```
 
 ### blog Object
@@ -565,15 +565,15 @@ Provides the ability to access and render Forums and Forum Threads. Note that th
 The forums object allows you to select a Forum or Forum Threads :
 
 ```
-<div class="content-panel panel panel-default">
+<div class=content-panel panel panel-default>
 
-<div class="panel-heading">
+<div class=panel-heading>
 
 <h4>
 
-<span class="fa fa-comments" aria-hidden="true"></span>
+<span class=fa fa-comments aria-hidden=true></span>
 
-{{ snippets["Home Forum Activity Heading"] | default: "Forum Activity" | h }}
+{{ snippets[Home Forum Activity Heading] | default: Forum Activity | h }}
 
 </h4>
 
@@ -581,23 +581,23 @@ The forums object allows you to select a Forum or Forum Threads :
 
 {% for forum in website.forums %}
 
-<ul class="list-group">
+<ul class=list-group>
 
-<li class="list-group-item">
+<li class=list-group-item>
 
-<div class="row">
+<div class=row>
 
-<div class="col-sm-6">
+<div class=col-sm-6>
 
-<h4 class="list-group-item-heading"><a href="{{ forum.url | h }}"> {{ forum.name | h }}</a></h4>
+<h4 class=list-group-item-heading><a href="{{ forum.url | h }}"> {{ forum.name | h }}</a></h4>
 
-<div class="list-group-item-text content-metadata">{{ forum.adx_description | h }}</div>
+<div class=list-group-item-text content-metadata>{{ forum.adx_description | h }}</div>
 
 </div>
 
-<div class="col-sm-3 content-metadata">{{ forum.thread_count }} threads</div>
+<div class=col-sm-3 content-metadata>{{ forum.thread_count }} threads</div>
 
-<div class="col-sm-3 content-metadata">{{ forum.post_count }} posts</div>
+<div class=col-sm-3 content-metadata>{{ forum.post_count }} posts</div>
 
 </div>
 
@@ -619,7 +619,7 @@ The forum object allows you to work with a single forum, allowing you to access 
 The forumthreads object allows you to access a collection of forumthread objects. You can order the forum threads and achieve pagination as well by using liquid filters.
 
 ```
-{% assign threads = forum.threads | order_by "adx_name", "desc" | paginate: 0,4 | all %}
+{% assign threads = forum.threads | order_by adx_name, desc | paginate: 0,4 | all %}
 ```
 
 A Single Forum Thread
@@ -634,7 +634,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 | All                  | Returns all forum objects in the portal. Note that website.forums Is also an equivalent.    |
 | thread\_count        | Returns the integer value of the count of how many threads there are in the entire website. |
 | post\_count          | Returns the integer value of the total number of posts in the portal.                       |
-| \[forum name or id\] | You can access any forum by its Name or Id properties. <br>`{% assign forum = forums["Forum Name"] %}<br>{% assign forum = forums["da8b8a92-2ee6-476f-8a21-782b047ff460"] %} 
+| \[forum name or id\] | You can access any forum by its Name or Id properties. <br>`{% assign forum = forums[Forum Name] %}<br>{% assign forum = forums[da8b8a92-2ee6-476f-8a21-782b047ff460] %} 
 
 ### forum Object
 
@@ -718,11 +718,11 @@ The articles object allows you to access a collection of article objects. You ca
 {% assign languagecode = website.selected_language.code %}
 {% assign popular_articles = knowledge.articles | popular: count,languagecode  %}
 {% if popular_articles %}
-    <div class="list-group">
+    <div class=list-group>
     {% for article in popular_articles %}
-      <div class="list-group-item clearfix">
-        <a class="title" href="{{ article.url | escape }}">{{ article.title | escape }}</a>
-        <p class="description">{{ article.description | escape }}</p>
+      <div class=list-group-item clearfix>
+        <a class=title href={{ article.url | escape }}>{{ article.title | escape }}</a>
+        <p class=description>{{ article.description | escape }}</p>
       </div>
     {% endfor %}
     </div>
@@ -764,9 +764,9 @@ The categories object allows you to access a collection of category objects. You
   {% assign count = count | default: 0 %}  
   {% assign categories = knowledge.categories | top_level: count %}
   {% if categories %}
-    <div class="list-group unstyled">
+    <div class=list-group unstyled>
     {% for category in categories %}
-      <a href="{{ category_url | add_query: 'id', category.categorynumber }}" class="list-group-item">
+      <a href={{ category_url | add_query: 'id', category.categorynumber }} class=list-group-item>
         {{ category.title }}
       </a>
     {% endfor %}
@@ -841,35 +841,35 @@ Refers to the current portal request page. This object combines the attributes o
 The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record.
 
 ```
-<ul class="breadcrumb">
+<ul class=breadcrumb>
 
 {% for crumb in page.breadcrumbs %}
 
-<li><a href="{{ crumb.url | escape }}">{{ crumb.title | escape }}</a></li>
+<li><a href={{ crumb.url | escape }}>{{ crumb.title | escape }}</a></li>
 
 {% endfor %}
 
-<li class="active">{{ page.title | escape }}</li>
+<li class=active>{{ page.title | escape }}</li>
 
 </ul>
 
-<div class="page-header">
+<div class=page-header>
 
 <h1>{{ page.title | escape }}</h1>
 
 </div>
 
-<div class="page-copy">
+<div class=page-copy>
 
 {{ page.adx_copy }}
 
 </div>
 
-<div class="list-group">
+<div class=list-group>
 
 {% for child in page.children %}
 
-<a class="list-group-item" href="{{ child.url | escape }}">
+<a class=list-group-item href={{ child.url | escape }}>
 
 {{ child.title | escape }}
 
@@ -905,7 +905,7 @@ The polls object allows you to select a specific poll or poll placement:
 ```
 <div>
 
-{% assign poll = polls["Poll Name"] %}
+{% assign poll = polls[Poll Name] %}
 
 <h4>{{ poll.question }}</h4>
 
@@ -913,15 +913,15 @@ The polls object allows you to select a specific poll or poll placement:
 
 <div>
 
-<input type="radio" name="{{ poll.name }}" id="{{ option.id }}" />
+<input type=radio name={{ poll.name }} id={{ option.id }} />
 
-<label for="{{ option.id }}">{{ option.answer }}</label>
+<label for={{ option.id }}>{{ option.answer }}</label>
 
 </div>
 
 {% endfor %}
 
-<button type="button">{{ poll.submit_button_label }}</button>
+<button type=button>{{ poll.submit_button_label }}</button>
 
 </div>
 ```
@@ -931,13 +931,13 @@ The polls object allows you to select a specific poll or poll placement:
 |Attribute   |Description   |
 |---|---|
 | placements          | Returns the pollplacements object.                                      |
-| \[poll name or id\] | You can access any poll by its Name or Id properties. `{% assign poll = polls["Poll Name"] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
+| \[poll name or id\] | You can access any poll by its Name or Id properties. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
 
 ### Poll Placements Attributes
 
 |Attribute   |Description   |
 |---|---|
-| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.`{% assign placement = polls.placements["Placement Name or Id"] %}`<br>`{% assign placement = polls.placements["7677c5d4-406e-4b6c-907c-916ac17dba0f"] %} `|
+| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
 
 ### Poll Placement Attributes
 
@@ -988,7 +988,7 @@ Contains information about the current HTTP request.
 ```
 {% assign id = request.params['id'] %}
 
-<a href="{{ request.url | add_query: 'foo', 1 }}">Link</a>
+<a href={{ request.url | add_query: 'foo', 1 }}>Link</a>
 ```
 
 > [!Note]
@@ -1022,7 +1022,7 @@ The searchindex object is used within the [Dynamics 365 for Customer Engagement 
 
 <li>
 
-<h3><a href="{{ result.url | escape }}">{{ result.title | escape }}</a></h3>
+<h3><a href={{ result.url | escape }}>{{ result.title | escape }}</a></h3>
 
 <p>{{ result.fragment }}</p>
 
@@ -1071,9 +1071,9 @@ Allows you to load any [site setting](configure-site-settings.md) by name. If a 
 > Settings are returned as [strings](liquid-types.md#string), but you can use [Type filters](liquid-filters.md#type-filters) to convert them to other types.
 
 ```
-{{ settings["My Setting"] }}
+{{ settings[My Setting] }}
 
-{% assign search_enabled = settings["Search/Enabled"] | boolean %}
+{% assign search_enabled = settings[Search/Enabled] | boolean %}
 
 {% if search_enabled %}
 
@@ -1101,33 +1101,33 @@ Allows access to the portal site map.
 ```
 <h1>{{ sitemap.root.title }}</h1>
 
-<ul class="breadcrumb">
+<ul class=breadcrumb>
 
 {% for crumb in sitemap.current.breadcrumbs %}
 
-<li><a href="{{ crumb.title }}">{{ crumb.title }}</a></li>
+<li><a href={{ crumb.title }}>{{ crumb.title }}</a></li>
 
 {% endfor %}
 
-<li class="active">{{ sitemap.current.title }}</li>
+<li class=active>{{ sitemap.current.title }}</li>
 
 </ul>
 
 {% for child in sitemap.current.children %}
 
-<a href="{{ child.url }}">{{ child.title }}</a>
+<a href={{ child.url }}>{{ child.title }}</a>
 
 {% endfor %}
 
 It's also possible to load a site map node by URL path:
 
-{% assign node = sitemap["/content/page1/"] %}
+{% assign node = sitemap[/content/page1/] %}
 
 {% if node %}
 
 {% for child in node.children %}
 
-<a href="{{ child.url }}">{{ child.title }}</a>
+<a href={{ child.url }}>{{ child.title }}</a>
 
 {% endfor %}
 
@@ -1161,17 +1161,17 @@ It's also possible to load a site map node by URL path:
 Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object will be returned. If a sitemarker with the given name is not found, [null](liquid-types.md#null) will be returned.  
 
 ```
-{{ sitemarkers["Login"].url }}
+{{ sitemarkers[Login].url }}
 
-{% assign my_sitemarker = sitemarkers["My Site Marker"] %}
+{% assign my_sitemarker = sitemarkers[My Site Marker] %}
 
 {% if my_sitemarker %}
 
-<a href="{{ my_sitemarker.url }}">{{ my_sitemarker.adx_name }}</a>
+<a href={{ my_sitemarker.url }}>{{ my_sitemarker.adx_name }}</a>
 
 {% else %}
 
-Site marker "My Site Marker" does not exist.
+Site marker My Site Marker does not exist.
 
 {% endif %}
 ```
@@ -1191,9 +1191,9 @@ Site marker "My Site Marker" does not exist.
 Allows you to load any content snippets by name. If a snippet with the given name is not found, [null](liquid-types.md#null) will be returned.  
 
 ```
-{{ snippets["Header"] }}
+{{ snippets[Header] }}
 
-{% assign footer = snippets["Footer"] %}
+{% assign footer = snippets[Footer] %}
 
 {% if footer %}
 
@@ -1275,7 +1275,7 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 
 <!-- Load web link set by name -->
 
-{% assign nav = weblinks["Primary Navigation"] %}
+{% assign nav = weblinks[Primary Navigation] %}
 
 {% if nav %}
 
@@ -1287,11 +1287,11 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 
 <li>
 
-<a href="{{ link.url | escape }}" title="{{ link.tooltip | escape }}">
+<a href={{ link.url | escape }} title={{ link.tooltip | escape }}>
 
 {% if link.image %}
 
-<img src="{{ link.image.url | escape }}" alt="{{ link.image.alternate_text | escape }}" />
+<img src={{ link.image.url | escape }} alt={{ link.image.alternate_text | escape }} />
 
 {% endif %}
 
@@ -1339,7 +1339,7 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 |    is\_sitemap\_ancestor    |                                Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                 |
 |    is\_sitemap\_current     |                                        Returns true if the weblink's URL references the current sitemap node, otherwise false.                                        |
 |            Name             |                                                                    The name/title of the web link.                                                                    |
-|          Nofollow           |                                         Boolean attribute indicating whether the web link should be marked as rel="nofollow".                                         |
+|          Nofollow           |                                         Boolean attribute indicating whether the web link should be marked as rel=nofollow.                                         |
 |    open\_in\_new\_window    |                             Boolean attribute indicating whether the web link should be opened in a new browser window/tab when selected.                             |
 |           Tooltip           |                                                                    Tooltip text for the web link.                                                                     |
 |             url             |                                                                       The URL of the web link.                                                                        |

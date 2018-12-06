@@ -1,20 +1,20 @@
 ---
 title: "Key preparation and configuration tasks | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/11/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 77628b79-4436-4c75-bb71-26f72a00894f
 caps.latest.revision: 31
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

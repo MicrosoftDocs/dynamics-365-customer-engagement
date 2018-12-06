@@ -1,20 +1,20 @@
 ---
 title: "Manage your deployment (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Write application code to handle disaster recovery, administer your deployment, and import sample data."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8089efdb-c358-4049-94ab-4496a98a768a
 caps.latest.revision: 11
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

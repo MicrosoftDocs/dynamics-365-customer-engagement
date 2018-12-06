@@ -1,20 +1,20 @@
 ---
 title: "Localize product property values (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Add, update, retrieve, query, and translate the localized values for product name attributes."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1635a343-2896-4cdb-a6fb-3c5113a32470
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

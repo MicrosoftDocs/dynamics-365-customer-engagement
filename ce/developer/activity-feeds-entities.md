@@ -1,28 +1,28 @@
 ---
 title: "Activity feeds entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The activity feeds help promote internal collaboration through quick and short updates in Dynamics 365 for Customer Engagement apps. The activity feeds do not replace emails or in-person communications."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "integrating activity feeds with other applications"
-  - "activity feeds, collaborating internally"
-  - "collaborating internally, activity feeds"
-  - "activity feeds, definition of"
-  - "activity feeds, benefits of"
-  - "activity feeds, integrating with other applications"
-  - "activity feeds, introduction"
+  - integrating activity feeds with other applications
+  - activity feeds, collaborating internally
+  - collaborating internally, activity feeds
+  - activity feeds, definition of
+  - activity feeds, benefits of
+  - activity feeds, integrating with other applications
+  - activity feeds, introduction
 ms.assetid: e475491b-179a-4c26-9acd-3d6557173d9d
 caps.latest.revision: 56
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

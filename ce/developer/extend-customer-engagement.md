@@ -1,20 +1,20 @@
 ---
 title: "Extend Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Understand the different ways you can write code to change how a Dynamics 365 for Customer Engagement apps system works, build your own application using it, or integrate the system with other products."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 156dadf2-e2bf-496c-8d72-a94e71469fb1
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -77,13 +77,13 @@ To complete provisioning a portal, after you have purchased a new portal license
 
 10. In the **Select portal to be deployed** section, choose what type of portal you want to create. The options you see are based on the audience you selected.
 
-    ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
+    ![Configure settings for your portal](media/configure-settings-portal.png Configure settings for your portal)  
 
 11. Select **Submit**, and accept the Terms of Service.
 
-    ![Terms of service](media/terms-of-service.png "Terms of service")  
+    ![Terms of service](media/terms-of-service.png Terms of service)  
 
-After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to "*Name*-Configuring" while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to *Name*-Configuring while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
 
 > [!Note]
 > When a portal user signs in to the portal for the first time by using an Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
@@ -124,7 +124,7 @@ The table below summarizes the features associated with each portal option:
 
 Sometimes the package installation process or URL creation process can error out. In these cases, the processes can be restarted.
 
-If "*Name*-Configuring" changes to "*Name*-Provisioning Failed," you need to restart the provisioning process.
+If *Name*-Configuring changes to *Name*-Provisioning Failed, you need to restart the provisioning process.
 
 1. Go to the **Applications** page, and select the portal.
 2. Select the blue pencil button labeled **Manage**.
@@ -134,9 +134,9 @@ If "*Name*-Configuring" changes to "*Name*-Provisioning Failed," you need to res
 
    - **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
 
-     ![Provisioning error](media/error-provisioning.png "Provisioning error")  
+     ![Provisioning error](media/error-provisioning.png Provisioning error)  
 
-If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message "Getting set up." To confirm this:
+If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message Getting set up. To confirm this:
 
 1. Go to the Solution Management page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and check that the package status is **Install Failed**. 
 2. If the package status is **Install Failed**, try retrying the installation from the solution page. Also, be sure to check that a system administrator in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is installing the solution with the default language in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] set to the language the portal should be installed in.

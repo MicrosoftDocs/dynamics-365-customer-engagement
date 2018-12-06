@@ -1,19 +1,19 @@
 ---
 title: "Why does the Dynamics 365 for Customer Engagement apps email message I sent have a Pending Send status? | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 98ee8425-c7dc-46e3-b721-7c3edca4bf0d
 caps.latest.revision: 6
-author: "jimholtz"
-ms.author: "jimholtz"
+author: jimholtz
+ms.author: jimholtz
 search.audienceType: 
   - admin
 search.app: 

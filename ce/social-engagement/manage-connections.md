@@ -1,12 +1,12 @@
 ---
 title: "Manage connections in Social Engagement | Microsoft Docs"
 description: "Learn how to get started with connections to other services."
-keywords: "connect, connections, integration, dynamics 365"
+keywords: connect, connections, integration, dynamics 365
 ms.date: 11/16/2017
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 7b9ac951-beb1-46e7-a585-edadd941a3df
 author: m-hartmann
 ms.author: mhart

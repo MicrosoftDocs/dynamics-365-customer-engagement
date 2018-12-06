@@ -1,20 +1,20 @@
 ---
 title: "Start a Dynamics 365 for Customer Engagement Web API project in Visual Studio (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Create a new project in Visual Studio to build a console application that uses Dynamics 365 for Customer Engagement Web API"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 08377156-32c7-492a-8e66-50a47a330dc6
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

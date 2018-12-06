@@ -1,19 +1,19 @@
 ---
 title: "Connect Dynamics 365 for Customer Engagement apps to POP3 or SMTP servers | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
+  - Dynamics 365 for Customer Engagement  (online)
 ms.assetid: afb01c24-a2bd-4e00-9804-ce494f2d315b
 caps.latest.revision: 22
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

@@ -1,20 +1,20 @@
 ---
 title: "Register and use a custom workflow activity assembly (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about registering and using a custom workflow activity assembly"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2dd2fe35-f681-4548-9b2b-5ad7c8470b8d
 caps.latest.revision: 50
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

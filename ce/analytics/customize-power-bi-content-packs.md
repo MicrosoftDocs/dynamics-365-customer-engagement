@@ -1,14 +1,14 @@
 ---
 title: "Customize Dynamics 365 for Customer Engagement apps Power BI content packs (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 for Customer Engagement apps data."
-keywords: "PBI"
+keywords: PBI
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 424d7f29-de44-4ce0-94f1-be8777ad6485
 author: Mattp123
 ms.author: matp

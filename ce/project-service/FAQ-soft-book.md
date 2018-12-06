@@ -17,11 +17,11 @@ audience: Admin
 
 ---
 
-# How do I "soft book" resources? 
+# How do I soft book resources? 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-You can tentatively schedule or "soft book" a resource onto a project team to show that you plan to assign the resource to the project. Soft bookings don’t consume a resource’s available capacity, and you can assign soft-booked team members to project tasks. However, because soft booking doesn’t consume a resource’s capacity, you can still "hard book" the resource for other tasks within the same period. Generic resources can’t be soft-booked, nor can a soft-booking fulfill a generic resource request.
+You can tentatively schedule or soft book a resource onto a project team to show that you plan to assign the resource to the project. Soft bookings don’t consume a resource’s available capacity, and you can assign soft-booked team members to project tasks. However, because soft booking doesn’t consume a resource’s capacity, you can still hard book the resource for other tasks within the same period. Generic resources can’t be soft-booked, nor can a soft-booking fulfill a generic resource request.
 
 Soft-booked project team members are listed on the Team tab, with their soft-booked hours shown in the Soft Booked Hours column in the Named Resources view. Soft-booked team members are also listed on the schedule board. Because they are soft booked, the schedule board doesn't show any consumption of capacity for these resources. Soft-booked time doesn’t show up on the Reconciliation tab, nor is it shown in the Extend Bookings field in the Reconciliation tab. 
 

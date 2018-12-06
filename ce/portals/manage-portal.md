@@ -2,7 +2,7 @@
 title: "Administer a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
-ms.date:12/03/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -33,7 +33,7 @@ To manage an existing portal, you must be assigned any one of the following role
 - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
 - System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
 
-If you haven't been assigned any of the above-mentioned roles, the following message is displayed: "You need to be a global administrator, Dynamics 365 for Customer Engagement service administrator, or system administrator for this organization in order to manage this portal."
+If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 for Customer Engagement service administrator, or system administrator for this organization in order to manage this portal.
 
 If you are not a global administrator and you try to manage a portal that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.
 
@@ -84,9 +84,9 @@ A custom domain can help your customers find your support resources more easily 
    
    > [!Note]
    > - You can only have one custom domain name for a portal. 
-   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name." Retry after some time passes.
+   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: Please add a CNAME record to this domain name. Retry after some time passes.
 
-7. Review the information you have entered, and then select **Next** to begin creating the SSL Binding. You should see the message "Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal." {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured.
+7. Review the information you have entered, and then select **Next** to begin creating the SSL Binding. You should see the message Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal. {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured.
 
 8. Select **Finish** to close the wizard.
 

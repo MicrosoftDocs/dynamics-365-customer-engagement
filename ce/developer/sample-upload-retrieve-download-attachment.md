@@ -1,23 +1,23 @@
 ---
 title: "Sample: Upload, retrieve, and download an attachment | MicrosoftDocs"
 description: "The sample demonstrates how to upload, retrieve, and download an attachment for an annotation using the IOrganizationService.Entity) and IOrganizationService.ColumnSet) methods. "
-ms.custom: ""
+ms.custom: 
 ms.date: 11/24/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "uploading; retrieving; and downloading attachments sample, sample for the annotation (note) entity"
-  - "sample for uploading; retrieving; and downloading attachments, annotation (note) entity sample"
+  - uploading; retrieving; and downloading attachments sample, sample for the annotation (note) entity
+  - sample for uploading; retrieving; and downloading attachments, annotation (note) entity sample
 ms.assetid: a231c619-7130-43f0-b3da-fd1a87545672
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
