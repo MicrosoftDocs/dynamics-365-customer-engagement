@@ -29,7 +29,7 @@ Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin ce
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
 
 > [!IMPORTANT]
-> If your organization is eligible for Social Engagement and you've signed up for the Dynamics 365 AI for Market Insights Preview, all existing data, searches, and users are migrated to the new experience. If you want to go back to use Social Engagement, a global admin can [remove the license](#remove-a-license-from-a-user) for **Dynamics 365 AI for Market Insights (Preview)** in the Office 365 admin center and ensure a Social Engagement [license is assigned](#assign-a-license-to-a-user). This will roll back to the experience with Social Engagement branding while persisting your data. 
+> If your organization is eligible for Social Engagement and you've signed up for the Dynamics 365 AI for Market Insights Preview, all your existing data will be available in both applications. If you want to go back to using Social Engagement, a global admin can [remove your license](#remove-a-license-from-a-user) for **Dynamics 365 AI for Market Insights (Preview)** in the Office 365 admin center and ensure a Social Engagement [license is assigned](#assign-a-license-to-a-user) to you. This will roll back to the experience with Social Engagement branding while persisting your data. 
 
 ## Prepare your organization
 
