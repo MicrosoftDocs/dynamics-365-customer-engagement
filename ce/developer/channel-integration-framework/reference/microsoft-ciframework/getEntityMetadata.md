@@ -149,7 +149,7 @@ manager: shujoshi
 <tr>
 <td>IsDocumentRecommendationsEnabled</td>
 <td>Boolean</td>
-<td>Indicates whether the documemt recommendations is enabled.</td>
+<td>Indicates whether the document recommendations are enabled.</td>
 </tr>
 <tr>
 <td>IsDuplicateDetectionEnabled</td>
@@ -209,7 +209,7 @@ manager: shujoshi
 <tr>
 <td>IsValidForAdvancedFind</td>
 <td>Boolean</td>
-<td>Indicates whether the entity is will be shown in Advanced Find.</td>
+<td>Indicates whether the entity is shown in Advanced Find.</td>
 </tr>
 <tr>
 <td>IsVisibleInMobileClient</td>
@@ -244,7 +244,7 @@ manager: shujoshi
 <tr>
 <td>PrimaryIdAttribute</td>
 <td>String</td>
-<td>The name of the attribute that is the primary id for the entity.</td>
+<td>The name of the attribute that is the primary ID for the entity.</td>
 </tr>
 <tr>
 <td>PrimaryImageAttribute</td>
