@@ -1,7 +1,7 @@
 ---
 title: "Use Power BI with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 12/07/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -37,13 +37,13 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
 2. After you have signed in to [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)], in the **Datasets** area click **Get Data**, under **Services** click **Get**, and then select from the following content packs.  
   
-   - **Dynamics 365 for Customer Engagement apps (online) Sales Manager**  
+   - **Sales Analytics for Dynamics 365**  
   
-   - **Dynamics 365 for Customer Engagement apps (online) Service Manager**  
+   - **Customer Service Analytics for Dynamics 365**  
   
-   - **Dynamics Marketing**  
+   - **Microsoft Dynamics 365 - Social Engagement**  
   
-3. For the Sales Manager and Service Manager content packs, enter the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, such as *<https://OrganizationName.crm.dynamics.com>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, and click **Next**.  
+3. For the Sales Analytics and Service Analytics content packs, enter the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, such as *<https://OrganizationName.crm.dynamics.com>*, where *OrganizationName* is the organization name of your instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, and click **Next**.  
   
    > [!NOTE]
    >  If your data center is outside of North America the crm.dynamics.com domain name may be different, such as crm2.dynamics.com, crm3.dynamics.com, crm4.dynamics.com, etc. To find the domain name, in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web app go to **Settings** > **Customizations** > **Developer Resources**. The URLs listed will indicate the correct domain name.  
