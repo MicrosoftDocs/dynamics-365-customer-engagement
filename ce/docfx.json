@@ -24,7 +24,7 @@
           "**/includes/**",
           "unified-service-desk/**",
           "**/_themes/**",
-          "**/_themes.pdf/**"
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
