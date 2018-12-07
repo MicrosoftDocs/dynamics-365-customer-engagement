@@ -129,7 +129,7 @@ search.app:
   
    ![Click Office 365 Groups Connectors.](../admin/media/office-365-groups-connectors.png "Click Office 365 Groups Connectors.")  
   
-4. Scroll down to **Dynamics 365 for Customer Engagement apps Online**, and then click **Add**.  
+4. Scroll down to **Dynamics 365 Online**, and then click **Add**.  
   
 5. If you have access to more than one Customer Engagement instance, choose which instance to connect to this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group. If you only have access to one Customer Engagement instance, this step will be skipped and you will advance to the next step.  
   

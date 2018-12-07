@@ -68,7 +68,7 @@ You can limit access to Customer Engagement apps to users with   trusted IP addr
   
 2. Click **Browse** > **Active Directory**, and then select your Customer Engagement apps directory.  
   
-3. Click **Applications**, and then click  the **Dynamics 365 for Customer Engagement apps Online** web application.  
+3. Click **Applications**, and then click  the **Dynamics 365 Online** web application.  
  
    ![Select the Dynamics 365 for Customer Engagement apps (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 for Customer Engagement apps (online) web app") 
   

@@ -59,7 +59,7 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-cr
 7. Correct or change a Partner of Record attachment. This can also now be self-managed through the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
   
 ## When I renew my subscription, can I change my payment method?  
- During subscription renewal, you can move from credit card to invoice payment, but not from invoice to credit card. Please refer to the **Dynamics 365 for Customer Engagement apps (online)** tab on the [Billing support](../admin/billing-support.md) page if you wish to change from invoice to credit card payments at subscription renewal time.  
+ During subscription renewal, you can move from credit card to invoice payment, but not from invoice to credit card. Please [contact billing support](contact-information-microsoft-dynamics-365-online-billing-support.md) if you wish to change from invoice to credit card payments at subscription renewal time.  
   
 ## How do I purchase Dynamics 365 for Customer Engagement apps (online) through Volume Licensing?  
  If you're interested in placing an order for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps through Volume Licensing, you can find more information on what the best option is for you by reviewing How Volume Licensing Works.  For detailed information, see [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  

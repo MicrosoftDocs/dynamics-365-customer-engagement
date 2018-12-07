@@ -182,7 +182,7 @@ The Dynamics 365 for Customer Engagement apps schema contains fields specific to
 
 You can review your audit data in the Office 365 Security and Compliance Center. See [Search the audit log for user and admin activity in Office 365](https://support.office.com/article/search-the-audit-log-for-user-and-admin-activity-in-office-365-57ca5138-0ae0-4d34-bd40-240441ef2fb6).
 
-To use the preconfigured Dynamics 365 for Customer Engagement apps reports, go to https://protection.office.com > **Search & investigation** > **Audit log search** and select the **Dynamics 365 for Customer Engagement apps activities** tab.
+To use the preconfigured Dynamics 365 for Customer Engagement apps reports, go to https://protection.office.com > **Search & investigation** > **Audit log search** and select the **Dynamics 365 activities** tab.
 
 ![Dynamics 365 for Customer Engagement apps audit log reports](media/D365-audit-log-reports.png "Dynamics 365 for Customer Engagement apps audit log reports")
 

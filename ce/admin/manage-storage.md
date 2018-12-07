@@ -55,7 +55,7 @@ If you purchase through volume licensing or a cloud solutions provider, please c
   
 2. Click **Billing** > **Purchase Services**.  
   
-3. Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 for Customer Engagement apps - Additional Database Storage** tile.  
+3. Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 - Additional Database Storage** tile.  
   
    ![Purchase additional online storage](../admin/media/purchase-additional-online-storage.png "Purchase additional online storage")  
   

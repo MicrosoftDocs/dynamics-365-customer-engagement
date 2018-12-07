@@ -111,7 +111,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
   
 2. From the Home tab, click **Get Data**, and then click **More**.  
   
-3. In the Get Data list, select **Dynamics 365 for Customer Engagement Online**.  
+3. In the Get Data list, select **Dynamics 365 Online**.  
   
 4. Enter the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps OData endpoint URL. It should look similar to this URL, where *OrganizationName* is the name of your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps organization, and **v8.1** is the version. Click **OK**.  
   
