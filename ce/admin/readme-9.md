@@ -36,6 +36,8 @@ Dynamics 365 Channel Integration Framework
 
 - It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
 
+- If you have all roles selected while creating a new channel provider in the Channel Integration Framework (CIF) admin app, the save operation will fail with a script error. 
+
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
 
