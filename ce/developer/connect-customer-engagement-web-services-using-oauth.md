@@ -54,7 +54,7 @@ AuthenticationContext authContext =
 AuthenticationResult result = authContext.AcquireToken(resource, clientId, new Uri(redirectUrl));  
 ```  
   
- The authentication context is returned using a well-known authority provider. When you don’t know the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant associated with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you’re calling, you can use a constant string of `https://login.windows.net/common`, which is the authority URL for a multiple tenant scenario. An alternate method to dynamically discover the authority at run time is described later in this topic.  
+ The authentication context is returned using a well-known authority provider. When you don’t know the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant associated with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you’re calling, you can use a constant string of `https://login.microsoftonline.com`, which is the authority URL for a multiple tenant scenario. An alternate method to dynamically discover the authority at run time is described later in this topic.  
   
  The next line of code gets the authentication result that contains the access token you’re looking for. You can send message requests to the web service with this token.  
   
