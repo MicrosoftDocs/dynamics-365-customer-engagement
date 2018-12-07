@@ -122,7 +122,7 @@ If you have custom security roles defined in Dynamics 365 for Customer Engagemen
 | [!INCLUDE [pn-ms-outlook-2013-short](../includes/pn-ms-outlook-2013-short.md)]  (desktop client) |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
 |                                 Outlook for Mac (desktop client)                                 |                     O and M                      |                                                                                                                                  |                                                              |                                            |
 |             [!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)             |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
-|                                  Mobile Outlook app<sup>4</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
+|                                  Mobile Outlook app<sup>5</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
 
 (O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
 (M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
@@ -140,7 +140,9 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 
-(4) Supported on iPhones 6S or higher, with iOS 8 or higher.
+(4) Not supported on mobile Outlook Web Access.<br/>
+
+(5) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
 ### Supported browsers for Outlook on the web  
  You can use Dynamics 365 App for Outlook with Outlook on the web on the following browsers: 
