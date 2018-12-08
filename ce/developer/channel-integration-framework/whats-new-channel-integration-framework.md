@@ -31,7 +31,7 @@ The topic provides the list of new features introduced for Dynamics 365 Channel 
 
 ## Ability to pass Dynamics 365 URL to widget library
 
-To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to load the `msdyn_cilibrary.js` file inside your communication widget. Since the widget is in a different domain, the JavaScript API library needs to identify Dynamics 365 domain to interact. To enable the communication between the different domains, you must pass your Dynamics 365 instance URL to the widget library.
+To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to load the `msdyn_cilibrary.js` file inside your communication widget. Since the widget is in a different domain, the JavaScript API library needs to identify the Dynamics 365 domain to interact. To enable the communication between the different domains, you must pass your Dynamics 365 instance URL to the widget library.
 
 There are two ways to pass the URL to widget library:
 1. By adding attributes to a script tag
@@ -39,22 +39,22 @@ There are two ways to pass the URL to widget library:
 
 More information: [Pass a Dynamics 365 URL to a widget library](pass-url-widget-library.md)
 
-## Ability to add an additional Trusted Domain
+## Ability to add another trusted domain
 
-Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. More information: [Configure channel provider in Channel Integration Framework (CIF)](configure-channel-provider-channel-integration-framework.md).
+Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md).
 
 ## Custom Parameters field in the Channel provider configuration
 
-Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) returns this as value of key `customParams`. 
+Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) returns this as a value of key `customParams`. 
 
 More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md).
 
 
 ## Download Dynamics 365 Channel Integration Framework
 
-Download link for Channel Integration Framework solution: [Download Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70).
+Download link for Channel Integration Framework solution: [Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70).
 
-## See Also
+## See also
 
 [Dynamics 365 Channel Integration Framework Guide](index.md)
 

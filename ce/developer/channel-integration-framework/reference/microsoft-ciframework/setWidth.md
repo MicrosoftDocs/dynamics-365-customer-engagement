@@ -18,6 +18,10 @@ ms.author: kabala
 manager: shujoshi
 ---
 
+<!--from editor: Line 39 reads like it has extra or missing words. "... when the panel width is setting operation fails." Probably the "is" should be removed.-->
+
+
+
 # setWidth (CIF JavaScript API Reference)
 
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
