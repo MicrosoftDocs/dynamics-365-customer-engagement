@@ -41,7 +41,7 @@ More information: [Pass a Dynamics 365 URL to a widget library](pass-url-widget-
 
 ## Ability to add another trusted domain
 
-Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. More information: [Configure channel provider in Channel Integration Framework (CIF)](configure-channel-provider-channel-integration-framework.md).
+Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md).
 
 ## Custom Parameters field in the Channel provider configuration
 
