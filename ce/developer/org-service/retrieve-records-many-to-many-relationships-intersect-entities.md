@@ -1,20 +1,20 @@
 ---
 title: "Retrieve records for many-to-many relationships using intersect entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "An intersect entity is automatically created when there is a many-to-many (N:N) relationship between two entities. Read how you can retrieve records for many-to-many relationships using intersect entities. This topic lists the intersect entities that are used in N:N relationships between default entities"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b7987bf2-3915-4ddb-b76f-1cc4a1e44404
 caps.latest.revision: 37
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,13 +1,13 @@
 ---
 title: "Integrate LinkedIn Sales Navigator solutions for Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365 for Customer Engagement."
-keywords: "integration, sales navigator, linkedin, versions"
+keywords: integration, sales navigator, linkedin, versions
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 author: m-hartmann
 ms.author: mhart

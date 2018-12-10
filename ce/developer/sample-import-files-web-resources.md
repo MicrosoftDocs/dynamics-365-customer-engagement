@@ -1,13 +1,13 @@
 ---
 title: "Sample: Import files as web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample provides a simplified example of importing files as web resources."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0f9bca5b-b876-4f68-8e4e-e844da8598d6
 author: JimDaly
 ms.author: jdaly

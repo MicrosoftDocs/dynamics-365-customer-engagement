@@ -1,22 +1,22 @@
 ---
 title: "Use the virtual entity OData v4 data provider with PowerApps | MicrosoftDocs"
 description: "Learn how to use the Virtual entity OData v4 data provider"
-ms.custom: ""
-ms.date: "04/26/2018"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 04/26/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 4cf0d6f6-870b-4ca6-80de-426494a8c2f5
 caps.latest.revision: 
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

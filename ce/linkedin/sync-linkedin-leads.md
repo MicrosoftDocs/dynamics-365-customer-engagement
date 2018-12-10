@@ -1,12 +1,12 @@
 ---
 title: "Sync leads by using Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to set up and configure Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms to sync leads from sponsored campaigns on LinkedIn to your Dynamics 365 for Customer Engagement (online) organization."
-keywords: "linkedin lead gen, lead gen form, get started"
+keywords: linkedin lead gen, lead gen form, get started
 ms.date: 04/02/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
 author: m-hartmann
 ms.author: mhart

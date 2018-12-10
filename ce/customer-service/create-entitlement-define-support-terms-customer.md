@@ -4,8 +4,8 @@ description: See how to create entitlements to define the support terms for a cu
 keywords: Create an entitlement; Dynamics 365 for Customer Engagement; Customer Service Hub; Activate or deactivate an entitlement; Set as default entitlement; Associate entitlements to cases;  Cancel an entitlement; Renew an entitlement
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018

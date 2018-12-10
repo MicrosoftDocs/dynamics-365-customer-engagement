@@ -1,43 +1,43 @@
 ---
 title: "Customize labels to support multiple languages (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about customizing labels to support multiple languages."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "customizing labels to support multiple languages, messages to use with labels (list of)"
-  - "translating customized entity and attribute text, customizing labels to support multiple languages"
-  - "customizing labels to support multiple languages, customizing labels in base languages"
-  - "exporting customized text for translation, customizing labels to support multiple languages"
-  - "customizing labels to support multiple languages, translating customized entity and attribute text"
-  - "customizing labels to support multiple languages, language pack installation instructions"
-  - "messages for localized labels to support multiple languages, customizing labels to support multiple languages"
-  - "language pack installation instructions, customizing labels to support multiple languages"
-  - "customizing labels in base languages, customizing labels to support multiple languages"
-  - "using labels, customizing labels to support multiple languages"
-  - "customizing labels to support multiple languages, exporting customized text for translation"
-  - "multiple languages"
-  - "customizing labels to support multiple languages, installing multiple language packs on servers"
-  - "customizing labels to support multiple languages, using labels"
-  - "metadata properties for labels (list of), customizing labels to support multiple languages"
-  - "importing translated text, customizing labels to support multiple languages"
-  - "managing languages for your organization, customizing labels to support multiple languages"
-  - "customizing labels to support multiple languages, managing languages for your organization"
-  - "multiple languages, messages for localized labels"
-  - "installing multiple language packs on servers, customizing labels to support multiple languages"
-  - "multiple languages, customizing labels for"
-  - "customizing labels to support multiple languages, importing translated text"
-  - "customizing labels to support multiple languages, metadata properties for labels (list of)"
+  - customizing labels to support multiple languages, messages to use with labels (list of)
+  - translating customized entity and attribute text, customizing labels to support multiple languages
+  - customizing labels to support multiple languages, customizing labels in base languages
+  - exporting customized text for translation, customizing labels to support multiple languages
+  - customizing labels to support multiple languages, translating customized entity and attribute text
+  - customizing labels to support multiple languages, language pack installation instructions
+  - messages for localized labels to support multiple languages, customizing labels to support multiple languages
+  - language pack installation instructions, customizing labels to support multiple languages
+  - customizing labels in base languages, customizing labels to support multiple languages
+  - using labels, customizing labels to support multiple languages
+  - customizing labels to support multiple languages, exporting customized text for translation
+  - multiple languages
+  - customizing labels to support multiple languages, installing multiple language packs on servers
+  - customizing labels to support multiple languages, using labels
+  - metadata properties for labels (list of), customizing labels to support multiple languages
+  - importing translated text, customizing labels to support multiple languages
+  - managing languages for your organization, customizing labels to support multiple languages
+  - customizing labels to support multiple languages, managing languages for your organization
+  - multiple languages, messages for localized labels
+  - installing multiple language packs on servers, customizing labels to support multiple languages
+  - multiple languages, customizing labels for
+  - customizing labels to support multiple languages, importing translated text
+  - customizing labels to support multiple languages, metadata properties for labels (list of)
 ms.assetid: f6a1a03d-938c-4fe1-8f25-2e1551e148ff
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

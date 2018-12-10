@@ -1,14 +1,14 @@
 ---
 title: "Preview feature: Automatically suggest knowledge articles with Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: ee417009-afaf-4a63-9d8b-ef756a37decf
 author: Mattp123
 ms.author: matp

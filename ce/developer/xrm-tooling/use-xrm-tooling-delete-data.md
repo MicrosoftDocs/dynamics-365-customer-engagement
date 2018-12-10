@@ -1,20 +1,20 @@
 ---
 title: "Use XRM tooling to delete data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use CrmServiceClient class to delete data from Dynamics 365 for Customer Engagement"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7e503d2c-89df-4846-8528-632b5ee12bd5
 caps.latest.revision: 14
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

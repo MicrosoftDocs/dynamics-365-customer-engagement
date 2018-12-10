@@ -2,14 +2,14 @@
 title: "Limit the registration of plug-ins for Retrieve and RetrieveMultiple messages | MicrosoftDocs"
 description: "Adding synchronous plug-in logic to the Retrieve and RetrieveMultiple message events can cause slowness throughout Dynamics 365 for Customer Engagement."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4be02eba-7f1b-4d5b-9d72-929f9feccb3d
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 ---
 # Limit the registration of plug-ins for Retrieve and RetrieveMultiple messages
 

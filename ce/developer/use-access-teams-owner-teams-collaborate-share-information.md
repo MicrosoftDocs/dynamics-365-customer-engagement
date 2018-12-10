@@ -1,25 +1,25 @@
 ---
 title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using access teams and owner teams to colloborate and share information."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "owner team"
-  - "team template"
-  - "team"
-  - "access team"
+  - owner team
+  - team template
+  - team
+  - access team
 ms.assetid: 16f99b97-6ce5-4f65-abdd-f836dc54f9d3
 caps.latest.revision: 75
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

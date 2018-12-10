@@ -1,11 +1,11 @@
 ---
 title: "There is a problem with the federation metadata URL | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: e210ef8a-3e72-4022-8d15-b4e1a7aa23cc
 caps.latest.revision: 8
 robots: noindex,nofollow

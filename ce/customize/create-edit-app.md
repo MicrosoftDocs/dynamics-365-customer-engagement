@@ -1,18 +1,18 @@
 ---
 title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
-keywords: ""
+keywords: 
 ms.date: 11/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 2a44229e-44f0-4c4e-ba21-a476210d0a12
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

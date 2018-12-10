@@ -3,11 +3,11 @@ title: "Insights, powered by InsideView (Dynamics 365 for Customer Engagement) |
 ms.custom:
   - dyn365-insightsinsideview
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 author: saurabh-kudesia
 ms.assetid: cf2feda4-7286-4d0e-aee2-790a7982a847
 caps.latest.revision: 33

@@ -1,15 +1,15 @@
 ---
 title: "Install Dynamics 365 for Customer Engagement for Field Service (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 10/12/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-author: "shellyhaverkamp"
-ms.author: "FieldServiceDave"
-ms.manager: "shellyhaverkamp"
+  - field-service
+ms.tgt_pltfrm: 
+author: shellyhaverkamp
+ms.author: FieldServiceDave
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer

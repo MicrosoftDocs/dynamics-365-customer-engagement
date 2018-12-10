@@ -8,9 +8,9 @@ applies_to:
 ms.date: 05/30/2018
 ms.service: dynamics-365-crossapp
 ms.topic: article
-author: "ReneeW-CPub"
-ms.author: "renwe"
-manager: "annbe"
+author: ReneeW-CPub
+ms.author: renwe
+manager: annbe
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
 ms.custom: 
   - dyn365-a11y

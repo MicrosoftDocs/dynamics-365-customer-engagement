@@ -1,20 +1,20 @@
 ---
 title: "Use the early bound entity classes in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The code generation tool (CrmSvcUtil) creates early-bound entity classes that you can use to access business data in Dynamics 365 for Customer Engagement. The advantage of using early-bound entity classes is that all type references are checked at compile time"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 379a6a60-3b40-4f2c-a53c-ff8bf9c48a5a
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

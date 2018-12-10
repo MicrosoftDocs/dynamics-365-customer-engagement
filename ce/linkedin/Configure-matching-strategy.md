@@ -1,12 +1,12 @@
 ---
 title: "Matching strategy for Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 for Customer Engagement get updated by configuring the matching strategy for newly synced LinkedIn leads."
-keywords: "lead matching, field mapping, linkedin leads, lead record"
+keywords: lead matching, field mapping, linkedin leads, lead record
 ms.date: 04/02/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 author: m-hartmann
 ms.author: mhart

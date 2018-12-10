@@ -1,19 +1,19 @@
 ---
 title: "Streamline JavaScript web resource development using Fiddler AutoResponder (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about how to setup and use AutoResponder in Fiddler for local debugging of JavaScript web resources."
-ms.custom: ""
+ms.custom: 
 ms.date: 09/18/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "sakudes"
+author: SushantSikka
+ms.author: susikka
+manager: sakudes
 search.audienceType: 
   - developer
 search.app: 

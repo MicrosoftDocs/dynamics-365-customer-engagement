@@ -6,17 +6,17 @@ author: yonalow
 ms.author: yolow
 manager: shellyha
 ms.date: 11/14/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.technology: 
-  - "field-service"
-  - "project-service"
+  - field-service
+  - project-service
 ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
 ms.custom: 
   - dyn365-projectservice

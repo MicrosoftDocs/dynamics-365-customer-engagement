@@ -1,20 +1,20 @@
 ---
 title: "Connect to Social Engagement | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 0bd0021b-d2fa-406d-813a-eaecf7e50587
 caps.latest.revision: 76
-author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+author: m-hartmann
+ms.author: mhart
+manager: sakudes
 search.audienceType: 
   - admin
 search.app: 

@@ -1,20 +1,20 @@
 ---
 title: "Use XRM tooling to execute actions in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Object of CrmServiceClient class can be used to perform create, retrieve, update and delete operations on Dynamics 365 for Customer Engagement data"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 845a198f-a2b1-4c38-83e8-0968e684b627
 caps.latest.revision: 13
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

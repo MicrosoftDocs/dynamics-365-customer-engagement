@@ -1,13 +1,13 @@
 ---
 title: "Sample: Enable document management for entities | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3272e732-908d-461f-be4d-81a94bfc9afb
 author: KumarVivek
 ms.author: kvivek

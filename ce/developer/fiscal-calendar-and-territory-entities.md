@@ -1,28 +1,28 @@
 ---
 title: "Fiscal calendar and territory entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about fiscal calendar and territory entities. Depending on the fiscal year settings that are defined by the Organization entity, you can use one of the following fiscal calendar entities to set the sales quotas: AnnualFiscalCalendar, FixedMonthlyFiscalCalendar, MonthlyFiscalCalendar, QuarterlyFiscalCalendar, and SemiAnnualFiscalCalendar."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "quotas, definition"
-  - "salepersons, definition"
-  - "setting sales quotas, goal management entities"
-  - "goal management entities, using for setting sales quotas"
-  - "goal management entities, more versatile than the fiscal calendar entities"
-  - "fiscal calendar; fiscal year; and fiscal periods entities, definition"
-  - "territory entity, definition"
+  - quotas, definition
+  - salepersons, definition
+  - setting sales quotas, goal management entities
+  - goal management entities, using for setting sales quotas
+  - goal management entities, more versatile than the fiscal calendar entities
+  - fiscal calendar; fiscal year; and fiscal periods entities, definition
+  - territory entity, definition
 ms.assetid: 1a695f80-f042-4a56-a698-72fd1055f01e
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

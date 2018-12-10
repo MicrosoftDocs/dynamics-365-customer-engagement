@@ -1,7 +1,7 @@
 ---
 title: "Create portals and interactive webpages (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How the Dynamics 365 for Customer Engagement Portals solution is integrated with Dynamics 365 for Marketing"
-keywords: "portal; website; page; marketing page; event portal"
+keywords: portal; website; page; marketing page; event portal
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

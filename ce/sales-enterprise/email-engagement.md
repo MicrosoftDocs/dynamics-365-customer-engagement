@@ -1,14 +1,14 @@
 ---
 title: "Email engagement for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag

@@ -1,16 +1,16 @@
 ---
 title: "Sample: Create a global option set | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: b312607a-d231-41fc-ba9d-259e0c76af4e
 author: JimDaly
 ms.author: jdaly

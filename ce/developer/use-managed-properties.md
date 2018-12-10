@@ -1,31 +1,31 @@
 ---
 title: "Use managed properties (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Managed properties help you define which of the managed solution components can be customized"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "using managed properties, setting the IsCustomizable property"
-  - "unmanaged solutions, applying managed properties"
-  - "using managed properties, applying managed properties to unmanaged solutions"
-  - "checking managed properties for solution components, using managed properties"
-  - "managed properties, using in unmanaged solutions"
-  - "solution components, list of managed properties for each solution component"
-  - "using managed properties, list of managed properties for each solution component"
-  - "solution components, using managed properties"
-  - "using managed properties, updating managed properties"
-  - "using managed properties, checking managed properties for solution components"
+  - using managed properties, setting the IsCustomizable property
+  - unmanaged solutions, applying managed properties
+  - using managed properties, applying managed properties to unmanaged solutions
+  - checking managed properties for solution components, using managed properties
+  - managed properties, using in unmanaged solutions
+  - solution components, list of managed properties for each solution component
+  - using managed properties, list of managed properties for each solution component
+  - solution components, using managed properties
+  - using managed properties, updating managed properties
+  - using managed properties, checking managed properties for solution components
 ms.assetid: 749edaa4-e975-4e6a-925d-6ea77bfa9112
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,20 +1,20 @@
 ---
 title: "For partners: Get the credit when your customers subscribe to Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 4172c64c-bdf8-43a7-aee2-2692c46af593
 caps.latest.revision: 40
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "jackiesm"
+author: jimholtz
+ms.author: jimholtz
+manager: jackiesm
 search.audienceType: 
   - admin
 search.app: 

@@ -1,14 +1,14 @@
 ---
 title: "Microsoft SQL Server Reporting Services server was not found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 f1_keywords: 
-  - "ReportingURLValidator.htm"
-  - "ReportingURLValidator"
+  - ReportingURLValidator.htm
+  - ReportingURLValidator
 ms.assetid: d0ceba1f-b25a-40e7-b0fd-2e439b65bade
 caps.latest.revision: 4
 robots: noindex,nofollow

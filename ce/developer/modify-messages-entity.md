@@ -1,32 +1,32 @@
 ---
 title: "Modify the messages for an entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about editing the entity messages by exporting, editing, and importing translations."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "entities, updating entity display strings"
-  - "modifying messages for entities, updating entity display strings"
-  - "modifying messages for entities, editing text messages by exporting; editing; and importing translations"
-  - "modifying messages for entities, manually editing entity messages"
-  - "modifying messages for entities, customizing display names of system entities or attributes"
-  - "entities, manually editing entity messages"
-  - "text messages, editing by exporting; editing; and importing translations"
-  - "entities, customizing display names of system entities or attributes"
-  - "modifying messages for entities, editing messages so that they match your custom display names"
-  - "messages, manually editing entity messages"
-  - "messages, editing to match your custom display names"
+  - entities, updating entity display strings
+  - modifying messages for entities, updating entity display strings
+  - modifying messages for entities, editing text messages by exporting; editing; and importing translations
+  - modifying messages for entities, manually editing entity messages
+  - modifying messages for entities, customizing display names of system entities or attributes
+  - entities, manually editing entity messages
+  - text messages, editing by exporting; editing; and importing translations
+  - entities, customizing display names of system entities or attributes
+  - modifying messages for entities, editing messages so that they match your custom display names
+  - messages, manually editing entity messages
+  - messages, editing to match your custom display names
 ms.assetid: ab9e81bc-d218-4438-8a09-cc64db08bb40
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

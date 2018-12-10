@@ -1,19 +1,19 @@
 ---
 title: "How field security affects synchronization between Dynamics 365 for Customer Engagement apps and Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 5df0b13a-846a-4822-83cc-8efaaf3395fb
 caps.latest.revision: 13
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

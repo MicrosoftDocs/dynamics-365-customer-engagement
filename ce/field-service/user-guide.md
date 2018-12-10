@@ -3,13 +3,13 @@ title: "User Guide (Dynamics 365 for Customer Engagement for Field Service) | Mi
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 author: krbjoran
 ms.assetid: 8a311df9-3307-4524-85e5-76258d80ff86
 caps.latest.revision: 46

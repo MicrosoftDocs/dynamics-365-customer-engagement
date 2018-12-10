@@ -1,20 +1,20 @@
 ---
 title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic contains a table that lists the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b3902754-0cbc-49d5-ac37-3f6f89a89e90
 caps.latest.revision: 47
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

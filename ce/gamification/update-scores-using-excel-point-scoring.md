@@ -4,10 +4,10 @@ description: "Learn how you can score KPIs using an Excel template to track KPIs
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1c58f29f-95df-4b2d-b0c4-56cea45bf196

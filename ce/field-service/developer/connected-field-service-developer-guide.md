@@ -5,15 +5,15 @@ ms.custom:
   - dyn365-developer
   - dyn365-fieldservice
 ms.date: 01/05/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
 caps.latest.revision: 8
 author: JimDaly

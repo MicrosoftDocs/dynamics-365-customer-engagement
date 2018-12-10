@@ -1,18 +1,18 @@
 ---
 title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
-ms.custom: ""
+ms.custom: 
 ms.date: 01/10/2018
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b7840a25-f25e-409b-8b6a-0ef04c7ed9c4
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

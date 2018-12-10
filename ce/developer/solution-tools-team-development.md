@@ -1,20 +1,20 @@
 ---
 title: "Solution tools for team development (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This topic gives details about tools that can be used for team development of Dynamics 365 for Customer Engagement solutions and for source code control"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: af0cb38e-58f4-4aa6-82c4-da67f07115f9
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

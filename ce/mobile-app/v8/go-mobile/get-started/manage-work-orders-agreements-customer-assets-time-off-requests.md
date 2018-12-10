@@ -1,20 +1,20 @@
 ---
 title: "Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "07/19/2017"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 07/19/2017
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps (on-premises)
-author: "mduelae"
+author: mduelae
 ms.assetid: faa87829-895e-4799-a587-c52551a78415
 caps.latest.revision: 12
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

@@ -1,19 +1,19 @@
 ---
 title: "Walkthrough: Registering and configuring SimpleSPA application with adal.js (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 for Customer Engagement apps using adal.js and Cross-origin Resource Sharing (CORS)"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0346a66d-147b-40e0-a1b6-0c30815043b4
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 

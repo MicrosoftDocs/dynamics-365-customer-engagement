@@ -1,14 +1,14 @@
 ---
 title: "Web application requirements for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 09/07/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 6404db68-f66b-4128-ac2f-84258503bc82
 author: Mattp123
 ms.author: matp

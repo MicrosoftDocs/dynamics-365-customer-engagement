@@ -1,15 +1,15 @@
 ---
 title: "Install and enable a Language Pack | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
 ms.assetid: 3ffb8f29-2bc2-4074-8c44-f7e3cb4a14be
 caps.latest.revision: 19
 author: Mattp123

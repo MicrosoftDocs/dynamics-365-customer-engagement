@@ -1,17 +1,17 @@
 ---
 title: "Sample data installation (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 09/28/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
+  - field-service
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "krbjoran"
-ms.author: "shellyha"
-ms.manager: "shellyha"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: krbjoran
+ms.author: shellyha
+ms.manager: shellyha
 search.audienceType: 
   - admin
   - customizer

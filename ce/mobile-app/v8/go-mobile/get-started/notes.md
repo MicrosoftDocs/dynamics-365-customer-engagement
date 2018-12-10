@@ -1,19 +1,19 @@
 ---
 title: "Notes in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "07/19/2017"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 07/19/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics CRM Online
+author: jimholtz
 ms.assetid: d665c784-9bf1-4ca0-a30d-94d0c154506f
 caps.latest.revision: 11
-ms.author: "mkaur"
+ms.author: mkaur
 search.audienceType: 
   - admin
   - customizer

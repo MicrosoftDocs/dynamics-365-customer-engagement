@@ -2,14 +2,14 @@
 title: "Avoid using window.top | MicrosoftDocs"
 description: "Describes how to avoid script errors and incorrect application behavior associated with using window.top in JavaScript customizations within Dynamics 365 for Customer Engagement Customer engagement applications."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 75280d3b-c6a9-4c67-b8a5-0d1d0fb43af8
-author: "mhuguet"
-ms.author: "michu"
-manager: "austinj"
+author: mhuguet
+ms.author: michu
+manager: austinj
 ---
 # Avoid using window.top
 

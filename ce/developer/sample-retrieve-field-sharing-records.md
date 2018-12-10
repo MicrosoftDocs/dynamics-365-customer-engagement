@@ -1,25 +1,25 @@
 ---
 title: "Sample: Retrieve field sharing records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to retrieve the PrincipalObjectAttributeAccess (field sharing) records for an entity. "
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "secured field-access records sample, retrieving"
-  - "PrincipalObjectAttributeAccess entity sample, using to enable field security"
-  - "using the PrincipalObjectAttributeAccess entity to enable field security"
-  - "retrieving secured field-access records, sample"
+  - secured field-access records sample, retrieving
+  - PrincipalObjectAttributeAccess entity sample, using to enable field security
+  - using the PrincipalObjectAttributeAccess entity to enable field security
+  - retrieving secured field-access records, sample
 ms.assetid: 5b23d413-c69a-4568-a490-09454362417b
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

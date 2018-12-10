@@ -1,26 +1,26 @@
 ---
 title: "Work with business process flows using code (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to programmatically work with business process flows in Dynamics 365 for Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
-ms.custom: ""
+ms.custom: 
 ms.date: 07/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "flow"
-  - "process flow"
-  - "business process flow"
-  - "process"
-  - "workflow"
+  - flow
+  - process flow
+  - business process flow
+  - process
+  - workflow
 ms.assetid: 67d8cf80-9f77-4804-97a1-cf9f61417e83
 caps.latest.revision: 68
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 

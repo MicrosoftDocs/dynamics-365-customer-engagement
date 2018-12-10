@@ -1,16 +1,16 @@
 ---
 title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Sales."
-keywords: "sales;help"
+keywords: sales;help
 ms.date: 10/16/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
 author: shubhadaj
 ms.author: shujoshi

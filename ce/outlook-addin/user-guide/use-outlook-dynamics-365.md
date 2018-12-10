@@ -1,17 +1,17 @@
 ---
 title: "Use Outlook with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "index-page "
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: index-page 
 ms.assetid: a3aece21-7cbd-418f-ab0e-a59c8bc8d350
 caps.latest.revision: 6
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 robots: noindex,nofollow
 search.audienceType: 
   - admin

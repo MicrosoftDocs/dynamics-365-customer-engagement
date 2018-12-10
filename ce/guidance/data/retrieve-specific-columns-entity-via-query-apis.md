@@ -2,14 +2,14 @@
 title: "Retrieve specific columns for an entity via query APIs | MicrosoftDocs"
 description: "Queries submitted to retrieve data should include specific columns in the ColumnSet instance associated to the query rather than All Columns."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 752dae5d-0ac5-4f5b-b3bf-67d5abb0db46
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 --- 
 # Do not retrieve Entity all columns via query APIs
 

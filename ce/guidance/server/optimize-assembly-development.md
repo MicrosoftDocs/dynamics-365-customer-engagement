@@ -2,14 +2,14 @@
 title: "Optimize assembly development | MicrosoftDocs"
 description: "Consider merging separate plug-ins/custom workflow activities into a single assembly to improve performance and maintainability and move plug-ins/custom workflow activities into multiple assemblies if an assembly size is near the sandbox assembly size constraints."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: df857a79-cf68-4c45-a058-3833afc637b7
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 ---
 # Optimize assembly development
 

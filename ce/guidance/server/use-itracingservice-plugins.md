@@ -2,14 +2,14 @@
 title: "Use ITracingService in Plug-ins | MicrosoftDocs"
 description: "Debugging and/or troubleshooting plug-in issues or behaviors are complicated without rich and insightful logging or tracing."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d3b79992-4385-4a0d-b41f-3695356c65fa
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 ---
 # Use ITracingService in Plug-ins
 

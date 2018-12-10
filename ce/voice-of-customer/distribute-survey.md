@@ -1,13 +1,13 @@
 ---
 title: "Distributing a survey using Voice of the Customer | MicrosoftDocs"
 description: "After creating a survey, learn how to distribute it to your respondents."
-keywords: "send survey; distribute survey; distribute voice of the customer survey; track survey invite"
+keywords: send survey; distribute survey; distribute voice of the customer survey; track survey invite
 ms.date: 11/30/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 7057bf74-3083-4e9e-9381-646ac89d95e2
 author: sbmjais
 ms.author: shjais

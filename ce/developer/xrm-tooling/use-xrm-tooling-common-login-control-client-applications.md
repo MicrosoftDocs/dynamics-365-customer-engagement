@@ -1,20 +1,20 @@
 ---
 title: "Use the XRM tooling common login control in your client applications (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The Dynamics 365 for Customer Engagement apps SDK provides you with a template for Visual Studio that enables you to use the common login control in your client applications. The code for Dynamics 365 for Customer Engagement authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for Dynamics 365 for Customer Engagement"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f77b2a20-0a30-4211-a1d9-74923d3eeae1
 caps.latest.revision: 27
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

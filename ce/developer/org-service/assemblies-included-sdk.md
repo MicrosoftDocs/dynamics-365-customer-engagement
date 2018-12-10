@@ -1,20 +1,20 @@
 ---
 title: "Assemblies included in Dynamics 365 for Customer Engagement apps SDK (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn about assemblies such as Microsoft.Crm.Sdk.Proxy.dll, Microsoft.Xrm.Sdk.dll, Microsoft.Xrm.Sdk.Workflow.dll, Microsoft.Crm.Tools.EmailProviders.dll and Microsoft.Xrm.Sdk.Deployment.dll that you can use when writing custom code"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/20/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ec508435-b1db-42c6-8d08-e833b3ee9689
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

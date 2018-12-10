@@ -4,8 +4,8 @@ description: Know how to create and manage subject tree in Dynamics 365 for Cust
 keywords: Create subject in a subject tree; Manage subject in a subject tree; Remove a subject; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018

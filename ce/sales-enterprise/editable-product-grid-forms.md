@@ -1,16 +1,16 @@
 ---
 title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 for Sales."
-keywords: "product, opportunity, editable grid, quote, order, invoice"
+keywords: product, opportunity, editable grid, quote, order, invoice
 ms.date: 09/24/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: e426b768-bd64-4e64-8560-667634006d74
 author: shubhadaj
 ms.author: shujoshi

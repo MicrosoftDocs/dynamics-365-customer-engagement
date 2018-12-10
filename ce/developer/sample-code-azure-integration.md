@@ -1,20 +1,20 @@
 ---
 title: "Sample code for Dynamics 365 for Customer Engagement apps and Microsoft Azure integration (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The section contains sample code for integrating Dynamics 365 for Customer Engagement (online) Customer Engagement and Azure through the Azure Service Bus."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f55a4da7-987b-4120-beeb-60dba0f3be7e
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

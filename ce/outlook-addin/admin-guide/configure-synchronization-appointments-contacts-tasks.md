@@ -1,19 +1,19 @@
 ---
 title: "Configure synchronization for appointments, contacts, and tasks | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 7b6ace06-0cc2-4a04-a2bd-5d229acb6a00
 caps.latest.revision: 21
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

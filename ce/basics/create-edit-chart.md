@@ -1,20 +1,20 @@
 ---
 title: "Create or edit a chart (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: mduelae
 ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: mkaur
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 

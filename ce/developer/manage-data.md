@@ -1,32 +1,32 @@
 ---
 title: "Manage your data (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Features that enable efficient data management, including the ability to import new data, audit data changes, detect duplicates and delete data in bulk."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "configuring and monitoring auditing"
-  - "managing data in Microsoft Dynamics CRM and CRM Online, developing custom tools for"
-  - "bulk delete"
-  - "data management"
-  - "detecting duplicates"
-  - "managing data in Microsoft Dynamics CRM and CRM Online, data management"
-  - "managing data in Microsoft Dynamics CRM and CRM Online, configuring and monitoring auditing"
-  - "data import"
-  - "auditing, configuring and monitoring auditing"
-  - "duplicate detection"
-  - "managing data in Microsoft Dynamics CRM and CRM Online, bulk delete"
+  - configuring and monitoring auditing
+  - managing data in Microsoft Dynamics CRM and CRM Online, developing custom tools for
+  - bulk delete
+  - data management
+  - detecting duplicates
+  - managing data in Microsoft Dynamics CRM and CRM Online, data management
+  - managing data in Microsoft Dynamics CRM and CRM Online, configuring and monitoring auditing
+  - data import
+  - auditing, configuring and monitoring auditing
+  - duplicate detection
+  - managing data in Microsoft Dynamics CRM and CRM Online, bulk delete
 ms.assetid: ad0d5906-311b-4282-8415-872802148bb0
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

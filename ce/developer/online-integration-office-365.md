@@ -1,20 +1,20 @@
 ---
 title: "Dynamics 365 for Customer Engagement (online) Integration with Office 365 (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn how Dynamics 365 for Customer Engagement apps customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 for Customer Engagement apps with Office 365"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 24a41d45-e8dc-47f0-8faf-65cb01ab7f3c
 caps.latest.revision: 48
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

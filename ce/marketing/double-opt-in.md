@@ -1,7 +1,7 @@
 ---
 title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
-keywords: "double opt-in;gdpr;subscriptions;consent"
+keywords: double opt-in;gdpr;subscriptions;consent
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom:

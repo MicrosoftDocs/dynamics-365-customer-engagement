@@ -1,33 +1,33 @@
 ---
 title: "Configure entities and attributes for auditing (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Explains configuration requirements to enable and disable auditing of entities and their attributes."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "enabling and disabling auditing, how to"
-  - "configuring entities and attributes for auditing, required security roles for enabling or disabling auditing"
-  - "enabling and disabling auditing, default settings for enabled auditing"
-  - "configuring entities and attributes for auditing, auditable entities"
-  - "configuring entities and attributes for auditing, difference between enabling for different levels"
+  - enabling and disabling auditing, how to
+  - configuring entities and attributes for auditing, required security roles for enabling or disabling auditing
+  - enabling and disabling auditing, default settings for enabled auditing
+  - configuring entities and attributes for auditing, auditable entities
+  - configuring entities and attributes for auditing, difference between enabling for different levels
   - auditing, see 'auditing entity data changes in Microsoft Dynamics CRM'
-  - "enabling and disabling auditing, auditable entities"
-  - "configuring entities and attributes for auditing, default settings for enabled auditing"
-  - "auditing levels, descriptions of the three levels"
-  - "enabling and disabling auditing, list of entities that cannot be audited"
-  - "security roles for enabling or disabling auditing, required role levels"
-  - "configuring entities and attributes for auditing, descriptions of the three auditing levels"
-  - "configuring entities and attributes for auditing, list of entities that cannot be audited"
+  - enabling and disabling auditing, auditable entities
+  - configuring entities and attributes for auditing, default settings for enabled auditing
+  - auditing levels, descriptions of the three levels
+  - enabling and disabling auditing, list of entities that cannot be audited
+  - security roles for enabling or disabling auditing, required role levels
+  - configuring entities and attributes for auditing, descriptions of the three auditing levels
+  - configuring entities and attributes for auditing, list of entities that cannot be audited
 ms.assetid: 4e36f9d4-08cd-4f57-a02b-33581e54ce5f
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

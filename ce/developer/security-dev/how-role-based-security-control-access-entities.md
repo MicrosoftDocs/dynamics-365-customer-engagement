@@ -1,20 +1,20 @@
 ---
 title: "How role-based security can be used to control access to entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "A role contains privileges that define a set of actions that can be performed within the organization. All users must be assigned to one or more predefined or custom roles"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fadb3c51-6fa8-4fd4-992c-d413e4cd9433
 caps.latest.revision: 32
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

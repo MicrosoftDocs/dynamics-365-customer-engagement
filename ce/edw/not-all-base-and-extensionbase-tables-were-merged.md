@@ -1,11 +1,11 @@
 ---
 title: "Not all base and extensionbase tables were merged | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 53d1006e-162a-4fb1-b494-35e781363af0
 caps.latest.revision: 7
 robots: noindex,nofollow

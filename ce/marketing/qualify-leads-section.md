@@ -1,7 +1,7 @@
 ---
 title: "Manage, score, and evaluate leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to generate, collect information about, and qualify leads in Dynamics 365 for Marketing"
-keywords: "leads; score; qualify; redirect URL; LinkedIn; sales ready"
+keywords: leads; score; qualify; redirect URL; LinkedIn; sales ready
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

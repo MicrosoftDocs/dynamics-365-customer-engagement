@@ -1,7 +1,7 @@
 ---
 title: "User Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 for Marketing"
-keywords: "user guide"
+keywords: user guide
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

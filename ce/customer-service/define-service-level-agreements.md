@@ -4,8 +4,8 @@ description: Know how to define service level agreements in Dynamics 365 for Cus
 keywords: Service leve agreements; Dynamics 365 for Customer Engagement; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018

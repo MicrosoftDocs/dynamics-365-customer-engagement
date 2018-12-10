@@ -1,19 +1,19 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-author: "mduelae"
+author: mduelae
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 135
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

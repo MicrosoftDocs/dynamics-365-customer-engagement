@@ -1,14 +1,14 @@
 ---
 title: "Onboard your organization and users to Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement  (online)"
-  - "Dynamics 365 for Customer Engagement  Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 41b89fd8-bfaf-40bb-8428-2013b5271230
 author: jimholtz
 ms.author: jimholtz

@@ -1,14 +1,14 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement reporting requirements | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/06/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/06/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 6d0d42e2-0ad0-4dfa-aa42-72ab4e92b001
 caps.latest.revision: 54
 author: Mattp123

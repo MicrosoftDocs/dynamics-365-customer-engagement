@@ -1,22 +1,22 @@
 ---
 title: "Sample: Azure aware custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write a custom workflow activity that can post the data context from the current Dynamics 365 for Customer Engagement operation to the Azure Service Bus"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "azure"
+  - azure
 ms.assetid: 089bc521-c50e-4030-bcd1-7b71e0d34557
 caps.latest.revision: 32
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

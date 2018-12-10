@@ -2,14 +2,14 @@
 title: "Client API Reference for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "The topic provides client API reference for Dynamics 365 for Customer Engagement apps."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

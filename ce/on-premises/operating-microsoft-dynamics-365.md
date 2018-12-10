@@ -1,15 +1,15 @@
 ---
 title: "Operating Dynamics 365 for Customer Engagement for Customer Engagement (on-premises), version 9.x | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
 ms.assetid: 605bb886-116a-4275-83fe-e9fdc83d2f2f
 caps.latest.revision: 24
 author: Mattp123

@@ -1,32 +1,32 @@
 ---
 title: "Run bulk delete (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Delete data in bulk by submitting an asynchronous bulk delete job via the BulkDeleteRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "running bulk delete, submitting a bulk delete job by using the BulkDeleteRequest message"
-  - "running bulk delete, using query expressions to describe the records to delete"
-  - "using query expressions to describe the records to delete"
-  - "bulk deletion operation entity, running bulk delete"
+  - running bulk delete, submitting a bulk delete job by using the BulkDeleteRequest message
+  - running bulk delete, using query expressions to describe the records to delete
+  - using query expressions to describe the records to delete
+  - bulk deletion operation entity, running bulk delete
   - BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'
-  - "running bulk delete, running asynchronously without blocking other activities"
-  - "bulk delete operation records, items returned in"
+  - running bulk delete, running asynchronously without blocking other activities
+  - bulk delete operation records, items returned in
   - submitting a bulk delete job by using the BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'
-  - "running bulk delete, required privileges"
-  - "running bulk delete, supported entities"
-  - "running bulk delete, bulk deletion operation entity"
+  - running bulk delete, required privileges
+  - running bulk delete, supported entities
+  - running bulk delete, bulk deletion operation entity
 ms.assetid: e4ea7edd-d1f2-4fca-bb80-bebf0a910643
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

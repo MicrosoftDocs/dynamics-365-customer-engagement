@@ -1,31 +1,31 @@
 ---
 title: "Contract entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about contract entity that is used to track customer service agreements. You can create contracts for existing customers that specify the type of service and terms that apply to each customer."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "contract status options, contract entities"
-  - "status options, contract entities"
-  - "contract entities, contract templates"
-  - "contract entities, rules for using"
-  - "contract entity, definition"
-  - "contract templates, contract entities"
-  - "contract entities, tracking customer services agreements"
-  - "contract entities, status options"
-  - "contract entities, introduction"
-  - "tracking customer services agreements, contract entities"
+  - contract status options, contract entities
+  - status options, contract entities
+  - contract entities, contract templates
+  - contract entities, rules for using
+  - contract entity, definition
+  - contract templates, contract entities
+  - contract entities, tracking customer services agreements
+  - contract entities, status options
+  - contract entities, introduction
+  - tracking customer services agreements, contract entities
 ms.assetid: 631e9570-86e5-490e-98dd-ee27925ea8e8
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

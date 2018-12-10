@@ -1,11 +1,11 @@
 ---
 title: "Customizations exist that are using the Microsoft Dynamics 4.0 (2007) endpoint | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 36e9d26a-2dd7-4815-9510-748812eefa6f
 caps.latest.revision: 15
 robots: noindex,nofollow

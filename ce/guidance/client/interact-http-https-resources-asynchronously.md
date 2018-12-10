@@ -2,14 +2,14 @@
 title: "Interact with HTTP and HTTPS resources asynchronously | MicrosoftDocs"
 description: "You should interact with HTTP and HTTPS resources asynchronously when writing JavaScript client extensions with Dynamics 365 for Customer Engagement applications.."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f4060ac9-c9f7-4719-9183-9cf05f64d3f7
-author: "mhuguet"
-ms.author: "michu"
-manager: "austinj"
+author: mhuguet
+ms.author: michu
+manager: austinj
 ---
 # Interact with HTTP and HTTPS resources asynchronously
 

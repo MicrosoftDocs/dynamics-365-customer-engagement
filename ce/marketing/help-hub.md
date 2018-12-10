@@ -1,7 +1,7 @@
 ---
 title: "Documentation resources for Dynamics 365 for Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Marketing."
-keywords: "marketing;help"
+keywords: marketing;help
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

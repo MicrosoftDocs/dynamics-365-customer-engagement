@@ -4,17 +4,17 @@ description: "Learn how the latest release makes optimizing resource scheduling 
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/15/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "Dynamics 365 for Customer Engagement Version 8.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement Version 8.x
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
 author: krbjoran

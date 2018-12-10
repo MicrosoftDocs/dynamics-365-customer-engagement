@@ -1,19 +1,19 @@
 ---
 title: "Customize entity metadata (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a55bbb88-a323-4f69-9551-0d2951dd12ec
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

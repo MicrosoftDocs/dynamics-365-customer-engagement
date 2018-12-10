@@ -1,14 +1,14 @@
 ---
 title: "Cannot Connect to the Specified Microsoft SQL Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 f1_keywords: 
-  - "SQLServerValidator.connectivity"
-  - "SQLServerValidator.connectivity.htm"
+  - SQLServerValidator.connectivity
+  - SQLServerValidator.connectivity.htm
 ms.assetid: 7db09b6b-2044-463e-a69a-7b391a128b37
 caps.latest.revision: 4
 robots: noindex,nofollow

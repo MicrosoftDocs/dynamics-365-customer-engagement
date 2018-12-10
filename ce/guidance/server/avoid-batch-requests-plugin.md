@@ -2,14 +2,14 @@
 title: "Avoid usage of batch request types in plug-ins and workflow activities | MicrosoftDocs"
 description: "You shouldn't use ExecuteMultipleRequest or ExecuteTransactionRequest message request classes within the context of a Dynamics 365 for Customer Engagement plug-in or workflow activity."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 22360544-c8d8-430d-a136-3d16b409bb13
-author: "mhuguet"
-ms.author: "michu"
-manager: "austinj"
+author: mhuguet
+ms.author: michu
+manager: austinj
 ---
 # Avoid usage of batch request types in plug-ins and workflow activities
 

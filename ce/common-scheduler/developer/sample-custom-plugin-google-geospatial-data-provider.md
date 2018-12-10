@@ -8,16 +8,16 @@ ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-  - "project-service"
-ms.tgt_pltfrm: ""
-ms.topic: "sample"
+  - field-service
+  - project-service
+ms.tgt_pltfrm: 
+ms.topic: sample
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1773e012-dbad-4320-95fe-40877adfdabb
 author: KumarVivek
 ms.author: kvivek

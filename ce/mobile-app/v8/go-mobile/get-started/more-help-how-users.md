@@ -1,12 +1,12 @@
 ---
 title: "More help and how-to for users of Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 2016-11-01
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps (on-premises)
@@ -14,11 +14,11 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
+author: mduelae
 ms.assetid: c96bbb04-1609-4a34-83c0-8603928a6b31
 caps.latest.revision: 31
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

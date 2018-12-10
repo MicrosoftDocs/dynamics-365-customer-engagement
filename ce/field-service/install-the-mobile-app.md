@@ -3,14 +3,14 @@ title: "Install the Field Service mobile app solution (Dynamics 365 for Customer
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/05/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
+  - field-service
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: e60e441f-535d-4b38-b371-13e22561d924
 caps.latest.revision: 13

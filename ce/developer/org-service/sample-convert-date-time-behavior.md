@@ -1,20 +1,20 @@
 ---
 title: "Sample: Convert date and time behavior (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to use the ConvertDateAndTimeBehaviorRequest message to convert the UTC value to DateOnly value of the date and time attribute in Dynamics 365 for Customer Engagement that exist in the system before you changed the behavior of the attribute from UserLocal to DateOnly."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: cd9d4906-9f98-4c7e-9e0a-9b40ed4dc7f2
 caps.latest.revision: 18
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

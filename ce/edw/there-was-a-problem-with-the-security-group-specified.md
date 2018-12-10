@@ -1,11 +1,11 @@
 ---
 title: "There was a problem with the security group specified | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 7a2bdf7a-20e6-45c6-9b77-2f8a8298859c
 caps.latest.revision: 6
 robots: noindex,nofollow

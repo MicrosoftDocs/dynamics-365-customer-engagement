@@ -1,20 +1,20 @@
 ---
 title: "Troubleshooting tips (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic contains tips to diagnose and fix certain common issues that may arise when developing Dynamics 365 for Customer Engagement apps SDK–based applications"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 79667e12-19eb-4942-bb44-3212a7e42899
 caps.latest.revision: 40
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -5,7 +5,7 @@ ms.date: 03/30/2018
 ms.service: gamification
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3e57d011-15d1-ab74-7d82-0f9b45068606
 author: m-hartmann
 ms.author: mhart

@@ -1,23 +1,23 @@
 ---
 title: "Azure extensions for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement apps can be integrated with Microsoft Azure. Developers can register plug-ins with Dynamics 365 for Customer Engagement apps that can pass run-time message data, to one or more Microsoft Azure solutions in the cloud."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "azure"
-  - "appfabric"
+  - azure
+  - appfabric
 ms.assetid: 70140156-f6b5-4cae-846c-23009ed755b2
 caps.latest.revision: 56
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

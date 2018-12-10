@@ -1,25 +1,25 @@
 ---
 title: "Organize your team to develop solutions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This document lists down some strategies to use when multiple developers are working on the same solution"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "deploying solutions from development through testing and production, organizing your team to develop solutions"
-  - "strategies for team development, organizing your team to develop solutions"
-  - "organizing your team to develop solutions, deploying solutions from development through testing and production"
-  - "organizing your team to develop solutions, strategies for team development"
-  - "solutions deployment, organizing your team to develop solutions"
+  - deploying solutions from development through testing and production, organizing your team to develop solutions
+  - strategies for team development, organizing your team to develop solutions
+  - organizing your team to develop solutions, deploying solutions from development through testing and production
+  - organizing your team to develop solutions, strategies for team development
+  - solutions deployment, organizing your team to develop solutions
 ms.assetid: 9baa169b-17f7-4dfd-8305-8e2f53bc5acc
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

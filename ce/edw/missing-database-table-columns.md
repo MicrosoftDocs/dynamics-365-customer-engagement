@@ -1,11 +1,11 @@
 ---
 title: "Missing database table columns | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: fcd867bd-2687-4be0-8f4e-fc0ade94bd36
 caps.latest.revision: 8
 robots: noindex,nofollow

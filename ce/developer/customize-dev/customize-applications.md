@@ -4,21 +4,21 @@ description: "Dynamics 365 for Customer Engagement client applications include t
 ms.custom: 
   - dyn365-deflc
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "customizing Microsoft Dynamics CRM, ways to"
-  - "customizing Microsoft Dynamics CRM, introduction"
+  - customizing Microsoft Dynamics CRM, ways to
+  - customizing Microsoft Dynamics CRM, introduction
 ms.assetid: 3cc6b89c-faa1-4e70-9e41-39b35582c56c
 caps.latest.revision: 40
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

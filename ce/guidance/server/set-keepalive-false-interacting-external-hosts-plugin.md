@@ -2,14 +2,14 @@
 title: "Set KeepAlive to false when interacting with external hosts in a plug-in | MicrosoftDocs"
 description: "KeepAlive property set to true in the HTTP request header or not explicitly defined as false can cause increased execution times of plug-ins."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fe370b70-10f3-492a-9895-360f979b44a0
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 ---
 # Set KeepAlive to false when interacting with external hosts in a plug-in
 

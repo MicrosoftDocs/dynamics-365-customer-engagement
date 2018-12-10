@@ -1,20 +1,20 @@
 ---
 title: "Create a custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 for Customer Engagement (online) Customer Engagement."
-ms.custom: ""
+ms.custom: 
 ms.date: 09/12/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ab72830b-e6a6-4f49-a6a8-1d69c4a1d308
 caps.latest.revision: 56
-author: "JimDaly"
-ms.author: "kvivek"
-manager: "kvivek"
+author: JimDaly
+ms.author: kvivek
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 

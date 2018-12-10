@@ -4,23 +4,23 @@ description: "Learn how  to install the Unified Service Desk for Dynamics 365 fo
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 01/25/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement (on-premises) apps"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: d1ad62d9-a401-4941-828f-d3b13d80b38d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 

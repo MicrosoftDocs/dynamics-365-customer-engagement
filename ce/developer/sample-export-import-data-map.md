@@ -1,13 +1,13 @@
 ---
 title: "Sample: Export and import a data map (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Sample demonstrates how to create an import map, export it as XML-formatted data, import modified mappings, and create a new import map based on the imported mappings."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 66255050-1a19-4bd2-a839-3cc45e7947d8
 author: JimDaly
 ms.author: jdaly
@@ -16,9 +16,9 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "sample for exporting and importing data maps"
-  - "exporting and importing data maps sample"
-  - "importing data in Microsoft Dynamics CRM, sample for exporting and importing data maps"
+  - sample for exporting and importing data maps
+  - exporting and importing data maps sample
+  - importing data in Microsoft Dynamics CRM, sample for exporting and importing data maps
 topic-status: Drafting
 search.audienceType: 
   - developer

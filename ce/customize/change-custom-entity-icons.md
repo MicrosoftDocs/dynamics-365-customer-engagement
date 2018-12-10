@@ -1,23 +1,23 @@
 ---
 title: "Change custom entity icons in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
-definition: "Learn how to change the icon for a custom entity"
-ms.custom: ""
+definition: Learn how to change the icon for a custom entity
+ms.custom: 
 ms.date: 11/08/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 477f9792-8207-49ef-8968-45274b5355a8
 caps.latest.revision: 19
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
-  - "Links to topic not migrated"
+  - Links to topic not migrated
 search.audienceType: 
   - customizer
 search.app: 

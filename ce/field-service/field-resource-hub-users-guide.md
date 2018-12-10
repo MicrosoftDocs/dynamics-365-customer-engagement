@@ -1,20 +1,20 @@
 ---
 title: "Field Resource Hub User Guide (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ebg20953-9c77-464e-an89-e80150a21818
 caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: mkaur
+manager: amyla
 search.audienceType: 
   - admin
   - customizer

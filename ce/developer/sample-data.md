@@ -1,20 +1,20 @@
 ---
 title: "Sample data for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about installing and uninstalling sample data programmatically for an organization using InstallSampleDataRequest and UninstallSampleDataRequest."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: aee4962e-5c8f-42cd-b84a-d0726f1bc10c
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

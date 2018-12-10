@@ -1,20 +1,20 @@
 ---
 title: "Best practices (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic describes best practices for developing with Dynamics 365 for Customer Engagement apps."
-ms.custom: ""
+ms.custom: 
 ms.date: 09/16/2018
-ms.reviewer: "kvivek"
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: kvivek
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 42dcebf5-a624-45b9-b719-20e5882d5ca2
 caps.latest.revision: 89
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "annbe"
+author: JimDaly
+ms.author: jdaly
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 

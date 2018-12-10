@@ -1,20 +1,20 @@
 ---
 title: "Getting started with managed code application development (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This guide shows you how to write application code that connects to the Dynamics 365 for Customer Engagement web services and invoke web methods to perform common business data operations like create, delete, update, and find"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fe35e880-9612-4d48-8fbe-2c2237baea32
 caps.latest.revision: 13
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

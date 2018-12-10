@@ -1,12 +1,12 @@
 ---
 title: "Review leads updated by Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to see the details of the updated leads and review the aggregated lead performance by using Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms."
-keywords: "lead, lead gen form, sponsored content, linkedin, dashboard"
+keywords: lead, lead gen form, sponsored content, linkedin, dashboard
 ms.date: 04/02/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
 author: m-hartmann
 ms.author: mhart
