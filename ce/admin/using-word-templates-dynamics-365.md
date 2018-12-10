@@ -1,26 +1,26 @@
 ---
 title: "Using Word templates in Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8d10aade-694d-4518-9e33-d3d334527be9
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 26
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
+
 # Use Word templates to create standardized documents
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
@@ -93,6 +93,11 @@ search.app:
 
 ### Download the template  
  Click **Download Template** on the **Select Entity** page to create a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] file on your local computer with the exported entity included as XML data.  
+
+
+> [!IMPORTANT]
+> Document template downloaded from one instance can only be used within that instance. Instance to instance migration for Word or Excel templates isn't currently supported.
+
 
 <a name="BKMK_EnableDeveloper"></a>   
 ## Step 2: Enable the Developer tab  

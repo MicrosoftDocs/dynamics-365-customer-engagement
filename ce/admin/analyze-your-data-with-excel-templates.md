@@ -1,26 +1,26 @@
 ---
 title: "Analyze your data with Excel templates for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 82563697-955b-44a6-9467-5cbbdb790b92
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 20
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
+
 # Analyze and share your data with Excel templates 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
@@ -81,6 +81,9 @@ search.app:
   
 > [!WARNING]
 >  You can also download a template containing no data except for the columns associated with the record type (entity) using **Settings** > **Data Management** > **Templates for Data Import**. For more information, see: [Download a template for data import](../admin/download-template-data-import.md).  
+
+> [!IMPORTANT]
+> Document template downloaded from one instance can only be used within that instance. Instance to instance migration for Word or Excel templates isn't currently supported.
   
 <a name="BKMK_CreateCustomize"></a>   
 ### Step 2: Customize the data in Excel  
