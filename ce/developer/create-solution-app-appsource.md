@@ -1,19 +1,19 @@
 ---
-title: "Step 3: Create a managed solution for your app (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Step 3: Create a managed solution for your app (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about how to create a managed solution for your app to include all the components. This is required for publishing an app to Appsource."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bbb1ecdb-4938-4ff6-a2d5-f100851fc287
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -34,7 +34,7 @@ While creating a solution to package your app components, make sure you provide 
 
 ![Create a solution](media/appsource-new-solution.png)
 
-The **Display Name** and **Description** values for a solution are displayed to the customers in the **Dynamics 365 Administration Center** portal.
+The **Display Name** and **Description** values for a solution are displayed to the customers in the **Dynamics 365 for Customer Engagement apps Administration Center** portal.
 
 ![Solutions](media/appsource-solution-names.png)
 
@@ -55,5 +55,3 @@ You will have a solution file (example: *SampleSolution.zip*) and optionally a d
 
 > [!div class="nextstepaction"]
 > [Step 4: Create an AppSource package for your app](create-package-app-appsource.md) 
-  
-

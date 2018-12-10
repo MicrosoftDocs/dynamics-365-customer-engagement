@@ -1,11 +1,11 @@
 ---
 title: "This organization name is not valid | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: a399aac4-9b6b-41fe-9089-1a01f1fefeae
 caps.latest.revision: 2
 robots: noindex,nofollow

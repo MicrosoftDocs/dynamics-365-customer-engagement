@@ -1,12 +1,12 @@
 ---
 title: "Set your preferences for the user interface | Microsoft Docs"
 description: "Learn how to configure user preferences for individual users."
-keywords: "user preferences, social engagement, my preferences, individual settings"
+keywords: user preferences, social engagement, my preferences, individual settings
 ms.date: 12/06/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: dc6e2e29-bfbe-4a07-977f-a80d68a2e489
 author: m-hartmann
 ms.author: mhart

@@ -1,18 +1,18 @@
 ---
-title: "Statistics are detected in the Microsoft Dynamics 365 database | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Statistics are detected in the Microsoft Dynamics 365 for Customer Engagement database | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: bfa3e891-7563-4144-b5f5-50b66dc1a7ad
 caps.latest.revision: 4
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Statistics are detected in the Microsoft Dynamics 365 database
+# Statistics are detected in the Microsoft Dynamics 365 for Customer Engagement database
 
 ## Cause
   

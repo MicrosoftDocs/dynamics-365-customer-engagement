@@ -1,9 +1,9 @@
 ---
-title: "Enable multiple-language portal support in Dynamics 365 | MicrosoftDocs"
+title: "Enable multiple-language portal support in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable multiple languages for a portal and create content in multiple languages."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +24,7 @@ search.app:
 # Enable multiple-language portal support
 Business is not confined to a single region or a language. A single portal can display content in multiple languages to reach customers around the world. The content of your portal can be translated into multiple languages while maintaining a single content hierarchy.
 
-![Multi-language dropdown](media/multi-language-dropdown.png "Multiple-language drop-down list")  
+![Multi-language dropdown](media/multi-language-dropdown.png Multiple-language drop-down list)  
 
 To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
@@ -34,9 +34,9 @@ To enable multiple languages for a portal, follow these steps after signing in t
 4. Find the **Supported Languages** section under the **General** tab, and then select the **+** button.
 5. Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
 
-   ![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")
+   ![Add a new portal language](media/add-new-portal-language.png Add a new portal language)
 
-   ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
+   ![Set default language for your portal](media/set-default-language-portal.png Set default language for your portal)
 
 > [!Note]
 > If you activate new languages after the portal has been provisioned, you can [import the metadata translations](manage-portal.md#import-metadata-translation) to get the metadata translated for the newly activated languages.
@@ -98,7 +98,7 @@ The table below shows all the languages currently available out of the box. This
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
 4. Select the **+** button on the rightmost side to create a lookup for the localized version.
 
-    ![Add new localized content](media/Add-new-localized-content.png "Add new localized content")  
+    ![Add new localized content](media/Add-new-localized-content.png Add new localized content)  
 
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
@@ -107,4 +107,4 @@ Knowledge articles will only be displayed if they have been translated into the 
 
 Web link sets are the navigation links at the top of the portal. By navigating to **Portals** > **Content** > **Web Link Sets** you can control how this content is translated. When a language is active for the portal, a new set of links are created for the newly activated language.
 
-![Active web link for new language](media/active-weblink-new-language.png "Active web link for new language")
+![Active web link for new language](media/active-weblink-new-language.png Active web link for new language)

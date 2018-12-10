@@ -1,38 +1,37 @@
 ---
-title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "An unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "unmanaged solutions, creating; exporting; or importing"
-  - "troubleshooting, importing solutions from earlier versions"
-  - "solutions configuration page, about"
-  - "solutions, maximum size of solutions to import"
-  - "solution publishers, creating"
-  - "creating solution publishers, list of fields for"
-  - "distributing managed solutions, by using solution publishers"
-  - "creating; exporting; or importing unmanaged solutions, creating solution publishers"
-  - "creating; exporting; or importing unmanaged solutions, troubleshooting for importing from earlier versions"
-  - "creating; exporting; or importing unmanaged solutions"
-  - "unmanaged solutions, exporting and importing"
-  - "unmanaged solutions, list of and description of fields"
-  - "exporting or importing unmanaged solutions, about"
-  - "creating; exporting; or importing unmanaged solutions, using the solutions configuration page"
-  - "troubleshooting for importing solutions from earlier versions"
-  - "creating; exporting; or importing unmanaged solutions, list of and description of fields for unmanaged solutions"
-  - "importing unmanaged solutions, troubleshooting for importing from earlier versions"
+  - unmanaged solutions, creating; exporting; or importing
+  - troubleshooting, importing solutions from earlier versions
+  - solutions configuration page, about
+  - solutions, maximum size of solutions to import
+  - solution publishers, creating
+  - creating solution publishers, list of fields for
+  - distributing managed solutions, by using solution publishers
+  - creating; exporting; or importing unmanaged solutions, creating solution publishers
+  - creating; exporting; or importing unmanaged solutions, troubleshooting for importing from earlier versions
+  - creating; exporting; or importing unmanaged solutions
+  - unmanaged solutions, exporting and importing
+  - unmanaged solutions, list of and description of fields
+  - exporting or importing unmanaged solutions, about
+  - creating; exporting; or importing unmanaged solutions, using the solutions configuration page
+  - troubleshooting for importing solutions from earlier versions
+  - creating; exporting; or importing unmanaged solutions, list of and description of fields for unmanaged solutions
+  - importing unmanaged solutions, troubleshooting for importing from earlier versions
 ms.assetid: d5a39fc3-054f-48d3-8dfc-64c4f8afe4dd
-caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -72,7 +71,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 |          Label          |                                                                                                                                                                                                       Description                                                                                                                                                                                                        |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    **Display Name**     |                                                                                                                                                                       The name that to display in the **Publisher** lookup field in the solution.                                                                                                                                                                        |
-|        **Name**         |                               [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] generates a unique name is based on the **Display Name**. The unique name can only contain alphanumeric characters and the underscore character. **Note:**  You use the `Unique Name` to uniquely identify a `Publisher`. Managed solutions that share the same publisher can update each other.                               |
+|        **Name**         |                               [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps generate a unique name is based on the **Display Name**. The unique name can only contain alphanumeric characters and the underscore character. **Note:**  You use the `Unique Name` to uniquely identify a `Publisher`. Managed solutions that share the same publisher can update each other.                               |
 |     **Description**     |                                                                                                                                                                           Use this field to include any relevant details about your solution.                                                                                                                                                                            |
 |       **Prefix**        |                   The customization prefix helps you identify which publisher added a solution component. For example the prefix is added to the logical name of any entities or attributes created in the context of a solution associated with this publisher. The prefix must be between two and eight characters long, and can contain only alphanumeric characters. It cannot start with ‘mscrm’.                   |
 | **Option Value Prefix** | This value lets you help separate options that you add to option sets to support merging options. A value is auto-generated based on the **Prefix** text to help make it more unique. The value must be between 10,000 and 99,999.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Merging Option set options](understand-managed-solutions-merged.md#BKMK_MergingOptionSetOptions) |
@@ -106,7 +105,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 
   When you export a solution by using the web application, in the **Export System Settings (Advanced)** step, you can select which system settings to include in your solution. These options are available to developers by using the <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest> via the members available in the request. See the remarks for the request for details about which settings are included.  
 
-  <!--You can pick a target version when you export a solution. You can export a solution that is compliant with earlier versions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export a solution for a specific Dynamics 365 version](export-solution-specific-version.md).-->
+  You can pick a target version when you export a solution. You can export a solution that is compliant with earlier versions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export a solution for a specific Dynamics 365 for Customer Engagement apps version](export-solution-specific-version.md).  
 
 <a name="BKMK_ImportUnmanagedSolution"></a>   
 ## Import an unmanaged solution  
@@ -128,7 +127,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 
 <a name="BKMK_MaxSizeOfSolution"></a>   
 ### Maximum size of solution to import  
- For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] the maximum size for a solution is 29.296 MB.  
+ For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps the maximum size for a solution is 29.296 MB.  
 
  For on-premises organizations, the default maximum size for a solution is 6 MB, but this can be increased as needed.  
 
@@ -138,7 +137,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 
 ### See also  
  [Plan For Solution Development](plan-solution-development.md)   
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)   
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)

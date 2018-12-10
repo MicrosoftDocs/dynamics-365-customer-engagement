@@ -1,23 +1,23 @@
 ---
-title: "Change custom entity icons in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-definition: "Learn how to change the icon for a custom entity"
-ms.custom: ""
+title: "Change custom entity icons in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
+definition: Learn how to change the icon for a custom entity
+ms.custom: 
 ms.date: 11/08/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 477f9792-8207-49ef-8968-45274b5355a8
 caps.latest.revision: 19
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
-  - "Links to topic not migrated"
+  - Links to topic not migrated
 search.audienceType: 
   - customizer
 search.app: 
@@ -72,7 +72,7 @@ When you create a custom entity, it is automatically assigned a default icon, an
   
 ## Community tools
 
-**Iconator** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**Iconator** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] change-custom-entity-icons. Please see the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

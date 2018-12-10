@@ -1,16 +1,16 @@
 ---
 title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
-keywords: "Invoice, bill, sale"
+keywords: Invoice, bill, sale
 ms.date: 09/22/2017
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
@@ -75,7 +75,7 @@ Typically, you convert an order into an invoice. However, you can also create an
   
    - **Get Products**: Products from a previously created opportunity  
   
-     You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
+     You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
   
 7. In the **Shipping Information** area, enter shipping details.  
   

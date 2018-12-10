@@ -1,9 +1,9 @@
 ---
-title: "Create forum posts on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Create forum posts on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create forum posts on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,7 +37,7 @@ The forum post editor will appear automatically when a user has successfully sig
 
 4. Select **Post this reply**.
 
-    ![Create a forum post](media/create-forum-post.png "Create a forum post") 
+    ![Create a forum post](media/create-forum-post.png Create a forum post) 
 
 ### Attribute relationships
 

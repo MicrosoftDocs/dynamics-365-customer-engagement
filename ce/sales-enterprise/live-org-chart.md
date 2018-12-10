@@ -1,14 +1,14 @@
 ---
 title: "Maintain an external org chart (Dynamics 365 for Sales) | Microsoft Docs"
 description: "Manage live org charts by organizing contacts in Dynamics 365 for Sales."
-keywords: "org chart, account form, contact hierarchy"
+keywords: org chart, account form, contact hierarchy
 ms.date: 11/08/2018
 ms.service:
-  - "crm-online"
+  - dynamics-365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 247486b3-428f-457a-a6f5-5708bc4bc3bd
 author: m-hartmann
 ms.author: mhart
@@ -17,7 +17,7 @@ manager: shellyha
 
 # Organize contacts in live org charts for accounts
 
-The live org chart lets salespeople maintain external organization charts for their accounts. [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, helping to ensure that contacts are kept up to date.
+The live org chart lets salespeople maintain external organization charts for their accounts. [!INCLUDE [pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
 > [!IMPORTANT]
 > To use the org chart, [hierarchy settings must be enabled](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/) for contacts.

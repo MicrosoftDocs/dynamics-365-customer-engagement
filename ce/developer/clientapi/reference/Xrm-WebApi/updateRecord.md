@@ -1,13 +1,13 @@
 ---
-title: "updateRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "updateRecord (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 12/18/2017
 ms.service: 
-  - "crm-online"
+  - crm-online
 ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f5d4c8a9-4188-472a-83bf-b986dd135754
 author: KumarVivek
 ms.author: kvivek
