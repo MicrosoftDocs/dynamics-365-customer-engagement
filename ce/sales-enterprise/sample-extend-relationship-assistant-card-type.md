@@ -51,7 +51,7 @@ Go to the path `ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`
 
 The contains schema definition for new card type.
 > [!NOTE]
-> Ensure that card type ID value is  grater than 10000.
+> Ensure that card type ID value is greater than 10000.
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
