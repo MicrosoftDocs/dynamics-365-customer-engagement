@@ -7,10 +7,10 @@ ms.custom:
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9b170052-5300-4d69-af80-c81247c2fdab
 author: KumarVivek
 ms.author: kvivek

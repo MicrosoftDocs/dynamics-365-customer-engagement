@@ -1,20 +1,20 @@
 ---
 title: "Secure your mobile data with Dynamics 365 for Customer Engagement apps for Good | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps Version 9.x
-author: "mduelae"
+author: mduelae
 ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 26
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

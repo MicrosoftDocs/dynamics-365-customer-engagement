@@ -1,14 +1,14 @@
 ---
 title: "Disable or enable an organization | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 0b3e7c09-10c6-4c63-84e0-7ff6aeca17a3
 caps.latest.revision: 12
 author: Mattp123

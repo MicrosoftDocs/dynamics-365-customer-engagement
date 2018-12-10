@@ -1,19 +1,19 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 08/17/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
 ms.assetid: bec19b47-d167-4acb-b554-05c45b819c3f
 caps.latest.revision: 66
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

@@ -1,19 +1,19 @@
 ---
 title: "Perform initial configurations (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 10/31/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: activate-fs-mobile-app-license
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "krbjoran"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: krbjoran
 ms.author: FieldServiceDave
-ms.manager: "shellyhaverkamp"
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer

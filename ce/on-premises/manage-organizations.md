@@ -1,14 +1,14 @@
 ---
 title: "Manage organizations | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: b2b31148-4a96-45a8-9958-e2fb6bce8384
 caps.latest.revision: 12
 author: Mattp123

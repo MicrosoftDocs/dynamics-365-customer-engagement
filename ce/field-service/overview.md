@@ -9,7 +9,7 @@ ms.date: 10/15/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
- - "field-service"
+ - field-service
 ms.author: FieldServiceDave
 audience: Admin
 search.audienceType: 

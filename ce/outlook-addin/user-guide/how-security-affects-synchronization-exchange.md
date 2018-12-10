@@ -1,12 +1,12 @@
 ---
 title: "How security affects synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
   - Dynamics 365 for Customer Engagement apps (on-premises)
@@ -16,9 +16,9 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 76608e10-c4b6-4b87-9550-644662b9a6fe
 caps.latest.revision: 13
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

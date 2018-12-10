@@ -1,19 +1,19 @@
 ---
 title: "Dynamics 365 for Outlook Administrator Guide | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
 ms.assetid: ae7a0418-73fc-476f-8fa5-dc6505273ea1
 caps.latest.revision: 18
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

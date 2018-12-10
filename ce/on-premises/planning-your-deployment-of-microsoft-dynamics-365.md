@@ -1,14 +1,14 @@
 ---
 title: "Planning your deployment of Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 21421486-ec16-44ed-ae95-fc3554a573d7
 caps.latest.revision: 24
 author: Mattp123

@@ -1,19 +1,19 @@
 ---
 title: "Secure and manage Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/22/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-author: "mduelae"
+author: mduelae
 ms.assetid: f42ec901-846a-4503-8e78-c9a57b7e7c0b
 caps.latest.revision: 141
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

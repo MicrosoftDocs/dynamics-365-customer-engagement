@@ -1,13 +1,13 @@
 ---
 title: "Install LinkedIn Sales Navigator for Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Install the LinkedIn Sales Navigator for Dynamics 365 for Customer Engagement capabilities from AppSource"
-keywords: "installation, setup, sales navigator, appsource"
+keywords: installation, setup, sales navigator, appsource
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
 author: m-hartmann
 ms.author: mhart

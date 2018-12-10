@@ -1,12 +1,12 @@
 ---
 title: "The Outlook email address should be the same as the Dynamics 365 for Customer Engagement apps email address | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
   - Dynamics 365 for Customer Engagement apps (on-premises)
@@ -16,9 +16,9 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 9f79a729-3141-47bc-a238-ea7abfc4ff7c
 caps.latest.revision: 19
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

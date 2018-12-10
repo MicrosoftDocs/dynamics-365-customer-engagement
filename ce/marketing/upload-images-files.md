@@ -1,7 +1,7 @@
 ---
 title: "Work with images and other files (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
-keywords: "image, file, keyword"
+keywords: image, file, keyword
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

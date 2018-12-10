@@ -1,19 +1,19 @@
 ---
 title: "Deploy Microsoft Dynamics 365 for Outlook by using Group Policy | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 9e0b3f19-c041-4cab-a620-339f0d1d8674
 caps.latest.revision: 35
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

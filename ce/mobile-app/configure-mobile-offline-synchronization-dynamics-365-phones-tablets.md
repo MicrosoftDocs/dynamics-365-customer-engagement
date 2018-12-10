@@ -1,20 +1,20 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps Version 9.x
-author: "mduelae"
+author: mduelae
 ms.assetid: 7f992770-8c7b-48ba-806a-63a3634d209c
 caps.latest.revision: 7
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

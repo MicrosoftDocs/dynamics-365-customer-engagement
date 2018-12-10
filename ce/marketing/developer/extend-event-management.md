@@ -7,10 +7,10 @@ ms.custom:
 ms.date: 07/18/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "get-started-article"
+  - marketing
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2b1cdbc5-0815-47b1-8a4e-0291cde6f40c
 author: NavaKiran 
 ms.author: nabuthuk

@@ -1,14 +1,14 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement Server installation | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 8a64a413-857f-40bd-b12b-f2c3fd68c591
 caps.latest.revision: 20
 author: Mattp123

@@ -1,19 +1,19 @@
 ---
 title: "Connected Field Service for Azure IoT Central - Overview | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 11/08/2018
-ms.author: "vihuang"
-ms.reviewer: "krbjoran"
-ms.suite: ""
+ms.author: vihuang
+ms.reviewer: krbjoran
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
+  - field-service
+ms.tgt_pltfrm: 
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-author: "shellyhaverkamp"
-ms.author: "vihuang"
-ms.manager: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shellyhaverkamp
+ms.author: vihuang
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer

@@ -1,7 +1,7 @@
 ---
 title: "Business management settings (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
-keywords: "administration; import; export; duplicate detection"
+keywords: administration; import; export; duplicate detection
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

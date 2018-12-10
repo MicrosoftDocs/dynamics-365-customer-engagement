@@ -1,13 +1,13 @@
 ---
 title: "Deploy and operate Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: fdcb7532-2a86-462e-aaa1-c59cbbc85d33
 caps.latest.revision: 149
 author: Mattp123

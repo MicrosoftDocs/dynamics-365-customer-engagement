@@ -1,7 +1,7 @@
 ---
 title: "Use designer feature protection (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 for Marketing"
-keywords: "content block;design element"
+keywords: content block;design element
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

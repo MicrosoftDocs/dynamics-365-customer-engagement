@@ -1,19 +1,19 @@
 ---
 title: "Publish a mobile offline profile for Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/18/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement apps"
-  - "Dynamics 365 for Customer Engagement apps Version 8.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps Version 8.x
 ms.assetid: 249b15b0-e4fc-43e9-b28a-f933022b7168
 caps.latest.revision: 7
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

@@ -1,12 +1,12 @@
 ---
 title: "Troubleshoot error code 800c0019 on Windows Phones | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 2016-11-01
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps (on-premises)
@@ -14,11 +14,11 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
+author: mduelae
 ms.assetid: 4b968f74-0d02-4139-848e-6da502aff04c
 caps.latest.revision: 17
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

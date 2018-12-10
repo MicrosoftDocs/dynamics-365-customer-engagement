@@ -1,15 +1,15 @@
 ---
 title: "Single resource optimization for Resource Scheduling Optimization | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 10/19/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-author: "krbjoran"
-ms.author: "FieldServiceDave"
-ms.manager: "shellyhaverkamp"
+  - field-service
+ms.tgt_pltfrm: 
+author: krbjoran
+ms.author: FieldServiceDave
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer

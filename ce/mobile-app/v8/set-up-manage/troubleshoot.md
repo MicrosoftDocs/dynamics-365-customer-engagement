@@ -1,19 +1,19 @@
 ---
 title: "Troubleshooting Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/22/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-author: "mduelae"
+author: mduelae
 ms.assetid: 613288f5-1c9a-420e-ba06-8d1b1f6675b0
 caps.latest.revision: 141
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

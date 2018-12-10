@@ -2,14 +2,14 @@
 title: "Develop IPlugin implementations as stateless | MicrosoftDocs"
 description: "Members of classes that implement IPlugin are exposed to potential thread-safety issues which could lead to data inconsistency or performance problems."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c34cc738-8c42-4dc8-8c34-1167d00a5f67
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 ---
 # Develop IPlugin implementations as stateless
 

@@ -1,20 +1,20 @@
 ---
 title: "Set up and configure Dynamics 365 for Outlook from Office 365 | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps 
   - Dynamics CRM Online
 ms.assetid: e741c693-4247-4551-b81a-5e8ec5da6567
 caps.latest.revision: 33
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

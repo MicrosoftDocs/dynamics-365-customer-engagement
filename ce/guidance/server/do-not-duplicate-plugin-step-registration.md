@@ -2,14 +2,14 @@
 title: "Do not duplicate plug-in step registration | MicrosoftDocs"
 description: "Duplicate plug-in step registration will cause the plug-in to fire multiple times on the same message/event."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 176c2bc4-3b40-477c-9c29-1f48b4cb0f6f
-author: "jowells1"
-ms.author: "jowells"
-manager: "michu"
+author: jowells1
+ms.author: jowells
+manager: michu
 ---
 # Do not duplicate plug-in step registration
 

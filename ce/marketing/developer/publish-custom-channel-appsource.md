@@ -1,18 +1,18 @@
 ---
 title: "Publish custom channel on AppSource (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Publish your custom channel on Microsoft AppSource from where users can download and install it in their Dynamics 365 for Customer Engagement instance."
-ms.custom: ""
+ms.custom: 
 ms.date: 04/01/2018
-ms.service: "crm-online"
+ms.service: crm-online
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
