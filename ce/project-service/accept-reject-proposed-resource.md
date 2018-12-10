@@ -29,6 +29,7 @@ When the resource manager proposes a named resource to fill the generic resource
 ![Generic team member with a proposal](media/RM-how-to-19.png)
 
 The grid on the **Proposed Resources** tab of the **Project Team Member** page shows the proposed resource’s current bookings. After the proposal is accepted, the grid is upsated to reflect that booking. 
+
 To accept the proposed resource and book them on your team, click **Accept Proposals**.  
 To reject the proposal, click **Reject Resource**.
 
