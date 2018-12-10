@@ -2,7 +2,7 @@
 title: "Add a Dynamics 365 Channel Integration Framework (CIF) solution as a dependent solution| Microsoft Docs"
 description: "Read how you can add a CIF solution as a dependent solution and use CIF solution's capabilities in your own solution."
 keywords: ""
-ms.date: 12/06/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:

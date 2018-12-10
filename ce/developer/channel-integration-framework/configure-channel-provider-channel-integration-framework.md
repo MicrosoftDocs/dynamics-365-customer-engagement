@@ -2,7 +2,7 @@
 title: "Configure channel provider in Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn how to configure a channel provider install and setup Channel Integration Framework (CIF) for Microsoft Dynamics 365."
 keywords: ""
-ms.date: 12/06/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:

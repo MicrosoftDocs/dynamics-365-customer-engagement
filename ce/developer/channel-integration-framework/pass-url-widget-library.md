@@ -2,7 +2,7 @@
 title: "Pass Dynamics 365 URL to widget library| Microsoft Docs"
 description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use CIF's APIs."
 keywords: ""
-ms.date: 12/06/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:

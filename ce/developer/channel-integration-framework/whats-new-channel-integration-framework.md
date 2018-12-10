@@ -2,7 +2,7 @@
 title: "What's new in Channel Integration Framework (CIF)| Microsoft Docs"
 description: "Read about the new features provided in the latest release of Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 12/06/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -52,10 +52,10 @@ More information: [Configure channel provider in Channel Integration Framework](
 
 ## Download Dynamics 365 Channel Integration Framework
 
-Download link for Channel Integration Framework solution: [Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70).
+Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/?linkid=2050102).
 
 ## See also
 
 [Dynamics 365 Channel Integration Framework Guide](index.md)
 
-[Download Channel Integration Framework](https://experience.dynamics.com/insider/campaign/?id=c27b777f-b0b5-e811-a975-000d3a1bec70)
+[Download Channel Integration Framework](https://go.microsoft.com/fwlink/?linkid=2050102)
