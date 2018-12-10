@@ -1,15 +1,15 @@
 ---
 title: "Interact with HTTP and HTTPS resources asynchronously | MicrosoftDocs"
-description: "You should interact with HTTP and HTTPS resources asynchronously when writing JavaScript client extensions with Dynamics 365 Customer Engagement applications.."
+description: "You should interact with HTTP and HTTPS resources asynchronously when writing JavaScript client extensions with Dynamics 365 for Customer Engagement applications.."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f4060ac9-c9f7-4719-9183-9cf05f64d3f7
-author: "mhuguet"
-ms.author: "michu"
-manager: "austinj"
+author: mhuguet
+ms.author: michu
+manager: austinj
 ---
 # Interact with HTTP and HTTPS resources asynchronously
 
@@ -95,7 +95,7 @@ There are multiple ways to interact with the server or request resources. Common
   var requestAjax = $.ajax({ async: false, url: '/test/test.txt' });
   ```
 
-- Specific to interactions with the Dynamics 365 services, there are JavaScript libraries that provide explicit operations for common interactions with the product. Common libraries include (but aren't limited to): [`SDK.REST.js`](https://msdn.microsoft.com/library/gg334427(v=crm.7).aspx#BKMK_SDKREST), [`SDK.Soap.js`](https://code.msdn.microsoft.com/sdksoapjs-9b51b99a) and [`XrmServiceToolkit.js`](https://github.com/XrmServiceToolkit/XrmServiceToolkit).
+- Specific to interactions with the Dynamics 365 for Customer Engagement services, there are JavaScript libraries that provide explicit operations for common interactions with the product. Common libraries include (but aren't limited to): [`SDK.REST.js`](https://msdn.microsoft.com/library/gg334427(v=crm.7).aspx#BKMK_SDKREST), [`SDK.Soap.js`](https://code.msdn.microsoft.com/sdksoapjs-9b51b99a) and [`XrmServiceToolkit.js`](https://github.com/XrmServiceToolkit/XrmServiceToolkit).
   - For these, there are some functions that only support synchronous operations; others require passing in a callback function as a parameter to set async to true. The default behavior for most is to set the underlying async parameter to false for the open call of the `XMLHttpRequest` object.
 
 <a name='additional'></a>

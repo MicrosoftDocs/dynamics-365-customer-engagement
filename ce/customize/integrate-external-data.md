@@ -1,14 +1,14 @@
 ---
-title: "Integrate external data (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-ms.custom: ""
+title: "Integrate external data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 12/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a3e6a322-6hf7-48c9-aaea-bff767589378
 caps.latest.revision: 35
 author: "Mattp123"

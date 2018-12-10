@@ -1,22 +1,22 @@
 ---
-title: "Get started with app making | MicrosoftDocs"
-description: "Learn how you can get started building and customizing apps"
-ms.custom: ""
+title: "Get started with model-driven app making in PowerApps | MicrosoftDocs"
+description: "Learn how you can get started building and customizing model-driven apps"
+ms.custom: 
 ms.date: 12/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: d6bd269e-0000-44e9-b686-a6240a101ec7
 caps.latest.revision: 14
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

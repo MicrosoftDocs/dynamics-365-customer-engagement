@@ -1,9 +1,9 @@
 ---
-title: "Manage forum threads in a portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage forum threads in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to manage forum threads in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,9 +23,9 @@ search.app:
 ---
 # Manage forum threads
 
-A forum thread (sometimes called a topic) is a collection of posts, usually displayed from oldest to newest. A thread can contain any number of posts, including multiple posts from the same members, even if they were added to the thread one after the other. A thread is contained in a [forum](setup-manage-forums.md) and may have an associated date that is taken as the date of the last post. The content or purpose of the thread is identified by the first post, also known as the original post (OP). When a member posts in a thread, the thread jumps to the top because it is the latest updated thread. Similarly, other threads will jump to the top when they receive posts. Sometimes, a member posts in a thread for no reason but to “bump” that thread (cause it to be displayed as the top thread).. Threads that are important but rarely receive posts are made “sticky” (or, as it is sometimes called, "pinned"). A sticky thread will always appear in front of normal threads, often in its own section. A thread's popularity is measured on forums in reply (total posts minus one, the opening post, in most default forum settings) counts. Some forums also track page views.  
+A forum thread (sometimes called a topic) is a collection of posts, usually displayed from oldest to newest. A thread can contain any number of posts, including multiple posts from the same members, even if they were added to the thread one after the other. A thread is contained in a [forum](setup-manage-forums.md) and may have an associated date that is taken as the date of the last post. The content or purpose of the thread is identified by the first post, also known as the original post (OP). When a member posts in a thread, the thread jumps to the top because it is the latest updated thread. Similarly, other threads will jump to the top when they receive posts. Sometimes, a member posts in a thread for no reason but to “bump” that thread (cause it to be displayed as the top thread).. Threads that are important but rarely receive posts are made “sticky” (or, as it is sometimes called, pinned). A sticky thread will always appear in front of normal threads, often in its own section. A thread's popularity is measured on forums in reply (total posts minus one, the opening post, in most default forum settings) counts. Some forums also track page views.  
 
-## Manage forum threads in Dynamics 365
+## Manage forum threads in Dynamics 365 for Customer Engagement
 
 You can create, edit, and delete forum threads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
@@ -65,7 +65,7 @@ The forum thread editor will appear automatically when a user has successfully s
 
 5. Select **Create this thread**.
 
-    ![Create a new forum thread](media/create-new-forum-thread.png "Create a new forum thread")  
+    ![Create a new forum thread](media/create-new-forum-thread.png Create a new forum thread)  
 
 ### Forum thread attributes used by portals
 
@@ -85,7 +85,7 @@ The table below explains many of the Forum Thread attributes used by portals. It
 | View Count     | The number of times the thread has been viewed in the portal.                                                               |
 ||
 
-## Manage forum thread types in Dynamics 365
+## Manage forum thread types in Dynamics 365 for Customer Engagement
 
 ### Create, edit, and delete forum thread types
 

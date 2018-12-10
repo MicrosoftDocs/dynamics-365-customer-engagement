@@ -1,25 +1,25 @@
 ---
-title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "A plug-in is custom business logic that you can integrate with Dynamics 365 (online) Customer Engagement to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform."
-ms.custom: ""
+title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "A plug-in is custom business logic that you can integrate with Dynamics 365 for Customer Engagement (online) Customer Engagement to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 f1_keywords: 
-  - "plugins"
-  - "plugin"
+  - plugins
+  - plugin
 helpviewer_keywords: 
-  - "plug-in"
+  - plug-in
 ms.assetid: f5a0690c-1783-4b36-96cd-cd34ae41eb41
 caps.latest.revision: 34
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -43,6 +43,6 @@ A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dyna
  [Plug-in Registration Entities](plug-in-registration-entities.md) 
   
 ## Related Sections  
- [Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)<br />     
- [Write Workflows to Automate Business Processes in Dynamics 365 Customer Engagement](automate-business-processes-customer-engagement.md)<br />     
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)<br /> 
+ [Developer Guide for Dynamics 365 for Customer Engagement apps](developer-guide.md)<br />     
+ [Write Workflows to Automate Business Processes in Dynamics 365 for Customer Engagement apps](automate-business-processes-customer-engagement.md)<br />     
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)<br /> 

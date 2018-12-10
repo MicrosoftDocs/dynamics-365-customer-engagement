@@ -1,20 +1,20 @@
 ---
 title: "Track your progress with charts | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/19/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: mduelae
 ms.assetid: 5828238b-1745-4710-a292-0014acd03198
 caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: mkaur
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 
@@ -47,7 +47,7 @@ Two dimensions charts like Line, Bar, Column, and Area support zooming. Single d
  
 Changing the chart view shows you a different breakdown of your data, such as opportunities opened within a specific time period. You can change a chart view by selecting the View selector on the Grid page.
 
-![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets chnage a chart view")
+![Dynamics 365 for Customer Engagement for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets chnage a chart view")
 
 For example, choose "All Opportunities", then select a different view, both chart and grid will get refreshed.
 

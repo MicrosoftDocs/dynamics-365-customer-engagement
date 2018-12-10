@@ -1,7 +1,7 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
-keywords: "troubleshooting;setup"
+keywords: troubleshooting;setup
 ms.date: 10/10/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: kamaybac
 ms.author: kamaybac
@@ -154,7 +154,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 #### Step 2: Grant your new account permission to clear the portals cache
 
-Once you have your account and password set up, you must go into Dynamics 365 and configure that account as an event-portal administrator. To do this:
+Once you have your account and password set up, you must go into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and configure that account as an event-portal administrator. To do this:
 
 1. Sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
 
@@ -259,7 +259,7 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
 1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
 
-1. To track the installation progress, go back to your Dynamics 365 admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+1. To track the installation progress, go back to your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
 
     ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
 
@@ -298,7 +298,7 @@ If your surveys still aren't working after completing these steps, then please [
 
 Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Dynamics 365 for Marketing](navigation.md)
 
 <a name="contact-support"></a>
 

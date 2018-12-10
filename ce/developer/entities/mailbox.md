@@ -1,15 +1,15 @@
 ---
-title: "Mailbox Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Mailbox Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Mailbox entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -130,7 +130,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
-|0|Microsoft Dynamics 365 for Outlook|
+|0|Microsoft Dynamics 365 for Customer Engagement for Outlook|
 |1|Server-Side Synchronization|
 |2|None|
 
@@ -410,7 +410,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|None|
-|1|Microsoft Dynamics 365 for Outlook|
+|1|Microsoft Dynamics 365 for Customer Engagement for Outlook|
 |2|Server-Side Synchronization or Email Router|
 |3|Forward Mailbox|
 
@@ -745,7 +745,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|None|
-|1|Microsoft Dynamics 365 for Outlook|
+|1|Microsoft Dynamics 365 for Customer Engagement for Outlook|
 |2|Server-Side Synchronization or Email Router|
 
 
@@ -1222,7 +1222,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1642,7 +1642,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -2456,6 +2456,6 @@ See queue Entity [mailbox_regarding_queue](queue.md#BKMK_mailbox_regarding_queue
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.mailbox?text=mailbox EntityType" />

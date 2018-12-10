@@ -1,19 +1,19 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook failure recovery | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: fb14fa58-89e9-49a6-b94c-61de90d58a54
 caps.latest.revision: 22
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -30,7 +30,7 @@ search.app:
 
 |              Backup method              |                                                                                                                                                                                                                                                                                          What to back up                                                                                                                                                                                                                                                                                          |                                                                                                                                      Comments                                                                                                                                       |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|             Offline backup              | Contents of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data directory.<br /><br /> The default location of 64-bit [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] on 32-bit [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]:  %programfiles%\Microsoft Dynamics 365\\*LocaleCode*\sql\7<br /><br /> The default location of 32-bit [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] on 64-bit [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]:  %programfiles(x86)%\Microsoft Dynamics 365\\*LocaleCode*\sql\7 | Before you start the backup, make sure that the [!INCLUDE[pn_SQL_Server_short](../../includes/pn-sql-server-short.md)] (CRM) service is stopped. Restart the service after the backup is complete.<br /><br /> *LocaleCode* is the 4-digit number representing the language locale. |
+|             Offline backup              | Contents of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data directory.<br /><br /> The default location of 64-bit [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] on 32-bit [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]:  %programfiles%\Microsoft Dynamics 365 for Customer Engagement apps\\*LocaleCode*\sql\7<br /><br /> The default location of 32-bit [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] on 64-bit [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]:  %programfiles(x86)%\Microsoft Dynamics 365 for Customer Engagement apps\\*LocaleCode*\sql\7 | Before you start the backup, make sure that the [!INCLUDE[pn_SQL_Server_short](../../includes/pn-sql-server-short.md)] (CRM) service is stopped. Restart the service after the backup is complete.<br /><br /> *LocaleCode* is the 4-digit number representing the language locale. |
 |   Online backup using Microsoft tools   |                                                                                                                                                                                                                                                                      **MSDE_MSCRM7.mdf**<br /><br /> **MSDE_MSCRM7_log.LDF**                                                                                                                                                                                                                                                                      |                                                             Use [!INCLUDE[pn_ms_SQL_Server_Mgmt_Studio_Express_long](../../includes/pn-ms-sql-server-mgmt-studio-express-long.md)] or sqlcmd.exe (a command-line tool).                                                             |
 | Online backup using non-Microsoft tools |                                                                                                                                                                                                                                                                      **MSDE_MSCRM7.mdf**<br /><br /> **MSDE_MSCRM7_log.LDF**                                                                                                                                                                                                                                                                      |                                                                         Look for tools that are compatible with [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)].                                                                         |
 

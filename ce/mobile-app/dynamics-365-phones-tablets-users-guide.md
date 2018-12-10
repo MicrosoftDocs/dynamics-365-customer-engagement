@@ -1,19 +1,19 @@
 ---
-title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
 ms.date: 08/15/2018
-ms.reviewer: "kvivek"
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: kvivek
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps Version 9.x
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -30,19 +30,19 @@ search.app:
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
 
 > [!NOTE]
-> - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
-> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
+> - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 for Customer Engagement apps, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 for Customer Engagement apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
+> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Customer Engagement apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 for Customer Engagement apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
 > - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
     
 ## Install the app from your device’s app store  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phone and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
       
 <a name="BKMK_Signin"></a> 
 ## Signing in and signing out
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin.
 
-1.  Open your app, enter your Dynamics 365 web address, and tap ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
+1.  Open your app, enter your Dynamics 365 for Customer Engagement apps web address, and tap ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
 
     ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
 
@@ -50,7 +50,7 @@ password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shorte
 
 Here's how to sign out in case someone else needs to use your device.
 
-1.  From nav bar, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis").
+1.  From nav bar, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 2.  Tap **User Information**.
 
@@ -73,13 +73,13 @@ For phones, portrait mode is set as the default screen orientation. For tablets,
 
 **The navigation bar**
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis").
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
 **Get help while using the app**
 
-If you ever need help while you’re in the mobile app, on the nav bar tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis"), and then tap **Help**.
+If you ever need help while you’re in the mobile app, on the nav bar tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis"), and then tap **Help**.
 
 **Favorites and recently used records**
 
@@ -97,7 +97,7 @@ The Favorites and Recently Used sections provide quick access to your records, v
 
 Go back to the MyApps pages and switch to a different app.
 
-![Dynamics 365 phones and tablets switch apps](media/SwitchApps.png "Dynamics 365 phones and tablets switch apps")
+![Dynamics 365 for Customer Engagement apps phones and tablets switch apps](media/SwitchApps.png "Dynamics 365 for Customer Engagement apps phones and tablets switch apps")
 
 ## Dashboards
 
@@ -108,7 +108,7 @@ If you want to use a different dashboard, it’s easy to switch back and forth.
 
 From the Home screen, tap dashboards menu and then select the dashboard you want to use.
 
-![Dynamics 365 phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 phones and tables dashboards")
+![Dynamics 365 for Customer Engagement apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 for Customer Engagement apps phones and tables dashboards")
 
 Here are some of the ways you can work with
 dashboards.
@@ -117,7 +117,7 @@ dashboards.
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | View all the records for a record type on the dashboard (for example, **Accounts**). | Tap the header of the list. This opens your records in a grid view on your mobile device.                                |
 | Open the form for a record on the dashboard.                                                                      | Tap the record.                                                                                                   |
-| To create new dashboards in Dynamics 365 and enable them for use in Dynamics 365 for phones and tablets. | See, [Create or customize dashboards](../customize/create-edit-dashboards.md). |
+| To create new dashboards in Dynamics 365 for Customer Engagement apps and enable them for use in Dynamics 365 for phones and tablets. | See, [Create or customize dashboards](../customize/create-edit-dashboards.md). |
                                                                                               
 **Change views for a list on the dashboard**
 
@@ -125,7 +125,7 @@ Tap the name of the list and select the list that you want to see.
 
 ![Dynamics 365 for phones and tablets change view for a list on dashboard](media/ChangeViewsOf_ListOnDashboard_15.png "Dynamics 365 for phones and tablets change view for a list on dashboard")
 
-To create new dashboards in Dynamics 365 and enable them for use in Dynamics 365
+To create new dashboards in Dynamics 365 for Customer Engagement apps and enable them for use in Dynamics 365 for Customer Engagement apps
 for phones and tablets, see [Create or customize dashboards](../customize/create-edit-dashboards.md).
 
 **Open a list of records in a dashboard view**
@@ -145,7 +145,7 @@ records and more:
 
 - **Contacts**   Contact records contain information about the people you know and work with. Usually, multiple contacts are associated with one account. Contacts could include people responsible for making purchasing decisions, people in charge of paying invoices, support technicians, or anyone you work with at the company.
     
-1.  To add a record, on the nav bar tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis").
+1.  To add a record, on the nav bar tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 2.  Tap **Quick Create Menu** and choose a record type.
 
@@ -187,7 +187,7 @@ Use Task Flows to complete common set of tasks. For example, if you need to perf
 
 ![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
 
-On a phones, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis"), on the nav bar and then tap **Start Task Flow**.
+On a phones, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis"), on the nav bar and then tap **Start Task Flow**.
 
 > [!NOTE]
 >  Tasked based flows need to be turned on by your admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a mobile task flow](../customize/create-mobile-task-flow.md)
@@ -201,7 +201,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 -   To expand a chart, from the charts Home page grid, tap the **Expand Chart** ![Expand Chart button](../mobile-app/media/expandviewbutton.png "Expand Chart button") button.
 
--   To view records in chart or refresh the chart, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis") and then choose an  action: **Refresh** or **View Records**.
+-   To view records in chart or refresh the chart, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**.
             
      ![Dynamics 365 for phones and tablets expand and table view of a chart](media/TrackProgressWithCharts_18.png "Dynamics 365 for phones and tablets expand and table view of a chart")  
   
@@ -283,13 +283,13 @@ To help you find a record quickly, you can sort items in a grid view. For exampl
   
 You can do the same from a list view in [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)]. 
 
-- Tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis"), tap **Sort** and then choose how you want to sort the data.
+- Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis"), tap **Sort** and then choose how you want to sort the data.
   
   ![Sort on phones](media/sortonphones.png "Sort on phones")
 
 ## Export records to Excel
 
-In the list of records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile apps, you can export records to Microsoft Excel, just like you can in the web app. From a grid view in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for tablets or a list of records in [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis") on the command bar and then tap **Export to Excel**.
+In the list of records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile apps, you can export records to Microsoft Excel, just like you can in the web app. From a grid view in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for tablets or a list of records in [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the command bar and then tap **Export to Excel**.
 
 ![Dynamics 365 for phones and tablets export to Excel](media/ExportToExcel_11.png "Dynamics 365 for phones and tablets export to Excel")
 
@@ -301,9 +301,9 @@ The relationship assistant is designed to deliver the most important and relevan
 
 The assistant reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more.
 
-When you start your day by signing in to Dynamics 365, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
+When you start your day by signing in to Dynamics 365 for Customer Engagement apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
 
-1.  To access the assistant, on the nav bar, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis").
+1.  To access the assistant, on the nav bar, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 2.  Tap **Relationship Assistant**.
 
@@ -320,7 +320,7 @@ You can see everything from posts and voice attachments, to email and notes and 
 
 ![Dynamics 365 for phones and tablets add an activity](media/AddActivity.png "Dynamics 365 for phones and tablets add an activity")
 
-- Tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type.
+- Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type.
 
 - Tap ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
@@ -363,7 +363,7 @@ When you're admin has enabled mobile offline, the next time that you access the 
 
 When the updates have download, you can check to see if mobile offline is available.
 
-1. From the nav bar, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis") and then tap, **Offline Status**.
+1. From the nav bar, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap, **Offline Status**.
   
    ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
@@ -430,7 +430,7 @@ If you sign out of one organization and sign in to another, and then use the **R
 
 Here's how to do it:
 
-1.  Tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis").
+1.  Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 2.  Tap **User Information**.
 

@@ -1,19 +1,19 @@
 ---
-title: "Customize Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+title: "Customize Dynamics 365 for Customer Engagement for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
 ms.date: 11/28/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+author: mduelae
 ms.assetid: a3e6a322-18f7-48bd-aaea-bff7675d1378
 caps.latest.revision: 35
-ms.author: "matp"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -23,13 +23,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
+With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
  The latest version of the phone app, [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], provides the same full-featured experience as the [!INCLUDE[pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] app. It has the same intuitive user interface (adapted for phones), as well as offline capabilities. 
 
  After you’ve made customizations to a form, users will see a prompt to download updates the next time they open their mobile app.  
 
- [Watch a short video (1:51) about customizing the Dynamics 365 mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
+ [Watch a short video (1:51) about customizing the Dynamics 365 for Customer Engagement apps mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
 
 
 ## Home page for Dynamics 365 for phones and tablets  
@@ -41,15 +41,15 @@ With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can design
 
  **Web app**  
 
- ![Dynamics 365 form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 for Customer Engagement apps form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 for Customer Engagement apps form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 for Customer Engagement apps form reflow to phone app")  
 
  Dynamics 365 for phones and tablets does not provide the capability to switch between forms. If you have more than one main form for an entity, the one displayed depends on the form order set and which security roles are assigned to the form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multiple forms](../customize/main-form-presentations.md#BKMK_MultipleForms)  
 
@@ -132,7 +132,7 @@ That way, if you think phone users need to focus only on the primary information
 
  Custom entities use a fixed custom entity icon.  
 
- ![Dynamics 365 for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for tablets nav bar")  
+ ![Dynamics 365 for Customer Engagement for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
 
 See [Change application navigation using the SiteMap](../developer/customize-dev/change-application-navigation-using-sitemap.md) for more information. 
 
@@ -140,7 +140,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 ## Change commands for Dynamics 365 for phones and tablets  
  Dynamics 365 for phones and tablets uses the same ribbon definitions to provide commands as the web application except that it is optimized for presentation in the mobile apps. You can set the ribbon definitions to display based on the type of client. For example, you can set commands so they appear in the web app but not the phone or tablet apps. Some default commands are set to appear only in the web app, which is why you won’t see them in the mobile apps.  
 
- ![Account form commands for Dynamics 365 for tablets](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
+ ![Account form commands for Dynamics 365 for Customer Engagement for tablets](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for Customer Engagement for tablets")  
 
 > [!NOTE]
 >  Icons configured for commands aren’t displayed, and labels that are too long are truncated.  

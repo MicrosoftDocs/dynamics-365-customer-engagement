@@ -3,16 +3,16 @@ title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/15/2018
-ms.reviewer: "krbjoran"
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 caps.latest.revision: 42
 ms.author: FieldServiceDave
@@ -29,11 +29,13 @@ search.app:
 
 # Universal Resource Scheduling for Field Service
 
-This article describes how Dynamics 365 for Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+This article describes how Dynamics 365 for Customer Engagement for Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
 
 ## Overview
 
-[Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) (URS) is a Dynamics 365 solution that allows organizations from different industries with different scenarios to assign resources to jobs and tasks. 
+[Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) (URS) is a Dynamics 365 for Customer Engagement solution that allows organizations from different industries with different scenarios to assign resources to jobs and tasks. 
 
 URS assigns the best resources to jobs and tasks based on:
 
@@ -56,7 +58,7 @@ In this topic, we'll take a quick look at:
 For more detailed information on URS, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## Components 
-When Dynamics 365 for Field Service is installed, URS installs automatically, and appears in the menu as shown in the following screenshot.
+When Dynamics 365 for Customer Engagement for Field Service is installed, URS installs automatically, and appears in the menu as shown in the following screenshot.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Screenshot of URS and Field Service apps](media/scheduling-urs-apps.png) 
@@ -183,7 +185,7 @@ Connecting to a mapping service is critical if you want to geographically displa
 1. To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
+> ![Screenshot of Resource Scheduling Administration in Dynamics 365 for Customer Engagement dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
 2. Set **Connect to Maps** to **Yes**. Then save and close.
 

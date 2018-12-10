@@ -1,11 +1,11 @@
 ---
 title: "Required permissions for domain security groups | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 8d967f0d-bba9-40b2-96dd-cdb7c01279bc
 caps.latest.revision: 4
 robots: noindex,nofollow

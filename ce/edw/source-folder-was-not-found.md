@@ -1,11 +1,11 @@
 ---
 title: "Source folder was not found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: d883ae31-50ee-4a98-b548-1a8cdc714be9
 caps.latest.revision: 6
 robots: noindex,nofollow

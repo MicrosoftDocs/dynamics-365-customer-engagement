@@ -1,11 +1,11 @@
 ---
-title: Use the schedule board to configure service activity (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to schedule a service activity using the schedule board in Dynamics 365 for Customer Service
-keywords: schedule a service activity; Dynamics 365; Customer Service Hub; Schedule board
+title: Use the schedule board to configure service activity (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Know how to schedule a service activity using the schedule board in Dynamics 365 for Customer Engagement for Customer Service
+keywords: schedule a service activity; Dynamics 365 for Customer Engagement; Customer Service Hub; Schedule board
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018

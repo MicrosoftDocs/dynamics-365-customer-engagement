@@ -1,22 +1,22 @@
 ---
-title: "Make grids (lists) editable by using the Editable Grid custom control | MicrosoftDocs"
+title: "Make grids (lists) editable by using the editable grid custom control | MicrosoftDocs"
 description: "Learn how to use the editable grid custom control"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: cefbc0c2-769b-4230-ab5a-b28a84630a42
 caps.latest.revision: 8
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In previous releases of Dynamics 365 Customer Engagement, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
+In previous releases of Dynamics 365 for Customer Engagement apps, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
   
  ![Editable grid examples](../customize/media/editable-grid-examples.png "Editable grid examples")  
   
@@ -171,5 +171,5 @@ For web client, this is a limitation and we have not enabled the functionality. 
   [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)<br/>
  [Create and edit views](../customize/create-edit-views.md)<br/>
  [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)<br/> 
- [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)<br/>
+ [Customize Dynamics 365 for Customer Engagement for phones and tablets](../customize/customize-phones-tablets.md)<br/>
 

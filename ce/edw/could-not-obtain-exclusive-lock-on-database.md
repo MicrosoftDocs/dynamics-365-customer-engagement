@@ -1,11 +1,11 @@
 ---
 title: "Could not obtain exclusive lock on database &#39;databasename&#39; | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: f993580a-ef2f-4bb1-8da4-d9414ac2ec29
 caps.latest.revision: 4
 robots: noindex,nofollow

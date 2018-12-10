@@ -1,11 +1,11 @@
 ---
 title: "Customizations exist that are using the Microsoft Dynamics 4.0 (2007) endpoint | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 36e9d26a-2dd7-4815-9510-748812eefa6f
 caps.latest.revision: 15
 robots: noindex,nofollow
@@ -39,5 +39,5 @@ ms.author: matp
   
  Review the **LegacyFeatureCheck.xml** file.  
   
- Remove the customization or update the customization to use a supported endpoint, such as the REST endpoint. For more information about updating the [!INCLUDE[pn_Microsoft_Dynamics_CRM_4.0](../includes/pn-microsoft-dynamics-crm-4-0.md)] (2007) endpoint, see the [topic in the Microsoft Dynamics 365 SDK](http://go.microsoft.com/fwlink/p/?LinkId=309237).
+ Remove the customization or update the customization to use a supported endpoint, such as the REST endpoint. For more information about updating the [!INCLUDE[pn_Microsoft_Dynamics_CRM_4.0](../includes/pn-microsoft-dynamics-crm-4-0.md)] (2007) endpoint, see the [topic in the Microsoft Dynamics 365 for Customer Engagement apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=309237).
 

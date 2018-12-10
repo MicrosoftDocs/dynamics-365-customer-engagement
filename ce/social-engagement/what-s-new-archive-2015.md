@@ -1,12 +1,12 @@
 ---
 title: "Archive - Social Engagement 2015 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2015."
-keywords: ""
+keywords: 
 ms.date: 02/28/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: b431cba7-e614-40f3-bf68-139c78b941ab
 author: m-hartmann
 ms.author: mhart
@@ -27,8 +27,8 @@ search.app:
 
 ## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.2 
  
-### Create records in Dynamics 365 from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
- Admins can now connect one or more [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance with their organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to create social activities and records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. With these new capabilities, increase the efficiency of your sales, marketing, and service teams, by creating rules for automatic conversions of social activity to any system or custom record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You'll be able to create or update one or more records from a single social activity, and provide additional information to define conditions in the conversion rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
+### Create records in Dynamics 365 for Customer Engagement from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
+ Admins can now connect one or more [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance with their organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to create social activities and records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. With these new capabilities, increase the efficiency of your sales, marketing, and service teams, by creating rules for automatic conversions of social activity to any system or custom record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You'll be able to create or update one or more records from a single social activity, and provide additional information to define conditions in the conversion rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365 for Customer Engagement](link-posts-to-dynamics-365.md), [Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
  
 ### Adaptive learning for an organization’s sentiment calculations 
  The sentiment algorithm can now learn from edits to sentiment values. You can turn on the adaptive learning by going to **Settings** > **Global Settings** > **Sentiment**, and then turn it off at any time when you’re satisfied with the quality level of your sentiment. You can also reset all edited sentiment values to the default base model for sentiment detection. The sentiment algorithm builds a dedicated model based on the users’ inputs for each organization individually. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Adaptive learning for your organization’s sentiment value edits](adaptive-learning.md) 

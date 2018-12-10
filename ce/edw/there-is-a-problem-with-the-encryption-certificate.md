@@ -1,11 +1,11 @@
 ---
 title: "There is a problem with the encryption certificate | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 379e429f-2485-4a15-9e18-3672eccc5748
 caps.latest.revision: 9
 robots: noindex,nofollow
@@ -24,7 +24,7 @@ The specified encryption certificate could not be found in the local certificate
 -   The specified encryption certificate was deleted.  
 
 ## Cause 2  
-The service account configured for the Microsoft Dynamics 365 application pool (CrmAppPool) does not have permission to read the Claims Signing certificate in the local store.  
+The service account configured for the Microsoft Dynamics 365 for Customer Engagement application pool (CrmAppPool) does not have permission to read the Claims Signing certificate in the local store.  
   
 ## Solution
   

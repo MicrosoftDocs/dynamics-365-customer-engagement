@@ -1,9 +1,9 @@
 ---
-title: "Add a Power BI report or dashboard to a webpage in a portal in Dynamics 365 | MicrosoftDocs"
+title: "Add a Power BI report or dashboard to a webpage in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add a Power BI report or dashboard to a webpage in the portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 11/20/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -43,8 +43,8 @@ For example:
 
 3.	Copy URL from the address bar.
 
-    > [!div class="mx-imgBorder"]
-    > ![Get the path of a Power BI dashboard](media/powerbi-dashboard-url.png "Get the path of a Power BI dashboard")
+    > [!div class=mx-imgBorder]
+    > ![Get the path of a Power BI dashboard](media/powerbi-dashboard-url.png Get the path of a Power BI dashboard)
 
 ## Get the ID of a dashboard tile
 
@@ -54,13 +54,13 @@ For example:
 
 3.	Point to the tile, select **More options**, and then select **Open in focus mode**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Open Power BI dashboard tile in focus mode](media/powerbi-dashboard-tile-focus.png "Open Power BI dashboard tile in focus mode")
+    > [!div class=mx-imgBorder]
+    > ![Open Power BI dashboard tile in focus mode](media/powerbi-dashboard-tile-focus.png Open Power BI dashboard tile in focus mode)
 
 4.	Copy the tile ID from the URL in the address bar. The tile ID is the value after /tiles/.
 
-    > [!div class="mx-imgBorder"]
-    > ![Power BI dashboard tile ID](media/powerbi-dashboard-tile-id.png "Power BI dashboard tile ID")
+    > [!div class=mx-imgBorder]
+    > ![Power BI dashboard tile ID](media/powerbi-dashboard-tile-id.png Power BI dashboard tile ID)
 
 
 ### See also

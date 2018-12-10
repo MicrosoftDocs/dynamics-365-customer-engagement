@@ -1,17 +1,17 @@
 ---
 title: "renderSearchPage (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 12/05/2018
+keywords: 
+ms.date: 12/10/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
+  - dyn365-a11y
+  - dyn365-developer
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ECD8D03B-B16F-467F-9370-BB574F3E4F9D
 author: susikka
 ms.author: susikka
