@@ -2,7 +2,7 @@
 title: "Customer-journey tiles (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 for Marketing"
 keywords: "customer journey; tile; reference; pipeline"
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -43,13 +43,13 @@ The email tile sends a marketing email message to each contact that enters it. I
 - **Email**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
 - **Description**: Add a description or other notes here (optional).
 
-Your marketing email messages might contain special links to other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features such as marketing pages, event portals, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a child tile for each specific link that you want to trigger on. Add a landing-page, event, or survey tile as a child to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
+Your marketing email messages might contain special links to other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features such as marketing pages, event websites, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a nested tile for each specific link that you want to trigger on. Add a nested landing-page, event, or survey to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
 
-You can add a child tile to an email even if the associated message doesn't yet include the link represented by the child tile. This lets you plan your customer journey first and then finish your email designs later.
+You can add nested tiles under an email even if the associated message doesn't yet include the link represented by the nested tile. This lets you plan your customer journey first and then finish your email designs later.
 
-To add a child tile, expand the email tile if needed by clicking on the expand button in its bottom right corner, then drag a landing-page, event, or survey tile to the next open slot at the bottom of the stack. You must then configure the child tile to represent the same landing page, event, or survey that the email links to, and which you want to trigger on.
+To add a nested tile, expand the email tile if needed by clicking on the expand button in its bottom right corner, then drag a landing-page, event, or survey tile to the next open slot at the bottom of the stack. You must then configure the nested tile to represent the same landing page, event, or survey that the email links to, and which you want to trigger on.
 
-![Add a child to a parent tile](media/cj-add-child-tile.png Add a child to a parent tile)
+![Add a nested tile](media/cj-add-child-tile.png "Add a nested tile")
 
 See the following sections for more information about working with the landing page, event, and survey tiles.
 
@@ -57,11 +57,11 @@ See the following sections for more information about working with the landing p
 
 ### Landing page
 
-A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing page tiles can be children of marketing email tiles, where they represent a landing-page link that is included in the parent message's content. The most important reason to add a landing page tile is to enable trigger tiles placed later in the pipeline to know about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
+A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing-page tiles can be nested under email tiles, where they represent a landing-page link that is included in the email message's content. The most important reason to add a nested landing page tile is to enable trigger tiles placed later in the pipeline to "know" about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
 
-When you add a landing-page tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same landing page (the system doesn't confirm this or modify the message when you add a child tile).
+When you nest a landing-page tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same landing page (the system doesn't confirm this or modify the message when you add a nested tile).
 
-Landing page tiles provide the following settings in the **Properties** pane while selected:
+Landing-page tiles provide the following settings in the **Properties** pane while selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Marketing Page**: Identify the marketing page represented by the tile. Start typing a page name to select an existing page, or click on **New** to create a new one from here.
@@ -71,9 +71,9 @@ Landing page tiles provide the following settings in the **Properties** pane whi
 
 ### Event
 
-Event tiles are typically children of marketing email tiles, where they represent a link to an event portal that is included in the parent message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to know about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact registers for or attends the event.
+Event tiles are typically nested under email tiles, where they represent a link to an event website that is included in the message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to "know" about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact registers for or attends the event.
 
-When you add an event tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same event (the system doesn't confirm this or modify the message when you add a child tile).
+When nest an event tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same event (the system doesn't confirm this or modify the message when you add a nested tile).
 
 Event tiles provide the following settings in the **Properties** pane while selected:
 
@@ -81,13 +81,13 @@ Event tiles provide the following settings in the **Properties** pane while sele
 - **Event**: Identify the event record represented by the tile. Start typing an event name to select an existing event, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
 
 ### Survey
 
-Survey tiles are typically children of marketing email tiles, where they represent a link to an online survey that is included in the parent message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to know about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the survey.
+Survey tiles are typically nested under marketing email tiles, where they represent a link to an online survey that is included in the message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the survey.
 
-When you add a survey tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same survey (the system doesn't confirm this or modify the message when you add a child tile).
+When nest a survey tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same survey (the system doesn't confirm this or modify the message when you add a nested tile).
 
 Survey tiles provide the following settings in the **Properties** pane while selected:
 
@@ -105,7 +105,7 @@ Action tiles launch workflows or create new action records within [!INCLUDE[pn-m
 
 An *activity* is a record of a planned or completed real-world activity, such as an appointment, task, or phone call, that relates to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Most forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] include an activity wall that shows all the activities that various users planned or completed in relation to that record, such as phone conversations with a specific contact, or meetings related to planning a particular event. Records for planned activities can function as a to-do list for the users they are assigned to, and records for completed activities can contain details about what happened or what the outcome was.
 
-Activity tiles are stand-alone, so they never have any parent or child tiles.
+Activity tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 When a contact enters an activity tile, the tile generates a new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] activity related to that contact (or the company the contact works for), and then the contact proceeds immediately to the next step in their customer journey.
 
@@ -121,18 +121,18 @@ Activity tiles provide the following settings in the **Properties** pane while s
 
 ### Launch workflow
 
-Use a workflow tile to invoke a custom workflow at any point in the customer journey. You can use them to advance a process stage, create alerts, and more. Workflows are highly customizable, and many organizations work with internal or external consultants to optimize them for their own unique, internal business requirements.
+Use a launch-workflow tile to invoke a custom workflow at any point in the customer journey. You can use them to advance a process stage, create alerts, and more. Workflows are highly customizable, and many organizations work with internal or external consultants to optimize them for their own unique, internal business requirements.
 
 > [!IMPORTANT]
 > Workflows invoked by this tile must meet the following requirements:
 > - **On demand**: Customer journeys must be able to invoke the workflow on demand each time a contact flows through the tile.
 > - **Based on contact or account records**: The only input provided to the workflow is a reference to the contact record that has entered the tile (or the account it belongs to). Your workflow must be prepared to perform its functionality on that contact or account, or on a record that is related to that contact or account.
 > - **Activated as a process**: Only activated workflows can be used, and each workflow must be activated as a process (not as a process template).
-> - **Scope and Start when fields are ignored**: These settings, if made for the workflow, are ignored when launched by a customer journey.
+> - **"Scope" and "Start when" fields are ignored**: These settings, if made for the workflow, are ignored when launched by a customer journey.
 
-Workflow tiles are stand-alone, so they never have any parent or child tiles.
+Launch-workflow tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
-Workflow tiles provide the following settings in the **Properties** pane while selected:
+Launch-workflow tiles provide the following settings in the **Properties** pane while selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Launch for each**: If your journey is set to target accounts, then use this setting to choose whether to launch the workflow for every contact that enters the tile, or for the company (account) they work for. If if you launch for each contact, then the tile will pass the contact record to the workflow. If you launch for each account, then the tile will pass the account record to the workflow, and you'll only run the workflow once per account, even if several contacts from that account pass through the tile. This setting only appears when the journey **Target** is set to **Account** (on the **General** tab). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
@@ -150,7 +150,7 @@ Create-lead tiles provide the following settings in the **Properties** pane whil
 - **Last name placeholder**: All lead records require a value for their last-name field. When the tile creates a contact-based lead, it uses that contact's last name here. For accounts, no last name is available, so if you are creating account-based leads, enter a placeholder value to use as the last name for each lead the tile creates. This setting is only provided when the journey is set to target accounts. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
 - **Description**: Add a description or other notes here (optional).
 
-<a name=linkedin-tile></a>
+<a name="linkedin-tile"></a>
 
 ### LinkedIn campaign
 
@@ -169,10 +169,11 @@ LinkedIn-campaign tiles provide the following settings in the **Properties** pan
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **LinkedIn campaign**: Use this lookup field to select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign to monitor with this tile. You can choose from among all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaigns that you've synced using the  [LinkedIn Lead Gen feature](linkedin-lead-gen-integration.md) in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Be sure to choose a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign that includes a Lead Gen Form.
 - **Description**: Add a description or other notes here (optional).
+- **Go to LinkedIn campaign**: Once you've configured a campaign for the tile, you can select this link to go straight to that campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
 
 When you use this tile, you'll nearly always arrange it in a pipeline that starts with a segment followed by the LinkedIn-campaign tile and then a trigger tile, as shown in the following illustration. Then, you'll follow the trigger with follow-up activities as needed for each true/false path (such as by sending messages, triggering workflows and/or assigning tasks).
 
-![Typical LinkedIn-campaign tile arrangement](media/journey-LinkedIn-tile-use.png Typical LinkedIn-campaign tile arrangement)
+![Typical LinkedIn-campaign tile arrangement](media/journey-LinkedIn-tile-use.png "Typical LinkedIn-campaign tile arrangement")
 
 You might configure these tiles as follows:
 
@@ -187,7 +188,7 @@ You might configure these tiles as follows:
 
 Target tiles establish the segment of contacts that will be targeted by your customer journey.
 
-<a name=segment></a>
+<a name="segment"></a>
 
 ### Segment
 
@@ -195,27 +196,30 @@ A segment is a collection of contacts grouped according to some common attribute
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+Each segment tile always either contains or is nested below another segment tile, so at minimum you'll have a container segment with a single nested segment. The container tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
-![A segment tile with two child segments](media/cj-segment-stack.png A segment tile with two child segments)
+![A segment tile with two nested segments](media/cj-segment-stack.png "A segment tile with two nested segments")
 
-The previous image shows a segment stack built with two child segments. The population of the resulting target segment, which is what will be processed by the customer journey, depends on the logic established by the parent segment tile:
+The previous image shows a segment stack built with two nested segments. The population of the resulting target segment, which is what will be processed by the customer journey, depends on the logic established by the container segment tile:
 
-- When the parent segment is set to use *union* logic, any contact that is on at least one of the child segments will be included in the customer journey, but contacts that appear on more than one child segment will still be processed just once.
-- When the parent segment is set to use *intersection* logic, then only contacts that appear on *all* child segments will be targeted, so customers that appear on just one of the lists will be ignored.
+- When the container segment is set to use *union* logic, any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
+- When the container segment is set to use *intersection* logic, then only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
 
-### Record update
+### Record updated
 
-The record-update tile identifies a set of contact records that have been updated since the journey started running, and then adds them to the journey starting at the location of the record-update tile. Its function is otherwise similar to a segment tile in that it adds contacts to the journey.
+Use the record-updated tile to monitor all records belonging to a specific entity, and then find the contact associated with any of those records that gets created, deleted, or updated while the journey is running. All contacts found by this tile will be sent down the customer journey starting at the location of the tile.
 
-Record-update tiles are stand-alone, so they never have any parent or child tiles.
+For example, you could use this tile to monitor lead records for a change in the email address field. Then, each time a user changes the email field of a lead record, the record-updated tile will find the contact associated with that lead and add the contact to the journey.
 
-Record-update tiles provide the following settings in the **Properties** pane while selected:
+Record-updated tiles are stand-alone, so they can neither contain nor be nested under other tiles.
+
+Record-updated tiles provide the following settings in the **Properties** pane while selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Entity Logical Name**: Choose which entity to monitor for updates. Usually, you'll chose "Contact".
-- **Contact Field Name**: Choose a field from your selected entity to monitor for updates.
-- **Trigger Types**: Choose which type of field change to look for (create, delete, or update).
+- **Entity name**: Choose the entity to monitor for updates. The selected entity must have a lookup field that associates each of its records with a contact record.
+- **Contact field name**: Choose the lookup field that associates each record from the monitored entity with a contact record. Some entities provide more than one field that links to the contact entity, so you might have more than one choice here.
+- **Trigger event**: Choose which type of record change to look for (create, delete, or update). Choose **Create** to find contacts associated with newly created records; choose **Delete** to find contacts associated with newly deleted records; chose **Update** to find contacts associated with recently updated records (in this case, you must also choose which field to monitor for updates).
+- **Trigger field**: If you set the **Trigger event to Update**, then you must choose which field from the target entity to monitor for updates. Updates to any other fields won't trigger the tile. This setting isn't shown for the other two types of trigger events.
 - **Description**: Add a description or other notes here (optional).
 
 ## Flow-control tiles
@@ -226,14 +230,14 @@ Flow-control tiles create a pause or a branch in your pipeline, where contacts w
 
 The scheduler tile holds contacts for some amount of time before sending them on to the next tile in their journey. You could use this to insert a delay of, say, a week between sending an initial marketing email message and then sending a reminder. You can set the schedule using a relative time (such as: wait 7 days) or an absolute time (such as: wait until May 21, 2018).
 
-Scheduler tiles are stand-alone, so they never have any parent or child tiles.
+Scheduler tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 Scheduler tiles provide the following settings in the **Properties** pane while selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Type**: Sets whether to use a relative or absolute schedule. Set this to **Duration** to set a relative time (such as wait 7 days) or to **Date & Time** to choose a specific date.
 - **Duration**: This setting is only shown when **Type** is set to **Duration**. Enter an integer in the field here to define the number of days to wait, starting from the day a contact first enters the tile. Use the links here to choose a **Simple** duration, which will wait the exact number of days you specify, or an **Advanced** duration, which enables you to define a restriction window (see below).
-- **Date & Time**: This setting is only shown when **Type** is set to **Date & Time**. Use the fields here to define the specific date, hour, and minute at which contacts waiting here will be released (regardless of when they arrived). Use the links here to choose a **Simple** schedule, which will use the exact date and time you specify, or an **Advanced** schedule, which enables you to define a restriction window (see below). Note the time zone information shown at the bottom of the **Properties** tab.
+- **Date & Time**: This setting is only shown when **Type** is set to **Date & Time**. Use the fields here to define the specific date, hour, and minute at which contacts waiting here will be released (regardless of when they arrived). Use the links here to choose a **Simple** schedule, which will use the exact date and time you specify, or an **Advanced** schedule, which enables you to define a restriction window (see below). The time you specify uses the time zone set on the **General** tab for the journey itself.
 - **Restriction Window**: This setting is available for both **Duration** and **Date & Time** schedulers when they are set to **Advanced**. It establishes rules about which day or the week and/or time of day contacts will be released by the scheduler. To open it, click on the **Advanced** link in the **Duration** or **Date & Time** section. Use these settings to restrict the set of week days and/or times when contacts will first be released by the scheduler. This might result in a slightly longer delay. For example, you might set the scheduler to hold contacts for at least 7 days, but then release them on the first Monday, Wednesday, or Friday afternoon after that.
 - **Description**: Add a description or other notes here (optional).
 
@@ -243,13 +247,13 @@ Trigger tiles hold contacts until some condition is true, or until a defined amo
 
 A typical use of this is to set up an email tile followed by a trigger tile that holds each contact for 7 days, or until he or she opens the message. As soon as a contact opens the message, the trigger sends that contact down the *true* path, which might include tiles designed for contacts that have shown an interest in your messages. However, if the time limit passes and the contact still has not opened the message, then the trigger will send that contact down the *false* path, which might send the original message again, just to make sure.
 
-A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific landing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, landing page, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a child tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
+A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific landing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, landing page, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a nested tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
 
-Trigger tiles are stand-alone, so they never have any parent or child tiles.
+Trigger tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
 When you add a trigger to your pipeline, it immediately creates a fork, with the true path marked with a check and leaving the right edge of the tile, and the false path marked with an X and leaving the bottom edge of the tile.
 
-![A new trigger tile](media/cj-trigger-tile.png A new trigger tile)
+![A new trigger tile](media/cj-trigger-tile.png "A new trigger tile")
 
 Trigger tiles provide the following settings in the **Properties** pane while selected:
 
@@ -258,24 +262,24 @@ Trigger tiles provide the following settings in the **Properties** pane while se
 
 - **Timeout**: Set the maximum amount of time that the trigger should hold a contact before sending it down the false path, provided the true condition isn't met during that time. Contacts are sent down the true path as soon as the condition is met. Use the field and drop-down list here to establish that amount of time to wait.
 - **Set Rules**: All triggers must have at least one rule, so new ones start with a rule. You can add more rules by clicking on the **+ New** button here. Rules are combined using an AND operator, which means that if you define more than one, then all of the rules must evaluate to true before a contact is sent down the true path.
-- **Rule &lt;n&gt;**: Each rule that you add creates a numbered **Rule** block. Each rule must have a **Source**, which identities the source of a value to test, and a **Condition**, which defines the condition that the found value must fulfil. The **Source** drop-down list shows all the sources that are currently available to the trigger tile; if you don't find a source you are looking for, then you might need to add a tile or child tile to make that source available.
+- **Rule &lt;n&gt;**: Each rule that you add creates a numbered **Rule** block. Each rule must have a **Source**, which identities the source of a value to test, and a **Condition**, which defines the condition that the found value must fulfil. The **Source** drop-down list shows all the sources that are currently available to the trigger tile; if you don't find a source you are looking for, then you might need to add a tile or nested tile to make that source available.
 - **Description**: Add a description or other notes here (optional).
 
 ### Splitter and splitter-branch tiles
 
 Splitter tiles add a fork to the customer journey pipeline, sending a random selection of contacts down each available path.
 
-You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and establishes the basis for dividing the contacts (by percentage or absolute value), while each splitter-branch tile establishes the specific portion or number of contacts travelling down the path it controls. The bottom splitter-branch tile always implements a remaining rule, which applies to all contacts that don't fulfil any of the other available rules.
+You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and establishes the basis for dividing the contacts (by percentage or absolute value), while each splitter-branch tile establishes the specific portion or number of contacts travelling down the path it controls. The bottom splitter-branch tile always implements a "remaining" rule, which applies to all contacts that don't fulfil any of the other available rules.
 
-Splitter and splitter-branch tiles are stand-alone, so they never have any parent or child tiles.
+Splitter and splitter-branch tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
-When you add a splitter to your pipeline, it immediately creates a fork and adds a new remaining splitter-branch tile at the bottom path.
+When you add a splitter to your pipeline, it immediately creates a fork and adds a new "remaining" splitter-branch tile at the bottom path.
 
-![A new splitter tile](media/cj-splitter-tile.png A new splitter tile)
+![A new splitter tile](media/cj-splitter-tile.png "A new splitter tile")
 
 On adding a splitter tile:
 
-1. Configure the splitter first to establish its split-by parameter (by percentage or absolute value).
+1. Configure the splitter first to establish its "split-by" parameter (by percentage or absolute value).
 
 1. Add at least one splitter-rule tile in the empty spot provided.
 
