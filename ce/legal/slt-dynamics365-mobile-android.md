@@ -142,7 +142,7 @@ mandatory country law applies, then the following provisions apply to you:
 >   obligations, the fulfillment of which facilitate the due performance of this
 >   agreement, the breach of which would endanger the purpose of this agreement
 >   and the compliance with which a party may constantly trust in (so-called
->   cardinal obligations). In other cases of slight negligence, Microsoft will
+>   "cardinal obligations"). In other cases of slight negligence, Microsoft will
 >   not be liable for slight negligence.
 
 **11. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE

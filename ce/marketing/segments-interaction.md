@@ -53,9 +53,9 @@ To create a segment based on interaction records:
     > [!NOTE]
     > The name must not include spaces or special characters. Use underscores or CamelCase to create a name with multiple words.
 
-1. Your new segment already has a query group set to the **Contact** entity. Select the combo box next to this (currently showing a value of **All\*)** and start to type the name of the interaction you want to look for; a drop-down list will open and quickly shrink to show contact fields and interaction types with names that match your text. For example, type email to list all available email interactions, event to list event interactions, or form to list form interactions. If you're not sure what to look for, you can just scroll through the list to find a likely match under the **Interactions** heading near the bottom of the menu.
+1. Your new segment already has a query group set to the **Contact** entity. Select the combo box next to this (currently showing a value of **All\*)** and start to type the name of the interaction you want to look for; a drop-down list will open and quickly shrink to show contact fields and interaction types with names that match your text. For example, type "email" to list all available email interactions, "event" to list event interactions, or "form" to list form interactions. If you're not sure what to look for, you can just scroll through the list to find a likely match under the **Interactions** heading near the bottom of the menu.
 
-    ![Select an interaction for the contact entity](media/segment-interaction-select.png Select an interaction for the contact entity)
+    ![Select an interaction for the contact entity](media/segment-interaction-select.png "Select an interaction for the contact entity")
 
     Here are some of the interaction types that are used most often (but there are many more):
     - EmailClicked
@@ -73,13 +73,13 @@ To create a segment based on interaction records:
 
 1. When you're done designing your segment, select **Save** and **[Go live](go-live.md)**.
 
-![Features for creating an interaction segment](media/segment-interaction-callouts.png Features for creating an interaction segment)
+![Features for creating an interaction segment](media/segment-interaction-callouts.png "Features for creating an interaction segment")
 
 Legend:
 
 1. **Interaction name** : This is the type of interaction the segment will look for.
 1. **Relation to contacts** : This is how your selected interaction relates to the contact entity. All segments must resolve to a collection of contact entities, and this value shows how the two entities are connected. For the most common interactions, there is only one choice here so you don't need to worry about it, but some types of interactions have multiple connections to the contact entity through different field values on either the interaction record or the contact record.
-1. **Having count** : Use these settings to limit results to include contacts that have some minimum or exact value of interactions, such as at least 3 email opens or exactly 1 event registration. If you leave these blank, then your segment will find contacts with at least one of the selected interaction type.
+1. **Having count** : Use these settings to limit results to include contacts that have some minimum or exact value of interactions, such as "at least 3 email opens" or "exactly 1 event registration". If you leave these blank, then your segment will find contacts with at least one of the selected interaction type.
 1. **Sliding window** : Use these settings to consider interactions that occurred only recently, such as in the last two weeks, last three months, or last year. The date is always calculated based on the current date, so if you apply a limit here, then some contacts may slip out of the segment with each passing day.
 1. **Additional restrictions** : These settings work just like they do for profile segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on a specific email message, or registrations for a specific event. You can add as many additional clauses as you want using the **And** and **Or** buttons.
 

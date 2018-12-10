@@ -33,7 +33,7 @@ By default, changes made in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microso
 - In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], click **File** > **Dynamics 365 for Customer Engagement apps** > **Synchronize** > **Start Synchronization**.  
   
   > [!NOTE]
-  >  If you receive the error message [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server Not Found, verify that you have Internet connectivity and that the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server is running. Then try synchronizing again.  
+  >  If you receive the error message "[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server Not Found", verify that you have Internet connectivity and that the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server is running. Then try synchronizing again.  
   
 ### See also  
  [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   

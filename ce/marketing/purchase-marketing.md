@@ -66,7 +66,7 @@ When a new [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-modul
    > [!IMPORTANT]
    > Don't work on the **Instances** tab when setting up [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Though you can open details about an instance there and see that the various [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps and solutions are available, your setup is likely to fail or be incomplete if you try to work from there.
 
-   ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png Set up Marketing using the Applications tab, not the Instances tab)
+   ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
 4. Find a **Dynamics 365 for Marketing Application** entry in the list on the **Applications** tab.
    > [!NOTE]
@@ -75,6 +75,6 @@ When a new [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-modul
 
 
 5. Select an unconfigured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app in the list and then choose **Manage** from the side panel.  
-    ![Choose an app and then select the Manage button](media/purchase-manage-button.png Choose an app and then select the Manage button)
+    ![Choose an app and then select the Manage button](media/purchase-manage-button.png "Choose an app and then select the Manage button")
 
 6. The setup wizard launches, which you will use to make initial settings for the app (including the choice of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to install on (here called an *organization*)). Follow the instructions in [Run the setup wizard](purchase-setup.md) as you work through the setup wizard.

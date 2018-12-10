@@ -40,7 +40,7 @@ See the remaining sections of this topic for information about how to work with 
 
 Use these settings to connect your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
 
-<a name=config-mkt-pages></a>
+<a name="config-mkt-pages"></a>
 
 ## Configure landing pages
 
@@ -48,7 +48,7 @@ Use the **Settings** > **Advanced settings** > **Marketing settings** > **Landin
 
 When you first arrive at **Settings** > **Advanced settings** > **Marketing settings** > **Landing pages**, you'll see a list of all marketing-page configuration sets. This is a standard list page, where you can view, sort, search, and filter the list to find a specific record, and use the command bar buttons to add or remove a record. Select any configuration set in the list to open, view, and edit it.
 
-![The Marketing Page Configuration page](media/marketing-page-config.png The Marketing Page Configuration page)
+![The Marketing Page Configuration page](media/marketing-page-config.png "The Marketing Page Configuration page")
 
 ### Set the default (active) configuration set
 
@@ -63,7 +63,7 @@ We recommend that you include a privacy banner on all your landing pages. This w
 - **Insert privacy banner**. Choose **Yes** to enable this feature; choose **No** to disable it. When the privacy banner is enabled, the text and link defined in the other settings in this section will be added to each new marketing page that you create. The banner will also be added to any existing page that you open for editing; however, it won't be added to pages that are already published because these are read-only.
 - **Privacy banner text**. Enter a summary of your privacy policy here.
 - **Privacy policy link URL**. We recommend that you provide a detailed privacy policy somewhere on your own organization's website. If you have such a page, enter its full URL here.
-- **Privacy policy link text**. This text is placed under the **Privacy banner text**, and creates a link to the **Privacy policy link URL** you specified. Enter a short string of text that tells users what to expect, such as Click here to read our complete privacy policy.
+- **Privacy policy link text**. This text is placed under the **Privacy banner text**, and creates a link to the **Privacy policy link URL** you specified. Enter a short string of text that tells users what to expect, such as "Click here to read our complete privacy policy."
 
 ### Configure how incoming form data is matched to existing records
 
@@ -87,7 +87,7 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 - **Page language**. Sets the default language to use in the portal.
 - **Container page**. Sets the container page used for marketing pages.
 
-<a name=dci-sync></a>
+<a name="dci-sync"></a>
 
 ## Choose entities to sync with the customer-insights services
 
@@ -124,8 +124,8 @@ To sync a new entity with the customer-insights services:
 
 1. Select **Publish changes** and then confirm your setting when prompted.
 
-1. Wait for up to a minute, until you see an announcement near the top of the page that your changes have been accepted.... If you don't see the announcement, select **Publish changes** again and then wait again; repeat until you see the message.  
-    ![The changes-accepted message](media/admin-sync-accepted.png The changes-accepted message)
+1. Wait for up to a minute, until you see an announcement near the top of the page that "your changes have been accepted...". If you don't see the announcement, select **Publish changes** again and then wait again; repeat until you see the message.  
+    ![The changes-accepted message](media/admin-sync-accepted.png "The changes-accepted message")
 
 1. Depending on how much data needs to be synced (and other factors), you may need to wait for several minutes (or _up to six hours_) before your data is available for use in your segments, messages, and scoring models. Here are some ways you'll be able to tell that a new entity is synced and ready for use (you only need to check one of these):
 
@@ -134,7 +134,7 @@ To sync a new entity with the customer-insights services:
     - The relevant entity is shown in the **Profiles** list in the [segment designer](segmentation-lists-subscriptions.md). (Note that you must either create a new query group or remove all clauses from the existing query group to see the **Profiles** drop-down list here&mdash;otherwise the contact entity is already selected by default.)
     - The relevant entity is shown in the **Entity** list when you are editing a condition for a [lead scoring rule](score-manage-leads.md).
 
-<a name=matching-strategy></a>
+<a name="matching-strategy"></a>
 
 ## Set matching strategies
 
@@ -152,7 +152,7 @@ You'll probably have just a few matching strategies of each type&nbsp;many organ
 
 In each case, the settings are the same.
 
-![Setting the matching strategy](media/marketing-page-matching.png Setting the matching strategy)
+![Setting the matching strategy](media/marketing-page-matching.png "Setting the matching strategy")
 
 Describe your strategy by entering a **Name** and **Description**. Set the **Target** field to the type of entity your strategy applies to (lead or contact).
 
@@ -162,8 +162,8 @@ For lead matching, you might consider adding both **emailaddress1** and a lead-o
 
 Use the buttons in the toolbar for the **Attributes** section to add, edit, and remove attribute in the list.
 
-<a name=default-marketing-settings></a>
-<a name=marketing-configuration></a>
+<a name="default-marketing-settings"></a>
+<a name="marketing-configuration"></a>
 
 ## Default marketing settings
 
@@ -199,7 +199,7 @@ Use the **Double opt-in** tab to enable set up the double opt-in feature. For co
 
 ### The Bypass email deduplication tab
 
-Normally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as Bob and Robert), so this is the desired behavior.
+Normally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
 
 However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
 

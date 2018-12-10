@@ -42,11 +42,11 @@ You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates 
 
 Try out the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to get a quick view of what kind of analysis is possible. The Pipeline Management template is shown here:
 
-![An example of an Excel template](media/excel-template.png An example of an Excel template)
+![An example of an Excel template](media/excel-template.png "An example of an Excel template")
 
 Templates display information from the view defined for a record type (entity). There are four steps for creating an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template.
 
-![The process for creating an Excel template](media/excel-template-process-ill.png The process for creating an Excel template)
+![The process for creating an Excel template](media/excel-template-process-ill.png "The process for creating an Excel template")
 
 ## Step 1: Create a new template from existing data
 
@@ -56,13 +56,13 @@ Templates display information from the view defined for a record type (entity). 
 
 3. Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Template**, and then select **Next**.
 
-    ![Choose which type of template to create](media/create-template-type.png Choose which type of template to create)
+    ![Choose which type of template to create](media/create-template-type.png "Choose which type of template to create")
 
 4. Select an entity to which the template applies. The template will use data from this entity. The views you can select in the next field depend on the entity you select.
 
 5. The view defines the query used to display records and the columns or fields that are shown. Select a view, and then select **Next**.
 
-    ![Choose an entity and view for the template](media/create-template-excel-entity.png Choose an entity and view for the template)
+    ![Choose an entity and view for the template](media/create-template-excel-entity.png "Choose an entity and view for the template")
 
 6. On the **Download Template** page, select **Download**.
 
@@ -74,25 +74,25 @@ Templates display information from the view defined for a record type (entity). 
 
 Open the newly created template in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] to customize the data.
 
-![A newly created Excel template](media/excel-new-template.png A newly created Excel template)
+![A newly created Excel template](media/excel-new-template.png "A newly created Excel template")
 
 Let's walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template by using [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] sample data:
 
 1. Select **Enable Editing** to allow customization of the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook.
 
-2. Add a new column, and name it Expected Revenue.
+2. Add a new column, and name it "Expected Revenue".
 
-    ![Adding a column to an Excel template](media/excel-new-column.png Adding a column to an Excel template)
+    ![Adding a column to an Excel template](media/excel-new-column.png "Adding a column to an Excel template")
 
 3. Create a formula for expected revenue. Don't refer to cells by using their addresses; define and use names instead.
 
-    ![Create a formula based on column names](media/excel-formula.png Create a formula based on column names)
+    ![Create a formula based on column names](media/excel-formula.png "Create a formula based on column names")
 
 4. Create a pivot table and chart.
 
 5. Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates)
 
-    ![A customized Excel template](media/excel-graph.png A customized Excel template)
+    ![A customized Excel template](media/excel-graph.png "A customized Excel template")
 
 6. Save the workbook.
 
@@ -111,7 +111,7 @@ To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 2. Find and upload the file.
 
-    ![Upload Template dialog](media/excel-upload-template.png Upload Template dialog box)
+    ![Upload Template dialog](media/excel-upload-template.png "Upload Template dialog box")
 
 3. Select **Upload**.
 
@@ -119,7 +119,7 @@ To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 5. Select **Finish**.
 
-<a name=best-practices-and-considerations-for-using-excel-templates></a>
+<a name="best-practices-and-considerations-for-using-excel-templates"></a>
 
 ## Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
@@ -140,14 +140,14 @@ Here are some things you need to be aware of to create and make the best use of 
   > iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] app on iOS devices.
 - **Set pivot chart data to automatically refresh**  
   By default, pivot chart data is not automatically refreshed when you open the workbook. Other types of charts are updated automatically. In [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], right-click the pivot chart, and then select **PivotChart Options** &gt; **Refresh data** when opening the file.
-  ![Pivot table options in Excel](media/excel-pivot-options-ill.png Set pivot chart data to be automatically refreshed)
+  ![Pivot table options in Excel](media/excel-pivot-options-ill.png "Set pivot chart data to be automatically refreshed")
 - **Placing new data**  
   If you want to add content to the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template, place your data above or to the right side of the existing data. A second option is to place your new content on a second sheet.
 - **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images might cause an error**  
 
-If you attempt to view [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you might see the following message: An error occurred while attempting to save your workbook. As a result, the workbook was not saved. Try removing the image from the template and reloading the template into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+If you attempt to view [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you might see the following message: "An error occurred while attempting to save your workbook. As a result, the workbook was not saved." Try removing the image from the template and reloading the template into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)]**  
-  [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)] devices with the [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app. You'll get the following error message: We've recovered as much of your document as we could, but you can't edit it. Try to open and repair the document on your PC to fix the problem. This is a known issue.
+  [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)] devices with the [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app. You'll get the following error message: "We've recovered as much of your document as we could, but you can't edit it. Try to open and repair the document on your PC to fix the problem." This is a known issue.
 - **Use table column names and range names in formulas**  
   When you create [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] formulas, don't use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
 

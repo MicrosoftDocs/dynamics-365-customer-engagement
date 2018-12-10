@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A *webinar* (short for web seminar) is a live event that one or more people can watch simultaneously online. You can set up any session or event to function as a webinar. An event or session can be webinar-only (where live attendance is not possible) or a simulcast for attendees who can't make it to the venue to attend a live event. You can also set an event or session as onsite only, which will disable webinars for that item and hide its webinar settings.
+A *webinar* (short for "web seminar") is a live event that one or more people can watch simultaneously online. You can set up any session or event to function as a webinar. An event or session can be webinar-only (where live attendance is not possible) or a simulcast for attendees who can't make it to the venue to attend a live event. You can also set an event or session as onsite only, which will disable webinars for that item and hide its webinar settings.
 
 ## Webinar prerequisites
 

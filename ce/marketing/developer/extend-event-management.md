@@ -39,8 +39,8 @@ Further, the webinar provider should be able to authenticate with the Event mana
 
 ```json
 {
-    Username: JohnDoe,
-    Password: Password
+    "Username": "JohnDoe",
+    "Password": "Password"
 }
 ```
 
@@ -53,7 +53,7 @@ To add a new webinar provider:
 1. Open **Settings** > **Advanced Settings** > **Event Management** > **Webinar Providers** and select **New**. 
 2. Fill in the required fields as shown below. The field **Base service URL** is the URL of the webinar service that implements the API.
 
-![Webinar Provider](../media/webinar-provider.png Webinar Provider)
+![Webinar Provider](../media/webinar-provider.png "Webinar Provider")
 
 ## Add a webinar configuration
 

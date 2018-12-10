@@ -38,7 +38,7 @@ The [!include[pn-custom-app-module](../includes/pn-custom-app-module.md)] app is
 
 To go to the customization settings in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to the **Settings** work area, choose **Advanced Settings**, and then work in the **Customization** section, where you can edit views and business and process flows. To go to the custom app, which provides access to these customization settings and more, choose **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu, and then go to **Settings** > **Customization**. The following image shows how to use the app-selector menu to switch between the Marketing and custom apps.
 
-![The app-selector menu](media/nav-apps-custom-ill.png The app-selector menu)
+![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
 For complete details about how to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], see the [App making and customization overview](../customize/overview.md). That guide describes the interface as you see it in the [!include[](../includes/pn-custom-app-module.md)] app, but the customization features that are also provided in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] implement similar concepts, operate on the same database, and work similarly. 
 

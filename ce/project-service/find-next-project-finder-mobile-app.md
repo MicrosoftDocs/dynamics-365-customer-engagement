@@ -33,12 +33,12 @@ With the Project Finder Mobile app on your [!INCLUDE[tn_iphone](../includes/tn-i
   
  Tap the arrow to the right of the project you're interested in to see more details and sign up for it.  
   
- ![List of projects matching skills in the Project Finder Mobile app](../project-service/media/project-service-project-finder-list.png List of projects matching skills in the Project Finder Mobile app)  
+ ![List of projects matching skills in the Project Finder Mobile app](../project-service/media/project-service-project-finder-list.png "List of projects matching skills in the Project Finder Mobile app")  
   
 ## Update your skills  
  Tap the profile button on the bottom right of the screen to update your skills and proficiency levels.  
   
- ![Profile button in the Project Finder Mobile app](../project-service/media/project-service-project-finder-profile.png Profile button in the Project Finder Mobile app)  
+ ![Profile button in the Project Finder Mobile app](../project-service/media/project-service-project-finder-profile.png "Profile button in the Project Finder Mobile app")  
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)

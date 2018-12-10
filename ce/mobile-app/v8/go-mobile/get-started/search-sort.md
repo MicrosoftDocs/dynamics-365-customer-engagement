@@ -31,18 +31,18 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
- To search, tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png Dynamics 365 for phones and tablets search) on the top of the page, type in the search box, and tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png Dynamics 365 for phones and tablets search) next to the search box.  
+ To search, tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for phones and tablets search") on the top of the page, type in the search box, and tap ![Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics 365 for phones and tablets search") next to the search box.  
   
- ![Dynamics 365 for phones and tablets search](../../../media/mobile-start-search.png Dynamics 365 for phones and tablets search)  
+ ![Dynamics 365 for phones and tablets search](../../../media/mobile-start-search.png "Dynamics 365 for phones and tablets search")  
   
  Search results include only records that begin with the letters you type. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box. If you type **ski**, the record won’t show up.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile enter search term](../../../media/mobile-search-enter-term.png Dynamics 365 for Customer Engagement apps for mobile enter search term)  
+ ![Dynamics 365 for Customer Engagement apps for mobile enter search term](../../../media/mobile-search-enter-term.png "Dynamics 365 for Customer Engagement apps for mobile enter search term")  
   
 #### Filter search results  
  To filter results by record type, choose a record type from the **Filter with:** drop-down box.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile search filter](../../../media/mobile-search-filter.png Dynamics 365 for Customer Engagement apps for mobile search filter)  
+ ![Dynamics 365 for Customer Engagement apps for mobile search filter](../../../media/mobile-search-filter.png "Dynamics 365 for Customer Engagement apps for mobile search filter")  
   
 #### Resize columns  
  You can resize columns in a grid in the [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app, and the app will remember your settings the next time you view that grid.  
@@ -51,7 +51,7 @@ search.app:
   
 2. Drag the column handles that appear above the grid to the width you want.  
   
-   ![Column resizing handles](../../../media/v6-mobile-column-resizing.png Column resizing handles)  
+   ![Column resizing handles](../../../media/v6-mobile-column-resizing.png "Column resizing handles")  
   
 #### Sort items  
  You can also sort items in a grid in the Dynamics 365 for tablets app:  

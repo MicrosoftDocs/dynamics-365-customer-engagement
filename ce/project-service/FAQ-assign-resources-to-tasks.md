@@ -49,40 +49,40 @@ With this method you create a placeholder or generic resource that describes the
 
 1.	On the Schedule grid for a task, select the resource icon in the resource cell.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of assigning resources to a task on Schedule grid](media/FAQ-Resources-to-Tasks-1.png Screenshot of assigning resources to a task on Schedule grid)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of assigning resources to a task on Schedule grid](media/FAQ-Resources-to-Tasks-1.png "Screenshot of assigning resources to a task on Schedule grid")
 
 2.	Type a name to serve as the placeholder resource’s name; for example, “Program Manager.”
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of adding a placeholder resource's name](media/FAQ-Resources-to-Tasks-2.png Screenshot of adding a placeholder resource's name)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of adding a placeholder resource's name](media/FAQ-Resources-to-Tasks-2.png "Screenshot of adding a placeholder resource's name")
  
 3.	Select **Create**.
 
 4.	On the Quick Create Project Team Member field to the right, set the role for the generic resource.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of Quick Create Project Team Member field](media/FAQ-Resources-to-Tasks-3.png Screenshot of Quick Create Project Team Member field)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of Quick Create Project Team Member field](media/FAQ-Resources-to-Tasks-3.png "Screenshot of Quick Create Project Team Member field")
  
 5.	You can continue to assign tasks to this placeholder resource by selecting the resource on the resource selector for the task. They’re listed under Team Members.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of resource selector](media/FAQ-Resources-to-Tasks-4.png Screenshot of resource selector)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of resource selector](media/FAQ-Resources-to-Tasks-4.png "Screenshot of resource selector")
  
 6.	When you’re done assigning the generic resource, select the generic resource on the **Team** tab and select **Generate Requirement** to create a resource requirement for the generic resource.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of generating resource requirement](media/FAQ-Resources-to-Tasks-5.png Screenshot of generating resource requirement)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of generating resource requirement](media/FAQ-Resources-to-Tasks-5.png "Screenshot of generating resource requirement")
  
 7.	Select **Book** for the generic resource. You can then use the schedule board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of booking generic resource](media/FAQ-Resources-to-Tasks-6.png Screenshot of booking generic resource)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of booking generic resource](media/FAQ-Resources-to-Tasks-6.png "Screenshot of booking generic resource")
  
 8.	When the generic resource is fulfilled with a named resource, the generic resource is removed from the team and the task assignments for the generic resource are assigned to the named resource that fulfilled the generic resource’s resource requirement.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of fulfilling generic resource requirement](media/FAQ-Resources-to-Tasks-7.png Screenshot of fulfilling generic resource requirement)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of fulfilling generic resource requirement](media/FAQ-Resources-to-Tasks-7.png "Screenshot of fulfilling generic resource requirement")
 
 ## Assigning a named resource from the list of all bookable resources
 
@@ -93,8 +93,8 @@ You can use the search box in the resource selector to search all the bookable r
 3.	Search results for the name are displayed in the resource selector under Other Resources.
 4.	Select the resource and they will be assigned to the task.
 
-    > [!div class=mx-imgBorder] 
-    > ![Screenshot of adding a named resource](media/FAQ-Resources-to-Tasks-8.png Screenshot of adding a named resource)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of adding a named resource](media/FAQ-Resources-to-Tasks-8.png "Screenshot of adding a named resource")
  
 Resources assigned this way are added to the team without any bookings (like adding a team member and selecting none as the allocation method). They’re displayed in the Team tab and Reconciliation tab as resources with only assignments and a booking deficit. Book them if you want to use their availability.
 

@@ -56,7 +56,7 @@ You can export information from a multiple-record list by using an [!INCLUDE[pn-
 
 The process for using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template looks like this:
 
-![The process for using an Excel template](media/excel-process-ill.png The process for using an Excel template)
+![The process for using an Excel template](media/excel-process-ill.png "The process for using an Excel template")
 
 ### Step 1: Select an entity to analyze
 
@@ -68,7 +68,7 @@ For example, go to **Marketing** &gt; **Lead Management** &gt; **Leads**.
 
 On the command bar, select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** to open a list of available templates, and then choose the one you want to use for the export.
 
-![Choose an Excel template to export to](media/export-choose-excel-template.png Choose an Excel template to export to)
+![Choose an Excel template to export to](media/export-choose-excel-template.png "Choose an Excel template to export to")
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generates your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook and downloads it to your computer.
 

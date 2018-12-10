@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399 frameborder=0 allowfullscreen=></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created the simplest possible customer journey, which simply sends an email message to all contacts in a segment. Now we'll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and triggers in the design.
 
@@ -39,10 +39,10 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
 
 2. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** design element from the **Toolbox** onto the design canvas.  
-    ![Add a marketing-page element to a message](media/email-add-page-block.png Add a Marketing Page element to a message)
+    ![Add a marketing-page element to a message](media/email-add-page-block.png "Add a Marketing Page element to a message")
 
 3. When you drop the **Marketing Page** element in place, it's automatically selected and the **Properties** tab opens to show its settings.  
-    ![Assign a page to the page element](media/email-page-block-properties.png Assign a page to the page element)
+    ![Assign a page to the page element](media/email-page-block-properties.png "Assign a page to the page element")
 
     Set the **Marketing Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
 
@@ -50,7 +50,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
    - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** element. You might enter text such as **Click here to register for your download**.
    - Working on the **Properties** tab, choose a background color, text color, height, and width for the button.
 
-     ![A page element with styles applied](media/email-page-block-styled.png A page element with styles applied)
+     ![A page element with styles applied](media/email-page-block-styled.png "A page element with styles applied")
 
 5. As before, **Save** your message, choose **Check for Errors**, fix any issues, and then **Go Live**.
 
@@ -64,31 +64,31 @@ In [Create a simple customer journey with email messaging](create-simple-custome
    - Place a **Segment Group** tile in the first position, and configure its child **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
    - Add an **Email** tile right after the **Segment Group**, and configure it to reference the first email message you made for this exercise (with the landing page button).
 
-     ![A customer journey with a simple email campaign](media/journey-email-only.png A customer journey with a simple email campaign)  
+     ![A customer journey with a simple email campaign](media/journey-email-only.png "A customer journey with a simple email campaign")  
 
 8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by adding a marketing-page tile as a child to the email tile. Drag a **Marketing Page** tile from the **Toolbox**, and drop it directly onto the **Marketing Email Message** tile.  
-    ![Add a marketing page to an email tile](media/journey-add-page.png Add a marketing page to an email tile)
+    ![Add a marketing page to an email tile](media/journey-add-page.png "Add a marketing page to an email tile")
 
 9. Expand the **Marketing Email Message** tile by choosing the expansion button in its lower-right corner. Now you can see the **Marketing Page** tile that you just added.  
-    ![Assign a marketing page to a page tile](media/journey-page-properties.png Assign a marketing page to a page tile)
+    ![Assign a marketing page to a page tile](media/journey-page-properties.png "Assign a marketing page to a page tile")
 
     Select the **Marketing Page** tile, open the **Properties** tab, and make the following settings:
     - **Marketing Page**: Set to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md).  
     - **Name**: Set to a value that you will recognize later (such as **Free download registration page**).
 
 10. Now add a trigger tile. *Trigger tiles* add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Drag a **Trigger** tile from the **Toolbox** to the space immediately to the right of the **Marketing Email Message** tile.  
-     ![Add a trigger tile](media/journey-add-trigger-tile.png Add a trigger tile)
+     ![Add a trigger tile](media/journey-add-trigger-tile.png "Add a trigger tile")
 
 11. Select the new **Trigger** tile on the canvas, and then open the **Properties** tab.  
-     ![Set the trigger timeout](media/journey-trigger-timeout.png Set the trigger timeout)
+     ![Set the trigger timeout](media/journey-trigger-timeout.png "Set the trigger timeout")
 
      Set the **Timeout** to establish how long contacts will wait on this tile before being sent down the false (bottom) path if they don't submit the registration form. Three days is a typical timeout value, but the best choice depends on your actual circumstances.
 
 12. With the **Trigger** tile still selected and the **Properties** tab still open, select **+New** next to the **Set Rules** heading.  
-     ![Add a trigger rule](media/journey-trigger-rule-add.png Add a trigger rule)  
+     ![Add a trigger rule](media/journey-trigger-rule-add.png "Add a trigger rule")  
 
 13. A new rule, called **Rule 1**, is added for the trigger.  
-     ![Define the trigger rule](media/journey-trigger-rule-define.png Define the trigger rule)
+     ![Define the trigger rule](media/journey-trigger-rule-define.png "Define the trigger rule")
 
      Make the following settings for **Rule 1**:
     - **Source**: Choose the name of the **Marketing Page** tile you added to the **Marketing Email Message** tile (we suggested **Free download registration page**). Note that this references the name of the *tile*, not the name of the marketing page itself.
@@ -100,7 +100,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
       > Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the trigger. For example, you might define a trigger when a contact just opens the landing page, or define a trigger on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
 
 14. Add two more **Marketing Email Message** tiles after the trigger, one on the top path and one on the bottom path.  
-     ![Add an email tile to each path](media/journey-trigger-paths.png Add an email tile to each path)  
+     ![Add an email tile to each path](media/journey-trigger-paths.png "Add an email tile to each path")  
 
      Configure them as follows:
     - **Top tile**: This message is sent to contacts who submit the form (when the trigger evaluates to true). Configure it to send the download link message that you created earlier in this procedure.
@@ -109,7 +109,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
       > [!TIP]
       > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a marketing page as a child to the follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
       > 
-      > ![An example of how to complete the follow-up path](media/journey-trigger-example.png An example of how to complete the follow-up path)
+      > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 
 15. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 

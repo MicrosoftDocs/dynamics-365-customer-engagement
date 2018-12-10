@@ -63,7 +63,7 @@ To edit an existing form, do one of the following:
 
 When creating or editing a form, you'll be in the form designer, which is an example of the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] digital-content designer that offers design elements for working with forms.
 
-![The form designer](media/designer-forms.png The form designer)
+![The form designer](media/designer-forms.png "The form designer")
 
 Use the designer to add, configure, and arrange the various fields, buttons, and graphical elements that your form requires by working as follows:
 

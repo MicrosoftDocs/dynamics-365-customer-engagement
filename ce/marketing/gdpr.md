@@ -55,7 +55,7 @@ The rest of this topic describes how to work with the GDPR compliance tools in [
 
 ## Overview of GDPR features in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-Under the GDPR, the topic of consent has become a core tenet and is included in the data protection law. Consent is understood as any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her.
+Under the GDPR, the topic of consent has become a core tenet and is included in the data protection law. Consent is understood as "any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her."
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] allows you to request, capture, and store consent. It lets you design your marketing activities to respect the consent given by your audience. It is important that you include relevant information in your marketing objects (like landing pages and email marketing message) that unambiguously informs your audience about the data you collect and the purpose of your processing. Your audience must have the option to give consent freely, make an informed decision, and be able to review, update, or revoke consent at any time.
 
@@ -67,7 +67,7 @@ To help you with consent management and other GDPR related workloads, [!INCLUDE[
 - You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
 - You’ll be able to use various mechanics in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to extract all information related to a specific contact and share relevant information with that contact when requested.
-- You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] forget (delete) all information about a specific contact when requested.
+- You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] "forget" (delete) all information about a specific contact when requested.
 - You'll be able to find and update information about a specific contact when requested.
 - You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to model the fulfillment on your side.
 
@@ -96,7 +96,7 @@ By default, GDPR features such as consent management are disabled on new [!INCLU
 1. A list of **Active GDPR configurations** opens. If a configuration already exists, then select that one to open it; if no configuration yet exists, then select **+ New** on the command bar. You can have _at most_ one GDPR configuration.
 
 1. The **GDPR Configuration** form opens.  
-    ![The GDPR Configuration form](media/gdpr-config.png The GDPR Configuration form)
+    ![The GDPR Configuration form](media/gdpr-config.png "The GDPR Configuration form")
 
     Make the following settings:
     - **Name**: Enter any name that you like.
@@ -108,7 +108,7 @@ By default, GDPR features such as consent management are disabled on new [!INCLU
 
 When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
 
-![Data protection settings for contacts](media/gdpr-contact.png Data protection settings for contacts)
+![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
 
 The following settings and information are available here:
 
@@ -120,15 +120,15 @@ The following settings and information are available here:
 
 You can filter segments by consent level just like you can when filtering by other contact values. Use the **Consent Given** field of the **Contact** entity to filter by consent level.
 
-![Filter a segment by consent level](media/gdpr-segment.png Filter a segment by consent level)
+![Filter a segment by consent level](media/gdpr-segment.png "Filter a segment by consent level")
 
-<a name=journey-consent-level></a> 
+<a name="journey-consent-level"></a> 
 
 ## Set the minimum required consent level for a customer journey
 
 You can set the minimum consent level for any customer journey. When set, the journey will process only contacts of that level or higher. To do this, open the journey, go to its **General** tab, and set the **Minimum consent** field to the appropriate level.
 
-![Set the minimum required consent level for a customer journey](media/gdpr-journey.png Set the minimum required consent level for a customer journey)
+![Set the minimum required consent level for a customer journey](media/gdpr-journey.png "Set the minimum required consent level for a customer journey")
 
 If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
 
@@ -138,7 +138,7 @@ You can set the minimum consent level for any lead-scoring model. When set, the 
 
 To do this, open the lead scoring model, go to the **Summary** tab, and set the **Minimum consent** field to the appropriate level.
 
-![Set the minimum required consent level for lead scoring models](media/gdpr-scoring.png Set the minimum required consent level for lead scoring models)
+![Set the minimum required consent level for lead scoring models](media/gdpr-scoring.png "Set the minimum required consent level for lead scoring models")
 
 ## Include a consent selector in a subscription center
 
@@ -174,7 +174,7 @@ Then prepare a single customer journey with three parallel pipelines, one for ea
 1. Continue to an activity tile, which is configured with a task-activity template that identifies the request type (update, send, or delete) and assigns a task to the security officer responsible for responding to the request. The task will include a link to the contact record, so the officer can easily go there to read the full content of the page submission.
 1. End with an email message, which informs the customer that their request was received and provides additional links and instructions (such as a subscription center link), depending on the type of request.
 
-![Example customer journey for handling GDPR requests](media/gdpr-example-journey.png Example customer journey for handling GDPR requests)
+![Example customer journey for handling GDPR requests](media/gdpr-example-journey.png "Example customer journey for handling GDPR requests")
  
 The remaining subsections offer more details about how this example solution could be completed to support each type of request.
 
@@ -207,7 +207,7 @@ One way to prepare your system to handle update-my-data requests could be to set
 
 As mentioned earlier, when a privacy officer receives the task generated by the customer journey, they can click the included link to open the relevant contact record, open the insights for that record and then go to the **Marketing form interactions** tab, where they can read the full content of the form submission (for example, as a tooltip for the relevant **Form submission** value in the **Form visited list**). If needed, the privacy officer can contact the customer directly to resolve any of the special requests (such as to update data not provided on the subscription center form).
 
-![Inspect form values submitted by a contact](media/gdpr-inspect-submission.png Inspect form values submitted by a contact)
+![Inspect form values submitted by a contact](media/gdpr-inspect-submission.png "Inspect form values submitted by a contact")
  
 ### Secure and control access to personal information
 
@@ -233,7 +233,7 @@ Each time a contact uses a subscription center to change their consent level, [!
 
 The list only shows changes made by the contact using the subscription center. If a user from your organization changes the level directly using the contact record (such as to respond to a request given over the phone), that event is not recorded in the log. To record such a change, the user must also open the **GDPR consent change records** tab and select the **Add new GDPR consent record** button. A form opens that the user can use to enter details about the consent-level change.
 
-![Inspect and record consent-level changes for a contact](media/gdpr-inspect-consent-changes.png Inspect and record consent-level changes for a contact)
+![Inspect and record consent-level changes for a contact](media/gdpr-inspect-consent-changes.png "Inspect and record consent-level changes for a contact")
 
  
 You can export this list from here, if needed, by selecting the **Export** button in the list command bar.

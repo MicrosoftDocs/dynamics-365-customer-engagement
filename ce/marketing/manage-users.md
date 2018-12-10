@@ -38,7 +38,7 @@ User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](
 
  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 for Customer Engagement (online) licenses](../admin/purchase-assign-online-licenses.md).
 
-<a name=assign-role></a>
+<a name="assign-role"></a>
 
 ## Assign and customize a security roles for users
 

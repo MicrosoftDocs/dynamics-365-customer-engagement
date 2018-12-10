@@ -30,11 +30,11 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
 > [!TIP]
 >  You can implement some of the procedures described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see [Using Windows PowerShell to perform Deployment Manager tasks](powershell-deployment-manager-tasks.md).  
   
-<a name=BKMKGeneral></a>   
+<a name="BKMKGeneral"></a>   
 #### General tab  
  The **General** tab shows information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   
-<a name=BKMKWebAdd></a>   
+<a name="BKMKWebAdd"></a>   
 #### Web Address tab  
  Use the **Web Address** tab to set the **Binding Type** and to specify information for the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)]**, **[!INCLUDE[pn_Organization_Web_Service](../includes/pn-organization-web-service.md)]**, **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)]**, and **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)]**.  
   
@@ -111,7 +111,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
  For more information about how to configure internal web address and external domain values, see [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/dn609803.aspx).  
   
-<a name=BKMKLicense></a>   
+<a name="BKMKLicense"></a>   
 #### License tab  
  After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** dialog box, select the **License** tab.  
   
@@ -131,14 +131,14 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
  The **License** tab also displays the product ID you can use to identify and validate your copy of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and a link to the **Change Product Key** dialog box. To change the product key, see [Change the product key](change-the-product-key.md).  
   
- If the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] cannot access one or more organizations, the license counts are shown as Unavailable.  
+ If the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] cannot access one or more organizations, the license counts are shown as "Unavailable."  
   
 > [!NOTE]
 >  If a user is a member of multiple organizations and uses a different license in different organizations, the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] reports that user as using the highest privilege level license. For example, if the user has a Full user license in one organization and a Limited license in another organization, that user is reported as using one Full license.  
 >   
 >  Users who have the [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role do not automatically become [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users and do not consume a CAL.  
   
-<a name=BKMKUsage></a>   
+<a name="BKMKUsage"></a>   
 #### Usage Reporting tab  
  On the Usage Reporting tab, indicate whether you want to allow organizations in the deployment to participate anonymously in the [!INCLUDE[pn_Customer_Experience_Program](../includes/pn-customer-experience-program.md)]. When selected, the application automatically sends basic, anonymous information to Microsoft about how you use Dynamics 365 for Customer Engagement and the types and number of errors you encounter. This information helps Microsoft solve problems and improve products and features. If you accept, each organization in the deployment can be configured to send data to Microsoft. If you decline for the entire deployment, no organization is able to send data, regardless of the organization's usage reporting setting.  
   

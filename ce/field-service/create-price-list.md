@@ -32,7 +32,7 @@ search.app:
 
 Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] define pricing levels. When you use a price list, you can specify how much a customer is charged for your product and services. The price list is noted on the account, work order, agreement, or the individual product or service. 
   
-<a name=BKMK_CreateNewPriceList></a>   
+<a name="BKMK_CreateNewPriceList"></a>   
 ## Create a new price list  
   
 1.  From the top menu, click **Field Service** > **Administration**, and then choose **Price Lists**.  
@@ -41,7 +41,7 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
   
 3.  Use the tooltips to help fill in your information, and then click **Save**.  
   
-<a name=BKMK_AddFieldSvcPriceListItems></a>   
+<a name="BKMK_AddFieldSvcPriceListItems"></a>   
 ## Add [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items  
  [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items let you associate service (or labor) type productsfrom the product catalogwith a price list, with properties that are relevant to labor products.  
   
@@ -69,7 +69,7 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
   
 4.  Click **Save & Close**.  
   
-<a name=BKMK_AddPriceListItems></a>   
+<a name="BKMK_AddPriceListItems"></a>   
 ## Add price list items  
  Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three price list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
   
@@ -111,7 +111,7 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
   
 3. Click **Save**.  
   
-<a name=BKMK_AddTerritoryRelationships></a>   
+<a name="BKMK_AddTerritoryRelationships"></a>   
 ## Add territory relationships  
  Add default price lists for territories or customer segments. This makes it easier for your [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
   

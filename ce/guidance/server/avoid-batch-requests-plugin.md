@@ -62,9 +62,9 @@ public class ExecuteMultipleRequestInPlugin : IPlugin
         IOrganizationServiceFactory factory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
         IOrganizationService service = factory.CreateOrganizationService(context.UserId);
 
-        QueryExpression query = new QueryExpression(account)
+        QueryExpression query = new QueryExpression("account")
         {
-            ColumnSet = new ColumnSet(accountname, createdon),
+            ColumnSet = new ColumnSet("accountname", "createdon"),
         };
 
         //Obtain the results of previous QueryExpression
@@ -75,7 +75,7 @@ public class ExecuteMultipleRequestInPlugin : IPlugin
             ExecuteMultipleRequest batch = new ExecuteMultipleRequest();
             foreach (Entity account in results.Entities)
             {
-                account.Attributes[accountname] += _UPDATED;
+                account.Attributes["accountname"] += "_UPDATED";
 
                 UpdateRequest updateRequest = new UpdateRequest();
                 updateRequest.Target = account;

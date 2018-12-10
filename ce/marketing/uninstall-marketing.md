@@ -57,14 +57,14 @@ To run the uninstall wizard:
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
 1. To see a list of applications you have installed, select the **Applications** tab.  
-    ![Open the Applications tab](media/update-app-tab.png Open the Applications tab)
+    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
     The list shows a row named **Dynamics 365 for Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
 
-1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png The Manage button) in the side panel.
+1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
 
 1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance (organization) from which you are about to remove [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Confirm that you selected the right one.  
-    ![Choose the Uninstall Marketing link](media/uninstall-wizard.png Choose the Uninstall Marketing link)
+    ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
 
 1. Under **Other actions**, select **Uninstall Marketing from this org**.
 
@@ -76,7 +76,7 @@ The uninstall wizard removes the [!INCLUDE[pn-marketing-app-module](../includes/
 To remove the services:
 
 1. Use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.  
-    ![The app-selector menu](media/nav-apps-custom-ill.png The app-selector menu)
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
 1. To view the list of solutions installed in the custom app, go to **Settings** > **Customizations** > **Solutions**.
 

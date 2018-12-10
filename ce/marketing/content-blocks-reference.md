@@ -43,11 +43,11 @@ Text elements create a block of text within a column.
 
 You can edit the text of any new or existing text element by working directly in the element on the canvas. Use the inline toolbar at the top of the selected text element to do inline styling like font face, font color, bold, italic, paragraph justification, and more. You can also delete, clone, or move a selected text element by using the toolbar.
 
-![The text-element toolbar](media/text-block-toolbar.png The text-element toolbar)
+![The text-element toolbar](media/text-block-toolbar.png "The text-element toolbar")
 
 Select a text element and use the settings provided on the **Properties** tabs to stylize the element itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-element content unless overruled locally.
 
-For email messages, the text toolbar includes an **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png The assist-edit button). Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+For email messages, the text toolbar includes an **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Image elements
 
@@ -57,8 +57,8 @@ When you first add an image element, an image placeholder appears at the locatio
 
 - **Source**: Specify the image you want to display using a combination of the following:
   - Enter a URL directly in the field.
-  - Select the **Image Gallery** button ![The image gallery button](media/button-image-gallery.png The image gallery button) next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
-  - If you are using the image in an email message, then you can use the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png The assist-edit button) to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+  - Select the **Image Gallery** button ![The image gallery button](media/button-image-gallery.png "The image gallery button") next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
+  - If you are using the image in an email message, then you can use the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 - **Alt text**: Enter a short description of the image. This text will be read aloud to contacts that are using a screen reader, and will also be shown to contacts that have images disabled in their browser or email client. 
 - **Link**: Enter a URL here if you'd like the image to function as a link.
 - **Alignment**: Choose how the image should be aligned relative to its column (left, right, or center).
@@ -103,7 +103,7 @@ When you select a button element, you can use an inline toolbar to style the but
 
 This section describes design elements that are only available when you are designing a marketing email message.
 
-<a name=event-elements></a>
+<a name="event-elements"></a>
 
 ### Marketing-page, event, and survey elements
 
@@ -128,7 +128,7 @@ To configure a form element, select it in your layout, open the **Properties** t
 - **Limit exceeded message**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
 - **Redirect URL**: Enter a URL to send the submitter to immediately after they submit the form. This typically would be a page on your own website that thanks the submitter and confirms their submission, or some other message related to the purpose of your marketing page.
 
-<a name=form-content-elements></a>
+<a name="form-content-elements"></a>
 
 ## Design elements for forms
 
@@ -136,9 +136,9 @@ The designer provides many elements that are unique to marketing forms. They are
 
 ### Field elements
 
-Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique design element named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called First Name, you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
+Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique design element named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
-![Field-element settings](media/field-block-details.png Field-element settings)
+![Field-element settings](media/field-block-details.png "Field-element settings")
 
 When you add or select a field in your form, you can read and set the following properties on the **Properties** tab:
 
@@ -187,13 +187,13 @@ Do-not-bulk-email elements add a check box to a subscription center form that en
 
 All subscription center forms must include exactly one do-not-bulk-email element. You can also include this element in landing-page forms, but it's not required.
 
-The do-not-bulk-email element is a standard form-field element that is permanently configured to map to the Do not bulk email field of the contact entity. Other than this, all its properties are the same as those for standard field elements, as described in [Field elements](#field-elements).
+The do-not-bulk-email element is a standard form-field element that is permanently configured to map to the "Do not bulk email" field of the contact entity. Other than this, all its properties are the same as those for standard field elements, as described in [Field elements](#field-elements).
 
 ### Remember-me elements
 
 Remember-me elements add a remember-me feature to your form. If a visitor submits a form with the remember-me box selected, the form will be prefilled with known values the next time they open one of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] forms (while using that same computer and browser). Only the fields specifically configured to allow prefilling will be filled the next time. You should always include a design element of this type on marketing pages that are enabled for prefilling. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Field elements](#field-elements)
 
-The remember-me element is a standard form-field element that is permanently configured to map to the Allow form prefill field of the contact entity. Other than this, all its properties are the same as those for standard form fields, as described in [Field elements](#field-elements).
+The remember-me element is a standard form-field element that is permanently configured to map to the "Allow form prefill" field of the contact entity. Other than this, all its properties are the same as those for standard form fields, as described in [Field elements](#field-elements).
 
 ### Submit-button elements
 
@@ -211,7 +211,7 @@ Reset-button elements are only available when you are working with a forward-to-
 
 Captcha elements add a captcha to your form, which helps make sure that only humans can submit the form, thus preventing bots from filling your database full of spam or noise.
 
-![A captcha element and its settings](media/captcha-block.png A captcha element and its settings)
+![A captcha element and its settings](media/captcha-block.png "A captcha element and its settings")
 
 You've probably seen captchas before. They require you to recognize and repeat a set of characters designed to be difficult for a computer to recognize.
 

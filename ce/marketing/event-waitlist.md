@@ -53,7 +53,7 @@ To enable or disable the waitlist for any event:
 
 1. Open the **General** tab and find the **Venue constraints** area.
 
-    ![Enable the waitlist for an event](media/event-waitlist-enable.png Enable the waitlist for an event)
+    ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event")
 
 1. Make the following settings:
 
@@ -71,7 +71,7 @@ To see who is currently on the waitlist for any event:
 
 1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
 
-    ![View the waitlist for an event](media/event-waitlist-view.png View the waitlist for an event)
+    ![View the waitlist for an event](media/event-waitlist-view.png "View the waitlist for an event")
 
     Here you'll find a list of each contact who is waiting to be invited to this event. You can see the following information for each:
 
@@ -109,16 +109,16 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
 1. Open the **Definition** tab. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
 
-    ![Close the default group](media/event-waitlist-invite-segment1.png Close the default group)
+    ![Close the default group](media/event-waitlist-invite-segment1.png "Close the default group")
 
 1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Waitlist item** from here. 
 
-    ![Select the waitlist-item entity](media/event-waitlist-invite-segment2.png Select the waitlist-item entity)
+    ![Select the waitlist-item entity](media/event-waitlist-invite-segment2.png "Select the waitlist-item entity")
 
 1. Complete the row to create the logical expression:  
 **Waitlist Item | Automatically register | is | False**.  
 
-    ![Complete the waitlist-item clause](media/event-waitlist-invite-segment3.png Complete the waitlist-item clause)
+    ![Complete the waitlist-item clause](media/event-waitlist-invite-segment3.png "Complete the waitlist-item clause")
 
 1. Select **+ And** to add a second clause using an AND operator. Use it to create the logical expression:  
 **Waitlist Item | Invited | is | True**
@@ -135,7 +135,7 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
 1. Your final segment should resemble the following screenshot. Select **Save** at the bottom-right corner of the window to save your settings.  
 
-    ![The final invite segment query](media/event-waitlist-invite-segment4.png The final invite segment query)
+    ![The final invite segment query](media/event-waitlist-invite-segment4.png "The final invite segment query")
 
 1. Select **Go Live** from the command bar to activate the segment.
 
@@ -148,7 +148,7 @@ To create a segment that finds contacts who _have already_ been registered autom
 **AND Waitlist Item | Event msevtmgt\_event | is | &lt;YourEventID&gt;**  
 **AND msevtmgt\_waitlistitem\_contact\_msevtmgt\_contact\_&lt;YourOrg&gt; | All&ast;**
 
-![The final auto-registered segment query](media/event-waitlist-auto-segment.png The final auto-registered segment query)
+![The final auto-registered segment query](media/event-waitlist-auto-segment.png "The final auto-registered segment query")
 
 ### Create a customer journey to send invitations or notifications to waitlisted contacts
 
@@ -160,7 +160,7 @@ For a journey sending invites to waitlist contacts who aren't auto-registered, c
 
 The following example shows a journey that has two parallel paths, one for auto-registered contacts and one for invited (manual-register) contacts. Note that both email messages show a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts who register. After a few days, the trigger sends contacts who don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited (this requires that you create a [custom workflow](../customize/workflow-processes.md) to handle this).
 
-![A customer journey for processing a waitlist](media/event-waitlist-journey.png A customer journey for processing a waitlist)
+![A customer journey for processing a waitlist](media/event-waitlist-journey.png "A customer journey for processing a waitlist")
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md), [Prepare marketing email messages](prepare-marketing-emails.md), [Customer journey tiles reference](customer-journey-tiles-reference.md)
 

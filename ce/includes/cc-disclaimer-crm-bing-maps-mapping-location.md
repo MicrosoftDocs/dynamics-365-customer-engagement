@@ -5,7 +5,7 @@
   
 |From Dynamics 365|Bing Maps returns|Note|  
 |-----------------------|-----------------------|----------|  
-|Address (account or resource)|Latitude and longitude of the address (location)|This is referred to as geo-coding of an address.|  
+|Address (account or resource)|Latitude and longitude of the address (location)|This is referred to as "geo-coding" of an address.|  
 |Set of locations (latitude/longitude)|Distance between locations|This can be used to find optimal routes for resources or to calculate travel times.|  
 |Set of locations (latitude/longitude)|Map view with the locations as pins on the map|This is used to view the accounts and resources in a map view.|  
   

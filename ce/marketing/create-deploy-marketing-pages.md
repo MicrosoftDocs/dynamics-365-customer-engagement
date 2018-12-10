@@ -123,7 +123,7 @@ To view form submissions and analytics about page usage and performance:
 
 1. Use the drop-down list above the marketing-page name to switch to the **Insights** entity form.
 
-    ![The form selector menu](media/form-selector-insights.png Choose Insights from the form selector)
+    ![The form selector menu](media/form-selector-insights.png "Choose Insights from the form selector")
 
 1. Explore the various tabs and displays here to view submissions and gain insights.
 

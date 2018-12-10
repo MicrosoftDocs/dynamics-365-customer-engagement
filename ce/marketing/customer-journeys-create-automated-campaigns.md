@@ -29,13 +29,13 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399 frameborder=0 allowfullscreen=></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
-![An example of a customer journey](media/customer-journey.png An example of a customer journey)
+![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
 The previous figure shows how a simple customer journey might look in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A somewhat more complex example could work like this:
 
@@ -47,11 +47,11 @@ The previous figure shows how a simple customer journey might look in [!INCLUDE[
 
 4. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
-5. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the true path immediately; but if a week goes by without a click, they'll go down the false path.
+5. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
 
-6. The top (true) path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
-7. The bottom (false) path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
+7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
 ## Set up a customer journey
 
@@ -59,7 +59,7 @@ To view and create your customer journeys, go to **Marketing** &gt; **Marketing 
 
 When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Select a Journey Template** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
-![Select a Journey Template dialog](media/customer-journey-template.png Select a journey template)
+![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 
 You can also choose to start from scratch instead of using a template. The pipelines provided by a template represent the form and logic of your campaign, but you'll still need to configure the various tiles by&mdash;for example&mdash;assigning the specific marketing email message that should be sent by each email tile.
 
@@ -73,13 +73,13 @@ Use the **Design** tab to design your campaign by arranging tiles into a logical
 
 You can add tiles to the pipeline by dragging tiles from the **Toolbox** tab on the right side of the canvas to the appropriate position on the canvas. You can also add tiles by using the command bar and arrow keys, as described in the next section.
 
-![Drag a tile from the Toolbox to the canvas](media/cj-drag-ill.png Drag a tile from the Toolbox to the canvas)
+![Drag a tile from the Toolbox to the canvas](media/cj-drag-ill.png "Drag a tile from the Toolbox to the canvas")
 
 The first tile in the pipeline establishes the target segment for the customer journey. This is what determines which contacts get sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic list) or on a static list, where individual contacts are added and removed manually. You might create dynamic lists based on demographic information (such as finding contacts from New York City), whereas a static list might represent a subscription list that contacts can add themselves to or remove themselves from by using one of your subscription center webpages.
 
 After they are added, most tiles provide features such as those illustrated in the following figure.
 
-![Features of a customer-journey tile](media/cj-tile-features-ill.png Features of a customer-journey tile)
+![Features of a customer-journey tile](media/cj-tile-features-ill.png "Features of a customer-journey tile")
 
 Legend:
 
@@ -99,11 +99,11 @@ Though most people add and arrange tiles by dragging them to the canvas, you can
 
 1. Choose the type of tile you want to add from the drop-down list by using your mouse, or by using the arrow keys and the Return key.
 
-    ![Add a tile from the toolbar](media/cj-add-menu-ill.png Choose the type of tile you want to add)
+    ![Add a tile from the toolbar](media/cj-add-menu-ill.png "Choose the type of tile you want to add")
 
 1. The pipeline is now updated to show all the available insertion points where you can drop your new tile. Use your mouse, or arrow keys and Return key, to choose the location and drop the tile there.
 
-    ![Choose where to add the new tile](media/cj-add-location-ill.png Choose where to add the new tile)
+    ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
@@ -115,7 +115,7 @@ To configure a tile, select it in the pipeline, and then go to the **Properties*
 
 For tiles that must refer to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
 
-![An example of common tile settings](media/cj-tile-details-ill.png An example of common tile settings)
+![An example of common tile settings](media/cj-tile-details-ill.png "An example of common tile settings")
 
 Legend:
 
@@ -151,7 +151,7 @@ Other settings for activity marketing templates vary by activity type and, like 
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Action tiles](customer-journey-tiles-reference.md#action-tiles)
 
-<a name=general-options></a> 
+<a name="general-options"></a> 
 
 ## Set general options, including execution schedule and content settings
 
@@ -210,7 +210,7 @@ To set up a recurring journey:
 > Your recurrence schedule must fit within your start and end dates, such that:  
 **interval * count &le; end date &ndash; start date**.
 
-<a name=suppression-segment></a>
+<a name="suppression-segment"></a>
 
 ### Add a suppression segment
 

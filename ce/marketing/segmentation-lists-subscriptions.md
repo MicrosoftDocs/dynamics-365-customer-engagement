@@ -41,7 +41,7 @@ A market segment is the collection of contacts that you target in a marketing ca
 
 Segments can be dynamic, static, or compound.
 
-- *Dynamic segments* are set up by using logical expressions, such as all contacts from New York or all contacts who like The Mets. Membership in dynamic segments changes constantly to reflect new or removed contacts and updated contact information.
+- *Dynamic segments* are set up by using logical expressions, such as "all contacts from New York" or "all contacts who like The Mets." Membership in dynamic segments changes constantly to reflect new or removed contacts and updated contact information.
 - *Static segments* establish a static list of contacts who are selected on a per-contact basis rather than created logically based on field values. Marketers and salespeople might create and populate a static list based on private knowledge or offline interactions.
 - *Compound segments* combine existing (live) segments using logical operators.
 
@@ -72,7 +72,7 @@ If you need to edit a segment after it has gone live, open it and then select **
 
 To work with your segments, go to **Marketing** &gt; **Customers** &gt; **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
 
-![The General tab for segments](media/segment-general.png The General tab for segments)
+![The General tab for segments](media/segment-general.png "The General tab for segments")
 
 Segment records provide several tabs for describing, defining, and reviewing the segment. Tabs are shown as a set of headings under the header, which shows the name of the segment. Select any of these headings to go to the relevant tab. Each tab is described briefly in the following subsections.
 

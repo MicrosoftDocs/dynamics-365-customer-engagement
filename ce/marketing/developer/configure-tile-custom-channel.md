@@ -30,14 +30,14 @@ Custom channel is exposed as a “tile” in the customer journey designer. You 
 
 Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
-For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is sample: **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
+For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
 
 ### Sample Tile XML file 
 
 The following is a sample Tile XML file. Description of the elements in the XML file is available later in this topic:
 
 ```xml
-<?xml version=1.0 encoding=utf-8?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- file name should only contain alpha-numeric characters and underscore -->
 <!-- format: <fileNamePrefix>CustomerJourneyDesignerTileConfig.xml> -->
 <LibraryTile>
@@ -45,7 +45,7 @@ The following is a sample Tile XML file. Description of the elements in the XML 
   <!-- icon: CSS class defining your tile icon-->
   <!-- fontFamily: CSS class definiing font-family for your icon-->
   <!-- cssFileName: your CSS file name in CRM-->
-  <Definition icon=sample_SpecialTile fontFamily=sample_SpecialTileSymbolFont cssFileName=sample_SpecialTileCustomerJourneyDesignerTileConfig.css />
+  <Definition icon="sample_SpecialTile" fontFamily="sample_SpecialTileSymbolFont" cssFileName="sample_SpecialTileCustomerJourneyDesignerTileConfig.css" />
   <!-- mandatory -->
   <ChannelProperties>
     <!-- mandatory -->
@@ -63,42 +63,42 @@ The following is a sample Tile XML file. Description of the elements in the XML 
   </ChannelProperties>
   <!-- optional -->
   <ResponseTypes>
-    <ResponseType id=sent>
+    <ResponseType id="sent">
       <Labels>
         <!-- Labels should always have a Label for 1033 -->
-        <Label locId=1033>Sent</Label>
-        <Label locId=1031>[Sent]</Label>
+        <Label locId="1033">Sent</Label>
+        <Label locId="1031">[Sent]</Label>
       </Labels>
     </ResponseType>
-    <ResponseType id=delivered>
+    <ResponseType id="delivered">
       <Labels>
         <!-- Labels should always have a Label for 1033 -->
-        <Label locId=1033>Delivered</Label>
-        <Label locId=1031>[Delivered]</Label>
+        <Label locId="1033">Delivered</Label>
+        <Label locId="1031">[Delivered]</Label>
       </Labels>
     </ResponseType>
-    <ResponseType id=keyword custom=True>
+    <ResponseType id="keyword" custom="True">
       <!-- there should be only one response type with attribute custom=true -->
       <Labels>
         <!-- Labels should always have a Label for 1033 -->
-        <Label locId=1033>Keyword match</Label>
-        <Label locId=1031>[Keyword match]</Label>
+        <Label locId="1033">Keyword match</Label>
+        <Label locId="1031">[Keyword match]</Label>
       </Labels>
     </ResponseType>
   </ResponseTypes>
   <!-- mandatory -->
   <Labels>
     <!-- Labels should always have a Label for 1033 -->
-    <Label locId=1033>Special</Label>
-    <Label locId=1031>[Special]</Label>
+    <Label locId="1033">Special</Label>
+    <Label locId="1031">[Special]</Label>
   </Labels>
   <!-- mandatory -->
   <Tooltips>
     <!-- Tooltips should always have a tooltip for 1033 -->
     <!-- mandatory -->
-    <Tooltip locId=1033>Custom Tile tool tip</Tooltip>
+    <Tooltip locId="1033">Custom Tile tool tip</Tooltip>
     <!-- optional -->
-    <Tooltip locId=1031>[Custom Tile tool tip]</Tooltip>
+    <Tooltip locId="1031">[Custom Tile tool tip]</Tooltip>
   </Tooltips>
 </LibraryTile>
 ```
@@ -131,7 +131,7 @@ The XML file has the following elements:
     Example:
 
     ```xml
-    <Definition icon=sample_SpecialTile fontFamily=sample_SpecialTileSymbolFont cssFileName=sample_SpecialTileCustomerJourneyDesignerTileConfig.css />
+    <Definition icon="sample_SpecialTile" fontFamily="sample_SpecialTileSymbolFont" cssFileName="sample_SpecialTileCustomerJourneyDesignerTileConfig.css" />
     ```
 
 - **ChannelProperties**: Contains information about the custom entity that you created to store and manage data related to your custom channel.
@@ -151,7 +151,7 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>ComplianceField</td>
-    <td>Contains a boolean attribute of the <a href=../../developer/entities/contact.md data-raw-source=[Contact](../../developer/entities/contact.md)>Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
+    <td>Contains a boolean attribute of the <a href="../../developer/entities/contact.md" data-raw-source="[Contact](../../developer/entities/contact.md)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
     
     For example, if you set the value of this element to <a href="https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
 
@@ -178,11 +178,11 @@ The XML file has the following elements:
 
     ```xml
     <ResponseTypes>
-      <ResponseType id=sent>
+      <ResponseType id="sent">
         <Labels>
         <!-- Labels should always have a Label for 1033 -->
-          <Label locId=1033>Sent</Label>
-          <Label locId=1031>[Sent]</Label>
+          <Label locId="1033">Sent</Label>
+          <Label locId="1031">[Sent]</Label>
         </Labels>
       </ResponseType>
     </ResponseTypes>    
@@ -193,9 +193,9 @@ The XML file has the following elements:
     <Tooltips>
       <!-- Tooltips should always have a tooltip for 1033 -->
       <!-- mandatory -->
-      <Tooltip locId=1033>Custom Tile tool tip</Tooltip>
+      <Tooltip locId="1033">Custom Tile tool tip</Tooltip>
       <!-- optional -->
-      <Tooltip locId=1031>[Custom Tile tool tip]</Tooltip>
+      <Tooltip locId="1031">[Custom Tile tool tip]</Tooltip>
     </Tooltips>
     ```
 
@@ -227,7 +227,7 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 
 /* format: <fileNamePrefix>::before */
 .sample_SpecialTile::before { /* your tile icon code */
-    content: \f099;
+    content: "\f099";
 }
 
 /* format: #libraryElementCustom_<fileNamePrefix>  > span.lib-iconContainer */
@@ -252,7 +252,7 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 ```
 
 
-> [!div class=nextstepaction]
+> [!div class="nextstepaction"]
 > [Step 4: Test your custom channel tile](test-custom-channel-tile.md)
 
   

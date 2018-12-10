@@ -40,7 +40,7 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
   
  In cases where a product must be returned to a vendor, an RTV must be created after receipt of the product that is going back to the vendor. 
   
-<a name=BKMK_1></a>   
+<a name="BKMK_1"></a>   
 ## Step 1: Create an RMA  
   
 1. From the main menu, click **Field Service** > **RMAs**.  
@@ -59,7 +59,7 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
   
 4. When you're done, click **Save**.  
   
-<a name=BKMK_2></a>   
+<a name="BKMK_2"></a>   
 ## Step 2: Add RMA products  
  Once an RMA is created, you must add the products to be returned. There are two ways to add RMA products—either manually or by choosing a product that was used in a work order.  
   
@@ -91,7 +91,7 @@ To **Add WO Products**, a work order must be associated with the RMA.
   
 5.  When you're done, in the **Add WO Products** dialog box, click **Ok**.  
   
-<a name=BKMK_3></a>   
+<a name="BKMK_3"></a>   
 ## Step 3: Approve the RMA  
  If you're the approver, open the RMA and verify that the return has been filled in correctly, and approve the RMA. Here are some of the things you may want to do:  
   
@@ -108,7 +108,7 @@ To **Add WO Products**, a work order must be associated with the RMA.
 > [!NOTE]
 >  The approval process depends on your company's return policy. The above is a general list to give you an idea of what you might look for when processing a return.  
   
-<a name=BKMK_4></a>   
+<a name="BKMK_4"></a>   
 ## Step 4: Create an RMA receipt  
   
 1.  In the RMA record, on the top menu, click the drop-down arrow next to the name of the RMA record, and then click **Receipt**.  
@@ -121,7 +121,7 @@ To **Add WO Products**, a work order must be associated with the RMA.
   
     -   In the **Received By** field, choose the person who is handling the receipt.  
   
-<a name=BKMK_5></a>   
+<a name="BKMK_5"></a>   
 ## Step 5: Add RMA receipt products  
   
 1. From the RMA receipt record, scroll down to the **Products** section.  
@@ -134,7 +134,7 @@ To **Add WO Products**, a work order must be associated with the RMA.
   
 5. Click **Save**.  
   
-<a name=BKMK_6></a>   
+<a name="BKMK_6"></a>   
 ## Step 6: (Optional) Create an RTV  
 You only need to create an RTV if the return is going back to the vendor. Once the product is received by the vendor, you will create an RTV.  
   

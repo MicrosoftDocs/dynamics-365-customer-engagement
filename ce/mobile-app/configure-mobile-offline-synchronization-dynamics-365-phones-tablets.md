@@ -101,11 +101,11 @@ To enable more entities for offline, follow the steps below.
   
 5.  Under **Outlook & Mobile**, select **Enable for mobile offline**.  
 
-    ![Enable an entity for mobile offline](media/EnableEntityForMobileOffline.png Enable an entity for mobile offline)
+    ![Enable an entity for mobile offline](media/EnableEntityForMobileOffline.png "Enable an entity for mobile offline")
   
 6.  Click **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
 
-    ![Set organization data filter criteria for mobile offline](media/DataFilter.png Set organization data filter criteria for mobile offline)
+    ![Set organization data filter criteria for mobile offline](media/DataFilter.png "Set organization data filter criteria for mobile offline")
   
      The entities that are enabled for mobile offline by default have **Modified On** set for **Last X Days** = 10, so the data modified or created in the last 10 days will be available for downloading to mobile devices.  
   
@@ -136,7 +136,7 @@ To enable offline synchronization, follow the steps below.
 
    4.2 **Start Working Offline Right Away**: Once mobile offline synchronization is turned on, users can start using it without having to wait for all the entity data to download. Once mandatory entity data is complete, you can start using mobile app in offline mode while the system continue to download other entity data that you have selected. You will also be notified how long the download will take along with detailed status for each entity.
 
-   ![Dynamics 365 for phones and tablets mobile offline sync status](media/MobileOfflineSyncStatus.png Dynamics 365 for phones and tablets mobile offline sync status)
+   ![Dynamics 365 for phones and tablets mobile offline sync status](media/MobileOfflineSyncStatus.png "Dynamics 365 for phones and tablets mobile offline sync status")
  
   
 > [!IMPORTANT]
@@ -315,13 +315,13 @@ Enable mobile offline for a specific app from MyApps page.
 
 4. Choose **OPEN IN APP DESIGNER**.
 
-   ![Open App Designer](media/OpenAppDesigner.png Open App Designer)
+   ![Open App Designer](media/OpenAppDesigner.png "Open App Designer")
 
 5. On the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a profile.
    > [!NOTE] 
    > -   You can add more than one profile for an app module.
 
-   ![Enable mobile offline for the App](media/EnableMobileOffline.png Enable mobile offline for the App)
+   ![Enable mobile offline for the App](media/EnableMobileOffline.png "Enable mobile offline for the App")
 
 6. At the top choose **Save** and then **Publish**.
 

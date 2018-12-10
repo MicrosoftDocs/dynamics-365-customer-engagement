@@ -35,7 +35,7 @@ Follow the procedures in this topic to install a [!INCLUDE[pn_Microsoft_Dynamics
   
      where:  
   
-     <`loc_code`> is the locale code for the Language Pack that you’re installing. (For example, 1031 for German or 1041 for Japanese.)  
+     <`loc_code`> is the locale code for the Language Pack that you’re installing. (For example, "1031" for German or "1041" for Japanese.)  
   
      <`proc_type`> specifies the application processor version. (For example, **amd64** for [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and 64-bit versions of [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or **i386** for 32-bit versions of [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].)  
   

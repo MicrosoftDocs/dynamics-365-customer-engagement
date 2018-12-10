@@ -41,7 +41,7 @@ The following examples show how to explicitly define `KeepAlive` to false based 
 
 - `HttpWebRequest` 
     ```csharp
-    HttpWebRequest req = WebRequest.Create(https://www.contoso.com/api/stuff) as HttpWebRequest;
+    HttpWebRequest req = WebRequest.Create("https://www.contoso.com/api/stuff") as HttpWebRequest;
     
     if (req != null)
     {
@@ -79,7 +79,7 @@ The following examples show how to explicitly define `KeepAlive` to false based 
     
     try
     {
-        var address = new EndpointAddress(https://www.contoso.com/Custom.svc);
+        var address = new EndpointAddress("https://www.contoso.com/Custom.svc");
         var transport = new HttpsTransportBindingElement();
         transport.KeepAliveEnabled = false;
     
@@ -104,7 +104,7 @@ The following examples show how to explicitly define `KeepAlive` to false based 
     IRequestChannel channel = null;
     try
     {
-        var address = new EndpointAddress(https://www.contoso.com/Custom.svc);
+        var address = new EndpointAddress("https://www.contoso.com/Custom.svc");
         var transport = new HttpsTransportBindingElement();
         transport.KeepAliveEnabled = false;
     
@@ -112,7 +112,7 @@ The following examples show how to explicitly define `KeepAlive` to false based 
     
         channel = ChannelFactory<IRequestChannel>.CreateChannel(binding, address);
     
-        Message request = Message.CreateMessage(MessageVersion.Soap12, some action, message body);
+        Message request = Message.CreateMessage(MessageVersion.Soap12, "some action", "message body");
         Message response = channel.Request(request);
     }
     catch (Exception ex)
@@ -131,7 +131,7 @@ The following examples show how to explicitly define `KeepAlive` to false based 
     IRequestChannel channel = null;
     try
     {
-        var address = new EndpointAddress(https://www.contoso.com/Custom.svc);
+        var address = new EndpointAddress("https://www.contoso.com/Custom.svc");
         var transport = new HttpsTransportBindingElement();
         transport.KeepAliveEnabled = false;
     
@@ -140,7 +140,7 @@ The following examples show how to explicitly define `KeepAlive` to false based 
         factory = new ChannelFactory<IRequestChannel>(binding, address);
         channel = factory.CreateChannel();
     
-        Message request = Message.CreateMessage(MessageVersion.Soap12, some action, message body);
+        Message request = Message.CreateMessage(MessageVersion.Soap12, "some action", "message body");
         Message response = channel.Request(request);
     }
     catch (Exception ex)
@@ -169,7 +169,7 @@ The following examples show the problematic pattern based on the method you use 
 - `HttpWebRequest`
 
     ```csharp
-    WebRequest request = WebRequest.Create(https://www.contoso.com/api/stuff);
+    WebRequest request = WebRequest.Create("https://www.contoso.com/api/stuff");
     //KeepAlive not explicitly defined as true.  However, default behavior is KeepAlive = true.
     HttpWebResponse response = (HttpWebResponse)request.GetResponse();
     response.Close();
@@ -180,7 +180,7 @@ The following examples show the problematic pattern based on the method you use 
     ```csharp
     using (var client = new WebClient())
     {
-        string url = https://www.contoso.com/api/stuff;
+        string url = "https://www.contoso.com/api/stuff";
         //KeepAlive not explicitly defined as true.  However, default behavior is KeepAlive = true.
         string result = client.DownloadString(url);
     }
@@ -193,7 +193,7 @@ The following examples show the problematic pattern based on the method you use 
     
     try
     {
-        var address = new EndpointAddress(https://www.contoso.com/Custom.svc);
+        var address = new EndpointAddress("https://www.contoso.com/Custom.svc");
         var binding = new BasicHttpsBinding();
         //KeepAlive not explicitly defined as true.  However, default behavior is KeepAlive = true.
         client = new OrganizationServiceClient(binding, address);
@@ -216,13 +216,13 @@ The following examples show the problematic pattern based on the method you use 
     IRequestChannel channel = null;
     try
     {
-        var address = new EndpointAddress(https://www.contoso.com/Custom.svc);
+        var address = new EndpointAddress("https://www.contoso.com/Custom.svc");
         var binding = new BasicHttpsBinding();
         //KeepAlive not explicitly defined as true.  However, default behavior is KeepAlive = true.
     
         channel = ChannelFactory<IRequestChannel>.CreateChannel(binding, address);
     
-        Message request = Message.CreateMessage(MessageVersion.Soap12, some action, message body);
+        Message request = Message.CreateMessage(MessageVersion.Soap12, "some action", "message body");
         Message response = channel.Request(request);
     }
     catch (Exception ex)
@@ -242,14 +242,14 @@ The following examples show the problematic pattern based on the method you use 
     IRequestChannel channel = null;
     try
     {
-        var address = new EndpointAddress(https://www.contoso.com/Custom.svc);
+        var address = new EndpointAddress("https://www.contoso.com/Custom.svc");
         var binding = new BasicHttpsBinding();
         //KeepAlive not explicitly defined as true.  However, default behavior is KeepAlive = true.
     
         factory = new ChannelFactory<IRequestChannel>(binding, address);
         channel = factory.CreateChannel();
     
-        Message request = Message.CreateMessage(MessageVersion.Soap12, some action, message body);
+        Message request = Message.CreateMessage(MessageVersion.Soap12, "some action", "message body");
         Message response = channel.Request(request);
     }
     catch (Exception ex)

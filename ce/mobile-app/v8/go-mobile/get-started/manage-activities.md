@@ -48,7 +48,7 @@ search.app:
   
   -   On a phone, tap **Select View** on the command bar.  
   
-  ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png Dynamics 365 for phones and tablets activity feed)  
+  ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
   
 ### See also  
  [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

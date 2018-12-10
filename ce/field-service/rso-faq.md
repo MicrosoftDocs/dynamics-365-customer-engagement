@@ -35,7 +35,7 @@ If you’re able to see the **Delete Current Deployment** option through the RSO
 
 - Make sure your Dynamics 365 for Customer Engagement org is NOT in administration mode.
 
-  > [!div class=mx-imgBorder]
+  > [!div class="mx-imgBorder"]
   > ![](media/34ef04527c9cdb67c34a7c64c08bd868.png)
 
 - Check to see that the RSO add-on user has the Resource Scheduling
@@ -57,7 +57,7 @@ If your schedule has been running for a long time and seems stuck or blocked, us
 
 This means the RSO Azure resources are not set up correctly. We recommend going to the RSO deployment app to check the RSO deployment status. Redeploy as needed to fix the issue.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
 
 ## An optimization request failed and gave the message “Object reference not set to an instance of an object.” What does that mean? 
@@ -252,10 +252,10 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
   - All five bookings will possibly be moved into the optimization range start/end area if there is enough capacity.
   - If a booking locked to **Time Range** overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![](media/c159161ca58dafa8a23d6ab26652119b.png)
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![](media/b91fa9cfe6badf10efcc297330eb2622.png)
 
 - If you add **Now or After** = 1 hour and other settings remain the same,
@@ -269,10 +269,10 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
   - Booking B is overlapping with the **Now or After** line and will be considered as virtually locked.
   - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![](media/e82afdbb4400441f0b017c94fc4888ae.png)
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![](media/690cf82209c3c33270f23592ec0dfcbc.png)
 
 - If you add **Now or After** = 4 hours and the other settings remain the
@@ -286,7 +286,7 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
   - Booking C is overlapping with the **Now or After** line and will be considered as virtually locked.
   - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![](media/218b39ff875c0414710b4ab54509e555.png)
 
 - If you add **Now or After** = 27 hours and the other settings remain the
@@ -298,7 +298,7 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
   - Bookings A, B, C, and D are in the past before **Now or After** will be excluded from the scope.
   - For a booking locked to **Time Range**, if the locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![](media/9353549197ca4e3cb80867d3001d4ea5.png)
 
 ## Why are so many bookings in simulation status? 
@@ -308,17 +308,17 @@ If any exception or error happens when an optimization schedule is still running
 > [!NOTE]
 > You can hide simulation bookings by changing the schedule board settings. Select the gear icon on the top right and select the **Hide Canceled** option. 
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![](media/f1f4fe1d470e6897e8d0a3c548d52649.png)
 
 ## Why is RSO scheduling bookings that overlap with resource break times? 
 
 Right now, RSO can’t split travel time from the booking from a visual perspective. It looks like RSO is scheduling bookings that overlap break time, but actually they are not because RSO can’t split travel time from its working duration tile from the schedule board visualized view perspective. What you see on the schedule board may look like this:
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![](media/f8f4439b4e9fd2e1529e9ea65be76013.png)
 
 Ideally, it should look like this:
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![](media/de80acc9a7da48d20511b5a2bffd5419.png)

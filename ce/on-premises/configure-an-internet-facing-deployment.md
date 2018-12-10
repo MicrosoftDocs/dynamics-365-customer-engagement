@@ -46,14 +46,14 @@ Configuring an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-
     > [!NOTE]
     > -   Specify domains, not servers.  
     > -   If your deployment is on a single server or servers in the same domain, the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain** and **[!INCLUDE[pn_Organization_Web_Service](../includes/pn-organization-web-service.md)] Domain** will be identical.  
-    > -   The **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] Domain** must be a subdomain of the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain**. By default, dev. is pre-pended to the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain** to make the **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] Domain**.  
+    > -   The **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] Domain** must be a subdomain of the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain**. By default, "dev." is pre-pended to the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain** to make the **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] Domain**.  
     > -   The domains must be valid for the [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)] certificate's common name or names.  
   
      For more information about web addresses, see [Install Microsoft Dynamics CRM Server on multiple computers](https://technet.microsoft.com/library/hh699803.aspx).  
   
 6.  In the **Enter the external domain where your Internet-facing servers are located** box, type the external domain information where your internet-facing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] servers are located, and then select **Next**.  
   
-     The domain you specify must be a subdomain of the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain** specified in the previous step. By default, auth. is pre-pended to the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain**.  
+     The domain you specify must be a subdomain of the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain** specified in the previous step. By default, "auth." is pre-pended to the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain**.  
   
 7.  On the **System Checks**  page, review the results, fix any problems, and then select **Next**.  
   

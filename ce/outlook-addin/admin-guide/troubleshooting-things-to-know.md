@@ -28,14 +28,14 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
-<a name=BKMK_Issues></a>   
+<a name="BKMK_Issues"></a>   
 ## Potential issues and resolutions  
   
 ### Common Data Service for Apps
 
 Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for Apps 2.0. 
 
-<a name=BKMK_AssignedTasks></a>   
+<a name="BKMK_AssignedTasks"></a>   
 ### Assigned tasks not updated in Outlook after updated in Dynamics 365 for Customer Engagement apps  
  Consider the following scenario:  
   
@@ -100,13 +100,13 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for App
 ### Different time value in date and time fields with User Local or Time-Zone Independent behavior  
  If you have system out-of-the box or custom date and time fields with User Local or Time-Zone Independent behavior, the date/time information for years before 1900 won’t display as entered when viewing in the list of records and reading pane in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. The date and time values are correct in the database and will appear as expected in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application.  
   
-<a name=BKMK_OnlineandO365></a>   
+<a name="BKMK_OnlineandO365"></a>   
 ## Microsoft Dynamics 365 for Customer Engagement apps  with Office 365  
  When you try to connect to an organization that is part of your [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] subscription by using the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] or [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], you cannot connect. To resolve this issue, verify, and if necessary, correct the following:  
   
 - Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://<em>OrganizationName</em>.onmicrosoft.com or https://<em>OrganizationName</em>.crm.dynamics.com. If you are not certain of the URL, contact your system administrator  
   
-<a name=BKMK_OCLogfiles></a>   
+<a name="BKMK_OCLogfiles"></a>   
 ## Log files  
  When you install and configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the system creates log files that you can use for troubleshooting.  
   
@@ -124,7 +124,7 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for App
 > [!TIP]
 >  You can use the shortcut path to access the AppData folder, %LocalAppData%\Microsoft\MSCRM\Logs.  
   
-<a name=BKMK_OCEvents></a>   
+<a name="BKMK_OCEvents"></a>   
 ## Event Viewer  
  To access event logging information for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], open [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)] from the client computer where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, and then view the entries in the Application log.  
   
@@ -140,7 +140,7 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for App
   
    -   MSSQL$Dynamics 365 for Customer Engagement apps  
   
-<a name=BKMK_OC_disableButton></a>   
+<a name="BKMK_OC_disableButton"></a>   
 ## Disable the Dynamics 365 for Outlook notification bar on the Web application  
  By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 for Customer Engagement apps web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
   

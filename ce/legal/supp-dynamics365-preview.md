@@ -9,14 +9,14 @@ author: brycho
 Last updated: April 2018
 
 Microsoft may include preview, beta, or other pre-release features or services
-to obtain customer feedback (Previews). Previews are made available to you on
+to obtain customer feedback ("Previews"). Previews are made available to you on
 the condition that you agree to these terms of use, which supplement your Online
 Services Terms governing your use of Microsoft Dynamics 365 for Customer Engagement Online or Dynamics
 CRM Online. If these terms of use conflict with the Online Services Terms
 governing your use of Microsoft Dynamics 365 for Customer Engagement Online or Dynamics CRM Online,
 these Supplemental Terms of Use will govern.
 
-PREVIEWS ARE PROVIDED AS-IS, WITH ALL FAULTS, AND AS AVAILABLE, AND ARE
+PREVIEWS ARE PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND ARE
 EXCLUDED FROM THE SLAS AND LIMITED WARRANTY described in the Online Services
 Terms and materials referenced therein. Previews may not be covered by customer
 support. Previews are subject to reduced or different security, compliance and

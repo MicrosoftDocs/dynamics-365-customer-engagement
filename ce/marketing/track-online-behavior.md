@@ -49,7 +49,7 @@ To set up page analytics for a new website:
 1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Websites**. You now see a list of existing websites. Make sure you don't already have one set up for your site.
 
 2. On the command bar, select **New**. The **New Website** page opens.  
-    ![The General Info tab for a new website](media/website-general-info.png The General Info tab for a new website)
+    ![The General Info tab for a new website](media/website-general-info.png "The General Info tab for a new website")
 
     Enter a **Name** to identify the website (or partial website) that you want to track. A **URL** and **[!INCLUDE[description](../includes/description.md)]** might help other users but won't affect the script or its functionality.
 
@@ -65,7 +65,7 @@ To see your website analytics, go to **Marketing** &gt; **Internet Marketing** &
 > [!TIP]
 > Each marketing page that you publish from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] automatically includes its own unique [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] tracking code and therefore appears on the **Websites** list page as a discrete website. To view analytics of any of these pages, go to the **Websites** list view and open its **Marketing Pages Websites** view.
 > 
-> ![How to view marketing pages websites](media/website-view-menu.png How to view marketing pages websites)
+> ![How to view marketing pages websites](media/website-view-menu.png "How to view marketing pages websites")
 
 ## Set up trackable links with redirect URLs and read results
 
@@ -78,7 +78,7 @@ To create a redirecting URL:
 1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Redirect URLs**. You now see a list of existing redirect URLs.
 
 1. On the command bar, select **New**. The **New Redirect URL** page opens.  
-    ![The General Info tab for a new redirect URL](media/redirect-url-general-info.png The General Info tab for a new redirect URL)
+    ![The General Info tab for a new redirect URL](media/redirect-url-general-info.png "The General Info tab for a new redirect URL")
 
     Enter the following:
     - **Name**: Enter an internal name for the redirect URL. If you use this feature often, you should come up with a naming convention that will make it easy to find the right record when you want to come back and view results, for example "Twitter spring campaign" or "LinkedIn banner".

@@ -53,7 +53,7 @@ These customizations can differ based on the security roles of logged in users.
 See below for some common customization examples.
 
 ### Home screen
-You can edit how entities are displayed and ordered upon logging into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move Time Off Requests to the top of the list, or remove it from the screen completely.
+You can edit how entities are displayed and ordered upon logging into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move "Time Off Requests" to the top of the list, or remove it from the screen completely.
 
 > ![Screenshot of mobile home](media/mobile-home.png)
 

@@ -52,9 +52,9 @@ Nearly all entities in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md
 
 For most types of entities, you can manually assign the active/inactive **Status** for each record using buttons on the command bar. You might use this, for example, to mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], the system usually manages the **Status reason** value (which is therefore read-only) to give you more information about the publish status. For some publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], the **Status** field is also managed by the system and therefore may not be editable directly either. See the remaining sections of this topic for details.
 
-All entities provide a view selector for list views, where you can choose a saved query such as Active journeys, All live journeys, Inactive journeys, and so on. In most cases, you can find inactive records by going to the Inactive … view, where you can usually reactivate a record if needed.
+All entities provide a view selector for list views, where you can choose a saved query such as "Active journeys", "All live journeys", "Inactive journeys", and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
-![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png Use the system-view selector to see inactive records)
+![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
 
 ## Customer journey go-live operations and status
 
@@ -206,7 +206,7 @@ Event tracks are collections of sessions, usually related by theme or audience. 
 
 Event, session, and track entities all have a **Status** field, which works the same way as it does for most entities, but they don't use the **Status reason** field to monitor publish status. Instead, these entities have a **Publish status** field, which is fully editable all the time you work with them. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
 
-![The Publish Status menu for events](media/golive-publish-event.png The Publish Status menu for events)
+![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
 The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event, session, or track on your portal.
 

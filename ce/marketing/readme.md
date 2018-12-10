@@ -43,7 +43,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Triggers set to react to a specific link clicked after an email tile show multiple options for the same link. These triggers might not work correctly because clicks are not always attributed to the correct link. <!--- 759533 -->
+- Triggers set to react to a specific "link clicked" after an email tile show multiple options for the same link. These triggers might not work correctly because clicks are not always attributed to the correct link. <!--- 759533 -->
 - Deactivated contacts won't receive any emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!-- 1196442 -->
@@ -104,7 +104,7 @@ This document provides important, late-breaking information about known issues a
 
 - Lead scoring results might take up to one hour to be calculated.
 - When you're creating lead scoring rules, drop-down lists might not be localized for non-English languages.
-- When you're creating a lead scoring model and add a condition, the Email sent condition isn't shown in the list of options. Use the Sent condition instead. <!--- 1289271 -->
+- When you're creating a lead scoring model and add a condition, the "Email sent" condition isn't shown in the list of options. Use the "Sent" condition instead. <!--- 1289271 -->
 
 ## Event management
 

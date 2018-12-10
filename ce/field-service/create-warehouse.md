@@ -34,7 +34,7 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
   
  To do this, create a warehouse record, and then add your product inventory to it.  
   
-<a name=BKMK_1></a>   
+<a name="BKMK_1"></a>   
 ## Step 1: Create a warehouse record  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Warehouses**.  
@@ -45,7 +45,7 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
   
 3.  Use the tooltips to help fill in your information, and then click **Save**.  
   
-<a name=bkmk_2></a>   
+<a name="bkmk_2"></a>   
 ## Step 2: Manually add product inventory to the warehouse record  
  Product inventory is automatically adjusted in the warehouse record when an inventory adjustment record is created.  
   
@@ -59,7 +59,7 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
   
 4.  Click **Save & Close**.  
   
-<a name=bkmk_3></a>   
+<a name="bkmk_3"></a>   
 ## Optional: Add a reorder and location inventory  
   
 1.  Go to a **Warehouse**, and then select **Product Inventory**.  

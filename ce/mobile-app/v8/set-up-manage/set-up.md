@@ -34,7 +34,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-
   
 - **[!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
-<a name=BKMK_GetStartedTablets></a>   
+<a name="BKMK_GetStartedTablets"></a>   
 
 ## Get started with [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
   
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics
 > [!IMPORTANT]
 > For Dynamics 365 for phones and Dynamics 365 for tablets, Microsoft Dynamics 365 for Customer Engagement apps on-premises deployments require Internet-facing deployment (IFD) for users to access their data. If you have your Microsoft Dynamics 365 for Customer Engagement apps website available over the internet but it is not using the Microsoft Dynamics 365 for Customer Engagement apps IFD configuration, it is not supported. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 for Customer Engagement apps Deployment Manager on your Microsoft Dynamics 365 for Customer Engagement apps Server. The Authentication Summary section should show that both Claims-Based Authentication and Internet-facing deployment (IFD) are enabled. More information: [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).
 
-![Dynamics 365 for Customer Engagement apps IFD settings](../../media/crm-ua-moca-claims.png Dynamics 365 for Customer Engagement apps IFD settings)
+![Dynamics 365 for Customer Engagement apps IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 for Customer Engagement apps IFD settings")
 
 ### Required privileges  
  [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for Customer Engagement apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
@@ -100,7 +100,7 @@ Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics
   
 5. Click **Save and Close** to save the changes to the security role.  
   
-<a name=BKMK_UsersToDo></a>   
+<a name="BKMK_UsersToDo"></a>   
 
 ## What users need to do  
   
@@ -110,7 +110,7 @@ Microsoft Dynamics 365 for Customer Engagement apps organizations using Dynamics
 > [!TIP]
 >  Be sure to provide users the URL and credentials they need to sign in.  
   
-<a name=BKMK_AdminToDo></a>   
+<a name="BKMK_AdminToDo"></a>   
 
 ## What admins need to do  
   
@@ -202,8 +202,8 @@ param([string]$admin)
 #Force PowerShell to relaunch in Admin mode  
 if($admin -ne 'LaunchingAsAdminNow')   
 {  
-    $Args = '-ExecutionPolicy Unrestricted -file ' + ((Get-Variable MyInvocation).Value.MyCommand.Path) + ' LaunchingAsAdminNow'  
-    $AdminProcess = Start-Process $PsHome\PowerShell.exe -Verb RunAs -ArgumentList $Args -PassThru  
+    $Args = '-ExecutionPolicy Unrestricted -file "' + ((Get-Variable MyInvocation).Value.MyCommand.Path) + '" LaunchingAsAdminNow'  
+    $AdminProcess = Start-Process "$PsHome\PowerShell.exe" -Verb RunAs -ArgumentList $Args -PassThru  
 }  
 else  
 {  
@@ -276,7 +276,7 @@ else
   
      Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](../go-mobile/get-started/install.md)  
   
-<a name=BKMK_Configure></a>   
+<a name="BKMK_Configure"></a>   
 
 ## Configure [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
   
@@ -287,7 +287,7 @@ else
   
  Custom entities use a fixed custom entity symbol.  
   
- ![Dynamics 365 for tablets nav bar](../../../admin/media/dynamics-365-tablets-navigation-menu.png Dynamics 365 for tablets nav bar)  
+ ![Dynamics 365 for tablets nav bar](../../../admin/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for tablets nav bar")  
   
 ### Simple lists  
  The lists of records that appear on the Sales Dashboard and within a form appear as simple lists. These lists have a different appearance than the typical view of records. There are a few frequently used actions you can perform on a simple list.  
@@ -313,7 +313,7 @@ else
   
   A typical view of records displays all columns in the view definition. A simple list displays the first few columns from the selected view. Simple lists are also capable of displaying images for each record if the entity is enabled to display images.  
   
-  ![Dynamics 365 for tablets simple list](../../../admin/media/x-microsoft-crm.png Dynamics 365 for tablets simple list)  
+  ![Dynamics 365 for tablets simple list](../../../admin/media/x-microsoft-crm.png "Dynamics 365 for tablets simple list")  
   
   The number of fields you’ll see in the list is different depending on whether or not the entity is enabled for images. If it is, the image is the first thing to appear. Next to the image the primary field for the entity is displayed first and wraps up to two lines. The primary field is followed by the first two columns in the view that are not the primary field. Those fields will each appear on one line.  
   
@@ -330,7 +330,7 @@ else
 > [!IMPORTANT]
 > [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
   
- ![Dynamics 365 for tablets simple activity list](../../../admin/media/y-microsoft-crm.png Dynamics 365 for tablets simple activity list)  
+ ![Dynamics 365 for tablets simple activity list](../../../admin/media/y-microsoft-crm.png "Dynamics 365 for tablets simple activity list")  
   
  Some more things to note:  
   
@@ -342,7 +342,7 @@ else
   
   The Stakeholders and Sales Team lists that appear in an Opportunity display the primary field and role. These two entity lists have inline create and editing. When you tap the **New Item** button + on these lists, the existing list items move down, and a lookup and a drop-down list appear. Now you can select (or create) an entity to add to the list through the lookup, and assign a role through the drop-down list.  
   
-  ![Stakeholders and sales team lists](../../../admin/media/crm-ua-31463.gif Stakeholders and sales team lists)  
+  ![Stakeholders and sales team lists](../../../admin/media/crm-ua-31463.gif "Stakeholders and sales team lists")  
   
   Editing is an inline experience as well.  If you tap the down arrow next to the role name, the drop-down list appears in edit mode and you can change roles.  
   
@@ -373,15 +373,15 @@ else
   
 |                                                                                                                                                     |   |                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Sales form in Dynamics 365 for Customer Engagement apps](../../../admin/media/e-microsoft-crm.png Sales form in Dynamics 365 for Customer Engagement apps)<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../../../admin/media/g-microsoft-crm.png Sales form in Dynamics 365 for tablets)<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] |
+| ![Sales form in Dynamics 365 for Customer Engagement apps](../../../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365 for Customer Engagement apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../../../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] |
   
  This diagram shows common parts of the updated entity forms in the web application.  
   
- ![Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement apps](../../../admin/media/updated-form-diagram.png Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement apps)  
+ ![Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement apps](../../../admin/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement apps")  
   
  [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
   
- ![Diagram of a form in Dynamics 365 for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png Diagram of a form in Dynamics 365 for tablets)  
+ ![Diagram of a form in Dynamics 365 for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics 365 for tablets")  
   
  **Relationships**  
   
@@ -389,11 +389,11 @@ else
   
  The relationships section also has a tile that represents the owner of the record, which is a Lookup field.  In addition to the Owner tile, there are some other examples of hardcoded tiles that represent Lookup fields. For example, the Contact form has a tile for the parent account.  You cannot choose additional Lookup fields as tiles in this section.  
   
- ![Form customization with navigation items](../../../admin/media/crm-ua-arrow-down-blue.gif Form customization with navigation items)  
+ ![Form customization with navigation items](../../../admin/media/crm-ua-arrow-down-blue.gif "Form customization with navigation items")  
   
  Form customization that shows navigation items on the left side of the screen  
   
- ![Relationships section within a form](../../../admin/media/crm-ua-arrow-down-gray.gif Relationships section within a form)  
+ ![Relationships section within a form](../../../admin/media/crm-ua-arrow-down-gray.gif "Relationships section within a form")  
   
  Relationships section within a form  
   
@@ -403,7 +403,7 @@ else
   
 - Activity Feeds and [!INCLUDE[pn_yammer](../../../includes/pn-yammer.md)] are not supported in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
-<a name=BKMK_PhonesThingsToKnow></a>  
+<a name="BKMK_PhonesThingsToKnow"></a>  
  
 ## Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
   
@@ -412,7 +412,7 @@ else
   
  To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, then scroll down and click **Details**. Click **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
   
- ![Hide the Detail tab on Dynamics 365 for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png Hide the Detail tab on Dynamics 365 for phones)  
+ ![Hide the Detail tab on Dynamics 365 for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics 365 for phones")  
   
 ### Other differences with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  
@@ -423,7 +423,7 @@ else
   
 - The **Open in browser** feature is not available.  
   
-<a name=BKMK_PhoneLanguages></a>   
+<a name="BKMK_PhoneLanguages"></a>   
 ## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] support the following languages:  
   
@@ -513,7 +513,7 @@ else
   
   When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Dynamics 365 for Customer Engagement apps organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
   
-<a name=BKMK_PhoneEntities></a>   
+<a name="BKMK_PhoneEntities"></a>   
 ## Entities and [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
   
@@ -562,7 +562,7 @@ else
 |User|Not modifiable|Not modifiable|  
 |Web Resource|Not modifiable|Not modifiable|  
   
-<a name=BKMK_PhoneAuth></a>   
+<a name="BKMK_PhoneAuth"></a>   
 
 ## Authentication and [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
@@ -576,7 +576,7 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
 > [!NOTE]
 > Microsoft Dynamics CRM 2013 or later is required for Dynamics 365 for tablets users to connect to their Microsoft Dynamics 365 for Customer Engagement apps organization. Organizations that are using earlier versions of on-premises editions of Microsoft Dynamics 365 for Customer Engagement apps will need to upgrade.
     
-<a name=BKMK_SecuringData></a>   
+<a name="BKMK_SecuringData"></a>   
 
 ## Considerations and best practices for securing Dynamics 365 for Customer Engagement apps data on [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  Consider the following when planning security for [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  
@@ -587,7 +587,7 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
   
 - **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](http://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
   
-<a name=BKMK_OtherFeatures></a>   
+<a name="BKMK_OtherFeatures"></a>   
 ## Other features  
   
 ### Save  
@@ -602,7 +602,7 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
 ### Images  
  Images, such as contact photos, are not stored in the browser cache. Images may not be displayed when users work offline with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
-<a name=BKMK_Privacy></a>   
+<a name="BKMK_Privacy"></a>   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_for_tablets](../../../includes/cc-privacy-crm-for-tablets.md)]  
   

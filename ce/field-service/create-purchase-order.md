@@ -32,7 +32,7 @@ search.app:
 
 In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a purchase order (P.O.) is created to add inventory to a warehouse, or to purchase products to sell to a customer in a work order.    
   
-<a name=BKMK_step1></a>   
+<a name="BKMK_step1"></a>   
 ### Step 1: Create a purchase order 
   
 1.  From the main menu, click **Field Service** > **Purchase Orders**.  
@@ -46,7 +46,7 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
     > [!NOTE]
     >  If you need to relate a P.O. to a work order, open the work order, and then from the top menu (next to the work order name) click the drop-down arrow and choose **Purchase Orders**. Click **+Add New Purchase Order** and fill in the required information. If you link the P.O. to a work order, then when you receive the product it will be added directly to the work order as a work order product.  
   
-<a name=BKMK_step2></a>   
+<a name="BKMK_step2"></a>   
 ### Step 2: Add products to the P.O.  
  More information: [Create a product or service](../field-service/create-product-or-service.md)  
   
@@ -56,13 +56,13 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
   
 3.  When you're done, click **Save & Close**.  
   
-<a name=BKMK_step3></a>   
+<a name="BKMK_step3"></a>   
 ### Step 3: Get the P.O. approved  
  More information: [Create a product or service](../field-service/create-product-or-service.md)  
   
 -   If you have permissions to approve the P.O., then go to the purchase order and change the **Approved Status** to **Approved**.  
   
-<a name=BKMK_step4></a>   
+<a name="BKMK_step4"></a>   
 ### Step 4: Create a receipt for the P.O.  
  When the order arrives, then you can create a receipt.  
   
@@ -74,24 +74,24 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
   
 4.  Click **Save**.  
   
-<a name=bkmk_step5></a>   
+<a name="bkmk_step5"></a>   
 ### Step 5: Add P.O. receipt products  
   
 1. Form the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Receipt Products**.  
   
 2. To show open P.O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
   
-   ![Show purchase order products not received in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-add-po-receipt-product.PNG Show purchase order products not received in Dynamics 365 for Customer Engagement field service)  
+   ![Show purchase order products not received in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 for Customer Engagement field service")  
   
 3. Click the area under the **Quantity** field and type in the quantity to be received  
   
-   ![Purchase order receipt quantity in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG Purchase order receipt quantity in Dynamics 365 for Customer Engagement field service)  
+   ![Purchase order receipt quantity in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG "Purchase order receipt quantity in Dynamics 365 for Customer Engagement field service")  
   
 4. Click **Save**.  
   
     If the product is an inventory item, then an inventory adjustment product record is created automatically when you receive the product. When inventory adjustment product records are created, inventory journals are automatically created, which drives your totalinventory count in the product inventory table.  
   
-<a name=BKMK_step6></a>   
+<a name="BKMK_step6"></a>   
 ### Step 6: Create P.O. bill  
  Once you receive an invoice from the vendor, then you can create a purchase order bill.  
   

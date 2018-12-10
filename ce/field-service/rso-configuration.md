@@ -32,14 +32,14 @@ Perform these configuration steps after you deploy the RSO solution.
    - Set **Default Goal** if needed. A default goal helps speed up interactions with
      RSO through the schedule board by predefining how the engine optimizes
      data. Users can still pick different goals. 
-   > [!div class=mx-imgBorder]
-   > ![Screenshot of Enable Resource Scheduling Optimization field set to Yes ](media/9311df68c981d7f4c5e984622ca1e244.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of "Enable Resource Scheduling Optimization" field set to "Yes" ](media/9311df68c981d7f4c5e984622ca1e244.png)
 
    - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
      organization to interact with the Bing Maps service that the schedule board
      uses.
-    > [!div class=mx-imgBorder]
-    > ![Screenshot of Connect to Maps set as Yes](media/c2e5f7299860832f2823f285d0fcd113.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
 
      > [!NOTE]
      > Only a user with the system administrator role can enable this setting. 
@@ -88,7 +88,7 @@ The settings described here are selected and applied to all optimization scopes.
     and related resource requirement will be configured to optimize
     automatically.
     
-    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to Optimize](media/f0d624969f46a29e897670479a546ef6.png)
+    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize"](media/f0d624969f46a29e897670479a546ef6.png)
 
 3. For existing resource requirement records, update the resource
     requirements scheduling Method. Go to **Resource Scheduling
@@ -106,7 +106,7 @@ The settings described here are selected and applied to all optimization scopes.
 
 5. Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
     Statuses** and configure **Scheduling Method** for booking status.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot showing active booking statuses](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
 
     > [!NOTE]
@@ -125,12 +125,12 @@ The settings described here are selected and applied to all optimization scopes.
 ## Create an optimization schedule 
 
 You can define when RSO should optimize requirements and bookings for selected resources, for example, at 1 AM on weekdays. Creating a schedule also includes creating a scope and a goal.
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot showing an optimization schedule](media/88139c6831f34eb47709a44bc6d3dd6e.png)
 
 Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. 
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot showing the schedule name](media/rso-wa-job.png)
 
 - **Timer**: Defines how often this schedule will run.
@@ -155,11 +155,11 @@ The Filter section of the schedule is an advanced feature. The Filter window all
 ### How timers work with filters
 
 If you configure your timer and filter as shown here, RSO will run every 30 minutes after the previous job is completed, from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM, except on Saturdays and Sundays.
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot showing the Washington territory](media/rso-wa-territory.png)
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot showing the schedule details](media/6006fd53284a7c51c4cfe8712be658bd.png)
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 >![Screenshot showing the pertinent days of the week](media/3fca5eb9becad2a8a08ae76057a03cf1.png)
 
 ## Define the optimization scope
@@ -176,9 +176,9 @@ Scope is the RSO mechanism for defining the relevant inputs: resource requiremen
 > - Logically defined: support level, incident type.
 
 After opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling optimization scope](media/92069616c79fb0f7fe9c4adc6683f50b.png)
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of a modal with system view options](media/e7dd89ff112dcae60489d52534c564f2.png)
 
 1. Using **Resource View** as an example, 0_WA Resources has been defined with
@@ -187,15 +187,15 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
     of RSO. Users can apply more filter conditions as needed to specify
     resources they need to optimize. RSO will respect the Optimize Scheduling
     setting on individual resource records on top of the resource view filters.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of a list of resources](media/4b4f1beede0d89f940677b7df65f80c8.png)
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of bookable resource territories](media/349c0ca23d3c32edb227b78430c95d46.png)
 
 2. Select at least one requirement or booking view for what needs to be
     optimized.
     
-   > [!div class=mx-imgBorder]
+   > [!div class="mx-imgBorder"]
    > ![Screenshot showing that users must select on requirement or booking view](media/843748f6ea067de2163318e71ac4851d.png)
 
 3. If you select booking view, you can set it to **Now or After**. For example,
@@ -205,7 +205,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
     this Now or After condition; RSO enabled this additional setting on top of
     whatever filter conditions are defined for that booking view.
     
-   > [!div class=mx-imgBorder]
+   > [!div class="mx-imgBorder"]
    > ![Screenshot of Bookings for this Optimization](media/322f8b809e438d032b150b13fde88148.png)
 
 4. Optimization Range Settings is the time range where bookings can be created,
@@ -213,7 +213,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 
    **Example 1:** You want to have a booking created/moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
-   > [!div class=mx-imgBorder]
+   > [!div class="mx-imgBorder"]
    > ![Screenshot of optimization range settings](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
    - **Range Reference**: The start moment for all subsequent work order range
@@ -222,14 +222,14 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
      range start.
    - **Range Duration (days)**: Number of days added to the range reference.
   
-     > [!div class=mx-imgBorder]
+     > [!div class="mx-imgBorder"]
      > ![Screenshot of range duration](media/06e5a506621a550cc2d05df234a3dbde.png)
 
    **Example 2**: You want to have a booking created/moved into the next two days.
   
-   > [!div class=mx-imgBorder]
+   > [!div class="mx-imgBorder"]
    > ![Screenshot of optimization range settings](media/6a06b7a1a69c2f493686442af5e44520.png)
-   > [!div class=mx-imgBorder]
+   > [!div class="mx-imgBorder"]
    > ![Image showing range offset and duration](media/5d265da65e27891ebab3319627e9a3fa.png)
 
    > [!NOTE]
@@ -246,7 +246,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    - Requirements under Eligible for Optimization match the records from the
         Requirement View.
         
-     > [!div class=mx-imgBorder]
+     > [!div class="mx-imgBorder"]
      > ![Screenshot of the schedule board](media/9b12b09d64d881041edd3d93f27be00c.png)
 
 6. You can modify filters on the left panel and save it into scope:
@@ -258,7 +258,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
         modified filters through the schedule board will be saved back into the
         same personal view.
         
-     > [!div class=mx-imgBorder]
+     > [!div class="mx-imgBorder"]
      > ![Screenshot of the schedule board with modified filters](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
 
 ## Define the optimization goal 
@@ -268,7 +268,7 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
   
-  > [!div class=mx-imgBorder]
+  > [!div class="mx-imgBorder"]
   > ![Screenshot of a scheduling optimization goal](media/13db00f67badee105913102fc3e121ed.png)
 
 **Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
@@ -280,7 +280,7 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
     scheduled out of the resource’s working hours. This includes travel time
     from the last booking to the resource’s end location, although it’s not
     shown on the schedule board in a visual way.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
 
 - **Meets Required Characteristics**: Verifies the resource has all the
@@ -308,7 +308,7 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
 
     Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
 
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
     
 - **Scheduling Windows**: If marked, RSO will schedule work to comply within
@@ -319,20 +319,20 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
       Window Start** and **Date Window End** on resource booking are set as
       shown in the following example, it indicates you want RSO to schedule
       the booking on 5/24/2018 and time of day doesn’t matter.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
 
   - If **Time Window Start** and **Time Window End** are set as shown in the
     following example, it indicates you want RSO to schedule a booking from 2 AM
     to 6 AM and the date doesn’t matter.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
   - If **Time From Promised** and **Time To Promised** are set as shown in the
     following example, it indicates you want RSO to schedule a booking between 4
     AM and 8 AM on 5/24/2018. It has to be a specific date and specific time
     range.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
     > 
     > [!NOTE]
@@ -353,14 +353,14 @@ When Resource Scheduling Optimization is deployed for the first time, the system
 
 - The default goal has the following constraints and objectives enabled. The user can modify as needed or create a new optimization goal and associate it as a default goal.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
 
 - The default goal is used when single resource optimization is selected from the schedule board.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
 
 ### Define objectives
@@ -386,13 +386,13 @@ When Resource Scheduling Optimization is deployed for the first time, the system
     Norbert in the morning, but none of the other requirement durations fit into
     that slot with the locked booking next to it, even though RSO tries to move
     it to other resources’ time.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of the schedule board](media/8c6c7de10ed96ca76c884ee41086507b.png)
 
     If locked booking is a high-ranking objective, RSO will keep the locked
         booking there with 30 minutes of idle time before it by sacrificing the
         other objectives. The following screenshot shows the result.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of the schedule board](media/49561093ec91a28a5961b0be4f892cbf.png)
 
     If locked booking is not a selected objective or is ranked lower in the
@@ -404,7 +404,7 @@ When Resource Scheduling Optimization is deployed for the first time, the system
     ignored in this case. RSO would not delete the locked booking because it
     would lose the lock information defined on the booking record, which can’t
     be retrieved from the backing requirement.
-    > [!div class=mx-imgBorder]
+    > [!div class="mx-imgBorder"]
     > ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
 
 - **High priority requirements**: RSO will evaluate this objective and give

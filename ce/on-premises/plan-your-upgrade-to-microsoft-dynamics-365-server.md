@@ -38,7 +38,7 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
 
 4. Import organizations into the new or upgraded deployment. During the import, organizations will also be upgraded.
   
-<a name=BKMK_Upgradeoptions></a>   
+<a name="BKMK_Upgradeoptions"></a>   
 ## Microsoft Dynamics Server upgrade options  
  There are three different upgrade options:  
   
@@ -58,13 +58,13 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
 >  For each organization that you upgrade, we recommend that the volume have free space that is at least three times the size of the organization database file (organizationName_MSCRM.mdf) and four times the size of the log file (organizationName_MSCRM.ldf). For example, if a single organization database and log file are located on the same volume where the MDF file is 326 MB and the LDF file is 56 MB, the recommended available space should be at least 1.2 GB to allow for growth ((326 x 3) + (56 x 4)). Notice that the database files that expand during upgrade do not reduce in size after the upgrade is complete.  
   
   
-<a name=BKMK_UpgradeKey></a>   
+<a name="BKMK_UpgradeKey"></a>   
 ## Upgrade product key  
  Before the upgrade, obtain the product key that you will enter during the upgrade.   
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement editions and licensing](microsoft-dynamics-365-editions-and-licensing.md)  
   
-<a name=BKMK_UserPermissions></a>   
+<a name="BKMK_UserPermissions"></a>   
 ## User permissions and privileges  
  To perform a successful upgrade, the user who runs [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] Server Setup must:  
   
@@ -79,11 +79,11 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
   
 -   Have sufficient permissions to create new security groups and add members to those groups in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] organizational unit that contains the existing [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] groups.  
   
-<a name=BKMK_SharingSQL></a>   
+<a name="BKMK_SharingSQL"></a>   
 ## Sharing a SQL Server  
  Only one [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] deployment per instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is supported. This is because each  deployment requires its own MSCRM_CONFIG database, and multiple instances of the MSCRM_CONFIG database can’t coexist on the same instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. If you have multiple [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] instances running on the same computer, you can host the databases for multiple [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] deployments on the same computer. However, this might decrease system performance.  
   
-<a name=BKMK_TipsUpgrade></a>   
+<a name="BKMK_TipsUpgrade"></a>   
 ## Tips for a successful upgrade  
  The following issues, if applicable to your current deployment, should be resolved before you start the upgrade.  
   

@@ -24,7 +24,7 @@ search.app:
 ---
 # Dynamics 365 for Outlook Administrator Guide
 
-<a name=BKMK_Outlooksync></a> 
+<a name="BKMK_Outlooksync"></a> 
 
 > [!IMPORTANT]
 > You must have the latest version of Dynamics 365 for Outlook (version 8.2.2.137) to connect to Dynamics 365 for Customer Engagement apps apps version 9.0. Version 8.2.2.137 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Outlook and Dynamics 365 for Customer Engagement apps apps version 9.0. For more information, see [Update for Dynamics 365 for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
@@ -33,7 +33,7 @@ search.app:
 
 [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] can synchronize email messages, contacts, tasks, and appointments between [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] and [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] (client-to-server synchronization). Similar to [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], synchronization filters are used to synchronize messaging data from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]. Manually tracked or Inbox-rule based tracking is used to synchronize messaging data from [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] or [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
- ![Dynamics 365 for Outlook synchronization](../media/crmforoutlooksync.png Dynamics 365 for Outlook synchronization)  
+ ![Dynamics 365 for Outlook synchronization](../media/crmforoutlooksync.png "Dynamics 365 for Outlook synchronization")  
   
  When you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], there are a few synchronization concepts that are helpful to understand. Notice that, to have any of this [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] functionality, each [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user must run the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] add-in and the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user mailbox record must be configured appropriately.  
   

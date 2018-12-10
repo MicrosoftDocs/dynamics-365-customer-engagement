@@ -41,9 +41,9 @@ The following are some examples:
 - [ColumnSet(param string[] columns)](/dotnet/api/microsoft.xrm.sdk.query.columnset.-ctor#Microsoft_Xrm_Sdk_Query_ColumnSet__ctor_System_String___) constructor overload for <xref:Microsoft.Xrm.Sdk.Query.QueryExpression>.
 
     ```csharp
-        var query = new QueryExpression(account)
+        var query = new QueryExpression("account")
         {
-            ColumnSet = new ColumnSet(name, address1_city)
+            ColumnSet = new ColumnSet("name", "address1_city")
         };
 
         var results = service.RetrieveMultiple(query);
@@ -52,15 +52,15 @@ The following are some examples:
 - [ColumnSet(param string[] columns)](/dotnet/api/microsoft.xrm.sdk.query.columnset.-ctor#Microsoft_Xrm_Sdk_Query_ColumnSet__ctor_System_String___) constructor overload for <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest>.
 
     ```csharp
-        var entity = service.Retrieve(account, Guid.NewGuid(), new ColumnSet(name, address1_city));
+        var entity = service.Retrieve("account", Guid.NewGuid(), new ColumnSet("name", "address1_city"));
     ```
 
 - <xref:Microsoft.Xrm.Sdk.Query.ColumnSet>.<xref:Microsoft.Xrm.Sdk.Query.ColumnSet.AddColumn(System.String)> method call.
 
     ```csharp
-        var query = new QueryExpression(account);
-        query.ColumnSet.AddColumn(name);
-        query.ColumnSet.AddColumn(address1_city);
+        var query = new QueryExpression("account");
+        query.ColumnSet.AddColumn("name");
+        query.ColumnSet.AddColumn("address1_city");
 
         var results = service.RetrieveMultiple(query);
     ```
@@ -68,8 +68,8 @@ The following are some examples:
 - <xref:Microsoft.Xrm.Sdk.Query.ColumnSet>.<xref:Microsoft.Xrm.Sdk.Query.ColumnSet.AddColumns(System.String[])> method call.
 
     ```csharp
-        var query = new QueryExpression(account);
-        query.ColumnSet.AddColumns(name, address1_city);
+        var query = new QueryExpression("account");
+        query.ColumnSet.AddColumns("name", "address1_city");
 
         var results = service.RetrieveMultiple(query);
     ```
@@ -109,7 +109,7 @@ Queries that include a defined <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> where th
         var columns = new ColumnSet();
         columns.AllColumns = true;
 
-        var query = new QueryExpression(account);
+        var query = new QueryExpression("account");
         query.ColumnSet = columns;
 
         var results = service.RetrieveMultiple(query);
@@ -118,7 +118,7 @@ Queries that include a defined <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> where th
 - [ColumnSet(bool allColumns)](/dotnet/api/microsoft.xrm.sdk.query.columnset.-ctor#Microsoft_Xrm_Sdk_Query_ColumnSet__ctor_System_Boolean_) constructor overload.
 
     ```csharp
-        var query = new QueryExpression(account)
+        var query = new QueryExpression("account")
         {
             ColumnSet = new ColumnSet(true)
         };
@@ -129,7 +129,7 @@ Queries that include a defined <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> where th
 - [ColumnSet(bool allColumns)](/dotnet/api/microsoft.xrm.sdk.query.columnset.-ctor#Microsoft_Xrm_Sdk_Query_ColumnSet__ctor_System_Boolean_) constructor overload for <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest>.
 
     ```csharp
-        var entity = service.Retrieve(account, Guid.Parse(bec45132-392a-4617-b935-a64ef04738e4), new ColumnSet(true));
+        var entity = service.Retrieve("account", Guid.Parse("bec45132-392a-4617-b935-a64ef04738e4"), new ColumnSet(true));
     ```
 
 <a name='additional'></a>
@@ -142,7 +142,7 @@ Queries submitted to retrieve data from Dynamics 365 for Customer Engagement sho
 
 ### See also
 
-<xref href=Microsoft.Xrm.Sdk.Query.ColumnSet?text=ColumnSet Class /><br />
+<xref href="Microsoft.Xrm.Sdk.Query.ColumnSet?text=ColumnSet Class" /><br />
 [Use of the ColumnSet Class](../../developer/org-service/use-the-columnset-class.md)<br />
 [Build queries with QueryExpression](../../developer/org-service/build-queries-with-queryexpression.md)<br />
 [Use the QueryExpression Class](../../developer/org-service/use-queryexpression-class.md)<br />

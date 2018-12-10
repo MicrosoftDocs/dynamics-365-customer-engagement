@@ -34,9 +34,9 @@ search.app:
 ### Signing in and signing out  
  To sign in, you’ll need your [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] admin.  
   
-1. Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics 365 for phones and tablets continue sign](../../../media/mobile-signin-arrow.png Dynamics 365 for phones and tablets continue sign).  
+1. Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics 365 for phones and tablets continue sign](../../../media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").  
   
-    ![Enter URL to sign into Dynamics 365 for phones and tablets](../../../media/mobile-signin-enter-url.png Enter URL to sign into Dynamics 365 for phones and tablets)  
+    ![Enter URL to sign into Dynamics 365 for phones and tablets](../../../media/mobile-signin-enter-url.png "Enter URL to sign into Dynamics 365 for phones and tablets")  
   
 2. On the next screen, enter your user name and password, and tap **Sign in**.  
   
@@ -44,7 +44,7 @@ search.app:
   
    Here's how to sign out in case someone else needs to use your device.  
   
-3. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png Dynamics 365 for Customer Engagement apps ellipsis).  
+3. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
   
 4. Tap **Settings**.  
   

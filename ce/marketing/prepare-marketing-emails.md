@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824 frameborder=0 allowfullscreen=></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
@@ -41,12 +41,12 @@ Marketing email in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] w
     Your marketing email messages aren't just standard messages with giant To or Bcc fields. Long lists of recipients are difficult to manage and analyze, and messages such as these will typically get swept up by spam filters and never be delivered to your contacts. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you'll target a single marketing email message design to an entire marketing segment, but each individual message is personalized for each recipient and delivered, one at a time, from your organization to the recipient.
 - **Mail-merge features enable personalized and dynamic content**  
     You can design your messages to include information that gets personalized for each recipient. For example, each delivered message might include the recipient's name or other content that varies based on the recipient's gender, location, preferred-customer status, or other information from your contact database. Personalized features such as these can greatly improve your open and response rates.
-- **Marketing email messages are hosted on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, so you must go live rather than just send messages.**  
+- **Marketing email messages are hosted on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, so you must "go live" rather than just send messages.**  
     A live message is enabled for use by your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, ready to be personalized and sent to individual recipients any number of times. You can think of a live marketing email message as a master document that stays on your server and typically includes active logic, ready to generate and send individual email messages when called from a customer journey (more on this later).
 - **Required content and automated error-checking help improve deliverability and ensure compliance**  
     When you try to go live with a message, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] checks for common technical errors to make sure it includes all required content. Required content includes features that will help maintain your organization's email reputation and features that are typically required by email-marketing regulations in most countries and regions (such as the CAN-SPAM regulations in the United States). Required features include a subscription center link (so contacts can manage their email subscriptions with you), your organization's physical address, a message subject, and a valid return address.
 - **Set up a customer journey to deliver messages to a target segment**  
-    When your email message is live, it's ready for use in a *customer journey*. The customer journey establishes a target segment (which is a strategically selected list of contacts) and includes logic for working with that segment. For example, the customer journey might target a segment of contacts who live in New York City, and begins by sending an email message announcing an event in the city. The customer journey then applies a trigger that separates contacts who sign up for the event from those who don't; customers who sign up receive an automatic thank-you email, while those who haven't signed up within a week will get a reminder email. This customer journey requires three email messages (invite, thank you, and reminder), all of which must be live on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server before you start running the customer journey.
+    When your email message is live, it's ready for use in a *customer journey*. The customer journey establishes a target segment (which is a strategically selected list of contacts) and includes logic for working with that segment. For example, the customer journey might target a segment of contacts who live in New York City, and begins by sending an email message announcing an event in the city. The customer journey then applies a "trigger" that separates contacts who sign up for the event from those who don't; customers who sign up receive an automatic thank-you email, while those who haven't signed up within a week will get a reminder email. This customer journey requires three email messages (invite, thank you, and reminder), all of which must be live on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server before you start running the customer journey.
 - **You can use a single marketing email message in several marketing contexts**  
     In addition to the ability to merge recipient information and other dynamic content, each marketing email message can also adapt to various marketing contexts defined by the content settings assigned to each customer journey where it's used. Examples of context include supporting page links (such as subscription center and forward pages), your postal address, social-media links, and more. With this feature, you can use a single live email message in several different customer journeys or campaigns.
 - **View and analyze message results**  
@@ -143,7 +143,7 @@ The following **Advanced Header** settings are available:
 * **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 * **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
-<a name=designation></a>
+<a name="designation"></a>
 
 ## Set the legal designation to identify each message as either commercial or transactional
 
@@ -173,7 +173,7 @@ The following table shows the result of attempting to send a commercial or trans
 | Do not allow | Allow        | Not sent         | Not sent          |
 | Do not allow | Do not allow | Not sent         | Not sent          |
 
-<a name=preview-message></a>  
+<a name="preview-message"></a>  
 
 ## Check your work by using previews and test sends
 
@@ -212,7 +212,7 @@ Use the following drop-down lists on the right side of the **Designer** &gt; **P
 - **Contact**: Choose a representative contact record to supply field values. Field values from your selected contact, and other dynamic content that reacts to these values, will be shown in your preview.
 - **Content Settings**: The content settings establish a marketing context for your message, and values stored here might affect your message content. The content settings also include information about your organization, including its postal address and the ID of a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription center page. In a basic setup, you might have just one set of content settings for your entire organization. But in a more advanced configuration, you might reuse a single marketing email message in several different contexts (such as for different products or different events); in this case, the content settings can be different for each customer journey where you use the message. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings).
 
-<a name=inbox-preview></a>
+<a name="inbox-preview"></a>
 
 ### Use the advanced inbox preview feature
 
@@ -225,7 +225,7 @@ The **Inbox Preview** tab displays a grid of icons, each labeled with the name o
 > [!NOTE]
 > Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
-<a name=error-check></a>
+<a name="error-check"></a>
 
 ## Required elements: How to pass the error check
 

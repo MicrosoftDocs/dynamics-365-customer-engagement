@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e frameborder=0 allowfullscreen=></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and has built-in business intelligence. Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to:
 
@@ -94,7 +94,7 @@ Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications su
 
 Email is a key component of most online marketing campaigns. Use the drag-and-drop marketing-email designer to create attractive messages quickly, based on professional, customizable templates. All templates are carefully designed to look great on a wide variety of devices, platforms, and email clients.
 
-![Email designer screenshot](media/designer-email.png The email designer)  
+![Email designer screenshot](media/designer-email.png "The email designer")  
 
 Key marketing email design features include:
 
@@ -120,7 +120,7 @@ Other types of marketing pages include subscription centers, which enable contac
 
 Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the one provided for designing marketing email messages. When your page is ready, publish it to make it available to users on the internet. The system uses the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals feature to publish and operate all marketing pages.
 
-![Marketing page designer screenshot](media/designer-pages.png The marketing page designer)
+![Marketing page designer screenshot](media/designer-pages.png "The marketing page designer")
 
 Key marketing-page features include:
 
@@ -145,7 +145,7 @@ After your page has been active for a while, see how it's performing, how many l
 
 Customer journey orchestration lets marketers create multiple-step, multichannel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] workflows, and more.
 
-![Customer journey screenshot](media/customer-journey.png The customer journey designer)
+![Customer journey screenshot](media/customer-journey.png "The customer journey designer")
 
 Key campaign-automation features include:
 
@@ -166,7 +166,7 @@ After you're done with the journey design, click **Check for Errors** to check f
 
 ## Create custom channels for customer journeys
 
-Beyond the out-of-the-box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can create a custom channel, such as text (SMS) or social media, and expose the channel as a tile in the journey designer. These custom channels provide similar capabilities as the out-of-the-box channels such as sending communications, tracking customer interactions, and adding triggers to branch the paths within a customer journey.
+Beyond the out-of-the-box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can create a custom channel, such as text (SMS) or social media, and expose the channel as a "tile" in the journey designer. These custom channels provide similar capabilities as the out-of-the-box channels such as sending communications, tracking customer interactions, and adding triggers to branch the paths within a customer journey.
 
 Custom channel development takes advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to build custom channels.
 
@@ -174,7 +174,7 @@ Custom channel development takes advantage of the existing extensibility infrast
 
 Live events and webinars are often a vital sales-and-marketing channel, but they can be very complex to arrange, execute, and follow up on. The [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
-![Event portal screenshot](media/event-portal.png The event portal)  
+![Event portal screenshot](media/event-portal.png "The event portal")  
 
 Key event-management features include:
 
@@ -205,7 +205,7 @@ After your event, session, track, speaker, and pass records are all in place for
 
 As a marketer, your primary goals are to generate demand, identify sales prospects, and forward the best prospects as leads for salespeople to follow up with. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] supports this process from discovery all the way to close.
 
-![Lead-scoring model designer screenshot](media/designer-lead-score-model.png The lead-scoring model designer)  
+![Lead-scoring model designer screenshot](media/designer-lead-score-model.png "The lead-scoring model designer")  
 
 Key lead-management features include:
 
@@ -243,7 +243,7 @@ Regardless of how many condition/action pairs your scoring rule has, you must al
 
 Bring your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] leads into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] for follow-up and nurturing.
 
-![LinkedIn analytics screenshot](media/linkedin-analytics.png LinkedIn Lead Gen analytics)  
+![LinkedIn analytics screenshot](media/linkedin-analytics.png "LinkedIn Lead Gen analytics")  
 
 Use the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)] to automatically sync leads captured on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization so that your sales and marketing teams can develop and nurture them. Features include:
 

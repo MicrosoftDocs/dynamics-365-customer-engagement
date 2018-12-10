@@ -14,7 +14,7 @@ apply prospectively and do not alter your or Microsoft’s rights relating to
 pre-updated software or services). IF YOU COMPLY WITH THESE LICENSE TERMS, YOU
 HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO
 NOT ACCEPT THEM, DO NOT USE THE SOFTWARE. INSTEAD, RETURN IT TO APPLE INC.
-(APPLE) FOR A REFUND OR CREDIT IF APPLICABLE.
+("APPLE") FOR A REFUND OR CREDIT IF APPLICABLE.
 
 **1. INSTALLATION AND USE RIGHTS**.
 
@@ -150,7 +150,7 @@ mandatory country law applies, then the following provisions apply to you:
 > >   obligations, the fulfillment of which facilitate the due performance of this
 > >   agreement, the breach of which would endanger the purpose of this agreement
 > >   and the compliance with which a party may constantly trust in (so-called
-> >   cardinal obligations). In other cases of slight negligence, Microsoft will
+> >   "cardinal obligations"). In other cases of slight negligence, Microsoft will
 > >   not be liable for slight negligence.
 
 **12. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS-IS,” “WITH ALL

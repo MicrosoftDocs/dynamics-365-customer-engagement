@@ -29,7 +29,7 @@ ms.author: matp
  You don’t need [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] to run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. However, if you want to create, use, or schedule reports in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you need to install [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)]. Additionally, you need to install these extensions if you want to create or import an organization, like when you migrate from an earlier version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] using [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   
   
-<a name=sql_server_reporting_services></a>   
+<a name="sql_server_reporting_services"></a>   
 ### SQL Server Reporting Services  
  [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] is required for reporting features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -47,7 +47,7 @@ ms.author: matp
 > -   [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Compact or [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
 > -   Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode is not supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about [!INCLUDE[pn_MS_SQL_Server_2012](../includes/pn-ms-sql-server-2012.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](https://docs.microsoft.com/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016).  
   
-<a name=report_ext_gen_req></a>   
+<a name="report_ext_gen_req"></a>   
 ### Dynamics 365 for Customer Engagement Reporting Extensions requirements  
  The [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] component has the following requirements:  
   
@@ -63,7 +63,7 @@ ms.author: matp
   
 -   For smaller data sets and fewer users, you can use a single-server deployment or a multi-server deployment. With larger data sets or more users, performance decreases quickly when running complex reports. Use a multi-server deployment with one computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and another server for [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)].  
   
-<a name=report_auth_gen_req></a>   
+<a name="report_auth_gen_req"></a>   
 ### Dynamics 365 for Customer Engagement Report Authoring Extension requirements  
  Dynamics 365 for Customer Engagement Report Authoring Extension is required to author Fetch-based reports used with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You must install the Dynamics 365 for Customer Engagement Report Authoring Extension on a PC that has the following software.   
   

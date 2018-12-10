@@ -33,7 +33,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 > - You can’t install  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] on a computer running [!INCLUDE[pn_Exchange_Server_full](../../includes/pn-exchange-server-full.md)].  
 > - Tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] are used together by the same user.  
 
-<a name=BKMK_Task1_Install_CRMForOutlook></a>   
+<a name="BKMK_Task1_Install_CRMForOutlook"></a>   
 ## Install Dynamics 365 for Outlook  
  You can add offline capability for the user either during this installation or at a later time.  
 
@@ -64,7 +64,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 -   To install from the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web application:  
 
-    1.  Click the **Settings** button ![Settings button](../media/mp-ua-r16-settings.png Settings button), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
+    1.  Click the **Settings** button ![Settings button](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
 
     2.  On the **Apps for Dynamics 365 for Customer Engagement apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.  
 
@@ -93,7 +93,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 8. On the completion page of the **Microsoft Dynamics 365 for Customer Engagement apps for Microsoft Office Outlook Setup** wizard, click **Close**.  
 
-<a name=BKMK_Task2_ConfigureCRMforOutlook></a>   
+<a name="BKMK_Task2_ConfigureCRMforOutlook"></a>   
 ## Configure Dynamics 365 for Outlook  
  After [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, it must be configured. When you restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] after you’ve installed [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the configuration wizard starts automatically.  
 
@@ -118,7 +118,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 4. If you’re a member of more than one organization, restart the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] to designate a different organization as your current organization.  
 
-<a name=BKMK_OAuth></a>   
+<a name="BKMK_OAuth"></a>   
 ## Enable multi-factor authentication through OAuth  
  In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 for Customer Engagement apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 for Customer Engagement apps  versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
 

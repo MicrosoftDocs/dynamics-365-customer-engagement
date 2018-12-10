@@ -32,7 +32,7 @@ search.app:
 
 This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
 
-<a name=import></a>
+<a name="import"></a>
 
 ## Import data and manage imports
 
@@ -49,7 +49,7 @@ When you import data while working in the **Settings** work area, you must selec
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](import-data.md)
 
-<a name=export></a>
+<a name="export"></a>
 
 ## Export data or templates
 
@@ -66,7 +66,7 @@ When you export data or templates while working in the **Settings** work area, y
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data](export-data-word-excel.md)
 
-<a name=duplicate-detection></a>
+<a name="duplicate-detection"></a>
 
 ## Keep your data clean by using duplicate detection
 

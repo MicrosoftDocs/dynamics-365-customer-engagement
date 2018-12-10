@@ -42,7 +42,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 - Create quotes.  
   
-  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], only one mail merge can be run at a time. If you receive the message [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Mail Merge is already running and want to discontinue a mail merge, close and then reopen [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] or [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)].  
+  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], only one mail merge can be run at a time. If you receive the message "[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Mail Merge is already running" and want to discontinue a mail merge, close and then reopen [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] or [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)].  
   
   To use mail merge, your email format must be HTML.  
   
@@ -85,7 +85,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
     In the **Mail Merge** dialog box, select the type of document you want to use.  
   
-5. Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](../media/lookup-button-4.gif Lookup button) to select a template.  
+5. Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](../media/lookup-button-4.gif "Lookup button") to select a template.  
   
     New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work with mail merge templates](../../admin/work-mail-merge-templates.md)
   

@@ -30,7 +30,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
  This topic covers the highlighted settings below.  
   
- ![System Settings Synchronization tab](../media/crm-itpro-systemsynctab.png System Settings Synchronization tab)  
+ ![System Settings Synchronization tab](../media/crm-itpro-systemsynctab.png "System Settings Synchronization tab")  
   
 ## Enable appointment attachment synchronization with Outlook or Exchange  
   

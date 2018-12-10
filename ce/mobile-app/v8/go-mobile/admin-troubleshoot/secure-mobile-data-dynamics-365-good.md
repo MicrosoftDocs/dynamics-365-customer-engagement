@@ -53,7 +53,7 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
   
 4. On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address.  
   
-    ![Dynamics 365 for tablets Let's get started screen for iPad](../../../media/mobile-start-screen-apple.png Dynamics 365 for tablets Let's get started screen for iPad)  
+    ![Dynamics 365 for tablets Let's get started screen for iPad](../../../media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
   
 5. Tap the **Arrow** button in the lower right corner to continue.  
   
@@ -64,7 +64,7 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
 ## Accessing email and other apps through Microsoft Dynamics 365 for Customer Engagement apps for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../../../../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], along with any settings that need to be configured.  
   
-<a name=bkmk4></a>   
+<a name="bkmk4"></a>   
 ## Information for admins  
  For a list of supported phones and tablets, see the compatibility information in [TechNet: Support for Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
   

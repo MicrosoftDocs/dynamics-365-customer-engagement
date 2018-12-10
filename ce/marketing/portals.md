@@ -55,12 +55,12 @@ To view traffic information about each marketing page (such as who visited, wher
 To customize the event portal, and to set up your own custom portals solutions, you must work with the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution settings, which are only available in the custom app. To get to the portal settings:
 
 1. Go to the custom app by selecting **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.  
-    ![The app-selector menu](media/nav-apps-custom-ill.png The app-selector menu)
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
 2. The custom app provides a horizontal navigator at the top of the page. Use it to open the **Portals** tile and then work with the entries there.  
-    ![Navigate to the portals area in the custom app](media/portals-nav.png Navigate to the portals area in the custom app)
+    ![Navigate to the portals area in the custom app](media/portals-nav.png "Navigate to the portals area in the custom app")
 
-The event portal is set up as a website named Event Portal, and all the various other elements that it uses (templates, pages, files, and more) are shown as being part of that website.
+The event portal is set up as a website named "Event Portal," and all the various other elements that it uses (templates, pages, files, and more) are shown as being part of that website.
 
 For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
 

@@ -35,23 +35,23 @@ To add a new payment page to your event portal:
 
 1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365 — custom** from the app selector.  
 
-    ![The app-selector menu](media/nav-apps-custom-ill.png The app-selector menu)
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
 1. In the custom app, use the horizontal navigator at the top of the page to open **Portals** > **Content** > **Web Templates**.  
 
-    ![Go to your web templates](media/payment-template-nav.png Go to your web templates)
+    ![Go to your web templates](media/payment-template-nav.png "Go to your web templates")
 
 1. Select **+ New** on the control bar to create a new web template.
 
 1. Enter a **Name** for your template and set the **Website** to the **Event Portal**. Then paste the web-page code you developed for the gateway into the **Source** field.  
 
-    ![An example web template setup](media/payment-template-setup.png An example web template setup)
+    ![An example web template setup](media/payment-template-setup.png "An example web template setup")
 
 1. Save your template by selecting the **Save** button at the bottom-right corner of the window.
 
 1. Go to **Portals** > **Website** > **Page Template** and select **+ New** on the command bar to create a new page template.  
 
-    ![An example page template setup](media/payment-page-template-setup.png An example page template setup)
+    ![An example page template setup](media/payment-page-template-setup.png "An example page template setup")
 
     Make the following settings:
 
@@ -64,7 +64,7 @@ To add a new payment page to your event portal:
 
 1. Go to **Portals** > **Content** > **Web Pages** and select **+ New** on the command bar to create a new web page.  
 
-    ![An example web page setup](media/payment-web-page-setup.png An example web page setup)
+    ![An example web page setup](media/payment-web-page-setup.png "An example web page setup")
 
     Make the following settings:
 
@@ -77,7 +77,7 @@ To add a new payment page to your event portal:
 
 1. **Save** your page. Your new payment gateway is now available to your event portal.
 
-<a name=pay-confirm></a>
+<a name="pay-confirm"></a>
 
 ## Receive payment confirmation
 
@@ -111,7 +111,7 @@ To assign a payment gateway to an event:
 
 1. On the **General** tab of the **Event** form, scroll down to the **Website** section and select your payment gateway page in the **Portal payment gateway** field.  
 
-    ![The portal payment gateway setting](media/payment-gateway-setting.png The portal payment gateway setting)
+    ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
 
 1. Restart your portal or refresh its server cache to make sure your new setting takes effect right away. For instructions, see [How can I fix occasional portal issues?](setup-troubleshooting.md#restart-portal).
 

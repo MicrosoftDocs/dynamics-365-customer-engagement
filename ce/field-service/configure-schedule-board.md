@@ -52,13 +52,13 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
  When you’re looking at the schedule board for the current day, you’ll see a blue line which indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
- ![Schedule board color coding in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-schedule-board-color-coding-example.png Schedule board color coding in Dynamics 365 for Customer Engagement field service)  
+ ![Schedule board color coding in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 for Customer Engagement field service")  
   
-<a name=BKMK_ConfigureFilter-MapOver></a>   
+<a name="BKMK_ConfigureFilter-MapOver"></a>   
 ## Configure the filter and map view  
  Map view shows the location of resources, organizational units, bookings, and requirements. The screenshot below shows the color legend.  
   
- ![Schedule board filter and map view in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-schedule-board-map-view.png Schedule board filter and map view in Dynamics 365 for Customer Engagement field service)  
+ ![Schedule board filter and map view in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 for Customer Engagement field service")  
   
 ### Set filters  
   
@@ -81,7 +81,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
    - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-units.md)  
   
 ### Set default filters  
- ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png Schedule Board Default Filters)  
+ ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
   
 -   If you update a filter and want to save it as your new default filter, click **Options** > **Save Current Filters as Default**.  
   
@@ -98,11 +98,11 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 4.  When you’re done, click **Apply**.  
   
-<a name=BKMK_ConfigurationTabs></a>   
+<a name="BKMK_ConfigurationTabs"></a>   
 ## Configuration tabs  
  Configuration tabs let you choose the time unit to be displayed, the view orientation, the time offset, and other actions like getting driving directions, moving bookings to the next day, printing the schedule, or add a booking alert.  
   
- ![Schedule board configuration tabs](../field-service/media/field-service-schedule-board-configuration-tabs.png Schedule board configuration tabs)  
+ ![Schedule board configuration tabs](../field-service/media/field-service-schedule-board-configuration-tabs.png "Schedule board configuration tabs")  
   
  **View Options**  
   
@@ -140,9 +140,9 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ### Details  
  Click **Details** on the right to see a detailed view of bookings.  
   
- ![Schedule board details option](../field-service/media/field-service-schedule-board-details-option.png Schedule board details option)  
+ ![Schedule board details option](../field-service/media/field-service-schedule-board-details-option.png "Schedule board details option")  
   
-<a name=BKMK_ConfigureUnscheduledWorkOrderArea></a>   
+<a name="BKMK_ConfigureUnscheduledWorkOrderArea"></a>   
 ## Configure Booking Requirements  
  The booking requirements area is shown at the bottom of the schedule board and lists all unscheduled bookings. You can easily drag and drop unscheduled bookings from the list onto the schedule board.  
   
@@ -158,7 +158,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
     -   To access information on more unscheduled bookings, use the lower navigation arrow to move to the next page.  
   
-<a name=BKMK_CreateAdditionalTabs></a>   
+<a name="BKMK_CreateAdditionalTabs"></a>   
 ## Create additional tabs  
   
 - To add a new schedule board tab, click **+Add Tab** at the top.  
@@ -166,7 +166,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   > [!NOTE]
   >  To edit an existing schedule board view, double-click the view name.  
   
-  ![Schedule board view name](../field-service/media/field-service-schedule-board-view-name.png Schedule board view name)  
+  ![Schedule board view name](../field-service/media/field-service-schedule-board-view-name.png "Schedule board view name")  
   
 - A window opens showing all the configuration options.  
   
