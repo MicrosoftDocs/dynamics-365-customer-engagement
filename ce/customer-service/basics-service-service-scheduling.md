@@ -238,6 +238,11 @@ Scheduling entities are grouped under the following logical groups:
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
 
+- **Fulfillment Preferences** </br>
+    Choose and customize how to display schedule assistant results, like with neat hourly appointments or morning and afternoon time windows.
+
+    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+
 **Tools**
 
 - **Schedule Board** </br>
