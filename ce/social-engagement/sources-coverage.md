@@ -2,7 +2,7 @@
 title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
-ms.date: 05/08/2018
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -54,10 +54,10 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 
 ## Instagram
 
-After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. 
+After you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] & [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition account as a [social profile](manage-social-profiles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can configure [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account search rules for your search topics. These rules will acquire posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. Learn more about [data acquisition on Instagram](instagram-data-acquisition.md).
 
 > [!NOTE]
-> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
+> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
