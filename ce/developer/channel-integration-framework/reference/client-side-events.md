@@ -2,7 +2,7 @@
 title: "Client-side (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # Events (CIF JavaScript API reference)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 All client-side code is initiated by events and the events occur in Dynamics 365 Unified Interface. You associate s specific function in a JavaScript library to execute when an event occurs. This specific function is called an *event handler*.
 

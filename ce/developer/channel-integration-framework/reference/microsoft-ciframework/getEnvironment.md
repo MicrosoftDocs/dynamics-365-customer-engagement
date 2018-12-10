@@ -20,8 +20,6 @@ manager: shujoshi
 
 # getEnvironment (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
 ## Syntax
