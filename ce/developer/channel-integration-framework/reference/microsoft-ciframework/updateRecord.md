@@ -20,8 +20,6 @@ manager: shujoshi
 
 # updateRecord (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 
 ## Syntax
