@@ -20,8 +20,6 @@ manager: shujoshi
 
 # deleteRecord (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 
 ## Syntax
@@ -75,7 +73,7 @@ This sample code deletes an existing contact record with record ID = a8a19cdd-88
 // delete contact record  with the id=b44d31ac-5fd1-e811-8158-000d3af97055d
 var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
 var entityLogicalName = "contact";
-Microsoft.CIFramework.retrieveRecord(entityLogicalName, id).then(
+Microsoft.CIFramework.deleteRecord(entityLogicalName, id).then(
     function success(result) {
       res=JSON.parse(result);
       console.log("Contact deleted with ID: " + res.contactid);
