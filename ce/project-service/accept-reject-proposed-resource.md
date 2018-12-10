@@ -24,16 +24,14 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-When the resource manager proposes a named resource for the project, the **Request Status** field for the generic team member will be updated to **Needs Review**. The request will be sent to the project manager for approval or rejection.
-
+When the resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**. The request will be sent to the project manager for approval or rejection.
 
 ![Generic team member with a proposal](media/RM-how-to-19.png)
 
+The grid on the **Proposed Resources** tab of the **Project Team Member** page shows the proposed resource’s current bookings. After the proposal is accepted, the grid is upsated to reflect that booking. 
+To accept the proposed resource and book them on your team, click **Accept Proposals**.  
+To reject the proposal, click **Reject Resource**.
 
-The grid shows the proposed resource’s current bookings and bookings once the proposal is accepted. From here you can select the proposed resource and click Accept Proposals for them to be booked onto your team.  You can also reject the resource and resubmit the request.
-To approve the request, click on the arrow to open to open the team member and click on the Proposed Resources tab.
+![Accepting a resource proposal](media/RM-how-to-20.png) 
 
-![Accpeting a resource proposal](media/RM-how-to-20.png) 
-
-As with directly fulfilling a generic resource with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
-
+Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
