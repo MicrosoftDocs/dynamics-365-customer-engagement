@@ -1,17 +1,17 @@
 ---
-title: "How to enable outbound communication (ClickToAct) in Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn enable or configure outbound communication (ClickToAct) in Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps."
-keywords: 
-ms.date: 10/01/2018
+title: "How to enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework (CIF) | Microsoft Docs"
+description: "Learn enable or configure outbound communication (ClickToAct) in Channel Integration Framework (CIF) for Microsoft Dynamics 365."
+keywords: ""
+ms.date: 12/10/2018
 ms.service:
-  - dynamics-365-cross-app
+  - "dynamics-365-cross-app"
 ms.custom:
-  - dyn365-a11y
-  - dyn365-developer
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: E0E45AC7-E516-46B5-ADBC-77254CBA8A2F
 author: kabala123
 ms.author: kabala
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # How to enable outbound communication (ClickTOAct) in Channel Integration Framework?
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 To enable outbound communication for your channel, you must perform the following:
 
@@ -32,9 +30,9 @@ To enable outbound communication for your channel, you must perform the followin
 
 ## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
 
-1. Sign-in to Dynamics 365 for Customer Engagement apps.
+1. Sign-in to Dynamics 365.
 
-2. Select the drop-down button on the Dynamics 365 for Customer Engagement apps and select **Channel Integration Framework**.
+2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
 
 3. Select a channel provider from the **Active Channel Providers** list.
 
@@ -44,7 +42,7 @@ To enable outbound communication for your channel, you must perform the followin
 
 You can add the Channel Communication Control based on your organization and business requirements. The steps mentioned below illustrate adding the **Channel Communication Control** for the **Contact** form of **Main** type under the **Contact** entity.
 
-1. Sign-in to Dynamics 365 for Customer Engagement apps.
+1. Sign-in to Dynamics 365.
 
 2. Go to **Settings** > **Customizations**.
 
@@ -82,7 +80,7 @@ function initCTI() {
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
 
 > [!div class="nextstepaction"]
-> [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+> [Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
 
 ## See also
 

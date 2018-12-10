@@ -1,17 +1,17 @@
 ---
 title: "Sample code for softphone integration using Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Channel Integration Framework (CIF) with Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps)."
-keywords: 
-ms.date: 10/01/2018
+description: "Learn about sample code for softphone integration using Channel Integration Framework (CIF) with Microsoft Dynamics 365 Unified Interface App."
+keywords: ""
+ms.date: 12/10/2018
 ms.service:
-  - dynamics-365-cross-app
+  - "dynamics-365-cross-app"
 ms.custom:
-  - dyn365-a11y
-  - dyn365-developer
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 30E520EC-1791-48DD-BD70-1D29D78E89AB
 author: kabala123
 ms.author: kabala
@@ -20,17 +20,15 @@ manager: shujoshi
 
 ## Sample softphone integration using Channel Integration Framework
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867) to download the sample to integrate a softphone with Dynamics 365 for Customer Engagement using Channel Integration Framework.
+Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867) to download the sample to integrate a softphone with Dynamics 365 using Channel Integration Framework.
 
 > [!NOTE]
 > The sample code does not support Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/)
 
 > [!Important]
 > - This sample code currently has limited availability.
-> - The sample code for softphone integration with Dynamics 365 for Customer Engagement apps using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
-> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](http://go.microsoft.com/fwlink/p/?LinkId=511446)
+> - The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
+> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](http://go.microsoft.com/fwlink/p/?LinkId=511446)
 
 ## Pre-requisites
 
@@ -60,11 +58,11 @@ Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linki
 > [!Note] 
 > Save the URL for the **capability-token** function you obtain from the above sample code. For example, URL is `https://sampleinteg.sample/capability-token`.
 
-## Configure sample app in Dynamics 365 for Customer Engagement apps
+## Configure sample app in Dynamics 365
 
 1. Note the base URL of the CRM org from where all webresources are served. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
 
-1. Get the **Dynamics 365 for Customer Engagement apps Channel Integration Framework** solution. For more information, see [Get Dynamics 365 for Customer Engagement apps Channel Integration Framework](get-channel-integration-framework.md).
+1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
 2. Configure the channel provider by providing the detail as show in the matrix. For more information, see [Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
 
@@ -78,7 +76,7 @@ Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linki
   |API Version| 1.0 |
   |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
-  |Select Roles for the Channel|The security roles that are present in Dynamics 365 for Customer Engagement apps.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 for Customer Engagement apps (Unified Interface apps).|
+  |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
 
 3. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
 **The communication widget in the minimized mode**<br><br>
@@ -89,12 +87,12 @@ Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linki
 
 > [!Important]
 > - All URLs must be https.
-> - If you use a self-signed certificate for the Azure app or the Dynamics 365 for Customer Engagement apps org, certain browsers may reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
+> - If you use a self-signed certificate for the Azure app or the Dynamics 365 org, certain browsers may reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
 > - Ensure microphone and speaker access is not blocked by browser policy.
 
 ## Related topics
 
-- [Get Dynamics 365 for Customer Engagement apps Channel Integration Framework](get-channel-integration-framework.md)
+- [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
 
 - [Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
 

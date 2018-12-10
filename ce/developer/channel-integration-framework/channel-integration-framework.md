@@ -1,30 +1,24 @@
 ---
-title: "Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 for Customer Engagement apps (Unified Interface apps) using a browser-based JavaScript API library."
-keywords: 
-ms.date: 10/01/2018
+title: "Dynamics 365 Channel Integration Framework (CIF) Guide | Microsoft Docs"
+description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library."
+keywords: ""
+ms.date: 12/10/2018
 ms.service:
-  - dynamics-365-cross-app
+  - "dynamics-365-cross-app"
 ms.custom:
-  - dyn365-a11y
-  - dyn365-developer
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 7923e36d-3640-49f7-9f2f-c97358a632db
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
 
-# Preview: Dynamics 365 for Customer Engagement apps Channel Integration Framework Guide
-
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
+# Dynamics 365 Channel Integration Framework Guide
 
 <table>
 <tr>
@@ -49,9 +43,10 @@ manager: shujoshi
 <h2> How-to </h2>
 
 <li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[How to configure a channel provider ifor your organization](configure-channel-provide-channel-integration-framework.md)">How to configure a channel provider for your organization</a></li>
-<li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 <li><a href="enable-outbound-communication-clicktoact.md" data-raw-source="[How to enable outbound communication (ClickTOAct)](enable-outbound-communication-clicktoact.md)">How to enable outbound communication (ClickTOAct)</a></li>
-
+<li><a href="add-cif-solution-dependent-solution.md" data-raw-source="[Add CIF solution as a dependent solution](add-cif-solution-dependent-solution.md)">Add CIF solution as a dependent solution</a></li>
+<li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
+<li><a href="pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
 </td>
 <td>
 

@@ -1,32 +1,30 @@
 ---
-title: "what is Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn what is Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps and how to get started using it."
-keywords: 
-ms.date: 10/01/2018
+title: "What is Dynamics 365 Channel Integration Framework (CIF) | Microsoft Docs"
+description: "Learn what is Channel Integration Framework (CIF) for Microsoft Dynamics 365 and how to get started using it."
+keywords: ""
+ms.date: 12/10/2018
 ms.service:
-  - dynamics-365-cross-app
+  - "dynamics-365-cross-app"
 ms.custom:
-  - dyn365-a11y
-  - dyn365-developer
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: e6d23c5f-e4ec-41f7-aff7-9cb50828357f
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
 
-# What is Channel Integration Framework for Microsoft Dynamics 365 for Customer Engagement apps
+# What is Channel Integration Framework for Microsoft Dynamics 365
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
-
-Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 for Customer Engagement apps (Unified Interface apps) using a browser-based JavaScript API library.
+Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
 
 With this framework, you can integrate any third-party channel provider or channel aggregators into Unified Interface Apps, where the Channel Integration Framework acts as an interface between the providers or aggregators and Unified Interface Apps.
 
-Technically, Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud can interact with Dynamics 365 for Customer Engagement apps. 
+Technically, Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud can interact with Dynamics 365. 
 
 With the Channel Integration Framework application (solution), you can configure the channel in the Unified Interface app such that your agents can access to serve your customers.
 
@@ -47,18 +45,18 @@ The value propositions of Channel Integration Framework are:
 
 **Bring your own channel providers (Integrate third-party channel providers):**
 
-The Channel Integration Framework provides an extensible framework to integrate third-party cloud-based channel providers or channel aggregators with Dynamics 365 for Customer Engagement apps (Unified Interface apps).
+The Channel Integration Framework provides an extensible framework to integrate third-party cloud-based channel providers or channel aggregators with Dynamics 365 Unified Interface Apps.
 
 **Channel agnostic:**
 The Channel Integration Framework is channel agnostic. That is, you can build channels like voice, video, chat, co-browse, social media, and any channels as long as they a JavaScript based widget.
 
 **Two-way communication:**
 
-The framework is extensible for the configuration of communication between the channel and Dynamics 365 for Customer Engagement apps (Unified Interface apps). The two-way communication enables to set the context of inbound and/or outbound according to your business and process workflows.
+The framework is extensible for the configuration of communication between the channel and Dynamics 365 Unified Interface Apps. The two-way communication enables to set the context of inbound and/or outbound according to your business and process workflows.
 
 **Standard and supported APIs:**
 
-The Channel Integration Framework exposes a JavaScript APIs which are the standard set of APIs that you can consume for the communication between the channels and Dynamics 365 for Customer Engagement apps (Unified Interface apps).
+The Channel Integration Framework exposes a JavaScript APIs which are the standard set of APIs that you can consume for the communication between the channels and Dynamics 365 Unified Interface Apps.
 
 **Ease of development and deployment:**
 
@@ -70,7 +68,7 @@ You can seamlessly integrate several providers by using the Channel Integration 
 
 **Unified Interface App agnostic:**
 
-The Channel Integration Framework is Dynamics 365 for Customer Engagement apps (Unified Interface apps) agnostic. You can build the channel integration one-time and enable it on the Unified Interface Apps of your choice based on the business requirements.
+The Channel Integration Framework is Dynamics 365 Unified Interface App agnostic. You can build the channel integration one-time and enable it on the Unified Interface Apps of your choice based on the business requirements.
 
 **Independent of operating systems and web browsers:**
 
