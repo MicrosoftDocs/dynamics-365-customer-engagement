@@ -13,8 +13,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
+author: "mduelae"
+ms.author: "mkaur"
 manager: "kvivek"
 search.audienceType: 
   - admin
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# About Unified Interface
+# About Unified Interface 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

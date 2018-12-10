@@ -14,6 +14,9 @@
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Field Service settings](configure-default-settings.md)
 
+# Quickstarts
+## [Schedule a work order](quickstart-schedule-work-order.md)
+
 # Work orders
 ## [Create a new work order](create-work-order.md)
 ## [Work order types](create-work-order-types.md)
@@ -81,6 +84,7 @@
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)

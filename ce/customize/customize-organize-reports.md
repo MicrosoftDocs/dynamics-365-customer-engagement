@@ -1,7 +1,7 @@
 ---
-title: "Customize and organize reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize and organize reports | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: ea98ae5e-5dbc-4c23-b4c6-513774997226
 caps.latest.revision: 47
 author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 search.audienceType: 
   - customizer
 search.app: 

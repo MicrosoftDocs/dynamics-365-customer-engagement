@@ -20,8 +20,6 @@ manager: shujoshi
 
 # createRecord (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[createRecord](includes/createRecord-description.md)] 
 
 ## Syntax

@@ -30,6 +30,9 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
+As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
+](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
+
 [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], protects your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data is protected by [!INCLUDE[pn_good_shortest](../../../../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] data from your device.  
   
  This app is intended for use only with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../../../../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../../../../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../../../../includes/pn-moca-full.md)] instead from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=313645).  

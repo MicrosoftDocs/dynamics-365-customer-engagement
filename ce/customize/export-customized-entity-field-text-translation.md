@@ -1,8 +1,8 @@
 ---
-title: "Export customized entity and field text for translation with PowerApps | MicrosoftDocs"
+title: "Export customized entity and field text for translation | MicrosoftDocs"
 description: "Learn how to export entity and field text for translation"
 ms.custom: ""
-ms.date: 04/09/2018
+ms.date: 11/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,7 +24,7 @@ search.app:
 ---
 # Translate customized entity and field text into other languages
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 After you create customized entity and field text, you may want to translate it into other languages.  
   
