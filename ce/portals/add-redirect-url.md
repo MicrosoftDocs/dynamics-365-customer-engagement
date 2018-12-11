@@ -28,7 +28,7 @@ Customers frequently want to have a simple URL that redirects to a page deeper i
 ## Create a redirect
 1. Navigate to the **Portals** area and, under the **Website** section, select **Redirects**, and then select **New** on the toolbar.
 
-    ![Active redirects](media/active-redirects.png Active redirects)  
+    ![Active redirects](media/active-redirects.png "Active redirects")  
 
 2. Enter the redirect information as described below.
 
@@ -44,7 +44,7 @@ Customers frequently want to have a simple URL that redirects to a page deeper i
 
 3. After entering the required fields and specifying a value for at least one of the URL, Web Page, or Site Marker fields, select **Save**.
 
-    ![Redirect a customer survey](media/redirect-customer-survey.png Redirect a customer survey)  
+    ![Redirect a customer survey](media/redirect-customer-survey.png "Redirect a customer survey")  
 
 ## Use the redirect
 

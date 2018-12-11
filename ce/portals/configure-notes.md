@@ -39,7 +39,7 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 7. Fill in the fields by entering appropriate values. [!include[](../includes/proc-more-information.md)] [Attributes](#attributes), [Create dialog options](#create-dialog-options), [Edit dialog options](#edit-dialog-options), and [Delete dialog options](#delete-dialog-options)
 8. Save the form.
 
-    ![Add notes configuration for entity forms](media/add-note-configuration.png Add notes configuration for entity forms)  
+    ![Add notes configuration for entity forms](media/add-note-configuration.png "Add notes configuration for entity forms")  
 
     After adding the configuration, the Note control will be rendered by using the appropriate options enabled on the portal.
 
@@ -152,13 +152,13 @@ You must create and assign the appropriate entity permission to the records as f
 - Read, Write, Create, Append, and Append To privileges for the **Activity (activitypointer)** entity with the scope as **Global**. This entity permission must be associated with a web role for the user.
 - Read, Write, Create, Append, and Append To privileges for the entity that has the Notes control enabled in it. The scope should be set to **Global**. This entity permission must be associated with a web role for the user.
 
-    ![Add entity permissions](media/entity-permission.png Add entity permissions)
+    ![Add entity permissions](media/entity-permission.png "Add entity permissions")
 
-    ![Add web roles to an entity permission](media/entity-permission-web-roles.png Add web roles to an entity permission)
+    ![Add web roles to an entity permission](media/entity-permission-web-roles.png "Add web roles to an entity permission")
 
 If you created a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and added the notes section to it, be sure to select **Notes** as the default tab you want to be visible.
 
-![Notes in a custom form](media/notes-activities-tab.png Notes in a custom form)
+![Notes in a custom form](media/notes-activities-tab.png "Notes in a custom form")
 
 ## Notes configuration for web forms
 
