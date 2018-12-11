@@ -1,11 +1,11 @@
 ---
 title: "Deployment Web service domain user account | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: a9ec9bc9-d94d-4859-be9b-0de2fd93556a
 caps.latest.revision: 7
 robots: noindex,nofollow

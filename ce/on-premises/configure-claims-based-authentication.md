@@ -1,14 +1,14 @@
 ---
 title: "Configure claims-based authentication | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 7bc51122-cd62-4946-bfc1-0db0785316ee
 caps.latest.revision: 18
 author: Mattp123
@@ -69,7 +69,7 @@ The claims-based security model extends traditional authentication models to inc
      This certificate is used to encrypt authentication security tokens that are sent to the [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] security token service (STS).  
  
     > [!NOTE]
-    >  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service account must have Read permissions for the private key of the encryption certificate. See [The CRMAppPool account and the Microsoft Dynamics 365 encryption certificate](configure-claims-based-authentication.md#BKMK_CRMAppPool).  
+    >  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service account must have Read permissions for the private key of the encryption certificate. See [The CRMAppPool account and the Microsoft Dynamics 365 for Customer Engagement encryption certificate](configure-claims-based-authentication.md#BKMK_CRMAppPool).  
   
 8.  Select **Next**.  
   
@@ -89,7 +89,7 @@ The claims-based security model extends traditional authentication models to inc
     >  Claims-based authentication won’t work until you create the relying parties in STS. For more information, see [Configure the AD FS server for claims-based authentication](https://technet.microsoft.com/library/gg188595.aspx).  
   
 <a name="BKMK_CRMAppPool"></a>   
-### The CRMAppPool account and the Microsoft Dynamics 365 encryption certificate  
+### The CRMAppPool account and the Microsoft Dynamics 365 for Customer Engagement encryption certificate  
 
 Claims data sent from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] is encrypted using a certificate you specify in the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)]. The CRMAppPool account of each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application must have Read permissions to the private key of the encryption certificate.  
   

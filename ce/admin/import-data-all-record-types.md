@@ -1,20 +1,20 @@
 ---
-title: "Import data (all record types) for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Import data (all record types) for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 4483edc9-999d-4761-a9d1-d18fc130b615
 caps.latest.revision: 19
-ms.author: "jimholtz"
-manager: "kvivek"
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -25,19 +25,19 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Importing data is often the first important task that you need to perform after you have installed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You can import data from various [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems and data sources into standard and customized fields of most business and custom entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can include related data, such as notes and attachments. To assure data integrity, you can enable duplicate detection that prevents importing duplicate records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Detect duplicate data](../admin/detect-duplicate-data.md). For more complex data import scenarios, you can write code using the data import web service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import data using web services](../developer/import-data.md).
+Importing data is often the first important task that you need to perform after you have installed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You can import data from various [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps systems and data sources into standard and customized fields of most business and custom entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can include related data, such as notes and attachments. To assure data integrity, you can enable duplicate detection that prevents importing duplicate records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Detect duplicate data](../admin/detect-duplicate-data.md). For more complex data import scenarios, you can write code using the data import web service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import data using web services](../developer/import-data.md).
   
- Preliminary steps before you import the data into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement include:  
+ Preliminary steps before you import the data into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps include:  
   
 1. Preparing source data files in one of the following formats: comma-separated values (.csv), XML Spreadsheet 2003 (.xml), Compressed (.zip) or text files. You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
   
-2. Preparing data maps for mapping data contained in the source file to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record fields. You must map every column in the source file to an appropriate field. Unmapped data isn’t imported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Select a data map](../basics/select-data-map.md)  
+2. Preparing data maps for mapping data contained in the source file to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps record fields. You must map every column in the source file to an appropriate field. Unmapped data isn’t imported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Select a data map](../basics/select-data-map.md)  
   
-There are several ways to import data into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
+There are several ways to import data into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps:  
   
 1. To import large volumes of data, we recommend a programmatic way, as most efficient. When you import data programmatically, you gain additional capabilities that are not available when you use other methods of importing data. These advanced capabilities include viewing stored source data, accessing error logs and creating data maps that include complex transformation mapping, such as concatenation, split, and replace. 
   
-2. For smaller import jobs, you can use the Import Data Wizard tool included in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. For information about the Import Data Wizard or how to import specific record types, see [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md).  
+2. For smaller import jobs, you can use the Import Data Wizard tool included in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web application. For information about the Import Data Wizard or how to import specific record types, see [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md).  
   
    > [!NOTE]
    >  For the Import Data Wizard, the maximum file size for .zip files is 32 MB; for the other file formats, it’s 8 MB.  

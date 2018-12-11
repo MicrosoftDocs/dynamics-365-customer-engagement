@@ -1,15 +1,15 @@
 ---
-title: "Learn the basics of Dynamics 365 for Sales | Microsoft Docs"
+title: "Learn the basics of Dynamics 36 for Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
-keywords: "Get started; understand data; quick create; Sales"
+keywords: Get started; understand data; quick create; Sales
 ms.date: 04/01/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
@@ -24,7 +24,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 ## Go to the Sales apps 
 
-1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
+1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-dynamics-365(../includes/pn-dynamics-365.md)]**.
 
    ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
 
@@ -32,7 +32,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
    > 
    > The apps available to you in the app launcher depend on your subscription.
 
-2. In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Dynamics 365 — custom**.
+2. In the [!INCLUDE[pn-dynamics-365(../includes/pn-dynamics-365.md)] Home page, select the tile for **Dynamics 365 — custom**.
 
    This provides access to the full suite of capabilities, including sales and its settings.
 
@@ -42,7 +42,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
    To open the Sales app (web), select the tile for **Sales**.
 
-   ![Tile for Dynamics 365 for Sales web app](media/sales_tile_web.png "Tile for Dynamics 365 for Sales web app")
+   ![Tile for Dynamics 365 for Sales web](media/sales_tile_web.png "Tile for Dynamics 365 for Sales web")
 
    -OR-
 
@@ -55,7 +55,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 Every day, you’ll work with different customer records and record types as you move customers through your business processes, collecting the data you need to fill in the fields for their records—and ultimately to win their business.
 
-- What’s a record? In [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], a **record** is a complete unit of information such as all the information about a single contact. You can think of it as a row in a table. For example, each time you add a new account to the app, you’re creating a new record in the Sales app.
+- What’s a record? In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], a **record** is a complete unit of information such as all the information about a single contact. You can think of it as a row in a table. For example, each time you add a new account to the app, you’re creating a new record in the Sales app.
 
 - What’s a record type? Each record you add to the system belongs to a certain **record type**, such as an account, contact, lead, or opportunity.
 

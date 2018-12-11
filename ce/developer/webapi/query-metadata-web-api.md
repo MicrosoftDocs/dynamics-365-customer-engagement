@@ -1,20 +1,20 @@
 ---
-title: "Query metadata using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Query metadata using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The capability to query system metadata is available using the Web API as well as using the organization service by using RetrieveMetadataChangesRequest"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3ad4a332-a304-421f-a9fa-82ea3e0503fe
 caps.latest.revision: 18
-author: "brandonsimons" # GitHub ID
-ms.author: "jdaly"
-manager: "amyla"
+author: brandonsimons # GitHub ID
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement is a metadata-driven application, developers may need to query the system metadata at run-time to adapt to how an organization has been configured. This capability uses a RESTful query style.
+Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps is a metadata-driven application, developers may need to query the system metadata at run-time to adapt to how an organization has been configured. This capability uses a RESTful query style.
 
 > [!NOTE]
 > You can also construct a query using an object-based style using the <xref href="Microsoft.Dynamics.CRM.EntityQueryExpression?text=EntityQueryExpression ComplexType" /> with the <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" />. This function allows for capturing changes to metadata between two periods of time as well as returning a limited set of metadata defined by a query you specify.
@@ -345,7 +345,7 @@ You can use the `GlobalOptionSetDefinitions` entity set path to retrieve informa
 
 ### See also
 
-[Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md)<br />
+[Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md)<br />
 [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)<br />
 [Metadata entites and attributes using the Web API](create-update-entity-definitions-using-web-api.md)<br />
 [Metadata entity relationships using the Web API](create-update-entity-relationships-using-web-api.md)

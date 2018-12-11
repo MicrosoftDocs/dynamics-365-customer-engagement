@@ -1,12 +1,12 @@
 ---
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
 description: "Get an overview on the Social Selling Assistant."
-keywords: "SSA, social selling assistant, salesforce empowerment"
+keywords: SSA, social selling assistant, salesforce empowerment
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 98a20ce9-1374-4a52-a9a6-987fb75451e6
 author: m-hartmann
 ms.author: mhart
@@ -25,9 +25,9 @@ search.app:
 
 # Empower your salespeople with the Social Selling Assistant
 
-## Meet Microsoft Dynamics 365 for Sales - Social Selling Assistant
+## Meet the Social Selling Assistant
 
- Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services. [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] for Sales - Social Selling Assistant empowers salespeople to sell more by gaining trust, growing their network and getting connected on social media.
+ Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services. The Social Selling Assistant empowers salespeople to sell more by gaining trust, growing their network and getting connected on social media.
 
  A few minutes per day is all you need to keep the conversations going and grow your network. Wherever you work, regardless of the device, you’ll always have the relevant information right at your fingertips. Harnessing the power of the machine learning, the Social Selling Assistant provides smart and personalized recommendations for shareable content based on social data gathered with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].
 
@@ -60,7 +60,7 @@ search.app:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)  
   
 ### See Also  
- [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
+ [TechNet: Extend Dynamics 365 for Customer Engagement with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
  [Get connected to the social conversation by using Microsoft Social Engagement](get-connected-social-conversation.md)   
  [Set up searches to listen to social media conversations](set-up-searches.md)   
  [Engage on social networks](engage-on-social-networks.md)

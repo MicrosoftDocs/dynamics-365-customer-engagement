@@ -1,12 +1,12 @@
 ---
 title: "Archive - Social Engagement 2017 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2017."
-keywords: "release notes, 2017, what's new"
+keywords: release notes, 2017, what's new
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: dc269cf9-1f86-4f9d-bf50-c1977db83027
 author: m-hartmann
 ms.author: mhart
@@ -209,7 +209,7 @@ The engagement action history now shows the name and profile picture of the [!IN
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] introduces the Social Selling Assistant to empower your salespeople to sell more by using social media. With this application, your salespeople get personalized, smart recommendations for posts to share on their social networks to increase their social presence, gain trust from their followers, and generate more leads.
 
-You can access the Social Selling Assistant from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and install it from Microsoft AppSource into your [!INCLUDE[Dynamics 365 for Sales](../includes/pn-ms-dyn-365-for-sales.md)] application. The AppSource app adds a new dashboard that contains the Social Selling Assistant. Salespeople can access this dashboard from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web client, and from [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)]. [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] is currently not supported.
+You can access the Social Selling Assistant from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and install it from Microsoft AppSource into your [!INCLUDE[Dynamics 365 for Customer Engagement for Sales](../includes/pn-ms-dyn-365-for-sales.md)] application. The AppSource app adds a new dashboard that contains the Social Selling Assistant. Salespeople can access this dashboard from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web client, and from [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)]. [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] is currently not supported.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)
 

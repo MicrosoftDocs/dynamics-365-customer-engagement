@@ -1,21 +1,21 @@
 ---
 title: "Create and design forms | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 99c795e0-9165-4112-85b1-6b5e1a4aa5ec
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: rdubois
+manager: brycho
 tags: 
-  - "Links to topic not migrated"
+  - Links to topic not migrated
 search.audienceType: 
   - customizer
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-With Dynamics 365 for Customer Engagement, forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently. 
+With Dynamics 365 for Customer Engagement apps, forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently. 
 
 In the default solution or an unmanaged solution, you can create new forms or edit existing forms for all entities that allow form customization. 
 In an unmanaged solution, you can edit the managed properties for an unmanaged custom entity that was created for the solution.
@@ -47,7 +47,7 @@ While each form type has specific needs, when working with forms you use the For
 
 <a name="BKMK_FormDifferencesByEntity"></a>   
 ## Updated versus classic entities  
-Dynamics 365 for Customer Engagement provides many options for designing forms. With Unified Interface, most entities were updated to better suit the responsive interface. Updated entities as well as your own custom entities include support for the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] client, business process flows, and business rules. When you use these entities, you can design once and deploy to all clients.  
+Dynamics 365 for Customer Engagement apps provides many options for designing forms. With Unified Interface, most entities were updated to better suit the responsive interface. Updated entities as well as your own custom entities include support for the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] client, business process flows, and business rules. When you use these entities, you can design once and deploy to all clients.  
 
 There are still a number of entities, referred to here as classic entities, that retain the appearance and capabilities from earlier versions. These entities are used less often. They are listed here:  
 

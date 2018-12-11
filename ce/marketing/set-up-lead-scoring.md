@@ -1,15 +1,15 @@
 ---
 title: "Set up lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 for Marketing"
-keywords: "tutorial; leads; lead scoring; lead scoring model"
+keywords: tutorial; leads; lead scoring; lead scoring model
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e892a409-1e68-491f-8992-1b281ba4a5a3
 author: kamaybac
 ms.author: kamaybac
@@ -31,7 +31,7 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
-A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.
+A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.
 
 > [!TIP]
 > You can create any number of lead-scoring models, with each lead being scored according to each model. That means that if you have several models, each lead will also have several scores. A lead becomes sales-ready as soon as at least one model produces a sales-ready score for that lead.
@@ -56,7 +56,7 @@ To create a lead scoring model:
     > [!TIP]
     > You can add more child conditions by dragging more **Condition** tiles onto the same parent. If you do this, all child conditions are combined with an AND operator, which means that *all* of them must evaluate to true for the following **Action** to be applied.
 
-5. Select in the **Entity** field to place the insertion point. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] fetches a list of scorable entities (which can take a few seconds) and displays them as a drop-down list. The list includes all relevant entities that can be related to a lead record, plus the lead entity itself.  
+5. Select in the **Entity** field to place the insertion point. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] fetches a list of scorable entities (which can take a few seconds) and displays them as a drop-down list. The list includes all relevant entities that can be related to a lead record, plus the lead entity itself.  
     ![Choose an entity for the condition](media/scoring-condition-entity.png "Choose an entity for the condition")  
 
     You're looking for the name of the city where the lead works, which is recorded on the lead itself, so choose the **Lead** entity here.
@@ -93,7 +93,7 @@ To create a lead scoring model:
     - Go to the **Summary** tab and give your rule a **Name** (such as "London, England").
     - On the command bar, select **Save** to save your model.
     - On the command bar, select **Check for Errors**, and then read the results and fix any problems reported.
-    - On the command bar, select **Go Live** to activate the model. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] runs a final error check, and then updates the **Status Reason** to **Going Live**. It might take a few minutes for the process to be completed, at which time the **Status Reason** will change to **Live**.
+    - On the command bar, select **Go Live** to activate the model. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] runs a final error check, and then updates the **Status Reason** to **Going Live**. It might take a few minutes for the process to be completed, at which time the **Status Reason** will change to **Live**.
 
 12. Go to **Marketing** &gt; **Lead Management** &gt; **Leads** to open a list of available leads. On the command bar, select **+ New** to create a new lead.  
      ![Create a test lead to see its score](media/scoring-lead-example.png "Create a test lead to see its score")

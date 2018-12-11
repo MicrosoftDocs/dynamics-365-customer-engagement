@@ -1,16 +1,14 @@
 ---
 title: "Define a goal metric (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 for Sales."
-keywords: "goal, metric"
+keywords: goal, metric
 ms.date: 10/09/2018
 ms.service:
-  - "crm-online"
-ms.custom:
-  - ""
+  - dynamics-365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 2251e5a0-fb76-48fb-82ec-73fe6263e3bd
 author: shubhadaj
 ms.author: shujoshi
@@ -49,7 +47,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
     > After you save the goal metric, you will no longer be able to edit this field.
     
-    c.	**Amount Data Type**. Required. This option is not available if the Metric Type you chose is **Count** because Dynamics 365 automatically sets the data type to integer.
+    c.	**Amount Data Type**. Required. This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
     
     > [!NOTE]
 

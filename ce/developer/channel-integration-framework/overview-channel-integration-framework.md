@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: e6d23c5f-e4ec-41f7-aff7-9cb50828357f
 author: kabala123
 ms.author: kabala

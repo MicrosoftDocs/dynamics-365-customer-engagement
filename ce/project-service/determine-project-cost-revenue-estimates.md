@@ -1,5 +1,5 @@
 ---
-title: Determine project cost and revenue estimates (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Determine project cost and revenue estimates (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to determine project cost and revenue estimates in Project Service
 author: krbjoran
 manager: ShellyHa

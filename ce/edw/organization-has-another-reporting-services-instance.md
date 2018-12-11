@@ -1,11 +1,11 @@
 ---
 title: "The organization already has another Reporting Services instance configured | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 8d8c07eb-9247-478b-a1bb-eb39bdc517cb
 caps.latest.revision: 3
 robots: noindex,nofollow

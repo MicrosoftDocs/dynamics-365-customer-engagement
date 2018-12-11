@@ -1,9 +1,9 @@
 ---
-title: "Configure OpenID Connect provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+title: "Configure OpenID Connect provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to add and configure OpenID Connect provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 01/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -101,20 +101,20 @@ Multiple identity providers can be configured by substituting a label for the \[
 |       Authentication/OpenIdConnect/\[provider\]/NameClaimType        |                                                                                                                                                                              The claim type used by the ClaimsIdentity to store the name claim.                                                                                                                                                                              |
 |       Authentication/OpenIdConnect/\[provider\]/RoleClaimType        |                                                                                                                                                                              The claim type used by the ClaimsIdentity to store the role claim.                                                                                                                                                                              |
 |   Authentication/OpenIdConnect/\[provider\]/RequireExpirationTime    |                                                                                                                                                                              A value indicating whether tokens must have an 'expiration' value.                                                                                                                                                                              |
-|    Authentication/OpenIdConnect/\[provider\]/RequireSignedTokens     |                                                                                                                               A value indicating whether a System.IdentityModel.Tokens.SecurityToken xmlns="<http://ddue.schemas.microsoft.com/authoring/2003/5>" can be valid if not signed.                                                                                                                                |
+|    Authentication/OpenIdConnect/\[provider\]/RequireSignedTokens     |                                                                                                                               A value indicating whether a System.IdentityModel.Tokens.SecurityToken xmlns=<http://ddue.schemas.microsoft.com/authoring/2003/5> can be valid if not signed.                                                                                                                                |
 |      Authentication/OpenIdConnect/\[provider\]/SaveSigninToken       |                                                                                                                                                                        A Boolean to control if the original token is saved when a session is created.                                                                                                                                                                        |
 |       Authentication/OpenIdConnect/\[provider\]/ValidateActor        |                                                                                                                                                            A value indicating whether the System.IdentityModel.Tokens.JwtSecurityToken.Actor should be validated.                                                                                                                                                            |
 |      Authentication/OpenIdConnect/\[provider\]/ValidateAudience      |                                                                                                                                                                       A Boolean to control if the audience will be validated during token validation.                                                                                                                                                                        |
 |       Authentication/OpenIdConnect/\[provider\]/ValidateIssuer       |                                                                                                                                                                        A Boolean to control if the issuer will be validated during token validation.                                                                                                                                                                         |
 |      Authentication/OpenIdConnect/\[provider\]/ValidateLifetime      |                                                                                                                                                                       A Boolean to control if the lifetime will be validated during token validation.                                                                                                                                                                        |
-|  Authentication/OpenIdConnect/\[provider\]/ValidateIssuerSigningKey  |                                                                                                                  A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns="<http://ddue.schemas.microsoft.com/authoring/2003/5>" is called.                                                                                                                  |
+|  Authentication/OpenIdConnect/\[provider\]/ValidateIssuerSigningKey  |                                                                                                                  A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns=<http://ddue.schemas.microsoft.com/authoring/2003/5> is called.                                                                                                                  |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ## Enable authentication using a multi-tenant Azure Active Directory application
 
 You can configure your portal to accept [!include[](../includes/pn-azure-active-directory.md)] users from any tenant in [!include[](../includes/pn-azure-shortest.md)] and not just a specific tenant by using the multi-tenant application registered in [!include[](../includes/pn-azure-active-directory.md)]. To enable multi-tenancy, set the **Multi-tenanted** switch to **Yes** in the [!include[](../includes/pn-azure-active-directory.md)] application.
 
-![Enable multi tenancy in Azure Active Directory application](media/enable-multi-tenancy.png "Enable multi tenancy in Azure Active Directory application")
+![Enable multi tenancy in Azure Active Directory application](media/enable-multi-tenancy.png Enable multi tenancy in Azure Active Directory application)
 
 ### Related site settings
 
@@ -123,7 +123,7 @@ Multiple identity providers can be configured by substituting a label for the [p
 |Site Setting Name    |Description   |
 |---|---|
 |Authentication/OpenIdConnect/[provider]/Authority   |The Authority to use when making OpenIdConnect calls. For example: `https://login.windows.net/common`   |
-|Authentication/OpenIdConnect/[provider]/ClientId   |The client ID value from the provider application. It may also be referred to as an "App ID" or "Consumer Key".   |
+|Authentication/OpenIdConnect/[provider]/ClientId   |The client ID value from the provider application. It may also be referred to as an App ID or Consumer Key.   |
 |Authentication/OpenIdConnect/[provider]/ExternalLogoutEnabled   |Enables or disables external account sign-out and registration. Set this value as True.   |
 |Authentication/OpenIdConnect/[provider]/IssuerFilter   |A wildcard-based filter that matches on all issuers across all tenants. In most cases, use the value: `https://sts.windows.net/*/`   |
 |Authentication/OpenIdConnect/[provider]/RedirectUri  |The reply URL location where the provider sends the authentication response.For example: `https://portal.contoso.com/signin-oidc` |
@@ -131,7 +131,7 @@ Multiple identity providers can be configured by substituting a label for the [p
 |||
 
 ### See also
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

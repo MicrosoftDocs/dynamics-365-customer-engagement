@@ -1,30 +1,30 @@
 ---
 title: "Use connection strings in XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "XRM tooling enables you to connect to your Dynamics 365 instance by using connection strings"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a98b2fce-df49-4b60-91f4-a4446aa61cd3
 caps.latest.revision: 21
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Use connection strings in XRM tooling to connect to Dynamics 365
+# Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-With [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, XRM tooling enables you to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance by using connection strings. This is similar to the concept of connection strings used with [!INCLUDE[pn_MS_SQL_Server](../../includes/pn-ms-sql-server.md)]. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
+With [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, XRM tooling enables you to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance by using connection strings. This is similar to the concept of connection strings used with [!INCLUDE[pn_MS_SQL_Server](../../includes/pn-ms-sql-server.md)]. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
 
 <a name="Create"></a> 
 
@@ -52,7 +52,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 > [!NOTE]
 >  You’ll have to use the following `using` directive in your code to reference the `System.Configuration` namespace to access the connection string in your code: `using System.Configuration;`  
 
- After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)  
+ After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)  
 
 <a name="Parameters"></a>
 
@@ -131,6 +131,6 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 ### See also
 
  [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)   
- [Use CrmServiceClient constructors to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
- [Use XRM Tooling to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)   
+ [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)   
  <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>

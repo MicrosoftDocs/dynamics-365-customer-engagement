@@ -1,20 +1,20 @@
 ---
-title: "Modify a configuration data schema (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Modify a configuration data schema (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 37544e30-1062-451c-8afb-565c782b7133
 caps.latest.revision: 12
-ms.author: "jimholtz"
-manager: "kvivek"
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -43,9 +43,9 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 2. On the main screen, click **Create schema**, and click **Continue**.  
   
-3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance for which you originally created the export data schema file. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select an organization, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance for which you originally created the export data schema file. If you have multiple organizations on the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] server, and want to select an organization, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization to connect to.  
   
 5. On the main screen, click **File** > **Load Schema**.  
   

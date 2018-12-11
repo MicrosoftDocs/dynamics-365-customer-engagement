@@ -1,19 +1,19 @@
 ---
-title: "Work with attribute metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Work with attribute metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates creating, retriving, updating and attributes, and creating lookup, creating a picklist that uses a global option set, inserting a new status value, updating a state value and so on. "
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5fc61379-4811-4b3c-9bac-2227ce5662e2
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -73,7 +73,7 @@ This topic uses code snippets from the [Sample: Work with attribute metadata](sa
 ## Create a picklist that uses a global option set  
  This sample shows how to create a <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata> attribute that is associated with a global option set.  
   
- The following sample uses <xref:Microsoft.Xrm.Sdk.Messages.CreateAttributeRequest> to set the options for a <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata> attribute to use a global option set with a name represented by the string variable `_globalOptionSetName`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Customize Global Option Sets in Dynamics 365](customize-global-option-sets.md)  
+ The following sample uses <xref:Microsoft.Xrm.Sdk.Messages.CreateAttributeRequest> to set the options for a <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata> attribute to use a global option set with a name represented by the string variable `_globalOptionSetName`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Customize Global Option Sets in Dynamics 365 for Customer Engagement apps](customize-global-option-sets.md)  
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets3](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets3.cs#workwithglobaloptionsets3)]  
   

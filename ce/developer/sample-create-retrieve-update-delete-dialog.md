@@ -1,20 +1,20 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a dialog (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a dialog (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to create, retrieve, update, and delete a dialog process using the methods IOrganizationService.Entity, IOrganizationService.ColumnSet, and IOrganizationService. Guid."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6bebfba9-833f-4e46-88e4-d1b5fa6b5962
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/en-us/library/gg334435.aspx)
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement apps. See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/en-us/library/gg334435.aspx)
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -45,7 +45,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[Dialogs#CRUDDialog](../snippets/csharp/CRMV8/dialogs/cs/cruddialog.cs#cruddialog)]  
   
 ### See also  
- [Use Dialogs in Dynamics 365](use-dialogs-guided-processes.md)   
+ [Use Dialogs in Dynamics 365 for Customer Engagement apps](use-dialogs-guided-processes.md)   
  [Sample: Create a Workflow in Code](sample-create-workflow-code.md)   
  [Sample Code for Processes](sample-code-processes.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   

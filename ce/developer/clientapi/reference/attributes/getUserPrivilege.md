@@ -1,13 +1,13 @@
 ---
 title: "getUserPrivilege (Client API reference)| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0a3f0349-af9a-418a-b99d-5085999884eb
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

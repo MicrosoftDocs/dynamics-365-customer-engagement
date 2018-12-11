@@ -1,11 +1,11 @@
 ---
 title: "Microsoft Exchange Server not found or is not a supported version | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 386f5a9f-d38b-4252-9d23-c05031f71b75
 caps.latest.revision: 8
 robots: noindex,nofollow

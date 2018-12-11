@@ -1,28 +1,28 @@
 ---
-title: "Sample: Create a LINQ query with late binding (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create a LINQ query with late binding (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries using late-bound entities"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "late-bound entity classes, creating LINQ queries that use late-bound entities sample"
-  - "LINQ query examples and samples, creating LINQ queries that use late-bound entities sample"
-  - "creating LINQ queries that use late-bound entities sample"
-  - "sample for using LINQ with late binding"
-  - "late binding with LINQ sample"
-  - "LINQ query examples and samples, using LINQ with late binding sample"
-  - "sample for creating LINQ queries that use late-bound entities"
+  - late-bound entity classes, creating LINQ queries that use late-bound entities sample
+  - LINQ query examples and samples, creating LINQ queries that use late-bound entities sample
+  - creating LINQ queries that use late-bound entities sample
+  - sample for using LINQ with late binding
+  - late binding with LINQ sample
+  - LINQ query examples and samples, using LINQ with late binding sample
+  - sample for creating LINQ queries that use late-bound entities
 ms.assetid: b0b5a5f6-03b9-4c42-9394-7fa6d27ee509
 caps.latest.revision: 19
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

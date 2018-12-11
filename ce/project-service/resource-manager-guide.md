@@ -1,5 +1,5 @@
 ---
-title: Resource manager guide (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Resource manager guide (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: A guide to resource management in Project Service
 author: krbjoran
 manager: ShellyHa
