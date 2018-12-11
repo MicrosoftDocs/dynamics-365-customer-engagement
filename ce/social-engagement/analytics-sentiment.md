@@ -31,7 +31,11 @@ In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.
 
 ![Screenshot of the sentiment page in the Analytics area of Social Engagement](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Social Engagement")
 
-**Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. For more information on supported languages, download the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
+## Sentmient value
+
+**Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. 
+
+## Sentiment index
 
 The **sentiment index** is calculated from the sentiment value of posts and normalized to a value between -10 and 10. All your active filters and parameters are considered to define the data set that the sentiment index calculates.  
   
