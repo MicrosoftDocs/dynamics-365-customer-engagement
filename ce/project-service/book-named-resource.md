@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/29/2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -46,24 +46,19 @@ The assignments on the schedule are updated with the named resource as well.
 ![Named team member assigned to project tasks](media/RM-how-to-17.png)
 
 ## Fulfill a generic resource with multiple named resources
-
-[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)] 
-
-Fulfilling a requirement for a generic resource with multiple real resources fis similar to assigned a single named resource to flow as a single resource described above.
-
-For example, here is a task with a duration of 5 days and effort hours of 120hrs. This task cannot be completed by one resource that works a typical 8hr day over a 5 day week.
+Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource. For example, there is a task with a duration of five days and effort hours of 120. This task can't be completed by one resource that works a typical eight hour day over a five day week. 
 
 ![A task that needs 120 hours of effort over five days](media/RM-how-to-21.png)
 
-The requirement is for 120hrs of a Robotics engineert over 5 days, which is 24hrs per day.
+The requirement is for 120 hours of a Robotics engineering over five days, which is 24 hours per day.
 
 ![Per day requirement](media/RM-how-to-22.png)
 
-Thus, you will need to book multiple resources to fulfill the requirement.
+This is a time when multiple named resources are needed to fulfill a generic resource request. You will need to book multiple resources to fulfill the requirement.
 
 ![Booking multiple resources to fulfill the requirement](media/RM-how-to-23.png)
 
-The main difference in this scenario is that the generic resource remains on the team with the assignment to the task and the booked real team members are not assigned as part of the position. The project manager will then be able to assign the work as they see fit to the real resources. The Reconciliation view can assist a project manager in breaking up the bookings across multiple resources to task assignments. The reason this is not done automatically is because in any scenario more complicated than the simple one above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system. Since the system cannot understand intent, chances are the assumptions will be different than intended and an incorrect or unpredictable result will happen. 
-Then predictable outcome is that the generic remains assigned until the project manager deliberately assigns, with the assistance of the Reconciliation view.
+The main difference in this scenario is that the generic resource remains on the team still assigned to the task, and the booked named resource team members are not assigned as part of the position. The project manager can assign the work as appropriate to the named resources. The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments. This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system. Because the system can't understand intent, chances are the assumptions will be different than intended and an incorrect or unpredictable result will happen. 
+Then predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.
 
 
