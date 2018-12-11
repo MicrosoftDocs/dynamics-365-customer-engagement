@@ -24,15 +24,20 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-You can select a generic resource with a requirement and assign a named resource to the task or project team.click Book on the Team tab of the project or open the resource requirement and click the book button there.
+You can assign a named resource to a generic resource that has a requirement for a task or a project team.
+
+1. In PSA, on the **Projects** page, click the **Team** tab.
+2. Select the generic resource from the list and then click **Book**. Or, open the resource requirement and then click **Book**.
+
 
 ![Booking a generic team member](media/RM-how-to-14.png)
 
-This will open the Schedule Assistant which you use to select and book a named resource onto your project team.
+
+3. On the **Schedule Assistant** page select a named resource to book onto your project team and then click **Book**.
 
 ![Booking a generic team member using schedule assistant](media/RM-how-to-15.png)
 
-When the booking is complete and totally fulfilled by a named resource, the generic resource is replaced with the named resource on the team.
+When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.
 
 ![Named team member replacing a generic team member](media/RM-how-to-16.png)
 
