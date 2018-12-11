@@ -109,7 +109,7 @@ Use the navigation web link set associated with the current page for our navigat
 In this step, we'll create a new page template that is based on the web template we created in the previous step.
 
 > [!div class=mx-imgBorder]
-![Page template weblinks left navigation layout](media/page-template-weblinks-left-navigation-layout.png Page template weblinks left navigation layout)  
+![Page template weblinks left navigation layout](media/page-template-weblinks-left-navigation-layout.png "Page template weblinks left navigation layout")  
 
 ## Step 4: Create a web page to display content
 
