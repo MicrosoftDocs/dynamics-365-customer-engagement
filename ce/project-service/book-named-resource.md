@@ -26,14 +26,14 @@ search.app:
 
 You can assign a named resource to a generic resource that has a requirement for a task or a project team.
 
-1. In PSA, on the **Projects** page, click the **Team** tab.
+1. In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.
 2. Select the generic resource from the list and then click **Book**. Or, open the resource requirement and then click **Book**.
 
 
 ![Booking a generic team member](media/RM-how-to-14.png)
 
 
-3. On the **Schedule Assistant** page select a named resource to book onto your project team and then click **Book**.
+3. On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.
 
 ![Booking a generic team member using schedule assistant](media/RM-how-to-15.png)
 
@@ -46,19 +46,18 @@ The assignments on the schedule are updated with the named resource as well.
 ![Named team member assigned to project tasks](media/RM-how-to-17.png)
 
 ## Fulfill a generic resource with multiple named resources
-Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource. For example, there is a task with a duration of five days and effort hours of 120. This task can't be completed by one resource that works a typical eight hour day over a five day week. 
+Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource. For example, there is a task with a duration of five days and 120 hours of effort. This task can't be completed by one resource that works a typical eight-hour day over a five day week. 
 
 ![A task that needs 120 hours of effort over five days](media/RM-how-to-21.png)
 
-The requirement is for 120 hours of a Robotics engineering over five days, which is 24 hours per day.
+The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.
 
 ![Per day requirement](media/RM-how-to-22.png)
 
-This is a time when multiple named resources are needed to fulfill a generic resource request. You will need to book multiple resources to fulfill the requirement.
+This is an example of when multiple named resources are needed to fulfill a generic resource request. You will need to book multiple resources to fulfill the requirement.
 
 ![Booking multiple resources to fulfill the requirement](media/RM-how-to-23.png)
 
-The main difference in this scenario is that the generic resource remains on the team still assigned to the task, and the booked named resource team members are not assigned as part of the position. The project manager can assign the work as appropriate to the named resources. The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments. This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system. Because the system can't understand intent, chances are the assumptions will be different than intended and an incorrect or unpredictable result will happen. 
-Then predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.
+The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position. The project manager can assign the work as appropriate to the named resources. The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments. This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system. Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen. The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.
 
 
