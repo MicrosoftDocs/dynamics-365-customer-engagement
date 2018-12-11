@@ -1,17 +1,17 @@
 ---
-title: "Create a Voice of the Customer for Dynamics 365 survey to get customer feedback | MicrosoftDocs"
+title: "Create a Voice of the Customer for Dynamics 365 for Customer Engagement survey to get customer feedback | MicrosoftDocs"
 description: ""
 ms.assetid: 495a4eba-454c-4ab6-a785-ff3bc6b9ecc8
 ms.custom:
   - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
-ms.topic: "article"
-applies_to: "Dynamics 365 (online)"
+ms.topic: article
+applies_to: Dynamics 365 for Customer Engagement (online)
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ---
 # Create a Voice of the Customer survey to get customer feedback 
 Create and send out [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys to gain valuable feedback from your customers about your products or services. Respondents can take your surveys on a phone, tablet, or computer. You can see your customer's feedback history as you work a sale or resolve a service case.  
@@ -25,9 +25,9 @@ Create and send out [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voic
   
  **Install and configure [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**  
   
- [Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution](install-voice-of-customer-preferred-solution.md)  
+ [Install the Voice of the Customer for Microsoft Dynamics 365 for Customer Engagement surveys preferred solution](install-voice-of-customer-preferred-solution.md)  
   
- [Customize Voice of the Customer for Microsoft Dynamics 365 survey settings](customize-voice-of-customer.md)  
+ [Customize Voice of the Customer for Microsoft Dynamics 365 for Customer Engagement survey settings](customize-voice-of-customer.md)  
   
  **Design and distribute your survey**  
   

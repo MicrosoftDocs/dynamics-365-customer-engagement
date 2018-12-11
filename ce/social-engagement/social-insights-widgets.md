@@ -1,12 +1,12 @@
 ---
-title: "Social Insights widgets in Dynamics 365 from Social Engagement | Microsoft Docs"
-description: "Find out which Social Insights widgets are available to show on forms in Dynamics 365."
-keywords: "widget, visualization, social insights, social engagement"
+title: "Social Insights widgets in Dynamics 365 for Customer Engagement from Social Engagement | Microsoft Docs"
+description: "Find out which Social Insights widgets are available to show on forms in Dynamics 365 for Customer Engagement."
+keywords: widget, visualization, social insights, social engagement
 ms.date: 06/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: b2a35d49-bcd1-430e-bc76-98cf6350d005
 author: m-hartmann
 ms.author: mhart
@@ -15,7 +15,7 @@ manager: sakudes
 
 # Work with widgets in Social Insights
 
-After setting up Social Insights in Dynamics 365, you can integrate widgets presenting data from Microsoft Social Engagement on forms and dashboards in Dynamics 365. This article presents an overview of the available widgets and information about how to configure them on the fly in Dynamics 365.
+After setting up Social Insights in Dynamics 365 for Customer Engagement apps, you can integrate widgets presenting data from Microsoft Social Engagement on forms and dashboards. This article presents an overview of the available widgets and information about how to configure them on the fly.
 
 ## Work with filters on widgets
 
@@ -133,5 +133,5 @@ Find out how the total post volume developed over time and the average number of
 
 ### See also
 
-[Integrate Microsoft Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)    
+[Integrate Microsoft Social Engagement with Dynamics 365 for Customer Engagement apps](integrate-social-engagement-dynamics-365.md)    
 [Connect with customers. Empower your organization. Create real results.](overview.md)    

@@ -1,18 +1,18 @@
 ---
-title: "Verify the service account for a Microsoft Dynamics 365 service | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Verify the service account for a Microsoft Dynamics 365 for Customer Engagement service | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: bf391b1b-88b1-4157-a054-4fde0643d93d
 caps.latest.revision: 6
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Verify the service account for a Microsoft Dynamics 365 service
+# Verify the service account for a Microsoft Dynamics 365 for Customer Engagement service
 
 If this is an **error**, the following information applies.  
   

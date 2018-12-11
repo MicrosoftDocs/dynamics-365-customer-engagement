@@ -1,18 +1,18 @@
 ---
-title: "Set up time groups (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up time groups (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 9bfa089a-57a1-4790-bb13-0239f055803f
 caps.latest.revision: 14
@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Specify time groups consisting of multiple time windows to be used for scheduling in Dynamics 365 for Field Service.  
+Specify time groups consisting of multiple time windows to be used for scheduling in Dynamics 365 for Customer Engagement for Field Service.  
   
  The schedule assistant will add the time group start and end times to the search results. This lets a user group the results by time group.  
   
@@ -60,7 +60,7 @@ Then make sure to create these time groups for each time zone since time groups 
   
 ### See also  
   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Create work order types](../field-service/create-work-order-types.md)   
  [Set up work order sub-statuses](../field-service/set-up-work-order-sub-statuses.md)   

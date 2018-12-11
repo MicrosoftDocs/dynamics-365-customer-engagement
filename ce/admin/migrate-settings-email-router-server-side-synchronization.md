@@ -1,20 +1,20 @@
 ---
-title: "Migrate settings from the Email Router to server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Migrate settings from the Email Router to server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 01/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 8b1637ff-34c6-489d-ad1c-4f3c8159ae91
 caps.latest.revision: 22
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -26,12 +26,12 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 > [!NOTE]
-> The Microsoft Dynamics CRM Email Router has been deprecated and was removed in version 9.0 of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To prepare for this change, we strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 
+> The Microsoft Dynamics CRM Email Router has been deprecated and was removed in version 9.0 of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. To prepare for this change, we strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 
 
-Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
+Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
   
 > [!NOTE]
->  An organization can only use either the Email Router or server-side synchronization to process email. You can define what to use in the **Email** tab of System Settings in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. If you select server-side synchronization, the Email Router stops functioning for the organization.  
+>  An organization can only use either the Email Router or server-side synchronization to process email. You can define what to use in the **Email** tab of System Settings in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. If you select server-side synchronization, the Email Router stops functioning for the organization.  
 > 
 >  To switch from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] synchronization to server-side synchronization, simply change the synchronization method in mailbox records to server-side synchronization. That’s all you have to do to make the change from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization to server-side synchronization.  
 
@@ -71,4 +71,4 @@ Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../include
 4.  Start with the queues mailboxes, and then migrate the users’ mailboxes.  
   
 ### See also  
- [Monitor email processing errors in Microsoft Dynamics 365](../admin/monitor-email-processing-errors.md)
+ [Monitor email processing errors in Microsoft Dynamics 365 for Customer Engagement](../admin/monitor-email-processing-errors.md)

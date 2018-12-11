@@ -1,18 +1,18 @@
 ---
-title: "User who is running Microsoft Dynamics 365 Server Setup is not a domain user | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "User who is running Microsoft Dynamics 365 for Customer Engagement Server Setup is not a domain user | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: aad03a11-ce75-40dc-883a-370b03e4a5dc
 caps.latest.revision: 6
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# User who is running Microsoft Dynamics 365 Server Setup is not a domain user
+# User who is running Microsoft Dynamics 365 for Customer Engagement Server Setup is not a domain user
 
 ## Cause 1
   

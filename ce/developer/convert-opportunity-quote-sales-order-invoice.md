@@ -1,23 +1,23 @@
 ---
-title: "Convert an opportunity to a quote, sales order or invoice (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Convert an opportunity to a quote, sales order or invoice (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about converting an opportunity to a quote, sales order, or invoice."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "converting an opportunity to a quote; sales order; or invoice, messages to use"
-  - "opportunity entities, converting an opportunity to a quote; sales order; or invoice"
+  - converting an opportunity to a quote; sales order; or invoice, messages to use
+  - opportunity entities, converting an opportunity to a quote; sales order; or invoice
 ms.assetid: b350a766-5369-4a74-a1fc-573f03fa24e4
 caps.latest.revision: 26
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

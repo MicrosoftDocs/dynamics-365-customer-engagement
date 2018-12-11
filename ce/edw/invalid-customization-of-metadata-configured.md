@@ -1,11 +1,11 @@
 ---
 title: "Invalid customization of metadata configured | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 6b3e8c03-d5d2-4277-a7a8-d8d02d0af60a
 caps.latest.revision: 2
 robots: noindex,nofollow

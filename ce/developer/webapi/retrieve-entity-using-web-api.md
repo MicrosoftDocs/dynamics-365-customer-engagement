@@ -1,20 +1,20 @@
 ---
-title: "Retrieve an entity using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read how to form a GET request using the Dynamics 365 Customer Engagement Web API to retrieve data for an entity specified as the resource with a unique identifier"
-ms.custom: ""
+title: "Retrieve an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read how to form a GET request using the Dynamics 365 for Customer Engagement Web API to retrieve data for an entity specified as the resource with a unique identifier"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: abae4614-9e03-45e7-94fa-9e6e7225ece5
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -43,7 +43,7 @@ GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-0000000000
 To retrieve more than one entity at a time, see [Basic query example](query-data-web-api.md#bkmk_basicQuery) in the [Query Data using the Web API](query-data-web-api.md) topic.
 
 > [!CAUTION]
->  The above example will return all the properties for account record, which is against the performance best practices for retrieving data. This example was just to illustrate how you can do a basic retrieve of an entity instance in Dynamics 365. Because all the properties were returned, we haven't included the response information for the request in this example.
+>  The above example will return all the properties for account record, which is against the performance best practices for retrieving data. This example was just to illustrate how you can do a basic retrieve of an entity instance in Dynamics 365 for Customer Engagement apps. Because all the properties were returned, we haven't included the response information for the request in this example.
 >
 >  As a performance best practice, you must always use the `$select` system query option to limit the properties returned while retrieving data. See the following section, **Retrieve specific properties**, for information about this.
 

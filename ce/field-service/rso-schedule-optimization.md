@@ -17,11 +17,11 @@ search.app:
   - D365FS
 ---
 
-Schedule optimization
-=====================
+# Schedule optimization
 
-Publishing schedules
---------------------
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+## Publishing schedules
 
 ### Optimization status code 
 
@@ -74,8 +74,7 @@ The next screenshot shows the publish status of the schedule, the date it was la
   > [!div class="mx-imgBorder"]
   > ![](media/aca2f6dd56b36554da71ec18db377610.png)
 
-Monitoring optimization requests
---------------------------------
+## Monitoring optimization requests
 
 Once a schedule has been published, you can open it and monitor the scheduling optimization requests (RSO jobs). You can drill into each of these to see the bookings associated with that RSO job run.
 
@@ -97,8 +96,7 @@ Once a schedule has been published, you can open it and monitor the scheduling o
     > [!div class="mx-imgBorder"]
     > ![](media/90184c1cc8f19a3d3bb9aeea31eed69d.png)
 
-Leveraging the schedule board to review optimization results 
--------------------------------------------------------------
+## Leveraging the schedule board to review optimization results 
 
 With schedule board integration, you can:
 
@@ -175,8 +173,7 @@ following:
     booking details as well as analytic charts showing how many hours of travel
     time versus how many work hours are scheduled for this run.
 
-Understanding the booking lock option 
---------------------------------------
+## Understanding the booking lock option 
 
 You can schedule lock options. There are four types:
 

@@ -1,31 +1,31 @@
 ---
-title: "Opportunity entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Opportunity entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about opportunity entites that help you to create a new opportunity to monitor or convert an lead to an opportunity. The entities that can be associated with an opportunity to provide information about the sales engagement are activities, notes and attachments, competitors, quotes, orders, and sales literature. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "opportunity entities, linking to accounts or contacts"
-  - "opportunity entities, rating opportunities"
-  - "opportunity entities, definition"
-  - "opportunity entities, converting leads to opportunities"
-  - "opportunity entities, associated products and activities"
-  - "opportunities"
-  - "opportunity entities, introduction"
-  - "tracking opportunities, opportunity entities"
-  - "converting leads to opportunities, opportunity entities"
-  - "opportunity entities, information contained"
+  - opportunity entities, linking to accounts or contacts
+  - opportunity entities, rating opportunities
+  - opportunity entities, definition
+  - opportunity entities, converting leads to opportunities
+  - opportunity entities, associated products and activities
+  - opportunities
+  - opportunity entities, introduction
+  - tracking opportunities, opportunity entities
+  - converting leads to opportunities, opportunity entities
+  - opportunity entities, information contained
 ms.assetid: 6097776b-f5a0-47e8-9e9e-1d0259d351d4
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

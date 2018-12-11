@@ -1,5 +1,5 @@
 ---
-title: Install and customize (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Install and customize (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to install and customize Project Service
 author: krbjoran
 manager: ShellyHa

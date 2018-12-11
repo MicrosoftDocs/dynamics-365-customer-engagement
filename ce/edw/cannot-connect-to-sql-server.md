@@ -1,14 +1,14 @@
 ---
 title: "Cannot connect to SQL Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 f1_keywords: 
-  - "SQLInstanceNameValidator"
-  - "SQLInstanceNameValidator.htm"
+  - SQLInstanceNameValidator
+  - SQLInstanceNameValidator.htm
 ms.assetid: 6d200486-7216-491f-bb84-bedda2ee5aa9
 caps.latest.revision: 6
 robots: noindex,nofollow

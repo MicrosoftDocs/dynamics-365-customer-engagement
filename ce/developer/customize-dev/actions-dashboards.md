@@ -1,20 +1,20 @@
 ---
-title: "Actions on dashboards (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Actions on dashboards (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about performing actions such as create, retrieve, update, or delete, on organization-owned and user-owned dashboards. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 586a10d6-4448-474e-9428-d13520f52213
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -54,7 +54,7 @@ You can perform actions such as create, retrieve, update, or delete, on organiza
   For a list of supported messages on the user-owned dashboard entity, see [UserForm Entity](../entities/userform.md).  
   
 ### See also  
- [Dashboards for Microsoft Dynamics 365](analyze-data-with-dashboards.md)   
+ [Dashboards for Microsoft Dynamics 365 for Customer Engagement](analyze-data-with-dashboards.md)   
  [Using FormXML for Dashboards](understand-dashboards-dashboard-components-formxml.md)   
  [Create a Dashboard](create-dashboard.md)   
  [Sample Dashboards](sample-dashboards.md)   

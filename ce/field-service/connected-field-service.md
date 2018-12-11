@@ -3,16 +3,16 @@ title: "Connected Field Service - Overview | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
 caps.latest.revision: 14
@@ -46,7 +46,7 @@ See below for the differences between the two offerings.
 
 ## Connected Field Service for Azure IoT Central
 
-Connected Field Service for IoT Central provides a direct integration of Dynamics 365 for Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Field Service for IoT Central provides a direct integration of Dynamics 365 for Customer Engagement for Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
 Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 
 
@@ -75,8 +75,8 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)    
+ [Install Dynamics 365 for Customer Engagement for Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service User Guide](../field-service/user-guide.md) 

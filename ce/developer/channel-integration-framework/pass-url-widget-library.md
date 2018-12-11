@@ -4,14 +4,14 @@ description: "Read how you can pass the URL of your Dynamics 365 instance to the
 keywords: ""
 ms.date: 12/10/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
+  - dyn365-a11y
+  - dyn365-developer
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: CBA9588C-5CF7-4FE5-A92E-6091FD8940EC
 author: susikka
 ms.author: susikka

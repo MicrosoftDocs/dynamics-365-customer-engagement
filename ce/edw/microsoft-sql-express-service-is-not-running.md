@@ -1,11 +1,11 @@
 ---
 title: "Microsoft SQL Express service is not running | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: b63affa8-0290-4ee4-a410-10f095bfa173
 caps.latest.revision: 2
 robots: noindex,nofollow

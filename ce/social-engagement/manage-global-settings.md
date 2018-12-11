@@ -1,12 +1,12 @@
 ---
 title: "Manage global settings for Social Engagement | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Social Engagement."
-keywords: "administrator, settings, configuration"
+keywords: administrator, settings, configuration
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 97fcbd04-f3ce-4591-9e17-4ac08017258c
 author: m-hartmann
 ms.author: mhart

@@ -1,11 +1,11 @@
 ---
 title: "The Discovery Web Service URL could not be resolved | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: c8d97293-e51d-4954-8cba-663c666e01cc
 caps.latest.revision: 2
 robots: noindex,nofollow
