@@ -59,7 +59,7 @@ You can find more information about the new functionality in the [Instagram Acco
 ### Introducing 5 languages for the user interface	
 
 We're introducing the translations for Bosnian, Croatian, Serbian, Slovenian, and Thai across the user interface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
-For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
+For more information about the available languages, see [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
 

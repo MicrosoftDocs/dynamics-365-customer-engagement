@@ -106,7 +106,7 @@ Define system settings that apply to the entire organization, like solution name
 2.  In the **Global Settings** pane, click **Search Languages**.  
   
     > [!TIP]
-    >  The more search languages you add, the more posts your keyword search rules may find. For more information on the supported languages, download the [Microsoft Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086).  
+    >  The more search languages you add, the more posts your keyword search rules may find. For more information on the supported languages, review the [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086).  
   
 3.  In the **Search Languages** pane, select the check boxes for the languages you want to enable in **Search Setup**.  
   

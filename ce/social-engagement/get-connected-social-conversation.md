@@ -28,7 +28,7 @@ There’s a good chance that your customers and stakeholders are talking about y
 
 - Read [What's new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md) to know the list of features added or updated in this release.  
 
-- Download the [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
+- Review [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
 
 ## Next steps  
 
