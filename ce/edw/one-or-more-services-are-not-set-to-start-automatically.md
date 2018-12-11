@@ -1,11 +1,11 @@
 ---
 title: "One or more services are not set to start automatically | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 800de76f-37f2-4e88-a367-0f4d0d9361eb
 caps.latest.revision: 3
 robots: noindex,nofollow

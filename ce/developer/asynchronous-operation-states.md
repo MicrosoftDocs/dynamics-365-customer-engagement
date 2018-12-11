@@ -1,20 +1,20 @@
 ---
-title: "Asynchronous operation states (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Asynchronous operation states (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the asynchronous operation states, which can be waiting to run, it can be running, or it can be completed."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 78340765-afb7-47eb-a024-6c2dfd41cd6f
 caps.latest.revision: 26
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -28,7 +28,7 @@ After asynchronous operations are added to the asynchronous queue, they exist in
   
 <a name="bkmk_states"></a>   
 ## States for asynchronous operations  
- The state of the asynchronous operation can be altered through three means: by the platform as part of regular queue processing, by the user interacting with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement web application, or by a web service call that alters the asynchronous operation. As a developer you can retrieve the current state of any asynchronous operation that you have access to and also change the state.  
+ The state of the asynchronous operation can be altered through three means: by the platform as part of regular queue processing, by the user interacting with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application, or by a web service call that alters the asynchronous operation. As a developer you can retrieve the current state of any asynchronous operation that you have access to and also change the state.  
   
  The following table lists the states, and the statuses for each state, of an `AsyncOperation`.  
   
@@ -49,13 +49,13 @@ After asynchronous operations are added to the asynchronous queue, they exist in
   
  ![AsyncOperation state diagram](media/crm-v5s-as-statediagram.png "AsyncOperation state diagram")  
   
- Notice that an asynchronous operation can only transition from one state to another along specific paths as shown in the diagram. Some paths are initiated by the user interacting with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application while other paths are initiated by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform as part of regular asynchronous queue processing or because of a Web service call. For example, an asynchronous operation cannot transition directly from a Suspended state to a Locked state.  
+ Notice that an asynchronous operation can only transition from one state to another along specific paths as shown in the diagram. Some paths are initiated by the user interacting with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application while other paths are initiated by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps platform as part of regular asynchronous queue processing or because of a Web service call. For example, an asynchronous operation cannot transition directly from a Suspended state to a Locked state.  
   
  A locked state indicates that the `AsyncOperation` instance is being used by the asynchronous service. While it is locked it cannot be used by another instance of the service. This ensures that the instance is not executed more than once, for example by two different asynchronous services.  
   
 <a name="bkmk_retrieve"></a>   
 ## Retrieve and update AsyncOperation states  
- Monitoring and updating the state of an asynchronous operation is typically done interactively through the **System Jobs** grid in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web application. However, you can also use the SDK to write code that performs those same tasks.  
+ Monitoring and updating the state of an asynchronous operation is typically done interactively through the **System Jobs** grid in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Web application. However, you can also use the SDK to write code that performs those same tasks.  
   
 #### Read the state of an asynchronous operation  
   

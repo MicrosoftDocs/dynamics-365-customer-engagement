@@ -1,11 +1,11 @@
 ---
 title: "Insufficient permissions | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ca284e3a-99d6-4cf6-b2e2-a8b176a17e53
 caps.latest.revision: 4
 robots: noindex,nofollow

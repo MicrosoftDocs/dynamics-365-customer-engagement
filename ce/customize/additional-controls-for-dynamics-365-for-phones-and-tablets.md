@@ -1,31 +1,31 @@
 ---
-title: "Additional controls for Dynamics 365 for phones and tablets | MicrosoftDocs"
-description: "A list of controls available for use with Dynamics 365 for phones and tablets"
-ms.custom: ""
+title: "Additional controls for Dynamics 365 for Customer Engagement for phones and tablets | MicrosoftDocs"
+description: "A list of controls available for use with Dynamics 365 for Customer Engagement for phones and tablets"
+ms.custom: 
 ms.date: 11/08/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 7920ef78-2540-48ad-ba25-9ce9cb995ed1
 caps.latest.revision: 63
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
   - D365CE
 ---
-# Additional controls for Dynamics 365 for phones and tablets 
+# Additional controls for Dynamics 365 for Customer Engagement for phones and tablets 
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
+ You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for Customer Engagement for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
 
  
 > [!NOTE]
@@ -50,10 +50,10 @@ search.app:
   
 7. Click **OK** when you’re done configuring the control.  
   
-   Following are descriptions for each control you can use on forms for Dynamics 365 for phones and tablets.  
+   Following are descriptions for each control you can use on forms for Dynamics 365 for Customer Engagement for phones and tablets.  
   
 ## Calendar control  
- Use this control to configure forms so they show up as a calendar view in Dynamics 365 for phones and tablets. You can also use this control to replace dashboards, lists, or entity grids for phones and tablets.  
+ Use this control to configure forms so they show up as a calendar view in Dynamics 365 for Customer Engagement for phones and tablets. You can also use this control to replace dashboards, lists, or entity grids for phones and tablets.  
   
 |Property|Description|  
 |--------------|-----------------|  

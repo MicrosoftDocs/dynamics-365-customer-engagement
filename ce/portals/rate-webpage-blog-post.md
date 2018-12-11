@@ -1,9 +1,9 @@
 ---
-title: "Rate or vote on a webpage or blog post on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Rate or vote on a webpage or blog post on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable and manage ratings on a web page or a blog post on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,11 +41,11 @@ For webpages that have page ratings enabled and the developer has applied the co
 
 ### Rating Type
 
-![Rating type](media/rating-type.png "Rating type")  
+![Rating type](media/rating-type.png Rating type)  
 
 ### Vote Type
 
-![Vote type](media/vote-type.png "Vote type")  
+![Vote type](media/vote-type.png Vote type)  
 
 ## Manage ratings in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
@@ -59,7 +59,7 @@ The associated view lists the ratings for the selected webpage, blog post, or id
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

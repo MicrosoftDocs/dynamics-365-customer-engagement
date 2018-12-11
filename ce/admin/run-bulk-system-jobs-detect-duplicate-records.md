@@ -1,20 +1,20 @@
 ---
-title: "Run bulk system jobs to detect duplicate records in Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Run bulk system jobs to detect duplicate records in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 61aff241-9194-4a2c-8d83-1bfdc8b7449d
 caps.latest.revision: 40
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -47,7 +47,7 @@ To maintain the integrity of system data, you should check for duplicates regula
    > [!NOTE]
    >  What you see in this list depends on which duplicate detection rules are published. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)  
   
-6. In the **Use Saved View** drop-down list, select a view if you want to limit the records searched to records in that view. For example, select Active Accounts. When you select a view, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] adds the criteria to search on.  
+6. In the **Use Saved View** drop-down list, select a view if you want to limit the records searched to records in that view. For example, select Active Accounts. When you select a view, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps adds the criteria to search on.  
   
 7. To further limit the records searched, click **Select** and then enter the criteria you want.  
   

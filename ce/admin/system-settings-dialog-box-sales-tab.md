@@ -1,16 +1,14 @@
 ---
-title: "System Settings dialog box - Sales tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "System Settings dialog box - Sales tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/09/2018
 ms.service:
-  - "crm-online"
-ms.custom:
-  - ""
+  - crm-online
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
 author: jimholtz
 ms.author: jimholtz
@@ -25,7 +23,7 @@ caps.latest.revision: 14
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>
 
-Use the settings on this page to configure system-level settings for the sales area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Use the settings on this page to configure system-level settings for the sales area of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
  
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
@@ -50,7 +48,7 @@ Use the settings on this page to configure system-level settings for the sales a
 |                         **Set maximum number of products in a bundle**                          |                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                             Maximum number of products in a bundle                              |                                                                                                                                                                        Type the maximum number of products a bundle can have.                                                                                                                                                                        |
 |                             **Set pricing calculation preference**                              |                                                                                                                                                                                                                                                                                                                                                                                                      |
-|                                 Use system pricing calculations                                 |                                                      Click **Yes** to use the pricing calculations of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To use custom pricing by using a plug-in, click **No**. When set to **No**, the default pricing calculations won’t be done on opportunity, quote, order and invoice records.                                                      |
+|                                 Use system pricing calculations                                 |                                                      Click **Yes** to use the pricing calculations of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. To use custom pricing by using a plug-in, click **No**. When set to **No**, the default pricing calculations won’t be done on opportunity, quote, order and invoice records.                                                      |
 |                **Set whether a discount is applied as a line item or per unit**                 |                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                   Discount calculation method                                   |                                                             Select **Per unit** if you want the pricing engine to calculate the discount based on the prices per unit instead of a line item. By default, the calculations are done on a line item-basis. \*See the table below that shows the difference between the two calculations.                                                              |
 |              **Set maximum number of properties allowed for a product or bundle**               |                                                                                                                                                                                                                                                                                                                                                                                                      |

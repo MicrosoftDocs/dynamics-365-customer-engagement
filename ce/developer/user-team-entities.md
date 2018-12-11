@@ -1,37 +1,37 @@
 ---
-title: "User and team entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "User and team entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about user and team management using which you can create and maintain user accounts and profiles."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a88d9a7c-865c-45cc-be2a-fb5693a58268
 author: KumarVivek
 ms.author: kvivek
 manager: amyla
 helpviewer_keywords: 
-  - "user settings"
-  - "users, significant attributes"
-  - "users and teams, introduction"
-  - "systemuser entity"
-  - "user accounts"
-  - "access types, users"
-  - "team entity"
-  - "teams and users, introduction"
-  - "users, noninteractive"
-  - "records owned, users and teams"
-  - "user license types"
-  - "bulk-assigning of records"
-  - "license types, users"
-  - "system user (user) entity, user and team entities"
-  - "user access types"
-  - "records, bulk-assigning"
-  - "users, synchronizing with Microsoft Office 365"
-  - "security roles, users"
-  - "teams, definition"
+  - user settings
+  - users, significant attributes
+  - users and teams, introduction
+  - systemuser entity
+  - user accounts
+  - access types, users
+  - team entity
+  - teams and users, introduction
+  - users, noninteractive
+  - records owned, users and teams
+  - user license types
+  - bulk-assigning of records
+  - license types, users
+  - system user (user) entity, user and team entities
+  - user access types
+  - records, bulk-assigning
+  - users, synchronizing with Microsoft Office 365
+  - security roles, users
+  - teams, definition
 topic-status: Drafting
 search.audienceType: 
   - developer
@@ -45,7 +45,7 @@ search.app:
 
 User and team management is the area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] where you can create and maintain user accounts and profiles.  
 
- A *user* is any person who works for a business unit who uses [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Each user has a user account. All users must be associated with only one business unit. This association controls which customer data the user will have access to. Included in the user's account is information such as the user's telephone numbers, email address, and a link to the user's manager. Each user has privileges and rights to manage their own personal settings. Each user corresponds to a user in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] for that organization. When you create a user, you must assign the user to at least one security role. Even if the user is part of a team that has assigned roles, the user should be assigned to a role. For more information about access levels and roles, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md).  
+ A *user* is any person who works for a business unit who uses [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Each user has a user account. All users must be associated with only one business unit. This association controls which customer data the user will have access to. Included in the user's account is information such as the user's telephone numbers, email address, and a link to the user's manager. Each user has privileges and rights to manage their own personal settings. Each user corresponds to a user in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] for that organization. When you create a user, you must assign the user to at least one security role. Even if the user is part of a team that has assigned roles, the user should be assigned to a role. For more information about access levels and roles, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement apps](security-dev/how-role-based-security-control-access-entities.md).  
 
  A *team* is a group of users. Teams let users across an organization collaborate and share information. For more information about teams, see [Use Teams to Collaborate and Share Information](use-access-teams-owner-teams-collaborate-share-information.md).  
 

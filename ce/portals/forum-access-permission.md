@@ -1,13 +1,13 @@
 ---
-title: "Manage forum access permissions in Dynamics 365 | MicrosoftDocs"
+title: "Manage forum access permissions in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about control flow tags available in portal"
 keywords: "forum access permissions"
-ms.date: 05/08/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: F09DA8FB-BF40-4D50-ADBD-A259BC67CDBC
 author: sbmjais
 ms.author: shjais
@@ -23,7 +23,7 @@ search.app:
   - D365Portals
 ---
 
-# Manage forum access permissions in Dynamics 365
+# Manage forum access permissions in Dynamics 365 for Customer Engagement
 
 Forum Access Permission is a security rule that can be assigned to a particular forum and web role that can restrict particular users from viewing the forum or granting particular users the ability to moderate a forum within the webpages. To create, edit, or delete forum access permissions from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
@@ -31,7 +31,7 @@ Forum Access Permission is a security rule that can be assigned to a particular 
 
 2. Go to **Community** > **Forum Access Permissions**.
 
-    ![Forum access permission](media/forum-access-permission.png "Forum access permission")
+    ![Forum access permission](media/forum-access-permission.png Forum access permission)
 
 3. To create a new forum access permission, select **New**.
 
@@ -41,7 +41,7 @@ Forum Access Permission is a security rule that can be assigned to a particular 
 
 6. Select **Save & Close**.
 
-    ![Edit forum access permission](media/edit-forum-access-permission.png "Edit forum access permission")  
+    ![Edit forum access permission](media/edit-forum-access-permission.png Edit forum access permission)  
 
 > [!NOTE]
 > A web role must be assigned for the rule to apply for users associated with the given role. See [Create web roles for portals](create-web-roles.md).

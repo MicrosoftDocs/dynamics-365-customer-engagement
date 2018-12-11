@@ -1,9 +1,9 @@
 ---
-title: "Enable Azure storage for portals in Dynamics 365 | MicrosoftDocs"
+title: "Enable Azure storage for portals in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
 ms.custom: 
   - dyn365-portal
-ms.date: 07/26/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,13 +41,13 @@ To locate the value for FileStorage/CloudStorageAccount, you must get a connecti
 
 3. Select **Access Keys**.
 
-    ![Locate value for connection string from your Azure portal](media/key-azure-storage.png "Locate the value for the connection string from your Azure portal")
+    ![Locate value for connection string from your Azure portal](media/key-azure-storage.png Locate the value for the connection string from your Azure portal)
 
 4. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the field for which you need to copy the value, and then paste that value into your new setting:
 
-    ![Primary connection string value](media/primary-connection-string-azure-storage.png "Primary connection string value")
+    ![Primary connection string value](media/primary-connection-string-azure-storage.png Primary connection string value)
 
-    ![Portal setting for cloud storage account](media/portal-site-setting-cloud-storage-account.png "Portal setting for your cloud storage account")
+    ![Portal setting for cloud storage account](media/portal-site-setting-cloud-storage-account.png Portal setting for your cloud storage account)
 
 ## Specify the storage container
 
@@ -55,13 +55,13 @@ If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)
 
 From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
 
-![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for your cloud storage container")
+![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png Portal setting for your cloud storage container)
 
 ## Add CORS rule
 
 You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon:
 
-- **Allowed origins**: Specify your Dynamics 365 domain. For example, contoso.crm.dynamics.com.
+- **Allowed origins**: Specify your Dynamics 365 for Customer Engagement domain. For example, contoso.crm.dynamics.com.
 - **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
 - **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*. 
 - **Exposed headers**: Specify the response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*.

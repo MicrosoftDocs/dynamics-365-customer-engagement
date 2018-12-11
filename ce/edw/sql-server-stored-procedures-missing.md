@@ -1,11 +1,11 @@
 ---
 title: "One or more Microsoft SQL Server stored procedures are missing | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 166f0873-37db-4026-a848-8277560b9b26
 caps.latest.revision: 5
 robots: noindex,nofollow

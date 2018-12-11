@@ -1,20 +1,20 @@
 ---
-title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "brycho"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: brycho
 ms.assetid: 201e9f66-56e7-4f58-b51e-9c73cf5f50b8
 caps.latest.revision: 19
-ms.author: "brycho"
-manager: "brycho"
+ms.author: brycho
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 

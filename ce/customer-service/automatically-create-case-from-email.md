@@ -1,11 +1,11 @@
 ---
-title: Automatically create a case from an email (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to automatically create a case from an email in Dynamics 365 for Customer Service
-keywords: Automatically create a case from an email; Dynamics 365; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
+title: Automatically create a case from an email (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Know how to automatically create a case from an email in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Automatically create a case from an email; Dynamics 365 for Customer Engagement; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -68,14 +68,14 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify conditions for email to case creation  
 
-   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in any Dynamics 365 records) are converted to cases. A contact record is also created for this unknown sender.  
+   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in any Dynamics 365 for Customer Engagement records) are converted to cases. A contact record is also created for this unknown sender.  
 
       > [!NOTE]
       >  If this option is not selected, cases are created only for email messages that have a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact or account as the senders. Email messages from sender that are present as other record types in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] won’t be converted to cases.  
 
-        This option, in conjunction with the **Automatically create records in Microsoft Dynamics 365** option in the rule owner’s Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)):  
+        This option, in conjunction with the **Automatically create records in Microsoft Dynamics 365 for Customer Engagement** option in the rule owner’s Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)):  
 
-        This table shows if a contact and case record is created based on the values set for the **Automatically create records in Microsoft Dynamics 365** field in Personal Options and the **Create cases for email from unknown senders** check box in the automatic case creation rule:  
+        This table shows if a contact and case record is created based on the values set for the **Automatically create records in Microsoft Dynamics 365 for Customer Engagement** field in Personal Options and the **Create cases for email from unknown senders** check box in the automatic case creation rule:  
 
 
       | “Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]” option is set to: | If “Create case from unknown sender” option in this rule is set to: |    Contact or case created?     |

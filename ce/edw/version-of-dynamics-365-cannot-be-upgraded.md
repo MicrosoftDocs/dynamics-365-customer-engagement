@@ -1,18 +1,18 @@
 ---
-title: "The version of Microsoft Dynamics 365 that is installed cannot be upgraded | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "The version of Microsoft Dynamics 365 for Customer Engagement that is installed cannot be upgraded | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 33f9d43c-dd5a-4679-82d6-51ad953461b8
 caps.latest.revision: 7
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# The version of Microsoft Dynamics 365 that is installed cannot be upgraded
+# The version of Microsoft Dynamics 365 for Customer Engagement that is installed cannot be upgraded
 
 ## Cause
   
@@ -20,5 +20,5 @@ ms.author: matp
   
 ## Solution
   
- You must first upgrade your version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a suitable version. For more information, see [Plan your upgrade to Microsoft Dynamics 365 Server](../on-premises/plan-your-upgrade-to-microsoft-dynamics-365-server.md).
+ You must first upgrade your version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a suitable version. For more information, see [Plan your upgrade to Microsoft Dynamics 365 for Customer Engagement Server](../on-premises/plan-your-upgrade-to-microsoft-dynamics-365-server.md).
 

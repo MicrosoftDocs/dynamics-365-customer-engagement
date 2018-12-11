@@ -1,6 +1,6 @@
 ---
 
-title: How do I see chargeable utilization for resources? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: How do I see chargeable utilization for resources? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: This article describes the resource utilization view in Project Service.
 author: NeilWOrint 
 manager: ShellyHa

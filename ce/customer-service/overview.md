@@ -1,16 +1,16 @@
 ---
-title: Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Overview of Customer Service in Microsoft Dynamics 365
-keywords: Customer Service;  Microsoft Dynamics 365
+title: Customer Service Overview (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement
+keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement
 ms.date: 06/01/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-customerservice"
+  - dyn365-customerservice
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
 author: anjgupta
 ms.author: anjgup
@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Welcome to Dynamics 365 for Customer Service.
+Welcome to Dynamics 365 for Customer Engagement for Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
 
@@ -54,18 +54,18 @@ There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-serv
     The Customer Service Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Customer Service Hub on a desktop browser for tasks other than managing knowledge articles is not recommended. 
 
 > [!NOTE]
-> For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
+> For mobile devices, you'll also need to [Install Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
 
 If you're using a desktop browser, you'll see the Customer Service app and the Customer Service Hub app in the app switcher as shown here:
 
 ![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Customer Service Hub app in the app switcher as shown here:
+If you're using a mobile device with Dynamics 365 for Customer Engagement for phones and tablets installed, you'll see the Customer Service Hub app in the app switcher as shown here:
 
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md)
+> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement](upgrade-ish-csh.md)
 
 ## Accessibility and GDPR in the Customer Service Hub 
 
@@ -88,11 +88,11 @@ The Service Manager Guide helps you set up everything related to customer servic
 
 - **[!include[](../includes/pn-field-service.md)]**: [!include[](../includes/pn-dyn-365-field-service.md)] provides a complete field service management solution, including service locations, customer assets, preventative maintenance, work order management, resource management, product inventory, scheduling and dispatch, mobility, collaboration, customer billing, and analytics. 
 
-   Learn more about [Dynamics 365 for Field Service](../field-service/overview.md).
+   Learn more about [Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md).
 
 - **Project Service**: [!include[](../includes/pn-dyn-365-project-service-auto.md)] is an end-to-end app that helps sales and delivery teams engage customers and deliver billable projects on time and within budget. 
 
-   Learn more about [Dynamics 365 for Project Service](../project-service/overview.md).
+   Learn more about [Dynamics 365 for Customer Engagement for Project Service](../project-service/overview.md).
 
 - **[!include[](../includes/pn-unified-service-desk.md)]**: [!include[](../includes/pn-unified-service-desk-for-crm.md)] Customer Engagement provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!include[](../includes/pn-dynamics-crm.md)]. You can aggregate customer information from different areas in [!include[](../includes/pn-dynamics-crm.md)] into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business-critical information so they can quickly engage with customers and address queries and issues.
    
@@ -100,7 +100,7 @@ The Service Manager Guide helps you set up everything related to customer servic
 
 ### See also  
 
-[Dynamics 365 for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
+[Dynamics 365 for Customer Engagement for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
 
 [Get started with Service Management](../customer-service/service-manager-guide.md)
 

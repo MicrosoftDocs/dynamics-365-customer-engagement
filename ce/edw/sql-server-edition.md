@@ -1,13 +1,13 @@
 ---
 title: "SQL Server edition | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 f1_keywords: 
-  - "SQLServerValidator.Edition.htm"
+  - SQLServerValidator.Edition.htm
 ms.assetid: c11d4026-8907-499e-87bb-ea08d2507dfe
 caps.latest.revision: 7
 robots: noindex,nofollow

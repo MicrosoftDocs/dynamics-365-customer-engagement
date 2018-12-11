@@ -1,20 +1,20 @@
 ---
-title: "Submit feedback or ratings for information stored in your system (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Submit feedback or ratings for information stored in your system (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shubhadaj
 ms.assetid: b5eb89bc-e828-4b0a-bf80-87f399e4695a
 caps.latest.revision: 9
-ms.author: "shujoshi"
-manager: "sakudes"
+ms.author: shujoshi
+manager: sakudes
 search.audienceType: 
   - enduser
 search.app: 
@@ -28,7 +28,7 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
  For example, if the  Case entity is enabled for feedback, you can capture feedback on the support experience the customer received for the case. When several customers are rating a record, the ratings can be consolidated for each record through a custom rollup field. In a sales scenario, you can enable the Product entity for feedback to capture users' feedback on the products you sell.  
   
- A system administrator or customizer can enable an entity for feedback. If you want to capture feedback for any specific entity, talk to your system administrator or customizer. [Find your Dynamics 365 administrator or support person.](../basics/find-administrator-support.md) 
+ A system administrator or customizer can enable an entity for feedback. If you want to capture feedback for any specific entity, talk to your system administrator or customizer. [Find the administrator or support person for Dynamics 365 for Customer Engagement apps.](../basics/find-administrator-support.md) 
   
 ## Add feedback  
  You can add feedback to any record by using the associated list of records. Or, you can ask your system administrator or customizer to add a sub grid to the entity form.  
@@ -64,7 +64,7 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
         The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
   
-   - **Normalized Rating**. Normalizes the rating down to a 0 - 1 scale. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] calculates the normalized rating based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
+   - **Normalized Rating**. Normalizes the rating down to a 0 - 1 scale. The normalized rating is calculated based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
   
 6. After you're done, click **Save & Close**.  
   

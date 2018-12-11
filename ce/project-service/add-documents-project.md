@@ -1,5 +1,5 @@
 ---
-title: Add documents to a project (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Add documents to a project (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: Steps to add a document to a project in Project Service
 author: krbjoran
 manager: ShellyHa

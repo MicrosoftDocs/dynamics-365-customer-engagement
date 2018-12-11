@@ -1,19 +1,19 @@
 ---
-title: "Streamline JavaScript web resource development using Fiddler AutoResponder (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Streamline JavaScript web resource development using Fiddler AutoResponder (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about how to setup and use AutoResponder in Fiddler for local debugging of JavaScript web resources."
-ms.custom: ""
+ms.custom: 
 ms.date: 09/18/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "sakudes"
+author: SushantSikka
+ms.author: susikka
+manager: sakudes
 search.audienceType: 
   - developer
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-While developing and debugging JavaScript web resources, you can use AutoResponder in [Telerik Fiddler](https://www.telerik.com/fiddler) to replace the content of a web resource with content from a local file rather than uploading it in your Dynamics 365 instance and publishing each time. Use the following steps below to setup AutoResponder in Fiddler.
+While developing and debugging JavaScript web resources, you can use AutoResponder in [Telerik Fiddler](https://www.telerik.com/fiddler) to replace the content of a web resource with content from a local file rather than uploading it in your Dynamics 365 for Customer Engagement instance and publishing each time. Use the following steps below to setup AutoResponder in Fiddler.
 
 ## Install and configure Fiddler
 
@@ -39,7 +39,7 @@ While developing and debugging JavaScript web resources, you can use AutoRespond
 
 ## Configure AutoResponder
 
-1. Open the page in your Dynamics 365 instance that you want to debug.
+1. Open the page in your Dynamics 365 for Customer Engagement apps instance that you want to debug.
 2. Start the Fiddler trace capture by clicking the **Capturing** button in the bottom left corner.
    ![Click on Capturing button to start capturing HTTPS traffic](media/fiddler-start-capturing.png "Click on Capturing button to start capturing HTTPS traffic")</br>
 
@@ -82,6 +82,6 @@ By following the above steps, Fiddler is configured to listen to the requests an
 
 ## See Also
 
-[Web resources for Customer Engagement](web-resources.md)<br />
-[Use JavaScript with Customer Engagement](use-javascript.md)<br />
-[Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)
+[Web resources for Customer Engagement apps](web-resources.md)<br />
+[Use JavaScript with Customer Engagement apps](use-javascript.md)<br />
+[Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)

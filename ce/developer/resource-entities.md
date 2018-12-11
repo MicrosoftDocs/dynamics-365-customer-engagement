@@ -1,29 +1,29 @@
 ---
-title: "Resource entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Resource entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "resources, definition"
-  - "resources, resource calendars"
-  - "resource entities, introduction"
-  - "resources, constraint-based resource groups"
-  - "schedule and appointment entities, resource entities"
-  - "resources, resource groups"
-  - "resources"
-  - "resources, resource specifications"
-  - "resource entities, scheduling engines"
+  - resources, definition
+  - resources, resource calendars
+  - resource entities, introduction
+  - resources, constraint-based resource groups
+  - schedule and appointment entities, resource entities
+  - resources, resource groups
+  - resources
+  - resources, resource specifications
+  - resource entities, scheduling engines
 ms.assetid: 1b5c3bca-66b8-4ff3-8f53-db1021bcf95c
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
