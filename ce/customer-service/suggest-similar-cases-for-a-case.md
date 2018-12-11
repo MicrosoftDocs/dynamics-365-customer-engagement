@@ -1,8 +1,6 @@
 ---
-title: "Preview feature: Suggest similar cases for a case with Dynamics 365 for Customer Engagement| MicrosoftDocs"
-ms.custom: 
-ms.date: 09/30/2017
-ms.reviewer: 
+title: Suggest similar cases for a case with Dynamics 365 for Customer Engagement| MicrosoftDocs
+ms.date: 12/21/2018
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -11,17 +9,18 @@ applies_to:
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 91e10e68-8edf-4eee-a69e-9d9b6fac16f9
-caps.latest.revision: 9
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: anjgupta
+ms.author: anjgup
+manager: shujoshi
 search.audienceType: 
   - admin
+  - customizer
+  - enduser
 search.app: 
   - D365CE
-  - Powerplatform
+  - D365CS
 ---
-# Preview feature: Suggest similar cases for a case
+# Suggest similar cases for a case
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
