@@ -1,5 +1,5 @@
 ---
-title: "Create users in Dynamics 365 for Customer Engagement apps (online) and assign security roles | MicrosoftDocs"
+title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 
@@ -21,9 +21,10 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Create users in Dynamics 365 for Customer Engagement apps (online) and assign security roles
+# Create users in Dynamics 365 for Customer Engagement apps and assign security roles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to Customer Engagement apps. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
@@ -273,7 +274,183 @@ A stub user is a user record that has been created as a placeholder. For example
 
 A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
 
-  
+## Manage users in Microsoft Dynamics 365 (on-premises)
+
+With Microsoft Dynamics 365 (on-premises), you can add users to your organization one at a time, or add multiple users at the same time by using the **Add Users** wizard.
+
+### Add a user
+
+1.  Go to **Settings** > **Security**.
+
+2.  Choose **Users**.
+
+3.  On the toolbar, choose **New**.
+
+4.  On the **New User** page, in the **Account Information** section, specify the **User Name** for the user.
+
+5.  In the **User Information** section, specify the **Full Name** for the user.
+
+6.  In the **Organization Information** section, verify the **Business Unit** for the user.
+
+7.  Follow the step for the task you’re doing:
+    
+      - To save the information for the new user, choose **Save**.
+    
+      - To save the information for the user and add another user, choose **Save & New**.
+    
+      - To add another user without saving the information you entered for the user, choose **New**, and then in the **Message from webpage** dialog box, choose **OK**.
+    
+    Next, you’ll need to assign a security role to the newly added user. See “Assign a security role to a user” later in this topic.
+
+### Add multiple users
+
+You can add multiple user records for the same set of security roles by using the Add Users wizard. Any users you add must be in the Active Directory directory service.
+
+1.  Go to **Settings** > **Security**.
+
+2.  Choose **Users**.
+
+3.  On the toolbar, choose **New Multiple Users**.
+    
+    The **Add Users** wizard opens.
+
+4.  On the **Select Security Roles** page, select one or more security roles, and then choose **Next**.
+
+5.  On the **Select Access and License Type** page, under **Access Type**, select the appropriate access type for this set of users.
+
+6.  Under **License Type**, specify the license type for this set of users.
+
+7.  Under **Email Access Configuration**, specify how this set of users will access incoming and outgoing email messages, and then choose **Next**.
+
+8.  On the **Select Domain or Group** page, specify to select users from all trusted domains and groups or users from a particular domain or group, and then choose **Next**.
+
+9.  On the **Select Users** page, type a part of the name of user you want to add to Microsoft Dynamics 365. Use semi-colons between names.
+    
+10. Choose **Create New Users**.
+
+11. On the **Summary** page, review the information about the user additions, and then follow the step for the task you are performing:
+    
+      - To close the Add Users wizard, choose **Close**.
+    
+      - If you need to add more users, for example with a different set of security roles, choose **Add More Users** to begin the wizard again.
+    
+
+    > [!NOTE]
+    > To edit a specific user record, close the wizard, and then open the user record from the list.
+
+### Assign a security role to a user
+
+After you create users, you must assign security roles for them to use Microsoft Dynamics 365. Even if a user is a member of a team with its own security privileges, the user won’t be able to see some data and may experience other problems when trying to use the system. More information: [Security roles and privileges](security-roles-privileges.md)
+
+1.  Go to **Settings** > **Security**.
+
+2.  Choose **Users**.
+
+3.  In the list, select the user or users that you want to assign a security role to.
+
+4.  Choose **More Commands** (***...***) > **Manage Roles**.
+    
+    Only the security roles available for that user's business unit are displayed.
+
+5.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then choose **OK**.
+
+
+### Enable a user
+
+1.  Go to **Settings** > **Security**.
+
+2.  Select **Users**.
+
+3.  Select the down arrow next to **Enabled Users**, and then choose **Disabled Users**.
+
+4.  Select the checkmark next to the user you want to enable, and on the Actions toolbar, select **Enable**.
+
+5.  In the **Confirm User Activation** message, select **Activate**.
+
+## Disable a user
+
+1.  Go to **Settings** > **Security**.
+
+2.  Choose **Users**.
+
+3.  In the **Enabled Users** view, select the checkmark next to the user you want to disable.
+
+4.  On the Actions toolbar, select **Disable**.
+
+5.  In the **Confirm User Record Deactivation** message, select **Deactivate**.
+
+### Update a user record to reflect changes in Active Directory
+
+When you create a new user or update an existing user in Microsoft Dynamics 365 (on-premises), some fields in the Dynamics 365 user records, such as the name and phone number, are populated with the information obtained from Active Directory Domain Services (AD DS). After the user record is created in Dynamics 365, there is no further synchronization between Active Directory user accounts and Dynamics 365 user records. If you make changes to the Active Directory user account, you must manually edit the Dynamics 365 user record to reflect the changes.
+
+1.  Go to **Settings** > **Security**.
+
+2.  Choose **Users**.
+
+3.  In the list, select the user you want to update, and then choose **Edit**.
+
+The following table shows the fields that are populated on the Dynamics 365 user form (user record) from the Active Directory user account:
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Dynamics 365 user form</p></th>
+<th><p>Active Directory user</p></th>
+<th><p>Active Directory object tab</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>User name</p></td>
+<td><p>User logon name</p></td>
+<td><p>Account</p></td>
+</tr>
+<tr class="even">
+<td><p>First name</p></td>
+<td><p>First name</p></td>
+<td><p>General</p></td>
+</tr>
+<tr class="odd">
+<td><p>Last name</p></td>
+<td><p>Last name</p></td>
+<td><p>General</p></td>
+</tr>
+<tr class="even">
+<td><p>Main Phone</p></td>
+<td><p>Telephone number</p></td>
+<td><p>General</p></td>
+</tr>
+<tr class="odd">
+<td><p>Primary Email</p></td>
+<td><p>Email</p></td>
+<td><p>General</p></td>
+</tr>
+<tr class="even">
+<td><p>*Address</p></td>
+<td><p>City</p></td>
+<td><p>Address</p></td>
+</tr>
+<tr class="odd">
+<td><p>*Address</p></td>
+<td><p>State/province</p></td>
+<td><p>Address</p></td>
+</tr>
+<tr class="even">
+<td><p>Home phone</p></td>
+<td><p>Home</p></td>
+<td><p>Telephones</p></td>
+</tr>
+</tbody>
+</table>
+
+* The Dynamics 365 Address field is comprised of the values from the City and State/province fields in Active Directory.
+
+
 ### See also  
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
  [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)   
