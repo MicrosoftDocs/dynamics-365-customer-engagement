@@ -34,7 +34,7 @@ The forms that are displayed on the portal for creating and updating cases can b
 
 2. A list of cases logged by you is displayed.
 
-    ![View existing cases](media/view-cases.png View existing cases) 
+    ![View existing cases](media/view-cases.png "View existing cases") 
 
 3. To create new case, select **Open a New Case**.
 
