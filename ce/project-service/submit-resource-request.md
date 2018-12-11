@@ -5,7 +5,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/29/2018
+ms.date: 12/1/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -23,8 +23,10 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-You can submit a generated resource requirement as a resource request to be fulfilled by a resource manager.  
-1. In PSA, go to you have generated a resource requirement for a generic team member, click on the Submit Request button.
+You can submit a generated resource requirement as a resource request. The request is then sent to a resource manager for fulfillment.
+
+1. In PSA, on the **Projects** page, click the **Team** tab to view a list bookable resources. 
+2. Select the of you have generated a resource requirement for a generic team member, click on the **Submit Request** button.
 
 ![Submitting a resource request](media/RM-how-to-18.png)
 
