@@ -32,11 +32,12 @@
 ### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 ### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
 ### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
-### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
-### [Create and manage categories](create-manage-categories.md)
 ### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 ### [Create email templates](../admin/create-templates-email.md)
 ### [Create article templates](../admin/create-templates-articles.md)
+### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+### [Create and manage categories](create-manage-categories.md)
+### [Suggest similar records using advanced similarity rules](suggest-similar-cases-for-a-case.md)
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
