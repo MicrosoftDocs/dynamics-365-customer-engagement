@@ -39,4 +39,4 @@ To clear the server-side cache
 
 The server-side cache is deleted, and data is reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Note that clearing the portal server-side cache will temporararily cause poor portal performance while data is being reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
         
-![Clear the portal cache](media/clear-portal-cache.png Clear the portal cache)
+![Clear the portal cache](media/clear-portal-cache.png "Clear the portal cache")
