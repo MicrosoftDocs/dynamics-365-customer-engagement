@@ -26,7 +26,7 @@ search.app:
 
 In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks. These resources can serve as placeholders for named resources until you are ready to staff your project with named resources. 
 
-1. In PSA, open the **Project** page and on the **Schedule** tab, enter the position name of the generic resource in the **Resource** cell of the schedule. Or, click the **Resource** icon in the cell to open the resource picker and then enter the name of the generic resource you want to create.
+1. In Project Service Automation (PSA), open the **Project** page and on the **Schedule** tab, enter the position name of the generic resource in the **Resource** cell of the schedule. Or, click the **Resource** icon in the cell to open the resource picker and then enter the name of the generic resource that you want to create.
 
 ![Creating and assigning a generic team member](media/RM-how-to-9.png)
 
@@ -40,15 +40,15 @@ This will open the **Quick Create: Project Team Member** panel.
 
 ![Assigning existing generic team member to tasks](media/RM-how-to-11.png)
 
-4. After you have assigned the generic resource, you can generate a resource requirement and fulfil it by directly booking or submitting a resource request to a resource manager.
+4. After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.
 
 ![Booking a generic team member using schedule assistant](media/RM-how-to-15.png) 
 
 ![Generating a requirement for a generic team member](media/RM-how-to-12.png)
 
-On the team member grid, besides being able to use the reosurce picker as mentioned above, you can add generic resources directly. The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.
+On the team member grid, in addition to being able to use the resource picker as mentioned above, you can add generic resources directly. The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.
 
-You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover. Click **Generate Requirement** to regenerate the requirement to true up the required hours 
+You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover. Click **Generate Requirement** to regenerate the requirement to balance the required hours 
 against assignments.
 
 You can also click the **Resource requirement** link in the team grid to open the requirement and add skills, preferred resources, etc.
