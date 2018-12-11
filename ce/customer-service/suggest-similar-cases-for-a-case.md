@@ -1,5 +1,5 @@
 ---
-title: Suggest similar cases for a case with Dynamics 365 for Customer Engagement| MicrosoftDocs
+title: Suggest similar records for a record with Dynamics 365 for Customer Engagement| MicrosoftDocs
 ms.date: 12/21/2018
 ms.service: crm-online
 ms.suite: 
@@ -20,71 +20,90 @@ search.app:
   - D365CE
   - D365CS
 ---
-# Suggest similar cases using advanced similarity rules
+# Suggest similar records using advanced similarity rules
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You're working on a support case and you wonder if there's a similar case that might help you resolve yours. With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics, you can quickly find related cases and use them to resolve your current case. Keywords or key phrases  in a service case are used to find similar cases.  
-  
-> [!IMPORTANT]
-> - This feature is currently only available for instances in the United States (US) region.  
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
-> 
-> **Send us feedback**  
-> 
->  We'd love your feedback on the suggest similar cases feature! To send us your feedback, register your account on the [Microsoft Connect site](https://connect.microsoft.com/site687), and then [submit your feedback](https://connect.microsoft.com/site687/Feedback/LoadSubmitFeedbackForm?FormID=5908).  
-  
-<a name="BKMK_EnablePreview"></a>   
+Quickly support your customers by viewing similar record suggestions in the Customer Service Hub. With the help of advanced similarity rules, you can now view records similar to your current record and resolve customer issues in the first contact and within minimal time. This helps in increased customer satisfaction (CSAT) and reduced operational cost. 
 
-## Enable Text Analytics  
- To enable Text Analytics, do the following:  
+For example, if you're working on a support case, you can view similar cases in the Related section, and resolve your current case quickly. With the help of Relevance search, you can leverage keywords or key phrases in a service case to quickly find related cases and use them to resolve your current case. 
   
-1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
-  
-2. Click **System Settings** and open the **Previews** tab.  
-  
-3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 for Customer Engagement apps Text Analytics Preview** to **Yes**.  
-  
-4. Click **OK** to give your consent.  
-  
-5. Click **OK** to close the **System Settings** dialog.  
-  
-<a name="BKMK_ConnectTextAnalytics"></a>   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
 
-## Connect Dynamics 365 for Customer Engagement apps (online) to the Cognitive Services Text Analytics service  
- If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
-  
-<a name="BKMK_SetUpSimilarCase"></a>   
+## Create a new similar record suggestion rule
+ Set up automatic suggestion of similar records by creating rules. The rules you create use Relevance search mechanism.
 
-## Define and activate similarity rules  
- If you have not already defined similarity rules, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create_similar_record_rules). For this feature, you need to select Case as the Source Entity for the similarity rule.  
-  
-<a name="BKMK_SeeRelatedCases"></a>   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
 
-## See related cases  
- After configuring the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service and setting up similar records suggestions, you're ready to see cases related to the ones you're working on.  
+> [!NOTE]
+> You can create only one similar records suggestions rule for each entity type.  
+
+1. In the Customer Service Hub sitemap, go to **Service Management** > **Advanced Similarity Rules**.  
+
+   The **Advanced Similarity Rules** page is disolayed.
+
+2. Select **New** from the command bar to create a new advanced similarity rule.  
+
+3. In the **Details** tab:
+   - Fill in the fields in the new advanced similarity rule dialog:
+
+
+     |                   Item                   |                                                                                                                                                                                                      Description                                                                                                                                                                                                      |
+     |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |             Name (required)              |                                                                                                                                                                                             The name of the rule.                                                                                                                                                                                              |
+     |         Source Entity (required)         |                                                                                                The entity for which similar records are suggested.  Select either Account, Case, Contact, Lead, Opportunity, or a custom entity that has an N:N relationship with one of the entities supported for similarity rules.                                                                                                 |
+     |               Description                |                                                                                                                                                                                         A description of the similarity rule.                                                                                                                                                                                         |
+     |Noise Keyphrases||
+      |         Filter Result by Status          |                                                                                                                                          Filter records by status                                                                                                                                          |
+
+    - Select **Save** to save the rule.
+
+  4. In the **Match Fields** tab:
+
+     - Select **Add New Text Analytics Entity Mapping** to add a new related text analytics entity mapping record to this rule.
+     - Fill in the details in the **Details** tab in the new record. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.  
+
+
+       |   Item   |                                                                                                                                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                                                                                                                                             |
+       |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+       | Criteria |                                                                                                                                      **Exact match**: only fields from the source entity are matched. **Note:**  By default, not all fields are enabled for exact matching. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#EnableFieldExactMatch) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
+       |  Entity (required)  |                                                                                                                                               Choose an entity from the drop-down list to be used to create a text search rule to find matching records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.                                                                                                                                              |
+       | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. The following types of fields are available: Option Set, Single Line of Text, Multiple Lines of Text.<br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
+
+
+5. Select **Save** to save the rule.
+
+6. Select **Activate** from the command bar to activate the rule.
+
+Similarly, add more mappings to create a comprehensive search of related records.
+
+### Enable a field for exact matching of similar records  
+ To enable a field for exact match, add the field in the Quick find view of the corresponding entity.  
+
+1.  Go to **Settings** > **Customizations** > **Customize the System**.  
+
+2.  Expand **Entities**, expand the entity that you want to enable exact matching, such as the Account entity, and then click **Views**.  
+
+3.  Click **Quick Find Active Accounts**, click **More Actions**, and then click **Edit**.  
+
+4.  Under Common Tasks, click **Add Find Columns**, and then select the field that you want to enable exact matching.  
+
+5.  Click **OK**, and then click **Save and Close** on the Quick Find Active Accounts page.  
+
+6.  Because adding a field to a view  is a customization, you must publish the customization to enable exact matching for the field. To do this, in the left navigation pane click the entity, such as Account, and then click **Publish**. To publish all customizations, click **Publish All Customizations**.  
   
-1. Click **Service** > **Cases** and open a case.  
+## See related records in the Customer Service Hub
+
+You can view the similar record suggestions in the Related section of the Customer Service Hub. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See and manage related records in the Related section](customer-service-hub-user-guide-case-sla.md#see-and-manage-related-records-in-the-related-section)
   
-2. For similar cases, click **Find**.  
+1. In the Customer Service Hub, navigate to **Service** > **Cases** and open a case from the **My Active Cases** view.
   
-   ![Find similar cases](../admin/media/find-similar-cases.png "Find similar cases")  
+2. Select the **Similar Cases** button in the **Related** section to view cases similar to the current case.  
   
-3. Click a case title to review that case's posts, activities, and notes. Then click **Found a Solution!** to add a  case with useful information to the **Similar Cases** area (under **Case Relationships**) to the case you're working on.  
-  
-<a name="BKMK_ISHSearch"></a>   
-## See related cases in the interactive service hub  
- The interactive service hub  unifies vital information in one place, and lets you focus on things that require your attention, like finding articles and cases related to your active case.  
-  
-1. Open the interactive service hub. See [Open the interactive service hub](../customer-service/user-guide-customer-service.md).  
-  
-2. Click **Service** > **Cases** and open a case.  
-  
-3. Click the **Similar Cases** button to find related cases.  
-  
-   ![Interactive Service Hub similar cases](../admin/media/interactive-service-hub-similar-cases.png "Interactive Service Hub similar cases")  
+   ![View similar cases](media/view-similar-cases.png)
   
 ### See also  
- [User's guide for the new interactive service hub](../customer-service/user-guide-customer-service.md)   
+
+[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
