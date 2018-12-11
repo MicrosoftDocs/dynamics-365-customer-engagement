@@ -1,9 +1,9 @@
 ---
-title: "Restrict access to a portal by using IP address in Dynamics 365 | MicrosoftDocs"
+title: "Restrict access to a portal by using IP address in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to restrict portal access by IP address."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/17/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -39,20 +39,20 @@ To allow access to a portal from an IP address or a set of IP addresses, you can
 
 Once you add an IP address to the restriction list, the portal will be accessible to the specified IP address only. If you try to access the portal from any other IP addresses, access will be denied and a web page with an HTTP 403 status code is displayed. The content of this web page is static and cannot be modified.
 
-> [!div class="mx-imgBorder"]
-> ![HTML 403 error](media/ip-address-page-error.png "HTML 403 error")  
+> [!div class=mx-imgBorder]
+> ![HTML 403 error](media/ip-address-page-error.png HTML 403 error)  
 
 > [!NOTE]
 > You must specify a public IP address that can be accessed by the portal. Private IP address can't be accessed by the portal.
 
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want restrict access by IP address, and then select **Manage**.
 
 3.	Go to **Set up IP address restriction**. A list of IP addresses and their type is displayed.
 
-    > [!div class="mx-imgBorder"]
-    > ![Set up IP address restriction](media/set-up-ip-address-restrict.png "Set up IP address restriction")
+    > [!div class=mx-imgBorder]
+    > ![Set up IP address restriction](media/set-up-ip-address-restrict.png Set up IP address restriction)
 
 4.	On the Set up IP address restriction page, select **Add an IP address (+)**.
 
@@ -62,8 +62,8 @@ Once you add an IP address to the restriction list, the portal will be accessibl
 
     - **Specify IP address in CIDR notation**: Specify the IP address in CIDR notation. More information: [Classless Inter-Domain Routing](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 
-      > [!div class="mx-imgBorder"]
-      > ![Add an IP address](media/add-ip-address.png "Add an IP address")    
+      > [!div class=mx-imgBorder]
+      > ![Add an IP address](media/add-ip-address.png Add an IP address)    
 
 6.	Select **Configure**.
 
@@ -71,14 +71,14 @@ Once you add an IP address to the restriction list, the portal will be accessibl
 
 To remove access to a portal from a previously allowed IP address, you can remove the IP address from the list. If you remove all IP addresses, the portal will be accessible from all IP addresses.
 
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want restrict access by IP address, and then select **Manage**.
 
 3.	Go to **Set up IP address restriction**. A list of IP addresses and their type is displayed.
 
-    > [!div class="mx-imgBorder"]
-    > ![Set up IP address restriction](media/set-up-ip-address-restrict.png "Set up IP address restriction")
+    > [!div class=mx-imgBorder]
+    > ![Set up IP address restriction](media/set-up-ip-address-restrict.png Set up IP address restriction)
 
 4.	Select **Remove an IP address (x)** next to the IP address to be removed.
 

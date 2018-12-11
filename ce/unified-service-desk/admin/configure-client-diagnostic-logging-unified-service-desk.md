@@ -1,27 +1,27 @@
 ---
-title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set client diagnostic logging."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 3c690a33-f305-4a6d-a65d-990e9504d5e5
 caps.latest.revision: 25
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 
@@ -31,7 +31,7 @@ search.app:
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
-- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 - By manually making changes to the UnifiedServiceDesk.exe.config file. This file must then be distributed to every desktop where you want [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging.  
 
@@ -49,7 +49,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 
  You can enable logging with the **UnifiedServiceDesk.exe.config** file, which is available in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client installation directory on your computer. To configure the type of logging and location of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] log file:  
 
-1. Open the **UnifiedServiceDesk.exe.config** file for editing. If you installed the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client at the default location, this file will typically be available at C:\Program Files\Microsoft Dynamics 365 USD\USD.  
+1. Open the **UnifiedServiceDesk.exe.config** file for editing. If you installed the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client at the default location, this file will typically be available at C:\Program Files\Microsoft Dynamics 365 for Customer Engagement USD\USD.  
 
 2. Go to the `<switches>` section in the file:  
 
@@ -169,7 +169,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="View_diagnostic_log"></a>   
 ## Viewing the diagnostic log file  
- By default, diagnostics logging is enabled for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. A log file, **UnifiedServiceDesk-\<date>.log**, is available at c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\*\<Version>* on the client computer to record operational errors in the client application. The log file is created the first time you encounter any errors in the client application.  
+ By default, diagnostics logging is enabled for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. A log file, **UnifiedServiceDesk-\<date>.log**, is available at c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\\*\<Version>* on the client computer to record operational errors in the client application. The log file is created the first time you encounter any errors in the client application.  
 
  When an error occurs in a hosted control, the  information logged in the log files provide detailed information about the exception such as the originating hosted control that caused the exception along with the exception details. Notice that the entire JavaScript code that caused the exception isn't logged. Only the faulty code along with exception description are logged.  
 

@@ -1,15 +1,15 @@
 ---
-title: "SharePointSite Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SharePointSite Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SharePointSite entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -17,7 +17,7 @@ search.app:
 ---
 # SharePointSite Entity Reference
 
-SharePoint site from where documents can be managed in Microsoft Dynamics 365.
+SharePoint site from where documents can be managed in Microsoft Dynamics 365 for Customer Engagement apps.
 
 
 ## Messages
@@ -122,7 +122,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Entity on which the folder structure for Microsoft Dynamics 365 records will be created in SharePoint.|
+|Description|Entity on which the folder structure for Microsoft Dynamics 365 for Customer Engagement apps records will be created in SharePoint.|
 |DisplayName|Entity for SharePoint Folder Structure|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -360,7 +360,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the SharePoint site in Dynamics 365|
+|Description|Unique identifier of the SharePoint site in Dynamics 365 for Customer Engagement apps|
 |DisplayName|SharePoint Site ID|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -501,7 +501,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |1|This record's URL has not been validated.|
 |2|This record's URL is valid.|
 |3|This record's URL is not valid.|
-|4|The URL schemes of Microsoft Dynamics 365 and SharePoint are different.|
+|4|The URL schemes of Microsoft Dynamics 365 for Customer Engagement apps and SharePoint are different.|
 |5|The URL could not be accessed because of Internet Explorer security settings.|
 |6|Authentication failure.|
 |7|Invalid certificates.|
@@ -1122,6 +1122,6 @@ See systemuser Entity [lk_sharepointsitebase_modifiedby](systemuser.md#BKMK_lk_s
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sharepointsite?text=sharepointsite EntityType" />

@@ -1,17 +1,17 @@
 ---
 title: "Enhance business process flows with branching | MicrosoftDocs"
 description: "Learn how to use branching in a business process flow"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/04/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "Mattp123"
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+author: Mattp123
 ms.assetid: 62cfac6b-0d78-48de-9364-0287454aa2a0
 caps.latest.revision: 9
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 

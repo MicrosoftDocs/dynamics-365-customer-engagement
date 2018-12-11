@@ -1,20 +1,20 @@
 ---
-title: "Add a phone call, task, email, or appointment activity to a case or record (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Add a phone call, task, email, or appointment activity to a case or record (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 08/29/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b72fe4a3-30b8-4dc4-9b93-e87e5cdb7ef0
 caps.latest.revision: 39
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 
@@ -28,7 +28,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
  All activities that you add from within a record appear in the **Activities** area. If the **Regarding** field of an activity is set, the activity appears in the activity wall of the regarding record. You can filter the list to show just the activities that are in progress or the ones that are overdue. Click or tap the inline **Complete** link to close the activity as **Completed**.  
   
- ![Add activities in Dynamics 365](../customer-service/media/add-activities-dynamics-crm.png "Add activities in Dynamics 365")  
+ ![Add activities in Dynamics 365 for Customer Engagement](../customer-service/media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 for Customer Engagement")  
 
 > [!NOTE]
 > **Change conversation view**
@@ -108,11 +108,11 @@ The activity and notes area helps you keep track of all the interactions with yo
 4. To save the record, click **Save**.  
   
 ## Add notes  
- You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+ You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 for Customer Engagement appsapp records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
  This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
- ![Add notes or OneNote notes in Dynamics 365](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365")  
+ ![Add notes or OneNote notes in Dynamics 365 for Customer Engagement apps](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 for Customer Engagement apps")  
   
 1.  Open the record you want to add the activity to.  
   
@@ -125,7 +125,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
-  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 for Customer Engagement appsapp](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
 ## Create an activity and associate it with a customer  
  You can also create an activity from the Activity area and then link it to a customer or support case.  
@@ -139,7 +139,7 @@ The activity and notes area helps you keep track of all the interactions with yo
 4. Use the **Regarding** field on the activity form to associate it with a customer or support case.  
   
 ### See Also  
- [Set up OneNote integration in Dynamics 365](../admin/set-up-onenote-integration-in-dynamics-365.md)   
+ [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md)   
  [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)</br>
  [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service-hub.md)
  

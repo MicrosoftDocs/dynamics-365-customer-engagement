@@ -1,19 +1,19 @@
 ---
 title: "The workspace, your personalized action hub in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/01/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics CRM Online
+author: jimholtz
 ms.assetid: c2ee648b-0338-439a-abec-c30bb264258a
 caps.latest.revision: 14
-ms.author: "mkaur"
+ms.author: mkaur
 search.audienceType: 
   - admin
   - customizer

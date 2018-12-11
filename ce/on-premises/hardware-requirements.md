@@ -1,14 +1,14 @@
 ---
 title: "Hardware requirements | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: d656262d-7828-443d-bebc-52c4170341f5
 caps.latest.revision: 9
 author: Mattp123
@@ -38,13 +38,13 @@ Depending on how you plan to deploy the system, as a single-server solution, a m
   
  For a list of the suggested hardware requirements, see these topics:  
   
--   [Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)  
+-   [Dynamics 365 for Customer Engagement Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)  
   
 -   [Microsoft SQL Server hardware requirements](sql-server-hardware-requirements-dynamics-365-server.md)  
   
 ## See also  
- [Dynamics 365 for Outlook hardware requirements](../outlook-addin/admin-guide/hardware-requirements.md)   </br>
+ [Dynamics 365 for Customer Engagement for Outlook hardware requirements](../outlook-addin/admin-guide/hardware-requirements.md)   </br>
  [Phone and tablet support](../mobile-app/support-phones-tablets.md)   </br>
- [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md) </br>
- [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
+ [User Guide (Dynamics 365 for Customer Engagement for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md) </br>
+ [Software requirements for Microsoft Dynamics 365 for Customer Engagement Server](software-requirements-for-microsoft-dynamics-365-server.md)
 

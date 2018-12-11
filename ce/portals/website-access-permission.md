@@ -1,12 +1,12 @@
 ---
-title: "Create website access permissions in Dynamics 365 portals | MicrosoftDocs"
+title: "Create website access permissions in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to create and associate website access permissions to elements in a portal."
-ms.date: 05/14/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: D335B1E1-B5E4-4E01-9A6A-0DA781D19973
 author: sbmjais
 ms.author: shjais
@@ -48,4 +48,4 @@ To create a website access permission and add it to a web role:
 
 6. Save the changes.
 
-    ![Create website access permission](media/website-access-permission.png "Create website access permission")  
+    ![Create website access permission](media/website-access-permission.png Create website access permission)  

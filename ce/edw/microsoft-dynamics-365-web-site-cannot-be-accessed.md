@@ -1,26 +1,26 @@
 ---
-title: "Microsoft Dynamics 365 website cannot be accessed | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Microsoft Dynamics 365 for Customer Engagement website cannot be accessed | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 01f421a9-da60-4d47-a06a-75550ee94430
 caps.latest.revision: 7
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 website cannot be accessed
+# Microsoft Dynamics 365 for Customer Engagement website cannot be accessed
 
 ## Cause
   
  Setup cannot access the specified website. The error message provides HTTP status codes and error details. There are several possible causes for this error:  
   
--   One or more folders where the Microsoft Dynamics 365 website is installed are missing.  
+-   One or more folders where the Microsoft Dynamics 365 for Customer Engagement website is installed are missing.  
   
--   The user account running Setup does not have sufficient permissions on the folder or subfolders where the Microsoft Dynamics 365 website is installed. By default, the top-level folder is located in \<Drive>:\Program Files\Microsoft Dynamics 365\CRMWeb and the account must have Read, Write, and Modify permissions.  
+-   The user account running Setup does not have sufficient permissions on the folder or subfolders where the Microsoft Dynamics 365 for Customer Engagement website is installed. By default, the top-level folder is located in \<Drive>:\Program Files\Microsoft Dynamics 365 for Customer Engagement\CRMWeb and the account must have Read, Write, and Modify permissions.  
   
 -   Internet options specify using a proxy server for local addresses (HTTP status 502 Bad Gateway).  
   

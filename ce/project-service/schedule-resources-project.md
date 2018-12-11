@@ -1,5 +1,5 @@
 ---
-title: Schedule resources for a project (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Schedule resources for a project (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to schedule resources for a project in Project Service
 author: krbjoran
 manager: ShellyHa

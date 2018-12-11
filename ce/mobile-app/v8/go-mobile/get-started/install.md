@@ -1,24 +1,24 @@
 ---
 title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 2016-11-01
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
+author: mduelae
 ms.assetid: 7dc8f57e-ce10-40a9-a827-ae0fe13f0b93
 caps.latest.revision: 77
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -39,7 +39,7 @@ search.app:
 ## Privileges required to run the app  
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
 
 <a name="bkmk2"></a>   
 ## Install the app from your device’s app store  

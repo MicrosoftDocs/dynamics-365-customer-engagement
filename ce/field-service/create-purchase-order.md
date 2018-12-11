@@ -1,18 +1,18 @@
 ---
-title: "Create a purchase order (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create a purchase order (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: d0dd3b42-498f-492d-89c7-f5c3d2e11a2d
 caps.latest.revision: 20
@@ -81,11 +81,11 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
   
 2. To show open P.O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
   
-   ![Show purchase order products not received in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 field service")  
+   ![Show purchase order products not received in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 for Customer Engagement field service")  
   
 3. Click the area under the **Quantity** field and type in the quantity to be received  
   
-   ![Purchase order receipt quantity in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG "Purchase order receipt quantity in Dynamics 365 field service")  
+   ![Purchase order receipt quantity in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG "Purchase order receipt quantity in Dynamics 365 for Customer Engagement field service")  
   
 4. Click **Save**.  
   
@@ -112,7 +112,7 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 6.  On the **Purchase Order receipt Product Associated View** screen, click **+Add New Purchase Order Receipt Products**, and then add the item.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
  [Create an inventory transfer](../field-service/create-inventory-transfer.md)   

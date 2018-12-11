@@ -1,22 +1,22 @@
 ---
-title: "Test and troubleshoot reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Test and troubleshoot reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c9f06327-3b52-4850-a415-d5f59b9e29aa
 caps.latest.revision: 12
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: Mattp123
+ms.author: matp
+manager: amyla
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - customizer
 search.app: 
@@ -34,9 +34,9 @@ After you have created a report, test it to see if it produces the results that 
   
 2. If any errors are reported, correct the cause of the errors, and then run the test again.  
   
-3. When the report works correctly, publish the report to the report server. To do this, in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Sales** > **Reports**. Click **New**, and then fill out the requested information.  
+3. When the report works correctly, publish the report to the report server. To do this, in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, go to **Sales** > **Reports**. Click **New**, and then fill out the requested information.  
   
-4. Run the published report from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to verify the report's operation.  
+4. Run the published report from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to verify the report's operation.  
   
 ## Suggestions for testing a report  
  The following list of suggestions is provided as a guide for testing your reports:  
@@ -47,7 +47,7 @@ After you have created a report, test it to see if it produces the results that 
   
 - Some reports are context sensitive and can be run against selected records in a list. For those types of reports, verify that the report can be run against system views, custom system views, user queries, and selected records.  
   
-- Verify that you can take snapshots of the report through the Scheduling Wizard in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Verify that you can take snapshots of the report through the Scheduling Wizard in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
   
 - Verify that you can save the report as a PDF file. Reports frequently print better with PDF formatting.  
   

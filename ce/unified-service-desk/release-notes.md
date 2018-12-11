@@ -1,19 +1,17 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 05/7/2018
 ms.service: 
-  - "usd"
-ms.custom: 
-  - ""
+  - usd
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: B0070DA6-803C-4F92-92E7-9524EDD7C1A2
 author: kabala123
 ms.author: kabala
@@ -36,7 +34,7 @@ This section describes the known issues in [!INCLUDE[pn_unified_service_desk](..
 
 ## Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
-If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, the KM Control is changed to Unified Interface KM Control.
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 for Customer Engagement apps Web Client to Dynamics 365 for Customer Engagement apps Unified Interface, the KM Control is changed to Unified Interface KM Control.
 
 With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can server error.
 
@@ -46,7 +44,7 @@ With the Unified Interface KM Control hosted control, if you login to Unified Se
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
-In the Dynamics 365 Web Client configurations, got to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+In the Dynamics 365 for Customer Engagement apps Web Client configurations, got to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 
@@ -77,7 +75,7 @@ Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-s
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.<br>
 
@@ -102,7 +100,7 @@ Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.
 
 ## Unified Interface form does not close the tab and navigates to Dashboard
 
-Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 Unified Interface. 
+Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 for Customer Engagement apps Unified Interface. 
 
 ![Disable autosave in Unified Interface forms](media/crm-unified-interface-disable-autosave.png "Disable autosave in Unified Interface forms")
 
@@ -130,7 +128,7 @@ You cannot view and attach an action call to another call (sub-action call) in U
 
 ### Workaround
 
-You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 Web Client. 
+You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 for Customer Engagement apps Web Client. 
 
 ## Limitations
 
@@ -138,7 +136,7 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ## Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 for Customer Engagement apps and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ## Quick create in Unified Service Administrator app
 
@@ -148,9 +146,9 @@ Selecting the **New** button (quick create)  in the **Navigation** toolbar of th
 
 ## Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
 
-By default, when you a open Dynamics 365 page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
+By default, when you a open Dynamics 365 for Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
 
-However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 to hide the command bar and display the navigation bar, the Dynamics 365 page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
+However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 for Customer Engagement apps to hide the command bar and display the navigation bar, the Dynamics 365 for Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
 
 To execute the configuration, disable the Internet Explorer pooling.
 
@@ -170,9 +168,9 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ## Best Practices Analyzer
 
-- **Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
+- **Warning for HelpImproveUSD parameter in Dynamics 365 for Customer Engagement (on-premises) apps**
 
-  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)], you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
+  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)] apps, you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 
 - **Error for Enable Enhanced Protected mode in Windows 7 operating system**
 
@@ -182,7 +180,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 - **Insufficient permissions to provide feedback**
 
-  The **Provide Feedback** feature is available only if you have a [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] instance.
+  The **Provide Feedback** feature is available only if you have a [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] apps instance.
 
   If you log in using administrator credentials and select **Provide Feedback** to provide your feedback/comments, you can see an **Insufficient Permissions** message. 
 
@@ -262,7 +260,7 @@ Configure **Show Outside** action call to show the webpage in an **IE process** 
 
 In this step, you will create an action call to show the webpage.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Clikc **Action Calls**.
 4. Click **+ New**.
@@ -282,7 +280,7 @@ In this step, you will create an action call to show the webpage.
 
 In this step you will create a navigation rule and set the order before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Click **Window Navigation Rules**.
 4. Click **+ New**.

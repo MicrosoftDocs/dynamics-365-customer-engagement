@@ -1,9 +1,9 @@
 ---
-title: "Configure a web form steps for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure a web form steps for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create a web form step for a web form on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -30,7 +30,7 @@ The Web Form Step provides the flow logic of the form's user experience such as 
 
 Each Web Form will be presented on the portal has one or more steps. These steps share some common properties, outlined below. Each Step contains a pointer (a lookup) to the next step, with the exception of terminal steps. Terminal steps do not have a next time, and are thus the last step of the Web Form (due to conditional branching, there can be multiple terminal steps)
 
-![Steps to create a web form](media/web-form-creation-steps.png "Steps to create a web form")  
+![Steps to create a web form](media/web-form-creation-steps.png Steps to create a web form)  
 
 | Name     | Description                                    |
 |----------|------------------------------------------------|
@@ -44,8 +44,8 @@ Each Web Form will be presented on the portal has one or more steps. These steps
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

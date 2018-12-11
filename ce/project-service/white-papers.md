@@ -1,5 +1,5 @@
 ---
-title: White papers for Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
+title: White papers for Project Service (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: A collection of white papers for Project Service
 author: krbjoran
 manager: ShellyHa

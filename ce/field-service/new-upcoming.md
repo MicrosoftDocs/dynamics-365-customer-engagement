@@ -1,5 +1,5 @@
 ---
-title: New and upcoming features in Field Service | Dynamics 365
+title: New and upcoming features in Field Service | Dynamics 365 for Customer Engagement
 description: New and planned features for Field Service
 author: FieldServiceDave
 manager: ShellyHa
@@ -21,6 +21,8 @@ search.app:
   - D365PS
 ---
 # New and upcoming features in Field Service
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The team is excited to announce our newest updates! Ranging from the Unified Interface framework, data compliance, all the way to more powerful search queries for resource scheduling, and more. You asked, we listened.
 
