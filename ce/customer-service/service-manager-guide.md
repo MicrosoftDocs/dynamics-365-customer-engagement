@@ -29,7 +29,7 @@ search.app:
 
 The Service Management module lets your customers quickly deploy their business processes. It helps customer service managers automate various customer service processes, improve agent turnaround time, and lead towards optimum customer satisfaction. 
 
-The Service Management module empowers the admin to set up everything related to customer service, like defining parent-child case hierarchy, creating queues,routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedules. 
+The Service Management guide empowers the administrator to set up everything related to customer service, like defining parent-child case hierarchy, creating queues,routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedules. 
 
 With the new release, the Service Management moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, enabling increased productivity.
   
@@ -78,17 +78,23 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 
 [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 
+## Templates
 
-## Knowledge base management 
+[Entitlement Templates](set-up-entitlements-templates.md)
+
+## Knowledge Base Management 
 
 [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 
 [Categories](create-manage-categories.md)
 
-## Templates
+## Similar Records Suggestion
 
-[Entitlement Templates](set-up-entitlements-templates.md)
+[Suggest similar cases using advanced similarity rules](suggest-similar-cases-for-a-case.md)
+
 
 ### See also
+
+[What's new in Dynamics 365 for Customer Engagement for Customer Service](whats-new-customer-service.md)
 
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)

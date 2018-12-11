@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Microsoft Cognitive Services integration with Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Microsoft Cognitive Services integration with Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Preview feature: Microsoft Cognitive Services integration
+# Microsoft Cognitive Services integration
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -129,8 +129,11 @@ This section describes how to integrate [!INCLUDE[pn_MicrosoftCognitiveServices_
 
 
 ### See also  
- [Preview feature: Auto suggest knowledge articles](../admin/public-preview-automatically-suggest-knowledge-articles.md)
 
-[Preview feature: Suggest similar cases for a case](../admin/public-preview-suggest-similar-cases-for-a-case.md)   
+[Suggest similar cases for a case](../customer-service/suggest-similar-cases-for-a-case.md)
+
+ [Auto suggest knowledge articles](../admin/public-preview-automatically-suggest-knowledge-articles.md)
+
+   
 
 [Enable document suggestions](enable-document-suggestions.md)

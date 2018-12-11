@@ -243,9 +243,9 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-# [Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
-## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
-## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
+# [Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
+## [Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
+## [Suggest similar cases for a case](../customer-service/suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
 # [Dynamics 365 for Customer Engagement apps Government](../admin/government/microsoft-dynamics-365-government.md)

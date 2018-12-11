@@ -36,8 +36,7 @@
 ### [Embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
 ### [Entitlement templates](set-up-entitlements-templates.md)
-### [Email templates](../admin/create-templates-email.md)
-### [Article templates](../admin/create-templates-articles.md)
+### [Suggest similar cases using advanced similarity rules](suggest-similar-cases-for-a-case.md)
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
