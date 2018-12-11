@@ -49,7 +49,7 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
  
-  ![Support matrix for Outlook Dashboard](media/supporttable.png Support matrix for Outlook Dashboard)
+  ![Support matrix for Outlook Dashboard](media/supporttable.png "Support matrix for Outlook Dashboard")
   > [!NOTE]
 >  Support for 2013 versions of Office 365 ProPlus ends February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/en-us/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
@@ -89,13 +89,13 @@ If you have custom security roles defined in Dynamics 365 for Customer Engagemen
 
 1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**) 
 
-![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png Dynamics 365 for Customer Engagement apps My Apps page) 
+![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
-![Dynamics 365 for Customer Engagement apps Manage Roles page](media/ManageRolesPage.png Dynamics 365 for Customer Engagement apps Manage Roles page) 
+![Dynamics 365 for Customer Engagement apps Manage Roles page](media/ManageRolesPage.png "Dynamics 365 for Customer Engagement apps Manage Roles page") 
 
 3.  In the flyout that appears on the right, select the security roles to have access to App for Outlook and choose **Save**.
-![Dynamics 365 for Customer Engagement apps select a Role](media/ManageRolesPage2.png Dynamics 365 for Customer Engagement apps select a role)
+![Dynamics 365 for Customer Engagement apps select a Role](media/ManageRolesPage2.png "Dynamics 365 for Customer Engagement apps select a role")
 
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  
@@ -214,7 +214,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 #### To have users install the app themselves  
 
-1. Users click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png Settings button), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
+1. Users click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
 
 2. In the **Apps for Dynamics 365 for Customer Engagement apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
 
@@ -241,17 +241,17 @@ With the PowerApps App Designer, you can control the specific entities that appe
 1.  From the main menu navigate to **Settings** > **Customizations** > **Customize the System** > **Apps**. 
 2.  Double-click **Dynamics 365 App for Outlook** to open the App Designer
 
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage_1.png Dynamics 365 for Customer Engagement apps My Apps page) 
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage_1.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
 3.  Choose **Add** > **Entities** and then select the entity you want to add and complete the addition by including all assets.
 
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_2.png Dynamics 365 for Customer Engagement apps My Apps page)
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_2.png "Dynamics 365 for Customer Engagement apps My Apps page")
 
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_3.png Dynamics 365 for Customer Engagement apps My Apps page)
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_3.png "Dynamics 365 for Customer Engagement apps My Apps page")
 
 4.  Review the list of Views that are available for the entity and deselect the ones you do not want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an entity and further, on one of the views defined for that entity.
 
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/ViewEntities_4.png Dynamics 365 for Customer Engagement apps My Apps page)
+   ![Dynamics 365 for Customer Engagement apps My Apps page](media/ViewEntities_4.png "Dynamics 365 for Customer Engagement apps My Apps page")
 
 5.  Save your changes and publish the customization.
 
@@ -263,7 +263,7 @@ With the PowerApps App Designer, you can control the specific entities that appe
 <a name=BKMK_Troubleshoot></a> 
 ## Troubleshooting installation problems  
 
-1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png Settings button), check that you've enabled the feature. See [Enable](#enable).
+1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature. See [Enable](#enable).
 
 2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
 
@@ -277,11 +277,11 @@ System customizers have access to the Sitemap Designer (within the App Designer)
 2. From the menu on the left, expand **Components** and then select **Dashboards**.
 3. Select **App for Outlook Dashboard** and then select **Enable Security Roles**.
 
-![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png Dynamics 365 App for Outlook Customizations page)
+![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png "Dynamics 365 App for Outlook Customizations page")
 
 4. On the **Assign Sercity Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
 
-![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png Dynamics 365 App for Outlook Assign Sercity Roles)
+![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png "Dynamics 365 App for Outlook Assign Sercity Roles")
 
 5. Select **OK**.
 
@@ -289,11 +289,11 @@ This issue is also seen when the sitemap for App for Outlook has been modified i
 
 1. Open App for Outlook sitemap designer. Go to **Settings** > **Customizations** > **Customize the system** > **Apps** > **App for Outlook**.
 
-![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png Dynamics 365 App for Outlook sitemap designer)
+![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
 
 2. Make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the default dashboard is **App for Outlook Dashboard**.
 
-![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png Dynamics 365 App for Outlook sitemap designer page)
+![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png "Dynamics 365 App for Outlook sitemap designer page")
 
 
 #### Dashboard customization in Dynamics 365 App for Outlook
@@ -303,7 +303,7 @@ The following dashboard customizations are not supported currently.
 -  In Dynamics 365 App for Outlook, you will not be able to switch dashboards by navigating to the main menu and then **Home**.
    Choosing the Dashboards option will redirect back to the default App for Outlook dashboard.
 
-   ![Dynamics 365 App for Outlook Dashboard](media/CustomDashboard.PNG Dynamics 365 App for Outlook Dashboard)
+   ![Dynamics 365 App for Outlook Dashboard](media/CustomDashboard.PNG "Dynamics 365 App for Outlook Dashboard")
 
 
 - Switching the default dashboard for App for Outlook in App designer
@@ -311,7 +311,7 @@ The following dashboard customizations are not supported currently.
   System customizers have access to the App Designer for Dynamics 365 App for Outlook as it is one of the App Modules in version 9.0.
 We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
 
-  ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG App for Outlook App Designer Dashboard)
+  ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
 
 <a name=BKMK_Explore></a>   
 

@@ -62,7 +62,7 @@ After you have your custom bootstrap.min.css, you can apply it to your portal in
 
 The following screenshot is an example of a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] applied to a community portal.
 
-![Apply a custom bootstrap theme to your website](media/apply-custom-bootstrap-theme.png Apply a custom Bootstrap theme to your website)  
+![Apply a custom bootstrap theme to your website](media/apply-custom-bootstrap-theme.png "Apply a custom Bootstrap theme to your website")  
 
 ## Additional portal theme options
 
