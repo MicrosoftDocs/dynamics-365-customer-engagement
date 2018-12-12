@@ -109,8 +109,6 @@ This document provides important, late-breaking information about known issues a
 
 ## Insights
 
-### Known issues
-
 - Web interactions performed by a contact when they were anonymous are currently not attributed to them when the contact is created. These interactions can be viewed under the related entity (marketing page, website etc.) and are leveraged to compute the insights for the entity. <!--- 1276305 --> 
 
 ## Event management
