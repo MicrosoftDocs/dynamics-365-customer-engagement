@@ -1,5 +1,5 @@
 ---
-title: Create organizational units (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Create organizational units (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to create organizational units in Project Service
 author: krbjoran
 manager: ShellyHa

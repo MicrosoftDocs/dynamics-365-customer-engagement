@@ -1,11 +1,11 @@
 ---
 title: "Multiple bindings found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 842c1140-d3c5-48bc-9470-0a60e91247ba
 caps.latest.revision: 5
 robots: noindex,nofollow

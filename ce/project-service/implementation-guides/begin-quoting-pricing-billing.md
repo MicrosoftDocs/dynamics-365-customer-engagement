@@ -1,6 +1,6 @@
 ---
 title: Basic Guide to Quoting, Pricing, and Billing
-description: An English-language guide to basic quoting, pricing, and billing in Project Service Automation for Dynamics 365
+description: An English-language guide to basic quoting, pricing, and billing in Project Service Automation for Dynamics 365 for Customer Engagement
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-This English-language document explains the basic quoting, pricing and billing capabilities of Dynamics 365 for Project Service (version 3.x). The guide covers features that most small or large organizations use.
+This English-language document explains the basic quoting, pricing and billing capabilities of Dynamics 365 for Customer Engagement for Project Service (version 3.x). The guide covers features that most small or large organizations use.
  
 > [!div class="nextstepaction"]
 > [Download PDF of the basic guide to quoting, pricing, and billing](https://go.microsoft.com/fwlink/?linkid=2006770)

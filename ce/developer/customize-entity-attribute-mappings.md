@@ -1,36 +1,35 @@
 ---
-title: "Customize entity and attribute mappings (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize entity and attribute mappings (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about mapping attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Use the customization tools in the application to map attributes."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "attribute maps, requirements for"
-  - "customizing entity and attribute mappings, using entity and attribute mapping data"
-  - "mapping entities and attributes, auto-mapping attributes between entities"
-  - "creating or updating attribute map records, requirements for attribute maps"
-  - "customizing entity and attribute mappings, creating new entity records that are related"
-  - "customizing entity and attribute mappings, auto-mapping attributes between entities"
-  - "mapping entities and attributes, mapping behavior in Dynamics CRM"
-  - "customizing entity and attribute mappings, using mapping to streamline data entry when creating new records"
-  - "customizing entity and attribute mappings, setting default values for records created in context of other records"
-  - "customizing entity and attribute mappings, mapping attributes between entities that have entity relationships"
-  - "customizing entity and attribute mappings, mapping behavior in Dynamics CRM"
-  - "mapping behavior in Dynamics CRM"
-  - "entity and attribute mappings, mapping attributes between entities that have entity relationships"
-  - "auto-mapping attributes between entities"
-  - "mapping entities and attributes, mapping attributes between entities that have entity relationships"
+  - attribute maps, requirements for
+  - customizing entity and attribute mappings, using entity and attribute mapping data
+  - mapping entities and attributes, auto-mapping attributes between entities
+  - creating or updating attribute map records, requirements for attribute maps
+  - customizing entity and attribute mappings, creating new entity records that are related
+  - customizing entity and attribute mappings, auto-mapping attributes between entities
+  - mapping entities and attributes, mapping behavior in Dynamics CRM
+  - customizing entity and attribute mappings, using mapping to streamline data entry when creating new records
+  - customizing entity and attribute mappings, setting default values for records created in context of other records
+  - customizing entity and attribute mappings, mapping attributes between entities that have entity relationships
+  - customizing entity and attribute mappings, mapping behavior in Dynamics CRM
+  - mapping behavior in Dynamics CRM
+  - entity and attribute mappings, mapping attributes between entities that have entity relationships
+  - auto-mapping attributes between entities
+  - mapping entities and attributes, mapping attributes between entities that have entity relationships
 ms.assetid: de18a3d7-4d6a-4ec8-8a26-570818a4cf7a
-caps.latest.revision: 39
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -49,7 +48,7 @@ You can map attributes between entities that have an entity relationship. This l
 
 ## Behavior in the application
 
- Mapping in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement streamlines data entry when you create new records that are associated with another record. When an entity has an entity relationship with another entity, you can create new related entity records by using the **Create Related** tab in the ribbon. When you create a new record in this manner, mapped data from the primary entity record is copied to the form for the new related entity record. By mapping entity attributes, you control what data is copied by adding new mappings in the relationship between the two entities. If you create a record in any way other than from the associated view of the primary entity, data is not mapped.  
+ Mapping in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps streamlines data entry when you create new records that are associated with another record. When an entity has an entity relationship with another entity, you can create new related entity records by using the **Create Related** tab in the ribbon. When you create a new record in this manner, mapped data from the primary entity record is copied to the form for the new related entity record. By mapping entity attributes, you control what data is copied by adding new mappings in the relationship between the two entities. If you create a record in any way other than from the associated view of the primary entity, data is not mapped.  
 
  For example, you might want to set up a mapping between the address fields in accounts and the address fields in contacts. With this mapping, when a user adds a contact associated with a specific account, the address fields for the contact are populated automatically.  
 
@@ -124,5 +123,5 @@ For more information see [Create a new entity from another entity](webapi/create
 
 ### See also
 
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
  [Create and edit entity relationships: Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields)

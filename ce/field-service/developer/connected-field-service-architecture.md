@@ -1,19 +1,19 @@
 ---
-title: "Connected Field Service architecture (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Connected Field Service is a distributed solution whose architecture reflects its dependence upon multiple components within both Dynamics 365 and Microsoft Azure services."
+title: "Connected Field Service architecture (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Connected Field Service is a distributed solution whose architecture reflects its dependence upon multiple components within both Dynamics 365 for Customer Engagement and Microsoft Azure services."
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
 ms.date: 10/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d4729c71-35d1-4286-ac83-f421904685f7
 caps.latest.revision: 9
 author: JimDaly
@@ -32,7 +32,7 @@ search.app:
 [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] is a distributed solution whose architecture reflects its dependence upon multiple components within both [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] and [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] services.  
 
 ## High-level component architecture  
- The following diagram illustrates the high-level components and services found in the standard installation of Connected Field Service for Dynamics 365 and its supporting Azure resources. In this initial release, the IoT functionality in [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] is tied directly into [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].  
+ The following diagram illustrates the high-level components and services found in the standard installation of Connected Field Service for Dynamics 365 for Customer Engagement and its supporting Azure resources. In this initial release, the IoT functionality in [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] is tied directly into [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].  
 
  ![Connected Field Service Component Architecture Diagram](../media/iot-component-architecture-diagram-1.jpg "Connected Field Service Component Architecture Diagram")  
 
@@ -41,7 +41,7 @@ search.app:
 
 |                              Component or service                               |                                                                                                                                                                                                                                                    Description/Purpose                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|         [Dynamics 365](http://www.microsoft.com/dynamics/dynamics-365)          |                                                        Includes the CRM Service and [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].  The Connected Field Service feature is only available in the online version of [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)]. [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] provides support for popular mobile clients, which can be used to register and monitor assets in the field.                                                        |
+|         [Dynamics 365 for Customer Engagement](http://www.microsoft.com/dynamics/dynamics-365)          |                                                        Includes the CRM Service and [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].  The Connected Field Service feature is only available in the online version of [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)]. [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] provides support for popular mobile clients, which can be used to register and monitor assets in the field.                                                        |
 |     [Azure Service Bus](https://azure.microsoft.com/services/service-bus/)      |                                                                                                                                                     Provides a channel for both inbound and outbound messages flowing between [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] (CRM) and Azure: IoT Hub alerts sent to CRM, and CRM commands sent to the IoT Hub.                                                                                                                                                     |
 |      [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)       |                                                                                                                                     Custom Azure applications that provide orchestration logic that uses the CRM Connector and the Queue Connector. The CRM Connector is used construct CRM-specific entities, whereas the Queue Connectors for polling the Azure Service Bus queue.                                                                                                                                      |
 |         [Azure IoT Hub](https://azure.microsoft.com/services/iot-hub/)          |                                                                                                                                                        Enables applications and administrators to connect, monitor, and manage IoT devices at scale. All the inbound messages received from and outbound messages sent to devices are routed through this service.                                                                                                                                                        |

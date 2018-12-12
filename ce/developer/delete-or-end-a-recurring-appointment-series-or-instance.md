@@ -1,25 +1,25 @@
 ---
 title: "Delete or end a recurring appointment series or instance | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "deleting a recurring appointment series or instance"
-  - "schedule and appointment entities, recurring appointment instances or series"
-  - "ending a recurring appointment series after a specified date"
-  - "recurring appointment instances, deleting or ending"
-  - "schedule and appointment entities, deleting or ending a recurring appointment series or instance"
+  - deleting a recurring appointment series or instance
+  - schedule and appointment entities, recurring appointment instances or series
+  - ending a recurring appointment series after a specified date
+  - recurring appointment instances, deleting or ending
+  - schedule and appointment entities, deleting or ending a recurring appointment series or instance
 ms.assetid: c07ed908-effe-404b-9925-467b31a29766
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

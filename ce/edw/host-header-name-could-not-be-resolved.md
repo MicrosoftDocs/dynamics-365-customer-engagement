@@ -1,11 +1,11 @@
 ---
 title: "Host header name could not be resolved | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: f3b25635-16a0-43ee-95cc-2b47b278a994
 caps.latest.revision: 3
 robots: noindex,nofollow

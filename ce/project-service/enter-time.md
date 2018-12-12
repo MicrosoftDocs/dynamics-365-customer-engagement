@@ -1,5 +1,5 @@
 ---
-title: Enter time (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Enter time (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to enter time in Project Service
 author: krbjoran
 manager: ShellyHa

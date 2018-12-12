@@ -1,13 +1,13 @@
 ---
-title: "openWebResource (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "openWebResource (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 07/13/2018
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 798dc921-1e80-42bc-b8ca-2056728bcba4
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

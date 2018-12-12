@@ -1,5 +1,5 @@
 ---
-title: Administrator guide (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Administrator guide (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: Step-by-step instructions for Project Service administration
 author: krbjoran
 manager: ShellyHa

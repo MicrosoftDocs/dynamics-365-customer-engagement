@@ -1,21 +1,22 @@
 ---
 title: "Define calculated fields | MicrosoftDocs"
 description: "Learn how to define calculated fields"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 6d58a297-2ddf-4236-be3a-47249b49d5fa
 caps.latest.revision: 67
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -103,51 +104,51 @@ Calculated fields let you automate manual calculations used in your business pro
   
  **Create the calculated field called “Weighted Revenue”:**  
   
- ![Weighted revenue of Opportunity in Dynamics 365](../customize/media/calc-field-open-opportunities.png "Weighted revenue of Opportunity in Dynamics 365")  
+ ![Weighted revenue of Opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-open-opportunities.png "Weighted revenue of Opportunity in Dynamics 365 for Customer Engagement")  
   
  **Set the condition on the opportunities:**  
   
- ![Set Weighted Revenue in Dynamics 365](../customize/media/calc-field-open-opportunity.png "Set Weighted Revenue in Dynamics 365")  
+ ![Set Weighted Revenue in Dynamics 365 for Customer Engagement](../customize/media/calc-field-open-opportunity.png "Set Weighted Revenue in Dynamics 365 for Customer Engagement")  
   
  **Provide the formula for the weighted revenue:**  
   
- ![Set Weighted Revenue estimated value Dynamics 365](../customize/media/calc-field-open-opportunities-3.png "Set Weighted Revenue estimated value Dynamics 365")  
+ ![Set Weighted Revenue estimated value Dynamics 365 for Customer Engagement](../customize/media/calc-field-open-opportunities-3.png "Set Weighted Revenue estimated value Dynamics 365 for Customer Engagement")  
   
  **Altogether:**  
   
- ![Weighted revenue to est. revenue in Dynamics 365](../customize/media/calculated-field-open-opportunity.png "Weighted revenue to est. revenue in Dynamics 365")  
+ ![Weighted revenue to est. revenue in Dynamics 365 for Customer Engagement](../customize/media/calculated-field-open-opportunity.png "Weighted revenue to est. revenue in Dynamics 365 for Customer Engagement")  
   
 ### Follow-up date of opportunity  
  In this example, we are using the fields of the originated lead of an opportunity, to calculate the appropriate date when to follow up on the opportunity. In the field editor for an opportunity entity, we create a field called “Follow-up date” and specify the type as **Calculated** and the data type is **Date and Time**.  In the calculated field definition editor, in the **Condition** section, we specify two conditions: the purchase time frame and the estimated value of the lead. In the **ACTION**, we provide two formulas, one, to follow up in one week on the immediate opportunity, another one, to follow up in one month, if the opportunity is not likely to happen right away. The following screenshots show step-by-step how to define the “Follow-up date” calculated field.  
   
  **Create the calculated field called “Follow-up Date”:**  
   
- ![Follow up date on an opportunity in Dynamics 365](../customize/media/calc-field-follow-update-1.PNG "Follow up date on an opportunity in Dynamics 365")  
+ ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-1.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
   
  **Set the two conditions on the originating lead:**  
   
- ![Follow up date on an opportunity in Dynamics 365](../customize/media/calc-field-follow-update-2.PNG "Follow up date on an opportunity in Dynamics 365")  
+ ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-2.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
   
- ![Follow up date on an opportunity in Dynamics 365](../customize/media/calc-field-follow-update-3.PNG "Follow up date on an opportunity in Dynamics 365")  
+ ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-3.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
   
  **Provide the formula to follow up in one week:**  
   
- ![Follow up date on an opportunity in Dynamics 365](../customize/media/calc-field-follow-update-4.PNG "Follow up date on an opportunity in Dynamics 365")  
+ ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-4.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
   
  **Provide the formula to follow up in one month:**  
   
- ![Set Follow up date in Dynamics 365](../customize/media/calc-field-follow-update-5.PNG "Set Follow up date in Dynamics 365")  
+ ![Set Follow up date in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-5.PNG "Set Follow up date in Dynamics 365 for Customer Engagement")  
   
  **Altogether:**  
   
- ![Set Follow up date If&#45;Then & Else in Dynamics 365](../customize/media/calc-field-follow-update-6.PNG "Set Follow up date If-Then & Else in Dynamics 365")  
+ ![Set Follow up date If&#45;Then & Else in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-6.PNG "Set Follow up date If-Then & Else in Dynamics 365 for Customer Engagement")  
   
 ### Days from a record creation  
  In this example, we are using the **DIFFINDAYS** function, to compute the difference in days from the time when a record was created to the current date.  
   
  **Create the calculated field called “Calculated difference in days”:**  
   
- ![Create calculated field in Dynamics 365](../customize/media/calc-field-diff-in-days-setup.png "Create calculated field in Dynamics 365")  
+ ![Create calculated field in Dynamics 365 for Customer Engagement](../customize/media/calc-field-diff-in-days-setup.png "Create calculated field in Dynamics 365 for Customer Engagement")  
   
  **Provide the formula for computing the difference in days**  
   

@@ -1,7 +1,7 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
-keywords: "troubleshooting;setup"
+keywords: troubleshooting;setup
 ms.date: 10/10/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: kamaybac
 ms.author: kamaybac
@@ -31,6 +31,28 @@ search.app:
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+
+<a name="licensing"></a>
+
+## How is [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensed?
+
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
+
+- **What is a marketing contact?**  
+    A *marketing contact* is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. *Marketing activities* include marketing emails, marketing pages, marketing forms, LinkedIn integrations, events, surveys, custom channels, and more. You will only be charged for contacts that are engaged in marketing activities using the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application, or capabilities delivered as part of the application. Each marketing activity is associated with a specific contact, but you can also target any lead or opportunity that is linked to a contact in the database. 
+- **Which marketing contacts count against my quota?**  
+    All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
+- **Where can I see my contact quota?**  
+    To see how many contacts you've purchased, go to **Settings** > **Advanced Settings** > **Others** > **Quota Limits**. In the current version of the product, you can  see the number of marketing contacts you have purchased for the current licensing period, but you can't see how many you're actually using or have remaining. The ability to monitor the number of marketing contacts will be included in an upcoming release; for now, compliance is contractual.
+- **What is my monthly email quota?**  
+    Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+- **If I use a contact only once in a month and don’t use it next month, does it count?**  
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota for the remainder of the license period, even if you permanently delete the contact record. Your marketing contact count is reset at contract renewal or anniversary.
+- **How can I learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing?**
+  - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
+  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+  - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
+  - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 <a name="incompatible-platform"></a>
 
@@ -154,7 +176,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 #### Step 2: Grant your new account permission to clear the portals cache
 
-Once you have your account and password set up, you must go into Dynamics 365 and configure that account as an event-portal administrator. To do this:
+Once you have your account and password set up, you must go into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and configure that account as an event-portal administrator. To do this:
 
 1. Sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
 
@@ -259,7 +281,7 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
 1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
 
-1. To track the installation progress, go back to your Dynamics 365 admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+1. To track the installation progress, go back to your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
 
     ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
 
@@ -298,7 +320,7 @@ If your surveys still aren't working after completing these steps, then please [
 
 Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Dynamics 365 for Marketing](navigation.md)
 
 <a name="contact-support"></a>
 

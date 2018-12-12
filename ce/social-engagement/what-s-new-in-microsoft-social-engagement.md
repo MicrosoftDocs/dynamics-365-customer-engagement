@@ -1,12 +1,12 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-keywords: "news, product updates, product improvements, service updates"
+keywords: news, product updates, product improvements, service updates
 ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
@@ -141,11 +141,11 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
-### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
+### Refreshed visuals for Social Insights in Dynamics 365 for Customer Engagement
 
 The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
 
-The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
+The steps to [set up and configure Social Insights in Dynamics 365 for Customer Engagement](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently
 

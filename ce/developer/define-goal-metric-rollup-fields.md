@@ -1,32 +1,32 @@
 ---
-title: "Define goal metric and rollup fields (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Define goal metric and rollup fields (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "To specify the goal metric type, participating entities, and whether you track actuals, custom or in-progress data, use the goal metric entity (Metric) and the rollup field (RollupField) entity"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "goal metric entity"
-  - "goal management entities, creating goal metrics"
-  - "defining goal metrics and rollup fields, about"
-  - "goal management entities, tracking actual; in-progress; and custom data"
-  - "goal metrics, attributes to set"
-  - "goal management entities, defining goal metrics and rollup fields"
-  - "goal management entities, specifying rollup fields"
-  - "tracking actual; in-progress; and custom data, goal management entities"
-  - "goal management entities, goal metric types"
-  - "specifying rollup fields, attributes to set"
-  - "creating goal metrics, goal management entities"
+  - goal metric entity
+  - goal management entities, creating goal metrics
+  - defining goal metrics and rollup fields, about
+  - goal management entities, tracking actual; in-progress; and custom data
+  - goal metrics, attributes to set
+  - goal management entities, defining goal metrics and rollup fields
+  - goal management entities, specifying rollup fields
+  - tracking actual; in-progress; and custom data, goal management entities
+  - goal management entities, goal metric types
+  - specifying rollup fields, attributes to set
+  - creating goal metrics, goal management entities
 ms.assetid: 0398bc8b-99d4-486b-9de6-3c2289eed5e6
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

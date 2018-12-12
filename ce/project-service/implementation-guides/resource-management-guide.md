@@ -1,6 +1,6 @@
 ---
 title: Resource management guide
-description: An English-language guide to resource management in Project Service Automation for Dynamics 365
+description: An English-language guide to resource management in Project Service Automation for Dynamics 365 for Customer Engagement
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice

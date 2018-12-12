@@ -1,11 +1,11 @@
 ---
 title: "A network-related or instance-specific error occurred while establishing a connection to SQL Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 6b7df465-8379-46ea-b2cb-59fa9b4173fb
 caps.latest.revision: 3
 robots: noindex,nofollow

@@ -1,12 +1,12 @@
 ---
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Social Engagement."
-keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
+keywords: ease of access, accessibility, a11y, screen reader, color patterns
 ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 author: m-hartmann
 ms.author: mhart
@@ -94,7 +94,7 @@ To use the area filter with a keyboard, select Tab until you reach the **Area fi
 [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] provides integrations and data export for other applications. 
 
 - We recommend using the [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] content pack with [Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-accessibility) due to accessibility support of [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-- Learn more about [accessibility for Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/basics/accessibility-people-with-disabilities) apps. 
+- Learn more about [accessibility for Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/basics/accessibility-people-with-disabilities) apps. 
 
 ## General accessibility capabilities 
 

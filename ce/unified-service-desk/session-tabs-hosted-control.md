@@ -1,19 +1,19 @@
 ---
-title: "Session Tabs (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Session Tabs (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about Session Tabs type of hosted control in Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD"
+  - dyn365-USD
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 590fe7cf-9281-41ee-ba7e-c0914ef9e44a
 author: kabala123
 ms.author: kabala
