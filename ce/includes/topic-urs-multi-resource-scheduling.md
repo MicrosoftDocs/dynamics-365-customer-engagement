@@ -26,7 +26,7 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 - In the root, set a duration for all related requirements. Note that changing the duration for the root or an individual requirement changes the duration for all requirements in the group. 
 
-- Select the root, and then choose **Add requirements**. Fill the the fields across the columns. If you need to add details that aren't displayed in the columns, select the requirement and then choose **Open Form** to add details in the requirement form.
+- Select the root, and then choose **Add Requirements**. Fill the the fields across the columns. If you need to add details that aren't displayed in the columns, select the requirement and then choose **Open Form** to add details in the requirement form.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
