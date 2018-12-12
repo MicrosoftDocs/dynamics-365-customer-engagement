@@ -1,18 +1,18 @@
 ---
-title: "Submit and approve time-off requests (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Submit and approve time-off requests (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 7fac64e1-2816-415a-b45f-b1a1aa9fc68f
 caps.latest.revision: 18
@@ -60,7 +60,7 @@ Keep the schedule board in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dy
   
 ### See also  
     
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>

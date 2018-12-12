@@ -1,12 +1,12 @@
 ---
-title: "Reset a Dynamics 365 portal | MicrosoftDocs"
+title: "Reset a Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to reset a portal."
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 02FA490A-92DB-461C-B1CA-7B93D037F5D6
 author: sbmjais
 ms.author: shjais
@@ -24,17 +24,17 @@ search.app:
 
 # Reset a portal
 
-Once a portal is provisioned, you might need to delete resources from your portal under certain circumstances, such as if you move your Dynamics 365 organization to another tenant or another datacenter or if you want to remove the portal from your organization.
+Once a portal is provisioned, you might need to delete resources from your portal under certain circumstances, such as if you move your Dynamics 365 for Customer Engagement organization to another tenant or another datacenter or if you want to remove the portal from your organization.
 
 To do this, you can reset your portal, which will delete all the hosted resources associated with it. Then you can provision the portal again. Once the reset operation is finished, your portal URL will not be accessible anymore.
 
-It is important to note that resetting your portal doesn’t remove portal configuration or solutions present in your Dynamics 365 instance and they will remain as is.
+It is important to note that resetting your portal doesn’t remove portal configuration or solutions present in your Dynamics 365 for Customer Engagement instance and they will remain as is.
 
-You can reset a completely configured portal, or a portal for which provisioning or updating of a Dynamics 365 instance has failed.
+You can reset a completely configured portal, or a portal for which provisioning or updating of a Dynamics 365 for Customer Engagement instance has failed.
 
 To reset a configured portal:
 
-1.	Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal that you want to reset, and then select **Manage**.
 
@@ -46,7 +46,7 @@ To reset a configured portal:
 
 > [!NOTE]
 > - If you don't have appropriate permissions on an associated Azure Active Directory application, an error is displayed. You must contact the global administrator for the appropriate permissions.
-> - When the portal is reset successfully, the portal name and its status on the **Applications** tab in the Dynamics 365 Administration Center does not change. For example, if your portal name and status were Portal 1 and Configured respectively, then after resetting the portal, these values do not change. If you want to change the portal name, you can change it on the **Portal Details** tab in the Portal Admin Center. However, the status value cannot be reverted to Not Configured.
+> - When the portal is reset successfully, the portal name and its status on the **Applications** tab on the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page does not change. For example, if your portal name and status were Portal 1 and Configured respectively, then after resetting the portal, these values do not change. If you want to change the portal name, you can change it on the **Portal Details** tab in the Portal Admin Center. However, the status value cannot be reverted to Not Configured.
 > 
 > It is important to note that the portal's status on the **Applications** tab does not represent its provisioning status and does not affect the functioning of your portal. It just shows whether you have ever accessed the Portal Admin Center for that corresponding portal or not.
 

@@ -1,5 +1,5 @@
 ---
-title: View resource availability (Dynamics 365 for Project Service) | MicrosoftDocs
+title: View resource availability (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to view resource availability in Project Service
 author: krbjoran
 manager: ShellyHa

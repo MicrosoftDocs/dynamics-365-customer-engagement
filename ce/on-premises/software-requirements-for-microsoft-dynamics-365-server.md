@@ -1,21 +1,21 @@
 ---
-title: "Software requirements for Microsoft Dynamics 365 Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/06/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Software requirements for Microsoft Dynamics 365 for Customer Engagement Server | Microsoft Docs"
+ms.custom: 
+ms.date: 12/10/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
 ms.assetid: 1f5d3be8-bec4-44b2-86c7-e4dbd18a8eae
 caps.latest.revision: 91
 author: Mattp123
 ms.author: matp
 ---
-# Software requirements for Microsoft Dynamics 365 Server
+# Software requirements for Microsoft Dynamics 365 for Customer Engagement Server
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -41,14 +41,14 @@ This topic lists the software and application requirements for this version of [
 > -   [!INCLUDE[pn_WinSer2008](../includes/pn-winser2008.md)] family of operating systems  
   
 <!-- >> [!IMPORTANT]
->  To use [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] with Microsoft Dynamics 365 Server, see [Configure the AD FS server for claims-based authentication](configure-the-ad-fs-server-for-claims-based-authentication.md) and [Configure the AD FS server for IFD](configure-the-ad-fs-server-for-ifd.md).  -->
+>  To use [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] with Microsoft Dynamics 365 for Customer Engagement Server, see [Configure the AD FS server for claims-based authentication](configure-the-ad-fs-server-for-claims-based-authentication.md) and [Configure the AD FS server for IFD](configure-the-ad-fs-server-for-ifd.md).  -->
   
  
 ### Server Core installations  
  With the exception of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] roles, you can install any [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)] server role on a Server Core installation of [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)]. Server Core is a minimal server installation option for the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] family of operating systems. Server Core provides a low-maintenance server environment with limited functionality. For more information about Server Core as implemented on [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)], see [Server Core for Windows Server 2016](https://docs.microsoft.com/en-us/windows-server/get-started/sconfig-on-ws2016).  
   
 > [!IMPORTANT]
->  To install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on a Server Core [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)], you must run Setup in silent mode from the command line. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the command prompt to install Microsoft Dynamics 365 Server](use-command-prompt-install-dynamics-365-server.md)  -->
+>  To install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on a Server Core [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)], you must run Setup in silent mode from the command line. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the command prompt to install Microsoft Dynamics 365 for Customer Engagement Server](use-command-prompt-install-dynamics-365-server.md)  -->
 >   
 >  The [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] role cannot be installed on a Windows Server running as Server Core.  
 >   
@@ -90,9 +90,9 @@ This topic lists the software and application requirements for this version of [
 ## SQL Server editions  
  Any one of the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions is required, running, and available for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
   
--   Microsoft SQL Server 2017 Enterprise    
+<!--   Microsoft SQL Server 2017 Enterprise    
 -   Microsoft SQL Server 2017 Standard   
--   Microsoft SQL Server 2017 Developer (for non-production use only)  
+-   Microsoft SQL Server 2017 Developer (for non-production use only)  -->
 -   Microsoft SQL Server 2016 Enterprise, with Cumulative Update 2    
 -   Microsoft SQL Server 2016 Standard, with Cumulative Update 2   
 -   Microsoft SQL Server 2016 Developer, with Cumulative Update 2 (for non-production use only)   
@@ -102,15 +102,15 @@ This topic lists the software and application requirements for this version of [
 
   
 <a name="Claims_and_IFD_requirements"></a>   
-## Accessing Microsoft Dynamics 365 from the internet - Claims-based authentication and IFD requirements  
- The following items are required or recommended for [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)]. This topic assumes you will be using [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] as the [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)]. <!-- For more information about configuring [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for claims-based authentication, see [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md).  -->
+## Accessing Microsoft Dynamics 365 for Customer Engagement from the internet - Claims-based authentication and IFD requirements  
+ The following items are required or recommended for [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)]. This topic assumes you will be using [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] as the [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)]. <!-- For more information about configuring [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for claims-based authentication, see [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](configure-ifd-for-dynamics-365.md).  -->
   
 > [!IMPORTANT]
 >  Exposing the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website to the internet is not supported unless claims-based authentication is used and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is configured for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)].  
 >   
->  Similarly, Outlook Anywhere (RPC over HTTP) is not supported as a solution to connect [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to an on-premises deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] over the internet. The on-premises deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] must be configured for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)]. <!-- as described in the topic [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md).  -->
+>  Similarly, Outlook Anywhere (RPC over HTTP) is not supported as a solution to connect [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to an on-premises deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] over the internet. The on-premises deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] must be configured for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)]. <!-- as described in the topic [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](configure-ifd-for-dynamics-365.md).  -->
 >   
->  In order for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must run a Repair of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. <!-- For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md).  -->
+>  In order for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must run a Repair of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. <!-- For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 for Customer Engagement Server](uninstall-change-repair-dynamics-365-server.md).  -->
   
 -   The computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed must have access to a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)] service, such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] federation server. [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] supports the following [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] versions: 
     - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] 2.1 ([!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)])  
@@ -140,7 +140,7 @@ This topic lists the software and application requirements for this version of [
   
         -   [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] (HTTPS) encryption. The certificates for [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] encryption should be valid for host names similar to org.contoso.com, auth.contoso.com, and dev.contoso.com. To satisfy this requirement, you can use a single wildcard certificate (*.contoso.com), a certificate that supports Subject Alternative Names, or individual certificates for each name. Individual certificates for each host name are only valid if you use different servers for each web server role. Multiple [!INCLUDE[pn_iis](../includes/pn-iis.md)] bindings, such as a website with two HTTPS or two HTTP bindings, aren’t supported for running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about available options, contact your certification authority service company or your certification authority administrator.  
   
--   The **[!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)]** account of each Microsoft Dynamics 365 website must have read permission to the private key of the encryption certificate specified when configuring claims-based authentication. You can use the Certificates [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in to edit permissions for the encryption certificate found in the Personal store of the local computer account.  
+-   The **[!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)]** account of each Microsoft Dynamics 365 for Customer Engagement website must have read permission to the private key of the encryption certificate specified when configuring claims-based authentication. You can use the Certificates [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in to edit permissions for the encryption certificate found in the Personal store of the local computer account.  
   
 <a name="software_component_prerequisites"></a>   
 ## Software component prerequisites  
@@ -195,6 +195,6 @@ This topic lists the software and application requirements for this version of [
 -   [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] requires at least one network protocol to be enabled to authenticate by using [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. By default, [!INCLUDE[pn_TCP/IP](../includes/pn_tcp_ip_md.md)] protocol is enabled when you install [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. You can view network protocols in [!INCLUDE[pn_SQL_Server_Configuration_Manager](../includes/pn-sql-server-configuration-manager.md)].  
   
 ## See also  
- [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)   
- [Microsoft Dynamics 365 reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
+ [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 for Customer Engagement Server](sql-server-hardware-requirements-dynamics-365-server.md)   
+ [Microsoft Dynamics 365 for Customer Engagement reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
 

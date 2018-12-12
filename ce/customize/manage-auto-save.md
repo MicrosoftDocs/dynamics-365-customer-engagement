@@ -1,20 +1,20 @@
 ---
-title: "Disable auto-save (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Disable auto-save (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 12/04/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 2e7f75dd-7a3f-4716-b995-b626929c0501
 caps.latest.revision: 14
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -127,7 +127,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
         The **Handler Properties** dialog should look like this. The customization prefix: “new_” may vary based on the customization prefix set for the default publisher for your organization.  
   
-   ![OnSave event handler to prevent autosave in Dynamics 365](../customize/media/prevent-auto-save-script.png "OnSave event handler to prevent autosave in Dynamics 365")  
+   ![OnSave event handler to prevent autosave in Dynamics 365 for Customer Engagement](../customize/media/prevent-auto-save-script.png "OnSave event handler to prevent autosave in Dynamics 365 for Customer Engagement")  
   
    7.  Click **OK** to close the **Handler Properties** dialog.  
   

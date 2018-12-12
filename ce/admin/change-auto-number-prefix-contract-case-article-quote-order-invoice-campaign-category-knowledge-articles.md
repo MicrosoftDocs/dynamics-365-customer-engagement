@@ -1,20 +1,20 @@
 ---
-title: "Change auto-numbering prefixes in Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Change auto-numbering prefixes in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
 caps.latest.revision: 39
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categories, and knowledge articles (the new Knowledge Article entity introduced in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)]) are automatically numbered by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization.  
+Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categories, and knowledge articles (the new Knowledge Article entity introduced in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)]) are automatically numbered by [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization.  
   
 1.  Go to **Settings** > **Administration** > **Auto-Numbering**.  
   

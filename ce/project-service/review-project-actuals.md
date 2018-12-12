@@ -1,5 +1,5 @@
 ---
-title: Review project actuals (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Review project actuals (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to review project actuals in Project Service
 author: krbjoran
 manager: ShellyHa

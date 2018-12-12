@@ -1,11 +1,11 @@
 ---
 title: "Microsoft SQL Server not found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: b611cc51-afe7-4aeb-a057-1e5dff466c25
 caps.latest.revision: 4
 robots: noindex,nofollow

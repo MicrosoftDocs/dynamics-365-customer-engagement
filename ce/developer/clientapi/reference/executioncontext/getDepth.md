@@ -1,14 +1,14 @@
 ---
-title: "getDepth (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getDepth (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Learn about the getDepth method that returns a value that indicates the order in which this handler is executed."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9f3b2fed-fde5-46e4-8c59-43aa51aa82df
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

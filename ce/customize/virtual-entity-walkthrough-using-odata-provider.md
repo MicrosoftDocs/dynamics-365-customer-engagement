@@ -1,22 +1,22 @@
 ---
 title: "Virtual entity walkthrough using the OData Data Provider in PowerApps | MicrosoftDocs"
 description: "Learn how to use the OData v4 data provider with a virtual entity"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/26/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 
 caps.latest.revision: 11
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -164,7 +164,7 @@ On the Solution Explorer window select **Publish All Customizations**.
 
 After all customizations are published, close the Solution Explorer window.
 
-## View the virtual entity in action with Dynamics 365 customer engagement
+## View the virtual entity in action with Dynamics 365 for Customer Engagement apps
 
 Go to **Service** > **Extensions** > **Tickets**.
 

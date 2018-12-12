@@ -1,19 +1,19 @@
 ---
 title: "Dashboard views in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "07/19/2017"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 07/19/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics CRM Online
+author: jimholtz
 ms.assetid: 70afbe24-617d-428f-8067-da3a6f3fbd5c
 caps.latest.revision: 7
-ms.author: "mkaur"
+ms.author: mkaur
 search.audienceType: 
   - admin
   - customizer
@@ -43,4 +43,4 @@ search.app:
 - In [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], tap **…** and tap **Select View** on the command bar.  
 
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -1,11 +1,11 @@
 ---
-title: Create entitlements to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create entitlements to define the support terms for a customer in Dynamics 365 for Customer Service
-keywords: Create an entitlement; Dynamics 365; Customer Service Hub; Activate or deactivate an entitlement; Set as default entitlement; Associate entitlements to cases;  Cancel an entitlement; Renew an entitlement
+title: Create entitlements to define the support terms for a customer (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: See how to create entitlements to define the support terms for a customer in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Create an entitlement; Dynamics 365 for Customer Engagement; Customer Service Hub; Activate or deactivate an entitlement; Set as default entitlement; Associate entitlements to cases;  Cancel an entitlement; Renew an entitlement
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Create entitlements to define the support terms for a customer
+# Create entitlements to define support terms
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 

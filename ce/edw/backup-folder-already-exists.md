@@ -1,11 +1,11 @@
 ---
 title: "Backup folder already exists | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 9a63bc12-62c4-48c6-a138-622ff6e9630a
 caps.latest.revision: 6
 robots: noindex,nofollow

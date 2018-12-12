@@ -26,4 +26,4 @@
 ## [Display the top X values](example-display-top-x-values.md)
 ## [Make a report context-sensitive](example-make-report-context-sensitive.md)
 
-# [Customize Dynamics 365 Power BI content packs](customize-power-bi-content-packs.md)
+# [Customize Power BI content packs](customize-power-bi-content-packs.md)

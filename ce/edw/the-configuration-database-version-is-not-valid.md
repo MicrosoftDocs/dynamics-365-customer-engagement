@@ -1,11 +1,11 @@
 ---
 title: "The configuration database version is not valid | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 021bc738-4f11-4442-9c2b-e49a6f2aee45
 caps.latest.revision: 6
 robots: noindex,nofollow

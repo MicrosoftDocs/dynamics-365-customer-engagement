@@ -1,15 +1,15 @@
 ---
 title: "Single resource optimization for Resource Scheduling Optimization | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 10/19/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-author: "krbjoran"
-ms.author: "FieldServiceDave"
-ms.manager: "shellyhaverkamp"
+  - field-service
+ms.tgt_pltfrm: 
+author: krbjoran
+ms.author: FieldServiceDave
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer
@@ -20,6 +20,8 @@ search.app:
 --- 
 
 # Single resource optimization
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example, re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
