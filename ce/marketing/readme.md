@@ -34,7 +34,7 @@ This document provides important, late-breaking information about known issues a
 ### Known issues
 
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
-- When a Dynamics 365 for Marketing customer has a license for the Marketing product but does not have a CRM license, any attempt to install the Marketing application will fail. As a temporary workaournd, a Marketing customer can install a trial CRM Customer Engagement plan, which would work for 30 days. For more details on creating a trial, click here. <!--- 1183223 -->
+- If you have a license for Dynamics 365 for Marketing, but don't have a license for Dynamics 365 for Customer Engagement, any attempt to install the Marketing application will fail. As a temporary workaround, you can install a trial Customer Engagement plan (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. You can install the trial from your Office 365 admin center as described in [Purchase services](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-office-365-admin-center-manage-subscription#purchase-services). <!--- 1183223 -->
 
 ### Fixed issues
 
@@ -109,7 +109,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Insights
 
-- Web interactions performed by a contact when they were anonymous are currently not attributed to them when the contact is created. These interactions can be viewed under the related entity (marketing page, website etc.) and are leveraged to compute the insights for the entity. <!--- 1276305 --> 
+- Web interactions registered for an anonymous visitor (on a tracked website, marketing page, marketing form, or redirect URL) don't currently become attributed to a contact record if those visitors later become known contacts. Though these interactions remain anonymous, you can still see them under the related entity (marketing page, website, etc.) and they are leveraged to compute the insights for each record. More information: [Websites](#websites) <!--- 1276305 -->
 
 ## Event management
 
