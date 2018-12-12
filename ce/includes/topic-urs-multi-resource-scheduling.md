@@ -16,10 +16,9 @@ Schedule resource groups using resource availability search, and recommend group
 
 Scheduling resources using requriment groups takes the following steps:
 
-- Create a requirement group template
-- Create a new requirement group 
-- Book the requirement with the scheduling assistant
-- Use split view to see the scheduled requirement group on the schedule board
+1. Create a requirement group template
+2. Create a new requirement group 
+3. Book the requirement with the scheduling assistant
 
 ## 1. Create a requirement group template
 
@@ -32,7 +31,7 @@ Scheduling resources using requriment groups takes the following steps:
 - Select the root, and then choose **Add requirements**. Fill the the fields across the columns. If details you need to add aren't displayed in the columns, select the requirement and then choose **Open Form** to add details in the requirement form.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements](./media/scheduling-multi-resource-2-requirements.png)
+> ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
 
 - Set the **All** or **Any** option. Setting **All** means all requirements must be fulfilled, so the the system searches for one resource for each requirement. In the previous example, the system would search for two resources. Setting **Any** means the system searches for one resource that can fulfill any requirement. 
 
@@ -48,21 +47,22 @@ Scheduling resources using requriment groups takes the following steps:
 
 - If needed, edit the requirements, and then choose **Book**.
 
-> ![Screenshot showing where to find book command for requirement group](./media/scheduling-multi-resource-group.png)
+> ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
 
 > [!Note]
 > It is possible to relate requirements within requirement groups to jobs such as work orders, Projects, and other entities; however the intended use for work orders is through Incident Types described later in this article.
 
 The requirement group is noted on all related requirements.
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group lookup from individual requirements](./media/scheduling-multi-resource-rg-field.png)
+> ![Screenshot of requirement group lookup from individual requirements](../common-scheduler/media/scheduling-multi-resource-rg-field.png)
 
 ## 3. Book the requirement group 
 
-Selecting Book from a requirement group triggers the schedule assistant.
+- Select **Book** from a requirement group, which triggers the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant for requirement group](./media/scheduling-multi-resource-schedule-assistant.png)
+> ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
 
 The schedule assitant will display different options to fulfill the requirement group noting the particular requirement it is fulfilling in the Requirement column. 
 
@@ -70,29 +70,27 @@ By default it will recommend options with fewer resources first, in an attempt t
 
 Selecting and booking an option for multiple requirements will create multiple bookings reflected on the schedule board.
 
-## 4. Use split view to see the scheduled requirement group on the schedule board
-
 If multiple bookings are created when scheduling a requirement group, it is possible to use the split view feature on the schedule board to view all related bookings.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of splitview schedule board view of requirement group bookings](./media/scheduling-multi-resource-split-view.png)
-
-In the preceding screenshot, the lower split view is showing all bookings scheduled from the requirement group.
+> ![Screenshot of splitview schedule board view of requirement group bookings](../common-scheduler/media/scheduling-multi-resource-split-view.png)
+In the above picture, the lower split view is showing all bookings scheduled from the requirement group.
 
 ## Requirement groups for work orders
 
 For field service scenarios, requirement group templates are designed to work with incident types. An incident type is a way of automatically adding duration, service tasks, products, services and other attributes to a work order. Adding an incident type to a work order can also automatically add requirement groups. This is achieved by **associating a requirement group template to an incident type**.
  
-1. Create a requirement group template
-2. Create an incident type or select an existing one and associate the requirement group template 
-3. Add the incident type to a work order
-4. Book the work order
 
-### 1. Create a requirement group template
+1) create a requirement group template
+2) create an incident type or select an existing one and associate the requirement group template 
+3) add the incident type to a work order and verify related requirements are added
+4) book the work order
 
-See the first step in this topic for reference.
+### Create a requirement group template
 
-### 2. Create an incident type or select an existing one and associate the requirement group template 
+See above for details
+
+### Create an incident type or select an existing one and associate the requirement group template 
 
 Navigate to **Field Service Settings** > **Incident Types**.
 
@@ -103,13 +101,13 @@ Select an incident type or create a new one.
 
 Select **Requirement Group** under related entities and **add a new one**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group template from incident type](./media/scheduling-multi-resource-incident-rgt.png)
+> ![Screenshot of requirement group template from incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt.png)
 
 Select a requirement group template from the dropdown menu to associate the template with the incident type, and then choose **Save**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of associating requirement group template with incident type](./media/scheduling-multi-resource-incident-rgt2.png)
+> ![Screenshot of associating requirement group template with incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt2.png)
 
-### 3. Add the incident type to a work order
+### Add the incident type to a work order and verify related requirements are added
 
 Navigate to **Field Service** > **Work Orders** > **New**
 
@@ -123,14 +121,14 @@ This is done by choosing an incident type for the **Primary Incident Type** fiel
 Navigate to **Work Order** > **Requirement Groups** to verify requirements have been added to the work order according to the requirement group template.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group added to work order when work order incident type is created](./media/scheduling-multi-resource-work-order-requirements.png)
+> ![Screenshot of requirement group added to work order when work order incident type is created](../common-scheduler/media/scheduling-multi-resource-work-order-requirements.png)
 
-### 4. Book the work order
+### Book the work order
 
 Choose **Book** to schedule the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling requirement group from a work order via schedule assistant](./media/scheduling-multi-resource-work-order-book.png)
+> ![Screenshot of scheduling requirement group from a work order via schedule assistant](../common-scheduler/media/scheduling-multi-resource-work-order-book.png)
 
 ## Using the "All" or "Any" setting
 
@@ -139,7 +137,7 @@ The All or Any setting is powerful when you need to add multiple option sets to 
 In the following example, the root requirement is set to **Any** but each option within the root is set to **All**. This means when attempting to book the requirement group the system searches for either **all of option 1** OR **all of Option 2**. The system searches for two resources each with one required skill (characteristic), *or* searches for one resource with two required skills.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two options](./media/scheduling-multi-resource-2-options.png)
+> ![Screenshot of requirement group with two options](../common-scheduler/media/scheduling-multi-resource-2-options.png)
 
 ## Tips for using templates for requirement groups
 
