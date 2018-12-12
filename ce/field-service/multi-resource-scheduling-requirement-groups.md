@@ -2,7 +2,7 @@
 title: "Multi-resource scheduling with requirement groups | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/27/2018
+ms.date: 12/13/2018
 ms.reviewer: "krbjoran"
 ms.service: dynamics-365-customerservice
 ms.suite: ""
