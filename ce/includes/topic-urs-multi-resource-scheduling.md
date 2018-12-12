@@ -33,7 +33,7 @@ Scheduling resources using requriment groups takes the following steps:
 4. Select the root, and then choose **Add requirements**. Fill the the fields across the columns. If details you need to add aren't displayed in the columns, select the requirement and then choose **Open Form** to add details in the requirement form.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements](./media/scheduling-multi-resource-2-requirements.png)
+> ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
 
 5. Set the **All** or **Any** option. Setting **All** means all requirements must be fulfilled, so the the system searches for one resource for each requirement. In the previous example, the system would search for two resources. Setting **Any** means the system searches for one resource that can fulfill any requirement. 
 
@@ -49,21 +49,21 @@ Scheduling resources using requriment groups takes the following steps:
 
 4. If needed, edit the requirements, and then choose **Book**.
 
-> ![Screenshot showing where to find book command for requirement group](./media/scheduling-multi-resource-group.png)
+> ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
 
 > [!Note]
 > It is possible to relate requirements within requirement groups to jobs such as work orders, Projects, and other entities; however the intended use for work orders is through Incident Types described later in this article.
 
 The requirement group is noted on all related requirements.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group lookup from individual requirements](./media/scheduling-multi-resource-rg-field.png)
+> ![Screenshot of requirement group lookup from individual requirements](../common-scheduler/media/scheduling-multi-resource-rg-field.png)
 
 ## Book the requirement group 
 
 Selecting Book from a requirement group triggers Resource Availability Search (Schedule Assistant).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant for requirement group](./media/scheduling-multi-resource-schedule-assistant.png)
+> ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
 
 Resource Availability Search will display different options to fulfill the requirement group noting the particular requirement it is fulfilling in the Requirement column. 
 
@@ -76,7 +76,7 @@ Selecting and booking an option for multiple requirements will create multiple b
 If multiple bookings are created when scheduling a requirement group, it is possible to use the split view feature on the schedule board to view all related bookings.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of splitview schedule board view of requirement group bookings](./media/scheduling-multi-resource-split-view.png)
+> ![Screenshot of splitview schedule board view of requirement group bookings](../common-scheduler/media/scheduling-multi-resource-split-view.png)
 In the above picture, the lower split view is showing all bookings scheduled from the requirement group.
 
 ## Tips and tricks when using templates for requirement groups
@@ -129,11 +129,11 @@ Select an incident type or create a new one.
 
 Select **Requirement Group** under related entities and **add a new one**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group template from incident type](./media/scheduling-multi-resource-incident-rgt.png)
+> ![Screenshot of requirement group template from incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt.png)
 
 Select a requirement group template from the dropdown menu to associate the template with the incident type, and then choose **Save**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of associating requirement group template with incident type](./media/scheduling-multi-resource-incident-rgt2.png)
+> ![Screenshot of associating requirement group template with incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt2.png)
 
 ### Add the incident type to a work order and verify related requirements are added
 
@@ -149,14 +149,14 @@ This is done by choosing an incident type for the **Primary Incident Type** fiel
 Navigate to **Work Order** > **Requirement Groups** to verify requirements have been added to the work order according to the requirement group template.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group added to work order when work order incident type is created](./media/scheduling-multi-resource-work-order-requirements.png)
+> ![Screenshot of requirement group added to work order when work order incident type is created](../common-scheduler/media/scheduling-multi-resource-work-order-requirements.png)
 
 ### Book the work order
 
 Choose **Book** to schedule the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling requirement group from a work order via schedule assistant](./media/scheduling-multi-resource-work-order-book.png)
+> ![Screenshot of scheduling requirement group from a work order via schedule assistant](../common-scheduler/media/scheduling-multi-resource-work-order-book.png)
 
 ## Tips and tricks for using requirement groups to schedule work orders
 
@@ -174,5 +174,5 @@ The All or Any setting is powerful when you need to add multiple option sets to 
 In the following example, the root is set to **Any** but each option within the root is set to **All**. This means when attempting to book the requirement group the system searches for either **all of option 1** OR **all of Option 2**. The system searches for two resources each with one required skill (characteristic), *or* searches for one resource with two required skills.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two options](./media/scheduling-multi-resource-2-options.png)
+> ![Screenshot of requirement group with two options](../common-scheduler/media/scheduling-multi-resource-2-options.png)
 
