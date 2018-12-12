@@ -1,19 +1,19 @@
 ---
-title: "Sample: Create and update entity metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create and update entity metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create a custom entity by using the CreateEntityRequest message. It also uses the CreateAttributeRequest to add several different types of attributes to the entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 237c75a2-cae5-467b-b894-ab0f7572e7f9
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
 ### See also  
  [Customize entity metadata](../customize-entity-metadata.md)   
  [Sample: Create a Custom Activity Entity](sample-create-custom-activity-entity.md)   
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](use-organization-service-metadata.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesResponse>

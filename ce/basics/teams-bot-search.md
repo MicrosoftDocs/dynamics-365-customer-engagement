@@ -1,21 +1,21 @@
 ---
 title: "Use the bot| MicrosoftDocs"
-ms.custom: ""
-description: "Use the bot to interact with Dynamics 365 (online)."
-ms.date: 11/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+description: "Use the bot to interact with Dynamics 365 for Customer Engagement apps."
+ms.date: 11/08/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -28,7 +28,10 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find, display, and update the records within Microsoft Teams conversations.
+> [!NOTE]
+> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
+
+The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 for Customer Engagement apps to find, display, and update the records within Microsoft Teams conversations.
 
 Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
 
@@ -63,7 +66,7 @@ Edit and update a record.
 > ![Update a record](media/teams-bot-edit-record.png "Update a record")
 
 ## Post
-Create a post in Dynamics 365 (online).
+Create a post in Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Create a post](media/teams-bot-create-post.png "Create a post")
@@ -75,4 +78,4 @@ Use the bot menu for other actions such as change the org or app module.
 > ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")
 
 ### See also  
- [Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)
+[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)

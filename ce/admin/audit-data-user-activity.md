@@ -1,20 +1,20 @@
 ---
-title: "Audit data and user activity for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Audit data and user activity for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: f8966997-6047-4ff7-b3ae-47cbceea96a2
 caps.latest.revision: 17
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,14 +23,14 @@ search.app:
 ---
 # Audit data and user activity for security and compliance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
+The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
 <!-- 
 > [!NOTE]
 > This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](enable-use-comprehensive-auditing.md).
 -->
- The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Administrator answer questions such as:  
+ The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps Administrator answer questions such as:  
   
 -   Which user was accessing the system and when?  
   
@@ -63,7 +63,7 @@ The following operations can be audited:
 System administrators and customizers can start or stop auditing for an organization.  
   
 > [!IMPORTANT]
->  For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], you may notice that auditing can significantly increase the size of the organization database over time. You can delete audit logs by going to **Settings** > **Auditing** > **Audit Log Management**. Additionally, you may want to stop auditing for maintenance purposes. Stopping auditing stops tracking for the organization during the period until auditing is started again. When you start auditing again, the same auditing selection is maintained that was previously used.  
+>  For Dynamics 365 for Customer Engagement apps (on-premises), you may notice that auditing can significantly increase the size of the organization database over time. You can delete audit logs by going to **Settings** > **Auditing** > **Audit Log Management**. Additionally, you may want to stop auditing for maintenance purposes. Stopping auditing stops tracking for the organization during the period until auditing is started again. When you start auditing again, the same auditing selection is maintained that was previously used.  
   
 <a name="BKMK_startAudit"></a>   
 ## Start or stop auditing for an organization  
@@ -77,7 +77,7 @@ System administrators and customizers can start or stop auditing for an organiza
   
 4. Select the entities you want to track. To start or stop auditing on specific entities, select or clear the following check boxes:  
   
-   - **Audit user access**. Tracks when a user accesses [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] including the user name and time.  
+   - **Audit user access**. Tracks when a user accesses [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps including the user name and time.  
   
    - **Common Entities**. Tracks common entities like Account, Contact, Goal, Product, and User.  
   

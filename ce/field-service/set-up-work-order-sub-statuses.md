@@ -1,18 +1,18 @@
 ---
-title: "Set up work order sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up work order sub-statuses (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 402b977f-390e-4ed7-89d1-4188636cf7f6
 caps.latest.revision: 13
@@ -53,7 +53,7 @@ Work order system status values can't be modified in the system; however, to all
 3.  Use the tooltips to help fill in your information, and then click **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Create work order types](../field-service/create-work-order-types.md)   
  [Set up time groups](../field-service/set-up-time-groups.md)   

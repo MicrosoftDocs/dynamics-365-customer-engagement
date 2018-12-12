@@ -1,11 +1,11 @@
 ---
 title: "Verify domain user account SPN for the service or website2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 43c84bc9-ab01-4f4a-86ba-aff4d47ca527
 caps.latest.revision: 6
 robots: noindex,nofollow

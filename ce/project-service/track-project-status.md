@@ -1,5 +1,5 @@
 ---
-title: Track a project’s status (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Track a project’s status (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to track a project’s status in Project Service
 author: krbjoran
 manager: ShellyHa

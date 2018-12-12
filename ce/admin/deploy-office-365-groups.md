@@ -1,35 +1,35 @@
 ---
-title: "Deploy Office 365 Groups with Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.custom: ""
+title: "Deploy Office 365 Groups with Dynamics 365 for Customer Engagement| MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: d3646c17-1344-490f-9612-6c8cb63e213f
 caps.latest.revision: 7
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
 ---
-# Deploy Office 365 Groups
+# Deploy Office 365 Groups [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)]
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], available with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], provides a new environment for collaboration with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users who don’t use [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For example, use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] when a sales team has a major opportunity requiring input from several people who don’t have access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a single location to share documents, conversations, meetings, and notes. You can enable [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for any entity.  
+[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], available with [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)] apps, provides a new environment for collaboration with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users who don’t use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. For example, use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] when a sales team has a major opportunity requiring input from several people who don’t have access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a single location to share documents, conversations, meetings, and notes. You can enable [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for any entity.  
   
  ![Use Office 365 Groups to collaborate with others](../admin/media/office-groups-venn.png "Use Office 365 Groups to collaborate with others")  
   
- Collaborate with people inside and outside of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
+ Collaborate with people inside and outside of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
   
  ![Use Office 365 Groups to collaborate](../admin/media/crm-itpro-officegroups1.png "Use Office 365 Groups to collaborate")  
   
@@ -44,9 +44,9 @@ search.app:
 <a name="BKMK_Requirements"></a>   
 
 ## Requirements  
- The following are required to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
+ The following are required to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps:  
   
-- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
+- Customer Engagement apps  
   
 - [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
@@ -59,12 +59,12 @@ search.app:
 <a name="BKMK_EnableOfficeGroups"></a>   
 
 ## Provision Office 365 Groups  
- [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] is a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution you provision from your [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
+ [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] is a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps solution you provision from your [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
   
 > [!NOTE]
->  Users must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] mailbox set up to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] is already properly configured for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations as a part of [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]. You also need to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration to see documents in an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group; you don't have to use [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, only set up the connection to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is also required to enable the group [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
+>  Users must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] mailbox set up to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] is already properly configured for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps organizations as a part of [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]. You also need to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration to see documents in an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group; you don't have to use [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, only set up the connection to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is also required to enable the group [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
 > 
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)  
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
@@ -81,7 +81,7 @@ search.app:
    Once installation of the solution has completed, you can configure [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
   
 > [!NOTE]
->  When you install a solution, your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] site is taken offline in maintenance mode for a short time. We recommend you install the solution when it’s least disruptive to users.  
+>  When you install a solution, your Customer Engagement apps site is taken offline in maintenance mode for a short time. We recommend you install the solution when it’s least disruptive to users.  
   
 <a name="BKMK_privileges"></a>   
 ## Check required privileges  
@@ -100,9 +100,9 @@ search.app:
 <a name="BKMK_ConfigureOfficeGroups"></a>   
 
 ## Configure Office 365 Groups  
- Once you provision [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], you can enable them for any entity. Security group membership is associated with the entity. You configure [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ Once you provision [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], you can enable them for any entity. Security group membership is associated with the entity. You configure [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] in Customer Engagement apps.  
   
-1. In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Settings** > **Office 365 Groups**.  
+1. In Customer Engagement apps, click **Settings** > **Office 365 Groups**.  
   
 2. On the **Office 365 Groups Settings** page, click ![Add properties button](../admin/media/add-properties-button.png "Add properties button")**Add entity** and choose an entity from the drop-down list. Repeat this step for each entity you want to enable, including custom entities.  
   
@@ -116,10 +116,10 @@ search.app:
   
 <a name="BKMK_Connectors"></a>   
 ## Use the Office 365 Connectors for Groups  
- Use the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Connectors for Groups to connect new or existing [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] so the group is notified when new activities are posted. To set it up, follow these steps:  
+ Use the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Connectors for Groups to connect new or existing [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] with Customer Engagement apps so the group is notified when new activities are posted. To set it up, follow these steps:  
   
 > [!TIP]
->  Check out the following Dynamics 365 Blog: [Dynamics CRM Online connector for Office 365 Groups](http://blogs.msdn.microsoft.com/crm/2016/04/01/dynamics-crm-online-connector-for-office-365-groups/)  
+>  Check out the following Dynamics 365 for Customer Engagement apps Blog: [Dynamics CRM Online connector for Office 365 Groups](http://blogs.msdn.microsoft.com/crm/2016/04/01/dynamics-crm-online-connector-for-office-365-groups/)  
   
 1. Sign in to your [Office 365 Outlook](https://outlook.office365.com).  
   
@@ -131,13 +131,13 @@ search.app:
   
 4. Scroll down to **Dynamics 365 Online**, and then click **Add**.  
   
-5. If you have access to more than one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, choose which instance to connect to this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group. If you only have access to one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, this step will be skipped and you will advance to the next step.  
+5. If you have access to more than one Customer Engagement instance, choose which instance to connect to this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group. If you only have access to one Customer Engagement instance, this step will be skipped and you will advance to the next step.  
   
-6. Choose the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record you want to connect this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group to, and then click **Save**.  
+6. Choose the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps record you want to connect this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group to, and then click **Save**.  
   
    ![Add Office 365 Groups records to connect](../admin/media/add-office-365-groups-records-to-connect.png "Add Office 365 Groups records to connect")  
   
-   Once connected, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] connector shows up at the top of the connection list with a summary of connected records.  
+   Once connected, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps connector shows up at the top of the connection list with a summary of connected records.  
   
    ![Office 365 Groups records in connector](../admin/media/office-365-groups-records-in-connector.png "Office 365 Groups records in connector")  
   
@@ -153,19 +153,19 @@ search.app:
 > - Only task type activities are sent to the group as connector cards.  
 > - The activity appears as a new conversation in a card format in the Group.  
 > - The fields in the card shown in the Group conversation are not customizable.  
-> - Nothing is required in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to make the connector work.  
-> - For sensitive information, you should connect your Dynamics 365 record to a private group where only approved members can view contents. For public groups, everyone in the org has access to view contents. See "Public and private Office 365 groups" in [Learn more about groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).  
+> - Nothing is required in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to make the connector work.  
+> - For sensitive information, you should connect your Dynamics 365 for Customer Engagement apps record to a private group where only approved members can view contents. For public groups, everyone in the org has access to view contents. See "Public and private Office 365 groups" in [Learn more about groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).  
   
 <a name="BKMK_KnownIssues"></a>   
 ## Known issues  
- You need to have [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] or later, to install [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. If [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] appears as an available solution in the [!INCLUDE[pn_crm_online_admin_center](../includes/pn-crm-online-admin-center.md)], but you receive the following error when trying to install: "Solution install failed. Please try again later. If the problem persists, contact customer support," you’ll need to update your instance of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] before you can install [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
+ You need to have Customer Engagement apps version [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] or later, to install [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. If [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] appears as an available solution in the [!INCLUDE[pn_crm_online_admin_center](../includes/pn-crm-online-admin-center.md)], but you receive the following error when trying to install: "Solution install failed. Please try again later. If the problem persists, contact customer support," you’ll need to update your instance of Customer Engagement apps before you can install [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
   
 ## Privacy notice  
- When a user leverages the Office 365 Groups for Dynamics 365 feature to connect an Office Group to Microsoft Dynamics 365 (online), data (including new conversations and documents) will be stored on the Exchange and/or SharePoint system and shared with the members of that Office Group, even if they are not licensed or authorized Dynamics 365 users. Users will only be able to share the data that they have access to, and Administrators can limit the data that is shared by limiting the access privileges of their users.  
+ When a user leverages the Office 365 Groups for Dynamics 365 for Customer Engagement apps feature to connect an Office Group to Microsoft Dynamics 365 for Customer Engagement apps (online), data (including new conversations and documents) will be stored on the Exchange and/or SharePoint system and shared with the members of that Office Group, even if they are not licensed or authorized Dynamics 365 for Customer Engagement apps users. Users will only be able to share the data that they have access to, and Administrators can limit the data that is shared by limiting the access privileges of their users.  
   
 ### See also  
  [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)   
  [CRM Blog: Dynamics CRM Online connector for Office 365 Groups](http://blogs.msdn.microsoft.com/crm/2016/04/01/dynamics-crm-online-connector-for-office-365-groups/)   
- [Set up Dynamics 365 (online) to use Exchange Online](connect-exchange-online.md)   
+ [Set up Dynamics 365 for Customer Engagement apps (online) to use Exchange Online](connect-exchange-online.md)   
  [Blog: It's here - Office 365 Groups in CRM Online](http://blogs.technet.com/b/lystavlen/archive/2015/05/08/office-groups.aspx)   
- [Office 365 Groups in Dynamics 365 FAQs](../basics/office-365-groups-dynamics-365-faqs.md)
+ [Office 365 Groups in Dynamics 365 for Customer Engagement apps FAQs](../basics/office-365-groups-dynamics-365-faqs.md)

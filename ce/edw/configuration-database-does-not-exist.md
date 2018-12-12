@@ -1,11 +1,11 @@
 ---
 title: "The configuration database does not exist on the specified SQL Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 211692df-d41a-48b0-ac60-324436e99db7
 caps.latest.revision: 6
 robots: noindex,nofollow
@@ -40,7 +40,7 @@ There are several reasons why you may receive this error.
   
 -   Local administrator on the computer that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)].  
   
--   Local administrator on the computer that is running Dynamics 365 Reporting Extensions.  
+-   Local administrator on the computer that is running Dynamics 365 for Customer Engagement Reporting Extensions.  
   
 -   A domain user who has Read and Write permissions to the organizational unit in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service where [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will be installed.  
   

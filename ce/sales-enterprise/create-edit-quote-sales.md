@@ -1,16 +1,16 @@
 ---
 title: "Create or edit a quote (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
-keywords: "Quote, proposal, create quote, products, price"
+keywords: Quote, proposal, create quote, products, price
 ms.date: 09/22/2017
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 9881bdf5-8922-4cb6-b2df-544286e56400
 author: shubhadaj
 ms.author: shujoshi
@@ -26,7 +26,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-One way that can help you increase your sales is to add all products that your customer might need to your quote. Your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] system might offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
+One way that can help you increase your sales is to add all products that your customer might need to your quote. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
   
  Most sales begin with a price quote, which eventually becomes an order.  
   

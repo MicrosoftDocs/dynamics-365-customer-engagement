@@ -1,11 +1,11 @@
 ---
 title: "Connections to the computer running Microsoft SQL Server must be closed | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 4414aa97-a4da-4699-9113-5e36e56abcc0
 caps.latest.revision: 6
 robots: noindex,nofollow

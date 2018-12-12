@@ -1,16 +1,16 @@
 ---
 title: "Set up a discount list (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Set up discounts on products in Dynamics 365 for Sales to offer products to your customers on marked down rates."
-keywords: "Discount, Discounted, Discount list"
+keywords: Discount, Discounted, Discount list
 ms.date: 10/09/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: afdf269e-613e-4949-ab6a-d1e9c02d8370
 author: shubhadaj
 ms.author: shujoshi
@@ -102,7 +102,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
   
    - **Currency**. If you chose to give discount as a fixed amount, select the currency.  
   
-   ![Create a discount list in Dynamics 365](../sales-enterprise/media/v7-discount-lit.png "Create a discount list in Dynamics 365")  
+   ![Create a discount list in Dynamics 365 for Sales](../sales-enterprise/media/v7-discount-lit.png "Create a discount list in Dynamics 365 for Sales")  
   
 6. Select **OK**.  
   
@@ -112,7 +112,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
   
     Here's how:  
   
-   ![Create volume discounts in Dynamics 365](../sales-enterprise/media/v7-discounts.png "Create volume discounts in Dynamics 365")  
+   ![Create volume discounts in Dynamics 365 for Sales](../sales-enterprise/media/v7-discounts.png "Create volume discounts in Dynamics 365 for Sales")  
   
     This discount list will offer a discount of 5% whenever the customer purchases between 3 – 5 boxes.  
   

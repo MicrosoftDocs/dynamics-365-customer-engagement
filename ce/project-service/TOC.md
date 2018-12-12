@@ -1,5 +1,6 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
+
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
@@ -7,6 +8,22 @@
 ## [Advanced quoting, pricing, and billing guide](implementation-guides/adv-quoting-pricing-billing.md)
 ## [Resource management guide](implementation-guides/resource-management-guide.md)
 ## [Reporting guide](implementation-guides/reporting-guide.md) 
+
+# [Project Service upgrade (app version 3.x)](upgrade-psa-home-page.md)
+## [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
+## [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
+
+# Project Service (app version 3.x)
+## [Pricing and costing dimensions](pricing-costing-dimensions.md)
+### [Create custom fields and entities](create-custom-fields-entities.md)
+### [Add custom fields to price setup and transactional entities ](field-references.md)
+### [Set up custom fields as pricing dimensions ](set-up-pricing-dimensions.md)
+### [Update plug-in attributes to include new pricing dimensions](update-plug-in-attributes.md)
+### [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
+#### [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
+#### [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
+### [Turn off a pricing dimension](turn-off-pricing-dimension.md)
+
 
 # How-to guides (app version 3.x)
 ## [Pricing dimensions setup guide](how-to-guides/pricing-dimensions-setup.md)
@@ -26,6 +43,7 @@
 ## [Why is the price defaulting to zero on expense sales actuals?](FAQ-zero-price-expense-sales-actuals.md)
 ## [Why is the price defaulting to zero on time cost actuals?](FAQ-zero-price-time-cost-actuals.md)
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
+## [Why can’t I delete records from the Actuals entity?](FAQ-deleting-actuals.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## FAQ and troubleshooting 

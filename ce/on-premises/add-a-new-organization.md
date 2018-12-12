@@ -1,14 +1,14 @@
 ---
 title: "Add a new organization | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 0370ff17-bcb8-41d4-ba58-5dda590d8949
 caps.latest.revision: 18
 author: Mattp123

@@ -1,12 +1,12 @@
 ---
 title: Tab properties for forms in PowerApps | MicrosoftDocs
 description: Understand the tab properties for main forms
-Keywords: Tab properties; Dynamics 365; Main forms
+Keywords: Tab properties; Dynamics 365 for Customer Engagement; Main forms
 author: matp
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.author: Mattp123
 manager: kvivek
 ms.date: 04/24/2018
@@ -20,7 +20,7 @@ search.app:
 ---
 # Tab properties overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  In the body of a form, tabs provide horizontal separation. Tabs have a label that can be displayed. If the label is displayed, tabs can be expanded or collapsed to show or hide their content by choosing the label.  
 

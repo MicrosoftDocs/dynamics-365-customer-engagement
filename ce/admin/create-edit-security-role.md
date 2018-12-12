@@ -1,20 +1,20 @@
 ---
-title: "Create or edit a security role for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Create or edit a security role for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/11/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 6c72559d-28a6-49ae-bb88-7a3eea6db611
 caps.latest.revision: 33
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,9 +23,9 @@ search.app:
 ---
 # Create or edit a security role to manage access
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.  
+You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.
   
  If you need to back up your security role changes, or export security roles for use in a different implementation of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can export them as part of exporting customizations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
@@ -156,6 +156,6 @@ When you import the solution, it creates the **min prv apps use** role which you
  [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
 ### See also  
- [Security concepts for Dynamics 365](../admin/security-concepts.md)   
+ [Security concepts for Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)

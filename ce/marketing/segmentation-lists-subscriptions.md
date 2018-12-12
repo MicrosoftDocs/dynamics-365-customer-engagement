@@ -1,15 +1,15 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
-keywords: "segment; marketing list; subscription; Customer Insights"
+keywords: segment; marketing list; subscription; Customer Insights
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
 author: kamaybac
 ms.author: kamaybac
@@ -47,8 +47,8 @@ Segments can be dynamic, static, or compound.
 
 Segments can also be based either on profiles or interactions.
 
-- *Profile segments* query the _profile_ records stored in the customer-interaction database. Profiles records are synced between your Dynamics 365 database and the customer-interaction database and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
-- *Interaction segments* query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 UI, but they _aren't_ synced to the Dynamics 365 database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- *Profile segments* query the _profile_ records stored in the customer-interaction database. Profiles records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
+- *Interaction segments* query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
 ### Segments are synced with the customer-insights services
 

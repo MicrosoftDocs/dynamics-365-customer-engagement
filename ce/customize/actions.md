@@ -1,20 +1,19 @@
 ---
 title: "Actions overview | MicrosoftDocs"
-ms.custom: ""
-ms.date: 03/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/08/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1475985f-d3c4-429d-beac-cb455965e792
 caps.latest.revision: 20
-ms.author: "matp"
-manager: "brycho"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,11 +21,11 @@ search.app:
 ---
 # Actions overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
 Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   
- Actions can also be invoked by running custom code that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Web services.  
+ Actions can also be invoked by running custom code that uses the Dynamics 365 for Customer Engagement for Customer Engagement Web services.  
   
  You can call actions:  
   
@@ -34,9 +33,9 @@ Actions are a type of process. You can invoke actions, including custom actions,
   
 - From a command that is placed in the application and executes the operation using JavaScript code.  
   
-- From an integration with another system that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
+- From an integration with another system that uses the Dynamics 365 for Customer Engagement for Customer Engagement web services.  
   
-- From a custom client application that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
+- From a custom client application that uses the Dynamics 365 for Customer Engagement for Customer Engagement web services.  
   
 Developers can learn more in this topic: [Create your own actions](../developer/create-own-actions.md). 
   

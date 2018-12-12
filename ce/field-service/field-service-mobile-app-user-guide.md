@@ -1,18 +1,18 @@
 ---
-title: "Field Service Mobile App User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Field Service Mobile Setup (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/29/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
@@ -26,7 +26,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Field Service Mobile App User Guide
+# Field Service Mobile Setup
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -52,7 +52,7 @@ search.app:
   
 <a name="bkmk_signin"></a>   
 ## Sign in and sync data
- To sign in, you need your organization's Dynamics 365 URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
+ To sign in, you need your organization's Dynamics 365 for Customer Engagement URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
   
 1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign in completes, you'll see the Home screen. 
   
@@ -87,7 +87,7 @@ search.app:
  When you first sign in to [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you’ll see your home screen, which shows you a list of actionable items. To get more information, tap any of the items.  
   
 > [!NOTE]
->  If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
+>  If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
   
 ### Dashboard  
  Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
@@ -366,5 +366,5 @@ If work still needs to be done, you can create a follow-up booking.
   
  
 ### See also  
- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)
+ [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)

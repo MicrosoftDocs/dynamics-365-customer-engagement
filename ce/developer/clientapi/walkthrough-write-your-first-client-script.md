@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: Write your first client script in Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: conceptual
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 73dfc13c-a18c-42fc-b511-a37896c2f893
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -32,7 +32,7 @@ We will draw your attention to important facts during the walkthrough, and provi
 
 The first step is to identify the business issue you are trying to address using client scripting. Once you have identified it, you need to write your JavaScript code containing the custom business logic that addresses your business issue. 
 
-Dynamics 365 Customer Engagement does not provide a JavaScript editor. So, you can use an external authoring tool that provides features to specifically support editing JavaScript files, such as [Notepad++](https://notepad-plus-plus.org/), [Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript), or [Microsoft Visual Studio](https://docs.microsoft.com/en-us/scripting/javascript/).
+Dynamics 365 for Customer Engagement does not provide a JavaScript editor. So, you can use an external authoring tool that provides features to specifically support editing JavaScript files, such as [Notepad++](https://notepad-plus-plus.org/), [Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript), or [Microsoft Visual Studio](https://docs.microsoft.com/en-us/scripting/javascript/).
 
 You can review the complete sample code used in the walkthrough later in this topic.
 

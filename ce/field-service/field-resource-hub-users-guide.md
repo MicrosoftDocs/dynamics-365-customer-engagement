@@ -1,20 +1,20 @@
 ---
-title: "Field Resource Hub User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+title: "Field Resource Hub User Guide (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ebg20953-9c77-464e-an89-e80150a21818
 caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: mkaur
+manager: amyla
 search.audienceType: 
   - admin
   - customizer
@@ -42,7 +42,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-
 
 ## Basic Navigation
 
-1.	When you sign in on the Dynamics 365 mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
+1.	When you sign in on the Dynamics 365 for Customer Engagement mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
 2.	Select **Field Resource Hub**.
 
 ![Choose an app](media/ChooseAnApp_.png "Choose an app")
@@ -119,4 +119,4 @@ Resource bookings provides an overview of resource schedule and bookings for a d
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
- [Dynamics 365 for Field Servic user's guide](../field-service/user-guide.md)
+ [Dynamics 365 for Customer Engagement for Field Servic user's guide](../field-service/user-guide.md)

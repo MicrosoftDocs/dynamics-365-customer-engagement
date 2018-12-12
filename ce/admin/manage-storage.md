@@ -1,21 +1,21 @@
 ---
-title: "Manage storage for Dynamics 365 (online) | MicrosoftDocs"
+title: "Manage storage for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 08/23/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: cf4bf53e-4458-4fec-a837-aaa0e946d1ed
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -24,18 +24,18 @@ search.app:
 ---
 # Manage storage 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
+You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   
- You can also gain storage by deleting certain types of unnecessary data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For information on deleting data, see: [Free storage space in Dynamics 365](free-storage-space.md).  
+ You can also gain storage by deleting certain types of unnecessary data in Customer Engagement apps. For information on deleting data, see: [Free storage space in Dynamics 365 for Customer Engagement](free-storage-space.md).  
   
- For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] plans, see: [Dynamics 365 pricing](https://www.microsoft.com/dynamics365/pricing).  
+ For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps plans, see: [Dynamics 365 for Customer Engagement apps pricing](https://www.microsoft.com/dynamics365/pricing).  
   
 ## Monitor the amount of storage your organization is using  
- Monitor your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] storage to make sure you’ve got lots of capacity for growth.  
+ Monitor your Customer Engagement apps storage to make sure you’ve got lots of capacity for growth.  
   
- If your total storage used is 80% or more of capacity, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admins will receive email notifications and alerts will appear on the Service Health page.  
+ If your total storage used is 80% or more of capacity, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admins will receive email notifications and alerts will appear on the Service Health page.  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
@@ -45,7 +45,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
    ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
   
-## Add storage to Dynamics 365 (online)  
+## Add storage to Dynamics 365 for Customer Engagement apps (online)  
  
 As a global or billing administrator, you can purchase additional storage for your company on Office 365 Admin Center by following the steps below. [Learn how to find your global or billing administrator](../basics/find-administrator-support.md). 
 
@@ -65,10 +65,10 @@ If you purchase through volume licensing or a cloud solutions provider, please c
 
 ## What happens if you exceed your storage limit?
 
-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System administrators will receive frequent email notifications which will cease once additional storage is added or storage is reduced to below the limit.
+[!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System administrators will receive frequent email notifications which will cease once additional storage is added or storage is reduced to below the limit.
 
 ### See also  
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Free storage space in Microsoft Dynamics 365](free-storage-space.md)   
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   
+ [Free storage space in Microsoft Dynamics 365 for Customer Engagement](free-storage-space.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Global and Service administrators can administer Dynamics 365 without a license](../admin/global-service-administrators-can-administer-without-license.md)
+ [Global and Service administrators can administer Dynamics 365 for Customer Engagement apps without a license](../admin/global-service-administrators-can-administer-without-license.md)

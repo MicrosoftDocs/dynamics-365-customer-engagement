@@ -1,11 +1,11 @@
 ---
 title: "One or more user mappings are invalid | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 97eace4e-604d-4267-926a-8011a7ca2b99
 caps.latest.revision: 3
 robots: noindex,nofollow
