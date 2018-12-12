@@ -9,7 +9,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
         ]        
       },
       {
@@ -21,6 +23,8 @@
           "**/obj/**",
           "**/includes/**",
           "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -41,7 +45,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
         ]
       },
       {
@@ -56,7 +62,9 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "unified-service-desk/**"
+          "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
         ]
       }
     ],
