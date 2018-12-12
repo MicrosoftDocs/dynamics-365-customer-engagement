@@ -47,7 +47,7 @@ To set up intervals, you need to:
 
 3. Enter a duration for **Interval**. This is the duration between available time slots. Typical examples include 30 minutes, 45 minutes, 1 hour, and 2 hours.
 
-4. Enter a time for **Intervals Begin**, which defines when to begin counting the interval. So if this is set to 12:00 AM, the available options are 12:00 AM, 12:30 AM, 1:00 AM, and so on; however, results will also depend on resource availability and working hours. If left blank, the interval will begin at the time of booking. For example, if your interval is 30 minutes and Interval Begins is blank, when you attempt to book at 11:13 AM, your time slot options are 11:13 AM, 11:43 AM, 12:13 PM, and so on. 
+4. Enter a time for **Intervals Begin**, which defines when to begin counting the interval. So if this is set to 12:00 AM, the available options are 12:00 AM, 12:30 AM, 1:00 AM, and so on; however, results will also depend on resource availability and working hours. If left blank, the interval will begin at the beginning of the search. For example, if your interval is 30 minutes and Interval Begins is blank, when you attempt to book at 11:13 AM, your time slot options are 11:13 AM, 11:43 AM, 12:13 PM, and so on. 
 
 5. Enter a number for **Results per interval**. This dictates how many options a scheduler will receive for each interval. If left blank, the system defaults to 1.
 
@@ -73,9 +73,6 @@ Select **Book** from the requirement ribbon. Note that the start times in the sc
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of fulfillment preference intervals and related schedule assistant start times](../common-scheduler/media/scheduling-fulfillment-30min-schedule-assistant.png)
-
-> [!Note]
-> The **estimated arrival time** is the attribute that is dictated by the interval. When scheduling requirements where the “work location” is **location agnostic** or **facility**, the **travel start time** and the **estimated arrival time** are identical, since there is no travel. When work location is “onsite”, the travel can begin anytime. The estimated arrival time--the time when resources are expected to arrive at the customers site--is the time that needs to coincide with the interval.
 
 For field service examples where resources perform multiple appointments each day, a shorter 15-minute interval is recommended. This makes for the most efficient use of resources with simplified start times.
 
