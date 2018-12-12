@@ -34,6 +34,7 @@ This document provides important, late-breaking information about known issues a
 ### Known issues
 
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
+- When a Dynamics 365 for Marketing customer has a license for the Marketing product but does not have a CRM license, any attempt to install the Marketing application will fail. As a temporary workaournd, a Marketing customer can install a trial CRM Customer Engagement plan, which would work for 30 days. For more details on creating a trial, click here. <!--- 1183223 -->
 
 ### Fixed issues
 
@@ -105,6 +106,12 @@ This document provides important, late-breaking information about known issues a
 - Lead scoring results might take up to one hour to be calculated.
 - When you're creating lead scoring rules, drop-down lists might not be localized for non-English languages.
 - When you're creating a lead scoring model and add a condition, the "Email sent" condition isn't shown in the list of options. Use the "Sent" condition instead. <!--- 1289271 -->
+
+## Insights
+
+### Known issues
+
+- Web interactions performed by a contact when they were anonymous are currently not attributed to them when the contact is created. These interactions can be viewed under the related entity (marketing page, website etc.) and are leveraged to compute the insights for the entity. <!--- 1276305 --> 
 
 ## Event management
 
