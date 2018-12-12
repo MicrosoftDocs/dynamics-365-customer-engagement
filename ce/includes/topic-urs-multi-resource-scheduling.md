@@ -35,6 +35,7 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 > [!Note]
 > The All or Any setting is powerful when you need to add multiple option sets to a requirement group, which is done by adding subgroups. 
+>
 > In the following example, the root requirement is set to **Any**, but each option within the root is set to **All**. This means when attempting to book the requirement group the system searches for either **all of option 1** OR **all of Option 2**. The system searches for two resources, each with one required skill (characteristic), *or* searches for one resource with two required skills.
 
 > [!div class="mx-imgBorder"]
