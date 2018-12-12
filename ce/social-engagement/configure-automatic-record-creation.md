@@ -63,7 +63,7 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
 
 10. Select **Save**.
 
-11. Select **Add Channel Property record** in the newly created Channel Property Group. Enter **userPreferredTargetEntity** for the name, and set the **Data Type** to **Single Line of Text**. It's important that you match the name as documented in the [JSON payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity). Now that the Channel Property is in place, you create the actual update rules.
+11. Select **Add Channel Property record** in the newly created Channel Property Group. Enter **userPreferredTargetEntity** for the name, and set the **Data Type** to **Single Line of Text**. It's important that you match the name as documented in the [JSON payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity). Now that the Channel Property is in place, you create the actual update rules. 
 
 12. Select **Save**, and then close the dialog boxes.
 
