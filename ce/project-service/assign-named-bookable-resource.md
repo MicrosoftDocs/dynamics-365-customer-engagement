@@ -1,6 +1,6 @@
 ---
-title: Assign named bookable resources to a task and project team
-description: This topic provides information about booking named resources to tasks and project teams.
+title: Book and Assign named bookable resources to a project team and tasks
+description: This topic provides information about booking named resources to project teams and assigning them to tasks.
 author: JohnPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Assign named bookable resources to a task and project team 
+# Booking named bookable resources to a project team and assigning them tasks 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
