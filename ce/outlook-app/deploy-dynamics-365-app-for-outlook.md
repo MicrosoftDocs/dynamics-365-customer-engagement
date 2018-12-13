@@ -87,7 +87,7 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365 for Customer Engagement apps app, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
-1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**) 
+1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **“<your_organization_URL>/apps**) 
 
 ![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
