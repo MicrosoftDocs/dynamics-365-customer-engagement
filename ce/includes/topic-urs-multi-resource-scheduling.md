@@ -31,13 +31,13 @@ To schedule multiple resources with requirement groups, follow these steps:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
 
-- Set the **All** or **Any** option. Setting **All** means all requirements must be fulfilled, so the the system searches for resources for each requirement. Setting **Any** means the system searches for resources that can fulfill any requirement, and fulfilling one requirement fulfills the entire Requirement Group. 
+- Set the **All** or **Any** option. Setting **All** means all requirements must be fulfilled, so the the system searches for resources for each requirement. Setting **Any** means the system searches for resources that can fulfill any requirement, and fulfilling one requirement fulfills the entire requirement group. 
 
 > [!Note]
 > The All or Any setting is powerful when you need to add multiple option sets to a requirement group, which is done by adding subgroups. 
 >
 > In the following screenshot example, the root requirement is set to **Any**, but each option within the root is set to **All**. This means when attempting to book the requirement group the system searches for either **all of option 1** OR **all of Option 2**. The system searches for two resources, each with one required skill (characteristic), *or* searches for one resource with two required skills.
-    > ![Screenshot of requirement group with two options](../common-scheduler/media/scheduling-multi-resource-2-options.png)
+    ![Screenshot of requirement group with two options](../common-scheduler/media/scheduling-multi-resource-2-options.png)
 
 - **Save** the requirement group template.
 
