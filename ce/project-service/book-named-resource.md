@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Book named resources for generic resource requirements
+# Book named resources from resource requirements
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
