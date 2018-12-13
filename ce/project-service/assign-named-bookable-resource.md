@@ -48,7 +48,7 @@ You can see the differences between team member bookings and assignments on the 
 
 ![Resource reconciliation tab](media/RM-how-to-4.png)
 
-You can use the resource picker on the **Schedule** tab to select bookable resources that are not already part of the project team. These are shown in the resource picker as **Other Resources**.
+You can also use the resource picker on the **Schedule** tab to search and select bookable resources that are not already part of the project team. These are shown in the resource picker as **Other Resources**.
 
 ![Assigning a non-team member resource to a task](media/RM-how-to-5.png)
 
