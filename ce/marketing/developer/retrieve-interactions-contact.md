@@ -1,18 +1,18 @@
 ---
 title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically retrieve interactions for a contact using an action; GDPR compliance."
-ms.custom: ""
+ms.custom: 
 ms.date: 08/07/2018
-ms.service: "crm-online"
+ms.service: crm-online
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 

@@ -7,10 +7,10 @@ ms.custom:
 ms.date: 11/15/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "article"
+  - marketing
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 6d87f02d-5f2b-4012-85fa-31456c450d83
 author: Nkrb
 ms.author: nabuthuk

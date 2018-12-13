@@ -1,18 +1,18 @@
 ---
 title: "Dynamics 365 for Marketing entity reference (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
-ms.custom: ""
+ms.custom: 
 ms.date: 04/01/2018
-ms.service: "crm-online"
+ms.service: crm-online
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 1550af17-6bb8-47dd-a096-1060213faf1c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

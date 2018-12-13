@@ -7,10 +7,10 @@ ms.custom:
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 9dacec8b-7b41-4cc2-be2d-d30929627bfc
 author: KumarVivek
 ms.author: kvivek
