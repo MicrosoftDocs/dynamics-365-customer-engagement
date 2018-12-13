@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/11/2018
+ms.date: 12/13/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,7 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Create users in Dynamics 365 for Customer Engagement apps and assign security roles
-
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -265,9 +264,7 @@ You need to have the System Administrator security role or equivalent permission
 
 All application users are created with a non-interactive user account, however they are not counted towards the five non-interactive user accounts limit. In addition, there is no limit on how many application users you can create in an instance.
   
- You will need to create a custom security role and an application user to associate with your registered app. For more information, see [Build web applications using Server-to-Server (S2S) authentication](../developer/build-web-applications-server-server-s2s-authentication.md).
-  
- ![Application user](../admin/media/application-user.png "Application user")  
+![Application user](../admin/media/application-user.png "Application user")  
 
 ## How stub users are created
 A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 for Customer Engagement apps (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. 
