@@ -36,7 +36,7 @@ Resources are the most important asset of a service-based organization. The abil
 - Change resource bookings in response to out-of-office status.
 - Collaborate between project managers and resource managers.
 - View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.
-- Maintain skills and proficiency repository.
+- Maintain a skills and proficiency repository.
 
 
 You can staff your project with a team of generic or named resources in PSA. You can use various methods to add and assign team members and to manage their bookings and assignments. For additional information, see the following topics:
