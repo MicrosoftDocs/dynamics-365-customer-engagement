@@ -39,7 +39,7 @@ You can  add a named resource to your project team by booking them directly onto
 ![Adding a team member on the quick create form](media/RM-how-to-2.png)
 
 
-7. On the **Project** page, click the **Schedule** tab to assign tasks to the new resource. The resource picker that is launched from the **Resources** field in the task grid will show the team members that you can select.
+You can then assign the booked resource to tasks on the project.  To do this, on the **Project** page, click the **Schedule** tab to assign tasks to the new resource. The resource picker that is launched from the **Resources** field in the task grid will show the team members that you can select.
 
 ![Assigning a team member to a task on the schedule tab](media/RM-how-to-3.png)
 
