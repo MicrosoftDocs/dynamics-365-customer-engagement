@@ -42,8 +42,6 @@ This will open the **Quick Create: Project Team Member** panel.
 
 4. After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.
 
-![Booking a generic team member using schedule assistant](media/RM-how-to-15.png) 
-
 ![Generating a requirement for a generic team member](media/RM-how-to-12.png)
 
 On the team member grid, in addition to being able to use the resource picker as mentioned above, you can add generic resources directly. The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.
