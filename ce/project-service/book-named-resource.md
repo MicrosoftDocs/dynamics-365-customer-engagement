@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-You can assign a named resource to a generic resource that has a requirement for a task or a project team.
+You can book a named resource to replace generic resource that has a resource requirement.
 
 1. In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.
 2. Select the generic resource from the list and then click **Book**. Or, open the resource requirement and then click **Book**.
