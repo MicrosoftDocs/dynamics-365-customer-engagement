@@ -27,7 +27,7 @@ search.app:
 You can book a named resource to replace generic resource that has a resource requirement.
 
 1. In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.
-2. Select the generic resource from the list and then click **Book**. Or, open the resource requirement and then click **Book**.
+2. Select the generic resource that has a resource requirement from the list and then click **Book**. Or, open the resource requirement and then click **Book**.
 
 
 ![Booking a generic team member](media/RM-how-to-14.png)
