@@ -70,8 +70,9 @@ Gilda is able to resolve the customer issue with this suggested case, so she lin
      |               Description                |                                                                                                                                                                                         A description of the similarity rule.                                                                                                                                                                                         |
      |Noise Key phrases|Provide noise key phrases by a semicolon ( ; ). These phrases will be filtered while searching for a similar case| 
       |         Filter Result by Status          |                                                                                                                                          Filter records by status                                                                                                                                          |
-
+     |||
     - Select **Save** to save the rule.
+  
 
       ![similar case configuration](media/similar-case-config.PNG)
 
