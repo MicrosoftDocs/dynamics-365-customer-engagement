@@ -2,7 +2,7 @@
 title: "Start a Dynamics 365 for Customer Engagement Web API project in Visual Studio (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Create a new project in Visual Studio to build a console application that uses Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 12/11/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -74,21 +74,21 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 3. Skip to step 6 below to confirm the installation of the helper library package.  
   
-   If you have installed the NuGet Package Manager extension:  
+ If you have installed the NuGet Package Manager extension:  
   
-4. From the **Project** menu, select **Manage NuGet Packages**.  The **NuGet Package Manager** tab is displayed.  
+1. From the **Project** menu, select **Manage NuGet Packages**.  The **NuGet Package Manager** tab is displayed.  
   
-5. In the upper right-hand corner, set the **Package** source drop-down to **Nuget.org**.  
+2. In the upper right-hand corner, set the **Package** source drop-down to **Nuget.org**.  
   
-6. In the upper left-hand corner, click on **Browse** then enter “`Dynamics 365 for Customer Engagement apps HelperCode`” in the search box and press Enter.  
+3. In the upper left-hand corner, click on **Browse** then enter “`Dynamics 365 for Customer Engagement apps HelperCode`” in the search box and press Enter.  
   
    ![NuGet Package Manager showing Dynamics 365 for Customer Engagement apps Helper Code Library &#40;C&#35;&#41;](../media/package-manifest-helper-code.png "NuGet Package Manager showing Dynamics 365 for Customer Engagement apps Helper Code Library (C#)")  
   
-7. Click **Install**.  If the **Preview** dialog is displayed, click **OK**.  
+4. Click **Install**.  If the **Preview** dialog is displayed, click **OK**.  
   
-8. The **License Acceptance** dialog is displayed. Review the license terms and click **I Accept**.  
+5. The **License Acceptance** dialog is displayed. Review the license terms and click **I Accept**.  
   
-9. Navigate to the **Solution Explorer** window. Confirm that a new solution folder named **Web API Helper Code** was added.  
+6. Navigate to the **Solution Explorer** window. Confirm that a new solution folder named **Web API Helper Code** was added.  
   
    ![VS Solution Explorer showing helper library files](../media/solution-explorer-helper-code.PNG "VS Solution Explorer showing helper library files")  
   
