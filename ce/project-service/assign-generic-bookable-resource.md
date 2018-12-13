@@ -32,7 +32,7 @@ In addition to booking and assigning named or real resources to your project, yo
 
 This will open the **Quick Create: Project Team Member** panel. 
 
-2. Enter the role and organization unit of the generic resource team member and then click **Save and Create New**.
+2. Enter the role and organization unit of the generic resource team member and then click **Save**.
 
 ![Generic team member quick create](media/RM-how-to-10.png)
 
