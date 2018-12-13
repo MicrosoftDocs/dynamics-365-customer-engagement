@@ -8,7 +8,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
-ms.date: 11/20/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -34,9 +34,18 @@ Customer Engagement apps version 9.1 introduces some new features for enhanced c
 
 New features introduced in this release are:
 
+- [Advanced similarity rules to view similar case suggestions](#advanced-similarity-rules-to-view-similar-case-suggestions)
 - [Service scheduling powered by Universal Resource Scheduling](#service-scheduling-powered-by-universal-resource-scheduling)
 - [Relevance search enabled for knowledge management ](#relevance-search-enabled-for-knowledge-management)
 - [Enhanced customer service admin settings using Service Management](#enhanced-customer-service-admin-settings-using-service-management)
+
+### Advanced similarity rules to view similar case suggestions
+
+With the help of advanced similarity rules, you can now view cases similar to your current case and resolve customer issues in the first contact and within minimal time.
+
+Using Relevance search mechanism, you can leverage keywords or key phrases in a service case to quickly find related cases and use them to resolve your current case.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
 
 ### Service scheduling powered by Universal Resource Scheduling 

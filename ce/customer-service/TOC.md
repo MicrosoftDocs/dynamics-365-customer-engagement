@@ -37,7 +37,7 @@
 ### [Create article templates](../admin/create-templates-articles.md)
 ### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Create and manage categories](create-manage-categories.md)
-### [Suggest similar records using advanced similarity rules](suggest-similar-cases-for-a-case.md)
+### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)

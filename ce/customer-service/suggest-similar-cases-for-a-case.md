@@ -32,7 +32,11 @@ So, if you're working on a support case, you can view similar cases in the Relat
 
 This can be further understood with the help of the following scenario:
 
+Gilda has recieved a customer issue about not being able to book a travel package on portal. To assist the customer quickly, Gilda tries to seek guidance and looks for similar cases in the **Similar cases** tab of the Related section of the current case.
 
+Based on configured data input, Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can use. Gilda selects a relevant case and view its details. 
+
+Gilda is able to resolve the customer issue with this suggested case, so she links the case to the current case for future reference. 
 
 ## Create a new similar case suggestion rule
  Set up automatic suggestion of similar cases by creating advanced similarity rules. The rules you create use Relevance search mechanism.
@@ -69,6 +73,8 @@ This can be further understood with the help of the following scenario:
 
     - Select **Save** to save the rule.
 
+      ![similar case configuration](media/similar-case-config.PNG)
+
   4. In the **Match Fields** tab:
 
      - Select **Add New Text Analytics Entity Mapping** to add a new related text analytics entity mapping record to this rule.
@@ -80,7 +86,9 @@ This can be further understood with the help of the following scenario:
        | Criteria |                                                                                                                                      **Exact match**: only fields from the source entity are matched. **Note:**  By default, not all fields are enabled for exact matching. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#EnableFieldExactMatch) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
        |  Entity (required)  |                                                                                                                                               Choose an entity from the drop-down list to be used to create a text search rule to find matching records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.                                                                                                                                              |
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. The following types of fields are available: Option Set, Single Line of Text, Multiple Lines of Text.<br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
+       |||
 
+       ![similar-case-rule](media/similar-case-rule.PNG)
 
 5. Select **Save** to save the rule.
 
