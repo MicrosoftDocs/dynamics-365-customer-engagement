@@ -26,7 +26,7 @@ search.app:
 You can submit a generated resource requirement as a resource request. The request is then sent to a resource manager for fulfillment.
 
 1. In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab to view a list bookable resources. 
-2. Select the generic resource from the list and then click **Submit Request**.
+2. Select the generic resource that has a resource requirement from the list and then click **Submit Request**.
 
 ![Submitting a resource request](media/RM-how-to-18.png)
 
