@@ -85,13 +85,27 @@ In Dynamics 365 Customer Engagement apps web client, when you host the KB articl
 
 A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
+After chaning the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+
+![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
+
+Remove the following values from the data field:
+
+`postdata=[[postdata]]`
+
+`header=[[header]+]` 
+
+To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+
+Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
 ## Unified Service Desk 4.0 known issues and limitations
 
 ### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
 If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, the KM Control is changed to Unified Interface KM Control.
 
-With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can server error.
+With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can see server error.
 
 ![Opening article displays server error](media/kb-search-server-error.PNG "Opening article displays server error")
 
@@ -99,7 +113,7 @@ With the Unified Interface KM Control hosted control, if you login to Unified Se
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
-In the Dynamics 365 Web Client configurations, got to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+In the Dynamics 365 Web Client configurations, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 
