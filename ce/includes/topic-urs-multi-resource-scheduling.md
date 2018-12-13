@@ -20,7 +20,7 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 ## 1. Create a requirement group template
 
-- Navigate to **Universal Resource Scheduling** > **Requirement Groups**, and then choose **New**.
+- Navigate to **Universal Resource Scheduling** > **Settings** > **Requirement Group Templates** , and then choose **New**.
 
 - Enter a name for the requirement group, and set the **Is Template** field to **Yes**. Choose **Save**. You will see a grid view of requirement details with a root requirement named after the template.
 
