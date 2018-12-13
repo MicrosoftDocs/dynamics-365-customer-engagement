@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
-keywords: administration;admin center;copy;sandbox;instances;backup;recall
+keywords: "administration;admin center;copy;sandbox;instances;backup;recall"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: c692a378-bf2f-42f6-81cd-8273cda9c695
 author: kamaybac
 ms.author: kamaybac
@@ -77,7 +77,7 @@ For details about how to copy a production instance to a sandbox and then run th
 
 ## Reset or delete an instance
 
-For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing](uninstall-marketing.md).
+For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing from a Dynamics 365 instance](uninstall-marketing.md).
 
 ## Change the URL for an instance
 
@@ -94,11 +94,11 @@ A sandbox instance is where you safely can test new customizations, features, an
 After the copy, your sandbox instance will be set up as follows:
 
 - All settings and customizations from your production instance will be present in the sandbox.
-- A new portal will be created to host marketing pages and event portals for the sandbox instance.
+- A new portal will be created to host marketing pages and event websites for the sandbox instance.
 - A new set of customer-insights services (including a new customer-insights database) will be created and linked to your sandbox instance. Interaction data from your production instance won't be available to the sandbox, so most insights data will be initialized. You can freely generate new interaction data using the sandbox without affecting your production instance.
 - If you choose to do a full copy:
   - The entire core database of your production instance will be copied and linked to the sandbox instance. This means that your previous production data will be available to the sandbox, but your work in the sandbox instance won't affect your production database from now on. 
-  - Any live entities from your production portal (such as marketing pages and the event portal) will be republished on the new portal created for the sandbox instance.
+  - Any live entities from your production portal (such as marketing pages and the event website) will be republished on the new portal created for the sandbox instance.
   - Any live entities that run on external marketing services (such as marketing email messages and customer journeys) will also be copied and enabled as live entities on the sandbox instance.
 - If you choose to do a minimal copy, all your customizations will still be present on the sandbox instance, but none of your production data (including email messages, portal content, and customer journeys) will be there.
 
