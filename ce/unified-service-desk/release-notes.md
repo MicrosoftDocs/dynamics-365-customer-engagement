@@ -2,7 +2,7 @@
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 keywords: ""
-ms.date: 05/7/2018
+ms.date: 12/17/2018
 ms.service: 
   - "usd"
 ms.custom: 
@@ -32,37 +32,37 @@ search.app:
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
-### Edge process
+### Preview: Edge process
 
 #### Support for CloseAndPrompt action in Edge process
 
-The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement Web Client. When you make changes in a webpage or a form on Web Client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 #### Support for alert dialog with WebView control
 
-The Edge process doesn't support the native JavaScript alert dialog in the WebView. When you use Edge WebView control, the alert dialog shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+The Edge process doesn't support the native JavaScript alert dialog in the WebView control. When you use the Microsoft Edge WebView control, the alert dialog (WPF message) shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
 
 #### Support for confirm dialog
 
-The Edge process doesn't support the confirm dialog in the WebView. If your custom code uses the confirm dialog, the Edge process in the WebView does not support the execution and your code may fail.
+The Edge process doesn't support the confirm dialog in the WebView control. If your custom code uses the confirm dialog, the Edge process in the WebView control does not support the execution, and your code may fail.
 
 #### Support for multiple page navigation in Edge process
 
-The Edge process WebView control doesn't support the multiple page navigation for the hosted control. even though, during the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URLs does not perform the nagivation in Unified Service Desk client application at the run-time. That is, if you perform navigation form the first URL to second URL, the webpage does not render the second URL.
+The Edge process WebView control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
 
 #### Use window.top.notifyUSD to open event in a new browser
 
-The Edge process WebView control supports using `window.top.notifyUSD` to open the event in new browser instead of `window.open`.
+The Edge process WebView control supports using `window.top.notifyUSD` to open the event in a new browser instead of `window.open`.
 
-#### Using Lon- running script with Edge process freezes Unified Service Desk
+#### Using a long-running script with Edge process freezes Unified Service Desk
 
-When you execute a long-running script with edge process, the Unified Service client application Desk freezes and you must restart client application. It is recommeneded to review the script to that caused to freeze and then restart Unified Service Desk client application.
+When you execute a long-running script with edge process, the Unified Service Desk client application freezes, and you must restart the client application. We recommend that you review the script that caused the freeze, and then restart the Unified Service Desk client application.
 
 #### Support for downloading files with Edge process
 
-When you host your web application in Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
+When you host your web pages in a Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
 
-A workaround is to open the Edge browser seperately, navigate to the website URL and download the file.
+A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
 
 #### Support for launching application for a URI with Edge WebView control
 
@@ -77,13 +77,15 @@ Some of the URI schemes and applications are as follows:
 |ms-call:|  Call app |
 |ms-chat: | Messaging app |
 
-A workaround is to open the Edge browser seperately, navigate to the website URL and select the URI scheme to launch the application.
+A workaround is to open the Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
+
+#### KB article support with Edge process
+
+In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+
+A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
 ## Unified Service Desk 4.0 known issues and limitations
-
-## Known issues
-
-This section describes the known issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
 ### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
@@ -183,10 +185,6 @@ You cannot view and attach an action call to another call (sub-action call) in U
 
 You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 Web Client. 
 
-## Limitations
-
-This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
-
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
 The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
@@ -217,8 +215,6 @@ To execute the configuration, disable the Internet Explorer pooling.
 
 This section describes the known issues and limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-## Known issues
-
 ### Best Practices Analyzer
 
 - **Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
@@ -244,8 +240,6 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
   If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
 
   To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
-
-## Limitations
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
