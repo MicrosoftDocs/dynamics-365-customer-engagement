@@ -31,7 +31,7 @@ To schedule multiple resources with requirement groups, follow these steps:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
 
-- Set the **All** or **Any** option. Setting **All** means all requirements must be fulfilled, so the the system searches for one resource for each requirement. Setting **Any** means the system searches for one resource that can fulfill any requirement. 
+- Set the **All** or **Any** option. Setting **All** means all requirements must be fulfilled, so the the system searches for resources for each requirement. Setting **Any** means the system searches for resources that can fulfill any requirement, and fulfilling one requirement fulfills the entire Requirement Group. 
 
 > [!Note]
 > The All or Any setting is powerful when you need to add multiple option sets to a requirement group, which is done by adding subgroups. 
