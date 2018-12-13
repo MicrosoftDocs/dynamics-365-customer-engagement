@@ -1,7 +1,7 @@
 ---
 title: "Quick Start Sample: Retrieve Customer Enagament instances using Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "The C# sample demonstrates how to authenticate to the Online Management API and then retrieve all Customer Engagement instances from your Office 365 tenant."
-ms.date: 10/31/2017
+ms.date: 12/13/2018
 ms.service: crm-online
 ms.topic: conceptual
 applies_to: Dynamics 365 for Customer Engagement (online)
@@ -36,9 +36,10 @@ The sample performs the following tasks:
 1. Uses the **RetrieveInstancesAsync** method to execute a http request to retrieve all Customer Enagement instances in your Office 365 tenant, and then displays the reponse.
 
 ## Run this sample
-Before you can run this sample, make sure that:
-- You have one the admin roles in your Office 365 tenant. See [Office 365 Admin roles](get-started-online-management-api.md#office-365-admin-roles)
-- Visual Studio 2013 or later; Internet connectivity is required to download/restore assemblies in the NuGet package.
+Before you can run this sample, make sure that you have:
+- One of the admin roles in your Office 365 tenant. See [Office 365 Admin roles](get-started-online-management-api.md#office-365-admin-roles)
+- Visual Studio 2015 or later; Internet connectivity is required to download/restore assemblies in the NuGet package.
+- .NET Framework 4.6.2
 
 To run the sample:
 1. [Download](https://code.msdn.microsoft.com/Sample-Retrieve-Customer-94e4076d) the sample, and extract it.
