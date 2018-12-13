@@ -48,4 +48,4 @@ To create a website access permission and add it to a web role:
 
 6. Save the changes.
 
-    ![Create website access permission](media/website-access-permission.png Create website access permission)  
+    ![Create website access permission](media/website-access-permission.png "Create website access permission")  

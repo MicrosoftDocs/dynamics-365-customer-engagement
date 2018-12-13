@@ -43,11 +43,11 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the 
 
 7. Select the down arrow next to your web link set name at the top of the screen, and then select **Web Links**.
 
-    ![Select web link](media/web-link.png Select web link)
+    ![Select web link](media/web-link.png "Select web link")
 
 8. To create a new web link, select **Add New Web Link**.
 
-    ![Add web link](media/add-web-link.png add web link)
+    ![Add web link](media/add-web-link.png "add web link")
 
 9. To edit an existing web link, select the web link name.
 
@@ -61,11 +61,11 @@ To modify a web link set, you need appropriate permissions and the web link set 
 
 1.  Point to the web link set and select the **Edit** button that appears. 
 
-    ![Edit primary navigation](media/edit-primary-nav.png Edit primary navigation)
+    ![Edit primary navigation](media/edit-primary-nav.png "Edit primary navigation")
 
     A dialog box appears with a list of web links that can be reordered or removed, and an option to add new links.
 
-    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png Edit primary navigation dialog box)
+    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png "Edit primary navigation dialog box")
 
 2. To reorder the web links, use the move icon to drag and drop the web links.
 
@@ -75,7 +75,7 @@ To modify a web link set, you need appropriate permissions and the web link set 
 
 5.  To add a new web link, select the row with the green plus icon.
 
-    ![Add new link to primary navigation](media/add-new-link.png Add new link to primary navigation)
+    ![Add new link to primary navigation](media/add-new-link.png "Add new link to primary navigation")
 
 6.  Enter a name for the web link.
 

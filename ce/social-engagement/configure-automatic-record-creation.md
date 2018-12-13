@@ -27,7 +27,7 @@ search.app:
 
 To automatically create an entity record (such as a Case or a Lead) from a Social Activity record in [!include[](../includes/pn-dynamics-crm.md)] apps, an administrator or customizer must configure Automatic Record Creation and Update Rules.
 
-In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link a post to Dynamics 365 for Customer Engagement apps](link-posts-to-dynamics-365.md), a Social Activity record is created in the connected [!include[](../includes/pn-dynamics-crm.md)] instance. The entity type the user creates in [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] (Case, Lead, and so on) is passed on as part of the [JSON Payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity) to the social activity in [!include[](../includes/pn-dynamics-crm.md)].
+In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link a post to Dynamics 365 for Customer Engagement apps](link-posts-to-dynamics-365.md), a Social Activity record is created in the connected [!include[](../includes/pn-dynamics-crm.md)] instance. The entity type the user creates in [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] (Case, Lead, and so on) is passed on as part of the [JSON Payload](create-dynamics-365-record-from-social-post.md) to the social activity in [!include[](../includes/pn-dynamics-crm.md)].
 
 
 > [!IMPORTANT]
@@ -63,7 +63,7 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
 
 10. Select **Save**.
 
-11. Select **Add Channel Property record** in the newly created Channel Property Group. Enter **userPreferredTargetEntity** for the name, and set the **Data Type** to **Single Line of Text**. It's important that you match the name as documented in the [JSON payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity). Now that the Channel Property is in place, you create the actual update rules.
+11. Select **Add Channel Property record** in the newly created Channel Property Group. Enter **userPreferredTargetEntity** for the name, and set the **Data Type** to **Single Line of Text**. It's important that you match the name as documented in the [JSON payload](create-dynamics-365-record-from-social-post.md). Now that the Channel Property is in place, you create the actual update rules. 
 
 12. Select **Save**, and then close the dialog boxes.
 

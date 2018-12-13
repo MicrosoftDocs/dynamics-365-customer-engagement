@@ -53,43 +53,43 @@ search.app:
 2.	Select **Try new Editor** to open the new editor.
 
     > [!div class=mx-imgBorder]
-    > ![Try new editor](media/try-new-editor.png Try new editor)
+    > ![Try new editor](media/try-new-editor.png "Try new editor")
 
     The new editor opens:
 
     > [!div class=mx-imgBorder]
-    > ![New editor](media/new-editor.png New editor)
+    > ![New editor](media/new-editor.png "New editor")
 
 3.	Select a content snippet to select its text, and then edit it. Format options are displayed for changing the font size and style.
 
     > [!div class=mx-imgBorder]
-    > ![Format text](media/format-text.png Format text)
+    > ![Format text](media/format-text.png "Format text")
 
 4.	After making the changes, click outside the content snippet boundary to save the changes. The status is displayed in the content snippet and footer.
 
 5.	To view the source of the content snippet, select the content snippet, and then select the source code icon **</>** in the footer. The source code is displayed in the **Source code editor** pane at the bottom of the screen. The changes you made earlier are updated in the source code.
 
     > [!div class=mx-imgBorder]
-    > ![Source code editor](media/source-code-editor.png Source code editor)
+    > ![Source code editor](media/source-code-editor.png "Source code editor")
 
 ## Add and edit a text box in a content snippet
 
 1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class=mx-imgBorder]
-    > ![Components icon](media/components-icon.png Components icon)
+    > ![Components icon](media/components-icon.png "Components icon")
 
     The **Components** pane opens.
 
     > [!div class=mx-imgBorder]
-    > ![Components pane](media/components-pane.png Components pane)
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Under **HTML controls**, select **Text** to add a text box. You can edit the text as per your requirement. 
 
 3.  To edit the text in a text box, select the text box, and then select the **Edit** icon.
 
     > [!div class=mx-imgBorder]
-    > ![Edit text in a text box](media/text-edit.png Edit text in a text box)
+    > ![Edit text in a text box](media/text-edit.png "Edit text in a text box")
 
     > [!NOTE]
     > You can also double-click a text box to start editing the text.
@@ -101,17 +101,17 @@ search.app:
 1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class=mx-imgBorder]
-    > ![Components icon](media/components-icon.png Components icon)
+    > ![Components icon](media/components-icon.png "Components icon")
 
     The **Components** pane opens.
 
     > [!div class=mx-imgBorder]
-    > ![Components pane](media/components-pane.png Components pane)
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Under **HTML controls**, select **Images**. The image placeholder is added on the canvas.
 
     > [!div class=mx-imgBorder]
-    > ![Image placeholder](media/image-placeholder.png Image placeholder)
+    > ![Image placeholder](media/image-placeholder.png "Image placeholder")
 
 3.	In the **Properties** pane, perform the following actions:
 
@@ -120,7 +120,7 @@ search.app:
     - To resize the image, update values in the **Width** and **Height** fields.
 
         > [!div class=mx-imgBorder]
-        > ![Image properties](media/image-properties.png Image properties)
+        > ![Image properties](media/image-properties.png "Image properties")
     
     > [!NOTE]
     > You can also select the image on the canvas and drag the handles to resize it.
@@ -132,17 +132,17 @@ search.app:
 1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class=mx-imgBorder]
-    > ![Components icon](media/components-icon.png Components icon)
+    > ![Components icon](media/components-icon.png "Components icon")
 
     The **Components** pane opens.
 
     > [!div class=mx-imgBorder]
-    > ![Components pane](media/components-pane.png Components pane)
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Under **HTML controls**, select **IFrame**. The IFrame placeholder is added on the canvas.
 
     > [!div class=mx-imgBorder]
-    > ![IFrame placeholder](media/iframe-placeholder.png IFrame placeholder)
+    > ![IFrame placeholder](media/iframe-placeholder.png "IFrame placeholder")
 
 3.	In the **Properties** pane, perform the following actions:
 
@@ -151,7 +151,7 @@ search.app:
     - To resize the IFrame, update values in the **Width** and **Height** fields.
 
         > [!div class=mx-imgBorder]
-        > ![IFrame properties](media/iframe-properties.png IFrame properties)
+        > ![IFrame properties](media/iframe-properties.png "IFrame properties")
     
     > [!NOTE]
     > You can also select the IFrame on the canvas and drag the handles to resize it.
@@ -166,12 +166,12 @@ search.app:
 1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class=mx-imgBorder]
-    > ![Components icon](media/components-icon.png Components icon)
+    > ![Components icon](media/components-icon.png "Components icon")
 
     The **Components** pane opens.
 
     > [!div class=mx-imgBorder]
-    > ![Components pane](media/components-pane.png Components pane)
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Select a web template or a portal component.
 
@@ -222,14 +222,14 @@ There are two types of web templates:
 After making changes to a page, you might want to make changes to other pages in your portal. To navigate to another page, select the required header link, and then select **Go to Link**.
 
 > [!div class=mx-imgBorder]
-> ![Navigate to another page](media/move-to-another-page.png Navigate to another page)
+> ![Navigate to another page](media/move-to-another-page.png "Navigate to another page")
 
 ## Go back to the old editor
 
 If you want to go back to the old editor, select **Back to classic editor** in the header.
 
 > [!div class=mx-imgBorder]
-> ![Go back to the old editor](media/back-to-classic-editor.png Go back to the old editor)
+> ![Go back to the old editor](media/back-to-classic-editor.png "Go back to the old editor")
 
 ## Test language change in editor
 
@@ -238,7 +238,7 @@ To use multiple languages in the editor, you must have a language pack installed
 After selecting the new language, navigate to the new editor to see content in the portal in the selected language.
 
 > [!div class=mx-imgBorder]
-> ![Test language change in editor](media/language-change.png Test language change in editor)
+> ![Test language change in editor](media/language-change.png "Test language change in editor")
 
 ## Known issues
 

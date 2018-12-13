@@ -39,13 +39,13 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
 ## Required tools  
  The following are required to write a custom report for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
   
-- **[!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]** . For specific versions, see [Dynamics 365 Report Authoring Extension requirements](../on-premises/microsoft-dynamics-365-reporting-requirements.md#dynamics-365-report-authoring-extension-requirements).  
+- **[!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]** . For specific versions, see [Dynamics 365 for Customer Engagement Report Authoring Extension requirements](../on-premises/microsoft-dynamics-365-reporting-requirements.md#dynamics-365-for-customer-engagement-report-authoring-extension-requirements).  
   
 - **[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]** . This is a report authoring environment that is used as a plug-in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
   - For Microsoft Visual Studio 2015 you need [SQL Server Data Tools in Visual Studio 2015](https://msdn.microsoft.com/mt186501.aspx).
   
-  - For [!INCLUDE[pn_microsoft_visual_studio_2013](../includes/pn-microsoft-visual-studio-2013.md)]: You must download and install [Download: Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013].(https://www.microsoft.com/en-us/download/details.aspx?id=42313)  
+  - For [!INCLUDE[pn_microsoft_visual_studio_2013](../includes/pn-microsoft-visual-studio-2013.md)]: You must download and install [Download: Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=42313). 
   
   - For [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)]: You must download and install [Download: Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2012](http://www.microsoft.com/download/details.aspx?id=36843).  
   
