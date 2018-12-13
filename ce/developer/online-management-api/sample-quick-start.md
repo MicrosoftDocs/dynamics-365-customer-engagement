@@ -107,7 +107,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
         public async Task RetrieveInstancesAsync()
         {
-            HttpRequestMessage myRequest = new HttpRequestMessage(HttpMethod.Get, "/api/v1/instances");
+            HttpRequestMessage myRequest = new HttpRequestMessage(HttpMethod.Get, "/api/v1.1/instances");
             HttpResponseMessage myResponse = await httpClient.SendAsync(myRequest);
 
             if (myResponse.IsSuccessStatusCode)
