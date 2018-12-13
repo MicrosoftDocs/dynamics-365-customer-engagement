@@ -1,15 +1,15 @@
 ---
 title: "Create a LinkedIn Matched Audience based on a Dynamics 365 segment (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to use an existing Dynamics 365 segment to find matching LinkedIn users and create a LinkedIn Matched Audience"
-keywords: "LinkedIn; Lead Gen Forms; lead; connector"
+keywords: LinkedIn; Lead Gen Forms; lead; connector
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5737a6c8-24dc-4925-bf97-2c915f3041da
 author: kamaybac
 ms.author: kamaybac

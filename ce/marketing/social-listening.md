@@ -1,15 +1,15 @@
 ---
 title: "Set up social listening (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to integrate with Microsoft Social Engagement to enable social listening in Dynamics 365 for Marketing"
-keywords: "Voice of the Customer; Surveys; survey"
+keywords: Voice of the Customer; Surveys; survey
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f424d10e-3e6e-43a1-86e2-8639c40d2013
 author: kamaybac
 ms.author: kamaybac

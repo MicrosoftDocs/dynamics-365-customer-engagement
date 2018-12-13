@@ -1,15 +1,15 @@
 ---
 title: "Create a marketing segment (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 for Marketing"
-keywords: "tutorial; segments; dynamic segments"
+keywords: tutorial; segments; dynamic segments
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c4de5589-b20f-4318-8443-7485c5b1a27b
 author: kamaybac
 ms.author: kamaybac

@@ -1,7 +1,7 @@
 ---
 title: "License a Marketing app and add it to your tenant (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to get started with Dynamics 365 for Marketing by purchasing a license and adding the app to your tenant"
-keywords: "purchase;setup"
+keywords: purchase;setup
 ms.date: 12/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: cb596c13-98fd-4717-adcf-c432609788a1
 author: kamaybac
 ms.author: kamaybac

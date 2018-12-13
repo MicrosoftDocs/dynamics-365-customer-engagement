@@ -1,7 +1,7 @@
 ---
 title: "Sign up and install a free trial (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to sign up for a trial of Dynamics 365 for Marketing, obtain prerequisite software, and set up the trial"
-keywords: "trial"
+keywords: trial
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a52e468a-b81e-4598-aa3a-b0670c333e42
 author: kamaybac
 ms.author: kamaybac

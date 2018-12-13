@@ -1,15 +1,15 @@
 ---
 title: "Set up an event website (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 for Marketing event website, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
-keywords: "event;portals;event website"
+keywords: event;portals;event website
 ms.date: 12/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
