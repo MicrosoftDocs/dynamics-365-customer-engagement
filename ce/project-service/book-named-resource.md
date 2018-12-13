@@ -1,6 +1,6 @@
 ---
-title: Book named resources
-description: This topic provides information about booking named resources.
+title: Book named resources for generic resource requirements
+description: This topic provides information about booking named resources for a generic resource requirement.
 author: JohnPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Book named resources
+# Book named resources for generic resource requirements
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
