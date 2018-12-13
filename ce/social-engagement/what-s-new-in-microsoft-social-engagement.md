@@ -1,12 +1,12 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-keywords: "news, product updates, product improvements, service updates"
-ms.date: 11/21/2018
+keywords: news, product updates, product improvements, service updates
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
@@ -36,11 +36,11 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
 
-As of December 11, 2018, we will introduce the ability to track your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You will be able to acquire posts and comments on your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts. To use this new functionality, the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Account needs to be linked to the respective Facebook page. Users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will need to authenticate or re-authenticate their Facebook Acquisition profile and set up [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search rules. 
+As of December 10, 2018, we will introduce the ability to track your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You will be able to acquire posts and comments on your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts. To use this new functionality, the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Account needs to be linked to the respective Facebook page. Users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will need to authenticate or re-authenticate their Facebook Acquisition profile and set up [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search rules. 
 
-[!INCLUDE [tn-instagram](../includes/tn-instagram.md)] is retiring keyword searches on December 11, 2018, and users will not be able to create new keyword search rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed. However, no new [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data will be acquired for these rules. If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you create a separate search rule with the changes and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data untouched.
+[!INCLUDE [tn-instagram](../includes/tn-instagram.md)] is retiring keyword searches on December 10, 2018, and users will not be able to create new keyword search rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed. However, no new [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data will be acquired for these rules. If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you create a separate search rule with the changes and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data untouched.
  
-We will share more detailed information through our help center when the new functionality is available and the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search has been removed. 
+You can find more information about the new functionality in the [Instagram Account search article](instagram-data-acquisition.md). 
 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.10
@@ -141,11 +141,11 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
-### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
+### Refreshed visuals for Social Insights in Dynamics 365 for Customer Engagement
 
 The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
 
-The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
+The steps to [set up and configure Social Insights in Dynamics 365 for Customer Engagement](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently
 

@@ -1,13 +1,13 @@
 ---
-title: "Sample: Assign a record to a new owner (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Assign a record to a new owner (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to assign an account to another user by using the AssignRequest message"
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b8a256a4-e858-44bc-aff7-26b4d670fc61
 author: JimDaly
 ms.author: jdaly
@@ -16,10 +16,10 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "samples for early-bound classes, assigning records to new owners sample"
-  - "assigning records to new owners sample, early-bound class samples"
-  - "early-bound class samples, assigning records to new owners sample"
-  - "sample for assigning records to new owners"
+  - samples for early-bound classes, assigning records to new owners sample
+  - assigning records to new owners sample, early-bound class samples
+  - early-bound class samples, assigning records to new owners sample
+  - sample for assigning records to new owners
 topic-status: Drafting
 search.audienceType: 
   - developer

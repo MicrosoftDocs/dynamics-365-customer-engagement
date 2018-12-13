@@ -1,12 +1,12 @@
 ---
-title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
-description: "Learn about the available integrations with Dynamics 365 and additional services."
-keywords: "social insights, dynamics 365, UCI, unified interface, integration, component"
+title: "Social Engagement integration with Dynamics 365 for Customer Engagement | Microsoft Docs"
+description: "Learn about the available integrations with Dynamics 365 for Customer Engagement and additional services."
+keywords: social insights, dynamics 365, UCI, unified interface, integration, component
 ms.date: 10/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 author: m-hartmann
 ms.author: mhart
@@ -22,9 +22,9 @@ search.app:
   - D365SE
 ---
 
-# Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Dynamics 365
+# Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Dynamics 365 for Customer Engagement apps
 
-In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The [easy-to-understand widgets provide insights](social-insights-widgets.md) and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
+You can get powerful social insights by connecting your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The [easy-to-understand widgets provide insights](social-insights-widgets.md) and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
 With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
 
@@ -32,19 +32,19 @@ The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in
 
 <a name="add-social-engagement-visuals-to-dynamics-365"></a>
 
-## Connect Dynamics 365 (online) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
+## Connect the Dynamics 365 for Customer Engagement service to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
 
 To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be an authorized [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user, and have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance provisioned for this [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance.
 
 ### Prerequisites
 
-- You need to have a System Administrator security role or equivalent permissions in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].
+- You need to have a System Administrator security role or equivalent permissions in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.
 
 - You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
-### Connect Dynamics 365 (online) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### Connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
+1. In the Dynamics 365 for Customer Engagement app, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
@@ -52,17 +52,17 @@ To configure the connection, you need to have a subscription to [!INCLUDE[pn_net
 
    ![Microsoft Social Engagement Configuration view](media/social-insights-configuration-online.png "Microsoft Social Engagement Configuration view")  
 
-## Connect Dynamics 365 on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
+## Connect the Dynamics 365 for Customer Engagement on-premises service to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
 
 ### Prerequisites
 
-- You need to have a System Administrator security role or equivalent permissions in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].
+- You need to have a System Administrator security role or equivalent permissions in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.
 
 - You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-### Connect Dynamics 365 on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### Connect Dynamics 365 for Customer Engagement on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
+1. In the Dynamics 365 for Customer Engagement app, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
@@ -72,7 +72,7 @@ To configure the connection, you need to have a subscription to [!INCLUDE[pn_net
   
 ## Add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] visuals to an entity form
 
-To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the iFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. More information: Use the form editor.
+To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the iFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. More information: Use the form editor.
 
 1. Select **Settings** > **Customizations** > **Customize the System**.
 
@@ -132,7 +132,7 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 ### Add a Social Insights control to an entity form
 
-To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the IFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable.
+To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 for Customer Engagement Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the IFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable.
 
 1. Select **Settings** > **Customizations** > **Customize the System**.
 
@@ -166,7 +166,7 @@ Once Social Insights is added to an entity form in a web client app, you can con
 
 #### Change the configuration of Social Insights in Unified Interface apps
 
-When working with an app built for the [Unified Interface in Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/admin/about-unified-interface), you can change the way that Social Insights is shown to meet your needs. 
+When working with an app built for the [Unified Interface in Dynamics 365 for Customer Engagement apps](https://docs.microsoft.com/dynamics365/customer-engagement/admin/about-unified-interface), you can change the way that Social Insights is shown to meet your needs. 
 
 1. On the Social Insights control, select the **Edit** icon ![Edit icon for Social Insights](media/settings-icon.png).
 
@@ -174,15 +174,15 @@ When working with an app built for the [Unified Interface in Dynamics 365](https
 
 3. If you want to change the order of the widgets, select the arrow icons to reorder them. Additionally, you can add or remove widgets from the component. Keep in mind, you can always add a removed widget again. Unless you change the search configuration, you'll see the same data. 
 
-## Set up search topics from within Dynamics 365  
+## Set up search topics from within Dynamics 365 for Customer Engagement apps  
 
-Search topics are usually created by administrators or power analysts directly in the settings of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. However, to get up and running quickly, users with Administrator or Power Analyst user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can set up searches from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Search topics are usually created by administrators or power analysts directly in the settings of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. However, to get up and running quickly, users with Administrator or Power Analyst user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can set up searches from within a connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
 To have the full set of options available for creating a search topic, it’s a good idea to work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [Find out how to set up search topics in Social Engagement](set-up-searches.md).
 
 ## Reset Social Insights
 
-This action deletes all existing data in Dynamics 365 for the search topics, search topic categories, and visuals for Social Insights.
+This action deletes all existing data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] apps for the search topics, search topic categories, and visuals for Social Insights.
 
 1. Select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 

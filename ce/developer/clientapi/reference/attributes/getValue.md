@@ -1,13 +1,13 @@
 ---
 title: "getValue (Client API reference)| MicrosoftDocs"
 ms.date: 10/16/2018
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: acc78a1e-212a-4eef-88c5-8272f9ba3009
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -34,7 +34,7 @@ All
 | Attribute Type | Return Type| 
 |----|-----|
 | boolean | [Boolean](https://msdn.microsoft.com/library/t7bkhaz6.aspx) |
-| datetime| [Date](https://msdn.microsoft.com/library/cd9w2te4.aspx)<br/> To get the string version of a date using the Microsoft Dynamics 365 user’s locale preferences, use the [format](https://msdn.microsoft.com/library/bb384009.aspx) and [localeFormat](https://msdn.microsoft.com/library/bb383816.aspx) methods. Other methods will format dates using the operating system locale rather than the user’s Microsoft Dynamics 365 locale preferences. | 
+| datetime| [Date](https://msdn.microsoft.com/library/cd9w2te4.aspx)<br/> To get the string version of a date using the Microsoft Dynamics 365 for Customer Engagement app user’s locale preferences, use the [format](https://msdn.microsoft.com/library/bb384009.aspx) and [localeFormat](https://msdn.microsoft.com/library/bb383816.aspx) methods. Other methods will format dates using the operating system locale rather than the user’s Microsoft Dynamics 365 for Customer Engagement apps locale preferences. | 
 | decimal| [Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)| 
 | Double | [Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)| 
 | integer | [Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)|

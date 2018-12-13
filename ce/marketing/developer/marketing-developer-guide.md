@@ -7,10 +7,10 @@ ms.custom:
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "get-started-article"
+  - marketing
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c2228386-9755-47e2-b8ce-2585053b121f
 author: KumarVivek
 ms.author: kvivek
@@ -52,4 +52,4 @@ search.app:
    
 [User Guide (Marketing)](../../marketing/user-guide.md)  
 
-[Developer Guide for Dynamics 365 Customer Engagement](../../developer/developer-guide.md) 
+[Developer Guide for Dynamics 365 for Customer Engagement](../../developer/developer-guide.md) 

@@ -1,19 +1,19 @@
 ---
-title: "Sample: Migrate Service Activity entity(Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Migrate Service Activity entity(Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Service Activity is not directly available in the new scheduling experience. Read how you can migrate Service activity to the new scheduling experience."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/20/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 45CF1131-3FD0-48F8-8212-B6F0CFA519EF
-author: "susikka"
-ms.author: "susikka"
-manager: "shujoshi"
+author: susikka
+ms.author: susikka
+manager: shujoshi
 ---
 # Sample: Migrate Service Activity entity
 
@@ -47,8 +47,8 @@ namespace Microsoft.Crm.Sdk.Samples
     class ServiceActivity
     {
         ///<summary>
-        /// This program performs Service Activity Entity migration from legacy Dynamics 365
-        /// to Service Scheduling using Dynamics 365 Organization Service
+        /// This program performs Service Activity Entity migration from legacy Dynamics 365 for Customer Engagement
+        /// to Service Scheduling using Dynamics 365 for Customer Engagement Organization Service
         ///</summary>
         /// <remarks>
         /// Before running this application you must modify configurations

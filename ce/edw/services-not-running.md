@@ -1,11 +1,11 @@
 ---
 title: "Services not running | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: b0595980-377c-4e8f-9e71-d48300304f3d
 caps.latest.revision: 6
 robots: noindex,nofollow

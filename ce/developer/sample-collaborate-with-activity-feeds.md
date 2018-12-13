@@ -1,31 +1,31 @@
 ---
-title: "Sample: Collaborate with activity feeds (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: The sample shows how to create posts with comments and mentions and how to follow Dynamics 365 records. It also demonstrates how to retrieve information for the personal and record walls.
-ms.custom: ""
+title: "Sample: Collaborate with activity feeds (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: The sample shows how to create posts with comments and mentions and how to follow Dynamics 365 for Customer Engagement records. It also demonstrates how to retrieve information for the personal and record walls.
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "collaborating with activity feeds sample, requirements"
-  - "personal wall sample, retrieving information from"
-  - "records sample, following"
-  - "posts with comments sample, creating"
-  - "updating posts, sample"
-  - "multiple pages of posts, retrieving information from"
-  - "activity feeds sample, downloading MicrosoftCRMActivityFeeds.zip.cab"
-  - "following records, sample"
-  - "activity feeds sample, collaborating"
-  - "MicrosoftCRMActivityFeeds.zip.cab, downloading"
+  - collaborating with activity feeds sample, requirements
+  - personal wall sample, retrieving information from
+  - records sample, following
+  - posts with comments sample, creating
+  - updating posts, sample
+  - multiple pages of posts, retrieving information from
+  - activity feeds sample, downloading MicrosoftCRMActivityFeeds.zip.cab
+  - following records, sample
+  - activity feeds sample, collaborating
+  - MicrosoftCRMActivityFeeds.zip.cab, downloading
 ms.assetid: d680463c-09d4-4cd8-bdbe-2ca4309c12a3
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

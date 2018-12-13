@@ -529,8 +529,6 @@
       href: create-export-import-unmanaged-solution.md
     - name: Create, install, and update a managed solution
       href: create-install-update-managed-solution.md
-    - name: Export a solution for a specific Dynamics 365 version
-      href: export-solution-specific-version.md
     - name: Uninstall or delete a solution
       href: uninstall-delete-solution.md
     - name: Create solutions that support multiple languages

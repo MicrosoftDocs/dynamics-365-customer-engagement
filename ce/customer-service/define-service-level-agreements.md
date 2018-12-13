@@ -1,11 +1,11 @@
 ---
-title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to define service level agreements in Dynamics 365 for Customer Service
-keywords: Service leve agreements; Dynamics 365; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
+title: Define service level agreements (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Know how to define service level agreements in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Service leve agreements; Dynamics 365 for Customer Engagement; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -34,7 +34,7 @@ Define the level of service or support that your organization agrees to offer to
 
 > [!NOTE]
 > With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
-Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release.
+Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the February 2019 release.
 
 ## Standard vs. Enhanced SLAs: What’s the difference?  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of SLAs: Standard and Enhanced.         Standard SLAs can only be created for the Case entity.         We recommend that you use enhanced SLAs, which have some additional capabilities that standard SLAs don’t have. With an enhanced SLA, you can:  
@@ -140,7 +140,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
       For example, the conditions could be as shown here.  
 
-      ![When a KPI will be applied in Dynamics 365](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365")  
+      ![When a KPI will be applied in Dynamics 365 for Customer Engagement](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 for Customer Engagement")  
 
      > [!NOTE]
      >  If there are multiple clauses, and you don’t use AND or OR grouping, by default the clauses will use the AND grouping.  
@@ -231,7 +231,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
       For example, the conditions could be as follows.  
 
-     ![When a KPI will be applied in Dynamics 365](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365")  
+     ![When a KPI will be applied in Dynamics 365 for Customer Engagement](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 for Customer Engagement")  
 
    - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the conditions could be as follows.  
 

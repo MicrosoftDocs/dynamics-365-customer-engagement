@@ -1,20 +1,20 @@
 ---
-title: "Manage dashboard components (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Manage dashboard components (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
+ms.date: 12/04/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 5b367ed0-0f52-42f9-95b9-164b2be6ca3c
 caps.latest.revision: 25
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,7 +22,7 @@ search.app:
 ---
 # Manage dashboard components
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can create and design dashboards to show the information that you want exactly how you want to see it. While designing the dashboard, you can rearrange or remove the components that you have already added and change the height and width of a component.  
   
@@ -34,7 +34,7 @@ You can create and design dashboards to show the information that you want exact
   
     -   In the web app: Click **Dashboards**.  
   
-    -   In Dynamics 365 for Outlook: Click **My Work** > **Dashboards**.  
+    -   In Dynamics 365 for Customer Engagement for Outlook: Click **My Work** > **Dashboards**.  
   
 3.  Click **New**.  
   

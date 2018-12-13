@@ -1,5 +1,5 @@
 ---
-title: Track project progress and cost (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Track project progress and cost (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to track project progress and cost in Project Service
 author: krbjoran
 manager: ShellyHa

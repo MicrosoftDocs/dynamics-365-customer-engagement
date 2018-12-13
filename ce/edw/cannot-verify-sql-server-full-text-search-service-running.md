@@ -1,11 +1,11 @@
 ---
 title: "Setup cannot verify that the SQL Server Full-Text Search Service is running | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: dcd7bf41-86d8-4055-88d8-7e1cdebf3547
 caps.latest.revision: 4
 robots: noindex,nofollow

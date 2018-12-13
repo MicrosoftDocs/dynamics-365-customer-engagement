@@ -1,28 +1,28 @@
 ---
-title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "About Unified Interface Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/15/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
 ---
-# About Unified Interface
+# About Unified Interface 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -36,7 +36,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 > - We now support right-to-left (RTL) languages.
 > - All experiences on Unified Interface have accessibility improvements. 
 
-## Capabilities available in Unified Interface with Dynamics 365, version 9.0 
+## Capabilities available in Unified Interface with Dynamics 365 for Customer Engagement, version 9.0 
 
 Most of the core functionalities of sales and customer service have moved to the Unified Interface client. 
 
@@ -56,7 +56,7 @@ They will have familiar capabilities on Unified Interface and will also discover
 
 **Business process enhancement** - The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
 
-**Reference panel** - Use the reference panel for apps built on Unified Interface like Dynamics 365 for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
+**Reference panel** - Use the reference panel for apps built on Unified Interface like Dynamics 365 for Customer Engagement apps for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
 
 **Navigation** - The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
 
@@ -71,16 +71,16 @@ Unified interface experiences are based on [model-driven apps](https://docs.micr
 Unified interface is a metadata driven experience. All controls experiences are built on the control framework that is extensible and provides a uniform experience across clients. The app display reflows to the viewport size the user is working in. 
 
 ## Getting started with Unified Interface experience
-When you are provisioning a new Dynamics 365 org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options, or an org with no customization, you will see the following Unified Interface apps:
+When you are provisioning a new Dynamics 365 for Customer Engagement apps org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options, or an org with no customization, you will see the following Unified Interface apps:
 
-|Choice while provisioning  |Unified Interface apps  |
+|Choice while provisioning  |Unified Interface apps |
 |---------|---------|
 |Sales     |Sales Hub         |
 |Customer service     |Customer Service Hub         |
 |Field service     |Field Resource Hub         |
 |Project service automation     |Project Resource Hub          |
-|None     |Dynamics 365 Hub         |
-|All      |All the above except Dynamics 365 Hub         |
+|None     |Dynamics 365 for Customer Engagement apps Hub         |
+|All      |All the above except Dynamics 365 for Customer Engagement apps Hub         |
 
 ![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
 
@@ -92,7 +92,7 @@ Once provisioned, you can access the installed Unified Interface and web apps fr
 
 1. In [https://home.dynamics.com/](https://home.dynamics.com/)
 
-   ![Dynamics 365 Home page](media/uci-home-dynamics.png "Dynamics 365 Home page")
+   ![Dynamics 365 for Customer Engagement apps Home page](media/uci-home-dynamics.png "Dynamics 365 for Customer Engagement apps Home page")
 
 2. In app navigation
 
@@ -103,7 +103,7 @@ Once provisioned, you can access the installed Unified Interface and web apps fr
    ![Unified Interface apps on My Apps page](media/uci-my-apps-page.png "Unified Interface apps on My Apps page")
 
 ### Accessing Unified Interface apps on phone and tablets
-Unified interface apps are the only apps supported on phones and tablets for Dynamics 365, version 9.0. When a user logs into the above org, they will only see the Unified Interface apps on their apps landing page. 
+Unified interface apps are the only apps supported on phones and tablets for Dynamics 365 for Customer Engagement, version 9.0. When a user logs into the above org, they will only see the Unified Interface apps on their apps landing page. 
 
 |  | |  |
 |---------|---------|---------|

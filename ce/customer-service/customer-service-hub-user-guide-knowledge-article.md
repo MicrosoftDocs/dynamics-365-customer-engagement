@@ -1,9 +1,9 @@
 ---
-title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 | Microsoft Docs
-description: Understand Knowledge Management in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; create a knowledge article, send a knowledge article for review; knowledge manager dashboard; Create and manage knpwledge article versions
+title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
+description: Understand Knowledge Management in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
+keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; create a knowledge article, send a knowledge article for review; knowledge manager dashboard; Create and manage knpwledge article versions
 author: anjgupta
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -37,7 +37,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 ## Knowledge management process  
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
- ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365")  
+ ![Knowledge management process in Dynamics 365 for Customer Engagement](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 for Customer Engagement")  
   
   
 ## Create a knowledge article  

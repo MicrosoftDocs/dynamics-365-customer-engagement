@@ -1,11 +1,11 @@
 ---
 title: "Microsoft SQL Server Reporting Services server was not found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 45c877d0-2255-4fd6-b0d5-95c1a558f071
 caps.latest.revision: 6
 robots: noindex,nofollow
