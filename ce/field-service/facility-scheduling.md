@@ -67,31 +67,7 @@ Lets consider five scenarios to describe facility scheduling.
 #### Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
 
 
-
-
-1. create facility resource 
-    1. enter org unit with location 
-    2. can create a facility for each OU ex:mechanic shop
-    3. can create multiple facilities all connected to same OU 
-    4. add work hours
-    5. Capacity
-        1. 10 facilities
-        2. 1 facility with capacity 10 
-2. create requirement
-    1. requirement location is customer location 
-    2. requirement type
-    3. work location = facility
-        1. on site is you are going to customer, facility is customer is coming to you
-    4. Part of Same
-3. book requirement to facility
-4. view booking
-    1. splitview
-    2. cascading 
-    3. results grouped by OU
-
-1.	Use the resource type Facility. 
-
-## Scenario 1: Schedule a  
+## Scenario 1: Schedule a doctor's office  
 
 in this scenario we will show how to create a single faciltiy and schedule a customer to the facility. we will also show adding capacity to the facility to allow double booking.
 
@@ -181,7 +157,8 @@ When finding availability using the schedule assistant when work location is fac
 
 Scheduling a facility is just like scheduling any other resource. You can drag and drop requirements to create bookings, you can drag existing bookings to change the time or resource, or you can use the Schedule Assistant to help sift through the list of facilities based on availability and other constraints.
 
-Sceanrio 2: Do
+#### Scenario 2: Schedule a doctor's office with 5 generic rooms
+
 **Pro Tip:** by adding a capacity to a facility resource you can allow double bookings up to the capacity.
 
 > [!div class="mx-imgBorder"]
@@ -199,7 +176,8 @@ This represents a group of facilities and allows you to schedule to a generic ca
 
 
 
-## Scenario 2: facility and personnel associated to facility 
+#### Scenario 3: Schedule a doctor's office and related doctor
+
 
 
 > [!div class="mx-imgBorder"]
@@ -244,22 +222,41 @@ travel time is listed as the time and distance for the customer to travel to the
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-board-2-resources.png)
 
-## Scenario 3: Schedule 5 rooms within a doctor's office
-1. create facility
-  1. type = pool
-  2. pool type = facility
-  3. add resource children
+#### Scenario 4: Schedule a doctor's office with 5 specific rooms
+ 
+ 1. Create Pool resource with pool type set to facility
+ 2. Create Facility resources for each room
+ 3. Add facility room resources as children to Facility Pool
+ 4. On requirements, search for Facilities and only facilities 
 
-1.	Set the resource type to Pool, and the Pool type to Facility. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Bookable Resource with resource type set to Pool and Pool Type set to Facility](./media/scheduling-facilities-resource-pool-screenshot.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing facility resource linked to a parent organizational unit with start and end location set to be taken from organizational unit](./media/scheduling-facilities-start-location-and-org-unit-set.png)
+> ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
-**Pro Tip:** add fulfillment preferences to requirement to have schedule assistant results show well
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-requirement-2-specific-rooms.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-2-specific-rooms-resource-type.png)
+
+choosing part of same as Location or Organizational Unit will organize results by organizational unit
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-schedule-assistant-specific-rooms.png)
+
+
+ 
+ **Pro Tip:** Alternatively, you can simply create an organizational Unit called Health Clinic and note that same OU on each facility resource. Then search for requirements Part of Same Organization Unit. Depending on your business needs this may be enough, though there is no direct association between the health clinic and rooms.
+
+
 
 ### Facility Pool Location
 
@@ -279,9 +276,35 @@ In order to schedule groups of resources together to perform a task at a facilit
 
 
 
-## Scenario 4: Schedule 5 rooms within a doctor's office with doctors 
+#### Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
+
+ 1. Create Pool resource with pool type set to facility
+ 2. Create Facility resources for each room
+ 3. Add facility room resources as children to Facility Pool
+ 4. create pool of doctors with pool type = contacts, users, accounts
+ 5. associate doctor pool to facility pool
+ 6. On requirements, search for Facilities and Pool with pool type = users, contacts, accounts as needed
 
 
+if doctors only work at 1 facility then adding them as resources to same OU as the facility without association will work. if doctors work at different locations then associating them for specific time ranges is recommended. 
+
+1. create pool with type facility
+2. create facility
+  1. type = pool
+  2. pool type = facility
+  3. add resource children
+
+1.	Set the resource type to Pool, and the Pool type to Facility.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Bookable Resource with resource type set to Pool and Pool Type set to Facility](./media/scheduling-facilities-resource-pool-screenshot.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing facility resource linked to a parent organizational unit with start and end location set to be taken from organizational unit](./media/scheduling-facilities-start-location-and-org-unit-set.png)
+
+**Pro Tip:** add fulfillment preferences to requirement to have schedule assistant results show well
 ## Configuration Considerations
 
 - resource cannot be part of 2 facilties at same time
