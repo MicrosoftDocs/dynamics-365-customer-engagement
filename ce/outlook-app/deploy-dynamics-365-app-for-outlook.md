@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 12/10/2018
+ms.date: 12/13/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -44,7 +44,7 @@ For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](..
 
 There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 for Customer Engagement apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
-The Outlook App is not enabled on Common Data Service for Apps 2.0.
+The Outlook App is not enabled on [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).
 
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
@@ -87,7 +87,7 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365 for Customer Engagement apps app, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
-1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**) 
+1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **"<your_organization_URL>/apps"**) 
 
 ![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
