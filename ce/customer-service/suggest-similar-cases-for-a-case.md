@@ -1,5 +1,5 @@
 ---
-title: Suggest similar records for a record with Dynamics 365 for Customer Engagement| MicrosoftDocs
+title: Suggest similar cases for a case with Dynamics 365 for Customer Engagement| MicrosoftDocs
 ms.date: 12/21/2018
 ms.service: crm-online
 ms.suite: 
@@ -20,25 +20,36 @@ search.app:
   - D365CE
   - D365CS
 ---
-# Suggest similar records using advanced similarity rules
+# Use advanced similarity rules to view similar case suggestions
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Quickly support your customers by viewing similar record suggestions in the Customer Service Hub. With the help of advanced similarity rules, you can now view records similar to your current record and resolve customer issues in the first contact and within minimal time. This helps in increased customer satisfaction (CSAT) and reduced operational cost. 
+Quickly support your customers by viewing similar case suggestions in the Customer Service Hub. With the help of advanced similarity rules, you can now view cases similar to your current case and resolve customer issues in the first contact and within minimal time. This helps in increased customer satisfaction (CSAT) and reduced operational cost. 
 
-For example, if you're working on a support case, you can view similar cases in the Related section, and resolve your current case quickly. With the help of Relevance search, you can leverage keywords or key phrases in a service case to quickly find related cases and use them to resolve your current case. 
+So, if you're working on a support case, you can view similar cases in the Related section of your current case, and resolve your case quickly. With the help of Relevance search, you can leverage keywords or key phrases in a service case to quickly find related cases and use them to resolve your current case. 
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
 
-## Create a new similar record suggestion rule
- Set up automatic suggestion of similar records by creating rules. The rules you create use Relevance search mechanism.
+This can be further understood with the help of the following scenario:
+
+
+
+## Create a new similar case suggestion rule
+ Set up automatic suggestion of similar cases by creating advanced similarity rules. The rules you create use Relevance search mechanism.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
 
-> [!NOTE]
-> You can create only one similar records suggestions rule for each entity type.  
 
-1. In the Customer Service Hub sitemap, go to **Service Management** > **Advanced Similarity Rules**.  
+1.  Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
+  
+    #### Check your security role  
+  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+
+2. In the Customer Service Hub sitemap, go to **Service Management** > **Advanced Similarity Rules**.
 
    The **Advanced Similarity Rules** page is disolayed.
 
@@ -51,9 +62,9 @@ For example, if you're working on a support case, you can view similar cases in 
      |                   Item                   |                                                                                                                                                                                                      Description                                                                                                                                                                                                      |
      |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      |             Name (required)              |                                                                                                                                                                                             The name of the rule.                                                                                                                                                                                              |
-     |         Source Entity (required)         |                                                                                                The entity for which similar records are suggested.  Select either Account, Case, Contact, Lead, Opportunity, or a custom entity that has an N:N relationship with one of the entities supported for similarity rules.                                                                                                 |
+     |         Source Entity (required)         |                                                                                                The entity for which similar cases are suggested.  Select either Account, Case, Contact, Lead, Opportunity, or a custom entity that has an N:N relationship with one of the entities supported for similarity rules.                                                                                                 |
      |               Description                |                                                                                                                                                                                         A description of the similarity rule.                                                                                                                                                                                         |
-     |Noise Keyphrases||
+     |Noise Key phrases|Provide noise key phrases by a semicolon ( ; ). These phrases will be filtered while searching for a similar case| 
       |         Filter Result by Status          |                                                                                                                                          Filter records by status                                                                                                                                          |
 
     - Select **Save** to save the rule.
@@ -77,7 +88,7 @@ For example, if you're working on a support case, you can view similar cases in 
 
 Similarly, add more mappings to create a comprehensive search of related records.
 
-### Enable a field for exact matching of similar records  
+### Enable a field for exact matching of similar cases  
  To enable a field for exact match, add the field in the Quick find view of the corresponding entity.  
 
 1.  Go to **Settings** > **Customizations** > **Customize the System**.  
@@ -92,9 +103,9 @@ Similarly, add more mappings to create a comprehensive search of related records
 
 6.  Because adding a field to a view  is a customization, you must publish the customization to enable exact matching for the field. To do this, in the left navigation pane click the entity, such as Account, and then click **Publish**. To publish all customizations, click **Publish All Customizations**.  
   
-## See related records in the Customer Service Hub
+## See similar case suggestions in the Customer Service Hub
 
-You can view the similar record suggestions in the Related section of the Customer Service Hub. 
+You can view the similar case suggestions in the Related section of the Customer Service Hub. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See and manage related records in the Related section](customer-service-hub-user-guide-case-sla.md#see-and-manage-related-records-in-the-related-section)
   
