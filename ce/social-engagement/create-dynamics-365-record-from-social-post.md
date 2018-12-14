@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 for Customer Engagement to create new lead or case records."
 keywords: Link to Dynamics 365 for Customer Engagement, Link to CRM, link post, record details, social activity, entity, entities
-ms.date: 09/19/2018
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -26,7 +26,7 @@ search.app:
 # Create a Dynamics 365 for Customer Engagement record from a social post
 
 Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to create a record. For example, you can automatically convert posts to cases for customer service, or to leads for your sales team. When you create a social activity, if the author of the post doesn’t have a social profile in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the system creates a social profile and contact record, and then links the social profile with the contact record. When a record is created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can see the details about this record in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
-Learn about the [prerequisites to establish a connection with Dynamics 365 for Customer Engagement apps](connect-dynamics-365-social-engagement.md#prerequisites-to-establish-a-connection-with-dynamics-365) on how to configure your online and on-premises instance.
+Learn about the [prerequisites to establish a connection with Dynamics 365 for Customer Engagement apps](connect-dynamics-365-social-engagement.md) on how to configure your online and on-premises instance. 
 
 ## Specify record details
 

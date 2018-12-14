@@ -77,11 +77,11 @@ To complete provisioning a portal, after you have purchased a new portal license
 
 10. In the **Select portal to be deployed** section, choose what type of portal you want to create. The options you see are based on the audience you selected.
 
-    ![Configure settings for your portal](media/configure-settings-portal.png Configure settings for your portal)  
+    ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
 
 11. Select **Submit**, and accept the Terms of Service.
 
-    ![Terms of service](media/terms-of-service.png Terms of service)  
+    ![Terms of service](media/terms-of-service.png "Terms of service")  
 
 After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to *Name*-Configuring while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
 
@@ -134,7 +134,7 @@ If *Name*-Configuring changes to *Name*-Provisioning Failed, you need to restart
 
    - **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
 
-     ![Provisioning error](media/error-provisioning.png Provisioning error)  
+     ![Provisioning error](media/error-provisioning.png "Provisioning error")  
 
 If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message Getting set up. To confirm this:
 
