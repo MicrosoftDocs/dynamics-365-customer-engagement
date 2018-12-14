@@ -20,11 +20,4 @@ Use the resources in this section to administer and configure Omni-channel Engag
 
 - [Provision and License Omni-channel Engagement Hub](omni-channel-provision-license.md)
 - [Know unified routing and work distribution](unified-routing-work-distribution.md)
-- [Understand how routing & work distribution works](routing-work-distribution-scenario.md)
-- [Create and manage work streams](work-streams.md)
-- [Configure Presence and Custom Presence](presence-custom-presence.md)
-- Create and manage users and user profiles
-- [Create and manage routing rules in Omni-channel](routing-rules.md)
-- Work with queues in Omni-channel Engagement Hub
-- Understand conversations state lifecycle
 

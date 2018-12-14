@@ -1,5 +1,5 @@
 ---
-title: "Know presence and custom presence"
+title: "Understand conversation state lifecycle"
 description: 
 keywords: ""
 author: anjgupta
@@ -9,8 +9,8 @@ applies_to:
 ms.date: 11/13/2018
 ms.service: 
 ms.topic: article
-ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
+ms.assetid: 1a4ef45e-efb3-4a9c-9665-20bb1eed9998
 ms.custom: 
 ---
 
-# Understand conversations state lifecycle
+# Understand conversation state lifecycle

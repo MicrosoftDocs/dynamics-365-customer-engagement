@@ -1,5 +1,5 @@
 ---
-title: "Know presence and custom presence"
+title: "Work with queues in Omni-channel Engagement Hub"
 description: 
 keywords: ""
 author: anjgupta
@@ -9,7 +9,7 @@ applies_to:
 ms.date: 11/13/2018
 ms.service: 
 ms.topic: article
-ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
+ms.assetid: 8c1b6127-a00c-4783-8740-52bd63e52eb1
 ms.custom: 
 ---
 
