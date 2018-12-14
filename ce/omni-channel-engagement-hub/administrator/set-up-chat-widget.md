@@ -32,13 +32,13 @@ As an administrator, you can set up and configure a chat widget for your website
 
 7.  On the **New Chat Widget** page, enter the following details:
 
-    a. **Basic details** tab
+    1. **Basic details** tab
 
-       i.  Under the **General information** section, enter name of the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. More information on setting up authentication settings: [Set up authentication settings](#set-up-authentication-settings).
+        1.  Under the **General information** section, enter name of the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. More information on setting up authentication settings: [Set up authentication settings](#set-up-authentication-settings).
 
-       ii.  Under the **Widget location** section, select **Add** to specify the website domain where the chat widget needs to be displayed. If no domain is specified,  the chat widget is displayed in all configured domains. The domain format should not include the protocol (for example, http, https).
+        2.  Under the **Widget location** section, select **Add** to specify the website domain where the chat widget needs to be displayed. If no domain is specified,  the chat widget is displayed in all configured domains. The domain format should not include the protocol (for example, http, https).
 
-       iii.  Copy the value from the **Code snippet** section and embed it into the HTML source of your website.
+        3.  Copy the value from the **Code snippet** section and embed it into the HTML source of your website.
 
             > [!div class=mx-imgBorder]
             > ![configure basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure basic details of a chat widget")
