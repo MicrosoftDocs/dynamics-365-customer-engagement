@@ -1,5 +1,5 @@
 ---
-title: Add resources (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Add resources (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to add resources in Project Service
 author: krbjoran
 manager: ShellyHa

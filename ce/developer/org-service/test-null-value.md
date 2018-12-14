@@ -1,26 +1,26 @@
 ---
-title: "Test for a null value (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Test for a null value (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to test for a null value by using the FilterExpression and QueryByAttribute classes"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "testing for null values, about and code examples"
-  - "testing for equality or inequality of"
-  - "testing for null values"
-  - "null values, testing for"
-  - "testing for null values, by using the FilterExpression and QueryByAttribute classes"
+  - testing for null values, about and code examples
+  - testing for equality or inequality of
+  - testing for null values
+  - null values, testing for
+  - testing for null values, by using the FilterExpression and QueryByAttribute classes
 ms.assetid: f0998642-40e2-4283-a306-b61d48abec98
 caps.latest.revision: 11
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

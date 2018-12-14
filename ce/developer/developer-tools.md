@@ -1,20 +1,19 @@
 ---
-title: "Developer tools (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Learn about the developer tools provided for use with Dynamics 365 Customer Engagement."
-ms.custom: ""
+title: "Developer tools (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn about the developer tools provided for use with Dynamics 365 for Customer Engagement."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 87099d51-4abe-406c-8f2d-e2375292bb64
-caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,11 +23,11 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This section provides a single location for you to learn about the developer tools and community developed developer tools that you use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement.
+This section provides a single location for you to learn about the developer tools and community developed developer tools that you use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
 
 ## Community tools
 
-[XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement.
+[XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
 
 - [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources.
 
@@ -40,7 +39,7 @@ This section provides a single location for you to learn about the developer too
 
 - [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics CRM organization.
 
-- [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility) - The tool helps you to bulk manage personal settings of your Dynamics 365 users.
+- [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility) - The tool helps you to bulk manage personal settings of your Dynamics 365 for Customer Engagement users.
 
 - [Plugin Trace Viewer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.PluginTraceViewer) - The tool helps you to investigate the plug-in trace log with easy filtering capabilities.
 
@@ -53,12 +52,12 @@ This section provides a single location for you to learn about the developer too
 - [Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator) - The tool helps you to export and import translation of the content with contextual information.
 
 > [!NOTE]
-> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] apps and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
 
 ### See also
 
-[Choose your development style for Dynamics 365 Customer Engagement](choose-development-style.md)
+[Choose your development style for Dynamics 365 for Customer Engagement apps](choose-development-style.md)
   
-[Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)
+[Developer Guide for Dynamics 365 for Customer Engagement apps](developer-guide.md)
  

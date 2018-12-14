@@ -1,22 +1,22 @@
 ---
-title: "Edit an entity in PowerApps | MicrosoftDocs"
+title: "Edit an entity | MicrosoftDocs"
 description: "Learn the different ways that an entity can be edited"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/03/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 8b00780c-74f0-4e3a-b570-b9289d0d5383
 caps.latest.revision: 41
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Edit an entity
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_EditingEntities"></a>   
 
@@ -95,7 +95,7 @@ You can edit any custom entity that you create. System entities or managed custo
 |         **Auditing**         |                                                                                                                                                                                                          When auditing is enabled for your organization, this allows for changes to entity records to be captured over time. When you enable auditing for an entity, auditing is also enabled on all its fields. You can select or clear fields that you want to enable auditing on.                                                                                                                                                                                                          |
 |       **Access Teams**       |                                                                                                                                                                                                                                                            Create team templates for this entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About team templates](../admin/about-team-templates.md)                                                                                                                                                                                                                                                            |
 | **Enable for phone express** |                                                                                                                                                                                                                                                                               Make this entity available to the [!INCLUDE[pn_microsoft_dynamics_crm_for_phones_express](../includes/pn-dyn-365-phones.md)] app.                                                                                                                                                                                                                                                                               |
-|    **Enable for mobile**     | Make this entity available to the Dynamics 365 for phones and tablets apps. You also have the option to make this entity **Read-only in mobile**.<br /><br /> If the forms for an entity require an extension not supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets, such as iFrame or web resource controls, use this setting to ensure that mobile app users can’t edit the data for these entities.</br><br />**Important:** If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile option** for the Case entity. |
+|    **Enable for mobile**     | Make this entity available to the Dynamics 365 for Customer Engagement for phones and tablets apps. You also have the option to make this entity **Read-only in mobile**.<br /><br /> If the forms for an entity require an extension not supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets, such as iFrame or web resource controls, use this setting to ensure that mobile app users can’t edit the data for these entities.</br><br />**Important:** If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile option** for the Case entity. |
 
 ### See also
 [Create or edit an entity (overview)](create-edit-entities.md)

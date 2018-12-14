@@ -671,7 +671,7 @@ to Customer or its personnel at different times, and multiple Trial Service
 Specific Terms may be applicable at one time, all depending on which Trial
 Periods are in effect for which Trial Services at any given time.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Finance and
+**Trial Service Specific Terms for Microsoft Dynamics 365 for Customer Engagement for Finance and
 Operations, Business edition**
 
 These terms supplement the applicable terms in Part I above.
@@ -683,7 +683,7 @@ is terminated; and **(B)** with “live” or production Customer Data, for 30 d
 after Customer first uses this Trial Service with such Customer Data. The
 foregoing period is, collectively, the “**Trial Period**”. If the Trial Period
 in the foregoing clause (B) expires and Customer has not entered into a
-commercial subscription agreement for the Microsoft Dynamics 365 for Finance and
+commercial subscription agreement for the Microsoft Dynamics 365 for Customer Engagement for Finance and
 Operations, Business edition service with a third-party Microsoft cloud service
 provider that will offer and support such commercial version, then Customer must
 immediately stop using the Trial Service (or any successor service) with such
@@ -693,14 +693,14 @@ data.
 
 **2. Exporting Customer Data.** If Customer has included “live” or production
 Customer Data in this Trial Service, and Customer elects not to purchase a
-subscription to the Microsoft Dynamics 365 for Finance and Operations, Business
+subscription to the Microsoft Dynamics 365 for Customer Engagement for Finance and Operations, Business
 edition service before expiration of the Trial Period for this Trial Service:
 **(A)** Microsoft has no obligation to return Customer Data to Customer; **(B)**
 Microsoft will retain such Customer Data for at least 90 days after the
 expiration of the Trial Period; and **(C)** Microsoft will make commercially
 reasonable efforts to work with Customer to export such Customer Data.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Finance and
+**Trial Service Specific Terms for Microsoft Dynamics 365 for Customer Engagement for Finance and
 Operations, Enterprise edition**
 
 These terms supplement the applicable terms in Part I above.
@@ -718,7 +718,7 @@ Microsoft may terminate Customer’s access to this Trial Service at any time if
 Customer fails to access and actively use this Trial Service for any period of 7
 consecutive days.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Retail**
+**Trial Service Specific Terms for Microsoft Dynamics 365 for Customer Engagement for Retail**
 
 These terms supplement the applicable terms in Part I above.
 
@@ -735,7 +735,7 @@ Microsoft may terminate Customer’s access to this Trial Service at any time if
 Customer fails to access and actively use this Trial Service for any period of 7
 consecutive days.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Talent**
+**Trial Service Specific Terms for Microsoft Dynamics 365 for Customer Engagement for Talent**
 
 These terms supplement the applicable terms in Part I above.
 
@@ -747,8 +747,8 @@ access this Trial Service is terminated. If Customer has included “live” or
 production Customer Data in its instance of this Trial Service, Microsoft will
 delete such data as set forth in Section 5.5 of Part I above.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Talent: Attract
-(“Attract”), and Microsoft Dynamics 365 for Talent: Onboard (“Onboard”)**
+**Trial Service Specific Terms for Microsoft Dynamics 365 for Customer Engagement for Talent: Attract
+(“Attract”), and Microsoft Dynamics 365 for Customer Engagement for Talent: Onboard (“Onboard”)**
 
 These terms supplement the applicable terms in Part I above.
 
@@ -797,12 +797,12 @@ expiration of the applicable Trial Period for that Trial Service; and **(C)**
 Microsoft will make commercially reasonable efforts to work with Customer to
 export such Customer Data.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Sales, Marketing,
+**Trial Service Specific Terms for Microsoft Dynamics 365 for Customer Engagement for Sales, Marketing,
 Customer Service, Field Service, and Project Service Automation**
 
 These terms supplement the applicable terms in Part I above.
 
-**1. Trial Period.** Except for Dynamics 365 for Marketing, which only allows
+**1. Trial Period.** Except for Dynamics 365 for Customer Engagement for Marketing, which only allows
 one trial per Customer Organization, there may be up to five concurrent trials
 of the Trial Service at any given time for Customer’s Organization (each, a
 “**Trial Instance**”), and each such Trial Instance will remain accessible for a
@@ -856,7 +856,7 @@ without regard to which user input such Customer Data.
 
 **5. Exporting Customer Data.** If Customer has included “live” or production
 Customer Data in any Trial Instance of this Trial Service, and Customer elects
-not to purchase a subscription to the Microsoft Dynamics 365 for Sales service,
+not to purchase a subscription to the Microsoft Dynamics 365 for Customer Engagement for Sales service,
 Customer Service, Field Service, or Project Service Automation service before
 expiration of the Trial Period for that Trial Instance: **(A)** Microsoft has no
 obligation to return Customer Data to Customer; **(B)** Microsoft will retain
@@ -866,9 +866,9 @@ commercially reasonable efforts to work with Customer to export such Customer
 Data.
 
 **6. Compliance with Applicable Laws.** Customer shall, as a condition of using
-the “Dynamics 365 for Marketing” online service, comply with all applicable laws
+the “Dynamics 365 for Customer Engagement for Marketing” online service, comply with all applicable laws
 and regulations governing Customer’s dissemination of any promotional materials
-through its use of the “Dynamics 365 for Marketing” online service. Microsoft
+through its use of the “Dynamics 365 for Customer Engagement for Marketing” online service. Microsoft
 bears no responsibility for Customer’s compliance with any such applicable laws
 or regulations.
 

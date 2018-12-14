@@ -1,26 +1,26 @@
 ---
-title: "Work with business process flows using code (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
-ms.custom: ""
+title: "Work with business process flows using code (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn how to programmatically work with business process flows in Dynamics 365 for Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
+ms.custom: 
 ms.date: 07/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "flow"
-  - "process flow"
-  - "business process flow"
-  - "process"
-  - "workflow"
+  - flow
+  - process flow
+  - business process flow
+  - process
+  - workflow
 ms.assetid: 67d8cf80-9f77-4804-97a1-cf9f61417e83
 caps.latest.revision: 68
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -37,7 +37,7 @@ Different business process flow instances can run concurrently against the same 
 This topic provides information about how you can programmatically work with business process flows.
 
 > [!NOTE]
-> You don't have to write code to work with business process flows. For information about using the Dynamics 365 Customer Engagement client (UI) to create and manage business process flows, see [Business Process Flows overview](../customize/business-process-flows-overview.md)  
+> You don't have to write code to work with business process flows. For information about using the Dynamics 365 for Customer Engagement client (UI) to create and manage business process flows, see [Business Process Flows overview](../customize/business-process-flows-overview.md)  
 
 <a name="PrereqsBPF"></a>   
 ## Prerequisites for business process flow 
@@ -367,7 +367,7 @@ By default, for an entity that has multiple business process flows defined for i
     - If no business process flow is available in a business app for the entity or one that the user has access to then no business process flow is applied for the new entity record.
 
 You can override the default logic of business process flows getting applied automatically to new entity records. To do so, set the **ProcessId** attribute of the entity to one of the following values while creating a new entity record:
-- Set to **Guid.Empty** to skip setting a business process flow for new entity records. You might want to do that if you are bulk creating entity records, but don't want business process flow to to be applied to them.
+- Set to **Guid.Empty** to skip setting a business process flow for new entity records. You might want to do that if you are bulk creating entity records, but don't want business process flow to be applied to them.
 - Set it to a specific business process flow entity (as an entity reference). In this case, the system will apply the specified business process flow instead of the default logic.
 
 If you do not set a value for the **ProcessId** attribute while creating a new entity record, the system will apply the default logic as explained earlier.

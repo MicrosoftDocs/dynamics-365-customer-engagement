@@ -1,4 +1,4 @@
-# [Customize Dynamics 365 Customer Engagement](overview.md)
+# [Customize Dynamics 365 for Customer Engagement apps](overview.md)
 # [Get started with customization](getting-started-customization.md)
 # [Privileges required](privileges-required-customization.md)
 # [Work with solutions](solutions-overview.md)
@@ -62,6 +62,7 @@
 ## [Create or edit dashboards](create-edit-dashboards.md)
 ### [Set properties for a chart or list](set-properties-chart-list-included-dashboard.md)
 ### [Manage components](manage-dashboard-components.md)
+### [Configure interactive experience dashboards](configure-interactive-experience-dashboards.md)
 ## [Create or edit a system chart](create-edit-system-chart.md)
 ## [Create or edit a report](customize-organize-reports.md)
 
@@ -130,7 +131,7 @@
 #### [OData v4 Data Provider requirements ](virtual-entity-odata-provider-requirements.md)
 #### [Virtual entity walkthrough using the OData v4 Data Provider](virtual-entity-walkthrough-using-odata-provider.md)
 #### [Preview Feature: Azure Cosmos DB for DocumentDB API Data Provider requirements](virtual-entity-documentdb-provider-requirements.md)
-### [Define alternate keys to reference Dynamics 365 records ](define-alternate-keys-reference-records.md)
+### [Define alternate keys](define-alternate-keys-reference-records.md)
 
 # [Create or edit a web resource](create-edit-web-resources.md) 
 ## [Web resource properties](web-resource-properties-legacy.md)

@@ -1,21 +1,20 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 for Marketing"
-keywords: "administration; spam; deliverability; SPF; best practice"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: administration; spam; deliverability; SPF; best practice
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d6e63962-e06a-4bc2-90d2-e7bca4e12d61
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -83,7 +82,7 @@ DMARC requires you to have either your own envelope domain or your own DKIM sign
 Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
 
 1. Set up an email account that you can read on as many services and domains as you can.
-1. Set up a contact record for each of these addresses in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Set up a contact record for each of these addresses in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 1. Run a [simple email campaign](create-simple-customer-journey.md) that targets all of your test contacts.
 1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labelled as junk.
 

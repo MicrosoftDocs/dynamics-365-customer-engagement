@@ -1,9 +1,9 @@
 ---
-title: "Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to use hybrid navigation to render page hierarchy for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 08/31/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,12 +41,12 @@ This example renders a type of hybrid navigation, based on the portal site map, 
 {% endif %}
 
 {% capture page_item %}
-  <li class="active">
-    <a href="{{ current_page.url | h }}" title="{{ current_page.title | h }}">
+  <li class=active>
+    <a href={{ current_page.url | h }} title={{ current_page.title | h }}>
       {% if leaf_page %}
-        <span class="fa fa-fw" aria-hidden="true"></span>
+        <span class=fa fa-fw aria-hidden=true></span>
       {% else %}
-        <span class="fa fa-fw fa-caret-down" aria-hidden="true"></span>
+        <span class=fa fa-fw fa-caret-down aria-hidden=true></span>
       {% endif %}
       {{ current_page.title | h }}
     </a>
@@ -54,17 +54,17 @@ This example renders a type of hybrid navigation, based on the portal site map, 
       <ul>
         {% for child in current_page.children %}
           <li>
-            <a href="{{ child.url | h }}" title="{{ child.title | h }}">
+            <a href={{ child.url | h }} title={{ child.title | h }}>
               {% if child.children.size > 0 %}
-                <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+                <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
               {% else %}
-                <span class="fa fa-fw" aria-hidden="true"></span>
+                <span class=fa fa-fw aria-hidden=true></span>
               {% endif %}
               {{ child.title | h }}
               {% if child.entity.logical_name == 'adx_shortcut' %}
-                &nbsp;<span class="fa fa-fw fa-external-link" aria-hidden="true"></span>
+                &nbsp;<span class=fa fa-fw fa-external-link aria-hidden=true></span>
               {% elsif child.entity.logical_name == 'adx_webfile' %}
-                &nbsp;<span class="fa fa-fw fa-file-o" aria-hidden="true"><span class="sr-only">(File)</span></span>
+                &nbsp;<span class=fa fa-fw fa-file-o aria-hidden=true><span class=sr-only>(File)</span></span>
               {% endif %}
             </a>
           </li>
@@ -74,7 +74,7 @@ This example renders a type of hybrid navigation, based on the portal site map, 
   </li>
 {% endcapture %}
 
-<ul class="side-nav" role="navigation">
+<ul class=side-nav role=navigation>
   {% assign crumb_count = 0 %}
   {% assign leaf_mode = false %}
   
@@ -84,8 +84,8 @@ This example renders a type of hybrid navigation, based on the portal site map, 
         {% assign leaf_mode = true %}
       {% else %}
         <li>
-          <a href="{{ crumb.url | h }}" title="{{ crumb.title | h }}">
-            <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+          <a href={{ crumb.url | h }} title={{ crumb.title | h }}>
+            <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
             {{ crumb.title | h }}
           </a>
         </li>
@@ -101,24 +101,24 @@ This example renders a type of hybrid navigation, based on the portal site map, 
     {% for parent_sibling in current_page.parent.parent.children %}
       {% if parent_sibling.url == current_page.parent.url %}
         <li>
-          <a href="{{ current_page.parent.url | h }}" title="{{ current_page.parent.title | h }}">
-            <span class="fa fa-fw fa-caret-down" aria-hidden="true"></span>
+          <a href={{ current_page.parent.url | h }} title={{ current_page.parent.title | h }}>
+            <span class=fa fa-fw fa-caret-down aria-hidden=true></span>
             {{ current_page.parent.title | h }}
           </a>
           <ul>
             {% for sibling in current_page.parent.children %}
-              <li {% if sibling.url == current_page.url %}class="active"{% endif %}>
-                <a href="{{ sibling.url | h }}" title="{{ sibling.title | h }}">
+              <li {% if sibling.url == current_page.url %}class=active{% endif %}>
+                <a href={{ sibling.url | h }} title={{ sibling.title | h }}>
                   {% if sibling.children.size > 0 %}
-                    <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+                    <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
                   {% else %}
-                    <span class="fa fa-fw" aria-hidden="true"></span>
+                    <span class=fa fa-fw aria-hidden=true></span>
                   {% endif %}
                   {{ sibling.title | h }}
                   {% if sibling.entity.logical_name == 'adx_shortcut' %}
-                    &nbsp;<span class="fa fa-fw fa-external-link" aria-hidden="true"></span>
+                    &nbsp;<span class=fa fa-fw fa-external-link aria-hidden=true></span>
                   {% elsif sibling.entity.logical_name == 'adx_webfile' %}
-                    &nbsp;<span class="fa fa-fw fa-file-o" aria-hidden="true"><span class="sr-only">(File)</span></span>
+                    &nbsp;<span class=fa fa-fw fa-file-o aria-hidden=true><span class=sr-only>(File)</span></span>
                   {% endif %}
                 </a>
               </li>
@@ -127,17 +127,17 @@ This example renders a type of hybrid navigation, based on the portal site map, 
         </li>
       {% else %}
         <li>
-          <a href="{{ parent_sibling.url | h }}" title="{{ parent_sibling.title | h }}">
+          <a href={{ parent_sibling.url | h }} title={{ parent_sibling.title | h }}>
             {% if parent_sibling.children.size > 0 %}
-              <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+              <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
             {% else %}
-              <span class="fa fa-fw" aria-hidden="true"></span>
+              <span class=fa fa-fw aria-hidden=true></span>
             {% endif %}
             {{ parent_sibling.title | h }}
             {% if parent_sibling.entity.logical_name == 'adx_shortcut' %}
-              &nbsp;<span class="fa fa-fw fa-external-link" aria-hidden="true"></span>
+              &nbsp;<span class=fa fa-fw fa-external-link aria-hidden=true></span>
             {% elsif parent_sibling.entity.logical_name == 'adx_webfile' %}
-              &nbsp;<span class="fa fa-fw fa-file-o" aria-hidden="true"><span class="sr-only">(File)</span></span>
+              &nbsp;<span class=fa fa-fw fa-file-o aria-hidden=true><span class=sr-only>(File)</span></span>
             {% endif %}
           </a>
         </li>
@@ -150,24 +150,24 @@ This example renders a type of hybrid navigation, based on the portal site map, 
           {% for parent_sibling in current_page.parent.parent.children %}
             {% if parent_sibling.url == current_page.parent.url %}
               <li>
-                <a href="{{ current_page.parent.url | h }}" title="{{ current_page.parent.title | h }}">
-                  <span class="fa fa-fw fa-caret-down" aria-hidden="true"></span>
+                <a href={{ current_page.parent.url | h }} title={{ current_page.parent.title | h }}>
+                  <span class=fa fa-fw fa-caret-down aria-hidden=true></span>
                   {{ current_page.parent.title | h }}
                 </a>
                 <ul>
                   {% for sibling in current_page.parent.children %}
-                    <li {% if sibling.url == current_page.url %}class="active"{% endif %}>
-                      <a href="{{ sibling.url | h }}" title="{{ sibling.title | h }}">
+                    <li {% if sibling.url == current_page.url %}class=active{% endif %}>
+                      <a href={{ sibling.url | h }} title={{ sibling.title | h }}>
                         {% if sibling.children.size > 0 %}
-                          <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+                          <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
                         {% else %}
-                          <span class="fa fa-fw" aria-hidden="true"></span>
+                          <span class=fa fa-fw aria-hidden=true></span>
                         {% endif %}
                         {{ sibling.title | h }}
                         {% if sibling.entity.logical_name == 'adx_shortcut' %}
-                          &nbsp;<span class="fa fa-fw fa-external-link" aria-hidden="true"></span>
+                          &nbsp;<span class=fa fa-fw fa-external-link aria-hidden=true></span>
                         {% elsif sibling.entity.logical_name == 'adx_webfile' %}
-                          &nbsp;<span class="fa fa-fw fa-file-o" aria-hidden="true"><span class="sr-only">(File)</span></span>
+                          &nbsp;<span class=fa fa-fw fa-file-o aria-hidden=true><span class=sr-only>(File)</span></span>
                         {% endif %}
                       </a>
                     </li>
@@ -176,17 +176,17 @@ This example renders a type of hybrid navigation, based on the portal site map, 
               </li>
             {% else %}
               <li>
-                <a href="{{ parent_sibling.url | h }}" title="{{ parent_sibling.title | h }}">
+                <a href={{ parent_sibling.url | h }} title={{ parent_sibling.title | h }}>
                   {% if parent_sibling.children.size > 0 %}
-                    <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+                    <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
                   {% else %}
-                    <span class="fa fa-fw" aria-hidden="true"></span>
+                    <span class=fa fa-fw aria-hidden=true></span>
                   {% endif %}
                   {{ parent_sibling.title | h }}
                   {% if parent_sibling.entity.logical_name == 'adx_shortcut' %}
-                    &nbsp;<span class="fa fa-fw fa-external-link" aria-hidden="true"></span>
+                    &nbsp;<span class=fa fa-fw fa-external-link aria-hidden=true></span>
                   {% elsif parent_sibling.entity.logical_name == 'adx_webfile' %}
-                    &nbsp;<span class="fa fa-fw fa-file-o" aria-hidden="true"><span class="sr-only">(File)</span></span>
+                    &nbsp;<span class=fa fa-fw fa-file-o aria-hidden=true><span class=sr-only>(File)</span></span>
                   {% endif %}
                 </a>
               </li>
@@ -198,17 +198,17 @@ This example renders a type of hybrid navigation, based on the portal site map, 
               {{ page_item }}
             {% else %}
               <li>
-                <a href="{{ sibling.url | h }}" title="{{ sibling.title | h }}">
+                <a href={{ sibling.url | h }} title={{ sibling.title | h }}>
                   {% if sibling.children.size > 0 %}
-                    <span class="fa fa-fw fa-caret-right" aria-hidden="true"></span>
+                    <span class=fa fa-fw fa-caret-right aria-hidden=true></span>
                   {% else %}
-                    <span class="fa fa-fw" aria-hidden="true"></span>
+                    <span class=fa fa-fw aria-hidden=true></span>
                   {% endif %}
                   {{ sibling.title | h }}
                   {% if sibling.entity.logical_name == 'adx_shortcut' %}
-                    &nbsp;<span class="fa fa-fw fa-external-link" aria-hidden="true"></span>
+                    &nbsp;<span class=fa fa-fw fa-external-link aria-hidden=true></span>
                   {% elsif sibling.entity.logical_name == 'adx_webfile' %}
-                    &nbsp;<span class="fa fa-fw fa-file-o" aria-hidden="true"><span class="sr-only">(File)</span></span>
+                    &nbsp;<span class=fa fa-fw fa-file-o aria-hidden=true><span class=sr-only>(File)</span></span>
                   {% endif %}
                 </a>
               </li>
@@ -220,7 +220,7 @@ This example renders a type of hybrid navigation, based on the portal site map, 
   {% endif %}
 </ul>
 
-<style type="text/css">
+<style type=text/css>
   .side-nav {
     border-right: solid 1px #eee;
   }

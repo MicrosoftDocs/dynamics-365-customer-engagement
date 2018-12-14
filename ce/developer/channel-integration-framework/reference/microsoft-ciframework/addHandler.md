@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 45EF1DC8-3A7C-4566-A132-BFBC05A07CC1
 author: kabala123
 ms.author: kabala
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # addHandler (CIF JavaScript API Reference)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 [!INCLUDE[addHandler-description](includes/addHandler-description.md)] 
 
@@ -35,8 +33,9 @@ manager: shujoshi
 | eventName | string | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onclicktoact:</b> The event is invoked when the outbound communication (ClickToAct) enabled field is clicked.</li> <li><b>onmodechanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onsizechanged:</b> The event is invoked when the panel size is manually changed by dragging. </li><li><b>onpagenavigate:</b> The event is triggered before a navigation event occurs on the main page </li><li><b>onsendkbarticle: </b> The event is invoked when the user clicks the send button on the KB control.</li></ul>  |
 | handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events trigger. |
 
-## Examples
+## Example
 
+<!--
 ### Example 1: addHandler method for the `onclicktoact` event
 
 The sample code shows addHandler method is set for the `onclicktoact` event.
@@ -105,6 +104,17 @@ var eventData =
 }
 
 Microsoft.CIFramework.addHandler("onsendkbarticle", handlerFunction);
+```
+-->
+The sample code demonstrates setting addHandler method for the `onmodechanged` event.
+
+```JavaScript
+handlerFunction = function(eventData) {
+console.log(eventData)
+return Promise.resolve();
+}
+
+Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
 ```
 
 ## Related topics

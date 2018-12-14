@@ -1,21 +1,20 @@
 ---
 title: "Set up an event portal (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 for Marketing event portal, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
-keywords: "event;portals;event portal"
-ms.date: 10/10/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: event;portals;event portal
+ms.date: 04/01/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -31,13 +30,13 @@ search.app:
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> This topic describes the sample event portal that is included with Dynamics 365 for Marketing. *The sample event portal is intended for demo and testing purposes only.* Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a custom event portal to use in production, you must create a new website in your Dynamics 365 portal. You can start by recreating the sample event portal on the new site, and then apply customizations as needed. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md). Alternatively, you could download the event portal as an Angular project, customize as required, and then publish as a new site on your portal or on your own website, as described in [Customize the event portal and host it anywhere](#angular). The sample event portal is editable, so you can still experiment with it, but be aware that your customizations are only temporary and are likely to be entirely overwritten the next time you update the system.
+> This topic describes the sample event portal that is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. *The sample event portal is intended for demo and testing purposes only.* Any customizations that you make to the sample event portal will likely get overwritten the next time you update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so if you want to create a custom event portal to use in production, you must create a new website in your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. You can start by recreating the sample event portal on the new site, and then apply customizations as needed. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md). Alternatively, you could download the event portal as an Angular project, customize as required, and then publish as a new site on your portal or on your own website, as described in [Customize the event portal and host it anywhere](#angular). The sample event portal is editable, so you can still experiment with it, but be aware that your customizations are only temporary and are likely to be entirely overwritten the next time you update the system.
 
 The event portal is a customer-facing website that people can use to read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a site map of your event portal as your attendees will see it.
 
 ![Sitemap for the standard event portal](media/event-portal-sitemap-ill.png "Site map for the standard event portal")
 
-The event portal is built by using the standard portals capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution, so you can see all its constituent elements by going to the **Portals** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. However, you usually won't need to work with any of these elements unless you want to customize the portal. The event portal is preconfigured to publish all the relevant information about each published event, and to enable visitors to register for the event, create an account (including username and password), edit their profile, and choose session passes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with Dynamics 365 portals](portals.md)
+The event portal is built by using the standard portals capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution, so you can see all its constituent elements by going to the **Portals** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. However, you usually won't need to work with any of these elements unless you want to customize the portal. The event portal is preconfigured to publish all the relevant information about each published event, and to enable visitors to register for the event, create an account (including username and password), edit their profile, and choose session passes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with Dynamics 365 for Customer Engagement portals](portals.md)
 
 [!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 

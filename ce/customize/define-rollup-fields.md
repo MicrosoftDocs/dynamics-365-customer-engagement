@@ -1,22 +1,22 @@
 ---
-title: "Define rollup fields with PowerApps | MicrosoftDocs"
+title: "Define rollup fields | MicrosoftDocs"
 description: "Learn how to define rollup fields"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/28/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
 caps.latest.revision: 58
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -25,9 +25,9 @@ search.app:
 
 # Define rollup fields that aggregate values
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the customization tools in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], without needing a developer to write code.  
+Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the feature without needing a developer to write code.  
   
 <a name="BKMK_benefitsandcapabilities"></a>   
 ## Rollup fields benefits and capabilities  
@@ -45,7 +45,6 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 - Rollup fields and the calculated fields are complementary to each other. You can use a rollup field as a part of the calculated field, and vice versa.  
   
-- For [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] subscribers, you can configure rollup fields to use custom controls.  
   
   Some examples of rollup fields include:  
   
@@ -77,13 +76,13 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
 ## Rollup calculations  
  The rollups are calculated by scheduled system jobs that run asynchronously in the background. You have to be an administrator to view and manage the rollup jobs. To view the rollup jobs go to **Settings** > **System Jobs** > **View** > **Recurring System Jobs**. To quickly find a relevant job, you can filter by the System Job type: Mass Calculate Rollup Field or Calculate Rollup Field.  
   
-- Mass Calculate Rollup Field is a recurring job, created per a rollup field. It runs once, after you created or updated a rollup field. The job recalculates the specified rollup field value in all existing records that contain this field. By default, the job will run 12 hours after you created or updated a field. After the job completes, it is automatically scheduled to run in the distant future, approximately, in 10 years. If the field is modified, the job resets to run again in 12 hours after the the update. The 12 hour delay is needed to assure that the Mass Calculate Rollup Field runs during the non-operational hours of the organization. It is recommended that an administrator adjusts the start time of a Mass Calculate Rollup Field job after the rollup field is created or modified, in such a way that it runs during non-operational hours. For example, midnight would be a good time to run the job to assure efficient processing of the rollup fields.  
+- Mass Calculate Rollup Field is a recurring job, created per a rollup field. It runs once, after you created or updated a rollup field. The job recalculates the specified rollup field value in all existing records that contain this field. By default, the job will run 12 hours after you created or updated a field. After the job completes, it is automatically scheduled to run in the distant future, approximately, in 10 years. If the field is modified, the job resets to run again in 12 hours after the update. The 12 hour delay is needed to assure that the Mass Calculate Rollup Field runs during the non-operational hours of the organization. It is recommended that an administrator adjusts the start time of a Mass Calculate Rollup Field job after the rollup field is created or modified, in such a way that it runs during non-operational hours. For example, midnight would be a good time to run the job to assure efficient processing of the rollup fields.  
   
 - Calculate Rollup Field is a recurring job that does incremental calculations of all rollup fields in the existing records for a specified entity. There is only one Calculate Rollup Field job per entity. The incremental calculations mean that the Calculate Rollup Field job processes the records that were created, updated or deleted after the last Mass Calculate Rollup Field job finished execution. The default maximum recurrence setting is one hour. The job is automatically created when the first rollup field on an entity is created and deleted when the last rollup field is deleted.  
   
 - Online recalculation option. If you hover over the rollup field on the form, you can see the time of the last rollup and you can refresh the rollup value by choosing the Refresh icon next to the field, as shown below:  
   
-  ![Rollup field on the account form in Dynamics 365](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365")  
+  ![Rollup field on the account form in Dynamics 365 for Customer Engagement](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365 for Customer Engagement")  
   
    There are a few considerations you should keep in mind when using the online recalculation option (manual refresh on the form):  
   
@@ -110,7 +109,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
 ### Aggregate data for a record from related records  
  In this example, a hierarchy is not used. The total estimated revenue is calculated for an account, from the related open opportunities.  
   
- ![Aggregate the estimated revenue for a Dynamics 365 account](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 account")  
+ ![Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account")  
   
 ### Aggregate data for a record from the child records, over the hierarchy  
  In this example, we calculate the total estimated revenue of an opportunity including the child opportunities, over the hierarchy.  
@@ -139,11 +138,11 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
 ### Aggregate data for a record from related records using the AVG operator  
  In this example, we calculate an average estimated revenue from all opportunities related to an account.  
   
- ![Average estimated revenue in Dynamics 365](../customize/media/rollup-enhancements-average.PNG "Average estimated revenue in Dynamics 365")  
+ ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/rollup-enhancements-average.PNG "Average estimated revenue in Dynamics 365 for Customer Engagement")  
   
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
- ![Average estimated revenue in Dynamics 365](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue in Dynamics 365")  
+ ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue in Dynamics 365 for Customer Engagement")  
   
 <a name="BKMK_considerations"></a>   
 ## Rollup field considerations  

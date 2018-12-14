@@ -1,13 +1,13 @@
 ---
-title: "addOnPostSearch (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "addOnPostSearch (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c398dbca-0ead-487a-8a92-35b1f2953bf6
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

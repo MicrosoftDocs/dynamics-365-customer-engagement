@@ -1,12 +1,12 @@
 ---
-title: "Global search in Dynamics 365 portal | MicrosoftDocs"
+title: "Global search in Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how global search works in a portal."
-ms.date: 08/28/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: D2C29462-BF04-446B-8EE7-0C6E20023906
 author: sbmjais
 ms.author: shjais
@@ -162,9 +162,9 @@ As part of portal global search, a variety of special characters and syntaxes ar
 
     - **Boosting a term**: Global search provides the relevance level of matching documents based on the terms found. To boost a term, use the caret (^) symbol with a boost factor (a number) at the end of the term you are searching. The higher the boost factor, the more relevant the term will be.
 
-        Boosting allows you to control the relevance of a document by boosting its term. For example, if you are searching for Smart TV and you want the term "Smart" to be more relevant, boost it using the ^ symbol along with the boost factor next to the term. You would type: Smart^4 TV. This will make documents with the term Smart appear more relevant.
+        Boosting allows you to control the relevance of a document by boosting its term. For example, if you are searching for Smart TV and you want the term Smart to be more relevant, boost it using the ^ symbol along with the boost factor next to the term. You would type: Smart^4 TV. This will make documents with the term Smart appear more relevant.
 
-        You can also boost phrase terms as in the example: "Smart TV"^4 "New TV". In this case, the “Smart TV” phrase would be boosted in comparison to “New TV”.
+        You can also boost phrase terms as in the example: Smart TV^4 New TV. In this case, the “Smart TV” phrase would be boosted in comparison to “New TV”.
 
         By default, the boost factor is 1. Although the boost factor must be positive, it can be less than 1 (for example, 0.2).
 

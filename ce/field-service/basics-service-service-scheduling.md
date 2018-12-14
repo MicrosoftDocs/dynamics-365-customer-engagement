@@ -1,11 +1,11 @@
 ---
-title: Overview of service and service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
-keywords: Service scheduling; Dynamics 365; Customer Service
+title: Overview of service and service scheduling (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Know the basics of service and service scheduling in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -83,7 +83,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 4. Click **Find Available Times**.  
   
 ### See also    
- [Schedule a service activity](../customer-service/schedule-service-activity.md)<br>
- [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
+ [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)<br>
+
     
  

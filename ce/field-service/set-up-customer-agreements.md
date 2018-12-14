@@ -1,18 +1,18 @@
 ---
-title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up customer agreements (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 5a02d87a-56f4-47e8-ab2d-5d816e60dc8a
 caps.latest.revision: 21
@@ -83,7 +83,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
     -   If you choose to have the system auto-generate work orders, then choose how many days in advance to **Generate Work Order Days in Advance**. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare.  
   
-    - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Time Window Start** and **Time Date Window End** fields that aid the schedule assistant.  
+    - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields that aid the schedule assistant.  
   
     -   The **Priority** will pass down to every work order that is generated from this agreement schedule.  
   
@@ -125,7 +125,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 4.  In the **Invoice Product** section, click **+Add Agreement Invoice Product record**. The products will be added to your invoice at the time the invoice is generated.  
   
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
  [Set up tax codes](../field-service/set-up-tax-codes.md)   
  [Set up payment terms](../field-service/set-up-payment-terms.md)<br>

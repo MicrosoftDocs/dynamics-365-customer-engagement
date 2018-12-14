@@ -1,5 +1,5 @@
 ---
-title: Administrator guide (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Administrator guide (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: Step-by-step instructions for Project Service administration
 author: krbjoran
 manager: ShellyHa
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-This guide takes you through the the process of installing and configuing :  
+This guide takes you through the process of installing and configuing :  
   
 - [Install and customize](install-customize.md)
 - [Experiment with demo data](use-demo-data.md)

@@ -1,19 +1,19 @@
 ---
-title: "Use messages (request and response classes) with the Execute method (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use messages (request and response classes) with the Execute method (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about IOrganizationService.Execute method that takes a message request class as a parameter and returns a message response class"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 218d9d80-fb52-49a4-9208-b72675080451
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-You can use the methods in the <xref:Microsoft.Xrm.Sdk.IOrganizationService> to perform common operations. In addition to the common methods, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method to execute messages that are not exposed as methods. The `Execute` method takes a message request class as a parameter and returns a message response class. Request message class names end with "Request" and response message class names end with "Response". For more information about all messages supported by the `Execute` method, see [xRM Messages in the Organization Service](xrm-messages-organization-service.md), [Dynamics 365 Messages in the Organization Service](organization-service-messages.md). The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> and the <xref:Microsoft.Xrm.Sdk.Deployment.IDeploymentService> web services use a similar execute request and response pattern.  
+You can use the methods in the <xref:Microsoft.Xrm.Sdk.IOrganizationService> to perform common operations. In addition to the common methods, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method to execute messages that are not exposed as methods. The `Execute` method takes a message request class as a parameter and returns a message response class. Request message class names end with "Request" and response message class names end with "Response". For more information about all messages supported by the `Execute` method, see [xRM Messages in the Organization Service](xrm-messages-organization-service.md), [Dynamics 365 for Customer Engagement apps Messages in the Organization Service](organization-service-messages.md). The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> and the <xref:Microsoft.Xrm.Sdk.Deployment.IDeploymentService> web services use a similar execute request and response pattern.  
   
 ![Execute message flow](../media/crm-v5s-executemessage.png "Execute message flow")  
 

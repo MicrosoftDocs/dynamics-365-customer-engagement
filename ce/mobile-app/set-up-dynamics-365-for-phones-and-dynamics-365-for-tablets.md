@@ -1,19 +1,19 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 08/29/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+author: mduelae
 ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
 caps.latest.revision: 141
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -30,7 +30,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
-  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
+  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 for Customer Engagement apps mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
   
 - **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
@@ -41,7 +41,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for Customer Engagement apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
  Follow these steps to check and assign the security privilege for a security role:  
   
@@ -51,7 +51,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
   
 3. Choose a security role > **Business Management** tab.  
   
-4. In the **Privacy Related Privileges** section, verify that **Dynamics 365 for mobile** is set to **Organization**. If not, click **Dynamics 365 for mobile**.  
+4. In the **Privacy Related Privileges** section, verify that **Dynamics 365 for Customer Engagement apps for mobile** is set to **Organization**. If not, click **Dynamics 365 for Customer Engagement apps for mobile**.  
   
 5. Click **Save and Close** to save the changes to the security role.  
   
@@ -62,7 +62,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
 > You haven't been authorized to use this app. Check with your system administrator to update your settings.  
 > 
 > [!NOTE]
-> [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 organization through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web Services**.  
+> [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 for Customer Engagement apps organization through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web Services**.  
   
  In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
   
@@ -109,9 +109,9 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
 ## What admins need to do  
   
 ### Security privileges  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for Customer Engagement apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
-### Enable dashboards for Dynamics 365 for phone and Dynamics 365 for tablet users  
+### Enable dashboards for Dynamics 365 for phones and Dynamics 365 for tablet users  
  Multiple dashboards are available for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
@@ -248,7 +248,7 @@ else
 ## Configure [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
   
 ### Navigation bar  
- If an entity is enabled for **Dynamics 365 for mobile** and appears in the nav bar (sitemap) for the web application, it will also appear on the nav bar in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
+ If an entity is enabled for **Dynamics 365 for Customer Engagement apps for mobile** and appears in the nav bar (sitemap) for the web application, it will also appear on the nav bar in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
  The [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apps show the entities as a flat list in the same order as the sitemap in the web application. They ignore any groupings within web application areas. You can add an entity to multiple groups on the web application, but [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] display a flattened list and do not show any repeats. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apply your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role, so you will not see an entity unless you have at least read access to that entity.  
   
@@ -333,22 +333,22 @@ else
 - You can add charts to dashboards and chart pages only.  
   
 ### Forms  
- Forms in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
+ Forms in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 for Customer Engagement apps online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
   
 > [!NOTE]
 >  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]. See the section below [Things to know about Dynamics 365 for phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_PhonesThingsToKnow).  
   
 |                                                                                                                                               |   |                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Sales form in Dynamics 365](../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] |
+| ![Sales form in Dynamics 365 for Customer Engagement apps](../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365 for Customer Engagement apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] |
   
  This diagram shows common parts of the updated entity forms in the web application.  
   
- ![Diagram shows Updated entity form structure in Dynamics 365](../admin/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365")  
+ ![Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement apps](../admin/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement apps")  
   
  [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
   
- ![Diagram of a form in Dynamics Dynamics 365 for tablets](../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics Dynamics 365 for tablets")  
+ ![Diagram of a form in Dynamics 365 for tablets](../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics 365 for tablets")  
   
  **Relationships**  
   
@@ -376,7 +376,7 @@ else
   
  To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, then scroll down and click **Details**. Click **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
   
- ![Hide the Detail tab on Dynamics  Dynamics 365 for phones](../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics  Dynamics 365 for phones")  
+ ![Hide the Detail tab on Dynamics 365 for phones](../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics 365 for phones")  
   
 ### Other differences with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
  There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
@@ -475,7 +475,7 @@ else
   
 - Ukrainian - 380  
   
-  When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Dynamics 365 organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
+  When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Dynamics 365 for Customer Engagement apps organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
   
 <a name="BKMK_PhoneEntities"></a>   
 ## Entities and [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
@@ -531,7 +531,7 @@ else
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
     
 <a name="BKMK_SecuringData"></a>   
-## Considerations and best practices for securing Dynamics 365 data on [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
+## Considerations and best practices for securing Dynamics 365 for Customer Engagement apps data on [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
  Consider the following when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
 - **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with your online [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  

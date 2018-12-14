@@ -1,6 +1,6 @@
 ---
 title: Project Planning and Tracking
-description: An English-language guide to project planning and tracking in Project Service Automation for Dynamics 365
+description: An English-language guide to project planning and tracking in Project Service Automation for Dynamics 365 for Customer Engagement
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice

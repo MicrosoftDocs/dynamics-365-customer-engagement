@@ -1,12 +1,12 @@
 ---
 title: "Author details in Social Engagement | Microsoft Docs"
 description: "Learn how to find details about the posts' authors in Social Engagement."
-keywords: "author, authors, author details"
+keywords: author, authors, author details
 ms.date: 12/19/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 99522a0a-cc87-4530-8595-afd48c1a2a3f
 author: m-hartmann
 ms.author: mhart

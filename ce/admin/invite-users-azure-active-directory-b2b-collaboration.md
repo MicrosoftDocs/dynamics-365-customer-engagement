@@ -1,20 +1,20 @@
 ---
-title: "Invite users to Dynamics 365 Customer Engagement with Azure Active Directory B2B collaboration | MicrosoftDocs"
-ms.custom: ""
+title: "Invite users to Dynamics 365 for Customer Engagement apps with Azure Active Directory B2B collaboration | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: e34d0e4f-a01b-49a3-b1ad-033a2f4908c0
 caps.latest.revision: 5
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Invite users with Azure Active Directory B2B collaboration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instance. The [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global admin can do this through the [Azure portal](https://portal.azure.com). Invited users can access your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instance using their own login credentials once a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] license and a security role are assigned to them. You don’t need to create a new user account and temporary password for these invited users in your own [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant.  
   
@@ -79,7 +79,7 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
   
    When your user accepts the invitation by clicking on the **Get Started** link on the invitation email, they will be prompted to accept the invitation.  
   
-   ![Accept the invitation to Dynamics 365](../admin/media/accept-invitation-dynamics-365.png "Accept the invitation to Dynamics 365")  
+   ![Accept the invitation to Dynamics 365 for Customer Engagement](../admin/media/accept-invitation-dynamics-365.png "Accept the invitation to Dynamics 365 for Customer Engagement")  
   
 > [!NOTE]
 >  Until you add a license to the user account, the user will not have access to [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]. Follow the steps below to add a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] license through the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] portal.  
@@ -101,7 +101,7 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
 4. Click **Save**, and then close the Profile blade.  
   
 <a name="BKMK_AssignLicense"></a>   
-## Assign invited users a Dynamics 365 license and security role  
+## Assign invited users a Dynamics 365 for Customer Engagement apps license and security role  
  Assign your invited users a [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] license and security role so the user can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 1. Go  to **Azure Active Directory** > **Users and groups** > **All users**. If you don't see the newly created user, refresh the page.  
@@ -120,10 +120,10 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
   
 6. Click **Select**, and then click **Assign**.  
   
-   Next, assign the invited users with appropriate security roles for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance so they can access it. See [Create users and assign Dynamics 365 (online) security roles](../admin/create-users-assign-online-security-roles.md).  
+   Next, assign the invited users with appropriate security roles for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance so they can access it. See [Create users and assign Dynamics 365 for Customer Engagement apps (online) security roles](../admin/create-users-assign-online-security-roles.md).  
   
 <a name="BKMK_UpdateEmail"></a>   
-## Update invited user’s email address in the invited-to Dynamics 365 instance  
+## Update invited user’s email address in the invited-to Dynamics 365 for Customer Engagement instance  
  If you're using a version prior to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you need to update the invited user’s email address. In Dynamics CRM, go to **Settings** > **Security** > **Users**. Select a user, and then update the invited user’s email address.  
   
 <a name="BKMK_ApproveEmail"></a>   

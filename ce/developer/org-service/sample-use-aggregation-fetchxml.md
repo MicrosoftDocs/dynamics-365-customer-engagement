@@ -1,27 +1,27 @@
 ---
-title: "Sample: Use aggregation in FetchXML (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Use aggregation in FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve aggregate record data using FetchXML"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "retrieving aggregate record data by using FetchXML sample"
-  - "using aggregation in FetchXML sample"
-  - "FetchXML queries, samples"
-  - "sample for retrieving aggregate record data by using FetchXML"
-  - "building queries with FetchXML, samples"
-  - "sample for using aggregation in FetchXML"
+  - retrieving aggregate record data by using FetchXML sample
+  - using aggregation in FetchXML sample
+  - FetchXML queries, samples
+  - sample for retrieving aggregate record data by using FetchXML
+  - building queries with FetchXML, samples
+  - sample for using aggregation in FetchXML
 ms.assetid: 283151dc-212c-445d-8181-9baec0dcba75
 caps.latest.revision: 28
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -31,7 +31,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_crm_2016_and_online_full](../../includes/pn-crm-2016-and-online-full.md)]. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e).  
+This sample code is for [!INCLUDE[pn_crm_2016_and_online_full](../../includes/pn-crm-2016-and-online-full.md)] apps. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
