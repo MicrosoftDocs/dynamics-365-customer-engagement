@@ -48,12 +48,12 @@ This document provides important, late-breaking information about known issues a
 - Deactivated contacts won't receive any emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!-- 1196442 -->
-- On non-English instances, when you save a customer journey using the **Save as template** function, the resulting template always gets saved with its language set to English. To fix this, go to **Marketing > Customer journey templates**, open the template, and change its **Language** setting to the correct value. When you're creating a new customer journey from a template, you can use the template gallery's **Language** drop-down list to show templates in any selected language. <!-- 1287079 -->
 
 ### Fixed issues
 
 - Users can now check for errors on both the **General** and **Designer** tabs of a customer journey.<br><del>*The “checking for errors” operation triggered in the customer journey’s **General** tab results in a time-out. Users can continue   to “check for errors” from the **Designer** tab.*</del> <!-- 1208237 -->
 - The snapshot view generated for a customer journey now displays all tiles.<br><del>*The snapshot view generated for journeys might be missing some tiles.*</del>  <!--- 690797 -->
+- On non-English instances, when you save a customer journey using the **Save as template** function, the resulting template now gets saved with its intended language.<br><del>On non-English instances, when you save a customer journey using the **Save as template** function, the resulting template always gets saved with its language set to English. To fix this, go to **Marketing > Customer journey templates**, open the template, and change its **Language** setting to the correct value. When you're creating a new customer journey from a template, you can use the template gallery's **Language** drop-down list to show templates in any selected language.</del> <!-- 1287079 -->
 
 ## Segmentation
 
@@ -80,7 +80,6 @@ This document provides important, late-breaking information about known issues a
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
-- For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support.<!-- 1267485 -->
 - The email designer requires that you be very careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md#enter-code)
 - Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, and how to find out if it's available to you, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content). Be sure also to read [How to enter advanced dynamic content in the designer](dynamic-email-content.md#enter-code) for important tips on how to mix these dynamic features into your designs.
 - If you create an email message with dynamic content that attempts to fetch a single value through a one-to-many database relation, then the system won't know which related record to fetch. As a result, the message will end in an error state when published to the sending service and will therefore never get sent (the error checking mechanism currently doesn't catch this error, which is why you can still publish it). An example of a one-to-many relation is the one between contacts and event registrations because each contact can register for multiple events. To prevent this error from occurring, use a for-each loop to enclose any expressions that reference a one-to-many relationship (this will loop through each related record). More information: [Add dynamic content to email messages](dynamic-email-content.md)
@@ -89,15 +88,22 @@ This document provides important, late-breaking information about known issues a
 ### Fixed issues
 
 - When you create a new keyword, the **Save and close** button now correctly returns you to the **Keywords** list.<br><del>*When you save a new keyword for templates or files from a quick-create form, the keyword list isn't displayed, but the record is created successfully.*</del> <!-- 1033440 -->
+- Test send works for all organizations. <br><del>For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support. </del><!-- 1267485 -->
 
 ## Marketing pages and forms
 
+### Known Issues
+
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
-- Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. <!-- 1156824 -->
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
-- The default lead-matching strategy for landing pages matches email address and landing-page ID (msdyncrm_marketingpageid). Currently, a limitation in the UI means that it's not possible to add the landing-page ID to any new or existing lead-matching strategy. Therefore, you shouldn't remove this attribute from the provided default lead-matching strategy unless you are sure you will never use this kind of strategy. If you have removed this attribute and need it back, or if you need to add it to a custom lead-matching strategy, please contact Microsoft Support. More information: [Set matching strategies](marketing-settings.md#matching-strategy) <!-- 1309673 -->
+
+
+### Fixed issues
+
+- Marketing pages from sample data go live for all organizations.<br><del>Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. </del> <!-- 1156824 -->
+- Landing page ID can be added to an existing or new matching strategy.<br><del>The default lead-matching strategy for landing pages matches email address and landing-page ID (msdyncrm_marketingpageid). Currently, a limitation in the UI means that it's not possible to add the landing-page ID to any new or existing lead-matching strategy. Therefore, you shouldn't remove this attribute from the provided default lead-matching strategy unless you are sure you will never use this kind of strategy. If you have removed this attribute and need it back, or if you need to add it to a custom lead-matching strategy, please contact Microsoft Support. More information: [Set matching strategies](marketing-settings.md#matching-strategy)</del> <!-- 1309673 -->
 
 ## Reusable content blocks
 
@@ -105,13 +111,19 @@ This document provides important, late-breaking information about known issues a
 
 ## Lead scoring and management
 
+### Known issues
+
 - Lead scoring results might take up to one hour to be calculated.
 - When you're creating lead scoring rules, drop-down lists might not be localized for non-English languages.
-- When you're creating a lead scoring model and add a condition, the "Email sent" condition isn't shown in the list of options. Use the "Sent" condition instead. <!--- 1289271 -->
+
+### Fixed issues
+
+- Email sent is now shown in the list of lead scoring conditions.<br><del> When you're creating a lead scoring model and add a condition, the "Email sent" condition isn't shown in the list of options. Use the "Sent" condition instead.</del> <!--- 1289271 -->
 
 ## Insights
 
 - Web interactions registered for an anonymous visitor (on a tracked website, marketing page, marketing form, or redirect URL) don't currently become attributed to a contact record if those visitors later become known contacts. Though these interactions remain anonymous, you can still see them under the related entity (marketing page, website, etc.) and they are leveraged to compute the insights for each record. More information: [Websites](#websites) <!--- 1276305 -->
+
 
 ## Event management
 
@@ -119,17 +131,24 @@ This document provides important, late-breaking information about known issues a
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
-- When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.
+
 
 ### Fixed issues
 
 - Events now have sample data.<br><del>*Sample data is no longer available for events. We expect to provide it again in a future update.*</del>
 - The event website installed on your Dynamics 365 portal is no longer overwritten after each app update, so any customizations you make to that site will be preserved when you update the app.<br><del>The event portal included with Dynamics 365 for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing.</del>
+- Creating a recurring event does not select Monday by default.<br><del>When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.</del>
 
 ## Videos
 
+### Known issues
+
 - When you add a video to a marketing page, the **Designer** tab shows it as a thumbnail image rather than as an embedded video in an iframe. However, the embedded video iframe will still be shown correctly on the live page when you publish it. <!-- Provided as a tip -->
-- When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages. <!-- 1277775 -->
+
+### Fixed issues
+
+- Videos added to Marketing pages or emails will show up as their thumbnails on the **Preview** tab of the designer.<br><del>When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages.</del> <!-- 1277775 -->
+
 
 ## Social listening for campaigns
 
