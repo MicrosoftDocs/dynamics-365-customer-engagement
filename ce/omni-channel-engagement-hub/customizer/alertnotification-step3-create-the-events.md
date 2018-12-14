@@ -37,7 +37,7 @@ Create the following events:
 | Name               | CreateCustomerSession           |
 | Hosted Application | Omni-channel Popup Notification |
 
-![create customer session event](media/oc-usd-crm-create-customer-session-event.png "Create customer session action call")
+![create customer session event](../media/oc-usd-crm-create-customer-session-event.png "Create customer session action call")
 
 1.  Save the event.
 
@@ -50,5 +50,5 @@ Create the following events:
 | Name               | Omni-channel Context Fetch |
 | Hosted Application | OmniChannelHostedControl   |
 
-![omni-channel context fetch event](media/oc-usd-crm-context-fetch-event.png "Omni-channel context fetch action call")  
+![omni-channel context fetch event](../media/oc-usd-crm-context-fetch-event.png "Omni-channel context fetch action call")  
 

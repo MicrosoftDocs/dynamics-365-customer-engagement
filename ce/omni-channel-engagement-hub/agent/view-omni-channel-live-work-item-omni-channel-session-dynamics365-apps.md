@@ -47,7 +47,7 @@ The Conversation form displays information of an engagement request, which are a
 | Session details | Subject           |
 |                 | Date created      |
 
-![omni-channel conversation form](media/oc-crm-conversation-form.png "omni-channel conversation form")  
+![omni-channel conversation form](../media/oc-crm-conversation-form.png "omni-channel conversation form")  
 
 ### Omni-channel session form
 
@@ -65,5 +65,5 @@ The Omni-channel session displays information of an engagement request, which ar
 |         | Created on      |
 | Notes   | Notes           |
 
-![omni-channel session form](media/oc-crm-omni-channel-session-form.png "Omni-channel session form")  
+![omni-channel session form](../media/oc-crm-omni-channel-session-form.png "Omni-channel session form")  
 

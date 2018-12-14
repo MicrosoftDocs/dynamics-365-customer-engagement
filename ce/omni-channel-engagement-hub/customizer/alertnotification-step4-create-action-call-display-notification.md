@@ -81,7 +81,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                    
   value=true                       |
 
-![expand right panel action call](media/oc-usd-crm-expand-right-panel-actioncall.png "Expand right panel action call")  
+![expand right panel action call](../media/oc-usd-crm-expand-right-panel-actioncall.png "Expand right panel action call")  
 
 | Field          | Value                 |
 |----------------|-----------------------|
@@ -90,7 +90,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Hosted Control | CRM Global Manager    |
 | Action         | CreateSession         |
 
-![create customer session action call for crm global manager hosted control](media/oc-usd-crm-create-customer-session-actioncall-crmglobalmanager.png "Create customer session action call for CRM global manager hosted control")  
+![create customer session action call for crm global manager hosted control](../media/oc-usd-crm-create-customer-session-actioncall-crmglobalmanager.png "Create customer session action call for CRM global manager hosted control")  
 
 | Field          | Value                        |
 |----------------|------------------------------|
@@ -98,7 +98,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Hosted Control | OmniChannelHostedControl     |
 | Action         | OCPresenceUpdate             |
 
-![omni-channel presence statuses action call](media/oc-usd-crm-presence-status-actioncall.png "Omni-channel presence statuses action call")  
+![omni-channel presence statuses action call](../media/oc-usd-crm-presence-status-actioncall.png "Omni-channel presence statuses action call")  
 
 | Field          | Value                                       |
 |----------------|---------------------------------------------|
@@ -112,7 +112,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                                
   From=\[\[from\]\]                            |
 
-![omni-channel session accepted action call](media/oc-usd-crm-session-accepted-actioncall.png "Omni-channel session accepted action call")  
+![omni-channel session accepted action call](../media/oc-usd-crm-session-accepted-actioncall.png "Omni-channel session accepted action call")  
 
 | Field          | Value                           |
 |----------------|---------------------------------|
@@ -131,7 +131,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Hosted Control | SessionTimer     |
 | Action         | FireEvent        |
 
-![kb article search action call](media/oc-usd-crm-kb-search-actioncall.png "KB article search action call")  
+![kb article search action call](../media/oc-usd-crm-kb-search-actioncall.png "KB article search action call")  
 
 | Field          | Value                     |
 |----------------|---------------------------|
@@ -141,7 +141,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Action         | GotoTask                  |
 | Data           | Welcome Script            |
 
-![load default agent script action call](media/oc-usd-crm-default-agent-script-actioncall.png "Load default agent script action call")  
+![load default agent script action call](../media/oc-usd-crm-default-agent-script-actioncall.png "Load default agent script action call")  
 
 | Field          | Value                                                                                                       |
 |----------------|-------------------------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Similarly, create the following action calls by following the steps 1-4.
   HideNavigationBar=true                                                                                       |
 | Condition      | '\[\[isUniqueContactRecognized\]\]'=='False'                                                                |
 
-![load agent session search page action call](media/oc-usd-crm-agent-session-search-page-actioncall.png "Load agent session search page action call")  
+![load agent session search page action call](../media/oc-usd-crm-agent-session-search-page-actioncall.png "Load agent session search page action call")  
 
 | Field          | Value                                                                                                                                              |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                                                                                                                                       
   Hidenav=true                                                                                                                                        |
 
-![load agent session overview page action call](media/oc-usd-crm-agent-session-overview-page-actioncall.png "Load agent session overview page action call")  
+![load agent session overview page action call](../media/oc-usd-crm-agent-session-overview-page-actioncall.png "Load agent session overview page action call")  
 
 | Field          | Value              |
 |----------------|--------------------|
@@ -176,7 +176,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Action         | ShowTab            |
 | Data           | Session Overview   |
 
-![change focus on the overview page action call](media/oc-usd-crm-focus-overview-page-actioncall.png "Change focus on the overview page action call")  
+![change focus on the overview page action call](../media/oc-usd-crm-focus-overview-page-actioncall.png "Change focus on the overview page action call")  
 
 | Field          | Value                      |
 |----------------|----------------------------|
@@ -186,7 +186,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Action         | OCSessionRejected          |
 | Data           | ConversationId=\[\[cid\]\] |
 
-![omni-channel session rejected action call](media/oc-usd-crm-session-rejected-actioncall.png "Omni-channel session rejected action call")  
+![omni-channel session rejected action call](../media/oc-usd-crm-session-rejected-actioncall.png "Omni-channel session rejected action call")  
 
 | Field          | Value                      |
 |----------------|----------------------------|
@@ -196,5 +196,5 @@ Similarly, create the following action calls by following the steps 1-4.
 | Action         | OCSessionTimeout           |
 | Data           | ConversationId=\[\[cid\]\] |
 
-![omni-channel session timeout action call](media/oc-usd-crm-session-timeout-actioncall.png "Omni-channel session timeout action call")  
+![omni-channel session timeout action call](../media/oc-usd-crm-session-timeout-actioncall.png "Omni-channel session timeout action call")  
 
