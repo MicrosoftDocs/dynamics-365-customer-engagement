@@ -1,21 +1,20 @@
 ---
 title: "Assign security roles, set up LinkedIn field mappings and matching strategy (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Map lead fields and match leads between LinkedIn to Dynamics 365 for Marketing"
-keywords: "LinkedIn; Lead Gen Forms; lead; connector"
+keywords: LinkedIn; Lead Gen Forms; lead; connector
 ms.date: 03/27/2018
-ms.service: 
-  - "crm-online"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e41ac66c-19f6-4671-a6e4-e4363a86b898
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -28,7 +27,11 @@ search.app:
 
 # Set up the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration and define a lead matching strategy
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Administrators can use the settings pages under the **Settings** > **Advanced settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** heading to configure the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature. A few [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] security roles are also provided to let administrators control access to these features.
+
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 ## Enable users to work with the connector and assign security roles to users
 
@@ -39,7 +42,7 @@ LinkedIn Lead Gen provides dedicated security roles, which you assign to users s
 
 A third role, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound, is an internal security role used to sync data.
 
-Assign these security roles to users who you want to provide access to the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx#BKMK_AssignSecurity).
+Assign these security roles to users who you want to provide access to the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign Dynamics 365 for Customer Engagement (online) security roles](https://technet.microsoft.com/library/jj191623.aspx#BKMK_AssignSecurity).
 
 ## Configure a matching strategy to update leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen ads
 

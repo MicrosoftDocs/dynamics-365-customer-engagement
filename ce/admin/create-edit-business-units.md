@@ -1,20 +1,20 @@
 ---
-title: "Create or edit business units for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Create or edit business units for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
-ms.author: "jimholtz"
-manager: "kvivek"
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,23 +23,23 @@ search.app:
 ---
 # Create or edit business units to improve security and control
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit is a logical grouping of related business activities.  
+In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, a business unit is a logical grouping of related business activities.  
   
- If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization is structured around departments or divisions that have separate products, customers, and marketing lists, you might want to create business units. Business units are mapped to an organization’s departments or divisions. Users can securely access data in their own business unit, but they can’t access data in other business units.  
+ If your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization is structured around departments or divisions that have separate products, customers, and marketing lists, you might want to create business units. Business units are mapped to an organization’s departments or divisions. Users can securely access data in their own business unit, but they can’t access data in other business units.  
   
- Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365](../admin/security-concepts.md)  
+ Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)  
   
  Keep the following in mind when creating business units:  
   
-- The organization (also known as the root business unit) is the top level of a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] business unit hierarchy. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically creates the organization when you install or provision [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can’t change or delete the organization name.  
+- The organization (also known as the root business unit) is the top level of a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps business unit hierarchy. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically creates the organization when you install or provision [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You can’t change or delete the organization name.  
   
 - Each business unit can have just one parent business unit.  
   
 - Each business unit can have multiple child business units.  
   
-- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] security roles and users are associated with a business unit. You must assign every user to one (and only one) business unit.  
+- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps security roles and users are associated with a business unit. You must assign every user to one (and only one) business unit.  
   
 - You can assign a team to just one business unit, but a team can consist of users from one or many business units. Consider using a team if you have a situation where users from different business units need to work together on a shared set of records.  
   
@@ -53,9 +53,9 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
   
 3. On the Actions bar, select **New**.  
   
-4. In the **Business Unit** dialog box, type a name for the new business unit. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically fills in the **Parent Business** field with the name of the root business unit.  
+4. In the **Business Unit** dialog box, type a name for the new business unit. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically fills in the **Parent Business** field with the name of the root business unit.  
   
-   ![Business Unit dialog box in Dynamics 365](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365")  
+   ![Business Unit dialog box in Dynamics 365 for Customer Engagement](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365 for Customer Engagement")  
   
 5. If you want to change the parent business unit, select the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button"), **Look Up More Records**, and then do one of the following:  
   
@@ -124,6 +124,6 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 ### See also  
- [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)   
+ [Set up a Dynamics 365 for Customer Engagement apps organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Delete a business unit](../admin/delete-business-unit.md)   
  [Assign a business unit a different parent business](../admin/assign-business-unit-different-parent.md)

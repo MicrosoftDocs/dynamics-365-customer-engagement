@@ -1,18 +1,18 @@
 ---
-title: "Set up purchase order sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up purchase order sub-statuses (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 531e9570-9d0b-4239-acef-a2237440d903
 caps.latest.revision: 14
@@ -41,7 +41,7 @@ Purchase orders can be created to track items that need to be ordered from your 
 3.  Use the tooltips to help fill in information, and then click **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [View product inventory](../field-service/view-product-inventory.md)<br>
  [User's Guide](../field-service/user-guide.md)

@@ -1,20 +1,20 @@
 ---
 title: "Common Data Service instances | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 03/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5a98567b-b81c-47dc-979c-5402db8e2996
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Common Data Service instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The Common Data Service allows you to securely store and manage data used in your [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] [environments](https://docs.microsoft.com/powerapps/administrator/environments-overview). As of March 21, 2018, [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] environments provisioned with a Common Data Service database are displayed as instances in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. There you can view and do some management of your Common Data Service instances.
 
@@ -36,9 +36,9 @@ The Common Data Service allows you to securely store and manage data used in you
 
 ## Manage Common Data Service instances
 
-Currently, Common Data Service instances are available as trial and production types. What management actions are available depends on which admin center you use.
+Currently, Common Data Service instances are available as Trial and Production types. What management actions are available depends on which admin center you use.
 
-### Management in the Dynamics 365 admin center
+### Management in the Dynamics 365 admin center  
 
 You can manage the following with the Common Data Service instance in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]:
 
@@ -59,5 +59,5 @@ You can manage the following with the Common Data Service instance in the PowerA
 > - Members of the Azure AD tenant Global administrator role (includes Office 365 Global admins) can also manage all environments that have been created in their tenant and set tenant-wide policies from the PowerApps admin center.
 
 ## More information 
-[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)<br/>
+[Administer PowerApps overview](https://docs.microsoft.com/powerapps/administrator)<br/>
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)

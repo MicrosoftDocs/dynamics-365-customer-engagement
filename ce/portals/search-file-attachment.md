@@ -1,13 +1,13 @@
 ---
-title: "Search within file attachment content in Dynamics 365 portals  | MicrosoftDocs"
-description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 portals."
+title: "Search within file attachment content in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
+description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 for Customer Engagement portals."
 keywords: "search within attachment,search in file attachment"
-ms.date: 04/14/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: BD65E6A7-5A2E-49DE-A00D-EB5F13F22FCC
 author: sbmjais
 ms.author: shjais
@@ -71,11 +71,11 @@ The Faceted Search - Results Template web template is revised to display files a
 {% assign openTag = '{{' %}
 {% assign closingTag = '}}' %}
 {%raw%}
-  <script id="search-view-results" type="text/x-handlebars-template">
+  <script id=search-view-results type=text/x-handlebars-template>
    {{#if items}}
-    <div class="page-header">
-     <h3>{%endraw%}{{openTag}} stringFormat "{{ resx.Search_Results_Format_String }}" firstResultNumber lastResultNumber itemCount {{closingTag}}{%raw%}
-      <em class="querytext">{{{query}}}</em>
+    <div class=page-header>
+     <h3>{%endraw%}{{openTag}} stringFormat {{ resx.Search_Results_Format_String }} firstResultNumber lastResultNumber itemCount {{closingTag}}{%raw%}
+      <em class=querytext>{{{query}}}</em>
       {{#if isResetVisible}}
        <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
       {{/if}}
@@ -84,21 +84,21 @@ The Faceted Search - Results Template web template is revised to display files a
    <ul>
     {{#each items}}
      <li>
-      <h3><a title="{{title}}" href="{{url}}">{{#if parent}}<span class="glyphicon glyphicon-file pull-left text-muted" aria-hidden="true"></span>{{/if}}{{title}}</a></h3>
-      <p class="fragment">{{{fragment}}}</p>
+      <h3><a title={{title}} href={{url}}>{{#if parent}}<span class=glyphicon glyphicon-file pull-left text-muted aria-hidden=true></span>{{/if}}{{title}}</a></h3>
+      <p class=fragment>{{{fragment}}}</p>
       {{#if parent}}
-       <p class="small related-article">{%endraw%}{{ resx.Related_Article }}{%raw%}: <a title="{{parent.title}}" href="{{parent.absoluteUrl}}">{{parent.title}}</a></p>
+       <p class=small related-article>{%endraw%}{{ resx.Related_Article }}{%raw%}: <a title={{parent.title}} href={{parent.absoluteUrl}}>{{parent.title}}</a></p>
       {{/if}}
-      <ul class="note-group small list-unstyled">
+      <ul class=note-group small list-unstyled>
        {{#if relatedNotes}}
         {{#each relatedNotes}}
-         <li class="note-item">
+         <li class=note-item>
          {{#if isImage}}
-          <a target="_blank" title="{{title}}" href="{{absoluteUrl}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
+          <a target=_blank title={{title}} href={{absoluteUrl}}><span class=glyphicon glyphicon-file aria-hidden=true></span>&nbsp;{{title}}</a>
          {{else}}
-          <a title="{{title}}" href="{{absoluteUrl}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
+          <a title={{title}} href={{absoluteUrl}}><span class=glyphicon glyphicon-file aria-hidden=true></span>&nbsp;{{title}}</a>
          {{/if}}
-         <p class="fragment text-muted">{{{fragment}}}</p>
+         <p class=fragment text-muted>{{{fragment}}}</p>
          </li>
         {{/each}}
         {{/if}}
@@ -107,7 +107,7 @@ The Faceted Search - Results Template web template is revised to display files a
     {{/each}}
    </ul>
    {{else}}
-    <h2>{%endraw%}{{ resx.Search_No_Results_Found }}{%raw%}<em class="querytext">{{{query}}}</em>
+    <h2>{%endraw%}{{ resx.Search_No_Results_Found }}{%raw%}<em class=querytext>{{{query}}}</em>
      {{#if isResetVisible}}
       <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
      {{/if}}

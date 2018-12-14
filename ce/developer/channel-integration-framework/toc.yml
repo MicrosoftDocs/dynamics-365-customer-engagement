@@ -9,6 +9,8 @@
       href: architecture-overview-channel-integration-framework.md
     - name: "System requirements of Channel Integration Framework"
       href:  system-requirements-channel-integration-framework.md
+  - name: "What's new"
+    href: whats-new-channel-integration-framework.md
   - name: Get the application
     items:
     - name: "Get Channel Integration Framework (CIF)"
@@ -21,8 +23,12 @@
       href: configure-channel-provider-channel-integration-framework.md
     - name: "Enable outbound communication (ClickToAct)"
       href: enable-outbound-communication-clicktoact.md
+    - name: "Add CIF solution as a dependent solution"
+      href: add-cif-solution-dependent-solution.md   
     - name: "Authenticate channel users to the channel (widget)"
       href: authenticate-channel-users.md
+    - name: "Pass Dynamics 365 URL to widget library"
+      href: pass-url-widget-library.md
   - name: JavaScript API Reference
     items:
     - name: "Microsoft.CIFramework"
@@ -32,6 +38,8 @@
         href: reference/microsoft-ciframework/setWidth.md
       - name: "getWidth"
         href: reference/microsoft-ciframework/getWidth.md
+      - name: "getEntityMetadata"
+        href: reference/microsoft-ciframework/getEntityMetadata.md
       - name: "setMode"
         href: reference/microsoft-ciframework/setMode.md
       - name: "getMode"
@@ -46,6 +54,8 @@
         href: reference/microsoft-ciframework/getEnvironment.md
       - name: "openForm"
         href: reference/microsoft-ciframework/openForm.md
+      - name: "renderSearchPage"
+        href: reference/microsoft-ciframework/renderSearchPage.md
       - name: "createRecord"
         href: reference/microsoft-ciframework/createRecord.md
       - name: "retrieveRecord"

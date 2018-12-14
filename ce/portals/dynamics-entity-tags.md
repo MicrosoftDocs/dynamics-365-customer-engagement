@@ -1,13 +1,13 @@
 ---
-title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Learn about Dynamics 365 tags available in portal"
-keywords: "Dynamics 365 tags; liquid tags"
-ms.date: 10/17/2018
+title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
+keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
 author: sbmjais
 ms.author: shjais
@@ -23,13 +23,13 @@ search.app:
   - D365Portals
 ---
 
-# Dynamics 365 entity tags
+# Dynamics 365 for Customer Engagement entity tags
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
 
 ## chart
 
-Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 chart to a web page in portal](add-chart.md).
+Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 for Customer Engagement chart to a web page in portal](add-chart.md).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -54,10 +54,6 @@ Adds the Power BI dashboards and reports within pages. The tag can be added in t
 > [!NOTE]
 > For the tag to work, you must [enable Power BI integration](set-up-power-bi-integration.md) from Portal Admin Center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
 
-```
-{% powerbi path:"https://app.powerbi.com/view?r=eyJrIjoiNjMzZTY1ZTItMDE2My00NGY5LWIwYmItNjUwMGY5NzEY3IiwidCI6IjU3NGMzZTU2LTQ5MjQtNDAwNC1hZDFhLWQ4NDI3ZTdkYjI0MSiOjZ9" %}
-```
-
 ### Parameters
 
 The powerbi tag accepts the following parameters:
@@ -66,21 +62,53 @@ The powerbi tag accepts the following parameters:
 
 Path of the Power BI report or dashboard. If the Power BI report or dashboard is secure, you must provide the authentication type.
 
+```
+{% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+```
+
 **authentication_type**
 
 Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portal Azure Active Directory authenticated users. 
+While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 for Customer Engagement Portal Azure Active Directory authenticated users. 
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSectionc01" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
 ```
+
+You can also filter the report on one or more values. The syntax to filter a report is:
+
+URL?filter=**Table**/**Field** eq '**value**'
+
+For example, say you want to filter the report to see data for a contact named Bert Hair. You must append the URL with the following:
+
+?filter=Executives/Executive eq 'Bert Hair'
+
+The complete code will be:
+
+```
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
+```
+
+More information on filtering a report: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters)
+
+> [!NOTE]
+> Anonymous report doesn't support filtering. 
+
+You can also create a dynamic path by using the `capture ` Liquid variable as below:
+
+```
+{% capture pbi_path %}https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq '{{user.id}}'{% endcapture %}
+{% powerbi authentication_type:"AAD" path:pbi_path %}
+```
+
+More information on Liquid variable: [Variable tags](variable-tags.md)
 
 **tileid**
 
 Displays the specified tile of the dashboard. You must provide the ID of the tile.
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"0000005" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
 ```
 
 ## editable
@@ -90,7 +118,7 @@ Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] port
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
 
-{% editable snippets "Header" type: 'html' %}
+{% editable snippets Header type: 'html' %}
 
 <!--
 
@@ -100,11 +128,11 @@ certain classes on the containing element, as demonstrated here.
 
 -->
 
-{% assign primary_nav = weblinks["Primary Navigation"] %}
+{% assign primary_nav = weblinks[Primary Navigation] %}
 
 {% if primary_nav %}
 
-<div {% if primary_nav.editable %}class="xrm-entity xrm-editable-adx_weblinkset"{% endif %}>
+<div {% if primary_nav.editable %}class=xrm-entity xrm-editable-adx_weblinkset{% endif %}>
 
 <ul>
 
@@ -160,7 +188,7 @@ Loads a given entity list, by name or ID. The properties of the entity list can 
 If the entity list is loaded successfully, the content within the block will be rendered. If the entity list is not found, the block content will not be rendered.
 
 ```
-{% entitylist name:"My Entity List" %}
+{% entitylist name:My Entity List %}
 
 Loaded entity list {{ entitylist.adx_name }}.
 
@@ -169,7 +197,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 By default, the entitylist object will be given the variable name entitylist. Optionally, a different variable name can be provided.
 
 ```
-{% entitylist my_list = name:"My Entity List" %}
+{% entitylist my_list = name:My Entity List %}
 
 Loaded entity list {{ my_list.adx_name }}.
 
@@ -185,7 +213,7 @@ Provide **only one** of id, name, or key to select the Entity List to load.
 Loads an entity list by [GUID](http://en.wikipedia.org/wiki/Globally_unique_identifier) ID. id must be a string that can be parsed as a GUID.  
 
 ```
-{% entitylist id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}
+{% entitylist id:936DA01F-9ABD-4d9d-80C7-02AF85C822A8 %}
 
 Loaded entity list {{ entitylist.adx_name }}.
 
@@ -207,7 +235,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 Loads an entity list by name.
 
 ```
-{% entitylist name:"My Entity List" %}
+{% entitylist name:My Entity List %}
 
 Loaded entity list {{ entitylist.adx_name }}.
 
@@ -287,7 +315,7 @@ Provide **either** id **or** logical\_name with name to select the [!INCLUDE[pn-
 id must be a string that can be parsed as a GUID.
 
 ```
-{% entityview id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}
+{% entityview id:936DA01F-9ABD-4d9d-80C7-02AF85C822A8 %}
 
 Loaded entity view {{ entityview.name }}.
 
@@ -299,7 +327,7 @@ Generally, literal GUID strings will not be used. Instead, id will be specified 
 ```
 {% entityview id:request.params.view %}
 
-Loaded entity view {{ entityview.name }} using "view" query string request parameter.
+Loaded entity view {{ entityview.name }} using view query string request parameter.
 
 {% endentityview %}
 ```
@@ -330,7 +358,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **filter**
 
-Specifies whether to filter the view results by user or account. Must have a string value of "user" or "account".
+Specifies whether to filter the view results by user or account. Must have a string value of user or account.
 
 ```
 {% entityview id:request.params.view, filter:'user' %}
@@ -461,7 +489,7 @@ Loaded entity view with {{ entityview.total_records }} total matching records.
 
 Specifies whether to apply entity permission filtering on view results. This parameter is set to false by default. If entityview is used within an entitylist block, the value of this parameter will be inherited from the entity list configuration.
 
-This parameter must be passed either an [boolean](liquid-types.md#boolean) value, or a string that can be parsed as a Boolean ("true", "false"). If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as a Boolean, the default of false will be used.  
+This parameter must be passed either an [boolean](liquid-types.md#boolean) value, or a string that can be parsed as a Boolean (true, false). If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as a Boolean, the default of false will be used.  
 
 ```
 {% entityview id:request.params.view, enable_entity_permissions:true %}
@@ -502,7 +530,7 @@ Performs a query against the portal search index. The matching results can then 
 
 <li>
 
-<h3><a href="{{ result.url | escape }}">{{ result.title | escape }}</a></h3>
+<h3><a href={{ result.url | escape }}>{{ result.title | escape }}</a></h3>
 
 <p>{{ result.fragment }}</p>
 
@@ -640,7 +668,7 @@ Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-conf
 
 The name of the Entity Form you wish to load.
 
-`{% entityform name:"My Entity Form" %}`
+`{% entityform name:My Entity Form %}`
 
 ### **webform**
 
@@ -653,7 +681,7 @@ Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-conf
 
 The name of the Web Form you wish to load.
 
-`{% webform name:"My Web Form" %}`
+`{% webform name:My Web Form %}`
 
 ### See also
 

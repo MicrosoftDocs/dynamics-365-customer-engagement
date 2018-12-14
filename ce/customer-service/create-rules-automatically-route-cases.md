@@ -1,11 +1,11 @@
 ---
-title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
-keywords: Create rules; Route cases; Dynamics 365; Customer Service
+title: Create rules to automatically route cases (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Create rules; Route cases; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -22,15 +22,15 @@ search.app:
   - D365CS
 ---
 
-# Create rules to automatically route cases
+# Automatically route cases using routing rule sets
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
-Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release. 
+> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the February 2019 release. 
 
 
 ## Create a routing rule set  

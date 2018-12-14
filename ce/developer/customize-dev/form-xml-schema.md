@@ -1,20 +1,20 @@
 ---
 title: "Form XML schema | MicrosoftDocs"
 description: "Learn about schema definition for form customizations."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c30b5fba-d0d9-4963-9b64-f793b192deae
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. For more information, see [Customize Entity Forms in Microsoft Dynamics 365](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
+The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. For more information, see [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
   
 ## Schema  
   

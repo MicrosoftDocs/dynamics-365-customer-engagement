@@ -1,11 +1,11 @@
 ---
-title: Create a simple selection rule (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create a simple selection rule in Dynamics 365 for Customer Service
-keywords: Create a selection rule; Dynamics 365; Customer Service
+title: Create a simple selection rule (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: See how to create a simple selection rule in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Create a selection rule; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -93,5 +93,5 @@ You can also add resources to existing selection rules.
 >  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.  
   
 ### See also     
- [Schedule a service activity](../customer-service/schedule-service-activity.md)  
+ [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)  
  [Create or change a resource group](create-edit-resource-group.md)

@@ -1,12 +1,12 @@
 ---
 title: "Set up trial solutions for Microsoft Social Engagement | Microsoft Docs"
 description: "Review the steps to get a trial solution for Social Engagement"
-keywords: "trial. provisioning, MSE, testdrive"
+keywords: trial. provisioning, MSE, testdrive
 ms.date: 06/28/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: ad641739-a8e8-411d-a743-705170bd69d3
 author: m-hartmann
 ms.author: mhart
@@ -25,10 +25,6 @@ search.app:
 # Set up trial solutions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 This article provides a step-by-step guide to get up and running with a [trial solution for Social Engagement](https://experience.dynamics.com/trials/). 
-
-- If you already have an Office 365 tenant where you have admin permissions, review [Add a Social Engagement trial to an existing Office 365 tenant](#add-a-social-engagement-trial-to-an-existing-office-365-tenant).
-
-- To create a new Office 365 tenant for your trial, review [Create a new Office 365 tenant for the Social Engagement trial](#create-a-new-office-365-tenant-for-the-social-engagement-trial).
 
 ## Add a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] trial to an existing Office 365 tenant
 
@@ -60,7 +56,7 @@ This article provides a step-by-step guide to get up and running with a [trial s
 9. Select a user you want to give access to the trial and select **Edit** in the **Product licenses** section.   
    ![Edit product licenses for a user](media/mse-trial-existing-edit-license.png "Edit product licenses for a user")
 
-10. Ensure that both, a Dynamics 365 license and the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Enterprise** license are set to **On**.   
+10. Ensure that both, a Dynamics 365 for Customer Engagement license and the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Enterprise** license are set to **On**.   
    ![Assigned licenses in the Office 365 admin center](media/mse-trial-existing-assigned-licenses.png "Assigned licenses in the Office 365 admin center")
 
 11. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will be available for the selected user in the configured tenant within 5-10 minutes. If [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] isn't available from the app switcher in the top-right corner, close your browser and sign in with a private session again.

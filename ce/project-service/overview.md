@@ -1,5 +1,5 @@
 ---
-title: What is Dynamics 365 for Project Service? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: What is Dynamics 365 for Customer Engagement for Project Service? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: Introduction and overview of Project Service
 author: krbjoran
 manager: ShellyHa
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# What is Dynamics 365 for Project Service?
+# What is Dynamics 365 for Customer Engagement for Project Service?
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 

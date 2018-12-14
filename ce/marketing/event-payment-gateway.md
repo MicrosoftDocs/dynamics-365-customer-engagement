@@ -1,21 +1,20 @@
 ---
 title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
-keywords: "events; payment"
-ms.date: 10/10/2018
-ms.service:
-  - "dynamics-365-marketing"
+keywords: events; payment
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom:
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ed851e33-a2db-4e1c-9420-0dc0bae227db
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 ---
 
 # Set up online payment for events
@@ -34,7 +33,7 @@ To add a new payment page to your event portal:
 
 1. Make an agreement with a third-party payment provider and prepare a web page that provides a payment front end, as described in their documentation.
 
-1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365—custom** from the app selector.  
+1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365 — custom** from the app selector.  
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
@@ -114,7 +113,7 @@ To assign a payment gateway to an event:
 
     ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
 
-1. Restart your portal to refresh its server cache and make sure your new setting takes effect right away. For instructions, see [How can I restart the portal?](setup-troubleshooting.md#restart-portal).
+1. Restart your portal or refresh its server cache to make sure your new setting takes effect right away. For instructions, see [How can I fix occasional portal issues?](setup-troubleshooting.md#restart-portal).
 
 > [!NOTE]
 > The payment gateway is only displayed for events that have at least one event pass configured for them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up event passes](set-up-event.md#event-passes)

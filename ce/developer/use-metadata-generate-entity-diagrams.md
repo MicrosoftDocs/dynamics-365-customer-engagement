@@ -1,20 +1,20 @@
 ---
-title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about Metadata Diagram entity to create a simple diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1ac9b7eb-437e-4b69-b494-14262f745557
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -101,7 +101,7 @@ Visual representation of metadata can be very useful, especially when you are tr
 ## About the diagrams  
  You can find the diagrams for many system entities in the SDK documentation, in the topics that describe the entity capabilities. In each box in the diagram, the first line in bold text is the name of the entity. Subsequent lines contain the names of the attributes used to define the relationships for that entity. The tool does not generate lines showing the relationships to the following entities: organization, business unit, and user (systemuser). This is done to simplify the diagram. Color coding is used to indicate the owner relationship for each entity. The following diagram describes the color coding:  
   
- ![Diagram key for Dynamics 365 entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 entity relationship diagrams")  
+ ![Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams")  
   
 <a name="Generate"></a>   
 ## Generate entity diagrams with the metadata diagram tool  
@@ -131,7 +131,7 @@ MetadataDiagramConsole.exe new_bankaccount new_safedepositbox
 >  To avoid overwriting a generated diagram file, you have to rename the first file before you run the second command.  
   
 ### See also  
- [Introduction to Entities in Dynamics 365](introduction-entities.md)   
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
  [Key to Entity Diagrams](key-entity-diagrams.md)   
  [CRM 2015 Entity Relationship Diagrams](http://download.microsoft.com/download/9/8/0/9805B4B0-5506-4CCE-915B-E2F1E65701D3/CRM2015EntityDiagrams.zip)

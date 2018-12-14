@@ -39,7 +39,7 @@ ms.custom:
 |            | Field Label Alignment | Select field label alignment               |
 |            | Field Label Position  | Select field label position                |
 
-![modify cusomter 360 form section properties display tab](media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")  
+![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")  
 
 1.  Select **OK** to save the changes.
 

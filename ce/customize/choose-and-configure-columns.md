@@ -1,15 +1,14 @@
 ---
-title: "Choose and configure columns in views in PowerApps | MicrosoftDocs"
+title: "Choose and configure columns in views in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to select and configure views for your app"
-keywords: ""
-ms.date: 04/02/2018
+keywords: 
+ms.date: 11/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 31bfcf18-58c3-491c-91b5-f9b0f5424852
 author: Mattp123
 ms.author: matp
@@ -27,12 +26,12 @@ search.app:
 
 # Choose and configure columns in views
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
- Along with the filter criteria, the columns visible in a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
+ Along with the filter criteria, the columns visible in a Dynamics 365 for Customer Engagement apps view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
   
 -   [Add columns](../customize/choose-and-configure-columns.md#BKMK_AddColumns)  
   
@@ -133,7 +132,7 @@ search.app:
 
 ## Community tools
 
-**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

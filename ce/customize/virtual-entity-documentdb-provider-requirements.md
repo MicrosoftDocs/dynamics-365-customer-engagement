@@ -1,15 +1,15 @@
 ---
 title: "Preview Feature: Use the Azure Cosmos DB for SQL API Data Provider with PowerApps | MicrosoftDocs"
 description: "Learn how to configure the Azure Cosmos DB for SQL API Data Provider to use with virtual entities."
-keywords: "SQL API"
+keywords: SQL API
 ms.date: 04/26/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: d0031ffc-8754-4a12-b8c1-e08edc49ff73
 author: Mattp123
 ms.author: matp
@@ -27,7 +27,7 @@ search.app:
 
 # Preview feature: Azure Cosmos DB SQL API Data Provider requirements
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] as well as how to configure and recommended best practices when you use the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] with virtual entities. 
 

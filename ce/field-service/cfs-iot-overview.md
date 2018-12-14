@@ -1,18 +1,19 @@
 ---
 title: "Connected Field Service for Azure IoT Central - Overview | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
-ms.date: 09/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.custom: dyn365-fieldservice
+ms.date: 11/08/2018
+ms.author: vihuang
+ms.reviewer: krbjoran
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
+  - field-service
+ms.tgt_pltfrm: 
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shellyhaverkamp"
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shellyhaverkamp
+ms.author: vihuang
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +27,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Connected Field Service for Azure IoT Central provides a direct integration of Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Field Service for Azure IoT Central provides a direct integration of Dynamics 365 for Customer Engagement for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
 Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to Azure IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 
 
@@ -55,3 +56,5 @@ Connect Azure IoT Central to Connected Field Service using Microsoft Flow in jus
 - [What is Azure IoT Central?](https://docs.microsoft.com/azure/iot-central/overview-iot-central)
 - [Tour of Azure IoT Central user interface](https://docs.microsoft.com/azure/iot-central/overview-iot-central-tour)
 - [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/quick-deploy-iot-central)
+
+

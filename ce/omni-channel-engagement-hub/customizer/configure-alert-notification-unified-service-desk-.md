@@ -64,7 +64,7 @@ You must define an event and attach the action calls for an agent to accept an i
 
 -   Focus on the Customer 360 page.
 
- ![alert notification and screen pop experience](media/alert-notification-screenpop.png "Alert notification and screen pop experience")  
+ ![alert notification and screen pop experience](../media/alert-notification-screenpop.png "Alert notification and screen pop experience")  
 
 ### Create an event and action when agent selects Reject 
 

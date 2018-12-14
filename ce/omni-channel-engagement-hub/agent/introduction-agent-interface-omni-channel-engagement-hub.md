@@ -22,7 +22,7 @@ When you sign in to Unified Service Desk, the Omni-channel Engagement interface 
 
 -   Application tab management toolbar
 
-![omni-channel engagement hub agent interface](media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
+![omni-channel engagement hub agent interface](../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
 
 ## Default global toolbar
 
@@ -36,7 +36,7 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
 -   Presence
 
-![default global toolbar](media/oc-usd-global-toolbar.png "Default global toolbar")  
+![default global toolbar](../media/oc-usd-global-toolbar.png "Default global toolbar")  
 
 ### Search
 
@@ -52,7 +52,7 @@ The search option in Omni-channel Engagement Hub lets you to search records and 
 
 -   Task Email
 
-![omni-channel search](media/oc-usd-search.png "Omni-channel search")  
+![omni-channel search](../media/oc-usd-search.png "Omni-channel search")  
 
 ### Create
 
@@ -62,7 +62,7 @@ The quick create option provides the list of related options (entities) to acces
 
 Omni-channel Engagement Hub settings have Debugger and About that provide insights about the code executions and about Unified Service Desk, respectively.
 
-![omni-channel settings](media/oc-usd-settings.png "Omni-channel settings")  
+![omni-channel settings](../media/oc-usd-settings.png "Omni-channel settings")  
 
 #### Debugger
 
@@ -84,17 +84,17 @@ Presence is the indication of your (agent) availability or status. A presence st
 
 -   ### Presence Text: This is the text that is associated with a base presence category. For example: Away – Away for lunch. Away is the base presence and Away for lunch is the presence text.
 
-![omni-channel presence status](media/oc-usd-presence.png "Omni-channel presence status")  
+![omni-channel presence status](../media/oc-usd-presence.png "Omni-channel presence status")  
 
 ## Session management toolbar
 
 Each session in the Unified Service Desk client is displayed on the session tab toolbar in the main screen, and you can identify a session using the session name displayed on the tab. Also, you switch between the sessions to handle the cases without affecting your KPIs.
 
-![omni-channel session management toolbar](media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
+![omni-channel session management toolbar](../media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
 
 ## Application management toolbar
 
 The application management toolbar allows you to see the all the related information of a session. For example, you can see open the My dashboard, Search, Customer 360, view a KB article, view case details and so on using the application management toolbar. Also, you can switch between the application and session tab toolbar to effectively manage your sessions and related applications.
 
-![omni-channel application management toolbar](media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar")  
+![omni-channel application management toolbar](../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar")  
 

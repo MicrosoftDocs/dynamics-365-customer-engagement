@@ -1,15 +1,15 @@
 ---
-title: iFrame properties for Main forms in PowerApps | MicrosoftDocs
+title: iFrame properties for Main forms | MicrosoftDocs
 description: Understand the iFrame properties for Main forms
-Keywords: Main form; iFrame properties; Dynamics 365
+Keywords: Main form; iFrame properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.author: matp
 manager: kvivek
-ms.date: 04/10/2018
+ms.date: 11/04/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
@@ -20,7 +20,7 @@ search.app:
 ---
 # iFrame properties
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can add iFrames to a form to integrate content from another website within a form. 
 
@@ -39,7 +39,7 @@ You can access **Form properties** in solution explorer. Under **Components**, e
 |                  | **Pass record object-type code and unique identifiers as parameters** |    Data about the organization, user, and the record can be passed to the iFrame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pass parameters to iFrames](../customize/iframe-properties-legacy.md#BKMK_PassParametersToIFRAMEs)     |
 |                  |                               **Label**                               |                                                                                                         **Required**: A label to display for the iFrame.                                                                                                          |
 |                  |                     **Display label on the Form**                     |                                                                                                              Whether the label should be displayed.                                                                                                               |
-|                  |          **Restrict cross-frame scripting, where supported**          |           It is considered a security risk to allow pages from a different web site to interact with the Dynamics 365 application using scripts. Use this option to restrict cross frame scripting for pages you do not have control over.<br /><br />            |
+|                  |          **Restrict cross-frame scripting, where supported**          |           It is considered a security risk to allow pages from a different web site to interact with the Dynamics 365 for Customer Engagement application using scripts. Use this option to restrict cross frame scripting for pages you do not have control over.<br /><br />            |
 |                  |                        **Visible by default**                         |                            Showing the iFrame is optional and can be controlled using scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md)                            |
 |                  |                         **Enable for mobile**                         |                                                                                                       Select the checkbox to enable the iFrame for mobile.                                                                                                        |
 |  **Formatting**  |         **Select the number of columns the control occupies**         |                                                         When the section containing the iFrame has more than one column you can set the field to occupy up to the number of columns that the section has.                                                         |

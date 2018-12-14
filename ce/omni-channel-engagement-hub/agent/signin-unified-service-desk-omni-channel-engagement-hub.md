@@ -35,7 +35,7 @@ ms.custom:
 | Username                                | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
 | Password                                | The password associated with the username                                                          |                       |
 
-![login to omni-channel engagement hub](media/oc-usd-login.png "Login to Omni-channel engagement hub")  
+![login to omni-channel engagement hub](../media/oc-usd-login.png "Login to Omni-channel engagement hub")  
 
 1.  If you have multiple organizations, select the organization you want to connect to.
 

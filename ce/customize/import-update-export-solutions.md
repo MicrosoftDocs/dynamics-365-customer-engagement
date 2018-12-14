@@ -1,22 +1,22 @@
 ---
 title: "Import, update, and export solutions | MicrosoftDocs"
 description: "Learn how to import, update, and export a solution"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/10/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 56363ea3-ea76-4311-9b7a-b71675e446fb
 caps.latest.revision: 57
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Import, update, and export solutions 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. You can import the default solution only to the organization from which you exported it, but not into a different organization.  
 
@@ -101,7 +101,7 @@ search.app:
 
 6. In the **Package Type** step, you must choose whether to export the solution as an **Unmanaged** or **Managed** solution.  
 
-7. The next step allows you to choose a target solution for a specific Dynamics 365 version. This option is typically used by ISVs who may want to export a solution that is compliant with a previous version. Unless you intend to import this solution into an organization that is not upgraded to the same version as the organization version you are using, accept the default.   
+7. The next step allows you to choose a target solution for a specific Dynamics 365 for Customer Engagement apps version. This option is typically used by ISVs who may want to export a solution that is compliant with a previous version. Unless you intend to import this solution into an organization that is not upgraded to the same version as the organization version you are using, accept the default.   
 
 8. Choose **Export** to download the solution file.  
 
@@ -123,7 +123,7 @@ search.app:
 |                                 Order Prefix                                  |                                                              Prefix to use for all orders throughout the app.                                                              |                                                                                                                                                                          |
 |                             Unique String Length                              |                                                    Number of characters appended to invoice, quote, and order numbers.                                                     |                                                                                                                                                                          |
 |                                   Calendar                                    |                                                                               Calendar Type                                                                                |                                                       Calendar type for the system. Set to Gregorian US by default                                                       |
-|                               Date Format Code                                |                                                    Information about how the date is displayed throughout Dynamics 365.                                                    |                                                                                                                                                                          |
+|                               Date Format Code                                |                                                    Information about how the date is displayed throughout Dynamics 365 for Customer Engagement apps.                                                    |                                                                                                                                                                          |
 |                                Date Separator                                 |                                          Character used to separate the month, the day, and the year in dates throughout the app.                                          |                                                                                                                                                                          |
 |                           Max Appointment Duration                            |                                                              Maximum number of days an appointment can last.                                                               |                                                                                                                                                                          |
 |                               Show Week Number                                |                                   Information that specifies whether to display the week number in calendar displays throughout the app.                                   |                                                                                                                                                                          |

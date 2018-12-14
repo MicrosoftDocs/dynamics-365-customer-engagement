@@ -1,17 +1,17 @@
 ---
-title: "Sample data installation (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+title: "Sample data installation (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+ms.custom: dyn365-fieldservice
 ms.date: 09/28/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
+  - field-service
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "krbjoran"
-ms.author: "shellyha"
-ms.manager: "shellyha"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: krbjoran
+ms.author: shellyha
+ms.manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Field Service and Dynamics 365 for Project Service.
+To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Customer Engagement for Field Service and Dynamics 365 for Customer Engagement for Project Service.
 
 The sample data is installable in three separate packages, so you can install data only for Field Service, or only for Project Service, or you can install sample data for both applications at once.
 
@@ -55,7 +55,7 @@ If you have questions about installing these sample data packages, [send us an e
 
 The installation protocol assumes the following about your target instance (org):
 
-- Dynamics 365 9.0.x or later
+- Dynamics 365 for Customer Engagement 9.0.x or later
 
 - Base language is English and base currency is US dollar (USD,$)
 
@@ -100,7 +100,7 @@ Depending on the operating system and security settings, you may need to perform
 
 ## Create or configure users
 
-The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 to match the incoming sample data configuration.
+The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 for Customer Engagement to match the incoming sample data configuration.
 
 To create or configure users, go to **Settings** > **Security** > **Users**, and do the following:
 
@@ -131,7 +131,7 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
       > [!div class="mx-imgBorder"]
       > ![Screenshot of package deployer window with "Display list of available organizations" checked](media/sample-data-2.png)
 
-4. Select the Dynamics 365 organization where you want to install the sample data.
+4. Select the Dynamics 365 for Customer Engagement organization where you want to install the sample data.
 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
@@ -190,7 +190,7 @@ There are a number of other configuration components in this pre-import configur
 
 - **\<RequiredSolutions\>** specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 for Sales and Service apps is installed.
+- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 for Customer Engagement for Sales and Service apps is installed.
 
     - false - skips installation of this built-in data (which is removable).
 

@@ -1,19 +1,19 @@
 ---
-title: "About Entity Reference (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes attributes of each entity and the relationships between entities.(SDK). "
-ms.custom: ""
+title: "About Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.(SDK). "
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use this reference to understand the available operations that can be performed for specific entities, the default attributes attributes of each entity and the relationships between entities.
+Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.
 
 > [!NOTE]
 > This reference is generated from a tenant with multiple solutions from [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] installed but is not customized. This includes entities that may not exist in your environment because these solutions are not installed. Custom entities, attributes, and relationships cannot be included here.

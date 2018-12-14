@@ -1,13 +1,13 @@
 ---
-title: "Sample: Create and update records with related records (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create and update records with related records (early bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create and update a record and related records in one call by using the IOrganizationService.Entity) and IOrganizationService. Entity) methods"
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 72eeafd8-8dd5-40af-9e3d-575534d60f61
 author: JimDaly
 ms.author: jdaly
@@ -16,10 +16,10 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "sample for creating and updating records with related records (early bound)"
-  - "early-bound class samples, creating and updating records with related records (early bound) sample"
-  - "creating and updating records with related records (early bound) sample, early-bound class samples"
-  - "samples for early-bound classes, creating and updating records with related records (early bound) sample"
+  - sample for creating and updating records with related records (early bound)
+  - early-bound class samples, creating and updating records with related records (early bound) sample
+  - creating and updating records with related records (early bound) sample, early-bound class samples
+  - samples for early-bound classes, creating and updating records with related records (early bound) sample
 caps.latest.revision: 21
 topic-status: Drafting
 search.audienceType: 

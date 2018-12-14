@@ -1,22 +1,22 @@
 ---
-title: "Invoke custom actions from a workflow with PowerApps | MicrosoftDocs"
+title: "Invoke custom actions from a workflow | MicrosoftDocs"
 description: "Learn how to invoke a custom action from a workflow"
-ms.custom: ""
-ms.date: 04/10/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 12/04/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 1fd5d39e-3dc8-4d1a-8b4b-ccaa303f4bbb
 caps.latest.revision: 12
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Invoke custom actions from a workflow
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Workflows have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow solves quite a few business scenarios. However, if you couple the capabilities of the workflows with the power of the custom actions invoked directly from within a workflow you add a whole new range of business scenarios to your application without needing to write code.  
   

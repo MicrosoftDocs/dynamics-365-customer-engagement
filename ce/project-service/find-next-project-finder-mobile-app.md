@@ -1,5 +1,5 @@
 ---
-title: Find your next project with the Project Finder Mobile app (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Find your next project with the Project Finder Mobile app (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to find your next project with the Project Finder Mobile app for Project Service
 author: krbjoran
 manager: ShellyHa

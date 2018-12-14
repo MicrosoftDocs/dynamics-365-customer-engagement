@@ -2,7 +2,7 @@
 
 
 
- // Query for an an existing report: Account Overview. This is a default report in Microsoft Dynamics CRM.				    
+ // Query for an existing report: Account Overview. This is a default report in Microsoft Dynamics CRM.				    
  QueryByAttribute reportQuery = new QueryByAttribute(Report.EntityLogicalName);
  reportQuery.AddAttributeValue("name", "Account Overview");
  reportQuery.ColumnSet = new ColumnSet("reportid");

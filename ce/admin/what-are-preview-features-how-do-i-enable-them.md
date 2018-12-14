@@ -1,20 +1,20 @@
 ---
-title: "What are Preview features and how do I enable them for Dynamics 365 Customer Engagement? | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "What are Preview features and how do I enable them for Dynamics 365 for Customer Engagement? | MicrosoftDocs"
+ms.custom: 
+ms.date: 11/01/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: c461cdf4-9e91-41c7-b34e-e95f1ff1e945
 caps.latest.revision: 65
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # What are Preview features and how do I enable them? 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
   
@@ -37,6 +37,7 @@ Preview features are features that aren’t complete, but are made available on 
   
 - May be available only in selected geographic areas.  
 
+<!--
 ## What preview features are included in [!INCLUDE [pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)]
 
 The following table lists preview features as well as learning resources for each.
@@ -44,9 +45,7 @@ The following table lists preview features as well as learning resources for eac
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship analytics|[Preview feature: Relationship analytics](../sales-enterprise/relationship-analytics.md)|  
-
-<!--|Predective lead scoring|[Preview feature: Work with Predictive lead scoring](work-predictive-lead-scoring.md)|-->
+-->
 
 
 ## What preview features are included in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]?   
@@ -64,7 +63,6 @@ The following table lists preview features as well as learning resources for eac
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship Insights|[Preview feature: Relationship Insights](../sales-enterprise/embedded-intelligence.md)|  
 |Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
@@ -75,14 +73,14 @@ The following table lists preview features as well as learning resources for eac
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                         **Preview feature**                                          |                                                                                                                                                                                                                                                                                                            **Learning resource**                                                                                                                                                                                                                                                                                                             |
 |                                    Data Loader for bulk importing                                    |                                                                                                                                                                                                                                                                                     [Preview feature: Import bulk data](import-bulk-data-data-loader.md)                                                                                                                                                                                                                                                                                     |
-|                Get a quick overview of key Dynamics 365 (online) performance metrics                 |                                                                                                                                                                                                                                            [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)                                                                                                                                                                                                                                            |
-| Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] | We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration. |
+|                Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics                 |                                                                                                                                                                                                                                            [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)                                                                                                                                                                                                                                            |
+| Track your Dynamics 365 for Customer Engagement apps deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] | We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration. |
   
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  
   
 ## How do I enable a preview feature?  
- To enable a preview feature, you must be a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator.  
+ To enable a preview feature, you must be a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator.  
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   

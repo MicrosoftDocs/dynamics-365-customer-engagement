@@ -30,9 +30,9 @@ A configuration in Unified Service Desk helps you filter access to components th
 
     Omni-channel Supervisor Configuration
 
-![new agent configuration](media/oc-usd-crm-agent-configuration.png "New agent configuration")  
+![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
 
 Omni-channel Supervisor Configuration
 
-![new supervisor configuration](media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
+![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
 

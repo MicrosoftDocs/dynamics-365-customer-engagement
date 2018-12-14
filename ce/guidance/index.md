@@ -1,15 +1,15 @@
 ---
 title: "Overview of guidance content | MicrosoftDocs"
-description: "Technical guidance for developers created by the Microsoft Dynamics 365 Customer Engagement team based on common issues and problems reported by customers. The guidance in these topics includes guidance regarding usage, design, performance, security, upgrade readiness, online migration, maintainability, and supportability. This content describes common symptoms, problematic patterns, and the potential impact of common problems as well as guidance about how to avoid them."
+description: "Technical guidance for developers created by the Microsoft Dynamics 365 for Customer Engagement team based on common issues and problems reported by customers. The guidance in these topics includes guidance regarding usage, design, performance, security, upgrade readiness, online migration, maintainability, and supportability. This content describes common symptoms, problematic patterns, and the potential impact of common problems as well as guidance about how to avoid them."
 ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c2f2ce17-2dc0-43fa-8b44-d71c9cdaa6ac
-author: "mhuguet"
-ms.author: "michu"
-manager: "austinj"
+author: mhuguet
+ms.author: michu
+manager: austinj
 ---
 # Overview of guidance content
 
@@ -21,10 +21,10 @@ We have identified common issues that can occur if best practices are not follow
 
 The documentation targets the following customization types:
 
-- Configuration changes through a Dynamics 365 designer or administrative console
+- Configuration changes through a Dynamics 365 for Customer Engagement designer or administrative console
 - Client scripts
 - Custom workflow activities and plug-ins
-- Integrations through the Dynamics 365 SDK, the various Dynamics 365 web based services, Azure, Microsoft Flow, and PowerApps.
+- Integrations through the Dynamics 365 for Customer Engagement apps SDK, the various Dynamics 365 for Customer Engagement web based services, Azure, Microsoft Flow, and PowerApps.
 
 <a name='sections'></a>
 
