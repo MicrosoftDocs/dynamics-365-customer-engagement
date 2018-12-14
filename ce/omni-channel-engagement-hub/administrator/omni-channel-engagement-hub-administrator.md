@@ -1,5 +1,5 @@
 ---
-title: "Omni-channel engagement hub for administrators "
+title: "Omni-channel engagement hub for administrators"
 description: 
 keywords: ""
 author: kabala123; anjgupta

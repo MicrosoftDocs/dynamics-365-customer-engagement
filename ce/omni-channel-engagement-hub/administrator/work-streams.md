@@ -73,21 +73,154 @@ The **Active Work Streams** view is displayed.
 
 2. Select **New** in the command bar to create a new work stream.  
 
+  - In the **Summary** tab of the new work stream page:
+
+    - Provide the following information in the **General information** section:
+      - **Name**. Name of the work stream
+      - **Capacity**. Units of capacity required to process a conversation of this work stream
+      - **Stream Source**. Channels supported for this work stream. Choose from Live Chat or CDS Entity.
+
+         [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [CDS entity work stream](#cds-entity-work-stream)
+
+      - **Max Concurrency**. Maximum concurrent sessions for conversations of this work stream
+      - **Auto-close after inactivity**. Time after which a conversation is moved from waiting state to closed state due to inactivity.
+      - **Record Identification Rule**. Provide the following code snippet in the text box. This snippet helps configure record identifications rules for the work stream.
+
+  ```csharp
+<RecordIdentificationRuleSet>  
+<RecordIdentificationRule>         
+<PrimaryEntity LogicalCollectionName="accounts" PrimaryKeyAttribute="accountid" PrimaryNameAttribute="name" />        
+ <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">             
+<entity name="account">                 
+<attribute name="accountid" />                 
+<attribute name="name" />                 
+<filter type="and">
+<condition attribute="name" operator="eq" value="${Name}" />                       
+<condition attribute="emailaddress1" operator="eq" value="${Email}" />                     
+<condition attribute="telephone1" operator="eq" value="${Phone}"/>                 
+</filter>             
+</entity>         
+</fetch>         
+<ContextKey name="msdyn_account_msdyn_ocliveworkitem_Customer" />     
+</RecordIdentificationRule>     
+<RecordIdentificationRule>         
+<PrimaryEntity LogicalCollectionName="contacts" PrimaryKeyAttribute="contactid" PrimaryNameAttribute="fullname" />         
+<fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">             
+<entity name="contact">                 
+<attribute name="contactid" />                 
+<attribute name="fullname" />                 
+<filter type="and">                     
+<condition attribute="contactid" operator="eq" source="msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid" value="${msdyn_portalcontactid}" /> 
+<condition attribute="fullname" operator="eq" value="${Name}" />                    
+<condition attribute="emailaddress1" operator="eq" value="${Email}" />                     
+<condition attribute="telephone1" operator="eq" value="${Phone}" />                 
+</filter>             
+</entity>         
+</fetch>         
+<ContextKey name="msdyn_contact_msdyn_ocliveworkitem_Customer" />     
+</RecordIdentificationRule>     
+<RecordIdentificationRule>         
+<PrimaryEntity LogicalCollectionName="incidents" PrimaryKeyAttribute="incidentid" PrimaryNameAttribute="title" />         
+<fetch version="1.0" output-format="xml-platform" mapping="logical">             
+<entity name="incident">                 
+<attribute name="incidentid" />                 
+<attribute name="title" />                 
+<filter type="and">                     
+<condition attribute="ticketnumber" operator="eq" value="${CaseNumber}" />                 
+</filter>             
+</entity>         
+</fetch>         
+<ContextKey name="msdyn_incident_msdyn_ocliveworkitem" />     
+</RecordIdentificationRule> 
+</RecordIdentificationRuleSet>
+```
+
+   >[!NOTE]
+   >For each new work stream, update the condition variable values and ensure that the names are unique and mapped with pre-chat questions as given below. For example, after a workstream is created, if it is linked to context variable: Name1 and Phone1, then we need to modify the condition variable value from {Name} to {Name1} and {Phone} to {Phone1}.
+
+   >[!IMPORTANT]
+   >For the above record identification rules to work, you must create the following questions for the pre-chat survey. </br>
+
+- Authenticated chat
+
+  |Question name  |Answer type | Question text|
+  |---------|---------|---------|
+  |CaseNumber    |   Multiple lines      |Case Number|
+  |    |         ||
+
+- Unauthenticated chat
+
+  |Question name  |Answer type | Question text|
+  |---------|---------|---------|
+  |CaseNumber    |   Multiple lines      |Case Number|
+  |  Name  |     Single line    |Name|
+  |  Email  |         Single line|Email|
+  |   Phone |    Single line     |Phone|
+  |    |         ||
+
+    For information on how to create questions and use them in pre-chat survey, see Set up a question library and Set up a pre-chat survey.
+
+    > [!NOTE]
+    > Ensure that the question name is unique, and is used in the XML snippet as is, else the record identification rule will not work. You can provide question text as per your requirement. 
+
+   - Select **Save** to save the work stream.
+
+   - In the **Work distribution** section: 
+     - Choose whether the work distribution mode should be **Push** or **Pick**.
+     - Select the type of notification setting from the **Notification** drop-down list.
+     - Select the time for **Screen pop timeout** from the drop-down list.
+
+       > [!NOTE]
+       > **Notification** and **Screen pop timeout** are not supported in this preview and will be made available in a future release.
+
+      - **Context variables** help the omni-channel system understand the kind of conversation it will receive. Quickly create a new context variable for a work stream in the **Context variables** section. 
+      - Select **New** and provide the **Name** and the **Type** of the variable in the **Quick Create** flyout. 
+      You can edit, activate, deactivate, or delete a context variable by selecting it from the grid.
+
+ - Routing rules help to correctly route the conversations to the agents or queues. Define the routing rules in the **Routing Rule Item** tab:
+
+    - Select **Add new Rule Item** to add a new routing rule item.  
+    - In the **General information** section of the **General** tab, provide the following information: 
+      - **Name**. Name of the rule item
+      - **Work Stream** is auto populated
+      - **Queue**. Look up a queue or select New to add a new queue. More information: Create a new omni-channel queue
+      - **Description**. A brief description of the rule item.
+
+     - In the **Condition** section, provide the conditions for the omni-channel rule. Based on the conditions defined, the conversations are routed to the correct agents or queues. When you define conditions for the omni-channel routing rules, you can choose from:
+        - Entity
+        - Attribute
+        - Operator
+        - Value
+
+       So, for an entity, you can choose from a set of attributes, operators, and values related to the entity. 
+       With the help of using appropriate conditions in the routing rules, you can achieve many more routing combinations to route conversations, like:
+         - Incoming customer chat request from the portal with specific pre-chat answers should be routed to a specific queue.
+         - Incoming custom entities like Change_Requests, etc. should be routed to omni-channel queue with live agents.
+
+           [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Create and manage routing rules in Omni-channel](routing-rules.md)
 
 
+   - Select **Save** to save the rule.
 
+ - In the **Agents** tab, select **Add Existing User** to add agents to the work stream. Select the agents you want to add from the **Lookup Records flyout** menu and select **Add**. 
+ You can change the view and select users from other views by selecting Change View.
 
+3. Select **Save** to save the live chat work stream.
 
+Once all settings are defined, the work stream is now ready to receive conversations so that the agents can start working on them.
 
+All active work streams can be seen in the **Active Work Streams** view. To be able to use a work stream, you should activate it. To activate a work stream so that it can receive conversations, select a work stream record from the **Active Work Streams** view and select **Activate** from the command bar.
+
+You can deactivate a work stream if you do not want it to receive conversations. Select a work stream record from the **Active Work Streams** view and select **Deactivate** from the command bar.  All deactivated work streams can be seen in the **Inactive Work Streams** view. You can re-activate the work streams in the **Inactive Work Streams** view.
 
 ## CDS entity work stream 
 
-CDS entity work stream helps collect conversations from the CRM system and route them to the omni-channel ecosystem. This way, omni-channel agents can take up issues coming from CRM.  For example, cases from CRM   can be routed to omni-channel so that agents can assist customers who have opened high priority cases and need help quickly.
+CDS entity work stream helps collect conversations from the CDS system and route them to the omni-channel ecosystem. This way, omni-channel agents can take up issues coming from CDS.  For example, cases from CDS can be routed to omni-channel so that agents can assist customers who have opened high priority cases and need help quickly.
 
 > [!NOTE]
-> For this preview, CDS entity work stream can collect and route only cases from the CRM system. 
+> For this preview, CDS entity work stream can collect and route only cases from the CDS system. 
 
-The omni-channel system communicates with the CRM  with the help of **Microsoft Flow**. The omni-channel system can accept cases from CRM, only when the following steps are configured in the **Omni-channel Engagement Hub** and **Flow**:
+The omni-channel system communicates with the CDS  with the help of **Microsoft Flow**. The omni-channel system can accept cases from CDS, only when the following steps are configured in the **Omni-channel Engagement Hub** and **Flow**:
 
 #### In omni-channel
 1. Ensure that the **Stream Source** while configuring a new work stream in omni-channel is set to **CDS Entity**.
@@ -105,11 +238,20 @@ The omni-channel system communicates with the CRM  with the help of **Microsoft 
    > [!NOTE]
    > Go to the Download Center and save the file at your local machine. Provide your environment name in the custom connector name and file location from your local machine while importing and this API file and select **Continue**.
 
-4. Update the **Host** name to the environment host name.
+4. Provide the custom connector name.
 5. Select **Test**. You will get a prompt that you must create a custom connector before testing. Select **Create connector**.
 6. Once the connector is created, create a new connection by selecting **New Connection**.
 A new connection is created and selects the connection name automatically.
 7. Provide values as given in the following screenshot and test the connection by selection **Test Operation**.
+
+     - **Organization ID**. Select your organization ID.
+     - **Live work stream ID**. Select your live work stream ID.
+     - **Entity logical name**. Logical name of the CDS entity that needs to be routed
+     - **Entity set name**. Entity name of the CDS entity that needs to be routed. (Typically this ends like a plural name of the logical name)
+     - **Record ID**. Use the Dynamic Content and select the ID field
+     - **Relationship name with live work stream**. Logical name of the entity's regarding relationship name with Live conversation
+     - **Record details**. Using the Dynamic content. Select value-key-item-output.
+
 
    > [!IMPORTANT]
    > The request will fail initially with a 404 error. Test the operation until you get a 202 response. Usually it takes around 15 minutes for the connection to start working.
@@ -122,8 +264,8 @@ A new connection is created and selects the connection name automatically.
 13. Select **New Step > Add an action**. Search for your custom connector and select the action.
 14. Provide the values as given in the following screenshot:
 
-    - **Entity Logical Name**. Logical name of the CRM entity that needs to be routed.
-    - **Entity Set Name**. Entity name of the CRM entity that needs to be routed. (Typically this ends like a plural name of the logical name)
+    - **Entity Logical Name**. Logical name of the CDS entity that needs to be routed.
+    - **Entity Set Name**. Entity name of the CDS entity that needs to be routed. (Typically this ends like a plural name of the logical name)
     - **Record Id**. Use the Dynamic Content and select the ID field.
     - **Name of Entity Relationship With**. The logical name of the entity's regarding relationship name with Live conversation (for Incident *incident_msdyn_ocliveworkitems*).
     - **Record Details**. Using the Dynamic content. Select value-key-item-output.
@@ -133,11 +275,11 @@ A new connection is created and selects the connection name automatically.
 15. After all the information is complete, select Test to test the flow. Select I’ll perform the trigger action and save the flow.
 To test the flow with the entity:
 
-    A. Create a new record for the entity you have chosen to be routed. </br>
-    B. Keep the record form filled in CRM. As soon as you click on **Save & test**, go to CRM and save the record immediately (else the test operation may miss the record). 
+    1. Create a new record for the entity you have chosen to be routed. </br>
+    2. Keep the record form filled in CDS. As soon as you click on **Save & test**, go to CDS and save the record immediately (else the test operation may miss the record). 
 On successful run you should see the screen below.
 
-The flow is successfully created, and you can now route CRM entities to the omni-channel system using Flow.
+The set up is created successfully, and you can now route CDS entities to the omni-channel system using Flow.
 
 
 
