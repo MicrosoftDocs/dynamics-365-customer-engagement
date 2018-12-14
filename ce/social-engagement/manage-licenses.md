@@ -2,7 +2,7 @@
 title: "Manage licenses for Social Engagement | Microsoft Docs"
 description: "Learn how to manage user licenses for users of Social Engagement."
 keywords: licenses, Social Engagement, Office 365, user license, assign, remove
-ms.date: 09/19/2018
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -22,11 +22,6 @@ search.app:
   - D365CE
   - D365SE
 ---
-
-
-<!--be sure to update publication date-->
-
-
 
 # Manage licenses for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 

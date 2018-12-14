@@ -2,7 +2,7 @@
 title: "Analytics for sentiment in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on sentiment and tonality in Social Engagement."
 keywords: sentiment, natural language processing, tonality, analytics, sentiment analysis
-ms.date: 03/02/2018
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
