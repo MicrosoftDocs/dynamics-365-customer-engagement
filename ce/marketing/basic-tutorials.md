@@ -37,7 +37,7 @@ The tutorials in this section provide exercises that illustrate the core functio
 
 - [Create a simple customer journey](create-simple-customer-journey.md) that sends a marketing email to all members of a segment and records interactions such as message opens and link clicks.
 
-- [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+- [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 - [Create an automated customer journey](create-simple-customer-journey.md) that combines email messaging, landing pages, and multiple paths managed by interactive triggers.
 
