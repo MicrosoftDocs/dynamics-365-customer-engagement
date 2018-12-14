@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
 ms.custom: 
 ---
-# Presence and Custom presence
+# Configure Presence and Custom Presence
 
 Presence status is an indication of the agent’s availability or status. Presence status stores, updates, and maintains the real-time status for all agents with respect to their availability and capacity utilization. With the help of effectively configured presence status, you can connect your customers with agents in real-time for all live work items like live chats, and all asynchronous work items like cases, leads, and more.
 

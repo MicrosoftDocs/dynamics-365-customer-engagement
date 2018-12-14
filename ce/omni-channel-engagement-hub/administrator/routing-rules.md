@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: ae408147-bb2c-4016-8ae7-cf06eb12ceb0
 ms.custom: 
 ---
-# Omni-channel routing rules
+# Create and manage routing rules in Omni-channel
 
 Routing rules in Omni-channel Engagement Hub unify work items from multiple work streams and distribute them to the right agents so that customers are assisted quickly. They are an entry point to the routing and work distribution eco-system. As soon as the routing rules are invoked, they evaluate the destination of an incoming work item and route it to the correct queue.
 

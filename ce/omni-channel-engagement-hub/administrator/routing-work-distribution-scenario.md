@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: c0a1d153-e907-4bd7-bab6-09e270ed8833
 ms.custom: 
 ---
-# Understand how routing & work distribution works 
+# Understand how routing & work distribution works
 
 The complete working of routing and work distribution mechanism can be explained with the help of the following scenario:
 

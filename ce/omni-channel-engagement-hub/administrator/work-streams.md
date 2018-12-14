@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e
 ms.custom: 
 ---
-# Work streams
+# Create and manage work streams
 
 Work streams define the settings and properties for a specific source or originating point from where the customer requests or queries can come. For example, if the requests are originating from two chat portals, you can create two different work streams for each of them. If work items are created as case records, you can create a separate work stream for the same.
 

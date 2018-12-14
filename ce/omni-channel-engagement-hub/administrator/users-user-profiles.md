@@ -1,5 +1,5 @@
 ---
-title: "Provision Omni-channel Engagement Hub"
+title: "Know presence and custom presence"
 description: 
 keywords: ""
 author: anjgupta
@@ -9,8 +9,8 @@ applies_to:
 ms.date: 11/13/2018
 ms.service: 
 ms.topic: article
-ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
+ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
 ms.custom: 
 ---
 
-# Provision and License Omni-channel Engagement Hub
+# Create and manage users and user profiles
