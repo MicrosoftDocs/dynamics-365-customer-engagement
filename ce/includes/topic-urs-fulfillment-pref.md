@@ -38,7 +38,7 @@ To set up intervals, you need to:
 1. Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**. Enter a **name** and save.
 
 > [!div class="mx-imgBorder"]
->![Screenshot of ](../common-scheduler/media/scheduling-fulfillment-navbar.png)
+>![Screenshot of navigation bar](../common-scheduler/media/scheduling-fulfillment-navbar.png)
 
 2. Navigate to the **Interval** tab.
 
