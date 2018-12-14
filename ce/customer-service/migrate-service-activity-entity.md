@@ -1,6 +1,6 @@
 ---
-title: "Migrate Service Activity entity(Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Service Activity is not directly available in the new scheduling experience. Read how you can migrate Service activity to the new scheduling experience."
+title: "Migrate Service Activity entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Service Activity is not directly available in the new scheduling experience. Read how you can migrate Service Activity to the new scheduling experience."
 ms.custom: ""
 ms.date: 11/27/2018
 ms.reviewer: ""
@@ -15,33 +15,34 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
+
 # Migrate Service Activity entity
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Service Activity entity in Service Scheduling cannot be migrated through UI. We can use Dynamics 365 Web API or Organization Service to do this. This topic shows how we can using Dynamics 365 Organization Service to migrate the Service Activity entity.
+The Service Activity entity in Service Scheduling can't be migrated through the UI. You can use Dynamics 365 Web API or Organization Service to do this. This topic shows how to use Dynamics 365 Organization Service to migrate the Service Activity entity.
 
-The below sample performs the following actions:
+This sample performs the following actions:
 
 <a href="#bkmk_retrieve"><b>Fetch Service Activity entity record</b></a><br />
-It fetches Service Activity entity records from `serviceappointment` table.<br />
+It fetches Service Activity entity records from the `serviceappointment` table.<br />
 
 <a href="#bkmk_requirementmapping"><b>Create a new Requirement group by cloning or copying the existing Selection Rules</b></a><br />
 Then, for each of the retrieved `serviceappointment` records, we create a mapping between `newRequirementGroup` and `existingSelectionRule`.<br />
 
-<a href="#bkmk_resourcemapping"><b>Create new Resource Requirement record by copying or cloning the existing Selection Rules</b></a><br />
-As we did in the above step, similarly, we will create a mapping between `newResourceRequirement` and `existingSelectionRule`.<br />
+<a href="#bkmk_resourcemapping"><b>Create a new Resource Requirement record by copying or cloning the existing Selection Rules</b></a><br />
+As in the previous step, here we create a mapping between `newResourceRequirement` and `existingSelectionRule`.<br />
 
 <a href="#bkmk_newbookableresourcerecord"><b>Create a new Bookable Resource entity record for each Activity Party entity record</b></a><br />
 We now create a new `BookableResourceBooking` entity record for each `ActivityParty` entity record, and map their attributes.<br />
 
-The complete sample for migrating Service Activity entity records, can be found here [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
+The complete sample for migrating Service Activity entity records can be found here [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
 <a name="bkmk_retrieve"></a>
 
 ## Fetch Service Activity entity records
 
-The below code snippet shows how we can fetch Service Activity entity records from `serviceappointment` table. 
+The following code snippet shows how we can fetch Service Activity entity records from `serviceappointment` table. 
 
 ```csharp
 QueryExpression serviceActivityQuery = new QueryExpression("serviceappointment");
@@ -53,7 +54,7 @@ serviceActivityCol = _serviceProxy.RetrieveMultiple(serviceActivityQuery);
 
 <a name="bkmk_requirementmapping"></a>
 
-## Create new Requirement Group record by cloning or copying the existing Requirement Group record
+## Create a new Requirement Group record by cloning or copying the existing Requirement Group record
 
 ```csharp
 Guid serviceID = entity.GetAttributeValue<EntityReference>("serviceid").Id;
@@ -88,9 +89,9 @@ Guid _newRequirementGroupID = _service.Create(newRequirementGroup);
 ```
 <a name="bkmk_resourcemapping"></a>
 
-## Create new Resource Requirement record by copying or cloning the existing Selection Rules
+## Create a new Resource Requirement record by copying or cloning the existing Selection Rules
 
-As we created a mapping between `newRequirementGroup` and `existingSelectionRule` in the above code snippet, similarly, we will create a mapping between `newResourceRequirement` and `existingResourceRequirement`, that are records of entity `msdyn_resourcerequirement`.
+As in the previous code snippet, where we created a mapping between `newRequirementGroup` and `existingSelectionRule`, here we will create a mapping between `newResourceRequirement` and `existingResourceRequirement` that are records of entity `msdyn_resourcerequirement`.
 
 ```csharp
 QueryExpression existingResourceRequirementQuery = new QueryExpression("msdyn_resourcerequirement");
@@ -117,7 +118,7 @@ foreach (Entity entityRR in existingResourceRequirement.Entities)
 ```
 <a name="bkmk_newbookableresourcerecord"></a>
 
-## Create new BookableResourceBooking entity record for each ActivityParty entity record
+## Create a new BookableResourceBooking entity record for each ActivityParty entity record
 
 ```csharp
 // Create new Bookable Resource booking for each ActivityParty entity record
@@ -143,7 +144,7 @@ foreach (Entity entityRR in activityPartyCol.Entities)
 
 ```
 
-## See Also
+## See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)<br />
 [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)

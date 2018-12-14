@@ -1,6 +1,6 @@
 ---
-title: "Sample: Migrate Service Activity entity(Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Service Activity is not directly available in the new scheduling experience. Read how you can migrate Service activity to the new scheduling experience."
+title: "Sample: Migrate Service Activity entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Service Activity is not directly available in the new scheduling experience. Read how you can migrate Service Activity to the new scheduling experience."
 ms.custom: 
 ms.date: 11/20/2018
 ms.reviewer: 
@@ -29,12 +29,12 @@ manager: shujoshi
 
 ### Demonstrates
 
-Service Activity entity in Service Scheduling cannot be migrated through UI. This sample shows how to migrate Service Activity entity to the new scheduling experience using Organization Service.
+The Service Activity entity in Service Scheduling can't be migrated through the UI. This sample shows how to migrate the Service Activity entity to the new scheduling experience using Organization Service.
 
 ### Example
 
 > [!NOTE]
-> This sample demonstrates a basic example for migrating Service Activity entity. For this sample to work in your instance, you will have to modify the below code as per your data.
+> This sample demonstrates a basic example for migrating the Service Activity entity. For this sample to work in your instance, you will have to modify the following code as per your data.
 
 ```csharp
 using Microsoft.Xrm.Sdk;
