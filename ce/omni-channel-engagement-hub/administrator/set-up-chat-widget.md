@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
+ms.date: 12/14/2018
 ms.service: 
 ms.topic: article
 ms.assetid: 983e691f-0ee2-4e30-ba70-7e534c762611
@@ -16,7 +16,7 @@ ms.custom:
 
 As an administrator, you can set up and configure a chat widget for your website to engage with your customers.
 
-## Add a chat engagement
+## Add a chat widget
 
 1.  Sign in to Omni-channel Engagement Hub.
 
@@ -30,26 +30,27 @@ As an administrator, you can set up and configure a chat widget for your website
 
 6.  Under the **Chat settings** tab, select **Add** from **Chat engagements** section.
 
-7.  On the **New Chat Engagement** page, enter the following details:
+7.  On the **New Chat Widget** page, enter the following details:
 
-    1. **Basic details** tab
+    a. **Basic details** tab
 
-        1.  Under the **General information** section, enter name of the chat engagement. Save the record to enter more details.
+        i.  Under the **General information** section, enter name of the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. More information on setting up authentication settings: [Set up authentication settings](#set-up-authentication-settings).
 
-        2.  Under the **Location information** section, select **Add** to specify the website domain where the chat widget needs to be displayed.
+        ii.  Under the **Widget location** section, select **Add** to specify the website domain where the chat widget needs to be displayed. If no domain is specified,  the chat widget is displayed in all configured domains. The domain format should not include the protocol (for example, http, https).
 
-        3.  Copy the value from the **Code snippet** section and embed it into the HTML source of your website.
+        iii.  Copy the value from the **Code snippet** section and embed it into the HTML source of your website.
 
-![configure basic details of a chat widget](media/oc-chat-widget-basic-details-tab.png "Configure basic details of a chat widget")
+            > [!div class=mx-imgBorder]
+            > ![configure basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure basic details of a chat widget")
 
-1. **Design** tab: Use this tab to specify the theme color, logo, title, subtitle, and position of chat widget.
+    b. **Design** tab: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of chat widget. More information on setting up operating hours: [Set up operating hours](#set-up-operating-hours).
 
- ![configure design of a chat widget](media/oc-chat-widget-design-tab.png "Configure design of a chat widget")  
+        > [!div class=mx-imgBorder]
+        > ![configure design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure design of a chat widget")  
+    c. **Survey** tab: Use this tab to set up a pre-chat survey. This survey is displayed to a user before initiating a conversation. More information: [Set up a pre-chat survey](#set-up-a-pre-chat-survey)
 
-2. **Survey** tab: Use this tab to set up a pre-chat survey. This survey is displayed to a user before initiating a conversation. More information: [Set up a pre-chat survey](#set-up-a-pre-chat-survey)  
-
- ![configure survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")  
-
+        > [!div class=mx-imgBorder]
+        > ![configure survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")  
 ## Set up a pre-chat survey
 
 You can configure your chat engagement to display a survey for a user to respond before starting the conversation.
@@ -60,7 +61,7 @@ You can configure your chat engagement to display a survey for a user to respond
 
 3.  Select the work stream under which your widget is created.
 
-4.  Under the **Chat settings** tab, select the chat engagement name.
+4.  Under the **Chat settings** tab, select the chat widget name.
 
 5.  Go to the **Survey** tab.
 
@@ -70,25 +71,28 @@ You can configure your chat engagement to display a survey for a user to respond
 
  **Note**: You can add only five questions to the pre-chat survey.
 
-8.  In the **Quick Create: Chat Question Sequence** pane, select a question from the question library and specify whether it is mandatory or optional.
+8.  In the **Quick Create: Survey Question Sequence** pane, select a question from the question library and specify whether it is mandatory or optional.
 
  **Note**: Validations in pre-chat survey are not supported in this preview.
 
 9.  Select **Save**.
 
- ![add a question to the pre-chat survey](media/oc-add-chat-question.png "Add a question to the pre-chat survey")  
+    > [!div class=mx-imgBorder]
+    > ![add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")  
 
 10. The questions are added to the pre-chat survey.
 
- ![configure survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")  
+    > [!div class=mx-imgBorder]
+    > ![configure survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")  
 
 11. To change the order of a question, select the question, and then select **Move up** or **Move down**.
 
- ![change order of a question in a pre-chat survey](media/oc-change-question-order.png "Change order of a question in a pre-chat survey")  
+    > [!div class=mx-imgBorder]
+    > ![change order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change order of a question in a pre-chat survey")  
 
 ## Set up a question library
 
-You can create questions in a question library, which will be used to create pre-chat surveys for a chat engagement. All chat engagements that are created within a work stream can use questions from the question library.
+You can create questions in a question library, which will be used to create pre-chat surveys for a chat widget. All chat widgets that are created within a work stream can use questions from the question library.
 
 1.  Sign in to Omni-channel Engagement Hub.
 
@@ -96,15 +100,16 @@ You can create questions in a question library, which will be used to create pre
 
 3.  Select the work stream in which you need to create a question library.
 
-4.  Under the **Chat questions library** tab, select **Add question**.
+4.  Under the **Survey questions library** tab, select **Add question**.
 
- ![add a question to the question library](media/oc-add-question.png "Add a question to the question library")  
+    > [!div class=mx-imgBorder]
+    > ![add a question to the question library](../media/oc-add-question.png "Add a question to the question library")  
 
-5.  On the **New Chat Question** page, enter the following values:
+5.  On the **New Survey Question** page, enter the following values:
 
-    1. **Question name**: Name of the question. The name must be unique across work stream.
+    a. **Question name**: Name of the question. The name must be unique across work stream.
 
-    2. **Answer type**: Type of the answer required from a user. You can select either of the following:
+    b. **Answer type**: Type of the answer required from a user. You can select either of the following:
 
         - **Single line**: Allows a user to enter a single line of text.
 
@@ -112,43 +117,53 @@ You can create questions in a question library, which will be used to create pre
 
         - **Option set**: Allows a user to select an option from the drop-down list. If you select this option, you must first save the question to specify the answer options.
 
- ![question with answer type as option set](media/oc-option-set-answer-type.png "Question with answer type as Option set")  
+        > [!div class=mx-imgBorder]
+        > ![question with answer type as option set](../media/oc-option-set-answer-type.png "Question with answer type as Option set")  
 
-    3. **Question text**: Text of the question.
+    c. **Question text**: Text of the question.
 
-    4. **Help text**: Help text to be displayed to a user as a watermark.
+    d. **Help text**: Help text to be displayed to a user as a watermark.
 
- ![add help text to a question](media/oc-question-help-text.png "Add help text to a question")  
+        > [!div class=mx-imgBorder]
+        > ![add help text to a question](../media/oc-question-help-text.png "Add help text to a question")  
 
 6.  Select **Save**.
 
-## Set up quick responses
+## Set up quick replies
 
-Quick responses are the template messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send Quick responses in the chat](#send-quick-responses-in-the-chat).  
+Quick replies are the template messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/customer360-overview-existing-challenges.md#send-quick-replies-in-the-chat).  
 
 1.  Sign in to Omni-channel Engagement Hub.
 
 2.  Go to **Administration** &gt; **Quick Responses**.
 
-3.  To add a new quick response, select **New**.
+3.  To add a new quick reply, select **New**.
 
-4.  To edit an existing quick response, select the quick response name.
+4.  To edit an existing quick reply, select the quick reply name.
 
 5.  Enter or modify the following values:
 
-    1. **Title**: Title of the message.
+    a. **Title**: Title of the message.
 
-    2. **Locale**: Locale of the message.
+    b. **Locale**: Locale of the message.
 
-**Note**: This field is not editable in this preview.
+        > [!NOTE]
+        > This field is not editable in this preview.
 
-1. **Message**: Text of the message.
+    c. **Message**: Text of the message.
 
- **Note**: This field supports slugs, but the slug editor is not available in this preview.
+        > [!NOTE]
+        > This field supports slugs, but the slug editor is not available in this preview.
 
- ![create a quick reply](media/oc-create-a-quick-reply.png "Create a quick reply")  
+    ![create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
 
-<!-- -->
+6.  Select **Save**.
 
-1.  Select **Save**.
+## Set up operating hours
+
+You can create operating hours to set the hours during which your organization’s customer support team is active and available to serve customers. This helps your customers and organization to work together and resolve an issue. After you create an operating hour record, you must add it in the **Design** tab of the appropriate chat widget to make it function.
+
+> [!NOTE]
+> The chat widget will be hidden during non-operating hours.
+
 
