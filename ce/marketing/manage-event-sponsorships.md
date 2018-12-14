@@ -2,7 +2,7 @@
 title: "Record and publicize sponsorship details (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "How to register sponsors and sponsorable articles in Dynamics 365 for Marketing"
 keywords: events; event management; sponsor; sponsorship; tchotchke
-ms.date: 12/01/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

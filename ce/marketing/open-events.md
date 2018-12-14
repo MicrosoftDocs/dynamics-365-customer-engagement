@@ -1,7 +1,7 @@
 ---
 title: "Open the event management work area (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Explains how to access event-management features in Dynamics 365 for Marketing"
-ms.date: 12/01/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
