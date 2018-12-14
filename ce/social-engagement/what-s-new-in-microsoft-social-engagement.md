@@ -89,7 +89,7 @@ If a user decides to delete their Disqus profile, all related comments and threa
 
 With this release, we're following [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 changes from August 1, 2018: [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] stops supporting engagement actions for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles. Interaction tokens for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] users were removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and you won’t be able to add them anymore.
 
-Good to know: This change doesn't affect the way you [work with social profiles](manage-social-profiles.md) for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].You still need to create a **Facebook Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
+Good to know: This change doesn't affect the way you [work with social profiles](manage-social-profiles.md) for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You still need to create a **Facebook Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
 

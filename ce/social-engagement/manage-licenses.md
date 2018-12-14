@@ -23,6 +23,11 @@ search.app:
   - D365SE
 ---
 
+
+<!--be sure to update publication date-->
+
+
+
 # Manage licenses for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
@@ -57,7 +62,7 @@ It takes a few minutes to complete the provisioning process before you can start
 
 Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
 
-1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Office 365 admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
@@ -69,10 +74,11 @@ Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 
 When you [create an Office 365 user account](http://go.microsoft.com/fwlink/p/?LinkId=526143), you normally [assign a license](http://go.microsoft.com/fwlink/p/?LinkId=390651) to users so that they can use certain features. 
 
-When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license you've assigned to the user.  
+When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license you've assigned to the user. 
+
 Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain. It takes up to 30 days to reflect the removal of a license in the list of users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Office 365 admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
@@ -101,7 +107,7 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
 
-### See Also
+### See also
 
 [Get started with Social Engagement](get-started.md)   
 [Assign permissions and user roles](assign-user-roles.md)   
