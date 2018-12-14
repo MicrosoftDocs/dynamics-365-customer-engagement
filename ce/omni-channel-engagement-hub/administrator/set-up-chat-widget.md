@@ -45,12 +45,14 @@ As an administrator, you can set up and configure a chat widget for your website
 
     b. **Design** tab: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of chat widget. More information on setting up operating hours: [Set up operating hours](#set-up-operating-hours).
 
-        > [!div class=mx-imgBorder]
-        > ![configure design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure design of a chat widget")  
+       > [!div class=mx-imgBorder]
+       > ![configure design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure design of a chat widget")
+
     c. **Survey** tab: Use this tab to set up a pre-chat survey. This survey is displayed to a user before initiating a conversation. More information: [Set up a pre-chat survey](#set-up-a-pre-chat-survey)
 
-        > [!div class=mx-imgBorder]
-        > ![configure survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")  
+       > [!div class=mx-imgBorder]
+       > ![configure survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")
+
 ## Set up a pre-chat survey
 
 You can configure your chat engagement to display a survey for a user to respond before starting the conversation.
@@ -117,8 +119,8 @@ You can create questions in a question library, which will be used to create pre
 
        - **Option set**: Allows a user to select an option from the drop-down list. If you select this option, you must first save the question to specify the answer options.
 
-        > [!div class=mx-imgBorder]
-        > ![question with answer type as option set](../media/oc-option-set-answer-type.png "Question with answer type as Option set")  
+         > [!div class=mx-imgBorder]
+         > ![question with answer type as option set](../media/oc-option-set-answer-type.png "Question with answer type as Option set")  
 
     c. **Question text**: Text of the question.
 
