@@ -1,20 +1,20 @@
 ---
-title: "Social entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Social entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn about social entites that offers social Activity to track social posts, social profile to track a contact’s presence in social media, and convert the social posts to case"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 77353550-3661-407b-8ca7-a0619f8068a0
 caps.latest.revision: 13
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

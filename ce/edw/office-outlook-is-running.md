@@ -1,11 +1,11 @@
 ---
 title: "Office Outlook is running | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 2a497777-17f6-4301-a157-dc901b312103
 caps.latest.revision: 4
 robots: noindex,nofollow

@@ -1,19 +1,19 @@
 ---
-title: "Manage Options for Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Learn how to change the global settings in Unified Service Desk for Dynamics 365 Customer Engagement."
-keywords: ""
+title: "Manage Options for Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Learn how to change the global settings in Unified Service Desk for Dynamics 365 for Customer Engagement apps."
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: be4effc4-a2a8-414b-87a1-a8b303160bac
 author: kabala123
 ms.author: kabala
@@ -35,7 +35,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 ## Manage a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] option  
  To manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] options:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -50,7 +50,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
    |           Option Name            |  Value and Description  |
    |----------------------------------|--------------------------|
    |     `HideSessionCloseButton`     | Set the value to **true** to hide the close button on the session tabs. If you use this option, you should plan to provide a button or some other method to close a session. You may call the **CloseSession** action on the **Session Tabs** hosted control to close the session. |
-   |        `CRM UI Base Url`         | If the URL for accessing the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web services is different than the URL for accessing the web UI, you may need to use this option to specify an override. When a user logs in, the system uses the discovery server to determine the web services endpoints but can only imply the URL used for the UI. This option can be used to specify what the URL should be when accessing the GUI.|
+   |        `CRM UI Base Url`         | If the URL for accessing the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps web services is different than the URL for accessing the web UI, you may need to use this option to specify an override. When a user logs in, the system uses the discovery server to determine the web services endpoints but can only imply the URL used for the UI. This option can be used to specify what the URL should be when accessing the GUI.|
    |     `AutoUseExternalBrowser`     | If this is set to **true**, the system will use the embedded WPF `WebBrowser` control until the memory reaches a threshold, and then it will switch to launching the browser in an iexplorer.exe process and attach it to the window. **Warning:**  This option is known to have some issues with security. If you want to activate this mode, it should be thoroughly tested in the target environment. This mode is considered unsupported. |
    |          `MemoryLimit`           | Specify the value in bytes. This specifies the memory limit that the process can use (working set), before the application refuses to allocate additional browser instances. If this value is specified:<br /><br /> **1.**  The **OutOfMemoryThreshold** option will be ignored.<br />**2.**  If the **AutoUseExternalBrowser** option is true, the value specified in the **MemoryLimit** option will be the memory limit that will trigger the application to launch the browser externally. |
    |      `OutOfMemoryThreshold`      | This is a threshold value beyond which the application will refuse to allocate additional browser instances. This value is specified in bytes and is subtracted from the maxworkingset value to determine how much memory is allowed for the process. If the **AutoUseExternalBrowser** option is true, this will be the memory limit that will trigger the application to launch the browser externally.|
@@ -79,7 +79,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
    |           Option Name            |  Value and Description  |
    |----------------------------------|-------------------------|
    |     `HideSessionCloseButton`     | Set the value to **true** to hide the close button on the session tabs. If you use this option, you should plan to provide a button or some other method to close a session. You may call the **CloseSession** action on the **Session Tabs** hosted control to close the session. |
-   |        `CRM UI Base Url`         | If the URL for accessing the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web services is different than the URL for accessing the web UI, you may need to use this option to specify an override. When a user logs in, the system uses the discovery server to determine the web services endpoints but can only imply the URL used for the UI. This option can be used to specify what the URL should be when accessing the GUI.|
+   |        `CRM UI Base Url`         | If the URL for accessing the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps web services is different than the URL for accessing the web UI, you may need to use this option to specify an override. When a user logs in, the system uses the discovery server to determine the web services endpoints but can only imply the URL used for the UI. This option can be used to specify what the URL should be when accessing the GUI.|
    |     `AutoUseExternalBrowser`     | If this is set to **true**, the system will use the embedded WPF `WebBrowser` control until the memory reaches a threshold, and then it will switch to launching the browser in an iexplorer.exe process and attach it to the window. **Warning:**  This option is known to have some issues with security. If you want to activate this mode, it should be thoroughly tested in the target environment. This mode is considered unsupported. |
    |          `MemoryLimit`           | Specify the value in bytes. This specifies the memory limit that the process can use (working set), before the application refuses to allocate additional browser instances. If this value is specified:<br /><br /> **1.**  The **OutOfMemoryThreshold** option will be ignored.<br />**2.**  If the **AutoUseExternalBrowser** option is true, the value specified in the **MemoryLimit** option will be the memory limit that will trigger the application to launch the browser externally. |
    |      `OutOfMemoryThreshold`      | This is a threshold value beyond which the application will refuse to allocate additional browser instances. This value is specified in bytes and is subtracted from the maxworkingset value to determine how much memory is allowed for the process. If the **AutoUseExternalBrowser** option is true, this will be the memory limit that will trigger the application to launch the browser externally.|
@@ -101,7 +101,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
    |     `TotalRecordCountLimit`      | This value is for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to determine the batch size while fetching entity records from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. The default value of the `TotalRecordCountLimit` in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and in MSCRM\_CONFIG database is 5000. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure Unified Service Desk entities](../understand-unified-service-desk-concepts.md)</br>**Note:** <br> **1.** `TotalRecordCountLimit` value must be equal to the value in MSCRM\_CONFIG database.<br>**2.** You must not change the default value unless the MSCRM\_CONFIG database administrator changes the value. |
    |     `HideConfirmationDialog`      | The close confirmation window prevents the accidental closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. By default the option is enabled, and to disable the option, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the `HideConfirmationDialog` option in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and set the value to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window](../admin/configure-close-confirmation-window.md).|
    |     `ShowNPSDialog`      | This option shows the feedback window to provide score and comments, and send it Microsoft. By default the option is enabled, and to disable the option, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the `ShowNPSDialog` option in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and set the value to **false**. |
-   | `EdgeSingleProcess` | This option combines all the processes with different domains in a single process at the run-time. Set **True** to enable this option. </br>**Note:** <br> If you set the value as **False** or leave the field blank, the option will be disabled. <br><br> More informaiton: [Edge process](../edge-process.md)|
+   | `EdgeSingleProcess` | This option combines all the processes with different domains in a single process at the run-time. Set **True** to enable this option. </br>**Note:** <br> If you set the value as **False** or leave the field blank, the option will be disabled. <br><br> More information: [Edge process](../edge-process.md)|
    |            **Others**            | This option allows you to type one of the global options listed in this table that does not appear in the **Global Options** list. |
 
 ::: moniker-end

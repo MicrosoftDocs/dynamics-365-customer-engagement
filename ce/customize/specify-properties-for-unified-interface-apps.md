@@ -1,16 +1,16 @@
 ---
 title: "Specify properties for Unified Interface apps in PowerApps | MicrosoftDocs"
 description: "Learn how to configure the grid control for your app"
-keywords: ""
+keywords: 
 ms.date: 04/24/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 3ecea4a7-0d18-4ccd-9609-3a62179e9e1b
 ms.author: matp
 manager: kvivek

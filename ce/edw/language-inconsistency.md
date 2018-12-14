@@ -1,11 +1,11 @@
 ---
 title: "Language inconsistency | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 59999e25-58d1-4fd9-a09f-8c7d574045be
 caps.latest.revision: 3
 robots: noindex,nofollow

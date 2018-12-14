@@ -1,16 +1,16 @@
 ---
 title: "Manage app properties in the app designer | MicrosoftDocs"
 description: "Learn how to manage the properties for your app"
-keywords: ""
+keywords: 
 ms.date: 12/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: e773e60f-0211-4c4b-a1af-663be4997629
 ms.author: matp
 manager: kvivek

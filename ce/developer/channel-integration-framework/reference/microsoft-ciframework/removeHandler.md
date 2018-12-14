@@ -2,7 +2,7 @@
 title: "removeHandler (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/12/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: ECD8D03B-B16F-467F-9370-BB574F3E4F9D
 author: kabala123
 ms.author: kabala
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # removeHandler (CIF JavaScript API Reference)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)] 
 
@@ -33,7 +31,7 @@ manager: shujoshi
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | eventName | string | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onclicktoact:</b> The event is invoked when the outbound communication (ClickToAct) enabled filed is clicked.</li> <li><b>onmodechanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onsizechanged:</b>The event is invoked when the panel size is manually changed by dragging </li><li><b>onpagenavigate:</b>The event is triggered before a navigation event occurs on the main page </li><li><b>onsendkbarticle: </b> The event is invoked when the user clicks the send button on the KB control.</li></ul>  |
-| handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events trigger. |
+| handlerFunction | Function | Yes | The handler function that is to removed. |
 
 
 ## Related topics

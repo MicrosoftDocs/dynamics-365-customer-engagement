@@ -1,16 +1,16 @@
 ---
 title: "Use IFRAME and web resource controls on a form | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/18/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 1d1b53cb-bfee-4fba-9bea-ea9e6e31309d
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "faisalmo"
+author: JimDaly
+ms.author: jdaly
+manager: faisalmo
 search.audienceType: 
   - developer
 search.app: 

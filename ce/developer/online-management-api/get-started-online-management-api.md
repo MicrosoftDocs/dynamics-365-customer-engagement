@@ -1,13 +1,13 @@
 ---
-title: "Get started with Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Get started with Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Provides basic information to help you get started with the Online Admin API for Customer Engagement."
 ms.date: 11/16/2018
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 ms.assetid: c292c148-01f0-41f6-a2fe-7ed05a01a733
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 

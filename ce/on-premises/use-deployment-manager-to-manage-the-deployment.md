@@ -1,14 +1,14 @@
 ---
 title: "Use Deployment Manager to manage the deployment | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 445ac6a6-f193-444b-ac2f-620ef114d405
 caps.latest.revision: 10
 author: Mattp123

@@ -1,11 +1,11 @@
 ---
 title: "The organization base language does not match the server base language | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: a94c8e32-c2ec-414a-8a6a-66d2ce9e0b94
 caps.latest.revision: 2
 robots: noindex,nofollow

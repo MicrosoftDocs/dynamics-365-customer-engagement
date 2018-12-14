@@ -1,20 +1,20 @@
 ---
-title: "Server-side synchronization isn't working for your mailbox for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Server-side synchronization isn't working for your mailbox for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: b1fac4a8-3e26-4c0a-80ef-834f3469d42a
 caps.latest.revision: 7
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
+You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)  
   
  **For Admins**  
   

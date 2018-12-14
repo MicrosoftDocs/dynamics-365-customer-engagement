@@ -1,11 +1,11 @@
 ---
 title: "Microsoft SQL Server language identifier is not valid | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 63057338-b2a1-4acb-9413-11975281472b
 caps.latest.revision: 7
 robots: noindex,nofollow

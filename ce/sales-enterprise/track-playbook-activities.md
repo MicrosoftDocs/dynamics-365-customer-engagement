@@ -1,16 +1,16 @@
 ---
 title: "Track playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-keywords: "playbook, activities, track, progress"
+keywords: playbook, activities, track, progress
 ms.date: 10/16/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
-  - "dyn365-sales"
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 7727c370-1c75-40e9-9319-250994f61bec
 author: shubhadaj
 ms.author: shujoshi

@@ -1,19 +1,18 @@
 ---
 title: "Receive IoT alerts in Connected Field Service from Azure IoT Central | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: activate-fs-mobile-app-license
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shellyhaverkamp"
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+ms.author: vihuang
+ms.reviewer: krbjoran
 search.audienceType: 
   - admin
   - customizer
@@ -80,7 +79,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
     b. Set IoT rule as the one you created earlier. In our suggested example, it would be: "Cash drawer level is high."
 
-    c. Select your Dynamics 365 Organization name.
+    c. Select your Dynamics 365 for Customer Engagement Organization name.
 
     d. Set Entity Name to "IoT Alerts."
 
@@ -91,7 +90,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
     g. Save the Flow.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow fields for IoT Central and Dynamics 365](media/iot-central-alerts-9.png)
+> ![Screenshot of the Flow fields for IoT Central and Dynamics 365 for Customer Engagement](media/iot-central-alerts-9.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced fields, highlighting Alert Type Label](media/iot-central-alerts-10.png)
@@ -106,7 +105,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ## See the results
 
-Once you've saved your Flow, log in to Dynamics 365 for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+Once you've saved your Flow, log in to Dynamics 365 for Customer Engagement for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)

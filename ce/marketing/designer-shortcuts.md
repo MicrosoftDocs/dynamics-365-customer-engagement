@@ -1,7 +1,7 @@
 ---
 title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
-keywords: "accessibility; keyboard shortcuts"
+keywords: accessibility; keyboard shortcuts
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
 author: kamaybac
 ms.author: kamaybac
@@ -32,10 +32,10 @@ search.app:
 
 ## General accessibility for Customer Engagement applications
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement applications. For details, see the following help topics:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For details, see the following help topics:
 
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
-- [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
+- [Use keyboard shortcuts in Dynamics 365 for Customer Engagement applications](../basics/keyboard-shortcuts.md)
 
 ## Accessibility and keyboard shortcuts for content designers
 
