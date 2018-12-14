@@ -31,7 +31,7 @@ search.app:
 This section provides information on how you can work with the hosted controls, [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions, action calls, and events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 ## In This Section  
- [Select a hosting method for hosted controls](../unified-service-desk/select-a-hosting-method-for-your-controls.md)  
+ [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md)  
   
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
   

@@ -34,7 +34,18 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ::: moniker range="dynamics-usd-4"
 
-<a name="Release_4_0"></a>   
+<a name="Release_4_1"></a> 
+
+## Release history for public preview of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], December 2018
+
+The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)].
+
+| Topic | Updates |
+|--------------|----------------|
+| [Edge process](edge-process.md) | New topic about hosting web applications using edge process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md) <br><br> **Note:** This is a preview feature. |
+
+<a name="Release_4_0"></a> 
+
 ## Release history for [!INCLUDE [pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)], August 2018
 
 The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)].

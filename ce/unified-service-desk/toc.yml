@@ -78,11 +78,11 @@
 - name: Administer and manage Unified Service Desk
   href: admin/administer-manage-unified-service-desk.md
   items:
-  - name: Support for Unified Interface Apps
+  - name: Preview feature - Support for Unified Interface Apps
     href: admin/Support-unified-interfaces-apps-usd.md
   - name: Preview feature - Unified Service Desk Administrator app
     href: admin/unified-service-desk-administrator-app.md
-  - name: Preview feature - Unified Interface Settings
+  - name: Unified Interface Settings
     href: admin/unified-interface-settings.md
   - name: Manage Options for Unified Service Desk
     href: admin/manage-options-unified-service-desk.md
@@ -205,7 +205,16 @@
       href: manage-hosted-controls-actions-events.md
       items:
       - name: 'Select a hosting method for your controls '
-        href: select-a-hosting-method-for-your-controls.md
+        href: select-hosting-method-controls.md
+        items:
+        - name: Edge process
+          href: edge-process.md
+        - name: IE process
+          href: ie-process.md
+        - name: Internal WPF
+          href: internal-wpf.md
+        - name: Web hosted application
+          href: web-hosted-application.md
       - name: Create or edit a hosted control
         href: create-edit-hosted-control.md
       - name: Add a UII action to a hosted control

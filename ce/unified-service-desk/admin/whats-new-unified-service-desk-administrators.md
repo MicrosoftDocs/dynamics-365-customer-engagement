@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for Dynamics 365 for Customer Engagement apps for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 for Customer Engagement apps"
 keywords: 
-ms.date: 08/17/2018
+ms.date: 12/17/2018
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -18,8 +18,6 @@ ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 
   - admin
@@ -28,13 +26,24 @@ search.app:
   - D365USD
 ---
 
-# New feature information for administrators
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+# What's new in Unified Service Desk for administrators
 
 ::: moniker range="dynamics-usd-4"
 
-<a name="NewIn40"></a>
+## What's new in Unified Service Desk 4.1
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+
+### Public Preview: Hosting application in Microsoft using the Edge Process hosting type
+
+Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
+Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
+
+More information: [Edge process](../edge-process.md)
+
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
 ### Web Client - Unified Interface Migration Assistant
 The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
@@ -59,7 +68,7 @@ Your service agents can use the **Unified Interface KM Control** hosted control 
 
 The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
 
-## Preview Features
+## Preview features
 
 ### Unified Service Desk Administrator App
 
@@ -71,13 +80,13 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
 ### Unified Interface Settings
 
 Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Interface Settings](../admin/unified-interface-settings.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface Settings](../admin/unified-interface-settings.md)
 
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
@@ -88,10 +97,11 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 ::: moniker range="dynamics-usd-3"
 
-<a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
 
-### Videos
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+
+#### Videos
 
 See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 
@@ -155,8 +165,8 @@ In this case, you hold the responsibility to delete the Diagnostic log files.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Comply with General Data Protection Regulation (GDPR)](../admin/comply-gdpr.md) and [Unified Service Desk data compliance under GDPR](../admin/comply-unified-service-desk-data-gdpr.md)
 
-<a name="NewIn320"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]
+
 
 ### Performance enhancement for CRM page loads
 
@@ -210,10 +220,7 @@ New UII options introduced in [!INCLUDE [pn-unified-service-desk-3-2](../../incl
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
-<a name="NewIn310"></a>  
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
-
- Administrators will be able  to leverage the following enhancements and new capabilities in this release. 
 
 ### Support for the latest
 
@@ -223,9 +230,9 @@ However, certain features in [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-c
 
 ### Security enhancements: User session and access management
 
-When agents host one or more [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] pages inside the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client using a hosted control of hosting type [IE Process](../select-a-hosting-method-for-your-controls.md#ie-process), an inactivity or session timeout warning may appear. These warnings are based on the configured inactivity and session timeouts in [!INCLUDE [pn-dyn-365-online](../../includes/pn-crm-online.md)] and agents are signed out after the expiry period. This behavior is similar with that of the [!INCLUDE [pn-dyn-365-online](../../includes/pn-crm-online.md)] web client and after the expiry period agents must sign in to the application again to resume working. System administrators can change the default warning and session timeout values from the System Settings page in [!INCLUDE [pn-dyn-365-online](../../includes/pn-crm-online.md)]. More information: [Security enhancements: User session and access management](/dynamics365/customer-engagement/admin/user-session-management)
+When agents host one or more [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] pages inside the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client using a hosted control of hosting type [IE Process](../ie-process.md), an inactivity or session timeout warning may appear. These warnings are based on the configured inactivity and session timeouts in [!INCLUDE [pn-dyn-365-online](../../includes/pn-crm-online.md)] and agents are signed out after the expiry period. This behavior is similar with that of the [!INCLUDE [pn-dyn-365-online](../../includes/pn-crm-online.md)] web client and after the expiry period agents must sign in to the application again to resume working. System administrators can change the default warning and session timeout values from the System Settings page in [!INCLUDE [pn-dyn-365-online](../../includes/pn-crm-online.md)]. More information: [Security enhancements: User session and access management](/dynamics365/customer-engagement/admin/user-session-management)
 
-The inactivity timeout setting does not apply to hosted controls of hosting type [Internal WPF](../select-a-hosting-method-for-your-controls.md#internal-wpf) and the agent will not be signed out due to inactivity. However, the session timeout is still applicable and there will be no warning displayed before automatic sign out occurs due to session expiry. We recommend that you use hosted controls of type IE Process if session timeout is desired. 
+The inactivity timeout setting does not apply to hosted controls of hosting type [Internal WPF](../internal-wpf.md) and the agent will not be signed out due to inactivity. However, the session timeout is still applicable and there will be no warning displayed before automatic sign out occurs due to session expiry. We recommend that you use hosted controls of type IE Process if session timeout is desired. 
 
 > [!NOTE]
 > We recommend you keep the session timeout default of 24 hours to avoid frequent agent sign outs when hosted controls of type Internal WPF are used. 
@@ -246,7 +253,6 @@ These are the limitations:
 - **URL addressability in business apps**:  Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: “https://<OrgName>.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.” Unified Service Desk does not support the usage of appid values in URLs to refer to a resource. More information: [Design custom business apps by using the app designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]  
- Administrators will be able  to leverage the following enhancements and new capabilities in this release.  
 
 ### Error  diagnostics reporting settings moved to Audit & Diagnostics Settings area  
  Previous versions maintained the error diagnostics reporting settings in the Options area of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution. With this release, to simplify configuration the error diagnostics reporting settings have been moved to the Audit & Diagnostics Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics)  

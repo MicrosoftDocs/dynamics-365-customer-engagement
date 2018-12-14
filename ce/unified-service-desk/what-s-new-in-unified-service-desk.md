@@ -1,8 +1,8 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-keywords: 
-ms.date: 08/17/2018
+keywords: ""
+ms.date: 12/17/2018
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -18,8 +18,6 @@ ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
@@ -30,14 +28,21 @@ search.app:
 ---
 
 # What's new in Unified Service Desk for developers and customizers
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
 
 ::: moniker range="dynamics-usd-4"
 
-<a name="NewIn40"></a>
+##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
+
+### Public Preview: Hosting application in Microsoft using the Edge Process hosting type
+
+Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
+Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
+
+More information: [Edge process](edge-process.md)
+
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 
-Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] release. 
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers. 
 
 ### General Availability: Support for Unified Interface apps in Unified Service Desk
 
@@ -71,8 +76,9 @@ Using **SwitchSession** action, you can now switch between local sessions. Also,
 ::: moniker range="dynamics-usd-3"
 
 <a name="WhatsNew33"></a>   
-## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
- 
+
+## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+
 Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] release.
 
 ### Videos
@@ -98,6 +104,7 @@ The resources in the dictionary refers to other resources that are available on 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md) and [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
 <a name="WhatsNew32"></a>   
+
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] 
 
 There are no developer/customizer-specific changes in this release. For a list of new features in this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md)
@@ -127,7 +134,6 @@ to help you perform actions as soon as the related information for an entity
 record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. 
 
 More information: [CRM Page (Hosted Control)](crm-page-hosted-control.md)
-
 
 ### Asynchronously create entity records to prevent execution blocking
 
