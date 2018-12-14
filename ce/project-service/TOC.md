@@ -23,6 +23,12 @@
 #### [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
 #### [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
 ### [Turn off a pricing dimension](turn-off-pricing-dimension.md)
+## [Resourcing projects](resource-management.md)
+### [Assign generic bookable resources to a task and generate resource requirements](assign-generic-bookable-resource.md) 
+### [Book named bookable resources to a project team and assign task](assign-named-bookable-resource.md)
+### [Book named resources from resource requirements](book-named-resource.md)
+### [Submit a resource request](submit-resource-request.md)
+### [Accept or reject a proposed resource](accept-reject-proposed-resource.md)
 
 
 # How-to guides (app version 3.x)
