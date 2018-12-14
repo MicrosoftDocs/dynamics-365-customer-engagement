@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Assigning generic bookable resources to a task and generating resource requirements 
+# Assign generic bookable resources to a task and generate resource requirements 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
