@@ -1,4 +1,5 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
+# [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 # [Fulfillment preferences](fulfillment-preferences.md)
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
