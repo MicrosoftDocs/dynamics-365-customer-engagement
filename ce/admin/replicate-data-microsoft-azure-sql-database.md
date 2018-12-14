@@ -1,7 +1,7 @@
 ---
-title: "Replicate Dynamics 365 for Customer Engagement apps (online) data to Azure SQL Database | MicrosoftDocs"
+title: "Replicate Dynamics 365 for Customer Engagement apps data to Azure SQL Database | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/21/2018
+ms.date: 12/14/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -610,6 +610,13 @@ AND DL.VersionNumber &gt; A.VersionNumber)
 |------------|----------------|-----------------|  
 |Activity|ActivityPointerBase|Select the specific activity entities for export, such as Phone Call, Appointment, Email, and Task.|  
  
+### Unable to create a row greater than the allowable maximum row size (8K)
+
+If your error logs show "Cannot create a row of size <size> which is greater than the allowable maximum row size of 8060", you are running into an issue where you are exceeding the maximum allowable row size limit. The Data Export Service does not support row size greater than maximum allowable row size of 8k. To mitigate this, you need to ensure that you honor the row size limits.
+
+### Length of string in source is longer than destination schema for ColumnName
+
+If your error logs show "String length in source longer than destination schema for [ColumnName, MaxDataLength]" you are running into an issue where the string length of your source data is longer than destination. If the string length of your source data is longer than destination, writes to destination will fail.To mitigate this issue, you would either need to reduce size of data or increase the length of column, greater than MaxLength manually in the DB.
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_data_export](../includes/cc-privacy-data-export.md)]
