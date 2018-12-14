@@ -34,11 +34,11 @@ As an administrator, you can set up and configure a chat widget for your website
 
     a. **Basic details** tab
 
-        i.  Under the **General information** section, enter name of the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. More information on setting up authentication settings: [Set up authentication settings](#set-up-authentication-settings).
+       i.  Under the **General information** section, enter name of the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. More information on setting up authentication settings: [Set up authentication settings](#set-up-authentication-settings).
 
-        ii.  Under the **Widget location** section, select **Add** to specify the website domain where the chat widget needs to be displayed. If no domain is specified,  the chat widget is displayed in all configured domains. The domain format should not include the protocol (for example, http, https).
+       ii.  Under the **Widget location** section, select **Add** to specify the website domain where the chat widget needs to be displayed. If no domain is specified,  the chat widget is displayed in all configured domains. The domain format should not include the protocol (for example, http, https).
 
-        iii.  Copy the value from the **Code snippet** section and embed it into the HTML source of your website.
+       iii.  Copy the value from the **Code snippet** section and embed it into the HTML source of your website.
 
             > [!div class=mx-imgBorder]
             > ![configure basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure basic details of a chat widget")
@@ -111,11 +111,11 @@ You can create questions in a question library, which will be used to create pre
 
     b. **Answer type**: Type of the answer required from a user. You can select either of the following:
 
-        - **Single line**: Allows a user to enter a single line of text.
+       - **Single line**: Allows a user to enter a single line of text.
 
-        - **Multiple lines**: Allows a user to enter multiple lines of text.
+       - **Multiple lines**: Allows a user to enter multiple lines of text.
 
-        - **Option set**: Allows a user to select an option from the drop-down list. If you select this option, you must first save the question to specify the answer options.
+       - **Option set**: Allows a user to select an option from the drop-down list. If you select this option, you must first save the question to specify the answer options.
 
         > [!div class=mx-imgBorder]
         > ![question with answer type as option set](../media/oc-option-set-answer-type.png "Question with answer type as Option set")  
@@ -124,8 +124,8 @@ You can create questions in a question library, which will be used to create pre
 
     d. **Help text**: Help text to be displayed to a user as a watermark.
 
-        > [!div class=mx-imgBorder]
-        > ![add help text to a question](../media/oc-question-help-text.png "Add help text to a question")  
+       > [!div class=mx-imgBorder]
+       > ![add help text to a question](../media/oc-question-help-text.png "Add help text to a question")  
 
 6.  Select **Save**.
 
