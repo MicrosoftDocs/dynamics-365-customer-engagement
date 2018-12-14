@@ -140,10 +140,6 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 |Android OS Browser |equals or higher |  Android 5.0 (Lollipop) | Compatible by default |
 |Mobile Safari | equals or higher | 5 for iOS 5 or higher| Compatible by default |
 
-#### Related information
-
-[TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
-
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
 
 ### Attachments in private messages now show in the post list
