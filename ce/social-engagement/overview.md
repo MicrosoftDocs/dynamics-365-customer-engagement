@@ -2,7 +2,7 @@
 title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
 description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: social engagement, overview, quick start, scenarios
-ms.date: 06/13/2018
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -85,8 +85,6 @@ We frequently release updates to introduce new capabilities, improve existing fe
 - Have a look at [what's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md) to learn about the latest changes.
 
 - Read the latest [Social Engagement readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
-
-- Download the [Social Engagement translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
 ## Request a trial
 
