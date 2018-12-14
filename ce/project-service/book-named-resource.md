@@ -1,5 +1,5 @@
 ---
-title: Book named resources for generic resource requirements
+title: Book named resources from resource requirements
 description: This topic provides information about booking named resources for a generic resource requirement.
 author: JohnPBurrows
 manager: kfend
