@@ -35,7 +35,7 @@ Though messaging and promotion strategies are typically quite different for an i
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
 
-Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](embed-forms.md) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] marketing pages.
+Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](embed-forms.md) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing pages.
 
 ### See also
 

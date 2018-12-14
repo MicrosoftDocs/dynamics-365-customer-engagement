@@ -166,5 +166,5 @@ The following example shows a journey that has two parallel paths, one for auto-
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

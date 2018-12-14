@@ -75,7 +75,7 @@ search.app:
 - **[!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)]**  
   Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
 - **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Portals**  
-  The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. A ready-to-use, feature-rich event website is also included, and is unique to the event-management feature.
+  The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products. A ready-to-use, feature-rich event website is also included, and is unique to the event-management feature.
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
@@ -199,7 +199,7 @@ Use other parts of the **Event** work area to work with specific record types th
 
 After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only. Open an event record and change its status to **Published** to publish it on the portal.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
 
 ## Generate, score, and qualify leads for sales
 

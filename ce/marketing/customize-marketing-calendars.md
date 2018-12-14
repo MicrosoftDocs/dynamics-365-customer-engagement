@@ -45,7 +45,7 @@ Other than the differences noted here, both types of calendars look the same and
 
 To add and/or customize a marketing calendar, you must work in a **PowerApps** customization window. To get there:
 
-1. Use the app-selector menu to open the **Dynamics 365 – custom app**.
+1. Use the app-selector menu to open the **Dynamics 365 – custom** app.
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 

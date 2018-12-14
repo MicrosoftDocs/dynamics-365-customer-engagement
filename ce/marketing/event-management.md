@@ -24,7 +24,7 @@ search.app:
   - D365Mktg
 ---
 
-# Event planning and management in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+# Event planning and management
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 

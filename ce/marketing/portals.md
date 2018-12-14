@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution, which it uses to enable features like the event website and marketing pages. If those features are all you need, you never actually have to access the portal capabilities because [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution, which it uses to enable features like the event website and marketing pages. If those features are all you need, you never actually have to access the portal capabilities because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data.
 
 The portals solution is highly flexible and customizable. You can create portals for a wide variety of purposes (such as self-service, registration, and data management) and audiences (including customers, partners, and employees).
 
@@ -38,7 +38,7 @@ The portals solution is highly flexible and customizable. You can create portals
 
 ## Work with the event website
 
-A full-featured events portal is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. It is built by using the standard portals features, and its various elements are visible throughout the portals area of the custom app. The many features of the event website are fully functional right out of the box. The information published there comes directly from your event-management data in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and it provides full support for any number of events.
+A full-featured events portal is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. It is built by using the standard portals features, and its various elements are visible throughout the portals area of the custom app. The many features of the event website are fully functional right out of the box. The information published there comes directly from your event-management data in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], and it provides full support for any number of events.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event website](set-up-event-portal.md)
 

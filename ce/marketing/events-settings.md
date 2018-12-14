@@ -111,7 +111,7 @@ To set your event-administration options:
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up a webinar](set-up-webinar.md)  
 [Set up and manage an event waitlist](event-waitlist.md)  
 [Create and manage recurring events](event-recurring.md)  

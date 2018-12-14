@@ -81,7 +81,7 @@ Event tiles provide the following settings in the **Properties** pane while sele
 - **Event**: Identify the event record represented by the tile. Start typing an event name to select an existing event, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
 
 ### Survey
 

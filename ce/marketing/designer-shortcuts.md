@@ -32,7 +32,7 @@ search.app:
 
 ## General accessibility for Customer Engagement applications
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement applications. For details, see the following help topics:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For details, see the following help topics:
 
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 - [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)

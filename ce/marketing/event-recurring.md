@@ -121,5 +121,5 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)
