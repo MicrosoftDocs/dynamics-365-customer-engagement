@@ -45,6 +45,12 @@ Instance management operations are a standard feature of [!INCLUDE[pn-microsoftc
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and customer-insights services are external to the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] platform server, and thus follow their own lifecycle. These services aren't directly accessible to users, so when backup and restore operations are used on the organization database, you must consider their impact on these connected services.
 
+## Copy your production instance to a support instance
+
+ [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] offers a service for testing pending changes (usually updates) on a copy of your production instance. If you wish to use this service, please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] to find out if you are eligible. If so, [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will create a support instance on your tenant and then ask you to copy your production instance onto it.
+
+ For this operation, you can just make a simple copy of your production instance as described in [To copy an instance](../admin/copy-instance.md#to-copy-an-instance). There is no need to stop any live entities or make any other type of special preparation (as mentioned in the following section).
+
 <a name="prepare-backup"></a>
 
 ## Prepare for copies and manual backups
