@@ -147,7 +147,7 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/field-service-mobile-project-details.png)  
 
-1. Select and highlight the mobile project template and select **Derive**
+7. Select and highlight the mobile project template and select **Derive**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive.png)
