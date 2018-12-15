@@ -329,6 +329,32 @@ For information about the programmatic interface for managing configuration and 
   
 9. Azure Storage Explorer connects to the destination database. If failed records exist for the Export Profile, Azure Storage Explorer displays failed record  synchronization folders.  
   
+#### How to view detailed information about the records that failed to sync (Preview)
+
+You can now download the failed records directly from within the Data Export Service user interface. This feature is currently in Preview and would be great for you to test and provide feedback.
+
+**Steps to download failed records:**
+
+1. Identify the profile with failed records.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Data export profiles](media/des-profiles.png "Data export profiles")
+
+2. Select the profile and select **Download Failed records (Preview)** from the top menu bar.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download failed records (preview)](media/download-failed-records-preview.png "Download failed records (preview)")
+
+3. In the **Download Failed records** dialog box, you will see a sorted list of last 20 (max) blob files. Select the one you want to download, and then select **Ok**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download failed records](media/download-failed-records.png "Download failed records")
+
+4. Once downloaded, open the file in a text editor of your choice (for example, Notepad) and view the details for failures.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Sample error log](media/sample-error-log.png "Sample error log")
+
 #### Failed record synchronization folder structure and log files  
  The Failed Records Azure Blob storage URL points to a location that has the following folder structure:  
   
