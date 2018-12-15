@@ -43,12 +43,12 @@ As an administrator, you can set up and configure a chat widget for your website
             > [!div class=mx-imgBorder]
             > ![configure basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure basic details of a chat widget")
 
-    b. **Design** tab: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of chat widget. More information on setting up operating hours: [Set up operating hours](#set-up-operating-hours).
+    2. **Design** tab: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of chat widget. More information on setting up operating hours: [Set up operating hours](#set-up-operating-hours).
 
        > [!div class=mx-imgBorder]
        > ![configure design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure design of a chat widget")
 
-    c. **Survey** tab: Use this tab to set up a pre-chat survey. This survey is displayed to a user before initiating a conversation. More information: [Set up a pre-chat survey](#set-up-a-pre-chat-survey)
+    3. **Survey** tab: Use this tab to set up a pre-chat survey. This survey is displayed to a user before initiating a conversation. More information: [Set up a pre-chat survey](#set-up-a-pre-chat-survey)
 
        > [!div class=mx-imgBorder]
        > ![configure survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure survey in a chat widget")
@@ -71,11 +71,13 @@ You can configure your chat engagement to display a survey for a user to respond
 
 7.  Select **Add question** to add questions from the question library. More information: [Set up a question library](#set-up-a-question-library)  
 
- **Note**: You can add only five questions to the pre-chat survey.
+    > [!NOTE]
+    > You can add only five questions to the pre-chat survey.
 
 8.  In the **Quick Create: Survey Question Sequence** pane, select a question from the question library and specify whether it is mandatory or optional.
 
- **Note**: Validations in pre-chat survey are not supported in this preview.
+    > [!NOTE]
+    > Validations in pre-chat survey are not supported in this preview.
 
 9.  Select **Save**.
 
@@ -109,9 +111,9 @@ You can create questions in a question library, which will be used to create pre
 
 5.  On the **New Survey Question** page, enter the following values:
 
-    a. **Question name**: Name of the question. The name must be unique across work stream.
+    1. **Question name**: Name of the question. The name must be unique across work stream.
 
-    b. **Answer type**: Type of the answer required from a user. You can select either of the following:
+    2. **Answer type**: Type of the answer required from a user. You can select either of the following:
 
        - **Single line**: Allows a user to enter a single line of text.
 
@@ -122,12 +124,12 @@ You can create questions in a question library, which will be used to create pre
          > [!div class=mx-imgBorder]
          > ![question with answer type as option set](../media/oc-option-set-answer-type.png "Question with answer type as Option set")  
 
-    c. **Question text**: Text of the question.
+    3. **Question text**: Text of the question.
 
-    d. **Help text**: Help text to be displayed to a user as a watermark.
+    4. **Help text**: Help text to be displayed to a user as a watermark.
 
-       > [!div class=mx-imgBorder]
-       > ![add help text to a question](../media/oc-question-help-text.png "Add help text to a question")  
+        > [!div class=mx-imgBorder]
+        > ![add help text to a question](../media/oc-question-help-text.png "Add help text to a question")  
 
 6.  Select **Save**.
 
@@ -145,20 +147,20 @@ Quick replies are the template messages that can be created for agents to quickl
 
 5.  Enter or modify the following values:
 
-    a. **Title**: Title of the message.
+    1. **Title**: Title of the message.
 
-    b. **Locale**: Locale of the message.
+    2. **Locale**: Locale of the message.
 
         > [!NOTE]
         > This field is not editable in this preview.
 
-    c. **Message**: Text of the message.
+    3. **Message**: Text of the message.
 
         > [!NOTE]
         > This field supports slugs, but the slug editor is not available in this preview.
 
-    > [!div class=mx-imgBorder]
-    > ![create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
+        > [!div class=mx-imgBorder]
+        > ![create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
 
 6.  Select **Save**.
 
@@ -195,8 +197,8 @@ You can create operating hours to set the hours during which your organization�
     
     8. **Description**: Optional description of the operating hour record.
 
-    > [!div class=mx-imgBorder]
-    > ![Create an operating hour record](../media/oc-quick-create-operating-hour.png "Create an operating hour record")
+        > [!div class=mx-imgBorder]
+        > ![Create an operating hour record](../media/oc-quick-create-operating-hour.png "Create an operating hour record")
 
 5.	Select **Save and close**.
 
@@ -240,73 +242,73 @@ If you are adding authentication for a chat widget on a portal not using Dynamic
 
 1.	Define the private - public key pairs on your server. These keys are used to sign and encrypt the JWT sent to the server. Only RSA256 keys are supported.
 
-Sample code to generate private - public key pairs:
+    Sample code to generate private - public key pairs:
 
-```
-openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
-openssl rsa -pubout -in private_key.pem -out public_key.pem
-```
+    ```
+    openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
+    openssl rsa -pubout -in private_key.pem -out public_key.pem
+    ```
 
 2.	Expose the public key endpoint as a URL which contains public key as a string.
 
 3.	Create a client-side JavaScript function that returns the signed JWT and the public key.
 
-Sample code to define JavaScript client function:
+    Sample code to define JavaScript client function:
 
-```
-window["getAuthenticationToken"] = function(callback){
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-               if (this.readyState == 4 && this.status == 200) {
-                       callback(xhttp.responseText);
-               }
-        };
-        xhttp.onerror = function(error) {
-               callback(null);
-        };
-        xhttp.open("GET", "https://contosohelp.com/token", true);
-        xhttp.send();
-}
-```
+    ```
+    window["getAuthenticationToken"] = function(callback){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                        callback(xhttp.responseText);
+                }
+            };
+            xhttp.onerror = function(error) {
+                callback(null);
+            };
+            xhttp.open("GET", "https://contosohelp.com/token", true);
+            xhttp.send();
+    }
+    ```
 
 4.	After authenticating, you must identify your customer from Dynamics 365 contacts. You need to extract the GUID used by Dynamics 365 for the contact. For example: `87b4d06c-abc2-e811-a9b0-000d3a10e09e`
 
 5.	Create a JSON payload that includes sub (GUID) and three attributes (iss, iat, exp) as mandatory claims.
 
-Sample JWT payload:
+    Sample JWT payload:
 
-```
-{
-                "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
-                "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
-                "phone_number" : "1234567",
-                "given_name" : "Bert",
-                "family_name" : "Hair",
-                "email" : "admin@contosohelp.com",
-                "lwicontexts" :”{\”msdyn_cartvalue\”:\”10000\”, \”msdyn_isvip\”:\”false\”}”,
-                "iat" : 1542622071,
-                "iss" : "contosohelp.com",
-                "exp" : 1542625672,
-                "nbf" : 1542622072
-}
-```
+    ```
+    {
+                    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+                    "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
+                    "phone_number" : "1234567",
+                    "given_name" : "Bert",
+                    "family_name" : "Hair",
+                    "email" : "admin@contosohelp.com",
+                    "lwicontexts" :”{\”msdyn_cartvalue\”:\”10000\”, \”msdyn_isvip\”:\”false\”}”,
+                    "iat" : 1542622071,
+                    "iss" : "contosohelp.com",
+                    "exp" : 1542625672,
+                    "nbf" : 1542622072
+    }
+    ```
 
 6.	Add custom context variables, if required. The context variables must be defined exactly as they are defined in CDS.
 
-Sample definition of custom context variables:
+    Sample definition of custom context variables:
 
-```
-def create_token(user_json):
-    with open('private_key.pem', 'r') as myfile:
-        data = myfile.read()
-    json_token = json.loads(user_json)
-    lwicontexts = {}
-    lwicontexts['msdyn_cartvalue'] = 10000
-    lwicontexts['msdyn_isvip'] = "false"
-    json_token['lwicontexts'] = json.dumps(lwicontexts)
-    encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
-    return encoded_jwt
-```
+    ```
+    def create_token(user_json):
+        with open('private_key.pem', 'r') as myfile:
+            data = myfile.read()
+        json_token = json.loads(user_json)
+        lwicontexts = {}
+        lwicontexts['msdyn_cartvalue'] = 10000
+        lwicontexts['msdyn_isvip'] = "false"
+        json_token['lwicontexts'] = json.dumps(lwicontexts)
+        encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
+        return encoded_jwt
+    ```
 
     > [!NOTE]
     > - The user_json parameter comes from the identity provider (for example, Azure AD, Google)
@@ -314,11 +316,11 @@ def create_token(user_json):
 
 7.	Sign and encrypt this payload by using the private key to generate the JWT. 
 
-Sample code to encrypt the payload (this is included in the sample code to define custom context variables):
+    Sample code to encrypt the payload (this is included in the sample code to define custom context variables):
 
-```
-encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
-return encoded_jwt
-```
+    ```
+    encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
+    return encoded_jwt
+    ```
 
 
