@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/14/2018
+ms.date: 12/15/2018
 ms.service: 
 ms.topic: article
 ms.assetid: acad7fe7-bd03-466d-8fe3-1434ba1dc724
@@ -38,4 +38,7 @@ After the chat is configured, it has the following capabilities:
 
 - **Chat notifications**: Chat notifications are displayed when the chat widget is minimized and when the chat widget is opened in a different browser tab. In minimized mode, message count is displayed on the widget. When you move away from the browser tab you are chatting, the message count is displayed on the tab.
 
+- **End chat**: A customer can end the chat by selecting the **Close chat** button.
 
+    > [!NOTE]
+    > In this preview, ending the chat will immediately end the chat without a confirmation message.
