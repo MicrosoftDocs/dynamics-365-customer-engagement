@@ -50,6 +50,9 @@ search.app:
   - Android: <http://aka.ms/fsmobile-android>  
   
   ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")  
+
+  > [!Note]
+  > To use Field Service Mobile the bookable resource (field technician) record must have Enabled for **Field Service Mobile** set to **Yes**
   
 <a name="bkmk_signin"></a>   
 ## Sign in and sync data
@@ -366,10 +369,11 @@ If work still needs to be done, you can create a follow-up booking.
   
 4. When you’re done, tap **Save**.  
   
+### Next Steps
+- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
  
 ### See also  
-- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
-  
+
 - [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md) 
   
 - [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)

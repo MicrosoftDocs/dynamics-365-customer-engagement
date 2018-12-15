@@ -177,9 +177,10 @@ The mobile project template contains all customizations for the Field Service Mo
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
-- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
+
 - [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf)  
