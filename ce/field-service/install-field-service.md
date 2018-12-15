@@ -154,14 +154,13 @@ The mobile project template contains all customizations for the Field Service Mo
 
 - Enter a Name, a higher priority, and assign to relevant field service security roles
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
 
 8. Double-click the mobile project template parent, and then select **Publish All**. 
 
 > [!Note]
-> The published version number must match the version of the mobile app. To find the version of the mobile app, open the mobile app on a phone or tablet. On the home screen, select **About**. Note that the version only needs to match the first decimal.
+> For Field Service Mobile v11.1 publish to 9.2 to 10.1
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing mobile project](media/mobile-install-project-publish-all.png)  
