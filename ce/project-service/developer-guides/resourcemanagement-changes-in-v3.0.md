@@ -119,7 +119,7 @@ msdyn_organizationalunit | msdyn_organizationalunit
 Pricing and estimation contour fields are deprecated on **msdyn_projecttask** and moved to the **msdyn_resourceassignment** entity: 
 
 Deprecated field on **msdyn_projecttask** (Project Task) | New field on **msdyn_resourceassignment** (Resource Assignment)
---- | --- | ---
+--- | --- 
 msdyn_costestimatecontour | msdyn_plannedcostcontour
 msdyn_salesestimatecontour | msdyn_plannedsalescontour
 
