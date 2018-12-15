@@ -68,7 +68,7 @@ You can add a trial or a purchased subscription of the Field Service application
 
 ## Download the Field Service Mobile app on a phone or tablet
 
- ### <span style="color:red">**NOTE:** You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and bookable resources enabled for mobile.</span>
+ ### <span style="color:red">**NOTE:** You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and bookable resources enabled for mobile app access.</span>
 
 
 Dynamics 365 for Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs.  The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
