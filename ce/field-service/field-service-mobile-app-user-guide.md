@@ -52,7 +52,7 @@ search.app:
   ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")  
 
   > [!Note]
-  > To use Field Service Mobile the bookable resource (field technician) record must have Enabled for **Field Service Mobile** set to **Yes**
+  > To use Field Service Mobile the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**
   
 <a name="bkmk_signin"></a>   
 ## Sign in and sync data
