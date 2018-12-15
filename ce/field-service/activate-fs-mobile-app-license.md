@@ -1,5 +1,5 @@
 ---
-title: "Activate Field Service mobile licenses (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Extend Trial of Field Service mobile confguration tool | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 09/25/2018
 ms.reviewer: krbjoran
@@ -23,48 +23,45 @@ search.app:
   - D365FS
 ---
 
-# Activate Field Service mobile licenses
+# Extend Field Service mobile configuration tool trial
    
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-When you set up an organization to use the [!include[Dynamics 365 for Customer Engagement for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. 
+The mobile configuration tool allows your organization to use, administer, and customize the Field Service Mobile app for your field workers.
 
-In addition, if you want to extend a trial period, or if you restore an environment (or do any work that changes an organization ID), you need to submit a new activation request.
+## Fill out a trial extension request form
 
-To speed up the process, [we've provided a quick form for you to fill out to request the activation](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u).
+A 30-day trial automatically starts when you install the mobile configuration tool for your Dynamics 365 instance. You need to submit a request to extend the trial before the trial period ends. You must extend a trial to continue using and customizing the Field Service Mobile app.
 
-## What you need to know before you submit an activation request
-There are a few important details to know before you submit a request to activate [!include[Dynamics 365 for Customer Engagement for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
+Complete the [form to request an extension to the trial for the mobile configuration tool](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 for Customer Engagement organization ID to complete the request form.
 
-- You need Office 365 global admin privileges to manage licenses for a Dynamics 365 for Customer Engagement organization.
 
-- Field service mobile licenses are allocated to one organization at a time, based on the organization ID.
+## Additional Notes
 
-- Each [!include[Dynamics 365 for Customer Engagement for Field Service](../includes/pn-dyn-365-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. 
-
-    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
-
-- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 for Customer Engagement instance. You need to submit the request to activate the licenses before the trial period ends. Additionally, if you want to maintain access to the field service mobile app beyond the 30-day trial, you need to submit a request extend the licenses. 
-
-  To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
+To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
   > ![OrgID](media/woodford-expiration.png)  
 
 - If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile licenses for the organization.
 
-## Fill out an activation request form
+- Field service mobile licenses are allocated to one organization at a time, based on the organization ID.
 
-[Fill out a Field Service mobile license activation request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to activate licenses or extend licenses beyond a 30-day trial.
+**To find your organization ID**
 
-Note that you need the Dynamics 365 for Customer Engagement organization ID to complete the request form.
-
-## Where to find the organization ID
-
- 1. Sign in to the Dynamics 365 for Customer Engagement organization.
- 2. Go to **Settings** > **Customizations** > **Developer Resources**.
- 3. In the **Instance Reference Information** section, locate the ID.
+ 1. Go to **Settings** > **Customizations** > **Developer Resources**.
+ 2. In the **Instance Reference Information** section, locate the ID.
         
   > ![OrgID](media/admin-orgid.png)  
+  
+
+## Previous App Versions
+
+For Field Service Mobile (2016) and Field Service Mobile (2017), you need to [fill out a form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to request access for your users.
+
+
+
+
+
         
 
 

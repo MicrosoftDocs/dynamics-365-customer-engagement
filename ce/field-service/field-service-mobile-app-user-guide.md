@@ -30,31 +30,33 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] (mobile) gives field technicians the information they need to get to a customer location and complete work orders quickly.  
+[!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly.  
   
- Before field technicians can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the mobile solution. 
+ Before field technicians can use the [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] app, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the Field Service Mobile configuration tool and related mobile project. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service installation (online)](../field-service/install-field-service.md)   
+  ### <span style="color:red">**NOTE:** A new mobile app and mobile project has been released for Field Service v7.5.5 and 8.2+.</span> 
+
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service installation (web + mobile)](../field-service/install-field-service.md)
+
   
-<a name="bkmk_install"></a>   
-## Install the mobile app on a phone or tablet  
- [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is supported on the following devices:  
   
-- [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)]  
+<a name="bkmk_install"></a> 
+
+## Install the mobile app on a phone or tablet    
+  To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
+
+  - Windows: <http://aka.ms/fsmobile-windows>
+  - iOS (Apple): <http://aka.ms/fsmobile-iOS>
+  - Android: <http://aka.ms/fsmobile-android>  
   
-- iOS 6 +  
-  
-- [!INCLUDE[tn_android](../includes/tn-android.md)] phone  
-  
-  To download the app, search for **field service mobile** in your device's app store.  
-  
-  ![Download the Field Service Mobile app](../field-service/media/field-service-download-mobile-app.png "Download the Field Service Mobile app")  
+  ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")  
   
 <a name="bkmk_signin"></a>   
 ## Sign in and sync data
  To sign in, you need your organization's Dynamics 365 for Customer Engagement URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
   
 1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign in completes, you'll see the Home screen. 
+  
   
    ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
   
