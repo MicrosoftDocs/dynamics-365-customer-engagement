@@ -222,7 +222,7 @@ After you create an authentication settings record, you must add it in the **Bas
     
     3. **JavaScript client function**: JavaScript client function to be used for authentication. This function extracts token from the token endpoint.
     
-    For details on getting the public key URL and JavaScript client function, see [Setup for Dynamics 365 portal](#setup-for-dynamics-365-portal ) or Setup for portals not using Dynamics 365 (custom portal).
+    For details on getting the public key URL and JavaScript client function, see [Setup for Dynamics 365 portal](#setup-for-dynamics-365-portal ) or [Setup for portals not using Dynamics 365 (custom portal)](#setup-for-portals-not-using-dynamics-365-custom-portal).
 
 5.	Select **Save**.
 
@@ -311,7 +311,7 @@ If you are adding authentication for a chat widget on a portal not using Dynamic
     ```
 
     > [!NOTE]
-    > - The user_json parameter comes from the identity provider (for example, Azure AD, Google)
+    > - The `user_json` parameter comes from the identity provider (for example, Azure AD, Google)
     > - lwicontexts is the key whose value should have the custom context variable serialized as string. lwicontexts must be specified in lowercase.
 
 7.	Sign and encrypt this payload by using the private key to generate the JWT. 
