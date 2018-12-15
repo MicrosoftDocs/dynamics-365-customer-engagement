@@ -157,7 +157,8 @@ Quick replies are the template messages that can be created for agents to quickl
         > [!NOTE]
         > This field supports slugs, but the slug editor is not available in this preview.
 
-    ![create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
+    > [!div class=mx-imgBorder]
+    > ![create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
 
 6.  Select **Save**.
 
@@ -167,5 +168,157 @@ You can create operating hours to set the hours during which your organization�
 
 > [!NOTE]
 > The chat widget will be hidden during non-operating hours.
+
+1.	Sign in to Omni-channel Engagement Hub.
+
+2.	Go to **Administration** > **Operating Hours**.
+
+3.	To add a new operating hour record, select **New**.
+
+4.	In the **Quick Create: Operating Hour** pane, enter the following values:
+
+    1. **Name**: Name of the operating hour record.
+
+    2. **24/7**: Select Yes if the chat widget should be enabled 24/7 or No if the chat widget should be enabled on particular 
+    days of the week. By default, No is selected.
+    
+    3. **Start time (HH:mm)**: Start time of the operating hour in 24-hour format.
+    
+    4. **End time (HH:mm)**: End time of the operating hour in 24-hour format.
+    
+        > [!NOTE]
+        > The end time should not be set earlier than the start time or closer than five minutes to the start time.
+    
+    6. **Work days**: Days of the week on which the customer support is available.
+    
+    7. **Time zone**: Time zone of the operating hour.
+    
+    8. **Description**: Optional description of the operating hour record.
+
+    > [!div class=mx-imgBorder]
+    > ![Create an operating hour record](../media/oc-quick-create-operating-hour.png "Create an operating hour record")
+
+5.	Select **Save and close**.
+
+## Set up authentication settings
+
+You can create authentication settings to validate a signed-in customer from a domain and extract information based on the defined context variables. You can differentiate your anonymous customers and authenticated customers and can create rules based on the context variables. For example, you can have separate queues for anonymous customers and authenticated customers. Since you have more information about your authenticated customers, you can also prioritize them based on certain variables such as shopping cart value or a privileged status.
+
+After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it function.
+
+1.	Sign in to Omni-channel Engagement Hub.
+
+2.	Go to **Administration** > **Chat Authentication**. A list of existing authentication settings is displayed.
+
+3.	To add a new chat authentication record, select **New**.
+
+4.	On the **New Authentication Settings** page, enter the following values:
+
+    1. **Name**: Name of the authentication setting.
+
+    2. **Public key URL**: Public key URL of the domain. It is used to validate the information coming in from the JSON Web Token (JWT) of the domain from which a customer has signed in.
+    
+    3. **JavaScript client function**: JavaScript client function to be used for authentication. This function extracts token from the token endpoint.
+    
+    For details on getting the public key URL and JavaScript client function, see [Setup for Dynamics 365 portal](#setup-for-dynamics-365-portal ) or Setup for portals not using Dynamics 365 (custom portal).
+
+5.	Select **Save**.
+
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function will pass the JWT from client to server. The JWT is decrypted and validated using the public key and the information is passed to the chat agent within Omni-channel Engagement Hub. As an administrator, you can also pass additional information of a signed-in customer in JWT by defining custom context variables. The context variables must be defined exactly as they are defined in CDS.
+
+### Setup for Dynamics 365 portal
+
+If you are adding authentication for a chat widget on a Dynamics 365 portal, public key URL, JavaScript client function, and JWT are available out-of-the-box. You can get the required values as follows:
+
+- **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
+- **JavaScript client function**: `auth.getAuthenticationToken`
+- **Token endpoint**: `<portal_base_URL>/_services/auth/token`
+
+### Setup for portals not using Dynamics 365 (custom portal)
+
+If you are adding authentication for a chat widget on a portal not using Dynamics 365 (a custom portal), you must set up the environment as follows:
+
+1.	Define the private - public key pairs on your server. These keys are used to sign and encrypt the JWT sent to the server. Only RSA256 keys are supported.
+
+Sample code to generate private - public key pairs:
+
+```
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
+openssl rsa -pubout -in private_key.pem -out public_key.pem
+```
+
+2.	Expose the public key endpoint as a URL which contains public key as a string.
+
+3.	Create a client-side JavaScript function that returns the signed JWT and the public key.
+
+Sample code to define JavaScript client function:
+
+```
+window["getAuthenticationToken"] = function(callback){
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+               if (this.readyState == 4 && this.status == 200) {
+                       callback(xhttp.responseText);
+               }
+        };
+        xhttp.onerror = function(error) {
+               callback(null);
+        };
+        xhttp.open("GET", "https://contosohelp.com/token", true);
+        xhttp.send();
+}
+```
+
+4.	After authenticating, you must identify your customer from Dynamics 365 contacts. You need to extract the GUID used by Dynamics 365 for the contact. For example: `87b4d06c-abc2-e811-a9b0-000d3a10e09e`
+
+5.	Create a JSON payload that includes sub (GUID) and three attributes (iss, iat, exp) as mandatory claims.
+
+Sample JWT payload:
+
+```
+{
+                "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+                "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
+                "phone_number" : "1234567",
+                "given_name" : "Bert",
+                "family_name" : "Hair",
+                "email" : "admin@contosohelp.com",
+                "lwicontexts" :”{\”msdyn_cartvalue\”:\”10000\”, \”msdyn_isvip\”:\”false\”}”,
+                "iat" : 1542622071,
+                "iss" : "contosohelp.com",
+                "exp" : 1542625672,
+                "nbf" : 1542622072
+}
+```
+
+6.	Add custom context variables, if required. The context variables must be defined exactly as they are defined in CDS.
+
+Sample definition of custom context variables:
+
+```
+def create_token(user_json):
+    with open('private_key.pem', 'r') as myfile:
+        data = myfile.read()
+    json_token = json.loads(user_json)
+    lwicontexts = {}
+    lwicontexts['msdyn_cartvalue'] = 10000
+    lwicontexts['msdyn_isvip'] = "false"
+    json_token['lwicontexts'] = json.dumps(lwicontexts)
+    encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
+    return encoded_jwt
+```
+
+    > [!NOTE]
+    > - The user_json parameter comes from the identity provider (for example, Azure AD, Google)
+    > - lwicontexts is the key whose value should have the custom context variable serialized as string. lwicontexts must be specified in lowercase.
+
+7.	Sign and encrypt this payload by using the private key to generate the JWT. 
+
+Sample code to encrypt the payload (this is included in the sample code to define custom context variables):
+
+```
+encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
+return encoded_jwt
+```
 
 
