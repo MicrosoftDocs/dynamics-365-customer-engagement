@@ -368,5 +368,8 @@ If work still needs to be done, you can create a follow-up booking.
   
  
 ### See also  
- [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md)   
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)
+- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
+  
+- [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md) 
+  
+- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)

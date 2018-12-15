@@ -68,7 +68,7 @@ You can add a trial or a purchased subscription of the Field Service application
 
 ## Download the Field Service Mobile app on a phone or tablet
 
- ### <span style="color:red">**NOTE:** You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below.</span>
+ ### <span style="color:red">**NOTE:** You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and bookable resources enabled for mobile.</span>
 
 
 Dynamics 365 for Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs.  The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
@@ -88,12 +88,10 @@ To get the mobile app, download **Field Service Mobile** from the Windows, Apple
 
 The configuration tool allows app access for field technician users, and allows administrators to customize the mobile experience.
 
-1. Navigate to <https://www.resco.net/woodford-overview/>
-2. Select **Woodford for Dynamics Download**
-3. Save the downloaded Woodford file to you computer
+1. [Download the mobile configuration tool](https://www.resco.net/woodford/download) and save to you computer
 
 
-4. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Solutions**. Select **Import**. 
+2. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Solutions**. Select **Import**. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of solution import view](media/field-service-mobile-solution-import.png)  
 
@@ -182,5 +180,6 @@ The mobile project template contains all customizations for the Field Service Mo
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
+- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
 - [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf)  
