@@ -53,4 +53,3 @@ This section displays the recent cases that relate to the customer.
 #### All activities
 
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
-

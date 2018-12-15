@@ -1,5 +1,5 @@
 ---
-title: "View omni-channel live work item and session form in Dynamics 365 apps"
+title: "View omni-channel conversations and session form in Dynamics 365 apps"
 description: 
 keywords: ""
 author: kabala123
@@ -12,15 +12,13 @@ ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
 ms.custom: 
 ---
-# View Omni-channel Live work item and Omni-channel session in Dynamics 365 apps
-
-Comment – forms (global search, timeline)
+# View Omni-channel conversations and Omni-channel session in Dynamics 365 apps
 
 Your organization may have a classification where certain agents work in the contact center that uses Omni-channel Engagement Hub and certain agents work in another contact center that uses Dynamics 365 apps like Customer Service Hub. In this case, if you are an agent who works on Dynamics 365 apps and needs to analyze the engagement request from Omni-channel Engagement Hub, you can find the information through **Activities** in Dynamics 365.
 
 You can find the following activity types in Dynamics 365 apps:
 
--   Live work item (conversation form)
+-   Conversation form
 
 -   Omni-channel session
 
@@ -66,4 +64,3 @@ The Omni-channel session displays information of an engagement request, which ar
 | Notes   | Notes           |
 
 ![omni-channel session form](../media/oc-crm-omni-channel-session-form.png "Omni-channel session form")  
-
