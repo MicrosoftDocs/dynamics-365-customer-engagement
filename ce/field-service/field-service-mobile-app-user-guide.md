@@ -30,29 +30,29 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly.  
+The [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly.  
   
  Before field technicians can use the [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] app, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the Field Service Mobile configuration tool and related mobile project. 
 
-  ### <span style="color:red">**NOTE:** A new mobile app and mobile project has been released for Field Service v7.5.5 and 8.2+.</span> 
+> [!Note]
+> A new mobile app and mobile project has been released for Field Service v7.5.5 and 8.2+. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service installation (web + mobile)](../field-service/install-field-service.md)
-
-  
+For more information, visit the [Field Service installation (web + mobile)](../field-service/install-field-service.md) page.
   
 <a name="bkmk_install"></a> 
 
 ## Install the mobile app on a phone or tablet    
-  To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
 
-  - Windows: <http://aka.ms/fsmobile-windows>
-  - iOS (Apple): <http://aka.ms/fsmobile-iOS>
-  - Android: <http://aka.ms/fsmobile-android>  
+To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
+
+- [Download for Windows](http://aka.ms/fsmobile-windows)
+- [Download for iOS (Apple)](http://aka.ms/fsmobile-iOS)
+- [Download for Android](http://aka.ms/fsmobile-android)  
   
   ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")  
 
   > [!Note]
-  > To use Field Service Mobile the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**
+  > To use Field Service Mobile, the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**.
   
 <a name="bkmk_signin"></a>   
 ## Sign in and sync data
