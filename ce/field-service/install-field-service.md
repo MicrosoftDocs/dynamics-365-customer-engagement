@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 for Customer Engagement for Field Service (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 10/12/2018
+ms.date: 12/15/2018
 ms.reviewer: 
 ms.suite: 
 ms.technology: 
@@ -68,17 +68,16 @@ You can add a trial or a purchased subscription of the Field Service application
 
 ## Download the Field Service Mobile app on a phone or tablet
 
- ### <span style="color:red">**NOTE:** You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and [bookable resources enabled for mobile app access]((set-up-bookable-resources.md)).</span>
+> [!Note]
+> You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and [bookable resources enabled for mobile app access]((set-up-bookable-resources.md)).
 
+Dynamics 365 for Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
 
-Dynamics 365 for Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs.  The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
+To get the mobile app, download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
 
-
-To get the mobile app, download **Field Service Mobile** from the Windows, Apple, or Google Play app stores. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
-
-- Windows: <http://aka.ms/fsmobile-windows>
-- iOS (Apple): <http://aka.ms/fsmobile-iOS>
-- Android: <http://aka.ms/fsmobile-android>
+- [Download for Windows](http://aka.ms/fsmobile-windows)
+- [Download for iOS (Apple)](http://aka.ms/fsmobile-iOS)
+- [Download for Android](http://aka.ms/fsmobile-android)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
@@ -88,7 +87,7 @@ To get the mobile app, download **Field Service Mobile** from the Windows, Apple
 
 The configuration tool allows app access for field technician users, and allows administrators to customize the mobile experience.
 
-1. [Download the mobile configuration tool](https://www.resco.net/woodford/download) and save to you computer
+1. [Download the mobile configuration tool](https://www.resco.net/woodford/download) and save to your computer.
 
 
 2. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Solutions**. Select **Import**. 
@@ -96,12 +95,12 @@ The configuration tool allows app access for field technician users, and allows 
 > ![Screenshot of solution import view](media/field-service-mobile-solution-import.png)  
 
  
-5. On the **Select Solution Package** screen, select the Woodford\_\#\_\#\_\#\_\#\_managed.zip file, and then select **Next**.
+3. On the **Select Solution Package** screen, select the Woodford\_\#\_\#\_\#\_\#\_managed.zip file, and then select **Next**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of selecting the Woodford solution zip file for importation](media/field-service-mobile-solution-import-file.png)  
 
-6. After the import completes, verify that **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
+4. After the import completes, verify that **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford under Settings menu in Dynamics 365 for Customer Engagement drop-down menu](media/field-service-mobile-solution-import-dropdown.png)  
@@ -112,22 +111,20 @@ After you install the Field Service Mobile configuration tool, you need to downl
 
 The mobile project template contains all customizations for the Field Service Mobile app. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms on the mobile app.
  
-1. Open the mobile configuration tool, by opening Internet Explorer **in a non-private** browser. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Woodford > MobileCRM Woodford**.
+1. Open the mobile configuration tool in a **in a non-private** Internet Explorer window. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Woodford > MobileCRM Woodford**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
 
 2. Set the storage quota to **500MB**, and then select **OK**.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of choosing storage quota](media/field-service-mobile-solution-storage-quota.png)  
 
 3. Register yourself as a user.
 
-4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) file and save in a location other than the Downloads folder.
+4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder.
 
-- The mobile project is periodically updated and you can bookmark the following website to continually access the latest mobile project <https://aka.ms/fsmobile-project>
+- The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service use the following mobile projects: 
+**For previous mobile apps** for D365 for Field Service, use the following mobile projects: 
 
 - [Download mobile project for **Field Service Mobile (2017)** Field Service v6.1](https://go.microsoft.com/fwlink/p/?linkid=836310). 
 - [Download mobile project for **Field Service Mobile (2016)** Field Service v6.0](http://go.microsoft.com/fwlink/p/?LinkId=808250). 
@@ -141,18 +138,18 @@ The mobile project template contains all customizations for the Field Service Mo
 
  - enter the name of the mobile project file
  - enter a priority value
- - assign the template to all field service security roles. 
+ - assign the template to all field service security roles 
  - Select **OK**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/field-service-mobile-project-details.png)  
 
-7. Select and highlight the mobile project template and select **Derive**
+7. Select and highlight the mobile project template and select **Derive**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive.png)
 
-- Enter a Name, a higher priority, and assign to relevant field service security roles
+- Enter a Name, a higher priority, and assign to relevant field service security roles.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
@@ -160,7 +157,7 @@ The mobile project template contains all customizations for the Field Service Mo
 8. Double-click the mobile project template parent, and then select **Publish All**. 
 
 > [!Note]
-> For Field Service Mobile v11.1 publish to 9.2 to 10.1
+> For Field Service Mobile v11.1, publish to 9.2 - 10.1.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing mobile project](media/mobile-install-project-publish-all.png)  
@@ -170,7 +167,7 @@ The mobile project template contains all customizations for the Field Service Mo
 > ![Screenshot of published mobile project with arrow showing status](media/mobile-install-project-verify-publish.png)  
 
 > [!Note]
-> **Warning:** This is a trial license and is valid for 30 days. The trial can be extended with instructions at the following link: [extend trial of Field Service Mobile configuration tool](../field-service/activate-fs-mobile-app-license.md)
+> This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in the topic: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
 
 
 
