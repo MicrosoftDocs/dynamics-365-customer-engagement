@@ -14,19 +14,13 @@ ms.custom:
 ---
 # Step 2: Create hosted controls 
 
-1.  Sign in to Dynamics 365. 
+1.  Sign in to Dynamics 365.
 
-<!-- -->
+2.  Go to **Settings** > **Unified Service Desk**. 
 
-1.  Go to **Settings** &gt; **Unified Service Desk**. 
+3.  Select **Hosted Controls** and select **+ New**.
 
-<!-- -->
-
-1.  Select **Hosted Controls** and select **+ New**. 
-
-<!-- -->
-
-1.  In the new hosted control page, specify the following. 
+4.  In the new hosted control page, specify the following. 
 
 | **Field **                           | **Value **                       |
 |--------------------------------------|----------------------------------|
@@ -34,7 +28,4 @@ ms.custom:
 | Unified Service Desk Component Type  | Popup Notification               |
 | Application is Global                | Select the checkbox              |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image1](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image1.png)  
-
-<span id="_Toc526850308" class="anchor"></span>
-
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image1](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image1.png)  -->
