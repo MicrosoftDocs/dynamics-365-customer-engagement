@@ -35,7 +35,7 @@ A resource in Dynamics 365 for Customer Engagement for Field Service is anything
 <a name="BKMK_CreateBookableResource"></a>   
 ## Create a bookable resource  
   
-1.  From the Field Service main menu, click **Resources** > **Resources entity**  
+1.  From the Field Service main menu, click **Resources** > **Resources entity**. 
 
 2.  On the **Active Bookable Resources** screen, click **New**.  
 
@@ -60,7 +60,7 @@ A resource in Dynamics 365 for Customer Engagement for Field Service is anything
     - **Crew**: Any collection of resources, for example, two or more workers, or a group.  
   
 2.  Choose a **Time Zone**. 
-3.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the FIeld Service Mobile app on his/her phone or tablet.
+3.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the Field Service Mobile app on his/her phone or tablet.
 4. Choose the **Start Location** and the **End Location** to specify which location the resource will be at when starting and ending work.  
   
 5.  Choose if the resource should be displayed on the schedule board and schedule assistant.  
@@ -70,11 +70,11 @@ A resource in Dynamics 365 for Customer Engagement for Field Service is anything
   
 8.  Choose if time off needs to be approved or not.  
   
-9.  Click **Save**.  
+9.  Select **Save**.  
   
-10. In the **Characteristics** section, click **+Add Bookable Resource Characteristics record** to add characteristics. More information: [Set up characteristics](../field-service/set-up-characteristics.md)
+10. In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
 
-As an example, the resource in the picture below is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
+For example, the resource in the following screenshot is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
