@@ -173,7 +173,7 @@ In a **non-private Internet Explorer browser**, log into your Dynamics 365 for C
 > [!div class="mx-imgBorder"]
 > ![Screenshot of opening Internet Explorer from Edge](media/Perform-Initial-Configurations-image18.png)  
 
-You will land on the Woodford interface, as seen below.
+You will land on the Woodford interface, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford interface](media/Perform-Initial-Configurations-image19.png)  
