@@ -30,9 +30,9 @@ search.app:
 
 | Project Name | Project Version Number | Release Date | Mobile App Name | Mobile App Version | Mobile Solution (Woodford) Version | Download link |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FSDyn365_1.0.1322.woodford | 1.0.1322 | 12/14/2018| Field Service Mobile| 11.2 | 11.2 |https://aka.ms/fsmobile-project|
-| CentaurusStoreVersion.woodford| 1.0.0 | 11/4/2016| Field Service Mobile (2017) | 9.1 | 9.1 |<https://go.microsoft.com/fwlink/p/?linkid=836310>|
-| Field Service Mobile default project.woodford | 1.0.0 | 5/10/2016| Field Service Mobile (2016) | 8.3 | 8.3 | <http://go.microsoft.com/fwlink/p/?LinkId=808250> |
+| [FSDyn365_1.0.1322.woodford](https://aka.ms/fsmobile-project) | 1.0.1322 | 12/14/2018| Field Service Mobile| 11.2 | 11.2|
+| [CentaurusStoreVersion.woodford](https://go.microsoft.com/fwlink/p/?linkid=836310)| 1.0.0 | 11/4/2016| Field Service Mobile (2017) | 9.1 | 9.1 |
+| [Field Service Mobile default project.woodford](http://go.microsoft.com/fwlink/p/?LinkId=808250) | 1.0.0 | 5/10/2016| Field Service Mobile (2016) | 8.3 | 8.3 |
 
 
 
