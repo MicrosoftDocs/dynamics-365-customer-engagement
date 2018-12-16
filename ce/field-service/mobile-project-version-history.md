@@ -28,7 +28,7 @@ search.app:
 
 # Mobile project version history
 
-| Project Name | Project Version Number | Release Date | Mobile App Name | Mobile App Version | Mobile Solution (Woodford) Version | Download link |
+| Project Name | Project Version Number | Release Date | Mobile App Name | Mobile App Version | Mobile Solution (Woodford) Version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [FSDyn365_1.0.1322.woodford](https://aka.ms/fsmobile-project) | 1.0.1322 | 12/14/2018| Field Service Mobile| 11.2 | 11.2|
 | [CentaurusStoreVersion.woodford](https://go.microsoft.com/fwlink/p/?linkid=836310)| 1.0.0 | 11/4/2016| Field Service Mobile (2017) | 9.1 | 9.1 |
