@@ -26,7 +26,7 @@ When you get an incoming conversation request, you see a notification (screen po
 
 If you select a case, the contact or account opens the Customer 360 page by prepopulating the details.
 
-If you select a contact or account, the Customer 360 page refreshes and updates the **Snapshot** section with the current case details.
+If you select a contact or account, the Customer 360 page refreshes and updates the **Issue Snapshot** section with the current case details.
 
 If you choose a case that is different than the one you are assigned, then you see a warning message that needs your action to link the conversation to the record.
 
@@ -70,7 +70,7 @@ Once the search is complete, you can see the results in the form of a list.
 
 If you select a case, the contact or account opens the Customer 360 page by prepopulating the details.
 
-If you select a contact or account, the Customer 360 page refreshes and updates the **Snapshot** section with the current case details.
+If you select a contact or account, the Customer 360 page refreshes and updates the **Issue Snapshot** section with the current case details.
 
 If you choose a case that is different than the one you are assigned, then you see a warning message that needs your action to link the conversation to the record.
 
