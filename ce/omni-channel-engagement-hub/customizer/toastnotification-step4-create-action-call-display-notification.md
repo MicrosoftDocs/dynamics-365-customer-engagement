@@ -14,19 +14,13 @@ ms.custom:
 ---
 # Step 4: Create an action call to display the notification 
 
-1.  Sign in to Dynamics 365. 
+1.  Sign in to Dynamics 365.
 
-<!-- -->
+2.  Go to **Settings** &gt; **Unified Service Desk**. 
 
-1.  Go to **Settings** &gt; **Unified Service Desk**. 
+3.  Select **Action Calls** and select **+ New**. 
 
-<!-- -->
-
-1.  Select **Action Calls** and select **+ New**. 
-
-<!-- -->
-
-1.  In the new page, specify the following details. 
+4.  In the new page, specify the following details. 
 
 | Field           | Value                            |
 |-----------------|----------------------------------|
@@ -34,9 +28,9 @@ ms.custom:
 | Hosted Control  | Omni-channel Toast Notification  |
 | Action          | Close                            |
 
-1.  Save the action call.
+5.  Save the action call.
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image4](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image4.png)
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image4](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image4.png) -->
 
 Similarly, create the following action calls by following the steps 1-4.
 
@@ -66,7 +60,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                                 
   ConversationId=\[\[ConversationId\]+\]        |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image5](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image5.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image5](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image5.png)  -->
 
 | Field           | Value                          |
 |-----------------|--------------------------------|
@@ -85,7 +79,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                   
   stack=true                      |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image6](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image6.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image6](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image6.png)  -->
 
 | Field           | Value                 |
 |-----------------|-----------------------|
@@ -94,7 +88,7 @@ Similarly, create the following action calls by following the steps 1-4.
 | Hosted Control  | CRM Global Manager    |
 | Action          | SetVisualProperty     |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image7](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image7.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image7](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image7.png)  -->
 
 | Field           | Value                                  |
 |-----------------|----------------------------------------|
@@ -106,7 +100,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                           
   CRMCONTACTID=010101                     |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image8](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image8.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image8](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image8.png)  -->
 
 | Field           | Value                                                                                                                                                                                                                    |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -120,7 +114,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                                                                                                                                                                                                             
   value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' || '\[\[$Context.ISENTITYSESSION\]+\]'=='True' || '\[\[$Session.IsGlobal\]+\]'=='True' || '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible")  |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image9](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image9.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image9](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image9.png)  -->
 
 | Field           | Value                                  |
 |-----------------|----------------------------------------|
@@ -132,7 +126,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                           
   id=\[\[EntityId\]+\]                    |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image10](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image10.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image10](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image10.png)  -->
 
 | Field           | Value                                       |
 |-----------------|---------------------------------------------|
@@ -144,7 +138,7 @@ Similarly, create the following action calls by following the steps 1-4.
                                                
   SessionTabId=\[\[$Session.ActiveSession\]\]  |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image11](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image11.png)  
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image11](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image11.png)  -->
 
 | Field           | Value                       |
 |-----------------|-----------------------------|
@@ -154,5 +148,4 @@ Similarly, create the following action calls by following the steps 1-4.
 | Action          | OCSessionTimeout            |
 | Data            | ConversationId=\[\[cid\]\]  |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image12](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image12.png)   
-
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image12](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image12.png)   -->

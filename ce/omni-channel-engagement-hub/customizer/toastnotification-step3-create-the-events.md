@@ -35,7 +35,7 @@ Create the following events: 
 | Name                | **CreateCaseEntitySession**          |
 | Hosted Application  | **Omni-channel Toast Notification**  |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image2](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image2.png)
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image2](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image2.png) -->
 
 1.  Save the event. 
 
@@ -48,5 +48,5 @@ For Show FOO Entity Notification event, specify the following.
 | Name                | **Show FOO Entity Notification** |
 | Hosted Application  | **OmniChannelHostedControl**     |
 
-![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image3](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image3.png)
+<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image3](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image3.png) -->
 
