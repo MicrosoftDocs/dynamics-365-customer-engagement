@@ -1,7 +1,7 @@
 ---
 title: "Extend Trial of Field Service mobile confguration tool | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 09/25/2018
+ms.date: 12/15/2018
 ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
@@ -36,7 +36,7 @@ A 30-day trial automatically starts when you install the mobile configuration to
 Complete the [form to request an extension to the trial for the mobile configuration tool](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 for Customer Engagement organization ID to complete the request form.
 
 
-## Additional Notes
+## Additional notes
 
 To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
@@ -46,7 +46,7 @@ To find out your **trial end date**, go to **Settings** > **Woodford** > **Mobil
 
 - Field service mobile licenses are allocated to one organization at a time, based on the organization ID.
 
-**To find your organization ID**
+**To find your organization ID**:
 
  1. Go to **Settings** > **Customizations** > **Developer Resources**.
  2. In the **Instance Reference Information** section, locate the ID.
@@ -54,7 +54,7 @@ To find out your **trial end date**, go to **Settings** > **Woodford** > **Mobil
   > ![OrgID](media/admin-orgid.png)  
   
 
-## Previous App Versions
+## Previous app versions
 
 For Field Service Mobile (2016) and Field Service Mobile (2017), you need to [fill out a form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to request access for your users.
 
