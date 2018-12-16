@@ -22,13 +22,13 @@ This section provides the details about the customer or account like name of the
 
 ### Conversation summary
 
-The section fetches the details based on the context of the incoming engagement request. You can modify the fields in the Conversation summary form. However, you can only change the position of the form in the **Customer 360** page.
+The section fetches the details based on the context of the incoming conversation request. You can modify the fields in the Conversation summary form. However, you can only change the position of the form in the **Customer 360** page.
 
 This section provides two tabs with details that helps agent to understand the contextual channel specific information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the Conversation details, Escalation details, and Transfer details.
 
 ### Issue Snapshot
 
-For an incoming engagement request, the system links an existing case to engagement and displays in the Issue Snapshot section This form (card) displays certain information like title of the case, priority, status of the case, product, and owner. You can customize the form by adding or removing the fields. Refer the section &lt;Link&gt;.
+For an incoming conversation request, the system links an existing case to conveersation and displays in the Issue Snapshot section This form (card) displays certain information like title of the case, priority, status of the case, product, and owner. You can customize the form by adding or removing the fields. Refer the section &lt;Link&gt;.
 
 ### Recent cases
 
