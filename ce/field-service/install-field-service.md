@@ -149,7 +149,7 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive.png)
 
-- Enter a Name, a higher priority, and assign to relevant field service security roles.
+- Enter a name, a higher priority, and assign to relevant field service security roles.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
