@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Notifications and Screen pop
 
-Notification is a visual alert you see as a dialog box each time you get a call, email, chat, and SMS engagement request from a customer. Even when you minimize the Omni-channel Engagement Hub application, you will get a visual notification. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need perform to accept or reject an incoming engagement request. When you accept the request, a screen pops up with the contextual information of the customer and case.
+Notification is a visual alert you see as a dialog box each time you get a call, email, chat, and SMS conversation request from a customer. Even when you minimize the Omni-channel Engagement Hub application, you will get a visual notification. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need perform to accept or reject an incoming conversation request. When you accept the request, a screen pops up with the contextual information of the customer and case.
 
 Some of the scenarios where you can see the screen pop or notifications are:
 
@@ -52,7 +52,7 @@ Alert notification is a type of notification where a dialog appears with actiona
 
 ##### Incoming chat notification
 
-You see a notification for an incoming chat engagement request. When you accept the chat request, a screen pops with the details of the customer in the Customer 360 page. Simultaneously, session is started, and chat window expands in the left panel of Unified Service Desk.
+You see a notification for an incoming chat conversation request. When you accept the chat request, a screen pops with the details of the customer in the Customer 360 page. Simultaneously, session is started, and chat window expands in the left panel of Unified Service Desk.
 
 ![omni-channel incoming chat alert notification](../media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
 

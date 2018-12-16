@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Customer 360 - overview of the existing challenges
 
-One of the major challenges that customers face when contacting the customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request raised at a later stage, the customer shares the same information with another support agent to explain the context of the engagement. To avoid this situation, the support agent must access to the customer information with details about the product/service, issue, cases history, related cases, location, and so on.
+One of the major challenges that customers face when contacting the customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request raised at a later stage, the customer shares the same information with another support agent to explain the context of the conversation. To avoid this situation, the support agent must access to the customer information with details about the product/service, issue, cases history, related cases, location, and so on.
 
 Having this information ready when customer is contacting the support agent can help reducing Hold Time that agent spends to retrieve the customer information, Average Handling Time (AHT), and increase customer satisfaction with faster resolution of the issue.
 
@@ -40,11 +40,11 @@ This section provides the details about the customer like name of the customer o
 
 #### Conversation summary
 
-This section provides two tabs with details that helps you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The Visitor info tab provides some information like the browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer and so on.
+This section provides two tabs with details that helps you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer. The Visitor info tab provides some information like the browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer and so on.
 
 #### Issue Snapshot
 
-For an incoming engagement request, the system links an existing case to engagement and displays in the Issue Snapshot section. This section displays certain information like title of the case, priority, status of the case, product, and owner.
+For an incoming conversation request, the system links an existing case to conversation and displays in the Issue Snapshot section. This section displays certain information like title of the case, priority, status of the case, product, and owner.
 
 #### Recent cases
 
