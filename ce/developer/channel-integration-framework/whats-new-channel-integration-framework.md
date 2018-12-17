@@ -52,10 +52,10 @@ More information: [Configure channel provider in Channel Integration Framework](
 
 ## Download Dynamics 365 Channel Integration Framework
 
-Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/?linkid=2050102).
+Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102).
 
 ## See also
 
 [Dynamics 365 Channel Integration Framework Guide](index.md)
 
-[Download Channel Integration Framework](https://go.microsoft.com/fwlink/?linkid=2050102)
+[Download Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
