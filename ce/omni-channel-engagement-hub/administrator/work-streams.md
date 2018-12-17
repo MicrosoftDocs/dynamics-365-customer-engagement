@@ -50,7 +50,7 @@ While setting up Live Chat work streams, the following properties are defined:
 
  - **Record Identification Rules**. Record identification rules help identify and assist customers better by viewing their details in a Customer 360 page. When an incoming conversation request is received, a notification pops up with contextual information for the request. When an agent accepts the incoming notification, the Customer 360 page opens with the details of the customer and case.
 
-    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: View Customer 360 for an incoming engagement request  
+    **More information**: View Customer 360 for an incoming engagement request  
 
     > [!NOTE]
     > For this preview, you can set up record identification rules while creating a new work stream. These rules are further mapped with a limited set of pre-chat questions. See Record Identification Rule in Step 2 of Create a new work stream. </br>
@@ -58,7 +58,7 @@ While setting up Live Chat work streams, the following properties are defined:
 
 - **Routing rules**. Routing rules are configured for each work stream so that conversations can be distributed to the right queues. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Create and manage routing rules in Omni-channel](routing-rules.md) 
+   **More information**: [Create and manage routing rules in Omni-channel](routing-rules.md) 
 
 - **Maximum Concurrency.** Using maximum concurrency, you can set the maximum number of conversations that can be assigned to an agent’s work list from a work stream.
 
@@ -80,7 +80,7 @@ The **Active Work Streams** view is displayed.
       - **Capacity**. Units of capacity required to process a conversation of this work stream
       - **Stream Source**. Channels supported for this work stream. Choose from Live Chat or CDS Entity.
 
-         [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [CDS entity work stream](#cds-entity-work-stream)
+         **More information**: [CDS entity work stream](#cds-entity-work-stream)
 
       - **Max Concurrency**. Maximum concurrent sessions for conversations of this work stream
       - **Auto-close after inactivity**. Time after which a conversation is moved from waiting state to closed state due to inactivity.
@@ -183,7 +183,7 @@ The **Active Work Streams** view is displayed.
     - In the **General information** section of the **General** tab, provide the following information: 
       - **Name**. Name of the rule item
       - **Work Stream** is auto populated
-      - **Queue**. Look up a queue or select New to add a new queue. More information: Create a new omni-channel queue
+      - **Queue**. Look up a queue or select New to add a new queue. </br> **More information**: [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
       - **Description**. A brief description of the rule item.
 
      - In the **Condition** section, provide the conditions for the omni-channel rule. Based on the conditions defined, the conversations are routed to the correct agents or queues. When you define conditions for the omni-channel routing rules, you can choose from:
@@ -197,7 +197,7 @@ The **Active Work Streams** view is displayed.
          - Incoming customer chat request from the portal with specific pre-chat answers should be routed to a specific queue.
          - Incoming custom entities like Change_Requests, etc. should be routed to omni-channel queue with live agents.
 
-           [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Create and manage routing rules in Omni-channel](routing-rules.md)
+           **More information**: [Create and manage routing rules in Omni-channel](routing-rules.md)
 
 
    - Select **Save** to save the rule.
