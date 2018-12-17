@@ -50,7 +50,6 @@
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
-## [Version history](mobile-project-version-history.md)
 ## FAQs + troubleshooting
 ### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
 ### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
