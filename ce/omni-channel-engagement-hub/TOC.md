@@ -1,5 +1,7 @@
 # [Omni-channel Engagement Hub](introduction-omni-channel.md)
+
 ## [Omni-channel Engagement Hub for administrator](administrator/omni-channel-engagement-hub-administrator.md)
+### [Set up chat widget](administrator/set-up-chat-widget.md)
 
 ## [Omni-channel Engagement Hub for agent](agent/omni-channel-engagement-hub-agent.md)
 ### [Sign in to Omni-channel Engagement Hub](agent/signin-unified-service-desk-omni-channel-engagement-hub.md)
