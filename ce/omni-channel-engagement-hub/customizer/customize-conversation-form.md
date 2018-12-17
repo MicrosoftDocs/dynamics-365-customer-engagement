@@ -1,5 +1,5 @@
 ---
-title: "Customize the live work Item form"
+title: "Customize the conversation form"
 description: 
 keywords: ""
 author: kabala123
@@ -12,11 +12,10 @@ ms.topic: article
 ms.assetid: 67e8fcc4-1797-4a3e-aea0-63f941afeaa5
 ms.custom: 
 ---
-# Customize the Live work item form
+# Customize the conversation forms
 
 As system customizer, you want to customize the conversation form to suit your business requirements for the agents who use Omni-channel Engagement Hub and Common Data Service Apps. You can customize the following forms:
 
 -   Conversation Form
 
--   Omni-channel Stream form
-
+-   Omni-channel Session Form

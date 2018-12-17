@@ -12,11 +12,11 @@ ms.topic: article
 ms.assetid: b3ae342f-fabd-424e-8086-8f51500575bf
 ms.custom: 
 ---
-# Left control panel
+# Conversation panel
 
-The left control panel is a communication or conversation control panel. The conversation control hosts the engagement and you can engage with you customers.
+The left control panel is a communication or conversation control panel. The conversation control hosts the conversations and you can engage with you customers.
 
-Using the chat conversation channel, you can send Quick responses and KB Articles to the customer with whom you are interacting.
+Using the chat conversation channel, you can send quick replies, search and share knowledge articles to the customer with whom you are interacting. Transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between the internal and public mode to send messages to the internal participants (other agents and/or supervisor).
 
 ![omni-channel chat panel](../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")  
 
@@ -32,15 +32,21 @@ You can use the keyboard shortcut to reply only to the agent or supervisor and t
 
 **/p** (forward slash, letter p) is the keyboard shortcut to send the message as public to the all the participants in the interaction.
 
-### Send Quick responses in the chat
+### Send quick replies in the chat
 
-When you chat with a customer, your organization may have a process that requires you to interact with a set of standard questions and answers. You can use the **Quick responses** options to retrieve the standard set of questions and replies when you are interacting with the customers.
+When you chat with a customer, your organization may have a process that requires you to interact with a set of standard questions and answers. You can use the **Quick replies** options to retrieve the standard set of questions and replies when you are interacting with the customers.
 
 ![omni-channel quick response](../media/oc-usd-quick-response.png "Omni-channel quick response")  
 
-These questions and answers are stored as Quick responses and you can use keyboard shortcut to see the list of Quick responses.
+These questions and answers are stored as quick replies and you can use keyboard shortcut to see the list of quick replies.
 
-**/q** (forward slash and letter q) is the keyboard shortcut to see list of Quick responses.
+**/q** (forward slash and letter q) is the keyboard shortcut to see list of quick replies.
+
+### Search and knowledge articles
+
+From the conversation panel you can search for the relevant knowledge articles based on the context of the session and share it with the customers through the conversation panel. Use the shortcut to launch knowledge articles search control in the right panel.
+
+**/kb** (forward slash, letter, and letter b) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the conversation panel. Use the **Send link** button to share the knowledge article link with the customer.
 
 ### Consult with agent or supervisor
 
@@ -52,9 +58,9 @@ You can use the keyboard shortcut to see the list of available agents and/or sup
 
 **/co** (forward slash, letter c and letter o) is the keyboard shortcut to see list of agents and/or supervisor who are available for consult.
 
-### Transfer the engagement request
+### Transfer the conversation
 
-When you work on engagement request, you may come across the following scenarios:
+When you work on conversation request, you may come across the following scenarios:
 
 -   You have minimal knowledge and want to route the request to another agent in the same queue.
 

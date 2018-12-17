@@ -28,9 +28,9 @@ Alert notification settings in Unified Service Desk is a multi-step process.
 
 6.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
 
-Consider a scenario—you are getting an incoming chat engagement request and what are the interaction experience for this incoming chat engagement.
+Consider a scenario—you are getting an incoming chat conversation request and what are the interaction experience for this incoming chat conversation.
 
-You see an alert notification for an incoming engagement request where you need to define the events for the following:
+You see an alert notification for an incoming conversation request where you need to define the events for the following:
 
 -   Create an event to open a session when agent selects **Accept**
 

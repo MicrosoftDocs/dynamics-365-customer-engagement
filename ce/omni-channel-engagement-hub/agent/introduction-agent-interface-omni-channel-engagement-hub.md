@@ -60,7 +60,7 @@ The quick create option provides the list of related options (entities) to acces
 
 ### Settings
 
-Omni-channel Engagement Hub settings have Debugger and About that provide insights about the code executions and about Unified Service Desk, respectively.
+Omni-channel Engagement Hub settings have **Debugger** and **About** that provide insights about the code executions and about Unified Service Desk, respectively.
 
 ![omni-channel settings](../media/oc-usd-settings.png "Omni-channel settings")  
 
@@ -70,7 +70,7 @@ Debugger in Unified Service Desk provides you with insights about the process an
 
 #### About
 
-About in Unified Service Desk provides you information about the user (agent), agent’s email Id, Microsoft Dynamics 365 server and organization, Shell Version, and so on.
+About in Unified Service Desk provides you information about the user (agent), agent’s email Id, Microsoft Dynamics 365 server and organization, Shell Version, and much more.
 
 #### Best Practices Analyzer
 
@@ -82,7 +82,7 @@ Presence is the indication of your (agent) availability or status. A presence st
 
 -   ### Base Presence: Indicates the category of availability. There are five standard base presence, and they are as follows: Available, Away, Busy, Do Not Disturb, and Offline
 
--   ### Presence Text: This is the text that is associated with a base presence category. For example: Away – Away for lunch. Away is the base presence and Away for lunch is the presence text.
+-   ### Presence Text: This is the text that is associated with a base presence category. For example: Away – Away for lunch. **Away** is the base presence and **Away for lunch** is the presence text.
 
 ![omni-channel presence status](../media/oc-usd-presence.png "Omni-channel presence status")  
 
@@ -97,4 +97,3 @@ Each session in the Unified Service Desk client is displayed on the session tab 
 The application management toolbar allows you to see the all the related information of a session. For example, you can see open the My dashboard, Search, Customer 360, view a KB article, view case details and so on using the application management toolbar. Also, you can switch between the application and session tab toolbar to effectively manage your sessions and related applications.
 
 ![omni-channel application management toolbar](../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar")  
-
