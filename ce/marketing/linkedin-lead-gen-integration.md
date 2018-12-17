@@ -89,4 +89,4 @@ When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-lin
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Configure LinkedIn Lead Gen](linkedin-configuration.md)  
 [Manage customer information](manage-customer-information.md)  
-[Market to Dynamics 365 for Customer Engagement segments on LinkedIn ](linkedin-matched-audience.md)
+[Market to Dynamics 365 for Marketing segments on LinkedIn](linkedin-matched-audience.md)
