@@ -2,7 +2,7 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: analyze survey responses; survey dashboard
-ms.date: 11/30/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -77,6 +77,8 @@ Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../in
 You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search)  
 
 ![Create custom query by using Advanced find](media/advanced-find.png "Create a custom query by using Advanced Find")  
+
+If a file is uploaded in response to the question type **File upload**, you can delete it by selecting **Delete file** on the command bar. The file is deleted from the storage.
 
 ## Store responses in a custom field by using response mapping
 
