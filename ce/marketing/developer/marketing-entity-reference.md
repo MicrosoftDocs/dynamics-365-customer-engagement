@@ -8,7 +8,7 @@ ms.technology:
   - marketing
 ms.topic: conceptual
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1550af17-6bb8-47dd-a096-1060213faf1c
 author: KumarVivek
 ms.author: kvivek
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-All the entities that are installed as part of the Dynamics 365 for Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
+All the entities that are installed as part of the Dynamics 365 for Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 for Customer Engagement to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
 
 To view information about all the entities and their properties, attributes, and relationships in your Dynamics 365 for Marketing instance, use the **Entity Metadata Browser** app. It is available as a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
 
@@ -34,7 +34,7 @@ To view information about all the entities and their properties, attributes, and
 
 ## Use Entity Metadata Browser
 
-In your Dynamics 365 instance, select **Dynamics 365** >  **Metadata Tools** to open the app.
+In your Dynamics 365 for Customer Engagement instance, select **Dynamics 365 for Customer Engagement** >  **Metadata Tools** to open the app.
 
 ![](../media/dev-metadata-browser-app.png)
 
