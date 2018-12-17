@@ -36,7 +36,7 @@ While setting up Live Chat work streams, the following properties are defined:
 
 - **Allowable Presence**. Allowable presence helps in assigning a workstream to only those agents whose presence is one of the available presence associated with the workstream. 
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Configure Presence and Custom Presence](presence-custom-presence.md) 
+  **More information**: [Configure Presence and Custom Presence](presence-custom-presence.md) 
 
  - **Capacity**. When a conversation from a work stream is assigned to an agent, it consumes some capacity. Those units of capacity are defined as capacity in the work stream. For example, a conversation in the work stream Chat from Portal carries a capacity of 20 units. When this conversation is assigned to an agent, it consumes 20 units of agent’s capacity.
 
