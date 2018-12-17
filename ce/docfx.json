@@ -218,6 +218,7 @@
     "dest": "customer-engagement",
     "groups": {            
       "usd-all": {
+        "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"
       }
     },
