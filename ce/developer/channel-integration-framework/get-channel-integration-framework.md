@@ -21,7 +21,7 @@ manager: shujoshi
 # How to get Dynamics 365 Channel Integration Framework (CIF)?
 
 Dynamics 365 Channel Integration Framework is an application (solution) available in Microsoft AppSource.
-You can get the solution from within the Dynamics 365 or directy from Microsoft AppSource. Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/?linkid=2050102).
+You can get the solution from within the Dynamics 365 or directy from Microsoft AppSource. Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102).
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ There are two ways to get Channel Integration Framework from Microsoft AppSource
 
 To get the Channel Integration Framework solution from within Dynamics 365:
 
-1. Go to [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2050102). Dynamics 365 for Channel Integration Framework application page appears.
+1. Go to [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=2050102). Dynamics 365 for Channel Integration Framework application page appears.
 
 2. Select **GET IT NOW**.<br>
     ![Dynamics 365 for Channel Integration Framework in Microsoft AppSource](media/cif-app-source.png "Dynamics 365 for Channel Integration Framework in Microsoft AppSource")
