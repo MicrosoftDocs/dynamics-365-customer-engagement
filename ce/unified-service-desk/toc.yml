@@ -207,7 +207,7 @@
       - name: 'Select a hosting method for your controls '
         href: select-hosting-method-controls.md
         items:
-        - name: Edge process
+        - name: Edge process (Preview)
           href: edge-process.md
         - name: IE process
           href: ie-process.md
