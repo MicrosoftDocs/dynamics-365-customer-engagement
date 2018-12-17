@@ -40,6 +40,8 @@ The advantages of using the Edge process hosting method are as follows:
 - it provides easy configurations to host the applications in Unified Service Desk.
 - It provides improved reliability and supportability for browser-specific issues
 
+![Advantages of Edge process](media/advantages-edge-process.PNG "Advantages of Edge process")
+
 > [!NOTE]
 > To use Edge process, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
@@ -97,7 +99,8 @@ When you are creating a new hosted control, you can select **Edge Process** as t
 
 4. To create a new hosted control, select **New**.
 
-5. On the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.
+5. On the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.<br>
+![Edge process hosted control](media/edge-process-hosted-control.PNG "Edge process hosted control")
 
 6. Select **Save** to create the hosted control.
 
