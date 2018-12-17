@@ -2,7 +2,7 @@
 title: "Viewing portal error logs and storing them in Azure Blob storage | MicrosoftDocs"
 description: "Learn how to view portal error logs and store them in your Azure Blob storage account."
 keywords: "portal error logs, store portal error logs in Azure Blob storage"
-ms.date: 12/03/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
@@ -74,7 +74,7 @@ You can enable custom errors on portals to display a professional-looking page i
 
 You can configure your portal to display a professional-looking custom error instead of a generic error.
 
-To define a custom error, use the content snippet `Portal Generic Error`. The content defined in this snippet is shown on the error page. This content snippet is not available out-of-the-box and you must create it. The content snippet **Type** can be **Text** or **HTML**. To create the content snippet, see [here](customize-content-snippets.md#edit-using-dynamics-365).
+To define a custom error, use the content snippet `Portal Generic Error`. The content defined in this snippet is shown on the error page. This content snippet is not available out-of-the-box and you must create it. The content snippet **Type** can be **Text** or **HTML**. To create or edit the content snippet, see [Customize content by using content snippets](customize-content-snippets.md).
 
 > [!NOTE]
 > If liquid code is written in the content snippet, it will be skipped and not rendered.
