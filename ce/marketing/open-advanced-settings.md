@@ -55,4 +55,4 @@ See the subtopics in this section for details about how to work with each group 
 
 ### See also
 
-[Find your way around Dynamics 365 for Marketing](navigation.md)
+[Find your way around Dynamics 365](navigation.md)
