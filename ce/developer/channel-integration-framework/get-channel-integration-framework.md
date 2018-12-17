@@ -2,7 +2,7 @@
 title: "Get Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn how to get/download, install and setup Channel Integration Framework (CIF) for Microsoft Dynamics 365."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 12/17/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -21,7 +21,7 @@ manager: shujoshi
 # How to get Dynamics 365 Channel Integration Framework (CIF)?
 
 Dynamics 365 Channel Integration Framework is an application (solution) available in Microsoft AppSource.
-You can get the solution from within the Dynamics 365 or directy from Microsoft AppSource. Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/?linkid=2050102).
+You can get the solution from within the Dynamics 365 or directy from Microsoft AppSource. Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102).
 
 ## Prerequisites
 
@@ -31,9 +31,13 @@ You can get the solution from within the Dynamics 365 or directy from Microsoft 
 
 ## Get Channel Integration Framework from Microsoft AppSource
 
+There are two ways to get Channel Integration Framework from Microsoft AppSource.
+
+### Directly from Microsoft AppSource
+
 To get the Channel Integration Framework solution from within Dynamics 365:
 
-1. Go to [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2050102). Dynamics 365 for Channel Integration Framework application page appears.
+1. Go to [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=2050102). Dynamics 365 for Channel Integration Framework application page appears.
 
 2. Select **GET IT NOW**.<br>
     ![Dynamics 365 for Channel Integration Framework in Microsoft AppSource](media/cif-app-source.png "Dynamics 365 for Channel Integration Framework in Microsoft AppSource")
@@ -48,8 +52,7 @@ To get the Channel Integration Framework solution from within Dynamics 365:
     > [!NOTE]
     > The system does not display any confirmation after the successful import of the application (solution).
 
-
-## Get Channel Integration Framework from Microsoft AppSource
+### From within Dynamics 365
 
 1. Sign in to Dynamics 365.
 
