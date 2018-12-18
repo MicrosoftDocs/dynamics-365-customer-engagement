@@ -30,11 +30,11 @@ monikerRange: '>= dynamics-usd-4'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Edge, it will work in Unified Service Desk. You can select Edge Process as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Edge, it will work in Unified Service Desk. You can select **Edge Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
 The advantages of using the Edge process hosting method are as follows:
 
-![Advantages of Edge process](media/advantages-edge-process.PNG "Advantages of Edge process")
+![Advantages of Edge Process](media/advantages-edge-process.PNG "Advantages of Edge Process")
 
 - Webpages, including Dynamics 365 pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
@@ -43,7 +43,7 @@ The advantages of using the Edge process hosting method are as follows:
 - It provides improved reliability and supportability for browser-specific issues
 
 > [!NOTE]
-> To use Edge process, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
+> To use **Edge Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
 You can set the **Edge Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
 
@@ -57,14 +57,14 @@ For example, some hosted controls have hosting type as **IE Process** and/or **I
 
 ## Enable Edge Process
 
-Enable the Edge Process by doing one of the following ways:
+Enable the **Edge Process** by doing one of the following ways:
 
 - Create a individual hosted control with hosting type as Edge
 - Enable for individual client desktops
 - Enable for entire an organization
 
 > [!NOTE]
-> Enable the Edge Process either for individual client desktops or for entire organization.
+> Enable the **Edge Process** either for individual client desktops or for entire organization.
 
 ### Create a hosted control with hosting type as Edge
 
@@ -79,7 +79,7 @@ When you are creating a new hosted control, you can select **Edge Process** as t
 4. To create a new hosted control, select **New**.
 
 5. On the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.<br>
-![Edge process hosted control](media/edge-process-hosted-control.PNG "Edge process hosted control")
+![Edge Process hosted control](media/edge-process-hosted-control.PNG "Edge Process hosted control")
 
 6. Select **Save** to create the hosted control.
 
@@ -92,7 +92,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 `<add key="GlobalBrowserMode" value="Edge"/>`
 
   > [!div class="mx-imageBorder"]
-  > ![Edge process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge process configuration setting key")
+  > ![Edge Process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge Process configuration setting key")
 
 3. Save the file.
 
@@ -116,9 +116,9 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 ## Debug Edge Process using Microsoft Edge DevTools Preview
 
-With Edge Process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. Edge DevTools helps you debug the webpage locally or remotely.
+With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. Edge DevTools helps you debug the webpage locally or remotely.
 
-In the panel, you can see all the active Edge Process. Select the desired webpage from the active list to open a new instance.
+In the panel, you can see all the active Edge process. Select the desired webpage from the active list to open a new instance.
 
 More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
@@ -156,7 +156,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Name | Incident |
 | Display Name | `[[incident.title]]` |
 | Unified Service Desk Component Type | Unified Interface Page |
-| Hosting Type | Edge process |
+| Hosting Type | Edge Process |
 | Display Group | MainPanel |
 
 ### Step 2: Create two action calls
@@ -267,13 +267,13 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 > If you set the value as `False` or leave the field blank, the option will be disabled.
 
 
-## Sign out from sessions when using the Edge process
+## Sign out from sessions when using the Edge Process
 
-To sign out from sessions when using the edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
 
 ## Limitations
 
-To learn about the limitations of the edge process, see [edge process limitations](release-notes.md)
+To learn about the limitations of the Edge process, see [Edge process limitations](release-notes.md)
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
