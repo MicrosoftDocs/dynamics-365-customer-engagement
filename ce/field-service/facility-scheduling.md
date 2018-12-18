@@ -60,49 +60,53 @@ Field Service v8.0 if work order scheduling is applicable
 
 Lets consider five scenarios to describe facility scheduling. 
 
-#### Scenario 1: Schedule a doctor's office
-#### Scenario 2: Schedule a doctor's office with 5 generic rooms 
-#### Scenario 3: Schedule a doctor's office and related doctor
-#### Scenario 4: Schedule a doctor's office with 5 specific rooms
-#### Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
+1. Schedule a doctor's office
+2. Schedule a doctor's office with 5 generic rooms 
+3. Schedule a doctor's office and related doctor
+4. Schedule a doctor's office with 5 specific rooms
+5. Schedule a doctor's office with 5 specific rooms and 5 related doctors
 
 
 ## Scenario 1: Schedule a doctor's office  
 
-in this scenario we will show how to create a single faciltiy and schedule a customer to the facility. we will also show adding capacity to the facility to allow double booking.
+In this scenario we will show how to create a single facility to represent a doctor's office and schedule a customer (patient) for an appointment at the doctor's office.
 
-### create facility
-  1. resource type = facility
-  2. organizational unit with geocode 
-  3. show working hours
-  4. add details as needed: territory, characteristics, roles 
+### Create a Facility resource 
 
+First, create a facility resource with the following attributes
+
+1. **Resource Type** = Facility
+2. **Start/end location** = Organizational Unit Address 
+   1. Since a facility represents a physical space at a physical construct, the field start location and end location must be set to Organizational Unit Address. 
+   2. The parent Organizational Unit **must have a latitude and longitude** that represents the location of the facility.
+   3. Schedule assistant can consider the Facility’s location when displaying available results. 
+3. **Display on Schedule Board** = Yes
+4. **Enable for Availability Search** = Yes
+5. (Optional) Enter Working Hours
+6. (Optional) Add related characteristics, territory, resource roles etc to distinguish facility resources from other resources and facilities.  As an example, if a doctor's office had X-ray equipment, "X-Ray" could be added as a characteristic to the facility resource. This can influence which facility resources are filtered and displayed on the Schedule Board or which facility resources are returned during a Schedule Assistant search. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create.png)
 
-#### Facility Location
 
-The location of a facility is extremely important as there is scheduling logic that is driven by the Facility’s location. For a Facility resource (resource type = facility), the location is taken from the parent organizational unit of the resource. Since a facility represents a physical space at a physical construct, the field start location and end location must be set to “Organizational Unit”. The parent Organizational Unit must have a latitude and longitude, as the Organizational Unit represents the physical construct. 
+### Create a requirement
 
-This allows a setup in which you can create many facility resources, all at the same physical location, which is represented by the organizational unit. By way of example, you may create 10 car lifts (Facilities) at one mechanic shop (Organizational Unit). Another example could be creating 5 rooms for consultations (Facilities), at the same office (Org Unit).
+Next create a requirement that calls for a facility resource.
 
-### Additional Resource Attributes
+  1. Enter **from** and **to** date
+  2. **Duration**
+  3. **Resource Type** = Facility
+     1. This allows you to decide which type of Resources should be searched when searching for availability using the Schedule Assistant on a Requirement
+     2. This means the requirement requires a facility resource to be fulfilled and ensures the schedule assistant search results return facility type resources (as opposed to personnel or equipment).
+     3. This maps to the resource type field on the resource entity
+     4. If this field is left empty, all Resources are searched
+  4. **Work Location** = Facility
+     1. This means the interaction will take place at the facility that will be scheduled and factors into travel time and distance calculations.
+     2. Find more details in the configuration considerations section of this article
+  5. **Latitude and longitude**
+    1. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location as that is taken from the organizational unit of the facility type resource  
+    2. These values can be populated through Booking Setup Metadata (BSM) or workflows
 
-Additional attributes for a facility resources are treated the same as any resource. Working hours, characteristics, roles, etc, are all still considered when it comes to scheduling resource requirements. For example, you may have certain conference rooms that are considered “large” rooms. If you have a requirement that expresses that it needs a facility with the characteristic “large room”, like any resource, the facility resource or the facility pool resource will need to have that characteristic to be a match. 
-
-### Create requirement
-  1. from/to
-  2. duration
-  3. resource type
-  4. work location
-  5. latitude and longitude
-    1. typically done through BSM or workflow
-
-Facility scheduling is designated on requirements in two ways:
-
-1) Facility is a resource type and can be specified on the requirement.This ensures that schedule assistant search results return facility type resources (as opposed to personnel or equipment). 
-2) The work location on the requirement can be set to Facility. This implies the interaction takes place at the facility and factors into travel time and distance calculations.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-requirement.png)
 
@@ -114,30 +118,23 @@ Facility scheduling is designated on requirements in two ways:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-lat-long.png)
 
-#### Requirement work location and travel time
 
-**Facility** work location implies the interaction takes place at the facility and travel time is calculated as the distance between the customer location and the facility location. The requirement latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool MUST return in schedule assistant search results in order for a resource(s) to be returned.
+### Book requirement
 
-**On Site** work location implies the interaction takes place at the customer location and travel time is calculated as the distance between the customer location and the resource (typically field technician) location, which is variable based on the resource's schedule that day. The requirement latitude and longitude fields are used as the customer location. As a result, facility resources and facility pools will be excluded from the results.
+After creating a facility resource and a requirement that calls for a facility, you can schedule a facility via drag and drop on the schedule board or via the schedule assistant.
 
-**Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time is not applicable and is not calculated. Facility resources can still be returned as part of the schedule assistant search but travel time will not be displayed or considered in ranking.
-
- ### Book requirement
-  1. work location = facility
-  2. work location = location agnostic
-  3. Pro Tip: use fulfillment preferences to organize facility appointments into neat time blocks
-
-### Schedule Assistant 
+#### Schedule Assistant 
 
 The Schedule Assistant considers availability of Resources as well as other constraints set on the Requirement such as characteristics, organizational units, categories, etc.
-Let’s explain how this set of filtering works by first focusing on the “Requirement Resource Type” attribute first.
 
-Requirement Resource Type: There is an attribute on the Resource Requirement entity called “Resource Type”. This maps to the resource type field on the resource entity discussed earlier in this document. This allows you to decide which type of Resources should be searched when searching for availability using the Schedule Assistant on a Requirement. If this field is left empty, all Resources are searched. If certain values are selected, then only those Types of Resource will be considered. If you would like a facility resource to return in the search, it is important to make sure that either the requirement resource type field is empty, or that “facility” is selected, or that “Pool” is selected with pool type of “Facility”. For more information on how this field works with facility pools, here is a link.
+Select **Book** from the requirement or requirement group forms.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of](./media/scheduling-facility-schedule-assistant-travel.png)
 
-### Schedule Assistant Location Filtering
+**Facility Travel Time**
+
 When finding availability using the schedule assistant when work location is facility, the travel information displayed will calculate from the requirement to the facility/facility pool location that is being suggested. This represents the travel for the customer to the facility. The calculation is based on the latitude and longitude on the requirement, to the location of the facility. The radius filter on the Schedule Assistant filter panel will filter based on this travel calculation and the travel information will be displayed in the Schedule Assistant.
 
 
@@ -256,7 +253,9 @@ choosing part of same as Location or Organizational Unit will organize results b
  
  **Pro Tip:** Alternatively, you can simply create an organizational Unit called Health Clinic and note that same OU on each facility resource. Then search for requirements Part of Same Organization Unit. Depending on your business needs this may be enough, though there is no direct association between the health clinic and rooms.
 
+benefit of using pool is ability to derive capacity from members
 
+This allows a setup in which you can create many facility resources, all at the same physical location, which is represented by the organizational unit. By way of example, you may create 10 car lifts (Facilities) at one mechanic shop (Organizational Unit). Another example could be creating 5 rooms for consultations (Facilities), at the same office (Org Unit).
 
 ### Facility Pool Location
 
@@ -275,7 +274,6 @@ In order to schedule groups of resources together to perform a task at a facilit
 
 
 
-
 #### Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
 
  1. Create Pool resource with pool type set to facility
@@ -286,26 +284,61 @@ In order to schedule groups of resources together to perform a task at a facilit
  6. On requirements, search for Facilities and Pool with pool type = users, contacts, accounts as needed
 
 
-if doctors only work at 1 facility then adding them as resources to same OU as the facility without association will work. if doctors work at different locations then associating them for specific time ranges is recommended. 
-
-1. create pool with type facility
-2. create facility
-  1. type = pool
-  2. pool type = facility
-  3. add resource children
-
-1.	Set the resource type to Pool, and the Pool type to Facility.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Bookable Resource with resource type set to Pool and Pool Type set to Facility](./media/scheduling-facilities-resource-pool-screenshot.png)
+> ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
+
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing facility resource linked to a parent organizational unit with start and end location set to be taken from organizational unit](./media/scheduling-facilities-start-location-and-org-unit-set.png)
+> ![Screenshot of ](./media/scheduling-facility-create-pediatrician-pool.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-pediatrician-pool-children.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-associate-pediatricians-health-clinic.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors.png)
+
+Part of same = resource tree - this ensures rooms and pediatricians are related to same resource via resource children or resource association
+Resource Type of rooms - facility
+
+resource type of pediatricians = Pool with Pool type = Users, accounts, contacts, accounts
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
+
+Resource Type of pediatricians = users, accounts, contacts
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
+
+
 
 **Pro Tip:** add fulfillment preferences to requirement to have schedule assistant results show well
+
+
+if doctors only work at 1 facility then adding them as resources to same OU as the facility without association will work. if doctors work at different locations then associating them for specific time ranges is recommended. 
+
 ## Configuration Considerations
+
+- Choosing the right Work Location
+
+  - **Facility** work location implies the interaction takes place at the facility and travel time is calculated as the distance between the customer location and the facility location. The requirement latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool MUST return in schedule assistant search results in order for a resource(s) to be returned.
+
+  - **On Site** work location implies the interaction takes place at the customer location and travel time is calculated as the distance between the customer location and the resource (typically field technician) location, which is variable based on the resource's schedule that day. The requirement latitude and longitude fields are used as the customer location. As a result, facility resources and facility pools will be excluded from the results.
+
+  - **Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time is not applicable and is not calculated. Facility resources can still be returned as part of the schedule assistant search but travel time will not be displayed or considered in ranking.
 
 - resource cannot be part of 2 facilties at same time
 - location of resource is not taken into account, it is assumed he/she is at facility
@@ -349,3 +382,11 @@ For non-facility resources, if they are part of a pool during the
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing “Part of Same” options on the requirement group control](./media/scheduling-facilities-sameness.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Bookable Resource with resource type set to Pool and Pool Type set to Facility](./media/scheduling-facilities-resource-pool-screenshot.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing facility resource linked to a parent organizational unit with start and end location set to be taken from organizational unit](./media/scheduling-facilities-start-location-and-org-unit-set.png)
