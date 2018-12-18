@@ -33,7 +33,7 @@ You must assign the two [!INCLUDE[pn_unified_service_desk](../../includes/pn-uni
   
  You must also assign the appropriate [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] security role to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrators and agents along with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] security role to facilitate appropriate access on the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] entities along with the custom [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and UII entities. For example, you should assign the **Customer Service Representative** role along with the **USD Agent** role to the agents.  
   
- For information about assigning a security role to a user or team in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Security roles and privileges](../../admin/security-roles-privileges.md) or [Manage teams](../../admin/manage-teams.md).  
+ For information about assigning a security role to a user or team in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges) or [Manage teams](/dynamics365/customer-engagement/admin/manage-teams).  
   
 ## See also  
  [Create Unified Service Desk Configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)   

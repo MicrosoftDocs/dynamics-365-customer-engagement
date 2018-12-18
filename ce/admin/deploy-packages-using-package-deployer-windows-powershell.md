@@ -85,7 +85,7 @@ search.app:
   
 9. Follow the instructions on the subsequent screens to complete the deployment of your package.  
   
-     The screens appear based on the definition of the package that you selected for deployment. For an end-to-end package deployment that uses the Package Deployer tool, see the topic for the deployment of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] packages: [Deploy sample Unified Service Desk applications to CRM Server using Package Deployer](../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+     The screens appear based on the definition of the package that you selected for deployment. For an end-to-end package deployment that uses the Package Deployer tool, see the topic for the deployment of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] packages: [Deploy sample Unified Service Desk applications to CRM Server using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer)  
   
 <a name="PD_command"></a>   
 
