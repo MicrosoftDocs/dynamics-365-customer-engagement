@@ -2,7 +2,7 @@
 title: "Setup a Postman environment(Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to setup and configure a Postman environment that connects with Dynamics 365 for Customer Engagement online and on-premise environments."
 ms.custom: 
-ms.date: 10/17/2018
+ms.date: 12/18/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -42,9 +42,7 @@ Select the connection option that works for your environment:
 ## Connect with an Online environment
 
 > [!NOTE]
-> This environment uses a Client ID for an application that is registered for all Dynamics 365 for Customer Engagement apps online environments. For your own applications you must register you’re an application using the steps described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).
-
-
+> This environment uses a Client ID for an application that is registered for all Dynamics 365 for Customer Engagement apps Online environments. For your own applications, you must register your application using the steps described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).
 
 Use these steps to create a Postman environment that you can use to connect with your Dynamics 365 for Customer Engagement apps (online) instance.
 
