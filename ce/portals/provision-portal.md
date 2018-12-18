@@ -42,7 +42,7 @@ To complete provisioning a portal, after you have purchased a new portal license
 
 4.  The **Type** field represents the type of portal subscription (Trial or Production). This is a system field, so it cannot be changed by the user. The value changes based on whether it is trial subscription or paid subscription.
 
-5. In the **Portal development status** drop-down list, select one of the following development statuses for your portal:
+5. Optionally, in the **Portal development status** drop-down list, select one of the following development statuses for your portal:
 
     - Prototype
     - Development
@@ -51,7 +51,8 @@ To complete provisioning a portal, after you have purchased a new portal license
     - Live
 
     > [!NOTE]
-    > For existing provisioned portals, this drop-down list is available on the Portal Details tab and no status is selected by default.
+    > - For existing provisioned portals, this drop-down list is available on the Portal Details tab and no status is selected by default.
+    > - This drop-down list is available only for the portals of type production.
 
 5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You can only use alphanumeric characters or hyphens (-); other characters are not permitted.
 
