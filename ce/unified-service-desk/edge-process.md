@@ -51,7 +51,9 @@ If you want to set the **Edge Process** to host the applications for an entire o
 
 If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enable Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
 
-Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes the precedence over other settings. That is, when the **Edge Process** is set at the organization level or the individual hosted controls have other hosting type (IE Process** and/or Internal WPF), the configurations take the value set in the **UnifiedServiceDesk.exe.config** file and uses the **Edge Process** to host the applications.
+Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes the precedence over other settings. 
+
+For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. For a few agents, in their client desktops, you have set **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Edge Process** to host the applications.
 
 ## Enable Edge Process
 
