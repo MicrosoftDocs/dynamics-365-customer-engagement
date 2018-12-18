@@ -154,7 +154,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
    |Order|5|  
    |From|Contoso Accounts Search|  
    |Entity|account|  
-   |Route Type|Popup|  
+   |Route Type|In Place|  
    |Destination|Tab|  
    |Action|Create Session|  
    |Target Tab|Contoso Account Session|  
