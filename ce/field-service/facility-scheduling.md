@@ -133,28 +133,30 @@ Select **Book** from the requirement or requirement group forms.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of](./media/scheduling-facility-schedule-assistant-travel.png)
 
-**Facility Travel Time**
-
-When finding availability using the schedule assistant when work location is facility, the travel information displayed will calculate from the requirement to the facility/facility pool location that is being suggested. This represents the travel for the customer to the facility. The calculation is based on the latitude and longitude on the requirement, to the location of the facility. The radius filter on the Schedule Assistant filter panel will filter based on this travel calculation and the travel information will be displayed in the Schedule Assistant.
-
+**Facility travel time and distance** calculations in the schedule assistant results above represent the time and distance between the facility resource location (as defined by location of related organizational unit) and the customer's lcoation (as defined by the latitude and longitude values on the requirement). The radius filter on the Schedule Assistant filter panel will filter based on this travel calculation
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-assistant-no-travel.png)
 
+**Filtering work location to location agnostic** will remove travel time and distance calculations from schedule assistant results. 
 
+#### Schedule Board
 
-### View schedule board
+Scheduling a facility is just like scheduling any other resource. You can drag and drop requirements to create bookings, you can drag existing bookings to change the time or resource, or you can use the Schedule Assistant to help sift through the list of facilities based on availability and other constraints.
+
+To view facility resources on the schedule board, filter by resource type and/or organizational units.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-board-filter.png)
+
+Facility resource will also be displayed on the schedule board map based on the location of the related organizational unit.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-board-map.png)
 
-### Schedule Board
 
-Scheduling a facility is just like scheduling any other resource. You can drag and drop requirements to create bookings, you can drag existing bookings to change the time or resource, or you can use the Schedule Assistant to help sift through the list of facilities based on availability and other constraints.
 
-#### Scenario 2: Schedule a doctor's office with 5 generic rooms
+## Scenario 2: Schedule a doctor's office with 5 generic rooms
 
 **Pro Tip:** by adding a capacity to a facility resource you can allow double bookings up to the capacity.
 
