@@ -45,49 +45,26 @@ The advantages of using the Edge process hosting method are as follows:
 > [!NOTE]
 > To use Edge process, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
-Setting the **GlobalBrowser** mode key to **Edge** in the application configuration file (UnifiedServiceDesk.exe.config) for a particular client desktop takes the precedence over other settings. That is, even though at the organization level or if the hosted controls have different hosting type such as **IE Process** and/or **Internal WPF**, the settings from the application configuration file (UnifiedServiceDesk.exe.config) takes the precedence and uses the Edge Process to host the applications.
+You can set the **Edge Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
+
+If you want to set the **Edge Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Edge**. More information: [Enable Edge for Unified Service Desk on client desktop](edge-process.md#enable-edge-for-unified-service-desk-on-client-desktop)
+
+If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enable Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
+
+Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes the precedence over other settings. That is, when the **Edge Process** is set at the organization level or the individual hosted controls have other hosting type (IE Process** and/or Internal WPF), the configurations take the value set in the **UnifiedServiceDesk.exe.config** file and uses the **Edge Process** to host the applications.
 
 ## Enable Edge Process
 
 Enable the Edge Process by doing one of the following ways:
 
+- Create a individual hosted control with hosting type as Edge
 - Enable for individual client desktops
 - Enable for entire an organization
 
 > [!NOTE]
 > Enable the Edge Process either for individual client desktops or for entire organization.
 
-### Enable Edge for Unified Service Desk on client desktop
-
-1. Go to directory where you have installed Unified Service Desk and double-click to open the UnifiedServiceDesk.exe.config file.
-Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
-2. Under the `<appSettings>` section add the new key.<br>
-`<add key="GlobalBrowserMode" value="Edge"/>`
-
-  > [!div class="mx-imageBorder"]
-  > ![Edge process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge process configuration setting key")
-
-3. Save the file.
-
-### Enable Edge for an entire organization
-
-Add a new Global UI option for your organization named **GlobalBrowserMode**. Specify the value as **Edge**.
-
-1. Sign in to Dynamics 365.
-
-2. Go to **Settings** > **Unified Service Desk** > **Options**.
-
-3. On the **Active UII Options** page, select **New**.
-
-4. Choose **Others** for the **Global Option** field.
-
-5. Type **GlobalBrowserMode** for the **Name** field.
-
-6. Type **Edge** for the **Value** field.
-
-7. Select **Save**.
-
-## Create a hosted control with hosting type as Edge
+### Create a hosted control with hosting type as Edge
 
 When you are creating a new hosted control, you can select **Edge Process** as the **Hosting Type**.
 
@@ -103,6 +80,37 @@ When you are creating a new hosted control, you can select **Edge Process** as t
 ![Edge process hosted control](media/edge-process-hosted-control.PNG "Edge process hosted control")
 
 6. Select **Save** to create the hosted control.
+
+### Enable Edge for Unified Service Desk on client desktop
+
+1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
+Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
+
+2. Under the `<appSettings>` section add the new key.<br>
+`<add key="GlobalBrowserMode" value="Edge"/>`
+
+  > [!div class="mx-imageBorder"]
+  > ![Edge process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge process configuration setting key")
+
+3. Save the file.
+
+### Enable Edge for an entire organization
+
+Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Edge**.
+
+1. Sign in to Dynamics 365.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the **Active UII Options** page, select **New**.
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **GlobalBrowserMode** for the **Name** field.
+
+6. Type **Edge** for the **Value** field.
+
+7. Select **Save**.
 
 ## Debug Edge Process using Microsoft Edge DevTools Preview
 
