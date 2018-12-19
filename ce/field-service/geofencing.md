@@ -2,7 +2,7 @@
 title: "Geofencing for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/24/2018
+ms.date: 12/18/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
