@@ -3,7 +3,7 @@ title: "Edge Process hosting method for your controls in Unified Service Desk fo
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 12/17/2018
+ms.date: 12/19/2018
 ms.service: dynamics-365-customerservice
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -45,15 +45,21 @@ The advantages of using the Edge process hosting method are as follows:
 > [!NOTE]
 > To use **Edge Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
+## Edge Process for settings
+
 You can set the **Edge Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
 
 If you want to set the **Edge Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Edge**. More information: [Enable Edge for Unified Service Desk on client desktop](edge-process.md#enable-edge-for-unified-service-desk-on-client-desktop)
 
-If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enable Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
+If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enabsle Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
+
+### Order of precedence
+
+- Setting the **GlobalBrowserMode** Global UII option value as **Edge**, takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. At the organization level, you set **GlobalBrowserMode** Global UII option value as **Edge**. In this scenario, the Global UII option takes precedence and configuration uses the **Edge Process** to host the applications. 
+
+- Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. For a few agents, in their client desktops, you have set **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Edge Process** to host the applications.
 
 Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes the precedence over other settings. 
-
-For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. For a few agents, in their client desktops, you have set **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Edge Process** to host the applications.
 
 ## Enable Edge Process
 
