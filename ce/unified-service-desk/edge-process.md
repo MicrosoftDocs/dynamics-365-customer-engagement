@@ -45,7 +45,7 @@ The advantages of using the Edge process hosting method are as follows:
 > [!NOTE]
 > To use **Edge Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
-## Edge Process for settings
+## Edge Process settings
 
 You can set the **Edge Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
 
