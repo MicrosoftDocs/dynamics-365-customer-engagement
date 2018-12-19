@@ -39,7 +39,7 @@ You can convert a FetchXML query to a query expression with the <xref:Microsoft.
   
 ## Tools
 
-The [XrmToolBox FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xrm.FetchXmlBuilder/) provides a user interface to compose and execute FetchXML queries. Please see the [Developer tools](developer-tools.md) topic for community developed tools and [fxb.xrmtoolbox.com](http://fxb.xrmtoolbox.com) for more information about FetchXML Builder.
+The [XrmToolBox FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xrm.FetchXmlBuilder/) provides a user interface to compose and execute FetchXML queries. Please see the [Developer tools](../developer-tools.md) topic for community developed tools and [fxb.xrmtoolbox.com](http://fxb.xrmtoolbox.com) for more information about FetchXML Builder.
 > [!NOTE]
 > The XrmToolBox FetchXML Builder is not a product of [!include[pn_microsoft_dynamics](../../includes/pn-microsoft-dynamics.md)] and does not extend support to it. If you have questions pertaining to the FetchXML Builder, please contact the [publisher](http://fxb.xrmtoolbox.com/). More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
