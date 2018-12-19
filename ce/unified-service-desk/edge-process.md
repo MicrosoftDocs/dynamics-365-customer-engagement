@@ -108,6 +108,8 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Edge**.
 
+![Edge process global uii option](media/edge-process-global-uii-option.gif "Edge process global uii option")
+
 1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
