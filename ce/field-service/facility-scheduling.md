@@ -73,7 +73,11 @@ In this scenario we will show how to create a single facility to represent a doc
 
 ### Create a Facility resource 
 
-First, create a facility resource with the following attributes
+First, navigate to **Universal Resource Scheduling > Resources** and create a facility resource with the following attributes.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/resource-new.png)
 
 1. **Resource Type** = Facility
 2. **Start/end location** = Organizational Unit Address 
@@ -133,7 +137,7 @@ Select **Book** from the requirement or requirement group forms.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of](./media/scheduling-facility-schedule-assistant-travel.png)
 
-**Facility travel time and distance** calculations in the schedule assistant results above represent the time and distance between the facility resource location (as defined by location of related organizational unit) and the customer's lcoation (as defined by the latitude and longitude values on the requirement). The radius filter on the Schedule Assistant filter panel will filter based on this travel calculation
+**Facility travel time and distance** calculations in the schedule assistant results above represent the time and distance between the facility resource location (as defined by location of related organizational unit) and the customer's lcoation (as defined by the latitude and longitude values on the requirement). The radius filter on the Schedule Assistant filter panel will filter based on this travel calculation.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-assistant-no-travel.png)
@@ -158,59 +162,70 @@ Facility resource will also be displayed on the schedule board map based on the 
 
 ## Scenario 2: Schedule a doctor's office with 5 generic rooms
 
-**Pro Tip:** by adding a capacity to a facility resource you can allow double bookings up to the capacity.
+In this scenario we will assume a doctor's office has 5 identical rooms and schedulers do not need to book each room specifically, but must ensure that no more than 5 patients are booked across all rooms during any one time slot.
+
+First navigate to your facility resource and select **Show Work Hours**
+
+When choosing hours, select **Show Capacity** and enter **5**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-capcity.png)
 
+This means when booking a facility via the schedule assistant, the facility resource will show as available and can be double booked up to the capacity limit in this case 5 times.  
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-double-book.png)
 
-in the example above, 2 separate requirements for a facility were both scheduled to the same facility at the same time slot. becuase the capcity was set to 5 up to 5 bookings can be scheduled.  you cannot book the same requirement 5 times, separate ones can be scheduled.
+In the image above, two separate requirements for a facility were both scheduled to the same facility during the same time slot.
 
-This represents a group of facilities and allows you to schedule to a generic capacity of facilities as opposed to needing to select a specific facility. For example, you may have 10 rooms, but you don’t care to pick a specific room when scheduling, since you can figure that out later. However, you still want to ensure a room will be available. In this case, you would setup a facility pool. For more about pools, see this post. It is also worth reading the capacity section of the pool post to understand further.
-
-- good for scenarios where facilities are the same and can increase capacity to account for cancellations
-
+> [!Note]
+> Capacity scheduling is not intended to be used to book the same requirement multiple times, but rather book multiple requirements. Rebooking a previously booked requirement will cancel the existing booking and create a new one.
 
 
+**Pro Tip:** It is advantageous to use Resource Pools for capacity scheduling because pool capacity can be defined by the number of pool members. 
 
-#### Scenario 3: Schedule a doctor's office and related doctor
 
+## Scenario 3: Schedule a doctor's office and related doctor
 
+In the following scenario we will show how to schedule a doctors office along with a related doctor.
+
+First, create two resources, one to represent a facility (resource type = facility) and the other to represent a doctor (Resource Type = User/Contact/Account).
+
+> [!Note]
+> Resource type of User is typically designated for employees who access Dynamics 365 data and consume a license, whereas Contact and Account resource types are for contractors who need to be scheduled but typically do not consume a license or access Dynamics data.
+
+Below is an example of a facility resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-facility-north-seattle.png)
 
-Resource Associations (msdyn_bookableresourceassociations)
+From the facility resource, navigate to **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (msdyn_bookableresourceassociations).
+
+From here, associate the resource that represents the doctor. 
+
+In the picture below, Abraham McCormick represents a doctor and is associated to Doctors Office North Seattle that represents the doctor's office.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-associate-doctor.png)
 
+Next, create a requirement group with one requirement that calls for a doctors office (Resource Type = Facility) and another requirement that calls for a doctor (Resource Type = User/Contact/Account).
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-requirement-facility-with-resource.png)
 
-### Scheduling a Group of Resources at a Facility
-
->Work Location = Facility: When scheduling a requirement group, which consists of multiple requirements, the teams of resources the Schedule Assistant returns must contain at least one facility or facility pool. 
-
-In order to make sure that teams of resources from different locations are not recommended for work taking place at a facility, the attribute on the requirement relationship entity (msdyn_requirementrelationship) called “part of same” is leveraged. This attribute is exposed on the requirement group control. 
-
-
-**Same Location** – Same location means that only teams of resources working at the same location will be returned. This uses the logic expressed in this document to determine the location, using the Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities. Using this option, regardless of which specific facility or facility pool other non-facility resources may be associated to, all that matters is that the resources are at the same physical location (organizational unit).
-
-**Same Resource Tree** – Related Resource Pools adds an extra layer of stringency to the search. This means that the teams assembled must actually be associated to the same exact facility, or facility pool to be returned as a team. For example, let’s assume there is one physical location, Location A. 
 
 > [!Note]
->If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
+> Work Location = Facility: When scheduling a requirement group, which consists of multiple requirements, the teams of resources the Schedule Assistant returns must contain at least one facility or facility pool. 
 
-At location A are 2 Facilities, facility 1 and facility 2. If Resource 1 is associated to Facility 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility 1+Resource 1. Facility 2 and Resource 1 cannot be returned. This combo could however be returned if “Same Location” is the only option selected. 
+**Pro Tip:** Using the Select **All** field in the requirement group means that both requirements need to be fulfilled ie 2 resources.
 
-So too with Facility Pools. Let’s assume there is one physical location, Location A. At location A are 2 Facilities, facility 1 and facility 2, as well as a Facility Pool (Facility Pool 1). If Resource 1 is associated to Facility Pool 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility Pool 1 (or one of it’s child facilities)+Resource 1. 
 
-**Same Organizational Unit** – A more stringent option you can select is same organizational unit. This option ensures that the parent organizational unit of the resources are the same. It does not check the bookable resource group or the bookable resource association entity. It is just checking the parent organizational unit.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-create-requirement-facility-with-resource-ALL.png)
 
->If your implementation uses requirements that are location agnostic, this option may be used without either of the other two options, however it completely ignores the two aforementioned entities (associations and groups). This could work in a simple implementation where resources are always staffed at the same location, and you do not need the advanced location search functionality of the work location “facility”.
+Next, set the **Part of Same** field to **Resource Tree** in the requirement group to ensure only doctors associated to the related doctor's office are recommended in schedule assistant results. As an example, if Facility A is recommended in schedule assistant search results, then only doctors associated to Facility A should be paired. Find more details on the part of same field in requirement groups in the configuration considerations section of this article.
+
+In order to make sure that teams of resources from different locations are not recommended for work taking place at a facility, the attribute on the requirement relationship entity (msdyn_requirementrelationship) called “part of same” is leveraged. This attribute is exposed on the requirement group control. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-assistant-with-person.png)
@@ -342,9 +357,22 @@ if doctors only work at 1 facility then adding them as resources to same OU as t
 
   - **Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time is not applicable and is not calculated. Facility resources can still be returned as part of the schedule assistant search but travel time will not be displayed or considered in ranking.
 
-- resource cannot be part of 2 facilties at same time
-- location of resource is not taken into account, it is assumed he/she is at facility
-- associate capacity to facility
+- Choosing the right Part of Same option
+
+  - **Same Location** – Same location means that only teams of resources working at the same location will be returned. This uses the logic expressed in this document to determine the location, using the Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities. Using this option, regardless of which specific facility or facility pool other non-facility resources may be associated to, all that matters is that the resources are at the same physical location (organizational unit).
+
+  - **Same Resource Tree** – Related Resource Pools adds an extra layer of stringency to the search. This means that the teams assembled must actually be associated to the same exact facility, or facility pool to be returned as a team. For example, let’s assume there is one physical location, Location A. 
+
+   > [!Note]
+   >If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
+
+   > At location A are 2 Facilities, facility 1 and facility 2. If Resource 1 is associated to Facility 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility 1+Resource 1. Facility 2 and Resource 1 cannot be returned. This combo could however be returned if “Same Location” is the only option selected. 
+
+   > So too with Facility Pools. Let’s assume there is one physical location, Location A. At location A are 2 Facilities, facility 1 and facility 2, as well as a Facility Pool (Facility Pool 1). If Resource 1 is associated to Facility Pool 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility Pool 1 (or one of it’s child facilities)+Resource 1. 
+
+  - **Same Organizational Unit** – A more stringent option you can select is same organizational unit. This option ensures that the parent organizational unit of the resources are the same. It does not check the bookable resource group or the bookable resource association entity. It is just checking the parent organizational unit.
+
+   > If your implementation uses requirements that are location agnostic, this option may be used without either of the other two options, however it completely ignores the two aforementioned entities (associations and groups). This could work in a simple implementation where resources are always staffed at the same location, and you do not need the advanced location search functionality of the work location “facility”.
 
 ### Booking Location
 
@@ -360,6 +388,8 @@ For non-facility resources, if they are part of a pool during the
 
 ## Additional Notes
 
+- location of resource is not taken into account, it is assumed he/she is at facility
+- resource cannot be part of 2 facilties at same time
 - cannot show everyone at a facility right now. however if everone has same OU than can filter by OU
 - manually scheduling a single requirement to a facility will not create records for all people to facility
 > [!Note]
