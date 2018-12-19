@@ -69,7 +69,7 @@ This section describes how to integrate [!INCLUDE[pn_MicrosoftCognitiveServices_
 
 ### See also  
 
-[Suggest similar cases for a case](../customer-service/suggest-similar-cases-for-a-case.md)
+[Use advanced similarity rules to view similar cases suggestions](../customer-service/suggest-similar-cases-for-a-case.md)
 
 [Auto suggest knowledge articles](../admin/public-preview-automatically-suggest-knowledge-articles.md)
 
