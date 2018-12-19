@@ -24,13 +24,13 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-FetchXML is a proprietary query language that is used in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. It’s based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expressions. In addition, it’s used as a serialized form of query, used to save a query as a user-owned saved view in the [UserQuery Entity](../entities/userquery.md) and as an organization-owned saved view in the [SavedQuery Entity](../entities/savedquery.md).  
+FetchXML is a proprietary query language that is used in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. It’s based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expressions. In addition, it’s used as a serialized form of query, used to save a query as a user-owned saved view in the [UserQuery Entity](../entities/userquery.md) and as an organization-owned saved view in the [SavedQuery Entity](../entities/savedquery.md).  
   
 ## Execute queries in code
 A FetchXML query can be executed by using either the Web API or the Organization service.
 
 ### Web API
-You can pass a URL encoded FetchXml string to the appropriate entityset using the `fetchXml` query string parameter. More information: [Use custom FetchXML](../webapi/retrieve-and-execute-predefined-queries.md#use-custom-fetchxml).
+You can pass a URL encoded FetchXML string to the appropriate entityset using the `fetchXml` query string parameter. More information: [Use custom FetchXML](../webapi/retrieve-and-execute-predefined-queries.md#use-custom-fetchxml).
 
 ### Organization service
 Use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method passing an <xref:Microsoft.Xrm.Sdk.Query.FetchExpression> where the <xref:Microsoft.Xrm.Sdk.Query.FetchExpression.Query> property contains the FetchXml query.
@@ -43,7 +43,7 @@ The [XrmToolBox FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xr
 > [!NOTE]
 > The XrmToolBox FetchXML Builder is not a product of [!include[pn_microsoft_dynamics](../../includes/pn-microsoft-dynamics.md)] and does not extend support to it. If you have questions pertaining to the FetchXML Builder, please contact the [publisher](http://fxb.xrmtoolbox.com/). More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
-Advanced Find includes the capability to download the FetchXML for the query using the **Download Fetch XML** command. More information: [Create, edit, or save an Advanced Find search](../../basics/save-advanced-find-search.md)
+Advanced Find includes the capability to download the FetchXML for the query using the **Download FetchXML** command. More information: [Create, edit, or save an Advanced Find search](../../basics/save-advanced-find-search.md)
   
 ## In This Section
 
