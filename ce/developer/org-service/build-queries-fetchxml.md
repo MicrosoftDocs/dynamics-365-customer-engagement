@@ -2,7 +2,7 @@
 title: "Build queries with FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "FetchXML is a proprietary query language that is used in Dynamics 365 for Customer Engagement (online) Customer Engagement. A FetchXML query can be executed by using the IOrganizationService.QueryBase) method. FetchXML query can be converted to a query expression with the FetchXmlToQueryExpressionRequest message"
 ms.custom: 
-ms.date: 12/31/2017
+ms.date: 12/19/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -39,11 +39,11 @@ You can convert a FetchXML query to a query expression with the <xref:Microsoft.
   
 ## Tools
 
-The [XrmToolBox FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xrm.FetchXmlBuilder/) provides a user interface to compose and execute FetchXml queries.
+The [XrmToolBox FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xrm.FetchXmlBuilder/) provides a user interface to compose and execute FetchXML queries. Please see the [Developer tools](developer-tools.md) topic for community developed tools and [fxb.xrmtoolbox.com](http://fxb.xrmtoolbox.com) for more information about FetchXML Builder.
 > [!NOTE]
-> The XrmToolBox FetchXML Builder is not a product of [!include[pn_microsoft_dynamics](../../includes/pn-microsoft-dynamics.md)] and does not extend support to it. If you have questions pertaining to the FetchXML Builder, please contact the [publisher](http://fxb.xrmtoolbox.com/).
+> The XrmToolBox FetchXML Builder is not a product of [!include[pn_microsoft_dynamics](../../includes/pn-microsoft-dynamics.md)] and does not extend support to it. If you have questions pertaining to the FetchXML Builder, please contact the [publisher](http://fxb.xrmtoolbox.com/). More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
-Advanced Find includes the capability to download the FetchXML for the query using the **Dowload Fetch XML** command. More information: [Create, edit, or save an Advanced Find search](../../basics/save-advanced-find-search.md)
+Advanced Find includes the capability to download the FetchXML for the query using the **Download Fetch XML** command. More information: [Create, edit, or save an Advanced Find search](../../basics/save-advanced-find-search.md)
   
 ## In This Section
 

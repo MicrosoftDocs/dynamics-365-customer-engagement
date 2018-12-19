@@ -2,7 +2,7 @@
 title: "Developer tools (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the developer tools provided for use with Dynamics 365 for Customer Engagement."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 12/19/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: 87099d51-4abe-406c-8f2d-e2375292bb64
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -31,9 +31,11 @@ This section provides a single location for you to learn about the developer too
 
 - [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources.
 
+- [FetchXML Builder](http://fxb.xrmtoolbox.com) - Provides a UI to compose FetchXML queries, execute, convert to code, update system views etc. More information: [Build queries with FetchXML](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/org-service/build-queries-fetchxml)
+
 - [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator) - The tool helps you to copy and apply the layout of a particular view to multiple views of the same entity.
 
-- [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you to view layouts and modify queries using FetechXML builder.
+- [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you to view layouts and modify queries using FetechXML Builder.
 
 - [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](download-tools-NuGet.md) and display the command lines that are used to create theses classes.
 
@@ -50,6 +52,8 @@ This section provides a single location for you to learn about the developer too
 - [Iconator](https://www.xrmtoolbox.com/plugins/MscrmTools.Iconator) - The tool helps you to manage entities.
 
 - [Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator) - The tool helps you to export and import translation of the content with contextual information.
+
+- [Auto Number Manager](http://anm.xrmtoolbox.com) - Provides a UI to set, update and remove auto number format on new or existing attributes. More information: [Create auto-number attributes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/create-auto-number-attributes)
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] apps and does not extend support to the community tools. 
