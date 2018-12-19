@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Service Scheduling overview
+# Service Scheduling Guide
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -237,6 +237,11 @@ Scheduling entities are grouped under the following logical groups:
    Create a service activity by finding the next time resources are available for a service. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
+
+- **Fulfillment Preferences** </br>
+    Choose and customize how to display schedule assistant results, like with neat hourly appointments or morning and afternoon time windows.
+
+    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
 
 **Tools**
 

@@ -49,13 +49,13 @@ If you want to add content access level in a knowledge article from the Customer
 
 1. Open the Customer Service Hub app in App designer.
 
-    ![Open app designer](media/csh-app-designer.png Open app designer)
+    ![Open app designer](media/csh-app-designer.png "Open app designer")
 
 2. Under **Entity View**, select the **Forms** tile for the **Knowledge Article** entity.
 
 3. In the **Components** pane, select **Portal Knowledge Article for Interactive experience**.
 
-    ![Add Portal knowledge article form](media/kb-content-access-level.png Add Portal knowledge article form)
+    ![Add Portal knowledge article form](media/kb-content-access-level.png "Add Portal knowledge article form")
 
 4. Save and publish the changes.
 
@@ -65,15 +65,15 @@ If you want to add content access level in a knowledge article from the Customer
 
 7. From the **Knowledge Article** box, select **Portal Knowledge Article for Interactive experience**.
 
-    ![Select Portal knowledge article form](media/kb-portal-select.png Select Portal knowledge article form)
+    ![Select Portal knowledge article form](media/kb-portal-select.png "Select Portal knowledge article form")
 
 8. On the **Summary** tab, under **Related information**, select **Content Access Levels** (lock icon) from the toolbar to add content access level.
 
-    ![Select Content Access Levels](media/kb-select-lock-icon.png Select Content Access Levels)
+    ![Select Content Access Levels](media/kb-select-lock-icon.png "Select Content Access Levels")
 
 9. From **More Commands**, select **Add Existing Content Access Level**.
 
-    ![Add Content Access Level](media/kb-add-content-access-level.png Add Content Access Level)
+    ![Add Content Access Level](media/kb-add-content-access-level.png "Add Content Access Level")
 
 10. In the **Lookup Records** pane, browse and select the content access level.
 
@@ -90,11 +90,11 @@ In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you 
 
 3. On the **Summary** tab, under **Related information**, select **Content Access Levels** (lock icon) from the toolbar to add content access level.
 
-    ![Select Content Access Levels](media/kb-select-lock-icon.png Select Content Access Levels)
+    ![Select Content Access Levels](media/kb-select-lock-icon.png "Select Content Access Levels")
 
 4. From **More Commands**, select **Add Existing Content Access Level**.
 
-    ![Add Content Access Level](media/kb-add-content-access-level.png Add Content Access Level)
+    ![Add Content Access Level](media/kb-add-content-access-level.png "Add Content Access Level")
 
 5. In the **Lookup Records** pane, browse and select the content access level.
 

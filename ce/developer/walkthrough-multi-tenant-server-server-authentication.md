@@ -544,7 +544,7 @@ namespace <Your app namespace>
 ```
 System.ServiceModel.Security.MessageSecurityException  
 HResult=-2146233087  
-  Message=The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'Bearer authorization_uri=https://login.windows.net/4baaeaaf-2771-4583-99eb-7c7e39aa1e74/oauth2/authorize, resource_id=https://<org name>.crm.dynamics.com/'.  
+  Message=The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'Bearer authorization_uri=https://login.microsoftonline.com/4baaeaaf-2771-4583-99eb-7c7e39aa1e74/oauth2/authorize, resource_id=https://<org name>.crm.dynamics.com/'.  
 InnerException.Message =The remote server returned an error: (401) Unauthorized.  
 ```  
   

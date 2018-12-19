@@ -1,7 +1,7 @@
 ---
 title: "Add and customize marketing calendars for any form or entity (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 for Marketing"
-keywords: "marketing execution;email;landing page;marketing page;customer journey"
+keywords: marketing execution;email;landing page;marketing page;customer journey
 ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 

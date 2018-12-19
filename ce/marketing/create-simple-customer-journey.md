@@ -31,7 +31,7 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
-As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the *customer journey*. Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more.
+As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more.
 
 A simple customer journey can include just two steps: identifying the target segment and creating an activity that addresses the members of that segment. In the following procedure, you'll set up a simple customer journey that sends an email message to all the members of a target segment.
 
@@ -57,9 +57,9 @@ To create a customer journey that executes a one-time email blast:
     Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment. Drag a **Segment Group** tile from the **Toolbox** tab onto the first position of the pipeline.
 
 4. Select the expand button at the lower-right corner of your new **Segment Group** tile to view the member segments of this group. Right now, there's just one, so select it.  
-    ![Expand the segment tile to view its child tiles](media/journey-segment-expand.png "Expand the segment tile to view its child tiles")
+    ![Expand the segment tile to view its nested tiles](media/journey-segment-expand.png "Expand the segment tile to view its nested tiles")
 
-5. With the child segment still selected, open the **Properties** tab to the right of the canvas.
+5. With the nested segment still selected, open the **Properties** tab to the right of the canvas.
     ![Assign a segment to the segment tile](media/journey-segment-props.png "Assign a segment to the segment tile")
 
     The **Properties** tab provides settings that apply to the selected tile. Set the **Segment** to the name of the segment that you want to target with your campaign.
@@ -109,13 +109,13 @@ To create a customer journey that executes a one-time email blast:
 
      [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
 
-12. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and see how your journey is going. Open your customer journey and switch to the **Customer journey: Insights** form view by using the drop-down list above the journey-name headline.
+12. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and see how your journey is going. Open your customer journey in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and switch to the **Customer journey: Insights** form view by using the drop-down list above the journey-name headline.
      ![Location of the view selector](media/journey-view-selector.png "Location of the view selector")
 
      From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
 
     > [!TIP]
-    > Many entities provide an **Insights** form view for analyzing the results of your marketing initiatives, including marketing emails. For example, try opening the record for the email message you sent with this customer journey and check its **Marketing email: Insights** form view for even more information.
+    > Many entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide an **Insights** form view for analyzing the results of your marketing initiatives, including marketing emails. For example, try opening the record for the email message you sent with this customer journey and check its **Marketing email: Insights** form view for even more information.
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Customer-journey tiles (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 for Marketing"
-keywords: "customer journey; tile; reference; pipeline"
+keywords: customer journey; tile; reference; pipeline
 ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -81,7 +81,7 @@ Event tiles provide the following settings in the **Properties** pane while sele
 - **Event**: Identify the event record represented by the tile. Start typing an event name to select an existing event, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
 
 ### Survey
 
