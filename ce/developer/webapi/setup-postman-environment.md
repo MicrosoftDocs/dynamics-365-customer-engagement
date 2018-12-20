@@ -76,7 +76,8 @@ To connect using **OAuth 2.0**, you must have an access token. Use the following
 1. Select the **Authorization** tab.
 1. Set the **Type** to **OAuth 2.0**.
 1. Verify that you have selected the environment that you created.
-1. Select **Get New Access Token**.<br>
+1. Select **Get New Access Token**
+
     ![In Authorization tab, set Type to OAuth 2.0](../media/postman-set-type.png)<br>
 1. Set the following values in the dialog box. Select `Implicit` from the **Grant Type** drop-down menu. You can set the **Token Name** to whatever you like, and leave other keys set to default values.<br>
 
