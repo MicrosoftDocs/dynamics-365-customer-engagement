@@ -17,11 +17,11 @@ ms.custom:
 
 When you sign in to Unified Service Desk, the Omni-channel Engagement interface has the following components:
 
--   Omni-channel toolbar
+ - Omni-channel toolbar
 
--   Session tab management toolbar
+ - Session tab management toolbar
 
--   Application tab management toolbar
+ - Application tab management toolbar
 
 ![omni-channel engagement hub agent interface](../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
 
@@ -29,13 +29,13 @@ When you sign in to Unified Service Desk, the Omni-channel Engagement interface 
 
 The Omni-channel toolbar also called as default global toolbar as the components are
 
--   Search
+ - Search
 
--   Create
+ - Create
 
--   Settings
+ - Settings
 
--   Presence
+ - Presence
 
 ![default global toolbar](../media/oc-usd-global-toolbar.png "Default global toolbar")  
 
@@ -43,13 +43,13 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
 The search option in Omni-channel Engagement Hub lets you to search records and open the record in a new active session. You can search for the following records using the search option:
 
--   Case
+ - Case
 
--   Contact
+ - Contact
 
--   Account
+ - Account
 
--   Phone call
+ - Phone call
 
 -   Task Email
 
@@ -81,11 +81,11 @@ Best practices are the guidelines about System Configurations, Unified Service D
 
 Presence is the indication of your (agent) availability or status. A presence status comprises of two core elements:
 
--   ### Base Presence: Indicates the category of availability. There are five standard base presence, and they are as follows: Available, Away, Busy, Do Not Disturb, and Offline
+ - Base Presence: Indicates the category of availability. There are five standard base presence, and they are as follows: Available, Away, Busy, Do Not Disturb, and Offline
 
--   ### Presence Text: This is the text that is associated with a base presence category. For example: Away – Away for lunch. **Away** is the base presence and **Away for lunch** is the presence text.
+ - Presence Text: This is the text that is associated with a base presence category. For example: Away – Away for lunch. **Away** is the base presence and **Away for lunch** is the presence text.
 
-![omni-channel presence status](../media/oc-usd-presence.png "Omni-channel presence status")  
+ ![omni-channel presence status](../media/oc-usd-presence.png "Omni-channel presence status")  
 
 ## Session management toolbar
 

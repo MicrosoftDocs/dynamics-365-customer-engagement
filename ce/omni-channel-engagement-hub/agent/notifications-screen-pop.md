@@ -18,23 +18,23 @@ Notification is a visual alert you see as a dialog box each time you get a call,
 
 Some of the scenarios where you can see the screen pop or notifications are:
 
--   Incoming chat
+ - Incoming chat
 
--   Incoming email
+ - Incoming email
 
--   Case assignment
+ - Case assignment
 
--   Case transfer
+ - Case transfer
 
--   Case escalation
+ - Case escalation
 
 ### Type of notifications
 
 There are two types of notifications:
 
--   Toast notifications or floating notifications
+ - Toast notifications or floating notifications
 
--   Alert notifications
+ - Alert notifications
 
 #### Toast notifications or floating notifications
 

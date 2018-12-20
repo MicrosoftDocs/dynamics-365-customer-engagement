@@ -27,18 +27,18 @@ Search for the Omni-channel records using the search option. When you select the
 
 2. Specify any of the following values as per your search requirement.
 
-    - Account Name
-    - Address 1: State/Province
-    - Main Phone
-    - Email
-    - Address 1: ZIP/Post Code
-    - First Name
-    - Last Name
-    - Address 1: State/Province
-    - Business Phone
-    - Email
-    - Address 1: ZIP/Post Code
-    - Case Number
+ - Account Name
+ - Address 1: State/Province
+ - Main Phone
+ - Email
+ - Address 1: ZIP/Post Code
+ - First Name
+ - Last Name
+ - Address 1: State/Province
+ - Business Phone
+ - Email
+ - Address 1: ZIP/Post Code
+ - Case Number
 
 3. Select **Search** and the search list appears.
 

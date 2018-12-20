@@ -20,16 +20,16 @@ ms.custom:
 
  **For online deployments**
 
-    | Field | Value | Example |
-    |-------|-------|---------|
-    | Deployment Type  | Office 365 for online deployments |  |
-    | Display list of available organizations | Select the checkbox to display organizations on which the Omni-channel Engagement Hub is deployed  |   |
-    | Show Advanced | Select the checkbox to display the following fields: <br><br> - Online Region <br><br> - Username <br><br> - Password |                       |
-    | Online Region | The datacenter region where your Dynamics 365 (online) instance is hosted | North America |
-    | Username | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
-    | Password | The password associated with the username |  |
+ | Field | Value | Example |
+ |-------|-------|---------|
+ | Deployment Type  | Office 365 for online deployments |  |
+ | Display list of available organizations | Select the checkbox to display organizations on which the Omni-channel Engagement Hub is deployed  |   |
+ | Show Advanced | Select the checkbox to display the following fields: <br><br> - Online Region <br><br> - Username <br><br> - Password |                       |
+ | Online Region | The datacenter region where your Dynamics 365 (online) instance is hosted | North America |
+ | Username | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
+ | Password | The password associated with the username |  |
 
-    ![login to omni-channel engagement hub](../media/oc-usd-login.png "Login to Omni-channel engagement hub")  
+ ![login to omni-channel engagement hub](../media/oc-usd-login.png "Login to Omni-channel engagement hub")  
 
 3.  If you have multiple organizations, select the organization you want to connect to.
 
