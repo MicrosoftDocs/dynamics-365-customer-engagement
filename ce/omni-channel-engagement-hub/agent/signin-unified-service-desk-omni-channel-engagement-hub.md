@@ -38,10 +38,10 @@ ms.custom:
     You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
 <div width="100%">
-    > [!div class="nextstepaction" align="left"]
-    > [Previous Topic](introduction-agent-dashboard.md)        
-    > [!div class="nextstepaction" align="right"]
-    > [Next Topic](introduction-agent-dashboard.md)            
+    > [!div class="nextstepaction" align="left"]</br>
+    > [Previous Topic](introduction-agent-dashboard.md)</br>        
+    > [!div class="nextstepaction" align="right"]</br>
+    > [Next Topic](introduction-agent-dashboard.md)         
 </div>
 
 
