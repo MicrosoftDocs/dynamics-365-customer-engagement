@@ -1,6 +1,6 @@
 ---
 title: "Right control panel"
-description: 
+description: "The right control panel hosts the agent scripts, notes, and knowledge articles search controls."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Right control panel
 
-The right control panel consists of Agent Scripts, Notes, and Knowledge management search controls.
+The right control panel consists of Agent Scripts, Notes, and Knowledge articles search controls.
 
 ### Call scripts control
 
@@ -31,3 +31,26 @@ Omni-channel Engagement Hub enables you to use the rich knowledge base in Dynami
 You can search for the KB articles, open the articles as a tab in the Application tab management toolbar. Also, you can share the link of the KB article to the customer with whom you are engaging using the Send Link option. When you select the Send Link option, the link is pasted in the chat window (conversation control).
 
 ![omni-channel kb articles](../media/oc-usd-kbartciles.png "Omni-channel KB articles")
+
+> [!div class="nextstepaction"]
+> [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+
+## See also
+
+[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+
+[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+
+[Introduction to agent dashboard](introduction-agent-dashboard.md)
+
+[Notifications and screen pop](notifications-screen-pop.md)
+
+[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+
+[Conversation panel](left-control-panel.md)
+
+[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+
+[Create a record](create-record.md)
+
+[Search and link a record](search-link-record.md)

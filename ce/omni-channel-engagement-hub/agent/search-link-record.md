@@ -1,6 +1,6 @@
 ---
 title: "Search and link a record in Omni-channel Engagement Hub"
-description: 
+description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -56,3 +56,25 @@ Based on the search results, you can choose to link a record from the list. You 
 ![omni-channel send link](../media/agent-select-link-button.png "omni-channel send link")
 
 After you link the record to the conversation, the Customer 360 page refreshes and reflects the details. Similarly, you can link other record types.
+
+## See also
+
+[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+
+[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+
+[Introduction to agent dashboard](introduction-agent-dashboard.md)
+
+[Notifications and screen pop](notifications-screen-pop.md)
+
+[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+
+[Conversation panel](left-control-panel.md)
+
+[Right control panel](right-control-panel.md)
+
+[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+
+[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+
+[Create a record](create-record.md)

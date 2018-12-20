@@ -20,24 +20,24 @@ Omni-channel Engagement Hub is a single interface for various communication chan
 
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub:
 
-[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 
-[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 
-[Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [Introduction to agent dashboard](introduction-agent-dashboard.md)
 
-[Notifications and screen pop](notifications-screen-pop.md)
+- [Notifications and screen pop](notifications-screen-pop.md)
 
-[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 
-[Conversation panel](left-control-panel.md)
+- [Conversation panel](left-control-panel.md)
 
-[Right control panel](right-control-panel.md)
+- [Right control panel](right-control-panel.md)
 
-[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 
-[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 
-[Create a record](create-record.md)
+- [Create a record](create-record.md)
 
-[Search and link a record](search-link-record.md)
+- [Search and link a record](search-link-record.md)

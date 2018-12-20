@@ -1,6 +1,6 @@
 ---
 title: "Customer 360 overview of the existing challenges"
-description: 
+description: "Customer 360 is a page where you can known complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,9 @@ ms.topic: article
 ms.assetid: d53f1b1f-0361-4334-827c-d299137a9075
 ms.custom: 
 ---
-# Customer 360 - overview of the existing challenges
+# Customer 360 - know everything about customers
+
+## overview of the existing challenges
 
 One of the major challenges that customers face when contacting the customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request raised at a later stage, the customer shares the same information with another support agent to explain the context of the conversation. To avoid this situation, the support agent must access to the customer information with details about the product/service, issue, cases history, related cases, location, and so on.
 
@@ -22,15 +24,15 @@ Having this information ready when customer is contacting the support agent can 
 
 Customer 360 is a page where you can get the complete information about the customer when you accept an incoming request from any of the engagement channel. The default Customer 360 view provides the following cards:
 
--   Customer profile
+   - Customer profile
 
--   Conversation summary
+   - Conversation summary
 
--   Issue Snapshot
+   - Issue Snapshot
 
--   Recent cases
+   - Recent cases
 
--   All activities
+   - All activities
 
 ![omni-channel customer 360 page](../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
 
@@ -53,3 +55,26 @@ This section displays the recent cases that relate to the customer.
 #### All activities
 
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
+
+> [!div class="nextstepaction"]
+> [Conversation panel](left-control-panel.md)
+
+## See also
+
+[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+
+[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+
+[Introduction to agent dashboard](introduction-agent-dashboard.md)
+
+[Notifications and screen pop](notifications-screen-pop.md)
+
+[Right control panel](right-control-panel.md)
+
+[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+
+[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+
+[Create a record](create-record.md)
+
+[Search and link a record](search-link-record.md)
