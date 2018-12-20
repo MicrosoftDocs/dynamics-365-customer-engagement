@@ -50,7 +50,8 @@ Use these steps to create a Postman environment that you can use to connect with
 1. Select the **Environment Options** gear icon in the top-right corner. 
 1. In the **Manage Environments** dialog box, select the **Add** button to add a new environment.
   
-  ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman       environment")<br>
+  ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman       environment")
+  
 1. In the dialog box that opens, type a name for the environment. Then add the following key-value pairs into the editing space.
 
     |||
