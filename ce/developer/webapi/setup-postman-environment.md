@@ -52,7 +52,7 @@ Use these steps to create a Postman environment that you can use to connect with
   
   ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman       environment")<br>
   
-1. In the dialog box that opens, type a name for the environment. Then add the following key-value pairs into the editing space.
+1. In the dialog box that opens, type a name for the environment. Then add the following key-value pairs into the editing space.<br>
 
     |||
     |----|---|
