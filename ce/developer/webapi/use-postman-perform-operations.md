@@ -190,7 +190,7 @@ The request in the example just shown submits an asynchronous duplicate detectio
 
 More information: [Use Web API actions](use-web-api-actions.md).
 
-## See Also
+## See also
 
 [Use Postman with the Web API](use-postman-web-api.md)<br>
 [Perform operations using the Web API](perform-operations-web-api.md)
