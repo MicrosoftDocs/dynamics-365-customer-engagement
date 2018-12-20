@@ -208,7 +208,7 @@
         "omni-channel-engagement-hub/**.*": [
           "Dynamics 365",
           "Customer Engagement"
-        ],        
+        ]        
       }
     },
     "template": [],
