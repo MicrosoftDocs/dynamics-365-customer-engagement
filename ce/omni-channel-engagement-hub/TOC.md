@@ -1,9 +1,11 @@
-# [Omni-channel Engagement Hub](introduction-omni-channel.md)
+# [Omni-channel Engagement Hub Guide](omni-channel-engagement-hub-guide.md)
 
-## [Omni-channel Engagement Hub for administrator](administrator/omni-channel-engagement-hub-administrator.md)
+## [Introduction](introduction-omni-channel.md)
+
+## [Omni-channel administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Set up chat widget](administrator/set-up-chat-widget.md)
 
-## [Omni-channel Engagement Hub for agent](agent/omni-channel-engagement-hub-agent.md)
+## [Omni-channel agents](agent/omni-channel-engagement-hub-agent.md)
 ### [Sign in to Omni-channel Engagement Hub](agent/signin-unified-service-desk-omni-channel-engagement-hub.md)
 ### [Introduction to the agent interface](agent/introduction-agent-interface-omni-channel-engagement-hub.md)
 ### [Introduction to agent dashboard](agent/introduction-agent-dashboard.md)
@@ -16,11 +18,11 @@
 ### [Create a record](agent/create-record.md)
 ### [Search and link record to the oconversation](agent/search-link-record.md)
 
-## [Omni-channel Engagement Hub for supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)
+## [Omni-channel supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
 ### [Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
 ### [Introduction to supervisor dashboard](supervisor/omni-channel-engagement-hub-supervisor.md)
 
-## [Omni-channel Engagement Hub for customizer](customizer/omni-channel-engagement-hub-customizer.md)
+## [Omni-channel system customizers](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize customer 360](customizer/customize-customer-360-page.md)
 ### [How to modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 ### [How to modify the section properties of the form](customizer/how-modify-section-properties-form-section.md)
@@ -45,4 +47,4 @@
 ##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
 
-## [Omni-channel Engagement Hub for customer](customer/omni-channel-engagement-hub-customer.md)
+## [Omni-channel customers](customer/omni-channel-engagement-hub-customer.md)
