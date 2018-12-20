@@ -1,6 +1,6 @@
 ---
 title: "Introduction to the agent interface in Omni-channel engagement hub"
-description: 
+description: "Learn about the Omni-channel Engagement Hub agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,6 +12,7 @@ ms.topic: article
 ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
 ms.custom: 
 ---
+
 # Introduction to the agent interface in Omni-channel Engagement Hub
 
 When you sign in to Unified Service Desk, the Omni-channel Engagement interface has the following components:
@@ -96,4 +97,27 @@ Each session in the Unified Service Desk client is displayed on the session tab 
 
 The application management toolbar allows you to see the all the related information of a session. For example, you can see open the My dashboard, Search, Customer 360, view a KB article, view case details and so on using the application management toolbar. Also, you can switch between the application and session tab toolbar to effectively manage your sessions and related applications.
 
-![omni-channel application management toolbar](../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar")  
+![omni-channel application management toolbar](../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
+
+> [!div class="nextstepaction"]
+> [Introduction to agent dashboard](introduction-agent-dashboard.md)
+
+## See also
+
+[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+
+[Notifications and screen pop](notifications-screen-pop.md)
+
+[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+
+[Conversation panel](left-control-panel.md)
+
+[Right control panel](right-control-panel.md)
+
+[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+
+[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+
+[Create a record](create-record.md)
+
+[Search and link a record](search-link-record.md)

@@ -1,6 +1,6 @@
 ---
 title: "Omni channel engagement hub for agent"
-description: 
+description: "The Omni-channel Engagement Hub for Dynamics 365 is a cloud-based service that extends the power of Dynamics 365 for Customer Service to enable customers to instantly connect and engage with their customers via newly introduced channels: live chat and SMS."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -16,6 +16,28 @@ ms.custom:
 
 Omni-channel Engagement Hub is a single interface for various communication channels. As an agent, you can manage the work items assigned to you via queues. This helps you to focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous interactions with multiple customers. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue.
 
+## In this section
+
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub:
 
-## In this section
+[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+
+[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
+
+[Introduction to agent dashboard](introduction-agent-dashboard.md)
+
+[Notifications and screen pop](notifications-screen-pop.md)
+
+[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+
+[Conversation panel](left-control-panel.md)
+
+[Right control panel](right-control-panel.md)
+
+[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+
+[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+
+[Create a record](create-record.md)
+
+[Search and link a record](search-link-record.md)
