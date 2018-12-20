@@ -1,8 +1,8 @@
 ---
-title: "Use Postman to perform operations with Web API(Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Use Postman to perform operations with the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to compose and send Web API requests using Postman."
 ms.custom: 
-ms.date: 07/23/2018
+ms.date: 12/19/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,31 +21,31 @@ search.app:
   - D365CE
 ---
 
-# Use Postman to perform operations with Web API
+# Use Postman to perform operations with the Web API
 
-Use Postman to compose and send Web API requests and view responses. This topic describes how to create Web API requests that perform CRUD operations and use functions and actions using Postman.
-
-> [!IMPORTANT]
-> You will need to have an environment created using the steps described in   [Setup a Postman environment](setup-postman-environment.md)
-
-The environment created using the instructions in [Setup a Postman environment](setup-postman-environment.md), creates a `{{webapiurl}}`  Postman variable that provides the base URL for requests. Append to this variable to define the URL for your requests.
+Use Postman to compose and send Web API requests and view responses. This topic describes how to use Postman to create Web API requests that perform create, retrieve, update, and delete (CRUD) operations and use functions and actions.
 
 > [!IMPORTANT]
-> Use the correct instructions to create your environment depending on your deployment type.
+> You need to have an environment that was created by using the steps described in [Set up a Postman environment](setup-postman-environment.md).
+
+The environment created by using the instructions in [Set up a Postman environment](setup-postman-environment.md) creates a `{{webapiurl}}` Postman variable that provides the base URL for requests. Append to this variable to define the URL for your requests.
+
+> [!IMPORTANT]
+> To create your environment, use the instructions appropriate to your deployment type.
 >
 >    |Online|On-premises|
 >    |--|--|
->    |[Connect with an Online environment](setup-postman-environment.md#bkmk_connectonline)|[Connect with an On-premise environment](setup-postman-environment.md#bkmk_connectonpremise)|
+>    |[Connect with an online environment](setup-postman-environment.md#bkmk_connectonline)|[Connect with an on-premises environment](setup-postman-environment.md#bkmk_connectonpremise)|
 
 
-Depending on the type of operation you want to perform, you will use different HTTP methods and values. The following sections demonstrate common operations.
+The HTTP methods and values you use depend on the type of operations you want to perform. The following sections show examples of common operations.
 
 ## Retrieve multiple records
 
-Use a `GET` request to retrieve a set of records. The following example will retrieve the first three account records.
+Use a `GET` request to retrieve a set of records. The following example retrieves the first three account records.
 
 > [!NOTE]
-> Web API requests should include certain HTTP headers. Every request should include the Accept header value of `application/json`, even when no response body is expected. The current OData version is `4.0`, so include header `OData-Version: 4.0`. Include the `OData-MaxVersion` header so that there is no ambiguity about version with new releases of OData. [!INCLUDE[](../../includes/proc-more-information.md)] [HTTP headers](compose-http-requests-handle-errors.md#http-headers).
+> Web API requests should include certain HTTP headers. Every request should include the Accept header value of `application/json`, even when no response body is expected. The current OData version is `4.0`, so include header `OData-Version: 4.0`. Include the `OData-MaxVersion` header so that there is no ambiguity about the version when there are new releases of OData. [!INCLUDE[](../../includes/proc-more-information.md)] [HTTP headers](compose-http-requests-handle-errors.md#http-headers).
 
 **Example**
 
@@ -54,7 +54,7 @@ Use a `GET` request to retrieve a set of records. The following example will ret
 
 ![Retrieve multiple records using Postman](../media/postman-retrieve-multiple.png "Retrieve multiple records using Postman")
 
-The body of the response will look like this:
+The body of the response looks like this:
 
 ```json
 {
@@ -86,14 +86,14 @@ More information: [Query data using the Web API](query-data-web-api.md).
 
 ## Retrieve a particular record
 
-Use a `GET` request to retrieve a record. The following example will retrieve two properties from a specific account and expand information about the related primary contact to include their full name.
+Use a `GET` request to retrieve a record. The following example retrieves two properties from a specific account and expands information about the related primary contact to include their full name.
 
 
 `GET` `{{webapiurl}}accounts(`*&lt;accountid&gt;*`)?$select=name,accountnumber&$expand=primarycontactid($select=fullname)`
 
 ![Retrieve a record using Postman](../media/postman-retrieve-record.png "Retrieve a record using Postman")
 
-The body of the response will look like this:
+The body of the response looks like this:
 
 ```json
 {
@@ -113,13 +113,13 @@ More information: [Retrieve an entity using the Web API](retrieve-entity-using-w
 
 ## Create a record
 
-Use a `POST` request to send data to create a record. Set the URL to the entity set name for an entity, in this case, the account entity, and set the headers as shown below.
+Use a `POST` request to send data to create a record. Set the URL to the entity set name--in this case, `accounts`, and set the headers as shown here.
 
 `POST` `{{webapiurl}}accounts`
 
 ![Create a new record using Web API](../media/postman-create-records.png "Create a new record using Web API")
 
-Set the Body of the request with information about the account to create.
+Set the body of the request with information about the account to create.
 
 ![Body of the request to create a record using Web API](../media/postman-create-record-body.png "Body of the request to create a record using Web API")
 
@@ -129,7 +129,7 @@ More information: [Create an entity using the Web API](create-entity-web-api.md)
 
 ## Update a record
 
-Use `PATCH` method to update an entity record, as shown in the example below.
+Use the `PATCH` method to update an entity record, as shown here.
 
 `PATCH` `{{webapiurl}}accounts(`*&lt;accountid&gt;*`)`
 
@@ -141,7 +141,7 @@ More information: [Update and delete entities using the Web API](update-delete-e
 
 ## Delete a record
 
-Use `DELETE` method to delete an existing record.
+Use the `DELETE` method to delete an existing record.
 
 `DELETE` `{{webapiurl}}accounts(`*&lt;accountid&gt;*`)`
 
@@ -153,7 +153,7 @@ More information: [Update and delete entities using the Web API](update-delete-e
 
 ## Use a function
 
-Use a `GET` request with functions listed in [Web API Function Reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/functions?view=dynamics-ce-odata-9) to perform re-usable operations with the Web API. The below example shows how to send a Web API request that uses <xref href="Microsoft.Dynamics.CRM.RetrieveDuplicates?text=RetrieveDuplicates function" /> to detect and retrieve duplicates of a specified record.
+Use a `GET` request with the functions listed in [Web API Function Reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/functions?view=dynamics-ce-odata-9) to perform re-usable operations with the Web API. The example that follows shows how to send a Web API request that uses the <xref href="Microsoft.Dynamics.CRM.RetrieveDuplicates?text=RetrieveDuplicates function" /> to detect and retrieve duplicates of a specified record.
 
 |||
 |----|----|
@@ -161,7 +161,7 @@ Use a `GET` request with functions listed in [Web API Function Reference](https:
 
 ![Create a Web API request that uses functions](../media/postman-use-function.png "Create a Web API request that uses functions")
 
-Functions return either a collection or a complex type. The response from the above <xref href="Microsoft.Dynamics.CRM.RetrieveDuplicates?text=RetrieveDuplicates function" /> should look like the following.
+Functions return either a collection or a complex type. The response from the preceding <xref href="Microsoft.Dynamics.CRM.RetrieveDuplicates?text=RetrieveDuplicates function" /> should look like this:
 
 ```json
 {
@@ -178,15 +178,15 @@ More information: [Use Web API functions](use-web-api-functions.md).
 
 ## Use an action
 
-Use a `POST` request with actions listed in [Web API Action Reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/actions?view=dynamics-ce-odata-9) to perform operations that have side-effects.
+Use a `POST` request with the actions listed in [Web API Action Reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/actions?view=dynamics-ce-odata-9) to perform operations that have side effects.
 
-The below example shows how to use <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicates?text=BulkDetectDuplicates action" />.
+This example shows how to use <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicates?text=BulkDetectDuplicates action" />:
 
 `POST` `{{webapiurl}}BulkDetectDuplicates`
 
 ![Create a Web API request that uses actions](../media/postman-use-action.png "Create a Web API request that uses actions")
 
-The above request submits an asynchronous duplicate detection job that runs in the background. The duplicates are detected according to the published duplicate rules for the entity type. <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse?text=BulkDetectDuplicatesResponse ComplexType" /> is returned as a response from <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicates?text=BulkDetectDuplicates action" />. The response includes `JobId` property which contains the GUID of the asynchronous duplicate detection job that detects and logs duplicate records.
+The preceding request submits an asynchronous duplicate detection job that runs in the background. The duplicates are detected according to the published duplicate rules for the entity type. <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse?text=BulkDetectDuplicatesResponse ComplexType" /> is returned as a response from <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicates?text=BulkDetectDuplicates action" />. The response includes the `JobId` property, which contains the GUID of the asynchronous duplicate detection job that detects and logs duplicate records.
 
 More information: [Use Web API actions](use-web-api-actions.md).
 
