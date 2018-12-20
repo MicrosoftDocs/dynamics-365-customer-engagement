@@ -29,7 +29,7 @@ Use Postman to perform ad hoc queries or to verify the behavior of operations wi
 
 Postman offers many other capabilities beyond those covered in this content. More information: [First 5 things to try if you’re new to Postman](http://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/)
 
-## In this Section
+## In this section
 
 [Set up a Postman environment](setup-postman-environment.md)<br>
 [Use Postman to perform operations with the Web API](use-postman-perform-operations.md)<br>
