@@ -35,7 +35,7 @@ This section provides a single location for you to learn about the developer too
 
 - [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator) - The tool helps you to copy and apply the layout of a particular view to multiple views of the same entity.
 
-- [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you to view layouts and modify queries using FetechXML Builder.
+- [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you to view layouts and modify queries using FetchXML Builder.
 
 - [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](download-tools-NuGet.md) and display the command lines that are used to create theses classes.
 
