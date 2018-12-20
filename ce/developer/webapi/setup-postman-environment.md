@@ -50,7 +50,7 @@ Use these steps to create a Postman environment that you can use to connect with
 1. Select the **Environment Options** gear icon in the top-right corner. 
 1. In the **Manage Environments** dialog box, select the **Add** button to add a new environment.
   
-  ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman       environment")
+  ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman       environment")<br>
   
 1. In the dialog box that opens, type a name for the environment. Then add the following key-value pairs into the editing space.
 
@@ -63,7 +63,7 @@ Use these steps to create a Postman environment that you can use to connect with
     |callback|`https://callbackurl`|
     |authurl|`https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}`|
 
-    ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman   environment to connect with Online instance")
+    ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman   environment to connect with Online instance")<br>
 
 1. Replace the instance URL placeholder value with the URL of your Dynamics 365 for Customer Engagement apps instance, and select **Add** to save the environment.
 
