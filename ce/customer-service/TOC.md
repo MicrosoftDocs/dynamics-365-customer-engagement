@@ -57,7 +57,7 @@
 #### [Schedule business closure](set-when-business-closed-csh.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 
-### Service Scheduling (Customer Service app)
+### Service Scheduling (Legacy Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
