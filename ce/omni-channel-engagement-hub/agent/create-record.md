@@ -1,6 +1,6 @@
 ---
 title: "Create a record in Omni-channel Engagement Hub"
-description: 
+description: "Learn how to create a record in Omni-channel Engagement Hub from within Unified Service Desk client application"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -28,3 +28,6 @@ When there are no records linked to the conversation in the Omni-channel Engagem
     In the Application management toolbar, you can see a new record page.
 
 3. Specify the details in the form and save the changes.
+
+## See also
+
