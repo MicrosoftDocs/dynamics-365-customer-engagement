@@ -65,7 +65,10 @@
       topicHref: /dynamics365/customer-engagement/sales-business/help-hub
     - name: Marketing
       tocHref: /dynamics365/customer-engagement/marketing
-      topicHref: /dynamics365/customer-engagement/marketing/get-started-section  
+      topicHref: /dynamics365/customer-engagement/marketing/get-started-section
+    - name: Omni-channel Engagement Hub
+      tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub
+      topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub-guide.md    
     - name: Developer Documentation
       tocHref: /dynamics365/customer-engagement/developer/
       topicHref: /dynamics365/customer-engagement/developer/index
