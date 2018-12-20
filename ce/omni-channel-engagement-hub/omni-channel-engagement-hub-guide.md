@@ -34,13 +34,13 @@ ms.custom:
 
 <h2> I'm an agent </h2>
 
-<li><a href="agent/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel Engagement Hub for agents](agent/omni-channel-engagement-hub-agent.md)">Omni-channel Engagement Hub for agent</a></li>
+<li><a href="agent/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel Engagement Hub for agents](agent/omni-channel-engagement-hub-agent.md)">Omni-channel Engagement Hub for agents</a></li>
 </td>
 <td>
 
 <h2> I'm an supervisor  </h2>
 
-<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel Engagement Hub for supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel Engagement Hub for supervisor/a></li>
+<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel Engagement Hub for supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel Engagement Hub for supervisors</a></li>
 </td>
 </tr>
 <tr>
