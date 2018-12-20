@@ -38,7 +38,10 @@ ms.custom:
     You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
 > [!div class="nextstepaction"]
-> [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+> [Next topic: Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md) |
+
+> [!div class="nextstepaction"]
+> [Previous topic: Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
 
 ## See also
 
