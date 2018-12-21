@@ -44,7 +44,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    - For on-premises deployments, select **On-premises** and choose from the following **Authentication Sources**.  
 
-     - **Active Directory**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] internally through your network and do not connect to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps throught the Internet.  
+     - **Active Directory**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] internally through your network and do not connect to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps through the Internet.  
 
      - **Internet-facing Deployment (IFD)**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] through the Internet.  
 
