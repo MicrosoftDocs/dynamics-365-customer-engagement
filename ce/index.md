@@ -69,7 +69,7 @@ These guides provide in-depth information about specific apps, solutions and rel
 <li><a href="social-engagement/index.md" data-raw-source="[Social Engagement](social-engagement/index.md)">Social Engagement</a></li>
 <li><a href="gamification/index.md" data-raw-source="[Gamification](gamification/index.md)">Gamification</a></li>
 <li><a href="/dynamics365/customer-engagement/unified-service-desk/index" data-raw-source="[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/index)">Unified Service Desk</a></li>
-<li><a href="/dynamics365/customer-engagement/omni-channel-engagement-hub/index.md" data-raw-source="[Omni-channel Engagement Hub](/dynamics365/customer-engagement/omni-channel-engagement-hub/index)">Omni-channel Engagement Hub</a></li>
+<li><a href="omni-channel-engagement-hub/index.md" data-raw-source="[Omni-channel Engagement Hub](omni-channel-engagement-hub/index.md)">Omni-channel Engagement Hub</a></li>
 </td>
 </tr>
 </table>
