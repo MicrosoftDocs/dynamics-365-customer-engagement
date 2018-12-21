@@ -378,12 +378,12 @@ If resource type of pediatrician requirement = users, accounts, contacts then a 
 
   - **Same Resource Tree** – Related Resource Pools adds an extra layer of stringency to the search. This means that the teams assembled must actually be associated to the same exact facility, or facility pool to be returned as a team. For example, let’s assume there is one physical location, Location A. 
 
-   > [!Note]
-   > If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
-
    > At location A are 2 Facilities, facility 1 and facility 2. If Resource 1 is associated to Facility 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility 1+Resource 1. Facility 2 and Resource 1 cannot be returned. This combo could however be returned if “Same Location” is the only option selected. 
 
    > So too with Facility Pools. Let’s assume there is one physical location, Location A. At location A are 2 Facilities, facility 1 and facility 2, as well as a Facility Pool (Facility Pool 1). If Resource 1 is associated to Facility Pool 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility Pool 1 (or one of it’s child facilities)+Resource 1. 
+   
+   > [!Note]
+   > If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
 
   - **Same Organizational Unit** – A more stringent option you can select is same organizational unit. This option ensures that the parent organizational unit of the resources are the same. It does not check the bookable resource group or the bookable resource association entity. It is just checking the parent organizational unit.
 
@@ -405,36 +405,17 @@ If resource type of pediatrician requirement = users, accounts, contacts then a 
 - A resource cannot be related to two facilities (child or association) at the same time
 - There is currently no specific way to visualize every resource related to a facility on the schedule board. Currently the closest way to achieve this is to filter by organizational units. 
 - Manually scheduling a single requirement to a facility will not create records for all resources related to the facility
+- When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record
 
 ### Facility Pool Location
 
 The location for a Facility Pool is taken from the parent organizational unit. If a facility resource is a member of a facility pool, the location of the facility is taken from the pool resource. As an example, if you create a facility with a location/organizational unit of **location A**, and you add this facility to a Pool, which is located at **location B**, for the date range that the facility resource is part of the Pool, it will be considered as if it is located at **location B**.
 
-
-
-
 ### Booking Location
 
-When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record. The work location will be set as well based on the work location used when booking in the Schedule Assistant. If bookings are created without using the Schedule Assistant, if work location of the requirement is set to facility, and there are latitude and longitude values on the requirement, the work location, latitude, and longitude will still be set on the booking according to the location logic outlined in this document.
-
->Facility Resources will check if it is part of a pool at any time during the booking, and if so, location is taken from the parent pool’s organizational unit. If it is not part of a pool, the location will be taken from the facility’s parent organizational unit.
-For non-facility resources, if they are part of a pool during the 
+When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record. The work location will be set as well based on the work location used when booking in the Schedule Assistant. If bookings are created without using the Schedule Assistant, if work location of the requirement is set to facility, and there are latitude and longitude values on the requirement, the work location, latitude, and longitude will still be set on the booking. 
 
 
 
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule Board filters to show Facilities and Facility Pools](./media/scheduling-facilities-facility-and-pool-bookings-on-SB.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Requirement with the Resource Type set to Facility and Pool and the Pool Type attribute set to Facility](./media/scheduling-facilities-requirement-with-resource-type-and-pool-type.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing “Part of Same” options on the requirement group control](./media/scheduling-facilities-sameness.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Bookable Resource with resource type set to Pool and Pool Type set to Facility](./media/scheduling-facilities-resource-pool-screenshot.png)
 
