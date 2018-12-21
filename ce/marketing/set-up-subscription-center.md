@@ -38,7 +38,7 @@ All marketing email messages that you create by using [!INCLUDE[pn-marketing-bus
 
 All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
 
-Each subscription list exists as a static marketing list, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
+Each subscription list exists as a static marketing list in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register with your site.
 
@@ -229,5 +229,5 @@ If you open a subscription center by opening its URL directly, the page will loa
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
-[Find your way around Dynamics 365 for Marketing](navigation.md)  
+[Find your way around](navigation.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
