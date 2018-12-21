@@ -125,6 +125,8 @@ search.app:
 <tr>
 <td><h2>Blogs</h2>
 <ul>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/" data-raw-source="[Improve Knowledge Article search results with Dynamics 365 Relevance Search](https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/)">Improve Knowledge Article search results with Dynamics 365 Relevance Search</a></li>
+
 <li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 for Customer Engagement Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 for Customer Engagement Service Scheduling</a></li>
 </ul>
 </td>
