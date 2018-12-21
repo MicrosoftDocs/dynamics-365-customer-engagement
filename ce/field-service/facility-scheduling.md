@@ -266,23 +266,34 @@ This scenario is configured by creating a pool of facilities to represent the do
 
 First, create a resource to represent the overall doctor's office where resource type = pool and pool type = facility.
 
-
+In this example it is called "Health Clinic"
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
- 1. Create facility resources to represent each room
- 2.  Add each room resource as resource children to the overall doctors office resource pool
+ ### 2. Create facility resources to represent each room
 
-Next, create a resource for each room in the doctor's office where resource type = Facility and add each room resource as a child to the overall doctors office by navigating to **Related > Resource Children**
+Next, create facility resources to represent each room.
 
+These resources should have a resource type = facility.
+
+Set the start/end location of each room resource to an organizational unit address that represents the location of the rooms.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-new-room.png)
+
+ ### 3.  Add each room resource as resource child to the overall doctors office resource pool
+
+Navigate to the doctor's office facility pool resource then go to **Related > Resource Children**
+
+Add each room resource as a child record to the parent facility pool (Health Clinic)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
 
- 4. On requirements, set resource type to facility 
+### 4. Create a requirement group
 
-Create a requirement that calls for one or more rooms. 
+Create a requirement that calls for one or more facilities, in this example we are looking for 2 specific rooms within the same doctors office (health clinic). 
 
 
 > [!div class="mx-imgBorder"]
@@ -295,13 +306,18 @@ Each requirement should call for facility resource types.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-2-specific-rooms-resource-type.png)
 
+Again, the **Work Location** of each requirement should be set to **Facility** and the latitude and longitude fields of the requirements should correspond to the customer's (patient's) location. 
 
+> [!Note]
+> Latitude and longitude fields on all requirements within a group must be equal and updating the values on one requirement will update the others.
+
+### 5. Book the requirement group
 Select **Book** from the requirement group to trigger the schedule assistant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-assistant-specific-rooms.png)
 
-In the results above, two specific rooms are recommended both at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on requirement records) and the location of the facility resources (resource children organizational units). 
+In the results above, two specific rooms are recommended both at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on the requirement records) and the location of the facility resources (resource children organizational units). 
 
  
  **Pro Tip:** Alternatively, another way to configure scenario 4 is to use an organizational unit. This will eliminate the need to use resource children. Simply create an organizational unit called Health Clinic and create facility type resources for each room noting the Health Clinic organizational unit as the start/end location on each room resource. Next, when creating a requirement group, enter Organizational Unit in the Part of Same field to ensure the 2 booked rooms are at the same location. Another industry example is you may create 10 car lifts (facilities) at one mechanic shop (Organizational Unit). 
@@ -309,21 +325,26 @@ In the results above, two specific rooms are recommended both at the same locati
 
 ## Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
 
-In the following scenario we will show how to schedule a specific room at a doctor's office and a doctor from a pool associated to the office. 
+In this scenario schedulers want to schedule specific rooms within a doctor's office to a pool of available pediatric doctors who work at the health clinic.
 
- 1. Create a pool resource with pool type set to facility to represent the doctor's office with the start/end organizational unit to represent the location of the doctor's office. 
+This scenario is configured by creating a pool of facilities and a pool of doctors and associating them together via Resouce Associations (msdyn_bookableresourceassociations).
+
+
+ ### 1. Create a facility pool 
+ 
+ resource with pool type set to facility to represent the doctor's office with the start/end organizational unit to represent the location of the doctor's office. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
- 2. Create facility resources for each room
+ ### 2. Create facility resources for each room
  3. Add facility room resources as children to doctor's office facility pool
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
 
- 4. Create pool of doctors with pool type = contacts, users, accounts
+ ### 4. Create pool of doctors with pool type = contacts, users, accounts
 
 Set Derive Capacity from Group Members to yes.
 
@@ -335,14 +356,14 @@ Set Derive Capacity from Group Members to yes.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-pediatrician-pool-children.png)
 
- 5. Associate doctor pool to facility pool
+ ### 5. Associate doctor pool to facility pool
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-associate-pediatricians-health-clinic.png)
 
 
- 6. Create a requirement group that calls for 2 rooms and a pediatrician. Setting Part of Same to resource tree - ensures rooms and pediatricians are related to same facility resource via resource children or resource association
+ ### 6. Create a requirement group that calls for 2 rooms and a pediatrician. Setting Part of Same to resource tree - ensures rooms and pediatricians are related to same facility resource via resource children or resource association
 
 For each room requirement, set the resource type to facility
 
