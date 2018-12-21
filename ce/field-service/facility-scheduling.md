@@ -332,38 +332,57 @@ This scenario is configured by creating a pool of facilities and a pool of docto
 
  ### 1. Create a facility pool 
  
- resource with pool type set to facility to represent the doctor's office with the start/end organizational unit to represent the location of the doctor's office. 
-
+ Using the same process as in scenario 4, create a facility pool resource to represent the doctor's office. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
  ### 2. Create facility resources for each room
- 3. Add facility room resources as children to doctor's office facility pool
+
+Next, create facility resources to represent each room in the doctor's office facility pool.
+
+Then add each room as a resource child to the doctor's office (Health Clinic) facility pool resource. The organizational unit of the office facility pool and the room facilities should be the same.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
 
- ### 4. Create pool of doctors with pool type = contacts, users, accounts
+ ### 3. Create a pool of pediatric doctors
+ 
+ Create a new resource pool to represent the pediatric doctors. 
+ 
+ **Resource Type** should be set to **Pool** and **pool type** should be set to **contacts, users, accounts** as doctors are personnel.
 
-Set Derive Capacity from Group Members to yes.
+ As is true of all resource records, you can add characteristics to define and distinguish differences among resources. In this example, "pediatrics" could be a skill to add to each doctor resource.
+
+Set **Derive Capacity from Group Members** to **yes**. This means the capacity of the pool is based on how many doctors are associated to it.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-pediatrician-pool.png)
 
 
+Create resources to represent doctors and add them as resource children to the pediatric doctors pool.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-pediatrician-pool-children.png)
 
  ### 5. Associate doctor pool to facility pool
 
+Next, navigate to the original facility pool (Health Clinic) and then go to **Related > Bookable Resource Association**
+
+Set the Resource 2 field to the Pediatric doctor pool resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-associate-pediatricians-health-clinic.png)
 
 
- ### 6. Create a requirement group that calls for 2 rooms and a pediatrician. Setting Part of Same to resource tree - ensures rooms and pediatricians are related to same facility resource via resource children or resource association
+ ### 6. Create a requirement group for rooms and docotrs
+ 
+ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**
+
+ In this example, we created a requirement group that calls for 2 rooms (facilities) and a pediatric doctor.
+
+
+By setting **Part of Same** to **Resource Tree** this ensures rooms and pediatricians are related to same facility resource via resource children or resource association.
 
 For each room requirement, set the resource type to facility
 
@@ -371,24 +390,26 @@ For each room requirement, set the resource type to facility
 > ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors.png)
 
 
-The resource types you choose for the pediatrician requirement will affect schedule assistant results.
+The resource types you choose for the pediatrician doctor requirement will affect schedule assistant results.
 
+**If Resource Type = Pool and Pool Type =  Users, accounts, contacts**
 
-If resource type of pediatrician requirement = Pool with Pool type = Users, accounts, contacts, accounts
-
-the requirement will be booked to the pediatrician pool and can be assigned to a specific pediatrician at a later time. Whether pediatricians show as results will depend on capacity (as derived from th number of doctors in the pool).
+The Pediatrician pool resource will be displayed in the results.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
 
-If resource type of pediatrician requirement = users, accounts, contacts then a specific doctor resource will show in results and pool, scheduling will not be utilized. 
+This allows you to book the pediatrician pool to be assigned to a specific pediatric doctor at a later time. Whether pediatricians show as results will depend on capacity (as derived from the number of doctors in the pool). The advantage of using the pool is allowing schedulers to book appointments based on capacity without having to assign a specific doctor at the time of scheduling.
+
+**If Resource Type = users, accounts, contacts**
+
+Specific doctor resources will show in results. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
 
 
-
-**Pro Tip:** Use fulfillment preferences to display schedule assistant results in neat hourly timeslots
+**Pro Tip:** Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
 
 ## Configuration Considerations
 
