@@ -56,7 +56,7 @@ Universal Resource Scheduling (URS) v3.0
 
 Field Service v8.0 if work order scheduling is applicable 
 
-## Instructions
+### Instructions
 
 Lets consider five scenarios to describe facility scheduling. 
 
@@ -71,14 +71,7 @@ Lets consider five scenarios to describe facility scheduling.
 
 In this scenario we will show how to create a single facility to represent a doctor's office and schedule a customer (patient) for an appointment at the doctor's office.
 
-Instructions: 
-
 1. create a facility resource
-2. create a requirement that calls for a facility 
-3. book the requirement 
-4. add the facility resource to the Schedule Board
-
-### Create a Facility resource 
 
 First, navigate to **Universal Resource Scheduling > Resources** and create a facility resource with the following attributes.
 
@@ -100,7 +93,7 @@ First, navigate to **Universal Resource Scheduling > Resources** and create a fa
 > ![Screenshot of ](./media/scheduling-facility-create.png)
 
 
-### Create a requirement for a facility
+2. create a requirement for a facility 
 
 Next create a requirement that calls for a facility resource.
 
@@ -115,8 +108,8 @@ Next create a requirement that calls for a facility resource.
      1. This means the interaction will take place at the facility that will be scheduled and factors into travel time and distance calculations.
      2. Find more details in the configuration considerations section of this article
   5. **Latitude and longitude**
-    1. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location as that is taken from the organizational unit of the facility type resource  
-    2. These values can be populated through Booking Setup Metadata (BSM) or workflows
+      1. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location as that is taken from the organizational unit of the facility type resource  
+       1. These values can be populated through Booking Setup Metadata (BSM) or workflows
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-requirement.png)
@@ -130,11 +123,9 @@ Next create a requirement that calls for a facility resource.
 > ![Screenshot of ](./media/scheduling-facility-requirement-lat-long.png)
 
 
-### Book the requirement
+2. Book the requirement 
 
 After creating a facility resource and a requirement that calls for a facility, you can schedule a facility via drag and drop on the schedule board or via the schedule assistant.
-
-#### Schedule Assistant 
 
 The Schedule Assistant considers availability of Resources as well as other constraints set on the Requirement such as characteristics, organizational units, categories, etc.
 
@@ -151,7 +142,7 @@ Select **Book** from the requirement or requirement group forms.
 
 **Filtering work location to location agnostic** will remove travel time and distance calculations from schedule assistant results. 
 
-### Add the facility resource to the Schedule Board
+1. add the facility resource to the Schedule Board
 
 Scheduling a facility is just like scheduling any other resource. You can drag and drop requirements to create bookings, you can drag existing bookings to change the time or resource, or you can use the Schedule Assistant to help sift through the list of facilities based on availability and other constraints.
 
@@ -171,9 +162,7 @@ Facility resource will also be displayed on the schedule board map based on the 
 
 In this scenario we will assume a doctor's office has 5 identical rooms and schedulers do not need to book each room specifically, but must ensure that no more than 5 patients are booked across all rooms during any one time slot.
 
-### Instructions: 
-
-1. create a facility resource
+1. Create a facility resource
 2. Increase the capacity of the facility resource from a default of 1 to 5
 
 First navigate to your facility resource and select **Show Work Hours**
@@ -199,14 +188,9 @@ In the image above, two separate requirements for a facility were both scheduled
 
 ## Scenario 3: Schedule a doctor's office and related doctor
 
-In the following scenario we will show how to schedule a doctors office along with a related doctor.
-
-### Instructions: 
+In the following scenario we will show how to schedule a doctors office along with a related doctor. 
 
 1. Create a facility resource
-2. Create a doctor resource
-3. Associate the doctor resource to the facility resource
-4. create a requirement group that calls for a facility and a doctor from the same location
 
 First, create two resources, one to represent a facility (resource type = facility) and the other to represent a doctor (Resource Type = User/Contact/Account).
 
@@ -218,6 +202,10 @@ Below is an example of a facility resource.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-facility-north-seattle.png)
 
+2. Create a doctor resource
+3. Associate the doctor resource to the facility resource
+
+
 From the facility resource, navigate to **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (msdyn_bookableresourceassociations).
 
 From here, associate the resource that represents the doctor. 
@@ -226,6 +214,8 @@ In the picture below, Abraham McCormick represents a doctor and is associated to
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-associate-doctor.png)
+
+4. create a requirement group that calls for a facility and a doctor from the same location
 
 Next, create a requirement group with one requirement that calls for a doctors office (Resource Type = Facility) and another requirement that calls for a doctor (Resource Type = User/Contact/Account).
 
@@ -257,13 +247,9 @@ As in scenario 1, travel time and distance is calculated as the time and distanc
 ## Scenario 4: Schedule a doctor's office with 5 specific rooms
 
 In the following scenario we will consider a doctors office with 5 rooms and schedulers want to book each specific room. 
-
-### Instructions: 
  
  1. Create a resource pool with pool type set to facility to represent the overall doctors office
- 2. Create facility resources to represent each room
- 3. Add each room resource as resource children to the overall doctors office resource pool
- 4. On requirements, set resource type to facility 
+
 
 
 First, create a resource to represent the overall doctor's office where Resource Type = Pool and Pool, Type = Facility.
@@ -273,115 +259,110 @@ First, create a resource to represent the overall doctor's office where Resource
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
-Next, create a resource for each room in the doctor's office where Resource Type = Facility and add each room resource as a child to the overall doctors office by navigating to **Related > Resource Children**
+ 2. Create facility resources to represent each room
+ 3.  Add each room resource as resource children to the overall doctors office resource pool
+
+Next, create a resource for each room in the doctor's office where resource type = Facility and add each room resource as a child to the overall doctors office by navigating to **Related > Resource Children**
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
 
-Create a requirement that calls for one or more rooms. Each requirement should call for a resource type = facility. If scheduling multiple specific rooms within the doctor's office, set **Part of Same** to **Same Location** to ensure each room is at the same physical address. 
+ 4. On requirements, set resource type to facility 
+
+Create a requirement that calls for one or more rooms. 
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-2-specific-rooms.png)
 
+Set **Part of Same** to **Same Location** to ensure each room is at the same physical address. 
+
+Each requirement should call for facility resource types.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-2-specific-rooms-resource-type.png)
 
-choosing part of same as Location or Organizational Unit will organize results by organizational unit
 
+Select **Book** from the requirement group to trigger the schedule assistant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-schedule-assistant-specific-rooms.png)
 
+In the results above, two specific rooms are recommended both at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on requirement records) and the location of the facility resources (resource children organizational units). 
 
  
- **Pro Tip:** Alternatively, you can simply create an organizational Unit called Health Clinic and note that same OU on each facility resource. Then search for requirements Part of Same Organization Unit. Depending on your business needs this may be enough, though there is no direct association between the health clinic and rooms.
-
-benefit of using pool is ability to derive capacity from members
-
-This allows a setup in which you can create many facility resources, all at the same physical location, which is represented by the organizational unit. By way of example, you may create 10 car lifts (Facilities) at one mechanic shop (Organizational Unit). Another example could be creating 5 rooms for consultations (Facilities), at the same office (Org Unit).
-
-### Facility Pool Location
-
-The location for a Facility Pool works the same was as described above for a facility resource, in which the location is taken from the parent organizational unit.
-
-Location for a Facility Resource which part of a Facility Pool 
-
-If a facility resource is a member of a facility pool, the location of the facility is taken from the Pool resource. This means that if you create a facility with a location/organizational unit of “location A”, and you add this facility to a Pool, which is located at ‘location B”, for the date range that the facility resource is part of the Pool, it will be considered as if it is located at “location B”.
-
-Resource Associations (msdyn_bookableresourceassociations)
-
-In order to schedule groups of resources together to perform a task at a facility, non-facility resources can be associated to facility/facility pool resources through the Resource Associations entity (msdyn_bookableresourceassociations). Resources such as people, equipment, or pool resources, may be associated to a facility or facility pool with date effectivity. This means that these resources will be performing work at that location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer location. This is extremely important as it relates to using the option “Related Resource Pools” being discussed shortly.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshots of a non-facility resource and a facility pool being associated with date effectivity](./media/scheduling-facilities-dan-associated-to-facility.png)
-
+ **Pro Tip:** Alternatively, another way to configure scenario 4 is to use an organizational unit. This will eliminate the need to use resource children. Simply create an organizational unit called Health Clinic and create facility type resources for each room noting the Health Clinic organizational unit as the start/end location on each room resource. Next, when creating a requirement group, enter Organizational Unit in the Part of Same field to ensure the 2 booked rooms are at the same location. Another industry example is you may create 10 car lifts (facilities) at one mechanic shop (Organizational Unit). 
 
 
 ## Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
 
-In the following scenario we will show how to schedule a specific room at a doctor's office and a doctor from a group of doctors at the office. 
+In the following scenario we will show how to schedule a specific room at a doctor's office and a doctor from a pool associated to the office. 
 
-### Instructions
-
- 1. Create Pool resource with pool type set to facility
- 2. Create Facility resources for each room
- 3. Add facility room resources as children to Facility Pool
- 4. create pool of doctors with pool type = contacts, users, accounts
- 5. associate doctor pool to facility pool
- 6. On requirements, search for Facilities and Pool with pool type = users, contacts, accounts as needed
+ 1. Create a pool resource with pool type set to facility to represent the doctor's office with the start/end organizational unit to represent the location of the doctor's office. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
+ 2. Create facility resources for each room
+ 3. Add facility room resources as children to doctor's office facility pool
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific-children.png)
 
+ 4. Create pool of doctors with pool type = contacts, users, accounts
 
+Set Derive Capacity from Group Members to yes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-pediatrician-pool.png)
 
 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-pediatrician-pool-children.png)
+
+ 5. Associate doctor pool to facility pool
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-associate-pediatricians-health-clinic.png)
 
 
+ 6. Create a requirement group that calls for 2 rooms and a pediatrician. Setting Part of Same to resource tree - ensures rooms and pediatricians are related to same facility resource via resource children or resource association
+
+For each room requirement, set the resource type to facility
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors.png)
 
-Part of same = resource tree - this ensures rooms and pediatricians are related to same resource via resource children or resource association
-Resource Type of rooms - facility
 
-resource type of pediatricians = Pool with Pool type = Users, accounts, contacts, accounts
+The resource types you choose for the pediatrician requirement will affect schedule assistant results.
 
+
+If resource type of pediatrician requirement = Pool with Pool type = Users, accounts, contacts, accounts
+
+the requirement will be booked to the pediatrician pool and can be assigned to a specific pediatrician at a later time. Whether pediatricians show as results will depend on capacity (as derived from th number of doctors in the pool).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
 
-Resource Type of pediatricians = users, accounts, contacts
+If resource type of pediatrician requirement = users, accounts, contacts then a specific doctor resource will show in results and pool, scheduling will not be utilized. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
 
 
 
-**Pro Tip:** add fulfillment preferences to requirement to have schedule assistant results show well
-
-
-if doctors only work at 1 facility then adding them as resources to same OU as the facility without association will work. if doctors work at different locations then associating them for specific time ranges is recommended. 
+**Pro Tip:** Use fulfillment preferences to display schedule assistant results in neat hourly timeslots
 
 ## Configuration Considerations
 
-- Choosing the right Work Location
+- Choosing the right Work Location on requirements
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work location field set to Facility](./media/scheduling-facilities-work-location-field.png)
 
   - **Facility** work location implies the interaction takes place at the facility and travel time is calculated as the distance between the customer location and the facility location. The requirement latitude and longitude fields are used as the customer location. It also means at least one facility or facility pool MUST return in schedule assistant search results in order for a resource(s) to be returned.
 
@@ -389,7 +370,7 @@ if doctors only work at 1 facility then adding them as resources to same OU as t
 
   - **Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time is not applicable and is not calculated. Facility resources can still be returned as part of the schedule assistant search but travel time will not be displayed or considered in ranking.
 
-- Choosing the right Part of Same option
+- Choosing the right Part of Same option on requirement groups
 
   - **Same Location** – Same location means that only teams of resources working at the same location will be returned. This uses the logic expressed in this document to determine the location, using the Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities. Using this option, regardless of which specific facility or facility pool other non-facility resources may be associated to, all that matters is that the resources are at the same physical location (organizational unit).
 
@@ -406,6 +387,39 @@ if doctors only work at 1 facility then adding them as resources to same OU as t
 
    > If your implementation uses requirements that are location agnostic, this option may be used without either of the other two options, however it completely ignores the two aforementioned entities (associations and groups). This could work in a simple implementation where resources are always staffed at the same location, and you do not need the advanced location search functionality of the work location “facility”.
 
+
+
+### Facility with capacity vs multiple facilities vs facility pool: when to use each
+
+- **Facility with capacity** - this option is configured by adding a capacity to a single facility. It makes the most sense when schedulers care most about not overbooking and either don't need to record scheduling specific facilities or can handle coordination in person when customers arrive at the facility.
+
+- **Multiple facilities** - this option is configured by creating multiple facility resources and relating them to each other either via an organizational unit or via a parent facility resource. This option makes the most sense when each facility needs to be scheduled individually. 
+
+- **Facility pool** - this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to utilize capacity scheduling and/or local scheduling. A facility pool makes capacity scheduling easier because facility pool capacity can be derived by the number of pool members as they are added or removed. Local scheduling allows schedulers to first book to the facility pool parent resource up to capacity, and then at a later date schedule to specific resources in the pool. 
+
+## Additional Notes
+
+- For requirements that are not part of a requirement group, only facility or facility pool resources can return in the Schedule Assistant if work location is set to Facility.
+- A resource cannot be related to two facilities (child or association) at the same time
+- There is currently no specific way to visualize every resource related to a facility on the schedule board. Currently the closest way to achieve this is to filter by organizational units. 
+- Manually scheduling a single requirement to a facility will not create records for all resources related to the facility
+
+
+### Adding resource to same organizational unit vs. associating to Pool resource 
+if doctors only work at 1 facility then adding them as resources to same OU as the facility without association will work. if doctors work at different locations then associating them for specific time ranges is recommended.
+
+### Facility Pool Location
+
+The location for a Facility Pool works the same was as described above for a facility resource, in which the location is taken from the parent organizational unit.
+
+Location for a Facility Resource which part of a Facility Pool 
+
+If a facility resource is a member of a facility pool, the location of the facility is taken from the Pool resource. This means that if you create a facility with a location/organizational unit of “location A”, and you add this facility to a Pool, which is located at ‘location B”, for the date range that the facility resource is part of the Pool, it will be considered as if it is located at “location B”.
+
+Resource Associations (msdyn_bookableresourceassociations)
+
+In order to schedule groups of resources together to perform a task at a facility, non-facility resources can be associated to facility/facility pool resources through the Resource Associations entity (msdyn_bookableresourceassociations). Resources such as people, equipment, or pool resources, may be associated to a facility or facility pool with date effectivity. This means that these resources will be performing work at that location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer location. This is extremely important as it relates to using the option “Related Resource Pools” being discussed shortly.
+
 ### Booking Location
 
 When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record. The work location will be set as well based on the work location used when booking in the Schedule Assistant. If bookings are created without using the Schedule Assistant, if work location of the requirement is set to facility, and there are latitude and longitude values on the requirement, the work location, latitude, and longitude will still be set on the booking according to the location logic outlined in this document.
@@ -413,25 +427,8 @@ When a team is selected and booked, the latitude and longitude of the location o
 >Facility Resources will check if it is part of a pool at any time during the booking, and if so, location is taken from the parent pool’s organizational unit. If it is not part of a pool, the location will be taken from the facility’s parent organizational unit.
 For non-facility resources, if they are part of a pool during the 
 
-### facility with capacity 10 vs facility pool with 10 related resource
-
--second option allows central then local assignment of bookings
--second option allows capacity to be derived from pool members as they are added and deleted
-
-## Additional Notes
-
-- location of resource is not taken into account, it is assumed he/she is at facility
-- resource cannot be part of 2 facilties at same time
-- cannot show everyone at a facility right now. however if everone has same OU than can filter by OU
-- manually scheduling a single requirement to a facility will not create records for all people to facility
-> [!Note]
-> For requirements that are not part of a requirement group, only facility or facility pool resources can return in the Schedule Assistant if work location is set to Facility.
 
 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of work location field set to Facility](./media/scheduling-facilities-work-location-field.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Bookable Resource with the resource type set to Facility](./media/scheduling-facilities-resource-with-resource-type-facility.png)
