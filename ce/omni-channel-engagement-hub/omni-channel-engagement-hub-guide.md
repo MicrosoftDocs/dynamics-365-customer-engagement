@@ -38,7 +38,7 @@ ms.custom:
 </td>
 <td>
 
-<h2> I'm an supervisor  </h2>
+<h2> I'm a supervisor  </h2>
 
 <li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel Engagement Hub for supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel Engagement Hub for supervisors</a></li>
 </td>
