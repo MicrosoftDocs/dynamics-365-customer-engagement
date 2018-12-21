@@ -1,6 +1,6 @@
 ---
 title: "How to modify the section properties of the form (section)"
-description: 
+description: "Learn how to modify the section properties of the form (section)"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,6 +12,7 @@ ms.topic: article
 ms.assetid: b6bdcd99-a9c0-4ff5-984c-605cd3323e89
 ms.custom: 
 ---
+
 # How to modify the section properties of the form (card)
 
 1.  Sign in to Dynamics 365.
@@ -45,3 +46,19 @@ ms.custom:
 
 2.  Select **Save** and select **Publish**.
 
+> [!div class="nextstepaction"]
+> [Add or remove the fields in the form](add-remove-fields-form-section.md)
+
+## See also
+
+[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+
+[Customize customer 360 form](customize-customer-360-page.md)
+
+[How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+
+[Customize the conversation form](customize-conversation-form.md)
+
+[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+
+[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

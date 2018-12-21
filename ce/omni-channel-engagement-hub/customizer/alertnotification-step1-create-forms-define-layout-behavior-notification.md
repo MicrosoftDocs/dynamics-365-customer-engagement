@@ -1,6 +1,6 @@
 ---
 title: "Create forms to define layout and behavior of the notification"
-description: 
+description: "Learn how to create forms to define layout and behavior of the alert notification in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -22,11 +22,11 @@ ms.custom:
 
 4.  In the new form, specify the details.
 
-| Field  | Value                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name   | SimpleChatRequestPopupForm                                                                                                                                                                                                                                                                                                                                                                                               |
-| Order  | 50                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Markup | &lt;Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                                                                                                                                                                                                                                                                                      
+| Field  | Value  |
+|--------| -------|
+| Name   | SimpleChatRequestPopupForm |
+| Order  | 50  |
+| Markup | &lt;Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                                                                                             
   xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                                                                                             
@@ -534,7 +534,23 @@ ms.custom:
                                                                                                                                                                                                                                                                                                                                                                                                                             
   &lt;/Grid&gt;                                                                                                                                                                                                                                                                                                                                                                                                             
                                                                                                                                                                                                                                                                                                                                                                                                                             
-  &lt;/Border&gt;                                                                                                                                                                                                                                                                                                                                                                                                           |
+  &lt;/Border&gt; |
 
-1.  Save the form.
+5.  Save the form.
 
+> [!div class="nextstepaction"]
+> [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
+
+## See also
+
+[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+
+[Step 3: Create events](alertnotification-step3-create-the-events.md)
+
+[Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
+
+[Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
+
+[Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+[Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

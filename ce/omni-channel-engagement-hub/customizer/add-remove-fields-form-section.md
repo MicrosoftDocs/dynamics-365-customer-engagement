@@ -1,6 +1,6 @@
 ---
 title: "Add or remove the fields in the form (section)"
-description: 
+description: "Learn how to add or remove the fields in the form (section)"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: ab116bdb-a31f-48d3-a8e6-9f4790276a63
 ms.custom: 
 ---
-# Add or remove the fields in the form (card)
+# Add or remove the fields in the form (section)
 
-You add or remove the fields from the form (card) by navigating to the respective entities and quick view forms.
+You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
 
 **Note:** In this procedure, we are illustrating to modify the **Customer Profile** form (card) in the Customer 360 page of the **Live Work Item** entity.
 
@@ -45,3 +45,19 @@ Similarly, you can add or remove fields for the following cards by navigating to
 
 **Note:** Navigate to the form and perform the steps 4 to 6 in the above-mentioned procedure.
 
+> [!div class="nextstepaction"]
+> [Customize the conversation form](customize-conversation-form.md)
+
+## See also
+
+[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+
+[Customize customer 360 form](customize-customer-360-page.md)
+
+[How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+
+[How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+
+[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+
+[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

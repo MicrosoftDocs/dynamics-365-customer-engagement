@@ -1,6 +1,6 @@
 ---
 title: "Create an action call to display the notification"
-description: 
+description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -198,3 +198,19 @@ Similarly, create the following action calls by following the steps 1-4.
 
 ![omni-channel session timeout action call](../media/oc-usd-crm-session-timeout-actioncall.png "Omni-channel session timeout action call")  
 
+> [!div class="nextstepaction"]
+> [Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
+
+## See also
+
+[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+
+[Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
+
+[Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
+
+[Step 3: Create events](alertnotification-step3-create-the-events.md)
+
+[Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+[Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

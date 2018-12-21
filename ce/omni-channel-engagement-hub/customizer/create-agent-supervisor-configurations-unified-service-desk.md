@@ -1,6 +1,6 @@
 ---
 title: "Create agent and supervisor configurations in Unified Service Desk"
-description: 
+description: "Learn how to create and manage agent and supervisor configurations in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -36,3 +36,19 @@ Omni-channel Supervisor Configuration
 
 ![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
 
+> [!div class="nextstepaction"]
+> [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+
+## See also
+
+[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+
+[Customize customer 360 form](customize-customer-360-page.md)
+
+[How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+
+[How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+
+[Add or remove the fields in the form](add-remove-fields-form-section.md)
+
+[Customize the conversation form](customize-conversation-form.md)

@@ -1,6 +1,6 @@
 ---
 title: "Create hosted controls"
-description: 
+description: "Learn how to create hosted controls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -29,3 +29,20 @@ ms.custom:
 | Application is Global                | Select the checkbox              |
 
 <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image1](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image1.png)  -->
+
+> [!div class="nextstepaction"]
+> [Step 3: Create events](toastnotification-step3-create-the-events.md)
+
+## See also
+
+[Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+
+[Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
+
+[Step 4: Create an action call to display the notification](toastnotification-step4-create-action-call-display-notification.md)
+
+[Step 5: Add the action calls to the events](toastnotification-step5-add-action-calls-events.md)
+
+[Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+[Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

@@ -18,7 +18,7 @@ Omni-channel Engagement Hub is a single interface for various communication chan
 
 ## In this section
 
-Use the resources in the following sections to learn how to use Omni-channel Engagement Hub:
+Use the resources in the following sections to learn how to use Omni-channel Engagement Hub for agents:
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 

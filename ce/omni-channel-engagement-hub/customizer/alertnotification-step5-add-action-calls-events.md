@@ -1,6 +1,6 @@
 ---
 title: "Add the action calls to the events"
-description: 
+description: "Learn how to add action calls to the events"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -44,3 +44,19 @@ ms.custom:
 | TimedOut                   | OCSessionTimeout                              |
 | Omni-channel Context Fetch | ShowSimpleChatRequestScreenPop                |
 
+> [!div class="nextstepaction"]
+> [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+## See also
+
+[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+
+[Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
+
+[Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
+
+[Step 3: Create events](alertnotification-step3-create-the-events.md)
+
+[Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
+
+[Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

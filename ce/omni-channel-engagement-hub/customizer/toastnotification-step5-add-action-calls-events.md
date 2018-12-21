@@ -1,6 +1,6 @@
 ---
 title: "Add the action calls to the events"
-description: 
+description: "Learn how to add action calls to the events"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -16,25 +16,15 @@ ms.custom:
 
 1.  Sign in to Dynamics 365. 
 
-<!-- -->
+2.  Go to **Settings** &gt; **Unified Service Desk** &gt; **Events**. 
 
-1.  Go to **Settings** &gt; **Unified Service Desk** &gt; **Events**. 
+3.  Select an event from the list. See the matrix to add the action call against the events. 
 
-<!-- -->
+4.  In the event page, under the **Active Actions** section, select **+** icon. In the search box, type the name of the action call, and select the search icon. 
 
-1.  Select an event from the list. See the matrix to add the action call against the events. 
+5.  Select the action from the list to add the action call to the event. 
 
-<!-- -->
-
-1.  In the event page, under the **Active Actions** section, select **+** icon. In the search box, type the name of the action call, and select the search icon. 
-
-<!-- -->
-
-1.  Select the action from the list to add the action call to the event. 
-
-<!-- -->
-
-1.  Select **Save**. 
+6.  Select **Save**. 
 
 | **Event**                    | **Action Call**                        |
 |------------------------------|----------------------------------------|
@@ -47,3 +37,19 @@ ms.custom:
 |                              | OCSetSessionTabIdForEntitySession      |
 | Show Foo Entity Notification | OmniChannelHostedControl               |
 
+> [!div class="nextstepaction"]
+> [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+## See also
+
+[Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+
+[Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
+
+[Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md)
+
+[Step 3: Create events](toastnotification-step3-create-the-events.md)
+
+[Step 4: Create an action call to display the notification](toastnotification-step4-create-action-call-display-notification.md)
+
+[Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
