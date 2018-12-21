@@ -67,11 +67,13 @@ Then, we shall see the code that manages a single phone call session. We define 
 Now, see the code in method `initAll()` on Lines 670-741. This code sets up event handlers, initializes CIF and Twilio. You can edit this code if using any other channel provider, by using the APIs of that channel provider.
 
 The Twilio APIs used in this code are:
-- Twilio.Device.setup
-- Twilio.Device.ready
-- Twilio.Device.connect
-- Twilio.Device.disconnect
-- Twilio.Device.incoming
+- **Twilio.Device.setup**
+- **Twilio.Device.ready**
+- **Twilio.Device.connect**
+- **Twilio.Device.disconnect**
+- **Twilio.Device.incoming**
+
+Use the corresponding APIs of your channel provider to configure a different softphone using Channel Integration Framework.
 
 ## See Also
 
