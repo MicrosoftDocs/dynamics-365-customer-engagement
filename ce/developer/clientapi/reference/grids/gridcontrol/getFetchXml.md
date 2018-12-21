@@ -25,7 +25,7 @@ Read-only and editable grids
 
 ## Syntax
 
-`var result = gridContext.getfetchXml();`
+`var result = gridContext.getFetchXml();`
 
 ## Return Value
 
@@ -39,7 +39,7 @@ To get the `gridContext`, see [Getting the grid context](../../grids.md#bkmk_gri
 
 ## Example
 
-The following example displays the retrieved Fetch XNL of the Contacts subgrid in the Console:
+The following example displays the retrieved Fetch XML of the Contacts subgrid in the Console:
 
 ```JavaScript
 function myFunction(executionContext) {
