@@ -69,9 +69,11 @@ Lets consider five scenarios to describe facility scheduling.
 
 ## Scenario 1: Schedule a doctor's office  
 
-In this scenario we will show how to create a single facility to represent a doctor's office and schedule a customer (patient) for an appointment at the doctor's office.
+In this scenario schedulers want to search for nearby doctor's offices and schedule an appointment for a patient to arrive at the doctor's office. 
 
-1. create a facility resource
+We will configure this scenario by creating a facility resource to represent the doctor's office, creating a requirement to represent the patient's request for an appointment at a nearby facility, and then booking the appointment and viewing the facility and booking on the schedule board. 
+
+### 1. create a facility resource
 
 First, navigate to **Universal Resource Scheduling > Resources** and create a facility resource with the following attributes.
 
@@ -93,17 +95,27 @@ First, navigate to **Universal Resource Scheduling > Resources** and create a fa
 > ![Screenshot of ](./media/scheduling-facility-create.png)
 
 
-2. create a requirement for a facility 
+### 2. create a requirement for a facility 
 
 Next create a requirement that calls for a facility resource.
 
   1. Enter **from** and **to** date
   2. **Duration**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-facility-create-requirement.png)
+
+
   3. **Resource Type** = Facility
      1. This allows you to decide which type of Resources should be searched when searching for availability using the Schedule Assistant on a Requirement
      2. This means the requirement requires a facility resource to be fulfilled and ensures the schedule assistant search results return facility type resources (as opposed to personnel or equipment).
      3. This maps to the resource type field on the resource entity
      4. If this field is left empty, all Resources are searched
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of](./media/scheduling-facility-resource-type.png)
+
+
   4. **Work Location** = Facility
      1. This means the interaction will take place at the facility that will be scheduled and factors into travel time and distance calculations.
      2. Find more details in the configuration considerations section of this article
@@ -112,18 +124,10 @@ Next create a requirement that calls for a facility resource.
        1. These values can be populated through Booking Setup Metadata (BSM) or workflows
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-facility-create-requirement.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of](./media/scheduling-facility-resource-type.png)
-
-
-> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-requirement-lat-long.png)
 
 
-2. Book the requirement 
+### 3. Book the requirement 
 
 After creating a facility resource and a requirement that calls for a facility, you can schedule a facility via drag and drop on the schedule board or via the schedule assistant.
 
@@ -142,7 +146,7 @@ Select **Book** from the requirement or requirement group forms.
 
 **Filtering work location to location agnostic** will remove travel time and distance calculations from schedule assistant results. 
 
-1. add the facility resource to the Schedule Board
+### 4. Add the facility resource to the Schedule Board
 
 Scheduling a facility is just like scheduling any other resource. You can drag and drop requirements to create bookings, you can drag existing bookings to change the time or resource, or you can use the Schedule Assistant to help sift through the list of facilities based on availability and other constraints.
 
@@ -160,14 +164,18 @@ Facility resource will also be displayed on the schedule board map based on the 
 
 ## Scenario 2: Schedule a doctor's office with 5 generic rooms
 
-In this scenario we will assume a doctor's office has 5 identical rooms and schedulers do not need to book each room specifically, but must ensure that no more than 5 patients are booked across all rooms during any one time slot.
+In this scenario a doctor's office has 5 identical rooms and schedulers do not need to book each room specifically, but must ensure that no more than 5 patients are booked across all rooms during any one time slot.
 
-1. Create a facility resource
-2. Increase the capacity of the facility resource from a default of 1 to 5
+We will configure this scenario by adding a capacity to a facility resource.
+
+
+### 1. Create a facility resource
 
 First navigate to your facility resource and select **Show Work Hours**
 
-When choosing hours, select **Show Capacity** and enter **5**
+### 2. Increase the capacity of the facility resource
+
+When choosing hours, select **Show Capacity** and enter **5**. By default the capacity is set to 1.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-capcity.png)
@@ -177,22 +185,22 @@ This means when booking a facility via the schedule assistant, the facility reso
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-double-book.png)
 
-In the image above, two separate requirements for a facility were both scheduled to the same facility during the same time slot.
+In the image above, two separate requirements for a facility were both scheduled to the same facility during the same time slot. Without increasing the capacity, once a timeslot at a facility is booked, it will no longer show in schedule assistant results. 
 
 > [!Note]
 > Capacity scheduling is not intended to be used to book the same requirement multiple times, but rather book multiple requirements. Rebooking a previously booked requirement will cancel the existing booking and create a new one.
 
 
-**Pro Tip:** It is advantageous to use Resource Pools for capacity scheduling because pool capacity can be defined by the number of pool members. 
-
-
 ## Scenario 3: Schedule a doctor's office and related doctor
 
-In the following scenario we will show how to schedule a doctors office along with a related doctor. 
+In this scenario schedulers want to schedule a doctor's office and a related doctor at the same facility during the same timeslot.
+
+This scenario is configured by creating a facility resource, creating a doctor resource (resource with resource type = user/contact/account), associating the doctor resource to the facility resource, and then creating a booking a requirement group that calls for both a facility and a doctor.
+
 
 In order to schedule groups of resources together to perform a task at a facility, non-facility resources can be associated to facility/facility pool resources through the Resource Associations entity (msdyn_bookableresourceassociations). Resources such as people, equipment, or pool resources, may be associated to a facility or facility pool with date effectivity. This means that these resources will be performing work at that location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer location. This is extremely important as it relates to using the option “Related Resource Pools”.
 
-1. Create a facility resource
+### 1. Create a facility resource
 
 First, create two resources, one to represent a facility (resource type = facility) and the other to represent a doctor (Resource Type = User/Contact/Account).
 
@@ -204,8 +212,8 @@ Below is an example of a facility resource.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-facility-north-seattle.png)
 
-2. Create a doctor resource
-3. Associate the doctor resource to the facility resource
+### 2. Create a doctor resource
+### 3. Associate the doctor resource to the facility resource
 
 
 From the facility resource, navigate to **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (msdyn_bookableresourceassociations).
@@ -217,7 +225,7 @@ In the picture below, Abraham McCormick represents a doctor and is associated to
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-associate-doctor.png)
 
-4. create a requirement group that calls for a facility and a doctor from the same location
+### 4. create a requirement group that calls for a facility and a doctor from the same location
 
 Next, create a requirement group with one requirement that calls for a doctors office (Resource Type = Facility) and another requirement that calls for a doctor (Resource Type = User/Contact/Account).
 
@@ -248,21 +256,23 @@ As in scenario 1, travel time and distance is calculated as the time and distanc
 
 ## Scenario 4: Schedule a doctor's office with 5 specific rooms
 
-In the following scenario we will consider a doctors office with 5 rooms and schedulers want to book each specific room. 
+In this scenario schedulers want to track all rooms within a doctor's office and schedule each individual room to patients.
+
+This scenario is configured by creating a pool of facilities to represent the doctor's office and each individual room.
+
  
- 1. Create a resource pool with pool type set to facility to represent the overall doctors office
+ ### 1. Create a facility pool resource 
 
 
-
-First, create a resource to represent the overall doctor's office where Resource Type = Pool and Pool, Type = Facility.
+First, create a resource to represent the overall doctor's office where resource type = pool and pool type = facility.
 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-room-specific.png)
 
- 2. Create facility resources to represent each room
- 3.  Add each room resource as resource children to the overall doctors office resource pool
+ 1. Create facility resources to represent each room
+ 2.  Add each room resource as resource children to the overall doctors office resource pool
 
 Next, create a resource for each room in the doctor's office where resource type = Facility and add each room resource as a child to the overall doctors office by navigating to **Related > Resource Children**
 
