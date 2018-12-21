@@ -190,6 +190,8 @@ In the image above, two separate requirements for a facility were both scheduled
 
 In the following scenario we will show how to schedule a doctors office along with a related doctor. 
 
+In order to schedule groups of resources together to perform a task at a facility, non-facility resources can be associated to facility/facility pool resources through the Resource Associations entity (msdyn_bookableresourceassociations). Resources such as people, equipment, or pool resources, may be associated to a facility or facility pool with date effectivity. This means that these resources will be performing work at that location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer location. This is extremely important as it relates to using the option “Related Resource Pools”.
+
 1. Create a facility resource
 
 First, create two resources, one to represent a facility (resource type = facility) and the other to represent a doctor (Resource Type = User/Contact/Account).
@@ -359,7 +361,7 @@ If resource type of pediatrician requirement = users, accounts, contacts then a 
 
 ## Configuration Considerations
 
-- Choosing the right Work Location on requirements
+###  Choosing the right Work Location on requirements
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work location field set to Facility](./media/scheduling-facilities-work-location-field.png)
@@ -370,14 +372,14 @@ If resource type of pediatrician requirement = users, accounts, contacts then a 
 
   - **Location Agnostic** work location implies the interaction takes place remotely and the location of the customer nor the resource is considered for scheduling. Travel time is not applicable and is not calculated. Facility resources can still be returned as part of the schedule assistant search but travel time will not be displayed or considered in ranking.
 
-- Choosing the right Part of Same option on requirement groups
+### Choosing the right Part of Same option on requirement groups
 
   - **Same Location** – Same location means that only teams of resources working at the same location will be returned. This uses the logic expressed in this document to determine the location, using the Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities. Using this option, regardless of which specific facility or facility pool other non-facility resources may be associated to, all that matters is that the resources are at the same physical location (organizational unit).
 
   - **Same Resource Tree** – Related Resource Pools adds an extra layer of stringency to the search. This means that the teams assembled must actually be associated to the same exact facility, or facility pool to be returned as a team. For example, let’s assume there is one physical location, Location A. 
 
    > [!Note]
-   >If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
+   > If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
 
    > At location A are 2 Facilities, facility 1 and facility 2. If Resource 1 is associated to Facility 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility 1+Resource 1. Facility 2 and Resource 1 cannot be returned. This combo could however be returned if “Same Location” is the only option selected. 
 
@@ -393,7 +395,7 @@ If resource type of pediatrician requirement = users, accounts, contacts then a 
 
 - **Facility with capacity** - this option is configured by adding a capacity to a single facility. It makes the most sense when schedulers care most about not overbooking and either don't need to record scheduling specific facilities or can handle coordination in person when customers arrive at the facility.
 
-- **Multiple facilities** - this option is configured by creating multiple facility resources and relating them to each other either via an organizational unit or via a parent facility resource. This option makes the most sense when each facility needs to be scheduled individually. 
+- **Multiple facilities** - this option is configured by creating multiple facility resources and relating them to each other either via an organizational unit or via a parent facility resource. This option makes the most sense when each facility needs to be scheduled individually.  
 
 - **Facility pool** - this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to utilize capacity scheduling and/or local scheduling. A facility pool makes capacity scheduling easier because facility pool capacity can be derived by the number of pool members as they are added or removed. Local scheduling allows schedulers to first book to the facility pool parent resource up to capacity, and then at a later date schedule to specific resources in the pool. 
 
@@ -404,21 +406,12 @@ If resource type of pediatrician requirement = users, accounts, contacts then a 
 - There is currently no specific way to visualize every resource related to a facility on the schedule board. Currently the closest way to achieve this is to filter by organizational units. 
 - Manually scheduling a single requirement to a facility will not create records for all resources related to the facility
 
-
-### Adding resource to same organizational unit vs. associating to Pool resource 
-if doctors only work at 1 facility then adding them as resources to same OU as the facility without association will work. if doctors work at different locations then associating them for specific time ranges is recommended.
-
 ### Facility Pool Location
 
-The location for a Facility Pool works the same was as described above for a facility resource, in which the location is taken from the parent organizational unit.
+The location for a Facility Pool is taken from the parent organizational unit. If a facility resource is a member of a facility pool, the location of the facility is taken from the pool resource. As an example, if you create a facility with a location/organizational unit of **location A**, and you add this facility to a Pool, which is located at **location B**, for the date range that the facility resource is part of the Pool, it will be considered as if it is located at **location B**.
 
-Location for a Facility Resource which part of a Facility Pool 
 
-If a facility resource is a member of a facility pool, the location of the facility is taken from the Pool resource. This means that if you create a facility with a location/organizational unit of “location A”, and you add this facility to a Pool, which is located at ‘location B”, for the date range that the facility resource is part of the Pool, it will be considered as if it is located at “location B”.
 
-Resource Associations (msdyn_bookableresourceassociations)
-
-In order to schedule groups of resources together to perform a task at a facility, non-facility resources can be associated to facility/facility pool resources through the Resource Associations entity (msdyn_bookableresourceassociations). Resources such as people, equipment, or pool resources, may be associated to a facility or facility pool with date effectivity. This means that these resources will be performing work at that location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer location. This is extremely important as it relates to using the option “Related Resource Pools” being discussed shortly.
 
 ### Booking Location
 
@@ -429,9 +422,6 @@ For non-facility resources, if they are part of a pool during the
 
 
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Bookable Resource with the resource type set to Facility](./media/scheduling-facilities-resource-with-resource-type-facility.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -448,6 +438,3 @@ For non-facility resources, if they are part of a pool during the
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Bookable Resource with resource type set to Pool and Pool Type set to Facility](./media/scheduling-facilities-resource-pool-screenshot.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing facility resource linked to a parent organizational unit with start and end location set to be taken from organizational unit](./media/scheduling-facilities-start-location-and-org-unit-set.png)
