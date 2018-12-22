@@ -15,11 +15,11 @@
    New RetrieveAbsoluteAndSiteCollectionUrlRequest With {
     .Target = New EntityReference(SharePointDocumentLocation.EntityLogicalName, _spDocLocId)
    }
-  Dim retriveResponse As RetrieveAbsoluteAndSiteCollectionUrlResponse =
+  Dim retrieveResponse As RetrieveAbsoluteAndSiteCollectionUrlResponse =
    CType(_serviceProxy.Execute(retrieveRequest), RetrieveAbsoluteAndSiteCollectionUrlResponse)
 
-  Console.WriteLine("Absolute URL of document location record is '{0}'.", retriveResponse.AbsoluteUrl.ToString())
-  Console.WriteLine("Site Collection URL of document location record is '{0}'.", retriveResponse.SiteCollectionUrl.ToString())
+  Console.WriteLine("Absolute URL of document location record is '{0}'.", retrieveResponse.AbsoluteUrl.ToString())
+  Console.WriteLine("Site Collection URL of document location record is '{0}'.", retrieveResponse.SiteCollectionUrl.ToString())
   DeleteRequiredRecords(promptforDelete)
  End Using
 
