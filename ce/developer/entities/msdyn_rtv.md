@@ -17,7 +17,7 @@ search.app:
 ---
 # msdyn_rtv Entity Reference
 
-Records RTVs for products to be retuned to vendors
+Records RTVs for products to be returned to vendors
 
 **Added by**: Field Service Solution<br />
 

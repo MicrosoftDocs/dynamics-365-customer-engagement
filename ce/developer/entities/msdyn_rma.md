@@ -17,7 +17,7 @@ search.app:
 ---
 # msdyn_rma Entity Reference
 
-Records RMAs for products to be retuned from customers
+Records RMAs for products to be returned from customers
 
 **Added by**: Field Service Solution<br />
 
