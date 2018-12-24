@@ -26,24 +26,6 @@ ms.custom:
 
 6. Select **Save**.
 
-| **Event**                  | **Action Call**                               |
-|----------------------------|-----------------------------------------------|
-| CreateCustomerSessionEvent | CloseUSDPopupNotification                     |
-|                            | Expand Right Pane                             |
-|                            | Omni-channel Presence Status                  |
-|                            | CreateCustomerSession                         |
-|                            | OCSessionAccepted                             |
-|                            | ExecuteKBSearchOnDataAvailable                |
-|                            | FireSessionTimer                              |
-|                            | Load Agent Search Session Page with Condition |
-|                            | Load Default Agent Script                     |
-|                            | Load Agent Session Overview Page              |
-|                            | Focus on Overview                             |
-| IncomingRequestRejected    | CloseUSDPopupNotification                     |
-|                            | OCSessionRejected                             |
-| TimedOut                   | OCSessionTimeout                              |
-| Omni-channel Context Fetch | ShowSimpleChatRequestScreenPop                |
-
  <table>
     <tr>
         <th>Event</th>
