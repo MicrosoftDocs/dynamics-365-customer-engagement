@@ -16,39 +16,41 @@ ms.custom:
 
 Create the following events: 
 
--   CreateCaseEntitySession   
+ - CreateCaseEntitySession   
 
--   TimedOut 
+ - TimedOut 
 
--   Show FOO Entity Notification
+ - Show FOO Entity Notification
 
-1.  Sign in to Dynamics 365. 
+To create the events, perform the following:
 
-2.  Go to Settings &gt; Unified Service Desk. 
+1. Sign in to Dynamics 365. 
 
-3.  Select **Events** and select **+ New**. 
+2. Go to Settings &gt; Unified Service Desk. 
 
-4.  In the new event page, specify the following details.
+3. Select **Events** and select **+ New**. 
 
-| Field               | Value                                |
-|---------------------|--------------------------------------|
-| Name                | **CreateCaseEntitySession**          |
-| Hosted Application  | **Omni-channel Toast Notification**  |
+4. In the new event page, specify the following details.
 
-<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image2](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image2.png) -->
+ | Field               | Value                                |
+ |---------------------|--------------------------------------|
+ | Name                | **CreateCaseEntitySession**          |
+ | Hosted Application  | **Omni-channel Toast Notification**  |
 
-1.  Save the event. 
+ <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image2](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image2.png) -->
+
+5. Save the event. 
 
 Repeat the steps from 3 - 5 to create **TimedOut** and **Show FOO Entity Notification** event.
 
 For Show FOO Entity Notification event, specify the following.
 
-| Field               | Value                            |
-|---------------------|----------------------------------|
-| Name                | **Show FOO Entity Notification** |
-| Hosted Application  | **OmniChannelHostedControl**     |
+ | Field               | Value                            |
+ |---------------------|----------------------------------|
+ | Name                | **Show FOO Entity Notification** |
+ | Hosted Application  | **OmniChannelHostedControl**     |
 
-<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image3](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image3.png) -->
+ <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image3](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image3.png) -->
 
 > [!div class="nextstepaction"]
 > [Step 4: Create an action call to display the notification](toastnotification-step4-create-action-call-display-notification.md)
