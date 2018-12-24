@@ -27,19 +27,6 @@ ms.custom:
 
 6.  In the **Section Properties**, you can modify the following:
 
-| Tab        | Container             | Field                                      |
-|------------|-----------------------|--------------------------------------------|
-| Display    | Name                  | Name                                       |
-|            |                       | Label                                      |
-|            |                       | Show the label of this section on the Form |
-|            |                       | Show a line at top of the section          |
-| Formatting | Field Label Width     | Width                                      |
-|            | Visibility            | Visible by default                         |
-|            | Availability          | Available on phone                         |
-|            | Layout                | Select the number of columns               |
-|            | Field Label Alignment | Select field label alignment               |
-|            | Field Label Position  | Select field label position                |
-
 <table>
  <tr> 
     <th>Tab</th>
