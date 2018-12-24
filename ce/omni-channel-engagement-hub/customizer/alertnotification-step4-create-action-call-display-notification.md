@@ -51,21 +51,21 @@ Similarly, create the following action calls by following the steps 1-4.
     </tr>
     <tr>
         <td>Data</td>
-        <td>formname=SimpleChatRequestPopUpForm
-            top=10
-            left=98
-            timeout=120
-            stack=true
-            stackHeight=50
-            cid=[[ConversationId]+]
-            from=[[From]+]
-            isUniqueContactRecognized=[[IsUniqueContactRecognized]+]
-            jobTitle=[[contact_jobtitle_0]+]
-            email=[[contact_emailaddress1_0]+]
-            state=[[contact_Address1_Stateorprovince_0]+]
-            city=[[contact_Address1_City_0]+]
-            position=absolute
-            isAccept=TRUE
+        <td>formname=SimpleChatRequestPopUpForm <br>
+            top=10 <br>
+            left=98 <br>
+            timeout=120 <br>
+            stack=true <br>
+            stackHeight=50 <br>
+            cid=[[ConversationId]+] <br>
+            from=[[From]+] <br>
+            isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br>
+            jobTitle=[[contact_jobtitle_0]+] <br>
+            email=[[contact_emailaddress1_0]+] <br>
+            state=[[contact_Address1_Stateorprovince_0]+] <br>
+            city=[[contact_Address1_City_0]+] <br>
+            position=absolute <br>
+            isAccept=TRUE <br>
             isReject=TRUE</td>
     </tr>
     <tr>
