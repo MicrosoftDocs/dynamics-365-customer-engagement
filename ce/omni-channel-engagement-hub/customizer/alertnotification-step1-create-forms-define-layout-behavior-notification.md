@@ -37,7 +37,8 @@ ms.custom:
     </tr>
     <tr>
         <td>Markup</td>
-        <td><Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        <td>
+          \"<Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
         xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" xmlns:System="clr-namespace:System;assembly=mscorlib">
     <Grid Height="auto" Width="280" Background="#333333">
@@ -290,7 +291,8 @@ ms.custom:
             </Button>
         </Grid>
     </Grid>
-</Border></td>
+</Border>\"
+      </td>
     </tr>
   </table>
 
