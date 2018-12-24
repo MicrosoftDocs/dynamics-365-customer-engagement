@@ -13,7 +13,7 @@ ms.assetid: b6bdcd99-a9c0-4ff5-984c-605cd3323e89
 ms.custom: 
 ---
 
-# How to modify the section properties of the form (card)
+# How to modify the section properties of the form
 
 1.  Sign in to Dynamics 365.
 
@@ -27,18 +27,68 @@ ms.custom:
 
 6.  In the **Section Properties**, you can modify the following:
 
-| Tab        | Container             | Fields                                     |
+| Tab        | Container             | Field                                      |
 |------------|-----------------------|--------------------------------------------|
 | Display    | Name                  | Name                                       |
 |            |                       | Label                                      |
 |            |                       | Show the label of this section on the Form |
 |            |                       | Show a line at top of the section          |
-|            | Field Label Width     | Width                                      |
+| Formatting | Field Label Width     | Width                                      |
 |            | Visibility            | Visible by default                         |
 |            | Availability          | Available on phone                         |
-| Formatting | Layout                | Select the number of columns               |
+|            | Layout                | Select the number of columns               |
 |            | Field Label Alignment | Select field label alignment               |
 |            | Field Label Position  | Select field label position                |
+
+<table>
+ <tr> 
+    <th>Tab</th>
+    <th>Container</th>
+    <th>Field</th>
+ </tr>
+ <tr>
+    <td>Display</td>
+    <td>Name</td>
+    <td>Name</td>
+  </tr>
+   <tr>
+    <td rowspan="3"></td>
+    <td rowspan="3"></td>
+    <td>Label</td>
+  </tr>
+   <tr>
+    <td>Show the label of this section on the Form</td>
+  </tr>
+   <tr>
+    <td>Show a line at top of the section</td>
+  </tr>    
+  <tr>
+    <td>Formatting</td>
+    <td>Field Label Width</td>
+    <td>Width</td>
+  </tr>
+  <tr>
+    <td rowspan="5"></td>
+    <td>Visibility</td>
+    <td>Visible by default</td>
+  </tr>
+  <tr>
+    <td>Availability</td>
+    <td>Available on phone</td>
+  </tr>
+  <tr>
+    <td>Layout</td>
+    <td>Select the number of columns</td>
+  </tr>
+  <tr>
+    <td>Field Label Alignment</td>
+    <td>Select field label alignment</td>
+  </tr>
+  <tr>
+    <td>Field Label Position</td>
+    <td>Select field label position</td>
+  </tr>  
+</table>
 
 ![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")  
 
