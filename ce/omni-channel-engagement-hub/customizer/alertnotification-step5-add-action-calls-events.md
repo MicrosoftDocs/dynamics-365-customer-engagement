@@ -14,17 +14,17 @@ ms.custom:
 ---
 # Step 5: Add the action calls to the events
 
-1.  Sign in to Dynamics 365.
+1. Sign in to Dynamics 365.
 
-2.  Go to **Settings** &gt; **Unified Service Desk** &gt; **Events**.
+2. Go to **Settings** &gt; **Unified Service Desk** &gt; **Events**.
 
-3.  Select an event from the list. See the matrix to add the action call against the events.
+3. Select an event from the list. See the matrix to add the action call against the events.
 
-4.  In the event page, under the **Active Actions** section, select **+** icon. In the search box, type the name of the action call, and select the search icon.
+4. In the event page, under the **Active Actions** section, select **+** icon. In the search box, type the name of the action call, and select the search icon.
 
-5.  Select the action from the list to add the action call to the event.
+5. Select the action from the list to add the action call to the event.
 
-6.  Select **Save**.
+6. Select **Save**.
 
 | **Event**                  | **Action Call**                               |
 |----------------------------|-----------------------------------------------|
@@ -43,6 +43,62 @@ ms.custom:
 |                            | OCSessionRejected                             |
 | TimedOut                   | OCSessionTimeout                              |
 | Omni-channel Context Fetch | ShowSimpleChatRequestScreenPop                |
+
+ <table>
+    <tr>
+        <th>Event</th>
+        <th>Action Call</th>
+    </tr>
+    <tr>
+        <td rowspan="11">CreateCustomerSessionEvent</td>
+        <td>CloseUSDPopupNotification</td>
+    </tr>
+    <tr>
+        <td>Expand Right Pane</td>
+    </tr>
+    <tr>
+        <td>Omni-channel Presence Status</td>
+    </tr>
+    <tr>
+        <td>CreateCustomerSession</td>
+    </tr>
+    <tr>
+        <td>OCSessionAccepted</td>
+    </tr>
+    <tr>
+        <td>OCSessionAccepted</td>
+    </tr>
+    <tr>
+        <td>FireSessionTimer</td>
+    </tr>
+    <tr>
+        <td>Load Agent Search Session Page with Condition</td>
+    </tr>
+    <tr>
+        <td>Load Default Agent Script</td>
+    </tr>
+    <tr>
+        <td>Load Agent Session Overview Page</td>
+    </tr>
+    <tr>
+        <td>Focus on Overview</td>
+    </tr>
+    <tr>
+        <td rowspan="2">IncomingRequestRejected</td>
+        <td>CloseUSDPopupNotification</td>
+    </tr>
+    <tr>
+        <td>OCSessionRejected</td>
+    </tr>
+    <tr>
+        <td>TimedOut</td>
+        <td>OCSessionTimeout</td>
+    </tr>
+    <tr>
+        <td>Omni-channel Context Fetch</td>
+        <td>ShowSimpleChatRequestScreenPop</td>
+    </tr>   
+ </table>
 
 > [!div class="nextstepaction"]
 > [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
