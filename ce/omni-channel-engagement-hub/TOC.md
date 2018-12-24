@@ -28,7 +28,6 @@
 ### [How to modify the section properties of the form](customizer/how-modify-section-properties-form-section.md)
 ### [Add or remove the fields in the form](customizer/add-remove-fields-form-section.md)
 ### [Customize the conversation form](customizer/customize-conversation-form.md)
-### [How to add or remove fields](customizer/how-add-remove-fields.md)
 ### [Configure agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 ### [Configure notification (Screen pop) for agents](customizer/configure-notification-screen-pop-agents.md)
 #### [Configure alert notification in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
