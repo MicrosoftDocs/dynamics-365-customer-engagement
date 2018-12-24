@@ -14,21 +14,21 @@ ms.custom:
 ---
 # Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations
 
-1.  Sign in to Dynamics 365.
+1. Sign in to Dynamics 365.
 
-2.  Go to **Settings** &gt; **Unified Service Desk** &gt; **Configuration**.
+2. Go to **Settings** &gt; **Unified Service Desk** &gt; **Configuration**.
 
-3.  Select the configuration from the list.
+3. Select the configuration from the list.
 
-4.  On the nav bar, click the down arrow next to Configuration, and select Action Calls.
+4. On the nav bar, select the down arrow next to Configuration, and select Action Calls.
 
-5.  On the next page, click Add Existing Action Call, type the name of the action in the search bar, and then press ENTER or click the search icon.
+5. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press **ENTER** or select the search icon.
 
-6.  Add the Action calls that are displayed in the search results.
+6. Add the Action calls that are displayed in the search results.
 
-7.  Similarly, add the hosted controls and the events by clicking the down arrow next to Configuration, and clicking Hosted Controls and Events, respectively.
+7. Similarly, add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively.
 
-8.  Click Save.
+8. Select **Save**.
 
 > [!div class="nextstepaction"]
 > [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
