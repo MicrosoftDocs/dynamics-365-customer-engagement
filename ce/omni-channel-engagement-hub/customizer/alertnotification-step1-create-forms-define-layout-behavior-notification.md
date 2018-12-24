@@ -14,30 +14,22 @@ ms.custom:
 ---
 # Step 1: Create forms to define layout and behavior of the notification
 
-1.  Sign in to Dynamics 365.
+1. Sign in to Dynamics 365.
 
-2.  Go to **Settings** &gt; **Unified Service Desk**.
+2. Go to **Settings** &gt; **Unified Service Desk**.
 
-3.  Select **Forms** and select **+ New**.
+3. Select **Forms** and select **+ New**.
 
-4.  In the new form, specify the details.
+4. In the new form, specify the details.
 
-  <table>
-    <tr>
-        <th>Field</th>
-        <th>Value</th>
-    </tr>
-    <tr>
-        <td>Name</td>
-        <td>SimpleChatRequestPopupForm</td>
-    </tr>
-    <tr>
-        <td>Order</td>
-        <td>50</td>
-    </tr>
-    <tr>
-        <td>Markup</td>
-        <td><Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ | Field     | value                      |
+ |-----------|----------------------------|
+ | Name      | SimpleChatRequestPopupForm |
+ | Order     | 50                         |
+ | Markup    | Copy and paste the XML content as shown below |
+
+ ```XML
+   <Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
         xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" xmlns:System="clr-namespace:System;assembly=mscorlib">
     <Grid Height="auto" Width="280" Background="#333333">
@@ -290,11 +282,10 @@ ms.custom:
             </Button>
         </Grid>
     </Grid>
-</Border></td>
-    </tr>
-  </table>
+ </Border>
+ ```
 
-5.  Save the form.
+5. Save the form.
 
 > [!div class="nextstepaction"]
 > [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
