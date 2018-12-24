@@ -67,19 +67,58 @@ Similarly, create the following action calls by following the steps 1-4.
                                                                 
   isAccept=TRUE                                                 
                                                                 
-  isReject=TRUE                                                 |
+  isReject=TRUE |
 | Condition      | \[\[RequestType\]\] == "1"                                   |
+
+ <table>
+    <tr>
+        <th>Field</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>ShowSimpleChatRequestScreenPop</td>
+    </tr>
+    <tr>
+        <td>Hosted Control</td>
+        <td>Omni-channel Popup Notification</td>
+    </tr>
+    <tr>
+        <td>Action</td>
+        <td>Show</td>
+    </tr>
+    <tr>
+        <td>Data</td>
+        <td>formname=SimpleChatRequestPopUpForm
+            top=10
+            left=98
+            timeout=120
+            stack=true
+            stackHeight=50
+            cid=[[ConversationId]+]
+            from=[[From]+]
+            isUniqueContactRecognized=[[IsUniqueContactRecognized]+]
+            jobTitle=[[contact_jobtitle_0]+]
+            email=[[contact_emailaddress1_0]+]
+            state=[[contact_Address1_Stateorprovince_0]+]
+            city=[[contact_Address1_City_0]+]
+            position=absolute
+            isAccept=TRUE
+            isReject=TRUE</td>
+    </tr>
+    <tr>
+        <td>Condition </td>
+        <td>[[RequestType]] == "1"</td>
+    </tr>
+
+ </table>
 
 | Field          | Value                           |
 |----------------|---------------------------------|
 | Name           | Expand Right Pane               |
 | Hosted Control | Omni-channel Popup Notification |
 | Action         | SetVisualProperty               |
-| Data           | elementName=RightPanelExpander  
-                                   
-  propertyname=IsExpanded          
-                                   
-  value=true                       |
+| Data           | elementName=RightPanelExpander<br>propertyname=IsExpanded<br>value=true |
 
 ![expand right panel action call](../media/oc-usd-crm-expand-right-panel-actioncall.png "Expand right panel action call")  
 
