@@ -204,7 +204,7 @@ This scenario is configured by creating a facility resource, creating a doctor r
 
 In order to schedule groups of resources together to perform a task at a facility, non-facility resources can be associated to facility/facility pool resources through the **Resource Associations entity (msdyn_bookableresourceassociations)**. 
 
-Resources such as people, equipment, or pool resources,may be associated to a facility or facility pool with date effectivity. This means resources will perform work at the facility location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer's location. This is extremely important as it relates to using the option “Related Resource Pools”.
+Resources such as people, equipment, or pool resources,may be associated to a facility or facility pool with date effectivity. This means resources will perform work at the facility location during the expressed date range, and they are not eligible for “onsite” work in which they would have to leave the facility and travel to a customer's location. This is extremely important as it relates to using the option **Same Resource Tree**.
 
 ### 1. Create a facility resource
 
@@ -288,11 +288,11 @@ In this example it is called "Health Clinic"
 
  ### 2. Create facility resources to represent each room
 
-Next, create facility resources to represent each room.
+Next, create multiple facility resources to represent each room.
 
-These resources should have a resource type = facility.
+Set **resource type to facility** on each resource.
 
-Set the start/end location of each room resource to an organizational unit address that represents the location of the rooms.  
+Set the **start/end location to organizational unit address** and select an Organizational Unit to represent the location of the rooms.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource to represent a room](./media/scheduling-facility-new-room.png)
@@ -335,14 +335,14 @@ Select **Book** from the requirement group to trigger the schedule assistant.
 In the results above, two specific rooms are recommended both at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on the requirement records) and the location of the facility resources (resource children organizational units). 
 
  
- **Pro Tip:** Alternatively, another way to configure scenario 4 is to use an organizational unit. This will eliminate the need to use resource children. Simply create an organizational unit called Health Clinic and create facility type resources for each room noting the Health Clinic organizational unit as the start/end location on each room resource. Next, when creating a requirement group, enter Organizational Unit in the Part of Same field to ensure the 2 booked rooms are at the same location. Another industry example is you may create 10 car lifts (facilities) at one mechanic shop (Organizational Unit). 
+ **Pro Tip:** Alternatively, another way to configure scenario 4 is to use an organizational unit. This will eliminate the need to use resource children. Simply create an organizational unit called Health Clinic and create facility type resources for each room noting the Health Clinic organizational unit as the start/end location on each room resource. Next, when creating a requirement group, enter Organizational Unit in the Part of Same field to ensure the two booked rooms are at the same location. An example from a different industry is you may create ten car lifts (facilities) at one mechanic shop (Organizational Unit). 
 
 
 ## Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
 
 In this scenario schedulers want to schedule specific rooms within a doctor's office to a pool of available pediatric doctors who work at the health clinic.
 
-This scenario is configured by creating a pool of facilities and a pool of doctors and associating them together via Resouce Associations (**msdyn_bookableresourceassociations**).
+This scenario is configured by creating a pool of facilities and a pool of doctors and associating them together via **Resouce Associations** (**msdyn_bookableresourceassociations**).
 
 
  ### 1. Create a facility pool 
@@ -365,11 +365,11 @@ Then add each room as a resource child to the doctor's office (Health Clinic) fa
  
  Create a new resource pool to represent the pediatric doctors. 
  
- **Resource Type** should be set to **Pool** and **pool type** should be set to **contacts, users, accounts** as doctors are personnel.
+ Set **Resource Type** to **Pool** and set **Pool Type** to **contacts, users, accounts** as doctors are personnel.
 
  As is true of all resource records, you can add characteristics to define and distinguish differences among resources. In this example, "pediatrics" could be a skill to add to each doctor resource.
 
-Set **Derive Capacity from Group Members** to **yes**. This means the capacity of the pool is based on how many doctors are associated to it.
+Set **Derive Capacity from Group Members** to **Yes**. This means the capacity of the pool is based on how many doctors are associated to it.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-facility-create-pediatrician-pool.png)
@@ -384,7 +384,7 @@ Create resources to represent doctors and add them as resource children to the p
 
 Next, navigate to the original facility pool (Health Clinic) and then go to **Related > Bookable Resource Association**
 
-Set the Resource 2 field to the Pediatric doctor pool resource.
+Set the **Resource 2** field to the Pediatric doctor pool resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of associating the pediatrician pool to the docotor's office/health clinic pediatrician pool](./media/scheduling-facility-associate-pediatricians-health-clinic.png)
@@ -394,29 +394,29 @@ Set the Resource 2 field to the Pediatric doctor pool resource.
  
  Navigate to **Universal Resource Scheduling > Requirement Groups > +New**
 
- In this example, we created a requirement group that calls for 2 rooms (facilities) and a pediatric doctor.
+ In this example, we created a requirement group that calls for two rooms (facilities) and a pediatric doctor.
 
 
 By setting **Part of Same** to **Resource Tree** this ensures rooms and pediatricians are related to same facility resource via resource children or resource association.
 
-For each room requirement, set the resource type to facility
+For each room requirement, set the resource type to facility.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group calling for two rooms and a pediatrician that are all part of the same resource tree](./media/scheduling-facility-requirement-group-clinic-doctors.png)
 
 
-The resource types you choose for the pediatrician doctor requirement will affect schedule assistant results.
+The resource types you choose for the pediatrician doctor **requirement** will affect schedule assistant results.
 
-**If Resource Type = Pool and Pool Type =  Users, accounts, contacts**
+**On the requirement, if Resource Type = Pool and Pool Type =  Users, Accounts, Contacts**
 
 The Pediatrician pool resource will be displayed in the results.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant results utilizing pediatrician pool](./media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant-pool.png)
 
-This allows you to book the pediatrician pool to be assigned to a specific pediatric doctor at a later time. Whether pediatricians show as results will depend on capacity (as derived from the number of doctors in the pool). The advantage of using the pool is allowing schedulers to book appointments based on capacity without having to assign a specific doctor at the time of scheduling.
+This allows you to book the pediatrician pool and assign a specific pediatric doctor at a later time. Whether pediatricians show as results will depend on capacity (as derived from the number of doctors in the pool). The advantage of using the pool is allowing schedulers to book appointments based on capacity without having to assign a specific doctor at the time of scheduling.
 
-**If Resource Type = users, accounts, contacts**
+**On the requirement, if Resource Type = Users, Accounts, Contacts, (Not Pools)**
 
 Specific doctor resources will show in results. 
 
@@ -445,14 +445,14 @@ Specific doctor resources will show in results.
   - The Part of Same field schema name is **msdyn_requirementrelationship**
   - **Same Location** – Same location means that only teams of resources working at the same location will be returned. This uses the logic expressed in this document to determine the location, using the Resource Associations (msdyn_bookableresourceassociations) and the Bookable Resource Group (bookableresourcegroup) entities. Using this option, regardless of which specific facility or facility pool other non-facility resources may be associated to, all that matters is that the resources are at the same physical location (organizational unit).
 
-  - **Same Resource Tree** – Related Resource Pools adds an extra layer of stringency to the search. This means that the teams assembled must actually be associated to the same exact facility, or facility pool to be returned as a team. For example, let’s assume there is one physical location, Location A. 
+  - **Same Resource Tree** – Same Resource Tree adds an extra layer of stringency to the search. This means that the teams assembled must actually be associated to the same exact facility, or facility pool to be returned as a team. For example, let’s assume there is one physical location, Location A. 
 
-   > At location A are 2 Facilities, facility 1 and facility 2. If Resource 1 is associated to Facility 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility 1+Resource 1. Facility 2 and Resource 1 cannot be returned. This combo could however be returned if “Same Location” is the only option selected. 
+   > At location A are 2 Facilities, facility 1 and facility 2. If Resource 1 is associated to Facility 1, and "Same Resource Tree" is selected, the one team that can be assembled is Facility 1 + Resource 1. Facility 2 and Resource 1 cannot be returned. This combo could however be returned if “Same Location” is the only option selected. 
 
-   > So too with Facility Pools. Let’s assume there is one physical location, Location A. At location A are 2 Facilities, facility 1 and facility 2, as well as a Facility Pool (Facility Pool 1). If Resource 1 is associated to Facility Pool 1, and “Related Resource Pools” is selected, the one team that can be assembled is Facility Pool 1 (or one of it’s child facilities)+Resource 1. 
+   > So too with Facility Pools. Let’s assume there is one physical location, Location A. At location A are 2 Facilities, facility 1 and facility 2, as well as a Facility Pool (Facility Pool 1). If Resource 1 is associated to Facility Pool 1, and “Same Resource Tree” is selected, the one team that can be assembled is Facility Pool 1 (or one of it’s child facilities) + Resource 1. 
    
    > [!Note]
-   > If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the Schedule Assistant search will execute as if “Same Location” was selected. 
+   > If neither of these two options are selected on the Requirement Relationship (msdyn_requirementrelationship), and work location is set to facility, the schedule assistant search will execute as if “Same Location” was selected. 
 
   - **Same Organizational Unit** – A more stringent option you can select is same organizational unit. This option ensures that the parent organizational unit of the resources are the same. It does not check the bookable resource group or the bookable resource association entity. It is just checking the parent organizational unit.
 
@@ -470,11 +470,10 @@ Specific doctor resources will show in results.
 
 ## Additional Notes
 
-- For requirements that are not part of a requirement group, only facility or facility pool resources can return in the Schedule Assistant if work location is set to Facility.
+- For requirements that are not part of a requirement group, only facility or facility pool resources can return in the schedule assistant if Work Location is set to Facility.
 - A resource cannot be related to two facilities (child or association) at the same time
 - There is currently no specific way to visualize every resource related to a facility on the schedule board. Currently the closest way to achieve this is to filter by organizational units. 
 - Manually scheduling a single requirement to a facility will not create records for all resources related to the facility
-- When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record
 
 ### Facility Pool Location
 
@@ -482,7 +481,7 @@ The location for a Facility Pool is taken from the parent organizational unit. I
 
 ### Booking Location
 
-When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record. The work location will be set as well based on the work location used when booking in the Schedule Assistant. If bookings are created without using the Schedule Assistant, if work location of the requirement is set to facility, and there are latitude and longitude values on the requirement, the work location, latitude, and longitude will still be set on the booking. 
+When a team is selected and booked, the latitude and longitude of the location of the facility/facility pool that is booked will be stored on the booking record. The work location will be set as well based on the work location used when booking in the schedule assistant. If bookings are created without using the schedule assistant, if work location of the requirement is set to facility, and there are latitude and longitude values on the requirement, the work location, latitude, and longitude will still be set on the booking. 
 
 
 
