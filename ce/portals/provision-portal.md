@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date: 12/17/2018
+ms.date: 12/26/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -51,8 +51,9 @@ To complete provisioning a portal, after you have purchased a new portal license
     - Live
 
     > [!NOTE]
-    > - For existing provisioned portals, this drop-down list is available on the Portal Details tab and no status is selected by default.
+    > - For existing provisioned portals, this drop-down list is available on the **Portal Details** tab and no status is selected by default.
     > - This drop-down list is available only for the portals of type production.
+    > - This field is used by Microsoft to understand the usage pattern of this portal and does not affect any functionality. If you use different names for development lifecycle, please select the one which is closer in purpose. This can be changed at a later point of time once portal is provisioned.
 
 5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You can only use alphanumeric characters or hyphens (-); other characters are not permitted.
 
