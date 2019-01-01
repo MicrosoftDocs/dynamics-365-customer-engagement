@@ -60,14 +60,14 @@ In general, to use facility scheduling, an administrator must create a facility 
 
 Let's consider five scenarios to describe facility scheduling. 
 
-1. Schedule a doctor's office
-2. Schedule a doctor's office with 5 generic rooms 
-3. Schedule a doctor's office and related doctor
-4. Schedule a doctor's office with 5 specific rooms
-5. Schedule a doctor's office with 5 specific rooms and 5 related doctors
+1. Schedule a facility
+2. Schedule a facility with 5 generic rooms 
+3. Schedule a facility and related resource
+4. Schedule a facility with 5 specific rooms
+5. Schedule a facility with 5 specific rooms and 5 related resources
 
 
-## Scenario 1: Schedule a doctor's office  
+## Scenario 1: Schedule a facility  
 
 In this scenario schedulers want to search for nearby doctor's offices and schedule an appointment for a patient to arrive at the doctor's office. 
 
@@ -164,7 +164,7 @@ Facility resources will also be displayed on the schedule board map based on the
 
 
 
-## Scenario 2: Schedule a doctor's office with 5 generic rooms
+## Scenario 2: Schedule a facility with 5 generic rooms
 
 In this scenario a doctor's office has 5 identical rooms and schedulers do not need to book each room specifically, but must ensure that no more than 5 patients are booked across all rooms during any one time slot.
 
@@ -195,7 +195,7 @@ In the image above, two separate requirements for a facility were both scheduled
 > Capacity scheduling is not intended to be used to book the same requirement multiple times, but rather book multiple requirements. Rebooking a previously booked requirement will cancel the existing booking and create a new one.
 
 
-## Scenario 3: Schedule a doctor's office and related doctor
+## Scenario 3: Schedule a facility and related resource
 
 In this scenario schedulers want to schedule a doctor's office and a related doctor at the same facility during the same timeslot.
 
@@ -269,7 +269,7 @@ Scheduling the requirement group creates a booking for the facility resource and
 
 As in scenario 1, travel time and distance is calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, it is assumed he/she will be at the facility at the required time.
 
-## Scenario 4: Schedule a doctor's office with 5 specific rooms
+## Scenario 4: Schedule a facility with 5 specific rooms
 
 In this scenario schedulers want to track all rooms within a doctor's office and schedule each individual room to patients.
 
@@ -338,7 +338,7 @@ In the results above, two specific rooms are recommended both at the same locati
  **Pro Tip:** Alternatively, another way to configure scenario 4 is to use an organizational unit. This will eliminate the need to use resource children. Simply create an organizational unit called Health Clinic and create facility type resources for each room noting the Health Clinic organizational unit as the start/end location on each room resource. Next, when creating a requirement group, enter Organizational Unit in the Part of Same field to ensure the two booked rooms are at the same location. An example from a different industry is you may create ten car lifts (facilities) at one mechanic shop (Organizational Unit). 
 
 
-## Scenario 5: Schedule a doctor's office with 5 specific rooms and 5 related doctors
+## Scenario 5: Schedule a facility with 5 specific rooms and 5 related resources
 
 In this scenario schedulers want to schedule specific rooms within a doctor's office to a pool of available pediatric doctors who work at the health clinic.
 
