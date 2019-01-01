@@ -12,123 +12,106 @@ ms.topic: article
 ms.assetid: c0a1d153-e907-4bd7-bab6-09e270ed8833
 ms.custom: 
 ---
-# Understand how routing & work distribution works
+# Understand how routing and work distribution works
 
-The complete working of routing and work distribution mechanism can be explained with the help of the following scenario:
+The following scenario should help you understand how the routing and work distribution mechanism works.
 
-- As an administrator, configure the following in the omni-channel system.
+- As an admin, you configure the following entities in the omni-channel system.
 
-| Entity                     | Value                                              |
-|----------------------------|----------------------------------------------------|
-| Work stream and capacity   | Chat from Support Portal with capacity of 50 units |
-| Channel         | Chat                                               |
-| Work distribution mode     | Push                                               |
-| Omni-channel routing rules | -   If category = Billing, assign to Billing Queue </br>                                         -   If category = Product, assign to Product Queue  |
-| Omni-channel queues        | -   Billing Queue = Members: Gilda, Bert </br> -   Product Queue = Members: Jill, Shana            |
-| Users and user profiles    | Agents - Gilda, Bert, Jill, Shana                  |
-| Presence status            | Available or Busy                                  |
+    | Entity                     | Value |
+    |----------------------------|-------|
+    | Work stream and capacity   | **Chat from Support Portal** with a capacity of **50** units |
+    | Channel                    | **Chat** |
+    | Work distribution mode     | **Push** |
+    | Omni-channel routing rules | <ul><li>If **Category** = **Billing**, assign to **Billing Queue**</li><li>If **Category** = **Product**, assign to **Product Queue**</li></ul> |
+    | Omni-channel queues        | <ul><li>**Billing Queue**: Members = **Gilda**, **Bert**</li><li>**Product Queue**: Members = **Jill**, **Shana**</li> |
+    | Users and user profiles    | Agents = **Gilda**, **Bert**, **Jill**, **Shana** |
+    | Presence status            | **Available** or **Busy** |
 
-- All incoming conversations are marked with a unique work stream name and inherit the properties defined in that work stream during runtime evaluation.
+- All incoming conversations are marked with a unique work stream name, and they inherit the properties that were defined in that work stream during runtime evaluation.
 
-  In the scenario, if a chat request comes with a work stream name **Chat from Support Portal** associated with it, it will inherit the properties of the defined work stream.
+    In this scenario, if a chat request comes in, and the **Chat from Support Portal** work stream name is associated with it, the chat request inherits the properties of the defined work stream.
 
-- Now, routing and work distribution mechanism comes in. It is a two-step process:
+- The routing and work distribution mechanism comes in to play. This mechanism is a two-step process:
 
-    - The routing rule evaluates the incoming conversation and decides on the destination as an **Omni-channel queue**.
+    1. Routing rules evaluate the incoming conversation and determine that the destination is an omni-channel queue.
 
-        **Note**: Incoming conversation comes with contextual data (a combination of context variables and related entity records). Routing rules are written on these context variables.
+        > [!NOTE]
+        > Incoming conversations include contextual data (a combination of context variables and related entity records). Routing rules are written on these context variables. In the preceding entity configuration, **Category** is a context variable. If the category of an incoming conversation is **Billing**, the conversation is routed to the **Billing Queue** omni-channel queue in real time.
 
-        So, in the above property definition, **Category** is a context variable and if the incoming conversation has category **Billing** then the conversation is routed to **Billing Queue** in real-time.
+    2. After the conversation reaches the correct omni-channel queue, work distribution rules are applied, and the conversation is allocated to one of the agents.
 
-    - Once the conversation reaches the omni-channel queue, work distribution rules come in and the conversation is allocated to one of the agents.
+        The conversation is assigned to the agent who satisfies the following conditions.
 
-      The conversation is assigned to the agent who satisfies the following conditions:
+        ![Scenario conditions](../../omni-channel-engagement-hub/media/oc-scenario-1.png)
 
-         ![scenario conditions](../../omni-channel-engagement-hub/media/oc-scenario-1.png)
+        Here is an example that shows how these conditions might be evaluated:
 
-        So, in the above property definition,
+        - Both Gilda and Bert are members of the **Billing Queue** omni-channel queue.
+        - Both Gilda and Bert are associated with the **Chat from Support Portal** work stream.
+        - Bert's presence status is **Available**, whereas Gilda's presence status is **Away**.
+        - Bert has the required capacity.
 
-         - Both Gilda and Bert are members of the **Billing Queue**.
+        In this case, the conversation is assigned to Bert.
 
-         - They both are associated with **Chat from Support Portal** work stream.
+        ![Evaluation of scenario conditions](../../omni-channel-engagement-hub/media/oc-scenario-2.png)
 
-         - But Bert is available with required capacity and Gilda is Away.
+- Other rules play a part in the assignment of a conversation. Here are some examples:
 
-        Hence, the conversation gets assigned to Bert.
+    - If the conversation is coming in for reassignment after some follow-up, it's allocated to the agents who previously worked on it. This principle is known as agent affinity.
+    - The conversation is first allocated to the agent who has the most available capacity.
+    - If multiple agents qualify for the conversation and have the same capacity, the conversation is allocated to the agent who has been idle at that capacity for the longest time.
 
-        ![scenario-work](../../omni-channel-engagement-hub/media/oc-scenario-2.png)
+In this scenario, if the presence status of both Gilda and Bert is **Available**, both agents qualify for the incoming conversation, because they both meet these conditions:
 
--   There are more rules that play a part in the conversation assignment, like:
+- They are members of the **Billing Queue** omni-channel queue.
+- They are associated with the **Chat from Support Portal** work stream.
+- Their presence status is **Available**.
 
-    - **Agent Affinity**. If the conversation is coming for re-assignment after some follow-ups, it is allocated to the agent(s) who have worked on it in the past.
+> [!NOTE]
+> Agent affinity doesn't apply, because the conversation is coming in for the first time.
 
-    -   Agent with the most available capacity will be allocated the conversation first.
+The following table shows the evaluation that will be used to assign the conversation. In this table, *X* represents Gilda's capacity, and *Y* represents Bert's capacity.
 
-    -   If there are more than one agent who qualify for the conversation and have the same capacity, conversation will be allocated to the agent who has been idle at that capacity for the maximum time.
-
-So, in the above scenario, both Gilda and Bert qualify for the incoming conversation because:
-
--   They are the members of the **Billing Queue**.
-
--   They are associated with the work stream **Chat from Support Portal.**
-
--   This time they both have their presence status as **Available.**
-
-**Note**: Agent affinity doesn’t apply in this case as the conversation is coming for the first time.
-
--   Assuming that **X** is Gilda’s available capacity and **Y** is Bert’s available capacity, the conversation is assigned as per the following evaluation:
-
-|                      | X&gt;Y                            | Y&gt;X                            | X=Y                                                                                       |
-|----------------------|-----------------------------------|-----------------------------------|-------------------------------------------------------------------------------------------|
-| Gilda’s Capacity (X) | 100 units                         | 50 units                          | 50 units (for 1 hour)                                                                     |
-| Bert’s Capacity (Y)  | 50 units                          | 100 units                         | 50 units (for 2 hours)                                                                    |
-| Condition Evaluation | Gilda has more capacity than Bert | Bert has more capacity than Gilda | Bert and Gilda both have equal capacity i.e. 50 units </br> But Bert is available for 2 hours and Gilda is available for 1 hour                        |
-| **Result**               | Conversation gets assigned to Gilda  | Conversation gets assigned to Bert   | Conversation gets assigned to Bert because he has been idle for a longer duration than Gilda |
+|                          | X &gt; Y                               | Y &gt; X                              | X = Y |
+|--------------------------|----------------------------------------|---------------------------------------|-------|
+| **Gilda's capacity (X)** | 100 units                              | 50 units                              | 50 units (for one hour) |
+| **Bert's capacity (Y)**  | 50 units                               | 100 units                             | 50 units (for two hours) |
+| **Condition evaluation** | Gilda has more capacity than Bert.     | Bert has more capacity than Gilda.    | Bert and Gilda have equal capacity (50 units). However, Bert is available for two hours, whereas Gilda is available for one hour. |
+| **Result**               | The conversation is assigned to Gilda. | The conversation is assigned to Bert. | The conversation is assigned to Bert, because he has been idle for a longer time than Gilda. |
 
 ## Automated work distribution
 
 If a conversation remains in an omni-channel queue with any agent, it becomes available for automated work distribution:
 
--   Conversations with priority 1 queues are distributed before priority 2 queues. All items that belong to an omni channel queue are of equal priority.
+- Conversations that have priority-1 queues are distributed before conversations that have priority-2 queues. All items that belong to an omni-channel queue have equal priority.
+- Conversations are queued according to their age.
+- As soon as agents become available and have enough capacity to take on the work, the items start to be allocated to them.
+- Agents work on the conversations and take one of the following actions:
 
--   Conversations are queued according to their age.
+    - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
+    - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't take action on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
+    - Resolve the conversation, and move it to the **Closed** state.
 
--   As soon as the agents become available and they have enough capacity to take up the work, they start getting the items allocated to them.
+### Adjusting an agent's capacity based on conversation allocation
 
--   Agents work on the conversation and take either of the following actions:
+When an agent accepts a conversation, his or her capacity is reduced. Here are the actions that occur:
 
+- The conversation is added to the agent's **My Items** list.
+- The agent's presence status might change to **Busy** or **Busy DND**, depending on the total capacity that is used.
+- The agent's utilized capacity increases.
+- The agent's available capacity decreases.
 
-    -   Transfer the conversation to another queue or agent. This happens often because customers may select incorrect IVR options or Pre-chat questions.
-    
-    -   Move the item to Waiting for Customer Input or other internal tasks that are not actionable by the agent. conversation will move from Waiting state to Open state when the customer responds.
-    
-    -   Resolve the conversation in consideration and move it to Closed state.
+### Adjusting an agent's capacity based on closure of active conversations
 
+When an agent has finished working on a conversation, the capacity should be added back to the agent's availability. Here are the actions that occur:
 
-### Adjusting the capacity of the agent based on a conversation allocation
+- The conversation is removed from the agent's **My Items** list.
+- The agent's presence status might change to **Busy** or **Available**, depending on the total capacity that is used.
+- The agent's utilized capacity decreases.
+- The agent's available capacity increases to the extent of his or her free capacity.
+- If any conversations that are waiting in the queue can be assigned to the agent, they are allocated as soon as the agent becomes available.
 
-When the agent accepts the conversation, the capacity reduces. Also:
-
--   The conversation is added to the agent’s My Items list.
-
--   Agent’s presence status may change to Busy/DND depending on total capacity utilized.
-
--   Utilized capacity increases.
-
--   Available capacity decreases.
-
-### Adjusting the capacity of the agent based on closure of active conversations
-
-When the agent finishes working on the conversation, the capacity should be added back to agent’s availability. Also:
-
--   The conversation is removed from the agent’s My Items list.
-
--   Agent’s presence status may change to Busy/Available depending on total capacity utilized.
-
--   Utilized capacity decreases. Available capacity increases to the extent of free capacity.
-
- - If there are conversations waiting in the queue that can be assigned to the agent, they are allocated as soon as the agent becomes available.
-
-### See also
+## See also
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
