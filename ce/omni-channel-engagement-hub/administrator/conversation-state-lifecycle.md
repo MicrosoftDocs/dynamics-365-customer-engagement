@@ -1,5 +1,5 @@
 ---
-title: "Understand conversation state lifecycle"
+title: "Understand the conversation state lifecycle"
 description: 
 keywords: ""
 author: anjgupta
@@ -13,17 +13,18 @@ ms.assetid: 1a4ef45e-efb3-4a9c-9665-20bb1eed9998
 ms.custom: 
 ---
 
-# Understand conversation state lifecycle
+# Understand the conversation state lifecycle
 
-When a conversation is allocated to an agent, the agent works on the conversations and drives them to logical closure. Once the conversation is completed and closed, the agent's capacity becomes available and they can start accepting the next set of conversations that are waiting for their attention. Thus, incoming conversation and its distribution amongst agents operates like a clockwork and efficiencies are utilized.
+When a conversation is allocated to an agent, that agent works on the conversation and drives it to logical closure. After the conversation is completed and closed, the agent's capacity becomes available. The agent can then start to accept the next set of conversations that are waiting for attention. Therefore, the distribution of incoming conversations among agents works like clockwork, and efficiencies are utilized.
 
-Conversation state plays a key role in this process as it keeps the system going by updating the state of a conversation at various stages. 
+Conversation state plays an important role in this process by updating the state of a conversation at various stages.
 
-During their complete lifecycle, conversations follow a dedicated path during which they are created, assigned to agents, worked upon by agents (attended), suspended (waiting for inputs), and closed by agents (or sometimes abandoned or auto closed by the system). 
+During their complete lifecycle, conversations follow a dedicated path. They are created, assigned to agents, worked on by agents (attended to), suspended (while they are awaiting input), and closed by agents (or sometimes either abandoned or automatically closed by the system).
 
-During the whole process, omni-channel system gathers a lot of data about agent efficiency and operational bottle necks that can be fixed by the organization for optimum efficiency. For example, the view of conversations in Waiting state, conversations in Closed state, and conversations in Open State, etc. helps to keep a track of operational health of incoming requests.
+During the whole process, the omni-channel system gathers lots of data about agent efficiency, and also about operational bottlenecks that the organization can fix to achieve optimum efficiency. For example, the view of conversations in the **Waiting** state, conversations in the **Closed** state, conversations in the **Open** state, and so on, helps organizations track the operational health of incoming requests.
 
-You can also view other important metrics and analyze them in the supervisor dashboard, like:
-- Average Handling Time
-- Average Waiting Time for Customers
-- Number of conversations resolved by Agents
+You can also view other important metrics and analyze them on the supervisor dashboard. Here are some examples:
+
+- Average handling time
+- Average waiting time for customers
+- The number of conversations that have been resolved by agents
