@@ -1,5 +1,5 @@
 ---
-title: "Understand routing and work distribution"
+title: "Understand unified routing and work distribution"
 description: 
 keywords: ""
 author: anjgupta
@@ -13,44 +13,46 @@ ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
 ms.custom: 
 ---
 
-# Understand unified routing and work distribution 
+# Understand unified routing and work distribution
 
-Unified Routing and Work Distribution in the Omni-channel Engagement Hub ensures effective allocation of work. This benefit both agents and supervisors as agents can prioritize their most urgent tasks and supervisors can help load balance using real-time monitoring.
+Unified routing and work distribution in Omni-channel Engagement Hub helps guarantee that work is efficiently and effectively allocated (routed). There are benefits for both agents and supervisors. Agents can prioritize their most urgent tasks, and supervisors can help balance the load by using real-time monitoring.
 
-For example, efficient routing of workload across channels can ensure that:
-- Work is directed and allocated to the right set of agents
-- Agent attention is always utilized for the most urgent tasks
-- The time spent by agents on conversations is properly tracked and the agent workforce is utilized in the most efficient manner
-- Unify the conversations and requests across real-time channels and asynchronous conversations like SMS, Asynchronous messages, Cases, Leads, Scheduled Tasks, and more
+Here are some ways that efficient routing of work across channels can help:
 
-Unified Routing and Work Distribution identify availability of agents and allocates work to them based on the following criteria:
+- Work is directed and allocated to the correct set of agents.
+- Agent attention is always used for the most urgent tasks.
+- The time that agents spend on conversations is correctly tracked, and the agent workforce is used in the most efficient manner.
+- The conversations and requests are unified across real-time channels and asynchronous conversations, such as Short Message Service (SMS), asynchronous messages, cases, leads, and scheduled tasks.
 
-- Association of agents with queues and channels
-- Real-time capacity and presence of the agent
-- Maximum concurrency on a channel
+Unified routing and work distribution identifies the availability of agents and allocates work to them based on the following criteria:
 
-For example, with the help of routing and work distribution, you can route a chat from a customer about a specific query like international life insurance to an agent who is equipped to support it, as shown in the below infographic:
+- The association of agents with queues and channels
+- The real-time capacity and presence of agents
+- The maximum concurrency on a channel
+
+For example, a chat interaction that comes in from a customer has a specific query about international life insurance. In this case, unified routing and work distribution can help route the chat to an agent who is equipped to handle that query, as shown in the following illustration.
 
 ![Routing flowchart](../../customer-service/media/example-routing-work.png)
 
-Routing and work distribution is a 2-step process. Routing ensures that a conversation is in the right omni-channel queue with the help of routing rules. Once a conversation is in its designated omni-channel queue, work distribution comes in and it allocates conversations to the available agents in real-time, based on configured rules.
+Unified routing and work distribution is a two-step process:
 
-To effectively route and distribute the work among agents, you can set up the following in the Omni-channel Engagement Hub as an administrator:
+1. Routing uses routing rules to help guarantee that conversations are put into the correct omni-channel queues.
+2. Work distribution allocates the different conversations to the available agents in real time, based on configured rules.
+
+To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
 
 - Work streams
 - Omni-channel queues
 - Routing rules
 - Users and user profiles
-- Presence and Custom Presence
+- Presence and custom presence
 
-Refer to the following sections to understand routing and work distribution in detail:
+To learn about unified routing and work distribution in more detail, see the following topics:
 
 - [Create and manage work streams](work-streams.md)
-- [Configure Presence and Custom Presence](presence-custom-presence.md)
+- [Configure presence and custom presence](presence-custom-presence.md)
 - [Create and manage users and user profiles](users-user-profiles.md)
-- [Create and manage routing rules in Omni-channel](routing-rules.md)
+- [Create and manage routing rules in omni-channel](routing-rules.md)
 - [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)
-- [Understand conversation state lifecycle](conversation-state-lifecycle.md)
-- [Understand how routing & work distribution works](routing-work-distribution-scenario.md)
-
-
+- [Understand the conversation state lifecycle](conversation-state-lifecycle.md)
+- [Understand how routing and work distribution works](routing-work-distribution-scenario.md)
