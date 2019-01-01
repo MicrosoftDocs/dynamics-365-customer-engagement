@@ -1,6 +1,6 @@
 ---
-title: "Omni-channel Engagement Hub for customer"
-description: "Know the capabilities of the chat widget and how it will be useful for the customers."
+title: "Omni-channel Engagement Hub for customers"
+description: "Learn the capabilities of the chat widget and how it's useful for customers."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -12,33 +12,28 @@ ms.topic: article
 ms.assetid: acad7fe7-bd03-466d-8fe3-1434ba1dc724
 ms.custom: 
 ---
-# Omni-channel Engagement Hub for customer
+# Omni-channel Engagement Hub for customers
 
-Nowadays, customers are looking forward to a great customer experiences in every touchpoint with organizations. In this scenario, messaging emerges as a key support channel that allows a customer to interact with an organization instantly.
+These days, customers expect a great customer experience in every touchpoint with an organization. In this situation, messaging is as a key support channel that lets customers instantly interact with an organization.
 
-The chat widget allows your customers to connect with you in the way that is convenient for them, for example, from their mobile devices or a computer. The available agent can then connect with the customer to resolve their query.
+The chat widget lets your customers connect with you in a way that is convenient for them (for example, from their mobile devices or a computer). Available agents can then connect with the customers to respond to their queries.
 
-The chat widget is displayed on the websites or portals to the customers in the minimized mode. To display the chat widget on a website or a portal, an administrator must embed the JavaScript snippet in the code while configuring the chat.
+To show the chat widget on a website or a portal, the admin who is configuring the chat widget must embed the JavaScript snippet in the code. By default, the chat widget on websites and portals is shown to customers in minimized mode.
 
-After the chat is configured, it has the following capabilities:
+After the chat widget is configured, it has the following capabilities:
 
-- **Minimized mode**: By default, the chat widget is displayed in the minimized mode. If any message is received in this mode, the count of the messages is displayed.
+- **Minimized mode**: By default, the chat widget is shown in minimized mode. If any messages are received while the widget is in this mode, a count of the messages is shown.
 
-    > [!div class=mx-imgBorder]
-    > ![chat widget in minimized mode](../media/oc-chat-widget-minimized-mode.png "Chat widget in minimized mode")  
+    ![Chat widget in minimized mode](../media/oc-chat-widget-minimized-mode.png "Chat widget in minimized mode")
 
-- **Maximized mode**: A user can maximize the chat widget to start the conversation with an agent.
+- **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
-- **System events**: Displays the system generated message on events such as when an agent has joined a chat or when a chat has been transferred to another agent.
+    ![Chat widget in maximized mode](../media/oc-chat-widget-maximized-mode.png "Chat widget in maximized mode")
 
-- **Pre-chat survey**: When configured by an administrator, a survey is displayed to the user before starting the conversation. It will also help the user to connect to an appropriate agent.
-
-    > [!div class=mx-imgBorder]
-    > ![chat widget in maximized mode](../media/oc-chat-widget-maximized-mode.png "Chat widget in maximized mode")  
-
-- **Chat notifications**: Chat notifications are displayed when the chat widget is minimized and when the chat widget is opened in a different browser tab. In minimized mode, message count is displayed on the widget. When you move away from the browser tab you are chatting, the message count is displayed on the tab.
-
+- **System events**: System-generated messages are shown for events, such as when an agent joins a chat or a chat is transferred to another agent.
+- **Pre-chat survey**: If a survey has been configured by an admin, it's shown to the user before the conversation is started. This survey also helps the user connect to an appropriate agent.
+- **Chat notifications**: Chat notifications are shown when the chat widget is in minimized mode, and when it's opened on a different browser tab. When the chat widget is in minimized mode, it shows a message count. If you move away from the browser tab where you're chatting, the message count is shown on the tab.
 - **End chat**: A customer can end the chat by selecting the **Close chat** button.
 
     > [!NOTE]
-    > In this preview, ending the chat will immediately end the chat without a confirmation message.
+    > In this preview, if you select **Close chat**, the chat is ended immediately, without a confirmation message.
