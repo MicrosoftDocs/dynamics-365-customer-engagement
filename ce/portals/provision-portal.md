@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date: 12/03/2018
+ms.date: 01/02/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,18 +42,31 @@ To complete provisioning a portal, after you have purchased a new portal license
 
 4.  The **Type** field represents the type of portal subscription (Trial or Production). This is a system field, so it cannot be changed by the user. The value changes based on whether it is trial subscription or paid subscription.
 
+5. Optionally, in the **Portal development status** drop-down list, select one of the following development statuses for your portal:
+
+    - Prototype
+    - Development
+    - Test
+    - UAT
+    - Live
+
+    > [!NOTE]
+    > - For existing provisioned portals, this drop-down list is available on the **Portal Details** tab and no status is selected by default.
+    > - This drop-down list is available only for the portals of type production.
+    > - This field is used by Microsoft to understand the usage pattern of this portal and does not affect any functionality. If you use different names for development lifecycle, please select the one which is closer in purpose. This can be changed at a later point of time once portal is provisioned.
+
 5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You can only use alphanumeric characters or hyphens (-); other characters are not permitted.
 
     > [!NOTE]
     > - To change the URL of a portal after it is provisioned, see [change the base URL of a portal](change-base-url.md).
     > - To link your portal to a custom domain, see [link your Dynamics 365 for Customer Engagement portal to a custom domain](manage-portal.md#link-your-dynamics-365-for-customer-engagement-portal-to-a-custom-domain).
 
-6.  Use the **Dynamics 365 Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
+6.  In the **Dynamics 365 Instance** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. This requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
 
-7.  Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
+7.  In the **Select Portal Language** drop-down list, select the default language for your portal. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
-   >[!NOTE]
-   > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
+    > [!NOTE]
+    > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
 
 8. In the **Select Portal Administrator** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user who will configure, customize, and maintain the portal. All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users who have the System Administrator role in the organization will appear as options. 
 
@@ -77,7 +90,8 @@ To complete provisioning a portal, after you have purchased a new portal license
 
 10. In the **Select portal to be deployed** section, choose what type of portal you want to create. The options you see are based on the audience you selected.
 
-    ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
+    > [!div class="mx-imgBorder"]
+    > ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
 
 11. Select **Submit**, and accept the Terms of Service.
 
