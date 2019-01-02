@@ -56,7 +56,7 @@ To secure your forms, you must create entity permissions that determine access a
 
 A managed form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](add-geolocation.md).
 
-The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrive values from them. The Entity Form record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
+The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrieve values from them. The Entity Form record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
 
 ![Geolocation data in entity form](media/geolocation-managed-form.png "Geolocation data in entity form") 
 

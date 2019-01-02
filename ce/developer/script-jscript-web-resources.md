@@ -28,7 +28,7 @@ search.app:
 
 Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
   
-<a name="BKMK_capabilties"></a>   
+<a name="BKMK_capabilities"></a>   
 ## Capabilities of script web resources  
  With [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources, you can more efficiently manage code used in form scripts, webpage (HTML) web resources, or ribbon commands by linking them to shared library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions.  
   
