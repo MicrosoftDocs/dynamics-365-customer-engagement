@@ -45,7 +45,7 @@ The Conversation form displays information of an conversation request, which are
 | Session details | Subject           |
 |                 | Date created      |
 
-![omni-channel conversation form](../media/oc-crm-conversation-form.png "omni-channel conversation form")  
+![omni-channel conversation form](../../media/oc-crm-conversation-form.png "omni-channel conversation form")  
 
 ### Session form
 
@@ -63,7 +63,7 @@ The Omni-channel session displays information of an conversation request, which 
 |         | Created on      |
 | Notes   | Notes           |
 
-![omni-channel session form](../media/oc-crm-omni-channel-session-form.png "Omni-channel session form") 
+![omni-channel session form](../../media/oc-crm-omni-channel-session-form.png "Omni-channel session form") 
 
 > [!div class="nextstepaction"]
 > [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)

@@ -18,7 +18,7 @@ The left control panel is a communication or conversation panel. The conversatio
 
 Using the chat conversation channel, you can send quick replies, search and share knowledge articles to the customer with whom you are interacting. Transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between the internal and public mode to send messages to the internal participants (other agents and/or supervisor).
 
-![omni-channel chat panel](../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")  
+![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")  
 
 ### Reply message as Internal and Public
 
@@ -36,7 +36,7 @@ You can use the keyboard shortcut to reply only to the agent or supervisor and t
 
 When you chat with a customer, your organization may have a process that requires you to interact with a set of standard questions and answers. You can use the **Quick replies** options to retrieve the standard set of questions and replies when you are interacting with the customers.
 
-![omni-channel quick response](../media/oc-usd-quick-response.png "Omni-channel quick response")  
+![omni-channel quick response](../../media/oc-usd-quick-response.png "Omni-channel quick response")  
 
 These questions and answers are stored as quick replies and you can use keyboard shortcut to see the list of quick replies.
 
@@ -52,7 +52,7 @@ From the conversation panel you can search for the relevant knowledge articles b
 
 When you are interacting with a customer, you want the expertise of another agent or with supervisor. In such scenario, you can Invite the agent or supervisor using consult option in the chat panel.
 
-![omni-channel consult](../media/oc-usd-consult.png "Omni-channel consult")  
+![omni-channel consult](../../media/oc-usd-consult.png "Omni-channel consult")  
 
 You can use the keyboard shortcut to see the list of available agents and/or supervisor with whom you can consult.
 

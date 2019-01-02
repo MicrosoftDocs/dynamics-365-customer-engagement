@@ -2,10 +2,10 @@
 
 ## [Introduction](introduction-omni-channel.md)
 
-## [Omni-channel administrators](administrator/omni-channel-engagement-hub-administrator.md)
+## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Set up chat widget](administrator/set-up-chat-widget.md)
 
-## [Omni-channel agents]()
+## [Agents]()
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
@@ -33,11 +33,11 @@
 #### [Create a record](agent/agent-csh/csh-create-record.md)
 #### [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
 
-## [Omni-channel supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
+## [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
 ### [Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
 ### [Introduction to supervisor dashboard](supervisor/omni-channel-engagement-hub-supervisor.md)
 
-## [Omni-channel system customizers](customizer/omni-channel-engagement-hub-customizer.md)
+## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize customer 360 form](customizer/customize-customer-360-page.md)
 ### [How to modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 ### [How to modify the section properties of the form](customizer/how-modify-section-properties-form-section.md)
@@ -61,4 +61,4 @@
 ##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
 
-## [Omni-channel customers](customer/omni-channel-engagement-hub-customer.md)
+## [Customers](customer/omni-channel-engagement-hub-customer.md)
