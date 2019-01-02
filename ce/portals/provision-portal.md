@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date: 12/26/2018
+ms.date: 01/02/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

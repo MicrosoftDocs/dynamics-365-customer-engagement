@@ -1,7 +1,7 @@
 ---
 title: "Upgrade a Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to upgrade a portal."
-ms.date: 12/18/2018
+ms.date: 01/02/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 

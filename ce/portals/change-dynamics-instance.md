@@ -1,7 +1,7 @@
 ---
 title: "Change the Dynamics 365 for Customer Engagement instance, audience, or type of Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to change the Dynamics 365 for Customer Engagement instance, audience, or type of a portal."
-ms.date: 12/17/2018
+ms.date: 01/02/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 

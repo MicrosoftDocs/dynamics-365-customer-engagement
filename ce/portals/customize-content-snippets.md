@@ -2,7 +2,7 @@
 title: "Customize content by using content snippets on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to customize content by using content snippets."
 keywords: ""
-ms.date: 12/17/2018
+ms.date: 01/02/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
