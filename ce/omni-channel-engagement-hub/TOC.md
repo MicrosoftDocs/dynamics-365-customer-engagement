@@ -6,6 +6,7 @@
 ### [Set up chat widget](administrator/set-up-chat-widget.md)
 
 ## [Agents]()
+
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
@@ -18,9 +19,10 @@
 #### [View Customer 360 for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search and link record to the conversation](agent/agent-usd/agent-usd/search-link-record.md)
+
 ### [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 #### [Sign in to Dynamics 365 Customer Service hub](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
-#### [Introduction to the agent interface](agent/agent-csh/csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub)
+#### [Introduction to the agent interface](agent/agent-csh/csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 #### [Sitemap](agent/agent-csh/csh-sitemap.md)
 #### [Navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)

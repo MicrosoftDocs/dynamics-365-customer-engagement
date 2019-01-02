@@ -34,7 +34,7 @@ ms.custom:
 
 <h2> I'm an agent </h2>
 
-<li><a href="agent/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel Engagement Hub for agents](agent/omni-channel-engagement-hub-agent.md)">Omni-channel Engagement Hub for agents</a></li>
+<li><a href="agent/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel Engagement Hub for agents](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Omni-channel Engagement Hub for agents</a></li>
 </td>
 <td>
 
