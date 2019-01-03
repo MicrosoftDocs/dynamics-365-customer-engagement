@@ -34,7 +34,7 @@ To download the Unified Service Desk client application, you must join the Omni-
 
 To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md).
 
-Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md) 
+Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## Configure Unified Service Desk recommended settings for Internet Explorer
 
