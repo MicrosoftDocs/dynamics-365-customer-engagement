@@ -64,7 +64,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps us
 ## Understand the potential risk when you manage your keys  
  As with any business critical application, personnel within your organization who have administrative-level access must be trusted. Before you use the key management feature, you should understand the risk when you manage your database encryption keys. It is conceivable that a malicious administrator (a person who is granted or has gained administrator-level access with intent to harm an organization's security or business processes) working within your organization might use the manage keys feature to create a key and use it to lock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance. Consider the following sequence of events.  
   
-1. The malicious administrator signs in to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)], goes to the edit page for an instance, and then generates a new encryption key to use to encrypt the instance. As part of the key generation, the malicious [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator downloads the encryption key.  
+1. The malicious administrator signs in to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)], goes to the edit page for an instance, and then generates a new encryption key to use to encrypt the instance. As part of the key generation, the malicious [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator downloads the encryption key.  
   
 2. The malicious administrator locks the associated [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance and takes or deletes the encryption key that was used to lock the instance.  
   
@@ -144,7 +144,7 @@ For more information about the key types supported by Key Vault by uploading the
   
     4.  Click **close** to close the manage your database encryption key dialog box.  
   
-    5.  An email message is sent to all Customer Engagement apps administrators in your organization. This occurs whenever a key is changed for an instance.  
+    5.  An email message is sent to all Customer Engagement administrators in your organization. This occurs whenever a key is changed for an instance.  
   
 Notice that the key name you specified to manage database encryption settings now appears under **Current Encryption Key**.  
   
