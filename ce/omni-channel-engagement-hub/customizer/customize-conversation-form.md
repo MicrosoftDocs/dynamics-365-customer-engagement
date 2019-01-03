@@ -70,4 +70,4 @@ As system customizer, you want to customize the conversation form to suit your b
 
 [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 
-[Configure alert notification in Unified Service Desk](configur-alert-notification-unified-service-desk.md)
+[Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
