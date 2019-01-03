@@ -78,11 +78,11 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps us
 ### Privileges required  
  To use the manage keys feature you need one of the following privileges:  
   
-- Office 365 Global Administrators membership.  
+- Office 365 Global administrators membership.  
   
-- Office 365 Service Administrators group membership.  
+- Office 365 Service administrators group membership.  
   
-- System Administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps that you want to manage the encryption key.  
+- System administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps that you want to manage the encryption key.  
   
 ### Subscription requirements  
  The ability to self-manage database encryption keys requires the Dynamics 365 for Customer Engagement apps Plan.  

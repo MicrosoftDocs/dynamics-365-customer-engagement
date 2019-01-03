@@ -1,7 +1,7 @@
 ---
 title: "Global and Service administrators can administer Dynamics 365 for Customer Engagement apps (Online) without a license | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 01/03/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 9707d6fd-f289-4e46-895e-6b871ca3a9ea
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-By default, all [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license are granted the following two levels of permission in Customer Engagement apps.  
+By default, all Office 365 Global administrators and Dynamics 365 Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license are granted the following two levels of permission in Customer Engagement apps.  
   
 -   System administrator security role  
   
 -   Administrative access mode  
   
-The system administrator security role is typically granted to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.dministrators giving them unrestricted access to the administrative (Settings) areas, which are used for managing and configuring features of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+The system administrator security role is typically granted to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] administrators giving them unrestricted access to the administrative (Settings) areas, which are used for managing and configuring features of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 Administrative access mode limits access to those areas of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps used to configure or customize the system.  
   
