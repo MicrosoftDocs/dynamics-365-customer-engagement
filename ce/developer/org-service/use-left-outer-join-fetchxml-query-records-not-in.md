@@ -1,20 +1,20 @@
 ---
-title: "Use a left outer join in FetchXML to query for records &quot;not in&quot; (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use a left outer join in FetchXML to query for records &quot;not in&quot; (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Read how to use a left outer join in FetchXML to perform a query that filters on the join table and build a query to find records “not in” a set"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c4f2e2df-7b9a-4842-ba1e-29c5b59d8fc7
 caps.latest.revision: 11
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,22 +1,22 @@
 ---
-title: "Define ribbon actions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Define ribbon actions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining the actions to be performed by a command bar or ribbon control in a <CommandDefinition> element together with rules that control whether the control is enabled or visible in the ribbon. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon, control actions"
+  - ribbon, control actions
 ms.assetid: 350e6c40-d277-4aba-9619-5e007a67e477
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -43,7 +43,7 @@ Define the actions to be performed by a command bar or ribbon control in a `<Com
 [!INCLUDE[ribbon_element_BoolParameter](../../includes/ribbon-element-boolparameter.md)]
   
  `<CrmParameter>`  
- [!INCLUDE[ribbon_element_CrmParameter](../../includes/ribbon-element-crmparameter.md)] [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)  
+ [!INCLUDE[ribbon_element_CrmParameter](../../includes/ribbon-element-crmparameter.md)] [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Pass Microsoft Dynamics 365 for Customer Engagement data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)  
   
  `<DecimalParameter>`  
  [!INCLUDE[ribbon_element_DecimalParameter](../../includes/ribbon-element-decimalparameter.md)]
@@ -61,4 +61,4 @@ Define the actions to be performed by a command bar or ribbon control in a `<Com
 ### See also  
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Ribbon Display Rules](define-ribbon-display-rules.md)   
- [Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)
+ [Pass Microsoft Dynamics 365 for Customer Engagement data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)

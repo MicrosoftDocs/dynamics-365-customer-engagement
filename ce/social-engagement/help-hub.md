@@ -1,12 +1,12 @@
 ---
 title: "Pointers for Social Engagement | Microsoft Docs"
 description: "Find your starting point for help content."
-keywords: "help hub, help center, link list"
-ms.date: 08/07/2018
+keywords: help hub, help center, link list
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: caadfdba-1c29-4032-8fb5-34257913bc09
 author: m-hartmann
 ms.author: mhart
@@ -84,7 +84,7 @@ search.app:
 
 <li><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a></li>
 <li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Microsoft Social Engagement Translation Guide</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[International availability for Dynamics 365](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">International availability for Dynamics 365</a></li>
 </td>
 </tr>
 </table>

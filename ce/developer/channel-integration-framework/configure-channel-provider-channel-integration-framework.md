@@ -2,7 +2,7 @@
 title: "Configure channel provider in Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn how to configure a channel provider install and setup Channel Integration Framework (CIF) for Microsoft Dynamics 365."
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 5612019a-a4b5-4ba5-a232-6b7d66bdfc21
 author: kabala123
 ms.author: kabala
@@ -20,9 +20,7 @@ manager: shujoshi
 
 # How to configure a channel provider for your Dynamics 365 organization
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
-
-Using the Channel Integration Framework solution, you can configure channel providers.
+Using the Dynamics 365 Channel Integration Framework solution, you can configure channel providers.
 To configure channel providers:
 
 1. Sign-in to Dynamics 365.
@@ -43,11 +41,12 @@ To configure channel providers:
   |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
   |Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface Apps.|
   |API Version|The version of the Channel Integration Framework APIs.|
-  |Trusted Domains| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
+  |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
+  |Custom Parameter|This takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) will return this as value of key `customParams`.|
   
-  ![Channel proivder configuration](media/channel-provider-configuration.PNG "Channel proivder configuration")
+  ![Channel provider configuration](media/channel-provider-configuration.PNG "Channel provider configuration")
 
   > [!Note]
   > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read-access to the msdyn_ciprovider entity. Now, add the role to the users who will be accessing the Channel Integration Framework.

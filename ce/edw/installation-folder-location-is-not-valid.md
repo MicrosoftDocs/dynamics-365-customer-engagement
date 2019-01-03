@@ -1,11 +1,11 @@
 ---
 title: "Installation folder location is not valid | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: fd0cfadd-ab5c-4434-a604-199b0915360a
 caps.latest.revision: 2
 robots: noindex,nofollow

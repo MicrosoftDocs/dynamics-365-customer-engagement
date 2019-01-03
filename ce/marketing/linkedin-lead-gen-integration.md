@@ -1,15 +1,15 @@
 ---
 title: "Capture leads generated on LinkedIn (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 for Marketing"
-keywords: "LinkedIn; Lead Gen Forms; lead; connector"
+keywords: LinkedIn; Lead Gen Forms; lead; connector
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ec81d712-2c82-4ce0-83c5-ccfbafab71bb
 author: kamaybac
 ms.author: kamaybac
@@ -40,7 +40,7 @@ To see the information collected by [!INCLUDE[pn-linkedin](../includes/pn-linked
 Before we can sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign accounts to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization, a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** needs to [assign security roles to users and set up the matching strategy](linkedin-configuration.md) for new leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].    
 Additionally, a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member with access to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], this user requires at least a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.
 
-For more information about assigning security roles to users, see [TechNet: Create users and assign Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx)
+For more information about assigning security roles to users, see [Create users in Dynamics 365 for Customer Engagement (online) and assign security roles](../admin/create-users-assign-online-security-roles.md)
 
 ### Authorize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to sync data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager
 
@@ -89,4 +89,4 @@ When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-lin
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Configure LinkedIn Lead Gen](linkedin-configuration.md)  
 [Manage customer information](manage-customer-information.md)  
-[Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
+[Market to Dynamics 365 for Marketing segments on LinkedIn](linkedin-matched-audience.md)

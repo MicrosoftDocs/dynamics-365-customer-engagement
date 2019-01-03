@@ -1,21 +1,21 @@
 ---
-title: "Create N:N (many-to-many) relationships in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create N:N (many-to-many) relationships in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create many-to-may relationships"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 248cecfd-c9e8-430b-b4b0-860669866084
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
@@ -85,7 +85,7 @@ search.app:
    - To publish customizations for all unpublished components at one time, click **Publish All Customizations**.  
   
      > [!NOTE]
-     >  Any time you change user-interface elements or implement form scripts for an entity, you must publish changes to apply them. Any customizations that change the data schema of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] such as custom entities, relationships, or fields, are applied immediately.  
+     >  Any time you change user-interface elements or implement form scripts for an entity, you must publish changes to apply them. Any customizations that change the data schema of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps such as custom entities, relationships, or fields, are applied immediately.  
      > 
      > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
 

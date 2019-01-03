@@ -1,11 +1,11 @@
 ---
 title: "Active Directory organizational unit cannot be found | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 0075dd46-f150-4c46-9204-4af5e73eaa00
 caps.latest.revision: 4
 robots: noindex,nofollow

@@ -1,15 +1,15 @@
 ---
 title: "User Power BI to create custom analytics (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 for Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
-keywords: "tutorial; templates; email; customer journey; marketing page; page"
-ms.date: 10/16/2018
+keywords: tutorial; templates; email; customer journey; marketing page; page
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4479aca4-9f7f-40fa-9b78-515f98e47d26
 author: kamaybac
 ms.author: kamaybac
@@ -27,7 +27,7 @@ search.app:
 
 # Preview: Create custom analytics with Power BI
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using [!include[](../includes/pn-power-bi.md)]. We provide endpoints that you can use to connect [!include[](../includes/pn-power-bi.md)] to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], plus a downloadable [!include[](../includes/pn-power-bi.md)] template that you can open in [!include[](../includes/pn-power-bi-desktop.md)], connect to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data sources and then customize as needed. When you're done setting it up, you can publish and share your [!include[](../includes/pn-power-bi.md)] report using the standard [!include[](../includes/pn-power-bi.md)] online tools.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using [!include[](../includes/pn-power-bi.md)]. We provide endpoints that you can use to connect [!include[](../includes/pn-power-bi.md)] to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], plus a downloadable [!include[](../includes/pn-power-bi.md)] template that you can open in [!include[](../includes/pn-power-bi-desktop.md)], connect to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data sources and then customize as needed. When you're done setting it up, you can publish and share your [!include[](../includes/pn-power-bi.md)] report using the standard [!include[](../includes/pn-power-bi.md)] online tools.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -40,7 +40,7 @@ To create custom analytics, you can connect two different data sources, each of 
 - **Profile data** includes the entities and records that you see, edit, and create when working directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. These include common entities like contacts, accounts, leads, events, customer journeys, and more. You'll use the [!include[](../includes/pn-power-bi.md)] data connector called "Common Data Services for Apps" for this type of data.
 - **Interaction data** includes information about how your contacts interacted with your marketing initiatives, including email opens, email clicks, event registrations, page submissions, and more. You can see this type of information when you look at the insights built into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you can't create these records nor view them directly. In the current release, you'll use the [!include[](../includes/pn-power-bi.md)] "[!include[](../includes/pn-azure-blob-storage.md)]" connector for this type of data. In future releases you'll also be able use the dataflow connector.
 
-You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database from [!include[](../includes/pn-power-bi.md)] to fetch your profile data, but to access interaction data you'll need to set up [!include[](../includes/pn-azure-blob-storage.md)], configure [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to save interaction data there, and then connect [!include[](../includes/pn-power-bi.md)] to your blob storage.
+You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]  database from [!include[](../includes/pn-power-bi.md)] to fetch your profile data, but to access interaction data you'll need to set up [!include[](../includes/pn-azure-blob-storage.md)], configure [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]  to save interaction data there, and then connect [!include[](../includes/pn-power-bi.md)] to your blob storage.
 
 ## Set up [!include[](../includes/pn-azure-blob-storage.md)] and connect it to Marketing
 
@@ -92,7 +92,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../include
 
 ## Get the [!include[](../includes/pn-power-bi.md)] template and connect to your Marketing data
 
-Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and connected to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you're ready to start working in [!include[](../includes/pn-power-bi.md)] to connect to your data sources and design your analytics.
+Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and connected to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you're ready to start working in [!include[](../includes/pn-power-bi.md)] to connect to your data sources and design your analytics.
 
 1. If you haven't already, then [download the templates from GitHub](https://github.com/Microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/releases). The following templates are provided:
 
@@ -107,7 +107,12 @@ Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and conne
 
     - To connect to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, use the same user credentials that you use to sign into Marketing.
     - You can find connection details for your [!include[](../includes/pn-azure-blob-storage.md)] by using the Storage Explorer app.
-    - You can choose the number of files of interaction data that you want to load. The newest files are loaded first, so the more files you load, the further back in time you will be able to see.
+    - Specify how many days of interaction data that you want to load (counting back from today).
+
+1. Select **Load** to load the template or analyzer into [!include[](../includes/pn-power-bi.md)].
+
+    > [!NOTE]
+    > If you see loading errors the first time you open a template or analyzer, then open the query editor, select a query that is highlighted with a warning icon and then select **Retry** on the notification message bar. Repeat for each query that shows a warning. After all queries have loaded, select **Close & Apply** and the refresh should work from now on.
 
 The email marketing analyzer provides many views, charts, and analytics that marketers should find useful. Use the standard features of the [!include[](../includes/pn-power-bi-desktop.md)] to explore the data sources and analytical displays, and to customize them as required.
 

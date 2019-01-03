@@ -1,20 +1,20 @@
 ---
-title: "Troubleshooting: User needs read-write access to the Dynamics 365 Customer Engagement organization | MicrosoftDocs"
-ms.custom: ""
+title: "Troubleshooting: User needs read-write access to the Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 516100e9-cc32-4e3a-bdff-1820f260ea41
 caps.latest.revision: 8
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You don’t have sufficient permissions to access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. A [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator will need to do the following in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] application:  
+You don’t have sufficient permissions to access [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. A [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator will need to do the following in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps:  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

@@ -1,15 +1,15 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
-keywords: "insights;results;KPIs;analytics"
+keywords: insights;results;KPIs;analytics
 ms.date: 04/25/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
 author: kamaybac
 ms.author: kamaybac
@@ -76,7 +76,7 @@ Contacts provide the following insights tabs.
 - **Email interactions**: View complete details of email results for the selected contact, including a list of all messages sent to them, plus counts of all sends, opens, clicks, bounces, and more.
 - **Web interactions**: See which pages and links from your websites and marketing pages the contact has opened, and which links they selected.
     > [!NOTE]
-    >- Only pages that include a [Dynamics 365 tracking script](register-engagement.md#monitor-visitors) are counted here.
+    >- Only pages that include a [Dynamics 365 for Marketing tracking script](register-engagement.md#monitor-visitors) are counted here.
     > - The **Websites visited** list shows all tracked pages that were visited by this known contact.
     > - The **Websites clicked** list shows all of the links this user clicked on when viewing a tracked page. Each visited link is show as a full URL, and repeat visits are listed just once, with a counter.
     > - If you [embed a marketing form](embed-forms.md) into an external webpage, then a tracking tag is included and visits to that page are therefore shown here.

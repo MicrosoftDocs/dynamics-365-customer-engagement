@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: E71DDFAD-BCCC-423E-B086-2EA71D4D2B73
 author: kabala123
 ms.author: kabala
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # getEnvironment (CIF JavaScript API Reference)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 

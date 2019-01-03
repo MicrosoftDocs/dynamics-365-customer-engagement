@@ -1,22 +1,22 @@
 ---
 title: "Set managed properties for fields in PowerApps | MicrosoftDocs"
 description: "Learn how to set managed properties for a field"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/17/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 4ddcfcf3-5604-4b93-a5ee-589d4fb97fa4
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
 search.audienceType: 
   - customizer

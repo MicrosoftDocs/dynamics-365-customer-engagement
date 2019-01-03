@@ -1,18 +1,18 @@
 ---
-title: "Indexes on the Microsoft Dynamics 365 database are not consistent | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 9a96d3c7-7d16-4c39-907f-5b6a23777049
 caps.latest.revision: 7
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Indexes on the Microsoft Dynamics 365 database are not consistent
+# Indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent
 
 ## Cause
   

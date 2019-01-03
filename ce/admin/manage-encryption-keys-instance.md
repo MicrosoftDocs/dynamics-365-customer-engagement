@@ -1,14 +1,14 @@
 ---
-title: "Manage the encryption keys for your Dynamics 365 (online) instance | MicrosoftDocs"
+title: "Manage the encryption keys for your Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
 description: "Learn how you can manage database encryption keys for your instance."
-keywords: "encrypt"
+keywords: encrypt
 ms.date: 11/26/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 8.2"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 8.2
 ms.assetid: 47bbbe8f-7839-475d-a844-632aa33fae51
 author: Mattp123
 ms.author: matp
@@ -27,22 +27,22 @@ search.app:
 
 # Manage the encryption keys
 
-Applies to Dynamics 365 (online), version 8.2
+Applies to Dynamics 365 for Customer Engagement apps (online), version 8.2
 
-All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
+All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
   
- By default, [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] stores and manages the database encryption keys for your instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] so you don’t have to.  The manage keys feature in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] gives administrators the ability to self-manage the database encryption keys that are associated with instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. 
+ By default, [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] stores and manages the database encryption keys for your instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps so you don’t have to.  The manage keys feature in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] gives administrators the ability to self-manage the database encryption keys that are associated with instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. 
 
 > [!IMPORTANT]
 >  Self-managed database encryption keys are only available in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-8-2-0-online.md)] and may not be made available for later versions.  
   
 <a name="KM_tasks"></a>   
 ## Introduction to key management  
- With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] key management, administrators can provide their own encryption key or have an encryption key generated for them, which is used to protect the database for an instance.  
+ With Customer Engagement apps key management, administrators can provide their own encryption key or have an encryption key generated for them, which is used to protect the database for an instance.  
   
  The key management feature supports both PFX and BYOK encryption key files, such as those stored in a hardware security module (HSM). To use the upload encryption key option you need both the public and private encryption key.  
   
- The key management feature takes the complexity out of encryption key management by using [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] to securely store encryption keys. [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] helps safeguard cryptographic keys and secrets used by cloud applications and services. The key management feature doesn’t require that you have an [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] subscription and for most situations there is no need to access encryption keys used for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] within the vault.  
+ The key management feature takes the complexity out of encryption key management by using [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] to securely store encryption keys. [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] helps safeguard cryptographic keys and secrets used by cloud applications and services. The key management feature doesn’t require that you have an [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)] subscription and for most situations there is no need to access encryption keys used for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps within the vault.  
   
  The manage keys feature lets you perform the following tasks.  
   
@@ -57,19 +57,19 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   > 
   >  A locked instance  can’t be restored from backup.  
   
-- Unlock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance. To unlock a locked instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you must upload the encryption key that was used to lock it. While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is locked, it cannot be accessed by anyone.  
+- Unlock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance. To unlock a locked instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, you must upload the encryption key that was used to lock it. While a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is locked, it cannot be accessed by anyone.  
   
 <a name="KM_risk"></a>  
  
 ## Understand the potential risk when you manage your keys  
  As with any business critical application, personnel within your organization who have administrative-level access must be trusted. Before you use the key management feature, you should understand the risk when you manage your database encryption keys. It is conceivable that a malicious administrator (a person who is granted or has gained administrator-level access with intent to harm an organization's security or business processes) working within your organization might use the manage keys feature to create a key and use it to lock a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance. Consider the following sequence of events.  
   
-1. The malicious administrator signs in to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)], goes to the edit page for an instance, and then generates a new encryption key to use to encrypt the instance. As part of the key generation, the malicious [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator downloads the encryption key.  
+1. The malicious administrator signs in to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)], goes to the edit page for an instance, and then generates a new encryption key to use to encrypt the instance. As part of the key generation, the malicious [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator downloads the encryption key.  
   
 2. The malicious administrator locks the associated [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance and takes or deletes the encryption key that was used to lock the instance.  
   
 > [!IMPORTANT]
-> To prevent the malicious administrator from interrupting the business operations by locking the database, the managed keys feature does not allow the database to be locked for 72 hours after the encryption key is changed. Additionally, anytime an encryption key is changed for a Dynamics 365 (online) instance, all Dynamics 365 (online) administrators receive an email message alerting them of the key change. This provides up to 72 hours for other administrators to roll back any unauthorized key changes. 
+> To prevent the malicious administrator from interrupting the business operations by locking the database, the managed keys feature does not allow the database to be locked for 72 hours after the encryption key is changed. Additionally, anytime an encryption key is changed for a Dynamics 365 for Customer Engagement apps (online) instance, all Dynamics 365 for Customer Engagement apps (online) administrators receive an email message alerting them of the key change. This provides up to 72 hours for other administrators to roll back any unauthorized key changes. 
   
 <a name="KM_details"></a>   
 
@@ -78,14 +78,14 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 ### Privileges required  
  To use the manage keys feature you need one of the following privileges:  
   
-- Office 365 Global Administrators membership.  
+- Office 365 Global administrators membership.  
   
-- Office 365 Service Administrators group membership.  
+- Office 365 Service administrators group membership.  
   
-- System Administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] that you want to manage the encryption key.  
+- System administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps that you want to manage the encryption key.  
   
 ### Subscription requirements  
- The ability to self-manage database encryption keys requires either Dynamics 365 Customer Engagement Plan or Dynamics 365 Plan.  
+ The ability to self-manage database encryption keys requires the Dynamics 365 for Customer Engagement apps Plan.  
   
 ### Encryption key requirements  
  If you provide your own encryption key, your key must meet  these  requirements that are accepted by [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  
@@ -99,6 +99,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 For more information about the key types supported by Key Vault by uploading the file in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  Only the encrypted version of your key leaves the original workstation.  For more information about generating and transferring an HSM-protected key over the Internet see [How to generate and transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys).  
   
 <a name="keymgt_tasks"></a>   
+
 ## Key management tasks  
  The following sections describe the tasks you can perform when you choose to self-manage the database encryption key for one or more instances.  
   
@@ -143,7 +144,7 @@ For more information about the key types supported by Key Vault by uploading the
   
     4.  Click **close** to close the manage your database encryption key dialog box.  
   
-    5.  An email message is sent to all [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrators in your organization. This occurs whenever a key is changed for an instance.  
+    5.  An email message is sent to all Customer Engagement administrators in your organization. This occurs whenever a key is changed for an instance.  
   
 Notice that the key name you specified to manage database encryption settings now appears under **Current Encryption Key**.  
   

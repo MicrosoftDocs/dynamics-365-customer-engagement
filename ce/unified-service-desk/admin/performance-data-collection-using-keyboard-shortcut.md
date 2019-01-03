@@ -1,20 +1,20 @@
 ---
 title: "Generate performance data log files Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
-keywords: ""
+keywords: 
 ms.date: 10/31/2018
 ms.service:
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-a11y
+  - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: E838A9E7-4ED6-44DF-B2E9-0A3E3A82EA4B
 author: kabala123
 ms.author: kabala
@@ -94,7 +94,7 @@ When you start collecting performance data, log files are generated with a uniqu
 
 The default path where the log files are maintained on the client computer:
 
-```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
+```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
 
 You can change the default path of the log files from the application configuration file. In the XML node of the application configuration file, change the value of the following attributes. 
 
@@ -130,7 +130,7 @@ To change the default keyboard shortcut, a System Administrator needs to configu
 
 To configure a new performance data collection keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
  

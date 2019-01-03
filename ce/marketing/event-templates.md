@@ -1,15 +1,15 @@
 ---
 title: "Set and use event templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to create an event template and how to use templates when creating a new event in Dynamics 365 for Marketing"
-keywords: "events; template"
-ms.date: 07/06/2018
+keywords: events; template
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d557e6c9-4fc2-4546-b90a-dd9b0945fdbb
 author: kamaybac
 ms.author: kamaybac
@@ -49,7 +49,7 @@ You can save any event as a template. To do so, open the event and select **Save
 
 To create a new event based on a template:
 
-1. Go to **Events** > **Event** > **Events** to open the events list.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list.
 1. Select **Create from template** on the command bar.
 1. The **Create from template** dialog opens. Use it to find the template you want and then select **OK**.
 1. Your new event is created. Give it a new name, set its start and end dates, and then select **Save** in the bottom-right corner of the window.
@@ -61,7 +61,7 @@ To create a new event based on a template:
 
 To view the event templates available on your system:
 
-1. Go to **Events** > **Event** > **Events** to open the events list.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list.
 
 2. Open the view selector (located just above the list) and choose **Event templates**.  
 
@@ -71,5 +71,5 @@ To view the event templates available on your system:
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

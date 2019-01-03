@@ -1,17 +1,17 @@
 ---
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
-keywords: "analyze survey responses; survey dashboard"
-ms.date: 05/22/2018
+keywords: analyze survey responses; survey dashboard
+ms.date: 12/18/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8abc2d0c-8472-46ff-83bc-febec0ce802d
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 topic-status: Drafting
 ms.custom:
@@ -20,13 +20,13 @@ ms.custom:
 
 # Analyze survey data
 
-Voice of the Customer stores all survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and you can analyze them by using features such as:
+Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and you can analyze them by using features such as:
 
 - Survey response entity
 
 - Advance find queries
 
-- [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] reports
+- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] reports
 
 - Feedback entity
 
@@ -40,7 +40,7 @@ A survey response record is created after a respondent submits a survey. Based o
 
 To view all survey responses:
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Survey Responses**.
 
@@ -50,7 +50,7 @@ To view survey response for a survey:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -77,6 +77,11 @@ Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../in
 You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search)  
 
 ![Create custom query by using Advanced find](media/advanced-find.png "Create a custom query by using Advanced Find")  
+
+If a file is uploaded in response to the question type **File upload**, you can delete it by selecting **Delete file** on the command bar. The file is deleted from the storage.
+
+> [!div class=mx-imgBorder]
+> ![Delete file](media/delete-file.png "Delete file")  
 
 ## Store responses in a custom field by using response mapping
 
@@ -123,7 +128,7 @@ You can run the following reports for a survey:
 
 To run and export a report:
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -155,7 +160,7 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 ![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invitations and responses charts")  
 
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 

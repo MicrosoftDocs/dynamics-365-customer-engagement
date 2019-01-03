@@ -1,11 +1,11 @@
 ---
 title: "NTFS required | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/01/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: f8897586-18d3-4bd2-9b57-79b0cf645b6b
 caps.latest.revision: 7
 robots: noindex,nofollow

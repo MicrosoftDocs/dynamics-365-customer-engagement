@@ -1,19 +1,19 @@
 ---
 title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/10/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "error-reference"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: error-reference
 applies_to: 
-  - Dynamics 365 (online)
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+author: mduelae
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -68,10 +68,10 @@ If you receive this error:
 |             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Users:**  |                                                                                                                                                                                                                                                                                             Notify your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator that you received this error.                                                                                                                                                                                                                                                                                              |
-| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) **Important:** [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
+| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) **Important:** [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Customer Engagement apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
   
 ##### If you’re using a Windows phone  
- You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
+ You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Customer Engagement apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
   
 
 #### Error message: “This record is unavailable.”  
@@ -122,7 +122,7 @@ If you receive this error:
   
  `“Dynamics CRM [Error] | Connection error: 404”`  
   
- **Cause 2**: Your Dynamics 365  version is not supported. See [What's supported](../mobile-app/support-phones-tablets.md) for version support information.  
+ **Cause 2**: Your Dynamics 365 for Customer Engagement apps  version is not supported. See [What's supported](../mobile-app/support-phones-tablets.md) for version support information.  
   
  **Cause 4**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your browser on your device.  
   
@@ -140,7 +140,7 @@ If you receive this error:
   
  Access the **Users and Groups** section within the [Microsoft Online Service Portal](https://portal.microsoftonline.com/) and verify you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned to your user record.  
   
- ![Terry Adam's Dynamics 365 License](../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 License")  
+ ![Terry Adam's Dynamics 365 for Customer Engagement apps License](../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 for Customer Engagement apps License")  
   
 #### Error message: "You need an internet connection to use this app. Reconnect and try again."  
  **Cause 1**: This error can occur if you do not have an Internet connection. Verify you are connected to the Internet and can access the same URL in your web browser.  
@@ -261,7 +261,7 @@ If you receive this error:
 #### [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] users are repeatedly prompted for sign-in credentials and can’t sign in  
  **Cause**: This can occur if certain directories under the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website have Windows Authentication enabled. For [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] to successfully connect to a new deployment of [!INCLUDE[pn_crm_2013_server](../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], you must run a **Repair** of [!INCLUDE[pn_crm_2013_server](../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], on the server running IIS where the Web Application Server role is installed after the Internet-Facing Deployment Wizard is successfully completed.  
   <!-- 
- For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 Server](../Topic/Uninstall,%20change,%20or%20repair%20Microsoft%20Dynamics%20365%20Server.md).  -->
+ For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 for Customer Engagement apps Server](../Topic/Uninstall,%20change,%20or%20repair%20Microsoft%20Dynamics%20365%20Server.md).  -->
   
 > [!IMPORTANT]
 >  To resolve this issue by running **Repair**, the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment must already be configured for claims-based authentication and IFD.  
@@ -276,9 +276,9 @@ If you receive this error:
  ![ADFS Sign&#45;in prompt](../admin/media/mobile-app-adfs-login-2.png "ADFS Sign-in prompt")  
   
 #### Redirected URLs do not work when you configure [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]  
- URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 web address** field with [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] during configuration.  
+ URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 for Customer Engagement apps web address** field with [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] during configuration.  
   
- For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
+ For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 for Customer Engagement apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
 1.  User entered URL: *https://URL_entered*  
   

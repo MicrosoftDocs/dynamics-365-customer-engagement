@@ -1,13 +1,13 @@
 ---
-title: "Web resources for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Web resources are virtual files that are stored in the Dynamics 365 database and that you can retrieve by using a unique URL address."
-keywords: ""
+title: "Web resources for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Web resources are virtual files that are stored in the Dynamics 365 for Customer Engagement database and that you can retrieve by using a unique URL address."
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
 author: JimDaly
 ms.author: jdaly
@@ -155,7 +155,7 @@ http://myServer/MyOrganization/WebResources/new_/test/test.htm
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
 
 ### See also  
- [Write Client Application Extensions for Dynamics 365 Customer Engagement](extend-client.md)<br />
+ [Write Client Application Extensions for Dynamics 365 for Customer Engagement](extend-client.md)<br />
  [Create Accessible Web Resources](create-accessible-web-resources.md)<br />
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)<br />
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)<br />

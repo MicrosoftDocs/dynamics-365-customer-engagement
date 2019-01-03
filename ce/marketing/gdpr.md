@@ -1,15 +1,15 @@
 ---
 title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
-keywords: "GDPR; data protection; privacy"
+keywords: GDPR; data protection; privacy
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dbc6f586-d4ba-4cdb-aa93-c1f92d61b262
 author: kamaybac
 ms.author: kamaybac
@@ -46,8 +46,9 @@ Here are some resources where you can learn more about how to bring your [!INCLU
 
 Most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] system to enable its built-in GDPR compliance tools to function correctly.
 
-Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer. 
-- For more information on how Dynamics 365 helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
+Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer.
+
+- For more information on how [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 - For details about how to use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] API to implement custom GDPR-related functionality for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] system, see the [Developer Guide (Marketing)](developer/marketing-developer-guide.md).
 - If you're looking for a partner to help you come into compliance, try searching in our [Microsoft Solution Providers database](https://www.microsoft.com/solution-providers/search).
 

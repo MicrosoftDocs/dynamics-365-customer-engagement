@@ -1,15 +1,15 @@
 ---
 title: "Add and customize marketing calendars for any form or entity (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 for Marketing"
-keywords: "marketing execution;email;landing page;marketing page;customer journey"
-ms.date: 10/16/2018
+keywords: marketing execution;email;landing page;marketing page;customer journey
+ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c6759aea-6c77-4607-8fdd-ea1f0768892f
 author: kamaybac
 ms.author: kamaybac
@@ -45,7 +45,7 @@ Other than the differences noted here, both types of calendars look the same and
 
 To add and/or customize a marketing calendar, you must work in a **PowerApps** customization window. To get there:
 
-1. Use the app-selector menu to open the **Dynamics 365 – custom app**.
+1. Use the app-selector menu to open the **Dynamics 365 – custom** app.
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
@@ -172,7 +172,7 @@ After you have added a marketing calendar to an entity or form, you must configu
 
 1. Save and publish your settings.
 
-## Configure the main marketing calendar
+<!-- ## Configure the main marketing calendar
 
 The main marketing calendar is available directly from the side navigator, where it is provided at **Marketing** > **My work** > **Marketing calendar**. This calendar functions like an entity-level calendar, but there is no marketing calendar entity. Instead, the calendar is created as a custom view for the customer journey entity.
 
@@ -186,7 +186,7 @@ To configure the main marketing calendar:
 
     ![Edit-view dialog](media/calendar-main-edit-1.png "Edit-view dialog")
 
-1. The **Custom Controls** dialog box opens, which provides the same settings as for other instances of the marketing calendar control. Proceed as described in [Configure the entities available to a calendar](#config-calendar).
+1. The **Custom Controls** dialog box opens, which provides the same settings as for other instances of the marketing calendar control. Proceed as described in [Configure the entities available to a calendar](#config-calendar).-->
 
 <a name="find-form-id"></a>
 

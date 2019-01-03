@@ -1,20 +1,20 @@
 ---
-title: "Monitor and manage workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Monitor and manage workflow processes (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
+ms.date: 12/04/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: a987a803-4674-4eb0-87de-caefa003b1eb
 caps.latest.revision: 12
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,7 +22,7 @@ search.app:
 ---
 # Monitor and manage workflow processes
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 To monitor and manage processes, you must locate the process, evaluate the status, and perform any actions necessary to address problems.  
   
@@ -71,5 +71,5 @@ To monitor and manage processes, you must locate the process, evaluate the statu
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Configure workflow processes](../customize/configure-workflow-steps.md)   
  [Best practices for workflow processes](../customize/best-practices-workflow-processes.md) <br />
- [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md) 
- [Asynchronous service in Dynamics 365 Customer Engagement](../developer/asynchronous-service.md)
+ [Create custom business logic with processes] <br />(guide-staff-through-common-tasks-processes.md) 
+ [Asynchronous service in Dynamics 365 for Customer Engagement apps](../developer/asynchronous-service.md)

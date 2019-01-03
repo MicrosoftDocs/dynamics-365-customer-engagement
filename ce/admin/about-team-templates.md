@@ -1,24 +1,24 @@
 ---
-title: "About team templates for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "About team templates for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 helpviewer_keywords: 
-  - "template"
-  - "team template"
-  - "team"
+  - template
+  - team template
+  - team
 ms.assetid: 7c29ad58-b0f4-4a0f-b686-ecbca053592b
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is optional, however, teams give you an easy way to share information and collaborate with users across business units. A team is a group of users. As a group, you will be able to track information about the records and perform assigned tasks in much more efficient and coordinated way. While a team belongs to only one business unit, it can include users from other business units. A user can be associated with more than one team.  
+Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional, however, teams give you an easy way to share information and collaborate with users across business units. A team is a group of users. As a group, you will be able to track information about the records and perform assigned tasks in much more efficient and coordinated way. While a team belongs to only one business unit, it can include users from other business units. A user can be associated with more than one team.
   
  There are two types of teams that you can work with: *owner* and *access*.  
   

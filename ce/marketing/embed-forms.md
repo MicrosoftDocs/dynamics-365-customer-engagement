@@ -1,15 +1,15 @@
 ---
 title: "Embed a Dynamics 365 marketing form on an external website (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to embed a marketing form created in Dynamics 365 on a page on an external website in Dynamics 365 for Marketing"
-keywords: "marketing form, embed"
+keywords: marketing form, embed
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8c8063dc-3d69-46f3-9e11-722098542777
 author: kamaybac
 ms.author: kamaybac

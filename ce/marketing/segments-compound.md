@@ -1,15 +1,15 @@
 ---
 title: "Create a compound segment (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to combine one or more existing segments into a single new segment in Dynamics 365 for Marketing"
-keywords: "segment; compound segment"
+keywords: segment; compound segment
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: babf409a-a418-4387-abc1-bfa27ba04a1c
 author: kamaybac
 ms.author: kamaybac

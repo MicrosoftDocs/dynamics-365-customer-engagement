@@ -1,25 +1,25 @@
 ---
-title: "Entity relationship metadata messages (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Entity relationship metadata messages (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The article describes the messages that you can use to create, retrieve, update, and delete entity relationships"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "entity relationship messages, list of messages with descriptions"
-  - "entity relationship metadata messages, list of messages with descriptions"
-  - "entity relationship eligibility, messages for"
-  - "relationships, list of messages for entity relationships"
+  - entity relationship messages, list of messages with descriptions
+  - entity relationship metadata messages, list of messages with descriptions
+  - entity relationship eligibility, messages for
+  - relationships, list of messages for entity relationships
 ms.assetid: 14b504b9-addb-40cd-aeef-a45a6a24bbcb
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

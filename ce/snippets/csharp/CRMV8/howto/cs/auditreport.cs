@@ -96,7 +96,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                 #endregion
 
-                #region Retrive user access audit records
+                #region Retrieve user access audit records
 
                 var query = new QueryExpression(Audit.EntityLogicalName)
                 {
