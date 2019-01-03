@@ -40,7 +40,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
 
 > [!IMPORTANT]
-> It is recommended to turn on Relevance search for the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
+> It is recommended to enable Relevance search for the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
 
 
 1.  Make sure you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
