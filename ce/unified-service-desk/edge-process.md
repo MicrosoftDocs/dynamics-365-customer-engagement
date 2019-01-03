@@ -53,7 +53,7 @@ You can set the **Edge Process** on the hosted controls (exisitng hosted control
 
 If you want to set the **Edge Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Edge**. More information: [Enable Edge for Unified Service Desk on client desktop](edge-process.md#enable-edge-for-unified-service-desk-on-client-desktop)
 
-If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enabsle Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
+If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enables Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
 
 ### Order of precedence
 
