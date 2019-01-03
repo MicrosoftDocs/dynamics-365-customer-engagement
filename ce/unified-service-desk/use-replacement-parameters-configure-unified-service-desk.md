@@ -83,7 +83,7 @@ function doWork()
       else   
           return "[[contact.fullname]u+]"  
 }  
-doSomeWork();   
+doWork();   
 ))  
 ```  
 
