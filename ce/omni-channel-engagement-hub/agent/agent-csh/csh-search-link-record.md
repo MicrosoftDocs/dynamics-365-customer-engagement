@@ -2,56 +2,45 @@
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
 
-![Markdown Conversion_OC on Web image32](../../media/Markdown-Conversion_OC-on-Web-image32.png)  
+![Search a record using the Omni-channel search](../../media/csh-oc-search-record.png "Search a record using the Omni-channel search")  
 
-1.  Select the search icon ![Markdown Conversion_OC on Web image33](media/Markdown-Conversion_OC-on-Web-image33.png). The application launches the Omni-channel search tab.  
+1.  Select the search icon ![Omni-channel search icon](../../media/csh-oc-search-icon.png "Omni-channel search icon"). The application launches the Omni-channel search tab.  
 
-2.  Specify any of the following values based on your search requirements.
+2. Specify any of the following values based on your search requirements.
 
--   Account Name
+ - Account Name
+ - Address 1: State/Province
+ - Main Phone
+ - Email
+ - Address 1: ZIP/Postal Code
+ - First Name
+ - Last Name
+ - Address 1: State/Province
+ - Business Phone
+ - Email
+ - Address 1: ZIP/Post Code
+ - Case Number
 
--   Address 1: State/Province
+3. Select **Search** and the search list appears.
 
--   Main Phone
-
--   Email
-
--   Address 1: ZIP/Postal Code
-
--   First Name
-
--   Last Name
-
--   Address 1: State/Province
-
--   Business Phone
-
--   Email
-
--   Address 1: ZIP/Post Code
-
--   Case Number
-
-    1.  Select **Search** and the search list appears.
-
- ![Markdown Conversion_OC on Web image34](media/Markdown-Conversion_OC-on-Web-image34.png)  
+ ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search")  
 
 ## Link a record
 
 Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
 
-![Markdown Conversion_OC on Web image35](media/Markdown-Conversion_OC-on-Web-image35.png)  
+![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
 
-1.  Select the ![Markdown Conversion_OC on Web image36](media/Markdown-Conversion_OC-on-Web-image36.png) icon to view the selection list.  
+1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list.  
 
- ![Markdown Conversion_OC on Web image37](media/Markdown-Conversion_OC-on-Web-image37.png)  
+ ![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
 
 2.  Select the check box next to the record you want to link.
 
- ![Markdown Conversion_OC on Web image38](media/Markdown-Conversion_OC-on-Web-image38.png)  
+ ![Record selection checkbox](../../media/csh-oc-record-selection-checkbox.png "Record selection checkbox")  
 
 3.  Select the link button at the top.
 
- ![Markdown Conversion_OC on Web image39](media/Markdown-Conversion_OC-on-Web-image39.png)  
+ ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
 
 After you link the record to the conversation, the Customer 360 page refreshes and reflects the details. Similarly, you can link other record types.
