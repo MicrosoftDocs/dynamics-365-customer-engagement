@@ -31,11 +31,11 @@ By default, all Office 365 Global administrators and Dynamics 365 for Customer E
   
 -   Administrative access mode  
   
-The system administrator security role is typically granted to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] administrators giving them unrestricted access to the administrative (Settings) areas, which are used for managing and configuring features of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+The system administrator security role is typically granted to Dynamics 365 for Customer Engagement administrators giving them unrestricted access to the administrative (Settings) areas, which are used for managing and configuring features of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 Administrative access mode limits access to those areas of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps used to configure or customize the system.  
   
-To give these administrators access to additional areas, such as the Sales, Marketing, and Service areas, a Customer Engagement apps license must be added to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Service administrator user account, by using the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Note that Administrative access mode cannot be changed on the user form in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] application.  
+To give these administrators access to additional areas, such as the Sales, Marketing, and Service areas, a Customer Engagement apps license must be added to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or Dynamics 365 for Customer Engagement Service administrator user account, by using the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Note that Administrative access mode cannot be changed on the user form in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] application.  
   
 ## Create a Dynamics 365 for Customer Engagement administrator account  
   
