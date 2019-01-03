@@ -1,8 +1,8 @@
 # Sitemap
 
-The sitemap is a place for you to access the customer service record types. By default, the sitemap is in collapsed mode. To expand the sitemap, select the Sitemap icon ![Markdown Conversion_OC on Web image4](media/Markdown-Conversion_OC-on-Web-image4.png).  
+The sitemap is a place for you to access the customer service record types. By default, the sitemap is in collapsed mode. To expand the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").  
 
-![Markdown Conversion_OC on Web image5](media/Markdown-Conversion_OC-on-Web-image5.png)  
+![Sitemap of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub")  
 
 The Sitemap displays the following record types:
 

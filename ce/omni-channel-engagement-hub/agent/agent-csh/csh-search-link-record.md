@@ -2,7 +2,7 @@
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
 
-![Markdown Conversion_OC on Web image32](media/Markdown-Conversion_OC-on-Web-image32.png)  
+![Markdown Conversion_OC on Web image32](../../media/Markdown-Conversion_OC-on-Web-image32.png)  
 
 1.  Select the search icon ![Markdown Conversion_OC on Web image33](media/Markdown-Conversion_OC-on-Web-image33.png). The application launches the Omni-channel search tab.  
 

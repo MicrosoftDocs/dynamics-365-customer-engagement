@@ -6,9 +6,9 @@
 
 2.  Select the Dynamics 365 drop-down menu on the upper left and select **Customer Service Hub**.
 
- ![Markdown Conversion_OC on Web image1](media/Markdown-Conversion_OC-on-Web-image1.png)  
+ ![Select Customer Service Hub app from the drop-down menu](../../media/select-csh.png "Select Customer Service Hub app from the drop-down menu")  
 
-**Tip:** Alternatively, you can use **https://&lt;orgURL&gt;.dynamics.com/apps** to navigate to the **Customer Service Hub**.
+**Tip:** Alternatively, you can use **https://<orgURL&>.dynamics.com/apps** to navigate to the **Customer Service Hub**.
 
-![Markdown Conversion_OC on Web image2](media/Markdown-Conversion_OC-on-Web-image2.png)  
+![Select Customer Service Hub app from the apps section](../../media/select-csh-apps.png "Select Customer Service Hub app from the apps section")
 

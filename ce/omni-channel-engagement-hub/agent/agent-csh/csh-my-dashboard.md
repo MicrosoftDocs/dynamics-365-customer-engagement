@@ -8,7 +8,7 @@ The My Dashboard is a default view when you sign in to the application. The dash
 
 -   Closed work items
 
- ![Markdown Conversion_OC on Web image11](media/Markdown-Conversion_OC-on-Web-image11.png)  
+ ![Agent dashboard of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-oc-mydashboard.png "Agent dashboard of Omni-channel Engagement Hub in Customer Service Hub")
 
 ### My work items
 

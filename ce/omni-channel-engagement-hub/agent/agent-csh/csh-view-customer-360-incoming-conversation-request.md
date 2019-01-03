@@ -10,15 +10,15 @@ When you get an incoming conversation request, you see a notification (screen po
 
 ### Select a record
 
-If you select a record, the Customer 360 page displays details by prepopulating the fields.
+If you select a record, the Customer 360 page displays details by pre-populating the fields.
 
 If you select a case, contact, or account, the Customer 360 page refreshes and updates the **Issue** **Snapshot** section with the current case details.
 
-If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search a record](#search-for-a-record-1)  
+If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search a record](#search-for-a-record)  
 
 ### Create a record
 
-You can create a record using the quick create (+) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record-2)  
+You can create a record using the quick create (+) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record)
 
 ## Scenario 3: An incoming conversation request where you find no customer records in the Omni-channel Engagement Hub
 
@@ -26,7 +26,7 @@ When you get an incoming conversation request, you will see a notification (scre
 
 ### Create a record
 
-When no records are linked to a conversation in the Omni-channel Engagement Hub, you can create one using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record-2)  
+When no records are linked to a conversation in the Omni-channel Engagement Hub, you can create one using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record)
 
 ### Search for a record
 

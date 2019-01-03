@@ -2,7 +2,7 @@
 
 The navigation bar buttons
 
-![Markdown Conversion_OC on Web image7](media/Markdown-Conversion_OC-on-Web-image7.png)  
+![Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub")
 
 1. **Search.** Do a simple search for a record.
 
@@ -24,41 +24,41 @@ The navigation bar buttons
 
 The search option lets you search records and open a record in a new active session. You can search for the following records using the search option:
 
--   Case
+ - Case
 
--   Contact
+ - Contact
 
--   Account
+ - Account
 
 ### Create
 
 The quick create option provides the list of related records (entities) that you can create. The following are the record types that you can create:
 
--   Activities
+ - Activities
 
-    -   Appointment
+  - Appointment
 
-    -   Email
+  - Email
 
-    -   Phone Call
+  - Phone Call
 
-    -   Task
+  - Task
 
--   Account
+ - Account
 
--   Case
+ - Case
 
--   Contact
+ - Contact
 
--   Knowledge Article
+ - Knowledge Article
 
 Select the expand button next to Activities to create different activities.
 
-![Markdown Conversion_OC on Web image8](media/Markdown-Conversion_OC-on-Web-image8.png) ![Markdown Conversion_OC on Web image9](media/Markdown-Conversion_OC-on-Web-image9.png)  
+![Quick create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
 
 When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
 
-![Markdown Conversion_OC on Web image10](media/Markdown-Conversion_OC-on-Web-image10.png)  
+![Quick create form in Omni-channel Engagement Hub](../../media/csh-quick-create-form.png "Quick create form in Omni-channel Engagement Hub")
 
 Similarly, for the other records, the application displays the quick create forms of the respective record.
 

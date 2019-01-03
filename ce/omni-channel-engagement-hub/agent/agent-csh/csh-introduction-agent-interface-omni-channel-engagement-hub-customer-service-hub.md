@@ -12,5 +12,5 @@ When you sign in to Customer Service Hub, the Omni-channel Engagement Hub interf
 
 5.  Conversation control
 
-![Markdown Conversion_OC on Web image3](media/Markdown-Conversion_OC-on-Web-image3.png)  
+![Agent interface of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-agent-interface.png "Agent interface of Omni-channel Engagement Hub in Customer Service Hub")  
 

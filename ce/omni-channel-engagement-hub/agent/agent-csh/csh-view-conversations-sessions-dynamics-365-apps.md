@@ -12,7 +12,7 @@ You can find the following activity types in Dynamics 365 for Customer Engagemen
 
 The Conversation Form displays information about an engagement request.
 
-![Markdown Conversion_OC on Web image30](media/Markdown-Conversion_OC-on-Web-image30.png)  
+![Omni-channel conversation form](../../media/csh-oc-conversation-form.png "Omni-channel conversation form")  
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -38,7 +38,7 @@ The Conversation Form displays information about an engagement request.
 
 The session form displays information about a conversation request.
 
-![Markdown Conversion_OC on Web image31](media/Markdown-Conversion_OC-on-Web-image31.png)  
+![Omni-channel session form](../../media/csh-oc-session-form.png "Omni-channel session form")  
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
@@ -59,4 +59,3 @@ The session form displays information about a conversation request.
 |         |                      | Mode               |
 
 The Session Participants section lets you add the related session participant or a session participant that already exists to the record you are working with.
-

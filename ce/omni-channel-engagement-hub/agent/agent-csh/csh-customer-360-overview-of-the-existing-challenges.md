@@ -8,17 +8,17 @@ Having this information ready when a customer contacts the support agent can red
 
 Customer 360 is a page where you can get complete information about a customer when you accept an incoming request from any channel. The default Customer 360 view provides the following sections:
 
--   Customer profile
+ - Customer profile
 
--   Conversation summary
+ - Conversation summary
 
--   Issue Snapshot
+ - Issue Snapshot
 
--   Recent cases
+ - Recent cases
 
--   All activities
+ - All activities
 
-![Markdown Conversion_OC on Web image27](media/Markdown-Conversion_OC-on-Web-image27.png)  
+![View Customer 360](../../media/csh-cc-customer360.png "View Customer 360") 
 
 #### Customer profile
 
@@ -46,11 +46,11 @@ Knowledge management plays an important part in the customer service process, an
 
 Omni-channel Engagement Hub enables you to use the rich knowledge base (KB) in Dynamics 365 so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
 
-![Markdown Conversion_OC on Web image28](media/Markdown-Conversion_OC-on-Web-image28.png)  
+![Search Knowledge articles](../../media/csh-oc-knowledge-articles-search.png "Search Knowledge articles")   
 
 You can search for a KB article using the **KB Search** tab, and then view the article and use the **Send Link** option to share the link with the customer.
 
-![Markdown Conversion_OC on Web image29](media/Markdown-Conversion_OC-on-Web-image29.png)  
+![Search knowledge articles using the option from conversation control](../../media/csh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
 
 When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **KB Search** tab. Then you can search and share the KB articles.
 

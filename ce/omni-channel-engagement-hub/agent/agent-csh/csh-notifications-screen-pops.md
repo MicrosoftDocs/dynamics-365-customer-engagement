@@ -32,23 +32,23 @@ Toast notifications or floating notifications appear for SMS, email, chat, and v
 
 An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer 360 details. You need to take an action within the stipulated time; the screen-pop dialog vanishes when the time is up. If your business requires an auto-accept request for an incoming request based on the routing rules, you will see the notification with no buttons.
 
-![Markdown Conversion_OC on Web image25](media/Markdown-Conversion_OC-on-Web-image25.png)  
+![Alert notification for an incoming request](../../media/csh-alert-notification.png "Alert notification for an incoming request")  
 
 ##### Incoming chat notification
 
 You see a notification for an incoming chat request. When you accept the chat request, you’ll see a screen pop with details about the customer in the Customer 360 page. A simultaneous session starts, and a chat window expands in the left panel of the Unified Service Desk.
 
-![Markdown Conversion_OC on Web image26](media/Markdown-Conversion_OC-on-Web-image26.png)  
+![Incoming chat notification](../../media/csh-incoming-chat-notification.png "Incoming chat notification")  
 
 The details you’ll see for a chat channel are:
 
--   Customer profile
+ - Customer profile
 
--   Snapshot
+ - Snapshot
 
--   Conversation summary
+ - Conversation summary
 
--   Recent cases
+ - Recent cases
 
--   Recent activities
+ - Recent activities
 
