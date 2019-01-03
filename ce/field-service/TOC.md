@@ -3,8 +3,7 @@
 # [New and upcoming features](new-upcoming.md)
 
 # Installation
-## [Field Service installation (online)](install-field-service.md)
-## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+## [Field Service installation (web + mobile)](install-field-service.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
@@ -42,20 +41,23 @@
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
-## [Time groups](set-up-time-groups.md)
+## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
+## [Facility scheduling](facility-scheduling.md)
 
-# Mobile app for field technicians
-## [Setup Mobile Field Service](field-service-mobile-app-user-guide.md)
+# Field Service Mobile
+## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
-## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
+## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
-### [How do I extend my Woodford trial?](fs-mobile-extend-woodford-trial.md)
-### [What is the latest version of the mobile app and Woodford solution?](mobile-faq-latest-version.md)
+### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
+### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
 ### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
 ### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
 ### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
@@ -84,6 +86,7 @@
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
@@ -100,6 +103,3 @@
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-
-
