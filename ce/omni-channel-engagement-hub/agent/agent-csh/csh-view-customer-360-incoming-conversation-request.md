@@ -1,3 +1,18 @@
+---
+title: "View customer 360 for an incoming conversation request"
+description: "Learn about the Customer 360 and its behavior when the agent gets and incoming conversation request."
+keywords: ""
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+applies_to: 
+ms.date: 11/13/2018
+ms.service: 
+ms.topic: article
+ms.assetid: 2E22E0FD-F220-404E-B1F8-4F1BF3C487B0
+ms.custom: 
+---
+
 # View Customer 360 for an incoming conversation request
 
 ## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 

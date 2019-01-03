@@ -1,4 +1,19 @@
-# My Dashboard
+---
+title: "My dasboard view of agent interface in Omni-channel Engagement Hub"
+description: "Learn about the My dasboard view of agent interface in Omni-channel Engagement Hub"
+keywords: ""
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+applies_to: 
+ms.date: 11/13/2018
+ms.service: 
+ms.topic: article
+ms.assetid: 69344371-9846-488B-A9A8-875C35398F92
+ms.custom: 
+---
+
+# View My dashboard and agent work items
 
 The My Dashboard is a default view when you sign in to the application. The dashboard displays the following forms:
 

@@ -1,3 +1,22 @@
+---
+title: "Search and link a record in Omni-channel Engagement Hub"
+description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
+keywords: ""
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+applies_to: 
+ms.date: 11/13/2018
+ms.service: 
+ms.topic: article
+ms.assetid: 3F919FE4-BFCA-42E1-A2B0-169AEDDF445E
+ms.custom: 
+---
+
+# Search and link a record in Omni-channel Engagement Hub
+
+The topic explains how to search a record in Omni-channel Engagement Hub and link the record to the conversation.
+
 ## Search for a record
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.

@@ -1,6 +1,21 @@
-# Navigation bar buttons
+---
+title: "Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
+description: "Learn about the avigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
+keywords: ""
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+applies_to: 
+ms.date: 11/13/2018
+ms.service: 
+ms.topic: article
+ms.assetid: 9B9FD044-9AF4-4262-9401-4EFB8D9B47EE
+ms.custom: 
+---
 
-The navigation bar buttons
+# Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub
+
+The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub contains the following:
 
 ![Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub")
 

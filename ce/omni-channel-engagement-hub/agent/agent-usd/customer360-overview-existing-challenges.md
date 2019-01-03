@@ -1,6 +1,6 @@
 ---
 title: "Customer 360 overview of the existing challenges"
-description: "Customer 360 is a page where you can know complete information about the customer with whom you are going to interact."
+description: "Customer 360 is a form where you can know complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
 ms.author: kabala

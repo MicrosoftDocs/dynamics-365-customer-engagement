@@ -1,14 +1,19 @@
-<table>
-<tbody>
-<tr class="odd">
-<td>Omni-channel Engagement Hub for Dynamics 365</td>
-<td>Preview,<br />
-December 2018</td>
-</tr>
-</tbody>
-</table>
+---
+title: "Omni-channel Engagement Hub for agent using Customer Service Hub"
+description: "Learn about the Omni-channel Engagement Hub for agent using Customer Service Hub"
+keywords: ""
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+applies_to: 
+ms.date: 11/13/2018
+ms.service: 
+ms.topic: article
+ms.assetid: 264E80DF-CC3D-46F7-8739-D21DDB045953
+ms.custom: 
+---
 
-# Omni-channel Engagement Hub for agent
+# Omni-channel Engagement Hub for agent using Customer Service Hub
 
 The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Customer Service Hub.
 

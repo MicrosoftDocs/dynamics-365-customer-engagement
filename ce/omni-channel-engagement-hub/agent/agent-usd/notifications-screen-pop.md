@@ -1,6 +1,6 @@
 ---
-title: "Notifications and screen pop"
-description: 
+title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub"
+description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
