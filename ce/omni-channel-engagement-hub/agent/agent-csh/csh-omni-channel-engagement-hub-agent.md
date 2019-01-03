@@ -23,28 +23,28 @@ Omni-channel Engagement Hub on web browser is a single interface for various com
 
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub.
 
-- [Sign in to Dynamics 365 Customer Service hub](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
 
-- [Introduction to the agent interface](agent/agent-csh/csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 
-- [Sitemap](agent/agent-csh/csh-sitemap.md)
+- [Sitemap](csh-sitemap.md)
 
-- [Navigation bar](agent/agent-csh/csh-navigation-bar.md)
+- [Navigation bar](csh-navigation-bar.md)
 
-- [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
 
-- [My Dashboard](agent/agent-csh/csh-my-dashboard.md)
+- [My Dashboard](csh-my-dashboard.md)
 
-- [Conversation control](agent/agent-csh/csh-conversation-control.md)
+- [Conversation control](csh-conversation-control.md)
 
-- [Notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
+- [Notifications and screen pops](csh-notifications-screen-pops.md)
  
-- [Customer 360 - overview of the existing challenges](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)
+- [Customer 360 - overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
  
-- [View conversations and sessions in Dynamics 365 Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
+- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
  
-- [View Customer 360 for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
+- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
  
-- [Create a record](agent/agent-csh/csh-create-record.md)
+- [Create a record](csh-create-record.md)
  
-- [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
+- [Search and link record to the conversation](csh-search-link-record.md)
