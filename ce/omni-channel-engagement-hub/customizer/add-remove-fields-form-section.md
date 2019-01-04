@@ -46,18 +46,13 @@ Similarly, you can add or remove fields for the following cards by navigating to
 **Note:** Navigate to the form and perform the steps 4 to 6 in the above-mentioned procedure.
 
 > [!div class="nextstepaction"]
-> [Customize the conversation form](customize-conversation-form.md)
+> [Next topic: Customize the conversation form](customize-conversation-form.md)
 
 ## See also
 
-[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-
-[Customize customer 360 form](customize-customer-360-page.md)
-
-[How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-
-[How to modify the section properties of the form](how-modify-section-properties-form-section.md)
-
-[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
-
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Customize customer 360 form](customize-customer-360-page.md)
+- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

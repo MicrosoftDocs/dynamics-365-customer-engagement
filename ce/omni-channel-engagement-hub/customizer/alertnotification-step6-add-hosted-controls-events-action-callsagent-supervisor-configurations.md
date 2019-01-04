@@ -31,18 +31,13 @@ ms.custom:
 8. Select **Save**.
 
 > [!div class="nextstepaction"]
-> [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+> [Next topic: Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 
 ## See also
 
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
-
-[Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-
-[Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-
-[Step 3: Create events](alertnotification-step3-create-the-events.md)
-
-[Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
-
-[Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
+- [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
+- [Step 3: Create events](alertnotification-step3-create-the-events.md)
+- [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
+- [Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)

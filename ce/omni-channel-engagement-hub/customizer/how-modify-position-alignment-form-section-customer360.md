@@ -33,14 +33,9 @@ ms.custom:
 
 ## See also
 
-[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-
-[Customize customer 360 form](customize-customer-360-page.md)
-
-[Add or remove the fields in the form](add-remove-fields-form-section.md)
-
-[Customize the conversation form](customize-conversation-form.md)
-
-[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
-
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Customize customer 360 form](customize-customer-360-page.md)
+- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Customize the conversation form](customize-conversation-form.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

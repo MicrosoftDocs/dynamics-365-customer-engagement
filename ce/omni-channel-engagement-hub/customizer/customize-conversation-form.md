@@ -56,18 +56,13 @@ As system customizer, you want to customize the conversation form to suit your b
 6.  Select **Save** and select **Publish**.
 
 > [!div class="nextstepaction"]
-> [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+> [Next topic: Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 
 ## See also
 
-[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-
-[Customize customer 360 form](customize-customer-360-page.md)
-
-[How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-
-[How to modify the section properties of the form](how-modify-section-properties-form-section.md)
-
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
-
-[Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Customize customer 360 form](customize-customer-360-page.md)
+- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

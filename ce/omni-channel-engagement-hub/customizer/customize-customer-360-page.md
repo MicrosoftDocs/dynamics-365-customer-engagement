@@ -39,18 +39,13 @@ This form section displays the recent cases that relates to the customer.
 This form section displays the case and customer related activities in the form a timeline. You can create quick notes based on the discussion with the customer. Also, filter the timeline to view based on the Customer activities, Case activities, and Conversation activities.
 
 > [!div class="nextstepaction"]
-> [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+> [Next topic: How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 
 ## See also
 
-[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-
-[How to modify the section properties of the form](how-modify-section-properties-form-section.md)
-
-[Add or remove the fields in the form](add-remove-fields-form-section.md)
-
-[Customize the conversation form](customize-conversation-form.md)
-
-[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
-
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Customize the conversation form](customize-conversation-form.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

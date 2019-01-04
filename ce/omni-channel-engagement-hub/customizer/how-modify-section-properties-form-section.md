@@ -84,18 +84,13 @@ ms.custom:
 2.  Select **Save** and select **Publish**.
 
 > [!div class="nextstepaction"]
-> [Add or remove the fields in the form](add-remove-fields-form-section.md)
+> [Next topic: Add or remove the fields in the form](add-remove-fields-form-section.md)
 
 ## See also
 
-[Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-
-[Customize customer 360 form](customize-customer-360-page.md)
-
-[How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-
-[Customize the conversation form](customize-conversation-form.md)
-
-[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
-
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Customize customer 360 form](customize-customer-360-page.md)
+- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+- [Customize the conversation form](customize-conversation-form.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
