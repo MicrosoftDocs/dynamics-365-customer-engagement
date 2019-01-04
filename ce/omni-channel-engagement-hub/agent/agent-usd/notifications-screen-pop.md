@@ -1,5 +1,5 @@
 ---
-title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub"
+title: "Notification ans screen pops for agents working in Omni-channel Engagement Hub"
 description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -12,11 +12,13 @@ ms.topic: article
 ms.assetid: 04017981-2d10-496b-a6b8-5ad0ea99fa4f
 ms.custom: 
 ---
-# Notifications and Screen pop
+# Notifications and Screen pops
 
-Notification is a visual alert you see as a dialog box each time you get a call, email, chat, and SMS conversation request from a customer. Even when you minimize the Omni-channel Engagement Hub application, you will get a visual notification. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need perform to accept or reject an incoming conversation request. When you accept the request, a screen pops up with the contextual information of the customer and case.
+A notification is a visual alert that you see as a message box each time that you receive a call, email, chat, or Short Message Service (SMS) conversation request from a customer. You receive notifications even when the Omni-channel Engagement Hub application is minimized.
 
-Some of the scenarios where you can see the screen pop or notifications are:
+Notifications show the details of the customer that you will interact with. In addition, some types of notifications include **Accept** and **Reject** buttons, and indicate the action that you must perform to accept or reject the incoming conversation request. If you accept the request, a screen pop appears and shows the contextual information of the customer and case.
+
+Here are some of the scenarios where you can receive notifications or see screen pops:
 
  - Incoming chat
 
@@ -32,13 +34,13 @@ Some of the scenarios where you can see the screen pop or notifications are:
 
 There are two types of notifications:
 
- - Toast notifications or floating notifications
+ - Toast notifications (floating notifications)
 
  - Alert notifications
 
-#### Toast notifications or floating notifications
+#### Toast notifications (floating notifications)
 
-Toast notification or floating notification is a notification message type where you an information in a screen pop dialog and the dialog disappears after a stipulated time. While you are viewing the notification, if you select the notification, the associated session or application is displayed.
+A toast notification, or floating notification, is a type of notification where information is shown in a screen pop that disappears after a specific time. If you select the notification, the associated session or application is shown.
 
 Toast notifications or floating notifications appear for SMS, email, voice call, consult, and transfer scenarios. This kind of notification may or may not have buttons that require your actions, which depends on your business requirements.
 
@@ -46,17 +48,17 @@ Toast notifications or floating notifications appear for SMS, email, voice call,
 
 #### Alert notifications
 
-Alert notification is a type of notification where a dialog appears with actionable buttons, when you select the accept button, a screen pops with Customer 360 details. You need to take an action within the stipulated time and screen pop dialog vanishes when the time is out. If your business demands an auto-accept request for an incoming request based on the routing rules, you see the notification with no buttons.
+An alert notification appears as a dialog box that contains buttons. When you select the **Accept** button, a screen pop appears and shows Customer 360 details. You must take action within a specific time. After that time passes, the screen pop disappears. If your business requires an auto-accept request for an incoming request based on the routing rules, the alert notification doesn't contain buttons.
 
 ![omni-channel alert notification](../../media/oc-usd-alert-notification.png "omni-channel alert notification")  
 
 ##### Incoming chat notification
 
-You see a notification for an incoming chat conversation request. When you accept the chat request, a screen pops with the details of the customer in the Customer 360 page. Simultaneously, session is started, and chat window expands in the left panel of Unified Service Desk.
+When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer 360** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
 
 ![omni-channel incoming chat alert notification](../../media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
 
-The details you see for a chat channel are as follows:
+You see the following details for a chat channel:
 
 -   Customer profile
 
@@ -68,7 +70,7 @@ The details you see for a chat channel are as follows:
 
 -   Recent activities
 
-![omni-channel customer 360 page for chat](../../media/oc-usd-chat-customer360.png "Omni-channel customer 360 page for chat")
+![Omni-channel Customer 360 form for chat](../../media/oc-usd-chat-customer360.png "Omni-channel customer 360 page for chat")
 
 > [!div class="nextstepaction"]
 > [Next topic: Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)

@@ -1,5 +1,5 @@
 ---
-title: "Sign in to omni-channel engagement hub"
+title: "Sign in to Omni-channel Engagement Hub"
 description: "Learn how to sign in to Omni-channel Engagement Hub through Unified Service Desk client application."
 keywords: ""
 author: kabala123
@@ -16,7 +16,7 @@ ms.custom:
 
 1.  Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
-2.  In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 server, and select **Login**.
+2.  In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 server, and then select **Login**.
 
  **For online deployments**
 

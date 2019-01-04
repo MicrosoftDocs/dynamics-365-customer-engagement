@@ -1,5 +1,5 @@
 ---
-title: "Search and link a record in Omni-channel Engagement Hub"
+title: "Search for and link a record in Omni-channel Engagement Hub"
 description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
@@ -13,19 +13,19 @@ ms.assetid: 9DE991EA-5B54-4D31-89EE-9CE05E73AF3C
 ms.custom: 
 ---
 
-# Search and link a record in Omni-channel Engagement Hub
+# Search for and link a record in Omni-channel Engagement Hub
 
-The topic explains how to search a record in Omni-channel Engagement Hub and link the record to the conversation.
+The topic explains how to search for a record in Omni-channel Engagement Hub and link it to a conversation.
 
-## Search a record
+## Search for a record
 
-Search for the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select search. You can see the details in the form of a list.
+You can search for omni-channel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
 
 ![omni-channel search lists](../../media/agent-search-lists.png "omni-channel search lists")
 
 1. Select the search icon ![omni-channel search icon](../../media/agent-search-icon.png "omni-channel search icon"), and select **Omni-channel Search**.
 
-2. Specify any of the following values as per your search requirement.
+2. Specify any of the following values as per your search requirements:
 
  - Account Name
  - Address 1: State/Province
@@ -40,11 +40,11 @@ Search for the Omni-channel records using the search option. When you select the
  - Address 1: ZIP/Post Code
  - Case Number
 
-3. Select **Search** and the search list appears.
+3. Select **Search**. The list of search results appear.
 
 ## Link a record
 
-Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
+You can link a record in the list of search results to a conversation. You can link only one record to a conversation.
 
 1. Select the ![omni-channel select icon](../../media/select-icon.png "omni-channel select icon") icon to view the selection list.<br>
 ![omni-channel select records](../../media/agent-select-records-link.png "omni-channel select records")
@@ -55,7 +55,7 @@ Based on the search results, you can choose to link a record from the list. You 
 3. Select the link button at the top.<br>
 ![omni-channel send link](../../media/agent-select-link-button.png "omni-channel send link")
 
-After you link the record to the conversation, the Customer 360 page refreshes and reflects the details. Similarly, you can link other record types.
+After you link the record to the conversation, the Customer 360 form is refreshed and reflects the details. Similarly, you can link other record types.
 
 ## See also
 

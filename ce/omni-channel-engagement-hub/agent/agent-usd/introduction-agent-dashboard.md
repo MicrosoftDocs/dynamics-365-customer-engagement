@@ -1,5 +1,5 @@
 ---
-title: "Introduction to agent dashboard"
+title: "Introduction to the agent dashboard"
 description: "Learn about the omni-channel engagement hub for agent dashboard that displays the work items status in three views - My work items, Open work items, and Closed work items."
 keywords: ""
 author: kabala123
@@ -12,11 +12,13 @@ ms.topic: article
 ms.assetid: 05962e07-2570-44fd-bca6-a894b1e61969
 ms.custom: 
 ---
-# Introduction to Omni-channel Engagement Hub agent dashboard
+# Introduction to the Omni-channel Engagement Hub agent dashboard
 
-When you sign in to Unified Service Desk, you see the **My Dashboard** page of the Omni-channel Engagement Hub. The **My Dashboard** page is a multi-stream view of the work items where you can view the work items that you are actively working on, work items that are available for you to pick from the queues, and work items that you completed within the last 24 hours.
+When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues, and conversations that you've completed during the last 24 hours.
 
-The **Home** button on the **Session Management** tab provides a quick navigation to the dashboard page, and when you select the button, the dashboard appears on the **Application Management** tab. The **My Dashboard** page consists of the following work streams:
+The **Home** button on the **Session Management** tab provides quick navigation to the **My Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
+
+The **My Dashboard** page consists of the following views:
 
  - My work items
 
@@ -26,17 +28,19 @@ The **Home** button on the **Session Management** tab provides a quick navigatio
 
 ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")   
 
-### My work items
+## My work items
 
-In this work stream, you see the work items that you are actively working. Select the ellipsis and select the **Open** option to open the work item as a session in the session management tab.
+In the **My work items** view, you see all the work items that you're actively working on. Select the ellipsis button (**...**) for a work item, and then select **Open** to open the work item as a session on the **Session Management** tab.
 
-### Open work items
+## Open work items
 
-In this work stream, you see the work items in waiting state from all queues that are available for you to pick. You can see the work items for the work streams where you are added as a member. Select the ellipsis and select the **Pick** option to assign the work item to you. When you select **Pick**, the system moves the work item from **Open work items** stream to **My work items** stream and you can see the message - **Work item picked successfully. Work item: <subject of work item>** . You can see the subject of the work item that you picked.
+In the **Open work items** view, you see all the conversations that are in the **Waiting** state, from all the queues that are available for you to pick from. Work items are shown for all the queues where you're added as a member. Select the ellipsis button (**...**) for a work item, and then select **Pick** to assign the work item to you. When you select **Pick**, the system moves the work item from **Open work items** view to the **My work items** view, and you can see the following message: **Work item picked successfully. Work item: <Subject of the work item>**.
 
-### Closed work items
+## Closed work items
 
 In this work stream, you see the work items that you completed during the past 24 hours. The work stream refreshes every business to reflect the work items that you closed in past 24 hours. To view a closed work item, select the ellipsis and then select the **Open** option to view the details in a form.
+
+In the **Closed conversations** work stream, you see all the conversations that you've completed during the past 24 hours. The work stream refreshes every business to reflect the conversations that you closed in past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details
 
 > [!div class="nextstepaction"]
 > [Next topic: Notifications and screen pop](notifications-screen-pop.md)

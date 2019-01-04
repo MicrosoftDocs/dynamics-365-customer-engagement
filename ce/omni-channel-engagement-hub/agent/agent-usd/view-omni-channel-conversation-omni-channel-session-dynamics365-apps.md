@@ -1,5 +1,5 @@
 ---
-title: "View omni-channel conversation and session form in Dynamics 365 for Customer Engagement apps"
+title: "View conversation and session form in Dynamics 365 for Customer Engagement apps"
 description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omni-channel Engagement Hub can under the Acitivities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
 ms.custom: 
 ---
-# View Omni-channel conversations and Omni-channel session in Dynamics 365 apps
+# View omni-channel conversations and omni-channel session in Dynamics 365 apps
 
-Your organization may have a classification where certain agents work in the contact center that uses Omni-channel Engagement Hub and certain agents work in another contact center that uses Dynamics 365 apps like Customer Service Hub. In this case, if you are an agent who works on Dynamics 365 apps and needs to analyze the conversation request from Omni-channel Engagement Hub, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
+In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Customer Service Hub. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365..
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 
@@ -24,9 +24,9 @@ You can find the following activity types in Dynamics 365 for Customer Engagemen
 
 ### Conversation form
 
-The Conversation form displays information of an conversation request, which are as follows:
+The conversation form displays information about a conversation request.
 
-| Section         | Fields            |
+| Section         | Field            |
 |-----------------|-------------------|
 | Details         | Title             |
 |                 | Customer          |
@@ -49,7 +49,7 @@ The Conversation form displays information of an conversation request, which are
 
 ### Session form
 
-The Omni-channel session displays information of an conversation request, which are as follows:
+The omni-channel session displays information about a conversation request.
 
 | Section | Field           |
 |---------|-----------------|

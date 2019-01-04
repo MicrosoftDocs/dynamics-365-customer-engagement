@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the agent interface in Omni-channel engagement hub"
+title: "Introduction to the agent interface in Omni-channel Engagement Hub"
 description: "Learn about the Omni-channel Engagement Hub agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
 keywords: ""
 author: kabala123
@@ -15,7 +15,7 @@ ms.custom:
 
 # Introduction to the agent interface in Omni-channel Engagement Hub
 
-When you sign in to Unified Service Desk, the Omni-channel Engagement interface has the following components:
+When you sign in to Unified Service Desk, the Omni-channel Engagement Hub interface has the following components:
 
  - Omni-channel toolbar
 
@@ -37,11 +37,11 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
  - Presence
 
-![default global toolbar](../../media/oc-usd-global-toolbar.png "Default global toolbar")  
+![Default global toolbar](../../media/oc-usd-global-toolbar.png "Default global toolbar")  
 
 ### Search
 
-The search option in Omni-channel Engagement Hub lets you to search records and open the record in a new active session. You can search for the following records using the search option:
+The **Search** button lets you to search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
 
  - Case
 
@@ -57,47 +57,47 @@ The search option in Omni-channel Engagement Hub lets you to search records and 
 
 ### Create
 
-The quick create option provides the list of related options (entities) to access the existing entities and create new ones.
+The **Create** button provides a list of related options (entities), so that you can access existing entities and create new entities.
 
 ### Settings
 
-Omni-channel Engagement Hub settings have **Debugger** and **About** that provide insights about the code executions and about Unified Service Desk, respectively.
+The **Settings** menu has **Debugger** and **About** options. These options provide insight into code runs and Unified Service Desk, respectively. There is also an option that opens the Best Practices Analyzer.
 
 ![omni-channel settings](../../media/oc-usd-settings.png "Omni-channel settings")  
 
 #### Debugger
 
-Debugger in Unified Service Desk provides you with insights about the process and code executions in the agent application.
+Use the **Debugger** option to gain insight into the process and code runs in the agent application.
 
 #### About
 
-About in Unified Service Desk provides you information about the user (agent), agent’s email Id, Microsoft Dynamics 365 server and organization, Shell Version, and much more.
+Use the **About** option to view information about the user (agent), the agent's email ID, the Microsoft Dynamics 365 server and organization, Shell Version, and much more.
 
 #### Best Practices Analyzer
 
-Best practices are the guidelines about System Configurations, Unified Service Desk, Internet Explorer settings, and Unified Service Desk configurations in Dynamics 365 Customer Engagement. Consider these guidelines as our recommended way to use Unified Service Desk and serve your customers.
+Best practices are the guidelines about system configurations, Unified Service Desk, Internet Explorer settings, and Unified Service Desk configurations in Microsoft Dynamics 365 for Customer Engagement. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
 
 ### Presence
 
-Presence is the indication of your (agent) availability or status. A presence status comprises of two core elements:
+The **Presence** area shows the agent's presence status. Presence status indicates an agent's availability or status. It consists of two elements:
 
- - Base Presence: Indicates the category of availability. There are five standard base presence, and they are as follows: Available, Away, Busy, Do Not Disturb, and Offline
+ 1. **Base status**: The availability or status category. There are five standard bases statuses: **Available**, **Away**, **Busy**, **Do Not Disturb**, and **Offline**. 
 
- - Presence Text: This is the text that is associated with a base presence category. For example: Away – Away for lunch. **Away** is the base presence and **Away for lunch** is the presence text.
+2. **Presence text**: The text that is associated with a specific base status. For example, in the **Away – Away for lunch** presence status, **Away** is the base status, and **Away for lunch** is the presence text.
 
- ![omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
+ ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
 
 ## Session management toolbar
 
-Each session in the Unified Service Desk client is displayed on the session tab toolbar in the main screen, and you can identify a session using the session name displayed on the tab. Also, you switch between the sessions to handle the cases without affecting your KPIs.
+Each session in the Unified Service Desk client is shown on the session tab toolbar on the main page. You can identify a session by the session name that is shown on the tab. You can switch between sessions to handle cases without affecting key performance indicators (KPIs).
 
-![omni-channel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
+![Omni-channel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
 
 ## Application management toolbar
 
-The application management toolbar allows you to see the all the related information of a session. For example, you can see open the My dashboard, Search, Customer 360, view a KB article, view case details and so on using the application management toolbar. Also, you can switch between the application and session tab toolbar to effectively manage your sessions and related applications.
+The application management toolbar lets you see the all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer 360, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
-![omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
+![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
 
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to agent dashboard](introduction-agent-dashboard.md)

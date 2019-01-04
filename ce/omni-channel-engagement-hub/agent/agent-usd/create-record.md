@@ -15,9 +15,9 @@ ms.custom:
 
 # Create a record in Omni-channel Engagement Hub
 
-When there are no records linked to the conversation in the Omni-channel Engagement Hub, you can create a record using the quick create (+) option. After you create the record, the record is automatically linked to the conversation.
+If no records are linked to a conversation in Omni-channel Engagement Hub, you can create a record by using the quick create option. To use this option, select the plus sign (**+**). After you create the record, the record is automatically linked to the conversation.
 
-1. Select the **+** icon to create a new record.<br>
+1. Select the plus sign (**+**) to create a record.<br>
 ![Quick create record](../../media/quick-create-record.png "Quick create record")
 
 2. Select a record type from the list.<br>
@@ -25,9 +25,9 @@ When there are no records linked to the conversation in the Omni-channel Engagem
     - Contact
     - Account
 
-    In the Application management toolbar, you can see a new record page.
+    A page for the new record appears on the **Application management** toolbar.
 
-3. Specify the details in the form and save the changes.
+3. Specify the details on the page, and then save your changes.
 
 > [!div class="nextstepaction"]
 > [Next topic: Search and link a record](search-link-record.md)

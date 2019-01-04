@@ -14,23 +14,23 @@ ms.custom:
 ---
 # Right control panel
 
-The right control panel consists of Agent Scripts, Notes, and Knowledge articles search controls.
+The right panel consists of agent scripts, notes, and knowledge management search controls.
 
 ### Call scripts control
 
-Call scripting in Omni-channel right reference panel provides guidance about what you should say on calls or what you should type on chat conversations.
+The **Call script** section in the right panel provides guidance about what you should say during calls, or what you should type during chat conversations.
 
 ![omni-channel call script](../../media/oc-usd-call-script.png "Omni-channel call script")  
 
-### Search knowledge articles
+### Search for knowledge articles
 
-Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help you reduce the average handle time to provide quick and accurate answers to your customers.
+Knowledge management plays an important part in the customer service process. Access to up-to-date information can help you provide quick and accurate answers to your customers, and can therefore help reduce the average handling time.
 
-Omni-channel Engagement Hub enables you to use the rich knowledge base in Dynamics 365 from within the desktop so that you can quickly search for relevant knowledge while working on a case, and provide accurate answers to the customers, without having to switch applications.
+Omni-channel Engagement Hub lets you use the rich knowledge base (KB) in Microsoft Dynamics 365 from the desktop. Therefore, you can quickly search for relevant knowledge articles while you're working on a case, and can provide accurate answers to customers, without having to switch applications.
 
-You can search for the KB articles, open the articles as a tab in the Application tab management toolbar. Also, you can share the link of the KB article to the customer with whom you are engaging using the Send Link option. When you select the Send Link option, the link is pasted in the chat window (conversation control).
+You can search for a KB article and open it as a tab on the Application tab management toolbar. You can also use the **Send Link** button to share the link to a KB article with the customer that you're interacting with. When you select **Send Link**, the link is pasted into the chat window (conversation control).
 
-![omni-channel kb articles](../../media/oc-usd-kbartciles.png "Omni-channel KB articles")
+![Omni-channel KB articles](../../media/oc-usd-kbartciles.png "Omni-channel KB articles")
 
 > [!div class="nextstepaction"]
 > [Next topic: View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
