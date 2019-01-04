@@ -36,7 +36,11 @@ Dynamics 365 Channel Integration Framework
 
 - It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
 
-- If you select all roles while creating a new channel provider record in the Channel Integration Framework (CIF) admin app, the save operation fails with a script error. Unselect **support user** role to mitigate this error. 
+- If you select all roles while creating a new channel provider record in the Channel Integration Framework (CIF) admin app, the save operation fails with a script error. Unselect **support user** role to mitigate this error.
+
+- When you secify the EntityLogicalName to search in the **SearchAndOpenRecords** API, the search list provides all the entites which matches the search criteria rather displaying the particular entity type.
+
+- When you specify the EntityLogicalName to pre-populate the search string in the **renderSearchPage** API, the list provides all the entites which matches the search criteria rather displaying the particular entity type.
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
