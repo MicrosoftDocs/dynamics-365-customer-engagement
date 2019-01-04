@@ -15,7 +15,7 @@ ms.custom:
 
 # Sign in to Dynamics 365 Customer Service hub
 
-## The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Customer Service Hub. You must sign in to Customer Service Hub to experience the Omni-channel Engagement Hub.
+The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Customer Service Hub. You must sign in to Customer Service Hub to experience the Omni-channel Engagement Hub.
 
 1.  Sign in to Dynamics 365 Customer Engagement apps
 
