@@ -3,7 +3,7 @@
 ## [Introduction](introduction-omni-channel.md)
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
-### [Omni-channel Engagement Hub om Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
+### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Set up chat widget](administrator/set-up-chat-widget.md)
 
 ## [Agents]()
