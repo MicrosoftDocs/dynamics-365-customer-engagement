@@ -47,3 +47,19 @@ When no records are linked to a conversation in the Omni-channel Engagement Hub,
 
 When you choose to search for a record, the application launches the **Omni-channel search** tab. Specify the details according to the field and then search. Once the search is complete, you can see the results in the form of a list. You can link the record to the conversation. Also, if you select a record, you can see it in the application management toolbar.
 
+> [!div class="nextstepaction"]
+> [Next topic: Create a record](csh-create-record.md)
+
+## See also
+
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Sitemap](csh-sitemap.md)
+- [Navigation bar](csh-navigation-bar.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [Conversation control](csh-conversation-control.md)
+- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+- [Search and link record to the conversation](csh-search-link-record.md)

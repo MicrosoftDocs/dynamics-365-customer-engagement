@@ -37,3 +37,19 @@ In this work stream, you see the work items in a waiting state from all queues t
 
 In this work stream, you see the work items that you completed during the past 24 hours. The work stream refreshes every business day to reflect the work items that you closed in the past 24 hours. To view a closed work item, select the ellipses and then select the **Open** option to view the details in a form.
 
+> [!div class="nextstepaction"]
+> [Next topic: Conversation control](csh-conversation-control.md)
+
+## See also
+
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Sitemap](csh-sitemap.md)
+- [Navigation bar](csh-navigation-bar.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](csh-create-record.md)
+- [Search and link record to the conversation](csh-search-link-record.md)

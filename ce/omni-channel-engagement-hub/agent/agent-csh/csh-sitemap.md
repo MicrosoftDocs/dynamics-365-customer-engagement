@@ -51,5 +51,21 @@ The Sitemap displays the following record types:
 
 - **Knowledge articles**
 
-    Knowledge articles are articles about the questions, issues, feedback, resolutions, best practices, and guidelines that are helpful. You can share the articles with the customers and help them to resolve the cases.
+    Knowledge articles are articles about the questions, issues, feedback, resolutions, best practices, and guidelines that are helpful. You can share the articles with the customers and help them to resolve the cases.   
 
+> [!div class="nextstepaction"]
+> [Next topic: Navigation bar](csh-navigation-bar.md)
+
+## See also
+
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [Conversation control](csh-conversation-control.md)
+- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](csh-create-record.md)
+- [Search and link record to the conversation](csh-search-link-record.md)

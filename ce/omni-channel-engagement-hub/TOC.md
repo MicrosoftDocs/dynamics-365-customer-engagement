@@ -27,7 +27,7 @@
 #### [Sitemap](agent/agent-csh/csh-sitemap.md)
 #### [Navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
-#### [My Dashboard](agent/agent-csh/csh-my-dashboard.md)
+#### [View My dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
 #### [Conversation control](agent/agent-csh/csh-conversation-control.md)
 #### [Notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
 #### [Customer 360 - overview of the existing challenges](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)

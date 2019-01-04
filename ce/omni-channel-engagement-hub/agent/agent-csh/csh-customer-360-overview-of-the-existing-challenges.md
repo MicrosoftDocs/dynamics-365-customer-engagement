@@ -69,3 +69,19 @@ You can search for a KB article using the **KB Search** tab, and then view the a
 
 When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **KB Search** tab. Then you can search and share the KB articles.
 
+> [!div class="nextstepaction"]
+> [Next topic: View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+
+## See also
+
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Sitemap](csh-sitemap.md)
+- [Navigation bar](csh-navigation-bar.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [Conversation control](csh-conversation-control.md)
+- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](csh-create-record.md)
+- [Search and link record to the conversation](csh-search-link-record.md)
