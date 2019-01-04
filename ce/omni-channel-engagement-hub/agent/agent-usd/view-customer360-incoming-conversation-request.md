@@ -83,24 +83,16 @@ However, there are no records present in Omni-channel Engagement Hub based on th
 ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
 
 > [!div class="nextstepaction"]
-> [Create a record](create-record.md)
+> [Next topic: Create a record](create-record.md)
 
 ## See also
 
-[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-
-[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
-
-[Introduction to agent dashboard](introduction-agent-dashboard.md)
-
-[Notifications and screen pop](notifications-screen-pop.md)
-
-[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
-
-[Conversation panel](left-control-panel.md)
-
-[Right control panel](right-control-panel.md)
-
-[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-
-[Search and link a record](search-link-record.md)
+- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [Notifications and screen pop](notifications-screen-pop.md)
+- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [Conversation panel](left-control-panel.md)
+- [Right control panel](right-control-panel.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [Search and link a record](search-link-record.md)

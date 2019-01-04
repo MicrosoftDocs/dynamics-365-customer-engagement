@@ -66,24 +66,16 @@ The Omni-channel session displays information of an conversation request, which 
 ![omni-channel session form](../../media/oc-crm-omni-channel-session-form.png "Omni-channel session form") 
 
 > [!div class="nextstepaction"]
-> [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+> [Next topic: View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 
 ## See also
 
-[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-
-[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
-
-[Introduction to agent dashboard](introduction-agent-dashboard.md)
-
-[Notifications and screen pop](notifications-screen-pop.md)
-
-[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
-
-[Conversation panel](left-control-panel.md)
-
-[Right control panel](right-control-panel.md)
-
-[Create a record](create-record.md)
-
-[Search and link a record](search-link-record.md)
+- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [Notifications and screen pop](notifications-screen-pop.md)
+- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [Conversation panel](left-control-panel.md)
+- [Right control panel](right-control-panel.md)
+- [Create a record](create-record.md)
+- [Search and link a record](search-link-record.md)

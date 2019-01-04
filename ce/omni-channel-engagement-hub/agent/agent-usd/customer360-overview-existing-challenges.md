@@ -57,24 +57,16 @@ This section displays the recent cases that relate to the customer.
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
 
 > [!div class="nextstepaction"]
-> [Conversation panel](left-control-panel.md)
+> [Next topic: Conversation panel](left-control-panel.md)
 
 ## See also
 
-[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-
-[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
-
-[Introduction to agent dashboard](introduction-agent-dashboard.md)
-
-[Notifications and screen pop](notifications-screen-pop.md)
-
-[Right control panel](right-control-panel.md)
-
-[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-
-[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
-
-[Create a record](create-record.md)
-
-[Search and link a record](search-link-record.md)
+- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [Notifications and screen pop](notifications-screen-pop.md)
+- [Right control panel](right-control-panel.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [Create a record](create-record.md)
+- [Search and link a record](search-link-record.md)

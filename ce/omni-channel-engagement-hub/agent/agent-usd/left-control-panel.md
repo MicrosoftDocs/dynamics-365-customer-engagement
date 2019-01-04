@@ -69,24 +69,16 @@ When you work on conversation request, you may come across the following scenari
 In above-mentioned scenarios, you can transfer the request. You can transfer the request only to the agents who are configured with in the same work stream and queue. If the request belongs to another queue, then you can transfer the request and the routing rules will push the queue accordingly.
 
 > [!div class="nextstepaction"]
-> [Right control panel](right-control-panel.md)
+> [Next topic: Right control panel](right-control-panel.md)
 
 ## See also
 
-[Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-
-[Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
-
-[Introduction to agent dashboard](introduction-agent-dashboard.md)
-
-[Notifications and screen pop](notifications-screen-pop.md)
-
-[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
-
-[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-
-[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
-
-[Create a record](create-record.md)
-
-[Search and link a record](search-link-record.md)
+- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [Notifications and screen pop](notifications-screen-pop.md)
+- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [Create a record](create-record.md)
+- [Search and link a record](search-link-record.md)
