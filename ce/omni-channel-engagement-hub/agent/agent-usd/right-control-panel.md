@@ -38,7 +38,7 @@ You can search for the KB articles, open the articles as a tab in the Applicatio
 ## See also
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Introduction to agent dashboard](introduction-agent-dashboard.md)
 - [Notifications and screen pop](notifications-screen-pop.md) 
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)

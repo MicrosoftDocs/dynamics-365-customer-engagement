@@ -38,17 +38,17 @@ ms.custom:
 You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-dashboard.md)
+> [Next topic: Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 
 ## See also
 
--[Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
--[Introduction to agent dashboard](introduction-agent-dashboard.md)
--[Notifications and screen pop](notifications-screen-pop.md)
--[Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
--[Conversation panel](left-control-panel.md)
--[Right control panel](right-control-panel.md)
--[View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
--[View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
--[Create a record](create-record.md)
--[Search and link a record](search-link-record.md)
+- [Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
+- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [Notifications and screen pop](notifications-screen-pop.md)
+- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [Conversation panel](left-control-panel.md)
+- [Right control panel](right-control-panel.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [Create a record](create-record.md)
+- [Search and link a record](search-link-record.md)
