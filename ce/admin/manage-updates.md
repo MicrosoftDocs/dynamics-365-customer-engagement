@@ -2,7 +2,7 @@
 title: "Manage Dynamics 365 for Customer Engagement apps (online) updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/25/2018
+ms.date: 01/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,6 +30,8 @@ On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 
 
 > [!TIP]
 > Many update questions are answered here: [FAQ for Dynamics 365 for Customer Engagement apps Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy).
+>
+> Check out the following blog: [Previewing April 2019 release functionalities and updates for Dynamics 365 for Customer Engagement](https://blogs.msdn.microsoft.com/crm/2018/12/12/previewing-april-2019-release-functionalities-and-updates-for-dynamics-365-for-customer-engagement/).
 
 You have options for when you update your Dynamics 365 for Customer Engagement apps (online) organization to Dynamics 365 for Customer Engagement apps (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
