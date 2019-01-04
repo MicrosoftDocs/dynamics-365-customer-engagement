@@ -1,5 +1,5 @@
 ---
-title: "Configure notification (screen Pop) For agents"
+title: "Configure notifications (screen pops) for agents"
 description: "Learn how to configure notification for using Omni-channel Engagement Hub based on routing and work distribution."
 keywords: ""
 author: kabala123
@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: 227c2e0e-4d42-463b-87a1-d538a8e4b8a1
 ms.custom: 
 ---
-# Configure notification (Screen pop) for agents
+# Configure notifications (Screen pops) for agents
 
-Configure notifications (screen pop) in Unified Service Desk - Omni-channel Engagement Hub to display popup notification messages to your agents that contains general information or some customer or process-related information that the agent can act on. Some of the details are as follows:
+You configure notifications (screen pops) in Unified Service Desk - Omni-channel Engagement Hub. These notifications "pop up" on the screen, and they contain either general information, or customer-related or process-related information that the agent can act on. Here are some examples of the information that screen pops can contain:
 
 -   Wait time
 

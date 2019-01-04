@@ -1,5 +1,5 @@
 ---
-title: "Customize the conversation form"
+title: "Customize the conversation forms"
 description: 
 keywords: ""
 author: kabala123
@@ -14,21 +14,21 @@ ms.custom:
 ---
 # Customize the conversation forms
 
-As system customizer, you want to customize the conversation form to suit your business requirements for the agents who use Omni-channel Engagement Hub and Common Data Service Apps. You can customize the following forms:
+As a system customizer, you might want to customize the conversation forms to suit your business requirements for the agents who use Omni-channel Engagement Hub and Common Data Service for Apps. You can customize the following forms:
 
 -   Conversation Form
 
 -   Omni-channel Session Form
 
-## How to modify the position or alignment of the form
+## Modify the position or alignment of a form
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to Microsoft Dynamics 365.
 
-2.  Go to **Settings** &gt; **Customization** &gt; **Customize the system**.
+2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** &gt; **Entities** &gt; **Live Work Item** and select **Forms**.
+3.  Expand **Components** > **Entities** > **Live Work Item** and then select **Forms**.
 
-4.  Select the **Conversation Form** or **Omni-channel Session Form** from the list.
+4.  Select either **Conversation Form** or **Omni-channel Session Form** from the list.
 
  ![modify live work item form](../media/oc-crm-modify-position-live-work-item-form.png "Modify live work item form")  
 
@@ -37,21 +37,21 @@ As system customizer, you want to customize the conversation form to suit your b
 6.  Select **Save** and select **Publish**.
 
 
-## How to add or remove fields
+## Add or remove fields
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to Microsoft Dynamics 365.
 
-2.  Go to **Settings** &gt; **Customization** &gt; **Customize the system**.
+2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** &gt; **Entities** &gt; **Live Work Item** and select **Forms**.
+3.  Expand **Components** > **Entities** > **Live Work Item** and then select **Forms**.
 
-4.  Select the **Conversation Form** or **Omni-channel Stream Form** from the list.
+4.  Select either **Conversation Form** or **Omni-channel Stream Form** from the list.
 
-5.  Add or remove the card for which you want to change the properties.
+5.  Add or remove the forms (card) for which you want to change the properties.
 
-    To remove, select the field, and select the **Remove** option from the **Home** tab.
+    - To remove a form (card), select the field, and select the **Remove** option from the **Home** tab.
 
-    To add, drag and drop the field from the **Field Explorer** to the section you want to add.
+    - To add a form (card), drag and drop the field from the **Field Explorer** to the section you want to add.
 
 6.  Select **Save** and select **Publish**.
 

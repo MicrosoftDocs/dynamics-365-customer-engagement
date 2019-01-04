@@ -16,13 +16,13 @@ ms.custom:
 
 1.  Sign in to Dynamics 365. 
 
-2.  Go to **Settings** &gt; **Unified Service Desk** &gt; **Events**. 
+2.  Go to **Settings** > **Unified Service Desk** > **Events**. 
 
 3.  Select an event from the list. See the matrix to add the action call against the events. 
 
-4.  In the event page, under the **Active Actions** section, select **+** icon. In the search box, type the name of the action call, and select the search icon. 
+4.  On the event page, in the **Active Actions** section, select  plus sign (**+** icon). In the search box, type the name of the action call, and select the search icon. 
 
-5.  Select the action from the list to add the action call to the event. 
+5.  Select the action in the search list to add the action call to the event. 
 
 6.  Select **Save**. 
 

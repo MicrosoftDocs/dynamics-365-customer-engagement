@@ -16,11 +16,11 @@ ms.custom:
 
 1. Sign in to Dynamics 365.
 
-2. Go to **Settings** &gt; **Unified Service Desk**. 
+2. Go to **Settings** > **Unified Service Desk**. 
 
 3. Select **Action Calls** and select **+ New**. 
 
-4. In the new page, specify the following details. 
+4. On the page for the new action call, specify the following details. 
 
  | Field           | Value                            |
  |-----------------|----------------------------------|
@@ -32,7 +32,7 @@ ms.custom:
 
  <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image4](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image4.png) -->
 
-Similarly, create the following action calls by following the steps 1-4.
+6. Repeat steps 3 through 5 to create the following additional action calls.
 
  | Field           | Value                                        |
  |-----------------|----------------------------------------------|

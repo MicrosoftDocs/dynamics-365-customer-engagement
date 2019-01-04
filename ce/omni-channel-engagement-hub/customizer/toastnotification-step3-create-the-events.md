@@ -1,5 +1,5 @@
 ---
-title: "Create the events"
+title: "Create events"
 description: "Learn how to create events that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 174f9625-744f-438c-b2ef-aa301905aee5
 ms.custom: 
 ---
-# Step 3: Create the events 
+# Step 3: Create events 
 
 Create the following events: 
 
@@ -22,15 +22,15 @@ Create the following events: 
 
  - Show FOO Entity Notification
 
-To create the events, perform the following:
+Follow these steps to create the events.
 
 1. Sign in to Dynamics 365. 
 
-2. Go to Settings &gt; Unified Service Desk. 
+2. Go to **Settings** > **Unified Service Desk**. 
 
 3. Select **Events** and select **+ New**. 
 
-4. In the new event page, specify the following details.
+4. On the page for the new event, specify the following details.
 
  | Field               | Value                                |
  |---------------------|--------------------------------------|
@@ -43,7 +43,7 @@ To create the events, perform the following:
 
 Repeat the steps from 3 - 5 to create **TimedOut** and **Show FOO Entity Notification** event.
 
-For Show FOO Entity Notification event, specify the following.
+For **Show FOO Entity Notification** event, specify the following.
 
  | Field               | Value                            |
  |---------------------|----------------------------------|

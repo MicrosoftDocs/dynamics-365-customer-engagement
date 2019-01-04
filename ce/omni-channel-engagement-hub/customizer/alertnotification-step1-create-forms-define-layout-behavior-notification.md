@@ -1,5 +1,5 @@
 ---
-title: "Create forms to define layout and behavior of the notification"
+title: "Create forms to define the layout and behavior of the notification"
 description: "Learn how to create forms to define layout and behavior of the alert notification in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -12,11 +12,11 @@ ms.topic: article
 ms.assetid: 5ea71717-26e0-4e30-b2f8-629626132341
 ms.custom: 
 ---
-# Step 1: Create forms to define layout and behavior of the notification
+# Step 1: Create forms to define the layout and behavior of the notification
 
-1. Sign in to Dynamics 365.
+1. Sign in to Microsoft Dynamics 365.
 
-2. Go to **Settings** &gt; **Unified Service Desk**.
+2. Go to **Settings** > **Unified Service Desk**.
 
 3. Select **Forms** and select **+ New**.
 

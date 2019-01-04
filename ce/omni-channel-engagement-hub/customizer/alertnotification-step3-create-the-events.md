@@ -1,5 +1,5 @@
 ---
-title: "Create the events"
+title: "Create events"
 description: "Learn how to create events that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 09f35941-3c5b-4076-99a2-66032b0c6d4f
 ms.custom: 
 ---
-# Step 3: Create the events
+# Step 3: Create events
 
 Create the following events:
 
@@ -24,9 +24,11 @@ Create the following events:
 
  - Omni-channel Context Fetch
 
+Follow these steps to create the events.
+
 1. Sign in to Dynamics 365.
 
-2. Go to **Settings** &gt; **Unified Service Desk**.
+2. Go to **Settings** > **Unified Service Desk**.
 
 3. Select **Events** and select **+ New**.
 
@@ -41,9 +43,9 @@ Create the following events:
 
 5. Save the event.
 
- Repeat the steps from 3 - 5 to create **IncomingRequestRejected**, **TimedOut**, and **Omni-channel Context Fetch** events.
+ Repeat the steps from 3 - 5 through create **IncomingRequestRejected**, **TimedOut**, and **Omni-channel Context Fetch** events.
 
- For the Omni-channel Context Fetch event, specify the following details.
+ For the **Omni-channel Context Fetch** event, specify the following details.
 
  | **Field**          | **Value**                  |
  |--------------------|----------------------------|

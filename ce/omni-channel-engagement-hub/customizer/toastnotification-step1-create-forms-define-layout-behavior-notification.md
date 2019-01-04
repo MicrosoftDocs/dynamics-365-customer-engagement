@@ -12,11 +12,11 @@ ms.topic: article
 ms.assetid: 4c846869-3c6f-49ad-b6f7-a4b06f102845
 ms.custom: 
 ---
-# Step 1: Create forms to define layout and behavior of the notification 
+# Step 1: Create forms to define the layout and behavior of the notification 
 
 1. Sign in to Dynamics 365. 
 
-2. Go to **Settings** &gt; **Unified Service Desk**. 
+2. Go to **Settings** > **Unified Service Desk**. 
 
 3. Select **Forms** and select **+ New**. 
 

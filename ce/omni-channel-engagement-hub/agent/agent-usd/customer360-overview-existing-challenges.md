@@ -1,5 +1,5 @@
 ---
-title: "Customer 360 overview of the existing challenges"
+title: "Customer 360 - Overview of the existing challenges"
 description: "Customer 360 is a form where you can know complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
@@ -12,17 +12,17 @@ ms.topic: article
 ms.assetid: d53f1b1f-0361-4334-827c-d299137a9075
 ms.custom: 
 ---
-# Customer 360 - know everything about customers
+# Customer 360 - Know everything about customers
 
 ## overview of the existing challenges
 
 One of the major challenges that customers face when contacting the customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request raised at a later stage, the customer shares the same information with another support agent to explain the context of the conversation. To avoid this situation, the support agent must access to the customer information with details about the product/service, issue, cases history, related cases, location, and so on.
 
-Having this information ready when customer is contacting the support agent can help reducing Hold Time that agent spends to retrieve the customer information, Average Handling Time (AHT), and increase customer satisfaction with faster resolution of the issue.
+By having this information ready when customers contact them, support agents can help reduce the hold time that they spend retrieving customer information, reduce average handling time (AHT), and increase customer satisfaction through faster resolution of the issue.
 
 ### What is Customer 360?
 
-Customer 360 is a page where you can get the complete information about the customer when you accept an incoming request from any of the engagement channel. The default Customer 360 view provides the following cards:
+**Customer 360** is a page where you can get complete information about a customer when you accept an incoming request from any engagement channel. The default view of the **Customer 360** page provides the following sections:
 
    - Customer profile
 
@@ -38,7 +38,7 @@ Customer 360 is a page where you can get the complete information about the cust
 
 #### Customer profile
 
-This section provides the details about the customer like name of the customer or account, job, title, relationship type, city, category, relationship type, primary contact for the account and preferred channel of engagement.
+The **Customer profile** section provides details about the customer, such as the name of the customer or account, job, title, relationship type, city, category, relationship type, primary contact for the account, and preferred channel for engagement.
 
 #### Conversation summary
 
@@ -46,7 +46,7 @@ This section provides two tabs with details that helps you to understand the inf
 
 #### Issue Snapshot
 
-For an incoming conversation request, the system links an existing case to conversation and displays in the Issue Snapshot section. This section displays certain information like title of the case, priority, status of the case, product, and owner.
+For an incoming conversation request, the system links an existing case to the conversation, and shows it in the **Issue Snapshot** section. This section shows  information such as the title of the case, its priority, its status, the product, and the owner.
 
 #### Recent cases
 

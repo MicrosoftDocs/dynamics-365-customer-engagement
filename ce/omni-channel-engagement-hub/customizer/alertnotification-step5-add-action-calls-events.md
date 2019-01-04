@@ -14,13 +14,13 @@ ms.custom:
 ---
 # Step 5: Add the action calls to the events
 
-1. Sign in to Dynamics 365.
+1. Sign in to Microsoft Dynamics 365.
 
-2. Go to **Settings** &gt; **Unified Service Desk** &gt; **Events**.
+2. Go to **Settings** > **Unified Service Desk** > **Events**.
 
 3. Select an event from the list. See the matrix to add the action call against the events.
 
-4. In the event page, under the **Active Actions** section, select **+** icon. In the search box, type the name of the action call, and select the search icon.
+4. On the event page, in the **Active Actions** section, select the plus sign (**+**). In the search box, type the name of the action call, and then select the search icon.
 
 5. Select the action from the list to add the action call to the event.
 
@@ -81,6 +81,8 @@ ms.custom:
         <td>ShowSimpleChatRequestScreenPop</td>
     </tr>   
  </table>
+
+7. Repeat steps 4 through 6 to add the following other action calls to the event.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)

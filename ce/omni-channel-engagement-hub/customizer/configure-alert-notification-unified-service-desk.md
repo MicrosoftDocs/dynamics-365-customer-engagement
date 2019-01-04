@@ -1,5 +1,5 @@
 ---
-title: "Configure alert notification in unified Service Desk "
+title: "Configure alert notifications in Unified Service Desk "
 description: "Learn how to configure alert notification for agents using Omni-channel Engagement in Unified Service Desk."
 keywords: ""
 author: kabala123
@@ -12,11 +12,11 @@ ms.topic: article
 ms.assetid: db796d02-2286-407d-a8c2-60dec859cee0
 ms.custom: 
 ---
-# Configure alert notification in Unified Service Desk.
+# Configure alert notifications in Unified Service Desk.
 
-Alert notification settings in Unified Service Desk is a multi-step process.
+The process of configuring alert notification settings in Unified Service Desk involves multiple steps:
 
-1.  Create forms with notifications definition (XAML).
+1.  Create forms with notifications definition (in Extensible Application Markup Language \[XAML\] format).
 
 2.  Create Hosted Control.
 
@@ -28,9 +28,7 @@ Alert notification settings in Unified Service Desk is a multi-step process.
 
 6.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
 
-Consider a scenario—you are getting an incoming chat conversation request and what are the interaction experience for this incoming chat conversation.
-
-You see an alert notification for an incoming conversation request where you need to define the events for the following:
+Consider a scenario where you receive an incoming chat conversation request. What is the interaction experience for this incoming chat conversation? You see an alert notification for the incoming conversation request. Therefore, the following events must be created:
 
 -   Create an event to open a session when agent selects **Accept**
 
@@ -38,9 +36,9 @@ You see an alert notification for an incoming conversation request where you nee
 
 -   Create an event and action when an agent does not act, and time is out after the **Wait Time**
 
-### Create an event to open a session when agent selects Accept 
+## Create an event to open a session when agent selects Accept 
 
-You must define an event and attach the action calls for an agent to accept an incoming request. When agent selects the **Accept** button, the agent will experience the following actions:
+You must define an event and attach action calls so that an agent can accept an incoming request. When the agent selects the **Accept** button, he or she will experience the following actions:
 
 -   The notification closes.
 
@@ -64,21 +62,21 @@ You must define an event and attach the action calls for an agent to accept an i
 
 -   Focus on the Customer 360 page.
 
- ![alert notification and screen pop experience](../media/alert-notification-screenpop.png "Alert notification and screen pop experience")  
+ ![Alert notifications and screen pops experience](../media/alert-notification-screenpop.png "Alert notificatiosn and screen pops experience")  
 
 ### Create an event and action when agent selects Reject 
 
-You must define an event and attach the action calls for an agent to reject an incoming request. When agent selects the **Reject** button, the agent will experience the following actions:
+You must define an event and attach action calls so that an agent can reject an incoming request. When the agent selects the **Reject** button, he or she will experience the following actions:
 
 -   The notification closes.
 
 -   Omni-channel session is rejected.
 
-### Create an event and action when agent does not act, and time is out after the Wait Time
+## Create an event and action when agent doesn't act, and time-out occurs after the specified wait Time value
 
 You must define an event and an action call when an agent does not act in a stipulated time. The notification hides after the wait time. The agent will experience the following action:
 
--   The Omni-channel session will time out.
+-   The Omni-channel session times out.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)

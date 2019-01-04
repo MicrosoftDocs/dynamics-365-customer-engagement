@@ -16,11 +16,11 @@ ms.custom:
 
 1.  Sign in to Dynamics 365.
 
-2.  Go to **Settings** &gt; **Unified Service Desk**.
+2.  Go to **Settings** > **Unified Service Desk**.
 
 3.  Select **Hosted Controls** and select **+ New**.
 
-4.  In the new hosted control page, specify the following.
+4.  On the page for new hosted control, specify the following.
 
 | **Field**                           | **Value**                       |
 |-------------------------------------|---------------------------------|

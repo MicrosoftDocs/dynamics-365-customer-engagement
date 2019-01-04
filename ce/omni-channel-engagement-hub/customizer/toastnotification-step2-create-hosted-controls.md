@@ -14,15 +14,15 @@ ms.custom:
 ---
 # Step 2: Create hosted controls 
 
-1. Sign in to Dynamics 365.
+1. Sign in to Microsoft Dynamics 365.
 
 2. Go to **Settings** > **Unified Service Desk**. 
 
 3. Select **Hosted Controls** and select **+ New**.
 
-4. In the new hosted control page, specify the following. 
+4. On the page for the new hosted control, specify the following. 
 
-| Field                                | Value                         |
+| Field                                | Value                            |
 |--------------------------------------|----------------------------------|
 | Name                                 | Omni-channel Toast Notification  |
 | Unified Service Desk Component Type  | Popup Notification               |

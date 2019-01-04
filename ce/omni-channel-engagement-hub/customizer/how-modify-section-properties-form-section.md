@@ -13,19 +13,19 @@ ms.assetid: b6bdcd99-a9c0-4ff5-984c-605cd3323e89
 ms.custom: 
 ---
 
-# How to modify the section properties of the form
+# Modify the section properties of a form
 
 1.  Sign in to Dynamics 365.
 
-2.  Go to **Settings** &gt; **Customization** &gt; **Customize the system**.
+2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** &gt; **Entities** &gt; **Live Work Item** and select **Forms**.
+3.  Expand **Components** > **Entities** > **Live Work Item** and then select **Forms**.
 
-4.  Select **Session Overview Form** from the list.
+4.  Select **Session Overview Form** in the list.
 
-5.  Double-click the card for which you want to change the properties.
+5.  Double-click the form for which you want to change the properties.
 
-6.  In the **Section Properties**, you can modify the following:
+6.  In the **Section Properties** pane, you can modify the following:
 
 <table>
  <tr> 
@@ -79,9 +79,9 @@ ms.custom:
 
 ![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")  
 
-1.  Select **OK** to save the changes.
+7.  Select **OK** to save the changes.
 
-2.  Select **Save** and select **Publish**.
+8.  Select **Save** and then select **Publish**.
 
 > [!div class="nextstepaction"]
 > [Next topic: Add or remove the fields in the form](add-remove-fields-form-section.md)

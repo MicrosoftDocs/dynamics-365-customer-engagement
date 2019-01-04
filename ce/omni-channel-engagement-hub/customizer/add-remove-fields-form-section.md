@@ -1,5 +1,5 @@
 ---
-title: "Add or remove the fields in the form (section)"
+title: "Add or remove the fields in a form (section)"
 description: "Learn how to add or remove the fields in the form (section)"
 keywords: ""
 author: kabala123
@@ -12,38 +12,38 @@ ms.topic: article
 ms.assetid: ab116bdb-a31f-48d3-a8e6-9f4790276a63
 ms.custom: 
 ---
-# Add or remove the fields in the form (section)
+# Add or remove the fields in a form (section)
 
 You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
 
-**Note:** In this procedure, we are illustrating to modify the **Customer Profile** form (card) in the Customer 360 page of the **Live Work Item** entity.
+> [!NOTE]
+> This procedure shows how to modify the **Customer Profile** form (card) in the Customer 360 form of the **Live Work Item** entity. However, the process is similar for other forms (cards).
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to Microsoft Dynamics 365.
 
-2.  Go to **Settings** &gt; **Customization** &gt; **Customize the system**.
+2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** &gt; **Entities** &gt; **Account** and select **Forms**.
+3.  Expand **Components** > **Entities** > **Account** and select **Forms**.
 
-4.  Select **Customer 360**, which is of the Form type **Quick View Form**.
+4.  Select **Customer 360**, which is of the form type **Quick View Form**.
 
 5.  In the form, click the section you want to add a field to, and then in the **Field Explorer** pane, double-click the field you want add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to section.
 
  ![add or revmoe fields from customer 360 form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from customer 360 form")  
 
-6.  Select **Save** and select **Publish**.
+6.  Select **Save** and then select **Publish**.
 
-**Tip:** To create a new quick view form, see [How to create a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#create-a-quick-view-form)  
+> [!TIP]
+> To create a new quick view form, see [How to create a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#create-a-quick-view-form)  
 
-Similarly, you can add or remove fields for the following cards by navigating to the form and performing the steps 4 to 6 in the above-mentioned procedure:
+You can also use the previous procedure to add or remove fields in other forms (cards). In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6
 
 | **Card**         | **Entity**         | **Quick View Form** |
 |------------------|--------------------|----------------------|
-| Customer profile | Account &gt; Forms | Customer 360         |
-| Customer profile | Contact &gt; Forms | Customer 360         |
-| Issue snapshot   | Case &gt; Forms    | Issue Snapshot       |
-| Recent cases     |                    |                      |
-
-**Note:** Navigate to the form and perform the steps 4 to 6 in the above-mentioned procedure.
+| Customer profile | Account > Forms | Customer 360         |
+| Customer profile | Contact > Forms | Customer 360         |
+| Issue snapshot   | Case > Forms    | Issue Snapshot       |
+| Recent cases     |                 |                      |
 
 > [!div class="nextstepaction"]
 > [Next topic: Customize the conversation form](customize-conversation-form.md)

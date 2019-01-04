@@ -1,5 +1,5 @@
 ---
-title: "Create an action call to display the notification"
+title: "Create an action calls to show the notifications"
 description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -14,9 +14,9 @@ ms.custom:
 ---
 # Step 4: Create an action call to display the notification
 
-1. Sign in to Dynamics 365.
+1. Sign in to Microsoft Dynamics 365.
 
-2. Go to **Settings** &gt; **Unified Service Desk**.
+2. Go to **Settings** > **Unified Service Desk**.
 
 3. Select **Action Calls** and select **+ New**.
 
@@ -30,7 +30,7 @@ ms.custom:
 
 5. Save the action call.
 
-Similarly, create the following action calls by following the steps 1-4.
+6. Repeat steps 1 through 5 to create the following additional action calls.
 
  <table>
     <tr>
