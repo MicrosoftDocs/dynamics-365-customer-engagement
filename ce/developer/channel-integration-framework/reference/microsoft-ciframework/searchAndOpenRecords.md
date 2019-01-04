@@ -47,7 +47,7 @@ manager: shujoshi
 
 When you set the searchOnly as true, the contact is only searched to get results as a a promise but not opened. Set the searchOnly as true when the search displays a list of records based on the search context.
 
-When you set the searchOnly as false, the contact is searched and opened. Set the searchOnly as false when the search displays a single record based on the search context.
+When you set the searchOnly as false, the contact is searched and opened. Set the searchOnly as false when the search displays a single record based on the search context. Set false to open search page if the search result has a multiple record and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.
 
 ## Examples
 
