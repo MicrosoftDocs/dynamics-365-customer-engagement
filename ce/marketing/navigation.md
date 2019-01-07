@@ -99,7 +99,7 @@ From here, you can do the following:
 
 ## Working with record views
 
-Record views show all the details about a single record and sometimes also provide special features for working with it, such as the digital content designer for marketing emails and marketing pages. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
+Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
 ![A typical record view](media/form-view.png "A typical record view")
 
@@ -107,9 +107,9 @@ From here, you can do the following:
 
 - **Operate on the record**: Use the commands in the command bar to operate on the current record or perform a task related to the record. The available commands vary based on the record type, but you can typically use the command bar to delete the record, refresh the page, email a link to the record, reassign the record owner, or export the record by using a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template.
 - **Choose a form view**: Each form view provides a collection of related fields from the record, or related features, such analytics or a designer. Some types of records provide just one view, some provide several. The current form view (when available) is shown above the record name, near the top of the page. To change the form view, click the down arrow next to the form-view name to open a menu, and then select the new view that you want.
-- **Chose a record-view tab**: Some record views are further divided into tabs. When tabs are available, they're listed below the record name. Select any tab name to go to that tab. Each tab provides a collection of related fields from the record.
+- **Choose a tab**: Some record views are divided into tabs. When tabs are available, they're listed below the record name. Select any tab name to go to that tab. Each tab provides a collection of related fields from the record.
 - **Read and edit important field values**: Some record views display a few especially important fields in the heading bar, opposite the record name. These are typically fields that are fundamental to working with records of the current type (such as a the name of the record owner).
-- **View and edit all field values**: In the main body of the record view, you'll find the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but are not strictly required. Fields showing a lock icon are read-only and can't be edited.
+- **View and edit all field values**: In the main body of the record view, you'll find all of the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but are not strictly required. Fields showing a lock icon are read-only and can't be edited.
 
 ## Working with business processes
 
