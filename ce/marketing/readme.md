@@ -48,7 +48,7 @@ This document provides important, late-breaking information about known issues a
 - Deactivated contacts won't receive any emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!-- 1196442 -->
-- If you edit a live customer journey to associate a new email message with an existing email tile, the system may continue to send the previously associated email to recipients. To prevent this, either create a new journey or live-edit the existing email record <!--- 1345959 -->
+- If you edit a live customer journey to associate a new email message with an existing email tile, the system may continue to send the previously associated email to recipients. To prevent this, either create a new journey or live-edit the existing email record. <!--- 1345959 -->
 
 ### Fixed issues
 
