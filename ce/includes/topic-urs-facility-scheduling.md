@@ -366,7 +366,7 @@ This allows you to book the pediatrician pool and assign a specific pediatric do
 > [!Note]
 > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
 
-## Configuration Considerations
+## Configuration considerations
 
 ###  Choosing the right work location on requirements
 
@@ -413,7 +413,7 @@ Let's take a look at the following work location types:
 
 - **Facility pool**: this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to utilize capacity scheduling and/or local scheduling. A facility pool makes capacity scheduling easier because facility pool capacity can be derived by the number of pool members as they are added or removed. Local scheduling allows schedulers to first book to the facility pool parent resource up to capacity, and then at a later date schedule to specific resources in the pool. 
 
-## Additional Notes
+## Additional notes
 
 - For requirements that are not part of a requirement group, only facility or facility pool resources can return in the schedule assistant if **Work Location** is set to **Facility**.
 - A resource can't be related to two facilities (child or association) at the same time.
