@@ -1,7 +1,7 @@
 ---
 title: "Analyze your data with Excel templates for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 01/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
