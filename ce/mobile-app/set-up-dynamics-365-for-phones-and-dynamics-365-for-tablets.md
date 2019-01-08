@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/29/2018
+ms.date: 01/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -86,7 +86,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
  
    -   View  
  
-   -   App
+   -   Model-driven App
   
 4. Choose a security role > **Business Management** tab. Verify that the **Read** permission is set for the following entity:  
   
