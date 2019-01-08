@@ -72,7 +72,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
 > ![Screenshot of requirement group with one requirement for a facility](../field-service/media/scheduling-facility-create-requirement.png)
 
 
-  3. Set **Resource Type** to **Facility**, which accomplishes the following:
+  1. Highlight the requirement and select **Open Form** then set the **Resource Type** field to **Facility**, which accomplishes the following:
      1. Filters schedule assistant results by only showing resources with the chosen types (User, Account, Contact, Equipment, Pool, Crew, or in this case, **Facility**).
      2. This means the requirement requires a facility resource to be fulfilled and ensures the schedule assistant search results return facility type resources (as opposed to personnel or equipment).
      3. Maps to the resource type field on the resource entity.
@@ -82,10 +82,10 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
 > ![Screenshot of resource type field on requirement](../field-service/media/scheduling-facility-resource-type.png)
 
 
-  4. Set **Work Location** to **Facility**, which means:
+  5. Set **Work Location** to **Facility**, which means:
      1. The interaction will take place at the scheduled facility and factors into travel time and distance calculations.
      2. Find more details in the configuration considerations section of this article.
-  5. **Latitude and longitude**, which can be populated through booking setup metadata (BSM) or workflows.
+  6. **Latitude and longitude**, which can be populated through workflows.
       1. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
 
 > [!div class="mx-imgBorder"]
@@ -94,7 +94,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
 
 ### 3. Book the requirement 
 
-After creating a facility resource and a requirement that calls for a facility, schedule a facility by drag-and-dropping on the schedule board or by using the schedule assistant.
+After creating a facility resource and a requirement that calls for a facility, you can schedule the facility. Requirements that are part of a group (in the example above) can be scheduled via the book button to trigger the schedule assistant but not via drag and drop. Facility requirements not part of a group (single requirements) can be manually dragged and dropped to a facility on the schedule board or by using the schedule assistant.
 
 The schedule assistant considers availability of resources as well as other set requirement constraints, such as characteristics, organizational units, categories, etc.
 
@@ -179,7 +179,7 @@ First, create a resource to represent the doctor's office. The resource type sho
 Create a resource to represent a doctor. Set the resource type to **User, Account, or Contact**, based on your business needs. 
 
 > [!Note]
-> The user resource type is typically designated for employees who access Dynamics 365 data and consume a license; contact and account resource types are for contractors who need to be scheduled but typically don't consume a license or access data.
+> The user resource type is typically designated for employees who access Dynamics 365 data; contact and account resource types are typically for contractors who need to be scheduled but don't access data.
 
 Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource (in this case, the doctor's office). This is **recommended but not required**.
 
@@ -220,7 +220,8 @@ Scheduling the requirement group creates a booking for the facility resource and
 > [!div class="mx-imgBorder"]
 > ![Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the doctor resource](../field-service/media/scheduling-facility-schedule-board-2-resources.png)
 
-As in scenario 1, travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, as it's assumed he/she will be at the facility at the required time.
+> [!Note]
+> As in scenario 1, travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, as it's assumed he/she will be at the facility at the required time.
 
 ## Scenario 4: Schedule a facility with 5 specific rooms
 
@@ -409,7 +410,7 @@ Let's take a look at the following work location types:
 
 - **Facility with capacity**: this option is configured by adding a capacity to a single facility. It's most useful when schedulers care most about not overbooking, and either don't need to schedule specific facilities or can handle coordination in person when customers arrive at the facility.
 
-- **Multiple facilities**: this option is configured by creating multiple facility resources and relating them to each other either through an organizational unit or through a parent facility resource. This option makes the most sense when each facility needs to be scheduled individually.  
+- **Multiple facilities**: this option is configured by creating multiple facility resources and relating them to each other through an organizational unit. This option makes the most sense when each facility needs to be scheduled individually.  
 
 - **Facility pool**: this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to utilize capacity scheduling and/or local scheduling. A facility pool makes capacity scheduling easier because facility pool capacity can be derived by the number of pool members as they are added or removed. Local scheduling allows schedulers to first book to the facility pool parent resource up to capacity, and then at a later date schedule to specific resources in the pool. 
 
