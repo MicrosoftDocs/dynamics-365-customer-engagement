@@ -72,7 +72,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
 > ![Screenshot of requirement group with one requirement for a facility](../field-service/media/scheduling-facility-create-requirement.png)
 
 
-  1. Highlight the requirement and select **Open Form** then set the **Resource Type** field to **Facility**, which accomplishes the following:
+  4. Highlight the requirement and select **Open Form** then set the **Resource Type** field to **Facility**, which accomplishes the following:
      1. Filters schedule assistant results by only showing resources with the chosen types (User, Account, Contact, Equipment, Pool, Crew, or in this case, **Facility**).
      2. This means the requirement requires a facility resource to be fulfilled and ensures the schedule assistant search results return facility type resources (as opposed to personnel or equipment).
      3. Maps to the resource type field on the resource entity.
@@ -85,8 +85,9 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
   5. Set **Work Location** to **Facility**, which means:
      1. The interaction will take place at the scheduled facility and factors into travel time and distance calculations.
      2. Find more details in the configuration considerations section of this article.
-  6. **Latitude and longitude**, which can be populated through workflows.
-      1. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
+  6. Enter **latitude and longitude** 
+     1. These values are typically entered manually or through workflows.
+     2. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work location and latitiude and longitude on requirement](../field-service/media/scheduling-facility-requirement-lat-long.png)
@@ -412,7 +413,7 @@ Let's take a look at the following work location types:
 
 - **Multiple facilities**: this option is configured by creating multiple facility resources and relating them to each other through an organizational unit. This option makes the most sense when each facility needs to be scheduled individually.  
 
-- **Facility pool**: this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to utilize capacity scheduling and/or local scheduling. A facility pool makes capacity scheduling easier because facility pool capacity can be derived by the number of pool members as they are added or removed. Local scheduling allows schedulers to first book to the facility pool parent resource up to capacity, and then at a later date schedule to specific resources in the pool. 
+- **Facility pool**: this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to (1) utilize capacity scheduling by having the facility pool capacity increase and decrease as facilities are added or removed and (2) use local scheduling where bookings are first assigned to the facility pool and then later assigned to pool members. Example: a hotel (facility pool) is first scheduled for a weekend and travelers are assigned specific rooms (facility pool members) at a later date when they arrive. 
 
 ## Additional notes
 
