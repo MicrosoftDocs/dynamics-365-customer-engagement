@@ -2,7 +2,7 @@
 title: "Customization solutions file schema | MicrosoftDocs"
 description: "The following is the schema definition for an import/export customization file from Dynamics 365 for Customer Engagement."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 12/24/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,7 +16,7 @@ ms.assetid: 71e3e594-0240-4af1-99b4-135042b7a000
 caps.latest.revision: 19
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -1533,7 +1533,7 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 						<xs:element name="ReportVisibilities" minOccurs="0" maxOccurs="1">
 							<xs:complexType>
 								<xs:sequence>
-									<xs:element name="ReportVisbility" minOccurs="0" maxOccurs="unbounded">
+									<xs:element name="ReportVisibility" minOccurs="0" maxOccurs="unbounded">
 										<xs:simpleType>
 											<xs:restriction base="xs:integer">
 												<xs:enumeration value="1" />

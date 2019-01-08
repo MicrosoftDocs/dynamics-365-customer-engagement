@@ -294,7 +294,7 @@ Get-Help Import-CrmPackage -full
   
 <a name="BestPractices"></a>   
 ## Best practices for deploying packages  
- While deploying packages, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators must:  
+ While deploying packages, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators must:  
   
 -   Insist on a signed package assembly so that they can track an assembly back to its source.  
   

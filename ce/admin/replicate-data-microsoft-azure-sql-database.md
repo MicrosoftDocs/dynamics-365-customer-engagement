@@ -137,7 +137,7 @@ For information about the programmatic interface for managing configuration and 
   
 <a name="dataexportprofile"></a>   
 ## Export Profile  
- To export data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps administrator creates an Export Profile.  Multiple profiles can be created and activated to synchronize data to different destination databases simultaneously.  
+ To export data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] administrator creates an Export Profile.  Multiple profiles can be created and activated to synchronize data to different destination databases simultaneously.  
   
  The Export Profile is the core concept of  the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]. The Export Profile gathers set up and configuration information to synchronize data with the destination database. As part of the Export Profile, the administrator provides a list of entities to be exported to the destination database. Once activated, the Export Profile starts the automatic synchronization of data. Initially, all data that corresponds to each selected entity is exported. Thereafter, only the changes to data as they occur to the entity records or metadata in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps are synchronized continuously using a push mechanism in near real time. Therefore, you don’t need to set up a schedule to retrieve data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   

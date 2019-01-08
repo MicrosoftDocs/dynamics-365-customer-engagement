@@ -43,7 +43,7 @@ You can limit access to Customer Engagement apps to users with   trusted IP addr
   
 <a name="BKMK_CreateSecurityGroup"></a>   
 ## Create security group (optional)  
- You can restrict access to all Users or groups of users.  It's more efficient to restrict by a group if only a subset of your Azure Active Directory (AAD) users are accessing Customer Engagement apps.  
+ You can restrict access to all Users or groups of users.  It's more efficient to restrict by a group if only a subset of your Azure Active Directory (Azure AD) users are accessing Customer Engagement apps.  
   
 1. Sign in to your [Azure portal](https://portal.azure.com).  
   
