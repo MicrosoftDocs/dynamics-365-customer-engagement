@@ -42,9 +42,10 @@
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
-## [Facility scheduling](facility-scheduling.md)
+
 
 # Field Service Mobile
 ## [Setup](field-service-mobile-app-user-guide.md)
