@@ -15,16 +15,21 @@ applies_to:
 author: Mattp123
 ms.assetid: edaa7d4a-a95f-4d66-a9d9-2ad6051332f7
 caps.latest.revision: 41
+<<<<<<< HEAD
+ms.author: "matp"
+manager: "kvivek"
+=======
 ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
   - D365CE
+>>>>>>> 1988ef00f523903da7a76a8aaf83ce66c8a6355f
 ---
 # Set managed properties overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_ManagedProperties"></a>   
 
