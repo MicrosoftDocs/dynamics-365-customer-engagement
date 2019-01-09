@@ -156,7 +156,7 @@ When a text element is selected, you are able to enter and style text within tha
 
 ## Keyboard shortcuts for customer journeys and lead scoring models
 
-Most of the standard screen navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
+Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
@@ -223,7 +223,7 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 
 ## Keyboard shortcuts for the marketing calendar
 
-Most of the standard screen navigation and selection keyboard commands function as usual when you are working with the marketing calendar. In addition, the following calendar-specific shortcuts are provided:
+Most of the standard navigation and selection keyboard commands function as usual when you are working with the marketing calendar. In addition, the following calendar-specific shortcuts are provided:
 
 - **Ctrl + F6**: Remove focus from the calendar (for when you want to leave the calendar).
 - **Ctrl + Shift + G**: Open the date picker (for when you want to change the date/time settings for any calendar item).
