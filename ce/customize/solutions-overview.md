@@ -16,18 +16,23 @@ applies_to:
 author: Mattp123
 ms.assetid: ece68f5f-ad40-4bfa-975a-3e5bafb854aa
 caps.latest.revision: 55
+<<<<<<< HEAD
+ms.author: "matp"
+manager: "kvivek"
+=======
 ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
   - D365CE
+>>>>>>> 1988ef00f523903da7a76a8aaf83ce66c8a6355f
 ---
 
 <a name="BKMK_Solutions"></a>   
 # Solutions overview  
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
  Solutions exist so that a model-driven app can be purchased, shared, or otherwise transported from one organization to another. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
   
