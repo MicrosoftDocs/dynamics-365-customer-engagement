@@ -123,12 +123,13 @@ Here's how to configure each of the options that's described as optional in the 
     - **Enable CAPTCHA**: Set to **Yes** to include a CAPTCHA field on the registration page. Set to **No** to hide it. This setting works for both portal hosted and externally hosted event websites.
 1. Save your settings.
 
-
 <a name="generate-leads"></a>
 
 ## Generate and match contacts and leads from event registrations
 
-When a new event registration is submitted to your site, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] looks to see if a matching contact already exists. A match is identified when the incoming email, first name, and last name all match an existing contact. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact is created and linked to the new registration.
+When a new event registration is submitted to your site, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] looks to see if a matching contact record already exists. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact record is created and linked to the new registration record. 
+
+Your admin can choose to match incoming registrations by email alone; first name and last name; or email, first name, and last name. For details about how to choose your matching strategy, see [Event administration](events-settings.md#event-admin).
 
 If you choose to enable lead generation for events, then a new lead will also be generated for each registration and linked to the appropriate contact. The system won't attempt to match to an existing lead. To control whether or not to generate new leads for any event, open the event record and set the **Create leads for event registrations** option to **Yes** or **No**.
 

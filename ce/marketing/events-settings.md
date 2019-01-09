@@ -84,6 +84,8 @@ To configure a webinar account:
     - **Client ID**, **Access token key**, and **Access token secret**: These values identify your account and provide authentication (sign-in) credentials for accessing it and communicating with your webinar provider. You should have received these values when you signed up for the account. Please contact your webinar provider if you need help finding these values.
 1. Save your work.
 
+<a name="event-admin"></a>
+
 ## Event administration
 
 Use the **Event administration** settings to set up a few standard options for your events, including email options, email templates, and default payment gateway. These settings are optional.
@@ -102,8 +104,20 @@ To set your event-administration options:
     - **Email template for purchaser**: Choose the (hard-coded) email template to send to the purchaser when **Send mail to purchaser** is enabled.
     - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
     - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
+    - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name.
+    - **Enable purchase verification**: If you are using online payment for events, then you must integrate your event website with a third-party payment provider to verify credit cards and process the payments. Set this to **Yes** to enable public/private key authentication, which verifies that each payment authorization was actually send from your payment provider. Set to **No** to disable this feature (only recommended during development and testing, not for production instances). To use this feature, you must also provide a value for the **RSA XML parameters** field.
+    - **RSA XML parameters**: If **Enable purchase verification** is set to **Yes** then you must use this field to specify your payment provider's public key, which the system will use to verify their identify. This feature requires some custom development of the event website, so talk to your developer to find out exactly what to place here (see also [Build and host a custom event website](developer/event-management-web-application.md)). The format will usually resemble the following:
+
+        ```xml
+        <RSAKeyValue>
+                <Modulus>{Base64_Modulus}</Modulus>
+                <Exponent>{Base64_Exponent}</Exponent>
+        </RSAKeyValue>
+        ```
+        Where the *{Base64_Modulus}* and *{Base64_Exponent}* are the Base-64 representations of the modulus and exponent of your payment provider's public key.
+
     > [!NOTE]
-    > The email templates that you can choose with these settings are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
+    > The email templates provided for sending confirmations to the event purchaser and/or attendee are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
 
 ## Privacy notice
 
