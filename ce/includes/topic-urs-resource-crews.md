@@ -29,7 +29,7 @@ Set the resource type to crew.
 Assign a **Name**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Bookable Resource with Resource Type set to Crew](./media/scheduling-crew-header.png)
+> ![Screenshot of Bookable Resource with Resource Type set to Crew](../common-scheduler/media/scheduling-crew-header.png)
 
 Set **start/end location**
 
@@ -39,7 +39,7 @@ Start and end location must be the same and can be either:
 - **Organizational Unit Address** - meaning the crew will show as available for onsite work; however routing and travel times are calculated at the individual level based on each crew member's start/end location. The organizational unit must be geo coded.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Crew Bookable Resource with Start and End Location set to Organizational Unit](./media/scheduling-crew-organizational-unit.png)
+> ![Screenshot of Crew Bookable Resource with Start and End Location set to Organizational Unit](../common-scheduler/media/scheduling-crew-organizational-unit.png)
  
 ### 2. add resource children to the crew
 
@@ -51,7 +51,7 @@ Then from the crew header, navigate to **Related > Resource Children** to link e
 This is setup on the **bookableresourcegroup** entity.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot associating resources to a crew](./media/scheduling-crew-resource-children.png)
+> ![Screenshot associating resources to a crew](../common-scheduler/media/scheduling-crew-resource-children.png)
 
 Add **date range** when each resource will be part of the crew. It can be variable for each resource.
 
@@ -64,23 +64,23 @@ Add crews to the schedule board by manipulating schedule board filters to match 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of manually adding crew to schedule board](./media/scheduling-crews-schedule-board-select-resources.png)
+> ![Screenshot of manually adding crew to schedule board](../common-scheduler/media/scheduling-crews-schedule-board-select-resources.png)
 
 As an example, if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory, meaning there is no rollup. This is true for other attributes such as characteristics, there is no rollup when it comes to **displaying** (and only displaying) crews on the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a crew resource on the Schedule Board with a different icon and a count of how many resources are a part of the crew](./media/scheduling-crew-add-schedule-board.png)
+> ![Screenshot of a crew resource on the Schedule Board with a different icon and a count of how many resources are a part of the crew](../common-scheduler/media/scheduling-crew-add-schedule-board.png)
 
 Crew Resources have a different resource cell layout on the Schedule Board. You will notice a different icon and a resource count of how many resources are in the crew during the range being displayed on the Schedule Board.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a crew resource on the Schedule Board List View with different icon and a count of how many resources are a part of the crew](./media/scheduling-crew-add-schedule-board2.png)
+> ![Screenshot of a crew resource on the Schedule Board List View with different icon and a count of how many resources are a part of the crew](../common-scheduler/media/scheduling-crew-add-schedule-board2.png)
 
 On the hourly list view, you can simply expand the crew resource to see the members of the crew.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of hourly Schedule Board List View expanded to show the members of the crew in the date range displayed on the Schedule Board](./media/scheduling-crew-add-schedule-board-expand.png)
+> ![Screenshot of hourly Schedule Board List View expanded to show the members of the crew in the date range displayed on the Schedule Board](../common-scheduler/media/scheduling-crew-add-schedule-board-expand.png)
 
 For the time range a resource is part of a crew, there is a grey area that is displayed on the board. 
 
@@ -90,7 +90,7 @@ The purpose is to:
  3. Understand that scheduling a job to the resource without the crew will likely affect the crew’s ability to be matched for future jobs. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing two crew members, Abraham and Allison with masks over their Schedule Board row with text that says "Part of Crew 1](./media/scheduling-crew-schedule-board-block.png)
+> ![Screenshot showing two crew members, Abraham and Allison with masks over their Schedule Board row with text that says "Part of Crew 1](../common-scheduler/media/scheduling-crew-schedule-board-block.png)
 
 ### 4. Schedule crew manually
 
@@ -101,7 +101,7 @@ Only single requirements (not requirement groups) can be manually scheduled to c
 Dragging a requirement to the crew header resource will create a booking for the crew header resource along with all child resources that are associated to the crew during that time.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing bookings created for the crew resource along with all of the crew members](./media/scheduling-crew-manual-splitview.png)
+> ![Screenshot showing bookings created for the crew resource along with all of the crew members](../common-scheduler/media/scheduling-crew-manual-splitview.png)
 
 ### 5. Schedule crew with schedule assistant (single requirement)
 
@@ -112,7 +112,7 @@ If you select the crew resource itself and book the crew, the crew and its membe
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing Schedule Assistant results where the crew is an option as are other dynamically assembled teams](./media/scheduling-crew-schedule-assistant.png)
+> ![Screenshot showing Schedule Assistant results where the crew is an option as are other dynamically assembled teams](../common-scheduler/media/scheduling-crew-schedule-assistant.png)
 
 
 ### 6. Schedule crew with schedule assistant (requirement group)
@@ -131,7 +131,7 @@ The ideal scenario would be matching three requirements to a crew of three resou
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule Assistant matching with a Crew. The Crew is expanded and shows three crew members, each of which are matched to a requirement from the requirement group](./media/scheduling-crew-schedule-assistant2.png)
+> ![Screenshot of Schedule Assistant matching with a Crew. The Crew is expanded and shows three crew members, each of which are matched to a requirement from the requirement group](../common-scheduler/media/scheduling-crew-schedule-assistant2.png)
 
 As you can see above, the entire crew is presented as an option to book, along with options of teams that are not crews.
 
@@ -150,7 +150,7 @@ A crew with more resources than is needed by the requirement group will show as 
  Below are the results showing a crew with more resources than required.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing Schedule Assistant results where there is a crew with extra resources. There is a column called excess resources which shows you that choosing this team will book more resources than you need. When you expand the team/crew, it separates the resources that are not matched for any requirement into a separate section called “Non-Matching Resources” making it easy to separate the required resources and those who will be considered extra for that job](./media/scheduling-crew-schedule-assistant-extra-resource.png)
+> ![Screenshot showing Schedule Assistant results where there is a crew with extra resources. There is a column called excess resources which shows you that choosing this team will book more resources than you need. When you expand the team/crew, it separates the resources that are not matched for any requirement into a separate section called “Non-Matching Resources” making it easy to separate the required resources and those who will be considered extra for that job](../common-scheduler/media/scheduling-crew-schedule-assistant-extra-resource.png)
 
 Additionally, there is a column called excess resources which shows that choosing this team will book more resources than you need.
 
@@ -161,7 +161,7 @@ As a default, the Schedule Assistant results are sorted by **fewest resources fi
  This can be edited in the schedule assistant filter panel and replaced with **Earliest Time First** creating more likelihood of seeing a crew with excess resources. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing schedule assistant sorting by fewest resources first, thus the crew is not showing as an option to select](./media/scheduling-crew-filter.png)
+> ![Screenshot showing schedule assistant sorting by fewest resources first, thus the crew is not showing as an option to select](../common-scheduler/media/scheduling-crew-filter.png)
 
 > [!Note]
 > When you book a team of resources where there are excess resources, all of the bookings will link to the requirement group, but the bookings for non-matching resources will not have a link to a requirement.
@@ -173,11 +173,11 @@ Sometimes when searching for availability, the crew may need to be combined with
 The schedule assistant will combine crews and individual resources to fulfill a requirement group and even note which resources are part of the crew. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing crew 1 combined with other resources to fulfill a requirement group with four requirements](./media/scheduling-crew-schedule-assistant-with-resource.png)
+> ![Screenshot showing crew 1 combined with other resources to fulfill a requirement group with four requirements](../common-scheduler/media/scheduling-crew-schedule-assistant-with-resource.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the crew combined with another resource expanded. Each resource is assigned a requirement and identifies if the resource is part of the crew or not](./media/scheduling-crew-schedule-assistant-with-resource-expanded.png)
+> ![Screenshot showing the crew combined with another resource expanded. Each resource is assigned a requirement and identifies if the resource is part of the crew or not](../common-scheduler/media/scheduling-crew-schedule-assistant-with-resource-expanded.png)
 
 
 ### 7. View crews and related bookings on the schedule board
@@ -187,12 +187,12 @@ Once a crew has been scheduled, there are scenarios where you may want to drill 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot right clicking a crew resource and choosing to view the resource in split view](./media/scheduling-crew-splitview.png)
+> ![Screenshot right clicking a crew resource and choosing to view the resource in split view](../common-scheduler/media/scheduling-crew-splitview.png)
 
 This will split the Schedule Board into two boards. The top board is the same board you were on before, but the bottom Schedule Board shows just the crew and crew members.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing Schedule Board in split view with the crew resource and its members in bottom of board](./media/scheduling-crew-splitview2.png)
+> ![Screenshot showing Schedule Board in split view with the crew resource and its members in bottom of board](../common-scheduler/media/scheduling-crew-splitview2.png)
 
 
 **Filtering and Sorting with Split View:**
@@ -211,7 +211,7 @@ The Resource Type filter on the requirement controls which resources can be sear
 If both Crew and User are selected, then only Resources that are of Resource Type “User”, OR are a member of a Crew can be searched.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Requirement with the value "Crew" set in the Requirement Resource Type field](./media/scheduling-crew-requirement-type.png)
+> ![Screenshot of Requirement with the value "Crew" set in the Requirement Resource Type field](../common-scheduler/media/scheduling-crew-requirement-type.png)
 
 ### Auto Group Type
 
@@ -220,18 +220,18 @@ If both Crew and User are selected, then only Resources that are of Resource Typ
 When a single requirement is booked to a crew (regardless if manually or via the Schedule Assistant), a requirement group is auto created and all bookings are related to the requirement group. This ensures that crew bookings are in sync when moved/rescheduled/canceled.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing both bookings related to a requirement group](./media/scheduling-crew-auto-requirement-group.png)
+> ![Screenshot showing both bookings related to a requirement group](../common-scheduler/media/scheduling-crew-auto-requirement-group.png)
 
 However, only the crew header resource is linked to the single requirement in the newly created requirement group
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the booking for the crew resource linked to the requirement, with the booking for a crew member without a link to the requirement](./media/scheduling-crew-requirement-booking-relationship.png)
+> ![Screenshot showing the booking for the crew resource linked to the requirement, with the booking for a crew member without a link to the requirement](../common-scheduler/media/scheduling-crew-requirement-booking-relationship.png)
 
 
 Additionally, the newly created requirement group is tagged with an **auto group type of “crew”**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing field "Auto Group Type" exposed on the requirement group and set to "crew" on the form. The field is hidden by default](./media/scheduling-crew-auto-grou-type.png)
+> ![Screenshot showing field "Auto Group Type" exposed on the requirement group and set to "crew" on the form. The field is hidden by default](../common-scheduler/media/scheduling-crew-auto-grou-type.png)
 
 
 ## Additional Notes
@@ -241,8 +241,11 @@ Additionally, the newly created requirement group is tagged with an **auto group
 If you select a resource that is part of a crew, a warning message will be presented warning the scheduler that this resource is part of a crew, so it may impact the crews ability to handle future jobs.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a confirmation message when trying to book a member of a crew without the crew while using the Schedule Assistant for a requirement](./media/scheduling-crew-warning.png)
+> ![Screenshot of a confirmation message when trying to book a member of a crew without the crew while using the Schedule Assistant for a requirement](../common-scheduler/media/scheduling-crew-warning.png)
 
 **Multiday Schedule Boards not supported for crews** 
 
 Daily, Weekly, and Monthly Schedule Boards do not have any specific support for crew scenarios.
+
+
+
