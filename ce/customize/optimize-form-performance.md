@@ -1,8 +1,8 @@
 ---
-title: "Optimize form performance in PowerApps | MicrosoftDocs"
+title: "Optimize form performance | MicrosoftDocs"
 description: "Learn how to avoid form designs that cause a form to load slowly"
 ms.custom: 
-ms.date: 04/16/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -33,7 +33,7 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  Think about the interaction the user will have with the form and the amount of data that must be displayed within it.  
   
  **Keep the number of fields to a minimum**  
- The more fields you have in a form, the more data that needs to be transferred over the Internet or intranet to view each record.  
+ The more fields you have in a form, the more data that needs to be transferred over the internet or intranet to view each record.  
   
 <a name="BKMK_FormScripts"></a>   
 ## Form scripts  

@@ -2,7 +2,7 @@
 # [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 # [Fulfillment preferences](fulfillment-preferences.md)
 # [Resource crews](crews.md)
-
+# [Facility scheduling](facility-scheduling.md)
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider

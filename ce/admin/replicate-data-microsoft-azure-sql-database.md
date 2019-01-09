@@ -1,7 +1,7 @@
 ---
-title: "Replicate Dynamics 365 for Customer Engagement apps (online) data to Azure SQL Database | MicrosoftDocs"
+title: "Replicate Dynamics 365 for Customer Engagement apps data to Azure SQL Database | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/21/2018
+ms.date: 12/14/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -137,7 +137,7 @@ For information about the programmatic interface for managing configuration and 
   
 <a name="dataexportprofile"></a>   
 ## Export Profile  
- To export data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps administrator creates an Export Profile.  Multiple profiles can be created and activated to synchronize data to different destination databases simultaneously.  
+ To export data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] administrator creates an Export Profile.  Multiple profiles can be created and activated to synchronize data to different destination databases simultaneously.  
   
  The Export Profile is the core concept of  the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]. The Export Profile gathers set up and configuration information to synchronize data with the destination database. As part of the Export Profile, the administrator provides a list of entities to be exported to the destination database. Once activated, the Export Profile starts the automatic synchronization of data. Initially, all data that corresponds to each selected entity is exported. Thereafter, only the changes to data as they occur to the entity records or metadata in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps are synchronized continuously using a push mechanism in near real time. Therefore, you don’t need to set up a schedule to retrieve data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
@@ -329,6 +329,32 @@ For information about the programmatic interface for managing configuration and 
   
 9. Azure Storage Explorer connects to the destination database. If failed records exist for the Export Profile, Azure Storage Explorer displays failed record  synchronization folders.  
   
+#### How to view detailed information about the records that failed to sync (Preview)
+
+You can now download the failed records directly from within the Data Export Service user interface. This feature is currently in Preview and would be great for you to test and provide feedback.
+
+**Steps to download failed records:**
+
+1. Identify the profile with failed records.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Data export profiles](media/des-profiles.png "Data export profiles")
+
+2. Select the profile and select **Download Failed records (Preview)** from the top menu bar.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download failed records (preview)](media/download-failed-records-preview.png "Download failed records (preview)")
+
+3. In the **Download Failed records** dialog box, you will see a sorted list of last 20 (max) blob files. Select the one you want to download, and then select **Ok**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download failed records](media/download-failed-records.png "Download failed records")
+
+4. Once downloaded, open the file in a text editor of your choice (for example, Notepad) and view the details for failures.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Sample error log](media/sample-error-log.png "Sample error log")
+
 #### Failed record synchronization folder structure and log files  
  The Failed Records Azure Blob storage URL points to a location that has the following folder structure:  
   
@@ -610,6 +636,13 @@ AND DL.VersionNumber &gt; A.VersionNumber)
 |------------|----------------|-----------------|  
 |Activity|ActivityPointerBase|Select the specific activity entities for export, such as Phone Call, Appointment, Email, and Task.|  
  
+### Unable to create a row greater than the allowable maximum row size (8K)
+
+If your error logs show "Cannot create a row of size <size> which is greater than the allowable maximum row size of 8060", you are running into an issue where you are exceeding the maximum allowable row size limit. The Data Export Service does not support row size greater than maximum allowable row size of 8k. To mitigate this, you need to ensure that you honor the row size limits.
+
+### Length of string in source is longer than destination schema for ColumnName
+
+If your error logs show "String length in source longer than destination schema for [ColumnName, MaxDataLength]" you are running into an issue where the string length of your source data is longer than destination. If the string length of your source data is longer than destination, writes to destination will fail.To mitigate this issue, you would either need to reduce size of data or increase the length of column, greater than MaxLength manually in the DB.
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_data_export](../includes/cc-privacy-data-export.md)]

@@ -51,4 +51,4 @@ Go to **Marketing** to access your [!INCLUDE[pn-microsoftcrm](../includes/pn-dyn
 ### See also
 
 [Get feedback by using Voice of the Customer surveys](../voice-of-customer/create-voice-of-customer-survey.md) 
-[Find your way around Dynamics 365 for Marketing](navigation.md)
+[Find your way around](navigation.md)

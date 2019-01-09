@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-keywords: 
-ms.date: 05/7/2018
+keywords: ""
+ms.date: 12/17/2018
 ms.service: 
   - usd
 ms.topic: article
@@ -24,27 +24,94 @@ search.app:
   - D365USD
 ---
 
+# Unified Service Desk known issues and limitations
+
 ::: moniker range="dynamics-usd-4"
 
-# Unified Service Desk 4.0 known issues and limitations
+## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
-## Known issues
+### Preview: Edge process
 
-This section describes the known issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
+#### Support for CloseAndPrompt action in Edge process
 
-## Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
+The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+
+#### Support for alert dialog with WebView control
+
+The Edge process doesn't support the native JavaScript alert dialog in the WebView control. When you use the Microsoft Edge WebView control, the alert dialog (WPF message) shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+
+#### Support for confirm dialog
+
+The Edge process doesn't support the confirm dialog in the WebView control. If your custom code uses the confirm dialog, the Edge process in the WebView control does not support the execution, and your code may fail.
+
+#### Support for multiple page navigation in Edge process
+
+The Edge process WebView control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
+
+#### Use window.top.notifyUSD to open event in a new browser
+
+The Edge process WebView control supports using `window.top.notifyUSD` to open the event in a new browser instead of `window.open`.
+
+#### Using a long-running script with Edge process freezes Unified Service Desk
+
+When you execute a long-running script with edge process, the Unified Service Desk client application freezes, and you must restart the client application. We recommend that you review the script that caused the freeze, and then restart the Unified Service Desk client application.
+
+#### Support for downloading files with Edge process
+
+When you host your web pages in a Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
+
+A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
+
+#### Support for launching application for a URI with Edge WebView control
+
+When you host your web application in Unified Service Desk client application using Edge process, launching application for a URI is not supported with Edge process.
+
+Some of the URI schemes and applications are as follows:
+
+| URI Scheme | Launches |
+| ----------:|----------|
+|bingmaps | Maps app |
+|mailto: | Default email app |
+|ms-call:|  Call app |
+|ms-chat: | Messaging app |
+
+A workaround is to open the Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
+
+#### KB article support with Edge process
+
+In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+
+A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
+
+After chaning the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+
+![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
+
+Remove the following values from the data field:
+
+`postdata=[[postdata]]`
+
+`header=[[header]+]` 
+
+To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+
+Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+## Unified Service Desk 4.0 known issues and limitations
+
+### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
 If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 for Customer Engagement apps Web Client to Dynamics 365 for Customer Engagement apps Unified Interface, the KM Control is changed to Unified Interface KM Control.
 
-With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can server error.
+With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can see server error.
 
 ![Opening article displays server error](media/kb-search-server-error.PNG "Opening article displays server error")
 
-### Workaround
+#### Workaround
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
-In the Dynamics 365 for Customer Engagement apps Web Client configurations, got to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+In the Dynamics 365 Web Client configurations, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 
@@ -61,7 +128,7 @@ Now, save the configuration. Login to Unified Service Desk and open any article 
 ![Remove the header and postdata parameter to see the article contents](media/kb-search-fix.PNG "Remove the header and postdata parameter to see the article contents")
 
 
-## Toolbar shows Unified Blue theme instead Air theme
+### Toolbar shows Unified Blue theme instead Air theme
 
 In the **Unified Interface Settings** record, select **Air** theme instead **Unified Blue** theme, and select an Unified Interface App. 
 
@@ -71,11 +138,11 @@ Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-s
 
 ![The main and about toolbar shows Unified Interface theme colors instead Air theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar shows Unified Interface theme colors instead Air theme colors")
 
-### Workaround
+#### Workaround
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.<br>
 
@@ -98,7 +165,7 @@ Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.
 
 ![The main and about toolbar shows Air theme colors](media/about-toolbar-main-toolbar-known-issue-fixed-toolbar.png "The main and about toolbar shows Air theme colors")
 
-## Unified Interface form does not close the tab and navigates to Dashboard
+### Unified Interface form does not close the tab and navigates to Dashboard
 
 Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 for Customer Engagement apps Unified Interface. 
 
@@ -112,7 +179,7 @@ However, the tab does not close, and the Unified Interface page (form) navigates
 
 ![Unified Interface page navigates to Dashboard page](media/usd-crm-page-navigates-dashboard.png "Unified Interface page navigates to Dashboard page")
 
-### Workaround
+#### Workaround
 
 To close the tab, you need to select **User Can Close** in the hosted control so that you see **X** button the tab in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. 
 
@@ -122,29 +189,25 @@ Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-
 
 ![Select close button to close the tab](media/usd-crm-close-button-saveclose.png "Select close button to close the tab")
 
-## Sub Actions Calls is not available in Unified Service Desk Administrator app
+### Sub Actions Calls is not available in Unified Service Desk Administrator app
 
 You cannot view and attach an action call to another call (sub-action call) in Unified Service Desk Administrator app as the **Action Calls** in Unified Service Desk Administrator app does not display the **Sub Action Calls** option in the related tab. .
 
-### Workaround
+#### Workaround
 
 You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 for Customer Engagement apps Web Client. 
 
-## Limitations
-
-This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
-
-## Support for Relevance Search (search technique) in Unified Interface KM Control
+### Support for Relevance Search (search technique) in Unified Interface KM Control
 
 The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 for Customer Engagement apps and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
-## Quick create in Unified Service Administrator app
+### Quick create in Unified Service Administrator app
 
 Selecting the **New** button (quick create)  in the **Navigation** toolbar of the Unified Service Desk Administraor app does not display any option to create.
 
 ![Quick create option in the Navigation toolbar](media/usd-crm-quick-create-button.PNG "Quick create option in the Navigation toolbar")
 
-## Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
+### Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
 
 By default, when you a open Dynamics 365 for Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
 
@@ -160,13 +223,11 @@ To execute the configuration, disable the Internet Explorer pooling.
 
 ::: moniker range="dynamics-usd-3"
 
-# Unified Service Desk 3.3 known issues and limitations
+## Unified Service Desk 3.3 known issues and limitations
 
 This section describes the known issues and limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-## Known issues
-
-## Best Practices Analyzer
+### Best Practices Analyzer
 
 - **Warning for HelpImproveUSD parameter in Dynamics 365 for Customer Engagement (on-premises) apps**
 
@@ -176,7 +237,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
   If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
-## Provide Feedback
+### Provide Feedback
 
 - **Insufficient permissions to provide feedback**
 
@@ -192,11 +253,9 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
   To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
 
-## Limitations
-
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-## RunScript
+### RunScript
 
 > [!IMPORTANT]
 > This also applies to:
@@ -217,7 +276,7 @@ Accounts and Contacts tabs are open and focus is on Accounts tab. You execute `w
 
 If you open several tabs and want to execute a RunScript action on a tab that is not in focus, set the focus on the tab you want to work and then execute the RunScript action.
 
-## Performance enhancement for CRM entity page loads
+### Performance enhancement for CRM entity page loads
 
 > [!IMPORTANT]
 > This also applies to:
@@ -246,7 +305,7 @@ _Image 1: Right-click on the CRM entity page and select Forward from the context
 > [!Note]
 > The session that you are working is fine and there is no data loss.
 
-## Clicking back button in a session does not perform navigation to original URL
+### Clicking back button in a session does not perform navigation to original URL
 
 If you open any webpage in the browser with hosted controls using IE Process hosting method, the webpage opens in a new window within the same-hosted control overlaying the existing page/window. 
 
@@ -256,7 +315,7 @@ Since the webpage is opened in the new window within the same hosted control ove
 
 Configure **Show Outside** action call to show the webpage in an **IE process** outside of the hosted control space in the popup window.
 
-### Step 1: Configure ShowOutside action call
+#### Step 1: Configure ShowOutside action call
 
 In this step, you will create an action call to show the webpage.
 
@@ -276,7 +335,7 @@ In this step, you will create an action call to show the webpage.
    ![Show outside Action Call](media/show-outside-action-call.PNG "Show outside Action Call")
 6. Click **Save**.
 
-### Step 2: Configure Window Navigation Rules and add the Action Call
+#### Step 2: Configure Window Navigation Rules and add the Action Call
 
 In this step you will create a navigation rule and set the order before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
 

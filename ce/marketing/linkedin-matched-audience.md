@@ -1,6 +1,6 @@
 ---
-title: "Create a LinkedIn Matched Audience based on a Dynamics 365 for Customer Engagement segment (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to use an existing Dynamics 365 for Customer Engagement segment to find matching LinkedIn users and create a LinkedIn Matched Audience"
+title: "Create a LinkedIn Matched Audience based on a Dynamics 365 segment (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "How to use an existing Dynamics 365 segment to find matching LinkedIn users and create a LinkedIn Matched Audience"
 keywords: LinkedIn; Lead Gen Forms; lead; connector
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[LinkedIn Matched Audiences](https://www.linkedin.com/help/lms/answer/86492/linkedin-matched-audiences-overview?lang=en) is a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature that lets you match a collection of contacts stored on an external system, like [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], to an audience of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members with matching email addresses. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes ready to take advantage of this capability, so you can leverage your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] static segments to create a matching audience of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members. Then, when you run a campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you can target the same segments that you set up in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and also turn any leads generated on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] leads through the [LinkedIn Lead Gen Forms integration](linkedin-lead-gen-integration.md) feature also offered by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+[LinkedIn Matched Audiences](https://www.linkedin.com/help/lms/answer/86492/linkedin-matched-audiences-overview?lang=en) is a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature that lets you match a collection of contacts stored on an external system, like [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], to an audience of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members with matching email addresses. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes ready to take advantage of this capability, so you can leverage your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] static segments to create a matching audience of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members. Then, when you run a campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you can target the same segments that you set up in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and also turn any leads generated on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] leads through the [LinkedIn Lead Gen Forms integration](linkedin-lead-gen-integration.md) feature also offered by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 [!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
@@ -52,7 +52,7 @@ To create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience
 
 1. Open the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience** tab.  
 
-    ![The LinkedIn Matched Audience tab](media/linkedin-segment.png "The LinkedIn Matched Audience tab")
+    ![The LinkedIn Matched Audience tab in Dynamics 365](media/linkedin-segment.png "The LinkedIn Matched Audience tab in Dynamics 365")
 
 1. Select **Next** to initiate the matched-audience wizard, which will walk you through all the steps needed to sign in to your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account and authorize the integration.
 

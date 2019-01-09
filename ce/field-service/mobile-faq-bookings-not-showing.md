@@ -47,13 +47,13 @@ First, try manually syncing data from the server by selecting the sync button in
 
 ![Screenshot of the mobile application sync button](media/Mobile-FAQs-image14.png)  
 
-If you have trouble syncing, try going to **Setup > Delete Data > **Save** in the mobile app, and sync again. This will erase any data that is stored locally on the device. 
+If you have trouble syncing, try going to **Setup** > **Delete Data** > **Save** in the mobile app, and sync again. This will erase any data that is stored locally on the device. 
 
 ![Screenshot of the Delete Data option on the setup screen](media/Mobile-FAQs-image15.png)  
 
 Additionally, there are some scenarios where forcing a full sync to the device from Field Service can push changes that will allow the user to see bookings; one such scenario is a change in security roles.
 
-To force a full sync to the device, open Field Service in a non-private Internet Explorer browser, log in as an administrator, and navigate to **Settings > Woodford > MobileCRM Woodford.**
+To force a full sync to the device, open Field Service in a non-private Internet Explorer browser, log in as an administrator, and navigate to **Settings** > **Woodford** > **MobileCRM Woodford.**
 
 ![Screenshot of the Field Service settings menu](media/Mobile-FAQs-image3.png)
 
@@ -91,11 +91,11 @@ Then navigate to **Bookings** to view your bookings. Note that this may take a f
 
 A second way to fix this is to edit the sync filters for offline mode.
 
-To edit sync filters for Bookings, log into Field Service as an administrator in a non-private Internet Explorer browser, and navigate to **Settings > Woodford > MobileCRM Woodford.**
+To edit sync filters for Bookings, log into Field Service as an administrator in a non-private Internet Explorer browser, and navigate to **Settings** > **Woodford** > **MobileCRM Woodford.**
 
 ![Screenshot of Field Service settings menu](media/Mobile-FAQs-image3.png)
 
-Select the mobile project and navigate to **Bookable Resource Bookings > Sync Filters** in the header menu.
+Select the mobile project and navigate to **Bookable Resource Bookings** > **Sync Filters** in the header menu.
 
 ![Screenshot of the Sync filter option in the Woodford interface](media/Mobile-FAQs-image19.png)  
 
@@ -111,7 +111,7 @@ Drip scheduling makes it so the app will only display upcoming bookings, as curr
 
 One reason you may not see bookings when you log into the mobile app is because drip scheduling may be preventing the booking.
 
-To fix this, navigate to **Field Service > Administration > Resources**.
+To fix this, navigate to **Field Service** > **Administration** > **Resources**.
 
 ![Screenshot of the Field Service administration menu](media/Mobile-FAQs-image21.png)  
 

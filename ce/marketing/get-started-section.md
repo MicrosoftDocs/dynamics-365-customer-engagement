@@ -31,7 +31,7 @@ search.app:
 
 Learn how to get around in the system, and how to work with basic records, how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.
 
-- [Dynamics 365 for Marketing overview](overview.md)
+- [Dynamics 365 for Marketing Overview](overview.md)
 - [Find your way around](navigation.md)
 - [Organize your work](organize-daily-work.md)
 - [Manage customer information](manage-customer-information.md)
