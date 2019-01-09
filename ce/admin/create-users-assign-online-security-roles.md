@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 12/13/2018
+ms.date: 01/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -140,6 +140,8 @@ The following are Office 365 user contact fields.
   
 > [!NOTE]
 >  Removing all security roles from the user prevents the user from signing into and accessing Customer Engagement apps. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in Customer Engagement apps. Removing security roles from a user isn’t a recommended method of removing access to Customer Engagement apps.  
+>
+> When using a security group to manage enabling or disabling users or provisioning access to a Dynamics 365 org, nested security groups within a selected security group are not supported and ignored.
   
  You must be a member of an appropriate administrator role to do these tasks. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)  
   
