@@ -1,8 +1,8 @@
 ---
-title: "Resource Crews | MicrosoftDocs"
+title: "Resource crew scheduling for Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/07/2018
+ms.date: 1/09/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -25,7 +25,7 @@ search.app:
   - D365FS
 ---
 
-# Resource Crews
+# Resource crew scheduling
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
