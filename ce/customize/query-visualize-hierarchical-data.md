@@ -1,8 +1,8 @@
 ---
-title: "Query and visualize hierarchical data with PowerApps | MicrosoftDocs"
+title: "Query and visualize hierarchical data | MicrosoftDocs"
 description: "Learn how to query and visualize heirarchical related data"
 ms.custom: 
-ms.date: 04/17/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -38,10 +38,9 @@ For some entities, such as account and user, the visualizations are provided out
   
 <a name="BKMK_Querydata"></a>   
 ## Query hierarchical data  
- With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
+ Hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
   
  The following examples illustrate various scenarios for querying hierarchies:  
-  
  Query account hierarchy  
   
  ![Query accounts in the account hierarchy](../customize/media/query-accounts.png "Query accounts in the account hierarchy")  
@@ -115,5 +114,4 @@ For some entities, such as account and user, the visualizations are provided out
  ![Widget's tree and tiles views](../customize/media/widget-tree-tiles.png "Widget's tree and tiles views")  
   
 ### See also  
- [Video: Hierarchical Security Modelling](http://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
- [Video: Hierarchy Visualization](http://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)
+[Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)
