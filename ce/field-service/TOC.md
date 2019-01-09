@@ -42,8 +42,10 @@
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
+
 
 # Field Service Mobile
 ## [Setup](field-service-mobile-app-user-guide.md)
@@ -102,6 +104,3 @@
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-
-
