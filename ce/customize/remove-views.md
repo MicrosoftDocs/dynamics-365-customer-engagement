@@ -1,8 +1,8 @@
 ---
-title: "Delete or deactivate a view in PowerApps | MicrosoftDocs"
+title: "Delete or deactivate a view | MicrosoftDocs"
 description: "Learn how to delete or deactivate a view"
 ms.custom: 
-ms.date: 04/17/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
