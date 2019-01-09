@@ -1,5 +1,5 @@
 ---
-title: "Resource Crews in Dynamics 365 for Field Service| MicrosoftDocs"
+title: "Resource crew scheduling in Dynamics 365 for Field Service| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 1/09/2019
@@ -25,7 +25,7 @@ search.app:
   - D365FS
 ---
 
-# Resource crews
+# Resource crew scheduling
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
