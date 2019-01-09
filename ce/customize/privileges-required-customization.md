@@ -1,7 +1,7 @@
 ---
 title: "Privileges required for customizing | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/21/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -13,8 +13,9 @@ applies_to:
   - PowerApps
 ms.assetid: 43cf7f3a-7e26-4990-8b5a-c817ac6d51bb
 caps.latest.revision: 13
+author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
