@@ -39,11 +39,11 @@ There are certain experiences that are currently not available with Dynamics 365
 
 - [Activity Logging](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-use-comprehensive-auditing)
 - [AppSource](https://appsource.microsoft.com/?product=dynamics-365-business-central%3Bdynamics-365-for-customer-services%3Bdynamics-365-for-field-services%3Bdynamics-365-for-finance-and-operations%3Bdynamics-365-for-project-service-automation%3Bdynamics-365-for-sales) (ability to install Applications directly from AppSource)
-- [Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)
 - [Organization Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095)
 - [CAFEx Integration](https://appsource.microsoft.com/product/dynamics-365/cafexliveassistfor365.27ac7522-68b2-44a2-9f36-da66a47e2b19)
 - [Channel Integration Framework](../../developer/channel-integration-framework/channel-integration-framework.md) 
 - [Connected Field Service](https://msdn.microsoft.com/library/mt744253.aspx)
+- [Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)
 - [Gamification](https://docs.microsoft.com/dynamics365/customer-engagement/gamification/manage-gamification-in-dynamics-365-online)
 - [Home.Dynamics.com](http://home.dynamics.com/)
 - [Insights, powered by InsideView](https://appsource.microsoft.com/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012)
