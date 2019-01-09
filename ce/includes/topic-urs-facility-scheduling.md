@@ -24,7 +24,7 @@ In this topic, we'll explore a few example scenarios using facility scheduling, 
 
 In general, to use facility scheduling, an administrator must create a facility resource (with or without additional related resources), configure a requirement that calls for facility resources, book the requirement, and view facility resources and booking(s) on the schedule board.
 
-Let's consider five scenarios to describe facility scheduling. 
+Let's consider five scenarios to describe facility scheduling: 
 
 1. Schedule a facility
 2. Schedule a facility with 5 generic rooms 
@@ -35,7 +35,7 @@ Let's consider five scenarios to describe facility scheduling.
 
 ## Scenario 1: Schedule a facility  
 
-In this scenario schedulers want to search for nearby doctor's offices and schedule an appointment for a patient to arrive at the doctor's office. 
+In this scenario, schedulers want to search for nearby doctors' offices and schedule an appointment for a patient to arrive at the doctor's office. 
 
 We will configure this scenario by creating a facility resource to represent the doctor's office, creating a requirement to represent the patient's request for an appointment at a nearby facility, and then booking the appointment and viewing the facility and booking on the schedule board. 
 
@@ -48,12 +48,12 @@ First, navigate to **Universal Resource Scheduling > Resources** and create a fa
 
 1. **Resource Type** = Facility
 2. **Start/end location** = Organizational Unit Address 
-   1. Since a facility represents a physical space at a physical construct, the fields start location and end location must be set to Organizational Unit Address. 
-   2. The parent Organizational Unit **must have a latitude and longitude** that represents the location of the facility. This allows the schedule assistant to consider the Facility’s location when displaying available results. 
+   1. Since a facility represents a physical space, the fields "start location" and "end location" must be set to Organizational Unit Address. 
+   2. The parent organizational unit **must have a latitude and longitude** that represents the location of the facility. This allows the schedule assistant to consider the Facility’s location when displaying available results. 
 3. **Display on Schedule Board** = Yes
 4. **Enable for Availability Search** = Yes
-5. (Optional) Enter Working Hours
-6. (Optional) Add related characteristics, territory, resource roles, etc. to distinguish facility resources from other facilities and resources.  For example, if a doctor's office had X-ray equipment, "X-Ray" could be added as a characteristic to the facility resource. This can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search. 
+5. (Optional) Enter working hours
+6. (Optional) Add related characteristics, territory, resource roles, etc. to distinguish facility resources from other facilities and resources.  For example, if a doctor's office has X-ray equipment, "X-Ray" can be added as a characteristic to the facility resource. This can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating a new facility type resource](../field-service/media/scheduling-facility-create.png)
@@ -71,21 +71,19 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with one requirement for a facility](../field-service/media/scheduling-facility-create-requirement.png)
 
-
-  4. Highlight the requirement and select **Open Form** then set the **Resource Type** field to **Facility**, which accomplishes the following:
-     1. Filters schedule assistant results by only showing resources with the chosen types (User, Account, Contact, Equipment, Pool, Crew, or in this case, **Facility**).
+  4. Highlight the requirement and select **Open Form**, then set the **Resource Type** field to **Facility**, which accomplishes the following:
+     1. It filters schedule assistant results by only showing resources with the chosen types (User, Account, Contact, Equipment, Pool, Crew, or in this case, **Facility**).
      2. This means the requirement requires a facility resource to be fulfilled and ensures the schedule assistant search results return facility type resources (as opposed to personnel or equipment).
-     3. Maps to the resource type field on the resource entity.
-     4. If this field is left empty, all resources are searched.
+     3. It maps to the resource type field on the resource entity.
+     4. Note that if this field is left empty, all resources are searched.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource type field on requirement](../field-service/media/scheduling-facility-resource-type.png)
 
 
   5. Set **Work Location** to **Facility**, which means:
-     1. The interaction will take place at the scheduled facility and factors into travel time and distance calculations.
-     2. Find more details in the configuration considerations section of this article.
-  6. Enter **latitude and longitude** 
+     1. The interaction will take place at the scheduled facility and factors into travel time and distance calculations. Find more details in the configuration considerations section of this article.
+  6. Enter **latitude and longitude**. 
      1. These values are typically entered manually or through workflows.
      2. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
 
@@ -95,7 +93,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
 
 ### 3. Book the requirement 
 
-After creating a facility resource and a requirement that calls for a facility, you can schedule the facility. Requirements that are part of a group (in the example above) can be scheduled via the book button to trigger the schedule assistant but not via drag and drop. Facility requirements not part of a group (single requirements) can be manually dragged and dropped to a facility on the schedule board or by using the schedule assistant.
+After creating a facility resource and a requirement that calls for a facility, you can schedule the facility. Requirements that are part of a group can be scheduled via the **Book** button to trigger the schedule assistant, but not through drag and drop. Facility requirements not part of a group (single requirements) can be manually dragged and dropped to a facility on the schedule board or by using the schedule assistant.
 
 The schedule assistant considers availability of resources as well as other set requirement constraints, such as characteristics, organizational units, categories, etc.
 
@@ -125,8 +123,6 @@ Facility resources will also be displayed on the schedule board map based on the
 > [!div class="mx-imgBorder"]
 > ![Screenshot of facility resource on schedule board map](../field-service/media/scheduling-facility-schedule-board-map.png)
 
-
-
 ## Scenario 2: Schedule a facility with 5 generic rooms
 
 In this scenario, a doctor's office has 5 identical rooms and schedulers don't need to book each room specifically. They must, however, ensure that no more than 5 patients are booked across all rooms during any one time slot.
@@ -147,7 +143,7 @@ When choosing hours, select **Show Capacity** and enter **5**. By default, the c
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding capacity to a facility resource in working hours](../field-service/media/scheduling-facility-capcity.png)
 
-Setting the capacity to 5 means that when booking a facility with the schedule assistant, the facility resource will show as available and can be double booked up to the capacity limit (in this case, 5 times).  
+Setting the capacity to 5 means that when booking a facility with the schedule assistant, the facility resource will show as available and can be double-booked up to the capacity limit (in this case, 5 times).  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of facility resource double booked for the same time slot due to increased capacity](../field-service/media/scheduling-facility-double-book.png)
