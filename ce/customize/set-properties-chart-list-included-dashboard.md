@@ -1,8 +1,8 @@
 ---
-title: "Set properties for a chart or list included in a dashboard in PowerApps | MicrosoftDocs"
+title: "Set properties for a chart or list included in a dashboard | MicrosoftDocs"
 description: "Learn how to set properties for  chart or list included in a dashboard"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,17 +15,8 @@ applies_to:
 author: Mattp123
 ms.assetid: 50fb2ab0-5c1a-4a5e-8ebc-5603fecc4da0
 caps.latest.revision: 26
-<<<<<<< HEAD
 ms.author: "matp"
 manager: "kvivek"
-=======
-ms.author: matp
-manager: kvivek
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
->>>>>>> 1988ef00f523903da7a76a8aaf83ce66c8a6355f
 ---
 # Set properties for a chart or list included in a dashboard
 
