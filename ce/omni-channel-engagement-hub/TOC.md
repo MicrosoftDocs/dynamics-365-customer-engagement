@@ -46,3 +46,8 @@
 
 
 ## [Omni-channel Engagement Hub for customer](customer/omni-channel-engagement-hub-customer.md)
+
+## [Omni-channel Engagement Hub for developer](developer/omni-channel-engagement-hub-developer.md)
+### [JavaScript API reference](developer/omni-channel-reference.md)
+#### [getContextProvider](developer/reference/getContextProvider.md)
+#### [setContextProvider](developer/reference/setContextProvider.md)
