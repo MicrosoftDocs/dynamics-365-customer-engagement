@@ -67,7 +67,7 @@ Follow these steps to create a new Live Chat work stream.
 2. On the command bar, select **New** to create a work stream.
 3. On the **Summary** tab of the page for the new work stream, follow these steps:
 
-    1. In the **General information** section, provide the following information:
+    A. In the **General information** section, provide the following information:
 
         - **Name**: Enter a name for the work stream.
         - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
@@ -152,8 +152,8 @@ Follow these steps to create a new Live Chat work stream.
             > [!NOTE]
             > Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements. 
 
-    2. Select **Save** to save the work stream.
-    3. In the **Work distribution** section, follow these steps: 
+    B. Select **Save** to save the work stream.
+    C. In the **Work distribution** section, follow these steps: 
 
         1. Select whether the work distribution mode should be **Push** or **Pick**.
         2. In the **Notification** field, select the type of notification setting.
@@ -162,39 +162,15 @@ Follow these steps to create a new Live Chat work stream.
         > [!NOTE]
         > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
 
-    4. In the **Context variables** section, select **New** to create a new context variable for the work stream. Then in the **Quick Create** flyout, enter a name for the context variable, and specify the type.
+    D. In the **Context variables** section, select **New** to create a new context variable for the work stream. Then in the **Quick Create** flyout, enter a name for the context variable, and specify the type.
 
         Context variables help the omni-channel system understand the kind of conversation that it will receive.
 
         You can edit, activate, inactivate, or delete a context variable by selecting it in the grid.
 
-4. On the **Routing Rule Item** tab, follow these steps to define the routing rules. Routing rules help correctly route the conversations to agents or queues.
+    E. Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
 
-    1. Select **Add new Rule Item** to add a routing rule item.
-    2. On the **General** tab, in the **General information** section, provide the following information:
-
-        - **Name**: Enter a name for the routing rule item.
-        - **Work Stream**: This field is automatically filled in.
-        - **Queue**: Look up a queue, or select **New** to add a new queue. For more information, see [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue).
-        - **Description**: Enter a brief description of the routing rule item.
-
-    3. In the **Condition** section, provide the conditions for the omni-channel routing rule. Based on the conditions that are defined, conversations will be routed to the correct agents or queues. When you define conditions for omni-channel routing rules, you can select any of the following:
-
-        - Entity
-        - Attribute
-        - Operator
-        - Value
-
-        For an entity, you can select among a set of attributes, operators, and values that are related to the entity.
-
-        By using appropriate conditions in the routing rules, you can achieve many more routing combinations to route conversations. Here are some examples:
-
-        - A customer chat request that comes in from the portal, and that has specific answers to the pre-chat survey, should be routed to a specific queue.
-        - Incoming custom entities such as **Change_Requests** should be routed to omni-channel queues that have live agents.
-
-        For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
-
-    4. Select **Save** to save the routing rule item.
+4. Select **Save** to save the routing rule item.
 
 5. On the **Agents** tab, select **Add Existing User** to add agents to the work stream. In the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.
 
