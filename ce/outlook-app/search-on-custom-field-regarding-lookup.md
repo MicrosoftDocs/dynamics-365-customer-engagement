@@ -1,7 +1,7 @@
 ---
 title: "Search on custom field in Regarding lookup in Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/10/2019
+ms.date: 01/10/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Outlook
-  ---
+---
 # Search on custom field in Regarding lookup  
 
 To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
