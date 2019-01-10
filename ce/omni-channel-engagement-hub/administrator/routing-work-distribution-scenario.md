@@ -1,7 +1,7 @@
 ---
-title: "Understand how routing and work distribution works"
-description: 
-keywords: ""
+title: "Understand how unified routing and work distribution works"
+description: See this scenario to understand how unified routing and work distribution works
+keywords: Unified routing and work distribution works
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: c0a1d153-e907-4bd7-bab6-09e270ed8833
 ms.custom: 
 ---
-# Understand how routing and work distribution works
+# Understand how unified routing and work distribution works
 
 The following scenario should help you understand how the routing and work distribution mechanism works.
 
@@ -37,11 +37,11 @@ The following scenario should help you understand how the routing and work distr
     1. Routing rules evaluate the incoming conversation and determine that the destination is an omni-channel queue.
 
         > [!NOTE]
-        > Incoming conversations include contextual data (a combination of context variables and related entity records). Routing rules are written on these context variables. In the preceding entity configuration, **Category** is a context variable. If the category of an incoming conversation is **Billing**, the conversation is routed to the **Billing Queue** omni-channel queue in real time.
+        > Incoming conversations include contextual data (a combination of context variables and related entity records). Routing rules are based on these context variables. In the preceding entity configuration, **Category** is a context variable. If the category of an incoming conversation is **Billing**, the conversation is routed to the **Billing Queue** omni-channel queue in real time.
 
     2. After the conversation reaches the correct omni-channel queue, work distribution rules are applied, and the conversation is allocated to one of the agents.
 
-        The conversation is assigned to the agent who satisfies the following conditions.
+        The conversation is assigned to the agent who satisfies the following conditions:
 
         ![Scenario conditions](../../omni-channel-engagement-hub/media/oc-scenario-1.png)
 
@@ -49,7 +49,7 @@ The following scenario should help you understand how the routing and work distr
 
         - Both Gilda and Bert are members of the **Billing Queue** omni-channel queue.
         - Both Gilda and Bert are associated with the **Chat from Support Portal** work stream.
-        - Bert's presence status is **Available**, whereas Gilda's presence status is **Away**.
+        - Bert's presence status is **Available**, whereas Gilda's presence status is **Busy**.
         - Bert has the required capacity.
 
         In this case, the conversation is assigned to Bert.
@@ -82,7 +82,7 @@ The following table shows the evaluation that will be used to assign the convers
 
 ## Automated work distribution
 
-If a conversation remains in an omni-channel queue with any agent, it becomes available for automated work distribution:
+If a conversation remains in an omni-channel queue assigned to any agent, it becomes available for automated work distribution:
 
 - Conversations that have priority-1 queues are distributed before conversations that have priority-2 queues. All items that belong to an omni-channel queue have equal priority.
 - Conversations are queued according to their age.
