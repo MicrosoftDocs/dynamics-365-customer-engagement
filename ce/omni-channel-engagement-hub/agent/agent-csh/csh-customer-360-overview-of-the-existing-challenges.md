@@ -1,0 +1,87 @@
+---
+title: "Customer 360 overview of the existing challenges"
+description: "Customer 360 is a form where you can know complete information about the customer with whom you are going to interact."
+keywords: ""
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+applies_to: 
+ms.date: 11/13/2018
+ms.service: 
+ms.topic: article
+ms.assetid: D25BB656-E29F-4233-B5BB-ADF678CCD7D2
+ms.custom: 
+---
+
+# Customer 360 - overview of the existing challenges
+
+One of the major challenges that customers face when contacting customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request later, the customer shares the same information with another support agent to explain the context of the engagement. To avoid this, the support agent needs access to the customer information with details about the product/service, issue, case history, related cases, location, and so on.
+
+Having this information ready when a customer contacts the support agent can reduce the hold time that the agent spends to retrieve the customer information, reduce the average handling time (AHT), and increase customer satisfaction with faster resolution of the issue.
+
+### What is Customer 360?
+
+Customer 360 is a page where you can get complete information about a customer when you accept an incoming request from any channel. The default Customer 360 view provides the following sections:
+
+ - Customer profile
+
+ - Conversation summary
+
+ - Issue Snapshot
+
+ - Recent cases
+
+ - All activities
+
+![View Customer 360](../../media/csh-cc-customer360.png "View Customer 360") 
+
+#### Customer profile
+
+This section provides details about the customer or account such as name, job, title, relationship type, city, category, primary contact for the account, and preferred channel of engagement.
+
+#### Conversation Summary
+
+This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The Visitor Info tab provides some information such as the browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+
+#### Issue Snapshot
+
+For an incoming engagement request, the system links an existing case to an engagement and displays it in the Issue Snapshot section. This section displays information such as title of the case, priority, status, product, and owner.
+
+#### Recent Cases
+
+This section displays recent cases that relate to the customer.
+
+#### All Activities
+
+This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
+
+### Search knowledge articles
+
+Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help you reduce the average handling time to provide quick and accurate answers to your customers.
+
+Omni-channel Engagement Hub enables you to use the rich knowledge base (KB) in Dynamics 365 so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
+
+![Search Knowledge articles](../../media/csh-oc-knowledge-articles-search.png "Search Knowledge articles")   
+
+You can search for a KB article using the **KB Search** tab, and then view the article and use the **Send Link** option to share the link with the customer.
+
+![Search knowledge articles using the option from conversation control](../../media/csh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
+
+When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **KB Search** tab. Then you can search and share the KB articles.
+
+> [!div class="nextstepaction"]
+> [Next topic: View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+
+## See also
+
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Sitemap](csh-sitemap.md)
+- [Navigation bar](csh-navigation-bar.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [Conversation control](csh-conversation-control.md)
+- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](csh-create-record.md)
+- [Search and link record to the conversation](csh-search-link-record.md)

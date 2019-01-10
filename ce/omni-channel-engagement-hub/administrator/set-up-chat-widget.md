@@ -135,7 +135,7 @@ You can create questions in a question library, which will be used to create pre
 
 ## Set up quick replies
 
-Quick replies are the template messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/left-control-panel.md#send-quick-replies-in-the-chat).  
+Quick replies are the template messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
 
 1.  Sign in to Omni-channel Engagement Hub.
 

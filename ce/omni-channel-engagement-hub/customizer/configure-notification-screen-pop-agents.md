@@ -1,6 +1,6 @@
 ---
-title: "Configure notification (screen Pop) For Agents"
-description: 
+title: "Configure notifications (screen pops) for agents"
+description: "Learn how to configure notification for using Omni-channel Engagement Hub based on routing and work distribution."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: 227c2e0e-4d42-463b-87a1-d538a8e4b8a1
 ms.custom: 
 ---
-# Configure notification (Screen pop) for agents
+# Configure notifications (Screen pops) for agents
 
-Configure notifications (screen pop) in Unified Service Desk - Omni-channel Engagement Hub to display popup notification messages to your agents that contains general information or some customer or process-related information that the agent can act on. Some of the details are as follows:
+You configure notifications (screen pops) in Unified Service Desk - Omni-channel Engagement Hub. These notifications "pop up" on the screen, and they contain either general information, or customer-related or process-related information that the agent can act on. Here are some examples of the information that screen pops can contain:
 
 -   Wait time
 
@@ -32,3 +32,16 @@ There are two types of notifications:
 
 -   Toast notification (floating notifications)
 
+> [!div class="nextstepaction"]
+> [Next topic: Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+## See also
+
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Customize customer 360 form](customize-customer-360-page.md)
+- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Customize the conversation form](customize-conversation-form.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
