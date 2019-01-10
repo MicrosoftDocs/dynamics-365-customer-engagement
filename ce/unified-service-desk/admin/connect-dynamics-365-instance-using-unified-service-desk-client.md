@@ -117,7 +117,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    2. Remove the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in information from the roaming user profiles on the user’s computer. If the user has signed in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the computer at least once, the following files are created in the c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD directory: Default_USD.config and Default_USD. You must delete both these files for the configuration settings in the UnifiedServiceDesk.exe.config to take effect.  
 
-   When the user starts the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the computer:  
+   When the user starts the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on their computer:  
 
 - The sign-in dialog box shows the values specified in the UnifiedServiceDesk.exe.config file, and also creates the Default_USD.config file in the c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD directory to store the connection information (except user name and password; this is stored in [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)]). Thereafter, the client application uses the Default_USD.config file to display the sign-in information or to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
