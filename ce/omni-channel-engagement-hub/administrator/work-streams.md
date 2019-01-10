@@ -67,40 +67,40 @@ Follow these steps to create a new Live Chat work stream.
 2. On the command bar, select **New** to create a work stream.
 3. On the **Summary** tab of the page for the new work stream, follow these steps:
 
-    A. In the **General information** section, provide the following information:
-        - **Name**: Enter a name for the work stream.
-        - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
-        - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
-          > [!NOTE]
-          > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
-        - **Max Concurrency**: Specify the maximum number of concurrent sessions for conversations of the work stream.
-        - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
-        - **Record Identification Rule**: Paste the following code snippet. This snippet helps configure record identifications rules for the work stream.
-            ```csharp
-            <RecordIdentificationRuleSet>
-            <RecordIdentificationRule>
-            <PrimaryEntity LogicalCollectionName="accounts" PrimaryKeyAttribute="accountid" PrimaryNameAttribute="name" />
-            <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
-            <entity name="account">
-            <attribute name="accountid" />
-            <attribute name="name" />
-            <filter type="and">
-            <condition attribute="name" operator="eq" value="${Name}" />
-            <condition attribute="emailaddress1" operator="eq" value="${Email}" />
-            <condition attribute="telephone1" operator="eq" value="${Phone}"/>
-            </filter>
-            </entity>
-            </fetch>
-            <ContextKey name="msdyn_account_msdyn_ocliveworkitem_Customer" />
-            </RecordIdentificationRule>
-            <RecordIdentificationRule>
-            <PrimaryEntity LogicalCollectionName="contacts" PrimaryKeyAttribute="contactid" PrimaryNameAttribute="fullname" />
-            <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
-            <entity name="contact">
-            <attribute name="contactid" />
-            <attribute name="fullname" />
-            <filter type="and">
-            <condition attribute="contactid" operator="eq" source="msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid" value="${msdyn_portalcontactid}" /> 
+     A. In the **General information** section, provide the following information: </br>
+         - **Name**: Enter a name for the work stream.
+         - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
+         - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
+             > [!NOTE]
+             > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
+         - **Max Concurrency**: Specify the maximum number of concurrent sessions for conversations of the work stream.
+         - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
+        - **Record Identification Rule**: Paste the following code snippet. This snippet helps configure record identifications rules for the work stream. 
+        ```csharp
+              <RecordIdentificationRuleSet>
+              <RecordIdentificationRule>
+              <PrimaryEntity LogicalCollectionName="accounts" PrimaryKeyAttribute="accountid" PrimaryNameAttribute="name" />
+              <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
+              <entity name="account">
+              <attribute name="accountid" />
+              <attribute name="name" />
+              <filter type="and">
+              <condition attribute="name" operator="eq" value="${Name}" />
+              <condition attribute="emailaddress1" operator="eq" value="${Email}" />
+              <condition attribute="telephone1" operator="eq" value="${Phone}"/>
+              </filter>
+              </entity>
+              </fetch>
+              <ContextKey name="msdyn_account_msdyn_ocliveworkitem_Customer" />
+              </RecordIdentificationRule>
+              <RecordIdentificationRule>
+              <PrimaryEntity LogicalCollectionName="contacts" PrimaryKeyAttribute="contactid" PrimaryNameAttribute="fullname" />
+              <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
+              <entity name="contact">
+              <attribute name="contactid" />
+              <attribute name="fullname" />
+              <filter type="and">
+              <condition attribute="contactid" operator="eq" source="msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid" value="${msdyn_portalcontactid}" /> 
             <condition attribute="fullname" operator="eq" value="${Name}" />
             <condition attribute="emailaddress1" operator="eq" value="${Email}" />
             <condition attribute="telephone1" operator="eq" value="${Phone}" />
@@ -123,10 +123,12 @@ Follow these steps to create a new Live Chat work stream.
             <ContextKey name="msdyn_incident_msdyn_ocliveworkitem" />
             </RecordIdentificationRule> 
             </RecordIdentificationRuleSet>
-            ```
-            > [!NOTE]
-            > For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`.
-            For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
+            ```    
+        
+     > [!NOTE]
+     > For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`. 
+             
+      For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
             **Authenticated chat**
             | Question name  | Answer type    | Question text |
             |----------------|----------------|---------------|
@@ -138,9 +140,10 @@ Follow these steps to create a new Live Chat work stream.
             | Name          | Single line    | Name          |
             | Email         | Single line    | Email         |
             | Phone         | Single line    | Phone         |
-            For information about how to create questions and use them in a pre-chat survey, see [Set up a question library](set-up-chat-widget.md#set-up-a-question-library) and [Set up a pre-chat survey](set-up-chat-widget.md#set-up-a-pre-chat-survey).
+            
+    For information about how to create questions and use them in a pre-chat survey, see [Set up a question library](set-up-chat-widget.md#set-up-a-question-library) and [Set up a pre-chat survey](set-up-chat-widget.md#set-up-a-pre-chat-survey). 
             > [!NOTE]
-            > Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements. 
+            > Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements.
 
     B. Select **Save** to save the work stream.
     C. In the **Work distribution** section, follow these steps: 
