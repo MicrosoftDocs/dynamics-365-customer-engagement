@@ -36,7 +36,7 @@ Here are some of the main characteristics of omni-channel queues:
 Omni-channel queues give organizations the flexibility to define queues that meet their business priorities. Both single-channel and blended agent queues are supported. Therefore, omni-channel queues can be used for these purposes:
 
 - Collecting conversations that are for a specific product or issue type, but that originate from multiple channels.
-- Distributing conversations that originate from a single channel to different issue types, based on customer inputs such as answers to a pre-chat survey or information that is gathered through interactive voice response (IVR). Organizations can also model Customer Type as context variables and route the conversations to different queues.
+- Distributing conversations that originate from a single channel to different issue types, based on customer inputs such as answers to a pre-chat survey or information that is gathered through interactive voice response (IVR). Organizations can also model **Customer Type** as context variables and route the conversations to different queues.
 
 ## Create a new omni-channel queue
 
