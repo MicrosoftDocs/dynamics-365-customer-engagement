@@ -177,30 +177,8 @@ The **Active Work Streams** view is displayed.
       - Select **New** and provide the **Name** and the **Type** of the variable in the **Quick Create** flyout. 
       You can edit, activate, deactivate, or delete a context variable by selecting it from the grid.
 
- - Routing rules help to correctly route the conversations to the agents or queues. Define the routing rules in the **Routing Rule Item** tab:
+ - Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
 
-    - Select **Add new Rule Item** to add a new routing rule item.  
-    - In the **General information** section of the **General** tab, provide the following information: 
-      - **Name**. Name of the rule item
-      - **Work Stream** is auto populated
-      - **Queue**. Look up a queue or select New to add a new queue. </br> **More information**: [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
-      - **Description**. A brief description of the rule item.
-
-     - In the **Condition** section, provide the conditions for the omni-channel rule. Based on the conditions defined, the conversations are routed to the correct agents or queues. When you define conditions for the omni-channel routing rules, you can choose from:
-        - Entity
-        - Attribute
-        - Operator
-        - Value
-
-       So, for an entity, you can choose from a set of attributes, operators, and values related to the entity. 
-       With the help of using appropriate conditions in the routing rules, you can achieve many more routing combinations to route conversations, like:
-         - Incoming customer chat request from the portal with specific pre-chat answers should be routed to a specific queue.
-         - Incoming custom entities like Change_Requests, etc. should be routed to omni-channel queue with live agents.
-
-           **More information**: [Create and manage routing rules in Omni-channel](routing-rules.md)
-
-
-   - Select **Save** to save the rule.
 
  - In the **Agents** tab, select **Add Existing User** to add agents to the work stream. Select the agents you want to add from the **Lookup Records flyout** menu and select **Add**. 
  You can change the view and select users from other views by selecting Change View.
