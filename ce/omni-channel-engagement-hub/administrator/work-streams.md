@@ -68,7 +68,6 @@ Follow these steps to create a new Live Chat work stream.
 3. On the **Summary** tab of the page for the new work stream, follow these steps:
 
     A. In the **General information** section, provide the following information:
-
         - **Name**: Enter a name for the work stream.
         - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
         - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
@@ -77,7 +76,6 @@ Follow these steps to create a new Live Chat work stream.
         - **Max Concurrency**: Specify the maximum number of concurrent sessions for conversations of the work stream.
         - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
         - **Record Identification Rule**: Paste the following code snippet. This snippet helps configure record identifications rules for the work stream.
-
             ```csharp
             <RecordIdentificationRuleSet>
             <RecordIdentificationRule>
@@ -126,46 +124,34 @@ Follow these steps to create a new Live Chat work stream.
             </RecordIdentificationRule> 
             </RecordIdentificationRuleSet>
             ```
-
             > [!NOTE]
             > For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`.
-
             For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
-
             **Authenticated chat**
-
             | Question name  | Answer type    | Question text |
             |----------------|----------------|---------------|
             | CaseNumber     | Multiple lines | Case Number   |
-
             **Unauthenticated chat**
-
             | Question name | Answer type    | Question text |
             |---------------|----------------|---------------|
             | CaseNumber    | Multiple lines | Case Number   |
             | Name          | Single line    | Name          |
             | Email         | Single line    | Email         |
             | Phone         | Single line    | Phone         |
-
             For information about how to create questions and use them in a pre-chat survey, see [Set up a question library](set-up-chat-widget.md#set-up-a-question-library) and [Set up a pre-chat survey](set-up-chat-widget.md#set-up-a-pre-chat-survey).
-
             > [!NOTE]
             > Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements. 
 
     B. Select **Save** to save the work stream.
     C. In the **Work distribution** section, follow these steps: 
-
         1. Select whether the work distribution mode should be **Push** or **Pick**.
         2. In the **Notification** field, select the type of notification setting.
         3. In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
-
         > [!NOTE]
         > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
 
     D. In the **Context variables** section, select **New** to create a new context variable for the work stream. Then in the **Quick Create** flyout, enter a name for the context variable, and specify the type.
-
         Context variables help the omni-channel system understand the kind of conversation that it will receive.
-
         You can edit, activate, inactivate, or delete a context variable by selecting it in the grid.
 
     E. Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
