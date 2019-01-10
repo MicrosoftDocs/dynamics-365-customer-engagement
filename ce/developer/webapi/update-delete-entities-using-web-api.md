@@ -75,7 +75,7 @@ OData-Version: 4.0
 > [!NOTE]
 >  This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].  
 
- To retrieve data from an entity you are updating you can compose your PATCH request so that data from the created record will be returned with a status of 200 (OK).  To get his result, you must use the `return=representation` preference in the request headers.  
+ To retrieve data from an entity you are updating, you can compose your PATCH request so that data from the created record will be returned with a status of 200 (OK). To get this result, you must use the `return=representation` preference in the request headers.  
 
  To control which properties are returned, append the `$select` query option to the URL to the entity set.  The `$expand` query option will be ignored if used.  
 
