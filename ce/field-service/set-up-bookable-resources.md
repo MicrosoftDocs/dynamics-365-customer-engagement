@@ -60,7 +60,7 @@ A resource in Dynamics 365 for Customer Engagement for Field Service is anything
     - **Crew**: Any collection of resources, for example, two or more workers, or a group.  
   
 2.  Choose a **Time Zone**. 
-3.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the Field Service Mobile app on his/her phone or tablet.
+3.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet.
 4. Choose the **Start Location** and the **End Location** to specify which location the resource will be at when starting and ending work.  
   
 5.  Choose if the resource should be displayed on the schedule board and schedule assistant.  

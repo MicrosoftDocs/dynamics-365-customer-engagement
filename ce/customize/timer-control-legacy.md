@@ -1,8 +1,8 @@
 ---
-title: "Timer control in PowerApps | MicrosoftDocs"
+title: "Timer control | MicrosoftDocs"
 description: "Understand how you can use the timer control"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -50,7 +50,7 @@ To create a timer control, on the form select the **Insert** tab, on the toolbar
 |Data Source|Failure Time Field|**Required**. Choose one of the date-time fields for the entity to represent when a milestone should be successfully completed.|  
 ||Success Condition|**Required**. Select a field for the entity to evaluate the success of the milestone, then choose which option indicates success.|  
 ||Warning Condition|Select a field for the entity to evaluate whether the success of the milestone is at risk so that a warning should be displayed, then choose which option indicates that a warning should be displayed.|  
-||Cancel Condition|Select a field for the entity to evaluate whether the achievement of th milestone should be cancelled, then choose which option indicates that the milestone is cancelled.|  
+||Cancel Condition|Select a field for the entity to evaluate whether the achievement of the milestone should be cancelled, then choose which option indicates that the milestone is cancelled.|  
 
 ### See also
 
