@@ -153,7 +153,7 @@ The following are Office 365 user contact fields.
   
 3. Under **Product licenses**, click **Edit**.  
   
-4. Turn on a **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps ** license, and then click **Save** > **Close**.  
+4. Turn on a **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps** license, and then click **Save** > **Close**.  
   
 5. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
