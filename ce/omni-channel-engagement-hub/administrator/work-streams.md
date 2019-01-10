@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Create and manage work streams
 
-Work streams define the settings and properties for a specific source or originating point that customer requests or queries can come from. For example, if requests originate from two chat portals, you can create two different work streams for each of them. If conversations are created as case records, you can create a separate work stream for them.
+Work streams define the settings and properties for a specific source or originating point that customer requests or queries can come from. For example, if requests originate from two chat portals, you can create a different work stream for each of them. If conversations are created as case records, you can create a separate work stream for them.
 
 All work streams are associated with unique channels. Channels can be defined for chats, entities, and so on. A work stream can't be associated with more than one channel.
 
@@ -38,17 +38,17 @@ When you set up Live Chat work streams, you define the following properties:
     > In this preview, work streams can be defined for chat and entity channels.
 
 - **Allowable Presence**: Allowable presence helps assign work streams only to agents whose presence status is one of the **Available** presence statuses that are associated with the work stream. For more information, see [Configure presence and custom presence](presence-custom-presence.md).
-- **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity are defined as capacity in the work stream. For example, a conversation in the Chat work stream from the portal has a capacity of 20 units. When this conversation is assigned to an agent, it consumes 20 units of agent's capacity.
+- **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity are defined as capacity in the work stream. For example, a conversation in the Live Chat work stream from the portal has a capacity of 20 units. When this conversation is assigned to an agent, it consumes 20 units of agent's capacity.
 - **Agent association**: Agents who are associated with a work stream can receive conversations only from that work stream. 
-- **Work distribution mode and context attributes**: The context attributes can vary for each work stream. For example, for a chat conversation, context attributes include the browser, IP address, answers to pre-chat questions, and customer ID (for authenticated chat). These variables can then be used to define routing rules that channel conversations to different queues.
+- **Work distribution mode and context attributes**: The context attributes can vary for each work stream. For example, for a chat conversation, context attributes include the browser, IP address, answers to pre-chat questions, and customer ID (for authenticated chat). These attributes can then be used to define routing rules that channel conversations to different queues.
 
     > [!NOTE]
-    > The work stream is the area where context variables can be declared and defined, so that the omni-channel system understands the kind of conversations that it will receive. Conversations are preloaded with specific context attributes. Based on the context attributes, the system makes logical decisions and distributes the conversations to the correct omni-channel queue or agent. For this preview, context variables are applicable only to Live Chat.
+    > Context attributes can be declared and defined at the work stream level, so that the omni-channel system understands the kind of conversations that it will receive. Conversations are preloaded with specific context attributes. Based on the context attributes, the system makes logical decisions and distributes the conversations to the correct omni-channel queue or agent. For this preview, context attributes are applicable only for Live Chat work stream.
 
-- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on a **Customer 360** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer 360** page opens, and shows the details of the customer and case. For more information, see View Customer 360 for an incoming engagement request.
+- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer 360** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer 360** page opens, and shows the details of the customer and case. For more information, see <View Customer 360 for an incoming engagement request>.
 
     > [!NOTE]
-    > For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped with a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new Live Chat work stream](#create-a-new-live-chat-work-stream) procedure later in this topic.
+    > For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped to a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new Live Chat work stream](#create-a-new-live-chat-work-stream) procedure later in this topic.
 
     As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. 
 
@@ -71,7 +71,9 @@ Follow these steps to create a new Live Chat work stream.
 
         - **Name**: Enter a name for the work stream.
         - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
-        - **Stream Source**: Select the channels that are supported for the work stream: **Live Chat** or **CDS Entity**. For more information, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
+        - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
+          > [!NOTE]
+          > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
         - **Max Concurrency**: Specify the maximum number of concurrent sessions for conversations of the work stream.
         - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
         - **Record Identification Rule**: Paste the following code snippet. This snippet helps configure record identifications rules for the work stream.
@@ -227,12 +229,12 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
 1. Go to <portal.office.com>, and select **Flow** in the list of apps.
 2. Go to **Settings \> Custom Connectors**, and then select **Create Custom Connector** to create a custom connector.
-3. On the **Create Custom Connector** menu, select **Import an API file**.
+3. Enter the name for the custom connector. The name of your environment is the custom connector name here.
+4. On the **Create Custom Connector** menu, select **Import an API file**.
 
     > [!NOTE]
-    > Go to the Download Center, and save the file to your local computer. Enter your environment name in the custom connector name and file location from your local machine while importing and this API file and select **Continue**.
+    > Go to the Download Center, and save the file to your local computer. Select this location from your local machine while importing  the API file and select **Continue**.
 
-4. Enter the name of the custom connector.
 5. Select **Test**. When you receive a message that states that you must create a custom connector before you can test the connection, select **Create connector**.
 6. After the connector is created, select **New Connection**. A new connection is created, and the connection name is automatically selected.
 7. Provide the following information, and then select **Test Operation** to test the connection:
