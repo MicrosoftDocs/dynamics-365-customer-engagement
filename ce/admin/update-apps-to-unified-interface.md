@@ -26,12 +26,12 @@ search.app:
 
 With Unified Interface by Default, all your apps, including those designed for the legacy web client, run in Unified Interface all the time. Environments with legacy web client apps will show a notification on the Apps home page, prompting System Administrators to update those apps to Unified Interface, as shown below:
 
-**You are using apps designed for the legacy web client. For the best user experience, update your apps to Unified Interface. [Learn more]()**
+**You are using apps designed for the legacy web client. For the best user experience, update your apps to Unified Interface. Learn more**
 <insert Apps home page screenshot>
 
 A similar notification will be visible to System Administrators whenever they use an app designed for the legacy web client, as shown below:
 
-**This app is designed for the legacy web client which can cause unexpected errors and experience. For the best user experience, update your app to Unified Interface. [Learn more]()**
+**This app is designed for the legacy web client which can cause unexpected errors and experience. For the best user experience, update your app to Unified Interface. Learn more**
 <insert App-specific screenshot>
 
 Based on how the apps were installed on the environment, here's the recommended way to update them to Unified Interface:
@@ -42,7 +42,7 @@ Based on how the apps were installed on the environment, here's the recommended 
 * Import the changes to your target environment via a managed solution update.
 
 ## Apps installed from AppSource
-* Contact the app publisher and get a new version that updates the apps to Unified Interface.
+- Contact the app publisher and get a new version that updates the apps to Unified Interface.
 
 ## Apps obtained from an ISV or any other 3rd party publisher
-* Contact the ISV (Independent Software Vendor) or the 3rd party app publisher and get a new version that updates the apps to Unified Interface.
+- Contact the ISV (Independent Software Vendor) or the 3rd party app publisher and get a new version that updates the apps to Unified Interface.
