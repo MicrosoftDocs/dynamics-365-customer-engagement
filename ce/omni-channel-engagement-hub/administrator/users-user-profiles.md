@@ -36,10 +36,10 @@ The following table shows how various properties can be associated, and how they
 
 | Properties                                                   | User | User profile | Effect during routing and work distribution              |
 |--------------------------------------------------------------|------|--------------|----------------------------------------------------------|
-| Capacity                                                     |      |              | User capacity overrides user profile capacity            |
-| Work streams                                                 |      |              | Union of channels                                        |
-| Queues                                                       |      |              | Union of queues                                          |
-| Conversations (Conversations, cases, leads, custom entities) |      |              | No relationship between agent profiles and conversations |
+| Capacity                                                     |   Y   |     Y         | User capacity overrides user profile capacity            |
+| Work streams                                                 |  Y    |      Y        | Union of channels                                        |
+| Queues                                                       |   Y   |      Y        | Union of queues                                          |
+| Conversations (Conversations, cases, leads, custom entities) |   Y   |       N       | No relationship between agent profiles and conversations |
 
 A user profile can have many omni-channel users, but an omni-channel user can inherit only one user profile. For example, a user profile that is named **Subject Matter Experts** can contain many agents, but the agent who is named Gilda Moss can be associated with only one profile, such as **Subject Matter Experts**. You can't also associate Gilda Moss with the **Experienced Agents** user profile.
 
