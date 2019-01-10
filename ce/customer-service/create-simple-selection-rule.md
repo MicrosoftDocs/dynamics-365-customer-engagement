@@ -52,7 +52,10 @@ You can also add resources to existing selection rules.
 5.  On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
      Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
-  
+
+     > [!IMPORTANT]
+     > If the system is unable to find a correct selection rule for the selected resources, you see the follwing error: </br> *Can’t determine the correct selection rule for one or more of the selected resources.* </br> In that case, you can: </br> - Either reselect the resources from the selection rule, OR </br> - Ignore the warning and select Save. </br> If you choose to save, 1 unit of capacity is depleted for the unresolved resources.
+
 6.  In the **Edit a Selection Rule** dialog box, enter the following information:  
   
     - **Quantity**  
