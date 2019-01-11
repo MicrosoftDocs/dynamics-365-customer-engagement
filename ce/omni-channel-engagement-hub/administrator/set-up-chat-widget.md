@@ -104,7 +104,7 @@ You can add questions to the question library in a work stream. You can then use
 
 ## Set up quick replies
 
-Quick replies are pre-defined messages that agents can use to quickly reply to common questions from customers. For information about the agent experience for quick replies, see [Send quick replies in the chat](../agent/left-control-panel.md#send-quick-replies-in-the-chat).
+Quick replies are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Quick Responses**.
