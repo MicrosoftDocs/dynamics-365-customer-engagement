@@ -27,7 +27,7 @@ Provides JavaScript methods that you can use to perform various operations with 
 | [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
 | [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) | [!INCLUDE[setAuthTokenProvider-description](reference/includes/setAuthTokenProvider-description.md)] |
 | [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
-| [startchat](reference/methods/startchat.md) | [!INCLUDE[startchat-description](reference/includes/startchat-description.md)] |
+| [startchat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 
 ## Events
 

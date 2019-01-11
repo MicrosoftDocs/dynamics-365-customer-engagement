@@ -1,5 +1,5 @@
 ---
-title: "startchat (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "startChat (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
@@ -13,13 +13,13 @@ ms.assetid: 92BEB77B-CB6C-436A-8585-2EF581945649
 ms.custom: 
 ---
 
-# startchat (Omni-channel Engagement Hub JavaScript API reference)
+# startChat (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[startchat-description](../includes/startchat-description.md)]
+[!INCLUDE[startchat-description](../includes/startChat-description.md)]
 
 ## Syntax
 
-`startchat();`
+`startChat();`
 
 ## Parameters
 

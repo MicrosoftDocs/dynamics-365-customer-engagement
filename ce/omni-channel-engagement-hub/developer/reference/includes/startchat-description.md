@@ -1,1 +1,1 @@
-Opens an existing chat, if any. Otherwise it initiates a new chat.
+This method opens an existing chat, if any. Otherwise it initiates a new chat.
