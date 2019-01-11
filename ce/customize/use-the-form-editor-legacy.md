@@ -1,8 +1,8 @@
 ---
-title: "Change navigation within a form in PowerApps | MicrosoftDocs"
+title: "Change navigation within a form | MicrosoftDocs"
 description: "Learn how to change the navigation within a form"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

@@ -1,8 +1,8 @@
 ---
-title: "Use the default solution to customize with PowerApps | MicrosoftDocs"
+title: "Use the default solution to customize | MicrosoftDocs"
 description: "Learn how to customize the default solution"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -45,7 +45,7 @@ search.app:
   
  [!INCLUDE[cc_privacy_crm_customizations](../includes/cc-privacy-crm-customizations.md)]  
   
-### See Also  
+### See also  
  [Customization overview](../customize/overview.md)<br/>
  [Getting started with customization](Getting-started-customization.md)  
  [Privileges required for customization](Privileges-required-customization.md)<br/>
