@@ -25,7 +25,7 @@ ms.custom:
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| authTokenProvider | Function | Function which would act as auth-token provider |
+| authTokenProvider | Function | Function which would act as `auth-token` provider |
 
 ## Return Value
 

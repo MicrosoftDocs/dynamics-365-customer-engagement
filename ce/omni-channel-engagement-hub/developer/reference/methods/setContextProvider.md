@@ -32,6 +32,6 @@ ms.custom:
 
 ## Return Value
 
-Returns a function that contains the currently set context provider.
+None
 
 ## Example
