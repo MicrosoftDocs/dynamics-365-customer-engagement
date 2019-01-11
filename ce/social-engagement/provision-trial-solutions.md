@@ -32,7 +32,7 @@ This article provides a step-by-step guide to get up and running with a [trial s
 
 2. Open the link with the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] promo code you received in email in a _private session of your browser_. To learn how to open a private session in your browser, see: 
    - [Internet Explorer](https://support.microsoft.com/products/internet-explorer)
-   - [Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
+   - [Microsoft Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
    - [Mozilla Firefox](https://support.mozilla.org/kb/private-browsing-use-firefox-without-history)
    - [Google Chrome](https://support.google.com/chrome/answer/95464)
 
@@ -67,7 +67,7 @@ This article provides a step-by-step guide to get up and running with a [trial s
    
 2. Open the link with the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] promo code you received in email in a _private session of your browser_. To learn how to open a private session in your browser, see: 
    - [Internet Explorer](https://support.microsoft.com/products/internet-explorer)
-   - [Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
+   - [Microsoft Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
    - [Mozilla Firefox](https://support.mozilla.org/kb/private-browsing-use-firefox-without-history)
    - [Google Chrome](https://support.google.com/chrome/answer/95464)
 

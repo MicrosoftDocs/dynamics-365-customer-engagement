@@ -1,8 +1,8 @@
 ---
-title: "Set managed properties in PowerApps | MicrosoftDocs"
+title: "Set managed properties | MicrosoftDocs"
 description: "Learn how to set managed properties of an entity"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,16 +15,12 @@ applies_to:
 author: Mattp123
 ms.assetid: edaa7d4a-a95f-4d66-a9d9-2ad6051332f7
 caps.latest.revision: 41
-ms.author: matp
-manager: kvivek
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Set managed properties overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_ManagedProperties"></a>   
 

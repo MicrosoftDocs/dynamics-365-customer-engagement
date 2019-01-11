@@ -3,7 +3,7 @@ title: "Edge Process hosting method for your controls in Unified Service Desk fo
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 12/17/2018
+ms.date: 12/19/2018
 ms.service: dynamics-365-customerservice
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -30,9 +30,13 @@ monikerRange: '>= dynamics-usd-4'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Edge, it will work in Unified Service Desk. You can select Edge Process as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Edge, it will work in Unified Service Desk. You can select **Edge Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+
+![Edge process hosted control setting](media/edge-process-hosted-control-setting.gif "Edge process hosted control setting")
 
 The advantages of using the Edge process hosting method are as follows:
+
+![Advantages of Edge Process](media/advantages-edge-process.PNG "Advantages of Edge Process")
 
 - Webpages, including Dynamics 365 pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
@@ -40,38 +44,71 @@ The advantages of using the Edge process hosting method are as follows:
 - it provides easy configurations to host the applications in Unified Service Desk.
 - It provides improved reliability and supportability for browser-specific issues
 
-![Advantages of Edge process](media/advantages-edge-process.PNG "Advantages of Edge process")
-
 > [!NOTE]
-> To use Edge process, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
+> To use **Edge Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
-Setting the **GlobalBrowser** mode key to **Edge** in the application configuration file (UnifiedServiceDesk.exe.config) for a particular client desktop takes the precedence over other settings. That is, even though at the organization level or if the hosted controls have different hosting type such as **IE Process** and/or **Internal WPF**, the settings from the application configuration file (UnifiedServiceDesk.exe.config) takes the precedence and uses the Edge Process to host the applications.
+## Edge Process settings
+
+You can set the **Edge Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
+
+If you want to set the **Edge Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Edge**. More information: [Enable Edge for Unified Service Desk on client desktop](edge-process.md#enable-edge-for-unified-service-desk-on-client-desktop)
+
+If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enables Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
+
+### Order of precedence
+
+- Setting the **GlobalBrowserMode** Global UII option value as **Edge**, takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. At the organization level, you set **GlobalBrowserMode** Global UII option value as **Edge**. In this scenario, the Global UII option takes precedence and configuration uses the **Edge Process** to host the applications. 
+
+- Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. For a few agents, in their client desktops, you have set **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Edge Process** to host the applications.
+
+Setting the **GlobalBrowser** mode key to **Edge** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes the precedence over other settings. 
 
 ## Enable Edge Process
 
-Enable the Edge Process by doing one of the following ways:
+Enable the **Edge Process** by doing one of the following ways:
 
+- Create a individual hosted control with hosting type as Edge
 - Enable for individual client desktops
 - Enable for entire an organization
 
 > [!NOTE]
-> Enable the Edge Process either for individual client desktops or for entire organization.
+> Enable the **Edge Process** either for individual client desktops or for entire organization.
+
+### Create a hosted control with hosting type as Edge
+
+When you are creating a new hosted control, you can select **Edge Process** as the **Hosting Type**.
+
+1. Sign in to Dynamics 365.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Select **Hosted Controls**. The page displays available hosted controls.
+
+4. To create a new hosted control, select **New**.
+
+5. On the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.<br>
+![Edge Process hosted control](media/edge-process-hosted-control.PNG "Edge Process hosted control")
+
+6. Select **Save** to create the hosted control.
 
 ### Enable Edge for Unified Service Desk on client desktop
 
-1. Go to directory where you have installed Unified Service Desk and double-click to open the UnifiedServiceDesk.exe.config file.
+1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
+
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="GlobalBrowserMode" value="Edge"/>`
 
   > [!div class="mx-imageBorder"]
-  > ![Edge process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge process configuration setting key")
+  > ![Edge Process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge Process configuration setting key")
 
 3. Save the file.
 
 ### Enable Edge for an entire organization
 
-Add a new Global UI option for your organization named **GlobalBrowserMode**. Specify the value as **Edge**.
+Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Edge**.
+
+![Edge process global uii option](media/edge-process-global-uii-option.gif "Edge process global uii option")
 
 1. Sign in to Dynamics 365.
 
@@ -87,28 +124,11 @@ Add a new Global UI option for your organization named **GlobalBrowserMode**. Sp
 
 7. Select **Save**.
 
-## Create a hosted control with hosting type as Edge
-
-When you are creating a new hosted control, you can select **Edge Process** as the **Hosting Type**.
-
-1. Sign in to Dynamics 365.
-
-2. Go to **Settings** > **Unified Service Desk**.
-
-3. Select **Hosted Controls**. The page displays available hosted controls.
-
-4. To create a new hosted control, select **New**.
-
-5. On the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.<br>
-![Edge process hosted control](media/edge-process-hosted-control.PNG "Edge process hosted control")
-
-6. Select **Save** to create the hosted control.
-
 ## Debug Edge Process using Microsoft Edge DevTools Preview
 
-With Edge Process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. Edge DevTools helps you debug the webpage locally or remotely.
+With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. Edge DevTools helps you debug the webpage locally or remotely.
 
-In the panel, you can see all the active Edge Process. Select the desired webpage from the active list to open a new instance.
+In the panel, you can see all the active Edge process. Select the desired webpage from the active list to open a new instance.
 
 More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
@@ -146,7 +166,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Name | Incident |
 | Display Name | `[[incident.title]]` |
 | Unified Service Desk Component Type | Unified Interface Page |
-| Hosting Type | Edge process |
+| Hosting Type | Edge Process |
 | Display Group | MainPanel |
 
 ### Step 2: Create two action calls
@@ -257,13 +277,13 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 > If you set the value as `False` or leave the field blank, the option will be disabled.
 
 
-## Sign out from sessions when using the Edge process
+## Sign out from sessions when using the Edge Process
 
-To sign out from sessions when using the edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
 
 ## Limitations
 
-To learn about the limitations of the edge process, see [edge process limitations](release-notes.md)
+To learn about the limitations of the Edge process, see [Edge process limitations](release-notes.md)
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  

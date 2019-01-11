@@ -30,7 +30,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps auditing fe
 > [!NOTE]
 > This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](enable-use-comprehensive-auditing.md).
 -->
- The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps Administrator answer questions such as:  
+ The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] administrator answer questions such as:  
   
 -   Which user was accessing the system and when?  
   
