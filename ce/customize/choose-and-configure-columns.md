@@ -122,7 +122,7 @@ search.app:
 ### Add find columns  
  Find columns are the columns searched by the application when people use the **search for records** text box displayed for lists or whenever there is the ability to search for records for an entity in the application, such as when people are searching for a record for a lookup field.  
   
-1.  Open a **Quick Find** view. For information on quick find views, see [Types of views](../customize/types-of-views.md).  
+1.  Open a **Quick Find** view. For information on quick find views, see [Types of views](../customize/create-edit-views.md).  
   
 2.  Select **Add Find Columns** to open the dialog box.  
   

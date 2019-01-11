@@ -36,7 +36,7 @@ search.app:
  If you don’t want to delete the view permanently, you can deactivate it instead.  
   
 ### Deactivate or activate views  
- You cannot delete or deactivate any [system views](../customize/types-of-views.md#BKMK_SystemViews), including public views the system created. You can deactivate any public view, including public views the system created.  
+ You cannot delete or deactivate any [system views](../customize/create-edit-views.md#system-views), including public views the system created. You can deactivate any public view, including public views the system created.  
   
 #### Deactivate or activate a public view  
   
