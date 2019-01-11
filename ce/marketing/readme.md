@@ -67,6 +67,7 @@ This document provides important, late-breaking information about known issues a
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
 - When you're adding members to a static segment, you can filter the list of available contacts to find the ones you want to add. Sometimes, after adding some filters and selecting **Apply**, the segment definition may stop showing its members. To fix this, save the segment, go back to the segment list, and then reopen it; you should now see the list of members and can continue working on it. <!-- 1282842 -->
 - Static segments are limited to a maximum of 1600 members.
+- If you create a segment query that includes a lookup field that references an entity of type "systemuser", then your segment won't be created unless the lookup field value is set to the GUID of the related record. For example, if you want to query the owner of a contact record, then the **owner** field is a lookup into the **users** entity (which is of type "systemuser"), so you must set that field to the GUID of the user you want to find with the query. To find the GUID of a user, open the relevant user record and find the value of the "id" parameter in the URL. <!--- 1335786 -->
 
 ### Fixed issues
 
