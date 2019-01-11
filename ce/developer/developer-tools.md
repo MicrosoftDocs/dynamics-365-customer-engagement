@@ -2,7 +2,7 @@
 title: "Developer tools (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the developer tools provided for use with Dynamics 365 for Customer Engagement."
 ms.custom: 
-ms.date: 12/19/2018
+ms.date: 1/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,23 +23,23 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This section provides a single location for you to learn about the developer tools and community developed developer tools that you use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
+This section provides a single location for you to learn about the developer tools and community developed developer tools that you can use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
 
 ## Community tools
 
-[XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
+[XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:
 
 - [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources.
 
-- [FetchXML Builder](http://fxb.xrmtoolbox.com) - Provides a UI to compose FetchXML queries, execute, convert to code, update system views etc. More information: [Build queries with FetchXML](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/org-service/build-queries-fetchxml)
+- [FetchXML Builder](http://fxb.xrmtoolbox.com) - Provides a UI to compose FetchXML queries, execute, convert to code, update system views etc. More information: [Build queries with FetchXML](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/org-service/build-queries-fetchxml).
 
 - [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator) - The tool helps you to copy and apply the layout of a particular view to multiple views of the same entity.
 
-- [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you to view layouts and modify queries using FetchXML Builder.
+- [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you view layouts and modify queries using FetchXML Builder.
 
 - [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](download-tools-NuGet.md) and display the command lines that are used to create theses classes.
 
-- [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics CRM organization.
+- [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics 365 organization.
 
 - [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility) - The tool helps you to bulk manage personal settings of your Dynamics 365 for Customer Engagement users.
 
