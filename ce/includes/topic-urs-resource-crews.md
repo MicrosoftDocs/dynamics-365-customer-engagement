@@ -98,10 +98,9 @@ Note that requirement groups can't be manually scheduled to crews; only single r
 
 ### 5. Schedule the crew with the schedule assistant (single requirement)
 
-When using the schedule assistant, each crew member can return as individuals in the results; if booked, only that single resource will have a booking. The crew resource can also return in the results if the working hours and other constraints match up. If a crew resource is booked though the schedule assistant, all crew members will be booked along with the crew. 
+When using the schedule assistant, each crew member can appear in results as non-crew individuals; if booked, only that single resource will have a booking. The crew resource can also return in the results if the working hours and other constraints match up. If a crew resource is booked though the schedule assistant, all crew members will be booked along with the crew. 
 
 If you select the crew resource itself and book the crew, the crew and its members will all be booked. 
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing Schedule Assistant results where the crew is an option as are other dynamically assembled teams](../common-scheduler/media/scheduling-crew-schedule-assistant.png)
