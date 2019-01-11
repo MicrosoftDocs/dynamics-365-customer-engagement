@@ -2,7 +2,7 @@
 title: "Validate and publish a model-driven app using the app designer | MicrosoftDocs"
 description: "Learn how to validate and publish a model-driven app"
 keywords: 
-ms.date: 04/16/2018
+ms.date: 01/11/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
