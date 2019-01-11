@@ -25,6 +25,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
+[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
+
 [!INCLUDE[cc-see-nonv-subscription-guide](../includes/cc-see-nonv-subscription-guide.md)]
 
 Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] will find the resources and topics provided in this guide to help you manage and configure [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] Customer Engagement applications and services.
