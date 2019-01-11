@@ -1,8 +1,8 @@
 ---
-title: "Use segmented solutions and patches to simplify solution updates with PowerApps | MicrosoftDocs"
+title: "Use segmented solutions and patches to simplify solution updates | MicrosoftDocs"
 description: "Learn how to use solution segmentation to update your solutions"
 ms.custom: 
-ms.date: 04/25/2018
+ms.date: 01/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

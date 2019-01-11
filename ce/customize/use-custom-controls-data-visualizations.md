@@ -1,8 +1,8 @@
 ---
-title: "Use custom controls for data visualizations in PowerApps | MicrosoftDocs"
+title: "Use custom controls for data visualizations | MicrosoftDocs"
 description: "Learn how to use custom controls for fields"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

@@ -1,8 +1,8 @@
 ---
-title: "Types of fields and field data types in PowerApps | MicrosoftDocs"
+title: "Types of fields and field data types | MicrosoftDocs"
 description: "Understand the different field and data types available for your app"
 keywords: 
-ms.date: 04/25/2018
+ms.date: 01/10/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -31,7 +31,7 @@ search.app:
 
 <a name="BKMK_TypesOfFields"></a>   
 ## Types of fields  
- The following table contains information about the field types available in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].  
+ The following table contains information about the field types available.  
 
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  

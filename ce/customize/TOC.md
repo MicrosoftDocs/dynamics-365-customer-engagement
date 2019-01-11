@@ -13,6 +13,7 @@
 # [Customize or create applications](customize-create-applications.md)  
 ## [Create a theme](change-color-scheme-add-logo-match-organizations-brand.md)
 ## [Create and design forms](create-design-forms.md)
+### [Use the main form and its components](use-main-form-and-components.md)
 ### [Assign form order](assign-form-order.md)
 ### [Control access to forms](control-access-forms.md)
 ### [How main forms appear in different clients](main-form-presentations.md)
