@@ -24,15 +24,19 @@ search.app:
 ---
 # Update your apps to Unified Interface
 
-With Unified Interface by Default, all your apps, including those designed for the legacy web client, run in Unified Interface all the time. Environments with legacy web client apps will show a notification on the Apps home page, prompting System Administrators to update those apps to Unified Interface, as shown below:
+With Unified Interface the default interface, all your apps, including those designed for the legacy web client, run in Unified Interface all the time. Environments with legacy web client apps will show a notification on the Apps home page, prompting System Administrators to update those apps to Unified Interface, as shown below:
 
 **You are using apps designed for the legacy web client. For the best user experience, update your apps to Unified Interface. Learn more**
-<insert Apps home page screenshot>
+
+> [!div class="mx-imgBorder"] 
+> ![Message: using apps designed for legacy web client](media/message-using-app-legacy-web-client.png "Message: using apps designed for legacy web client")
 
 A similar notification will be visible to System Administrators whenever they use an app designed for the legacy web client, as shown below:
 
 **This app is designed for the legacy web client which can cause unexpected errors and experience. For the best user experience, update your app to Unified Interface. Learn more**
-<insert App-specific screenshot>
+
+> [!div class="mx-imgBorder"] 
+> ![Message: using apps designed for legacy web client](media/message-app-designed-legacy-web-client.png "Message: using apps designed for legacy web client")
 
 Based on how the apps were installed on the environment, here's the recommended way to update them to Unified Interface:
 
