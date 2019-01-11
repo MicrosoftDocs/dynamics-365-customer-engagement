@@ -31,11 +31,14 @@ Use this form to search for an available time for a service activity. You can ei
 > [!NOTE]
 > With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create service activities using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
 
- 
-You can’t create a recurring service activity. Create individual service activities as needed. 
+You can’t create a recurring service activity and it is recommended to create individual service activities as per requirement. 
+
+> [!IMPORTANT]
+> when you select resources manually and the system is unable to find a correct selection rule for the selected resources, you see the following error: </br> Can’t determine the correct selection rule for one or more selected resources. </br> In that case, you can: </br> - Either reselect the resources from the selection rule, OR </br> - Ignore the error and select Save. </br> If you choose to save, 1 unit of capacity is depleted for the unresolved resources.
 
 Use the following links to learn more about service scheduling using service activity:
  
 [Navigate the service calendar](navigate-service-calendar-cs-app.md)<br>
 [Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity-cs-app.md)<br/>
 [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)
+[Create a selection rule to determine how resources are selected for service activities (Customer Service app)](create-simple-selection-rule.md)

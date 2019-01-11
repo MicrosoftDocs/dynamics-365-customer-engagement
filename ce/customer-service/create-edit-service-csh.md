@@ -66,6 +66,10 @@ Make sure that you have the required security role or equivalent permissions.
       ![Resource requirement](media/resource-requirement-csh.png)
 
       - Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
+
+        > [!NOTE]
+        > Manual selection of resources is not supported in the new scheduling experience in the Customer Service Hub.
+
       - Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
 
         > [!NOTE]

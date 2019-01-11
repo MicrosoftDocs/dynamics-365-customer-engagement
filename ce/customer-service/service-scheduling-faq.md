@@ -26,17 +26,17 @@ search.app:
 
 Read this topic to find answers to some common questions regarding Service Scheduling, it's legacy and new experience, setup, and some key concepts.
 
-## Do I need Field Service or Project Service license to enable service scheduling for my org?
+## Do I need Field Service or Project Service license to enable service scheduling for my org ?
  
 The new scheduling experience is available to you if you have Dynamics 365 for Customer Engagement for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 for Customer Engagement Plan licenses.
 
-## Is the new scheduling experience automatically available with the next Dynamics 365 for Customer Engagement upgrade?
+## Is the new scheduling experience automatically available with the next Dynamics 365 for Customer Engagement upgrade ?
 
 Scheduling in the Customer Service Hub is a customer driven update. You need to avail and enable the new service scheduling package, which will also include Universal Resource Scheduling (URS) functionality. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
 
-## What is the migration path to the new service scheduling, now powered by Universal Resource Scheduling (URS)? 
+## What is the migration path to the new service scheduling, now powered by Universal Resource Scheduling (URS) ? 
 
 Currently, you need to configure all the service scheduling configuration data using the new interface. 
 
@@ -44,6 +44,9 @@ You can migrate existing service activities by running scripts as shown in [Samp
 
 > [!NOTE]
 > We are working towards an automated migration path in our future release. 
+
+## Is manual selection of resources supported in the new scheduling experience ?
+No, manual selection of resources is not supported in the new scheduling experience in the Customer Service Hub.
 
 
 ### See also
