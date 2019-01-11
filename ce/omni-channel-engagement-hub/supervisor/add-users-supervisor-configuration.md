@@ -1,5 +1,5 @@
 ---
-title: "Add users to access supervisor dashboards"
+title: "Add users to the supervisor configuration"
 description: 
 keywords: ""
 author: udaykirang
@@ -12,16 +12,20 @@ ms.topic: article
 ms.assetid: d5c757b8-3fbc-41db-b59f-7b2ab7baa70a
 ms.custom: 
 ---
-# Add users to supervisor configuration 
+# Add users to the supervisor configuration
 
-You must add users in the supervisor configuration to access the configured dashboard in Unified Service Desk. To add users in supervisor configuration, follow these steps:
+Before users can access the supervisor dashboard in Unified Service Desk, you must add them to the supervisor configuration. Follow these steps to add users to the supervisor configuration.
 
-1. Log in to Dynamics 365.
-2. Go to **Settings**, **Unified Service Desk** and then select **Configuration**.
-3. On the configuration page, select **Supervisor Configuration**.
-    ![select supervisor configuration ](../media/oc-usd-supervisor-select-supervisor-configuration.png "Select supervisor configuration ")  
-4. On the **Users** section, select **+ Add User record** and enter the user name to add the user.
-     ![add users for supervisor configurations](../media/oc-usd-supervisor-configuration-add-users.png "Add users for supervisor configurations")  
+1. Sign in to Microsoft Dynamics 365.
+2. Go to **Settings** \> **Unified Service Desk**, and then select **Configuration**.
+3. On the **Configuration** page, select **Supervisor Configuration**.
+
+    ![Select Supervisor Configuration](../media/oc-usd-supervisor-select-supervisor-configuration.png "Select Supervisor Configuration")
+
+4. In the **Users** section, select **Add User record**, and enter the user name of the user that you want to add.
+
+    ![Add users for the supervisor configuration](../media/oc-usd-supervisor-configuration-add-users.png "Add users for the supervisor configuration")
+
 5. Save and close the configuration.
 
-Users are added to the supervisor dashboard and when they log in to Omni-channel Engagement Hub, the supervisor dashboard is displayed.
+The users are added to the supervisor dashboard. When those users sign in to Omni-channel Engagement Hub, the supervisor dashboard appears.
