@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook Overview (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/06/2018
+ms.date: 01/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -32,27 +32,14 @@ search.app:
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.   
 
- <!-- [Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
+For more information on how to deploy and customize the app and how to use it, see:
 
-## Known issues
+-   [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)
+  
+-   [Dynamics 365 App for Outlook User Guide](dynamics-365-app-outlook-user-s-guide.md) 
 
-- Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
-- Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
+-   [Dynamics 365 App for Outlook User Guide](dynamics-365-app-outlook-user-s-guide.md)
 
-For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md). 
-
-## What's new in Dynamics 365 App for Outlook
-
-The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
-
-- Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] functionality is now included.
-- Global search or multi-entity search. Use global search to search for a keyword in multiple entities at the same time. Global search uses the quick find view for the various entities to search for records.
-- Forms. View and edit forms the same as what you see in the mobile experience. 
-- Dashboards. View and edit dashboards the same as what you see in the mobile experience.
-- Insights. Use Relationship assistant to get insights into your customers.
-
-
-<a name="Overview"></a>   
 
 ## What Dynamics 365 App for Outlook offers  
  With [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], you can:  
@@ -70,6 +57,28 @@ The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version 
 - Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
   
 - Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+
+
+## What's new in Dynamics 365 App for Outlook
+
+The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
+
+- Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] functionality is now included.
+- Global search or multi-entity search. Use global search to search for a keyword in multiple entities at the same time. Global search uses the quick find view for the various entities to search for records.
+- Forms. View and edit forms the same as what you see in the mobile experience. 
+- Dashboards. View and edit dashboards the same as what you see in the mobile experience.
+- Insights. Use Relationship assistant to get insights into your customers.
+
+For more information on what's new, see [What's new with Dynamics 365 App for Outlook](whats-new.md).
+
+
+## Known issues
+
+- Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
+- Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
+
+For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md). 
+
 
 ### See also
 [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)<br />
