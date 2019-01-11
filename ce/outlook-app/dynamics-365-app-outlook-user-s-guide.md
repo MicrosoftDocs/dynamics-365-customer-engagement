@@ -245,7 +245,7 @@ Some of what the assistant can do for you:
 
 When you start your day by signing in to Dynamics 365 for Customer Engagement apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
 
-To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
+To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png) > **Relationship Assistant**.
 
 ![Relationship Assistant](media/relationship-assistant.png)
 
