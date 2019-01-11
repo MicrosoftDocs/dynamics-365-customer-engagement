@@ -15,7 +15,7 @@ ms.custom:
 
 # removeContextProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[removeContextProvider-description](includes/removeContextProvider-description.md)]
+[!INCLUDE[removeContextProvider-description](../includes/removeContextProvider-description.md)]
 
 ## Syntax
 

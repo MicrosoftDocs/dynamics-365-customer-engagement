@@ -15,7 +15,7 @@ ms.custom:
 
 # startchat (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[startchat-description](includes/startchat-description.md)]
+[!INCLUDE[startchat-description](../includes/startchat-description.md)]
 
 ## Syntax
 

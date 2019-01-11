@@ -15,7 +15,7 @@ ms.custom:
 
 # removeAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[removeAuthTokenProvider-description](includes/removeAuthTokenProvider-description.md)]
+[!INCLUDE[removeAuthTokenProvider-description](../includes/removeAuthTokenProvider-description.md)]
 
 ## Syntax
 

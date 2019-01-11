@@ -15,7 +15,7 @@ ms.custom:
 
 # getAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[getAuthTokenProvider-description](includes/getAuthTokenProvider-description.md)]
+[!INCLUDE[getAuthTokenProvider-description](../includes/getAuthTokenProvider-description.md)]
 
 ## Syntax
 

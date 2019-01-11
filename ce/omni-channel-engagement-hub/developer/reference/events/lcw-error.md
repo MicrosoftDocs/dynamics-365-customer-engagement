@@ -15,7 +15,7 @@ ms.custom:
 
 # lcw:ready (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[lcw-error-description](includes/lcw-error-description.md)]
+[!INCLUDE[lcw-error-description](../includes/lcw-error-description.md)]
 
 ## See also
 

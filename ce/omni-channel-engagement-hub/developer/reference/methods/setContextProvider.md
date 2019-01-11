@@ -15,7 +15,7 @@ ms.custom:
 
 # setContextProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[setContextProvider-description](includes/setContextProvider-description.md)]
+[!INCLUDE[setContextProvider-description](../includes/setContextProvider-description.md)]
 
 > [!IMPORTANT]
 > The context is a collection of key value pairs. Only primitive values are allowed for any key.

@@ -15,7 +15,7 @@ ms.custom:
 
 # getContextProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-[!INCLUDE[getContextProvider-description](includes/getContextProvider-description.md)]
+[!INCLUDE[getContextProvider-description](../includes/getContextProvider-description.md)]
 
 ## Syntax
 
