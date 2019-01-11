@@ -34,7 +34,9 @@ Use this form to search for an available time for a service activity. You can ei
 You can’t create a recurring service activity and it is recommended to create individual service activities as per requirement. 
 
 > [!IMPORTANT]
-> When you select resources manually and the system is unable to find a correct selection rule for the selected resources, you see the following error: </br> Can’t determine the correct selection rule for one or more selected resources. </br> In that case, you can: </br> - Either reselect the resources from the selection rule, OR </br> - Ignore the error and select Save. </br> If you choose to save, 1 unit of capacity is depleted for the unresolved resources.
+> While creating a service activity, when you select resources manually and the system is unable to find a correct selection rule for the selected resources, you see the following error: </br>  </br>
+Can’t determine the correct selection rule for one or more selected resources. </br> </br>
+In that case, you can either reselect the resources from the selection rule or ignore the error and select Save. If you choose to save, 1 unit of capacity is depleted for the unresolved resources.
 
 Use the following links to learn more about service scheduling using service activity:
  
