@@ -1,6 +1,6 @@
 ---
 title: "Create agent and supervisor configurations in Unified Service Desk"
-description: 
+description: "Learn how to create and manage agent and supervisor configurations in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,23 +12,23 @@ ms.topic: article
 ms.assetid: 1bfd9c9b-1825-4369-9699-7add3e190e44
 ms.custom: 
 ---
-# Configure agent and supervisor configurations in Unified Service Desk
+# Create agent and supervisor configurations in Unified Service Desk
 
-A configuration in Unified Service Desk helps you filter access to components that are displayed in the Omni-channel Engagement Hub application to a user. In this step, create an agent and supervisor configuration.
+A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omni-channel Engagement Hub application. Follow these steps to create an agent configuration and a supervisor configuration.
 
 1.  Sign in to Dynamics 365.
 
-2.  Go to **Settings** &gt; **Unified Service Desk**.
+2.  Go to **Settings** > **Unified Service Desk**.
 
 3.  Click **Configuration**.
 
 4.  Click **New**.
 
-5.  On the **New Configuration** page, in the **Name** field, type **Omni-channel Agent Configuration** and click **Save**.
+5.  On the **New Configuration** page, in the **Name** field, type **Omni-channel Agent Configuration** and then select **Save**.
 
-6.  Now, repeat the step 4 and 5 to create the **Omni-channel Supervisor Configuration**.
+6.  Now, repeat the step 4 and 5 to create **Omni-channel Supervisor Configuration**.
 
-    Omni-channel Supervisor Configuration
+Omni-channel Supervisor Configuration
 
 ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
 
@@ -36,3 +36,14 @@ Omni-channel Supervisor Configuration
 
 ![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
 
+> [!div class="nextstepaction"]
+> [Next topic: Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+
+## See also
+
+- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Customize customer 360 form](customize-customer-360-page.md)
+- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
+- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Customize the conversation form](customize-conversation-form.md)

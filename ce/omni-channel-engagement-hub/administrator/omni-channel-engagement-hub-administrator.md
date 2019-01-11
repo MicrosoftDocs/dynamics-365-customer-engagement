@@ -2,8 +2,8 @@
 title: "Omni-channel engagement hub for administrators"
 description: 
 keywords: ""
-author: kabala123; anjgupta
-ms.author: kabala; anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 applies_to: 
 ms.date: 11/13/2018

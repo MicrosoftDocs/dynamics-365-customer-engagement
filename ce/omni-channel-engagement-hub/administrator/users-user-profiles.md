@@ -15,73 +15,74 @@ ms.custom:
 
 # Create and manage users and user profiles
 
-All Dynamics 365 users who have omni-channel supervisor or omni-channel agent role assigned to them, automatically become omni-channel users. Omni-channel users are assigned roles in the system to distinguish them based on responsibilities.
+All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or omni-channel agent security role automatically become omni-channel users. Omni-channel users are then assigned roles in the system to distinguish them according to their responsibilities.
 
-You can view the list of omni-channel users in **Omni-channel Users** view as you log in into omni-channel.
+When you sign in to omni-channel, you can view the list of omni-channel users in the **Omni-channel Users** view.
 
-![omni-channel users](../media/omni-channel-users.png)
+![Omni-channel users](../media/omni-channel-users.png)
 
-User profiles are a template of properties associated with a set of omni-channel users. For example, in an organization of 100 omni-channel users, you can create a user profile as Subject Matter Experts, and associate trained and experienced agents with the profile, so that all specific customer queries which require expert acumen can be routed to these agents.
+User profiles are a template of properties that are associated with a set of omni-channel users. For example, in an organization that has 100 omni-channel users, you can create a **Subject Matter Experts** user profile, and associate trained and experienced agents with it. Then, all customer queries that require expert knowledge can be routed to agents who are associated with that user profile.
 
-The key properties that are associated with the users to define a user profile are:
+Here are the main properties that are associated with users to define a user profile:
 
 - Capacity
 - Default presence status
 - Work streams
 - Omni-channel queues
 
-As an administrator, you can assign the properties at both User and User profile level. For example, you define the capacity for a user as 50 units, but the capacity in the profile with which the user is associated, is 40 units. During conversation allocation, user capacity will override user profile capacity and the agent will be assigned a conversation of capacity 50 units.
+As an admin, you can assign the properties at both the user level and the user profile level. For example, you define the capacity for a user as 50 units, but you define the capacity in the user profile that the user is associated with as 40 units. During conversation allocation, capacity that is defined at the user level overrides capacity that is defined at the user profile level. Therefore, the agent will be assigned a conversation that has a capacity of 50 units.
 
-See the below table to understand how various properties can be associated and how they affect routing and work distribution:
+The following table shows how various properties can be associated, and how they affect routing and work distribution.
 
-| Properties                                                | User | User Profile | Effect during routing and work distribution rules     |
-|-----------------------------------------------------------|------|--------------|-------------------------------------------------------|
-| Capacity                                                  |      |              | User capacity will over ride                          |
-| Work streams                                              |      |              | Union of Channels                                     |
-| Queues                                                    |      |              | Union of Queues                                       |
-| Conversations (Conversations, Cases, Leads, Custom entities) |      |              | No relationship between agent profiles and conversations |
+| Properties                                                   | User | User profile | Effect during routing and work distribution              |
+|--------------------------------------------------------------|------|--------------|----------------------------------------------------------|
+| Capacity                                                     |   Y   |     Y         | User capacity overrides user profile capacity            |
+| Work streams                                                 |  Y    |      Y        | Union of channels                                        |
+| Queues                                                       |   Y   |      Y        | Union of queues                                          |
+| Conversations (Conversations, cases, leads, custom entities) |   Y   |       N       | No relationship between agent profiles and conversations |
 
-A user profile can have many omni-channel users, but an omni-channel user can inherit only one user profile. For example, a user profile **Subject Matter Experts** can contain many agents, but the agent Gilda Moss can only be associated with one profile i.e. **Subject Matter Experts.** You cannot associate Gilda Moss with **Experienced Agents** user profile.
+A user profile can have many omni-channel users, but an omni-channel user can inherit only one user profile. For example, a user profile that is named **Subject Matter Experts** can contain many agents, but the agent who is named Gilda Moss can be associated with only one profile, such as **Subject Matter Experts**. You can't also associate Gilda Moss with the **Experienced Agents** user profile.
 
 ## Manage a new user
 
-Use the Office 365 Admin Center to create user accounts for every user who needs access to Omni-channel Engagement Hub. All users who are assigned the omni-channel supervisor or omni-channel agent security role become omni-channel users.
+Use the Microsoft Office 365 Admin center to create user accounts for every user who requires access to Omni-channel Engagement Hub. All users who are assigned the omni-channel supervisor or omni-channel agent security role become omni-channel users.
 
-For more information, see [Create users in Dynamics 365 (online)and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+For more information, see [Create users in Dynamics 365 (online) and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
-You can view the list of omni-channel users in **Omni-channel Users** view when you log in to omni-channel.
+When you sign in to omni-channel, you can view the list of omni-channel users in the **Omni-channel Users** view.
 
-Follow these steps to update the details of a user in the Omni-channel Engagement Hub:
+Follow these steps to update the details of a user in Omni-channel Engagement Hub.
 
-1. In the Omni-channel site map, select **User Management > Users**. </br>
-The **Omni-channel Users** view is displayed. 
+1. In the omni-channel site map, select **User Management \> Users**.
 
-2. Fill in the details about the user in the respective tabs:
+    The **Omni-channel Users** view is shown. 
 
-     - In the **Summary** tab: 
+2. On each tab, provide the appropriate information about the user:
 
-         - Provide details about the user in the **User Information** section.
-         - Provide details of the user’s organization in the **Organization Information** section.
-        - Specify the team to which the user belong in the **Teams** section.
-         - Assign a queue to the user in the **Queue Information** section.
+    - **Summary**: 
 
-     - In the **Details** tab:
+        - In the **User Information** section, enter details about the user.
+        - In the **Organization Information** section, enter details about the user's organization.
+        - In the **Teams** section, specify the team that the user belongs to.
+        - In the **Queue Information** section, assign a queue to the user.
 
-        - Provide contact information in the **User Information** section.
-        - Provide address details in the **Address** section.
-        - Add existing users as the direct reports for the user in the **Direct Reports** section.
+    - **Details**:
 
-    - In the **Administration** tab: 
+        - In the **User Information** section, enter contact information.
+        - In the **Address** section, enter address details.
+        - In the **Direct Reports** section, add existing users as direct reports for the user.
 
-        - Select the access mode from the drop-down list in the **Client Access License Information** section.
-        - Select the mailbox associated with the user in the **Email Configuration** section.
+    - **Administration**: 
 
-    - In the **Omni-channel** tab:
+        - In the **Client Access License Information** section, select the access mode in the drop-down list.
+        - In the **Email Configuration** section, select the mailbox that is associated with the user.
 
-        - Assign capacity and default presence status in the **User Details** section.
-        - Assign an existing omni-channel queue in the **Omni-channel Queues** section.
-        - Assign an existing work stream in the **Work Streams** section.
+    - **Omni-channel**:
+
+        - In the **User Details** section, assign a capacity and a default presence status.
+        - In the **Omni-channel Queues** section, assign an existing omni-channel queue.
+        - In the **Work Streams** section, assign an existing work stream.
 
 3. Select **Save** to the save the user record.
 
-You can also enable or disable a user in omni-channel. Select a user record in **Omni-channel Users** view and select **Enable** or **Disable** in the command bar.
+You can also enable or disable a user in omni-channel. Select the user record in **Omni-channel Users** view, and then select **Enable** or **Disable** on the command bar.
