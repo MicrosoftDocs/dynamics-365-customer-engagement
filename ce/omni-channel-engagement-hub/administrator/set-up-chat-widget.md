@@ -86,7 +86,7 @@ You can add questions to the question library in a work stream. You can then use
 
 5. On the **New Survey Question** page, provide the following information:
 
-    - **Question name**: Enter a name for the question. The name must be unique across work stream.
+    - **Question name**: Enter a name for the question. The name must be unique within a work stream.
     - **Answer type**: Select the type of answer that is required from users:
 
         - **Single line**: The user can enter a single line of text.
@@ -96,7 +96,7 @@ You can add questions to the question library in a work stream. You can then use
         ![Question where the answer type is Option set](../media/oc-option-set-answer-type.png "Question where the answer type is Option set")
 
     - **Question text**: Enter the text of the question.
-    - **Help text**: Enter Help text that will be shown to the user as a watermark.
+    - **Help text**: Enter help text that will be shown to the user as a watermark.
 
     ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
 
@@ -104,7 +104,7 @@ You can add questions to the question library in a work stream. You can then use
 
 ## Set up quick replies
 
-Quick replies are template messages that agents can use to quickly reply to common questions from customers. For information about the agent experience for quick replies, see [Send quick replies in the chat](../agent/left-control-panel.md#send-quick-replies-in-the-chat).
+Quick replies are pre-defined messages that agents can use to quickly reply to common questions from customers. For information about the agent experience for quick replies, see [Send quick replies in the chat](../agent/left-control-panel.md#send-quick-replies-in-the-chat).
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Quick Responses**.
