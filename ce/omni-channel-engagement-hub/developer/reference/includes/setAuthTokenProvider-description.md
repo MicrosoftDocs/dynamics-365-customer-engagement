@@ -1,0 +1,1 @@
+Sets the auth-token provider.<br />The auth-token provider function when called with a `callbackfunction` as parameter, will invoke the callbackfunction with a valid JSON Web Token(JWT) string as argument.

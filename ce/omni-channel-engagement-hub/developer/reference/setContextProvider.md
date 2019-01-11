@@ -17,15 +17,18 @@ ms.custom:
 
 [!INCLUDE[setContextProvider-description](includes/setContextProvider-description.md)]
 
+> [!IMPORTANT]
+> The context is a collection of key value pairs. Only primitive values are allowed for any key.
+
 ## Syntax
 
-`setContextProvider(contextProvider()).then(successCallback, errorCallback);`
+`setContextProvider(contextProvider);`
 
 ## Parameters
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| contextProvider | Function |  |
+| contextProvider | Function | Function which would act as context provider |
 
 ## Return Value
 

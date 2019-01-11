@@ -17,4 +17,17 @@ ms.custom:
 
 [!INCLUDE[removeContextProvider-description](includes/removeContextProvider-description.md)]
 
-##
+## Syntax
+
+`removeContextProvider();`
+
+## Parameters
+
+None
+
+## Return Value
+
+None
+
+## Example
+

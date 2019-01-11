@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`getContextProvider().then(successCallback, errorCallback);`
+`getContextProvider();`
 
 ## Parameters
 

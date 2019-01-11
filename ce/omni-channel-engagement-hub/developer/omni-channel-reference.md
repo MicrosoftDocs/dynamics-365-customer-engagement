@@ -23,3 +23,12 @@ Provides JavaScript methods that you can use to perform various operations with 
 |---------|-------------|
 | [getContextProvider](reference/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
 | [setContextProvider](reference/setContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
+| [removeContextProvider](reference/removeContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/removeContextProvider-description.md)] |
+| [getAuthTokenProvider](reference/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
+| [setAuthTokenProvider](reference/setAuthTokenProvider.md) | [!INCLUDE[setAuthTokenProvider-description](reference/includes/setAuthTokenProvider-description.md)] |
+| [removeAuthTokenProvider](reference/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
+| [startchat](reference/startchat.md) | [!INCLUDE[startchat-description](reference/includes/startchat-description.md)] |
+
+## See also
+
+[Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)
