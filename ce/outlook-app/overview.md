@@ -36,7 +36,7 @@ For more information on how to deploy and customize the app and how to use it, s
 
 -   [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)
   
--   [Customize 365 App for Outlook User Guide](customize-the-track-regarding-card.md) 
+-   [Customize 365 App for Outlook](customize-the-track-regarding-card.md) 
 
 -   [Dynamics 365 App for Outlook User Guide](dynamics-365-app-outlook-user-s-guide.md)
 
