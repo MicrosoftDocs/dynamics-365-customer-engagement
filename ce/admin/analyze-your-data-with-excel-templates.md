@@ -1,7 +1,7 @@
 ---
 title: "Analyze your data with Excel templates for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 01/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -122,7 +122,7 @@ search.app:
 ### Step 3: Upload the template and share with others  
  When you have your [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Where you upload the template determines its availability.  
   
- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can use the Settings page to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can use the Settings page to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
   
 #### For admins: Upload the Excel template into Dynamics 365 for Customer Engagement apps 
   
@@ -250,11 +250,11 @@ search.app:
   
  **Consider the following scenario:**  
   
-- A [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator creates a template with sensitive data in pivot charts and uploads the template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
+- A [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator creates a template with sensitive data in pivot charts and uploads the template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 - A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file to do some data analysis.  
   
-  **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator including access to views the salesperson does not have permissions for.  
+  **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator including access to views the salesperson does not have permissions for.  
   
   **In addition.** iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] app on iOS devices.  
   
@@ -283,7 +283,7 @@ search.app:
   
 <a name="BKMK_SecurityRole"></a>   
 ## Use security roles to control access to templates  
- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can control access to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates with some granularity. For example, you can give salespeople Read but not Write access to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can control access to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates with some granularity. For example, you can give salespeople Read but not Write access to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template.  
   
 1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, click **Settings** > **Security** > **Security Roles**.  
   
@@ -307,7 +307,7 @@ search.app:
 4.  Select the personal document template to delete, and then click Delete (![Delete button](../admin/media/nb-ua-r1-trashbin.png "Delete button")).  
   
 ### Excel template does not upload in Microsoft Edge  
- If your [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template does upload in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps when using [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] as your browser, update [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] and try again.  
+ If your [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template does not upload in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps when using [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] as your browser, update [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] and try again.  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]

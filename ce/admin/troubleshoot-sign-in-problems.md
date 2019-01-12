@@ -44,7 +44,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
  To reset user passwords, you use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Reset a user's password](https://support.office.com/article/Reset-a-users-password-7a5d073b-7fae-4aa5-8f96-9ecd041aba9c)  
   
 ### If you’re not an administrator  
- If you’re not an administrator, and you forgot your password, you’ll need to contact your administrator and ask for a password reset. Once your administrator resets your password, you’ll receive an email with instructions on how to sign in and enter a new password. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)  
+ If you’re not an administrator, and you forgot your password, you’ll need to contact your administrator and ask for a password reset. Once your administrator resets your password, you’ll receive an email with instructions on how to sign in and enter a new password. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
   
 ## Signing in  
   
@@ -77,7 +77,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
  You can sign in directly to Customer Engagement apps or [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can also sign in at https:/portal.office.com.  
   
 #### Sign in directly to Dynamics 365 for Customer Engagement apps (online)  
- Your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator provides the direct Customer Engagement apps URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)  
+ Your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator provides the direct Customer Engagement apps URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
   
 > [!NOTE]
 >  If you’re in a region other than North America, substitute “*crm*” in the URL with:  
@@ -99,7 +99,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
   
 **What if I’m still using a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] to sign in to Customer Engagement apps?**  
   
-Use the email address provided by your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator (sent in an email invitation). Verify that you’re using the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address that the email invitation was sent to. Note that you can’t sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] with a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. [Troubleshoot problems with your Microsoft account user name or password.](http://go.microsoft.com/fwlink/p/?LinkId=225672)  
+Use the email address provided by your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator (sent in an email invitation). Verify that you’re using the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address that the email invitation was sent to. Note that you can’t sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] with a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. [Troubleshoot problems with your Microsoft account user name or password.](http://go.microsoft.com/fwlink/p/?LinkId=225672)  
   
 #### Sign in directly to Microsoft Social Engagement  
  Your administrator provides the direct URL for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] in an email invitation. This URL will be in the following format: https://listening.microsoft.com/app/\<appID>/. If you can’t find the URL, contact your administrator.  

@@ -647,6 +647,6 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 ```  
   
 ### See also  
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)   
+ [Change Application Navigation using the SiteMap](../../developer/customize-dev/change-application-navigation-using-sitemap.md)   
  [Customization Solutions File Schema](customization-solutions-file-schema.md)   
  [Customization XML Reference](../customization-xml-reference.md)

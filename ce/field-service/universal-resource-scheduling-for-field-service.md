@@ -72,7 +72,7 @@ The following list shows which components correspond to Field Service and URS:
 - Work orders (**Field Service**)
 - Bookable resources (**Universal Resource Scheduling**) 
 - Resource requirements (**Universal Resource Scheduling**)
-- Resource rookings (**Universal Resource Scheduling**)
+- Resource bookings (**Universal Resource Scheduling**)
 - Schedule tools - schedule board, schedule assistant (**Universal Resource Scheduling**)
 - Resource Scheduling Optimization (installed separately) (**Universal Resource Scheduling**)
 

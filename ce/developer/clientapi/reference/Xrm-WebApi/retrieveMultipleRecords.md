@@ -62,7 +62,7 @@ search.app:
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when entity records are retrived. An object with the following attributes is passed to the function:</p>
+<td><p>A function to call when entity records are retrieved. An object with the following attributes is passed to the function:</p>
 <ul>
 <li><b>entities</b>: An array of JSON objects, where each object represents the retrieved entity record containing attributes and their values as <code>key: value</code> pairs. The Id of the entity record is retrieved by default.</li>
 <li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <code>maxPageSize</code> parameter in the request, this attribute returns the URL to return next set of records.</li>
