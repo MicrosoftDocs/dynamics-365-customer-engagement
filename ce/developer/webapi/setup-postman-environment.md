@@ -103,7 +103,7 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 3. In the **Manage Environments** dialog box, select the **Add** button to add a new environment.
 4. In the dialog box that opens, add a name for the environment. Then copy the following key-value pairs into the editing space.
 
-  |||
+  | Variable Name | Value |
   |----|---|
   |`url`|`http://yourservername/yourorgname`|
   |`version`|`8.2`|
