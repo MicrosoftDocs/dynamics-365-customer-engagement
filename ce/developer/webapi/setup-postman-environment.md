@@ -12,7 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
-author: SushantSikka
+author: susikka
 ms.author: susikka
 manager: shujoshi
 search.audienceType: 
