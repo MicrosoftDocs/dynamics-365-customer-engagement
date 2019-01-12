@@ -229,38 +229,6 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-## Customize the track regarding card
-
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
-
-![Initial contact card](media/initial-contact-card.png "Initial contact card")
-
-To change the fields that appear, follow these steps:
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Expand **Entities** and choose an entity such as **Contact**.
-3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
-
-   ![Contact entity form](media/contact-entity-form.png)
-
-4. Drag **Company Name** above **Business Phone**.
-
-   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
-
-   ![After dragging field](media/after-dragging-fields.png "After dragging field")
-
-   > [!NOTE]
-   > The first three fields appear in the track regarding card.
-
-5. Select **Save**, **Publish**, and then close the form editor.
-6. On the solution page, **Publish All Customizations**. 
-7. Close the solutions page.
-
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
-
-![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The company name now appears after the contact name in the Contact card.
-
 ## Compose an email message and link it to a Dynamics 365 for Customer Engagement apps record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 for Customer Engagement apps record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
 
@@ -277,7 +245,7 @@ Some of what the assistant can do for you:
 
 When you start your day by signing in to Dynamics 365 for Customer Engagement apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
 
-To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
+To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png) > **Relationship Assistant**.
 
 ![Relationship Assistant](media/relationship-assistant.png)
 
@@ -530,50 +498,6 @@ To turn enable this, an administrators
 2. Select the view you want.  
 
    ![Dynamics 365 App for Outlook with contract tracking filter drop-down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
-
-## Add a custom entity to Quick create
-
-Follow these steps to enable a custom entity to appear in Quick create.
-
-![Custom entity in Quick create](media/custom-entity-quick-create.png) 
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
-
-   ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
-3. Verify the custom entity has a quick create form. Chose **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
-
-   ![Quick create form](media/quick-create-form.png "Quick create form")
-4. Verify the custom entity is added to the app designer. Choose **Apps**, and then open **App for Outlook**.
-
-   ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
-5. In the app designer, choose **Entities** and browse to find your custom entity.
-
-   ![Custom entity in app designer](media/custom-entity-app-designer.png)
-
-## Enable a custom entity to appear in the Regarding lookup
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
-
-   ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
-   
-    > [!NOTE]
-   > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook).
-
-## Search on custom field in Regarding lookup
-
-To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose an entity, then choose **Views**.
-3. Open **Account Lookup View**.
-
-   ![Account lookup view](media/account-lookup-view.png)
-4. Enable the custom field, and then choose **OK**.
-
-   ![Enable custom field](media/add-custom-field.png)
-5. Choose **Save** > **Publish** on the **Home** tab.
 
 ## Synchronization and tracking 
 
