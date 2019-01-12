@@ -2,7 +2,7 @@
 title: "Set up a Postman environment (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 for Customer Engagement online and on-premises environments."
 ms.custom: 
-ms.date: 12/20/2018
+ms.date: 01/12/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,7 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
-author: SushantSikka
+author: susikka
 ms.author: susikka
 manager: shujoshi
 search.audienceType: 
@@ -54,14 +54,14 @@ Use these steps to create a Postman environment that you can use to connect with
   
 1. In the dialog box that opens, type a name for the environment. Then add the following key-value pairs into the editing space.<br>
 
-    |||
+    | Variable name | Value |
     |----|---|
-    |url|`https://<add your environment name, like ‘myorg.crm’>.dynamics.com`|
-    |clientid|`51f81489-12ee-4a9e-aaae-a2591f45987d`|
-    |version|`9.0`|
-    |webapiurl|`{{url}}/api/data/v{{version}}/`|
-    |callback|`https://callbackurl`|
-    |authurl|`https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}`|
+    |`url`|`https://<add your environment name, like ‘myorg.crm’>.dynamics.com`|
+    |`clientid`|`51f81489-12ee-4a9e-aaae-a2591f45987d`|
+    |`version`|`9.0`|
+    |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
+    |`callback`|`https://callbackurl`|
+    |`authurl`|`https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}`|
 
     ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman   environment to connect with Online instance")<br>
 1. Replace the instance URL placeholder value with the URL of your Dynamics 365 for Customer Engagement apps instance, and select **Add** to save the environment.
@@ -105,9 +105,9 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 
   |||
   |----|---|
-  |url|`http://yourservername/yourorgname`|
-  |version|`8.2`|
-  |webapiurl|`{{url}}/api/data/v{{version}}/`|
+  |`url`|`http://yourservername/yourorgname`|
+  |`version`|`8.2`|
+  |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
   ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
 

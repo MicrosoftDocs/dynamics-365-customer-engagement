@@ -2,7 +2,7 @@
 title: "Use Postman to perform operations with the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to compose and send Web API requests using Postman."
 ms.custom: 
-ms.date: 12/20/2018
+ms.date: 01/12/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,9 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: AB50128B-D8E3-47A3-A0F8-9594EF6B7022
 caps.latest.revision: 7
-author: SushantSikka
+author: susikka
 ms.author: susikka
-manager: sakudes
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 
