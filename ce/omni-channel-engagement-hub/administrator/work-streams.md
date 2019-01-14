@@ -161,10 +161,6 @@ Follow these steps to create a new Live Chat work stream.
 
 4. Select **Save** to save the routing rule item.
 
-5. On the **Agents** tab, select **Add Existing User** to add agents to the work stream. In the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.
-
-    To select users from other views, you can select **Change View** to change the view.
-
 6. Select **Save** to save the Live Chat work stream.
 
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
