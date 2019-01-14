@@ -23,12 +23,12 @@ As an admin, you can set up a chat widget for your website to engage with your c
 3. Select **New** to create a work stream.
 4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**.
 5. Specify values under **Agents**, **Agent Profiles**, and **Context Variable**. For more information, see [Create and manage work streams](work-streams.md).
-6. On the **Chat settings** tab, in the **Chat engagements** section, select **Add**.
+6. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
 7. On the **New Chat Widget** page, provide the appropriate information on each tab:
 
     - **Basic details**:
 
-        1. In the **General information** section, enter a name for the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see the [Set up authentication settings](#set-up-authentication-settings) section later in this topic.
+        1. In the **General information** section, enter a name for the chat widget. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see the [Set up authentication settings](#set-up-authentication-settings) section later in this topic.
         2. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. If you don't specify a domain, the chat widget is shown in all configured domains. The domain format should not include the protocol (for example, **http** or **https**).
         3. Copy the value in the **Code snippet** section, and embed it in the HTML source of your website.
 
