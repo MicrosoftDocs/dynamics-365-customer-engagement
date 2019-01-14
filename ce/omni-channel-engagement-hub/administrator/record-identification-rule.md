@@ -79,6 +79,7 @@ For each new work stream, update the condition variable values, and make sure th
              
 For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
 
+
 **Authenticated chat**
 | Question name  | Answer type    | Question text |
 |----------------|----------------|---------------|
