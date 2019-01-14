@@ -25,7 +25,7 @@ The following scenario should help you understand how the routing and work distr
     | Work distribution mode     | **Push** |
     | Omni-channel routing rules | <ul><li>If **Category** = **Billing**, assign to **Billing Queue**</li><li>If **Category** = **Product**, assign to **Product Queue**</li></ul> |
     | Omni-channel queues        | <ul><li>**Billing Queue**: Members = **Gilda**, **Bert**</li><li>**Product Queue**: Members = **Jill**, **Shana**</li> |
-    | Users and user profiles    | Agents = **Gilda**, **Bert**, **Jill**, **Shana** |
+    | Users   | Agents = **Gilda**, **Bert**, **Jill**, **Shana** |
     | Presence status            | **Available** or **Busy** |
 
 - All incoming conversations are marked with a unique work stream name, and they inherit the properties that were defined in that work stream during runtime evaluation.
