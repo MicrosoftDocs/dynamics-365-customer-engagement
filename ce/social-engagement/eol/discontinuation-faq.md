@@ -106,6 +106,8 @@ Please refer to the [Release Notes](https://dynamics.microsoft.com/business-appl
 ### What is the difference in capabilities between MSE and Dynamics 365 Market Insights?
 
 Dynamics 365 Market Insights will focus more on enabling businesses with AI-powered social and web insights and will have combined capabilities and insights from Microsoft Social Engagement and Bing Search. The public preview release of Market Insights currently contains the original capabilities of Microsoft Social Engagement on the same UI, along with new features such as age and demographics insights from Bing search. For more details, please access the [Comparison guide](comparison-mse-mi.md).
+
+![Market Insights app ecosystem](../media/app-ecosystem-ai4mi.png)
  
 ###	What is the international availability of Dynamics 365 Market Insights?
 
