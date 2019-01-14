@@ -77,13 +77,14 @@ Copy the following code snippet in the **Record Identification Rule** text box w
 
 For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`. 
              
-For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
-
+For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey:
 
 **Authenticated chat**
 | Question name  | Answer type    | Question text |
 |----------------|----------------|---------------|
 | CaseNumber     | Multiple lines | Case Number   |
+|||
+
 
 **Unauthenticated chat**
 | Question name | Answer type    | Question text |
@@ -92,6 +93,7 @@ For the preceding record identification rules to work, you **must** create the f
 | Name          | Single line    | Name          |
 | Email         | Single line    | Email         |
 | Phone         | Single line    | Phone         |
+|||
             
 For information about how to create questions and use them in a pre-chat survey, see [Set up a question library](set-up-chat-widget.md#set-up-a-question-library) and [Set up a pre-chat survey](set-up-chat-widget.md#set-up-a-pre-chat-survey). 
             
