@@ -28,6 +28,7 @@ search.app:
 Customers are indicating they need a solution that provides social and web insights rather than limited social listening capabilities. To keep up with the evolving advancements of the industry, Dynamics 365 is investing in AI capabilities to combine insights from social media and Bing search 
 We recommend Microsoft Social Engagement (MSE) customers to [try the public preview of Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/). Dynamics 365 Market Insights is an application that can help businesses gain insights and increase its market by monitoring external information sources, such as social media and trending search terms on the web. Unlike other solutions in the market, this application provides social and web insights, along with AI-powered sentiment and intent analysis features. This helps businesses understand their customers, build their brand, gain competitive advantage, and support their unique needs.
 
+![Market Insights app ecosystem](../media/app-ecosystem-ai4mi.png)
 
 ## Capability Differences 
 
