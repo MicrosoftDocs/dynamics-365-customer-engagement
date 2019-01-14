@@ -13,8 +13,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: jimholtz
-ms.author: jimholtz
+author: mduelae
+ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
