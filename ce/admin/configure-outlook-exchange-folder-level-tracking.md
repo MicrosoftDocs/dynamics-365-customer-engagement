@@ -1,7 +1,7 @@
 ---
 title: "Configure Outlook or Exchange folder-level tracking for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 12/14/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -53,6 +53,8 @@ Once you’ve enabled folder-level tracking, users will need to configure folder
 - You can track up to a maximum of 25 folders per user account.  
   
 - Any manual changes done to the regarding object in the tracked activity records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps will be overridden the next time server-side synchronization kicks in. For example, if you have set up a mapping between the Adventure Works folder and the Adventure Works account, all the emails in the Adventure Works [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder will be tracked as activities in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps with the regarding set to the Adventure Works account record. If you change the regarding to some other record, it will automatically be overridden the next time server-side synchronization occurs. To change the regarding for any email, move the email to a different folder such as the Inbox.  
+
+- Folder-level tracking for queue mailboxes is not supported.  
   
 ### See also  
  [System Settings dialog box - Email tab](system-settings-dialog-box-email-tab.md)   

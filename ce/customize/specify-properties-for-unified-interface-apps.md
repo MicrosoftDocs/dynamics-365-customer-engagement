@@ -1,8 +1,8 @@
 ---
-title: "Specify properties for Unified Interface apps in PowerApps | MicrosoftDocs"
+title: "Specify properties for Unified Interface apps | MicrosoftDocs"
 description: "Learn how to configure the grid control for your app"
 keywords: 
-ms.date: 04/24/2018
+ms.date: 01/09/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

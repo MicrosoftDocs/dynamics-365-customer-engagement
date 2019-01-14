@@ -2,7 +2,7 @@
 title: "Manage users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Manage user accounts and assign security roles in Dynamics 365 for Marketing"
 keywords: administration; organization settings; users; roles; permissions
-ms.date: 04/01/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -34,63 +34,92 @@ Create an account for each user that requires access to [!INCLUDE[pn-marketing-b
 
 ## Create a user account and assign licenses
 
-User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. Use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center to create a new user and then purchase and assign licenses for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
+User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. Use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center to create a new user and then assign licenses for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and other apps to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
 
- [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 for Customer Engagement (online) licenses](../admin/purchase-assign-online-licenses.md).
+ [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md).
 
 <a name="assign-role"></a>
 
-## Assign and customize a security roles for users
+## Assign security roles to users
 
-Security roles control users' access to data through a set of access levels and privileges. The combination of access levels and privileges that are included in a specific security role sets limits on each user's view of data and on what actions the user can perform with that data.
-
-Each security role is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
+Security roles enable administrators to control users' access to data through a system of access levels and privileges. The combination of access levels and privileges that are included in a specific security role sets limits on each user's view of data and on what actions the user can perform with that data.
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to the user.
 
+Administrators can also create teams, apply security roles to those teams, and add users to each team. All users that belong to a team inherit the security roles applied to that team for as long as they remain a member, and lose those roles as soon as they leave the team (other than roles also granted to them personally or by other teams they are on).
+
 > [!IMPORTANT]
-> You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
+> You must assign at least one security role to every user. The app doesn't allow access to any user who does not have at least one security role.
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about managing users and working with security roles in the custom app, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
-When you are creating and customizing security roles in the custom app, you'll find most of the user privileges added by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app on the **Custom Entities** tab of the **Security Role** dialog.
+<a name="inspect-roles"></a>
+
+## Inspect and customize security roles
+
+All [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user that should be assigned the role. Administrators can customize each role as needed by modifying the set of privileges it contains.
+
+Each time you update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
+
+To find out which permissions apply to any existing security role (and/or edit a role):
+
+1. [Open the Dynamics 365 - custom app](navigation.md#move-between-apps).
+
+1. Go to **Settings** > **System** > **Security** to open the **Security** page, and then select the **Security roles** icon.
+
+1. You now see a list of security roles. Select a role to open the **Security role** window, which shows individual access levels for each available entity. Most entities are named intuitively to map to various features and areas of the app.
+
+    ![The 'Security role' window](media/security-role-setup.png "The 'Security role' window")
+
+Here are a few notes for working with the **Security role** settings:
+
+- Most of the entities added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are on the **Custom entities** tab. The other tabs manage features that belong to other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps and basic platform features.
+- There is a tab called **Marketing**, but it doesn't contain entities related to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Its settings apply to the *enterprise marketing* feature included with the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] platform (though [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] does make use of the marketing lists feature that is managed here).
+- Some of the security roles provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] include permissions from all available tabs. This is to provide access to relevant platform features required by users marketing roles.
+
+Security roles are a concept shared by all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+
+## Form and field level security
+
+In addition to the entity-level security set directly on each security role, you can also control access to specific forms and/or fields. These work as follows:
+
+- *Form-level security* restricts access to specific forms, so even if a user has a security role that grants access to a given entity (such as customer journeys), that user might not be able to access some of the forms of that entity (such as the insights) unless they have one of the additional roles required by that form. Most of the entities added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] don't include any form-level security out of the box, so users that can access these entities can also access all the forms that belong to them, though some exceptions exist (including insights forms for some entities).
+- *Field-level security* applies extra restrictions on specific fields, so even if a user can view a given form, some fields on that from could be hidden if they require an additional field security profile. Field security profiles are similar to, but separate from, the entity-level security roles otherwise described in this topic.
+
+You don't see form or field settings when you edit the security role, so you must manage these separately.
+
+Form and field level security are concepts shared by all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. For more information about how to work with them, see Field level security and  Assign security roles to a form.
 
 ## Security roles added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-Security roles enable administrators to control which users have access to which features of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Several security roles are common to almost all [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications, while others are more specialized. This topic describes the specialized roles added specifically by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-
-### Event Management security roles
-
-The event management solution adds the following security roles:
-
-- **Event Administrator**: Can create, read, write, delete, assign, and share any Event Management record. Can also access the administration settings for Event Management.
-- **Event Planner**: Can create, read, write, and share any type of Event Management record, but can only delete and assign Event Management records that they own.
-- **EventManagement S2S Inbound**: an internal security role used by the solution to sync data.
+The tables in this section summarize the purpose of each role added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. They should give you a good idea of which roles to assign each of your users. For details information about precisely which permissions and access levels any single role provides, inspect the permissions tables provided in the **Security roles** window, as described previously in [Inspect and customize security roles](#inspect-roles).
 
 ### Core marketing security roles
 
-The core marketing execution and automation solution adds the following security roles:
+| Security&nbsp;role | Who&nbsp;needs&nbsp;it | Access&nbsp;granted |
+|---------------|--------------|----------------|
+| Marketing Professional - Business | Most standard marketers who require access to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] core features, but don't need to configure the system | Nearly all entities in the **Marketing** work area, including segments, customer journeys, emails, marketing pages, marketing lists, and related features and templates (but not including LinkedIn or lead-scoring features). This role grants only limited access to the **Settings** work area. Also grants access to fundamental entities like contacts, leads, accounts, activities (tasks, phone calls, appointments), and marketing lists. Because this role is intended for individual contributors, most create and delete permissions are limited to records the user owns, but they can view and edit records owned by other users in their business unit. This role is provided access to insights forms through from-based security.|
+| Marketing Manager - Business | Marketing managers (who also administer the system) | All the same entities as the **Marketing Professional – Business** role, but more often grants enhanced permissions to work with records owned by other users in the same business unit as the manager. This role also provides access to all views and settings of the **Settings** work area. This role is provided access to insights forms through from-based security. |
+| Marketing, Business App Access | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
+| Marketing Services User | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
+| Lead Score Modeler | Marketing strategists responsible for building lead-scoring models (must be combined with a core marketing role) | Can view and edit lead scoring models, view lead scores, and customize the lead-to-opportunity marketing business process for leads. All these features are in the **Lead management** section of the **Marketing** work area.  |
+| Lead Score Viewer | Marketers and salespeople that should see calculated lead scores (must be combined with one of the other marketing and/or sales roles) | Can view the score achieved by each lead. |
 
-- Marketing Services User
-- Marketing Manager - Business
-- Marketing Professional - Business
-- Marketing, Business App Access
+### Event Management security roles
 
-### Lead management security roles
-
-The lead-management solution adds the following security roles:
-
-- Demand Generator
-- Lead Score Modeler
-- Lead Score Viewer
+| Security&nbsp;role | Who&nbsp;needs&nbsp;it | Access&nbsp;granted |
+|---------------|--------------|----------------|
+| Event Administrator | Managers who plan events and administer the event-management features. | All entities in in the **Events** work area, and all event-related settings in the **Settings** work area. These users can create, read, write, delete, assign, and share records owned by themselves and other users in the same business unit. |
+| Event Planner | All users involved with event planning. | All entities in in the **Events** work area. Users with this role can create, read, write, and share these records with other users in the same business unit, but can only delete and assign the records that they own. |
+| EventManagement S2S Inbound | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 
 ### [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen security roles
 
-The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen package adds the following security roles:
-
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Administrator**: Users with this role can configure lead matching strategies, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping, and solution settings for [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)].
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**: These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and view details about the synced submissions.
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LeadGen S2SInbound**: an internal security role used by the solution to sync data
+| Security&nbsp;role | Who&nbsp;needs&nbsp;it | Access&nbsp;granted |
+|---------------|--------------|----------------|
+| LinkedIn Lead Gen Forms Administrator | Administrators who are managing your organization's integration with LinkedIn | Users with this role can configure lead matching strategies, LinkedIn field mappings, and solution settings for the Dynamics 365 Connector for LinkedIn Lead Gen Forms. |
+| LinkedIn Lead Gen Forms Salesperson | Users who need to sync their profiles and view leads generated from LinkedIn, but who don't need to configure the connection | These users can authorize LinkedIn user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], and view details about the synced submissions. |
+| LinkedIn LeadGen S2SInbound | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 
 ### Surveys security roles
 
@@ -101,6 +130,7 @@ The surveys package adds the following security roles:
 - Survey Feedback Publisher
 - Survey Service
 - Survey User
+- Voice of the Customer app access role
 
 ## Don't modify or remove the Marketing service user
 
