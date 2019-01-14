@@ -1,6 +1,11 @@
 # [Omni-channel Engagement Hub Guide](omni-channel-engagement-hub-guide.md)
 
-## [Introduction](introduction-omni-channel.md)
+## Get started
+### [Introduction](introduction-omni-channel.md)
+### System requirements
+### Add users
+### Assign roles to users
+### Enable a chat
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)

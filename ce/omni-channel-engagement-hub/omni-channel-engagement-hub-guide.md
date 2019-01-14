@@ -21,12 +21,20 @@ ms.custom:
 
 <h2> Get started </h2>
 <li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement introduction](introduction-omni-channel.md)">Omni-channel Engagement introduction</a></li>
+<li>System requirements</li>
+<li>Add users</li>
+<li>Assign roles to users</li>
+<li>Enable a chat</li>
 </td>
 <td>
 
 <h2> I'm an administrator </h2>
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel Engagement Hub for administrators](administrator/omni-channel-engagement-hub-administrator.md)">Omni-channel Engagement Hub for administrators</a></li>
+<li><a href="administrator/work-streams.md" data-raw-source="[Create and manage work streams](work-streams.md)">Create and manage work streams</a><li>
+<li><a href="administrator/users-user-profiles.md" data-raw-source="[Create and manage users and user profiles](users-user-profiles.md)">Create and manage users and user profiles</a><li>
+<li><a href="administrator/queues-omni-channel.md" data-raw-source="[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)">Work with queues in Omni-channel Engagement Hub</a><li>
+<li><a href="administrator/conversation-state-lifecycle.md" data-raw-source="[Understand the conversation state lifecycle](conversation-state-lifecycle.md)">Understand the conversation state lifecycle</a><li>
 </td>
 </tr>
 <tr>
