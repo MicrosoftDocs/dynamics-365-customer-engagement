@@ -120,9 +120,10 @@ Unfortunately, Dynamics 365 Market Insights is only available in the countries a
 ## Resources
 - [Comparison guide - MSE vs Dynamics 365 Market Insights](comparison-mse-mi.md)
 - [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights)
-For questions related to transitioning, please contact your Microsoft representative or partner or email [MSEeol@microsoft.com](mailto:MSEeol@microsoft.com). 
+- For questions related to transitioning, please contact your Microsoft representative or partner or email [MSEeol@microsoft.com](mailto:MSEeol@microsoft.com). 
 
 ### See also
 
 [Business Applications release notes](https://dynamics.microsoft.com/business-applications/release/)    
-[Dynamics 365 AI for Market Insights product page](https://dynamics.microsoft.com/ai/market-insights/)  [Dynamics 365 International Availability Guide](https://aka.ms/dynamics_365_international_availability_deck)  
+[Dynamics 365 AI for Market Insights product page](https://dynamics.microsoft.com/ai/market-insights/)    
+[Dynamics 365 International Availability Guide](https://aka.ms/dynamics_365_international_availability_deck)  

@@ -31,7 +31,7 @@ Microsoft Dynamics 365 Market Insights  can help users gain insights and win mar
 
 We suggest customers to [try the public preview of Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/) to help meet their needs.  
 
-##Resources
+## Resources
 
 Please refer to below documents to learn more. 
 - FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](discontinuation-faq.md)
