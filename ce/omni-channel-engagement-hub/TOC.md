@@ -38,7 +38,9 @@
 
 ## [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
 ### [Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
-### [Introduction to supervisor dashboard](supervisor/omni-channel-engagement-hub-supervisor.md)
+#### [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
+#### [Add users to the supervisor configuration](add-users-supervisor-configuration.md)
+### [Introduction to supervisor dashboard](supervisor/introduction-supervisor-dashboards.md)
 
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer 360 form](customizer/customize-customer-360-page.md)
