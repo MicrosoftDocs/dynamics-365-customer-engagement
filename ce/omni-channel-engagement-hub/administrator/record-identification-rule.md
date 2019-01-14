@@ -27,52 +27,52 @@ For more information, see [View Customer 360 for an incoming engagement request]
 Copy the following code snippet in the **Record Identification Rule** text box while creating a new work stream. This snippet helps configure record identifications rules for the work stream.
 
 ```csharp
-              <RecordIdentificationRuleSet>
-              <RecordIdentificationRule>
-              <PrimaryEntity LogicalCollectionName="accounts" PrimaryKeyAttribute="accountid" PrimaryNameAttribute="name" />
-              <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
-              <entity name="account">
-              <attribute name="accountid" />
-              <attribute name="name" />
-              <filter type="and">
-              <condition attribute="name" operator="eq" value="${Name}" />
-              <condition attribute="emailaddress1" operator="eq" value="${Email}" />
-              <condition attribute="telephone1" operator="eq" value="${Phone}"/>
-              </filter>
-              </entity>
-              </fetch>
-              <ContextKey name="msdyn_account_msdyn_ocliveworkitem_Customer" />
-              </RecordIdentificationRule>
-              <RecordIdentificationRule>
-              <PrimaryEntity LogicalCollectionName="contacts" PrimaryKeyAttribute="contactid" PrimaryNameAttribute="fullname" />
-              <fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
-              <entity name="contact">
-              <attribute name="contactid" />
-              <attribute name="fullname" />
-              <filter type="and">
-              <condition attribute="contactid" operator="eq" source="msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid" value="${msdyn_portalcontactid}" /> 
-            <condition attribute="fullname" operator="eq" value="${Name}" />
-            <condition attribute="emailaddress1" operator="eq" value="${Email}" />
-            <condition attribute="telephone1" operator="eq" value="${Phone}" />
-            </filter>
-            </entity>
-            </fetch>
-            <ContextKey name="msdyn_contact_msdyn_ocliveworkitem_Customer" />
-            </RecordIdentificationRule>
-            <RecordIdentificationRule>
-            <PrimaryEntity LogicalCollectionName="incidents" PrimaryKeyAttribute="incidentid" PrimaryNameAttribute="title" />
-            <fetch version="1.0" output-format="xml-platform" mapping="logical">
-            <entity name="incident">
-            <attribute name="incidentid" />
-            <attribute name="title" />
-            <filter type="and">
-            <condition attribute="ticketnumber" operator="eq" value="${CaseNumber}" />
-            </filter>
-            </entity>
-            </fetch>
-            <ContextKey name="msdyn_incident_msdyn_ocliveworkitem" />
-            </RecordIdentificationRule> 
-            </RecordIdentificationRuleSet>
+<RecordIdentificationRuleSet>
+<RecordIdentificationRule>
+<PrimaryEntity LogicalCollectionName="accounts" PrimaryKeyAttribute="accountid" PrimaryNameAttribute="name" />
+<fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
+<entity name="account">
+<attribute name="accountid" />
+<attribute name="name" />
+<filter type="and">
+<condition attribute="name" operator="eq" value="${Name}" />
+<condition attribute="emailaddress1" operator="eq" value="${Email}" />
+<condition attribute="telephone1" operator="eq" value="${Phone}"/>
+</filter>
+</entity>
+</fetch>
+<ContextKey name="msdyn_account_msdyn_ocliveworkitem_Customer" />
+</RecordIdentificationRule>
+<RecordIdentificationRule>
+<PrimaryEntity LogicalCollectionName="contacts" PrimaryKeyAttribute="contactid" PrimaryNameAttribute="fullname" />
+<fetch version="1.0" output-format="xml-platform" mapping="logical" top="2">
+<entity name="contact">
+<attribute name="contactid" />
+<attribute name="fullname" />
+<filter type="and">
+<condition attribute="contactid" operator="eq" source="msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid" value="${msdyn_portalcontactid}" /> 
+<condition attribute="fullname" operator="eq" value="${Name}" />
+<condition attribute="emailaddress1" operator="eq" value="${Email}" />
+<condition attribute="telephone1" operator="eq" value="${Phone}" />
+</filter>
+</entity>
+</fetch>
+<ContextKey name="msdyn_contact_msdyn_ocliveworkitem_Customer" />
+</RecordIdentificationRule>
+<RecordIdentificationRule>
+<PrimaryEntity LogicalCollectionName="incidents" PrimaryKeyAttribute="incidentid" PrimaryNameAttribute="title" />
+<fetch version="1.0" output-format="xml-platform" mapping="logical">
+<entity name="incident">
+<attribute name="incidentid" />
+<attribute name="title" />
+<filter type="and">
+<condition attribute="ticketnumber" operator="eq" value="${CaseNumber}" />
+</filter>
+</entity>
+</fetch>
+<ContextKey name="msdyn_incident_msdyn_ocliveworkitem" />
+</RecordIdentificationRule> 
+</RecordIdentificationRuleSet>
 ```   
 
 For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`. 
