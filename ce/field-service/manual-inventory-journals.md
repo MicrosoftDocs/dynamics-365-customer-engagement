@@ -2,8 +2,8 @@
 title: "Manual Inventory Journals | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/20/2018
-ms.reviewer: ""
+ms.date: 1/20/2018
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,11 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
-manager: shellyha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -26,14 +25,14 @@ search.app:
   - D365FS
 ---
 
-# Manual Inventory Journals
+# Manual inventory journals
 
 In Dynamics 365 for Field Service, an organization can track their Product Inventory.
  
 For a given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-product-inventory-levels.png)
+> ![Screenshot of product inventory levels](./media/inventory-product-inventory-levels.png)
 
 Inventory Journals is a field service entity that serves as a ledger for all inventory changes related to field service warehouses and products. 
 
