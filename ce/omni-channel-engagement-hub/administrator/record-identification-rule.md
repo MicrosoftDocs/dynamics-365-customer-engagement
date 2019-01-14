@@ -24,7 +24,7 @@ For more information, see [View Customer 360 for an incoming engagement request]
 
 ## Configure a record identification rule in a work stream
 
-Copy the following code snippet in the record identification rule text box while creating a new work stream. This snippet helps configure record identifications rules for the work stream.
+Copy the following code snippet in the **Record Identification Rule** text box while creating a new work stream. This snippet helps configure record identifications rules for the work stream.
 
 ```csharp
               <RecordIdentificationRuleSet>

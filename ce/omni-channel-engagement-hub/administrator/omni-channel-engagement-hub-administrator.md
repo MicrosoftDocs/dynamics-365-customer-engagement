@@ -19,4 +19,3 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 Use the resources in this section to administer and configure Omni-channel Engagement Hub:
 
 - [Know unified routing and work distribution](unified-routing-work-distribution.md)
-

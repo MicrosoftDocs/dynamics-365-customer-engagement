@@ -51,6 +51,7 @@ To effectively route and distribute work to agents, admins can set up the follow
 To learn about unified routing and work distribution in more detail, see the following topics:
 
 - [Create and manage work streams](work-streams.md)
+- [Configure record identification rule](record-identification-rule.md)
 - [Configure presence and custom presence](presence-custom-presence.md)
 - [Create and manage users](users-user-profiles.md)
 - [Create and manage routing rules](routing-rules.md)
