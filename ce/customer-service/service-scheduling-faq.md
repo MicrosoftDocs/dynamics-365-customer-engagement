@@ -45,6 +45,9 @@ You can migrate existing service activities by running scripts as shown in [Samp
 > [!NOTE]
 > We are working towards an automated migration path in our future release. 
 
+## Is manual selection of resources supported in a service activity in the new scheduling experience?
+While creating a service activity, manual selection of resources is not supported in the new scheduling experience in the Customer Service Hub.
+
 
 ### See also
 
