@@ -132,30 +132,27 @@ function EnableRule()
     const request = new XMLHttpRequest();
     request.open('GET', '/bar/foo');
 
-    const promise = new Promise((resolve, reject) =>
+    request.onload = function (e)
     {
-        request.onload = function (e)
+        if (request.readyState === 4)
         {
-            if (request.readyState === 4)
+            if (request.status === 200)
             {
-                if (request.status === 200)
-                {
-                    ruleEnabled = request.responseText === "true";
+                ruleEnabled = request.responseText === "true";
 
-                    // Refresh ribbon to re-evaluate rule
-                    Xrm.Page.ui.refreshRibbon();
-                }
-                else
-                {
-                    ruleEnabled = false;
-                }
+                // Refresh ribbon to re-evaluate rule
+                Xrm.Page.ui.refreshRibbon();
             }
-        };
-        request.onerror = function (e)
-        {
-            ruleEnabled = false;
-        };
-    });
+            else
+            {
+                ruleEnabled = false;
+            }
+        }
+    };
+    request.onerror = function (e)
+    {
+        ruleEnabled = false;
+    };
 
     request.send(null);
     return false;
