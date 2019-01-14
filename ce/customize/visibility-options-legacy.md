@@ -1,8 +1,8 @@
 ---
-title: "Show or hide form elements with PowerApps | MicrosoftDocs"
+title: "Show or hide form elements | MicrosoftDocs"
 description: "Learn how to display or hide from elements, such as tabs, sections, or fields"
 ms.custom: 
-ms.date: 04/26/2018
+ms.date: 01/14/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
