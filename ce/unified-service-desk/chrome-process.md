@@ -42,15 +42,15 @@ The advantages of using the Chrome process hosting method are as follows:
 
 ## Chrome Process settings
 
-You can set the **Chrome Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Chrome Process** based on your requirements.
+You can set the **Chrome Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Chrome Process** based on your requirements. More information: [Create a hosted control with hosting type as Chrome](chrome-process.md#create-a-hosted-control-with-hosting-type-as-chrome)
 
-If you want to set the **Chrome Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Chrome**.
+If you want to set the **Chrome Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Chrome**. More information: [Enable Chrome for Unified Service Desk on client desktop](chrome-process.md#enable-chrome-for-unified-service-desk-on-client-desktop)
 
-If you want to set the **Chrome Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Chrome**.
+If you want to set the **Chrome Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Chrome**. More information: [Enable Chrome for an entire organization](chrome-process.md#enable-edge-for-an-entire-organization)
 
 ### Order of precedence
 
-- Setting the **GlobalBrowserMode** Global UII option value as **Chrome**, takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. At the organization level, you set **GlobalBrowserMode** Global UII option value as **Chrome**. In this scenario, the Global UII option takes precedence and configuration uses the **Chrome Process** to host the applications. 
+- Setting the **GlobalBrowserMode** Global UII option value as **Chrome**, takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have hosting type as **IE Process**, **Edge Process**, and/or **Internal WPF**. At the organization level, you set **GlobalBrowserMode** Global UII option value as **Chrome**. In this scenario, the Global UII option takes precedence and configuration uses the **Chrome Process** to host the applications. 
 
 - Setting the **GlobalBrowser** mode key to **Chrome** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have hosting type as **IE Process** and/or **Internal WPF**. For a few agents, in their client desktops, you have set **GlobalBrowser** mode key to **Chrome** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Chrome Process** to host the applications.
 
