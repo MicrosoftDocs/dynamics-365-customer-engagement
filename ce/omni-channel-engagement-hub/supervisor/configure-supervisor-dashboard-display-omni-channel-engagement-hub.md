@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 13992fe1-3d0a-47df-a2d7-c51d9441fabf
 ms.custom: 
 ---
-# Configure the supervisor dashboard to appear in Omni-channel Engagement Hub
+# Private preview: Configure the supervisor dashboard to appear in Omni-channel Engagement Hub
 
 The following illustration shows an overview of the process for configuring the supervisor dashboard to appear in Omni-channel Engagement Hub.
 
@@ -31,7 +31,7 @@ Review the following prerequisites before you start to configure the supervisor 
 Create a native app in Azure Active Directory (Azure AD) and grant it access to the Power BI representational state transfer (REST) application programming interfaces (APIs). Follow these steps to register an Azure native app.
 
 1. Open the [Power BI application registration](https://dev.powerbi.com/apps) page, and sign in to the app.
-2. Enter the following basic information: the name and type of the app, and the URL.
+2. Enter the following basic information: the name, type of the app, and the URL.
 
     > [!NOTE]
     > In the **App Type** field, select **Native**.
@@ -94,7 +94,7 @@ For more information, see [Create workspaces with your colleagues in Power BI](/
 
 ## Step 6: Provision Power BI reports in your workspace
 
-When you provision the Power BI reports, the **SupervisorOverviewComputational** and **SupervisorOverviewOperational** reports will be available in your workspace. These reports are required in order to create dashboards for supervisors. Follow these steps to provision the supervisor reports.
+When you provision the Power BI reports, the **IntradayMonitoring** and **LiveMonitoring** reports will be available in your workspace. These reports are required in order to create dashboards for supervisors. Follow these steps to provision the supervisor reports.
 
 1. Sign in to Dynamics 365, and open the **Omni Channel Engagement Hub** app.
 
@@ -128,23 +128,23 @@ When you provision the Power BI reports, the **SupervisorOverviewComputational**
 
 5. Save and close the configuration.
 
-    The **SupervisorOverviewComputational** report should now be available in your workspace.
+    The **IntradayMonitoring** report should now be available in your workspace.
 
     > [IMPORTANT]
     > Don't create more than one analytics configuration in your Dynamics 365. If you have more than one, the application uses only the configuration that you created last. If you want to add a new analytics configuration, first delete or inactivate the existing configuration.
 
-6. Download the **SupervisorOverviewOperational** report file (.pbit file) from [GitHub](https://github.com/Microsoft/BusinessPlatformApps/tree/dev/Samples/D365OmniChannel/Preview).
+6. Download the **LiveMonitoring** report file (.pbit file) from [GitHub](https://github.com/Microsoft/BusinessPlatformApps/tree/dev/Samples/D365OmniChannel/Preview).<!-- This is to be changed -->
 
 You now have the reports that you need to configure the dashboards in Power BI.
 
 ## Step 7: Configure Power BI dashboards by using Power BI Desktop
 
-Create the Power BI dashboard out of the two reports that are available to you: **SupervisorOverviewComputational** and **SupervisorOverviewOperational**. When you provision the workspace, the following data sets and reports are available:
+Create the Power BI dashboard out of the two reports that are available to you: **Intraday Monitoring** and **Live Conversations**. When you provision the workspace, the following data sets and reports are available:
 
-- SupervisorOverviewComputational (data set)
-- MicrosoftDynamicsOCAnalytics (data set)
-- SupervisorOverviewComputational (report)
-- SupervisorOverviewOperational (report)
+- IntradayMonitoring (data set)
+- LiveMonitoring (data set)
+- Intraday Monitoring (report)
+- Live Conversations (report)
 
 > [IMPORTANT]
 > In Power BI, share the dashboards with all supervisors who use Omni-channel Engagement Hub. Otherwise, supervisors can't view the dashboards when they sign in to Omni-channel Engagement Hub. For more information, see [Share your Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
@@ -153,7 +153,7 @@ Follow these steps to configure Power BI dashboards.
 
 1. Open the **Power BI Desktop** app, and sign in by using your credentials.
 2. Go to the workspace that you created in [Step 5: Sign in to Power BI and create an app workspace](#step-5-sign-in-to-power-bi-and-create-an-app-workspace).
-3. Go to **File** &gt; **Import** &gt; **Power BI template**, and select the **SupervisorOverviewOperational.pbit** file that you downloaded.
+3. Go to **File** &gt; **Import** &gt; **Power BI template**, and select the **IntradayMonitoring.pbit** file that you downloaded.
 
     A dialog box appears.
 
@@ -168,15 +168,25 @@ Follow these steps to configure Power BI dashboards.
 
     Reports are created.
 
-8. Open the reports that are available in the workspace. For more information, see [Open a report in Power BI service](/power-bi/service-report-open).
-9. Pin the required tiles to dashboards. For more information, see [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report).
+8. Change the refresh rate of **IntradayMonitoring** data set to 15 minutes.
 
-    The following ilustration shows what a dashboard looks like when you pin tiles to it.
+    a. Right-click the more options icon (...) and select **SETTINGS**. 
+        ![Select Settings option](../media/oc-pbi-reportsettings.png "Select Settings option")
 
-    ![Live work monitoring for supervisor](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor")
+    b. On the settings page, go to **Datasets** tab and under **Scheduled cache refresh** change **Refresh frequency** to 15 minutes. 
+        ![Select refresh rate](../media/oc-pbi-changerefreshrate.png "Select refresh rate")
 
-10. Select **Set as featured** for the dashboard that you created.
-11. Copy the URL of the dashboard for Unified Service Desk configuration.
+    c. Select **Apply**.
+
+1. Open the reports that are available in the workspace. For more information, see [Open a report in Power BI service](/power-bi/service-report-open).
+1. Pin the required tiles to dashboards. For more information, see [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report).
+
+    The following illustration shows what a dashboard looks like when you pin tiles to it.
+
+    ![Live work monitoring for supervisor](../media/oc-usd-supervisor-section-filters-applied-view.png "Live work monitoring for supervisor")
+
+11. Select **Set as featured** for the dashboard that you created.
+12. Copy the URL of the dashboard for Unified Service Desk configuration.
 
 For more information, see [Create a new report in Power BI service by importing a dataset](https://docs.microsoft.com/power-bi/service-report-create-new).
 
@@ -198,3 +208,6 @@ You must configure Unified Service Desk to show the supervisor dashboards when a
 4. Save and close the settings page.
 
 The supervisor dashboard is configured, and supervisors can now sign in to omni-channel and view the dashboard.
+
+> [!div class="nextstepaction"]
+> [Next topic: Add users to the supervisor configuration](add-users-supervisor-configuration.md)
