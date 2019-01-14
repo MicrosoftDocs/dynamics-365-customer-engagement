@@ -23,7 +23,8 @@ When you sign in to Unified Service Desk, the Omni-channel Engagement Hub interf
 
  - Application tab management toolbar
 
-![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
+ > [!div class=mx-imgBorder]
+ >![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
 
 ## Default global toolbar
 
@@ -37,7 +38,8 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
  - Presence
 
-![Default global toolbar](../../media/oc-usd-global-toolbar.png "Default global toolbar")  
+ > [!div class=mx-imgBorder]
+ > ![Default global toolbar](../../media/oc-usd-global-toolbar.png "Default global toolbar")  
 
 ### Search
 
@@ -52,8 +54,9 @@ The **Search** button lets you to search for records and open them in a new acti
  - Phone call
 
 -   Task Email
-
-![omni-channel search](../../media/oc-usd-search.png "Omni-channel search")  
+ 
+ > [!div class=mx-imgBorder]
+ > ![omni-channel search](../../media/oc-usd-search.png "Omni-channel search")  
 
 ### Create
 
@@ -63,7 +66,8 @@ The **Create** button provides a list of related options (entities), so that you
 
 The **Settings** menu has **Debugger** and **About** options. These options provide insight into code runs and Unified Service Desk, respectively. There is also an option that opens the Best Practices Analyzer.
 
-![omni-channel settings](../../media/oc-usd-settings.png "Omni-channel settings")  
+ > [!div class=mx-imgBorder]
+ > ![omni-channel settings](../../media/oc-usd-settings.png "Omni-channel settings")  
 
 #### Debugger
 
@@ -83,21 +87,24 @@ The **Presence** area shows the agent's presence status. Presence status indicat
 
  1. **Base status**: The availability or status category. There are five standard bases statuses: **Available**, **Away**, **Busy**, **Do Not Disturb**, and **Offline**. 
 
-2. **Presence text**: The text that is associated with a specific base status. For example, in the **Away – Away for lunch** presence status, **Away** is the base status, and **Away for lunch** is the presence text.
+ 2. **Presence text**: The text that is associated with a specific base status. For example, in the **Away – Away for lunch** presence status, **Away** is the base status, and **Away for lunch** is the presence text.
 
- ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
+ > [!div class=mx-imgBorder]
+ > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
 
 ## Session management toolbar
 
 Each session in the Unified Service Desk client is shown on the session tab toolbar on the main page. You can identify a session by the session name that is shown on the tab. You can switch between sessions to handle cases without affecting key performance indicators (KPIs).
 
-![Omni-channel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
+> [!div class=mx-imgBorder]
+> ![Omni-channel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
 
 ## Application management toolbar
 
 The application management toolbar lets you see the all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer 360, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
-![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
+> [!div class=mx-imgBorder]
+> ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
 
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to agent dashboard](introduction-agent-dashboard.md)
