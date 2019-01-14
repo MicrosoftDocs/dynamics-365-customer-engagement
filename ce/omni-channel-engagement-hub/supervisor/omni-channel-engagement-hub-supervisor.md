@@ -27,7 +27,7 @@ Omni-channel Engagement Hub provides a dashboard that helps supervisors keep tra
 As a supervisor, you see the following tabs when you open the Omni-channel Engagement Hub app in Unified Service Desk:
 
 - **Overview**: This tab provides an overview of information about the health and KPIs of agents in your organization. For more information, see [Introduction to supervisor dashboards](introduction-supervisor-dashboards.md).
-- **My dashboard**: This tab provides information about the work items that you're handling, such as your active work items, items that are available for you to pick, and closed work items. For more information, see [Introduction to the agent dashboard](../agent/introduction-agent-dashboard.md).
+- **My dashboard**: This tab provides information about the work items that you're handling, such as your active work items, items that are available for you to pick, and closed work items. For more information, see [Introduction to the agent interface in Omni-channel Engagement Hub](../agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)..
 
 > [!NOTE]
 > If configuration errors occur, or if you can't view the dashboard, contact your system admin.

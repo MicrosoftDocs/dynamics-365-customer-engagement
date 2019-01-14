@@ -14,23 +14,6 @@ ms.custom:
 ---
 # Private preview: Introduction to supervisor dashboards
 
-Customer service managers or supervisors are responsible for managing agents who work with customers to resolve queries each day. Also, key part of their job is to manage volumes of service requests or queries that are coming into the contact center through different service channels.  
-Dynamics 365 Omni-channel Engagement Hub provides you with a dashboard that helps you to keep track of the work your agents are doing. With this dashboard, you can: 
-- Monitor key performance indexes (KPI)
-- Monitor quality and workload of agent
-- Monitor unassigned workload
-- Manage agent and customer escalations 
-- View detailed reports 
-
-when you open the Omni-channel Engagement Hub app in Unified Service Desk  
-- Overview: Provides overall information about the health and KPIs of agents in your organization. More information: View overall performance. 
-- My dashboard: provides information about the work items that you are handling such as your active work items, items available for you to pick, and closed work items. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to the agent interface in Omni-channel Engagement Hub](../agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md). 
-
-> [!NOTE]
-> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. 
-
-## View overall organization information
-
 The **Overview** dashboard provides information about the health and key performance indicators (KPIs) of agents in your organization. The KPIs include the number of open work items, the number of active work items, and the number of active work items that have been escalated.
 
 Typically, the **Overview** dashboard is divided into two sections:
@@ -38,7 +21,7 @@ Typically, the **Overview** dashboard is divided into two sections:
 - [Live monitoring](#live-monitoring)
 - [Intraday monitoring](#intraday-monitoring)
 
-### Live monitoring
+## Live monitoring
 
 The **Live monitoring** section shows information that is automatically updated to reflect the latest status of health parameters. This information includes the latest KPIs. The information that is displayed is based on active and open conversations.
 
@@ -56,7 +39,7 @@ This section of the dashboard consists of the following KPIs.
 | Total conversations transferred               | The number of conversations that are active and transferred from one agent or supervisor to another agent or supervisor. |
 | Open conversations                            | The number of work items that are in the **Open** state and that are available to be picked or pushed to an agent. |
 
-### Intraday monitoring
+## Intraday monitoring
 
 The **Intraday monitoring** section provides information about the latest KPIs, the health of queues on the status of the agents on a given day. The information that is displayed is based on the performance of agents in the past 24 hours.
 
