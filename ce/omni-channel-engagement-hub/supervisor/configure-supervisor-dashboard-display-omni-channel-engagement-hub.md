@@ -146,7 +146,7 @@ Create the Power BI dashboard out of the two reports that are available to you: 
 - Intraday Monitoring (report)
 - Live Conversations (report)
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > In Power BI, share the dashboards with all supervisors who use Omni-channel Engagement Hub. Otherwise, supervisors can't view the dashboards when they sign in to Omni-channel Engagement Hub. For more information, see [Share your Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
 
 Follow these steps to configure Power BI dashboards.
@@ -170,10 +170,10 @@ Follow these steps to configure Power BI dashboards.
 
 8. Change the refresh rate of **IntradayMonitoring** data set to 15 minutes.
 
-    a. Right-click the more options icon (...) and select **SETTINGS**. 
+    a. Right-click the more options icon (...) and select **SETTINGS**.<br> 
         ![Select Settings option](../media/oc-pbi-reportsettings.png "Select Settings option")
 
-    b. On the settings page, go to **Datasets** tab and under **Scheduled cache refresh** change **Refresh frequency** to 15 minutes. 
+    b. On the settings page, go to **Datasets** tab and under **Scheduled cache refresh** change **Refresh frequency** to 15 minutes. <br>
         ![Select refresh rate](../media/oc-pbi-changerefreshrate.png "Select refresh rate")
 
     c. Select **Apply**.

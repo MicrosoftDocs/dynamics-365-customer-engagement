@@ -38,8 +38,8 @@
 
 ## [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
 ### [Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
-#### [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
-#### [Add users to the supervisor configuration](add-users-supervisor-configuration.md)
+#### [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
+#### [Add users to the supervisor configuration](supervisor/add-users-supervisor-configuration.md)
 ### [Introduction to supervisor dashboard](supervisor/introduction-supervisor-dashboards.md)
 
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
