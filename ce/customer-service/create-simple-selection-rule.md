@@ -24,7 +24,7 @@ search.app:
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Before you can add a resource to a service, you must define a selection rule to determine how resources are selected for service activities. 
   
