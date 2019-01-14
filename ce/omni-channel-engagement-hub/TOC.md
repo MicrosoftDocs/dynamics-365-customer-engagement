@@ -3,6 +3,7 @@
 ## [Introduction](introduction-omni-channel.md)
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
+### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Set up chat widget](administrator/set-up-chat-widget.md)
 

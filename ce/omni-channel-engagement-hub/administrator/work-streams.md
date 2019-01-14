@@ -1,7 +1,7 @@
 ---
-title: "Create and manage work streams"
-description: 
-keywords: ""
+title: Create and manage work streams
+description: See how you can create and manage work streams in the Omni-channel Engagement Hub
+keywords: Create and manage work streams; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -20,41 +20,40 @@ All work streams are associated with unique channels. Channels can be defined fo
 
 Omni-channel Engagement Hub has some predefined work streams. However, as an admin, you can define new work streams to introduce a new source.
 
+![Omni-channel work streams](../media/oc-workstream-view.png)
+
 There are two types of work streams:
 
-- Live Chat
-- CDS Entity
+- Live Chat work stream
+- CDS Entity work stream
 
-## Live Chat work streams
+## Live Chat work stream
 
 When you set up Live Chat work streams, you define the following properties:
 
-> [!NOTE]
-> These properties are applicable to Live Chat work streams. To know more about CDS Entity work streams and their properties, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
-
 - **Channels**: In Omni-channel Engagement Hub, a channel is defined as a medium that customers can reach out and engage with agents through. For example, a customer can chat with an agent through the chat channel. As an admin, you can select the channel that a work stream is created for. 
-
-    > [!NOTE]
-    > In this preview, work streams can be defined for chat and entity channels.
-
+   > [!NOTE]
+   > In this preview, work streams can be defined for chat and entity channels.
 - **Allowable Presence**: Allowable presence helps assign work streams only to agents whose presence status is one of the **Available** presence statuses that are associated with the work stream. For more information, see [Configure presence and custom presence](presence-custom-presence.md).
+
 - **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity are defined as capacity in the work stream. For example, a conversation in the Live Chat work stream from the portal has a capacity of 20 units. When this conversation is assigned to an agent, it consumes 20 units of agent's capacity.
 - **Agent association**: Agents who are associated with a work stream can receive conversations only from that work stream. 
+
 - **Work distribution mode and context attributes**: The context attributes can vary for each work stream. For example, for a chat conversation, context attributes include the browser, IP address, answers to pre-chat questions, and customer ID (for authenticated chat). These attributes can then be used to define routing rules that channel conversations to different queues.
+   > [!NOTE]
+   > Context attributes can be declared and defined at the work stream level, so that the omni-channel system understands the kind of conversations that it will receive. Conversations are preloaded with specific context attributes. Based on the context attributes, the system makes logical decisions and distributes the conversations to the correct omni-channel queue or agent. For this preview, context attributes are applicable only for Live Chat work stream.
+- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer 360** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer 360** page opens, and shows the details of the customer and case. 
 
-    > [!NOTE]
-    > Context attributes can be declared and defined at the work stream level, so that the omni-channel system understands the kind of conversations that it will receive. Conversations are preloaded with specific context attributes. Based on the context attributes, the system makes logical decisions and distributes the conversations to the correct omni-channel queue or agent. For this preview, context attributes are applicable only for Live Chat work stream.
+   For more information, see [View Customer 360 for an incoming engagement request](../agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md).
 
-- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer 360** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer 360** page opens, and shows the details of the customer and case. For more information, see <View Customer 360 for an incoming engagement request>.
-
-    > [!NOTE]
-    > For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped to a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new Live Chat work stream](#create-a-new-live-chat-work-stream) procedure later in this topic.
-
-    As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. 
-
+  > [!NOTE]
+  > For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped to a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new Live Chat work stream](#create-a-new-live-chat-work-stream) procedure later in this topic.
+As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. 
 - **Routing rules**: Routing rules are configured for each work stream, so that conversations can be distributed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
-- **Maximum Concurrency**: Maximum concurrency lets you set the maximum number of conversations that can be assigned to an agent's work list from a work stream.
+
 - **Auto-close after inactivity**: After a specific amount of time, a conversation can be moved from the **Waiting** state to the **Closed** state because of inactivity.
+
+
 
 ## Create a new Live Chat work stream
 
@@ -65,17 +64,17 @@ Follow these steps to create a new Live Chat work stream.
     The **Active Work Streams** view is shown. 
 
 2. On the command bar, select **New** to create a work stream.
-3. On the **Summary** tab of the page for the new work stream, follow these steps:
+3. On the **Summary** tab of the new work stream page, follow these steps:
 
      A. In the **General information** section, provide the following information: </br>
-         - **Name**: Enter a name for the work stream.
-         - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
-         - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
-             > [!NOTE]
-             > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
-         - **Max Concurrency**: Specify the maximum number of concurrent sessions for conversations of the work stream.
-         - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
-        - **Record Identification Rule**: Paste the following code snippet. This snippet helps configure record identifications rules for the work stream. 
+     - **Name**: Enter a name for the work stream.
+     - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
+     - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
+         > [!NOTE]
+         > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
+     - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
+     - **Record Identification Rule**: Paste the following code snippet. This snippet helps configure record identifications rules for the work stream. 
+
         ```csharp
               <RecordIdentificationRuleSet>
               <RecordIdentificationRule>
@@ -124,34 +123,38 @@ Follow these steps to create a new Live Chat work stream.
             </RecordIdentificationRule> 
             </RecordIdentificationRuleSet>
             ```    
-        
-     > [!NOTE]
-     > For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`. 
+          > [!NOTE]
+          > For each new work stream, update the condition variable values, and make sure that the names are unique and mapped to pre-chat questions (see the tables that follow). For example, if you create a work stream that is linked to the `Name1` and `Phone1` context variables, you must change the condition variable values from `{Name}` to `{Name1}` and from `{Phone}` to `{Phone1}`. 
              
-      For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
-            **Authenticated chat**
-            | Question name  | Answer type    | Question text |
-            |----------------|----------------|---------------|
-            | CaseNumber     | Multiple lines | Case Number   |
-            **Unauthenticated chat**
-            | Question name | Answer type    | Question text |
-            |---------------|----------------|---------------|
-            | CaseNumber    | Multiple lines | Case Number   |
-            | Name          | Single line    | Name          |
-            | Email         | Single line    | Email         |
-            | Phone         | Single line    | Phone         |
+         For the preceding record identification rules to work, you **must** create the following questions for the pre-chat survey.
+
+      **Authenticated chat**
+      | Question name  | Answer type    | Question text |
+      |----------------|----------------|---------------|
+      | CaseNumber     | Multiple lines | Case Number   |
+
+      **Unauthenticated chat**
+      | Question name | Answer type    | Question text |
+      |---------------|----------------|---------------|
+      | CaseNumber    | Multiple lines | Case Number   |
+      | Name          | Single line    | Name          |
+      | Email         | Single line    | Email         |
+      | Phone         | Single line    | Phone         |
             
     For information about how to create questions and use them in a pre-chat survey, see [Set up a question library](set-up-chat-widget.md#set-up-a-question-library) and [Set up a pre-chat survey](set-up-chat-widget.md#set-up-a-pre-chat-survey). 
-            > [!NOTE]
-            > Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements.
+            
+    > [!NOTE]
+    > Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements.
 
     B. Select **Save** to save the work stream.
+
     C. In the **Work distribution** section, follow these steps: 
-        1. Select whether the work distribution mode should be **Push** or **Pick**.
-        2. In the **Notification** field, select the type of notification setting.
-        3. In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
-        > [!NOTE]
-        > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
+
+      1. Select whether the work distribution mode should be **Push** or **Pick**.
+       2. In the **Notification** field, select the type of notification setting.
+       3. In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
+      > [!NOTE]
+      > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
 
     D. In the **Context variables** section, select **New** to create a new context variable for the work stream. Then in the **Quick Create** flyout, enter a name for the context variable, and specify the type.
         Context variables help the omni-channel system understand the kind of conversation that it will receive.
