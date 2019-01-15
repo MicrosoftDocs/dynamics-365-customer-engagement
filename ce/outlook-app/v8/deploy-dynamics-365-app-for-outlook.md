@@ -225,7 +225,7 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
  After setting up [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] and setting the required privileges, you can push [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to some or all users, or you can have users install it themselves as needed.  
 
 > [!NOTE]
->  If you're on [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps on-premises users](#BKMK_DeployOnprem)  
+>  If you're on [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users](#BKMK_DeployOnprem)  
 
 #### To push the app to users  
 
@@ -263,13 +263,13 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
 
 <a name="BKMK_DeployOnprem"></a>   
 
-## To deploy to Dynamics 365 for Customer Engagement apps on-premises users  
- Follow these steps if you're using Dynamics 365 for Customer Engagement apps on-premises.  
+## To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users  
+ Follow these steps if you're using Dynamics 365 for Customer Engagement apps (on-premises).  
 
 -   Configure your Dynamics 365 for Customer Engagement apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
   
--   If you are using Dynamics 365 for Customer Engagement apps applications on-premises, you need to enable OAuth on the Dynamics server, and register the Dynamics 365 App for Outlook with ADFS. You also need to make sure that OAuth us enabled for Exchange. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+-   If you are using Dynamics 365 for Customer Engagement apps (on-premises), you need to enable OAuth on the Dynamics server, and register the Dynamics 365 App for Outlook with ADFS. You also need to make sure that OAuth us enabled for Exchange. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
   
 <a name="BKMK_Troubleshoot"></a>   
 
