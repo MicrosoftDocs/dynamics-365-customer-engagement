@@ -118,12 +118,12 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 <a name="BKMK_applyUpdates"></a>   
 
-## Apply the latest updates to the Dynamics 365 for Customer Engagement apps on-premises deployment  
+## Apply the latest updates to the Dynamics 365 for Customer Engagement apps (on-premises) deployment  
  You must apply the latest Customer Engagement apps (on-premises) updates before you import the Dynamics 365 for Customer Engagement apps (online) database. More information: [Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
   
 <a name="BKMK_importDB"></a>   
 
-## Import the Dynamics 365 for Customer Engagement apps (online) database into the Dynamics 365 for Customer Engagement apps on-premises deployment  
+## Import the Dynamics 365 for Customer Engagement apps (online) database into the Dynamics 365 for Customer Engagement apps (on-premises) deployment  
  How long it takes to complete the import of the organization database depends on several factors. These factors include the size of the database you are importing, the number of users, and the hardware you use to complete the import.  
   
 > [!NOTE]
