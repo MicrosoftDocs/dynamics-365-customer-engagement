@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
+ms.date: 01/14/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
@@ -24,7 +24,7 @@ ms.custom:
 <li>System requirements</li>
 <li>Add users</li>
 <li>Assign roles to users</li>
-<li>Enable a chat</li>
+<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget](administrator/configure-live-chat.md)">Configure a live chat widget</a></li>
 </td>
 <td>
 
