@@ -49,7 +49,7 @@ To configure a live chat widget and embed it in portal, you must:
  
  5. Select **Save** to save the live chat work stream.
 
-        ![New workstream](../media/omni-channel-new-work-stream.png)
+       ![New workstream](../media/omni-channel-new-work-stream.png)
 
 ## Step 2: Create a chat widget
 
@@ -85,4 +85,5 @@ To configure a live chat widget and embed it in portal, you must:
 
 ### See also
 
+[Create and manage work streams](work-streams.md)
 [Set up a chat widget](set-up-chat-widget.md)
