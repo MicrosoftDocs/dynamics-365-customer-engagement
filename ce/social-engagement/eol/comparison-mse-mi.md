@@ -50,7 +50,7 @@ Know what your customers are saying, seeking, and feeling by acquiring audience 
 	
 
 ### Social insights
-Listen to what customers and competitors are saying, and track how their sentiment changes over time through automatic sentiment analysis and conversation analytics. Leverage the power of AI to detect intent within social posts and help you identify new leads or respond to service questions.
+Listen to what customers and competitors are saying, and track how their sentiment changes over time through automatic sentiment analysis and conversation analytics. Leverage the power of artificial intelligence (AI) to detect intent within social posts and help you identify new leads or respond to service questions.
 
 | Social Insights Capabilities  |  Market Insights |  Microsoft Social Engagement |
 |---|---|---|
