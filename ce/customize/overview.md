@@ -2,7 +2,7 @@
 title: "App making and customization overview | MicrosoftDocs"
 description: "Learn about metadata and how it relates to app making"
 ms.custom: 
-ms.date: 04/16/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The way your organization works is unique. Some organizations have well-defined business processes that they apply using an app. Others aren’t happy with their current business processes and use a custom app or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to apply new data and processes to their business. Whatever situation you find yourself in, you’ll find a lot of app design and customization capabilities in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] so that it can work for your organization.  
+The way your organization works is unique. Some organizations have well-defined business processes that they apply using an app. Others aren’t happy with their current business processes and use a custom app or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to apply new data and processes to their business. Whatever situation you find yourself in, you’ll find a lot of app design and customization capabilities in [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps so that they can work for your organization.  
   
  Of course you’re eager to get started, but please take a few minutes to read the content in this section. This will introduce you to important terms, give you some background about why things are done a certain way, and help you avoid potential problems in the future.  
 
@@ -36,12 +36,12 @@ The way your organization works is unique. Some organizations have well-defined 
   
  Today, modern business applications use a metadata-driven architecture so that people can customize the application without writing code. Metadata means “data about data” and it defines the structure of the data stored in the system. With this metadata, an application knows about any changes to the data structure and this enables the application to adapt as the data structure changes. Since the metadata is known, additional capabilities can be included that are tied to the metadata.  
   
- When you customize an app using the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] customization tools, you’re adding or updating the metadata or data used by features that depend on the metadata. Because we know the kinds of data used to customize the system, we can take this data into account and add new features to your app without breaking the underlying platform.   
+ When you customize an app using the customization tools, you’re adding or updating the metadata or data used by features that depend on the metadata. Because we know the kinds of data used to customize the system, we can take this data into account and add new features to your app without breaking the underlying platform.   
   
-> **Customize or Configure?**   
-> Dynamics 365 for Customer Engagement apps subscribers say they want to customize the application, so we use the word “customize” to describe changing the system to make it work the way you want. Some people prefer to use the word “configure” because it suggests that no code was required to make changes. Call it whatever you like, we just want to make it clear that you don’t need to be a developer to create [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps or customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+### Customize or Configure?
+Dynamics 365 for Customer Engagement apps subscribers say they want to customize the application, so we use the word “customize” to describe changing the system to make it work the way you want. Some people prefer to use the word “configure” because it suggests that no code was required to make changes. Call it whatever you like, we just want to make it clear that you don’t need to be a developer to create apps or customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
-[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization.  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization.  
   
 <a name="BKMK_SupportedCust"></a>   
 ## What kinds of customizations are supported with Dynamics 365 for Customer Engagement apps?  
@@ -81,7 +81,7 @@ The way your organization works is unique. Some organizations have well-defined 
   
 <a name="BKMK_ChooseTheRightCustomization"></a>   
 ### Choose the right customization capability for the job  
- The law of instrument states “If all you have is a hammer, everything looks like a nail.” With all the different customization capabilities available in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] it’s easy to become familiar with one of them and seek to use it to solve every problem. As you evaluate the business problems you want to solve, think about the end result you want to achieve and then work backwards to how you can get there.  
+ The law of instrument states “If all you have is a hammer, everything looks like a nail.” With all the different customization capabilities available in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps it’s easy to become familiar with one of them and seek to use it to solve every problem. As you evaluate the business problems you want to solve, think about the end result you want to achieve and then work backwards to how you can get there.  
  
 <a name="BKMK_changesinperformance"></a>   
 ## Changes that affect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps organization performance  

@@ -116,4 +116,4 @@ In addition, you can now do a self-serve cancellation of your subscription from 
   
 ### See also  
  [Billing support](../admin/billing-support.md)   
- [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)
+ [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)

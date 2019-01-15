@@ -1,8 +1,22 @@
 # [Omni-channel Engagement Hub Guide](omni-channel-engagement-hub-guide.md)
 
-## [Introduction](introduction-omni-channel.md)
+## Get started
+### [Introduction](introduction-omni-channel.md)
+### System requirements
+### Add users
+### Assign roles to users
+### Enable a chat
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
+### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
+### [Create and manage work streams](administrator/work-streams.md)
+#### [Configure record identification rule](administrator/record-identification-rule.md)
+### [Configure presence and custom presence](administrator/presence-custom-presence.md)
+### [Create and manage users](administrator/users-user-profiles.md)
+### [Create and manage routing rules](administrator/routing-rules.md)
+### [Work with queues](administrator/queues-omni-channel.md)
+### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
+### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Set up chat widget](administrator/set-up-chat-widget.md)
 

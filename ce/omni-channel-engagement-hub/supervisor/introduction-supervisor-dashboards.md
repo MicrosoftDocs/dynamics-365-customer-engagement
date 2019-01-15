@@ -14,49 +14,52 @@ ms.custom:
 ---
 # Introduction to supervisor dashboards
 
-The **Overview** dashboard provides information about agents on health and KPIs such as open work items, active work items, and active work items escalated. Typically, the **Overview** dashboard is divided into two sections: 
+The **Overview** dashboard provides information about the health and key performance indicators (KPIs) of agents in your organization. The KPIs include the number of open work items, the number of active work items, and the number of active work items that have been escalated.
 
-1.  [Live monitoring](#live-monitoring)  
-2.  [Intraday monitoring](#_Intraday_monitoring)  
+Typically, the **Overview** dashboard is divided into two sections:
+
+- [Live monitoring](#live-monitoring)
+- [Intraday monitoring](#intraday-monitoring)
 
 ## Live monitoring
 
-Displays information such as latest KPIs that is automatically refreshed to reflect the latest status on health parameters. This information refreshes within two to three minutes of a change in the app data. The following page is an example of how a live data monitoring dashboard displays: 
+The **Live monitoring** section shows information that is automatically updated to reflect the latest status of health parameters. This information includes the latest KPIs. The information is updated within two to three minutes after the app data is changed.
 
-![live work monitoring for supervisor](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor") 
+The following illustration shows an example of the **Live monitoring** section.
 
-The dashboard consists of the following KPIs:
+![Live work monitoring for supervisors](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisors")
 
-| **KPI**| **Description**|
-|--------|----------------|
-|**Active work items**|Displays the number of work items that are in active state. The numbers are displayed in a bar chart for each live work stream that is configured.|
-|**Active work items exceeding 5 min wait time**|Displays the work items that are in active and open states and exceeded the time in queue threshold.|
-|**Active work items exceeding 5 min handle time**|Displays the active work items that are exceeding the handle time threshold.|
-|**Active work items transferred**|Displays the work items that are active and transferred from one agent/supervisor to another agent/supervisor.|
-|**Open work items**|Displays the number of work items that are in open state.|
+This section of the dashboard consists of the following KPIs.
 
-<span id="_Intraday_monitoring" class="anchor"></span>
+| KPI                                           | Description |
+|-----------------------------------------------|-------------|
+| Active work items                             | The number of work items that are in the **Active** state. Numbers are shown in a bar chart for each live work stream that is configured. |
+| Active work items exceeding 5 min wait time   | The number of work items that are in the **Active** and **Open** states, and that are exceeding the time-in-queue threshold. |
+| Active work items exceeding 5 min handle time | The number of active work items that are exceeding the handle-time threshold. |
+| Active work items transferred                 | The number of active work items that have been transferred from one agent or supervisor to another agent or supervisor. |
+| Open work items                               | The number of work items that are in the **Open** state. |
 
 ## Intraday monitoring
 
-Provides information on latest KPIs, health of queues on the status of the agents in the given day, and the information refreshes every 15 minutes. The following page is an example of how an intraday monitoring dashboard displays: 
+The **Intraday monitoring** section provides information about the latest KPIs, the health of queues on the status of the agents on a given day. The information is updated every 15 minutes.
 
-![intraday work monitoring for supervisor](../media/oc-usd-supervisor-overview-intraday-monitoring.png "Intraday work monitoring for supervisor")   
+The following illustration shows an example of the **Intraday monitoring** section.
 
-The dashboard consists of the following KPIs:
+![Intraday work monitoring for supervisors](../media/oc-usd-supervisor-overview-intraday-monitoring.png "Intraday work monitoring for supervisors")
+
+This section of the dashboard consists of the following KPIs.
 
 > [!NOTE]
-> All KPIs that application displays are for the past 24 hour running window. 
+> All KPIs that the application shows are for the last 24-hour running window.
 
-|**KPI**|**Description**|
-|-------|---------------|
-|**Active work items**|Displays the number of work items that are in active state. The numbers are displayed in a bar chart for each live work stream that is configured.|
-|**Average handle time**|Displays the average time taken to complete a session from start to end for different work items.|
-|**Average response time**|Displays the average time taken to respond to a work item by an agent.|
-|**Average wait time**|Displays the average time taken for an agent to respond to a customer waiting in the queue.|
-|**Average work items per agent**|Displays the average number of work items that are handled by an agent. The values are displayed for both logged-in (available, busy, and away) and online agents (available and busy agents)|
-|**Closed work items**|Displays the number of work items that are in closed state, and no further action can be taken.|
-|**Open work items**|Displays the number of work items that are in open state.|
-|**Transferred work items**|Displays the work items that are transferred from one agent/supervisor to another agent/supervisor.|
-|**Waiting work items**|Displays the number of work items that are in waiting state.|
-
+| KPI                          | Description |
+|------------------------------|-------------|
+| Active work items            | The number of work items that are in the **Active** state. Numbers are shown in a bar chart for each live work stream that is configured.|
+| Average handle time          | The average time that is taken to complete a session from start to end for different work items. |
+| Average response time        | The average time that an agent takes to respond to a work item. |
+| Average wait time            | The average time that an agent takes to respond to a customer who is waiting in the queue. |
+| Average work items per agent | The average number of work items that are handled by an agent. The numbers are shows for both agents who are signed in (available, busy, and away) and for online agents (available and busy). |
+| Closed work items            | The number of work items that are in the **Closed** state, so that no further action can be taken on them. |
+| Open work items              | The number of work items that are in the **Open** state. |
+| Transferred work items       | The number of work items that have been transferred from one agent or supervisor to another agent or supervisor. |
+| Waiting work items           | The number of work items that are in the **Waiting** state. |

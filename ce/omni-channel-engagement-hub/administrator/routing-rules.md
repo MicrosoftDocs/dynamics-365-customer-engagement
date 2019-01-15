@@ -1,7 +1,7 @@
 ---
-title: "Create and manage routing rules in omni-channel"
-description: 
-keywords: ""
+title: Create and manage routing rules in omni-channel engagement hub
+description: Understand how to create and manage routing rules in omni-channel engagement hub
+keywords: routing rules; omni-channel engagement hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: ae408147-bb2c-4016-8ae7-cf06eb12ceb0
 ms.custom: 
 ---
-# Create and manage routing rules in omni-channel
+# Create and manage routing rules
 
 Routing rules in Omni-channel Engagement Hub unify conversations from multiple work streams and distribute them to the correct agents, so that customers get help quickly. Routing rules are an entry point into the routing and work distribution ecosystem. When routing rules are invoked, they evaluate the destination of an incoming conversation and route it to the correct queue.
 
@@ -23,7 +23,7 @@ Routing rules are configured for each work stream. A single work stream can have
 Routing rules help collect conversations, based on the condition that is applied, and then route them to the correct destination.
 
 > [!NOTE]
-> The destination for the conversation can be a queue or an agent. However, in private preview, only queues are supported as destinations.
+> The destination for the conversation can be a queue or an agent. However, in this preview, only queues are supported as destinations.
 
 ![Rule destination](../media/oc-rule-destination.png)
 
@@ -31,12 +31,14 @@ Routing rules evaluate conversations based on the context channel, customer attr
 
 ![Configured rule](../media/configured-rule.png)
 
-Routing rule items are run in a specific order, and the conversations are routed according to the destination. Collectively, the conditions form a criterion for a rule item. Therefore, for a conversation, if the criterion in a rule item is evaluated as true, the conversation is routed to the designated destination. Otherwise, the criterion in the next rule item is evaluated. If the criteria in all the rule items are evaluated as false, the conversation goes to a default queue.
+Routing rule items are run in a specific order, and the conversations are routed according to the destination. Collectively, the conditions form a criterion for a rule item. Therefore, for a conversation, if the criterion in a rule item is evaluated as true, the conversation is routed to the designated destination. Otherwise, the criterion in the next rule item is evaluated. 
+
+If the criteria in all the rule items are evaluated as false, the conversation goes to a default queue.
 
 ## Create a routing rule
 To create a routing rule, select a work stream by navigating to **Work Distribution Management** > **Work Streams**, and define a new rule in the **Routing Rule Item** tab.
 
-1. Select **Add new Rule Item** to add a new routing rule item.  
+1. Select **Add New Rule Item** to add a new routing rule item.  
     - In the **General information** section of the **General** tab, provide the following information: 
       - **Name**. Name of the rule item
       - **Work Stream** is auto populated
@@ -56,4 +58,8 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
 
 2. Select **Save** to save the rule.
 
+### See also
 
+[Create and manage work streams](work-streams.md)
+
+[Understand unified routing and work distribution](unified-routing-work-distribution.md)

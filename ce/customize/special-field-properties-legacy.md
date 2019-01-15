@@ -12,15 +12,15 @@ manager: kvivek
 ms.date: 04/24/2018
 ms.service: crm-online
 ms.topic: article
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 6ad7e43c-b6a1-48c4-9dfb-ed830142a841
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
 ---
 # Overview of special field properties
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
  All fields have the properties listed in [Common field properties](../customize/common-field-properties-legacy.md), but certain fields have additional properties, such as this entitlement field that can be opened from the main case form.  
 

@@ -35,7 +35,7 @@ search.app:
 ## Introduction
 Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin for your organization,  or recipients added to the notification list by the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin, receives email notifications. During a service incident, a Customer Engagement apps customer service representative may also call and follow up with an email.  
   
- If you’re not sure who your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin is, see [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md).  
+ If you’re not sure who your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin is, see [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
   
  If you want to change who receives email communications, see [Manage email notifications](../admin/manage-email-notifications.md).  
   
@@ -60,7 +60,7 @@ The Customer Engagement apps team identifies and tracks any identified issues, a
   
 **How do I find out about security updates?**  
   
- Because the Customer Engagement apps team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
+ Because the Customer Engagement apps team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
   
  For more information about Customer Engagement apps security, see [Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365).
  
@@ -252,7 +252,7 @@ Communications emails are specific to managing the Dynamics 365 for Customer Eng
  <a name="BKMK_PostPurchase"></a>   
 
 ### Post-purchase customer lifecycle communications  
- Once a customer has purchased Customer Engagement apps, we send a series of helpful email communications to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
+ Once a customer has purchased Customer Engagement apps, we send a series of helpful email communications to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
  You can easily identify these communications by the dark-blue banner.  
   

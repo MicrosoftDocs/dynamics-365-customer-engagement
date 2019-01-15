@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 for Customer Engagement to create new lead or case records."
 keywords: Link to Dynamics 365 for Customer Engagement, Link to CRM, link post, record details, social activity, entity, entities
-ms.date: 09/19/2018
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 

@@ -1,7 +1,7 @@
 ---
-title: "Understand the conversation state lifecycle"
-description: 
-keywords: ""
+title: Understand the conversation state lifecycle
+description: Understand the conversation state lifecycle in the omni-channel engagement hub
+keywords: Conversation state lifecycle; omni-channel engagement hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -28,3 +28,7 @@ You can also view other important metrics and analyze them on the supervisor das
 - Average handling time
 - Average waiting time for customers
 - The number of conversations that have been resolved by agents
+
+### See also
+
+[Understand unified routing and work distribution](unified-routing-work-distribution.md)
