@@ -1,7 +1,7 @@
 ---
 title: "Configure a live chat widget and embed it in portal"
 description: "Instructions to configure a live widget in Omni-channel Engagement Hub and embed it in Dynamics 365 Portal."
-keywords: ""
+keywords: live chat work stream, live chat widget, omni-channel engagement hub
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -17,11 +17,38 @@ ms.custom:
 
 To configure a live chat widget and embed it in portal, you must:
 
-1. [Create a work stream](#step-1-create-a-work-stream)
+1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
 2. [Create a chat widget](#step-2-create-a-chat-widget)
 3. [Embed chat widget in portal](#step-3-embed-chat-widget-in-portal)
 
-## Step 1: Create a work stream
+## Step 1: Create a live chat work stream
+
+1. In the omni-channel site map, go to **Work Streams** and select **New** from the command bar.
+2. On the **Summary** tab of the new work stream page, provide the appropriate information in each section:
+
+    - **General Information** 
+        1. **Name**: Enter a name for the work stream.
+        2. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
+        3. **Stream Source**: Select the channel supported for the work stream: **Live Chat**. 
+        4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
+        5. **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
+   
+     - **Work distribution**
+        1. Select whether the work distribution mode should be **Push** or **Pick**.
+        2. In the **Notification** field, select the type of notification setting.
+        3. In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
+            > [!NOTE]
+            > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
+            
+      - **Context variables**
+        1. Select **New** to create a new context variable for the work stream. 
+        2. In the **Quick Create** flyout, enter a name and specify the type for the context variable.
+        
+ 4. Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).    
+ 
+ 5. Select **Save** to save the live chat work stream.
+
+    ![New workstream](../media/omni-channel-new-work-stream.png)
 
 ## Step 2: Create a chat widget
 
