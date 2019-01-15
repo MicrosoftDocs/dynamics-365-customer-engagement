@@ -85,5 +85,5 @@ To configure a live chat widget and embed it in portal, you must:
 
 ### See also
 
-[Create and manage work streams](work-streams.md)
+[Create and manage work streams](work-streams.md) </br>
 [Set up a chat widget](set-up-chat-widget.md)
