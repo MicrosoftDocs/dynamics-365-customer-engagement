@@ -21,7 +21,7 @@ search.app:
   - D365SE
 ---
 
-# Microsoft Social Engagement vs. Dynamics 365 Market Insights
+# Microsoft Social Engagement vs. Dynamics 365 AI for Market Insights
 
 ## Key difference
 
