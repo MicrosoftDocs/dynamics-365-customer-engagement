@@ -45,9 +45,9 @@ When you set up Live Chat work streams, you define the following properties:
 
 - **Routing rules**: Routing rules are configured for each work stream, so that conversations can be distributed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
 
-## Create a new Live Chat work stream
+## Create a new live chat work stream
 
-Follow these steps to create a new Live Chat work stream.
+Follow these steps to create a new live chat work stream.
 
 1. In the omni-channel site map, select **Work Distribution Management \> Work Streams**.
 
