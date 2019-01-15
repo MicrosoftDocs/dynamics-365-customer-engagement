@@ -137,7 +137,7 @@
 # [Create or edit a web resource](create-edit-web-resources.md) 
 ## [Web resource properties](web-resource-properties-legacy.md)
  
-# [Work with an international audience](work-with-international-audience.md)
+# [Work with international features](work-with-international-audience.md)
 ## [Enable additional languages](enable-additional-languages.md)
 ## [Export customized entity and field text for translation](export-customized-entity-field-text-translation.md)
 ## [Import translated entity and field text](import-translated-entity-field-text.md)
