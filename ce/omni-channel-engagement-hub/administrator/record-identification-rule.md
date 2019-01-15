@@ -85,7 +85,6 @@ For the preceding record identification rules to work, you **must** create the f
 | CaseNumber     | Multiple lines | Case Number   |
 |||
 
-
 **Unauthenticated chat**
 | Question name | Answer type    | Question text |
 |---------------|----------------|---------------|
