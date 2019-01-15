@@ -53,7 +53,7 @@ To configure a live chat widget and embed it in portal, you must:
 
 ## Step 2: Create a chat widget
 
-1. Go to the work stream created in [Step 1](#step-1-create-a-work-stream).
+1. Go to the work stream created in [Step 1](#step-1-create-a-live-chat-work-stream).
 2. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
 3. On the **New Chat Widget** page, provide the appropriate information on each tab.
 
@@ -66,6 +66,8 @@ To configure a live chat widget and embed it in portal, you must:
             > ![Configure the basic details of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget")
 
     - **Design**: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of the chat widget.
+
+    - **Survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated.
 
 ## Step 3: Embed chat widget in portal
 
