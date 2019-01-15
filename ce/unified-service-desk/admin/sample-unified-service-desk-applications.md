@@ -1,5 +1,5 @@
 ---
-title: "Sample Unified Service Desk for Dynamics 365 for Customer Engagement apps applications | MicrosoftDocs"
+title: "Sample Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Discover the sample application available with Unified Service Desk for Dynamics 365 for Customer Engagement apps that you can use to quickly get you started."
 ms.custom: 
   - dyn365-USD, dyn365-admin

@@ -33,7 +33,7 @@ With rich text enabled you get the following benefits:
 
 
 > [!IMPORTANT]
-> To enable rich text, your Dynamics 365 for Customer Engagement apps for Customer Engagement version must be Dynamics 365 for Customer Engagement apps apps version 9.0, or a later version.
+> To enable rich text, your Dynamics 365 for Customer Engagement apps for Customer Engagement version must be Dynamics 365 for Customer Engagement apps version 9.0, or a later version.
 > 
 > After enabling, if you choose to disable the setting, the appointment editor  description field will reset to the plain-text field. Previously synchronized  appointments’ description will still contain rich-text HTML markup.
 >

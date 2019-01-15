@@ -104,7 +104,7 @@ For more information about the scenario choices, see the [Installation options](
 ## Installation options
 You can choose to start a trial for all Customer Engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
 
-![Dynamics 365 for Customer Engagement apps app switcher](../admin/media/app-switcher75.png "Dynamics 365 for Customer Engagement apps app switcher")  
+![Dynamics 365 for Customer Engagement apps switcher](../admin/media/app-switcher75.png "Dynamics 365 for Customer Engagement apps switcher")  
 
 The following table shows what’s installed for each choice, what you see in the app switcher, and where you can use it.
 
