@@ -85,7 +85,7 @@ The Outlook App is not enabled on [Common Data Service for Apps](/powerapps/make
 5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
-If you have custom security roles defined in Dynamics 365 for Customer Engagement apps app, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
+If you have custom security roles defined in Dynamics 365 for Customer Engagement apps, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
 1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **"<your_organization_URL>/apps"**) 
 
@@ -192,7 +192,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 <!--
 > [!NOTE]
->  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps on-premises users](#BKMK_DeployOnprem)  
+>  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users](#BKMK_DeployOnprem)  
 --> 
 
 #### To push the app to users  
@@ -224,13 +224,13 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 <!--    
 <a name=BKMK_DeployOnprem></a>   
 
-## To deploy to Dynamics 365 for Customer Engagement apps on-premises users  
- Follow these steps if you're using Dynamics 365 for Customer Engagement apps on-premises.  
+## To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users  
+ Follow these steps if you're using Dynamics 365 for Customer Engagement apps (on-premises).  
 
 -   Configure your Dynamics 365 for Customer Engagement apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
 
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+-   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
 --> 
 
 <a name=BKMK_Troubleshoot></a> 
