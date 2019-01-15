@@ -57,7 +57,7 @@ You can run the Dynamics 365 for Customer Engagement apps for Windows tablets ap
 
 You can also run the Dynamics 365 for Customer Engagement apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 for Customer Engagement apps](../admin/web-application-requirements.md).
 
-Download the Dynamics 365 for Customer Engagement apps app from the Windows Marketplace for [Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
+Download the Dynamics 365 for Customer Engagement apps from the Windows Marketplace for [Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
   
 <a name="BKMK_iPad"></a>   
 ### Apple iPad  
