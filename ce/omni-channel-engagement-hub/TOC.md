@@ -3,6 +3,7 @@
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
 ### System requirements
+### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
 ### [Configure a live chat widget](administrator/configure-live-chat.md)
 
