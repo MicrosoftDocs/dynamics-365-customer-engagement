@@ -73,7 +73,7 @@ You see the following details for a chat channel:
 ![Omni-channel Customer 360 form for chat](../../media/oc-usd-chat-customer360.png "Omni-channel customer 360 page for chat")
 
 > [!div class="nextstepaction"]
-> [Next topic: Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+> [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 
 ## See also
 

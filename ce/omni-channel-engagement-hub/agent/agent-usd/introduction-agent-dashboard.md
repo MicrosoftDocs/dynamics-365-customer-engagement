@@ -51,7 +51,7 @@ In the **Closed conversations** work stream, you see all the conversations that 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
-- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation control](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)

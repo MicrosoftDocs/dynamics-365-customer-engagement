@@ -28,7 +28,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 - [View notifications and screen pops](notifications-screen-pop.md)
 
-- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 
 - [View conversation control](left-control-panel.md)
 

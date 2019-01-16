@@ -45,7 +45,7 @@ You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 - [Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
 - [Introduction to agent dashboard](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
-- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation control](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
