@@ -1,5 +1,5 @@
 ---
-title: "My dasboard view of agent interface in Omni-channel Engagement Hub"
+title: "My dashboard view of agent interface in Omni-channel Engagement Hub"
 description: "Learn about the My dasboard view of agent interface in Omni-channel Engagement Hub"
 keywords: ""
 author: kabala123
@@ -13,7 +13,7 @@ ms.assetid: 69344371-9846-488B-A9A8-875C35398F92
 ms.custom: 
 ---
 
-# View My dashboard and agent work items
+# View agent dashboard and agent work items
 
 The My Dashboard is a default view when you sign in to the application. The dashboard displays the following forms:
 
@@ -47,9 +47,9 @@ In this work stream, you see the work items that you completed during the past 2
 - [Sitemap](csh-sitemap.md)
 - [Navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

@@ -1,5 +1,5 @@
 ---
-title: "Customer 360 - Overview of the existing challenges"
+title: "View customer summary"
 description: "Customer 360 is a form where you can know complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
@@ -34,7 +34,8 @@ By having this information ready when customers contact them, support agents can
 
    - All activities
 
-![omni-channel customer 360 page](../../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
+> [!div class=mx-imgBorder]
+> ![omni-channel customer 360 page](../../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
 
 #### Customer profile
 
@@ -57,16 +58,16 @@ This section displays the recent cases that relate to the customer.
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
 
 > [!div class="nextstepaction"]
-> [Next topic: Conversation panel](left-control-panel.md)
+> [Next topic: View conversation control](left-control-panel.md)
 
 ## See also
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [Introduction to agent dashboard](introduction-agent-dashboard.md)
-- [Notifications and screen pop](notifications-screen-pop.md)
-- [Right control panel](right-control-panel.md)
+- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
+- [View notifications and screen pops](notifications-screen-pop.md)
+- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

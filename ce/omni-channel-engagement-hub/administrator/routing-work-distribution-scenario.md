@@ -58,9 +58,9 @@ The following scenario should help you understand how the routing and work distr
 
 - Other rules play a part in the assignment of a conversation. Here are some examples:
 
-    - If the conversation is coming in for reassignment after some follow-up, it's allocated to the agents who previously worked on it. This principle is known as agent affinity.
-    - The conversation is first allocated to the agent who has the most available capacity.
-    - If multiple agents qualify for the conversation and have the same capacity, the conversation is allocated to the agent who has been idle at that capacity for the longest time.
+     - If the conversation is coming in for reassignment after some follow-up, it's allocated to the agents who previously worked on it. This principle is known as agent affinity.
+      - The conversation is first allocated to the agent who has the most available capacity.
+      - If multiple agents qualify for the conversation and have the same capacity, the conversation is allocated to the agent who has been idle at that capacity for the longest time.
 
 In this scenario, if the presence status of both Gilda and Bert is **Available**, both agents qualify for the incoming conversation, because they both meet these conditions:
 
@@ -89,9 +89,9 @@ If a conversation remains in an omni-channel queue assigned to any agent, it bec
 - As soon as agents become available and have enough capacity to take on the work, the items start to be allocated to them.
 - Agents work on the conversations and take one of the following actions:
 
-    - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
-    - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't take action on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
-    - Resolve the conversation, and move it to the **Closed** state.
+     - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
+      - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't take action on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
+      - Resolve the conversation, and move it to the **Closed** state.
 
 ### Adjusting an agent's capacity based on conversation allocation
 

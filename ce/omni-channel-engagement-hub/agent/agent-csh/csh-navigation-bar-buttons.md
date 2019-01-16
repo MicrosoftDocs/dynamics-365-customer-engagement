@@ -78,7 +78,7 @@ When you select any record, the application displays a new quick create form. Fo
 Similarly, for the other records, the application displays the quick create forms of the respective record.
 
 > [!div class="nextstepaction"]
-> [Next topic: View My dashboard and agent work items](csh-my-dashboard.md)
+> [Next topic: View agent dashboard and agent work items](csh-my-dashboard.md)
 
 ## See also
 
@@ -87,9 +87,9 @@ Similarly, for the other records, the application displays the quick create form
 - [Sitemap](csh-sitemap.md)
 - [Navigation bar](csh-navigation-bar.md)
 - [Conversation control](csh-conversation-control.md)
-- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

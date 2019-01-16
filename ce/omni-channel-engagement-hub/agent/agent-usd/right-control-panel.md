@@ -1,5 +1,5 @@
 ---
-title: "Right control panel"
+title: "View call scripts, take notes, and search knowledge articles"
 description: "The right control panel hosts the agent scripts, notes, and knowledge articles search controls."
 keywords: ""
 author: kabala123
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 9f92f549-fe97-4c4a-9561-0c9c85d53bd2
 ms.custom: 
 ---
-# Right control panel
+# View call scripts, take notes, and search knowledge articles
 
 The right panel consists of agent scripts, notes, and knowledge management search controls.
 
@@ -39,10 +39,10 @@ You can search for a KB article and open it as a tab on the Application tab mana
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [Introduction to agent dashboard](introduction-agent-dashboard.md)
-- [Notifications and screen pop](notifications-screen-pop.md) 
-- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
-- [Conversation panel](left-control-panel.md)
-- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
+- [View notifications and screen pops](notifications-screen-pop.md) 
+- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [View conversation control](left-control-panel.md)
+- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)
