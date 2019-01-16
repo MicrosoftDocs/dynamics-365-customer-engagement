@@ -15,6 +15,7 @@
 ## [Migrate Dynamics 365 for Customer Engagement Portal configuration](migrate-portal-configuration.md)
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
+## [Self-service diagnostic](self-service-diagnostic.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
