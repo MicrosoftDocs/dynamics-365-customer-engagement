@@ -26,7 +26,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 - [Sitemap](csh-sitemap.md)
 - [Navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [My Dashboard](csh-my-dashboard.md)
+- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
