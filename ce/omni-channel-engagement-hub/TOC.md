@@ -56,9 +56,9 @@
 
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer 360 form](customizer/customize-customer-360-page.md)
-### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
-### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
-### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
+#### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
+#### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
+#### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
 ### [Customize the conversation forms](customizer/customize-conversation-form.md)
 ### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 ### [Configure notifications (screen pops) for agents](customizer/configure-notification-screen-pop-agents.md)
