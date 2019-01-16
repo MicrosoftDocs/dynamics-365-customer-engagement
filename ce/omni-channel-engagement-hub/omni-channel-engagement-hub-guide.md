@@ -31,10 +31,8 @@ ms.custom:
 <h2> I'm an administrator </h2>
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel Engagement Hub for administrators](administrator/omni-channel-engagement-hub-administrator.md)">Omni-channel Engagement Hub for administrators</a></li>
-<li><a href="administrator/work-streams.md" data-raw-source="[Create and manage work streams](work-streams.md)">Create and manage work streams</a></li>
-<li><a href="administrator/users-user-profiles.md" data-raw-source="[Create and manage users and user profiles](users-user-profiles.md)">Create and manage users and user profiles</a></li>
-<li><a href="administrator/queues-omni-channel.md" data-raw-source="[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)">Work with queues in Omni-channel Engagement Hub</a></li>
-<li><a href="administrator/conversation-state-lifecycle.md" data-raw-source="[Understand the conversation state lifecycle](conversation-state-lifecycle.md)">Understand the conversation state lifecycle</a></li>
+<li><a href="unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](unified-routing-work-distribution.md)">Understand unified routing and work distribution</a></li>
+
 </td>
 </tr>
 <tr>
