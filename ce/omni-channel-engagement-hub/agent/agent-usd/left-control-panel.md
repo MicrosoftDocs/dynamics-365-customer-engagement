@@ -20,7 +20,7 @@ When you're using the chat conversation channel, you can send quick replies. You
 
 If you need help to resolve the work item, you can use the **Consult** option. You can also switch from the public mode to the internal mode to send messages to internal participants (other agents and/or a supervisor).
 
-![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")  
+![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")   
 
 ## Internal and public messages
 

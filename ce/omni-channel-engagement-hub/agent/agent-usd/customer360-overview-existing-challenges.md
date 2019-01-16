@@ -34,7 +34,8 @@ By having this information ready when customers contact them, support agents can
 
    - All activities
 
-![omni-channel customer 360 page](../../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
+> [!div class=mx-imgBorder]
+> ![omni-channel customer 360 page](../../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
 
 #### Customer profile
 
