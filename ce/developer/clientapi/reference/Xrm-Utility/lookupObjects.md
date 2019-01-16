@@ -21,7 +21,7 @@ search.app:
 
 ## Syntax
 
-`Xrm.Utility.lookupObjects(lookupOptions).then(successCallback, cancelCallback)`
+`Xrm.Utility.lookupObjects(lookupOptions).then(successCallback, errorCallback)`
 
 ## Parameters
 
