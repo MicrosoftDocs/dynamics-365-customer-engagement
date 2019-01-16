@@ -79,7 +79,7 @@ When you interact with a customer in the conversation control, you can use the *
 - [Sitemap](csh-sitemap.md)
 - [Navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)

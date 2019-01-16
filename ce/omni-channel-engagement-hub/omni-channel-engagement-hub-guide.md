@@ -41,6 +41,9 @@ ms.custom:
 <h2> I'm an agent </h2>
 
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[How-tos](agent/agent-usd/omni-channel-engagement-hub-agent.md)">How-tos</a></li>
+<li><a href="agent/agent-usd/introduction-agent-dashboard.md" data-raw-source="[Introduction to the agent dashboard](agent/agent-usd/introduction-agent-dashboard.md)">Introduction to the agent dashboard</a> and </li>
+<li><a href="agent/agent-usd/.md" data-raw-source="[](agent/agent-usd/.md)"></a></li>
+<li><a href="agent/agent-usd/.md" data-raw-source="[](agent/agent-usd/.md)"></a></li>
 </td>
 <td>
 
