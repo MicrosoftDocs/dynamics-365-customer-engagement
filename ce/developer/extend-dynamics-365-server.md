@@ -55,7 +55,7 @@ This section describes capabilities to extend [!INCLUDE[pn_dynamics_crm_online](
   
  [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)  
   
- [Customize Dynamics 365 for Customer Engagement apps applications](customize-dev/customize-applications.md)  
+ [Customize Dynamics 365 for Customer Engagement apps](customize-dev/customize-applications.md)  
   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
