@@ -75,7 +75,7 @@ Fore more informatoin, see [An appointment is cancelled or deleted unexpectedly 
 
 Fore more informatoin, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
 
-## I need help troubleshooting App for Outlook.
+## I need help troubleshooting the App.
 Fore more informatoin, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
 
 
