@@ -27,7 +27,7 @@ You can deploy Omni-channel Engagement Hub solution over a Customer Engagement a
 
 You require the following to use Omni-channel Engagement Hub with Unified Service Desk:
 
-- Unified Service Desk 4.0 and higher version client application
+- Unified Service Desk 4.0 and higher version
 
 - Dynamics 365 for Customer Engagement apps version 9.1 and higher version
 
