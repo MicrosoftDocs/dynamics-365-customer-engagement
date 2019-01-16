@@ -15,7 +15,7 @@ ms.custom:
 
 # System requirements of Omni-channel Engagement Hub
 
-This topic provides information about the system requirements for deploying the Omni-channel Engagement Hub on an Dynamics 365 for Customer Engagement apps instance.
+This topic provides information about the system requirements for deploying the Omni-channel Engagement Hub on a Dynamics 365 for Customer Engagement apps instance.
 
 You can deploy Omni-channel Engagement Hub solution over a Customer Engagement application and experience it through the following ways:
 
@@ -44,4 +44,4 @@ For hardware requirements of Unified Service Desk client application, see [Unifi
 For hardware and other requirements, see [Microsoft Dynamics 365 for Customer Engagement apps requirements](/dynamics365/customer-engagement/admin/online-requirements)
 
 > [!NOTE]
-> The above mentioned requirements of Omni-channel Engagement Hub - Preview is for running basic scenarios. The requirements and performance may vary based on usage and complex configurations.
+> The above mentioned requirements of Omni-channel Engagement Hub is for running basic scenarios as . The requirements and performance may vary based on usage and complex configurations.
