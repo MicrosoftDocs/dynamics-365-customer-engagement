@@ -25,7 +25,7 @@
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
-#### [Introduction to the agent dashboard](agent/agent-usd/introduction-agent-dashboard.md)
+#### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
 #### [View notifications and screen pops](agent/agent-usd/notifications-screen-pop.md)
 #### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
 #### [View conversation control](agent/agent-usd/left-control-panel.md)
