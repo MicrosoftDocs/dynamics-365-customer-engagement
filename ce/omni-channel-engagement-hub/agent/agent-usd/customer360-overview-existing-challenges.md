@@ -1,5 +1,5 @@
 ---
-title: "Customer 360 - Overview of the existing challenges"
+title: "View customer summary"
 description: "Customer 360 is a form where you can know complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
@@ -66,8 +66,8 @@ This section displays the case- and customer-related activities in the form of a
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Introduction to agent dashboard](introduction-agent-dashboard.md)
 - [Notifications and screen pop](notifications-screen-pop.md)
-- [Right control panel](right-control-panel.md)
+- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

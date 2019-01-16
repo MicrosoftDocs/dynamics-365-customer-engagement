@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: f12fd958-15d2-480b-b9d4-fb1314784f74
 ms.custom: 
 ---
-# View Customer 360 for an incoming conversation request
+# View customer summary for an incoming conversation request
 
 ## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omni-channel Engagement Hub  
 
@@ -90,6 +90,6 @@ When no record is found in Omni-channel Engagement Hub, you can create a contact
 - [Notifications and screen pop](notifications-screen-pop.md)
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 - [Conversation panel](left-control-panel.md)
-- [Right control panel](right-control-panel.md)
+- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [Search and link a record](search-link-record.md)

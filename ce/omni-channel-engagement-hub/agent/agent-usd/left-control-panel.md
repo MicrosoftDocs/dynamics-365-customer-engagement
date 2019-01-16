@@ -71,7 +71,7 @@ When you work on a conversation request, you might encounter the following scena
 In these scenarios, you can transfer the request. You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue, when you transfer the request, routing rules will push the queue as appropriate.
 
 > [!div class="nextstepaction"]
-> [Next topic: Right control panel](right-control-panel.md)
+> [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 
 ## See also
 
@@ -81,6 +81,6 @@ In these scenarios, you can transfer the request. You can transfer a request onl
 - [Notifications and screen pop](notifications-screen-pop.md)
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

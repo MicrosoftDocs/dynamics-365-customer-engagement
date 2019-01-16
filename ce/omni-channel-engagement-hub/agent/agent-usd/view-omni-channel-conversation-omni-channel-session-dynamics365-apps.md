@@ -66,7 +66,7 @@ The omni-channel session displays information about a conversation request.
 ![omni-channel session form](../../media/oc-crm-omni-channel-session-form.png "Omni-channel session form") 
 
 > [!div class="nextstepaction"]
-> [Next topic: View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+> [Next topic: View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 
 ## See also
 
@@ -76,6 +76,6 @@ The omni-channel session displays information about a conversation request.
 - [Notifications and screen pop](notifications-screen-pop.md)
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 - [Conversation panel](left-control-panel.md)
-- [Right control panel](right-control-panel.md)
+- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)
