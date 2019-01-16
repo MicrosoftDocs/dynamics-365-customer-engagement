@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/15/2018
+ms.date: 01/14/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 983e691f-0ee2-4e30-ba70-7e534c762611
@@ -23,24 +23,27 @@ As an admin, you can set up a chat widget for your website to engage with your c
 3. Select **New** to create a work stream.
 4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**.
 5. Specify values under **Agents**, **Agent Profiles**, and **Context Variable**. For more information, see [Create and manage work streams](work-streams.md).
-6. On the **Chat settings** tab, in the **Chat engagements** section, select **Add**.
+6. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
 7. On the **New Chat Widget** page, provide the appropriate information on each tab:
 
     - **Basic details**:
 
-        1. In the **General information** section, enter a name for the chat engagement. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see the [Set up authentication settings](#set-up-authentication-settings) section later in this topic.
+        1. In the **General information** section, enter a name for the chat widget. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see the [Set up authentication settings](#set-up-authentication-settings) section later in this topic.
         2. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. If you don't specify a domain, the chat widget is shown in all configured domains. The domain format should not include the protocol (for example, **http** or **https**).
         3. Copy the value in the **Code snippet** section, and embed it in the HTML source of your website.
 
-        ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
+        > [!div class=mx-imgBorder]
+        > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
     - **Design**: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of the chat widget. For more information about how to set up operating hours, see the [Set up operating hours](#set-up-operating-hours) section later in this topic.
 
-        ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
+        > [!div class=mx-imgBorder]
+        > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
 
     - **Survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated. For more information, see the [Set up a pre-chat survey](#set-up-a-pre-chat-survey) section later in this topic.
 
-        ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
+        > [!div class=mx-imgBorder]
+        > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
 
 ## Set up a pre-chat survey
 
@@ -59,19 +62,22 @@ You can configure your chat engagement to show users a survey that they should r
 8. In the **Quick Create: Survey Question Sequence** pane, select a question from the question library, and specify whether it's required or optional.
 
     > [!NOTE]
-    > In this preview, validations aren't supported in pre-chat surveys.
+    > Validations in pre-chat survey are supported only for mandatory fields.
 
-    ![Add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
+    > [!div class=mx-imgBorder]
+    > ![Add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
 
 9. Select **Save**.
 
     The questions are added to the pre-chat survey.
 
-    ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
+    > [!div class=mx-imgBorder]
+    > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
 
 10. To change the order of a question, select it, and then select **Move up** or **Move down**.
 
-    ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
+    > [!div class=mx-imgBorder]
+    > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
 ## Set up a question library
 
@@ -82,7 +88,8 @@ You can add questions to the question library in a work stream. You can then use
 3. Select the work stream to create a question library in.
 4. On the **Survey questions library** tab, select **Add question**.
 
-    ![Add a question to the question library](../media/oc-add-question.png "Add a question to the question library")
+    > [!div class=mx-imgBorder]
+    > ![Add a question to the question library](../media/oc-add-question.png "Add a question to the question library")
 
 5. On the **New Survey Question** page, provide the following information:
 
@@ -93,12 +100,14 @@ You can add questions to the question library in a work stream. You can then use
         - **Multiple lines**: The user can enter multiple lines of text.
         - **Option set**: The user can select an option in a drop-down list. If you select this answer type, you must save the question before you can specify the answer options.
 
-        ![Question where the answer type is Option set](../media/oc-option-set-answer-type.png "Question where the answer type is Option set")
+        > [!div class=mx-imgBorder]
+        > ![Question where the answer type is Option set](../media/oc-option-set-answer-type.png "Question where the answer type is Option set")
 
     - **Question text**: Enter the text of the question.
     - **Help text**: Enter help text that will be shown to the user as a watermark.
 
-    ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
+    > [!div class=mx-imgBorder]
+    > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
 
 6. Select **Save**.
 
@@ -122,7 +131,8 @@ Quick replies are pre-defined messages that can be created for agents to quickly
         > [!NOTE]
         > This field supports slugs, but the slug editor isn't available in this preview.
 
-    ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
+    > [!div class=mx-imgBorder]
+    > ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
 
 6. Select **Save**.
 
@@ -132,6 +142,8 @@ Operating hours define the hours when your organization's customer support team 
 
 > [!NOTE]
 > The chat widget will be shown only during the defined operating hours. At all other times, it will be hidden.
+
+### Create an operating hour record
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** \> **Operating Hours**.
@@ -150,15 +162,27 @@ Operating hours define the hours when your organization's customer support team 
     - **Time zone**: Specify the time zone of the operating hours.
     - **Description**: Enter an optional description of the operating hour record.
 
-    ![Create an operating hour record](../media/oc-quick-create-operating-hour.png "Create an operating hour record")
+    > [!div class=mx-imgBorder]
+    > ![Create an operating hour record](../media/oc-quick-create-operating-hour.png "Create an operating hour record")
 
 5. Select **Save and close**.
+
+### Add operating hours to chat widget
+
+1.	Open the chat widget to which you want to add operating hours.
+2.	Go to the **Design** tab.
+3.	In the **Operating hours** field, browse and select the operating hour record. The chat widget will now be displayed during the hours specified in the selected operating hour record.
+
+    > [!div class=mx-imgBorder]
+    > ![Add operating hours in a chat widget](../media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
 
 ## Set up authentication settings
 
 You can create authentication settings to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables. For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
+
+### Create a chat authentication setting record
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** \> **Chat Authentication**.
@@ -175,6 +199,15 @@ After you create an authentication settings record, you must add it in the **Bas
     For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
 
 5. Select **Save**.
+
+### Add authentication to chat widget
+
+1.	Open the chat widget to which you want to add authentication.
+2.	Go to the **Basic details** tab.
+3.	In the **Authentication settings** field, browse and select the chat authentication record.
+
+    > [!div class=mx-imgBorder]
+    > ![Add authentication to a chat widget](../media/oc-chat-widget-basic-details-tab.png "Add authentication to a chat widget")
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omni-channel Engagement Hub. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in Common Data Service for Apps.
 

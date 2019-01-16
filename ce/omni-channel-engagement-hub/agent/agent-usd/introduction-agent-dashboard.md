@@ -26,7 +26,8 @@ The **My Dashboard** page consists of the following views:
 
  - Closed work items
 
-![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")   
+> [!div class=mx-imgBorder]
+> ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")   
 
 ## My work items
 
@@ -43,17 +44,17 @@ In this work stream, you see the work items that you completed during the past 2
 In the **Closed conversations** work stream, you see all the conversations that you've completed during the past 24 hours. The work stream refreshes every business to reflect the conversations that you closed in past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details
 
 > [!div class="nextstepaction"]
-> [Next topic: Notifications and screen pop](notifications-screen-pop.md)
+> [Next topic: View notifications and screen pops](notifications-screen-pop.md)
 
 ## See also
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [Notifications and screen pop](notifications-screen-pop.md)
-- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
-- [Conversation panel](left-control-panel.md)
-- [Right control panel](right-control-panel.md)
+- [View notifications and screen pops](notifications-screen-pop.md)
+- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [View conversation control](left-control-panel.md)
+- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

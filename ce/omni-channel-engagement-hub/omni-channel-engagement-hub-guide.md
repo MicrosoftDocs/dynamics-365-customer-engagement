@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
+ms.date: 01/14/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
@@ -21,12 +21,18 @@ ms.custom:
 
 <h2> Get started </h2>
 <li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement introduction](introduction-omni-channel.md)">Omni-channel Engagement introduction</a></li>
+<li>System requirements</li>
+<li>Add users</li>
+<li>Assign roles to users</li>
+<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget](administrator/configure-live-chat.md)">Configure a live chat widget</a></li>
 </td>
 <td>
 
 <h2> I'm an administrator </h2>
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel Engagement Hub for administrators](administrator/omni-channel-engagement-hub-administrator.md)">Omni-channel Engagement Hub for administrators</a></li>
+<li><a href="unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
+
 </td>
 </tr>
 <tr>

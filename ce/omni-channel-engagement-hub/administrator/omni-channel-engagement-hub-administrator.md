@@ -16,7 +16,16 @@ ms.custom:
 
 Omni-channel Engagement Hub is a customizable application, that you can effectively configure to meet the requirements of your business. Use Omni-channel Engagement Hub to create and manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of the agents so that they handle conversations effectively and assist the customers better. You can manage the types of conversations that agents receive using the work streams and queues configurations.
 
-Use the resources in this section to administer and configure Omni-channel Engagement Hub:
+## In this section
 
+- Provision Omni-channel Engagement Hub
 - [Know unified routing and work distribution](unified-routing-work-distribution.md)
 
+## How-to topics
+[Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream)
+[Create a new CDS Entity work stream](work-streams.md#create-a-new-cds-entity-work-stream)
+[Configure record identification rule](record-identification-rule.md)
+[Create a new presence record](presence-custom-presence.md#create-a-new-presence-record)
+[Manage a new user](users-user-profiles.md#manage-a-new-user)
+[Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
+[Create a routing rule](routing-rules.md#create-a-routing-rule)
