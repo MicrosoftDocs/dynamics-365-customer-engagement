@@ -9,6 +9,7 @@
 ## [Filter entities and views that appear in Dynamics 365 App for Outlook](filter-entities-and-views.md)
 ## [Limitations](limitations-when-customizing-app-for-outlook.md)
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
+# [FAQs](faq.md)
 
 # Version 8.x
 ## [About this content](../outlook-app/v8/about-this-content.md)
