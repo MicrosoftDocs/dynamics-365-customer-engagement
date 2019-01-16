@@ -49,8 +49,8 @@ Follow these steps to create a new omni-channel queue.
 2. On the command bar, select **New** to create an omni-channel queue.
 3. On the **Summary** tab, in the **General Information** section, provide the following information:
 
-    - **Name**: Enter a name for the queue.
-    - **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
+    1. **Name**: Enter a name for the queue.
+    2. **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
 
 4. Select **Save** to save the new queue.
 
