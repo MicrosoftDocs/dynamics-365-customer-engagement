@@ -24,7 +24,7 @@ As an administrator, you can avail the trial version of Omni-channel Engagement 
 > [!NOTE]
 > If you've set up a trial version, you should purchase the license after the trial expires. Otherwise, your access to the application will be suspended. In this preview, only provisioning of the application is supported.
 
-The following illustration shows the complete provisioning cycle for the omni-channel engagement hub.
+The following illustration shows the complete provisioning cycle for the Omni-channel Engagement Hub.
 
 ![Provisioning and licensing cycle](../media/provision-cycle.png)
 
