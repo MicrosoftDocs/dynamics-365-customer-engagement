@@ -79,7 +79,7 @@ For more information on what's new, see [What's new with Dynamics 365 App for Ou
 
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md). 
 
-For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md)
+For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 
 ### See also
