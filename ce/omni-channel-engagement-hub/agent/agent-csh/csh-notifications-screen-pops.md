@@ -68,7 +68,7 @@ The details you’ll see for a chat channel are:
  - Recent activities
 
 > [!div class="nextstepaction"]
-> [Next topic: Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+> [Next topic: View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 
 ## See also
 

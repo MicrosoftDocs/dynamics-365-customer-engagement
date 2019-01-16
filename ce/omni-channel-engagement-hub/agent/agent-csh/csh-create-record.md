@@ -46,6 +46,6 @@ After you save the changes, the record is linked to the conversation. You can se
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)

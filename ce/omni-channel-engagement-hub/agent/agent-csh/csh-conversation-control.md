@@ -57,9 +57,9 @@ You can use the keyboard shortcut to reply only to the agent or supervisor and t
 
 **/p** (forward slash, letter p) is the keyboard shortcut to send the message as public to all participants in the interaction.
 
-### Customer 360 (Session overview)
+### Customer summary
 
-The Customer 360 page displays details about a customer with whom you interact. When you are conversing with more than one customer simultaneously, and when you switch from one chat conversation to another, you need to refresh the Customer 360 page to get the details of the customer to whom you switched. Use the Refresh button to refresh the Customer 360 page to get relevant details about the customer based on chat conversations with the customer.
+The Customer summary page displays details about a customer with whom you interact. When you are conversing with more than one customer simultaneously, and when you switch from one chat conversation to another, you need to refresh the Customer summary page to get the details of the customer to whom you switched. Use the Refresh button to refresh the Customer summary page to get relevant details about the customer based on chat conversations with the customer.
 
 ![Session overview refresh button in the conversation control](../../media/csh-cc-options-refresh-session-overview-customer360.png "Session overview refresh button in the conversation control")
 
@@ -142,7 +142,7 @@ To set the presence, select the status icon at the bottom-right corner and then 
 - [Navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
-- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View customer summary and know everything about customers about your cusotmers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
