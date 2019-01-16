@@ -15,31 +15,28 @@ ms.custom:
 
 # Provision Omni-channel Engagement Hub
 
-Omni-channel Engagement Hub for Microsoft Dynamics 365 is a cloud-based application that helps you extend the power of Microsoft Dynamics 365 for Customer Service. It lets customer service agents instantly connect to and engage with customers, so that they can quickly resolve the customers' queries.
+Omni-channel Engagement Hub is a cloud-based application that helps you extend the power of Microsoft Dynamics 365 for Customer Service. It lets customer service agents instantly connect to and engage with customers, so that they can quickly resolve their queries.
 
-Quick customer engagement and problem solving help improve customer satisfaction. Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface.
+Quick customer engagement and problem solving helps improve customer satisfaction. Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs, and helps guarantee that a high level of responsive, quality service is received across channels.
 
-Omni-channel Engagement Hub lets customers start a conversation with a support agent via social media but then seamlessly transition to another channel, such as email, text, or chat. It lets organizations choose the channel that suits their business needs, and helps guarantee that a high level of responsive, quality service is received across channels.
-
-As an administrator, you can provision Omni-channel Engagement Hub by purchasing an add-on in the Microsoft Office portal. You can set up the add-on from the Dynamics 365 Administration Center, and then start using it in one or more organizations.
+As an administrator, you can avail the trial verision of Omni-channel Engagement Hub by an add-on in the **Microsoft Office** portal. You can set up the add-on from the **Dynamics 365 Administration Center**, and then start using it on one or more organizations.
 
 > [!NOTE]
 > If you've set up a trial version, you should purchase the add-on license after the trial expires. Otherwise, your access to the application will be suspended.
 
-The following illustration shows the complete provisioning and licensing cycle for the omni-channel engagement hub.
+The following illustration shows the complete provisioning cycle for the omni-channel engagement hub.
 
 ![Provisioning and licensing cycle](../media/provision-cycle.png)
 
-System users that an omni-channel license is provisioned for are referred to as omni-channel users. The licensed version of Omni-channel Engagement Hub provisions the following channels and capabilities for omni-channel users.
+> [!NOTE]
+> System users that have an omni-channel license provisioned for themselves are referred to as omni-channel users. In this preview, only provisioning of the application is supported.
+
+Omni-channel Engagement Hub enables the following channels and capabilities for omni-channel users:
 
 **Channels**
 
 - Chat
-- Short Message Service (SMS)
-- Secure asynchronous messaging (enabled with Portal)
 
-> [!NOTE]
-> You can install, enable, and use the preceding channels independently of each other.
 
 **Capabilities**
 
@@ -47,47 +44,56 @@ System users that an omni-channel license is provisioned for are referred to as 
 - Profile and work distribution
 - Enhanced agent and supervisor experience
 
-Follow these steps to provision and license Omni-channel Engagement Hub.
+## Provision your Omni-channel Engagement Hub application
 
-1. Provision the Omni-channel Engagement Hub package.
-2. Enable Omni-channel Engagement Hub in an organization.
+Follow these steps to avail Omni-channel Engagement Hub.
 
-    1. On the **Manage Omni-channel Instances** page, select **Add Org** to add an organization and begin the omni-channel installation.
+**Step 1**: Get the Omni-channel Engagement Hub package.
 
-        The **First run experience** wizard is opened.
+1. Access the [Dynamics Insider Portal](http://experience.dynamics.com/insider).
+2. Log in with your Insider credentials.
+3. On the Insider home page, search for **Omni-channel Engagement Hub**.
+4. Select the program link in the search results and select **Join Now**. This will add you as a participant to the program.
 
-    2. Select an organization in the drop-down list to begin the installation.
-    3. Enable Unified Service Desk (USD) as part of the omni-channel installation.
+    As we receive your details, we will enable the Omni-channel Engagement Hub package on your Dynamics 365 for Customer Engagement instance and you will recieve a confirmation email from Microsoft.
 
-        Select the check box to enable USD together with the omni-channel organization.
+    Once you receive the email, you can access and start the setup of your Omni-channel Engagement Hub package by selecting **Manage** in the **Dynamics 365 Administration Center**.
 
-        > [!IMPORTANT]
-        > USD version 4.0 or later is required for omni-channel. If you have an older version of USD, this installation will update USD to the latest version.
-        >
-        > If USD is already installed in the organization, you should select the check box for a single-page application.
+    ![provision omni-channel](../media/provision-oc.png)
 
-    4. Select the check box to enable the **Chat** channel for your organization.
-    5. Select the check box to enable the **SMS** channel for your organization.
-    6. Select the check box to enable the **Async Messaging** channel for your organization.
-    7. On the **Summary** page, you can view the progress of the installation.
+**Step 2**: Install Omni-channel Engagement Hub in an organization.
 
-    As the installation proceeds, the following channels and capabilities are enabled for omni-channel:
+   1. On the **Manage Omni-channel Instances** page, select **Add Org** to add an organization. </br> Omni-channel is installed on the organization that you select here.
 
-    - Routing
-    - Presence
-    - Agent profile
-    - Work distribution
-    - Unified Service Desk
-    - Chat
-    - SMS
+       ![manage instances](../media/manage-instances.png)
 
-    After the installation is completed, you receive an email that shows the status of the installation.
+       The **First run experience** wizard is displayed.
 
-    > [!NOTE]
-    > On the **Manage Instances** page, admins can view the organizations where omni-channel is enabled.
+       ![first run experience wizard](../media/fre-oceh.png)
 
-    For example, the following illustration shows that all the channels and capabilities are correctly installed in the organization.
+   2. Select an organization in the **Organization Selector** drop-down list. Select **Continue** to begin the installation on the org.
 
-3. Set up the Domain Name System (DNS) for Omni-channel Engagement Hub.
-4. Create users, and assign system user roles to them.
-5. License Omni-channel Engagement Hub.
+       ![select org](../media/select-org.png)
+
+   4. Enable **Chat** as part of the omni-channel installation. </br> Select the check box to enable Chat on your org and select **Continue** to proceed.
+
+       ![enable chat](../media/enable-chat.png)
+
+       > [!NOTE]
+       > This preview supports the installation of only the Chat channel. The installation will not continue if the Chat check box is not selected. 
+   
+   4. View the progress of the installation on the **Summary** page.
+
+      ![summary of install](../media/summary-fre.png)
+
+      Once the installation is complete successfully, select **Close** to close the **First run experience** wizard.
+
+On successful installation, your org and your omni-channel application instance are displayed in the **Dynamics 365 Administration Center**.
+
+![Install complete](../media/install-complete.png)
+
+> [!IMPORTANT]
+> 
+
+
+## Update Omni-channel Engagement Hub
