@@ -20,7 +20,7 @@ ms.custom:
 <td>
 
 <h2> Get started </h2>
-<li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement introduction](introduction-omni-channel.md)">Omni-channel Engagement introduction</a></li>
+<li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement Hub introduction](introduction-omni-channel.md)">Omni-channel Engagement Hub introduction</a></li>
 <li>System requirements</li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
 <li><a href="administrator/users-user-profiles.md" data-raw-source="[Add users and assign roles to users](administrator/users-user-profiles.md)">Add users and assign roles to users</a></li>
