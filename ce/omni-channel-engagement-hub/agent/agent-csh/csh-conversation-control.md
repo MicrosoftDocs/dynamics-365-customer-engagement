@@ -1,5 +1,5 @@
 ---
-title: "Omni-channel Engagement Hub conversation control"
+title: "Omni-channel Engagement Hub Conversation Control"
 description: "Conversation control is a communication panel in Omni-channel Engagement Hub where you interact with the customer."
 keywords: ""
 author: kabala123
@@ -13,7 +13,7 @@ ms.assetid: 6172303E-4BB8-4E54-BC23-71AC2514A248
 ms.custom: 
 ---
 
-# Conversation control
+# View Conversation control
 
 Conversation control is a communication panel where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
 
@@ -132,7 +132,7 @@ To set the presence, select the status icon at the bottom-right corner and then 
 ![Agent presence status](../../media/csh-oc-presence.png "Agent presence status")
 
 > [!div class="nextstepaction"]
-> [Next topic: Notifications and screen pops](csh-notifications-screen-pops.md)
+> [Next topic: View notifications and screen popss](csh-notifications-screen-pops.md)
 
 ## See also
 
@@ -144,6 +144,6 @@ To set the presence, select the status icon at the bottom-right corner and then 
 - [View My dashboard and agent work items](csh-my-dashboard.md)
 - [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View Customer 360 for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

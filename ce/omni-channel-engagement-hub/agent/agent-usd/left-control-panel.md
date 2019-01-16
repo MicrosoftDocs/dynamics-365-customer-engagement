@@ -1,5 +1,5 @@
 ---
-title: "Left control panel"
+title: "Conversation control (left control panel)"
 description: "The left control panel is a communication or conversation control panel. The conversation control hosts the conversations and you can engage with you customers. The conversation control panel provides various options like quick replies, consult, transfer, link to conversation, internal and public message modes."
 keywords: ""
 author: kabala123
@@ -12,15 +12,15 @@ ms.topic: article
 ms.assetid: b3ae342f-fabd-424e-8086-8f51500575bf
 ms.custom: 
 ---
-# Conversation panel
+# View conversation control
 
-The left control panel is a communication or conversation panelthat hosts conversations. From here, you can engage with your customers.
+The left control panel is a communication or conversation control that hosts conversations. From here, you can engage with your customers.
 
 When you're using the chat conversation channel, you can send quick replies. You can also search for knowledge articles and share them with the customer that you're interacting with. You can even transfer the work item to another agent or queue.
 
 If you need help to resolve the work item, you can use the **Consult** option. You can also switch from the public mode to the internal mode to send messages to internal participants (other agents and/or a supervisor).
 
-![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")  
+![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")   
 
 ## Internal and public messages
 
@@ -46,9 +46,9 @@ You can use a keyboard shortcut to see the list of quick replies. Press the Slas
 
 ## Search for and share knowledge articles
 
-From the conversation panel, you can search for relevant knowledge articles, based on the context of the session, and then share the articles that you find with customers.
+From the conversation control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles that you find with customers.
 
-You can use a keyboard shortcut to open the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the conversation panel. Select the **Send link** button to share the link to a knowledge article with the customer.
+You can use a keyboard shortcut to open the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the conversation control. Select the **Send link** button to share the link to a knowledge article with the customer.
 
 ## Consult with agent or supervisor
 
@@ -71,16 +71,16 @@ When you work on a conversation request, you might encounter the following scena
 In these scenarios, you can transfer the request. You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue, when you transfer the request, routing rules will push the queue as appropriate.
 
 > [!div class="nextstepaction"]
-> [Next topic: Right control panel](right-control-panel.md)
+> [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 
 ## See also
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Introduction to agent dashboard](introduction-agent-dashboard.md)
-- [Notifications and screen pop](notifications-screen-pop.md)
-- [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
+- [View notifications and screen pops](notifications-screen-pop.md)
+- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [View Customer 360 for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)
