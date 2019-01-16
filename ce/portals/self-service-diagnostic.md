@@ -3,7 +3,7 @@ title: "Identify and fix customer issues with a portal in Dynamics 365 for Custo
 description: "Learn to identify and fix customer issues with a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 01/04/2019
+ms.date: 01/16/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,7 +34,13 @@ When you run the diagnostic tool, the results are displayed in the **Diagnostic 
 
 By default, information in the grid is sorted by the **Result** column in this order: error, warning, and pass.
 
+> [!div class=mx-imgBorder]
+> ![Diagnostic results](media/diagnostic-results.png "Diagnostic results")
+
 You can expand an issue to view detailed information and mitigation steps. If the mitigation requires any action, you'll see a button that will perform the action. You can also provide feedback on whether the mitigation was useful.
+
+> [!div class=mx-imgBorder]
+> ![Expand an issue in diagnostic results](media/diagnostic-results-issue-expand.png "Expand an issue in diagnostic results")
 
 If required, you can rerun the diagnostic checks, which will refresh the results with updated data.
 
@@ -46,7 +52,20 @@ If required, you can rerun the diagnostic checks, which will refresh the results
 To run the diagnostic tool:
 
 1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
+
 2.	Select the name of the portal for which you want to run the diagnostic tool, and then select **Manage**.
+
 3.	Go to **Diagnose and resolve problems**.
+
+    > [!div class=mx-imgBorder]
+    > ![Run the diagnostic tool](media/run-diagnostics.png "Run the diagnostic tool")
+
 4.	Select **Run diagnostics**. The diagnostic session will start and gather data about the customer issues. The results are displayed in the **Diagnostic results** section.
+
+    > [!div class=mx-imgBorder]
+    > ![Diagnostic results](media/diagnostic-results.png "Diagnostic results")
+
 5.	To rerun the diagnostic checks, select **Refresh results**.
+
+    > [!div class=mx-imgBorder]
+    > ![Refresh diagnostic results](media/diagnostic-results-refresh.png "Refresh diagnostic results")
