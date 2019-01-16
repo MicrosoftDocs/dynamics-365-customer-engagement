@@ -5,7 +5,7 @@
 ### System requirements
 ### Add users
 ### Assign roles to users
-### Enable a chat
+### [Configure a live chat widget](administrator/configure-live-chat.md)
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)

@@ -45,9 +45,9 @@ When you set up Live Chat work streams, you define the following properties:
 
 - **Routing rules**: Routing rules are configured for each work stream, so that conversations can be distributed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
 
-## Create a new Live Chat work stream
+## Create a new live chat work stream
 
-Follow these steps to create a new Live Chat work stream.
+Follow these steps to create a new live chat work stream.
 
 1. In the omni-channel site map, select **Work Distribution Management \> Work Streams**.
 
@@ -56,27 +56,27 @@ Follow these steps to create a new Live Chat work stream.
 2. On the command bar, select **New** to create a work stream.
 3. On the **Summary** tab of the new work stream page, follow these steps:
 
-   A. In the **General information** section, provide the following information: </br>
-     - **Name**: Enter a name for the work stream.
-     - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
-     - **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
+   - In the **General information** section, provide the following information: </br>
+      1. **Name**: Enter a name for the work stream.
+      2. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
+      3. **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
+            > [!NOTE]
+            > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
+      4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
+      5. **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
+      6. Select **Save** to save the work stream.
+
+    - In the **Work distribution** section, follow these steps: 
+      1. Select whether the work distribution mode should be **Push** or **Pick**.
+      2. In the **Notification** field, select the type of notification setting.
+      3. In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
          > [!NOTE]
-         > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
-     - **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
-     - **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
+         > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
 
-    B. Select **Save** to save the work stream.
-
-    C. In the **Work distribution** section, follow these steps: 
-
-     - Select whether the work distribution mode should be **Push** or **Pick**.
-     - In the **Notification** field, select the type of notification setting.
-     - In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
-       > [!NOTE]
-       > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
-
-    D. In the **Context variables** section, select **New** to create a new context variable for the work stream. Then in the **Quick Create** flyout, enter a name for the context variable, and specify the type.
-     You can edit, activate, inactivate, or delete a context variable by selecting it in the grid.
+    - In the **Context variables** section, follow these steps: 
+       1. Select **New** to create a new context variable for the work stream. 
+       2. In the **Quick Create** flyout, enter a name and specify the type for the context variable.
+      You can edit, activate, inactivate, or delete a context variable by selecting it in the grid.
 
 7. Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
 
@@ -103,14 +103,17 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
 ### In Omni-channel Engagement Hub
 
-1. When you configure the new work stream in omni-channel, ensure that you set the **Stream Source** field to **CDS Entity**.
+1. In the omni-channel site map, select **Work Distribution Management \> Work Streams**.
+2. Fill in the **General information** section as given in [Create a new live chat work stream](#create-a-new-live-chat-work-stream). </br>
+    When you configure the new work stream in omni-channel, ensure that you set the **Stream Source** field to **CDS Entity**.
 
     ![Setting for CDS in work stream](../media/oc-cds.png)
 
     Make a note of the ID of the work stream.
-1. In the **Work Stream Entity Configuration** section, select **Add New Work Stream Entity Configuration** to add the entity that should be routed. 
-2. Activate the entity by selecting it, selecting the ellipsis button (**...**), and then selecting **Activate**.
-3. Set up routing rules, agents, and queues for the work stream.
+1. Fill in the **Work distribution** section as given in [Create a new live chat work stream](#create-a-new-live-chat-work-stream).
+2. In the **Work Stream Entity Configuration** section, select **Add New Work Stream Entity Configuration** to add the entity that should be routed. 
+3. Activate the entity by selecting it, selecting the ellipsis button (**...**), and then selecting **Activate**.
+4. Set up routing rules, agents, and queues for the work stream. For more information, see [Create a new live chat work stream](#create-a-new-live-chat-work-stream).
 
 ### In Microsoft Flow
 
@@ -137,18 +140,18 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 1. After the connector is created, select **New Connection**. A new connection is created, and the connection name is automatically selected.
 2. Provide the following information, and then select **Test Operation** to test the connection:
 
-    - **Organization ID**: Select your organization ID.
-    - **Live work stream ID**: Select the ID of your live work stream.
-    - **Entity logical name**: Enter the logical name of the Common Data Service for Apps entity that must be routed.
-    - **Entity set name**: Enter the entity name of the Common Data Service for Apps entity that must be routed. (Typically, the end of this name is a plural form of the logical name.)
-    - **Record ID**: Use the dynamic content to select the ID field.
-    - **Relationship name with live work stream**: Enter the logical name of the entity's regarding relationship name with Live conversation.
-    - **Record details**: Use the dynamic content to select **value-key-item-output**.
+      1. **Organization ID**: Select your organization ID.
+      2. **Live work stream ID**: Select the ID of your live work stream.
+      3. **Entity logical name**: Enter the logical name of the Common Data Service for Apps entity that must be routed.
+      4. **Entity set name**: Enter the entity name of the Common Data Service for Apps entity that must be routed. (Typically, the end of this name is a plural form of the logical name.)
+      5. **Record ID**: Use the dynamic content to select the ID field.
+      6. **Relationship name with live work stream**: Enter the logical name of the entity's regarding relationship name with Live conversation.
+      7. **Record details**: Use the dynamic content to select **value-key-item-output**.
 
-        ![Connector details](../media/connector-details.png)
+         ![Connector details](../media/connector-details.png)
 
-        > [!IMPORTANT]
-        > At first, the request will fail, and you will receive a 404 error. Continue to test the operation until you receive a 202 response. Usually, the connection takes about 15 minutes to start to work.
+         > [!IMPORTANT]
+         > At first, the request will fail, and you will receive a 404 error. Continue to test the operation until you receive a 202 response. Usually, the connection takes about 15 minutes to start to work.
 
 8. After the connection is established, and you receive a 202 response, go to **My Flows**.
 9. Select **Create from Blank** to create a flow.
@@ -163,15 +166,16 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 2. Select **New Step \> Add an action**. Search for your custom connector, and then select the action.
 3. Provide the following information:
 
-    - **Entity Logical Name**: Enter the logical name of the Common Data Service for Apps entity that must be routed.
-    - **Entity Set Name**: Enter the entity name of the Common Data Service for Apps entity that must be routed. (Typically, the end of this name is a plural form of the logical name.)
-    - **Record Id**: Use the dynamic content to select the ID field.
-    - **Name of Entity Relationship With**: The logical name of the entity's regarding relationship name with Live conversation (for Incident **incident\_msdyn\_ocliveworkitems**).
-    - **Record Details**: Use the dynamic content to select **value-key-item-output**.
-    - **Organization ID**: Select the ID of your organization.
-    - **Live Work Stream ID**: Select the ID of your live work stream.
+      1. **Entity Logical Name**: Enter the logical name of the Common Data Service for Apps entity that must be routed.
+      2. **Entity Set Name**: Enter the entity name of the Common Data Service for Apps entity that must be routed. (Typically, the end of this name is a plural form of the logical name.)
+      3. **Record Id**: Use the dynamic content to select the ID field.
+      4. **Name of Entity Relationship With**: The logical name of the entity's regarding relationship name with Live conversation (for Incident **incident\_msdyn\_ocliveworkitems**).
+      5. **Record Details**: Use the dynamic content to select **value-key-item-output**.
+      6. **Organization ID**: Select the ID of your organization.
+      7. **Live Work Stream ID**: Select the ID of your live work stream.
 
-        ![connector action](../media/connector-action.png)
+         ![connector action](../media/connector-action.png)
+         
 15. After all the information is entered, select **Test** to test the flow. Then select **I'll perform the trigger action and save the flow**.
 
     To test the flow with the entity, follow these steps:
