@@ -132,7 +132,7 @@ To set the presence, select the status icon at the bottom-right corner and then 
 ![Agent presence status](../../media/csh-oc-presence.png "Agent presence status")
 
 > [!div class="nextstepaction"]
-> [Next topic: View notifications and screen popss](csh-notifications-screen-pops.md)
+> [Next topic: View notifications and screen pops](csh-notifications-screen-pops.md)
 
 ## See also
 
