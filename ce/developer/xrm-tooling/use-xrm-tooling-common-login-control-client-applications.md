@@ -32,7 +32,7 @@ There is a template for Visual Studio that enables you to use the common login c
 
 ## Prerequisites
   
-- **.NET Framework 4.6.2
+- **.NET Framework 4.6.2**
   
 - Visual Studio 2017 (recommended)  
    
