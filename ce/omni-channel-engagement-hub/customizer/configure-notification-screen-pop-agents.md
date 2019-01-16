@@ -39,9 +39,6 @@ There are two types of notifications:
 
 - [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
 - [Customize customer 360 form](customize-customer-360-page.md)
-- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
-- [Add or remove the fields in the form](add-remove-fields-form-section.md)
 - [Customize the conversation form](customize-conversation-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
