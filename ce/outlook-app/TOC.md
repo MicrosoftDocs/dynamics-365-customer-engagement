@@ -1,7 +1,7 @@
 # [Overview](overview.md)
 # [What's new with Dynamics 365 App for Outlook](whats-new.md)
 # [Deploying the app](deploy-dynamics-365-app-for-outlook.md)
-# Customizing the app
+# [Customizing the app](Customizing-the-app.md)
 ## [Customize the track regarding card](customize-the-track-regarding-card.md)
 ## [Add a custom entity to Quick create](add-a-custom-entity-to-quick-create.md)
 ## [Enable a custom entity to appear in the Regarding lookup](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md)
