@@ -41,9 +41,11 @@ ms.custom:
 <h2> I'm an agent </h2>
 
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[How-tos](agent/agent-usd/omni-channel-engagement-hub-agent.md)">How-tos</a></li>
-<li><a href="agent/agent-usd/introduction-agent-dashboard.md" data-raw-source="[Introduction to the agent dashboard](agent/agent-usd/introduction-agent-dashboard.md)">Introduction to the agent dashboard</a> and </li>
-<li><a href="agent/agent-usd/.md" data-raw-source="[](agent/agent-usd/.md)"></a></li>
-<li><a href="agent/agent-usd/.md" data-raw-source="[](agent/agent-usd/.md)"></a></li>
+<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Agents using Unified Service Desk
+</a> and </li>
+<li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a> and <a href="agent/agent-usd/csh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Customer Service Hub)](agent/agent-usd/csh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Customer Service Hub)</a> </li>
+<li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View conversation control (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View conversation control (Unified Service Desk)</a> and <a href="agent/agent-usd/csh-conversation-control.md" data-raw-source="[View conversation control (Customer Service Hub)](agent/agent-usd/csh-conversation-control.md)">View conversation control (Customer Service Hub)</a></li>
 </td>
 <td>
 
