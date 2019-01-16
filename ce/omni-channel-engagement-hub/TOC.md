@@ -61,7 +61,7 @@
 ### [Introduction to supervisor dashboard](supervisor/omni-channel-engagement-hub-supervisor.md)
 
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
-### [Customize the Customer 360 form](customizer/customize-customer-360-page.md)
+### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 #### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
 #### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
