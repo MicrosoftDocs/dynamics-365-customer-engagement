@@ -34,7 +34,7 @@ Yes, here is the list known issues:
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md). 
 
 ## Dynamics 365 App for Outlook does not display the recipient picker and instead displays a different dashboard. How do I switch it back?
-Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365. For more information, [Limitations when customizing Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/limitations-when-customizing-app-for-outlook#customizing-app-for-outlook-sitemap).
+Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365. For more information, see [Limitations when customizing Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/limitations-when-customizing-app-for-outlook#customizing-app-for-outlook-sitemap).
 
 ## When I open Dynamics 365 App for Outlook, I see a blue screen with errors related to Server-Side Synchronization. How do I recover from this?
 Currently, Dynamics 365 App for Outlook requires Server-Side Synchronization to be successfully set up on the Exchange mailbox. Depending on the scenario, you may see one of the following messages displayed.
