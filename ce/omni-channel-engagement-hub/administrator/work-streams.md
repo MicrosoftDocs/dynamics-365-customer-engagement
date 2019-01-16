@@ -103,14 +103,17 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
 ### In Omni-channel Engagement Hub
 
-1. When you configure the new work stream in omni-channel, ensure that you set the **Stream Source** field to **CDS Entity**.
+1. In the omni-channel site map, select **Work Distribution Management \> Work Streams**.
+2. Fill in the **General information** section as given in [Create a new live chat work stream](#create-a-new-live-chat-work-stream). </br>
+    When you configure the new work stream in omni-channel, ensure that you set the **Stream Source** field to **CDS Entity**.
 
     ![Setting for CDS in work stream](../media/oc-cds.png)
 
     Make a note of the ID of the work stream.
-1. In the **Work Stream Entity Configuration** section, select **Add New Work Stream Entity Configuration** to add the entity that should be routed. 
-2. Activate the entity by selecting it, selecting the ellipsis button (**...**), and then selecting **Activate**.
-3. Set up routing rules, agents, and queues for the work stream.
+1. Fill in the **Work distribution** section as given in [Create a new live chat work stream](#create-a-new-live-chat-work-stream).
+2. In the **Work Stream Entity Configuration** section, select **Add New Work Stream Entity Configuration** to add the entity that should be routed. 
+3. Activate the entity by selecting it, selecting the ellipsis button (**...**), and then selecting **Activate**.
+4. Set up routing rules, agents, and queues for the work stream. For more information, see [Create a new live chat work stream](#create-a-new-live-chat-work-stream).
 
 ### In Microsoft Flow
 
