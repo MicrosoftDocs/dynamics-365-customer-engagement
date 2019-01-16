@@ -30,7 +30,7 @@ ms.custom:
 
 <h2> I'm an administrator </h2>
 
-<li><a href="administrator/omni-channel-engagement-hub-administrator.md#how-to-topics" data-raw-source="[Administrator how-tos](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Administrator how-tos</a></li>
+<li><a href="administrator/omni-channel-engagement-hub-administrator.md#how-to-topics" data-raw-source="[Omni-channel administrator](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 <li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Create a chat widget](administrator/set-up-chat-widget.md)">Create a chat widget</a></li>
 </td>
@@ -40,7 +40,7 @@ ms.custom:
 
 <h2> I'm an agent </h2>
 
-<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agent how-tos](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Agent how-tos</a></li>
+<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel agent](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Omni-channel agent</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Agents using Unified Service Desk
 </a></li>
@@ -51,7 +51,7 @@ ms.custom:
 
 <h2> I'm a supervisor  </h2>
 
-<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Supervisor how-tos](supervisor/omni-channel-engagement-hub-supervisor.md)">Supervisor how-tos</a></li>
+<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel supervisor</a></li>
 </td>
 </tr>
 <tr>
@@ -59,7 +59,7 @@ ms.custom:
 
 <h2> I'm a system customizer  </h2>
 
-<li><a href="customizer/omni-channel-engagement-hub-customizer.md" data-raw-source="[System customizer how-tos](customizer/omni-channel-engagement-hub-customizer.md)">System customizer how-tos</a></li>
+<li><a href="customizer/omni-channel-engagement-hub-customizer.md" data-raw-source="[Omni-channel system customizer](customizer/omni-channel-engagement-hub-customizer.md)">Omni-channel system customizer</a></li>
 <li><a href="customizer/customize-customer-360-page.md" data-raw-source="[Customize the customer summary form](customizer/customize-customer-360-page.md)">Customize the customer summary form</a></li>
 <li><a href="customizer/customize-conversation-form.md" data-raw-source="[Customize the conversation forms](customizer/customize-conversation-form.md)">Customize the customer summary form</a></li>
 <li><a href="customizer/create-agent-supervisor-configurations-unified-service-desk.md" data-raw-source="[Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)">Create agent and supervisor configurations in Unified Service Desk</a></li>
@@ -69,7 +69,7 @@ ms.custom:
 
 <h2> I'm a customer</h2>
 
-<li><a href="customer/omni-channel-engagement-hub-customer.md" data-raw-source="[Omni-channel Engagement Hub for customers](customer/omni-channel-engagement-hub-customer.md)">Omni-channel Engagement Hub for customers</a></li>
+<li><a href="customer/omni-channel-engagement-hub-customer.md" data-raw-source="[Omni-channel customer](customer/omni-channel-engagement-hub-customer.md)">Omni-channel customer</a></li>
 </td>
 </tr>
 </table>
