@@ -22,8 +22,7 @@ ms.custom:
 <h2> Get started </h2>
 <li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement introduction](introduction-omni-channel.md)">Omni-channel Engagement introduction</a></li>
 <li>System requirements</li>
-<li>Add users</li>
-<li>Assign roles to users</li>
+<li><a href="administrator/users-user-profiles.md" data-raw-source="[Add users and assign roles to users](administrator/users-user-profiles.md)">Add users and assign roles to users</a></li>
 <li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget](administrator/configure-live-chat.md)">Configure a live chat widget</a></li>
 </td>
 <td>
@@ -31,7 +30,7 @@ ms.custom:
 <h2> I'm an administrator </h2>
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel Engagement Hub for administrators](administrator/omni-channel-engagement-hub-administrator.md)">Omni-channel Engagement Hub for administrators</a></li>
-<li><a href="unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
+<li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 
 </td>
 </tr>
