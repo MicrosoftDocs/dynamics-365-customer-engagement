@@ -40,4 +40,4 @@ To learn more, see:
 
 ## Support options
 
-For questions related to transitioning, please contact your Microsoft representative or partner or email  [MSEeol@microsoft.com](mailto:MSEeol@microsoft.com). 
+For questions related to transitioning, please contact your Microsoft representative or partner or email [MSEeol@microsoft.com](mailto:MSEeol@microsoft.com).
