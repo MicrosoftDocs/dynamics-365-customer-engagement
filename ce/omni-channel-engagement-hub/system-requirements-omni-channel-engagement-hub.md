@@ -44,4 +44,4 @@ For hardware requirements of Unified Service Desk client application, see [Unifi
 For hardware and other requirements, see [Microsoft Dynamics 365 for Customer Engagement apps requirements](/dynamics365/customer-engagement/admin/online-requirements)
 
 > [!NOTE]
-> The above mentioned requirements of Omni-channel Engagement Hub is for running basic scenarios as . The requirements and performance may vary based on usage and complex configurations.
+> The above mentioned requirements of Omni-channel Engagement Hub is for running basic scenarios. The requirements and performance may vary based on usage and complex configurations.
