@@ -44,7 +44,7 @@ Omni-channel Engagement Hub enables the following channels and capabilities for 
 - Profile and work distribution
 - Enhanced agent and supervisor experience
 
-## Provision your Omni-channel Engagement Hub application
+## Provision Omni-channel Engagement Hub application
 
 Follow these steps to avail Omni-channel Engagement Hub.
 
@@ -86,14 +86,38 @@ Follow these steps to avail Omni-channel Engagement Hub.
 
       ![summary of install](../media/summary-fre.png)
 
-      Once the installation is complete successfully, select **Close** to close the **First run experience** wizard.
+      Once the installation is completed successfully, select **Close** to close the **First run experience** wizard.
 
 On successful installation, your org and your omni-channel application instance are displayed in the **Dynamics 365 Administration Center**.
 
 ![Install complete](../media/install-complete.png)
 
 > [!IMPORTANT]
-> 
+> You can view the installation progress for multiple orgs by selecting them using the **Organization Selector** drop-down list.
 
 
 ## Update Omni-channel Engagement Hub
+
+Follow these steps to update your Omni-channel Engagement Hub application.
+
+1. Go to your omni-channel application instance in the **Dynamics 365 Administration Center** and select **Manage**.
+
+2. Select the org you want to update using **Organization Selector** drop-down list.
+
+3. Select the check-box to update the **Chat** channel in omni-channel application instance. 
+
+4. Select **Update Omni-channel** to begin updating the instance. Update action also ensures that any disruptions to the solution get rectified even if no changes are made. 
+
+   ![update chat](../media/update-chat.png)
+
+5. View the progress of the update on the **Summary** page.
+
+   ![update progress](../media/update-progress.png)
+
+Once the installation is completed successfully, select **Close** to close the wizard.
+
+### See also
+
+[Create and manage users](users-user-profiles.md)
+
+[Understand unified routing and work distribution](unified-routing-work-distribution.md)
