@@ -30,6 +30,17 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2019 Update 1.1
+
+### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
+
+Dynamics 365 will focus on enabling businesses with AI-powered social and web insights rather than just with social listening capabilities. Hence, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). The social and web insights can help marketing, social media and product teams understand what their customers and competitors are saying, seeking, and feeling. 
+
+To learn more, see: 
+- FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](discontinuation-faq.md)
+- Comparison guide - [Microsoft Social Engagement vs. Dynamics 365 Market Insights](comparison-mse-mi.md).
+- [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights/help-hub)
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.12
 
 ### Introducing new languages
