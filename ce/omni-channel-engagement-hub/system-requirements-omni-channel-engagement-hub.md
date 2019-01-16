@@ -33,7 +33,7 @@ You require the following to use Omni-channel Engagement Hub with Unified Servic
 
 - Web browsers, such as Microsoft Edge and Google Chrome
 
-For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements] (/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
+For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](../unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## System and hardware requirements of Omni-channel Engagement Hub with web experience
 
