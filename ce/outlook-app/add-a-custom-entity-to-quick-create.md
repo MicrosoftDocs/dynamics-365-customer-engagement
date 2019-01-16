@@ -23,11 +23,11 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Add a custom entity to quick create  
+# Customize which entities appear in Quick create  
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Follow these steps to enable a custom entity to appear in Quick create.
+Follow these steps to enable a custom entity to appear in Quick create. Note, this example shows addition of custom entity but it can be used to add any entity.
 
 ![Custom entity in Quick create](media/custom-entity-quick-create.png) 
 
