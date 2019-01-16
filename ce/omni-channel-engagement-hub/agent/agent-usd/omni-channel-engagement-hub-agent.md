@@ -30,7 +30,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 
-- [Conversation panel](left-control-panel.md)
+- [View conversation control](left-control-panel.md)
 
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 

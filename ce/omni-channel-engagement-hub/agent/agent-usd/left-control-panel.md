@@ -1,5 +1,5 @@
 ---
-title: "Left control panel"
+title: "Conversation control (left control panel)"
 description: "The left control panel is a communication or conversation control panel. The conversation control hosts the conversations and you can engage with you customers. The conversation control panel provides various options like quick replies, consult, transfer, link to conversation, internal and public message modes."
 keywords: ""
 author: kabala123
@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: b3ae342f-fabd-424e-8086-8f51500575bf
 ms.custom: 
 ---
-# Conversation panel
+# View conversation control
 
-The left control panel is a communication or conversation panelthat hosts conversations. From here, you can engage with your customers.
+The left control panel is a communication or conversation control that hosts conversations. From here, you can engage with your customers.
 
 When you're using the chat conversation channel, you can send quick replies. You can also search for knowledge articles and share them with the customer that you're interacting with. You can even transfer the work item to another agent or queue.
 
@@ -46,9 +46,9 @@ You can use a keyboard shortcut to see the list of quick replies. Press the Slas
 
 ## Search for and share knowledge articles
 
-From the conversation panel, you can search for relevant knowledge articles, based on the context of the session, and then share the articles that you find with customers.
+From the conversation control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles that you find with customers.
 
-You can use a keyboard shortcut to open the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the conversation panel. Select the **Send link** button to share the link to a knowledge article with the customer.
+You can use a keyboard shortcut to open the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the conversation control. Select the **Send link** button to share the link to a knowledge article with the customer.
 
 ## Consult with agent or supervisor
 

@@ -1,5 +1,5 @@
 ---
-title: "Omni-channel Engagement Hub conversation control"
+title: "Omni-channel Engagement Hub Conversation Control"
 description: "Conversation control is a communication panel in Omni-channel Engagement Hub where you interact with the customer."
 keywords: ""
 author: kabala123
@@ -13,7 +13,7 @@ ms.assetid: 6172303E-4BB8-4E54-BC23-71AC2514A248
 ms.custom: 
 ---
 
-# Conversation control
+# View Conversation control
 
 Conversation control is a communication panel where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
 

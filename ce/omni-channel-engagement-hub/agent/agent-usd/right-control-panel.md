@@ -42,7 +42,7 @@ You can search for a KB article and open it as a tab on the Application tab mana
 - [Introduction to agent dashboard](introduction-agent-dashboard.md)
 - [Notifications and screen pop](notifications-screen-pop.md) 
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
-- [Conversation panel](left-control-panel.md)
+- [View conversation control](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)
