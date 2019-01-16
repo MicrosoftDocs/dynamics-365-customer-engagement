@@ -30,7 +30,7 @@ ms.custom:
 
 <h2> I'm an administrator </h2>
 
-<li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel Engagement Hub for administrators](administrator/omni-channel-engagement-hub-administrator.md)">Omni-channel Engagement Hub for administrators</a></li>
+<li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[How-tos](administrator/omni-channel-engagement-hub-administrator.md)">How-tos</a></li>
 <li><a href="unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 
 </td>
@@ -40,13 +40,13 @@ ms.custom:
 
 <h2> I'm an agent </h2>
 
-<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel Engagement Hub for agents](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Omni-channel Engagement Hub for agents</a></li>
+<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[How-tos](agent/agent-usd/omni-channel-engagement-hub-agent.md)">How-tos</a></li>
 </td>
 <td>
 
 <h2> I'm a supervisor  </h2>
 
-<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel Engagement Hub for supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel Engagement Hub for supervisors</a></li>
+<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[How-tos](supervisor/omni-channel-engagement-hub-supervisor.md)">How-tos</a></li>
 </td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ ms.custom:
 
 <h2> I'm a system customizer  </h2>
 
-<li><a href="customizer/omni-channel-engagement-hub-customizer.md" data-raw-source="[Omni-channel Engagement Hub for customizers](customizer/omni-channel-engagement-hub-customizer.md)">Omni-channel Engagement Hub for customizers</a></li>
+<li><a href="customizer/omni-channel-engagement-hub-customizer.md" data-raw-source="[How-tos](customizer/omni-channel-engagement-hub-customizer.md)">How-tos</a></li>
 </li>
 
 </td>
