@@ -58,3 +58,24 @@ When we display diagnostic information and some labels in contact tracking modul
 In general, web resources on Forms will not be rendered in App for Outlook as they require cookie authentication, which is currently only supported in browsers. 
 
 However, when scripts which do not rely on cookie authentication are used, those will be rendered on a Form in Dynamics 365 App for Outlook.
+
+## As an administrator, I do not see a user appearing in the All Eligible Users list in Dynamics 365 when I am looking the add the App. Why?
+
+For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
+
+## When I load Dynamics 365 App for Outlook on Outlook desktop, I see a blank page instead of the App. Why?
+
+For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
+
+## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. What is the reason?
+
+Fore more informatoin, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
+
+## Unable to track contacts
+
+Fore more informatoin, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
+
+## Troubleshooting App for Outlook
+Fore more informatoin, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
+
+
