@@ -22,10 +22,10 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 - [Know unified routing and work distribution](unified-routing-work-distribution.md)
 
 ## How-to topics
-[Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream)
-[Create a new CDS Entity work stream](work-streams.md#create-a-new-cds-entity-work-stream)
-[Configure record identification rule](record-identification-rule.md)
-[Create a new presence record](presence-custom-presence.md#create-a-new-presence-record)
-[Manage a new user](users-user-profiles.md#manage-a-new-user)
-[Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
-[Create a routing rule](routing-rules.md#create-a-routing-rule)
+[Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream) </br>
+[Create a new CDS Entity work stream](work-streams.md#create-a-new-cds-entity-work-stream) </br>
+[Configure record identification rule](record-identification-rule.md) </br>
+[Create a new presence record](presence-custom-presence.md#create-a-new-presence-record) </br>
+[Manage a new user](users-user-profiles.md#manage-a-new-user) </br>
+[Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue) </br>
+[Create a routing rule](routing-rules.md#create-a-routing-rule) </br>

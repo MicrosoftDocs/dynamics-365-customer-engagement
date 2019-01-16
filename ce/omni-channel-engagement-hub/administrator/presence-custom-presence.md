@@ -28,8 +28,8 @@ Out of the box, omni-channel provides the following presence statuses:
 
 A presence status consists of two elements:
 
-1. **Base status**: The availability or status category.
-2. **Presence text**: The text that is associated with a specific base status. For example, in the **Available – Available for Work** presence status, **Available** is the base status, and **Available for Work** is the presence text.
+- **Base status**: The availability or status category.
+- **Presence text**: The text that is associated with a specific base status. For example, in the **Available – Available for Work** presence status, **Available** is the base status, and **Available for Work** is the presence text.
 
 ![presence view](../media/oc-presence-view.png)
 
@@ -64,10 +64,10 @@ Follow these steps to create a new presence record.
 2. On the command bar, select **New** to create a presence record.
 3. On the **Summary** tab, provide the following information:
 
-    - **Name**: Enter a name for the custom presence status.
-    - **Presence Text**: Enter presence text that should be associated with the new custom entity.
-    - **Base Status**: Select the most applicable base status in the list.
-    - **Description**: Enter a brief description of the custom presence record.
+    1. **Name**: Enter a name for the custom presence status.
+    2. **Presence Text**: Enter presence text that should be associated with the new custom entity.
+    3. **Base Status**: Select the most applicable base status in the list.
+    4. **Description**: Enter a brief description of the custom presence record.
 
 4. Select **Save** to save the new presence record.
 
