@@ -18,7 +18,13 @@
 ### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 ### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
-### [Set up chat widget](administrator/set-up-chat-widget.md)
+### [Create a chat widget](administrator/set-up-chat-widget.md)
+#### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+#### [Create a question library](administrator/create-question-library.md)
+#### [Create quick replies](administrator/create-quick-replies.md)
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+#### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
 ## [Agents]()
 

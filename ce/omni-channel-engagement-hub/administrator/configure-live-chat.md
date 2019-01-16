@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/14/2019
+ms.date: 01/16/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 55DFF759-DD1C-4B71-A232-2015C085E748
@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure a live chat widget and embed it in portal
 
-To configure a live chat widget and embed it in portal, you must:
+Quickly configure and add a live chat to your portal to talk to your customers and prospects in real-time. This helps you to initiate conversations with first-time website visitors and solve issues of your existing customers instantly. To configure a live chat widget and embed it in portal, you must:
 
 1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
 2. [Create a chat widget](#step-2-create-a-chat-widget)
