@@ -3,8 +3,7 @@
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
 ### System requirements
-### Add users
-### Assign roles to users
+### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
 ### [Configure a live chat widget](administrator/configure-live-chat.md)
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
