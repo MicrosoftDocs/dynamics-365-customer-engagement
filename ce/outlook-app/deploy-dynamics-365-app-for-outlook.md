@@ -46,7 +46,7 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 
 The Outlook App is not enabled on [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).
 
-For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md)
+For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
