@@ -30,9 +30,9 @@ ms.custom:
 
 <h2> I'm an administrator </h2>
 
-<li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[How-tos](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">How-tos</a></li>
+<li><a href="administrator/omni-channel-engagement-hub-administrator.md#how-to-topics" data-raw-source="[How-tos](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">How-tos</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
-<li><a href="set-up-chat-widget.md" data-raw-source="[Create a chat widget](administrator/set-up-chat-widget.md)">Create a chat widget</a></li>
+<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Create a chat widget](administrator/set-up-chat-widget.md)">Create a chat widget</a></li>
 </td>
 </tr>
 <tr>
