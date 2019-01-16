@@ -1,7 +1,7 @@
 ---
 title: "msdyn_rtv Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_rtv entity."
-ms.date: 12/05/2017
+ms.date: 12/24/2018
 ms.service: crm-online
 ms.topic: reference
 applies_to: 
@@ -17,7 +17,7 @@ search.app:
 ---
 # msdyn_rtv Entity Reference
 
-Records RTVs for products to be retuned to vendors
+Records RTVs for products to be returned to vendors
 
 **Added by**: Field Service Solution<br />
 

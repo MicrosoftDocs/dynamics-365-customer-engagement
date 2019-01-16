@@ -67,7 +67,7 @@ When the templates are ready, users can generate standardized documents that are
 
 9. To upload the template later, select **Upload the template later** check box, and then select **Next**.
 
-10. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Step 4: Upload the Word template back into Dynamics 365 for Customer Engagement](#step-4-upload-the-word-template-back-into-dynamics-365)
+10. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Step 4: Upload the Word template back into Dynamics 365](#step-4-upload-the-word-template-back-into-dynamics-365)
 
 ## Step 2: Enable the Developer tab
 
@@ -101,7 +101,7 @@ Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includ
 
 2. Select the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] XML schema. It will begin with "urn:microsoft-crm/document-template/".
 
-    ![Select the Dynamics 365 for Customer Engagement XML schema](media/ill-word-d365-schema.png "Select the Dynamics 365 for Customer Engagement XML schema")
+    ![Select the Dynamics 365 XML schema](media/ill-word-d365-schema.png "Select the Dynamics 365 XML schema")
 
    > [!IMPORTANT]
    > If you have frequent accidental edits that cause [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] to freeze or degrade its performance, turn off the AutoCorrect options.

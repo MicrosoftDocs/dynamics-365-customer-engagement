@@ -79,7 +79,7 @@ search.app:
  ![Select entities for the Word template](../admin/media/word-template-select-entities.png "Select entities for the Word template")  
 
 ### What are 1:N, N:1, and N:N relationships?  
- This screen requires an understanding of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data structure. Your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator or customizer can provide information about entity relationships. For admin content, see: [Create and edit entity relationships](../customize/create-edit-entity-relationships.md).  
+ This screen requires an understanding of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data structure. Your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator or customizer can provide information about entity relationships. For admin content, see: [Create and edit entity relationships](../customize/create-edit-entity-relationships.md).  
 
  Here are some example relationships for the Account entity.  
 
@@ -221,7 +221,7 @@ When you have your [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]
 
  Access to the newly created Word template depends on how you uploaded it and to the access granted to the security role. Be sure to check out [Use Security Roles to control access to templates](../admin/using-word-templates-dynamics-365.md#BKMK_SecurityRoles).  
 
- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can use the Settings page to upload the [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can use the Settings page to upload the [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
 
 ### For admins: Upload the Word template into Dynamics 365 for Customer Engagement apps 
 
@@ -301,7 +301,7 @@ When you have your [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]
 <a name="BKMK_SecurityRoles"></a> 
 
 ### Use Security Roles to control access to templates  
- Dynamics 365 for Customer Engagement apps administrators can control access to Word templates with some granularity. For example, you can give salespeople Read but not Write access to a Word template.  
+ Dynamics 365 for Customer Engagement administrators can control access to Word templates with some granularity. For example, you can give salespeople Read but not Write access to a Word template.  
 
 1. In Dynamics 365 for Customer Engagement, click **Settings** > **Security** > **Security Roles**.  
 

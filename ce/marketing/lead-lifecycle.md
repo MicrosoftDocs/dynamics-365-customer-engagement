@@ -41,7 +41,7 @@ The marketing segments that you set up to establish the target group for a custo
 
 So, the starting point for engaging potential customers in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is to establish your collection of contact records through the following mechanisms:
 
-- Create contacts manually in the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] UI.
+- Create contacts manually in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI.
 - Import contacts from a file.
 - Customer opt-in from a landing page (typically created together with a linked lead).
 - Customer opt-in from an event registration (typically created together with a linked lead).
@@ -51,7 +51,7 @@ So, the starting point for engaging potential customers in [!INCLUDE[pn-marketin
 
 As contacts interact with your marketing initiatives, you'll generate leads to represent expressions of interest made by those contacts. You might generate a lead manually (such as after a meeting or phone conversation), or you might allow the system to generate them automatically (such as in response to an event registration). Leads are usually generated in one of the following ways:
 
-- Use the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] UI to create a lead record and then manually link it to a new or existing contact record.
+- Use the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI to create a lead record and then manually link it to a new or existing contact record.
 - Import leads from a file and then manually map each lead to a contact or account.
 - Customer opt-in from a landing page (matched to an existing contact or creates a new, linked contact).
 - Customer opt-in from an event registration (matched to an existing contact or creates a new, linked contact).

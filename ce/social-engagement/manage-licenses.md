@@ -2,7 +2,7 @@
 title: "Manage licenses for Social Engagement | Microsoft Docs"
 description: "Learn how to manage user licenses for users of Social Engagement."
 keywords: licenses, Social Engagement, Office 365, user license, assign, remove
-ms.date: 09/19/2018
+ms.date: 12/14/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -27,6 +27,9 @@ search.app:
 
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
+
+> [!IMPORTANT]
+> If your organization is eligible for Social Engagement and you've signed up for the Dynamics 365 AI for Market Insights Preview, all your existing data will be available in both applications. If you want to go back to using Social Engagement, a global admin can [remove your license](#remove-a-license-from-a-user) for **Dynamics 365 AI for Market Insights (Preview)** in the Office 365 admin center and ensure a Social Engagement [license is assigned](#assign-a-license-to-a-user) to you. This will roll back to the experience with Social Engagement branding while persisting your data. 
 
 ## Prepare your organization
 
@@ -54,7 +57,7 @@ It takes a few minutes to complete the provisioning process before you can start
 
 Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
 
-1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Office 365 admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
@@ -66,10 +69,11 @@ Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 
 When you [create an Office 365 user account](http://go.microsoft.com/fwlink/p/?LinkId=526143), you normally [assign a license](http://go.microsoft.com/fwlink/p/?LinkId=390651) to users so that they can use certain features. 
 
-When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license you've assigned to the user.  
+When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license you've assigned to the user. 
+
 Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain. It takes up to 30 days to reflect the removal of a license in the list of users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Office 365 admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
@@ -98,7 +102,7 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
 
-### See Also
+### See also
 
 [Get started with Social Engagement](get-started.md)   
 [Assign permissions and user roles](assign-user-roles.md)   

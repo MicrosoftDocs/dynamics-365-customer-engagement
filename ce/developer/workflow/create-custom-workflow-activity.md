@@ -71,7 +71,10 @@ This topic describes how to create a custom workflow activity and register it fo
 11. Add functionality to the class by adding an [Execute](https://msdn.microsoft.com/library/system.activities.codeactivity.execute.aspx) method:  
   
     ```csharp  
-    protected override void Execute(CodeActivityContext context){    //Activity code}  
+    protected override void Execute(CodeActivityContext context)
+    {
+      //Activity code
+    }  
     ```  
   
      For more information, see [Adding Metadata to the Custom Workflow Activity](add-metadata-custom-workflow-activity.md).  

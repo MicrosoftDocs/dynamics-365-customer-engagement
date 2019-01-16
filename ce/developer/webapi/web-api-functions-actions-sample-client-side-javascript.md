@@ -2,7 +2,7 @@
 title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 12/24/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -475,7 +475,7 @@ Sdk.startSample = function () {
 Sdk.deleteEntities = function () {  
  return new Promise(function (resolve, reject) {  
   
-  entitiesToDelete.unshift(opportunityUri) // Adding to the begining so it will get deleted before the parent account.  
+  entitiesToDelete.unshift(opportunityUri) // Adding to the beginning so it will get deleted before the parent account.  
   // Re-open the created opportunity so it can be deleted.  
   Sdk.request("PATCH", opportunityUri, { statecode: 0, statuscode: 2 })  
   .then(function () {  

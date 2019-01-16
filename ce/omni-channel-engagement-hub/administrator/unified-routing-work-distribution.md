@@ -1,7 +1,7 @@
 ---
-title: "Understand unified routing and work distribution"
-description: 
-keywords: ""
+title: Understand unified routing and work distribution
+description: Understand about unified routing and work distribution in Omni-channel Engagement Hub
+keywords: Omni-channel Engagement Hub; Unified routing and work distribution
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -28,7 +28,6 @@ Unified routing and work distribution identifies the availability of agents and 
 
 - The association of agents with queues and channels
 - The real-time capacity and presence of agents
-- The maximum concurrency on a channel
 
 For example, a chat interaction that comes in from a customer has a specific query about international life insurance. In this case, unified routing and work distribution can help route the chat to an agent who is equipped to handle that query, as shown in the following illustration.
 
@@ -44,15 +43,18 @@ To effectively route and distribute work to agents, admins can set up the follow
 - Work streams
 - Omni-channel queues
 - Routing rules
-- Users and user profiles
+- Users
 - Presence and custom presence
+
+  ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
 
 To learn about unified routing and work distribution in more detail, see the following topics:
 
 - [Create and manage work streams](work-streams.md)
+- [Configure record identification rule](record-identification-rule.md)
 - [Configure presence and custom presence](presence-custom-presence.md)
-- [Create and manage users and user profiles](users-user-profiles.md)
-- [Create and manage routing rules in omni-channel](routing-rules.md)
-- [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)
+- [Create and manage users](users-user-profiles.md)
+- [Create and manage routing rules](routing-rules.md)
+- [Work with queues](queues-omni-channel.md)
 - [Understand the conversation state lifecycle](conversation-state-lifecycle.md)
 - [Understand how routing and work distribution works](routing-work-distribution-scenario.md)
