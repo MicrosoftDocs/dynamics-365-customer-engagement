@@ -78,7 +78,7 @@ When you select any record, the application displays a new quick create form. Fo
 Similarly, for the other records, the application displays the quick create forms of the respective record.
 
 > [!div class="nextstepaction"]
-> [Next topic: View My dashboard and agent work items](csh-my-dashboard.md)
+> [Next topic: View agent dashboard and agent work items](csh-my-dashboard.md)
 
 ## See also
 

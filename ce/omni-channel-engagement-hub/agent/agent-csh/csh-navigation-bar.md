@@ -27,7 +27,7 @@ The navigation bar is a place where you can navigate between different apps. Als
 - [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Sitemap](csh-sitemap.md)
-- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)

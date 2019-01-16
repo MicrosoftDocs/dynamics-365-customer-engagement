@@ -1,6 +1,6 @@
 ---
-title: "Introduction to the agent interface of Omni-channe Engagement Hub in Customer Service Hub"
-description: "Learn about agent interface of Omni-channe Engagement Hub in Customer Service Hub"
+title: "Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub"
+description: "Learn about agent interface of Omni-channel Engagement Hub in Customer Service Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -36,7 +36,7 @@ When you sign in to Customer Service Hub, the Omni-channel Engagement Hub interf
 
 - [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View My dashboard and agent work items](csh-my-dashboard.md)
+- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)

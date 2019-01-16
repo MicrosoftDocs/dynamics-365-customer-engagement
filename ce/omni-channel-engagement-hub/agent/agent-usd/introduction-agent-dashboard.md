@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 05962e07-2570-44fd-bca6-a894b1e61969
 ms.custom: 
 ---
-# Introduction to the Omni-channel Engagement Hub agent dashboard
+# View agent dashboard and agent work items
 
 When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues, and conversations that you've completed during the last 24 hours.
 
