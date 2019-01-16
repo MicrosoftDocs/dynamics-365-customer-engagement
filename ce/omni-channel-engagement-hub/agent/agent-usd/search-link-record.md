@@ -18,6 +18,9 @@ ms.custom:
 The topic explains how to search for a record in Omni-channel Engagement Hub and link it to a conversation.
 
 ## Search for a record
+You can search for the records in two ways.
+
+### Search for a record using the search option
 
 You can search for omni-channel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
 
@@ -41,6 +44,18 @@ You can search for omni-channel records by using the search functionality. When 
  - Case Number
 
 3. Select **Search**. The list of search results appear.
+
+### Search for a record using inline search option
+
+You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
+
+> [!div class=mx-imgBorder]
+> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
+
+After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
+
+> [!div class=mx-imgBorder]
+> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
 ## Link a record
 

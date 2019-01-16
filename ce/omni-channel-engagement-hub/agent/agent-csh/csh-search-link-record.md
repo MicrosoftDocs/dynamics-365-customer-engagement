@@ -19,6 +19,8 @@ The topic explains how to search a record in Omni-channel Engagement Hub and lin
 
 ## Search for a record
 
+You can search for the records in two ways.
+
 ### Search for a record using the search option
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
