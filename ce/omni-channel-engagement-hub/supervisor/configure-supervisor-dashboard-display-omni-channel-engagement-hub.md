@@ -168,7 +168,7 @@ Follow these steps to configure Power BI dashboards.
 
     Reports are created.
 
-8. Change the refresh rate of **IntradayMonitoring** data set to 15 minutes.
+8. Change the refresh rate of **IntradayMonitoring** data set to 15 minutes. Open the data set in Power BI service (Power BI online) and perform the following steps:
 
     a. Right-click the more options icon (...) and select **SETTINGS**.<br> 
         ![Select Settings option](../media/oc-pbi-reportsettings.png "Select Settings option")
@@ -178,8 +178,8 @@ Follow these steps to configure Power BI dashboards.
 
     c. Select **Apply**.
 
-1. Open the reports that are available in the workspace. For more information, see [Open a report in Power BI service](/power-bi/service-report-open).
-1. Pin the required tiles to dashboards. For more information, see [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report).
+9. Open the reports that are available in the workspace. For more information, see [Open a report in Power BI service](/power-bi/service-report-open).
+10. Pin the required tiles to dashboards. For more information, see [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report).
 
     The following illustration shows what a dashboard looks like when you pin tiles to it.
 
