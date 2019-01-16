@@ -1,6 +1,6 @@
 ---
 title: "View customer summary"
-description: "Customer 360 is a form where you can know complete information about the customer with whom you are going to interact."
+description: "Customer summary is a form where you can know complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: d53f1b1f-0361-4334-827c-d299137a9075
 ms.custom: 
 ---
-# Customer 360 - Know everything about customers
+# View customer summary and know everything about customers
 
 ## overview of the existing challenges
 
@@ -20,9 +20,9 @@ One of the major challenges that customers face when contacting the customer sup
 
 By having this information ready when customers contact them, support agents can help reduce the hold time that they spend retrieving customer information, reduce average handling time (AHT), and increase customer satisfaction through faster resolution of the issue.
 
-### What is Customer 360?
+### What is Customer summary?
 
-**Customer 360** is a page where you can get complete information about a customer when you accept an incoming request from any engagement channel. The default view of the **Customer 360** page provides the following sections:
+**Customer summary** is a page where you can get complete information about a customer when you accept an incoming request from any engagement channel. The default view of the **Customer summary** page provides the following sections:
 
    - Customer profile
 
@@ -35,7 +35,7 @@ By having this information ready when customers contact them, support agents can
    - All activities
 
 > [!div class=mx-imgBorder]
-> ![omni-channel customer 360 page](../../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
+> ![omni-channel Customer summary page](../../media/oc-usd-customer360-page.png "Omni-channel Customer summary page")  
 
 #### Customer profile
 

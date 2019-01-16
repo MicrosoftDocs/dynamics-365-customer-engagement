@@ -48,13 +48,13 @@ Toast notifications or floating notifications appear for SMS, email, voice call,
 
 #### Alert notifications
 
-An alert notification appears as a dialog box that contains buttons. When you select the **Accept** button, a screen pop appears and shows Customer 360 details. You must take action within a specific time. After that time passes, the screen pop disappears. If your business requires an auto-accept request for an incoming request based on the routing rules, the alert notification doesn't contain buttons.
+An alert notification appears as a dialog box that contains buttons. When you select the **Accept** button, a screen pop appears and shows Customer summary details. You must take action within a specific time. After that time passes, the screen pop disappears. If your business requires an auto-accept request for an incoming request based on the routing rules, the alert notification doesn't contain buttons.
 
 ![omni-channel alert notification](../../media/oc-usd-alert-notification.png "omni-channel alert notification")  
 
 ##### Incoming chat notification
 
-When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer 360** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
+When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
 
 ![omni-channel incoming chat alert notification](../../media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
 
@@ -70,7 +70,7 @@ You see the following details for a chat channel:
 
 -   Recent activities
 
-![Omni-channel Customer 360 form for chat](../../media/oc-usd-chat-customer360.png "Omni-channel customer 360 page for chat")
+![Omni-channel Customer summary form for chat](../../media/oc-usd-chat-customer360.png "Omni-channel Customer summary page for chat")
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)

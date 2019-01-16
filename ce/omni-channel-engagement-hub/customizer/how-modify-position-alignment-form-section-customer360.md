@@ -1,6 +1,6 @@
 ---
-title: "Modify the position or alignment of the form (card) in the customer 360 form"
-description: "Learn how to modify the position or alignment of the form (card) in the customer 360 form"
+title: "Modify the position or alignment of the form (card) in the Customer summary form"
+description: "Learn how to modify the position or alignment of the form (card) in the Customer summary form"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 9b0d8dfb-3c40-4e15-9fe1-17d02f07d38d
 ms.custom: 
 ---
-# Modify the position or alignment of a form (card) in the Customer 360
+# Modify the position or alignment of a form (card) in the Customer summary
 
 1. Sign in to Dynamics 365.
 
@@ -34,7 +34,7 @@ ms.custom:
 ## See also
 
 - [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-- [Customize customer 360 form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
 - [Add or remove the fields in the form](add-remove-fields-form-section.md)
 - [Customize the conversation form](customize-conversation-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)

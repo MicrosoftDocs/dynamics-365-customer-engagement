@@ -15,9 +15,9 @@ ms.custom:
 
 # Configure record identification rule
 
-Record identification rules help agents identify and assist customers better by showing their details on the **Customer 360** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer 360** page opens, and shows the details of the customer and case. 
+Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the customer and case. 
 
-For more information, see [View Customer 360 for an incoming engagement request](../agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md).
+For more information, see [View Customer summary for an incoming engagement request](../agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md).
 
 > [!NOTE]
 > For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped to a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new Live Chat work stream](#create-a-new-live-chat-work-stream) procedure later in this topic. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. 

@@ -17,7 +17,7 @@ ms.custom:
 
 ## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 
 
-When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. When you accept or select the incoming notification, the application displays the Customer 360 page with details about the customer.
+When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. When you accept or select the incoming notification, the application displays the Customer summary page with details about the customer.
 
 ## Scenario 2: An incoming conversation request where you find several customer records in the Omni-channel Engagement Hub 
 
@@ -25,9 +25,9 @@ When you get an incoming conversation request, you see a notification (screen po
 
 ### Select a record
 
-If you select a record, the Customer 360 page displays details by pre-populating the fields.
+If you select a record, the Customer summary page displays details by pre-populating the fields.
 
-If you select a case, contact, or account, the Customer 360 page refreshes and updates the **Issue** **Snapshot** section with the current case details.
+If you select a case, contact, or account, the Customer summary page refreshes and updates the **Issue** **Snapshot** section with the current case details.
 
 If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search a record](#search-for-a-record)  
 

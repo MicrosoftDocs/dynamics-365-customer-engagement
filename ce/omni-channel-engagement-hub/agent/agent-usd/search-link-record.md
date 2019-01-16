@@ -55,7 +55,7 @@ You can link a record in the list of search results to a conversation. You can l
 3. Select the link button at the top.<br>
 ![omni-channel send link](../../media/agent-select-link-button.png "omni-channel send link")
 
-After you link the record to the conversation, the Customer 360 form is refreshed and reflects the details. Similarly, you can link other record types.
+After you link the record to the conversation, the Customer summary form is refreshed and reflects the details. Similarly, you can link other record types.
 
 ## See also
 

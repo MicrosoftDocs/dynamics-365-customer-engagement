@@ -58,9 +58,9 @@ You must define an event and attach action calls so that an agent can accept an 
 
 -   Load default agent script.
 
--   Load agent session Customer 360 page.
+-   Load agent session Customer summary page.
 
--   Focus on the Customer 360 page.
+-   Focus on the Customer summary page.
 
  ![Alert View notifications and screen pops experience](../media/alert-notification-screenpop.png "Alert notificatiosn and screen pops experience")  
 

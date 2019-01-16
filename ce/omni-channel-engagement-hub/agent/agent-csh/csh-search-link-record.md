@@ -62,7 +62,7 @@ Based on the search results, you can choose to link a record from the list. You 
 
  ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
 
-After you link the record to the conversation, the Customer 360 page refreshes and reflects the details. Similarly, you can link other record types.
+After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
 ## See also
 

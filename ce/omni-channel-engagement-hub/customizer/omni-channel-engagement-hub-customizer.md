@@ -20,7 +20,7 @@ Every organization has a unique way of working. Some organizations have well-def
 
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub for system customizer:
 
-- [Customize customer 360 form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
 - [Customize the conversation form](customize-conversation-form.md)
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 
