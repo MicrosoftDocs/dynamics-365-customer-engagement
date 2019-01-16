@@ -26,7 +26,6 @@ search.app:
 # Frequently Asked Questions about Dynamics 365 App for Outlook
 
 ## Are there any known issues?
-
 Yes, here is the list known issues:
 
 - Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
@@ -35,7 +34,6 @@ Yes, here is the list known issues:
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md). 
 
 ## Dynamics 365 App for Outlook does not display the recipient picker and instead displays a different dashboard. How do I switch it back?
-
 Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365. This is documented here.
 
 ## When I open Dynamics 365 App for Outlook, I see a blue screen with errors related to Server-Side Synchronization. How do I recover from this?
@@ -60,19 +58,15 @@ In general, web resources on Forms will not be rendered in App for Outlook as th
 However, when scripts which do not rely on cookie authentication are used, those will be rendered on a Form in Dynamics 365 App for Outlook.
 
 ## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
-
 For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
 
 ## When I open Dynamics 365 App for Outlook on Outlook desktop, I see a blank page instead of the App. Why is this happening?
-
 For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
 
 ## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. Why is this happening?
-
 Fore more informatoin, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
 
 ## I am unable to track contacts.
-
 Fore more informatoin, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
 
 ## I need help troubleshooting the App.
