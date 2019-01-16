@@ -13,7 +13,7 @@ ms.assetid:
 ms.custom: 
 ---
 
-# View notifications and screen popss 
+# View notifications and screen pops 
 
 A notification is a visual alert you see as a dialog box each time you get a call, email, chat, or SMS engagement request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need to perform to accept or reject an incoming engagement request. When you accept the request, a screen pops up with the contextual information of the customer and case.
 

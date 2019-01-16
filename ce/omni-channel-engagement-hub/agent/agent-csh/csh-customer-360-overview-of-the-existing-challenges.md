@@ -81,7 +81,7 @@ When you interact with a customer in the conversation control, you can use the *
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View My dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
-- [View notifications and screen popss](csh-notifications-screen-pops.md)
+- [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

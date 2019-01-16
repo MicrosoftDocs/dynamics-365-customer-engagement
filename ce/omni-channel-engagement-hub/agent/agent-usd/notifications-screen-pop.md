@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 04017981-2d10-496b-a6b8-5ad0ea99fa4f
 ms.custom: 
 ---
-# View notifications and screen popss
+# View notifications and screen pops
 
 A notification is a visual alert that you see as a message box each time that you receive a call, email, chat, or Short Message Service (SMS) conversation request from a customer. You receive notifications even when the Omni-channel Engagement Hub application is minimized.
 
