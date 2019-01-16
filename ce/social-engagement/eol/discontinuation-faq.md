@@ -33,7 +33,7 @@ Effective January 16, 2019, Microsoft Social Engagement will no longer be includ
 
 ###	Why is Microsoft Social Engagement being discontinued? 
 
-Dynamics 365 will focus on enabling businesses with AI-powered social and web insights rather than just with social listening capabilities. Hence, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search, will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/). The social and web insights can help marketing, social media and product teams understand what their customers and competitors are saying, seeking, and feeling.
+Dynamics 365 will focus on enabling businesses with AI-powered social and web insights rather than just with social listening capabilities. Hence, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search, will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). The social and web insights can help marketing, social media and product teams understand what their customers and competitors are saying, seeking, and feeling.
 
 ###	How will current Microsoft Social Engagement customers be notified?
 
@@ -41,7 +41,7 @@ The announcement will be communicated through periodic customer emails and exist
 
 ###	What is the recommended path for Microsoft Social Engagement customers and prospects?
 
-With the discontinuation of Microsoft Social Engagement, new prospects and existing Microsoft Social Engagement customers are being asked to try the public preview of [Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/). The public preview is planned for release in the [countries and regions and in the languages listed in the Availability Guide](https://aka.ms/dynamics_365_international_availability_deck). 
+With the discontinuation of Microsoft Social Engagement, new prospects and existing Microsoft Social Engagement customers are being asked to try the public preview of [Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). The public preview is planned for release in the [countries and regions and in the languages listed in the Availability Guide](https://aka.ms/dynamics_365_international_availability_deck). 
 Dynamics 365 Market Insights is an application that can help enterprises gain insights and increase their markets by monitoring external information sources, such as social media and trending search terms on the web. Unlike other solutions in the market, this application provides social and web insights, along with AI-powered sentiment and intent analysis features. This helps businesses understand their customers, build their brand, gain competitive advantage, and support their unique needs.
 
 ## Subscription and billing information
@@ -111,7 +111,7 @@ Dynamics 365 Market Insights will focus more on enabling businesses with AI-powe
  
 ###	What is the international availability of Dynamics 365 Market Insights?
 
-Dynamics 365 Market Insights public preview is available in the countries and regions set forth in the Availability Guide, which will continue to be updated as more countries/regions and languages are added. To access Dynamics 365 Market Insights public preview for the countries and regions listed above, please visit the [Dynamics 365 Market Insights site](https://dynamics.microsoft.com/ai/market-insights/) for your country or region.
+Dynamics 365 Market Insights public preview is available in the countries and regions set forth in the Availability Guide, which will continue to be updated as more countries/regions and languages are added. To access Dynamics 365 Market Insights public preview for the countries and regions listed above, please visit the [Dynamics 365 Market Insights site](https://dynamics.microsoft.com/en-us/ai/market-insights/) for your country or region.
 
 ###	Can customers access the Dynamics 365 Market Insights public preview if they are located outside of the countries or regions set forth in the Availability Guide?
 
@@ -125,5 +125,5 @@ Unfortunately, Dynamics 365 Market Insights is only available in the countries/r
 ### See also
 
 [Business Applications release notes](https://dynamics.microsoft.com/business-applications/release/)    
-[Dynamics 365 Market Insights product page](https://dynamics.microsoft.com/ai/market-insights/)    
+[Dynamics 365 Market Insights product page](https://dynamics.microsoft.com/en-us/ai/market-insights/)    
 [Dynamics 365 International Availability Guide](https://aka.ms/dynamics_365_international_availability_deck)  
