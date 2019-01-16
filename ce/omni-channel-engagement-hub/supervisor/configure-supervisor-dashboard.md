@@ -23,3 +23,7 @@ As an admin, you must enable and configure the supervisor dashboard in your orga
 
 1. [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md).
 2. [Add users to the supervisor configuration](add-users-supervisor-configuration.md).
+
+## See also
+
+- [Introduction to supervisor dashboard](omni-channel-engagement-hub-supervisor.md)

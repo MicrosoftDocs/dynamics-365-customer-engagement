@@ -198,3 +198,8 @@ You must configure Unified Service Desk to show the supervisor dashboards when a
 4. Save and close the settings page.
 
 The supervisor dashboard is configured, and supervisors can now sign in to omni-channel and view the dashboard.
+
+## See also
+
+- [Add users to the supervisor configuration](add-users-supervisor-configuration.md)
+- [Introduction to supervisor dashboard](omni-channel-engagement-hub-supervisor.md)

@@ -52,6 +52,10 @@ ms.custom:
 <h2> I'm a supervisor  </h2>
 
 <li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel supervisor</a></li>
+<li><a href="supervisor/configure-supervisor-dashboard.md" data-raw-source="[Administer supervisor dashboard](configure-supervisor-dashboard.md)">Administer supervisor dashboard</a></li>
+<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Introduction to supervisor dashboard](omni-channel-engagement-hub-supervisor.md)">Introduction to supervisor dashboard</a></li>
+<li><a href="supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md" data-raw-source="[Configure the supervisor dashboard](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)">Configure the supervisor dashboard</a></li>
+<li><a href="supervisor/add-users-supervisor-configuration.md" data-raw-source="[Add users to the supervisor configuration](add-users-supervisor-configuration.md)">Add users to the supervisor configuration</a></li>
 </td>
 </tr>
 <tr>

@@ -31,3 +31,12 @@ As a supervisor, you see the following tabs when you open the Omni-channel Engag
 
 > [!NOTE]
 > If configuration errors occur, or if you can't view the dashboard, contact your system admin.
+
+## In this section
+
+- [Administer supervisor dashboard](configure-supervisor-dashboard.md)
+
+## How tos
+
+- [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
+- [Add users to the supervisor configuration](add-users-supervisor-configuration.md)
