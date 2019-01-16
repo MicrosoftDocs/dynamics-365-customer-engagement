@@ -4,6 +4,7 @@
 ### [Introduction](introduction-omni-channel.md)
 ### [System requirements](system-requirements-omni-channel-engagement-hub.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
+### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
 ### [Configure a live chat widget](administrator/configure-live-chat.md)
 
@@ -17,7 +18,6 @@
 ### [Configure presence and custom presence](administrator/presence-custom-presence.md)
 ### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 ### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
-### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Create a chat widget](administrator/set-up-chat-widget.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 #### [Create a question library](administrator/create-question-library.md)
