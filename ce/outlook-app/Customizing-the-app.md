@@ -36,5 +36,5 @@ Customize the Dynamics 365 App for Outlook to best suit your organization needs.
  
  ## FAQs
  
- For frequently ssked wuestions about Dynamics 365 App for Outlook, see [FAQs](faq.md).
+ For information on frequently asked questions about Dynamics 365 App for Outlook, see [FAQs](faq.md).
 
