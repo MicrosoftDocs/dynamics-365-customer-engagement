@@ -19,7 +19,10 @@ When a conversation is allocated to an agent, that agent works on the conversati
 
 Conversation state plays an important role in this process by updating the state of a conversation at various stages.
 
-During their complete lifecycle, conversations follow a dedicated path. They are created, assigned to agents, worked on by agents (attended to), suspended (while they are awaiting input), and closed by agents (or sometimes either abandoned or automatically closed by the system).
+During their complete lifecycle, conversations follow a dedicated path. They are created, assigned to agents, worked on by agents (attended to), and are closed after being in the waiting state for a configured time. 
+
+> [!NOTE]
+> The closing and waiting time is configured while creating a work stream in the **Auto-close after inactivity** drop-down list.
 
 During the whole process, the omni-channel system gathers lots of data about agent efficiency, and also about operational bottlenecks that the organization can fix to achieve optimum efficiency. For example, the view of conversations in the **Waiting** state, conversations in the **Closed** state, conversations in the **Open** state, and so on, helps organizations track the operational health of incoming requests.
 

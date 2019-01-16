@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 04017981-2d10-496b-a6b8-5ad0ea99fa4f
 ms.custom: 
 ---
-# View notifications and screen popss
+# View notifications and screen pops
 
 A notification is a visual alert that you see as a message box each time that you receive a call, email, chat, or Short Message Service (SMS) conversation request from a customer. You receive notifications even when the Omni-channel Engagement Hub application is minimized.
 
@@ -79,7 +79,7 @@ You see the following details for a chat channel:
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View conversation control](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)

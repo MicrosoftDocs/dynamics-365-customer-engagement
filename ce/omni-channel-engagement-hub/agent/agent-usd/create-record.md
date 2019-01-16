@@ -36,7 +36,7 @@ If no records are linked to a conversation in Omni-channel Engagement Hub, you c
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [Introduction to agent dashboard](introduction-agent-dashboard.md)
+- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation control](left-control-panel.md)

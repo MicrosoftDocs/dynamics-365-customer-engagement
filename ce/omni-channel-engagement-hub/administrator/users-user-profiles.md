@@ -39,27 +39,27 @@ Follow these steps to update the details of a user in Omni-channel Engagement Hu
 
     - **Summary**: 
 
-        - In the **User Information** section, enter details about the user.
-        - In the **Organization Information** section, enter details about the user's organization.
-        - In the **Teams** section, specify the team that the user belongs to.
-        - In the **Queue Information** section, assign a queue to the user.
+        1. In the **User Information** section, enter details about the user.
+        2. In the **Organization Information** section, enter details about the user's organization.
+        3. In the **Teams** section, specify the team that the user belongs to.
+        4. In the **Queue Information** section, assign a queue to the user.
 
     - **Details**:
 
-        - In the **User Information** section, enter contact information.
-        - In the **Address** section, enter address details.
-        - In the **Direct Reports** section, add existing users as direct reports for the user.
+        1. In the **User Information** section, enter contact information.
+        2. In the **Address** section, enter address details.
+        3. In the **Direct Reports** section, add existing users as direct reports for the user.
 
     - **Administration**: 
 
-        - In the **Client Access License Information** section, select the access mode in the drop-down list.
-        - In the **Email Configuration** section, select the mailbox that is associated with the user.
+        1. In the **Client Access License Information** section, select the access mode in the drop-down list.
+        2. In the **Email Configuration** section, select the mailbox that is associated with the user.
 
     - **Omni-channel**:
 
-        - In the **User Details** section, assign a capacity and a default presence status.
-        - In the **Omni-channel Queues** section, assign an existing omni-channel queue.
-        - In the **Work Streams** section, assign an existing work stream.
+        1. In the **User Details** section, assign a capacity and a default presence status.
+        2. In the **Omni-channel Queues** section, assign an existing omni-channel queue.
+        3. In the **Work Streams** section, assign an existing work stream.
 
 3. Select **Save** to the save the user record.
 

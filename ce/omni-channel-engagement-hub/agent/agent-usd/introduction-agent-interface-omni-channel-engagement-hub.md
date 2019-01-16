@@ -107,7 +107,7 @@ The application management toolbar lets you see the all the related information 
 > ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to agent dashboard](introduction-agent-dashboard.md)
+> [Next topic: View agent dashboard and agent work items](introduction-agent-dashboard.md)
 
 ## See also
 

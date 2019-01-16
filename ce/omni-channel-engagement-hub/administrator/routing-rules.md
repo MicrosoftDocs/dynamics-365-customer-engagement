@@ -40,10 +40,10 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
 
 1. Select **Add New Rule Item** to add a new routing rule item.  
     - In the **General information** section of the **General** tab, provide the following information: 
-      - **Name**. Name of the rule item
-      - **Work Stream** is auto populated
-      - **Queue**. Look up a queue or select New to add a new queue. </br> **More information**: [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
-      - **Description**. A brief description of the rule item.
+      1. **Name**. Name of the rule item
+      2. **Work Stream** is auto populated
+      3. **Queue**. Look up a queue or select New to add a new queue. </br> **More information**: [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
+      4. **Description**. A brief description of the rule item.
               
     - In the **Condition** section, provide the conditions for the omni-channel rule. Based on the conditions defined, the conversations are routed to the correct agents or queues. When you define conditions for the omni-channel routing rules, you can choose from:
         - Entity

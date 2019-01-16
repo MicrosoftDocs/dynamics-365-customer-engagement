@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
+ms.date: 01/16/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 84d1cbc7-cbed-4d51-991d-d07245cfee7a
@@ -18,14 +18,22 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 
 ## In this section
 
-- Provision Omni-channel Engagement Hub
+- [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)
 - [Know unified routing and work distribution](unified-routing-work-distribution.md)
+- [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
-[Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream)
-[Create a new CDS Entity work stream](work-streams.md#create-a-new-cds-entity-work-stream)
-[Configure record identification rule](record-identification-rule.md)
-[Create a new presence record](presence-custom-presence.md#create-a-new-presence-record)
-[Manage a new user](users-user-profiles.md#manage-a-new-user)
-[Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)
-[Create a routing rule](routing-rules.md#create-a-routing-rule)
+[Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream)<br>
+[Create a new CDS Entity work stream](work-streams.md#create-a-new-cds-entity-work-stream)<br>
+[Configure record identification rule](record-identification-rule.md)<br>
+[Create a new presence record](presence-custom-presence.md#create-a-new-presence-record)<br>
+[Manage a new user](users-user-profiles.md#manage-a-new-user)<br>
+[Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
+[Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
+[Add a chat widget](set-up-chat-widget.md#add-a-chat-widget)<br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
+[Create a question library](create-question-library.md)<br>
+[Create quick replies](create-quick-replies.md)<br>
+[Create and manage operating hours](create-operating-hours.md)<br>
+[Create chat authentication settings](create-chat-auth-settings.md)<br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

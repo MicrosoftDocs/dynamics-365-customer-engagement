@@ -60,8 +60,8 @@ Follow these steps to create a new live chat work stream.
       1. **Name**: Enter a name for the work stream.
       2. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
       3. **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
-            > [!NOTE]
-            > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
+         > [!NOTE]
+         > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
       4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
       5. **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
       6. Select **Save** to save the work stream.
@@ -117,7 +117,7 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
 ### In Microsoft Flow
 
-1. Go to <portal.office.com>, and select **Flow** in the list of apps.
+1. Go to [portal.office.com](https://www.office.com/?auth=2&home=1), and select **Flow** in the list of apps.
 
    ![CDS in Flow](../media/ws-flow.png)
 
