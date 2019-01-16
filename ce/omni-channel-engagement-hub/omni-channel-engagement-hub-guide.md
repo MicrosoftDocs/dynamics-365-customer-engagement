@@ -24,7 +24,7 @@ ms.custom:
 <li>System requirements</li>
 <li>Add users</li>
 <li>Assign roles to users</li>
-<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget](administrator/configure-live-chat.md)">Configure a live chat widget</a></li>
+<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget and embed it in portal](administrator/configure-live-chat.md)">Configure a live chat widget and embed it in portal</a></li>
 </td>
 <td>
 
