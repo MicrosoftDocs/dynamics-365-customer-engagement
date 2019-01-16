@@ -112,7 +112,7 @@ The application management toolbar lets you see the all the related information 
 ## See also
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [Notifications and screen pop](notifications-screen-pop.md)
+- [View notifications and screen pops](notifications-screen-pop.md)
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation control](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)

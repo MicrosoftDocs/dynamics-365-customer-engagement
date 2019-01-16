@@ -87,7 +87,7 @@ When no record is found in Omni-channel Engagement Hub, you can create a contact
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Introduction to agent dashboard](introduction-agent-dashboard.md)
-- [Notifications and screen pop](notifications-screen-pop.md)
+- [View notifications and screen pops](notifications-screen-pop.md)
 - [Customer 360 – know everything about customers](customer360-overview-existing-challenges.md)
 - [View conversation control](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)

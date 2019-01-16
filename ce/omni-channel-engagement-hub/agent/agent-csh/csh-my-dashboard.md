@@ -47,7 +47,7 @@ In this work stream, you see the work items that you completed during the past 2
 - [Sitemap](csh-sitemap.md)
 - [Navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [View notifications and screen popss](csh-notifications-screen-pops.md)
 - [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)

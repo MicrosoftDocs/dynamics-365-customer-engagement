@@ -35,7 +35,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 - [Conversation control](csh-conversation-control.md)
 
-- [Notifications and screen pops](csh-notifications-screen-pops.md)
+- [View notifications and screen popss](csh-notifications-screen-pops.md)
  
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
  
