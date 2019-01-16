@@ -26,7 +26,7 @@
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
-## [Agents]()
+## Agents
 
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
