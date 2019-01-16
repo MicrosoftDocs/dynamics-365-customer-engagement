@@ -1,7 +1,7 @@
 ---
-title: "Comparison between Microsoft Social Engagement and Dynamics 365 AI for Market Insights | Microsoft Docs"
-description: "Features, enhancements, and benefits of Dynamics 365 AI for Market Insights."
-keywords: "discontinuation, MSE, AI for Market Insights"
+title: "Comparison between Microsoft Social Engagement and Dynamics 365 Market Insights | Microsoft Docs"
+description: "Features, enhancements, and benefits of Dynamics 365 Market Insights."
+keywords: "discontinuation, MSE, Market Insights"
 ms.date: 01/16/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
@@ -21,12 +21,12 @@ search.app:
   - D365SE
 ---
 
-# Microsoft Social Engagement vs. Dynamics 365 AI for Market Insights
+# Microsoft Social Engagement vs. Dynamics 365 Market Insights
 
 ## Key difference
 
 Customers are indicating that they need a solution that provides social and web insights rather than limited social listening capabilities. To keep up with the evolving advancements of the industry, Dynamics 365 is investing in AI capabilities to combine insights from social media and Bing search. 
-We recommend that Microsoft Social Engagement customers [try the public preview of Microsoft Dynamics 365 AI for Market Insights](https://dynamics.microsoft.com/ai/market-insights/). Dynamics 365 AI for Market Insights is an application that can help businesses gain insights and increase its market by monitoring external information sources, such as social media and trending search terms on the web. Unlike other solutions in the market, this application provides social and web insights, along with AI-powered sentiment and intent analysis features. This helps businesses understand their customers, build their brand, gain competitive advantage, and support their unique needs.
+We recommend that Microsoft Social Engagement customers [try the public preview of Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/). Dynamics 365 Market Insights is an application that can help businesses gain insights and increase its market by monitoring external information sources, such as social media and trending search terms on the web. Unlike other solutions in the market, this application provides social and web insights, along with AI-powered sentiment and intent analysis features. This helps businesses understand their customers, build their brand, gain competitive advantage, and support their unique needs.
 
 ![Market Insights app ecosystem](../media/app-ecosystem-ai4mi.png)
 
@@ -81,7 +81,7 @@ Give service agents the information they need, and automate case routing, so the
 
 | Brand Reputation Capabilities  |  Market Insights |  Microsoft Social Engagement |
 |---|---|---|
-| Link posts to Dynamics 365 Customer Service cases  | Yes         | Yes |
+| Link posts to cases in Dynamics 365 for Customer Service  | Yes         | Yes |
 | Post assignments                           | Yes         | Yes |
 | Customizable alerts                        | Yes         | Yes |
 | Author insights                            | Yes         | Yes |
@@ -92,13 +92,13 @@ Empower your sales people to sell more by leveraging social media. Sales teams c
 
 | Social Selling Capabilities  |  Market Insights |  Microsoft Social Engagement |
 |---|---|---|
-| Link posts to Dynamics 365 for Sales leads  | Yes         | Yes |
+| Link posts to leads in Dynamics 365 for Sales  | Yes         | Yes |
 | Social Selling Assistant                         | No         | Yes |
 	
 
 ## Next steps
 
-Use Dynamics 365 AI for Market Insights to capture AI-powered insights from social channels and Microsoft’s unique web and search data sources. Gather actionable insights on your brands, customers, competitors, and market. Gain a competitive edge by staying on top of market trends as they unfold. Respond faster based on what customers are saying, seeking, and feeling.
+Use Dynamics 365 Market Insights to capture AI-powered insights from social channels and Microsoft’s unique web and search data sources. Gather actionable insights on your brands, customers, competitors, and market. Gain a competitive edge by staying on top of market trends as they unfold. Respond faster based on what customers are saying, seeking, and feeling.
 
 Engage with us in the [Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights) or email us directly at [mseeol@microsoft.com](mailto:mseeol@microsoft.com) with any other questions or concerns.
 
