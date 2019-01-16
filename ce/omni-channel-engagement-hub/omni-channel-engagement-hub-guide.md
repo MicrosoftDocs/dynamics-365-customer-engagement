@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 01/14/2019
+ms.date: 01/16/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
@@ -32,7 +32,7 @@ ms.custom:
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel Engagement Hub for administrators](administrator/omni-channel-engagement-hub-administrator.md)">Omni-channel Engagement Hub for administrators</a></li>
 <li><a href="unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
-
+<li><a href="set-up-chat-widget.md" data-raw-source="[Create a chat widget](administrator/set-up-chat-widget.md)">Create a chat widget</a></li>
 </td>
 </tr>
 <tr>
