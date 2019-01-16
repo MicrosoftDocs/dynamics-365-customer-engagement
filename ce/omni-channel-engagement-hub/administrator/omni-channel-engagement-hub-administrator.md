@@ -37,10 +37,3 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 [Create and manage operating hours](create-operating-hours.md)<br>
 [Create chat authentication settings](create-chat-auth-settings.md)<br>
 [Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)
-[Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream) </br>
-[Create a new CDS Entity work stream](work-streams.md#create-a-new-cds-entity-work-stream) </br>
-[Configure record identification rule](record-identification-rule.md) </br>
-[Create a new presence record](presence-custom-presence.md#create-a-new-presence-record) </br>
-[Manage a new user](users-user-profiles.md#manage-a-new-user) </br>
-[Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue) </br>
-[Create a routing rule](routing-rules.md#create-a-routing-rule) </br>
