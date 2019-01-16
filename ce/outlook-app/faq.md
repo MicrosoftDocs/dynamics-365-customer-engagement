@@ -47,7 +47,8 @@ This means that there is an issue with the Server-Side Synchronization settings 
 
 ## When I track or set the Regarding record on an email or an appointment in Outlook, it goes into a “Pending” state. Why?
 Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 via Server-Side Synchronization, which is an asynchronous service that runs in the background approximately every 15 minutes.
-The scenarios where an Outlook item is immediately tracked to Dynamics 365 is documented here.
+The scenarios where an Outlook item is immediately tracked to Dynamics 365 is documented in the [Synchronization and tracking
+](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide#synchronization-and-tracking) section of the user guide.
 
 ## The warning and error messages in Dynamics 365 are not in the language selected in Dynamics 365. Why?
 When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 language setting in order to be consistent with the host application experience.
