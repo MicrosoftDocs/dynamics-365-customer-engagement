@@ -32,7 +32,7 @@ Unified routing and work distribution identifies the availability of agents and 
 For example, a chat interaction that comes in from a customer has a specific query about international life insurance. In this case, unified routing and work distribution can help route the chat to an agent who is equipped to handle that query, as shown in the following illustration.
 
 > [!div class=mx-imgBorder] 
-> ![Routing flowchart](../../customer-service/media/example-routing-work.png)
+> ![Routing flowchart](../media/example-routing-work.png)
 
 Unified routing and work distribution is a two-step process:
 
