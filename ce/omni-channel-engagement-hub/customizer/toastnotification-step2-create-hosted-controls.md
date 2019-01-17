@@ -28,7 +28,8 @@ ms.custom:
 | Unified Service Desk Component Type  | Popup Notification               |
 | Application is Global                | Select the checkbox              |
 
-<!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image1](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image1.png)  -->
+ > [!div class=mx-imgBorder] 
+ > ![Omni-channel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omni-channel toast notification hosted control")
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 3: Create events](toastnotification-step3-create-the-events.md)
