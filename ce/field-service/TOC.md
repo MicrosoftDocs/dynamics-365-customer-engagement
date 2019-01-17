@@ -12,6 +12,7 @@
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Field Service settings](configure-default-settings.md)
+## [Version history](version-history.md)
 
 # Quickstarts
 ## [Schedule a work order](quickstart-schedule-work-order.md)
