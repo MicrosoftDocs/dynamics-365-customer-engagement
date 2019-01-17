@@ -181,13 +181,6 @@
     - name: Write plug-ins to extend business processes
       href: write-plugin-extend-business-processes.md
       items:
-      - name: Introduction to the event framework
-        href: introduction-event-framework.md
-        items:
-        - name: Event execution pipeline
-          href: event-execution-pipeline.md
-        - name: Plug-in isolation, trusts, and statistics
-          href: plugin-isolation-trusts-statistics.md
       - name: Supported messages and entities for plug-ins
         href: supported-messages-entities-plugin.md
       - name: Plug-in development
