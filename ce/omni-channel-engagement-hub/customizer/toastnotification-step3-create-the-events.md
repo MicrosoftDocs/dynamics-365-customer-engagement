@@ -37,7 +37,8 @@ Follow these steps to create the events.
  | Name                | **CreateCaseEntitySession**          |
  | Hosted Application  | **Omni-channel Toast Notification**  |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image2](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image2.png) -->
+ > [!div class=mx-imgBorder]
+ > ![Create case entity session event](../media/oc-usd-crm-create-case-entity-event.png "Create case entity session event")
 
 5. Save the event. 
 
@@ -50,7 +51,9 @@ For **Show FOO Entity Notification** event, specify the following.
  | Name                | **Show FOO Entity Notification** |
  | Hosted Application  | **OmniChannelHostedControl**     |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image3](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image3.png) -->
+ > [!div class=mx-imgBorder]
+ > ![Create show entity notification event](../media/show-entity-notification-event.png "](../media/show-entity-notification-event.png)
+")
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 4: Create an action call to display the notification](toastnotification-step4-create-action-call-display-notification.md)
