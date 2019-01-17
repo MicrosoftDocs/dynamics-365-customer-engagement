@@ -31,11 +31,13 @@ A presence status consists of two elements:
 - **Base status**: The availability or status category.
 - **Presence text**: The text that is associated with a specific base status. For example, in the **Available – Available for Work** presence status, **Available** is the base status, and **Available for Work** is the presence text.
 
-![presence view](../media/oc-presence-view.png)
+> [!div class=mx-imgBorder]
+> ![presence view](../media/oc-presence-view.png)
 
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. In this way, no conversations will be assigned to agents who attend the training.
 
-![custom presence](../media/oc-custom-presence-example.png)
+> [!div class=mx-imgBorder]
+> ![custom presence](../media/oc-custom-presence-example.png)
 
 ## Presence for agents
 
@@ -43,7 +45,8 @@ The presence status for agents can be updated either manually by the agents them
 
 For example, agents can manually change their presence status from **Busy** to **Away** when the end of their shift is approaching. In this way, they help guarantee that no new conversations will be assigned to them. Additionally, an agent's presence status is changed to **Busy** or **Busy DND** whenever a new conversation is assigned based on that agent's capacity.
 
-![Agent presence](../media/oc-agent-presence.png)
+> [!div class=mx-imgBorder]
+> ![Agent presence](../media/oc-agent-presence.png)
 
 ## Default presence
 
@@ -51,7 +54,8 @@ The default presence status is the status that is shown for agents when they fir
 
 Admins can set the default presence status for an agent in the **Agent Details** section on the **Omni-channel** tab of the **User** entity.
 
-![Default presnce](../media/oc-presence-default.png)
+> [!div class=mx-imgBorder]
+> ![Default presnce](../media/oc-presence-default.png)
 
 ## Create a new presence record
 
