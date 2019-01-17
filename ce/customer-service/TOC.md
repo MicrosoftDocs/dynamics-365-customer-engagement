@@ -42,7 +42,6 @@
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
-### [Migrate Service Activity entity](migrate-service-activity-org-service.md)
 ### Schedule entities
 #### [Create bookable resources](resources-service-scheduling.md)  
 #### [Create and manage resource categories](resource-categories-service-scheduling.md)
