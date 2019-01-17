@@ -2,8 +2,8 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/19/2018
-ms.reviewer: ""
+ms.date: 1/17/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -12,10 +12,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
