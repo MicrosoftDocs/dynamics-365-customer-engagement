@@ -57,13 +57,15 @@ Follow these steps to set up Omni-channel Engagement Hub.
     As we receive your details, we will enable the Omni-channel Engagement Hub package on your Dynamics 365 for Customer Engagement instance and you will recieve a confirmation email from Microsoft.
 
     Once you receive the email, you can access and start the setup by selecting **Manage** in the **Dynamics 365 Administration Center**.
-
+    
+    > [!div class=mx-imgBorder] 
     ![provision omni-channel](../media/provision-oc.png)
 
 **Step 2**: Install Omni-channel Engagement Hub in an organization.
 
    1. On the **Manage Omni-channel Instances** page, select **Add Org** to add an organization. </br> Omni-channel is installed on the organization that you add here.
-
+   
+       > [!div class=mx-imgBorder]
        ![manage instances](../media/manage-instances.png)
 
        The **First run experience** wizard is displayed.
