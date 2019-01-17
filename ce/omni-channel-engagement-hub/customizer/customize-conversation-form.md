@@ -30,7 +30,8 @@ As a system customizer, you might want to customize the conversation forms to su
 
 4.  Select either **Conversation Form** or **Omni-channel Session Form** from the list.
 
- ![modify live work item form](../media/oc-crm-modify-position-live-work-item-form.png "Modify live work item form")  
+ > [!div class=mx-imgBorder]
+ > ![modify live work item form](../media/oc-crm-modify-position-live-work-item-form.png "Modify live work item form")  
 
 5.  Drag and drop the field in the order you want to align. You can align the fields within the same section or from one section to another section.
 

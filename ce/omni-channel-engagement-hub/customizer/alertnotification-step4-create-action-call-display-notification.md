@@ -82,7 +82,8 @@ ms.custom:
  | Action         | SetVisualProperty               |
  | Data           | elementName=RightPanelExpander<br>propertyname=IsExpanded<br>value=true |
 
- ![expand right panel action call](../media/oc-usd-crm-expand-right-panel-actioncall.png "Expand right panel action call")  
+ > [!div class=mx-imgBorder]
+ > ![expand right panel action call](../media/oc-usd-crm-expand-right-panel-actioncall.png "Expand right panel action call")  
 
  | Field          | Value                 |
  |----------------|-----------------------|
@@ -91,7 +92,8 @@ ms.custom:
  | Hosted Control | CRM Global Manager    |
  | Action         | CreateSession         |
 
- ![create customer session action call for crm global manager hosted control](../media/oc-usd-crm-create-customer-session-actioncall-crmglobalmanager.png "Create customer session action call for CRM global manager hosted control")  
+ > [!div class=mx-imgBorder]
+ > ![create customer session action call for crm global manager hosted control](../media/oc-usd-crm-create-customer-session-actioncall-crmglobalmanager.png "Create customer session action call for CRM global manager hosted control")  
 
  | Field          | Value                        |
  |----------------|------------------------------|
@@ -99,7 +101,8 @@ ms.custom:
  | Hosted Control | OmniChannelHostedControl     |
  | Action         | OCPresenceUpdate             |
 
- ![omni-channel presence statuses action call](../media/oc-usd-crm-presence-status-actioncall.png "Omni-channel presence statuses action call")  
+ > [!div class=mx-imgBorder]
+ > ![omni-channel presence statuses action call](../media/oc-usd-crm-presence-status-actioncall.png "Omni-channel presence statuses action call")  
 
  | Field          | Value                                       |
  |----------------|---------------------------------------------|
@@ -109,7 +112,8 @@ ms.custom:
  | Action         | OCSessionAccepted                           |
  | Data           | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] |
 
- ![omni-channel session accepted action call](../media/oc-usd-crm-session-accepted-actioncall.png "Omni-channel session accepted action call")  
+ > [!div class=mx-imgBorder]
+ > ![omni-channel session accepted action call](../media/oc-usd-crm-session-accepted-actioncall.png "Omni-channel session accepted action call")  
 
  | Field          | Value                           |
  |----------------|---------------------------------|
@@ -126,7 +130,8 @@ ms.custom:
  | Hosted Control | SessionTimer     |
  | Action         | FireEvent        |
 
- ![kb article search action call](../media/oc-usd-crm-kb-search-actioncall.png "KB article search action call")  
+ > [!div class=mx-imgBorder]
+ > ![kb article search action call](../media/oc-usd-crm-kb-search-actioncall.png "KB article search action call")  
 
  | Field          | Value                     |
  |----------------|---------------------------|
@@ -136,7 +141,8 @@ ms.custom:
  | Action         | GotoTask                  |
  | Data           | Welcome Script            |
 
- ![load default agent script action call](../media/oc-usd-crm-default-agent-script-actioncall.png "Load default agent script action call")  
+ > [!div class=mx-imgBorder]
+ > ![load default agent script action call](../media/oc-usd-crm-default-agent-script-actioncall.png "Load default agent script action call")  
 
  | Field        | Value        |
  |---------------|---------------|
@@ -147,7 +153,8 @@ ms.custom:
  | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off |
  | Condition      | '\[\[isUniqueContactRecognized\]\]'=='False' |
 
- ![load agent session search page action call](../media/oc-usd-crm-agent-session-search-page-actioncall.png "Load agent session search page action call")  
+ > [!div class=mx-imgBorder]
+ > ![load agent session search page action call](../media/oc-usd-crm-agent-session-search-page-actioncall.png "Load agent session search page action call")  
 
  | Field          | Value                                                                                                                                              |
  |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -157,7 +164,8 @@ ms.custom:
  | Action         | Navigate   |
  | Data           | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn\_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true\# <br> Hidenav=true |
 
- ![load agent session overview page action call](../media/oc-usd-crm-agent-session-overview-page-actioncall.png "Load agent session overview page action call")  
+ > [!div class=mx-imgBorder]
+ > ![load agent session overview page action call](../media/oc-usd-crm-agent-session-overview-page-actioncall.png "Load agent session overview page action call")  
 
  | Field          | Value              |
  |----------------|--------------------|
@@ -167,7 +175,8 @@ ms.custom:
  | Action         | ShowTab            |
  | Data           | Session Overview   |
 
- ![change focus on the overview page action call](../media/oc-usd-crm-focus-overview-page-actioncall.png "Change focus on the overview page action call")  
+ > [!div class=mx-imgBorder]
+ > ![change focus on the overview page action call](../media/oc-usd-crm-focus-overview-page-actioncall.png "Change focus on the overview page action call")  
 
  | Field          | Value                      |
  |----------------|----------------------------|
@@ -177,7 +186,8 @@ ms.custom:
  | Action         | OCSessionRejected          |
  | Data           | ConversationId=\[\[cid\]\] |
 
- ![omni-channel session rejected action call](../media/oc-usd-crm-session-rejected-actioncall.png "Omni-channel session rejected action call")  
+ > [!div class=mx-imgBorder]
+ > ![omni-channel session rejected action call](../media/oc-usd-crm-session-rejected-actioncall.png "Omni-channel session rejected action call")  
 
  | Field          | Value                      |
  |----------------|----------------------------|
@@ -187,7 +197,8 @@ ms.custom:
  | Action         | OCSessionTimeout           |
  | Data           | ConversationId=\[\[cid\]\] |
 
- ![omni-channel session timeout action call](../media/oc-usd-crm-session-timeout-actioncall.png "Omni-channel session timeout action call")  
+ > [!div class=mx-imgBorder]
+ > ![omni-channel session timeout action call](../media/oc-usd-crm-session-timeout-actioncall.png "Omni-channel session timeout action call")  
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)

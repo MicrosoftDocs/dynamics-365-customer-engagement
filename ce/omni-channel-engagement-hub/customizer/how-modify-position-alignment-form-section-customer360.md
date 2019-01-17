@@ -22,7 +22,8 @@ ms.custom:
 
 4. Select **Session Overview Form** in the list.
 
- ![modify cusomter 360 form section](../media/oc-crm-modify-customer360form.png "Modify cusomter 360 form section")  
+ > [!div class=mx-imgBorder]
+ > ![modify cusomter 360 form section](../media/oc-crm-modify-customer360form.png "Modify cusomter 360 form section")  
 
 5. Drag and drop the form (card) in the order you want to align.
 

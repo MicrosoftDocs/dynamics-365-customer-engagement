@@ -28,7 +28,8 @@ ms.custom:
 | Unified Service Desk Component Type | Popup Notification              |
 | Application is Global               | Select the checkbox             |
 
-![hosted control for omni-channel popup notification ](../media/oc-usd-crm-popup-notification-hostedcontrol.png "Hosted control for omni-channel popup notification ")  
+ > [!div class=mx-imgBorder]
+ > ![hosted control for omni-channel popup notification ](../media/oc-usd-crm-popup-notification-hostedcontrol.png "Hosted control for omni-channel popup notification ")  
 
 5.  Save the hosted control.
 

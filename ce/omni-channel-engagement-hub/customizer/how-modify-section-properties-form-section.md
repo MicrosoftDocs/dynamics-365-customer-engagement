@@ -77,7 +77,7 @@ ms.custom:
   </tr>  
 </table>
 
-![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")  
+![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")
 
 7.  Select **OK** to save the changes.
 
