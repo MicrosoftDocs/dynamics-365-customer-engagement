@@ -57,7 +57,7 @@ For hardware and other requirements, see [Microsoft Dynamics 365 for Customer En
 > 
 > - Omni-channel Engagement Hub is not supported on Dynamics 365 for Customer Engagement apps (on-premises)
 >
-> - Omni-channe Engagement Hub is supported only on Desktops, and not on mobile and tablets. 
+> - Omni-channe Engagement Hub is supported only on Desktops, and not on mobiles and tablets. 
 
 ## See also
 
