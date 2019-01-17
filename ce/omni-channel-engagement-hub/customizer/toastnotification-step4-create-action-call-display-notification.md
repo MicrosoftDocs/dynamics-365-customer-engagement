@@ -30,7 +30,8 @@ ms.custom:
 
 5. Save the action call.
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image4](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image4.png) -->
+ > [!div class=mx-imgBorder]
+ > ![Create close toast notification action call](../media/oc-usd-close-toastnotification-actioncall.png "Create close toast notification action call")
 
 6. Repeat steps 3 through 5 to create the following additional action calls.
 
@@ -42,7 +43,8 @@ ms.custom:
  | Action          | Show                                         |
  | data            | formname=CaseEntityNotification <br> top=85 <br> left=95 <br> timeout=60 <br> stack=true <br> stackHeight=50 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image5](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image5.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Show case entity toast notification action call](../media/oc-usd-show-case-entity-toastnotification-actioncall.png "Show case entity toast notification action call")
 
  | Field           | Value                          |
  |-----------------|--------------------------------|
@@ -50,8 +52,8 @@ ms.custom:
  | Hosted Control  | Custom Panel                   |
  | Action          | SetVisualProperty              |
  | data            | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true <br> left=95 <br> timeout=60 <br> stack=true                      |
-
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image6](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image6.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Expand right panel action call](../media/oc-usd-expan-right-panel-actioncall.png "Expand right panel action call")
 
  | Field           | Value                 |
  |-----------------|-----------------------|
@@ -60,7 +62,8 @@ ms.custom:
  | Hosted Control  | CRM Global Manager    |
  | Action          | SetVisualProperty     |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image7](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image7.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Create customer session action call](../media/oc-usd-create-customer-session-actioncall.png "Create customer session action call")
 
  | Field           | Value                                  |
  |-----------------|----------------------------------------|
@@ -70,7 +73,8 @@ ms.custom:
  | Action          | CopyToContext                          |
  | Data            | ISENTITYSESSION=True <br> CRMCONTACTID=010101                     |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image8](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image8.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Set entity session property context action call](../media/oc-usd-set-entity-session-property-context-actioncall.png "Set entity session property context action call")
 
  | Field           | Value            |
  |-----------------|------------------|
@@ -80,7 +84,8 @@ ms.custom:
 | Action          | SetVisualProperty |
 | Data            | elementname=LeftPanelParent <br>  propertyname=Visibility <br> value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' || '\[\[$Context.ISENTITYSESSION\]+\]'=='True' || '\[\[$Session.IsGlobal\]+\]'=='True' || '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible")  |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image9](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image9.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Collapse left panel action call](../media/oc-usd-collapse-left-panel-actioncall.png "Collapse left panel action call")
 
  | Field           | Value                                  |
  |-----------------|----------------------------------------|
@@ -90,7 +95,8 @@ ms.custom:
  | Action          | Open\_CRM\_Page                        |
  | Data            | LogicalName=\[\[EntityLogicalName\]+\] <br> id=\[\[EntityId\]+\]                    |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image10](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image10.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Load form for case entity action call](../media/oc-usd-load-case-entity-actioncall.png "Load form for case entity action call")
 
  | Field           | Value                                       |
  |-----------------|---------------------------------------------|
@@ -100,7 +106,8 @@ ms.custom:
  | Action          | OCSetSessionTabIdForEntitySession           |
  | Data            | ConversationId=\[\[ConversationId\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\]  |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image11](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image11.png)  -->
+ > [!div class=mx-imgBorder]
+ > ![Set session tab id for entity session action call](../media/oc-usd-set-session-tabid-entity-session-actioncall.png "Set session tab id for entity session action call")
 
  | Field           | Value                       |
  |-----------------|-----------------------------|
@@ -110,7 +117,8 @@ ms.custom:
  | Action          | OCSessionTimeout            |
  | Data            | ConversationId=\[\[cid\]\]  |
 
- <!-- Update images: ![MarkdownConversionFile_Omni channel Engagement Hub Guide   Copy image12](media/MarkdownConversionFile_Omni-channel-Engagement-Hub-Guide---Copy-image12.png)   -->
+ > [!div class=mx-imgBorder]
+ > ![Session timeout action call](../media/oc-usd-session-timeout-actioncall.png "Session timeout action call")
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Add the action calls to the events](toastnotification-step5-add-action-calls-events.md)

@@ -21,19 +21,19 @@ You can deploy Omni-channel Engagement Hub solution over a Customer Engagement a
 
 - Unified Service Desk client application
 
-- Web expereince on Dynamics 365 Unified Interface application.
+- Web experience on Dynamics 365 Unified Interface application.
 
 ## System and hardware requirements of Omni-channel Engagement Hub with Unified Service Desk
 
 You require the following to use Omni-channel Engagement Hub with Unified Service Desk:
 
-- Unified Service Desk 4.0 and higher version
+- Unified Service Desk 4.1 and higher version
 
 - Dynamics 365 for Customer Engagement apps version 9.1 and higher version
 
 - Web browsers, such as Microsoft Edge and Google Chrome
 
-For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](../unified-service-desk/admin/unified-service-desk-system-requirements.md)
+For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## System and hardware requirements of Omni-channel Engagement Hub with web experience
 

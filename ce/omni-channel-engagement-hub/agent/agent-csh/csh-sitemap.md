@@ -54,7 +54,7 @@ The Sitemap displays the following record types:
     Knowledge articles are articles about the questions, issues, feedback, resolutions, best practices, and guidelines that are helpful. You can share the articles with the customers and help them to resolve the cases.   
 
 > [!div class="nextstepaction"]
-> [Next topic: Navigation bar](csh-navigation-bar.md)
+> [Next topic: Navigate using the navigation bar](csh-navigation-bar.md)
 
 ## See also
 
