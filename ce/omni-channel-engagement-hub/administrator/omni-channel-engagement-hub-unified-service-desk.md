@@ -28,7 +28,7 @@ Download the [Microsoft Dynamics 365 Package Deployer](http://go.microsoft.com/f
 To download the Unified Service Desk client application, you must join the Omni-channel Engagement Hub - Preview program.
 
 > [!Note]
-> Go to (Experience Dynamics 365)[https://experience.dynamics.com/] and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
+> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
 ## Install Unified Service Desk client
 

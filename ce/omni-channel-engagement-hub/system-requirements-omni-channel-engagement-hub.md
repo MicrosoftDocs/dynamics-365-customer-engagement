@@ -27,24 +27,31 @@ You can deploy Omni-channel Engagement Hub solution over a Customer Engagement a
 
 You require the following to use Omni-channel Engagement Hub with Unified Service Desk:
 
-- Unified Service Desk 4.1 and higher version
 
-- Dynamics 365 for Customer Engagement apps version 9.1 and higher version
-
-- Web browsers, such as Microsoft Edge and Google Chrome
+| Area | Requirements | 
+|----------|----------|
+| Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](../omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)|
+| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
+| Web browsers | - Microsoft Edge <br><br> - Internet Explorer |
+| Operating system |For Microsoft Edge - Windows 10 (October 2018 release and higher version) <br><br>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7|
 
 For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## System and hardware requirements of Omni-channel Engagement Hub with web experience
 
-- Dynamics 365 for Customer Engagement apps version 9.1 and higher version
-
-- Web browsers, such as Microsoft Edge and Google Chrome
+| Area | Requirements | 
+|----------|----------|
+| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
+| Web browsers | - Microsoft Edge <br><br> - Google Chrome |
 
 For hardware and other requirements, see [Microsoft Dynamics 365 for Customer Engagement apps requirements](../admin/online-requirements.md)
 
 > [!NOTE]
-> The above mentioned requirements of Omni-channel Engagement Hub is for running basic scenarios. The requirements and performance may vary based on usage and complex configurations.
+> - The above mentioned requirements of Omni-channel Engagement Hub is for running basic scenarios. The requirements and performance may vary based on usage and complex configurations.
+> 
+> - Omni-channel Engagement Hub is not supported on Dynamics 365 for Customer Engagement apps (on-premises)
+>
+> - Omni-channe Engagement Hub is supported only on Desktops, and not on mobile and tablets. 
 
 ## See also
 
