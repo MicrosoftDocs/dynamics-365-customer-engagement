@@ -61,14 +61,20 @@ After the search results, selecting a record links the conversation to the selec
 
 You can link a record in the list of search results to a conversation. You can link only one record to a conversation.
 
-1. Select the ![omni-channel select icon](../../media/select-icon.png "omni-channel select icon") icon to view the selection list.<br>
-![omni-channel select records](../../media/agent-select-records-link.png "omni-channel select records")
+1. Select the ![omni-channel select icon](../../media/select-icon.png "omni-channel select icon") icon to view the selection list.
 
-2. Select the check box next to the record you want to link.<br>
-![omni-channel select checbox](../../media/agent-select-record-checkbox.png "omni-channel select checkbox")
+ > [!div class=mx-imgBorder]
+ > ![omni-channel select records](../../media/agent-select-records-link.png "omni-channel select records")
 
-3. Select the link button at the top.<br>
-![omni-channel send link](../../media/agent-select-link-button.png "omni-channel send link")
+2. Select the check box next to the record you want to link.
+
+ > [!div class=mx-imgBorder]
+ > ![omni-channel select checbox](../../media/agent-select-record-checkbox.png "omni-channel select checkbox")
+
+3. Select the link button at the top.
+
+ > [!div class=mx-imgBorder]
+ > ![omni-channel send link](../../media/agent-select-link-button.png "omni-channel send link")
 
 After you link the record to the conversation, the Customer summary form is refreshed and reflects the details. Similarly, you can link other record types.
 

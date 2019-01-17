@@ -20,7 +20,8 @@ The right panel consists of agent scripts, notes, and knowledge management searc
 
 The **Call script** section in the right panel provides guidance about what you should say during calls, or what you should type during chat conversations.
 
-![omni-channel call script](../../media/oc-usd-call-script.png "Omni-channel call script")  
+> [!div class=mx-imgBorder]
+> ![omni-channel call script](../../media/oc-usd-call-script.png "Omni-channel call script")  
 
 ### Search for knowledge articles
 
@@ -30,7 +31,8 @@ Omni-channel Engagement Hub lets you use the rich knowledge base (KB) in Microso
 
 You can search for a KB article and open it as a tab on the Application tab management toolbar. You can also use the **Send Link** button to share the link to a KB article with the customer that you're interacting with. When you select **Send Link**, the link is pasted into the chat window (conversation control).
 
-![Omni-channel KB articles](../../media/oc-usd-kbartciles.png "Omni-channel KB articles")
+> [!div class=mx-imgBorder]
+> ![Omni-channel KB articles](../../media/oc-usd-kbartciles.png "Omni-channel KB articles")
 
 > [!div class="nextstepaction"]
 > [Next topic: View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)

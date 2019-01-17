@@ -20,12 +20,14 @@ The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Cus
 1.  Sign in to Dynamics 365 Customer Engagement apps
 
 2.  Select the Dynamics 365 drop-down menu on the upper left and select **Customer Service Hub**.
-
- ![Select Customer Service Hub app from the drop-down menu](../../media/select-csh.png "Select Customer Service Hub app from the drop-down menu")  
+ 
+ > [!div class=mx-imgBorder]
+ > ![Select Customer Service Hub app from the drop-down menu](../../media/select-csh.png "Select Customer Service Hub app from the drop-down menu")  
 
 **Tip:** Alternatively, you can use **https://<orgURL&>.dynamics.com/apps** to navigate to the **Customer Service Hub**.
 
-![Select Customer Service Hub app from the apps section](../../media/select-csh-apps.png "Select Customer Service Hub app from the apps section")
+ > [!div class=mx-imgBorder]
+ > ![Select Customer Service Hub app from the apps section](../../media/select-csh-apps.png "Select Customer Service Hub app from the apps section")
 
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md) 
