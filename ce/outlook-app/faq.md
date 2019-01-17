@@ -50,14 +50,6 @@ Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data
 The scenarios where an Outlook item is immediately tracked to Dynamics 365 is documented in the [Synchronization and tracking
 ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide#synchronization-and-tracking) section of the user guide.
 
-## The warning and error messages in Dynamics 365 are not in the language selected in Dynamics 365. Why?
-When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 language setting in order to be consistent with the host application experience.
-
-## We have defined a web resource on a form in Unified Interface. The web resource is not displayed in the form when opened in Dynamics 365 App for Outlook. Why?
-In general, web resources on Forms will not be rendered in App for Outlook as they require cookie authentication, which is currently only supported in browsers. 
-
-However, when scripts which do not rely on cookie authentication are used, those will be rendered on a Form in Dynamics 365 App for Outlook.
-
 ## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
 For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
 
@@ -72,5 +64,13 @@ For more informatoin, see [Issue when trying to access Dynamics 365 within the A
 
 ## I need help troubleshooting the App.
 For more informatoin, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
+
+## The warning and error messages in Dynamics 365 are not in the language selected in Dynamics 365. Why?
+When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 language setting in order to be consistent with the host application experience.
+
+## We have defined a web resource on a form in Unified Interface. The web resource is not displayed in the form when opened in Dynamics 365 App for Outlook. Why?
+In general, web resources on Forms will not be rendered in App for Outlook as they require cookie authentication, which is currently only supported in browsers. 
+
+However, when scripts which do not rely on cookie authentication are used, those will be rendered on a Form in Dynamics 365 App for Outlook.
 
 
