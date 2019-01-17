@@ -65,7 +65,8 @@ Follow these steps to set up Omni-channel Engagement Hub.
 
    1. On the **Manage Omni-channel Instances** page, select **Add Org** to add an organization. </br> Omni-channel is installed on the organization that you add here.
    
-       ![manage instances](../media/manage-instances.png)
+       > [!div class=mx-imgBorder]
+       > ![manage instances](../media/manage-instances.png)
 
        The **First run experience** wizard is displayed.
 
