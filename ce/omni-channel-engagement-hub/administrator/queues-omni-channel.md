@@ -19,8 +19,9 @@ Omni-channel queues are used to collect conversations or customer queries, and d
 
 - Create multiple queues for the same issue type. For example, for investment issues, you can create separate queues for experienced agents and new agents. Specific customer queries can then be directed to experienced agents, and generic or simpler queries can be directed to new agents.
 - Create queues for different issue types. For example, you can create separate queues for billing issues, investment issues, and so on.
-
-    ![Omni-channel queues](../media/oc-queues.png)
+    
+    > [!div class=mx-imgBorder]
+    > ![Omni-channel queues](../media/oc-queues.png)
 
 Here are some of the main characteristics of omni-channel queues:
 
@@ -62,7 +63,8 @@ Follow these steps to create a new omni-channel queue.
     > [!TIP]
     > To select users from other views, you can change the view by selecting **Change View**.
 
-![omni-channel queue](../media/oc-new-queue.PNG)
+> [!div class=mx-imgBorder]
+> ![omni-channel queue](../media/oc-new-queue.PNG)
 
 You can view all active queues in the **Omni-channel Queues** view.
 
