@@ -31,8 +31,8 @@ search.app:
 | Version Number  |  Release Date  |  Notes | 
 |---|---|---|---|---|
 | 8.3  |  December 2018 |  Latest release for general availability (GA) |
-| 8.0  |  July 2018 |  Multi-resource scheduling (Requirement Groups) |  
-|  7.0 |  September 2017 |  Extensibility of schedule board for custom resource matching |  
-| 6.1  |  November 2016 | Release of Universal Resource Scheduling (URS) creating a framework to schedule any entitiy.  |   
-| 6.0  | June 2016  | Release of Field Service on shared data model. Added booking entities as core entities. f1_ schema prefix became msdyn_.   |  
-| 5.1  | May 2016  |  FieldOneSky Preferred Vendor Solution (PVS). f1_ schema prefix. | 
+| 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |  
+|  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |  
+| 6.1  |  November 2016 | Release of Universal Resource Scheduling (URS) creating a framework to schedule any entitiy  |   
+| 6.0  | June 2016  | Release of Field Service on shared data model. Added booking entities as core entities. f1_ schema prefix became msdyn_   |  
+| 5.1  | May 2016  |  FieldOneSky Preferred Vendor Solution (PVS). f1_ schema prefix | 
