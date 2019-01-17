@@ -2,7 +2,7 @@
 title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: publish, post, like, favorite, share, private message, Social Engagement
-ms.date: 05/08/2018
+ms.date: 01/30/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -262,7 +262,7 @@ Share a link to a public post along with your own comments as a new post directl
 
 <a name="addMedia"></a>   
 ### Add media to posts  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a single photo to posts while publishing from within the application.  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a single photo to posts while replying ot commenting from within the application. You can't add media to direct messages.  
 
  Supported file types: .png, .jpg, .gif  
 
