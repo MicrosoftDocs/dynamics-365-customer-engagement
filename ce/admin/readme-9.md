@@ -58,7 +58,7 @@ required to take the following actions to maintain the connectivity to Dynamics
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
 3.  Download and update Dynamics 365 for Outlook to [version
-    8.2.3](https://www.microsoft.com/en-us/download/details.aspx?id=57523).
+    8.2.3](https://www.microsoft.com/download/details.aspx?id=57523).
 
 4.  Download the [latest version of developer
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
