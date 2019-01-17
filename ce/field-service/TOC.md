@@ -73,6 +73,7 @@
 ###  [View product inventory](view-product-inventory.md)
 ###  [Create an inventory transfer](create-inventory-transfer.md)
 ###  [Create an inventory adjustment](create-inventory-adjustment.md)
+###  [Manual inventory journals](manual-inventory-journals.md)
 ###  [Process a return](process-return.md)
 ###  [Return product to vendor](create-return-vendor.md)
 ### [RMA sub-status](create-rma-sub-status.md)
