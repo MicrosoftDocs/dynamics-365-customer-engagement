@@ -18,18 +18,21 @@ Routing rules in Omni-channel Engagement Hub unify conversations from multiple w
 
 Routing rules are configured for each work stream. A single work stream can have multiple routing rules.
 
-![Routing rules](../media/oc-routing-rules.png)
+> [!div class=mx-imgBorder] 
+> ![Routing rules](../media/oc-routing-rules.png)
 
 Routing rules help collect conversations, based on the condition that is applied, and then route them to the correct destination.
 
 > [!NOTE]
 > The destination for the conversation can be a queue or an agent. However, in this preview, only queues are supported as destinations.
 
-![Rule destination](../media/oc-rule-destination.png)
+> [!div class=mx-imgBorder]
+> ![Rule destination](../media/oc-rule-destination.png)
 
 Routing rules evaluate conversations based on the context channel, customer attributes, and agent attributes. For example, you can define a routing rule so that chats from preferred customers who have specific queries about investments can be routed to a specific queue. The following illustration shows the rule configuration for this example.
 
-![Configured rule](../media/configured-rule.png)
+> [!div class=mx-imgBorder]
+> ![Configured rule](../media/configured-rule.png)
 
 Routing rule items are run in a specific order, and the conversations are routed according to the destination. Collectively, the conditions form a criterion for a rule item. Therefore, for a conversation, if the criterion in a rule item is evaluated as true, the conversation is routed to the designated destination. Otherwise, the criterion in the next rule item is evaluated. 
 
