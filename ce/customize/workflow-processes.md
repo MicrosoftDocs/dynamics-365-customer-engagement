@@ -1,20 +1,20 @@
 ---
 title: "Workflow processes | MicrosoftDocs"
-ms.custom: ""
-ms.date: 03/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/14/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - PowerApps
 ms.assetid: 1f3c9780-26ad-49ec-a3fb-fc226def19c5
 caps.latest.revision: 20
-ms.author: "matp"
-manager: "brycho"
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,7 +22,7 @@ search.app:
 ---
 # Use Workflow processes to automate processes that don't require user interaction
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
 Workflows automate business processes without a user interface. People usually use workflow processes to initiate automation that doesn’t require any user interaction.  
   
@@ -42,11 +42,11 @@ Workflows automate business processes without a user interface. People usually u
 ## Where do you customize workflow processes?  
  You can see the workflows in your organization by viewing the **Processes** node in the **Default Solution** and filtering on processes that have the **Category** **Workflow**.  
   
- ![Processes filtered by workflow in Dynamics 365](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365")  
+ ![Processes filtered by workflow in Dynamics 365 for Customer Engagement](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365 for Customer Engagement apps")  
   
  Depending on how the app is built, users can create or modify their workflows in the app. 
  
-Developers can create workflows using information in the [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.  
+Developers can create workflows using information in the [Dynamics 365 for Customer Engagement apps Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.  
   
 <a name="BKMK_WorkflowProperties"></a>   
 ## Workflow properties  
@@ -54,7 +54,7 @@ Developers can create workflows using information in the [Dynamics 365 Customer 
   
  When you create a workflow the **Create Process** dialog requires that you set three properties that all processes have:  
   
- ![Creating a workflow in Dynamics 365](../customize/media/create-workflow.PNG "Creating a workflow in Dynamics 365")  
+ ![Creating a workflow in Dynamics 365 for Customer Engagement](../customize/media/create-workflow.PNG "Creating a workflow in Dynamics 365 for Customer Engagement")  
   
  **Process Name**  
  The name of the workflow process does not need to be unique, but if you expect you will have a lot of workflows, you may want to use a naming convention to clearly differentiate your processes. You may want to apply standard prefixes to the name of the workflow. The prefix may describe the function of the workflow or the department within the company. This will help you group similar items in the list of workflows.  

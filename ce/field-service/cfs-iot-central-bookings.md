@@ -1,19 +1,18 @@
 ---
 title: "Send booking updates to IoT Central | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: activate-fs-mobile-app-license
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "krbjoran"
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+ms.author: vihuang
+ms.reviewer: krbjoran
 search.audienceType: 
   - admin
   - customizer
@@ -35,7 +34,7 @@ Make Connected Field Service send booking updates to Azure IoT Central when a re
 ## Steps
 1. Head over to the [Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search for the following template: "**[Sample Contoso] When a technician is booked in Connected Field Service, update Azure IoT Central with the details.**"
 
-2. Once you've selected the template, you'll be asked to sign in with both your Dynamics 365 account and Azure IoT Central account.
+2. Once you've selected the template, you'll be asked to sign in with both your Dynamics 365 for Customer Engagement account and Azure IoT Central account.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the account association page in Microsoft Flow](media/iot-central-bookings-1.png)

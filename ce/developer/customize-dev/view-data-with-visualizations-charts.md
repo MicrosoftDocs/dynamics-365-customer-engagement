@@ -1,22 +1,22 @@
 ---
-title: "View data with visualizations (charts) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Visualizations let you see your business data graphically. A visualization is attached to an entity in Dynamics 365 Customer Engagement. You can attach multiple visualizations to an entity, however, only one visualization can be displayed at a time along-side a grid. You can view multiple visualizations at the same time by using a dashboard."
-ms.custom: ""
+title: "View data with visualizations (charts) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Visualizations let you see your business data graphically. A visualization is attached to an entity in Dynamics 365 for Customer Engagement. You can attach multiple visualizations to an entity, however, only one visualization can be displayed at a time along-side a grid. You can view multiple visualizations at the same time by using a dashboard."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "charts"
+  - charts
 ms.assetid: c2e420e0-66e6-4317-b203-8a0710d0d3f4
 caps.latest.revision: 49
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -60,7 +60,7 @@ Visualizations let you see your business data graphically. A visualization is at
   
 <a name="WebResources"></a>   
 ## Web resource visualizations  
- Web resources are virtual files that are stored in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] database and may be retrieved using a unique URL address. You can display an existing web resource as a visualization, and display it in the **Charts** area in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] together with other charts for an entity. For more information about web resources, see [Web Resources for Microsoft Dynamics 365](../web-resources.md).  
+ Web resources are virtual files that are stored in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] database and may be retrieved using a unique URL address. You can display an existing web resource as a visualization, and display it in the **Charts** area in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] together with other charts for an entity. For more information about web resources, see [Web Resources for Microsoft Dynamics 365 for Customer Engagement](../web-resources.md).  
   
  You can use the following types of web resources in a visualization: [WWebpage (HTML) web resources](../webpage-html-web-resources.md) and [Image (JPG, PNG, GIF, ICO) Web Resources](../image-web-resources.md). For more information about how to create a visualization with a web resource, see [Create a Web Resource Visualization](create-visualization-chart.md#CreateWRVisualization).  
   
@@ -125,7 +125,7 @@ Territory
 UoMSchedule  
   
 ### See also  
- [Chart and Analyze Data in Microsoft Dynamics 365 "5"](customize-visualizations-dashboards.md)   
+ [Chart and Analyze Data in Microsoft Dynamics 365 for Customer Engagement "5"](customize-visualizations-dashboards.md)   
  [Specifying Chart Data](understand-charts-underlying-data-chart-representation.md)   
  [Actions on Chart](actions-visualizations-charts.md)   
  [Create a Chart](create-visualization-chart.md)   

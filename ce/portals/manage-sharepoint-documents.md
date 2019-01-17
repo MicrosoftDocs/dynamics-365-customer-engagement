@@ -1,9 +1,9 @@
 ---
-title: "Manage SharePoint documents on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage SharePoint documents on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to manage SharePoint document in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/17/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -32,19 +32,19 @@ search.app:
 
 To work with the document management capabilities of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], you must:
 
-1.	[Enable document management functionality in Dynamics 365](#step-1-enable-document-management-functionality-in-dynamics-365)
+1.	[Enable document management functionality in Dynamics 365 for Customer Engagement](#step-1-enable-document-management-functionality-in-dynamics-365)
 
 2.	[Set up SharePoint integration from portal admin center](#step-2-set-up-sharepoint-integration-from-portal-admin-center)
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
-4.	[Configure the appropriate form in Dynamics 365 to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
+4.	[Configure the appropriate form in Dynamics 365 for Customer Engagement to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
 
 5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
-## Step 1: Enable document management functionality in Dynamics 365
+## Step 1: Enable document management functionality in Dynamics 365 for Customer Engagement
 
-You must enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], see [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
+You must enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], see [Configure server-based authentication with Dynamics 365 for Customer Engagement (online) and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
 
 ## Step 2: Set up SharePoint integration from Portal Admin Center
 
@@ -53,13 +53,13 @@ To use the document management capabilities of [!INCLUDE[pn-sharepoint-short](..
 > [!NOTE]
 > You must be a global administrator to perform this action.
 
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want enable SharePoint integration, and then select **Manage**.
 
 3.	Go to **Set up [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration** > **Enable [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration**.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![Enable SharePoint integration](media/enable-sharepoint-integration.png "Enable SharePoint integration")
 
 4.	Select **Enable** in the confirmation window. This will enable the portal to communicate with [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]. While the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is enabled.
@@ -68,12 +68,12 @@ When [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integra
 
 - **Disable [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration**: Allows you to disable the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration with your portal. While the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is disabled.
 
-    > [!div class="mx-imgBorder"]
+    > [!div class=mx-imgBorder]
     > ![Disable SharePoint integration](media/disable-sharepoint-integration.png "Disable SharePoint integration")
 
 Enabling or disabling the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration will update the [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD) application for the portal and add or remove the required [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] permissions, respectively. You will also be redirected to provide your consent for the changes to be made in the [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD application. 
 
-> [!div class="mx-imgBorder"]
+> [!div class=mx-imgBorder]
 > ![Disable SharePoint integration](media/sharepoint-integration-consent.png "Disable SharePoint integration")
 
 If you do not provide your consent:
@@ -88,7 +88,7 @@ You must enable document management for entities to store documents related to [
 
 ## Step 4: Configure the appropriate form to display documents
 
-### Dynamics 365 customization
+### Dynamics 365 for Customer Engagement customization
 
 Identify the form where you want to use document management capabilities. You must edit the form by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form editor and add a subgrid to it. The subgrid adds a section to the form, which allows you to work with documents from within a portal. You must set the following properties in the subgrid for this feature to work:
 
@@ -101,7 +101,7 @@ You can specify name and label as per your requirement. Save and publish the for
 > [!NOTE]
 > Document management must be enabled for the entity for which you edit the form. More information: [Enable document management for entities](#enable-document-management-for-entities)
 
-### Dynamics 365 Portal configuration
+### Dynamics 365 for Customer Engagement Portal configuration
 
 If you do not already have an entity or web form configured, then configure one. For more information on configuring entity forms, see [Add a form to your portal](entity-forms-custom-logic.md#add-a-form-to-your-portal). If you are configuring this on a web form, see [Define web form properties for portals](web-form-properties.md) and [Define web form steps for portals](web-form-steps.md).
 
@@ -156,12 +156,12 @@ This sample provides exact steps and configuration values to enable document man
     
         c. Open the **Web – Edit Case** in form editor.
 
-         > [!div class="mx-imgBorder"]
+         > [!div class=mx-imgBorder]
          > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
     
         d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
 
-         > [!div class="mx-imgBorder"]
+         > [!div class=mx-imgBorder]
          > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png "Add a subgrid to the Web - Edit Case form")
     
         e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
@@ -174,7 +174,7 @@ This sample provides exact steps and configuration values to enable document man
     
          - **Default View**: Active Document Locations
 
-         > [!div class="mx-imgBorder"]
+         > [!div class=mx-imgBorder]
          > ![Subgrid properties](media/sub-grid-properties.png "Subgrid properties")
 
         f. In the form editor, select **Save** and then select **Publish**.
@@ -195,7 +195,7 @@ This sample provides exact steps and configuration values to enable document man
     
          - **Entity Permission**: Enabled
     
-         > [!div class="mx-imgBorder"]
+         > [!div class=mx-imgBorder]
          > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
     
         d. If you’ve made any changes to the form, select **Save**.
@@ -224,18 +224,18 @@ This sample provides exact steps and configuration values to enable document man
         
     - **Privileges**: Read, Create, Append, Write, Delete
 
-      > [!div class="mx-imgBorder"]
+      > [!div class=mx-imgBorder]
       > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
   
    4. Sign in to Portal to ensure document management is enabled for the Case entity.
 
       a. Go to the **Support** page.
 
-      > [!div class="mx-imgBorder"]
+      > [!div class=mx-imgBorder]
       > ![Portal support page](media/portal-support-page.png "Portal support page")
 
       b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
 
-      > [!div class="mx-imgBorder"]
+      > [!div class=mx-imgBorder]
       > ![Case document](media/case-document.png "Case document")
 

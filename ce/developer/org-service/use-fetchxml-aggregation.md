@@ -1,30 +1,30 @@
 ---
-title: "Use FetchXML aggregation (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use FetchXML aggregation (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the grouping and aggregation features of FetchXML that let you calculate sum, average min, max and count"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "FetchXML queries"
-  - "using FetchXML aggregation (grouping), code examples"
-  - "using FetchXML aggregation (grouping), null value limitations when computing averages (avgaggregate attribute)"
-  - "using FetchXML aggregation (grouping), difference between aggregate queries and standard queries"
-  - "using FetchXML aggregation (grouping), aggregation functions supported"
-  - "FetchXML queries, grouping and aggregation features"
-  - "FetchXML queries, using FetchXML to construct queries"
-  - "building queries with FetchXML, using FetchXML aggregation (grouping)"
-  - "using FetchXML aggregation (grouping), effects of null values when minimum or maximum data is computed"
+  - FetchXML queries
+  - using FetchXML aggregation (grouping), code examples
+  - using FetchXML aggregation (grouping), null value limitations when computing averages (avgaggregate attribute)
+  - using FetchXML aggregation (grouping), difference between aggregate queries and standard queries
+  - using FetchXML aggregation (grouping), aggregation functions supported
+  - FetchXML queries, grouping and aggregation features
+  - FetchXML queries, using FetchXML to construct queries
+  - building queries with FetchXML, using FetchXML aggregation (grouping)
+  - using FetchXML aggregation (grouping), effects of null values when minimum or maximum data is computed
 ms.assetid: be0fb5cf-4ba8-487f-b517-ae1c24045478
 caps.latest.revision: 31
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -34,7 +34,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], `FetchXML` includes grouping and aggregation features that let you calculate sum, average min, max and count.  
+In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, `FetchXML` includes grouping and aggregation features that let you calculate sum, average min, max and count.  
   
  The following aggregate functions are supported:  
   
@@ -97,7 +97,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
  [!code-csharp[Query#FetchAggregationAndGroupBy1](../../snippets/csharp/CRMV8/query/cs/fetchaggregationandgroupby1.cs#fetchaggregationandgroupby1)]  
   
 ### Limitation with null values while computing average  
- **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] computes the average of data. However, zero (0) is used.  
+ **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps computes the average of data. However, zero (0) is used.  
   
  In the following example, with the following data, the average for Account 1 (two entries) is shown as 250 whereas the average for Account 2 (two entries) is shown as 125.  
   
@@ -136,7 +136,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
 
 ## Max
 
- **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] computes the maximum of data. However, zero (0) is used.  
+ **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps computes the maximum of data. However, zero (0) is used.  
   
  The following example shows how to use the `max``aggregate` attribute.  
   
@@ -146,7 +146,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
  
 ## Min
 
- **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] computes the minimum of data. However, zero (0) is used.  
+ **Null** values are not considered when [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps computes the minimum of data. However, zero (0) is used.  
   
  The following example shows how to use the `min``aggregate` attribute.  
   

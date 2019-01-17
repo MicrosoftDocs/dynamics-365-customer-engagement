@@ -1,18 +1,18 @@
 ---
 title: "Understand views | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 03/21/2018
+keywords: 
+ms.date: 11/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 826fb059-a552-4db5-bf40-6a80cfa0fc0e
 ms.author: matp
-manager: brycho
+manager: kvivek
+author: Mattp123
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,9 +26,9 @@ search.app:
 
 # Understand views (lists) 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
-With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
+With Dynamics 365 for Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
 -  The columns to display    
 -  How wide each column should be    
 -  How the list of records should be sorted by default  

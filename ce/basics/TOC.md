@@ -1,5 +1,5 @@
 # [Basics Guide](../basics/basics-guide.md)
-## [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)
+## [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md)
 ## [Find your business apps](../basics/where-find-business-apps.md)
 ## [How data is organized](../basics/how-data-organized.md)
 ## [What are business processes](../basics/what-are-business-processes.md)
@@ -64,13 +64,14 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 
 # [Collaboration](../basics/collaborate-with-team.md)
-<!--
-## [Teams](../basics/integrate-with-microsoft-teams.md) 
-### [Setup Teams integration with Dynamics 365 (online)](install-personal-team-apps.md)
-### [Use the personal app](use-personal-app.md)
-### [Use the team app](use-team-app.md)
-### [Delete personal data](delete-teams-data.md)
-### [Troubleshoot Teams](troubleshoot-teams.md)-->
+## [Microsoft Teams integration](../basics/teams-integration.md) 
+### [Install and setup](teams-install-app.md)
+### Use Teams integration
+#### [Collaborate with Teams](teams-collaboration.md)
+#### [Use the bot](teams-bot-search.md)
+#### [Use the personal dashboard](teams-personal-use.md)
+### [Troubleshoot](teams-troubleshoot.md)
+### [Delete personal data](teams-delete-data.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)

@@ -3,14 +3,19 @@
 # [New and upcoming features](new-upcoming.md)
 
 # Installation
-## [Field Service installation (online)](install-field-service.md)
+## [Field Service installation (web + mobile)](install-field-service.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
+
+# Administration
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
-## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
-## [User security roles and accounts](view-user-accounts-security-roles.md)
-## [Org-wide default settings](configure-default-settings.md)
-## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Initial configuration](perform-initial-configurations-setup.md)
+## [Set up users and security roles](view-user-accounts-security-roles.md)
+## [Field Service settings](configure-default-settings.md)
 ## [Version History](version-history.md)
+
+# Quickstarts
+## [Schedule a work order](quickstart-schedule-work-order.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
@@ -32,17 +37,30 @@
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
-# [Scheduling](universal-resource-scheduling.md)
+# Scheduling
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
-## [Time groups](set-up-time-groups.md)
+## [Resource crew scheduling](resource-crews.md)
+## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Facility scheduling](facility-scheduling.md)
+## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
-## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
+
+# Field Service Mobile
+## [Setup](field-service-mobile-app-user-guide.md)
+## [Customizations and configurations](mobile-app-configuration-customization.md)
+## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
-## [FAQ: Activate licenses and extend trials](activate-fs-mobile-app-license.md)
+## FAQs + troubleshooting
+### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
+### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
+### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
+### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
+### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
@@ -56,6 +74,7 @@
 ###  [View product inventory](view-product-inventory.md)
 ###  [Create an inventory transfer](create-inventory-transfer.md)
 ###  [Create an inventory adjustment](create-inventory-adjustment.md)
+###  [Manual inventory journals](manual-inventory-journals.md)
 ###  [Process a return](process-return.md)
 ###  [Return product to vendor](create-return-vendor.md)
 ### [RMA sub-status](create-rma-sub-status.md)
@@ -71,6 +90,7 @@
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
@@ -87,10 +107,3 @@
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-
-
-
-
-
-

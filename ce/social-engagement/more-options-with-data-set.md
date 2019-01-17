@@ -1,12 +1,12 @@
 ---
 title: "Work with a data set in Social Engagement | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
-keywords: "data set, filter, time frame"
+keywords: data set, filter, time frame
 ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 39b154e6-2a78-44bf-864e-e03da3d184c0
 author: m-hartmann
 ms.author: mhart

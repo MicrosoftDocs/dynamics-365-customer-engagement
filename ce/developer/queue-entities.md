@@ -1,32 +1,32 @@
 ---
-title: "Queue entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Queues help in organizing, prioritizing, and monitoring the progress of your work while you are using Dynamics 365. Customizable entites can be enabled for queues, and queues are categorized into public or private queues."
-ms.custom: ""
+title: "Queue entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Queues help in organizing, prioritizing, and monitoring the progress of your work while you are using Dynamics 365 for Customer Engagement. Customizable entites can be enabled for queues, and queues are categorized into public or private queues."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "queues and queue items, inheritance"
-  - "security, queue"
-  - "queues, about and benefits of"
-  - "queues and queue items, definitions"
-  - "managing work, queue entities"
-  - "queue-enabled entities, list of default entities"
-  - "queues, security"
-  - "enabling entities for queues"
-  - "queues and queue items, actions on"
-  - "limiting access to queues"
-  - "queues, using to managing work"
+  - queues and queue items, inheritance
+  - security, queue
+  - queues, about and benefits of
+  - queues and queue items, definitions
+  - managing work, queue entities
+  - queue-enabled entities, list of default entities
+  - queues, security
+  - enabling entities for queues
+  - queues and queue items, actions on
+  - limiting access to queues
+  - queues, using to managing work
 ms.assetid: a60160f0-6de8-4aed-af92-cb180e883c82
 caps.latest.revision: 55
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

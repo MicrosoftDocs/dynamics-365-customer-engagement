@@ -1,5 +1,5 @@
 ---
-title: View and edit project estimates (Dynamics 365 for Project Service) | MicrosoftDocs
+title: View and edit project estimates (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to view and edit project estimates in Project Service
 author: krbjoran
 manager: ShellyHa

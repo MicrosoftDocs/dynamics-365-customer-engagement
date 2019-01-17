@@ -1,12 +1,12 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
-keywords: "search topic, search rule, Social Engagement"
+keywords: search topic, search rule, Social Engagement
 ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
 author: m-hartmann
 ms.author: mhart

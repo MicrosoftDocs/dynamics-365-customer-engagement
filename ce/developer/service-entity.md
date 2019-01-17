@@ -1,30 +1,30 @@
 ---
-title: "Service entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Service entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The Service entity represents a service made available to a customer, with attributes that include the standard duration of the service, when the service is offered, and its required resources."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "service entity, resource requirements; availability; and specifications"
-  - "schedule and appointment entities, service entity"
-  - "service entity, introduction"
-  - "service entity"
-  - "service entity, service booking"
-  - "service entity, service engine"
-  - "service booking, service entity"
-  - "service entity, definition"
-  - "resource requirements; availability; and specifications, service entity"
+  - service entity, resource requirements; availability; and specifications
+  - schedule and appointment entities, service entity
+  - service entity, introduction
+  - service entity
+  - service entity, service booking
+  - service entity, service engine
+  - service booking, service entity
+  - service entity, definition
+  - resource requirements; availability; and specifications, service entity
 ms.assetid: ed077e11-8af6-4f9b-a1f3-4feefeae1f4e
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

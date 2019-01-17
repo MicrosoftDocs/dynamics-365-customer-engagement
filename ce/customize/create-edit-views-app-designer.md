@@ -1,19 +1,18 @@
 ---
-title: "Create and edit public or system views by using the app designer with PowerApps | MicrosoftDocs"
+title: "Create and edit public or system views using the app designer with Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn now to create or edit views by using the app designer"
-keywords: ""
-ms.date: 04/04/2018
+keywords: 
+ms.date: 11/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 666ab3f3-abda-468c-b248-3a0b410286b0
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,9 +26,9 @@ search.app:
 
 # Create and edit public or system views by using the app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], views define how records for a specific entity are  displayed. A view defines the following:
+In Dynamics 365 for Customer Engagement for Customer Engagement, views define how records for a specific entity are  displayed. A view defines the following:
 -  The columns (attributes) to display
 -  The width of the columns
 -  How the records are sorted by default
@@ -40,7 +39,7 @@ Typically, views are classified into three types:
 - **Public:** As an app maker, you can create and edit public views to fit your organizational requirements. These views are available in the view selector, and you can use them in subgrids in a form or as a list in a dashboard.
 - **System:** As an app maker, you can also modify system views to meet the requirements of your organization. These are special views that the application depends on: they exist for system entities or are automatically created when you create custom entities. These views are available to some or all users, depending on their permissions.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Types of views](../customize/types-of-views.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Types of views](../customize/create-edit-views.md)
 
 ## Create a public view 
 As an app maker, you can create and edit public views by using the app designer.

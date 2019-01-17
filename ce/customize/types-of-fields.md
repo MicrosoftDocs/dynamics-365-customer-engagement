@@ -1,16 +1,16 @@
 ---
-title: "Types of fields and field data types in PowerApps | MicrosoftDocs"
+title: "Types of fields and field data types | MicrosoftDocs"
 description: "Understand the different field and data types available for your app"
-keywords: ""
-ms.date: 04/25/2018
+keywords: 
+ms.date: 01/10/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
 ms.author: matp
 manager: kvivek
@@ -27,11 +27,11 @@ search.app:
 
 # Types of fields and field data types
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_TypesOfFields"></a>   
 ## Types of fields  
- The following table contains information about the field types available in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].  
+ The following table contains information about the field types available.  
 
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
@@ -97,9 +97,9 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 > [!NOTE]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] and [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
 
- In previous releases of Dynamics 365 customer engagement, several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
+ In previous releases of Dynamics 365 for Customer Engagement apps, several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
 
- Let's look at the following business scenario. Your company is an insurance provider. You use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to manage your customer interactions and standardize business processes. It’s important for you to know if a recipient of policies or claims is an individual or a company. To address this business requirement, you can create two custom entities: Policies and Claims.  To get and track the customer information you want, add the Customer lookup field to the Policies entity and the Claims entity, by using the new Customer field capability.  
+ Let's look at the following business scenario. Your company is an insurance provider. You use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to manage your customer interactions and standardize business processes. It’s important for you to know if a recipient of policies or claims is an individual or a company. To address this business requirement, you can create two custom entities: Policies and Claims.  To get and track the customer information you want, add the Customer lookup field to the Policies entity and the Claims entity, by using the new Customer field capability.  
 
 <a name="BKMK_SingleLineofTextFormatOptions"></a>   
 ### Single line of text format options  
@@ -190,7 +190,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
  When image display is enabled for an entity, any records that don’t have an image will display a placeholder image. For example, the Lead entity:  
 
- ![Placeholder image for Lead entity form in Dynamics 365](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365")  
+ ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement apps")  
 
  People can choose the default image to upload a picture from their computer. Images must be less than 5120 KB and must one of the following formats:  
 

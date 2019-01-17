@@ -1,22 +1,22 @@
 ---
-title: "Enable an entity for feedback with PowerApps | MicrosoftDocs"
+title: "Enable an entity for feedback | MicrosoftDocs"
 description: "Learn how to enable feedback for an entity"
-ms.custom: ""
-ms.date: 09/30/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/03/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 5b25cf09-d43b-4165-9eaa-7549f4855e7c
 caps.latest.revision: 13
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Enable an entity for feedback/ratings
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Let customers write feedback for any entity record, or rate entity records within a defined rating range by enabling entities for feedback.  
   
@@ -94,4 +94,4 @@ Let customers write feedback for any entity record, or rate entity records withi
  Depending on how you want to calculate the rating for the entity, you can create a rollup field that calculates the rating, and then add it to the form of the entity you're enabling for feedback. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](../customize/define-rollup-fields.md)  
   
 ### See also  
- [Submit feedback or ratings for Dynamics 365 records](../basics/submit-feedback-ratings.md)
+ [Submit feedback or ratings for Dynamics 365 for Customer Engagement records](../basics/submit-feedback-ratings.md)

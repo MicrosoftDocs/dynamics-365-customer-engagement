@@ -1,6 +1,6 @@
 ---
 title: Reporting guide
-description: An English-language guide to reporting in Project Service Automation for Dynamics 365
+description: An English-language guide to reporting in Project Service Automation for Dynamics 365 for Customer Engagement
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-The Project Service application uses Dynamics 365 reporting methods and technologies to help you determine the health of your projects and identify when you need to take corrective action. 
+The Project Service application uses Dynamics 365 for Customer Engagement reporting methods and technologies to help you determine the health of your projects and identify when you need to take corrective action. 
 
 This English-language guide describes the data model and entities used by Project Service reporting: 
 
