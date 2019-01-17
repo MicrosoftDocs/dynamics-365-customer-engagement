@@ -34,7 +34,6 @@ If you often create similar events, then you can save time by setting up one or 
 - Event venues
 - Event sessions and speakers
 - Event passes
-- Custom registration fields
 
 When you create an event from a template, the main template record and all its related records are copied to create new, standard records. No link to the template remains, so you can now work with your new event just as you would with an event that you created from scratch.
 

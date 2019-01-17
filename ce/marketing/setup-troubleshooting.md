@@ -47,10 +47,10 @@ Read this topic to find answers to common questions and solutions to known issue
 - **What is my monthly email quota?**  
     Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota for the remainder of the license period, even if you permanently delete the contact record. Your marketing contact count is reset at contract renewal or anniversary.
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota for the remainder of the license period, even if you permanently delete the contact record. You can "true down" on your number of marketing contacts at contract renewal.
 - **How can I learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing?**
   - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
-  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
   - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
@@ -93,7 +93,7 @@ You can have at most one free portal on your tenant, so even if your [!INCLUDE[p
 
 The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
 
-For complete details about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+For complete details about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
 If you don't have any unconfigured free or paid portals available, you have two options:
 
