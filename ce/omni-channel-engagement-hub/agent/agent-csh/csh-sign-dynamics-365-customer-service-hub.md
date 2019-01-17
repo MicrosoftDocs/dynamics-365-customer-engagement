@@ -35,7 +35,7 @@ The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Cus
 ## See also
 
 - [Sitemap](csh-sitemap.md)
-- [Navigation bar](csh-navigation-bar.md)
+- [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
