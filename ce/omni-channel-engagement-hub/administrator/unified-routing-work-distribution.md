@@ -31,7 +31,8 @@ Unified routing and work distribution identifies the availability of agents and 
 
 For example, a chat interaction that comes in from a customer has a specific query about international life insurance. In this case, unified routing and work distribution can help route the chat to an agent who is equipped to handle that query, as shown in the following illustration.
 
-![Routing flowchart](../../customer-service/media/example-routing-work.png)
+> [!div class=mx-imgBorder] 
+> ![Routing flowchart](../../customer-service/media/example-routing-work.png)
 
 Unified routing and work distribution is a two-step process:
 
@@ -40,11 +41,11 @@ Unified routing and work distribution is a two-step process:
 
 To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
 
-- Work streams
-- Omni-channel queues
-- Routing rules
-- Users
-- Presence and custom presence
+  - Work streams
+  - Omni-channel queues
+  - Routing rules
+  - Users
+  - Presence and custom presence
 
   ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
 
