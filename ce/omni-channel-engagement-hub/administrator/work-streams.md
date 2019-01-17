@@ -82,7 +82,8 @@ Follow these steps to create a new live chat work stream.
 
 6. Select **Save** to save the Live Chat work stream.
 
-   ![New workstream](../media/omni-channel-new-work-stream.png)
+   > [!div class=mx-imgBorder] 
+   > ![New workstream](../media/omni-channel-new-work-stream.png)
 
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
 
