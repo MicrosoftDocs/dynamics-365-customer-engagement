@@ -51,7 +51,7 @@ The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.m
 
 ## Create custom tables and fields
 
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you create *entities* that include the database tables. You create *attributes* in those entities that correspond to fields in the application. These entities and attributes are core parts of the platform metadata. You don’t need to write code to do this. You can find instructions about how to create entities and attributes at [Create and edit metadata](../customize/create-edit-metadata.md). If you need to create entities and attributes programmatically, you can find information in [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps apps](metadata-data-models.md). Another place to look is [Introduction to Entities in Dynamics 365 for Customer Engagement](introduction-entities.md).
+ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you create *entities* that include the database tables. You create *attributes* in those entities that correspond to fields in the application. These entities and attributes are core parts of the platform metadata. You don’t need to write code to do this. You can find instructions about how to create entities and attributes at [Create and edit metadata](../customize/create-edit-metadata.md). If you need to create entities and attributes programmatically, you can find information in [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps](metadata-data-models.md). Another place to look is [Introduction to Entities in Dynamics 365 for Customer Engagement](introduction-entities.md).
 
 <a name="bkmk_automation"></a>
 

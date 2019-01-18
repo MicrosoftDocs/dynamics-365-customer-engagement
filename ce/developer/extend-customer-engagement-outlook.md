@@ -44,7 +44,7 @@ search.app:
  [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps](metadata-data-models.md)<br />
  [Extend Dynamics 365 for Customer Engagement apps on the server](extend-dynamics-365-server.md)<br />
  [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)<br />
- [Customize Dynamics 365 for Customer Engagement apps applications](customize-dev/customize-applications.md)<br />
+ [Customize Dynamics 365 for Customer Engagement apps](customize-dev/customize-applications.md)<br />
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)<br />
  [Integrate Dynamics 365 for Customer Engagement apps with SharePoint](integration-dev/integrate-sharepoint.md)<br />
  [Integrate Dynamics 365 for Customer Engagement apps with OneNote](integration-dev/integrate-onenote.md)<br />

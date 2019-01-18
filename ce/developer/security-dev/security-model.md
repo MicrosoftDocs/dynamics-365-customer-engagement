@@ -52,7 +52,7 @@ search.app:
   
   **Field-level security** in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps restricts access to specific high business impact fields in an entity only to specified users or teams.  
   
-  Combine role-based security, record-level security, and field-level security to define the overall security rights that users have within your custom [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps application.  
+  Combine role-based security, record-level security, and field-level security to define the overall security rights that users have within your custom [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.  
   
   More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](http://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
   

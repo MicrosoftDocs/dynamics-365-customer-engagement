@@ -13,6 +13,7 @@
 # [Customize or create applications](customize-create-applications.md)  
 ## [Create a theme](change-color-scheme-add-logo-match-organizations-brand.md)
 ## [Create and design forms](create-design-forms.md)
+### [Use the main form and its components](use-main-form-and-components.md)
 ### [Assign form order](assign-form-order.md)
 ### [Control access to forms](control-access-forms.md)
 ### [How main forms appear in different clients](main-form-presentations.md)
@@ -136,7 +137,7 @@
 # [Create or edit a web resource](create-edit-web-resources.md) 
 ## [Web resource properties](web-resource-properties-legacy.md)
  
-# [Work with an international audience](work-with-international-audience.md)
+# [Work with international features](work-with-international-audience.md)
 ## [Enable additional languages](enable-additional-languages.md)
 ## [Export customized entity and field text for translation](export-customized-entity-field-text-translation.md)
 ## [Import translated entity and field text](import-translated-entity-field-text.md)
