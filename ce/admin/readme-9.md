@@ -38,9 +38,9 @@ Dynamics 365 Channel Integration Framework
 
 - If you select all roles while creating a new channel provider record in the Channel Integration Framework (CIF) admin app, the save operation fails with a script error. Unselect **support user** role to mitigate this error.
 
-- When you specify the EntityLogicalName to search in the **searchAndOpenRecords** API, the search list provides all the entites which matches the search criteria rather displaying the particular entity type.
+- When you specify the **EntityLogicalName** to search in the **searchAndOpenRecords** API, the search list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
-- When you specify the EntityLogicalName to pre-populate the search string in the **renderSearchPage** API, the list provides all the entites which matches the search criteria rather displaying the particular entity type.
+- When you specify the **EntityLogicalName** to pre-populate the search string in the **renderSearchPage** API, the list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
