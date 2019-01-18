@@ -79,6 +79,7 @@ The following table shows the evaluation that will be used to assign the convers
 | **Bert's capacity (Y)**  | 50 units                               | 100 units                             | 50 units (for two hours) |
 | **Condition evaluation** | Gilda has more capacity than Bert.     | Bert has more capacity than Gilda.    | Bert and Gilda have equal capacity (50 units). However, Bert is available for two hours, whereas Gilda is available for one hour. |
 | **Result**               | The conversation is assigned to Gilda. | The conversation is assigned to Bert. | The conversation is assigned to Bert, because he has been idle for a longer time than Gilda. |
+|||
 
 ## Automated work distribution
 
@@ -89,8 +90,8 @@ If a conversation remains in an omni-channel queue assigned to any agent, it bec
 - As soon as agents become available and have enough capacity to take on the work, the items start to be allocated to them.
 - Agents work on the conversations and take one of the following actions:
     - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
-    - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't take action on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
-    - Resolve the conversation, and move it to the **Closed** state.
+    - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't act on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
+    - Resolve the conversation and move it to the **Closed** state.
 
 ### Adjusting an agent's capacity based on conversation allocation
 

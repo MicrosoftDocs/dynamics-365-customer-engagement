@@ -274,7 +274,7 @@ Set-SPAuthenticationRealm -Realm $SPOContextId
    ```  
   
 ### Run the Enable server-based SharePoint integration wizard  
- In the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps app, follow these steps:  
+ In the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, follow these steps:  
   
 1. [!INCLUDE[proc_settings_doc_management](../includes/proc-settings-doc-management.md)]  
   

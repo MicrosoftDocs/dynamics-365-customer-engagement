@@ -57,7 +57,7 @@ The standard Odata v4 Data Provider and the Cosmos DB Data Provider are examples
 
 ## Steps to use a custom data provider
 
-There are several steps that are required to create a virtual entity data provider solution that can be imported into your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps applications:
+There are several steps that are required to create a virtual entity data provider solution that can be imported into your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps:
 
 1. Develop the custom data provider plug-in DLL (or set of DLLs).
 2. Register the custom data provider with your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps service using the Plug-in Registration Tool (PRT).

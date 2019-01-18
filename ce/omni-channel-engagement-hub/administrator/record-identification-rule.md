@@ -20,11 +20,13 @@ Record identification rules help agents identify and assist customers better by 
 For more information, see [View Customer summary for an incoming engagement request](../agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md).
 
 > [!NOTE]
-> For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped to a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new Live Chat work stream](#create-a-new-live-chat-work-stream) procedure later in this topic. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. 
+> For this preview, you can set up record identification rules while you create a new work stream. These rules are further mapped to a limited set of pre-chat survey questions. For more information, see step 3 of the [Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream) procedure. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. 
 
 ## Configure a record identification rule in a work stream
 
-Copy the following code snippet in the **Record Identification Rule** text box while creating a new work stream. This snippet helps configure record identifications rules for the work stream.
+Copy the following code snippet in the **Record Identification Rule** text box while creating a new work stream as given in [Create a new live chat work stream](work-streams.md#create-a-new-live-chat-work-stream) procedure. 
+
+This snippet helps configure record identifications rules for the work stream.
 
 ```csharp
 <RecordIdentificationRuleSet>

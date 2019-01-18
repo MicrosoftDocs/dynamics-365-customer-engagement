@@ -28,16 +28,12 @@ Here are some of the main characteristics of omni-channel queues:
 - You can assign priority to queues. All conversations in the same queue then have the same priority and will be serviced accordingly.
 - All omni-channel queues are private. Only the members of a queue can view and work on the conversations in that queue.
 - Agents can have different work streams assigned to them in a queue.
-- Supervisors can view the work assignments and track work progress on the **Queues** dashboard.
+- Supervisors can view the work assignments and track work progress on the **Queues** dashboard. For more information, see [Configure the supervisor dashboard](../supervisor/configure-supervisor-dashboard.md).
 - There is a default omni-channel queue for each organization. Admin users can't delete the default queue. By default, all omni-channel users are members of this queue. Therefore, the membership of this queue can't be changed. The default queue has the highest priority.
 
     > [!NOTE]
     > When no queues or routing rules are defined, all conversations are collected in the default queue.
 
-Omni-channel queues give organizations the flexibility to define queues that meet their business priorities. Both single-channel and blended agent queues are supported. Therefore, omni-channel queues can be used for these purposes:
-
-- Collecting conversations that are for a specific product or issue type, but that originate from multiple channels.
-- Distributing conversations that originate from a single channel to different issue types, based on customer inputs such as answers to a pre-chat survey or information that is gathered through interactive voice response (IVR). Organizations can also model **Customer Type** as context variables and route the conversations to different queues.
 
 ## Create a new omni-channel queue
 

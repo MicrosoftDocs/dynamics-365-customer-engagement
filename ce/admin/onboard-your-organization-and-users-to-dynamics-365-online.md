@@ -34,7 +34,7 @@ New to Customer Engagement apps? We've put together step-by-step guidance whethe
 >  This topic is targeted at administrators for Customer Engagement apps. Many of the features covered in this topic are also available for Dynamics 365 for Customer Engagement apps (on-premises). If a feature is available only for Customer Engagement apps, it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 ## Step One: Try out Dynamics 365 for Customer Engagement apps (online) in a free 30-day trial  
- If you haven’t already purchased Customer Engagement apps, we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
+ If you haven’t already purchased Customer Engagement apps, we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
   
  To get the most out of your free trial, watch this video: [How to get the most out of your 30-day trial](https://go.microsoft.com/fwlink/p/?linkid=830035).  
   
