@@ -79,6 +79,7 @@ The following table shows the evaluation that will be used to assign the convers
 | **Bert's capacity (Y)**  | 50 units                               | 100 units                             | 50 units (for two hours) |
 | **Condition evaluation** | Gilda has more capacity than Bert.     | Bert has more capacity than Gilda.    | Bert and Gilda have equal capacity (50 units). However, Bert is available for two hours, whereas Gilda is available for one hour. |
 | **Result**               | The conversation is assigned to Gilda. | The conversation is assigned to Bert. | The conversation is assigned to Bert, because he has been idle for a longer time than Gilda. |
+|||
 
 ## Automated work distribution
 
