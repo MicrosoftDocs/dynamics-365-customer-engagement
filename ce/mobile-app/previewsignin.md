@@ -32,13 +32,15 @@ search.app:
 > - This feature currently has limited availability.
 > - Email address sign in option is available for online users only.
 
+Sign in to the Dynamics 365 mobile app quickly using your work email address. 
+
 ## Sign in 
 
-To sign in, using your work email address, enter your work email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
+To sign in, using your work email address, enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
 ![Enter email address](media/previewsignin.png "Enter email address to sign-in in")
 
-You can also sign in using your Dynamics 365 Customer Engagement app web address URL and user name and password. On the sign-in screen screen choose the **Sign in with a web address instead** option and enter your sign-in information. 
+You can also sign in using your Dynamics 365 Customer Engagement app web address URL and user name and password. On the sign-in screen screen choose **Sign in with a web address instead** option and enter your sign-in information. 
 
 ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
