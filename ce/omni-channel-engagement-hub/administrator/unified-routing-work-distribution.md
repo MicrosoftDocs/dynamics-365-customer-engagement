@@ -22,7 +22,7 @@ Here are some ways that efficient routing of work across channels can help:
 - Work is directed and allocated to the correct set of agents.
 - Agents always work on the most urgent tasks first.
 - The time that agents spend on conversations is correctly tracked, and the agent workforce is used in the most efficient manner.
-- The conversations and requests are unified across real-time channels and asynchronous conversations, such as Short Message Service (SMS), asynchronous messages, cases, leads, and scheduled tasks.
+- The conversations and requests are unified across real-time channels – such as Live chat and asynchronous channels – such as Short Message Service (SMS), Cases, and custom entities.
 
 Unified routing and work distribution identifies the availability of agents and allocates work to them based on the following criteria:
 
