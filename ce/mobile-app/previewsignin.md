@@ -45,7 +45,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
 > [!NOTE]
-> - If you need help with your sign in information, contact your Dynamics 365 admin.
+> If you need help with your sign in information, contact your Dynamics 365 admin.
 
 ## Sign out**
 
