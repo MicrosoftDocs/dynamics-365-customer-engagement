@@ -57,7 +57,7 @@ Here is a quick way to create a **Windows Presentation Foundation (WPF)** applic
    4. Specify the name and location of the project, and click **OK**.  
   
    > [!div class="mx-imgBorder"]
-   > ![WPF Application for Dynamics 365 for Customer Engagement template](../media/crm-sdk-v6-xrmtooling-newproject.png "WPF Application for Dynamics 365 for Customer Engagement template")  
+   > ![WPF Application for Dynamics 365 for Customer Engagement template](../media/crm-sdk-v6-xrm-tooling-newproject.png "WPF Application for Dynamics 365 for Customer Engagement template")  
   
 > [!NOTE]
 > **Known Issue with Visual Studio 2015**
