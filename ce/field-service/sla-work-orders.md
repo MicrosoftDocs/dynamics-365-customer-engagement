@@ -32,6 +32,7 @@ search.app:
 
 ## Prerequisites
 
+Field Service v8.3+
 
 ## 1. Enable SLA functionality for Field Service
 
@@ -39,7 +40,6 @@ Navigate to **Settings > Customizations > Work Order**
 
 Under Communication & Collaboration, check off **Enable for SLA**.
 
-Enable SLA on Work Order.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Enable SLA on Work Order](./media/work-order-sla-enable-work-order-1.png)
 
@@ -49,24 +49,40 @@ Next, navigate **Field Service > Settings > Field Service Settings** and enter t
 
 Then go to the **Field Service SLA Configurations** tab
 
-to the Field Service Settings record. Navigate the tab "Field Service SLA Configuration." Add any new KPIs pertinent to your organization. OOTB we ship two KPIs for WO that can be used once SLA is enabled:
-•	Work Order Arrival Time KPI (which is already set up as an SLA Type of Arrival Time)
-•	Work Order Resolution KPI
+Here you will see an SLA related to work order arrival times that is available "out of the box" when Field Service is installed.  
+
+As more KPI scenarios are released they will be available here.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
 
 ## 2. Create a new SLA
-Navigate to Settings > Service Management > Service Level Agreements (in the Web client - SLA is not yet Unified Interface compatible).
+
+
+Navigate to **Settings > Service Management > Service Level Agreements > +New**
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Settings > Service Management > Service Level Agreements](./media/work-order-sla-create-sla-3.png)
 
-Create a new SLA for Work Order entity.
+
+**Name:** enter a title of your SLA
+
+**Entity:** Select **Work Order**
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating a new SLA for Work Order entity](./media/work-order-sla-create-sla-add-work-order-4.png)
 
-If appropriate, assign a Business Hours calendar and save.
+If appropriate, assign a Business Hours calendar and **Save**.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of assigning a Business Hours calendar](./media/work-order-sla-add-sla-details-5.png)
+
+Next let's create SLA details.
+
+In this example, the SLA is applicable when the priority field on the work order is set to High.
+
+We want this SLA to be considered a success when a field technician arrives on site. Therefore, a work order system status of Open-In Progress would indicate this because
+
 
 Create SLA Details on the KPI that was identified as Arrival Time related.
 > [!div class="mx-imgBorder"]
@@ -77,7 +93,11 @@ Activate the SLA.
 > ![Screenshot of activating the SLA](./media/work-order-sla-add-more-details-7.png)
 
 ## 3. Add the SLA to a Work Order
-Add the SLA field to the WO form. The SLA field is created when SLA functionality is enabled for the work order entity.
+Navigate to **Field Service > Work Orders** 
+
+Select a work order record.
+
+Then go to Form Editor and add the SLA field to the Work Order form. The SLA field is created when SLA functionality is enabled for the work order entity.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding the SLA field to the WO form](./media/work-order-add-sla-field-8.png)
 
@@ -102,3 +122,9 @@ Furthermore, Schedule Assistant and Resource Schedule Optimization consider Time
 - SLAs on work orders will overwrite existing values for **Time From Promised** and **Time To Promised**
 - Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
 
+
+questions: 
+
+- do you have an org?
+- can you create your own KPIs? or do you have to use arrival or resolution time ones
+- what are the field service settings
