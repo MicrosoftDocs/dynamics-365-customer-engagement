@@ -208,8 +208,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Name | DisplayMessageForCaseOpen |
 | Hosted Control | CRM Global Manager |
 | Action | DisplayMessage |
-| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>
-caption=Case is open |
+| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>caption=Case is open |
 
 4. Repeat steps 2 and 3 to create another action call.
 

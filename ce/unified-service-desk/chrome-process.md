@@ -131,7 +131,7 @@ Now, you must create an action call with action as **ExecuteOnDataAvailable**, a
 
 Next, you must create a sub action call to show the number of days a case is in the open state. The data field will use the return value form the first action call, that is, `[[$Return.ActionCallName]]`.
 
-You must create another sub action call to open the phone call page and perform the next operation. After seeing the message, you select the **OK** button on the dialog, and this causes the phone call page to opens.
+You must create another sub action call to open the phone call page and perform the next operation. After seeing the message, you select the **OK** button on the dialog, and this causes the phone call page to open.
 
 Let us see what configurations you need to do create for the above-mentioned scenario.
 
@@ -190,8 +190,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Name | DisplayMessageForCaseOpen |
 | Hosted Control | CRM Global Manager |
 | Action | DisplayMessage |
-| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>
-caption=Case is open |
+| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>caption=Case is open |
 
 4. Repeat steps 2 and 3 to create another action call.
 
