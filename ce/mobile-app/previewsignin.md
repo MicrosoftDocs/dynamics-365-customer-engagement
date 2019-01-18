@@ -34,7 +34,7 @@ search.app:
 
 ## Sign in 
 
-To sign in, using your work email address, enter your work email address, and then select ![Sign in](media/Signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
+To sign in, using your work email address, enter your work email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
 ![Enter email address](media/previewsignin.png "Enter email address to sign-in in")
 
