@@ -22,27 +22,19 @@ The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Cus
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub.
 
 - [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
-
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-
 - [Sitemap](csh-sitemap.md)
-
-- [Navigation bar](csh-navigation-bar.md)
-
+- [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View agent dashboard and agent work items](csh-my-dashboard.md)
+- [View notifications and screen pops](csh-notifications-screen-pops.md)
+- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 
-- [My Dashboard](csh-my-dashboard.md)
+
+## How-tos
 
 - [Conversation control](csh-conversation-control.md)
-
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
- 
-- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
- 
-- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
- 
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
- 
 - [Create a record](csh-create-record.md)
- 
 - [Search and link record to the conversation](csh-search-link-record.md)

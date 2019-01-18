@@ -28,7 +28,7 @@ Download the [Microsoft Dynamics 365 Package Deployer](http://go.microsoft.com/f
 To download the Unified Service Desk client application, you must join the Omni-channel Engagement Hub - Preview program.
 
 > [!Note]
-> Go to (Experience Dynamics 365)[https://experience.dynamics.com/] and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
+> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
 ## Install Unified Service Desk client
 
@@ -67,34 +67,56 @@ The **AddRecommendedIESettings** batch file contains the following script:
 ```Shell
 @echo off
 
-echo Adding sources for trusted popups
+echo The batch file adds necessary registry settings to allow Internet Explorer popups from trusted sources.
 echo.
 
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.core.windows.net /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.microsoftonline.com /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.office.com /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.powerbi.com /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.dynamics.com /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.crmdynint.com /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.azureedge.net /t REG_BINARY /d 0 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v *.azurewebsites.net /t REG_BINARY /d 0 /f
+echo.
+SET /P _inputOrgUrl= Enter the Dynamics365 Organization URL (https://orgname.dynamics.com) to include as a trusted source and allow Internet Explorer popups (Mandatory):
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v "%_inputOrgUrl%" /t REG_BINARY /d 0 /f
+echo.
+echo The Dynamics365 organization URL "%_inputPowerOrgUrl%" is added as a trusted source.
 
 echo.
-echo Setting protected mode in all zones
+SET /P _inputPowerBIUrl= Enter the Power BI URL (https://instancename.powerbi.com) to include as a trusted source and allow Internet Explorer popups (Mandatory):
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v "%_inputPowerBIUrl%" /t REG_BINARY /d 0 /f
+echo.
+echo The Power BI URL "%_inputPowerBIUrl%" is added as a trusted source.
+
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v https://login.microsoftonline.com /t REG_BINARY /d 0 /f
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v https://www.office.com /t REG_BINARY /d 0 /f
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v https://oc-cdn-public.azureedge.net /t REG_BINARY /d 0 /f
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows\Allow" /v https://oc-auth.azurewebsites.net /t REG_BINARY /d 0 /f
+
+echo.
+echo The URLs are added in the registry settings.
 echo.
 
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1" /v 2500 /t REG_DWORD /d 00000000 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2" /v 2500 /t REG_DWORD /d 00000000 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3" /v 2500 /t REG_DWORD /d 00000000 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4" /v 2500 /t REG_DWORD /d 00000000 /f
+echo Enable the Enable Protected Mode option. The option is a Unified Service Desk recommended registry setting and enables security settings in all Internet Zones. (Optional)
+SET /P _inputProtectedMode= Press Y to enable the enable protected mode setting. Press any key to skip the step:
+
+IF /I "%_inputProtectedMode%"=="y" (
+              echo.
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1" /v 2500 /t REG_DWORD /d 00000000 /f
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2" /v 2500 /t REG_DWORD /d 00000000 /f
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3" /v 2500 /t REG_DWORD /d 00000000 /f
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4" /v 2500 /t REG_DWORD /d 00000000 /f
+              echo.
+              echo The Enable Protected Mode registry is enabled successfully.
+)
 
 echo.
-echo Adding Best Practices Analyzer recommended settings for better performance
-echo.
+echo Add Unified Service Desk - Best Practices Analyzer recommended settings for better performance of Internet Explorer process. (Optional)
+SET /P _inputIESettings= Press Y to add these settings. Press any key to skip this step:
 
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v TabProcGrowth /t REG_DWORD /d 00000010 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v TabShutdownDelay /t REG_DWORD /d 00000000 /f
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Recovery" /v AutoRecover /t REG_DWORD /d 00000002 /f
+IF /I "%_inputIESettings%"=="y" (
+              echo.
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v TabProcGrowth /t REG_DWORD /d 00000010 /f
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v TabShutdownDelay /t REG_DWORD /d 00000000 /f
+              REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Recovery" /v AutoRecover /t REG_DWORD /d 00000002 /f
+              echo.
+              echo The settings are added successfully.
+              echo.
+)
 
 echo.
 set /p input="Press any key to exit..."

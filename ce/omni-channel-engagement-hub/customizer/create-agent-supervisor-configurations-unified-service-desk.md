@@ -30,11 +30,13 @@ A configuration in Unified Service Desk helps you filter access to components th
 
 Omni-channel Supervisor Configuration
 
-![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
+ > [!div class=mx-imgBorder]
+ > ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
 
 Omni-channel Supervisor Configuration
 
-![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
+ > [!div class=mx-imgBorder]
+ > ![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
 
 > [!div class="nextstepaction"]
 > [Next topic: Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
@@ -42,7 +44,7 @@ Omni-channel Supervisor Configuration
 ## See also
 
 - [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-- [Customize customer 360 form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
 - [Add or remove the fields in the form](add-remove-fields-form-section.md)

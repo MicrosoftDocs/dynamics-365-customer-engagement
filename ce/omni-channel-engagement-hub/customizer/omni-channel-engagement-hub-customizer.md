@@ -20,16 +20,16 @@ Every organization has a unique way of working. Some organizations have well-def
 
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub for system customizer:
 
-- [Customize customer 360 form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
+- [Customize the conversation form](customize-conversation-form.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+
+## How-tos
 
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
-
 - [Add or remove the fields in the form](add-remove-fields-form-section.md)
-
-- [Customize the conversation form](customize-conversation-form.md)
-
+- [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

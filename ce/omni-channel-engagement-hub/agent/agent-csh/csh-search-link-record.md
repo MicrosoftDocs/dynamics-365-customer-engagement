@@ -19,6 +19,10 @@ The topic explains how to search a record in Omni-channel Engagement Hub and lin
 
 ## Search for a record
 
+You can search for the records in two ways.
+
+### Search for a record using the search option
+
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
 
 ![Search a record using the Omni-channel search](../../media/csh-oc-search-record.png "Search a record using the Omni-channel search")  
@@ -42,7 +46,19 @@ Search the Omni-channel records using the search option. When you select the Sea
 
 3. Select **Search** and the search list appears.
 
- ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search")  
+ ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search")
+
+### Search for a record using inline search option
+
+You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
+
+> [!div class=mx-imgBorder]
+> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
+
+After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
+
+> [!div class=mx-imgBorder]
+> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
 ## Link a record
 
@@ -62,19 +78,19 @@ Based on the search results, you can choose to link a record from the list. You 
 
  ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
 
-After you link the record to the conversation, the Customer 360 page refreshes and reflects the details. Similarly, you can link other record types.
+After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
 ## See also
 
 - [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Sitemap](csh-sitemap.md)
-- [Navigation bar](csh-navigation-bar.md)
+- [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

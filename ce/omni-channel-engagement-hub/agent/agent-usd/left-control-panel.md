@@ -20,7 +20,8 @@ When you're using the chat conversation channel, you can send quick replies. You
 
 If you need help to resolve the work item, you can use the **Consult** option. You can also switch from the public mode to the internal mode to send messages to internal participants (other agents and/or a supervisor).
 
-![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")   
+> [!div class=mx-imgBorder]
+> ![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")   
 
 ## Internal and public messages
 
@@ -38,7 +39,8 @@ You can use keyboard shortcuts to send internal and public messages:
 
 When you chat with a customer, your organization's processes might require that you work with a standard set of questions and answers. These questions and answers are stored as quick replies. Select the **Quick replies** button to retrieve the standard set of questions and replies when you interact with customers.
 
-![omni-channel quick response](../../media/oc-usd-quick-response.png "Omni-channel quick response")  
+> [!div class=mx-imgBorder]
+>![omni-channel quick response](../../media/oc-usd-quick-response.png "Omni-channel quick response")  
 
 These questions and answers are stored as quick replies and you can use keyboard shortcut to see the list of quick replies.
 
@@ -54,7 +56,8 @@ You can use a keyboard shortcut to open the knowledge article search control in 
 
 While you're interacting with a customer, you might want the expertise of another agent or with supervisor. In this case, you can invite the agent or supervisor by selecting the **Consult** button in the chat panel.
 
-![omni-channel consult](../../media/oc-usd-consult.png "Omni-channel consult")  
+> [!div class=mx-imgBorder]
+>![omni-channel consult](../../media/oc-usd-consult.png "Omni-channel consult")  
 
 You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Press the Slash (/) key and the letters C and O (**/+C+O**).
 

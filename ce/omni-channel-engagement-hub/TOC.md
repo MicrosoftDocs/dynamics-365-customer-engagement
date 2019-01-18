@@ -2,8 +2,9 @@
 
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
-### System requirements
+### [Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
+### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
 ### [Configure a live chat widget](administrator/configure-live-chat.md)
 
@@ -17,7 +18,6 @@
 ### [Configure presence and custom presence](administrator/presence-custom-presence.md)
 ### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 ### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
-### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Create a chat widget](administrator/set-up-chat-widget.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 #### [Create a question library](administrator/create-question-library.md)
@@ -26,7 +26,7 @@
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
-## [Agents]()
+## Agents
 
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
@@ -45,7 +45,7 @@
 #### [Sign in to Dynamics 365 Customer Service hub](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
 #### [Introduction to the agent interface](agent/agent-csh/csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 #### [Sitemap](agent/agent-csh/csh-sitemap.md)
-#### [Navigation bar](agent/agent-csh/csh-navigation-bar.md)
+#### [Navigate using the navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
 #### [View agent dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
 #### [View conversation control](agent/agent-csh/csh-conversation-control.md)
@@ -58,13 +58,19 @@
 
 ## [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
 ### [Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
+<<<<<<< HEAD
 #### [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
 #### [Add users to the supervisor configuration](supervisor/add-users-supervisor-configuration.md)
 ### [Introduction to supervisor dashboard](supervisor/introduction-supervisor-dashboards.md)
 <!--### [View conversations on Customer Service Hub](supervisor/view-conversations-customer-service-hub.md)-->
+=======
+### [Introduction to supervisor dashboard](supervisor/omni-channel-engagement-hub-supervisor.md)
+#### [Configure the supervisor dashboard](supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
+#### [Add users to the supervisor configuration](supervisor/add-users-supervisor-configuration.md)
+>>>>>>> 48ff12df328d9b2eeed004d6f2880d2c197e22f1
 
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
-### [Customize the Customer 360 form](customizer/customize-customer-360-page.md)
+### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 #### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
 #### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)

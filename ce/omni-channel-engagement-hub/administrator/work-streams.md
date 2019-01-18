@@ -41,7 +41,7 @@ When you set up Live Chat work streams, you define the following properties:
 - **Work distribution mode and context attributes**: The context attributes can vary for each work stream. For example, for a chat conversation, context attributes include the browser, IP address, answers to pre-chat questions, and customer ID (for authenticated chat). These attributes can then be used to define routing rules that channel conversations to different queues.
    > [!NOTE]
    > Context attributes can be declared and defined at the work stream level, so that the omni-channel system understands the kind of conversations that it will receive. Conversations are preloaded with specific context attributes. Based on the context attributes, the system makes logical decisions and distributes the conversations to the correct omni-channel queue or agent. For this preview, context attributes are applicable only for Live Chat work stream.
-- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer 360** page. For more information, see [Configure record identification rule](record-identification-rule.md).
+- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. For more information, see [Configure record identification rule](record-identification-rule.md).
 
 - **Routing rules**: Routing rules are configured for each work stream, so that conversations can be distributed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
 
@@ -82,7 +82,8 @@ Follow these steps to create a new live chat work stream.
 
 6. Select **Save** to save the Live Chat work stream.
 
-   ![New workstream](../media/omni-channel-new-work-stream.png)
+   > [!div class=mx-imgBorder] 
+   > ![New workstream](../media/omni-channel-new-work-stream.png)
 
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
 

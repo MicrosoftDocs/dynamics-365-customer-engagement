@@ -1,6 +1,6 @@
 ---
-title: "Customize the customer 360 form"
-description: "Learn on how to customize the Customer 360 form in Omni-channel Engagement Hub as a system customizer."
+title: "Customize the Customer summary form"
+description: "Learn on how to customize the Customer summary form in Omni-channel Engagement Hub as a system customizer."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
 ms.custom: 
 ---
-# Customize the Customer 360 form
+# Customize the Customer summary form
 
-You can customize some forms (cards) on the **Customer 360** page by adding or removing the fields. In addition, you can change the position or alignment of forms (cards) by dragging them to meet your requirements. By default, the **Customer 360** page shows the following forms (cards).
+You can customize some forms (cards) on the **Customer summary** page by adding or removing the fields. In addition, you can change the position or alignment of forms (cards) by dragging them to meet your requirements. By default, the **Customer summary** page shows the following forms (cards).
 
 ## Customer profile
 
@@ -22,7 +22,7 @@ The **Customer profile** form (card) provides details about the customer or acco
 
 ## Conversation summary
 
-The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card). However, you can change the position of the form (card) on the **Customer 360** page.
+The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card). However, you can change the position of the form (card) on the **Customer summary** page.
 
 This form (card) includes two tabs: **Pre-chat** and **Visitor info**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat** tab shows the conversation details, escalation details, and transfer details.
 

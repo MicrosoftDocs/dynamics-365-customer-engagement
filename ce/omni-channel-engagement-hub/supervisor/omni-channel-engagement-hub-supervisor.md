@@ -33,3 +33,12 @@ As a supervisor, you see the following tabs when you open the Omni-channel Engag
 - **Conversations**: This tab provides information about the conversations that agents are handling that are in active, open, and waiting states. By viewing, you can get a holistic data of the conversations with the details such as customer, agent assigned, subject, queue, and activity status. Further, you can filter the conversations using the queues. Select the queues for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selected queues. Select **Save** to set this filter as default and when you log in to Omni-channel Engagement Hub app in Unified Service Desk, you view conversations based on this filter.
     > [!IMPORTANT]
     > The conversations are view only and you cannot perform actions such as open, edit, or delete.  
+
+## In this section
+
+- [Administer supervisor dashboard](configure-supervisor-dashboard.md)
+
+## How tos
+
+- [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
+- [Add users to the supervisor configuration](add-users-supervisor-configuration.md)

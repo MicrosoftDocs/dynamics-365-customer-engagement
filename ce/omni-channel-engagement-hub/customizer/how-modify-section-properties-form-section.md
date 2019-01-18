@@ -77,7 +77,7 @@ ms.custom:
   </tr>  
 </table>
 
-![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")  
+![modify cusomter 360 form section properties display tab](../media/oc-crm-modify-customer360form-section-properties-display.png "Modify cusomter 360 form section properties formatting tab") ![modify cusomter 360 form section properties formatting tab](../media/oc-crm-modify-customer360form-section-properties-formatting.png "Modify cusomter 360 form section properties display tab")
 
 7.  Select **OK** to save the changes.
 
@@ -89,7 +89,7 @@ ms.custom:
 ## See also
 
 - [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-- [Customize customer 360 form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [Customize the conversation form](customize-conversation-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)

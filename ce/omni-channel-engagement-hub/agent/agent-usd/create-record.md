@@ -17,8 +17,12 @@ ms.custom:
 
 If no records are linked to a conversation in Omni-channel Engagement Hub, you can create a record by using the quick create option. To use this option, select the plus sign (**+**). After you create the record, the record is automatically linked to the conversation.
 
-1. Select the plus sign (**+**) to create a record.<br>
-![Quick create record](../../media/quick-create-record.png "Quick create record")
+## Create a record
+
+1. Select the plus sign (**+**) to create a record.
+ 
+ > [!div class=mx-imgBorder]
+ > ![Quick create record](../../media/quick-create-record.png "Quick create record")
 
 2. Select a record type from the list.<br>
     - Case

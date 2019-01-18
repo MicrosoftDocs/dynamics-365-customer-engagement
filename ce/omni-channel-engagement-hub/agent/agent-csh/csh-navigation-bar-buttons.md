@@ -1,6 +1,6 @@
 ---
-title: "Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
-description: "Learn about the avigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
+title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub"
+description: "Learn about the navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,11 +13,11 @@ ms.assetid: 9B9FD044-9AF4-4262-9401-4EFB8D9B47EE
 ms.custom: 
 ---
 
-# Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub
+# Navigate using the navigation bar of Omni-channel Engagement Hub
 
 The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub contains the following:
 
-![Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub")
+![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
 1. **Search.** Do a simple search for a record.
 
@@ -85,10 +85,10 @@ Similarly, for the other records, the application displays the quick create form
 - [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Sitemap](csh-sitemap.md)
-- [Navigation bar](csh-navigation-bar.md)
+- [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

@@ -88,10 +88,9 @@ If a conversation remains in an omni-channel queue assigned to any agent, it bec
 - Conversations are queued according to their age.
 - As soon as agents become available and have enough capacity to take on the work, the items start to be allocated to them.
 - Agents work on the conversations and take one of the following actions:
-
-     - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
-      - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't take action on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
-      - Resolve the conversation, and move it to the **Closed** state.
+    - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
+    - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't take action on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
+    - Resolve the conversation, and move it to the **Closed** state.
 
 ### Adjusting an agent's capacity based on conversation allocation
 

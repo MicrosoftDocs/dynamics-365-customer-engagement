@@ -15,9 +15,14 @@ ms.custom:
 
 # Navigation bar of Omni-channel Engagement Hub in Customer Service Hub
 
-![Navigation bar of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-navigation-bar.png "Navigation bar of Omni-channel Engagement Hub in Customer Service Hub")  
+> [!div class=mx-imgBorder]
+> ![Navigation bar of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-navigation-bar.png "Navigation bar of Omni-channel Engagement Hub in Customer Service Hub")  
 
-The navigation bar is a place where you can navigate between different apps. Also, it displays the navigation you perform to different sitemap records in the form of a bread crumb.
+The navigation bar also called as main menu is a place where you can navigate between different apps. Also, it displays the navigation you perform to different sitemap records in the form of a bread crumb. The bread crumb displays the module (Service), record type and record.
+
+Selecting the **>** icon on the record type shows you a list of the recent records of the same type you have worked on. 
+
+Similarly, selecting the **>** icon on the record shows you a list of the related records.
 
 > [!div class="nextstepaction"]
 > [Next topic: Navigation bar buttons](csh-navigation-bar-buttons.md)
@@ -30,7 +35,7 @@ The navigation bar is a place where you can navigate between different apps. Als
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [Customer 360 overview of the existing challenges](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

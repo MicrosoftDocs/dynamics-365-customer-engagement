@@ -17,7 +17,7 @@ ms.custom:
 You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
 
 > [!NOTE]
-> This procedure shows how to modify the **Customer Profile** form (card) in the Customer 360 form of the **Live Work Item** entity. However, the process is similar for other forms (cards).
+> This procedure shows how to modify the **Customer Profile** form (card) in the Customer summary form of the **Live Work Item** entity. However, the process is similar for other forms (cards).
 
 1.  Sign in to Microsoft Dynamics 365.
 
@@ -25,11 +25,12 @@ You add or remove the fields from the form (section) by navigating to the respec
 
 3.  Expand **Components** > **Entities** > **Account** and select **Forms**.
 
-4.  Select **Customer 360**, which is of the form type **Quick View Form**.
+4.  Select **Customer summary**, which is of the form type **Quick View Form**.
 
 5.  In the form, click the section you want to add a field to, and then in the **Field Explorer** pane, double-click the field you want add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to section.
 
- ![add or revmoe fields from customer 360 form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from customer 360 form")  
+ > [!div class=mx-imgBorder]
+ > ![add or revmoe fields from Customer summary form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from Customer summary form")  
 
 6.  Select **Save** and then select **Publish**.
 
@@ -40,8 +41,8 @@ You can also use the previous procedure to add or remove fields in other forms (
 
 | **Card**         | **Entity**         | **Quick View Form** |
 |------------------|--------------------|----------------------|
-| Customer profile | Account > Forms | Customer 360         |
-| Customer profile | Contact > Forms | Customer 360         |
+| Customer profile | Account > Forms | Customer summary         |
+| Customer profile | Contact > Forms | Customer summary         |
 | Issue snapshot   | Case > Forms    | Issue Snapshot       |
 | Recent cases     |                 |                      |
 
@@ -51,7 +52,7 @@ You can also use the previous procedure to add or remove fields in other forms (
 ## See also
 
 - [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
-- [Customize customer 360 form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
