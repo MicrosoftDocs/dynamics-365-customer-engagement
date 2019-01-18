@@ -2,7 +2,7 @@
 title: "Query Data using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the various ways to query Dynamics 365 for Customer Engagement data using the Dynamics 365 for Customer Engagement Web API and various system query options that can be applied in these queries"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -791,7 +791,7 @@ Instead of returning the related entities for entity sets, you can also return r
 
 You cannot use OData $filter to set criteria that applies to values in collection valued navigation properties in a single operation.
 You have two options:
-*	Construct a query using FetchXML.  More information: Use custom FetchXML
+*	Construct a query using FetchXML.  More information: [Build queries with FetchXML](../org-service/build-queries-fetchxml.md).
 *	Iterate over results filtering individual entities based on values in the collection using multiple operations.
 
 Generally, using FetchXML should provide better performance because the filtering can be applied server-side in a single operation. The example shown below illustrates how to apply filter on values of collection properties for a link-entity.
