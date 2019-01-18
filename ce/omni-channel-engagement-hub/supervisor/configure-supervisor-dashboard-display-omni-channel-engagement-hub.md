@@ -137,7 +137,7 @@ When you provision the Power BI reports, the **IntradayMonitoring** and **LiveMo
     > [IMPORTANT]
     > Don't create more than one analytics configuration in your Dynamics 365. If you have more than one, the application uses only the configuration that you created last. If you want to add a new analytics configuration, first delete or inactivate the existing configuration.
 
-6. Go to <portal location> and download the the **IntradayMonitoring** and **LiveMonitoring** pbit files to your local folder.
+6. Go to <portal location> and download the **IntradayMonitoring** and **LiveMonitoring** pbit files to your local folder.
 
 You now have the reports that you need to configure the dashboards in Power BI.
 
