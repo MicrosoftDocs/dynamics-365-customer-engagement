@@ -28,15 +28,28 @@ search.app:
 
 # Service Level Agreements (SLA) for Work Orders
 
+- scenario: ensure field technican arrives on site within 1.5 hours for high priority work and within 6 hours otherwise
+
+## Prerequisites
+
 
 ## 1. Enable SLA functionality for Field Service
+
+Navigate to **Settings > Customizations > Work Order**
+
+Under Communication & Collaboration, check off **Enable for SLA**.
 
 Enable SLA on Work Order.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Enable SLA on Work Order](./media/work-order-sla-enable-work-order-1.png)
 
+Save & Publish Customizations 
 
-Navigate to the Field Service Settings record. Navigate the tab "Field Service SLA Configuration." Add any new KPIs pertinent to your organization. OOTB we ship two KPIs for WO that can be used once SLA is enabled:
+Next, navigate **Field Service > Settings > Field Service Settings** and enter the active Field Service Settings record.
+
+Then go to the **Field Service SLA Configurations** tab
+
+to the Field Service Settings record. Navigate the tab "Field Service SLA Configuration." Add any new KPIs pertinent to your organization. OOTB we ship two KPIs for WO that can be used once SLA is enabled:
 •	Work Order Arrival Time KPI (which is already set up as an SLA Type of Arrival Time)
 •	Work Order Resolution KPI
 > [!div class="mx-imgBorder"]
@@ -89,7 +102,3 @@ Furthermore, Schedule Assistant and Resource Schedule Optimization consider Time
 - SLAs on work orders will overwrite existing values for **Time From Promised** and **Time To Promised**
 - Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
 
-## Other
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-entitlement-asset-category.png)
