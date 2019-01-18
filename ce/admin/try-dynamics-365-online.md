@@ -25,6 +25,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
+
 We're excited about the release of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] and hope you're eager to try it out. New and existing customers have different options to take a look at [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].  
 
 ## Partners and Customizers
@@ -102,7 +104,7 @@ For more information about the scenario choices, see the [Installation options](
 ## Installation options
 You can choose to start a trial for all Customer Engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
 
-![Dynamics 365 for Customer Engagement apps app switcher](../admin/media/app-switcher75.png "Dynamics 365 for Customer Engagement apps app switcher")  
+![Dynamics 365 for Customer Engagement apps switcher](../admin/media/app-switcher75.png "Dynamics 365 for Customer Engagement apps switcher")  
 
 The following table shows what’s installed for each choice, what you see in the app switcher, and where you can use it.
 

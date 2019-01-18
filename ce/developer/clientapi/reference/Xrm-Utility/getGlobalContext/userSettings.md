@@ -35,7 +35,7 @@ Returns the date formatting information for the current user.
 
 **Type**: Object
 
-**Description**: An object with information about date formatting such as **FirstDayOfWeek**, **LongDatePattern**, **MonthDayPattern**, **TimeSeparator**, and so on.
+**Description**: An object with following information about date formatting  **AMDesignator**, **AbbreviatedDayNames**, **AbbreviatedMonthGenitiveNames**, **AbbreviatedMonthNames**, **CalendarWeekRule**, **Calendar**, **DateSeparator**, **DayNames**, **FirstDayOfWeek**, **FullDateTimePattern**, **LongDatePattern**, **LongTimePattern**, **MonthDayPattern**, **MonthGenitiveNames**, **MonthNames**, **PMDesignator**, **ShortDatePattern**, **ShortTimePattern**, **ShortestDayNames**, **UniversalSortableDateTimePattern**, **SortableDateTimePattern**, **TimeSeparator**, **UniversalSortableDateTimePattern**, **YearMonthPattern**.
 
 ## defaultDashboardId 
 

@@ -38,7 +38,7 @@ search.app:
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
 
-## Known issues
+## Known issues and FAQs
 
 For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md).
 
@@ -46,10 +46,18 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 
 The Outlook App is not enabled on [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).
 
+For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
+
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
  
-  ![Support matrix for Outlook Dashboard](media/supporttable.png "Support matrix for Outlook Dashboard")
+ 
+ |  |  |
+|---------|---------|
+|**Email Server**     |  <ul><li>Exchange Server 2013 CU 14 or greater</li><br/>  <li>Exchange Server 2016</li><br/> <li>Exchange Online</li></ul>       |
+|**Email Client**    | <ul><li>Outlook 2016 (MSI) version 16.0.4266.1001 or higher (on Windows 7 or higher client OS with IE 11 installed) </li><br/>  <li>Outlook 2016 (C2R) version 16.0.93330.2073 or higher (on Windows 7 or higher client OS with IE 11 installed)</li><br/> <li>Outlook 2016 (MSI) version 15.0.5023.1000 or higher (on Windows 7 or higher client OS with IE 11 installed)</li><br/>  <li>Outlook for MAC</li><br/> <li>Outlook for iOS (Apple iPhone 6S or higher, running iOS version 8 or higher)</li><br/>  <li>Outlook for Android (with Exchange Online, on Android phones running Android 4.4,5.0,6.0,or 7.0)</li></ul>  **Note** Support for 2013 versions of Office 365 ProPlus ended February 28, 2017    |
+|**Browser (Outlook Web Access)**     | <li>Micosoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Internet Explorer 11 (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome</li><br/>   <li>Mozilla Firefox</li><br/>      |
+
   > [!NOTE]
 >  Support for 2013 versions of Office 365 ProPlus ends February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/en-us/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
@@ -85,7 +93,7 @@ The Outlook App is not enabled on [Common Data Service for Apps](/powerapps/make
 5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
-If you have custom security roles defined in Dynamics 365 for Customer Engagement apps app, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
+If you have custom security roles defined in Dynamics 365 for Customer Engagement apps, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
 1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **"<your_organization_URL>/apps"**) 
 
@@ -192,7 +200,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 <!--
 > [!NOTE]
->  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps on-premises users](#BKMK_DeployOnprem)  
+>  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users](#BKMK_DeployOnprem)  
 --> 
 
 #### To push the app to users  
@@ -224,41 +232,14 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 <!--    
 <a name=BKMK_DeployOnprem></a>   
 
-## To deploy to Dynamics 365 for Customer Engagement apps on-premises users  
- Follow these steps if you're using Dynamics 365 for Customer Engagement apps on-premises.  
+## To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users  
+ Follow these steps if you're using Dynamics 365 for Customer Engagement apps (on-premises).  
 
 -   Configure your Dynamics 365 for Customer Engagement apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
 
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+-   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
 --> 
-
-## Filter entities and views that appear in Dynamics 365 App for Outlook 
-If you are a system administrator or a customizer, you can choose to expose only the required set of entities to be available to Dynamics 365 App for Outlook.You can do this through App Modules.
-
-With the PowerApps App Designer, you can control the specific entities that appear in Dynamics 365 App for Outlook’s **Quick Create** menu and the **Regarding** lookup. This helps you get to the record you are looking for faster and also modularize business logic by exposing only the relevant entities for your users in Dynamics 365 App for Outlook.
-
-1.  From the main menu navigate to **Settings** > **Customizations** > **Customize the System** > **Apps**. 
-2.  Double-click **Dynamics 365 App for Outlook** to open the App Designer
-
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage_1.png "Dynamics 365 for Customer Engagement apps My Apps page") 
-
-3.  Choose **Add** > **Entities** and then select the entity you want to add and complete the addition by including all assets.
-
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_2.png "Dynamics 365 for Customer Engagement apps My Apps page")
-
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/AddEntities_3.png "Dynamics 365 for Customer Engagement apps My Apps page")
-
-4.  Review the list of Views that are available for the entity and deselect the ones you do not want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an entity and further, on one of the views defined for that entity.
-
-   ![Dynamics 365 for Customer Engagement apps My Apps page](media/ViewEntities_4.png "Dynamics 365 for Customer Engagement apps My Apps page")
-
-5.  Save your changes and publish the customization.
-
-> [!NOTE]
-> - You can also remove entities from Dynamics 365 App for Outlook.
-> - An entity must be Activities enabled for it to appear in the Regarding lookup. See [Enable a custom entity to appear in the Regarding lookup](dynamics-365-app-outlook-user-s-guide.md#enable-a-custom-entity-to-appear-in-the-regarding-lookup).
-> - An entity must also be enabled for Unified Interface for it to appear in the Regarding lookup.
 
 <a name=BKMK_Troubleshoot></a> 
 ## Troubleshooting installation problems  
@@ -266,52 +247,6 @@ With the PowerApps App Designer, you can control the specific entities that appe
 1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature. See [Enable](#enable).
 
 2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
-
-## Limitations  
-
-#### Customizing App for Outlook sitemap
-
-System customizers have access to the Sitemap Designer (within the App Designer) for Dynamics 365 App for Outlook. It is one of the App Modules in version 9.0. The Dynamics 365 App for Outlook default landing page is a dashboard that is configured in the App Module. Customizations to App for Outlook sitemap are not supported at this time. If you are unable to view the Dynamics 365 App for Outlook landing page when you open App for Outlook, please follow the steps below.
-
-1. Navigate to **Settings** > **Customizations** > **Customize the system**.
-2. From the menu on the left, expand **Components** and then select **Dashboards**.
-3. Select **App for Outlook Dashboard** and then select **Enable Security Roles**.
-
-![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png "Dynamics 365 App for Outlook Customizations page")
-
-4. On the **Assign Sercity Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
-
-![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png "Dynamics 365 App for Outlook Assign Sercity Roles")
-
-5. Select **OK**.
-
-This issue is also seen when the sitemap for App for Outlook has been modified i.e. the sitemap for App for Outlook has an alternate dashboard in the **Default Dashboard** field. To resolve this issue, do the following:
-
-1. Open App for Outlook sitemap designer. Go to **Settings** > **Customizations** > **Customize the system** > **Apps** > **App for Outlook**.
-
-![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
-
-2. Make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the default dashboard is **App for Outlook Dashboard**.
-
-![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png "Dynamics 365 App for Outlook sitemap designer page")
-
-
-#### Dashboard customization in Dynamics 365 App for Outlook
-
-The following dashboard customizations are not supported currently.
-
--  In Dynamics 365 App for Outlook, you will not be able to switch dashboards by navigating to the main menu and then **Home**.
-   Choosing the Dashboards option will redirect back to the default App for Outlook dashboard.
-
-   ![Dynamics 365 App for Outlook Dashboard](media/CustomDashboard.PNG "Dynamics 365 App for Outlook Dashboard")
-
-
-- Switching the default dashboard for App for Outlook in App designer
-
-  System customizers have access to the App Designer for Dynamics 365 App for Outlook as it is one of the App Modules in version 9.0.
-We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
-
-  ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
 
 <a name=BKMK_Explore></a>   
 

@@ -12,6 +12,7 @@
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Field Service settings](configure-default-settings.md)
+## [Version history](version-history.md)
 
 # Quickstarts
 ## [Schedule a work order](quickstart-schedule-work-order.md)
@@ -41,6 +42,7 @@
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
+## [Resource crew scheduling](resource-crews.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
@@ -72,6 +74,7 @@
 ###  [View product inventory](view-product-inventory.md)
 ###  [Create an inventory transfer](create-inventory-transfer.md)
 ###  [Create an inventory adjustment](create-inventory-adjustment.md)
+###  [Manual inventory journals](manual-inventory-journals.md)
 ###  [Process a return](process-return.md)
 ###  [Return product to vendor](create-return-vendor.md)
 ### [RMA sub-status](create-rma-sub-status.md)

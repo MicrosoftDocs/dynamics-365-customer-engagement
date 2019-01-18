@@ -25,6 +25,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
+
 The following are terms used throughout the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps product and documentation.  
 
 <a name="BKMK_Terminology"></a>  

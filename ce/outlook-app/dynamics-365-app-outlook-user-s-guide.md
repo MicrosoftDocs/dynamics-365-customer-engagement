@@ -36,9 +36,11 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
  <!--[Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
 
-## Known issues
+## Known issues and FAQs
 
 For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md).
+
+For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 ## Prerequisites  
  Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator can make [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] available to your organization or you can add it yourself if:  
@@ -229,38 +231,6 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-## Customize the track regarding card
-
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
-
-![Initial contact card](media/initial-contact-card.png "Initial contact card")
-
-To change the fields that appear, follow these steps:
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Expand **Entities** and choose an entity such as **Contact**.
-3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
-
-   ![Contact entity form](media/contact-entity-form.png)
-
-4. Drag **Company Name** above **Business Phone**.
-
-   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
-
-   ![After dragging field](media/after-dragging-fields.png "After dragging field")
-
-   > [!NOTE]
-   > The first three fields appear in the track regarding card.
-
-5. Select **Save**, **Publish**, and then close the form editor.
-6. On the solution page, **Publish All Customizations**. 
-7. Close the solutions page.
-
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
-
-![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The company name now appears after the contact name in the Contact card.
-
 ## Compose an email message and link it to a Dynamics 365 for Customer Engagement apps record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 for Customer Engagement apps record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
 
@@ -277,7 +247,7 @@ Some of what the assistant can do for you:
 
 When you start your day by signing in to Dynamics 365 for Customer Engagement apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
 
-To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
+To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png) > **Relationship Assistant**.
 
 ![Relationship Assistant](media/relationship-assistant.png)
 
@@ -475,7 +445,7 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
     Regardless of which tab you selected in step 1, the email, task, or appointment will be sent from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)], not [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
-#### Track appointments from another person in your Dynamics 365 for Customer Engagement apps organization
+### Track appointments from another person in yourorganization
 
 You can track appointments from another person in your Dynamics 365 for Customer Engagement apps organization using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your organization. Dynamics 365 for Customer Engagement apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
@@ -488,37 +458,6 @@ After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlo
 
  ![Track appointments](media/Trackappointments.png "Track appointments ")
 
-##### Track appointments from another person
-
-After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
-
- ![Track appointments](media/Trackappointments.png "Track appointments")
- 
- ##### Create draft appointments without syncing with Exchange
- 
- Create appointments in Dynamics 365 and have the option to send (synchronize with Exchange) and save (do not synchronize with Exchange).
- 
- ![Create an appointment and save it](media/saveappt.png "Create an appointment and save it")
- 
- View previously saved draft appointment activity.
- 
- ![View previously saved draft](media/saveddraft.png "View previously saved draft")
- 
- View all your saved appointments from the activity home page grid.
- 
- ![View appointments from the Activity grid](media/viewfromgrid.png "View appointments from the Activity grid")
- 
- Note, this capability does not apply to recurring appointment activity. Also, draft appointments that are not synchronized to Exchange still have the same state or status as synced appointments. 
- 
- 
- #### Create draft appointments without synchronizing with Exchange
-
-Appointment activities created in Dynamics 365 are synchronized with Exchange through Server-Side Synchronization. When you open the appointment activity form and create a new appointment or update an existing appointment, the changes are synchronized automatically with Exchange.
-
-If you are on the latest version 9.x (build 9.0.2.2081), you can create appointments in Dynamics 365 without synchronizing with Exchange. This means can create appointments in Dynamics 365 and save them, add details, and update appointments without syncing the changes to your Exchange email client.
-
-To turn enable this, an administrators
-
 ### Search for a contact  
 
 -   Enter a value in the search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking status**, **Business phone**, or **Email** fields.  
@@ -530,50 +469,6 @@ To turn enable this, an administrators
 2. Select the view you want.  
 
    ![Dynamics 365 App for Outlook with contract tracking filter drop-down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
-
-## Add a custom entity to Quick create
-
-Follow these steps to enable a custom entity to appear in Quick create.
-
-![Custom entity in Quick create](media/custom-entity-quick-create.png) 
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
-
-   ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
-3. Verify the custom entity has a quick create form. Chose **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
-
-   ![Quick create form](media/quick-create-form.png "Quick create form")
-4. Verify the custom entity is added to the app designer. Choose **Apps**, and then open **App for Outlook**.
-
-   ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
-5. In the app designer, choose **Entities** and browse to find your custom entity.
-
-   ![Custom entity in app designer](media/custom-entity-app-designer.png)
-
-## Enable a custom entity to appear in the Regarding lookup
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
-
-   ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
-   
-    > [!NOTE]
-   > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook).
-
-## Search on custom field in Regarding lookup
-
-To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
-
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose an entity, then choose **Views**.
-3. Open **Account Lookup View**.
-
-   ![Account lookup view](media/account-lookup-view.png)
-4. Enable the custom field, and then choose **OK**.
-
-   ![Enable custom field](media/add-custom-field.png)
-5. Choose **Save** > **Publish** on the **Home** tab.
 
 ## Synchronization and tracking 
 
