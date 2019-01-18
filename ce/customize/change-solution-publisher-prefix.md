@@ -1,5 +1,5 @@
 ---
-title: "Change the solution publisher prefix in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Change the solution publisher prefix in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 

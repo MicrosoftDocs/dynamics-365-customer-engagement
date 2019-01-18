@@ -75,7 +75,7 @@ Some of the URI schemes and applications are as follows:
 |ms-call:|  Call app |
 |ms-chat: | Messaging app |
 
-A workaround is to open the Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
+A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
 
 #### KB article support with Edge process
 
@@ -83,7 +83,7 @@ In Dynamics 365 Customer Engagement apps web client, when you host the KB articl
 
 A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
-After chaning the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+After changing the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 

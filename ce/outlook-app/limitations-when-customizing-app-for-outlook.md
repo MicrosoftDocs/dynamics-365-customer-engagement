@@ -1,5 +1,5 @@
 ---
-title: "Limitations to customizing Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 
@@ -24,7 +24,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Limitations to customizing Dynamics 365 App for Outlook
+# Limitations when customizing Dynamics 365 App for Outlook
 
 When customizing the app you make run into these limitations.
 
