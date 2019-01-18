@@ -38,31 +38,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
       
 <a name="BKMK_Signin"></a> 
-
-
-
-
 ## Signing in and signing out
-
-### Preview: Introducing new sign-in experience for iOS users 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - Email address sign in option is available to online users only.
-
-
-#### Signing in with your work email address
-
-To sign in, user your work email address.
-
-
-
-
-### Current Sign-in experience
-
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin.
 
