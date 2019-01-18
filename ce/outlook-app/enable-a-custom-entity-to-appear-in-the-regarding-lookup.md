@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Enable a custom entity to appear in the Regarding lookup
+# Customize the Regarding lookup to add or remove entities
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.

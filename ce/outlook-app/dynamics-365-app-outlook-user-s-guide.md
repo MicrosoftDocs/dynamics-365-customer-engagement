@@ -36,9 +36,11 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
  <!--[Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
 
-## Known issues
+## Known issues and FAQs
 
 For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md).
+
+For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 ## Prerequisites  
  Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator can make [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] available to your organization or you can add it yourself if:  
@@ -443,7 +445,7 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
     Regardless of which tab you selected in step 1, the email, task, or appointment will be sent from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)], not [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
-#### Track appointments from another person in your Dynamics 365 for Customer Engagement apps organization
+### Track appointments from another person in yourorganization
 
 You can track appointments from another person in your Dynamics 365 for Customer Engagement apps organization using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your organization. Dynamics 365 for Customer Engagement apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
@@ -455,37 +457,6 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
 
  ![Track appointments](media/Trackappointments.png "Track appointments ")
-
-##### Track appointments from another person
-
-After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
-
- ![Track appointments](media/Trackappointments.png "Track appointments")
- 
- ##### Create draft appointments without syncing with Exchange
- 
- Create appointments in Dynamics 365 and have the option to send (synchronize with Exchange) and save (do not synchronize with Exchange).
- 
- ![Create an appointment and save it](media/saveappt.png "Create an appointment and save it")
- 
- View previously saved draft appointment activity.
- 
- ![View previously saved draft](media/saveddraft.png "View previously saved draft")
- 
- View all your saved appointments from the activity home page grid.
- 
- ![View appointments from the Activity grid](media/viewfromgrid.png "View appointments from the Activity grid")
- 
- Note, this capability does not apply to recurring appointment activity. Also, draft appointments that are not synchronized to Exchange still have the same state or status as synced appointments. 
- 
- 
- #### Create draft appointments without synchronizing with Exchange
-
-Appointment activities created in Dynamics 365 are synchronized with Exchange through Server-Side Synchronization. When you open the appointment activity form and create a new appointment or update an existing appointment, the changes are synchronized automatically with Exchange.
-
-If you are on the latest version 9.x (build 9.0.2.2081), you can create appointments in Dynamics 365 without synchronizing with Exchange. This means can create appointments in Dynamics 365 and save them, add details, and update appointments without syncing the changes to your Exchange email client.
-
-To turn enable this, an administrators
 
 ### Search for a contact  
 

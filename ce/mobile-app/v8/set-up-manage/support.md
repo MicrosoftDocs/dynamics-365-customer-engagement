@@ -63,7 +63,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 
  You can run the Dynamics 365 for Customer Engagement apps for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 for Customer Engagement apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699710.aspx).  
   
- Download the Microsoft Dynamics 365 for Customer Engagement apps app from the Windows Marketplace for [Windows 8.1 tablets](http://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
+ Download the Microsoft Dynamics 365 for Customer Engagement apps from the Windows Marketplace for [Windows 8.1 tablets](http://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
   
 |||  
 |-|-|  

@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "v1",
+    "version": "v1.2",
     "title": "Online Management API for Dynamics 365 Customer Engagement",
     "description": "The REST API provides the ability to manage the Customer Engagement online instances in an Office 365 tenant."
   },
@@ -10,7 +10,7 @@
     ""
   ],
   "paths": {
-    "/api/v1.1/Currencies": {
+    "/api/v1.2/Currencies": {
       "get": {
         "tags": [
           "Currencies"
@@ -37,7 +37,7 @@
         }
       }
     },
-    "/api/v1.1/InstanceBackups": {
+    "/api/v1.2/InstanceBackups": {
       "get": {
         "tags": [
           "InstanceBackups"
@@ -117,7 +117,7 @@
         }
       }
     },
-    "/api/v1.1/InstanceBackups/{instanceId}/{restorePointId}": {
+    "/api/v1.2/InstanceBackups/{instanceId}/{restorePointId}": {
       "get": {
         "tags": [
           "InstanceBackups"
@@ -161,7 +161,7 @@
         }
       }
     },
-    "/api/v1.1/Instances": {
+    "/api/v1.2/Instances": {
       "get": {
         "tags": [
           "Instances"
@@ -188,7 +188,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{id}": {
+    "/api/v1.2/Instances/{id}": {
       "get": {
         "tags": [
           "Instances"
@@ -224,7 +224,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/Provision": {
+    "/api/v1.2/Instances/Provision": {
       "put": {
         "tags": [
           "Instances"
@@ -339,7 +339,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{targetInstanceId}/Reset": {
+    "/api/v1.2/Instances/{targetInstanceId}/Reset": {
       "post": {
         "tags": [
           "Instances"
@@ -398,7 +398,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{targetInstanceId}/Restore": {
+    "/api/v1.2/Instances/{targetInstanceId}/Restore": {
       "post": {
         "tags": [
           "Instances"
@@ -452,7 +452,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{id}/Users/{userObjectId}/ApplyUser": {
+    "/api/v1.2/Instances/{id}/Users/{userObjectId}/ApplyUser": {
       "post": {
         "tags": [
           "Instances"
@@ -502,7 +502,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{id}/UpdateAdminMode": {
+    "/api/v1.2/Instances/{id}/UpdateAdminMode": {
       "post": {
         "tags": [
           "Instances"
@@ -563,7 +563,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{id}/ConfigureInstance": {
+    "/api/v1.2/Instances/{id}/ConfigureInstance": {
       "post": {
         "tags": [
           "Instances"
@@ -624,7 +624,7 @@
         }
       }
     },
-    "/api/v1.1/Instances/{id}/Delete": {
+    "/api/v1.2/Instances/{id}/Delete": {
       "delete": {
         "tags": [
           "Instances"
@@ -679,7 +679,7 @@
         }
       }
     },
-    "/api/v1.1/InstanceTypeInfo": {
+    "/api/v1.2/InstanceTypeInfo": {
       "get": {
         "tags": [
           "InstanceTypeInfo"
@@ -706,7 +706,7 @@
         }
       }
     },
-    "/api/v1.1/InstanceTypeInfo/{type}": {
+    "/api/v1.2/InstanceTypeInfo/{type}": {
       "get": {
         "tags": [
           "InstanceTypeInfo"
@@ -754,7 +754,7 @@
         }
       }
     },
-    "/api/v1.1/Languages": {
+    "/api/v1.2/Languages": {
       "get": {
         "tags": [
           "Languages"
@@ -793,7 +793,7 @@
         }
       }
     },
-    "/api/v1.1/Notifications/{tenantId}/{userObjectId}": {
+    "/api/v1.2/Notifications/{tenantId}/{userObjectId}": {
       "get": {
         "tags": [
           "Notification"
@@ -849,7 +849,7 @@
         }
       }
     },
-    "/api/v1.1/Notifications": {
+    "/api/v1.2/Notifications": {
       "post": {
         "tags": [
           "Notification"
@@ -895,7 +895,7 @@
         }
       }
     },
-    "/api/v1.1/Operation/{id}": {
+    "/api/v1.2/Operation/{id}": {
       "get": {
         "tags": [
           "OperationStatus"
@@ -931,7 +931,47 @@
         }
       }
     },
-    "/api/v1.1/ServiceVersions": {
+    "/api/v1.2/Operation": {
+      "get": {
+        "tags": [
+          "OperationStatus"
+        ],
+        "summary": "Retrieves operation status of a Customer Engagement instance.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "operationId": "GetOperationStatusByQuery",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "query.operationProvider",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "query.instanceId",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OperationStatus",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "404": {
+            "description": "NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1.2/ServiceVersions": {
       "get": {
         "tags": [
           "ServiceVersions"
@@ -958,7 +998,7 @@
         }
       }
     },
-    "/api/v1.1/Templates": {
+    "/api/v1.2/Templates": {
       "get": {
         "tags": [
           "Templates"
@@ -985,7 +1025,7 @@
         }
       }
     },
-    "/api/v1.1/TenantApplicationIdentities": {
+    "/api/v1.2/TenantApplicationIdentities": {
       "get": {
         "tags": [
           "TenantApplicationIdentities"
@@ -1046,7 +1086,7 @@
         }
       }
     },
-    "/api/v1.1/TenantApplicationIdentities/{id}": {
+    "/api/v1.2/TenantApplicationIdentities/{id}": {
       "get": {
         "tags": [
           "TenantApplicationIdentities"
@@ -1109,7 +1149,7 @@
         }
       }
     },
-    "/api/v1.1/TenantApplicationIdentities/{id}/Enable": {
+    "/api/v1.2/TenantApplicationIdentities/{id}/Enable": {
       "post": {
         "tags": [
           "TenantApplicationIdentities"
@@ -1138,7 +1178,7 @@
         }
       }
     },
-    "/api/v1.1/TenantApplicationIdentities/{id}/Disable": {
+    "/api/v1.2/TenantApplicationIdentities/{id}/Disable": {
       "post": {
         "tags": [
           "TenantApplicationIdentities"
@@ -1163,6 +1203,589 @@
         "responses": {
           "200": {
             "description": "Tenant Application Identity is disabled."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}/Runs": {
+      "get": {
+        "tags": [
+          "TestRuns"
+        ],
+        "summary": "Retrieves all the test suite runs.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestSuiteRuns",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test suite runs",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/TestRunApi"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TestRuns"
+        ],
+        "summary": "Start a test run",
+        "operationId": "TestRuns_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "202": {
+            "description": "Test run started."
+          },
+          "404": {
+            "description": "Test suite was not found."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}/Runs/{runId}": {
+      "get": {
+        "tags": [
+          "TestRuns"
+        ],
+        "summary": "Retrieves the test suite based on the specified ID.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestSuiteRunById",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "runId",
+            "in": "path",
+            "description": "The run identifier.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test suite run",
+            "schema": {
+              "$ref": "#/definitions/TestRunApi"
+            }
+          },
+          "404": {
+            "description": "Test suite run was not found."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}/Runs/{runId}/TestCases": {
+      "get": {
+        "tags": [
+          "TestRuns"
+        ],
+        "summary": "Get all the test run's test cases.\r\nSupports OData $filter query parameters on Outcome field (e.g. $filter=Outcome eq 'Failed')",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestRunTestCases",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "runId",
+            "in": "path",
+            "description": "The run identifier.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test cases of the run.",
+            "schema": {
+              "$ref": "#/definitions/GetTestCasesResponseApi"
+            }
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}/Runs/{runId}/active-run": {
+      "delete": {
+        "tags": [
+          "TestRuns"
+        ],
+        "summary": "Cancel an active test run.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "TestRuns_CancelActiveRun",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "runId",
+            "in": "path",
+            "description": "The run identifier.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully canceled.",
+            "schema": {
+              "$ref": "#/definitions/CancelActiveRunResponse"
+            }
+          },
+          "404": {
+            "description": "Test suite or test run was not found."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites": {
+      "get": {
+        "tags": [
+          "TestSuites"
+        ],
+        "summary": "Retrieves all the test suites for the specified Organization ID.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestSuites",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test suites",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/TestSuiteApi"
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "TestSuites"
+        ],
+        "summary": "Create a new test suite.",
+        "operationId": "TestSuites_CreateTestSuite",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteCreateRequest",
+            "in": "body",
+            "description": "Test suite create request.",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TestSuiteCreateRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "201": {
+            "description": "Test suite created or updated."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}": {
+      "get": {
+        "tags": [
+          "TestSuites"
+        ],
+        "summary": "Get the test suite details for the specified Organization ID and test suite name.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestSuiteByName",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The test suite returned.",
+            "schema": {
+              "$ref": "#/definitions/TestSuiteApi"
+            }
+          },
+          "404": {
+            "description": "Test suite was not found."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "TestSuites"
+        ],
+        "summary": "Deletes the test suite.",
+        "operationId": "TestSuites_DeleteTestSuite",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully deleted."
+          },
+          "404": {
+            "description": "Test suite was not found."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}/Triggers": {
+      "get": {
+        "tags": [
+          "TestTriggers"
+        ],
+        "summary": "Retrieves all the test suite triggers.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestSuiteTriggers",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test suite triggers",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/TestRunTrigger"
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "TestTriggers"
+        ],
+        "summary": "Create or replace a test suite trigger.",
+        "operationId": "TestTriggers_CreateTestSuiteTrigger",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "testRunTriggerCreateRequest",
+            "in": "body",
+            "description": "The test run trigger create request.",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TestRunTriggerCreateRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "201": {
+            "description": "Test suite created or updated."
+          }
+        }
+      }
+    },
+    "/api/v1.2/Instances/{organizationId}/TestSuites/{testSuiteName}/Triggers/{testRunTriggerName}": {
+      "get": {
+        "tags": [
+          "TestTriggers"
+        ],
+        "summary": "Get the test suite trigger by name.",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetTestSuiteTriggerByName",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "testRunTriggerName",
+            "in": "path",
+            "description": "Name of the test run trigger.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test suite trigger.",
+            "schema": {
+              "$ref": "#/definitions/TestRunTrigger"
+            }
+          },
+          "404": {
+            "description": "Test suite trigger was not found."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "TestTriggers"
+        ],
+        "summary": "Deletes the test suite trigger.",
+        "operationId": "TestTriggers_DeleteTestSuiteTrigger",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "organizationId",
+            "in": "path",
+            "description": "ID of the organization.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "testSuiteName",
+            "in": "path",
+            "description": "Name of the test suite.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "testRunTriggerName",
+            "in": "path",
+            "description": "Name of the test run trigger.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully deleted."
+          },
+          "404": {
+            "description": "Test suite trigger was not found"
           }
         }
       }
@@ -1387,6 +2010,9 @@
           "type": "string"
         },
         "Description": {
+          "type": "string"
+        },
+        "Code": {
           "type": "string"
         }
       }
@@ -1901,6 +2527,17 @@
         }
       }
     },
+    "QueryOptions": {
+      "type": "object",
+      "properties": {
+        "OperationProvider": {
+          "type": "string"
+        },
+        "InstanceId": {
+          "type": "string"
+        }
+      }
+    },
     "ServiceVersion": {
       "required": [
         "LocalizedName",
@@ -2029,6 +2666,402 @@
           "format": "date-time",
           "description": "Entity last modified on",
           "type": "string"
+        }
+      }
+    },
+    "TestRunApi": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "EnvironmentName": {
+          "type": "string"
+        },
+        "TestSuiteName": {
+          "type": "string"
+        },
+        "Organization": {
+          "$ref": "#/definitions/TestRunOrganizationInfo"
+        },
+        "Trigger": {
+          "enum": [
+            "Unknown",
+            "Manual",
+            "OrganizationDatabaseUpdate",
+            "OrganizationDatabaseUpgrade",
+            "OrganizationBitsUpdate",
+            "OrganizationPackageInstall",
+            "OrganizationPackageUninstall"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestRunTriggerType"
+          }
+        },
+        "Tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Errors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "CreatedOn": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CompletedOn": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Outcome": {
+          "$ref": "#/definitions/TestRunOutcome"
+        },
+        "EventLogs": {
+          "type": "string"
+        }
+      }
+    },
+    "TestRunOrganizationInfo": {
+      "type": "object",
+      "properties": {
+        "OrganizationId": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "OrganizationUniqueName": {
+          "type": "string"
+        },
+        "OrganizationBaseUrl": {
+          "type": "string"
+        },
+        "OrganizationVersion": {
+          "type": "string"
+        }
+      }
+    },
+    "TestRunOutcome": {
+      "type": "object",
+      "properties": {
+        "TestCasesRun": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "OutcomeSummary": {
+          "type": "object",
+          "additionalProperties": {
+            "format": "int32",
+            "type": "integer"
+          }
+        },
+        "StartTime": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "EndTime": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Succeeded": {
+          "type": "boolean"
+        },
+        "Message": {
+          "type": "string"
+        },
+        "Tags": {
+          "type": "string"
+        }
+      }
+    },
+    "GetTestCasesResponseApi": {
+      "type": "object",
+      "properties": {
+        "TestAssemblies": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TestAssemblyResultApi"
+          }
+        }
+      }
+    },
+    "TestAssemblyResultApi": {
+      "type": "object",
+      "properties": {
+        "TestAssemblyName": {
+          "type": "string"
+        },
+        "TestCases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TestCaseResultApi"
+          }
+        },
+        "TotalNumberOfTestCases": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Messages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "TestCaseResultApi": {
+      "type": "object",
+      "properties": {
+        "TestCaseName": {
+          "type": "string"
+        },
+        "TestAssemblyName": {
+          "type": "string"
+        },
+        "TestCaseRunId": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "Outcome": {
+          "type": "string"
+        },
+        "StartTime": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "EndTime": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Duration": {
+          "type": "string"
+        },
+        "ResultsUrl": {
+          "type": "string"
+        },
+        "TotalNumberOfTestCases": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "TestCaseNumber": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "CancelActiveRunResponse": {
+      "type": "object",
+      "properties": {
+        "Cancelled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "TestSuiteApi": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Name of the test suite."
+        },
+        "Description": {
+          "type": "string"
+        },
+        "TestSuiteUrl": {
+          "type": "string"
+        },
+        "TestSuiteOriginalUrl": {
+          "type": "string"
+        },
+        "FileSize": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Type": {
+          "enum": [
+            "Generic",
+            "Organization",
+            "PowerApp",
+            "Flow"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestSuiteType"
+          }
+        },
+        "Triggers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TestRunTrigger"
+          }
+        },
+        "Organization": {
+          "$ref": "#/definitions/TestSuiteOrganizationInfo"
+        },
+        "CreatedOn": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CompletionCallback": {
+          "$ref": "#/definitions/TestRunCompletionCallbackInfo"
+        }
+      }
+    },
+    "TestRunTrigger": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Type": {
+          "enum": [
+            "Unknown",
+            "Manual",
+            "OrganizationDatabaseUpdate",
+            "OrganizationDatabaseUpgrade",
+            "OrganizationBitsUpdate",
+            "OrganizationPackageInstall",
+            "OrganizationPackageUninstall"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestRunTriggerType"
+          }
+        },
+        "Metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object"
+          }
+        },
+        "CreatedOn": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    "TestSuiteOrganizationInfo": {
+      "type": "object",
+      "properties": {
+        "OrganizationUniqueName": {
+          "type": "string"
+        },
+        "OrganizationId": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "OrganizationUrl": {
+          "type": "string"
+        },
+        "TenantId": {
+          "type": "string"
+        }
+      }
+    },
+    "TestRunCompletionCallbackInfo": {
+      "type": "object",
+      "properties": {
+        "CallbackUrl": {
+          "type": "string"
+        }
+      }
+    },
+    "TestSuiteCreateRequest": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Description": {
+          "type": "string"
+        },
+        "TestSuiteUrl": {
+          "type": "string"
+        },
+        "Type": {
+          "enum": [
+            "Generic",
+            "Organization",
+            "PowerApp",
+            "Flow"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestSuiteType"
+          }
+        },
+        "Organization": {
+          "$ref": "#/definitions/TestSuiteCreateOrganizationInfoApi"
+        },
+        "CompletionCallback": {
+          "$ref": "#/definitions/TestRunCompletionCallbackInfo"
+        }
+      }
+    },
+    "TestSuiteCreateOrganizationInfoApi": {
+      "type": "object",
+      "properties": {
+        "OrganizationUniqueName": {
+          "type": "string"
+        },
+        "AdminUserName": {
+          "type": "string"
+        },
+        "AdminPassword": {
+          "type": "string"
+        },
+        "UsersList": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/UserInfoApi"
+          }
+        }
+      }
+    },
+    "UserInfoApi": {
+      "type": "object",
+      "properties": {
+        "UserName": {
+          "type": "string"
+        },
+        "Password": {
+          "type": "string"
+        }
+      }
+    },
+    "TestRunTriggerCreateRequest": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Type": {
+          "enum": [
+            "Unknown",
+            "Manual",
+            "OrganizationDatabaseUpdate",
+            "OrganizationDatabaseUpgrade",
+            "OrganizationBitsUpdate",
+            "OrganizationPackageInstall",
+            "OrganizationPackageUninstall"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestRunTriggerType"
+          }
+        },
+        "Metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object"
+          }
         }
       }
     }
