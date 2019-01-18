@@ -29,6 +29,8 @@ search.app:
 # Service Level Agreements (SLA) for Work Orders
 
 
+## 1. Enable SLA functionality for Field Service
+
 Enable SLA on Work Order.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Enable SLA on Work Order](./media/work-order-sla-enable-work-order-1.png)
@@ -40,6 +42,7 @@ Navigate to the Field Service Settings record. Navigate the tab "Field Service S
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
 
+## 2. Create a new SLA
 Navigate to Settings > Service Management > Service Level Agreements (in the Web client - SLA is not yet Unified Interface compatible).
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Settings > Service Management > Service Level Agreements](./media/work-order-sla-create-sla-3.png)
@@ -60,6 +63,7 @@ Activate the SLA.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of activating the SLA](./media/work-order-sla-add-more-details-7.png)
 
+## 3. Add the SLA to a Work Order
 Add the SLA field to the WO form. The SLA field is created when SLA functionality is enabled for the work order entity.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding the SLA field to the WO form](./media/work-order-add-sla-field-8.png)
@@ -68,6 +72,7 @@ Create a Work Order associated to your SLA.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating a Work Order associated to your SLA](./media/work-order-add-to-work-order-9.png)
 
+## 4. Schedule a Work Order to meet SLA  
 Asynchronously (meaning not instantaneously but along with other system jobs cadence typically one minute to five minutes), **Time From Promised** and **Time To Promised** will be populated according to the applied SLA and appropriate SLA Item.
 
 > [!div class="mx-imgBorder"]
@@ -78,7 +83,6 @@ Furthermore, Schedule Assistant and Resource Schedule Optimization consider Time
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Schedule Assistant parameters using Time From Promised and Time To Promised field values](./media/work-order-sla-schedule-11.png)
 
-## Configuration Considerations
 
 ## Additional Notes
 - Multiple SLAs and multiple business hours/calendars can be created and utlized for different customers, however a work order can only have one SLA assigned to it.
