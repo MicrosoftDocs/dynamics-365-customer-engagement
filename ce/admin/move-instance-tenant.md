@@ -28,6 +28,9 @@ search.app:
 
 You can use the Tenant to Tenant Migration feature for Dynamics 365 for Customer Engagement apps (online) to request to have an instance in one tenant moved to another tenant. To do so, [contact technical support](contact-technical-support.md) and submit a support request.
 
+> [!IMPORTANT]
+> Dynamics 365 for Customer Engagement apps (online) version 9.0 does not currently support tenant to tenant migration. Check back later for availability. 
+
 There are no user-interface changes or version changes as part of this move. You can move one or multiple Dynamics 365 for Customer Engagement apps (online) instances. Once complete, your Dynamics 365 for Customer Engagement apps (online) instance(s) will appear in your new tenant.
 
 > [!IMPORTANT]
@@ -35,7 +38,6 @@ There are no user-interface changes or version changes as part of this move. You
 > 
 > You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Outlook, server-side sync, SharePoint integration, etc.
 >
-> Dynamics 365 for Customer Engagement apps (online) version 9.0 does not currently support tenant to tenant migration. Check back later for availability. 
 
 ## Impact of migrating between tenants
 
