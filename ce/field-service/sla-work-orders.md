@@ -83,8 +83,11 @@ In this example, the SLA is applicable when the priority field on the work order
 
 We want this SLA to be considered a success when a field technician arrives on site. Therefore, a work order system status of Open-In Progress would indicate this because
 
+SLA Item failure is set to 3 hours meaning from the time the Work Order is created to the time it is considered successful (system status = Open-In Progress) must be under 3 hours in duration according to Business Hours and not absolute time.
 
-Create SLA Details on the KPI that was identified as Arrival Time related.
+SLA Item Warning indicates the SLA status ill be set to warning after 1.5 hours.
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-add-actions-6.png)
 
@@ -93,13 +96,18 @@ Activate the SLA.
 > ![Screenshot of activating the SLA](./media/work-order-sla-add-more-details-7.png)
 
 ## 3. Add the SLA to a Work Order
-Navigate to **Field Service > Work Orders** 
+Navigate to the Work Order form editor. This can be done via
 
-Select a work order record.
+(1) **Field Service > Work Orders > select a work order record > Form Editor** or 
 
-Then go to Form Editor and add the SLA field to the Work Order form. The SLA field is created when SLA functionality is enabled for the work order entity.
+(2) **Settings > Customizations > Customize the System > Entities > Work Order > Forms > then select related Work Order form (generally Main form type)**
+
+
+Next, add the SLA field to the Work Order form. The SLA field is created when SLA functionality is enabled for the work order entity.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding the SLA field to the WO form](./media/work-order-add-sla-field-8.png)
+
+Save & Publish form changes.
 
 Create a Work Order associated to your SLA.
 > [!div class="mx-imgBorder"]
@@ -127,4 +135,5 @@ questions:
 
 - do you have an org?
 - can you create your own KPIs? or do you have to use arrival or resolution time ones
-- what are the field service settings
+- what are the field service settings? how do you utlze multiple ones?
+- how do we know the technician arrives on site? the system status become open-in progress when technician sets booking status to traveling too
