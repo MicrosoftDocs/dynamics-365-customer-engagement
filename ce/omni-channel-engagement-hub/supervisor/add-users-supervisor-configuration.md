@@ -12,7 +12,9 @@ ms.topic: article
 ms.assetid: d5c757b8-3fbc-41db-b59f-7b2ab7baa70a
 ms.custom: 
 ---
-# Add users to the supervisor configuration
+# Private preview: Add users to the supervisor configuration
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 Before users can access the supervisor dashboard in Unified Service Desk, you must add them to the supervisor configuration. Follow these steps to add users to the supervisor configuration.
 
@@ -20,11 +22,13 @@ Before users can access the supervisor dashboard in Unified Service Desk, you mu
 2. Go to **Settings** \> **Unified Service Desk**, and then select **Configuration**.
 3. On the **Configuration** page, select **Supervisor Configuration**.
 
-    ![Select Supervisor Configuration](../media/oc-usd-supervisor-select-supervisor-configuration.png "Select Supervisor Configuration")
+    > [!div class=mx-imgBorder]
+    > ![Select Supervisor Configuration](../media/oc-usd-supervisor-select-supervisor-configuration.png "Select Supervisor Configuration")
 
 4. In the **Users** section, select **Add User record**, and enter the user name of the user that you want to add.
 
-    ![Add users for the supervisor configuration](../media/oc-usd-supervisor-configuration-add-users.png "Add users for the supervisor configuration")
+    > [!div class=mx-imgBorder]
+    > ![Add users for the supervisor configuration](../media/oc-usd-supervisor-configuration-add-users.png "Add users for the supervisor configuration")
 
 5. Save and close the configuration.
 

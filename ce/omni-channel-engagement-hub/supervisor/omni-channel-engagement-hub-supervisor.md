@@ -12,7 +12,9 @@ ms.topic: article
 ms.assetid: af69c199-02bf-4be7-b80b-a02cba759935
 ms.custom: 
 ---
-# Omni-channel Engagement Hub for supervisors
+# Private preview: Omni-channel Engagement Hub for supervisors
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day. Another important part of their job is to manage the volumes of service requests or queries that come into the contact center through different service channels.
 
@@ -33,6 +35,9 @@ As a supervisor, you see the following tabs when you open the Omni-channel Engag
 - **Conversations**: This tab provides information about the conversations that agents are handling that are in active, open, and waiting states. By viewing, you can get a holistic data of the conversations with the details such as customer, agent assigned, subject, queue, and activity status. Further, you can filter the conversations using the queues. Select the queues for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selected queues. Select **Save** to set this filter as default and when you log in to Omni-channel Engagement Hub app in Unified Service Desk, you view conversations based on this filter.
     > [!IMPORTANT]
     > The conversations are view only and you cannot perform actions such as open, edit, or delete.  
+
+    > [!div class=mx-imgBorder]
+    > ![Conversation dashboard on Unified Service Desk app](../media/oc-usd-conversation-dashboard.png "Conversation dashboard on Unified Service Desk app")
 
 ## In this section
 

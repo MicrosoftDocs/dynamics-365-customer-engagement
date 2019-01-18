@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Private preview: Introduction to supervisor dashboards
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
+
 The **Overview** dashboard provides information about the health and key performance indicators (KPIs) of agents in your organization. The KPIs include the number of open work items, the number of active work items, and the number of active work items that have been escalated.
 
 Typically, the **Overview** dashboard is divided into two sections:
@@ -27,7 +29,8 @@ The **Live monitoring** section shows information that is automatically updated 
 
 The following illustration shows an example of the **Live monitoring** section.
 
-![Live work monitoring for supervisors](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisors")
+> [!div class=mx-imgBorder]
+> ![Live work monitoring for supervisors](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisors")
 
 This section of the dashboard consists of the following KPIs.
 
@@ -45,7 +48,8 @@ The **Intraday monitoring** section provides information about the latest KPIs, 
 
 The following illustration shows an example of the **Intraday monitoring** section.
 
-![Intraday work monitoring for supervisors](../media/oc-usd-supervisor-overview-intraday-monitoring.png "Intraday work monitoring for supervisors")
+> [!div class=mx-imgBorder]
+> ![Intraday work monitoring for supervisors](../media/oc-usd-supervisor-overview-intraday-monitoring.png "Intraday work monitoring for supervisors")
 
 This section of the dashboard consists of the following KPIs.
 
@@ -70,11 +74,13 @@ This section of the dashboard consists of the following KPIs.
 You can filter the information by viewing the reports and selecting the **Queues** that are custom defined for your organization. To view and select queue: 
 1. Select the **More options** icon (…) on any KPI and then select **Go to report**, or simply select the KPI tile.
     
-    ![Select filter option](../media/oc-usd-supervisor-section-apply-filters.png "Select filter option")
+    > [!div class=mx-imgBorder]
+    > ![Select filter option](../media/oc-usd-supervisor-section-apply-filters.png "Select filter option")
     
     The report opens as shown in the following example:
-    
-    ![View report](../media/oc-usd-supervisor-section-filters-applied-view.png "View report")
+
+    > [!div class=mx-imgBorder]
+    > ![View report](../media/oc-usd-supervisor-section-filters-applied-view.png "View report")
 
 2. Select the queues as required and the information is filtered according to your selection.  
     For example, you are managing agents for a call center that handles requests on financial trading. The following queues are defined for your organization: DMAT, Payments, and Bank. Based on these queues, when you select DMAT and payments, you will see KPIs such as the ongoing work items, agents who are assigned to this process, and work items handled today. This helps you in quickly analyzing the KPIs and take necessary steps to improve outcomes. 

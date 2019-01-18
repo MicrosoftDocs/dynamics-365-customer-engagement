@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Private preview: Configure the supervisor dashboard
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
+
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents, and make sure that they remain highly productive. At the same time, they help guarantee a superior experience for customers. To help supervisors carry out this dual responsibility, the supervisor dashboard consists of the following information:
 
 - Unified views for different roles in the service operations organization
@@ -24,11 +26,10 @@ As an admin, you must enable and configure the supervisor dashboard in your orga
 1. [Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md).
 2. [Add users to the supervisor configuration](add-users-supervisor-configuration.md).
 
-<<<<<<< HEAD
 > [!div class="nextstepaction"]
 > [Next topic: Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
-=======
+
+
 ## See also
 
 - [Introduction to supervisor dashboard](omni-channel-engagement-hub-supervisor.md)
->>>>>>> 48ff12df328d9b2eeed004d6f2880d2c197e22f1

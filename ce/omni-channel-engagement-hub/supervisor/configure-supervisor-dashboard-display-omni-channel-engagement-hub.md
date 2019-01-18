@@ -14,9 +14,12 @@ ms.custom:
 ---
 # Private preview: Configure the supervisor dashboard to appear in Omni-channel Engagement Hub
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
+
 The following illustration shows an overview of the process for configuring the supervisor dashboard to appear in Omni-channel Engagement Hub.
 
-![Steps to configure the supervisor dashboard](../media/oc-usd-supervisor-dashboard-configuration.png "Steps to configure the supervisor dashboard")
+> [!div class=mx-imgBorder]
+> ![Steps to configure the supervisor dashboard](../media/oc-usd-supervisor-dashboard-configuration.png "Steps to configure the supervisor dashboard")
 
 ## Step 1: Prerequisites
 
@@ -98,19 +101,22 @@ When you provision the Power BI reports, the **IntradayMonitoring** and **LiveMo
 
 1. Sign in to Dynamics 365, and open the **Omni Channel Engagement Hub** app.
 
-    ![Open Omni-channel Engagement Hub](../media/oc-usd-supervisor-dashboard-configuration-open-oceh.png "Open Omni-channel Engagement Hub")
+   > [!div class=mx-imgBorder]
+   > ![Open Omni-channel Engagement Hub](../media/oc-usd-supervisor-dashboard-configuration-open-oceh.png "Open Omni-channel Engagement Hub")
 
 2. Select the **Site Map** button ![Site Map button](../media/oc-usd-supervisor-dashboard-site-map.png "Site Map button"), and then select **Supervisor experience** \> **Overview dashboard**.
 
     The analytics view appears.
-
-    ![Active analytics view to configure Power BI](../media/oc-usd-supervisor-dashboard-active-analytics-view.png "Active analytics view to configure Power BI")
+    
+    > [!div class=mx-imgBorder]
+    > ![Active analytics view to configure Power BI](../media/oc-usd-supervisor-dashboard-active-analytics-view.png "Active analytics view to configure Power BI")
 
 3. Select **New**.
 
     The **Power BI Analytics Configuration** page appears.
 
-    ![Configure Power BI values](../media/oc-usd-supervisor-dashboard-configure-powerbi-values.png "Configure Power BI values")
+    > [!div class=mx-imgBorder]
+    > ![Configure Power BI values](../media/oc-usd-supervisor-dashboard-configure-powerbi-values.png "Configure Power BI values")
 
 4. Enter the following information:
 
@@ -128,12 +134,10 @@ When you provision the Power BI reports, the **IntradayMonitoring** and **LiveMo
 
 5. Save and close the configuration.
 
-    The **IntradayMonitoring** report should now be available in your workspace.
-
     > [IMPORTANT]
     > Don't create more than one analytics configuration in your Dynamics 365. If you have more than one, the application uses only the configuration that you created last. If you want to add a new analytics configuration, first delete or inactivate the existing configuration.
 
-6. Download the **LiveMonitoring** report file (.pbit file) from [GitHub](https://github.com/Microsoft/BusinessPlatformApps/tree/dev/Samples/D365OmniChannel/Preview).<!-- This is to be changed -->
+6. Go to <portal location> and download the the **IntradayMonitoring** and **LiveMonitoring** pbit files to your local folder.
 
 You now have the reports that you need to configure the dashboards in Power BI.
 
@@ -153,7 +157,7 @@ Follow these steps to configure Power BI dashboards.
 
 1. Open the **Power BI Desktop** app, and sign in by using your credentials.
 2. Go to the workspace that you created in [Step 5: Sign in to Power BI and create an app workspace](#step-5-sign-in-to-power-bi-and-create-an-app-workspace).
-3. Go to **File** &gt; **Import** &gt; **Power BI template**, and select the **IntradayMonitoring.pbit** file that you downloaded.
+3. Go to **File** &gt; **Import** &gt; **Power BI template**, and select the **IntradayMonitoring.pbit** file that you downloaded to you local folder.
 
     A dialog box appears.
 
@@ -166,15 +170,19 @@ Follow these steps to configure Power BI dashboards.
 
 7. Publish and save the .pbix file to the workspace that you created.
 
-    Reports are created.
+    Report is created.
+
+8. Repeat steps 3 to 7 for **LiveMonitoring.pbit** and create report. 
 
 8. Change the refresh rate of **IntradayMonitoring** data set to 15 minutes. Open the data set in Power BI service (Power BI online) and perform the following steps:
 
     a. Right-click the more options icon (...) and select **SETTINGS**.<br> 
-        ![Select Settings option](../media/oc-pbi-reportsettings.png "Select Settings option")
+      > [!div class=mx-imgBorder]
+      > ![Select Settings option](../media/oc-pbi-reportsettings.png "Select Settings option")
 
     b. On the settings page, go to **Datasets** tab and under **Scheduled cache refresh** change **Refresh frequency** to 15 minutes. <br>
-        ![Select refresh rate](../media/oc-pbi-changerefreshrate.png "Select refresh rate")
+      > [!div class=mx-imgBorder]
+      > ![Select refresh rate](../media/oc-pbi-changerefreshrate.png "Select refresh rate")
 
     c. Select **Apply**.
 
@@ -183,7 +191,8 @@ Follow these steps to configure Power BI dashboards.
 
     The following illustration shows what a dashboard looks like when you pin tiles to it.
 
-    ![Live work monitoring for supervisor](../media/oc-usd-supervisor-section-filters-applied-view.png "Live work monitoring for supervisor")
+    > [!div class=mx-imgBorder]
+    > ![Live work monitoring for supervisor](../media/oc-usd-supervisor-section-filters-applied-view.png "Live work monitoring for supervisor")
 
 11. Select **Set as featured** for the dashboard that you created.
 12. Copy the URL of the dashboard for Unified Service Desk configuration.
@@ -209,12 +218,11 @@ You must configure Unified Service Desk to show the supervisor dashboards when a
 
 The supervisor dashboard is configured, and supervisors can now sign in to omni-channel and view the dashboard.
 
-<<<<<<< HEAD
 > [!div class="nextstepaction"]
 > [Next topic: Add users to the supervisor configuration](add-users-supervisor-configuration.md)
-=======
+
+
 ## See also
 
 - [Add users to the supervisor configuration](add-users-supervisor-configuration.md)
 - [Introduction to supervisor dashboard](omni-channel-engagement-hub-supervisor.md)
->>>>>>> 48ff12df328d9b2eeed004d6f2880d2c197e22f1
