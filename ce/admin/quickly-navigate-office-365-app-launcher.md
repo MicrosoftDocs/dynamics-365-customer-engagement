@@ -112,7 +112,7 @@ search.app:
   
    The app will appear at the top of the home page and in the task pane.  
   
-   ![Dynamics 365 for Customer Engagement apps app pinned to the home page](../admin/media/dynamics-365-app-pinned-onhome-page.png "Dynamics 365 for Customer Engagement apps app pinned to the home page")  
+   ![Dynamics 365 for Customer Engagement apps pinned to the home page](../admin/media/dynamics-365-app-pinned-onhome-page.png "Dynamics 365 for Customer Engagement apps pinned to the home page")  
   
    Pinned in the home page.  
   
@@ -124,13 +124,13 @@ search.app:
 ### Search your apps 
  If you have a lot of apps, you can search for specific ones.  
   
- ![Search for Dynamics 365 for Customer Engagement apps apps](../admin/media/search-dynamics-365-apps.png "Search for Dynamics 365 for Customer Engagement apps apps")  
+ ![Search for Dynamics 365 for Customer Engagement apps](../admin/media/search-dynamics-365-apps.png "Search for Dynamics 365 for Customer Engagement apps")  
   
 <a name="BKMK_Dyn365AppSwitcher"></a>   
-## For admins and end users: Select a Dynamics 365 for Customer Engagement apps app from the new app switcher  
+## For admins and end users: Select a Dynamics 365 for Customer Engagement apps from the new app switcher  
  For customers who have upgraded to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] or later, you can use the app switcher in [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] to quickly select other [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] apps for which you're licensed.  
   
- ![Dynamics 365 for Customer Engagement apps app switcher](../admin/media/useapp-switchergoother-dynamics-365-apps.png "Dynamics 365 for Customer Engagement apps app switcher")  
+ ![Dynamics 365 for Customer Engagement apps switcher](../admin/media/useapp-switchergoother-dynamics-365-apps.png "Dynamics 365 for Customer Engagement apps switcher")  
   
  You can pin apps using the ellipses on this menu, which will pin to the menu and to the home page.  
   

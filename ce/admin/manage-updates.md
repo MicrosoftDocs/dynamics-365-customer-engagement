@@ -2,7 +2,7 @@
 title: "Manage Dynamics 365 for Customer Engagement apps (online) updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/25/2018
+ms.date: 01/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,14 +22,18 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Manage updates 
+# Manage updates
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)]
 
 On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 for Customer Engagement apps updates: [Modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog). Microsoft will continue to support older versions of Dynamics within the timeframe of the details in our [Update policy](../admin/manage-updates.md#BKMK_Policy). 
 
 > [!TIP]
 > Many update questions are answered here: [FAQ for Dynamics 365 for Customer Engagement apps Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy).
+>
+> Check out the following blog: [Previewing April 2019 release functionalities and updates for Dynamics 365 for Customer Engagement](https://blogs.msdn.microsoft.com/crm/2018/12/12/previewing-april-2019-release-functionalities-and-updates-for-dynamics-365-for-customer-engagement/).
 
 You have options for when you update your Dynamics 365 for Customer Engagement apps (online) organization to Dynamics 365 for Customer Engagement apps (online), version 9.x. To prepare for a smooth process, use the information in this topic.
 
@@ -68,7 +72,7 @@ If you're running Microsoft Dynamics CRM Online, please review the following:
 
 Since every customer will be updated on the continuous delivery schedule, your organization needs to update to the latest version.  
 
-For customers who are currently running older versions of Dynamics 365 for Customer Engagement, we will continue to provide you with the ability to schedule an update to the latest version and want to make sure this effort is as seamless as possible through continuous improvements in our update engine. We will send reminders to schedule your update to Dynamics 365 for Customer Engagement apps administrators.  
+For customers who are currently running older versions of Dynamics 365 for Customer Engagement, we will continue to provide you with the ability to schedule an update to the latest version and want to make sure this effort is as seamless as possible through continuous improvements in our update engine. We will send reminders to schedule your update to Dynamics 365 for Customer Engagement administrators.  
 
 - For Dynamics 365 for Customer Engagement apps (online) customer engagement applications, we sent update communications in May to all customers running version 8.1 and have scheduled updates.
 - Dynamics 365 for Customer Engagement apps (Online) **version 8.2 will be fully supported until January 31, 2019**. Customers running version 8.2 should plan to update to the latest version prior to this date. 

@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/29/2018
+ms.date: 01/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -41,7 +41,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for Customer Engagement apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
  Follow these steps to check and assign the security privilege for a security role:  
   
@@ -51,7 +51,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
   
 3. Choose a security role > **Business Management** tab.  
   
-4. In the **Privacy Related Privileges** section, verify that **Dynamics 365 for Customer Engagement apps for mobile** is set to **Organization**. If not, click **Dynamics 365 for Customer Engagement apps for mobile**.  
+4. In the **Privacy Related Privileges** section, verify that **Dynamics 365 for mobile** is set to **Organization**. If not, click **Dynamics 365 for mobile**.  
   
 5. Click **Save and Close** to save the changes to the security role.  
   
@@ -86,7 +86,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
  
    -   View  
  
-   -   App
+   -   Model-driven App
   
 4. Choose a security role > **Business Management** tab. Verify that the **Read** permission is set for the following entity:  
   

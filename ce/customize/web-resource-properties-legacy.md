@@ -1,5 +1,5 @@
 ---
-title: Web resource properties for Main forms in PowerApps | MicrosoftDocs
+title: Web resource properties for Main forms | MicrosoftDocs
 description: Understand the Web resource properties for Main forms
 Keywords: Main form; Web resource properties; Dynamics 365 for Customer Engagement
 author: Mattp123

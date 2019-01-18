@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-To use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, your email must be synchronized using server-side synchronization. Contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md)  
+To use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, your email must be synchronized using server-side synchronization. Contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
 
  **For Admins**  
 
