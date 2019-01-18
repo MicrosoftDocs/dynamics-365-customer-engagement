@@ -29,14 +29,14 @@ Routing rules help collect conversations, based on the condition that is applied
 > [!div class=mx-imgBorder]
 > ![Rule destination](../media/oc-rule-destination.png)
 
-Routing rules evaluate conversations based on the context channel, customer attributes, and agent attributes. For example, you can define a routing rule so that chats from preferred customers who have specific queries about investments can be routed to a specific queue. The following illustration shows the rule configuration for this example.
+Routing rules evaluate conversations based on the context channel, customer attributes, and agent attributes. For example, you can define a routing rule so that chats from high priority customers who have specific queries about investments can be routed to a specific queue. The following illustration shows the rule configuration for this example.
 
 > [!div class=mx-imgBorder]
 > ![Configured rule](../media/configured-rule.png)
 
 Routing rule items are run in a specific order, and the conversations are routed according to the destination. Collectively, the conditions form a criterion for a rule item. Therefore, for a conversation, if the criterion in a rule item is evaluated as true, the conversation is routed to the designated destination. Otherwise, the criterion in the next rule item is evaluated. 
 
-If the criteria in all the rule items are evaluated as false, the conversation goes to a default queue.
+If the criteria in all the rule items are evaluated as false, the conversation goes to a **Default** queue.
 
 ## Create a routing rule
 To create a routing rule, select a work stream by navigating to **Work Distribution Management** > **Work Streams**, and define a new rule in the **Routing Rule Item** tab.

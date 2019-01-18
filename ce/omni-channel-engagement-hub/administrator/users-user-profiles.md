@@ -55,12 +55,6 @@ Follow these steps to update the details of a user in Omni-channel Engagement Hu
         1. In the **Client Access License Information** section, select the access mode in the drop-down list.
         2. In the **Email Configuration** section, select the mailbox that is associated with the user.
 
-    - **Omni-channel**:
-
-        1. In the **User Details** section, assign a capacity and a default presence status.
-        2. In the **Omni-channel Queues** section, assign an existing omni-channel queue.
-        3. In the **Work Streams** section, assign an existing work stream.
-
 3. Select **Save** to the save the user record.
 
 You can also enable or disable a user in omni-channel. Select the user record in **Omni-channel Users** view, and then select **Enable** or **Disable** on the command bar.

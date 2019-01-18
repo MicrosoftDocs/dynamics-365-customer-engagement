@@ -14,36 +14,43 @@ ms.custom:
 ---
 # Create and manage work streams
 
-Work streams define the settings and properties for a specific source or originating point that customer requests or queries can come from. For example, if requests originate from two chat portals, you can create a different work stream for each of them. If conversations are created as case records, you can create a separate work stream for them.
+A work stream is a collection of routing & work distribution settings. A work stream can belong to multiple conversation sources of same type, for example live chat. In that case, all those conversations inherit routing and work distribution settings of the work stream they belong to. 
 
-All work streams are associated with unique channels. Channels can be defined for chats, entities, and so on. A work stream can't be associated with more than one channel.
+For example, multiple live chat widgets can be associated with a single work stream. Hence, all the chat conversations from these widgets are routed and distributed based on the defined work stream settings.
 
 Omni-channel Engagement Hub has some predefined work streams. However, as an admin, you can define new work streams to introduce a new source.
 
 ![Omni-channel work streams](../media/oc-workstream-view.png)
 
-There are two types of work streams:
+In omni-channel, you can create two types of work streams:
 
-- Live Chat work stream
+- Live chat work stream
 - CDS Entity work stream
 
-## Live Chat work stream
+A work stream comprises of the following properties:
 
-When you set up Live Chat work streams, you define the following properties:
+- **Channels**: In Omni-channel Engagement Hub, a channel is defined as a medium via which a customer reaches out for support. For example, a customer can chat with an agent through the chat channel. 
+   
+- **Allowable Presence**: Allowable presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
 
-- **Channels**: In Omni-channel Engagement Hub, a channel is defined as a medium that customers can reach out and engage with agents through. For example, a customer can chat with an agent through the chat channel. As an admin, you can select the channel that a work stream is created for. 
+    For more information, see [Configure presence and custom presence](presence-custom-presence.md).
+
+- **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the live chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity.
+
+- **Work distribution mode**:  Work distribution mode defines the experience of how agents can take up a conversation - via **Push** or **Pick** mode. In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in agent dashboard.
+
+    For more information, see [View agent dashboard and agent work items](../agent/agent-usd/introduction-agent-dashboard.md).
+ 
+
+- **Context attributes**: Context attributes enrich conversations with pre-chat data, channel data, and custom (3rd party/LOB) data. For example, for a chat conversation, context attributes include browser information, IP address, answers to pre-chat questions, customer ID (for authenticated chat), time spent on a page and more. These variables can then be used to define routing rules to channelize conversations into different queues. 
    > [!NOTE]
-   > In this preview, work streams can be defined for chat and entity channels.
-- **Allowable Presence**: Allowable presence helps assign work streams only to agents whose presence status is one of the **Available** presence statuses that are associated with the work stream. For more information, see [Configure presence and custom presence](presence-custom-presence.md).
+   > For this preview, context variables are applicable only for live chat.
 
-- **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity are defined as capacity in the work stream. For example, a conversation in the Live Chat work stream from the portal has a capacity of 20 units. When this conversation is assigned to an agent, it consumes 20 units of agent's capacity.
+- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. 
 
-- **Work distribution mode and context attributes**: The context attributes can vary for each work stream. For example, for a chat conversation, context attributes include the browser, IP address, answers to pre-chat questions, and customer ID (for authenticated chat). These attributes can then be used to define routing rules that channel conversations to different queues.
-   > [!NOTE]
-   > Context attributes can be declared and defined at the work stream level, so that the omni-channel system understands the kind of conversations that it will receive. Conversations are preloaded with specific context attributes. Based on the context attributes, the system makes logical decisions and distributes the conversations to the correct omni-channel queue or agent. For this preview, context attributes are applicable only for Live Chat work stream.
-- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. For more information, see [Configure record identification rule](record-identification-rule.md).
+    For more information, see [Configure record identification rule](record-identification-rule.md).
 
-- **Routing rules**: Routing rules are configured for each work stream, so that conversations can be distributed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
+- **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
 
 ## Create a new live chat work stream
 
@@ -62,7 +69,7 @@ Follow these steps to create a new live chat work stream.
       3. **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
          > [!NOTE]
          > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
-      4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
+      4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. For more information, see [Understand the conversation state lifecycle](conversation-state-lifecycle.md).
       5. **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
       6. Select **Save** to save the work stream.
 
@@ -80,7 +87,7 @@ Follow these steps to create a new live chat work stream.
 
 7. Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
 
-6. Select **Save** to save the Live Chat work stream.
+6. Select **Save** to save the live chat work stream.
 
    > [!div class=mx-imgBorder] 
    > ![New workstream](../media/omni-channel-new-work-stream.png)
