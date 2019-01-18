@@ -12,6 +12,7 @@
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Field Service settings](configure-default-settings.md)
+## [Version history](version-history.md)
 
 # Quickstarts
 ## [Schedule a work order](quickstart-schedule-work-order.md)
@@ -73,6 +74,7 @@
 ###  [View product inventory](view-product-inventory.md)
 ###  [Create an inventory transfer](create-inventory-transfer.md)
 ###  [Create an inventory adjustment](create-inventory-adjustment.md)
+###  [Manual inventory journals](manual-inventory-journals.md)
 ###  [Process a return](process-return.md)
 ###  [Return product to vendor](create-return-vendor.md)
 ### [RMA sub-status](create-rma-sub-status.md)
