@@ -57,13 +57,13 @@ For more information, see [A user does not appear in the All Eligible Users list
 For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
 
 ## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. Why is this happening?
-For more informatoin, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
+For more information, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
 
 ## I am unable to track contacts.
-For more informatoin, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
+For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
 
 ## I need help troubleshooting the App.
-For more informatoin, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
+For more information, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
 
 ## The warning and error messages in Dynamics 365 are not in the language selected in Dynamics 365. Why?
 When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 language setting in order to be consistent with the host application experience.
