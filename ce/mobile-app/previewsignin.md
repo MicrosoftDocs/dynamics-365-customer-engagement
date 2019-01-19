@@ -43,7 +43,11 @@ To sign in, using your work email address, enter your email address, and then se
 
 ### Basic navigation
 
-1.	When you sign in, you’ll see a list of all apps that you have access to.
+1.	When you sign in, you will see a list of apps that you have acceess to.
+
+> [!NOTE]
+> If you have access to multiple organizations then you will see all the apps that you have access to across organizatoins.
+
 2.	Select the app that you want to use.
 
 ![Select an app to use](media/openanapp.png "Select an app to use"). 
@@ -54,7 +58,7 @@ From the top right, select ![Sign out](media/gearsignout.png "Sign out") > **Sig
 
 ![Sign out](media/signout1.png "Sign out")
 
-## Sign in using web URL
+## Sign in using web address
 
 You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
 
