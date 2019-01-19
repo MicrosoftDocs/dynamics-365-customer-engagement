@@ -56,12 +56,16 @@ From the top right, select ![Sign out](media/gearsignout.png "Sign out") > **Sig
 
 ## Sign in using web URL
 
-You can also sign in using your Dynamics 365 Customer Engagement app web address URL and user name and password. On the sign-in screen screen choose **Sign in with a web address instead** option and enter your sign-in information. 
+You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
+
+1. On the sign-in screen screen choose **Sign in with a web address instead** option.
 
 ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
 > [!NOTE]
 > If you need help with your sign in information, contact your Dynamics 365 admin
+
+2. Enter the URL for your Dynamics 365 Customer Engagement app and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
 ### Basic navigation
 
