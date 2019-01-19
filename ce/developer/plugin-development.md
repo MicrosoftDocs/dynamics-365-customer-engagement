@@ -2,7 +2,7 @@
 title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement apps to modify or augment the standard behavior of the platform. "
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 1/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,16 +26,13 @@ search.app:
 
 A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.  
   
- For more information about plug-in run-time execution, see [Event Execution Pipeline](event-execution-pipeline.md).  
+ For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework.md).  
   
-## In This Section  
+## In This Section
+
  [Write a Plug-in](write-plugin.md)  
   
- [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)  
-  
  [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md)  
-  
- [Passing Data Between Plug-ins](pass-data-between-plug-ins.md)  
   
  [Impersonation in Plug-ins](impersonation-plugins.md)  
   
@@ -43,19 +40,8 @@ A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[
   
  [Debug a Plug-in](debug-plugin.md)  
   
- [Analyze Plug-in Performance](analyze-plugin-performance.md)  
-  
- [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md)  
-  
  [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md)  
-  
- [Sample: Basic Plug-in](sample-create-basic-plugin.md)  
-  
- [Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)  
   
 ## Related Sections  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)  
-  
- [Event Execution Pipeline](event-execution-pipeline.md)  
-  
  [Web Service Authentication and Impersonation](authenticate-users.md)
