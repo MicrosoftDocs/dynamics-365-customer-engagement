@@ -46,7 +46,7 @@ To sign in, using your work email address, enter your email address, and then se
 1.	When you sign in, you will see a list of apps that you have acceess to.
 
 > [!NOTE]
-> If you have access to multiple organizations then you will see all the apps that you have access to across organizatoins.
+> If you have access to multiple organizations then you will see all the apps that you have access to across organizations.
 
 2.	Select the app that you want to use.
 
