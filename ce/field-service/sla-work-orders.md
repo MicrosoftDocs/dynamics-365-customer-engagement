@@ -56,6 +56,12 @@ As more KPI scenarios are released they will be available here.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
 
+this creates a relationship between SLA KPI and Work Order
+
+define relationship between SLA KPI instance and the work order entity
+
+KPIs allow tracking of success and failure for this particular measurement
+
 ## 2. Create a new SLA
 
 
@@ -82,6 +88,11 @@ Next let's create SLA details.
 In this example, the SLA is applicable when the priority field on the work order is set to High.
 
 We want this SLA to be considered a success when a field technician arrives on site. Therefore, a work order system status of Open-In Progress would indicate this because
+
+Open in progress
+open completed
+closed posted
+closed cancelled
 
 SLA Item failure is set to 3 hours meaning from the time the Work Order is created to the time it is considered successful (system status = Open-In Progress) must be under 3 hours in duration according to Business Hours and not absolute time.
 
