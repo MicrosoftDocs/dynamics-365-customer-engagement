@@ -34,28 +34,44 @@ search.app:
 
 Sign in to the Dynamics 365 mobile app quickly using your work email address. 
 
-## Sign in 
+## Sign in using your email address
 
 To sign in, using your work email address, enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
-![Enter email address](media/previewsignin.png "Enter email address to sign-in in")
+![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
+
+
+### Basic navigation
+
+1.	When you sign in, you’ll see a list of all apps that you have access to.
+2.	Select the app that you want to use.
+
+![Select an app to use](media/openanapp.png "Select an app to use"). 
+
+### Sign out
+
+From the top right, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
+
+![Sign out](media/signout1.png "Sign out")
+
+## Sign in using web URL
 
 You can also sign in using your Dynamics 365 Customer Engagement app web address URL and user name and password. On the sign-in screen screen choose **Sign in with a web address instead** option and enter your sign-in information. 
 
 ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
 > [!NOTE]
-> If you need help with your sign in information, contact your Dynamics 365 admin.
+> If you need help with your sign in information, contact your Dynamics 365 admin
 
-## Sign out
+### Basic navigation
+
+1.	When you sign in, you’ll see a list of all apps that you have access to.
+2.	Select the app that you want to use.
+
+![Select an app to use](media/navwebsignin.png "Select an app to use"). 
+
+### Sign out
 
 From the nav bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
 ![Sign out](media/previewsignout.png "Sign out")
-
-## Basic navigation
-
-1.	When you sign in, you’ll see a list of all apps that you have access.
-2.	Select the app that you want to use.
-
-![Select an app to use](media/openanapp.png "Select an app to use"). 
