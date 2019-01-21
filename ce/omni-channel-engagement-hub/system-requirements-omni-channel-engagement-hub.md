@@ -1,5 +1,5 @@
 ---
-title: "Pre-requisities and system requirements of Omni-channel Engagement Hub"
+title: "Pre-requisites and system requirements of Omni-channel Engagement Hub"
 description: "Learn about the system requirements of Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -13,9 +13,9 @@ ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
 ms.custom: 
 ---
 
-# Pre-requisities and system requirements of Omni-channel Engagement Hub - Preview
+# Pre-requisites and system requirements of Omni-channel Engagement Hub - Preview
 
-This topic provides information about the pre-requisities and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
+This topic provides information about the pre-requisites and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
 
 You can deploy Omni-channel Engagement Hub - Preview solution over a Customer Engagement application and experience it through the following ways:
 
@@ -23,7 +23,7 @@ You can deploy Omni-channel Engagement Hub - Preview solution over a Customer En
 
 - Web experience on Dynamics 365 Unified Interface application.
 
-## Pre-requisities
+## Pre-requisites
 
 To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
 
