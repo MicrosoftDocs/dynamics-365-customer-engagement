@@ -53,7 +53,7 @@ To learn about unified routing and work distribution in more detail, see the fol
 
 - [Create and manage work streams](work-streams.md)
 - [Configure record identification rule](record-identification-rule.md)
-- [Configure presence and custom presence](presence-custom-presence.md)
+- [Configure and manage presence status](presence-custom-presence.md)
 - [Create and manage users](users-user-profiles.md)
 - [Create and manage routing rules](routing-rules.md)
 - [Work with queues](queues-omni-channel.md)

@@ -33,7 +33,7 @@ A work stream comprises of the following properties:
    
 - **Allowable Presence**: Allowable presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
 
-    For more information, see [Configure presence and custom presence](presence-custom-presence.md).
+    For more information, see [Configure and manage presence status](presence-custom-presence.md).
 
 - **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the live chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity.
 
@@ -133,20 +133,26 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
     ![custom connector](../media/custom-connector-settings.png)
 
-4. Enter the name for the custom connector. The name of your environment is the custom connector name here.
+3. Enter the name for the custom connector. The name of your environment is the custom connector name here.
 
     ![Custom connestor name](../media/custom-connector-name.png)
-1. On the **Create Custom Connector** menu, select **Import an API file**.
+
+4. On the **Create Custom Connector** menu, select **Import an API file**.
 
     > [!NOTE]
     > Go to the Download Center, and save the file to your local computer. Select this location from your local machine while importing  the API file and select **Continue**.
 
-5. Select **Test**. When you receive a message that states that you must create a custom connector before you can test the connection, select **Create connector**.
+5. Update the host name to the INT environment's host name.
+
+    > [!div class=mx-imgBorder] 
+    > ![update host name](../media/update-host-name.png)
+
+6. Select **Test**. When you receive a message that states that you must create a custom connector before you can test the connection, select **Create connector**.
 
     ![Test connector](../media/test-connector.png)
 
-1. After the connector is created, select **New Connection**. A new connection is created, and the connection name is automatically selected.
-2. Provide the following information, and then select **Test Operation** to test the connection:
+7. After the connector is created, select **New Connection**. A new connection is created, and the connection name is automatically selected.
+8. Provide the following information, and then select **Test Operation** to test the connection:
 
       1. **Organization ID**: Select your organization ID.
       2. **Live work stream ID**: Select the ID of your live work stream.
@@ -161,18 +167,18 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
          > [!IMPORTANT]
          > At first, the request will fail, and you will receive a 404 error. Continue to test the operation until you receive a 202 response. Usually, the connection takes about 15 minutes to start to work.
 
-8. After the connection is established, and you receive a 202 response, go to **My Flows**.
-9. Select **Create from Blank** to create a flow.
+9. After the connection is established, and you receive a 202 response, go to **My Flows**.
+10. Select **Create from Blank** to create a flow.
 
     ![create flow](../media/create-flow.png)
-1. Update the name of the flow, and enter the environment name.
-2. Search for the **Dynamics 365 - When a record is created** trigger, and select it.
+11. Update the name of the flow, and enter the environment name.
+12. Search for the **Dynamics 365 - When a record is created** trigger, and select it.
 
     ![Record connector](../media/record-connector.png)
 
-1. Select your organization and the name of the entity that must be routed.
-2. Select **New Step \> Add an action**. Search for your custom connector, and then select the action.
-3. Provide the following information:
+13. Select your organization and the name of the entity that must be routed.
+14. Select **New Step \> Add an action**. Search for your custom connector, and then select the action.
+15. Provide the following information:
 
       1. **Entity Logical Name**: Enter the logical name of the Common Data Service for Apps entity that must be routed.
       2. **Entity Set Name**: Enter the entity name of the Common Data Service for Apps entity that must be routed. (Typically, the end of this name is a plural form of the logical name.)
@@ -184,7 +190,7 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
          ![connector action](../media/connector-action.png)
          
-15. After all the information is entered, select **Test** to test the flow. Then select **I'll perform the trigger action and save the flow**.
+16. After all the information is entered, select **Test** to test the flow. Then select **I'll perform the trigger action and save the flow**.
 
     To test the flow with the entity, follow these steps:
 

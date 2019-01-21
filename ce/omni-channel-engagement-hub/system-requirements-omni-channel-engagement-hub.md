@@ -1,5 +1,5 @@
 ---
-title: "Pre-requisities and system requirements of Omni-channel Engagement Hub"
+title: "Pre-requisites and system requirements of Omni-channel Engagement Hub"
 description: "Learn about the system requirements of Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -13,9 +13,9 @@ ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
 ms.custom: 
 ---
 
-# Pre-requisities and system requirements of Omni-channel Engagement Hub - Preview
+# Pre-requisites and system requirements of Omni-channel Engagement Hub - Preview
 
-This topic provides information about the pre-requisities and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
+This topic provides information about the pre-requisites and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
 
 You can deploy Omni-channel Engagement Hub - Preview solution over a Customer Engagement application and experience it through the following ways:
 
@@ -23,7 +23,7 @@ You can deploy Omni-channel Engagement Hub - Preview solution over a Customer En
 
 - Web experience on Dynamics 365 Unified Interface application.
 
-## Pre-requisities
+## Pre-requisites
 
 To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
 
@@ -40,8 +40,11 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 | Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
 | Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li> |
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
+| Memory (Hardware) | ^8-GB RAM or more |
 
-For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
+^ The memory requirement is for running basic scenarios. The actual memory required for Unified Service Desk client application increases with the complex Omni-channel Engagement Hub configurations.
+
+For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with web experience
 
@@ -73,5 +76,5 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 - [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
-- [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
+<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
 - [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
