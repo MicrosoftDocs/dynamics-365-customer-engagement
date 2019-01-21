@@ -15,7 +15,7 @@ ms.custom:
 
 # Introduction to the agent interface in Omni-channel Engagement Hub
 
-When you sign in to Unified Service Desk, the Omni-channel Engagement Hub interface has the following components:
+When you sign in to Omni-channel Engagement Hub through Unified Service Desk, the Omni-channel Engagement Hub interface has the following components:
 
  - Omni-channel toolbar
 
