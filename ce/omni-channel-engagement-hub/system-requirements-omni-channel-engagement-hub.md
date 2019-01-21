@@ -76,5 +76,4 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 - [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
-- [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
 - [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
