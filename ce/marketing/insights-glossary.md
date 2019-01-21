@@ -64,11 +64,13 @@ This topic provides definitions of terms commonly used to describe marketing res
 </dt><strong><a name="email-opened"></a>Email opened</strong></dt>
 <dd>An email is registered as having been opened each time a recipient opens the message and allows it to load images. It works because Dynamics 365 for Marketing includes an embedded link to a clear, 1x1 pixel image in each message it sends. This type of image is sometimes called a web beacon. The actual web-beacon image is stored on the Dynamics 365 server, so each time a contact opens the message and loads its images, that message requests the beacon image using a URL that includes information about which message and which contact is requesting it. Marketing can report both total opens and unique opens. Unique opens count at most one open of each message by each recipient. Total opens also count multiple opens of the same message by any recipient.  Note that if a contact doesn't allow the images to load when opening a message, then no open will be recorded, but link clicks will still be counted. The technique used to register opens can sometimes produce misleading results when a message is forwarded&mdash;see <a href="#email-forwarded">Email forwarded</a> in this glossary for details.</dd>
 
-<!-- find def for "Email processed" and put it here -->
+</dt><strong>Email processed</strong></dt>
+<dd>A processed email is a message that has been successfully rendered for a specific recipient, resulting in a message that is valid and ready to send.<br>
+<code>Processed = Inflow - Processing – Stopped – Failed</code></dd>
 
 </dt><strong>Email sent</strong></dt>
 <dd>A sent message is one that Dynamics 365 attempted to deliver to a contact during a customer journey, after removing duplicate, stopped, and blocked contacts.  Some of these messages may still fail to get delivered due to soft or hard bounces.<br>
-<code>Sent = SegmentContacts –  DuplicateContacts – BlockedContacts – StoppedContacts</code></dd>
+<code>Sent = SegmentContacts – DuplicateContacts – BlockedContacts – StoppedContacts</code></dd>
 
 </dt><strong>Email soft bounced</strong></dt>
 <dd>A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but which still rejects the message for some reason. A soft bounce may occur because the recipient's mailbox is full, the mail server is temporarily unavailable, or the  email account has been closed. If five messages in a row sent to a given address result in a soft bounce, then Marketing will treat that address as a hard-bouncing address and stop trying to send to it.</dd>
@@ -92,7 +94,8 @@ This topic provides definitions of terms commonly used to describe marketing res
 </dt><strong>Redirect URL clicked</strong></dt>
 <dd>Redirect URLs create links that connect to your Dynamics 365 server, which records the click, and then redirect immediately to some content that the requester is looking for. You can use them to track clicks from banners, ads, social media posts, and more. If a redirect URL is clicked by a known contact using a browser where a Dynamics 365 cookie has been set (as a result of submitting a landing page), then the click is linked to the relevant contact; otherwise the click is recorded as anonymous.</dd>
 
-<!-- Write a short def for "web beacon" and put it here -->
+</dt><strong>Web beacon</strong></dt>
+<dd>Web beacons are what makes it possible for Dynamics 365 for Marketing to detect when a marketing email messages has been opened by a recipient. The beacon is a transparent, 1x1 pixel, remote image that Dynamics 365 for Marketing embeds in each marketing email it sends. The image link is unique for each message, and includes not only the URL of the image to load, but also an ID that Dynamics 365 uses to identify the message and the contact it was sent to. The actual web-beacon image is stored on the Dynamics 365 server, so each time a contact opens a message and loads its images, Dynamics 365 logs which message was opened and by whom and then returns the image.</dd>
 
 </dt><strong>Website clicked</strong></dt>
 <dd>A website click is recorded each time somebody clicks a link on a page that includes a Dynamics 365 website tracking script. This includes both marketing pages hosted by Dynamics 365 and external pages that host a form or tracking script created with Dynamics 365 for Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
