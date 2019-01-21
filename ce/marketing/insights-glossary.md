@@ -42,12 +42,14 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 <dt><a name="email-click">Email clicked</a></dt>
 <dd>Each reported email click indicates that a contact clicked on a link sent to them in a marketing email (not including clicks on links to a subscription center or forward-to-a-friend page&mdash;these are counted separately). All links included in marketing emails are modified to redirect through Dynamics 365 and to include information about which message included the link and which contact it was sent to. So on each click, Dynamics 365 notes the click, the message that contains it, and the contact who clicked on it, and then forwards the contact on to the page originally specified by the message designer. Marketing can report both total clicks and unique clicks. Unique clicks count at most one click on each link by each recipient. Total clicks also count multiple clicks of the same link by any recipient, so total click values could sometimes be larger than the number of opens or deliveries for a given message.  The technique used to register clicks can sometimes produce misleading results when a message is forwarded&mdash;see <a href="#email-forwarded">Email forwarded</a> in this glossary for details.</dd>
-<dt>Email click-through rate (CTR)</dt><dd>The click-through rate (CTR) tells you how many email clicks were generated as a proportion of the total number delivered (as a percentage).<br/>
-<code>(CTR = (UniqueClicks/TotalDelivered) * 100)</code></dd>
+
+<dt>Email click-through rate (CTR)</dt>
+<dd>The click-through rate (CTR) tells you how many email clicks were generated as a proportion of the total number delivered (as a percentage).<br/>
+<code>CTR = (UniqueClicks/TotalDelivered) * 100</code></dd>
 
 <dt><a name="email-delivered">Email delivered</a></dt>
 <dd>A marketing email message is considered to have been delivered if it was sent (not blocked) by Dynamics 365 and no bounce was reported. Messages reported as delivered might still end up unopened or caught in a spam filter along the way.<br/>
-<code>(Delivered = SegmentContacts –  DuplicateContacts – BlockedContacts – StoppedContacts –  HardBounces – SoftBounces – BlockBounces)</code></dd>
+<code>Delivered = SegmentContacts –  DuplicateContacts – BlockedContacts – StoppedContacts –  HardBounces – SoftBounces – BlockBounces</code></dd>
 
 <dt>Email feedback loop</dt>
 <dd>A feedback loop occurs when an email gets delivered and then a recipient's email client  returns a feedback message to Dynamics 365. This typically means that the recipient used their email client to mark the message as spam. If you continue to send messages to an address that has returned this feedback, you risk lowering your server's send reputation, which will reduce your delivery rate. When feedback is received, Dynamics 365 will automatically stop sending new messages to that address, but your email results will still show each attempt as a feedback loop.</dd>
@@ -65,14 +67,14 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 <dt>Email sent</dt>
 <dd>A sent message is one that Dynamics 365 attempted to deliver to a contact during a customer journey, after removing duplicate, stopped, and blocked contacts.  Some of these messages may still fail to get delivered due to soft or hard bounces.<br>
-<code>(Sent = SegmentContacts –  DuplicateContacts – BlockedContacts – StoppedContacts)</code></dd>
+<code>Sent = SegmentContacts –  DuplicateContacts – BlockedContacts – StoppedContacts</code></dd>
 
 <dt>Email soft bounced</dt>
 <dd>A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but which still rejects the message for some reason. A soft bounce may occur because the recipient's mailbox is full, the mail server is temporarily unavailable, or the  email account has been closed. If five messages in a row sent to a given address result in a soft bounce, then Marketing will treat that address as a hard-bouncing address and stop trying to send to it.</dd>
 
 <dt>Email unopened</dt>
 <dd>The number of times a message was delivered, but no open was recorded. See also <a href="#email-opened">Email opened</a> and <a href="#email-delivered">Email delivered</a> in this glossary for more information about how these values are found.<br/>
-<code>(Unopened = TotalDelivered – UniqueOpens)</code></dd>
+<code>Unopened = TotalDelivered – UniqueOpens</code></dd>
 
 <dt>Form submitted</dt>
 <dd>A form submission is recorded each time somebody submits a Dynamics 365 marketing form. This includes both forms that are placed on a Dynamics 365 marketing page and forms that are embedded on an external site.</dd>
