@@ -40,8 +40,11 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 | Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
 | Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li> |
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
+| Memory (Hardware) | ^8-GB RAM or more |
 
-For hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
+^ The memory requirement is for running basic scenarios. The actual memory required for Unified Service Desk client application increases with the complex Omni-channel Engagement Hub configurations.
+
+For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with web experience
 
