@@ -31,9 +31,8 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
-<br/>
-
-</dt><strong>Contact  stopped in journey</strong></dt>
+<dl>
+</dt>Contact  stopped in journey</dt>
 <dd>From time to time, a contact may get stopped in the middle of a customer journey for some reason, in which case they will wait at the tile where they were stopped until conditions change again (but typically they won't). There are three main reasons why a contact might get stopped at a tile during a journey: they unsubscribed from the mailing list targeted by the journey while it was running, they joined the journey's suppression segment while it was running, or the lowered their consent level to be below the minimum threshold set for the journey while it was running. For consent, the system notes whether the consent is being managed internally or externally. Unsubscribes are counted together with suppression list changes.</dd>
 
 </dt><strong>Email block bounce</strong></dt>
@@ -99,4 +98,5 @@ This topic provides definitions of terms commonly used to describe marketing res
 <dd>A website click is recorded each time somebody clicks a link on a page that includes a Dynamics 365 website tracking script. This includes both marketing pages hosted by Dynamics 365 and external pages that host a form or tracking script created with Dynamics 365 for Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
 
 </dt><strong>Website visited</strong></dt>
-<dd>Dynamics 365 records a website visit each time somebody loads a page that includes a website tracking script created using Dynamics 365 for Marketing. This includes both marketing pages hosted by Dynamics 365 and external pages that host a form or tracking script created with Dynamics 365 for Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.
+<dd>Dynamics 365 records a website visit each time somebody loads a page that includes a website tracking script created using Dynamics 365 for Marketing. This includes both marketing pages hosted by Dynamics 365 and external pages that host a form or tracking script created with Dynamics 365 for Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
+</dl>
