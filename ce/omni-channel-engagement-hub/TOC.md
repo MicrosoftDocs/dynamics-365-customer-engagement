@@ -15,7 +15,7 @@
 ### [Configure record identification rule](administrator/record-identification-rule.md)
 ### [Create and manage routing rules](administrator/routing-rules.md)
 ### [Work with queues](administrator/queues-omni-channel.md)
-### [Configure presence and custom presence](administrator/presence-custom-presence.md)
+### [Configure and manage presence status](administrator/presence-custom-presence.md)
 ### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 ### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Create a chat widget](administrator/set-up-chat-widget.md)

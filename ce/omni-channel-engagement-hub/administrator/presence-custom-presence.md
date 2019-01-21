@@ -1,6 +1,6 @@
 ---
-title: Configure presence and custom presence
-description: See how you can configure presence and custom presence in Omni-channel Engagement Hub
+title: Configure and manage presence and custom presence
+description: See how you can configure and manage presence and custom presence in Omni-channel Engagement Hub
 keywords: presence; custom presence; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
@@ -12,11 +12,14 @@ ms.topic: article
 ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
 ms.custom: 
 ---
-# Configure presence and custom presence
+# Configure and manage presence status
 
-Presence status indicates an agent's availability or status. Presence status stores, updates, and maintains the real-time status of all agents, with respect to their availability and capacity utilization. When presence status is effectively configured, you can connect customers with agents in real time, for all conversations (such as live chats) and for all asynchronous conversations (such as cases and leads).
+Presence status indicates an agent's availability or status. Presence status stores, updates, and maintains the real-time status of all agents, with respect to their availability and capacity utilization. When presence status is effectively configured, you can connect customers with agents in real time, for all synchronous conversations (such as live chats) and for all asynchronous conversations (such as cases and leads).
 
-For example, agents should have their presence status set to **Available** so that customer chats can be assigned to them.
+A presence status consists of two elements:
+
+- **Base status**: The base presence status which routing and work-distribution understands. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
+- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
 
 Out of the box, omni-channel provides the following presence statuses:
 
@@ -26,15 +29,10 @@ Out of the box, omni-channel provides the following presence statuses:
 - Busy DND
 - Offline
 
-A presence status consists of two elements:
-
-- **Base status**: The availability or status category.
-- **Presence text**: The text that is associated with a specific base status. For example, in the **Available – Available for Work** presence status, **Available** is the base status, and **Available for Work** is the presence text.
-
 > [!div class=mx-imgBorder]
 > ![presence view](../media/oc-presence-view.png)
 
-In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. In this way, no conversations will be assigned to agents who attend the training.
+In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. In this way, no conversations can be assigned to these agents as they are in a training. The routing rules can also be modified to achieve the same.
 
 > [!div class=mx-imgBorder]
 > ![custom presence](../media/oc-custom-presence-example.png)
@@ -43,14 +41,11 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 The presence status for agents can be updated either manually by the agents themselves or automatically as work is assigned to the agents.
 
-For example, agents can manually change their presence status from **Busy** to **Away** when the end of their shift is approaching. In this way, they help guarantee that no new conversations will be assigned to them. Additionally, an agent's presence status is changed to **Busy** or **Busy DND** whenever a new conversation is assigned based on that agent's capacity.
-
-> [!div class=mx-imgBorder]
-> ![Agent presence](../media/oc-agent-presence.png)
+For more information, see [Presence](../agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md#presence) in the agent interface.
 
 ## Default presence
 
-The default presence status is the status that is shown for agents when they first sign in to the omni-channel system after their last sign-out.
+The default presence status is the status that is set for agents when they first sign in to the omni-channel system after their last sign-out.
 
 Admins can set the default presence status for an agent in the **Agent Details** section on the **Omni-channel** tab of the **User** entity.
 
@@ -75,12 +70,6 @@ Follow these steps to create a new presence record.
 
 4. Select **Save** to save the new presence record.
 
-
-You can view all active presence records in the **Active Presences** view.
-
-To activate a record so that agents can use it, select the record in the **Active Presences** view, and then select **Activate** on the command bar.
-
-You can inactivate any presence record that you don't want agents to use. Select the record in the **Active Presences** view, and then select **Deactivate** on the command bar. You can view all inactivated records in the **Inactive Presences** view. In the **Inactive Presences** view, you can also reactivate an inactivated record.
 
 ### See also
 

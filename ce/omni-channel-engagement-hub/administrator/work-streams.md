@@ -33,7 +33,7 @@ A work stream comprises of the following properties:
    
 - **Allowable Presence**: Allowable presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
 
-    For more information, see [Configure presence and custom presence](presence-custom-presence.md).
+    For more information, see [Configure and manage presence status](presence-custom-presence.md).
 
 - **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the live chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity.
 
