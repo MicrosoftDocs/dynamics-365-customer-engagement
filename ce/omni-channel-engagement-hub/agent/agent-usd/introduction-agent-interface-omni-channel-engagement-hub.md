@@ -83,11 +83,13 @@ Best practices are the guidelines about system configurations, Unified Service D
 
 ### Presence
 
-The **Presence** area shows the agent's presence status. Presence status indicates an agent's availability or status. It consists of two elements:
+The **Presence** area shows the agent's presence status. Presence status indicates an agent's availability or status.
 
- 1. **Base status**: The availability or status category. There are five standard bases statuses: **Available**, **Away**, **Busy**, **Do Not Disturb**, and **Offline**. 
+You can update the presence status using one of the following ways:
+- **Manually** - Change the status manually accoridng your availability.
+- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated. When you are away, the status is updated as away
 
- 2. **Presence text**: The text that is associated with a specific base status. For example, in the **Away – Away for lunch** presence status, **Away** is the base status, and **Away for lunch** is the presence text.
+Select on the presence text to view all the presence statuses. There are five standard bases statuses: **Available**, **Away**, **Busy**, **Do Not Disturb**, and **Offline**. 
 
  > [!div class=mx-imgBorder]
  > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
