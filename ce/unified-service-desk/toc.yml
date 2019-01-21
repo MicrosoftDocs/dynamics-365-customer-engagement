@@ -209,6 +209,8 @@
         items:
         - name: Edge process (Preview)
           href: edge-process.md
+        - name: Chrome process (Preview)
+          href: chrome-process.md       
         - name: IE process
           href: ie-process.md
         - name: Internal WPF
