@@ -2,7 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
-### [Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)
+### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
@@ -15,7 +15,7 @@
 ### [Configure record identification rule](administrator/record-identification-rule.md)
 ### [Create and manage routing rules](administrator/routing-rules.md)
 ### [Work with queues](administrator/queues-omni-channel.md)
-### [Configure presence and custom presence](administrator/presence-custom-presence.md)
+### [Configure and manage presence status](administrator/presence-custom-presence.md)
 ### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 ### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Create a chat widget](administrator/set-up-chat-widget.md)
@@ -55,12 +55,6 @@
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)
 #### [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
-
-## [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
-### [Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
-### [Introduction to supervisor dashboard](supervisor/omni-channel-engagement-hub-supervisor.md)
-#### [Configure the supervisor dashboard](supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
-#### [Add users to the supervisor configuration](supervisor/add-users-supervisor-configuration.md)
 
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
