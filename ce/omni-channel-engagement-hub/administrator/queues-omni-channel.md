@@ -28,7 +28,7 @@ Here are some of the main characteristics of omni-channel queues:
 - You can assign priority to queues. All conversations in the same queue then have the same priority and will be serviced accordingly.
 - All omni-channel queues are private. Only the members of a queue can view and work on the conversations in that queue.
 - Agents can have different work streams assigned to them in a queue.
-- Supervisors can view the work assignments and track work progress on the **Queues** dashboard. For more information, see [Configure the supervisor dashboard](../supervisor/configure-supervisor-dashboard.md).
+- Supervisors can view the work assignments and track work progress on the **Queues** dashboard. <!--For more information, see [Configure the supervisor dashboard](../supervisor/configure-supervisor-dashboard.md).-->
 - There is a default omni-channel queue for each organization. Admin users can't delete the default queue. By default, all omni-channel users are members of this queue. Therefore, the membership of this queue can't be changed. The default queue has the highest priority.
 
     > [!NOTE]
