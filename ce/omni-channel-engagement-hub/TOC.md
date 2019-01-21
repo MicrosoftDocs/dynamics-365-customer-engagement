@@ -56,13 +56,6 @@
 #### [Create a record](agent/agent-csh/csh-create-record.md)
 #### [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
 
-## [Private preview: Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md)
-### [Private preview: Administer supervisor dashboard](supervisor/configure-supervisor-dashboard.md)
-#### [Private preview: Configure the supervisor dashboard to appear in Omni-channel Engagement Hub](supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)
-#### [Private preview: Add users to the supervisor configuration](supervisor/add-users-supervisor-configuration.md)
-### [Private preview: Introduction to supervisor dashboard](supervisor/introduction-supervisor-dashboards.md)
-<!--### [View conversations on Customer Service Hub](supervisor/view-conversations-customer-service-hub.md)-->
-
 ## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
