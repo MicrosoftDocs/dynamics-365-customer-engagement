@@ -34,12 +34,11 @@ Here are some of the main characteristics of omni-channel queues:
     > [!NOTE]
     > When no queues or routing rules are defined, all conversations are collected in the default queue.
 
-
 ## Create a new omni-channel queue
 
 Follow these steps to create a new omni-channel queue.
 
-1. In the omni-channel site map, select **Work Distribution Management \> Omni-channel Queues**.
+1. In the omni-channel site map, select **Work Distribution \> Omni-channel Queues**.
 
     The **Active Omni-channel Queue** view is shown.
 

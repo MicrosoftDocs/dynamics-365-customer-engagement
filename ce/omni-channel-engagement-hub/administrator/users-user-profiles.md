@@ -19,7 +19,8 @@ All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or
 
 When you sign in to omni-channel, you can view the list of omni-channel users in the **Omni-channel Users** view.
 
-![Omni-channel users](../media/omni-channel-users.png)
+> [!div class=mx-imgBorder] 
+> ![Omni-channel users](../media/omni-channel-users.png)
 
 ## Manage a new user
 
