@@ -2,7 +2,7 @@
 title: "Pointers for Social Engagement | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: help hub, help center, link list
-ms.date: 12/14/2018
+ms.date: 01/22/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: caadfdba-1c29-4032-8fb5-34257913bc09
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -75,7 +73,6 @@ search.app:
 <li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400720">YouTube playlist</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400719">Community forum</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391">Contact support</a></li>
-<li><a href="https://experience.dynamics.com/trials/">Request a trial</a></li>
 
 </td>
 <td>

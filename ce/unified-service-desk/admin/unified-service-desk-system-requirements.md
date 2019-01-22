@@ -53,7 +53,7 @@ This topic provides information about the system requirements for installing the
   > We recommend that you use [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] and [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)].
   > 
   > [!IMPORTANT]
-  >  Although [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] is currently not supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you can use [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] with [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)].  
+  > [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] (Preview) is currently supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. More information: [Edge Process](../edge-process.md)
   > 
   >  <sup>*</sup> [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] is supported for use only with [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] organizations. Also, [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] may work for systems that are not [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
