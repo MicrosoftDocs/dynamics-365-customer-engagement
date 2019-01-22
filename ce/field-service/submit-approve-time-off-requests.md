@@ -2,8 +2,8 @@
 title: "Submit and approve time-off requests (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 01/22/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 7fac64e1-2816-415a-b45f-b1a1aa9fc68f
 caps.latest.revision: 18
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
