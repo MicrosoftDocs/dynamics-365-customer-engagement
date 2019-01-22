@@ -2,8 +2,8 @@ Requirement groups allow you to define groups of resources that would be appropr
 
 For example, you might use a requirement group to find resources for a work order requiring: 
    
-  - 1 field techician with skill A *and* skill B; or
-  - 2 field techinicians, one with skill A and the other with skill B
+  - 1 field technician with skill A *and* skill B; or
+  - 2 field technicians, one with skill A and the other with skill B
 
 You might also use a requirement group to find resources for a sales demonstration requiring:
   
