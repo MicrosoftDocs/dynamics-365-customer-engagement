@@ -88,7 +88,7 @@ Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Confi
      2. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work location and latitiude and longitude on requirement](../field-service/media/scheduling-facility-requirement-lat-long.png)
+> ![Screenshot of work location and latitude and longitude on requirement](../field-service/media/scheduling-facility-requirement-lat-long.png)
 
 
 ### 3. Book the requirement 
