@@ -1,13 +1,13 @@
 ---
-title: "Add the hosted controls, events, and action calls to the agent and supervisor configurations"
+title: "Add the hosted controls, events, and action calls to the agent and supervisor configurations | MicrosoftDocs"
 description: "Learn how to add the hosted controls, events, action calls to the agent and supervisor configurations in Omni-channel Engagement Hub - Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 8255005a-2089-4795-a95d-d50d9fd19523
 ms.custom: 

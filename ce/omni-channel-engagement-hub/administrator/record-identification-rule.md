@@ -1,13 +1,13 @@
 ---
-title: Configure record identification rule for work streams
+title: Configure record identification rule for work streams | MicrosoftDocs
 description: See how you can configure record identification rules for work streams in the Omni-channel Engagement Hub
 keywords: Configure record identification rules for work streams; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6da7ee5c-9e34-4f01-920c-6c381d2f4157
 ms.custom: 

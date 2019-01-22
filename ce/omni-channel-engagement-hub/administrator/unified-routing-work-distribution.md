@@ -1,13 +1,13 @@
 ---
-title: Understand unified routing and work distribution
+title: Understand unified routing and work distribution | MicrosoftDocs
 description: Understand about unified routing and work distribution in Omni-channel Engagement Hub
 keywords: Omni-channel Engagement Hub; Unified routing and work distribution
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
 ms.custom: 

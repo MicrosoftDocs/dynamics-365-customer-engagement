@@ -1,13 +1,13 @@
 ---
-title: Create and manage routing rules in omni-channel engagement hub
+title: Create and manage routing rules in omni-channel engagement hub | MicrosoftDocs
 description: Understand how to create and manage routing rules in omni-channel engagement hub
 keywords: routing rules; omni-channel engagement hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: ae408147-bb2c-4016-8ae7-cf06eb12ceb0
 ms.custom: 

@@ -1,13 +1,13 @@
 ---
-title: "Omni channel engagement hub for agents"
+title: "Omni channel engagement hub for agents | MicrosoftDocs"
 description: "The Omni-channel Engagement Hub for Dynamics 365 is a cloud-based service that extends the power of Dynamics 365 for Customer Service to enable customers to instantly connect and engage with their customers via newly introduced channels: live chat and SMS."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: fb84962a-1ba4-4c56-992f-533cf921540a
 ms.custom: 

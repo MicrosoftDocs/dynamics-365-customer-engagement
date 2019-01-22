@@ -1,13 +1,13 @@
 ---
-title: "Introduction to the agent dashboard"
+title: "Introduction to the agent dashboard | MicrosoftDocs"
 description: "Learn about the omni-channel engagement hub for agent dashboard that displays the work items status in three views - My work items, Open work items, and Closed work items."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 05962e07-2570-44fd-bca6-a894b1e61969
 ms.custom: 

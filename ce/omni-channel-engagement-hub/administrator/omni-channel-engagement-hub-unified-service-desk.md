@@ -1,13 +1,13 @@
 ---
-title: "Omni-channel Engagement Hub on Unified Service Desk"
+title: "Omni-channel Engagement Hub on Unified Service Desk | MicrosoftDocs"
 description: "Omni-channel Engagement Hub solution is an application that you need to install on Unified Service Desk client application."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: C6488858-82BF-450A-90F4-83FB2C41718C
 ms.custom: 

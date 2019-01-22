@@ -1,13 +1,13 @@
 ---
-title: Create and manage users and user profiles
+title: Create and manage users and user profiles | MicrosoftDocs
 description: Know how to create and manage users and user profiles in the Omni-channel Engagement Hub
 keywords: users and user profiles; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 3a61efc9-84b5-4499-8cce-578aae138d1e
 ms.custom: 

@@ -1,13 +1,13 @@
 ---
-title: Create and manage work streams
+title: Create and manage work streams | MicrosoftDocs
 description: See how you can create and manage work streams in the Omni-channel Engagement Hub
 keywords: Create and manage work streams; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e
 ms.custom: 

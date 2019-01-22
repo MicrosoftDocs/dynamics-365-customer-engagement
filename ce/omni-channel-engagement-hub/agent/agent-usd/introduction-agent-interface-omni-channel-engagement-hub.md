@@ -1,13 +1,13 @@
 ---
-title: "Introduction to the agent interface in Omni-channel Engagement Hub"
+title: "Introduction to the agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the Omni-channel Engagement Hub agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
 ms.custom: 

@@ -1,13 +1,13 @@
 ---
-title: "Search for and link a record in Omni-channel Engagement Hub"
+title: "Search for and link a record in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 9DE991EA-5B54-4D31-89EE-9CE05E73AF3C
 ms.custom: 

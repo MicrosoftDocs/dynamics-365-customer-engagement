@@ -1,13 +1,13 @@
 ---
-title: Configure and manage presence and custom presence
+title: Configure and manage presence and custom presence | MicrosoftDocs
 description: See how you can configure and manage presence and custom presence in Omni-channel Engagement Hub
 keywords: presence; custom presence; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
 ms.custom: 

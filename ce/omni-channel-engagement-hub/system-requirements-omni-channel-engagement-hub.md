@@ -1,13 +1,13 @@
 ---
-title: "Pre-requisites and system requirements of Omni-channel Engagement Hub"
+title: "Pre-requisites and system requirements of Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the system requirements of Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
 ms.custom: 

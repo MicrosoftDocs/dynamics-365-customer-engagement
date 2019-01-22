@@ -1,15 +1,15 @@
 ---
-title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub"
+title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid:
+ms.assetid: 6043F127-BF47-4F97-8D1E-319B1D578D8A
 ms.custom: 
 ---
 

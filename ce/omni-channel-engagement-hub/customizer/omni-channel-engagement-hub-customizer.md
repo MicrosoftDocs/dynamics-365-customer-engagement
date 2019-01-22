@@ -1,13 +1,13 @@
 ---
-title: "Omni channel engagement hub for system customizers"
+title: "Omni channel engagement hub for system customizers | MicrosoftDocs"
 description: 
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: dd7d843f-bec2-4262-8126-69828387de42
 ms.custom: 

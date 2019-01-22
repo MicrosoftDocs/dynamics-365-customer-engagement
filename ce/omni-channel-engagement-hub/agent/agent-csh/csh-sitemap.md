@@ -1,13 +1,13 @@
 ---
-title: "Omni-channel Engagement Hub sitemap in Customer Service Hub application"
+title: "Omni-channel Engagement Hub sitemap in Customer Service Hub application | MicrosoftDocs"
 description: "Learn about the sitemap and its open when using Omni-channel Engagement Hub sitemap in Customer Service Hub application."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: C77F80B6-3908-4E49-B55A-85B5C03CBFAE
 ms.custom: 

@@ -1,13 +1,13 @@
 ---
-title: "Add or remove the fields in a form (section)"
+title: "Add or remove the fields in a form (section) | MicrosoftDocs"
 description: "Learn how to add or remove the fields in the form (section)"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: ab116bdb-a31f-48d3-a8e6-9f4790276a63
 ms.custom: 

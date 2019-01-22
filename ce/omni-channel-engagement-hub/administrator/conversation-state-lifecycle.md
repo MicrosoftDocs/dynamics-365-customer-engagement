@@ -1,13 +1,13 @@
 ---
-title: Understand the conversation state lifecycle
+title: Understand the conversation state lifecycle | MicrosoftDocs
 description: Understand the conversation state lifecycle in the omni-channel engagement hub
 keywords: Conversation state lifecycle; omni-channel engagement hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 1a4ef45e-efb3-4a9c-9665-20bb1eed9998
 ms.custom: 

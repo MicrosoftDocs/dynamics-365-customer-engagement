@@ -1,13 +1,13 @@
 ---
-title: "Set up a chat widget"
+title: "Set up a chat widget | MicrosoftDocs"
 description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5BD770F0-14FD-4CE5-B5A8-AD548B8929E6
 ms.custom: 

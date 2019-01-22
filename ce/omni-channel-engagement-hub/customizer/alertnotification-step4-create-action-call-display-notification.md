@@ -1,13 +1,13 @@
 ---
-title: "Create an action calls to show the notifications"
+title: "Create an action calls to show the notifications | MicrosoftDocs"
 description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: ffd0550b-260d-4f23-bab5-c757a258cac1
 ms.custom: 

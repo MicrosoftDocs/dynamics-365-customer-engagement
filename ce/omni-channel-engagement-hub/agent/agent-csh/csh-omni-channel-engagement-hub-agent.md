@@ -1,13 +1,13 @@
 ---
-title: "Omni-channel Engagement Hub for agent using Customer Service Hub"
+title: "Omni-channel Engagement Hub for agent using Customer Service Hub | MicrosoftDocs"
 description: "Learn about the Omni-channel Engagement Hub for agent using Customer Service Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 264E80DF-CC3D-46F7-8739-D21DDB045953
 ms.custom: 

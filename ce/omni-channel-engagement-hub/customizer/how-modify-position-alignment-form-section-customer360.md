@@ -1,13 +1,13 @@
 ---
-title: "Modify the position or alignment of the form (card) in the Customer summary form"
+title: "Modify the position or alignment of the form (card) in the Customer summary form | MicrosoftDocs"
 description: "Learn how to modify the position or alignment of the form (card) in the Customer summary form"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 9b0d8dfb-3c40-4e15-9fe1-17d02f07d38d
 ms.custom: 

@@ -1,13 +1,13 @@
 ---
-title: "Customize the conversation forms"
+title: "Customize the conversation forms | MicrosoftDocs"
 description: 
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 67e8fcc4-1797-4a3e-aea0-63f941afeaa5
 ms.custom: 

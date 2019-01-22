@@ -1,13 +1,13 @@
 ---
-title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub"
+title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub | MicrosoftDocs"
 description: "Learn about the navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 9B9FD044-9AF4-4262-9401-4EFB8D9B47EE
 ms.custom: 

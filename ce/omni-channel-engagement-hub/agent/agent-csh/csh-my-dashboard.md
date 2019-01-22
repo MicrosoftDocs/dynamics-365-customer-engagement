@@ -1,13 +1,13 @@
 ---
-title: "My dashboard view of agent interface in Omni-channel Engagement Hub"
+title: "My dashboard view of agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the My dasboard view of agent interface in Omni-channel Engagement Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 69344371-9846-488B-A9A8-875C35398F92
 ms.custom: 

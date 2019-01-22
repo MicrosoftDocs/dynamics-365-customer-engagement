@@ -1,13 +1,13 @@
 ---
-title: "Conversation control (left control panel)"
+title: "Conversation control (left control panel) | MicrosoftDocs"
 description: "The left control panel is a communication or conversation control panel. The conversation control hosts the conversations and you can engage with you customers. The conversation control panel provides various options like quick replies, consult, transfer, link to conversation, internal and public message modes."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b3ae342f-fabd-424e-8086-8f51500575bf
 ms.custom: 

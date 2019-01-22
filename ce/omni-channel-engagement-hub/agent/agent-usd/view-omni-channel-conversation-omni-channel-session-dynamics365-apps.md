@@ -1,13 +1,13 @@
 ---
-title: "View conversation and session form in Dynamics 365 for Customer Engagement apps"
+title: "View conversation and session form in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omni-channel Engagement Hub can under the Acitivities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
 ms.custom: 

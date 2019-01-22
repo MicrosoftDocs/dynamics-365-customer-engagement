@@ -1,13 +1,13 @@
 ---
-title: Understand how unified routing and work distribution works
+title: Understand how unified routing and work distribution works | MicrosoftDocs
 description: See this scenario to understand how unified routing and work distribution works
 keywords: Unified routing and work distribution works
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: c0a1d153-e907-4bd7-bab6-09e270ed8833
 ms.custom: 

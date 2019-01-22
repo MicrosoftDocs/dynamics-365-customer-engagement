@@ -1,13 +1,13 @@
 ---
-title: "Create a question library"
+title: "Create a question library | MicrosoftDocs"
 description: "Instructions to create a question library in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 75DC82E3-BD66-4D27-89F0-3B0C6C70D95C
 ms.custom: 
