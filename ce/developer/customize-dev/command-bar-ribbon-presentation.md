@@ -64,7 +64,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
 ### [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for tablets  
  [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)] presents commands in a manner optimized for touch experiences. Commands appear in the command bar at the bottom right of the screen in order from right to left.  
   
- ![Account form commands for Dynamics 365 for Customer Engagement for tablets](../media/customization-nobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for Customer Engagement for tablets")  
+ ![Account form commands for Dynamics 365 for tablets](../media/customization-nobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
   
 > [!NOTE]
 >  Icons configured for commands will not display and labels that are too long will be truncated.  
@@ -73,13 +73,13 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  Subgrid commands are displayed when people tap and press the subgrid control. These commands are shown on the bottom left of the screen in order from left to right.  
   
- ![Activity sub&#45;grid commands in Dynamics 365 for Customer Engagement for tablets](../media/customization-mobile-app-activity-subgrid.PNG "Activity sub-grid commands in Dynamics 365 for Customer Engagement for tablets")  
+ ![Activity sub&#45;grid commands in Dynamics 365 for tablets](../media/customization-mobile-app-activity-subgrid.PNG "Activity sub-grid commands in Dynamics 365 for tablets")  
   
 <a name="BKMK_CommandData"></a>   
 ## Command data  
  Despite these very different presentations, the data that defines the commands for entities is consistent regardless of how the commands are presented. It contains definitions for tabs and groups with scaling, but the visible parts of these containers for controls are only displayed in the classic user interface.  
   
- In both the updated user experience and Dynamics 365 for Customer Engagement for tablets, tabs and groups still act as containers for controls, but there is no visual indication of these containers and scaling is not applied.  
+ In both the updated user experience and Dynamics 365 for tablets, tabs and groups still act as containers for controls, but there is no visual indication of these containers and scaling is not applied.  
   
 <a name="BKMK_FilteringCommands"></a>   
 ## Filtering commands based on presentation and client  
@@ -95,11 +95,11 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
 - `Legacy`: Classic user experience  
   
-- `Modern`: Dynamics 365 for Customer Engagement for tablets  
+- `Modern`: Dynamics 365 for tablets  
   
   Use this element as you define commands to control whether they display in the different presentations.  
   
-  There is also a pre-existing `<CrmClientTypeRule>` element, but the `Type` attribute for element can only differentiate between `Web` and `Outlook` clients. This rule will evaluate the Dynamics 365 for Customer Engagement for tablets client as the web client.  
+  There is also a pre-existing `<CrmClientTypeRule>` element, but the `Type` attribute for element can only differentiate between `Web` and `Outlook` clients. This rule will evaluate the Dynamics 365 for tablets client as the web client.  
   
 ### See also  
  [Customize commands and the ribbon](customize-commands-ribbon.md)   

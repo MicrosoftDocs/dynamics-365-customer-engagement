@@ -1,5 +1,5 @@
 ---
-title: "Customize Dynamics 365 for Customer Engagement for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
@@ -132,7 +132,7 @@ That way, if you think phone users need to focus only on the primary information
 
  Custom entities use a fixed custom entity icon.  
 
- ![Dynamics 365 for Customer Engagement for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
+ ![Dynamics 365 for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
 
 See [Change application navigation using the SiteMap](../developer/customize-dev/change-application-navigation-using-sitemap.md) for more information. 
 
@@ -140,7 +140,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 ## Change commands for Dynamics 365 for phones and tablets  
  Dynamics 365 for phones and tablets uses the same ribbon definitions to provide commands as the web application except that it is optimized for presentation in the mobile apps. You can set the ribbon definitions to display based on the type of client. For example, you can set commands so they appear in the web app but not the phone or tablet apps. Some default commands are set to appear only in the web app, which is why you won’t see them in the mobile apps.  
 
- ![Account form commands for Dynamics 365 for Customer Engagement for tablets](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for Customer Engagement for tablets")  
+ ![Account form commands for Dynamics 365 for tablets](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
 
 > [!NOTE]
 >  Icons configured for commands aren’t displayed, and labels that are too long are truncated.  

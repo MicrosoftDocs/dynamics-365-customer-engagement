@@ -25,7 +25,7 @@ manager: austinj
 ## Symptoms
 
 - The following script error will be displayed to users or included in your error logs: `Error: Blocked a frame with origin "https://<yourinstance>.dynamics.com" from accessing a cross-origin frame.`
-- Customizations might not behave correctly in the context of Dynamics 365 for Customer Engagement App for Outlook, Dynamics 365 for Customer Engagement for phones and tablets, or an external application that hosts Dynamics 365 for Customer Engagement within an iframe.
+- Customizations might not behave correctly in the context of Dynamics 365 for Customer Engagement App for Outlook, Dynamics 365 for phones and tablets, or an external application that hosts Dynamics 365 for Customer Engagement within an iframe.
 
   > [!NOTE]
   > There might be some scenarios where error handling masks the error and continues script processing, causing unexpected behavior.
@@ -34,7 +34,7 @@ manager: austinj
 
 ## Guidance
 
-Avoid using `window.top` in scripts running within the context of Dynamics 365 for Customer Engagement App for Outlook, Dynamics 365 for Customer Engagement for phones and tablets, or an external application that hosts Dynamics 365 for Customer Engagement within an iframe. Even if these scenarios don't currently apply to your organization, you should avoid using `window.top` or guard against this issue.
+Avoid using `window.top` in scripts running within the context of Dynamics 365 for Customer Engagement App for Outlook, Dynamics 365 for phones and tablets, or an external application that hosts Dynamics 365 for Customer Engagement within an iframe. Even if these scenarios don't currently apply to your organization, you should avoid using `window.top` or guard against this issue.
 
  > [!IMPORTANT]
  > Usage of `window.parent` or variations of the parent hierarchy (for example,`window.parent.parent`) can cause the same symptoms.

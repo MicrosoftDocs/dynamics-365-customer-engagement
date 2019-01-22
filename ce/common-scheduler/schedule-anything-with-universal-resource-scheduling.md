@@ -42,9 +42,9 @@ Schedule anything in Dynamics 365 for Customer Engagement using Universal Resour
   
  For organizations that use:
 
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 for Customer Engagement for Field Service Help](../field-service/overview.md) 
+- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 for Field Service Help](../field-service/overview.md) 
   
-- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Customer Engagement for Project Service Automation Help](../project-service/overview.md) 
+- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Project Service Automation Help](../project-service/overview.md) 
   
 ## Prerequisites  
  Before you can use Universal Resource Scheduling, make sure you have:  
@@ -160,5 +160,5 @@ Schedule anything in Dynamics 365 for Customer Engagement using Universal Resour
     5.  Use the schedule assistant  to book the requirement.  
   
 ### See also  
- [Install Dynamics 365 for Customer Engagement for Field Service](../field-service/install-field-service.md)    
- [Install Dynamics 365 for Customer Engagement for Project Service Automation](../project-service/install-customize.md)    
+ [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)    
+ [Install Dynamics 365 for Project Service Automation](../project-service/install-customize.md)    
