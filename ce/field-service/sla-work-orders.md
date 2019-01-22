@@ -59,26 +59,20 @@ Here you will define the SLA KPI Instances that you would like to utilize for Fi
 
 "Out of the box" you will see an SLA related to work order arrival times that is available when Field Service is installed.
 
-You can create new SLA KPI Instances to add here by navigating to **Settings > Customizations > Customize the system > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
 
+You can create new SLA KPI Instances to add here by navigating to **Settings > Customizations > Customize the system > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-kpi-instance.png)
 
-Among other uses, SLA KPI instances will help you track how often your organization meets SLAs.
+- Among other uses, SLA KPI instances will help you track how often your organization meets SLAs.
+- This creates a relationship between SLA KPI Instances and Work Orders
+- One SLA can have many SLA KPI instances
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
-
-this creates a relationship between SLA KPI and Work Order
-
-define relationship between SLA KPI instance and the work order entity
-
-KPIs allow tracking of success and failure for this particular measurement
-1 sla can have many KPI
 
 ## 2. Create a new SLA
-
 
 Navigate to **Settings > Service Management > Service Level Agreements > +New**
 
@@ -100,9 +94,9 @@ If appropriate, assign a Business Hours calendar and **Save**.
 
 Next let's create SLA details.
 
-In this example, the SLA is applicable when the priority field on the work order is set to High.
+In this example, the SLA is applicable when the **priority** field on the work order is set to **High**.
 
-We want this SLA to be considered a success when a field technician arrives on site. Therefore, a work order system status of Open-In Progress would indicate this because
+We want this SLA to be considered a success when a field technician begins traveling to or arrives on site. Therefore, a work order system status of **Open-In Progress** would indicate this because when a field technician changes the Booking Status on one of his/her scheduled work orders to **Traveling** or **In Progress**, this changes the related work order system status to **Open-In Progress** thus making the SLA a success.  
 
 Open in progress
 open completed
