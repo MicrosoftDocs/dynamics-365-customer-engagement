@@ -44,10 +44,7 @@ To sign in using your work email address, enter your email address, and then sel
 
 ### Basic navigation
 
-1.	When you sign in, you see a list of apps that you have access to.
-
-  > [!NOTE]
-  > If you have access to multiple organizations, you see all the apps that you have access to across organizations.
+1.	When you sign in, you see a list of apps that you have access to. If you have access to multiple organizations, you see all the apps that you have access to across organizations.
 
 2.	Select the app that you want to use.
 
