@@ -28,11 +28,17 @@ search.app:
 
 # Service Level Agreements (SLA) for Work Orders
 
-- scenario: ensure field technican arrives on site within 1.5 hours for high priority work and within 6 hours otherwise
+Dynamics 365 for Field Service is designed to utilize Dynamics 365 Service Level Agreement (SLA) functionality.
+
+Lets consider the following scenario:
+
+A field service organization would like to offer an SLA to their customers where field technicians must begin traveling to or arrive at the customer's location within 3 hours from the time a work order is created. In addition, the organization would like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
 ## Prerequisites
 
 Field Service v8.3+
+
+Knowledge of Dynamics 365 [Service Level Agreements](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/define-service-level-agreements)
 
 ## 1. Enable SLA functionality for Field Service
 
@@ -43,15 +49,23 @@ Under Communication & Collaboration, check off **Enable for SLA**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Enable SLA on Work Order](./media/work-order-sla-enable-work-order-1.png)
 
-Save & Publish Customizations 
+Save & Publish Customizations. 
 
 Next, navigate **Field Service > Settings > Field Service Settings** and enter the active Field Service Settings record.
 
-Then go to the **Field Service SLA Configurations** tab
+Then go to the **Field Service SLA Configurations** tab.
 
-Here you will see an SLA related to work order arrival times that is available "out of the box" when Field Service is installed.  
+Here you will define the SLA KPI Instances that you would like to utilize for Field Service and want to effect the **time from promised** and **time to promised** work order fields for scheduling.
 
-As more KPI scenarios are released they will be available here.
+"Out of the box" you will see an SLA related to work order arrival times that is available when Field Service is installed.
+
+You can create new SLA KPI Instances to add here by navigating to **Settings > Customizations > Customize the system > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-kpi-instance.png)
+
+Among other uses, SLA KPI instances will help you track how often your organization meets SLAs.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
@@ -61,6 +75,7 @@ this creates a relationship between SLA KPI and Work Order
 define relationship between SLA KPI instance and the work order entity
 
 KPIs allow tracking of success and failure for this particular measurement
+1 sla can have many KPI
 
 ## 2. Create a new SLA
 
