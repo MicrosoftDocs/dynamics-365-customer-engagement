@@ -63,7 +63,7 @@ You can use a keyboard shortcut to open the knowledge article search control in 
 While you're interacting with a customer, you might want the expertise of another agent or with supervisor. In this case, you can invite the agent or supervisor by selecting the **Consult** button in the chat panel.
 
 > [!div class=mx-imgBorder]
->![omni-channel consult](../../media/oc-usd-consult.png "Omni-channel consult")  
+>![omni-channel consult](../../media/oc-usd-cc-consult.png "Omni-channel consult")  
 
 You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Press the Slash (/) key and the letters C and O (**/+C+O**).
 
@@ -76,6 +76,9 @@ When you work on a conversation request, you might encounter the following scena
 -   You have minimal knowledge and want to route the request to another agent in the same queue.
 
 -   You identify the request belongs to a different queue.
+
+> [!div class=mx-imgBorder]
+>![omni-channel transfer](../../media/oc-usd-cc-transfer.png "Omni-channel transfer")
 
 In these scenarios, you can transfer the request. You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue, when you transfer the request, routing rules will push the queue as appropriate.
 
