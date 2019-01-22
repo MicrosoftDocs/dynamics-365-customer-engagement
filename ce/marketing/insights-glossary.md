@@ -2,7 +2,7 @@
 title: "Glossary of common insights terms (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Provides definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 for Marketing"
 keywords: insights;results;KPIs;analytics;glossary
-ms.date: 01/17/2019
+ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -93,6 +93,15 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 </dt><strong>Redirect URL clicked</strong></dt>
 <dd>Redirect URLs create links that connect to your Dynamics 365 server, which records the click, and then redirect immediately to some content that the requester is looking for. You can use them to track clicks from banners, ads, social media posts, and more. If a redirect URL is clicked by a known contact using a browser where a Dynamics 365 cookie has been set (as a result of submitting a landing page), then the click is linked to the relevant contact; otherwise the click is recorded as anonymous.</dd>
+
+<dt>Subscription submitted</dt>
+<dd>A contact clicked on the subscription center link sent to them in email, and then submitted the subscription center at least once, regardless of whether the contact changed their subscriptions or contact details.
+
+<dt>Total generated leads</dt>
+<dd>The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
+
+<dt>Unsubscribed</dt>
+<dd>A recipient clicked on the subscription center link in an email and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient.</dd>
 
 </dt><strong>Web beacon</strong></dt>
 <dd>Web beacons are what makes it possible for Dynamics 365 for Marketing to detect when a marketing email messages has been opened by a recipient. The beacon is a transparent, 1x1 pixel, remote image that Dynamics 365 for Marketing embeds in each marketing email it sends. The image link is unique for each message, and includes not only the URL of the image to load, but also an ID that Dynamics 365 uses to identify the message and the contact it was sent to. The actual web-beacon image is stored on the Dynamics 365 server, so each time a contact opens a message and loads its images, Dynamics 365 logs which message was opened and by whom and then returns the image.</dd>
