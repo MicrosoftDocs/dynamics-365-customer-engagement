@@ -26,10 +26,14 @@ Omni-channel Engagement Hub lets you provide customers with their preferred chan
 
 ## What is Omni-channel Engagement Hub?
 
-Omni-channel Engagement Hub is a robust application that helps organizations dynamically meet the changing business needs of their customers. It interconnects all the personas of a customer service organization to help them work effectively and efficiently.
+The Omni-channel Engagement Hub for Dynamics 365 is a robust cloud-based service that extends the power of Dynamics 365 for Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
 
-Omni-channel Engagement Hub lets you start a conversation with a support agent via social media but then seamlessly transition to another channel, such as email, text, or chat. It lets you choose the channel that suits your business needs, and helps guarantee that a high level of responsive, quality service is received across channels.
+Omni-channel Engagement Hub also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like KB integration, search, and case creation to ensure agents are effective.
 
 Omni-channel Engagement Hub leads your organization through the conversion experience and seamlessly bridges the gap between customers and live agents. The application empowers the agents to work on simultaneous interactions with multiple customers. It gives supervisors the analytical experience to track the agent’s activities and make decisions that increase the productivity of the agents.
 
-Omni-channel Engagement Hub caters to the cycle of customer service by empowering the agents, supervisors, and administrators to effectively perform their duties and help resolve customer issues. Omni-channel Engagement Hub also provides a great way to measure key performance indicators (KPIs) to assess situations and make business-driven decisions.
+Supervisors get real-time and historical visibility and insights into the operational efficiency of agents and the utilization across various channels.
+
+The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements
+
+Omni-channel Engagement Hub caters to the cycle of customer service by empowering the agents, supervisors, and administrators to effectively perform their duties and help resolve customer issues.  
