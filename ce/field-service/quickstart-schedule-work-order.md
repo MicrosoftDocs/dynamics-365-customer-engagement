@@ -39,7 +39,7 @@ Steps:
 
 2.  Create a work order or use one from sample data
 
-3.  Assign the field technician role to a resource
+3.  Assign the resource role (for field technicians) to a user
 
 4.  Create a bookable resource
 
