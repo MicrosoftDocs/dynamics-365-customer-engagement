@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address. 
+Sign in to the Dynamics 365 mobile app quickly using your work email address or your web address. 
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
@@ -44,14 +44,14 @@ To sign in using your work email address, enter your email address, and then sel
 
 ### Basic navigation
 
-1.	When you sign in, you will see a list of apps that you have access to.
+1.	When you sign in, you see a list of apps that you have access to.
 
-> [!NOTE]
-> If you have access to multiple organizations, you see all the apps that you have access to across organizations.
+  > [!NOTE]
+  > If you have access to multiple organizations, you see all the apps that you have access to across organizations.
 
 2.	Select the app that you want to use.
 
-![Select an app to use](media/openanapp.png "Select an app to use"). 
+    ![Select an app to use](media/openanapp.png "Select an app to use"). 
 
 ### Sign out
 
@@ -65,19 +65,19 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
-![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
+    ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
-> [!NOTE]
-> If you need help with your sign-in information, contact your Dynamics 365 administrator.
+    > [!NOTE]
+    > If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app. After that, select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in") and enter your user name and password.
+2. Enter the URL for your Dynamics 365 Customer Engagement app, and select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). After that, enter your user name and password.
 
 ### Basic navigation
 
-1.	When you sign in, you’ll see a list of all apps that you have access to.
+1.	When you sign in, you see a list of all the apps that you have access to.
 2.	Select the app that you want to use.
 
-![Select an app to use](media/navwebsignin.png "Select an app to use"). 
+    ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
 
 ### Sign out
 
