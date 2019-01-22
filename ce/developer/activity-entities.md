@@ -1,33 +1,37 @@
 ---
-title: "Activity entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "In Dynamics 365 (online), activities are tasks that you or your teams perform when they contact customers, for example, sending letters or making telephone calls."
-ms.custom: ""
+title: "Activity entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "In Dynamics 365 for Customer Engagement (online), activities are tasks that you or your teams perform when they contact customers, for example, sending letters or making telephone calls."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c433ebc0-f3c1-47a4-a7df-8ffe821b51c0
 caps.latest.revision: 32
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Activity entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)] 
 
-In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], activities are tasks that you or your teams perform when they contact customers, for example, sending letters or making telephone calls. You  can create activities for yourselves, can assign them to someone else, or can share them with other users or teams. An activity is any action which can be entered  on a calendar  and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is to occur. Activities has some basic properties that help determine what action the activity represents, for example, subject and description. An activity state can be opened, canceled, or completed. The completed status of an activity will have several substatus values associated with it to clarify the way that the activity was completed.  
+In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, activities are tasks that you or your teams perform when they contact customers, for example, sending letters or making telephone calls. You  can create activities for yourselves, can assign them to someone else, or can share them with other users or teams. An activity is any action which can be entered  on a calendar  and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is to occur. Activities has some basic properties that help determine what action the activity represents, for example, subject and description. An activity state can be opened, canceled, or completed. The completed status of an activity will have several substatus values associated with it to clarify the way that the activity was completed.
   
- Activities involve one or more participants, called activity parties in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For a meeting activity, the participants are those contacts or users attending the meeting. For a telephone call or fax activity, the parties are the caller and the person who is called. The following diagram shows the entity relationships for activities.  
+ Activities involve one or more participants, called activity parties in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. For a meeting activity, the participants are those contacts or users attending the meeting. For a telephone call or fax activity, the parties are the caller and the person who is called. The following diagram shows the entity relationships for activities.  
   
  ![Activity diagram](media/entity-model-activity.gif "Activity diagram")  
   
- To support the communication needs of the modern-day business, such as instant messaging (IM) and SMS, you can create custom activities in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
+ To support the communication needs of the modern-day business, such as instant messaging (IM) and SMS, you can create custom activities in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps.  
   
  **Other activity entities**  
   
@@ -40,7 +44,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], ac
 -   The customer service entity `IncidentResolution` activity captures information about the resolution of a case. For more information, see [Incident (Case) Entities](incident-case-entities.md).  
   
 ## In This Section  
- [Custom Activities in Dynamics 365](custom-activities.md)  
+ [Custom Activities in Dynamics 365 for Customer Engagement apps](custom-activities.md)  
   
  [Activity Pointer (Activity) Entity](activitypointer-activity-entity.md)  
   
@@ -53,7 +57,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], ac
  [Sample Code for Activity Entities](sample-code-activity-entities.md)  
   
 ## Related Sections  
- [Model Your Business Data with Dynamics 365 Customer Engagement](model-business-data.md)  
+ [Model Your Business Data with Dynamics 365 for Customer Engagement apps](model-business-data.md)  
   
  [Server-side Synchronization Entities](server-side-synchronization-entities.md)  
   

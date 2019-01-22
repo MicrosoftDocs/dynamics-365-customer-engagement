@@ -1,15 +1,19 @@
 ---
-title: "Territory Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Territory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Territory entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Territory Entity Reference
 
@@ -643,6 +647,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Territory_SyncErrors"></a> Territory_SyncErrors
 
 Same as syncerror entity [Territory_SyncErrors](syncerror.md#BKMK_Territory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -657,6 +662,7 @@ Same as syncerror entity [Territory_SyncErrors](syncerror.md#BKMK_Territory_Sync
 ### <a name="BKMK_Territory_AsyncOperations"></a> Territory_AsyncOperations
 
 Same as asyncoperation entity [Territory_AsyncOperations](asyncoperation.md#BKMK_Territory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -671,6 +677,7 @@ Same as asyncoperation entity [Territory_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_territory_MailboxTrackingFolders"></a> territory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [territory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_territory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -685,6 +692,7 @@ Same as mailboxtrackingfolder entity [territory_MailboxTrackingFolders](mailboxt
 ### <a name="BKMK_userentityinstancedata_territory"></a> userentityinstancedata_territory
 
 Same as userentityinstancedata entity [userentityinstancedata_territory](userentityinstancedata.md#BKMK_userentityinstancedata_territory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -699,6 +707,7 @@ Same as userentityinstancedata entity [userentityinstancedata_territory](userent
 ### <a name="BKMK_Territory_ProcessSessions"></a> Territory_ProcessSessions
 
 Same as processsession entity [Territory_ProcessSessions](processsession.md#BKMK_Territory_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -713,6 +722,7 @@ Same as processsession entity [Territory_ProcessSessions](processsession.md#BKMK
 ### <a name="BKMK_Territory_BulkDeleteFailures"></a> Territory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Territory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Territory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -727,6 +737,7 @@ Same as bulkdeletefailure entity [Territory_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_territory_principalobjectattributeaccess"></a> territory_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [territory_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_territory_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -741,6 +752,7 @@ Same as principalobjectattributeaccess entity [territory_principalobjectattribut
 ### <a name="BKMK_territory_connections1"></a> territory_connections1
 
 Same as connection entity [territory_connections1](connection.md#BKMK_territory_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -755,6 +767,7 @@ Same as connection entity [territory_connections1](connection.md#BKMK_territory_
 ### <a name="BKMK_territory_connections2"></a> territory_connections2
 
 Same as connection entity [territory_connections2](connection.md#BKMK_territory_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -769,6 +782,7 @@ Same as connection entity [territory_connections2](connection.md#BKMK_territory_
 ### <a name="BKMK_territory_system_users"></a> territory_system_users
 
 Same as systemuser entity [territory_system_users](systemuser.md#BKMK_territory_system_users) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -783,6 +797,7 @@ Same as systemuser entity [territory_system_users](systemuser.md#BKMK_territory_
 ### <a name="BKMK_territory_accounts"></a> territory_accounts
 
 Same as account entity [territory_accounts](account.md#BKMK_territory_accounts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -797,6 +812,7 @@ Same as account entity [territory_accounts](account.md#BKMK_territory_accounts) 
 ### <a name="BKMK_Territory_DuplicateBaseRecord"></a> Territory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Territory_DuplicateBaseRecord](duplicaterecord.md#BKMK_Territory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -811,6 +827,7 @@ Same as duplicaterecord entity [Territory_DuplicateBaseRecord](duplicaterecord.m
 ### <a name="BKMK_Territory_DuplicateMatchingRecord"></a> Territory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Territory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Territory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -825,6 +842,7 @@ Same as duplicaterecord entity [Territory_DuplicateMatchingRecord](duplicatereco
 ### <a name="BKMK_msdyn_territory_msdyn_resourcerequirement_Territory"></a> msdyn_territory_msdyn_resourcerequirement_Territory
 
 Same as msdyn_resourcerequirement entity [msdyn_territory_msdyn_resourcerequirement_Territory](msdyn_resourcerequirement.md#BKMK_msdyn_territory_msdyn_resourcerequirement_Territory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirement|
@@ -839,6 +857,7 @@ Same as msdyn_resourcerequirement entity [msdyn_territory_msdyn_resourcerequirem
 ### <a name="BKMK_msdyn_territory_msdyn_resourceterritory_Territory"></a> msdyn_territory_msdyn_resourceterritory_Territory
 
 Same as msdyn_resourceterritory entity [msdyn_territory_msdyn_resourceterritory_Territory](msdyn_resourceterritory.md#BKMK_msdyn_territory_msdyn_resourceterritory_Territory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceterritory|
@@ -853,6 +872,7 @@ Same as msdyn_resourceterritory entity [msdyn_territory_msdyn_resourceterritory_
 ### <a name="BKMK_msdyn_territory_account_ServiceTerritory"></a> msdyn_territory_account_ServiceTerritory
 
 Same as account entity [msdyn_territory_account_ServiceTerritory](account.md#BKMK_msdyn_territory_account_ServiceTerritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -867,6 +887,7 @@ Same as account entity [msdyn_territory_account_ServiceTerritory](account.md#BKM
 ### <a name="BKMK_msdyn_territory_msdyn_actual_ServiceTerritory"></a> msdyn_territory_msdyn_actual_ServiceTerritory
 
 Same as msdyn_actual entity [msdyn_territory_msdyn_actual_ServiceTerritory](msdyn_actual.md#BKMK_msdyn_territory_msdyn_actual_ServiceTerritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -881,6 +902,7 @@ Same as msdyn_actual entity [msdyn_territory_msdyn_actual_ServiceTerritory](msdy
 ### <a name="BKMK_msdyn_territory_msdyn_agreement_ServiceTerritory"></a> msdyn_territory_msdyn_agreement_ServiceTerritory
 
 Same as msdyn_agreement entity [msdyn_territory_msdyn_agreement_ServiceTerritory](msdyn_agreement.md#BKMK_msdyn_territory_msdyn_agreement_ServiceTerritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreement|
@@ -895,6 +917,7 @@ Same as msdyn_agreement entity [msdyn_territory_msdyn_agreement_ServiceTerritory
 ### <a name="BKMK_msdyn_territory_msdyn_postalcode_ServiceTerritory"></a> msdyn_territory_msdyn_postalcode_ServiceTerritory
 
 Same as msdyn_postalcode entity [msdyn_territory_msdyn_postalcode_ServiceTerritory](msdyn_postalcode.md#BKMK_msdyn_territory_msdyn_postalcode_ServiceTerritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_postalcode|
@@ -909,6 +932,7 @@ Same as msdyn_postalcode entity [msdyn_territory_msdyn_postalcode_ServiceTerrito
 ### <a name="BKMK_msdyn_territory_msdyn_workorder_ServiceTerritory"></a> msdyn_territory_msdyn_workorder_ServiceTerritory
 
 Same as msdyn_workorder entity [msdyn_territory_msdyn_workorder_ServiceTerritory](msdyn_workorder.md#BKMK_msdyn_territory_msdyn_workorder_ServiceTerritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -923,6 +947,7 @@ Same as msdyn_workorder entity [msdyn_territory_msdyn_workorder_ServiceTerritory
 ### <a name="BKMK_msdyn_territory_quotedetail_ServiceTerritory"></a> msdyn_territory_quotedetail_ServiceTerritory
 
 Same as quotedetail entity [msdyn_territory_quotedetail_ServiceTerritory](quotedetail.md#BKMK_msdyn_territory_quotedetail_ServiceTerritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -979,6 +1004,6 @@ See systemuser Entity [system_user_territories](systemuser.md#BKMK_system_user_t
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.territory?text=territory EntityType" />

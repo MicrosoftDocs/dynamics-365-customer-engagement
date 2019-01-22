@@ -1,9 +1,9 @@
 ---
-title: "Configure a web form steps for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure a web form steps for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create a web form step for a web form on a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 75e11848-53a6-43ae-bdef-4eca0318f238
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Define web form steps for portals
 
@@ -37,8 +44,8 @@ Each Web Form will be presented on the portal has one or more steps. These steps
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

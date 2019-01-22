@@ -1,20 +1,24 @@
 ---
-title: "Plug-in entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Plug-in entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "A plug-in assembly stores information about an assembly that contains one or more plug-ins or custom workflow activities. This information includes the binary data of the assembly."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 061de41e-e421-4bac-8bb1-122e83764094
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Plug-in entities
 

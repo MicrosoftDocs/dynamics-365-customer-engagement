@@ -1,1 +1,1 @@
-Project Service Automation
+Project Service

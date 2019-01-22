@@ -1,14 +1,18 @@
 ---
-title: "setSharedVariable (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about the getEventSource method that returns a reference to the form or an item on the form depending on where the method was called." 
+title: "setSharedVariable (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: "Learn about the getEventSource method that returns a reference to the form or an item on the form depending on where the method was called."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 702a13c1-f4ae-4de2-9e8b-95360ad9240c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setSharedVariable (Client API reference)
 

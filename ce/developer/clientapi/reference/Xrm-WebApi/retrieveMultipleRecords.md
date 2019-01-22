@@ -1,13 +1,17 @@
 ---
-title: "retrieveMultipleRecords (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "retrieveMultipleRecords (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 05/24/2018
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: d4e92999-3b79-4783-8cac-f656fc5f7fda
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # retrieveMultipleRecords (Client API reference)
 
@@ -32,7 +36,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>The entity logical name of the records you want to retrieve. For example: "account".</td>
+<td>The entity logical name of the records you want to retrieve. For example: &quot;account&quot;.</td>
 </tr>
 <tr>
 <td>options</td>
@@ -44,7 +48,7 @@ manager: "amyla"
 <li>To specify a FetchXML query, use the <code>fetchXml</code> attribute to specify the query.</li>
 </ul>
 <p>NOTE: You must always use the <b>$select</b> system query option to limit the properties returned for an entity record by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using <b>$select</b>, all properties will be returned.</li>
-<p>You specify the query options starting with <code>?</code>. You can also specify multiple system query options by using <code>&</code> to separate the query options.
+<p>You specify the query options starting with <code>?</code>. You can also specify multiple system query options by using <code>&amp;</code> to separate the query options.
 <p>See examples later in this topic to see how you can define the <code>options</code> parameter for various retrieve multiple scenarios.</td>
 </tr>
 <tr>
@@ -58,7 +62,7 @@ manager: "amyla"
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when entity records are retrived. An object with the following attributes is passed to the function:</p>
+<td><p>A function to call when entity records are retrieved. An object with the following attributes is passed to the function:</p>
 <ul>
 <li><b>entities</b>: An array of JSON objects, where each object represents the retrieved entity record containing attributes and their values as <code>key: value</code> pairs. The Id of the entity record is retrieved by default.</li>
 <li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <code>maxPageSize</code> parameter in the request, this attribute returns the URL to return next set of records.</li>

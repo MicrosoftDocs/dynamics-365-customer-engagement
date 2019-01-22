@@ -1,9 +1,9 @@
 ---
-title: "Add geolocation to a managed form in Dynamics 365 | MicrosoftDocs"
+title: "Add geolocation to a managed form in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add geolocation to a managed form."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 9B1BA475-0061-455C-925F-039372CCE431
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Add geolocation
 
@@ -28,7 +35,7 @@ If the form or Address Line field is editable and this field is blank, when the 
 To add geolocation functionality to a managed form, the following tasks must be completed.
 
 ### Form customization
-Edit the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity form by using the form designer and make the following modifications:
+Edit the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity form by using the form designer and make the following modifications:
 
 1. Create a new section and provide an appropriate label, for example **Map**. This section will contain the map.
 2. Set the name of the section to **section\_map** or a name that ends with _section\_map_, for example **contoso\_section\_map**. This name is important because the form engine looks for a section with this name to determine when to render a map. 
@@ -50,13 +57,14 @@ The resulting form should look similar to the following. You can choose differen
 
 ### Site settings
 Geolocation with map functionality on managed forms requires configuration settings to complete requests with the mapping service REST endpoint. The following site settings are used to configure the location service.
+
 |Name|Value|
 |---|---|
-|Bingmaps/credentials|Unique key to authenticate requests to the Bing Maps API. Visit [www.bingmapsportal.com](https://www.bingmapsportal.com) to create a Bing Maps account and get a key. Required.|
+|Bingmaps/credentials|Unique key to authenticate requests to the Bing Maps API. Visit [www.bingmapsportal.com](https://www.bingmapsportal.com) to create a Bing Maps account and get a key. Required.|
 |Bingmaps/restURL|URL to the Bing Maps REST API. Optional. If a value is not specified, the default http://dev.virtualearth.net/REST/v1/Locations is used.|
 | |
 
 ### Field configurations
 The map control requires additional configuration to tell it what the IDs of the various location fields are, so it can assign values to them or retrieve values from them. The configuration depends on the type of managed form.
-- For entity forms, see [Geolocation configuration for entity forms](entity-forms-custom-logic.md#geolocation-configuration-for-entity-forms).
-- For web forms, see [Geolocation configuration for Web forms](web-form-properties.md#geolocation-configuration-for-web-form).
+- For entity forms, see [Geolocation configuration for entity forms](entity-forms-custom-logic.md#geolocation-configuration-for-entity-forms).
+- For web forms, see [Geolocation configuration for Web forms](web-form-properties.md#geolocation-configuration-for-web-form).

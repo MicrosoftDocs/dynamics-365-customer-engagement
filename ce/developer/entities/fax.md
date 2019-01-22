@@ -1,15 +1,19 @@
 ---
-title: "Fax Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Fax Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Fax entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Fax Entity Reference
 
@@ -848,7 +852,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -994,7 +998,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1307,6 +1311,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_fax_campaignresponse"></a> fax_campaignresponse
 
 Same as campaignresponse entity [fax_campaignresponse](campaignresponse.md#BKMK_fax_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1321,6 +1326,7 @@ Same as campaignresponse entity [fax_campaignresponse](campaignresponse.md#BKMK_
 ### <a name="BKMK_fax_principalobjectattributeaccess"></a> fax_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [fax_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_fax_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1335,6 +1341,7 @@ Same as principalobjectattributeaccess entity [fax_principalobjectattributeacces
 ### <a name="BKMK_Fax_AsyncOperations"></a> Fax_AsyncOperations
 
 Same as asyncoperation entity [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1349,6 +1356,7 @@ Same as asyncoperation entity [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_A
 ### <a name="BKMK_slakpiinstance_fax"></a> slakpiinstance_fax
 
 Same as slakpiinstance entity [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpiinstance_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1363,6 +1371,7 @@ Same as slakpiinstance entity [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpi
 ### <a name="BKMK_Fax_DuplicateBaseRecord"></a> Fax_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK_Fax_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1377,6 +1386,7 @@ Same as duplicaterecord entity [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK
 ### <a name="BKMK_Fax_BulkDeleteFailures"></a> Fax_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Fax_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Fax_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1391,6 +1401,7 @@ Same as bulkdeletefailure entity [Fax_BulkDeleteFailures](bulkdeletefailure.md#B
 ### <a name="BKMK_fax_activity_parties"></a> fax_activity_parties
 
 Same as activityparty entity [fax_activity_parties](activityparty.md#BKMK_fax_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1405,6 +1416,7 @@ Same as activityparty entity [fax_activity_parties](activityparty.md#BKMK_fax_ac
 ### <a name="BKMK_fax_connections2"></a> fax_connections2
 
 Same as connection entity [fax_connections2](connection.md#BKMK_fax_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1419,6 +1431,7 @@ Same as connection entity [fax_connections2](connection.md#BKMK_fax_connections2
 ### <a name="BKMK_Fax_SyncErrors"></a> Fax_SyncErrors
 
 Same as syncerror entity [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1433,6 +1446,7 @@ Same as syncerror entity [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) Many
 ### <a name="BKMK_userentityinstancedata_fax"></a> userentityinstancedata_fax
 
 Same as userentityinstancedata entity [userentityinstancedata_fax](userentityinstancedata.md#BKMK_userentityinstancedata_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1447,6 +1461,7 @@ Same as userentityinstancedata entity [userentityinstancedata_fax](userentityins
 ### <a name="BKMK_Fax_DuplicateMatchingRecord"></a> Fax_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Fax_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Fax_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1461,6 +1476,7 @@ Same as duplicaterecord entity [Fax_DuplicateMatchingRecord](duplicaterecord.md#
 ### <a name="BKMK_Fax_Annotation"></a> Fax_Annotation
 
 Same as annotation entity [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1475,6 +1491,7 @@ Same as annotation entity [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) Ma
 ### <a name="BKMK_Fax_ProcessSessions"></a> Fax_ProcessSessions
 
 Same as processsession entity [Fax_ProcessSessions](processsession.md#BKMK_Fax_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1489,6 +1506,7 @@ Same as processsession entity [Fax_ProcessSessions](processsession.md#BKMK_Fax_P
 ### <a name="BKMK_fax_connections1"></a> fax_connections1
 
 Same as connection entity [fax_connections1](connection.md#BKMK_fax_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1503,6 +1521,7 @@ Same as connection entity [fax_connections1](connection.md#BKMK_fax_connections1
 ### <a name="BKMK_Fax_QueueItem"></a> Fax_QueueItem
 
 Same as queueitem entity [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1517,6 +1536,7 @@ Same as queueitem entity [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) Many-T
 ### <a name="BKMK_fax_actioncard"></a> fax_actioncard
 
 Same as actioncard entity [fax_actioncard](actioncard.md#BKMK_fax_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -2013,6 +2033,6 @@ See systemuser Entity [lk_fax_modifiedonbehalfby](systemuser.md#BKMK_lk_fax_modi
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.fax?text=fax EntityType" />

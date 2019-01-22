@@ -1,22 +1,26 @@
 ---
-title: "Define scaling for ribbon elements (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Define scaling for ribbon elements (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining scaling for ribbon elements."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon, control resize appearance"
+  - ribbon, control resize appearance
 ms.assetid: 8d204398-631a-4541-bcd4-eb0ec1468ffc
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Define scaling for ribbon elements
 
@@ -30,14 +34,14 @@ For application ribbons and updated entity form ribbons there is no scaling. Sca
  Each `<Group>` element in the ribbon is associated with a `<GroupTemplate>`. 
  The `GroupTemplate` specifies one or more ways the controls in the group can be presented using `<Layout>` elements. Each `Layout` may contain one of two types of definition for how the controls in the group are displayed.  
   
--   An `<OverflowSection>` allows for controls to change relative position depending on the available space.  
+- An `<OverflowSection>` allows for controls to change relative position depending on the available space.  
   
--   A `<Section>` controls the number of rows to display and where each control is displayed.  
+- A `<Section>` controls the number of rows to display and where each control is displayed.  
   
- Almost all the `Layout` elements used in ribbons use `OverflowSection` elements.  
+  Almost all the `Layout` elements used in ribbons use `OverflowSection` elements.  
   
- Each `<Tab>` element must contain one `<MaxSize>` in the `<Scaling>`. The `MaxSize` element is required because it establishes the default presentation of each `Group` in a `Tab` without any scaling applied. Scaling occurs when a `Tab` 
- is associated with one or more `<Scale>`. Each `MaxSize` and `Scale` element is associated via the `Size` attribute with one of the `Layout` elements in the `GroupTemplate` used by each `Group` within a `Tab`.  
+  Each `<Tab>` element must contain one `<MaxSize>` in the `<Scaling>`. The `MaxSize` element is required because it establishes the default presentation of each `Group` in a `Tab` without any scaling applied. Scaling occurs when a `Tab` 
+  is associated with one or more `<Scale>`. Each `MaxSize` and `Scale` element is associated via the `Size` attribute with one of the `Layout` elements in the `GroupTemplate` used by each `Group` within a `Tab`.  
   
 > [!NOTE]
 >  The value of the `Size` attribute of any `MaxSize` or `Scale` element must match the `Title` of the available `Layout` elements specified in the `GroupTemplate`. 

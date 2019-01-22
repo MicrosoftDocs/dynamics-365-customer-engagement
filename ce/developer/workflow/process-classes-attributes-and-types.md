@@ -1,20 +1,24 @@
 ---
-title: "Process classes, attributes, and types (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic provides information about the process classes and types found in Dynamics 365 Customer Engagement that you can use to work with the custom activities. "
-ms.custom: ""
+title: "Process classes, attributes, and types (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic provides information about the process classes and types found in Dynamics 365 for Customer Engagement that you can use to work with the custom activities. "
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 16b56acb-9329-4ee1-9c65-b55af707551b
 caps.latest.revision: 26
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Process classes, attributes, and types
 
@@ -36,25 +40,25 @@ This topic provides information about the process classes and types found in [!I
   
  The following types are supported for custom workflow activities:  
   
--   `Bool`  
+- `Bool`  
   
--   `DateTime`  
+- `DateTime`  
   
--   `Decimal`  
+- `Decimal`  
   
--   `Double`  
+- `Double`  
   
--   <xref:Microsoft.Xrm.Sdk.EntityReference>  
+- <xref:Microsoft.Xrm.Sdk.EntityReference>  
   
--   `Int`  
+- `Int`  
   
--   `Money`  
+- `Money`  
   
--   <xref:Microsoft.Xrm.Sdk.OptionSetValue>  
+- <xref:Microsoft.Xrm.Sdk.OptionSetValue>  
   
--   `String`  
+- `String`  
   
- Apart from the `Input`, `Output`, and `Default` attributes, some of the supported [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types in the custom workflow activities require you to specify additional attributes such as `ReferenceTarget` and `AttributeTarget`. These are described in the following section.  
+  Apart from the `Input`, `Output`, and `Default` attributes, some of the supported [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types in the custom workflow activities require you to specify additional attributes such as `ReferenceTarget` and `AttributeTarget`. These are described in the following section.  
   
 <a name="InputAttribute"></a>
 

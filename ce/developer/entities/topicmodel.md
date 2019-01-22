@@ -1,15 +1,19 @@
 ---
-title: "TopicModel Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "TopicModel Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the TopicModel entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # TopicModel Entity Reference
 
@@ -777,6 +781,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_topicmodel_SyncErrors"></a> topicmodel_SyncErrors
 
 Same as syncerror entity [topicmodel_SyncErrors](syncerror.md#BKMK_topicmodel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -791,6 +796,7 @@ Same as syncerror entity [topicmodel_SyncErrors](syncerror.md#BKMK_topicmodel_Sy
 ### <a name="BKMK_topicmodel_AsyncOperations"></a> topicmodel_AsyncOperations
 
 Same as asyncoperation entity [topicmodel_AsyncOperations](asyncoperation.md#BKMK_topicmodel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -805,6 +811,7 @@ Same as asyncoperation entity [topicmodel_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_topicmodel_MailboxTrackingFolders"></a> topicmodel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [topicmodel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_topicmodel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -819,6 +826,7 @@ Same as mailboxtrackingfolder entity [topicmodel_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_topicmodel_UserEntityInstanceDatas"></a> topicmodel_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [topicmodel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_topicmodel_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -833,6 +841,7 @@ Same as userentityinstancedata entity [topicmodel_UserEntityInstanceDatas](usere
 ### <a name="BKMK_topicmodel_BulkDeleteFailures"></a> topicmodel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [topicmodel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_topicmodel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -847,6 +856,7 @@ Same as bulkdeletefailure entity [topicmodel_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_topicmodel_PrincipalObjectAttributeAccesses"></a> topicmodel_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [topicmodel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_topicmodel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -861,6 +871,7 @@ Same as principalobjectattributeaccess entity [topicmodel_PrincipalObjectAttribu
 ### <a name="BKMK_topicmodel_topicmodelconfiguration"></a> topicmodel_topicmodelconfiguration
 
 Same as topicmodelconfiguration entity [topicmodel_topicmodelconfiguration](topicmodelconfiguration.md#BKMK_topicmodel_topicmodelconfiguration) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|topicmodelconfiguration|
@@ -875,6 +886,7 @@ Same as topicmodelconfiguration entity [topicmodel_topicmodelconfiguration](topi
 ### <a name="BKMK_topicmodel_topicmodelexecutionhistory"></a> topicmodel_topicmodelexecutionhistory
 
 Same as topicmodelexecutionhistory entity [topicmodel_topicmodelexecutionhistory](topicmodelexecutionhistory.md#BKMK_topicmodel_topicmodelexecutionhistory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|topicmodelexecutionhistory|
@@ -931,6 +943,6 @@ See topicmodelconfiguration Entity [topicmodelconfiguration_topicmodel](topicmod
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.topicmodel?text=topicmodel EntityType" />

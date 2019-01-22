@@ -1,20 +1,24 @@
 ---
-title: "Marketing insights reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Marketing insights reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2a5e811a-7fbf-4aca-ba29-64b7270923e9
 caps.latest.revision: 12
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Reports for marketing insights
 
@@ -41,7 +45,7 @@ Use this report to compare the cost effectiveness and number of responses of two
   
  When you run the report, select the two campaigns that you want to compare.  
   
- ![A campaign comparison report in Dynamics 365](../basics/media/campaign-comparison-report.png "A campaign comparison report in Dynamics 365")  
+ ![A campaign comparison report in Dynamics 365 for Customer Engagement apps](../basics/media/campaign-comparison-report.png "A campaign comparison report in Dynamics 365 for Customer Engagement apps")  
 
 <a name="BKMK_CampaignPerformance"></a>   
 ## Campaign Performance report

@@ -1,13 +1,17 @@
 ---
-title: "closeProgressIndicator (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "closeProgressIndicator (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9897040d-ebe9-4e3f-8507-786d8b708add
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # closeProgressIndicator (Client API reference)
 

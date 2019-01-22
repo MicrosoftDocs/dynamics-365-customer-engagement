@@ -1,29 +1,33 @@
 ---
-title: "Helper code: ServerConnection class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The ServerConnection class demonstrates how to establish a connection to the Dynamics 365 web services for the purpose of invoking web methods"
-ms.custom: ""
+title: "Helper code: ServerConnection class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The ServerConnection class demonstrates how to establish a connection to the Dynamics 365 for Customer Engagement web services for the purpose of invoking web methods"
+ms.custom: 
 ms.date: 12/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 84056850-972d-4209-a293-acd5a5503fbf
 caps.latest.revision: 41
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Helper code: ServerConnection class
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The primary purpose of the `ServerConnection` class is to show how to connect to the [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement web services to invoke web methods. In addition, applications must typically perform other tasks such as obtaining server and organization information, obtaining user login credentials, creating a service proxy, and refreshing the WCF connection security token. The `ServerConnection` class provides this needed functionality.  
+The primary purpose of the `ServerConnection` class is to show how to connect to the [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] web services to invoke web methods. In addition, applications must typically perform other tasks such as obtaining server and organization information, obtaining user login credentials, creating a service proxy, and refreshing the WCF connection security token. The `ServerConnection` class provides this needed functionality.  
   
 > [!CAUTION]
->  The `ServerConnection` class is used by most samples that are included in the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)]. The class is updated periodically with new functionality. Do not simply reuse the helper code for authentication in your applications. It is code that the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] uses to provide the optimum experience when you run our Console application samples included in the SDK. It contains all the key elements of authentication and demonstrates their use, but it may not represent the best solution for your application. It is sample code that you can use as a basis for designing an authentication management system that fits the requirements of your application. Refer to the topic [Use connection strings in XRM tooling to connect to Dynamics 365](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md) for an alternate method for authenticating with the web services.  
+>  The `ServerConnection` class is used by most samples that are included in the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)]. The class is updated periodically with new functionality. Do not simply reuse the helper code for authentication in your applications. It is code that the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] uses to provide the optimum experience when you run our Console application samples included in the SDK. It contains all the key elements of authentication and demonstrates their use, but it may not represent the best solution for your application. It is sample code that you can use as a basis for designing an authentication management system that fits the requirements of your application. Refer to the topic [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md) for an alternate method for authenticating with the web services.  
   
  The file is present in code samples' folder that you download.
  
@@ -50,5 +54,5 @@ The primary purpose of the `ServerConnection` class is to show how to connect to
   
 ### See also  
  [Use the Sample and Helper Code](use-sample-helper-code.md)  
- [Sample: Quick start for Dynamics 365 Customer Engagement](../sample-quick-start.md)   
- [Access the Web Services in Dynamics 365](../authenticate-users.md)
+ [Sample: Quick start for Dynamics 365 for Customer Engagement apps](../sample-quick-start.md)   
+ [Access the Web Services in Dynamics 365 for Customer Engagement](../authenticate-users.md)

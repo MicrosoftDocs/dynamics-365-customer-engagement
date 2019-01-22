@@ -1,33 +1,37 @@
 ---
-title: "Create a recurring appointment series, instance, or exception (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create a recurring appointment series, instance, or exception (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "programmatically create a recurring appointment master (series),  individual recurring appointment instances, exceptions to those instances, or convert an appointment to a recurring appointment."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "schedule and appointment entities, converting appointments to recurring appointments"
-  - "identifying recurring appointment instances"
-  - "recurring appointment series; instance; or exception, schedule and appointment entities"
-  - "recurring appointment instances stored as appointment records, schedule and appointment entities"
-  - "appointments"
-  - "recurring appointment instances, updating; deleting; or identifying"
-  - "appointments, converting to recurring appointments"
-  - "converting appointments to recurring appointments"
-  - "deleting recurring appointment instances"
-  - "updating recurring appointment instances"
-  - "creating a recurring appointment series; instance; or exception"
-  - "schedule and appointment entities, creating a recurring appointment series; instance; or exception"
+  - schedule and appointment entities, converting appointments to recurring appointments
+  - identifying recurring appointment instances
+  - recurring appointment series; instance; or exception, schedule and appointment entities
+  - recurring appointment instances stored as appointment records, schedule and appointment entities
+  - appointments
+  - recurring appointment instances, updating; deleting; or identifying
+  - appointments, converting to recurring appointments
+  - converting appointments to recurring appointments
+  - deleting recurring appointment instances
+  - updating recurring appointment instances
+  - creating a recurring appointment series; instance; or exception
+  - schedule and appointment entities, creating a recurring appointment series; instance; or exception
 ms.assetid: bb2eadf8-058e-43c2-9fda-c56ac501bc1c
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create a recurring appointment series, instance, or exception
 
@@ -41,16 +45,16 @@ When you create a recurring appointment master (series), [!INCLUDE[pn_microsoftc
   
  When you create a recurring appointment series, the following things occur:  
   
-1.  A `RecurringAppointmentMaster` record (recurring appointment series) is created that contains the basic and recurrence information about the recurring appointment series. Each record can be uniquely identified using the `RecurringAppointmentMaster.ActivityId` property. Further, this recurring appointment series is also created and stored as an activity (`ActivityPointer`) record. The activity record can be uniquely identified using the `ActivityPointer.ActivityId` property.  
+1. A `RecurringAppointmentMaster` record (recurring appointment series) is created that contains the basic and recurrence information about the recurring appointment series. Each record can be uniquely identified using the `RecurringAppointmentMaster.ActivityId` property. Further, this recurring appointment series is also created and stored as an activity (`ActivityPointer`) record. The activity record can be uniquely identified using the `ActivityPointer.ActivityId` property.  
   
-2.  Individual recurring appointment instances are created based on the recurrence information and stored as `Appointment` records. These appointment objects are associated with the parent recurring appointment series using the `Appointment.SeriesId` property and have the same value as the parent recurring appointment series ID (`ActivityPointer.SeriesId`).  
+2. Individual recurring appointment instances are created based on the recurrence information and stored as `Appointment` records. These appointment objects are associated with the parent recurring appointment series using the `Appointment.SeriesId` property and have the same value as the parent recurring appointment series ID (`ActivityPointer.SeriesId`).  
   
-     The value of the `Appointment.InstanceTypeCode` property is set to **Recurring Instance** (picklist value 2) for these appointment objects.  
+    The value of the `Appointment.InstanceTypeCode` property is set to **Recurring Instance** (picklist value 2) for these appointment objects.  
   
-    > [!NOTE]
-    >  Recurring appointment instances are created based on the expansion model and the parameters that define it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Recurring Appointment Partial Expansion Model](recurring-appointment-partial-expansion-model.md).  
+   > [!NOTE]
+   >  Recurring appointment instances are created based on the expansion model and the parameters that define it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Recurring Appointment Partial Expansion Model](recurring-appointment-partial-expansion-model.md).  
   
- For sample code that demonstrates how to create a recurring appointment series, see [Sample: Create a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md).  
+   For sample code that demonstrates how to create a recurring appointment series, see [Sample: Create a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md).  
   
 <a name="bkmk_createinstance"></a>   
 ## Create a recurring appointment instance  

@@ -6,7 +6,7 @@
   var query_twowhere = from a in svcContext.AccountSet
                        join c in svcContext.ContactSet 
                        on a.PrimaryContactId.Id equals c.ContactId
-                       where c.LastName == "Smith" &amp;&amp; c.CreditOnHold != null
+                       where c.LastName == "Smith" && c.CreditOnHold != null
                        where a.Name == "Contoso Ltd"
                        orderby a.Name
                        select a;

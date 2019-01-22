@@ -1,25 +1,31 @@
 ---
 title: "Composite DDA | MicrosoftDocs"
 description: "The composite data-driven adapter is an extension of the DDA architecture introduced with UII. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: dee27756-e74c-465f-a6b0-383b581e693e
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Composite DDA
 The composite data-driven adapter is an extension of the DDA architecture introduced with [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality. An example for this could be a Java applet in a web application. You can use the composite DDA in these scenarios.  
@@ -55,7 +61,7 @@ The composite data-driven adapter is an extension of the DDA architecture introd
   
 > [!NOTE]
 >  Every DDA binding should always be called with its respective prefix. For example, if the `DDAType2` and `DDAType3` have a control defined with the name `Button1`, the control names used in the automation are `dda1Button1` and `dda2Button1`.  
-  
+> 
 > [!NOTE]
 >  If the webpage contains a [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] control or [!INCLUDE[pn_Java](../includes/pn-java.md)] Applet, the web application default action does not wait for the [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] control or [!INCLUDE[pn_Java](../includes/pn-java.md)] Applet to load.  
   

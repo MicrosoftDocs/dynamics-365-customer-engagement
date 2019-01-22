@@ -1,28 +1,31 @@
 ---
-title: "Create or edit quick create forms in PowerApps | MicrosoftDocs"
+title: "Create or edit quick create forms in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create or edit a quick create form"
-ms.custom: ""
-ms.date: 04/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 68ca9059-cc5a-45e7-88bd-cc57186bbb48
 caps.latest.revision: 18
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit quick create forms for a streamlined data entry experience
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
+ With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   
  The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement mobile apps use quick create forms for creating new records. If an entity already has a quick create form configured for it, the mobile apps use that form. If an entity doesn't have a configured quick create form, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] generates a quick create form  for creating records in the mobile apps based on the main form definition.  
   
@@ -35,10 +38,10 @@ manager: "kvivek"
 |Account|Campaign Response|Case|Competitor|  
 |Contact|Lead|Opportunity||  
   
- Although you can create quick create forms for System Activity entities, they do not support quick create forms. Any of the other [Updated entities](../customize/create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for them.  
-  
- You can enable custom activity entities to support quick create forms, and you can create quick create forms for those entities. However, the quick create form for custom activity entities will not be used when people select the **Create** button on the nav bar. These quick create forms can be used only when people add a new record for a subgrid that displays that specific custom activity entity.  
-  
+Although you can create quick create forms for system activity entities, with the exception of the appointment entity, they do not support quick create forms. With the release of Dynamics 365 for Customer Engagement, version 9.0, the appointment entity includes a quick create form for use with the Unified Interface. Currently, the option to disable the quick create form for the appointment entity is not supported. Any of the other [updated entities](../customize/create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for the entity. 
+
+You can enable custom activity entities to support quick create forms, and you can create quick create forms for those entities. However, the quick create form for custom activity entities will not be used when people select **Create** on the navigation bar. These quick create forms can be used only when people add a new record for a sub-grid that displays that specific custom activity entity. 
+
 <a name="BKMK_CreateQuickCreate"></a>   
 ## Create a quick create form  
  Although you can define multiple quick create forms, only one quick create form can be used by everyone. The form everyone will use is set using the form order. Quick create forms cannot be assigned to security roles and they do not provide the capability for the user to switch forms.  

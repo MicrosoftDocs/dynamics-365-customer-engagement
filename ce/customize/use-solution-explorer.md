@@ -1,26 +1,30 @@
 ---
-title: "Use the solution explorer in PowerApps | MicrosoftDocs"
+title: "Use the solution explorer | MicrosoftDocs"
 description: "Learn how to use solution explorer to create or customize apps"
-ms.custom: ""
-ms.date: 04/25/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/11/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 72bacfbb-96a3-4daa-88ff-11bdaaac9a3d
 caps.latest.revision: 57
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Use the solution explorer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  
   
@@ -51,3 +55,7 @@ With managed solutions there will be no commands available and you’ll see the 
 -   For processes, see [Processes](guide-staff-through-common-tasks-processes.md).  
   
 -   For business rules, see [Business Rules](create-business-rules-recommendations-apply-logic-form.md).  
+
+
+### See also
+[Solutions overview](solutions-overview.md)

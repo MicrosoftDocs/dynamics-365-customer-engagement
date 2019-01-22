@@ -1,20 +1,24 @@
 ---
-title: "Ribbon WSS schema (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Ribbon WSS schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema definition for the ribbon types WSS of an import/export customization file. It is included from the Ribbon Core Schema."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7df86d70-d4d0-4cb2-94e1-ac5504307bb8
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Ribbon WSS schema
 
@@ -25,7 +29,7 @@ The following is the schema definition for the ribbon types WSS of an import/exp
 Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
 
-For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md).
+For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
 
 ## Schema  
   

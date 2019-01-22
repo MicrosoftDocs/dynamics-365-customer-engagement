@@ -1,15 +1,19 @@
 ---
-title: "msdyn_agreementbookingservice Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_agreementbookingservice Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_agreementbookingservice entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_agreementbookingservice Entity Reference
 
@@ -552,7 +556,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -675,7 +679,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1017,6 +1021,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_agreementbookingservice_ActivityPointers"></a> msdyn_agreementbookingservice_ActivityPointers
 
 Same as activitypointer entity [msdyn_agreementbookingservice_ActivityPointers](activitypointer.md#BKMK_msdyn_agreementbookingservice_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1031,6 +1036,7 @@ Same as activitypointer entity [msdyn_agreementbookingservice_ActivityPointers](
 ### <a name="BKMK_msdyn_agreementbookingservice_msdyn_approvals"></a> msdyn_agreementbookingservice_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_agreementbookingservice_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_agreementbookingservice_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1045,6 +1051,7 @@ Same as msdyn_approval entity [msdyn_agreementbookingservice_msdyn_approvals](ms
 ### <a name="BKMK_msdyn_agreementbookingservice_msdyn_bookingalerts"></a> msdyn_agreementbookingservice_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_agreementbookingservice_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_agreementbookingservice_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1059,6 +1066,7 @@ Same as msdyn_bookingalert entity [msdyn_agreementbookingservice_msdyn_bookingal
 ### <a name="BKMK_msdyn_agreementbookingservice_SyncErrors"></a> msdyn_agreementbookingservice_SyncErrors
 
 Same as syncerror entity [msdyn_agreementbookingservice_SyncErrors](syncerror.md#BKMK_msdyn_agreementbookingservice_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1073,6 +1081,7 @@ Same as syncerror entity [msdyn_agreementbookingservice_SyncErrors](syncerror.md
 ### <a name="BKMK_msdyn_agreementbookingservice_DuplicateMatchingRecord"></a> msdyn_agreementbookingservice_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_agreementbookingservice_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_agreementbookingservice_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1087,6 +1096,7 @@ Same as duplicaterecord entity [msdyn_agreementbookingservice_DuplicateMatchingR
 ### <a name="BKMK_msdyn_agreementbookingservice_DuplicateBaseRecord"></a> msdyn_agreementbookingservice_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_agreementbookingservice_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_agreementbookingservice_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1101,6 +1111,7 @@ Same as duplicaterecord entity [msdyn_agreementbookingservice_DuplicateBaseRecor
 ### <a name="BKMK_msdyn_agreementbookingservice_AsyncOperations"></a> msdyn_agreementbookingservice_AsyncOperations
 
 Same as asyncoperation entity [msdyn_agreementbookingservice_AsyncOperations](asyncoperation.md#BKMK_msdyn_agreementbookingservice_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1115,6 +1126,7 @@ Same as asyncoperation entity [msdyn_agreementbookingservice_AsyncOperations](as
 ### <a name="BKMK_msdyn_agreementbookingservice_MailboxTrackingFolders"></a> msdyn_agreementbookingservice_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_agreementbookingservice_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_agreementbookingservice_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1129,6 +1141,7 @@ Same as mailboxtrackingfolder entity [msdyn_agreementbookingservice_MailboxTrack
 ### <a name="BKMK_msdyn_agreementbookingservice_UserEntityInstanceDatas"></a> msdyn_agreementbookingservice_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_agreementbookingservice_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_agreementbookingservice_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1143,6 +1156,7 @@ Same as userentityinstancedata entity [msdyn_agreementbookingservice_UserEntityI
 ### <a name="BKMK_msdyn_agreementbookingservice_ProcessSession"></a> msdyn_agreementbookingservice_ProcessSession
 
 Same as processsession entity [msdyn_agreementbookingservice_ProcessSession](processsession.md#BKMK_msdyn_agreementbookingservice_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1157,6 +1171,7 @@ Same as processsession entity [msdyn_agreementbookingservice_ProcessSession](pro
 ### <a name="BKMK_msdyn_agreementbookingservice_BulkDeleteFailures"></a> msdyn_agreementbookingservice_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_agreementbookingservice_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_agreementbookingservice_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1171,6 +1186,7 @@ Same as bulkdeletefailure entity [msdyn_agreementbookingservice_BulkDeleteFailur
 ### <a name="BKMK_msdyn_agreementbookingservice_PrincipalObjectAttributeAccesses"></a> msdyn_agreementbookingservice_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_agreementbookingservice_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_agreementbookingservice_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1185,6 +1201,7 @@ Same as principalobjectattributeaccess entity [msdyn_agreementbookingservice_Pri
 ### <a name="BKMK_msdyn_agreementbookingservice_Appointments"></a> msdyn_agreementbookingservice_Appointments
 
 Same as appointment entity [msdyn_agreementbookingservice_Appointments](appointment.md#BKMK_msdyn_agreementbookingservice_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1199,6 +1216,7 @@ Same as appointment entity [msdyn_agreementbookingservice_Appointments](appointm
 ### <a name="BKMK_msdyn_agreementbookingservice_Emails"></a> msdyn_agreementbookingservice_Emails
 
 Same as email entity [msdyn_agreementbookingservice_Emails](email.md#BKMK_msdyn_agreementbookingservice_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1213,6 +1231,7 @@ Same as email entity [msdyn_agreementbookingservice_Emails](email.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_agreementbookingservice_Faxes"></a> msdyn_agreementbookingservice_Faxes
 
 Same as fax entity [msdyn_agreementbookingservice_Faxes](fax.md#BKMK_msdyn_agreementbookingservice_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1227,6 +1246,7 @@ Same as fax entity [msdyn_agreementbookingservice_Faxes](fax.md#BKMK_msdyn_agree
 ### <a name="BKMK_msdyn_agreementbookingservice_Letters"></a> msdyn_agreementbookingservice_Letters
 
 Same as letter entity [msdyn_agreementbookingservice_Letters](letter.md#BKMK_msdyn_agreementbookingservice_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1241,6 +1261,7 @@ Same as letter entity [msdyn_agreementbookingservice_Letters](letter.md#BKMK_msd
 ### <a name="BKMK_msdyn_agreementbookingservice_PhoneCalls"></a> msdyn_agreementbookingservice_PhoneCalls
 
 Same as phonecall entity [msdyn_agreementbookingservice_PhoneCalls](phonecall.md#BKMK_msdyn_agreementbookingservice_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1255,6 +1276,7 @@ Same as phonecall entity [msdyn_agreementbookingservice_PhoneCalls](phonecall.md
 ### <a name="BKMK_msdyn_agreementbookingservice_Tasks"></a> msdyn_agreementbookingservice_Tasks
 
 Same as task entity [msdyn_agreementbookingservice_Tasks](task.md#BKMK_msdyn_agreementbookingservice_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1269,6 +1291,7 @@ Same as task entity [msdyn_agreementbookingservice_Tasks](task.md#BKMK_msdyn_agr
 ### <a name="BKMK_msdyn_agreementbookingservice_RecurringAppointmentMasters"></a> msdyn_agreementbookingservice_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_agreementbookingservice_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_agreementbookingservice_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1283,6 +1306,7 @@ Same as recurringappointmentmaster entity [msdyn_agreementbookingservice_Recurri
 ### <a name="BKMK_msdyn_agreementbookingservice_SocialActivities"></a> msdyn_agreementbookingservice_SocialActivities
 
 Same as socialactivity entity [msdyn_agreementbookingservice_SocialActivities](socialactivity.md#BKMK_msdyn_agreementbookingservice_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1297,6 +1321,7 @@ Same as socialactivity entity [msdyn_agreementbookingservice_SocialActivities](s
 ### <a name="BKMK_msdyn_agreementbookingservice_connections1"></a> msdyn_agreementbookingservice_connections1
 
 Same as connection entity [msdyn_agreementbookingservice_connections1](connection.md#BKMK_msdyn_agreementbookingservice_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1311,6 +1336,7 @@ Same as connection entity [msdyn_agreementbookingservice_connections1](connectio
 ### <a name="BKMK_msdyn_agreementbookingservice_connections2"></a> msdyn_agreementbookingservice_connections2
 
 Same as connection entity [msdyn_agreementbookingservice_connections2](connection.md#BKMK_msdyn_agreementbookingservice_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1325,6 +1351,7 @@ Same as connection entity [msdyn_agreementbookingservice_connections2](connectio
 ### <a name="BKMK_msdyn_agreementbookingservice_Annotations"></a> msdyn_agreementbookingservice_Annotations
 
 Same as annotation entity [msdyn_agreementbookingservice_Annotations](annotation.md#BKMK_msdyn_agreementbookingservice_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1339,6 +1366,7 @@ Same as annotation entity [msdyn_agreementbookingservice_Annotations](annotation
 ### <a name="BKMK_msdyn_agreementbookingservice_ServiceAppointments"></a> msdyn_agreementbookingservice_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_agreementbookingservice_ServiceAppointments](serviceappointment.md#BKMK_msdyn_agreementbookingservice_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1353,6 +1381,7 @@ Same as serviceappointment entity [msdyn_agreementbookingservice_ServiceAppointm
 ### <a name="BKMK_msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService"></a> msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService
 
 Same as msdyn_workorderservice entity [msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService](msdyn_workorderservice.md#BKMK_msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderservice|
@@ -1449,6 +1478,6 @@ See uom Entity [msdyn_uom_msdyn_agreementbookingservice_Unit](uom.md#BKMK_msdyn_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_agreementbookingservice?text=msdyn_agreementbookingservice EntityType" />

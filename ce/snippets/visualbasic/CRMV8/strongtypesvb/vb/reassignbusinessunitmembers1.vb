@@ -92,7 +92,7 @@
          ' add user to the created business unit
          _serviceProxy.Execute(New SetBusinessSystemUserRequest() With
                                {
-                                   .BusinessId = _buisnessUnit.Id,
+                                   .BusinessId = _businessUnit.Id,
                                    .ReassignPrincipal = New EntityReference(SystemUser.EntityLogicalName,
                                                                             _users(2)),
                                    .UserId = _users(2)
@@ -130,13 +130,13 @@
          ' mark the state as inactive (value 1)
          _serviceProxy.Execute(New SetStateRequest() With
                                {
-                                   .EntityMoniker = _buisnessUnit.ToEntityReference(),
+                                   .EntityMoniker = _businessUnit.ToEntityReference(),
                                    .State = New OptionSetValue(1),
                                    .Status = New OptionSetValue(-1)
                                })
 
          ' delete business unit
-         _serviceProxy.Delete(BusinessUnit.EntityLogicalName, _buisnessUnit.Id)
+         _serviceProxy.Delete(BusinessUnit.EntityLogicalName, _businessUnit.Id)
 
          '					#End Region
 

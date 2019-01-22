@@ -1,21 +1,28 @@
 ---
 title: "Capture leads generated on LinkedIn (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 for Marketing"
-keywords: "LinkedIn; Lead Gen Forms; lead; connector"
+keywords: LinkedIn; Lead Gen Forms; lead; connector
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ec81d712-2c82-4ce0-83c5-ccfbafab71bb
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration
@@ -26,28 +33,28 @@ ms.custom:
 
 To see the information collected by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen, open a lead and go to its **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Info** tab.
 
-To sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] and run campaigns on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you need access to a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account that can manage sponsored content by using [LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/56969).
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 ## Enable lead sync from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 Before we can sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign accounts to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization, a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** needs to [assign security roles to users and set up the matching strategy](linkedin-configuration.md) for new leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].    
 Additionally, a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member with access to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], this user requires at least a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.
 
-For more information about assigning security roles to users, see [TechNet: Create users and assign Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx)
+For more information about assigning security roles to users, see [Create users in Dynamics 365 for Customer Engagement (online) and assign security roles](../admin/create-users-assign-online-security-roles.md)
 
 ### Authorize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to sync data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager
 
 1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **User Profiles**.
 
-1. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
+2. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
 
-1. To add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize** on the command bar.
+3. To add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize** on the command bar.
 
-1. Enter the credentials for your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] profile, and then select **Sign In**.
+4. Enter the credentials for your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] profile, and then select **Sign In**.
 
-1. In the permissions dialog box, select **Allow**.
+5. In the permissions dialog box, select **Allow**.
 
-1. Check and confirm the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization to which you want to sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data.
+6. Check and confirm the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization to which you want to sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data.
 
 After successful authorization, the associated [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts are listed in the **Associated [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Accounts** section. You can review the details of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; if you don't see them, refresh the view.
 
@@ -59,7 +66,7 @@ When a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matches a lead r
 
 ### See the details of a lead
 
-To see the details of a lead record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Marketing** &gt; **Lead Management** &gt; **Leads**, and then select the lead record from the list. If the lead was created by [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)], the lead source is **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] updates the lead field values by using the information submitted by the lead on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit a lead](https://go.microsoft.com/fwlink/p?linkid=832163)
+To see the details of a lead record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Marketing** &gt; **Lead Management** &gt; **Leads**, and then select the lead record from the list. If the lead was created by [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)], the lead source is **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] updates the lead field values by using the information submitted by the lead on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit a lead (Sales and Sales Hub)](../sales-enterprise/create-edit-lead-sales.md)
 
 > [!NOTE]
 > [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaigns automatically create a **Customer Journey** record. To stop these records from being automatically generated, a system administrator or customizer needs to edit the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LeadGen Integration Configurations** entity and change the value for the **Create Journeys for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaigns** attribute from **Yes** to **No**. For quick access to this custom entity, consider adding it to the site map.
@@ -76,8 +83,10 @@ To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamic
 
 ## See the sync status for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 
-When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated. 
+When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated.
 
 ### See also
-[Configure LinkedIn Lead Gen](linkedin-configuration.md)    
-[Manage customer information](manage-customer-information.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Configure LinkedIn Lead Gen](linkedin-configuration.md)  
+[Manage customer information](manage-customer-information.md)  
+[Market to Dynamics 365 for Marketing segments on LinkedIn](linkedin-matched-audience.md)

@@ -1,20 +1,24 @@
 ---
-title: "Write a listener application for a Microsoft Azure solution (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic describes how to write an Azure solution listener application that can read and process Dynamics 365 (online) Customer Engagement messages that are posted to the Azure Service Bus."
-ms.custom: ""
+title: "Write a listener application for a Microsoft Azure solution (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic describes how to write an Azure solution listener application that can read and process Dynamics 365 for Customer Engagement (online) Customer Engagement messages that are posted to the Azure Service Bus."
+ms.custom: 
 ms.date: 12/17/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bf0b34fa-b49b-41f6-a2ca-9029a1ba64a1
 caps.latest.revision: 60
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Write a listener application for a Azure solution
 
@@ -80,7 +84,7 @@ For the REST contract, the <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin
   
 > [!NOTE]
 >  When using the out-of-box (ServiceBusPlugin) plug-in with a two-way or REST listener, the plug-in doesn’t use any string data returned from the listener. However, a custom [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware plug-in could make use of this information.  
->   
+> 
 >  When you run the listener samples, the issuer secret you’re prompted for is the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] management key. The WS2007 Federation HTTP binding uses `token` mode and the WS-Trust 1.3 protocol.  
   
 <a name="filter"></a>
@@ -141,5 +145,5 @@ else if (receivedMessage.ContentType = "application/xml")
  [Sample: One-way Listener](sample-one-way-listener.md)   
  [Sample: Two-way Listener](sample-two-way-listener.md)   
  [Sample: REST Listener](sample-rest-listener.md)   
- [Send Dynamics 365 Data over the Azure Service Bus](work-data-azure-solution.md)   
- [Work with Dynamics 365 event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)
+ [Send Dynamics 365 for Customer Engagement Data over the Azure Service Bus](work-data-azure-solution.md)   
+ [Work with Dynamics 365 for Customer Engagement event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)

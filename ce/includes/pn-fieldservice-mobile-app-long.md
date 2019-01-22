@@ -1,1 +1,1 @@
-Field Service for Microsoft Dynamics 365
+Field Service Mobile

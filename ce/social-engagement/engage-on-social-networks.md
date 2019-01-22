@@ -1,19 +1,26 @@
 ---
 title: "Engage on social networks in Social Engagement | Microsoft Docs"
 description: "Get an overview of the requirements to engage on posts from within Social Engagement."
-keywords: "social center, streams, engagement"
+keywords: social center, streams, engagement
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: 98e1a49d-1d1a-4fe1-8570-8f32e234c55a
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Engage on social networks
@@ -23,8 +30,8 @@ ms.custom:
 > [!IMPORTANT]
 >  Before you can interact with posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be sure to meet the following prerequisites:
 > 
->  1.  You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
->  2.  You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
+> 1. You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+> 2. You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 -   Visit the **Social Center** to see your streams—a steady flow of recent posts, based on the underlying data set.
 

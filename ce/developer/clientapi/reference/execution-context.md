@@ -1,14 +1,18 @@
 ---
-title: "Client API execution context in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Client API execution context in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1fcbf0fd-4e47-4352-a555-9315f7e57331
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Execution context (Client API reference)
 

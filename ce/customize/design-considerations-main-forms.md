@@ -1,30 +1,34 @@
 ---
-title: "Design considerations for main forms with PowerApps | MicrosoftDocs"
+title: "Design considerations for main forms | MicrosoftDocs"
 description: "Learn how to design main forms"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/03/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: a83872f4-9e36-413b-8561-41a1e5ffe5dd
 caps.latest.revision: 17
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Design considerations for main forms
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for model-driven apps, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   
- One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for a model-driven app or the Dynamics 365 customer engagement web application, is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
+ One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for a model-driven app or the Dynamics 365 for Customer Engagement apps web application, is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
   
 <a name="BKMK_CustomFormsForGroups"></a>   
 
@@ -45,9 +49,9 @@ Main forms are the primary user interface where people view and interact with th
   
 - [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] doesn’t support image, HTML, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources to be added to forms.  
   
--   The layout of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms is auto-generated based on the main form. There is no special form editor for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms. You need to verify that the form presentation works well for both clients.  
+- The layout of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms is auto-generated based on the main form. There is no special form editor for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms. You need to verify that the form presentation works well for both clients.  
   
--   If you have unsupported scripts that interact with DOM elements found in the web application, those scripts won’t work in the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms because the same DOM elements aren’t available.  
+- If you have unsupported scripts that interact with DOM elements found in the web application, those scripts won’t work in the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms because the same DOM elements aren’t available.  
   
 - [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] Reading Pane forms don’t allow for scripting. The visibility of form elements depend on the default settings and can’t be changed at runtime using scripts.  
   

@@ -1,24 +1,29 @@
 ---
-title: "Create a schema to export configuration data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Create a schema to export configuration data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 61660b0d-4628-436d-804c-d2538be2813e
 caps.latest.revision: 15
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: jimholtz
+manager: kvivek
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create a schema to export configuration data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The Configuration Migration tool lets you build a schema to describe your export data. It also enables you to check for any missing dependencies and relationships in the entities or fields to be exported to avoid an inconsistent data set.  
   
@@ -32,45 +37,45 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
 
 ## Create a schema and export configuration data  
   
-1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
+1. Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   
-2.  On the main screen, click **Create schema**, and click **Continue**.  
+2. On the main screen, click **Create schema**, and click **Continue**.  
   
-3.  On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4.  If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization to connect to.  
   
-5.  From the **Select the solution** list, select a solution from where you want to export the data:  
+5. From the **Select the solution** list, select a solution from where you want to export the data:  
   
-6.  In the selected solution, you can select the entities and fields to be exported or export all the entities within the solution.  
+6. In the selected solution, you can select the entities and fields to be exported or export all the entities within the solution.  
   
-    1.  To select the entities and fields to be exported, from the **Select Entity** list, select the entity for which you want to export the data. The **Fields for the entity** list displays all the fields of the selected entity.  
+   1.  To select the entities and fields to be exported, from the **Select Entity** list, select the entity for which you want to export the data. The **Fields for the entity** list displays all the fields of the selected entity.  
   
-        1.  To add selected fields of the entity, click **Add Fields**.  
+       1.  To add selected fields of the entity, click **Add Fields**.  
   
-        2.  To add the entity itself and all the fields, click **Add Entity**.  
+       2.  To add the entity itself and all the fields, click **Add Entity**.  
   
-    2.  To export all the entities, click **Add All** next to the **Select Entity** list.  
+   2.  To export all the entities, click **Add All** next to the **Select Entity** list.  
   
- ![Create schema of the data to be exported in Dynamics 365](../admin/media/configure-migration-create-schema.PNG "Create schema of the data to be exported in Dynamics 365")  
+   ![Create schema of the data to be exported in Dynamics 365 for Customer Engagement](../admin/media/configure-migration-create-schema.PNG "Create schema of the data to be exported in Dynamics 365 for Customer Engagement")  
   
-7.  You can select the **Show the relationships of the selected entity** to view the related entities for the selected entity so that you can export them as well.  
+7. You can select the **Show the relationships of the selected entity** to view the related entities for the selected entity so that you can export them as well.  
   
-8.  The selected entities are displayed in the **Selected Fields and Entities** box.  
+8. The selected entities are displayed in the **Selected Fields and Entities** box.  
   
-    -   If you want to remove an entity, field, or relationship, click to select it, right-click, and then select the remove option.  
+   -   If you want to remove an entity, field, or relationship, click to select it, right-click, and then select the remove option.  
   
-    -   If you want to remove all the items in the **Selected Fields and Entities** and start over, click **Clear Selection**.  
+   -   If you want to remove all the items in the **Selected Fields and Entities** and start over, click **Clear Selection**.  
   
- ![Remove a relationship in a Dynamics 365 schema](../admin/media/config-migration-create-schema-2.png "Remove a relationship in a Dynamics 365 schema")  
+   ![Remove a relationship in a Dynamics 365 for Customer Engagement apps schema](../admin/media/config-migration-create-schema-2.png "Remove a relationship in a Dynamics 365 for Customer Engagement apps schema")  
   
 9. To validate the selected data to be exported, click **Tools** > **Validate Schema**.  
   
- ![Validate the schema](../admin/media/config-migration-create-schema-7.png "Validate the schema")  
+   ![Validate the schema](../admin/media/config-migration-create-schema-7.png "Validate the schema")  
   
 10. A message is displayed if there are any missing dependencies. To close the message, click **OK**.  
   
- ![Validation results message in Dynamics 365](../admin/media/config-migration-create-schema-3.PNG "Validation results message in Dynamics 365")  
+    ![Validation results message in Dynamics 365 for Customer Engagement](../admin/media/config-migration-create-schema-3.PNG "Validation results message in Dynamics 365 for Customer Engagement")  
   
 11. Add the missing entities, and then perform step 9 again to validate the data. A confirmation message is displayed if there are no validation errors.  
   
@@ -79,7 +84,7 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 12. Define the uniqueness condition for your data to be exported. To open a new screen, click **Tools** > **Configure Import Settings**. For each entity that you have selected to export, add the field or fields on which you want the records to be compared with existing records on the target system during the import. Select a field, and click **Add Field**.  
   
- ![Configure import settings in Dynamics 365](../admin/media/config-migration-create-schema-4.PNG "Configure import settings in Dynamics 365")  
+    ![Configure import settings in Dynamics 365 for Customer Engagement](../admin/media/config-migration-create-schema-4.PNG "Configure import settings in Dynamics 365 for Customer Engagement")  
   
 13. To disable plug-ins for all the entities before the data is imported on to the target system, select the **Disable plug-ins on all entities for import** check box. The tool will disable all the plug-ins while importing data on to the target server, and re-enable them after the import process.  
   
@@ -98,29 +103,29 @@ Download the Configuration Migration Tool. The Configuration Migration tool is a
   
 16. On the next screen, specify the location of the data file to be exported in the **Save to data file** box, and then click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.  
   
- ![Screenshot of export data in Dynamics 365](../admin/media/config-migration-create-schema-5.PNG "Screenshot of export data in Dynamics 365")  
+    ![Screenshot of export data in Dynamics 365 for Customer Engagement](../admin/media/config-migration-create-schema-5.PNG "Screenshot of export data in Dynamics 365 for Customer Engagement")  
   
 17. Click **Exit** to close the tool.  
   
 <a name="ReuseSchematoExportData"></a>   
 ## Reuse an existing schema to export configuration data  
- You can reuse a schema file that was generated using the Configuration Migration tool to quickly export data across [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances without having to create the schema all over again.  
+ You can reuse a schema file that was generated using the Configuration Migration tool to quickly export data across [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instances without having to create the schema all over again.  
   
-1.  Start the Configuration Migration tool.  
+1. Start the Configuration Migration tool.  
   
-2.  On the main screen, click **Export data**, and click **Continue**.  
+2. On the main screen, click **Export data**, and click **Continue**.  
   
-3.  On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4.  If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization to connect to.  
   
-5.  On the next screen, select the schema file to be used for the data export.  
+5. On the next screen, select the schema file to be used for the data export.  
   
-6.  Specify the name and location of the data file to be exported.  
+6. Specify the name and location of the data file to be exported.  
   
-7.  Click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.  
+7. Click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.  
   
-8.  Click **Exit** to close the tool.  
+8. Click **Exit** to close the tool.  
 
 ### See also 
  [Download tools from NuGet](../developer/download-tools-nuget.md) <br />

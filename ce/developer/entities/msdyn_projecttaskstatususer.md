@@ -1,15 +1,19 @@
 ---
-title: "msdyn_projecttaskstatususer Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_projecttaskstatususer Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_projecttaskstatususer entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_projecttaskstatususer Entity Reference
 
@@ -761,6 +765,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projecttaskstatususer_SyncErrors"></a> msdyn_projecttaskstatususer_SyncErrors
 
 Same as syncerror entity [msdyn_projecttaskstatususer_SyncErrors](syncerror.md#BKMK_msdyn_projecttaskstatususer_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -775,6 +780,7 @@ Same as syncerror entity [msdyn_projecttaskstatususer_SyncErrors](syncerror.md#B
 ### <a name="BKMK_msdyn_projecttaskstatususer_DuplicateMatchingRecord"></a> msdyn_projecttaskstatususer_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projecttaskstatususer_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -789,6 +795,7 @@ Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateMatchingRec
 ### <a name="BKMK_msdyn_projecttaskstatususer_DuplicateBaseRecord"></a> msdyn_projecttaskstatususer_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projecttaskstatususer_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -803,6 +810,7 @@ Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateBaseRecord]
 ### <a name="BKMK_msdyn_projecttaskstatususer_AsyncOperations"></a> msdyn_projecttaskstatususer_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projecttaskstatususer_AsyncOperations](asyncoperation.md#BKMK_msdyn_projecttaskstatususer_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -817,6 +825,7 @@ Same as asyncoperation entity [msdyn_projecttaskstatususer_AsyncOperations](asyn
 ### <a name="BKMK_msdyn_projecttaskstatususer_MailboxTrackingFolders"></a> msdyn_projecttaskstatususer_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projecttaskstatususer_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projecttaskstatususer_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -831,6 +840,7 @@ Same as mailboxtrackingfolder entity [msdyn_projecttaskstatususer_MailboxTrackin
 ### <a name="BKMK_msdyn_projecttaskstatususer_UserEntityInstanceDatas"></a> msdyn_projecttaskstatususer_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projecttaskstatususer_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projecttaskstatususer_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -845,6 +855,7 @@ Same as userentityinstancedata entity [msdyn_projecttaskstatususer_UserEntityIns
 ### <a name="BKMK_msdyn_projecttaskstatususer_ProcessSession"></a> msdyn_projecttaskstatususer_ProcessSession
 
 Same as processsession entity [msdyn_projecttaskstatususer_ProcessSession](processsession.md#BKMK_msdyn_projecttaskstatususer_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -859,6 +870,7 @@ Same as processsession entity [msdyn_projecttaskstatususer_ProcessSession](proce
 ### <a name="BKMK_msdyn_projecttaskstatususer_BulkDeleteFailures"></a> msdyn_projecttaskstatususer_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projecttaskstatususer_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projecttaskstatususer_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -873,6 +885,7 @@ Same as bulkdeletefailure entity [msdyn_projecttaskstatususer_BulkDeleteFailures
 ### <a name="BKMK_msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses"></a> msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -887,6 +900,7 @@ Same as principalobjectattributeaccess entity [msdyn_projecttaskstatususer_Princ
 ### <a name="BKMK_msdyn_projecttaskstatususer_Annotations"></a> msdyn_projecttaskstatususer_Annotations
 
 Same as annotation entity [msdyn_projecttaskstatususer_Annotations](annotation.md#BKMK_msdyn_projecttaskstatususer_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -953,6 +967,6 @@ See msdyn_projecttask Entity [msdyn_msdyn_projecttask_msdyn_projecttaskstatususe
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_projecttaskstatususer?text=msdyn_projecttaskstatususer EntityType" />

@@ -1,32 +1,36 @@
 ---
-title: "Enable and disable duplicate detection (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Enable and disable duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic covers information on how to enable duplicate detection for all entities in an organization, for a specific entity and for specific operations and how to disable duplicate detection globally or for an entity type by unpublishing the duplicate detection rules or by deleting the published rules."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "duplicate detection, enabling"
+  - duplicate detection, enabling
   - "enabling duplicate detection, in three areas: globally; for entities; for specific operations"
   - "enabling duplicate detection, how to enable: messages; properties; and attributes to set"
-  - "enabling duplicate detection, rules must be published before running"
+  - enabling duplicate detection, rules must be published before running
 ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "amyla"
+author: SushantSikka
+ms.author: susikka
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Enable and Disable duplicate detection
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic covers information on how to enable and disable duplicate detection in Dynamics 365.
+This topic covers information on how to enable and disable duplicate detection in Dynamics 365 for Customer Engagement apps.
 
 <a name="bkmk_enable"></a>
 
@@ -54,16 +58,16 @@ Before running duplicate detection, enable it for each of the following:
   
 ### Enable duplicate detection for specific operations  
   
--   Set the following attributes to `true`:  
+- Set the following attributes to `true`:  
   
-    -   `Organization.IsDuplicateDetectionEnabledForOnlineCreateUpdate`. Create and update records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using the Web application or [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]. This attribute enables or disables duplicate detection for records created or updated with the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> and <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> messages. However, it does not affect records created or updated with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> and <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> methods.  
+  - `Organization.IsDuplicateDetectionEnabledForOnlineCreateUpdate`. Create and update records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using the Web application or [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]. This attribute enables or disables duplicate detection for records created or updated with the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> and <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> messages. However, it does not affect records created or updated with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> and <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> methods.  
   
-    -   `Organization.IsDuplicateDetectionEnabledForOfflineSync`. Synchronize offline records when [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] goes from offline to online.  
+  - `Organization.IsDuplicateDetectionEnabledForOfflineSync`. Synchronize offline records when [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] goes from offline to online.  
   
-    -   `Organization.IsDuplicateDetectionEnabledForImport`. Import bulk data.  
+  - `Organization.IsDuplicateDetectionEnabledForImport`. Import bulk data.  
   
-    > [!NOTE]
-    >  You do not have to publish the duplicate detection rules to enable duplicate detection for these operations. However, you must publish the duplicate detection rules before you perform the operations.  
+  > [!NOTE]
+  >  You do not have to publish the duplicate detection rules to enable duplicate detection for these operations. However, you must publish the duplicate detection rules before you perform the operations.  
 
 <a name="bkmk_disable"></a>
 

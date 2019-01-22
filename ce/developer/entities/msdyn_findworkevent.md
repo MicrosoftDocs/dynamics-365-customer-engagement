@@ -1,15 +1,19 @@
 ---
-title: "msdyn_findworkevent Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_findworkevent Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_findworkevent entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_findworkevent Entity Reference
 
@@ -702,6 +706,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_findworkevent_SyncErrors"></a> msdyn_findworkevent_SyncErrors
 
 Same as syncerror entity [msdyn_findworkevent_SyncErrors](syncerror.md#BKMK_msdyn_findworkevent_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -716,6 +721,7 @@ Same as syncerror entity [msdyn_findworkevent_SyncErrors](syncerror.md#BKMK_msdy
 ### <a name="BKMK_msdyn_findworkevent_DuplicateMatchingRecord"></a> msdyn_findworkevent_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_findworkevent_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_findworkevent_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -730,6 +736,7 @@ Same as duplicaterecord entity [msdyn_findworkevent_DuplicateMatchingRecord](dup
 ### <a name="BKMK_msdyn_findworkevent_DuplicateBaseRecord"></a> msdyn_findworkevent_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_findworkevent_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_findworkevent_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -744,6 +751,7 @@ Same as duplicaterecord entity [msdyn_findworkevent_DuplicateBaseRecord](duplica
 ### <a name="BKMK_msdyn_findworkevent_AsyncOperations"></a> msdyn_findworkevent_AsyncOperations
 
 Same as asyncoperation entity [msdyn_findworkevent_AsyncOperations](asyncoperation.md#BKMK_msdyn_findworkevent_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -758,6 +766,7 @@ Same as asyncoperation entity [msdyn_findworkevent_AsyncOperations](asyncoperati
 ### <a name="BKMK_msdyn_findworkevent_MailboxTrackingFolders"></a> msdyn_findworkevent_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_findworkevent_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_findworkevent_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -772,6 +781,7 @@ Same as mailboxtrackingfolder entity [msdyn_findworkevent_MailboxTrackingFolders
 ### <a name="BKMK_msdyn_findworkevent_UserEntityInstanceDatas"></a> msdyn_findworkevent_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_findworkevent_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_findworkevent_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -786,6 +796,7 @@ Same as userentityinstancedata entity [msdyn_findworkevent_UserEntityInstanceDat
 ### <a name="BKMK_msdyn_findworkevent_ProcessSession"></a> msdyn_findworkevent_ProcessSession
 
 Same as processsession entity [msdyn_findworkevent_ProcessSession](processsession.md#BKMK_msdyn_findworkevent_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -800,6 +811,7 @@ Same as processsession entity [msdyn_findworkevent_ProcessSession](processsessio
 ### <a name="BKMK_msdyn_findworkevent_BulkDeleteFailures"></a> msdyn_findworkevent_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_findworkevent_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_findworkevent_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -814,6 +826,7 @@ Same as bulkdeletefailure entity [msdyn_findworkevent_BulkDeleteFailures](bulkde
 ### <a name="BKMK_msdyn_findworkevent_PrincipalObjectAttributeAccesses"></a> msdyn_findworkevent_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_findworkevent_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_findworkevent_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -828,6 +841,7 @@ Same as principalobjectattributeaccess entity [msdyn_findworkevent_PrincipalObje
 ### <a name="BKMK_msdyn_findworkevent_Annotations"></a> msdyn_findworkevent_Annotations
 
 Same as annotation entity [msdyn_findworkevent_Annotations](annotation.md#BKMK_msdyn_findworkevent_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -894,6 +908,6 @@ See msdyn_projectteam Entity [msdyn_msdyn_projectteam_msdyn_findworkevent_Work](
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_findworkevent?text=msdyn_findworkevent EntityType" />

@@ -1,32 +1,36 @@
 ---
-title: "Create your own actions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Actions are custom messages that help in extending functionality of Dynamics 365 Customer Engagement. Learn more about how to create your own actions"
-ms.custom: ""
+title: "Create your own actions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Actions are custom messages that help in extending functionality of Dynamics 365 for Customer Engagement apps. Learn more about how to create your own actions"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "workflow, action"
+  - workflow, action
 ms.assetid: 98ee20a1-e4b2-4e42-a6ed-583b901507b3
 caps.latest.revision: 44
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create your own actions
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement by creating custom messages known as *actions*. These actions will have associated request/response classes and a Web API action will be generated. Actions are typically used to add new domain specific functionality to the organization web service or to combine multiple organization web service message requests into a single request. For example, in a support call center, you may want to combine the Create, Assign, and Setstate messages into a single new Escalate message.  
+You can extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps by creating custom messages known as *actions*. These actions will have associated request/response classes and a Web API action will be generated. Actions are typically used to add new domain specific functionality to the organization web service or to combine multiple organization web service message requests into a single request. For example, in a support call center, you may want to combine the Create, Assign, and Setstate messages into a single new Escalate message.  
   
  The business logic of an action is implemented using a workflow. When you create an action, the associated real-time workflow is automatically registered to execute in stage 30 (core operation) of the execution pipeline. For more information about real-time workflows, see [Workflow types](process-categories.md).  
   
- While actions are supported in both [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], creating an action in code (using XAML) is only supported by  on-premises and IFD deployments. Online customers must create actions interactively in the web application.  
+ While actions are supported in both [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, creating an action in code (using XAML) is only supported by  on-premises and IFD deployments. Online customers must create actions interactively in the web application.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
@@ -36,35 +40,35 @@ You can extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dy
 
  An action is defined by using a `Workflow` entity record, similar to a real-time workflow. Some key points of what an action is and how it works are in the following list:  
   
--   Can be associated with a single entity or be global (not associated with any particular entity).  
+- Can be associated with a single entity or be global (not associated with any particular entity).  
   
--   Is executed in the core operation stage 30 of the event execution pipeline.  
+- Is executed in the core operation stage 30 of the event execution pipeline.  
   
--   Supports the invocation of plug-ins registered in the pre-operation and post-operation stages of the event execution pipeline.  
+- Supports the invocation of plug-ins registered in the pre-operation and post-operation stages of the event execution pipeline.  
   
--   Can have plug-ins registered in the pre-operation or post-operation stages only when the action status is Activated.  
+- Can have plug-ins registered in the pre-operation or post-operation stages only when the action status is Activated.  
   
--   Is available through the Web API or `organization.svc` and `organization.svc/web` endpoints.  
+- Is available through the Web API or `organization.svc` and `organization.svc/web` endpoints.  
   
--   Can be executed using a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Execute an action using a JavaScript web resource](create-own-actions.md#BKMK_JavaScript)  
+- Can be executed using a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Execute an action using a JavaScript web resource](create-own-actions.md#BKMK_JavaScript)  
   
--   Always runs under the security context of the calling user.  
+- Always runs under the security context of the calling user.  
   
--   Record can’t be deleted while there are plug-in steps registered on the action.  
+- Record can’t be deleted while there are plug-in steps registered on the action.  
   
--   Can optionally, through a configuration setting, participate in the current database transaction.  
+- Can optionally, through a configuration setting, participate in the current database transaction.  
   
--   Doesn’t support a scope where the execution is restricted to a user, business unit, or organization. Actions always execute in organization scope.  
+- Doesn’t support a scope where the execution is restricted to a user, business unit, or organization. Actions always execute in organization scope.  
   
--   Supports input and output arguments.  
+- Supports input and output arguments.  
   
--   Supports auditing of data changes.  
+- Supports auditing of data changes.  
   
--   Isn’t supported with offline clients.  
+- Isn’t supported with offline clients.  
   
--   Can be invoked  by a web service method call.  
+- Can be invoked  by a web service method call.  
   
--   Can be invoked directly from a workflow.  
+- Can be invoked directly from a workflow.  
   
 <a name="bkmk_permissions"></a>   
 ## Required permissions  
@@ -169,7 +173,7 @@ outputProperty1.Attributes.Add(new ArgumentDirectionAttribute(Microsoft.Xrm.Sdk
   
 <a name="bkmk_package"></a>   
 ## Package an action for distribution  
- To distribute your action so that it can be imported into a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization, add your action to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution. This is easily done using the web application by navigating to **Settings** > **Customizations** > **Solutions**. You can also write code to create the solution. For more information about solutions, see [Package and distribute extensions](package-distribute-extensions-use-solutions.md).  
+ To distribute your action so that it can be imported into a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization, add your action to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps solution. This is easily done using the web application by navigating to **Settings** > **Customizations** > **Solutions**. You can also write code to create the solution. For more information about solutions, see [Package and distribute extensions](package-distribute-extensions-use-solutions.md).  
   
 <a name="bkmk_gentypes"></a>   
 ## Generate early-bound types for an action  
@@ -201,13 +205,13 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
 ## Execute an action using the organization service  
  To execute an action using the organization web service using managed code, follow these steps.  
   
-1.  Include the early-bound types file that you generated using the CrmSvcUtil tool in your application’s project.  
+1. Include the early-bound types file that you generated using the CrmSvcUtil tool in your application’s project.  
   
-2.  In your application code, instantiate your action’s request and populate any required properties.  
+2. In your application code, instantiate your action’s request and populate any required properties.  
   
-3.  Invoke <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>, passing your request as an argument.  
+3. Invoke <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>, passing your request as an argument.  
   
- Before you run your application code, make sure the action is activated. Otherwise, you’ll receive a run-time error.  
+   Before you run your application code, make sure the action is activated. Otherwise, you’ll receive a run-time error.  
   
 <a name="BKMK_JavaScript"></a>   
 ### Execute an action using a JavaScript web resource  
@@ -221,7 +225,7 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
   
 > [!NOTE]
 >  If a custom action has unsupported parameter types, for example Picklist, Entity, or Entity Collection, the custom action isn’t listed in the **Action** list.  
->   
+> 
 >  The ability to execute an action from a process was introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)].  
   
  The existing <xref:Microsoft.Xrm.Sdk.IExecutionContext.Depth> platform checks ensure an infinite loop does not occur. For more information on depth limits see <xref:Microsoft.Xrm.Sdk.Deployment.WorkflowSettings.MaxDepth>.  
@@ -231,7 +235,7 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
  If one of the steps in the action’s real-time workflow is a custom workflow activity, that custom workflow activity is executed inside the isolated sandbox run-time environment and will be subject to the two minute timeout limit, similar to how sandboxed plug-ins are managed. However, there are no restrictions on the amount of overall time the action itself can take. In addition, if an action participates in a transaction, where rollback is enabled, [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] timeouts will apply.  
   
 > [!TIP]
->  A best practice recommendation is that long running operations should be executed outside of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using .NET asynchronous or background processes.  
+>  A best practice recommendation is that long running operations should be executed outside of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps using .NET asynchronous or background processes.  
   
 ### See also  
  [Create real-time workflows](create-real-time-workflows.md)   

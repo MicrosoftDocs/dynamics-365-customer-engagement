@@ -1,15 +1,19 @@
 ---
-title: "InteractionForEmail Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "InteractionForEmail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the InteractionForEmail entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # InteractionForEmail Entity Reference
 
@@ -773,6 +777,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_interactionforemail_BulkOperations"></a> interactionforemail_BulkOperations
 
 Same as bulkoperation entity [interactionforemail_BulkOperations](bulkoperation.md#BKMK_interactionforemail_BulkOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -787,6 +792,7 @@ Same as bulkoperation entity [interactionforemail_BulkOperations](bulkoperation.
 ### <a name="BKMK_interactionforemail_CampaignActivities"></a> interactionforemail_CampaignActivities
 
 Same as campaignactivity entity [interactionforemail_CampaignActivities](campaignactivity.md#BKMK_interactionforemail_CampaignActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -801,6 +807,7 @@ Same as campaignactivity entity [interactionforemail_CampaignActivities](campaig
 ### <a name="BKMK_interactionforemail_CampaignResponses"></a> interactionforemail_CampaignResponses
 
 Same as campaignresponse entity [interactionforemail_CampaignResponses](campaignresponse.md#BKMK_interactionforemail_CampaignResponses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -815,6 +822,7 @@ Same as campaignresponse entity [interactionforemail_CampaignResponses](campaign
 ### <a name="BKMK_interactionforemail_IncidentResolutions"></a> interactionforemail_IncidentResolutions
 
 Same as incidentresolution entity [interactionforemail_IncidentResolutions](incidentresolution.md#BKMK_interactionforemail_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -829,6 +837,7 @@ Same as incidentresolution entity [interactionforemail_IncidentResolutions](inci
 ### <a name="BKMK_interactionforemail_ServiceAppointments"></a> interactionforemail_ServiceAppointments
 
 Same as serviceappointment entity [interactionforemail_ServiceAppointments](serviceappointment.md#BKMK_interactionforemail_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -843,6 +852,7 @@ Same as serviceappointment entity [interactionforemail_ServiceAppointments](serv
 ### <a name="BKMK_interactionforemail_OpportunityCloses"></a> interactionforemail_OpportunityCloses
 
 Same as opportunityclose entity [interactionforemail_OpportunityCloses](opportunityclose.md#BKMK_interactionforemail_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -857,6 +867,7 @@ Same as opportunityclose entity [interactionforemail_OpportunityCloses](opportun
 ### <a name="BKMK_interactionforemail_OrderCloses"></a> interactionforemail_OrderCloses
 
 Same as orderclose entity [interactionforemail_OrderCloses](orderclose.md#BKMK_interactionforemail_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -871,6 +882,7 @@ Same as orderclose entity [interactionforemail_OrderCloses](orderclose.md#BKMK_i
 ### <a name="BKMK_interactionforemail_QuoteCloses"></a> interactionforemail_QuoteCloses
 
 Same as quoteclose entity [interactionforemail_QuoteCloses](quoteclose.md#BKMK_interactionforemail_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -885,6 +897,7 @@ Same as quoteclose entity [interactionforemail_QuoteCloses](quoteclose.md#BKMK_i
 ### <a name="BKMK_interactionforemail_msdyn_bookingalerts"></a> interactionforemail_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [interactionforemail_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_interactionforemail_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -899,6 +912,7 @@ Same as msdyn_bookingalert entity [interactionforemail_msdyn_bookingalerts](msdy
 ### <a name="BKMK_interactionforemail_msdyn_approvals"></a> interactionforemail_msdyn_approvals
 
 Same as msdyn_approval entity [interactionforemail_msdyn_approvals](msdyn_approval.md#BKMK_interactionforemail_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -913,6 +927,7 @@ Same as msdyn_approval entity [interactionforemail_msdyn_approvals](msdyn_approv
 ### <a name="BKMK_interactionforemail_ActivityPointers"></a> interactionforemail_ActivityPointers
 
 Same as activitypointer entity [interactionforemail_ActivityPointers](activitypointer.md#BKMK_interactionforemail_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -927,6 +942,7 @@ Same as activitypointer entity [interactionforemail_ActivityPointers](activitypo
 ### <a name="BKMK_interactionforemail_AsyncOperations"></a> interactionforemail_AsyncOperations
 
 Same as asyncoperation entity [interactionforemail_AsyncOperations](asyncoperation.md#BKMK_interactionforemail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -988,6 +1004,6 @@ See transactioncurrency Entity [TransactionCurrency_InteractionForEmail](transac
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.interactionforemail?text=interactionforemail EntityType" />

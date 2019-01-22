@@ -1,9 +1,9 @@
 ---
-title: "Configure notes on entity forms and web forms for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure notes on entity forms and web forms for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure notes on entity forms and web forms in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: e5c56872-ca6e-4672-9065-d718c669f129
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Configure notes for entity forms and web forms on portals
 
@@ -37,6 +44,7 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
     After adding the configuration, the Note control will be rendered by using the appropriate options enabled on the portal.
 
 ## Attributes
+
 
 | Name                  | Description                                                                                                                                                  |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -81,14 +89,14 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 | Left Column CSS Class              | Adds the CSS class or classes to the leftmost column containing labels in the Add Note dialog box.                                                  |
 | Right Column CSS Class             | Adds the CSS class or classes to the rightmost column containing field inputs in the Add Note dialog box.                                           |
 | Title                              | Overrides the HTML text in the header of the Add Note dialog box.                                                                               |
-| Primary Button Text                | Overrides the HTML that appears in the Primary ("Add Note") button in the dialog box.                                                           |
+| Primary Button Text                | Overrides the HTML that appears in the Primary (Add Note) button in the dialog box.                                                           |
 | Dismiss Button SR Text             | Overrides the screen reader text associated with the dialog box's dismiss button.                                                               |
-| Close Button Text                  | Overrides the HTML that appears in the Close ("Cancel") button in the dialog box.                                                               |
+| Close Button Text                  | Overrides the HTML that appears in the Close (Cancel) button in the dialog box.                                                               |
 | Size                               | Specifies the size of the Add Note dialog box. The options are Default, Large, and Small. For the Add Note dialog box, the default size is Default. |
 | CSS Class                          | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                                |
 | Title CSS Class                    | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                    |
-| Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Add Note") button.                                            |
-| Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                                |
+| Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog box's Primary (Add Note) button.                                            |
+| Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                                |
 |||
 
 ## Edit Dialog Options
@@ -109,14 +117,14 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 | Left Column CSS Class              | Adds the CSS class or classes to the leftmost column containing labels in the Edit Note dialog box.                                                  |
 | Right Column CSS Class             | Adds the CSS class or classes to the rightmost column containing field inputs in the Edit Note dialog box.                                           |
 | Title                              | Overrides the HTML text in the header of the Edit Note dialog box.                                                                               |
-| Primary Button Text                | Overrides the HTML that appears in the Primary ("Update Note") button in the dialog box.                                                         |
+| Primary Button Text                | Overrides the HTML that appears in the Primary (Update Note) button in the dialog box.                                                         |
 | Dismiss Button SR Text             | Overrides the screen reader text associated with the dialog box's dismiss button.                                                                |
-| Close Button Text                  | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                                |
+| Close Button Text                  | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                                |
 | Size                               | Specifies the size of the Edit Note dialog box. The options are Default, Large, and Small. For the Edit Note dialog box, the default size is Default.|
 | CSS Class                          | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                                 |
 | Title CSS Class                    | Specify a CSS class or classes that will be applied to the resulting dialog's title bar.                                                     |
-| Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Update Note") button.                                          |
-| Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                                 |
+| Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog box's Primary (Update Note) button.                                          |
+| Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                                 |
 |||
 
 ## Delete Dialog Options
@@ -127,14 +135,14 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 | Confirmation             | Override the confirmation message to delete the note.                                                                                             |
 | **Advanced settings**    |                                                                                                                                                   |
 | Title                    | Overrides the HTML text in the header of the Delete Note dialog box.                                                                                  |
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button in the dialog box.                                                                   |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Delete) button in the dialog box.                                                                   |
 | Dismiss Button SR Text   | Overrides the screen reader text associated with the dialog box's dismiss button.                                                                     |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button in the dialog box.                                                                     |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button in the dialog box.                                                                     |
 | Size                     | Specifies the size of the Delete Note dialog box. The options are Default, Large, and Small. For the Delete Note dialog box, the default size is Default. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                                      |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                          |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Delete") button.                                                    |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                                      |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Delete) button.                                                    |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                                      |
 |||
 
 ### Assign entity permissions
@@ -154,12 +162,12 @@ If you created a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynami
 
 ## Notes configuration for web forms
 
-Web form notes are configured in the same way as [entity form notes](#notes-configuration-for-entity-forms). You must first create a metadata record for the Web Form Step that has notes, and then add the notes configuration metadata. 
+Web form notes are configured in the same way as [entity form notes](#notes-configuration-for-entity-forms). You must first create a metadata record for the Web Form Step that has notes, and then add the notes configuration metadata. 
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

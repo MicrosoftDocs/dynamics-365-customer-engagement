@@ -1,19 +1,23 @@
 ---
-title: "Use editable grids in Customer Engagement | MicrosoftDocs"
-description: "Editable grid is a new custom control in Dynamics 365 Customer Engagement that provides rich inline editing capabilities on web and mobile clients (Dynamics 365 for phones and Dynamics 365 for tablets) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views."
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Use editable grids in Customer Engagement (Dynamics 365 for Customer Engagement Developer Guide) | MicrosoftDocs"
+description: "Editable grid is a new custom control in Dynamics 365 for Customer Engagement that provides rich inline editing capabilities on web and mobile clients (Dynamics 365 for Customer Engagement for phones and Dynamics 365 for Customer Engagement for tablets) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views."
+ms.custom: 
+ms.date: 10/18/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ffc75be6-cf2b-4707-9cdc-871e17544056
 caps.latest.revision: 16
-author: "KumarVivek"
-ms.author: "kvivek"
+author: KumarVivek
+ms.author: kvivek
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use editable grids in Customer Engagement
 
@@ -24,17 +28,8 @@ Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/p
 > [!NOTE] 
 > If you are using legacy forms (versions prior to Dynamics CRM 2016) and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed. 
 
-<a name="Enable"></a>   
-## Enable editable grids  
- You can enable editable grids at the entity level to use in the main grid, or at the form level to replace read-only subgrids (associated grids) with an editable grid.  
+For more information about using editable grids using the UI, see [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md) 
   
- You can enable the editable grid control for an entity using the customization tool in [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] (**Settings** > **Customizations**  > **Customize the System** > **Entities** > *[Entity_Name]* > **Controls** tab.  
-  
- To enable editable grid for a grid in a form, open the form editor, double-click the read-only grid that you want to replace with the editable grid, and then add/enable editable grid in the **Controls** tab.  
-  
- You can revert to the non-editable grid at any time for main grid and associated grids, if required. Also, at runtime, users can toggle between editable grids and read-only grids.  
-  
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
   
 <a name="FormScripting"></a>   
 ## Form scripting support  
@@ -46,27 +41,27 @@ Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/p
   
  On the web client, an entity will support editable grid if all of the following conditions are true:  
   
--   The entity is customizable (IsCustomizable = true)  
+- The entity is customizable (IsCustomizable = true)  
   
--   The entity is either refreshed (IsAIRUpdated = true) or a custom entity (IsCustomEntity = true)  
+- The entity is either refreshed (IsAIRUpdated = true) or a custom entity (IsCustomEntity = true)  
   
--   The entity is not a child entity (IsChildEntity = false)  
+- The entity is not a child entity (IsChildEntity = false)  
   
- On the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] mobile client, an entity will support editable grid if the entity can be displayed in the mobile client's site map.  
+  On the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] mobile client, an entity will support editable grid if the entity can be displayed in the mobile client's site map.  
   
- For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
+  For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 for Customer Engagement using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
   
- Editable grids do not support roll up associated views (**Rollup type** = `Related`).  
+  Editable grids do not support roll up associated views (**Rollup type** = `Related`).  
   
- Use the following sample code to generate an XML file that you can open in [!INCLUDE[pn_microsoft_excel](../../includes/pn-microsoft-excel.md)] as an XML table to view the entity-support information for editable controls. [!INCLUDE[pn_Excel_short](../../includes/pn-excel-short.md)] will figure out the schema automatically, and display the information under the following columns:  
+  Use the following sample code to generate an XML file that you can open in [!INCLUDE[pn_microsoft_excel](../../includes/pn-microsoft-excel.md)] as an XML table to view the entity-support information for editable controls. [!INCLUDE[pn_Excel_short](../../includes/pn-excel-short.md)] will figure out the schema automatically, and display the information under the following columns:  
   
--   `LogicalName`: Logical name of entity.  
+- `LogicalName`: Logical name of entity.  
   
--   `DisplayName`: Display name of entity.  
+- `DisplayName`: Display name of entity.  
   
--   `CanEnableEditableGridWeb`: Displays status  (True or False) whether editable grid is supported for the entity  on the web client.  
+- `CanEnableEditableGridWeb`: Displays status  (True or False) whether editable grid is supported for the entity  on the web client.  
   
--   `CanEnableEditableGridMobile`: Displays status (True or False) whether editable grid is supported for the entity on mobile clients. ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]).  
+- `CanEnableEditableGridMobile`: Displays status (True or False) whether editable grid is supported for the entity on mobile clients. ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]).  
   
 ```csharp  
 using System;  
@@ -279,7 +274,12 @@ namespace Microsoft.Crm.Sdk.Samples
     }  
 }  
 ```  
-  
+
+## Frequently asked questions (FAQs)
+
+For a list of FAQs related to editable grids, see [Editable grids FAQs](../../customize/make-grids-lists-editable-custom-control.md#frequently-asked-questions-faqs)
+
 ### See also  
- [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md)   
- [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)
+ [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md) <br/> 
+ [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)<br/>
+ [Use keyboard shortcuts in editable grids](../../basics/keyboard-shortcuts.md#editable-grids-views)

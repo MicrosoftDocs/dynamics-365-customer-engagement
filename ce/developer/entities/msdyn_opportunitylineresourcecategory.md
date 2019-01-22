@@ -1,15 +1,19 @@
 ---
-title: "msdyn_opportunitylineresourcecategory Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_opportunitylineresourcecategory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_opportunitylineresourcecategory entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_opportunitylineresourcecategory Entity Reference
 
@@ -670,6 +674,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_SyncErrors"></a> msdyn_opportunitylineresourcecategory_SyncErrors
 
 Same as syncerror entity [msdyn_opportunitylineresourcecategory_SyncErrors](syncerror.md#BKMK_msdyn_opportunitylineresourcecategory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -684,6 +689,7 @@ Same as syncerror entity [msdyn_opportunitylineresourcecategory_SyncErrors](sync
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_DuplicateMatchingRecord"></a> msdyn_opportunitylineresourcecategory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_opportunitylineresourcecategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_opportunitylineresourcecategory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -698,6 +704,7 @@ Same as duplicaterecord entity [msdyn_opportunitylineresourcecategory_DuplicateM
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_DuplicateBaseRecord"></a> msdyn_opportunitylineresourcecategory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_opportunitylineresourcecategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_opportunitylineresourcecategory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -712,6 +719,7 @@ Same as duplicaterecord entity [msdyn_opportunitylineresourcecategory_DuplicateB
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_AsyncOperations"></a> msdyn_opportunitylineresourcecategory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_opportunitylineresourcecategory_AsyncOperations](asyncoperation.md#BKMK_msdyn_opportunitylineresourcecategory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -726,6 +734,7 @@ Same as asyncoperation entity [msdyn_opportunitylineresourcecategory_AsyncOperat
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_MailboxTrackingFolders"></a> msdyn_opportunitylineresourcecategory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_opportunitylineresourcecategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_opportunitylineresourcecategory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -740,6 +749,7 @@ Same as mailboxtrackingfolder entity [msdyn_opportunitylineresourcecategory_Mail
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_UserEntityInstanceDatas"></a> msdyn_opportunitylineresourcecategory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_opportunitylineresourcecategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_opportunitylineresourcecategory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -754,6 +764,7 @@ Same as userentityinstancedata entity [msdyn_opportunitylineresourcecategory_Use
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_ProcessSession"></a> msdyn_opportunitylineresourcecategory_ProcessSession
 
 Same as processsession entity [msdyn_opportunitylineresourcecategory_ProcessSession](processsession.md#BKMK_msdyn_opportunitylineresourcecategory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -768,6 +779,7 @@ Same as processsession entity [msdyn_opportunitylineresourcecategory_ProcessSess
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_BulkDeleteFailures"></a> msdyn_opportunitylineresourcecategory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_opportunitylineresourcecategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_opportunitylineresourcecategory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -782,6 +794,7 @@ Same as bulkdeletefailure entity [msdyn_opportunitylineresourcecategory_BulkDele
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_PrincipalObjectAttributeAccesses"></a> msdyn_opportunitylineresourcecategory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_opportunitylineresourcecategory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_opportunitylineresourcecategory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -796,6 +809,7 @@ Same as principalobjectattributeaccess entity [msdyn_opportunitylineresourcecate
 ### <a name="BKMK_msdyn_opportunitylineresourcecategory_Annotations"></a> msdyn_opportunitylineresourcecategory_Annotations
 
 Same as annotation entity [msdyn_opportunitylineresourcecategory_Annotations](annotation.md#BKMK_msdyn_opportunitylineresourcecategory_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -862,6 +876,6 @@ See msdyn_opportunitylinetransactionclassificatio Entity [msdyn_opportunitylinet
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_opportunitylineresourcecategory?text=msdyn_opportunitylineresourcecategory EntityType" />

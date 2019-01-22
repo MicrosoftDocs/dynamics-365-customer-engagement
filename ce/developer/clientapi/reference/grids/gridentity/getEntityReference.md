@@ -1,13 +1,17 @@
 ---
-title: "getEntityReference (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getEntityReference (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: b8e23eee-f20f-4db9-9cc6-7fa5dd7ce2bb
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getEntityReference (Client API reference)
 

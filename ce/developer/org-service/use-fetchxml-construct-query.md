@@ -1,30 +1,34 @@
 ---
-title: "Use FetchXML to construct a query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use FetchXML to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses how to create and execute a FetchXML query "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "using FetchXML to construct queries, building the XML query strings"
-  - "FetchXML queries, how privileges of logged-on users affect the returned records"
-  - "using FetchXML to construct queries, code examples"
-  - "creating queries with FetchXML, using FetchXML to construct queries"
-  - "using FetchXML to construct queries, executing by using the IOrganizationService.RetrieveMultiple method"
-  - "using FetchXML to construct queries, conforming with schema definitions of the FetchXML language"
-  - "using FetchXML to construct queries, privileges of logged-on users affect the returned records"
-  - "FetchXML queries, using FetchXML to construct queries"
-  - "building queries with FetchXML, using FetchXML to construct queries"
+  - using FetchXML to construct queries, building the XML query strings
+  - FetchXML queries, how privileges of logged-on users affect the returned records
+  - using FetchXML to construct queries, code examples
+  - creating queries with FetchXML, using FetchXML to construct queries
+  - using FetchXML to construct queries, executing by using the IOrganizationService.RetrieveMultiple method
+  - using FetchXML to construct queries, conforming with schema definitions of the FetchXML language
+  - using FetchXML to construct queries, privileges of logged-on users affect the returned records
+  - FetchXML queries, using FetchXML to construct queries
+  - building queries with FetchXML, using FetchXML to construct queries
 ms.assetid: 273dd192-cc12-4ab0-84ec-1ea1b8f367c3
 caps.latest.revision: 37
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use FetchXML to construct a query
 
@@ -115,7 +119,11 @@ string fetch2 = @"
      </entity>   
    </fetch> ";   
   
-EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fetch2));foreach (var c in result.Entities)   {   System.Console.WriteLine(c.Attributes["name"]);   }  
+EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fetch2));
+foreach (var c in result.Entities)
+{
+   System.Console.WriteLine(c.Attributes["name"]);
+}  
 ```  
   
 ## Query Results  

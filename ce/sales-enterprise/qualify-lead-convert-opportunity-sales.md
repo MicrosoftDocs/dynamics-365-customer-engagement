@@ -1,19 +1,20 @@
 ---
 title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-keywords: "lead, budget, purchase process, decision maker, opportunity"
+keywords: lead, budget, purchase process, decision maker, opportunity
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.service:
+  - dynamics-365-sales
 ms.custom:
   - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,7 +31,7 @@ Does your lead have what you're looking for&mdash;and vice versa? After you've i
 Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  
   
 <a name="bkmk1"></a>   
-## Qualify a lead (Sales Hub app)
+## Qualify a lead (Sales Hub)
 
 1.	Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
@@ -46,17 +47,17 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
 
 
 <a name="bkmk2"></a>   
-## Qualify a lead (Sales app)  
+## Qualify a lead (Sales)  
   
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   
-2.  Select the lead you want to qualify.  
+2. Select the lead you want to qualify.  
   
-3.  In the **Qualify** section of the sales process bar, enter all applicable information.  
+3. In the **Qualify** section of the sales process bar, enter all applicable information.  
   
-4.  Select **Qualify** at the top of the **Lead** form.  
+4. Select **Qualify** at the top of the **Lead** form.  
   
-5.  Select **Save** in the lower-right corner of the screen.  
+5. Select **Save** in the lower-right corner of the screen.  
 
 To qualify multiple leads, go to the list of leads, select the leads you want to qualify, and on the command bar, select **Qualify**.
 
@@ -64,11 +65,11 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 <a name="bkmk3"></a>   
 ## Additional considerations  
   
--   Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
+- Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 
--   Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
+- Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
 
--   Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
+- Nurture your leads through a  marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
 
   
 <a name="bkmk4"></a>   

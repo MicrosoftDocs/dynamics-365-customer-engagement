@@ -1,15 +1,19 @@
 ---
-title: "RecurringAppointmentMaster Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "RecurringAppointmentMaster Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the RecurringAppointmentMaster entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # RecurringAppointmentMaster Entity Reference
 
@@ -1172,7 +1176,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1409,7 +1413,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1704,6 +1708,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_recurringappointmentmaster_campaignresponse"></a> recurringappointmentmaster_campaignresponse
 
 Same as campaignresponse entity [recurringappointmentmaster_campaignresponse](campaignresponse.md#BKMK_recurringappointmentmaster_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1718,6 +1723,7 @@ Same as campaignresponse entity [recurringappointmentmaster_campaignresponse](ca
 ### <a name="BKMK_recurringappointmentmaster_PostFollows"></a> recurringappointmentmaster_PostFollows
 
 Same as postfollow entity [recurringappointmentmaster_PostFollows](postfollow.md#BKMK_recurringappointmentmaster_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1732,6 +1738,7 @@ Same as postfollow entity [recurringappointmentmaster_PostFollows](postfollow.md
 ### <a name="BKMK_RecurringAppointmentMaster_SyncErrors"></a> RecurringAppointmentMaster_SyncErrors
 
 Same as syncerror entity [RecurringAppointmentMaster_SyncErrors](syncerror.md#BKMK_RecurringAppointmentMaster_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1746,6 +1753,7 @@ Same as syncerror entity [RecurringAppointmentMaster_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_RecurringAppointmentMaster_DuplicateBaseRecord"></a> RecurringAppointmentMaster_DuplicateBaseRecord
 
 Same as duplicaterecord entity [RecurringAppointmentMaster_DuplicateBaseRecord](duplicaterecord.md#BKMK_RecurringAppointmentMaster_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1760,6 +1768,7 @@ Same as duplicaterecord entity [RecurringAppointmentMaster_DuplicateBaseRecord](
 ### <a name="BKMK_recurringappointmentmaster_actioncard"></a> recurringappointmentmaster_actioncard
 
 Same as actioncard entity [recurringappointmentmaster_actioncard](actioncard.md#BKMK_recurringappointmentmaster_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1774,6 +1783,7 @@ Same as actioncard entity [recurringappointmentmaster_actioncard](actioncard.md#
 ### <a name="BKMK_RecurringAppointmentMaster_BulkDeleteFailures"></a> RecurringAppointmentMaster_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [RecurringAppointmentMaster_BulkDeleteFailures](bulkdeletefailure.md#BKMK_RecurringAppointmentMaster_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1788,6 +1798,7 @@ Same as bulkdeletefailure entity [RecurringAppointmentMaster_BulkDeleteFailures]
 ### <a name="BKMK_RecurringAppointmentMaster_QueueItem"></a> RecurringAppointmentMaster_QueueItem
 
 Same as queueitem entity [RecurringAppointmentMaster_QueueItem](queueitem.md#BKMK_RecurringAppointmentMaster_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1802,6 +1813,7 @@ Same as queueitem entity [RecurringAppointmentMaster_QueueItem](queueitem.md#BKM
 ### <a name="BKMK_RecurringAppointmentMaster_AsyncOperations"></a> RecurringAppointmentMaster_AsyncOperations
 
 Same as asyncoperation entity [RecurringAppointmentMaster_AsyncOperations](asyncoperation.md#BKMK_RecurringAppointmentMaster_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1816,6 +1828,7 @@ Same as asyncoperation entity [RecurringAppointmentMaster_AsyncOperations](async
 ### <a name="BKMK_userentityinstancedata_recurringappointmentmaster"></a> userentityinstancedata_recurringappointmentmaster
 
 Same as userentityinstancedata entity [userentityinstancedata_recurringappointmentmaster](userentityinstancedata.md#BKMK_userentityinstancedata_recurringappointmentmaster) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1830,6 +1843,7 @@ Same as userentityinstancedata entity [userentityinstancedata_recurringappointme
 ### <a name="BKMK_recurringappointmentmaster_activity_parties"></a> recurringappointmentmaster_activity_parties
 
 Same as activityparty entity [recurringappointmentmaster_activity_parties](activityparty.md#BKMK_recurringappointmentmaster_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1844,6 +1858,7 @@ Same as activityparty entity [recurringappointmentmaster_activity_parties](activ
 ### <a name="BKMK_recurringappointmentmaster_connections2"></a> recurringappointmentmaster_connections2
 
 Same as connection entity [recurringappointmentmaster_connections2](connection.md#BKMK_recurringappointmentmaster_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1858,6 +1873,7 @@ Same as connection entity [recurringappointmentmaster_connections2](connection.m
 ### <a name="BKMK_recurringappointmentmaster_connections1"></a> recurringappointmentmaster_connections1
 
 Same as connection entity [recurringappointmentmaster_connections1](connection.md#BKMK_recurringappointmentmaster_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1872,6 +1888,7 @@ Same as connection entity [recurringappointmentmaster_connections1](connection.m
 ### <a name="BKMK_recurringappointmentmaster_principalobjectattributeaccess"></a> recurringappointmentmaster_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [recurringappointmentmaster_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_recurringappointmentmaster_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1886,6 +1903,7 @@ Same as principalobjectattributeaccess entity [recurringappointmentmaster_princi
 ### <a name="BKMK_recurringappointmentmaster_appointment"></a> recurringappointmentmaster_appointment
 
 Same as appointment entity [recurringappointmentmaster_appointment](appointment.md#BKMK_recurringappointmentmaster_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1900,6 +1918,7 @@ Same as appointment entity [recurringappointmentmaster_appointment](appointment.
 ### <a name="BKMK_RecurringAppointmentMaster_ProcessSessions"></a> RecurringAppointmentMaster_ProcessSessions
 
 Same as processsession entity [RecurringAppointmentMaster_ProcessSessions](processsession.md#BKMK_RecurringAppointmentMaster_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1914,6 +1933,7 @@ Same as processsession entity [RecurringAppointmentMaster_ProcessSessions](proce
 ### <a name="BKMK_RecurringAppointmentMaster_Annotation"></a> RecurringAppointmentMaster_Annotation
 
 Same as annotation entity [RecurringAppointmentMaster_Annotation](annotation.md#BKMK_RecurringAppointmentMaster_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1928,6 +1948,7 @@ Same as annotation entity [RecurringAppointmentMaster_Annotation](annotation.md#
 ### <a name="BKMK_RecurringAppointmentMaster_DuplicateMatchingRecord"></a> RecurringAppointmentMaster_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [RecurringAppointmentMaster_DuplicateMatchingRecord](duplicaterecord.md#BKMK_RecurringAppointmentMaster_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2419,6 +2440,6 @@ See knowledgearticle Entity [KnowledgeArticle_RecurringAppointmentMasters](knowl
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.recurringappointmentmaster?text=recurringappointmentmaster EntityType" />

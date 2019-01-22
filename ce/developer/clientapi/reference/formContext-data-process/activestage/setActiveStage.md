@@ -1,13 +1,17 @@
 ---
-title: "setActiveStage (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setActiveStage (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9c40a770-f4cb-4230-8893-0527f8472825
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setActiveStage (Client API reference)
 
@@ -52,7 +56,7 @@ manager: "amyla"
 <td>invalid</td>
 <td>There are three reasons why this value may be returned:
 <ul>
-<li>The *stageId* parameter is a non-existent stage ID value.</li>
+<li>The <em>stageId</em> parameter is a non-existent stage ID value.</li>
 <li>The active stage isn’t the selected stage.</li>
 <li>The record hasn’t been saved yet.</li>
 </ul>

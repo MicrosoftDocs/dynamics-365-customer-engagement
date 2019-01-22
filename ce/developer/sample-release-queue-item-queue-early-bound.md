@@ -1,24 +1,28 @@
 ---
-title: "Sample: Release a queue item to the queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-decription: "The sample code demonstrates how to use ReleaseToQueueRequest to dissociate a user from a queue item release a queue item back to the queue."
-ms.custom: ""
+title: "Sample: Release a queue item to the queue (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+decription: The sample code demonstrates how to use ReleaseToQueueRequest to dissociate a user from a queue item release a queue item back to the queue.
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "dissociating users from queue items and returning items to queues, sample"
-  - "releasing queue items back to queues (early bound), sample"
-  - "sample for releasing queue items back to queues (early bound)"
+  - dissociating users from queue items and returning items to queues, sample
+  - releasing queue items back to queues (early bound), sample
+  - sample for releasing queue items back to queues (early bound)
 ms.assetid: 87c72e1e-3ea8-4c54-8eb2-e7fbc19ff629
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Release a queue item to the queue (early bound)
 

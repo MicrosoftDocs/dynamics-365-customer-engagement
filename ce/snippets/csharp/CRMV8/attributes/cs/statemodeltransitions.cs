@@ -243,7 +243,7 @@ namespace Microsoft.Crm.Sdk.Samples
    }
 
 
-   if (EnforceStateTransitions.HasValue &amp;&amp; EnforceStateTransitions.Value == true)
+   if (EnforceStateTransitions.HasValue && EnforceStateTransitions.Value == true)
    {
     //When EnforceStateTransitions is true use the TransitionData to filter the valid options
     foreach (StatusOptionMetadata option in statusAttribute.OptionSet.Options)
@@ -326,7 +326,7 @@ namespace Microsoft.Crm.Sdk.Samples
   /// <summary>
   /// Returns a string representing the label of an option in an optionset
   /// </summary>
-  /// <param name="attribute">The metadata for an an attribute with options</param>
+  /// <param name="attribute">The metadata for an attribute with options</param>
   /// <param name="value">The value of the option</param>
   /// <returns>The label for the option</returns>
   public String GetOptionSetLabel(EnumAttributeMetadata attribute, int value)

@@ -1,26 +1,30 @@
 ---
-title: "Optimize form performance in PowerApps | MicrosoftDocs"
+title: "Optimize form performance | MicrosoftDocs"
 description: "Learn how to avoid form designs that cause a form to load slowly"
-ms.custom: ""
-ms.date: 04/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/08/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 59cfa5e6-638a-437f-a462-fddfd26fb07d
 caps.latest.revision: 8
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Optimize form performance
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly your forms will load. Many of these recommendations are about how a developer may implement form scripts for your organization. Be sure to discuss these recommendations with developers who create form scripts for your forms.  
   
@@ -29,7 +33,7 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  Think about the interaction the user will have with the form and the amount of data that must be displayed within it.  
   
  **Keep the number of fields to a minimum**  
- The more fields you have in a form, the more data that needs to be transferred over the Internet or intranet to view each record.  
+ The more fields you have in a form, the more data that needs to be transferred over the internet or intranet to view each record.  
   
 <a name="BKMK_FormScripts"></a>   
 ## Form scripts  

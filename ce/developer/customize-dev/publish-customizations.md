@@ -1,22 +1,26 @@
 ---
 title: "Publish customizations | MicrosoftDocs"
 description: "Publishing customizations makes the Web application aware of changes to the data that affects the user interface."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "publish customizations"
+  - publish customizations
 ms.assetid: 649ec32a-1ae1-4966-96fa-3543f4a05509
 caps.latest.revision: 26
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Publish customizations
 
@@ -56,34 +60,34 @@ Publishing customizations makes the Web application aware of changes to the data
  **RetrieveAsIfPublished parameter**  
  Retrieves entity, attribute, entity relationship, and option set data by using the following messages:  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllOptionSetsRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllOptionSetsRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveOptionSetRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveOptionSetRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRelationshipRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRelationshipRequest>  
   
- **RetrieveUnpublished Request**  
- Retrieves user interface items, such as form, template, visualization and Web resource definitions, by using the following messages:  
+  **RetrieveUnpublished Request**  
+  Retrieves user interface items, such as form, template, visualization and Web resource definitions, by using the following messages:  
   
--   <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedRequest>  
+- <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedRequest>  
   
--   <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>  
+- <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>  
   
 ### See also  
- [Customize Dynamics 365 Customer Engagement](customize-applications.md)   
- [Extend the Metadata Model for Microsoft Dynamics 365](../org-service/use-organization-service-metadata.md)   
+ [Customize Dynamics 365 for Customer Engagement](customize-applications.md)   
+ [Extend the Metadata Model for Microsoft Dynamics 365 for Customer Engagement](../org-service/use-organization-service-metadata.md)   
  [Publish request schema](publish-request-schema.md)   
- [Customize Entity Forms in Microsoft Dynamics 365](customize-entity-forms.md)   
- [Customize Entity Views in Microsoft Dynamics 365](customize-entity-views.md)   
- [Customize Global Option Sets in Microsoft Dynamics 365](../org-service/customize-global-option-sets.md)   
+ [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md)   
+ [Customize Entity Views in Microsoft Dynamics 365 for Customer Engagement](customize-entity-views.md)   
+ [Customize Global Option Sets in Microsoft Dynamics 365 for Customer Engagement](../org-service/customize-global-option-sets.md)   
  [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)   
- [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   
+ [Customize the Ribbon for Microsoft Dynamics 365 for Customer Engagement](customize-commands-ribbon.md)   
  [Open Forms, Views, and Dialogs with a URL](../open-forms-views-dialogs-reports-url.md)   
  [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md)   
- [Web Resources for Microsoft Dynamics 365](../web-resources.md)   
+ [Web Resources for Microsoft Dynamics 365 for Customer Engagement](../web-resources.md)   

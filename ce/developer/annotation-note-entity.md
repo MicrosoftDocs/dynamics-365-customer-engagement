@@ -1,20 +1,24 @@
 ---
 title: "Annotation (note) entity | MicrosoftDocs"
 description: "Learn about annotation entity to append additional information to any record in the database. The annotation  entity represents an annotation and contains the annotation text, who created and modified the annotation, and whether a file is attached to the annotation."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 662cf95d-3bca-464a-983b-54b572e79aa2
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Annotation (note) entity
 
@@ -30,15 +34,15 @@ Using the Web API, set the `HasNotes` property of the <xref:Microsoft.Dynamics.C
   
  The `Annotation` entity represents an annotation (note), and contains the following information:  
   
--   Annotation (note) text  
+- Annotation (note) text  
   
--   Who created and modified the annotation (note)  
+- Who created and modified the annotation (note)  
   
--   Whether a file is attached to the annotation (note)  
+- Whether a file is attached to the annotation (note)  
   
- An attached file can be any standard computer file format that includes [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] documents, [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheets, CAD files, and PDF files. An attachment can be associated with any object, other than an annotation (note), in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+  An attached file can be any standard computer file format that includes [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] documents, [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheets, CAD files, and PDF files. An attachment can be associated with any object, other than an annotation (note), in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
- To upload or remove an attachment, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method or <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message, setting the `Annotation.Filename` and `Annotation.MimeType` properties. This uploads an attachment that has been decoded into a base64 string format. The [System.Convert.ToBase64String](https://msdn.microsoft.com/library/system.convert.tobase64string.aspx) method can be used to convert the contents of a data file into a base64-formatted string. [!INCLUDE[sdk_MaxUploadFileSize](../includes/sdk-maxuploadfilesize.md)]  
+  To upload or remove an attachment, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method or <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message, setting the `Annotation.Filename` and `Annotation.MimeType` properties. This uploads an attachment that has been decoded into a base64 string format. The [System.Convert.ToBase64String](https://msdn.microsoft.com/library/system.convert.tobase64string.aspx) method can be used to convert the contents of a data file into a base64-formatted string. [!INCLUDE[sdk_MaxUploadFileSize](../includes/sdk-maxuploadfilesize.md)]  
   
 ## In This Section  
  [Sample: Upload, Retrieve, and Download an Attachment](sample-upload-retrieve-download-attachment.md)  

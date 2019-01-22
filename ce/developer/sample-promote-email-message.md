@@ -1,22 +1,26 @@
 ---
-title: "Sample: Promote an email message to Dynamics 365 | MicrosoftDocs"
-description: "This sample shows how to create an email activity instance from the specified email message in Dynamics 365 by using the DeliverPromoteEmailRequest message"
-ms.custom: ""
+title: "Sample: Promote an email message to Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+description: "This sample shows how to create an email activity instance from the specified email message in Dynamics 365 for Customer Engagement by using the DeliverPromoteEmailRequest message"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 69763a0a-af67-48b8-adf2-470c1cdf6196
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
-# Sample: Promote an email message to Dynamics 365
+# Sample: Promote an email message to Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

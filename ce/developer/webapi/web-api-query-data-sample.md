@@ -1,32 +1,36 @@
 ---
-title: "Web API Query Data Sample (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Web API Query Data Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This group of samples shows how to query data using the Web API. These are implemented using Client-side JavaScript and C#"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9457ce4f-0ef6-4085-8346-fe3134ec7106
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Web API Query Data Sample
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This group of  samples demonstrate how to query data using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API. This sample is implemented as a separate project for the following languages:
+This group of  samples demonstrate how to query data using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API. This sample is implemented as a separate project for the following languages:
 
 - [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)
 
 - [Query Data Sample (C#)](web-api-query-data-sample-csharp.md)
 
- This topic describes a common set of operations implemented by each sample in this group. This topic describes the HTTP requests and responses and text output that each sample in this group will perform without the language specific details. See the language specific descriptions and the individual samples for details about how this operations are performed.
+  This topic describes a common set of operations implemented by each sample in this group. This topic describes the HTTP requests and responses and text output that each sample in this group will perform without the language specific details. See the language specific descriptions and the individual samples for details about how this operations are performed.
 
 ## Demonstrates
 
@@ -2191,7 +2195,7 @@ Saved User Query:
 ```  
   
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   
  [Retrieve and execute predefined queries](retrieve-and-execute-predefined-queries.md)   
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)   

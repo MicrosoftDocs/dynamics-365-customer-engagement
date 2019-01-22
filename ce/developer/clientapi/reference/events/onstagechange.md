@@ -1,13 +1,17 @@
 ---
-title: "OnStageChange Event (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "OnStageChange Event (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0c85fe34-1368-4d0d-87eb-4109206ce4f7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # OnStageChange Event (Client API reference)
 

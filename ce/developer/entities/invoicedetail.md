@@ -1,15 +1,19 @@
 ---
-title: "InvoiceDetail Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "InvoiceDetail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the InvoiceDetail entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # InvoiceDetail Entity Reference
 
@@ -277,7 +281,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the parent invoice.|
+|Description|Select whether the product exists in the Microsoft Dynamics 365 for Customer Engagement apps product catalog or is a write-in product specific to the parent invoice.|
 |DisplayName|Select Product|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -333,6 +337,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Agreement"></a> msdyn_Agreement
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Agreement associated with Invoice Product.|
@@ -348,6 +353,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AgreementInvoiceProduct"></a> msdyn_AgreementInvoiceProduct
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Agreement Invoice Product associated with Invoice Product.|
@@ -363,6 +369,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Billing method for the project invoice line. Valid values are Time and Material and Fixed Price|
@@ -385,6 +392,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_chargeableamount"></a> msdyn_chargeableamount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The amount from included line details that is chargeable.|
@@ -403,6 +411,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_complimentaryamount"></a> msdyn_complimentaryamount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The amount from included line details that is complimentary and won't be charged.|
@@ -421,6 +430,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ContractLine"></a> msdyn_ContractLine
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the project contract line for this invoice line.|
@@ -438,6 +448,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_contractlineamount"></a> msdyn_contractlineamount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Amount from the related project contract line if present.|
@@ -456,6 +467,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Currency"></a> msdyn_Currency
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Currency associated with Invoice Product.|
@@ -471,6 +483,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_invoicedtilldate"></a> msdyn_invoicedtilldate
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Amount already invoiced to customer for the same project contract line.|
@@ -489,6 +502,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_LineOrder"></a> msdyn_LineOrder
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the order of this invoice product within the invoice.|
@@ -506,6 +520,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The field to distinguish the Invoice lines to be of project service or field service|
@@ -528,6 +543,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_nonchargeableamount"></a> msdyn_nonchargeableamount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The amount from included line details that is non-chargeable.|
@@ -546,6 +562,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_OrderInvoicingProduct"></a> msdyn_OrderInvoicingProduct
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Order Invoicing Product associated with Invoice Product.|
@@ -561,6 +578,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the project for this invoice line.|
@@ -576,6 +594,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrderId"></a> msdyn_WorkOrderId
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Work Order associated with Invoice Product.|
@@ -591,6 +610,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrderProductId"></a> msdyn_WorkOrderProductId
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Work Order Product associated with Invoice Product.|
@@ -606,6 +626,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrderServiceId"></a> msdyn_WorkOrderServiceId
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Work Order Service associated with Invoice Product.|
@@ -1488,11 +1509,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### InvoiceStateCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_ManualDiscountAmount_Base"></a> ManualDiscountAmount_Base
 
@@ -1653,6 +1672,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_chargeableamount_Base"></a> msdyn_chargeableamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Chargeable Amount in base currency.|
@@ -1671,6 +1691,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_complimentaryamount_Base"></a> msdyn_complimentaryamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Complimentary Amount in base currency.|
@@ -1689,6 +1710,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_contractlineamount_Base"></a> msdyn_contractlineamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the project contract line amount in base currency.|
@@ -1723,6 +1745,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_invoicedtilldate_Base"></a> msdyn_invoicedtilldate_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Amount Previously Invoiced in base currency.|
@@ -1741,6 +1764,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_nonchargeableamount_Base"></a> msdyn_nonchargeableamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Non Chargeable Amount in base currency.|
@@ -2119,6 +2143,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_InvoiceDetail_SyncErrors"></a> InvoiceDetail_SyncErrors
 
 Same as syncerror entity [InvoiceDetail_SyncErrors](syncerror.md#BKMK_InvoiceDetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2133,6 +2158,7 @@ Same as syncerror entity [InvoiceDetail_SyncErrors](syncerror.md#BKMK_InvoiceDet
 ### <a name="BKMK_InvoiceDetail_AsyncOperations"></a> InvoiceDetail_AsyncOperations
 
 Same as asyncoperation entity [InvoiceDetail_AsyncOperations](asyncoperation.md#BKMK_InvoiceDetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2147,6 +2173,7 @@ Same as asyncoperation entity [InvoiceDetail_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_invoicedetail_MailboxTrackingFolders"></a> invoicedetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [invoicedetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_invoicedetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2161,6 +2188,7 @@ Same as mailboxtrackingfolder entity [invoicedetail_MailboxTrackingFolders](mail
 ### <a name="BKMK_userentityinstancedata_invoicedetail"></a> userentityinstancedata_invoicedetail
 
 Same as userentityinstancedata entity [userentityinstancedata_invoicedetail](userentityinstancedata.md#BKMK_userentityinstancedata_invoicedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2175,6 +2203,7 @@ Same as userentityinstancedata entity [userentityinstancedata_invoicedetail](use
 ### <a name="BKMK_InvoiceDetail_ProcessSessions"></a> InvoiceDetail_ProcessSessions
 
 Same as processsession entity [InvoiceDetail_ProcessSessions](processsession.md#BKMK_InvoiceDetail_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2189,6 +2218,7 @@ Same as processsession entity [InvoiceDetail_ProcessSessions](processsession.md#
 ### <a name="BKMK_InvoiceDetail_BulkDeleteFailures"></a> InvoiceDetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [InvoiceDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_InvoiceDetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2203,6 +2233,7 @@ Same as bulkdeletefailure entity [InvoiceDetail_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_invoicedetail_principalobjectattributeaccess"></a> invoicedetail_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [invoicedetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_invoicedetail_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2217,6 +2248,7 @@ Same as principalobjectattributeaccess entity [invoicedetail_principalobjectattr
 ### <a name="BKMK_InvoiceDetail_Dynamicpropertyinstance"></a> InvoiceDetail_Dynamicpropertyinstance
 
 Same as dynamicpropertyinstance entity [InvoiceDetail_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_InvoiceDetail_Dynamicpropertyinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyinstance|
@@ -2231,6 +2263,7 @@ Same as dynamicpropertyinstance entity [InvoiceDetail_Dynamicpropertyinstance](d
 ### <a name="BKMK_invoicedetail_parent_invoicedetail"></a> invoicedetail_parent_invoicedetail
 
 Same as invoicedetail entity [invoicedetail_parent_invoicedetail](invoicedetail.md#BKMK_invoicedetail_parent_invoicedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -2357,6 +2390,6 @@ See transactioncurrency Entity [msdyn_transactioncurrency_invoicedetail_Currency
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.invoicedetail?text=invoicedetail EntityType" />

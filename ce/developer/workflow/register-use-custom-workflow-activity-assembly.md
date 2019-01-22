@@ -1,20 +1,24 @@
 ---
-title: "Register and use a custom workflow activity assembly (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Register and use a custom workflow activity assembly (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about registering and using a custom workflow activity assembly"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-    - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2dd2fe35-f681-4548-9b2b-5ad7c8470b8d
 caps.latest.revision: 50
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Register and use a custom workflow activity assembly
 
@@ -32,20 +36,20 @@ After you compile your custom workflow activity to create an assembly, you have 
 ### To enable custom code
 
 1. Open a [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] command window.
-1. Add the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] PowerShell snap-in:
+2. Add the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] PowerShell snap-in:
     ```powershell
     Add-PSSnapin Microsoft.Crm.PowerShell
     ```
-1. Retrieve the current setting:
+3. Retrieve the current setting:
     ```powershell
     $setting = get-crmsetting customcodesettings
     ```
-1. Modify the current setting:
+4. Modify the current setting:
     ```powershell
     $setting.AllowExternalCode="True"
     set-crmsetting $setting
     ```
-1. Verify the setting:
+5. Verify the setting:
     ```powershell
     get-crmsetting customcodesettings
     ```
@@ -53,25 +57,25 @@ After you compile your custom workflow activity to create an assembly, you have 
 ### To disable custom code
 
 1. Open a [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] command window.
-1. Add the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] PowerShell snap-in:
+2. Add the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] PowerShell snap-in:
 
     ```powershell
     Add-PSSnapin Microsoft.Crm.PowerShell
     ```
 
-1. Retrieve the current setting:
+3. Retrieve the current setting:
 
     ```powershell
     $setting = get-crmsetting customcodesettings
     ```
 
-1. Modify the current setting:
+4. Modify the current setting:
 
     ```powershell
     $setting.AllowExternalCode=0
     set-crmsetting $setting
     ```
-1. Verify the setting:
+5. Verify the setting:
     ```powershell
     get-crmsetting customcodesettings
     ```
@@ -96,9 +100,9 @@ After you have registered your custom workflow activity assembly, you can use it
 To use your custom workflow activity in a process:
 
 1. Sign in to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].
-1. [!INCLUDE[proc_settings_processes](../../includes/proc-settings-processes.md)].
-1. Create or open an existing process.
-1. In the process designer, click or tap **Add Step**. Your custom workflow activity name will appear in the drop-down list.
+2. [!INCLUDE[proc_settings_processes](../../includes/proc-settings-processes.md)].
+3. Create or open an existing process.
+4. In the process designer, click or tap **Add Step**. Your custom workflow activity name will appear in the drop-down list.
 
 ### See also
 

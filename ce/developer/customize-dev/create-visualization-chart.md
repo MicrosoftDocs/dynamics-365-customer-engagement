@@ -1,20 +1,24 @@
 ---
-title: "Create a visualization (chart) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create a visualization (chart) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The topic shows how to create a chart visualization and a web resource visualization. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a93ac45e-aa61-4a0b-be4c-f63ccc4a2c91
 caps.latest.revision: 42
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create a visualization (chart)
 

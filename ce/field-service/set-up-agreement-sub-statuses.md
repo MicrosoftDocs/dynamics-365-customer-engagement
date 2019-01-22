@@ -1,23 +1,30 @@
 ---
-title: "Set up agreement sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+title: "Set up agreement sub-statuses (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 555c9d08-b907-4527-847a-d3377b4dc384
 caps.latest.revision: 12
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up agreement sub-statuses to specify agreement status more precisely (Field Service)
 
@@ -32,7 +39,7 @@ Set up agreement sub-statuses in [!INCLUDE[pn_dyn_365_field_service](../includes
 3.  Use the tooltips to help fill in your information, and then click **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
  [Set up tax codes](../field-service/set-up-tax-codes.md)   
  [Set up payment terms](../field-service/set-up-payment-terms.md)<br>

@@ -1,15 +1,19 @@
 ---
-title: "ConstraintBasedGroup Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ConstraintBasedGroup Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ConstraintBasedGroup entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ConstraintBasedGroup Entity Reference
 
@@ -125,7 +129,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows whether the resource group is static, dynamic or hidden. Hidden groups are for system use only and are not viewable in Microsoft Dynamics 365.|
+|Description|Shows whether the resource group is static, dynamic or hidden. Hidden groups are for system use only and are not viewable in Microsoft Dynamics 365 for Customer Engagement apps.|
 |DisplayName|Group Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -543,6 +547,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_constraintbasedgroup_SyncErrors"></a> constraintbasedgroup_SyncErrors
 
 Same as syncerror entity [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_constraintbasedgroup_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -557,6 +562,7 @@ Same as syncerror entity [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_con
 ### <a name="BKMK_ConstraintBasedGroup_AsyncOperations"></a> ConstraintBasedGroup_AsyncOperations
 
 Same as asyncoperation entity [ConstraintBasedGroup_AsyncOperations](asyncoperation.md#BKMK_ConstraintBasedGroup_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -571,6 +577,7 @@ Same as asyncoperation entity [ConstraintBasedGroup_AsyncOperations](asyncoperat
 ### <a name="BKMK_constraintbasedgroup_MailboxTrackingFolders"></a> constraintbasedgroup_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [constraintbasedgroup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_constraintbasedgroup_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -585,6 +592,7 @@ Same as mailboxtrackingfolder entity [constraintbasedgroup_MailboxTrackingFolder
 ### <a name="BKMK_userentityinstancedata_constraintbasedgroup"></a> userentityinstancedata_constraintbasedgroup
 
 Same as userentityinstancedata entity [userentityinstancedata_constraintbasedgroup](userentityinstancedata.md#BKMK_userentityinstancedata_constraintbasedgroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -599,6 +607,7 @@ Same as userentityinstancedata entity [userentityinstancedata_constraintbasedgro
 ### <a name="BKMK_ConstraintBasedGroup_ProcessSessions"></a> ConstraintBasedGroup_ProcessSessions
 
 Same as processsession entity [ConstraintBasedGroup_ProcessSessions](processsession.md#BKMK_ConstraintBasedGroup_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -613,6 +622,7 @@ Same as processsession entity [ConstraintBasedGroup_ProcessSessions](processsess
 ### <a name="BKMK_ConstraintBasedGroup_BulkDeleteFailures"></a> ConstraintBasedGroup_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ConstraintBasedGroup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ConstraintBasedGroup_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -627,6 +637,7 @@ Same as bulkdeletefailure entity [ConstraintBasedGroup_BulkDeleteFailures](bulkd
 ### <a name="BKMK_constraintbasedgroup_PrincipalObjectAttributeAccesses"></a> constraintbasedgroup_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [constraintbasedgroup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_constraintbasedgroup_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -641,6 +652,7 @@ Same as principalobjectattributeaccess entity [constraintbasedgroup_PrincipalObj
 ### <a name="BKMK_constraintbasedgroup_connections1"></a> constraintbasedgroup_connections1
 
 Same as connection entity [constraintbasedgroup_connections1](connection.md#BKMK_constraintbasedgroup_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -655,6 +667,7 @@ Same as connection entity [constraintbasedgroup_connections1](connection.md#BKMK
 ### <a name="BKMK_constraintbasedgroup_connections2"></a> constraintbasedgroup_connections2
 
 Same as connection entity [constraintbasedgroup_connections2](connection.md#BKMK_constraintbasedgroup_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -669,6 +682,7 @@ Same as connection entity [constraintbasedgroup_connections2](connection.md#BKMK
 ### <a name="BKMK_constraintbasedgroup_resource_groups"></a> constraintbasedgroup_resource_groups
 
 Same as resourcegroup entity [constraintbasedgroup_resource_groups](resourcegroup.md#BKMK_constraintbasedgroup_resource_groups) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resourcegroup|
@@ -683,6 +697,7 @@ Same as resourcegroup entity [constraintbasedgroup_resource_groups](resourcegrou
 ### <a name="BKMK_constraint_based_group_resource_specs"></a> constraint_based_group_resource_specs
 
 Same as resourcespec entity [constraint_based_group_resource_specs](resourcespec.md#BKMK_constraint_based_group_resource_specs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resourcespec|
@@ -739,6 +754,6 @@ See systemuser Entity [constraintbasedgroup_systemuser](systemuser.md#BKMK_const
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.constraintbasedgroup?text=constraintbasedgroup EntityType" />

@@ -1,25 +1,31 @@
 ---
-title: "User Notes (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "User Notes (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about the User Notes type of hosted control in Unified Servoce Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 7d3fec60-2f91-4b25-8a80-f41def5a5f74
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # User Notes (Hosted Control)
 Use **User Notes** hosted control type to provide agents with a scratch pad to type notes during an interaction. Language specific spell checking can be applied to this component by calling the **SetLanguage** action. This component does not automatically pick up the current language of the user, by design. The ability to change the language used is intended to provide the ability to set the language appropriate for the transaction. For example, consider there is a bilingual agent that can speak English and Spanish. The IVR may pass the language selection from the phone system to the agent application’s CTI adapter. This language selection can then be used to set the spell check language for this hosted control.  
@@ -35,9 +41,9 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
   
  In the **New Hosted Control** screen:  
   
--   From the **USD Component Type** drop-down list, select **User Notes**.  
+- From the **USD Component Type** drop-down list, select **User Notes**.  
   
--   In the **Display Group** field, specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
+- In the **Display Group** field, specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
   
 <a name="Actions"></a>   
 ## Predefined UII actions  
@@ -66,7 +72,7 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

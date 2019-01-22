@@ -1,15 +1,19 @@
 ---
-title: "PluginType Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "PluginType Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the PluginType entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # PluginType Entity Reference
 
@@ -693,6 +697,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_plugin_type_service"></a> plugin_type_service
 
 Same as service entity [plugin_type_service](service.md#BKMK_plugin_type_service) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|service|
@@ -707,6 +712,7 @@ Same as service entity [plugin_type_service](service.md#BKMK_plugin_type_service
 ### <a name="BKMK_plugintype_sdkmessageprocessingstep"></a> plugintype_sdkmessageprocessingstep
 
 Same as sdkmessageprocessingstep entity [plugintype_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_plugintype_sdkmessageprocessingstep) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessageprocessingstep|
@@ -721,6 +727,7 @@ Same as sdkmessageprocessingstep entity [plugintype_sdkmessageprocessingstep](sd
 ### <a name="BKMK_plugintype_plugintypestatistic"></a> plugintype_plugintypestatistic
 
 Same as plugintypestatistic entity [plugintype_plugintypestatistic](plugintypestatistic.md#BKMK_plugintype_plugintypestatistic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|plugintypestatistic|
@@ -735,6 +742,7 @@ Same as plugintypestatistic entity [plugintype_plugintypestatistic](plugintypest
 ### <a name="BKMK_userentityinstancedata_plugintype"></a> userentityinstancedata_plugintype
 
 Same as userentityinstancedata entity [userentityinstancedata_plugintype](userentityinstancedata.md#BKMK_userentityinstancedata_plugintype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -749,6 +757,7 @@ Same as userentityinstancedata entity [userentityinstancedata_plugintype](useren
 ### <a name="BKMK_plugintypeid_sdkmessageprocessingstep"></a> plugintypeid_sdkmessageprocessingstep
 
 Same as sdkmessageprocessingstep entity [plugintypeid_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_plugintypeid_sdkmessageprocessingstep) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessageprocessingstep|
@@ -800,6 +809,6 @@ See systemuser Entity [lk_plugintype_modifiedonbehalfby](systemuser.md#BKMK_lk_p
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.plugintype?text=plugintype EntityType" />

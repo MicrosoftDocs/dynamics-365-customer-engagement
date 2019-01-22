@@ -1,149 +1,329 @@
 ---
-title: "First time setup troubleshooting and FAQ (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Solutions to common questions and issues that can occur during the initial setup of Dynamics 365 for Marketing"
-keywords: "troubleshooting;setup"
-ms.date: 04/01/2018
+title: "Administration and setup frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
+keywords: troubleshooting;setup
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
-ms.custom:
-  - dyn365-admin
-  - dyn365-marketing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# First time setup FAQ and troubleshooting
+# Administration and setup FAQ
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-<a name="preview-prerequisites"></a>
+<a name="licensing"></a>
 
-## How can I set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial?
+## How is [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensed?
 
-You can install and use a trial version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free. Prerequisites for the trial are the same as those for the production version of the product, but you can install it on a trial (or production) [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, and you must use it with a trial version of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
 
-- _If you already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant_, then you can install the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial there simply by requesting the trial. The [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial setup installs a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial at the same time and configures [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] to run on that trial. You can't install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production version of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. See [Sign up for the Dynamics 365 for Marketing trial](#marketing-preview-signup) for instructions.
+- **What is a marketing contact?**  
+    A *marketing contact* is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. *Marketing activities* include marketing emails, marketing pages, marketing forms, LinkedIn integrations, events, surveys, custom channels, and more. You will only be charged for contacts that are engaged in marketing activities using the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application, or capabilities delivered as part of the application. Each marketing activity is associated with a specific contact, but you can also target any lead or opportunity that is linked to a contact in the database. 
+- **Which marketing contacts count against my quota?**  
+    All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
+- **Where can I see my contact quota?**  
+    To see how many contacts you've purchased, go to **Settings** > **Advanced Settings** > **Others** > **Quota Limits**. In the current version of the product, you can  see the number of marketing contacts you have purchased for the current licensing period, but you can't see how many you're actually using or have remaining. The ability to monitor the number of marketing contacts will be included in an upcoming release; for now, compliance is contractual.
+- **What is my monthly email quota?**  
+    Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+- **If I use a contact only once in a month and don’t use it next month, does it count?**  
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota for the remainder of the license period, even if you permanently delete the contact record. You can "true down" on your number of marketing contacts at contract renewal.
+- **How can I learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing?**
+  - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
+  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+  - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
+  - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
-- _If you don't already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant_, or if you want to set up a temporary one especially for running the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial, then you can set up a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial, which creates its own [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant trial at the same time. Then you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on that tenant. See [Sign up for a Dynamics 365 trial that includes a trial Office 365 tenant](#D365-preview-signup) for instructions.
+<a name="incompatible-platform"></a>
 
-<a name="marketing-preview-signup"></a>
+## Why is my instance (organization) incompatible with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]?
 
-### Sign up for the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial
+Your tenant might have several different types of instances (also called *organizations*) installed on it, including some that are full [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instances and others that are, for example, [!INCLUDE[pn-power-apps](../includes/pn-power-apps.md)] instances (also called *environments*) that include many components of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], but not all of the components required by [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
-Once you have a trial or production [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, you can install the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial on it. The [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial creates its own [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial to run on if needed. You can't run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production version of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. To sign up for the trial:
+When you are setting up your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, the setup wizard asks you to choose an organization on which to install the app, and the organization selector might show both full [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instances and the lighter [!INCLUDE[pn-power-apps](../includes/pn-power-apps.md)] instances if they are present. You must choose an instance that includes a full [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] installation. If you see an error telling you that *this application isn't compatible with the platform of your selected [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization*, then make sure you have a full [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization available (where you want to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) and choose that one instead.
 
-1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com).
+<a name="geo-support"></a>
 
-1. A form opens asking for your email address and phone number. Use the email address that you use to sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or the one you created when setting up a trial tenant.
+## Why can't I install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] in my country/region?
 
-1. Follow the instructions on your screen.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a relatively new app for the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] platform, so it is not yet supported in all countries/regions where [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] product or bundle that includes it&mdash;you'll be able to set it up as soon as support for the product is extended to your country/region.
 
-1. When you get to the **Welcome to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Setup** message, follow the instructions given in [First time setup](purchase-setup.md).
+These geographical restrictions apply both to trial and production versions of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-<a name="D365-preview-signup"></a>
+To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
-### Sign up for a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial that includes a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
+<a name="register-apps-azure"></a>
 
-If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant where you'd like to run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial, then you can set up a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial, which creates its own [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant trial at the same time, and then install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial there.
+## Do I have permissions to register applications on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]?
 
-1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com/).
+One of the requirements for running the [setup wizard](purchase-setup.md) for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is that you must sign in to [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] with a user account that has permissions to register applications on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. To find out if you have these permissions, do the following:
 
-1. Scroll down past the icons and then select the **Sign up here** link next to "Are you signing up on behalf of a customer or using this trial for development purposes?"  
-    ![Location of the sign up here link](media/trial-signup1.png "Location of the sign up here link")
+1. Go to [portal.azure.com](https://portal.azure.com) and sign in with the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] account that you want to use to install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+1. Select **Azure Active Directory** in the side navigator and the **User settings** in the second side navigator.
+    ![Azure user settings](media/faq-azure-user-settings.png "Azure user settings") 
+1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, then please talk to your global administrator for assistance.
 
-1. A dialog box opens. Choose the **No, continue signing up** link.  
-    ![Select continue signing up](media/trial-signup2.png "Select continue signing up")
+<a name="why-portal"></a>
 
-1. A form opens, requesting your contact details. Enter your information.
-    > [!IMPORTANT]
-    > You must register in a country/region where the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial is available.
+## Why do I need a portal, and how can I get one?
 
-1. Continue by following the instructions on your screen and providing the information requested. The last page of the setup asks you to choose a scenario. Be sure to select **All of these**, which makes sure your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user account gets created with system admin privileges, and then select **Complete Setup**.
-    ![Choose to enable all the apps](media/trial-signup3.png "Choose to enable all the apps")
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event websites. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
 
-1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization will be ready and will open in your browser. Be sure to make a note of your org's URL and your other account details, such as the user name, password, and email address you chose while setting it up.
+You can have at most one free portal on your tenant, so even if your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license includes a free portal, you may still need to purchase an additional one if  you already have a free portal configured on your tenant (probably because it was included with another [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] app that you are already using).
 
-1. This step is optional, but it can be useful to set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial so you can set up email accounts to use with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial. 
-    1. Open a new browser tab and go to [portal.office.com/adminportal/home?rc=1#/catalog](https://portal.office.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
-    1. Scroll down to the **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** box. Hover your mouse over this box to open a flyout message and then select **Start free trial** on the message.
-    1. Follow the instructions on your screen to add the trial to your account.
-    1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then set up an [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] mailbox for yourself. It may take several minutes for your mailbox to come online, but when it's ready you should consider setting [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] to forward all messages to your usual work address.  To set up forwarding:
-        1. Select your new user account. A flyout panel opens.
-        1. Expand the **Mail Settings** heading on the flyout panel. (If you see a message that the mailbox is still being set up, then wait for the setup to complete.)
-        1. Select the **Edit** link for **Email forwarding**.
-        1. Turn forwarding on and specify the target email address. Then select **Save**.
-        1. Close the flyout panel.
+The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
 
-1. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Sign up for the Dynamics 365 for Marketing trial](#marketing-preview-signup).
+For complete details about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
 
+If you don't have any unconfigured free or paid portals available, you have two options:
 
-### Add more users to a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial running on a trial tenant
-If you followed the instructions provided in this section so far, then you should now have a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial set up with:
+- Recycle an existing portal.  
+  If you have a portal that you aren't using, you can reset it and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to set it up for use with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Please note that you will lose all of the data and content of your existing portal when you reset it. After the reset, the portal will still be shown as "configured" in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], but you will now be able to select it when you run [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard. For instructions, see [Reset a portal](../portals/reset-portal.md).
 
-- A trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-- A trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization installed on the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-- A trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3 license installed on the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-- A trial [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app installed on the trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org.
+- Purchase an additional portal.  
+  If you don't have any unused portals that you can recycle, then you can purchase a new one for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] as described in the following procedure.
 
-The user account that you used to set it up is now:
+To get a new, unconfigured portal app and then use it with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
-- The global administrator for the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-- A system administrator for the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org.
+1. Open your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center and go to **Billing** > **Subscriptions**.
 
-When you install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, as described here, then each new user must be added in a special way. If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on an existing, non-trial tenant, then new users can just sign up as described in [Sign up for the Dynamics 365 for Marketing trial](#marketing-preview-signup). To add new users to a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial running on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant:
+2. Choose **Buy add-ons** in the tile for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription.
 
-1. Open a web browser and go to [portal.office.com](http://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
-1. Once you are signed in, go to [portal.office.com/adminportal/home#/users](http://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
-1. Select **Add a user** to open the **New user** flyout panel.
-1. Enter the new user's name and other details in the flyout panel. 
-    - Make sure the **Domain** is the same as the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.   
-    - Create a non-random password and make a note of the password.
-    - Under **Product licenses**, enable licenses for both **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** and **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement Plan Enterprise Edition**.
-1. Select **Add** to create the new user, and then select **Send email and close** to close the flyout panel.
+3. Purchase a new portal using the form provided.
 
-The new user account is now available on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, where it is also assigned trial licenses to [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3 and [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. The user also has an email address at your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] domain. You should consider setting up mail forwarding to make sure the new user will receive signup messages. To set up forwarding:
-1. On the **Active users** page, select the name of the new user account. A flyout panel opens showing details about the selected user.
-1. Expand the **Mail Settings** heading on the flyout panel. (If you see a message that the mailbox is still being set up, then wait for the setup to complete.)
-1. Select the **Edit** link for **Email forwarding**.
-1. Turn forwarding on and specify the target email address. Then select **Save**.
-1. Close the flyout panel.
-1. Sign out of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and quit your browser.
+   > [!IMPORTANT]
+   > Be sure not to configure your new portal because the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard requires an *unconfigured* portal to be present on your tenant. The wizard will configure the portal for you as required.
 
-Now the new user needs to sign up for the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You can either set this up for them or ask them to do it themselves. Either way, you'll need to approve the new user afterwards. The procedure is as follows:
-1. Open a web browser and go to [trials.dynamics.com/Dynamics365/Preview/Marketing](http://trials.dynamics.com/Dynamics365/Preview/Marketing).
-1. A form opens asking for your email address and phone number. Use the email address for the new user that you just set up in [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)].
-1. A page opens to tell you that you already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] account, so just select **Sign in**.
-1. Sign in using the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] email address and password that you created for the new user. 
-1. A page opens to tell you that you already have a license for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Select **OK, got it**.
-1. You now see a list of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organizations that are available on your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant (there may be just one). Select the organization that you want to add the new user to and then select **Join**.
-1. A dialog box asks you to choose an app. **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]** is probably already shown and selected, so just select **Continue**.
-A thank-you page opens telling you that a request has been sent to the trial owner (this is the global admin account created when you first set up the trial org).
-1. Sign out of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and quit your browser.
+4. Run the [Marketing setup wizard](purchase-setup.md).
 
-Check the email inbox for the trial global admin. You should find a message telling you that you have a request to join your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial. 
-1. Select the **Approve** link included in the email.
-1. The link opens in your browser, which should now be asking you to sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Sign in using the global admin account.
+## Why do I get an authorization-failed message when I try to run the setup wizard?
 
-You should now see an **Approved!** message. The system sends the new user an email that includes a link they can use to sign into the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial using the password you chose for them.
-The new user is granted most user roles (including admin) in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you'd like to restrict access, then see [Assign a security role to a user](manage-users.md#assign-role) for instructions.
-
-## Authorization fails due to unmanaged organization state
-
-In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means, (among other things) that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup wizard for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an *unmanaged* state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup wizard for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 ![Unmanaged organization error](media/setup-ts-unmanaged-aad.png "Unmanaged organization error")
 
-
 To fix this, do one of the following:
 
-- If you are just setting up a trial of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], then consider creating a new trial tenant and set up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial there, as described earlier under [Get all prerequisites in place to set up a Marketing trial](#preview-prerequisites).
-- If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard again. For instructions about how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
+- If you are just setting up a trial of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], then consider creating a new trial tenant and set up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial there, as described in [Sign up for a managed Office 365 trial tenant and install the Marketing trial on it](trial-signup.md#get-managed-tenant).
+- If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard again. For instructions on how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
+
+<a name="partial-setup"></a>
+
+## It looks like [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is set up on my instance, but why does it generate so many errors?
+
+If [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is visible on your instance, but nothing is working, then you might have just a partial installation. This can happen if you use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to set up [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] as a service (on the **Instances** tab) rather than as an app (on the **Applications** tab). As a result, you might have the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] service installed, but not its many supporting components.
+
+To fix this, go back to the [Dynamics 365 admin center](dynamics-365-admin-center.md) and reinstall from the **Applications** tab as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md). The setup wizard should fix your installation.
+
+![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
+
+<a name="run-fre"></a>
+
+## How can I rerun the setup wizard?
+
+If your setup fails for some reason, you'll be notified by email and/or by a status message in your web browser (if you keep it open during the installation). Often, part of the solution will be to rerun the setup wizard after waiting for an hour or so. To rerun the setup wizard, do one of the following:
+
+- If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
+- If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md).
+
+<a name="fix-portal"></a>
+
+## How can I fix occasional portal issues?
+
+Marketing pages and the event website both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
+
+<a name="portal-cache"></a>
+
+### Clear the portal cache
+
+Many portal issues can be solved by clearing the portal cache. Once you have a portal user set up and configured as an administrator, this is faster and easier than [restarting the portal](#restart-portal), though some problem may still require a restart.
+
+The subsections below explain how to set up the required portal user and then run the clear-cache command. If you already have a portal user that's configured as an administrator, just skip ahead to [Step 3: Clear the portal cache](#cache-only).
+
+#### Step 1: Create an account on your portal
+
+Start by adding yourself as a portal user, just as your contacts would do when registering themselves and others for an event (this is not the same as your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user account). To do this:
+
+1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
+
+1. On the event website, select the **Sign In** button at the top of the page.
+
+1. On the sign-in page, go the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
+
+1. The **Profile** page opens. Enter your first and last names in the fields provided and select **Update**.
+
+1. Your account is now created.
+
+#### Step 2: Grant your new account permission to clear the portals cache
+
+Once you have your account and password set up, you must go into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and configure that account as an event-portal administrator. To do this:
+
+1. Sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
+
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+
+1. In the custom app, go to **Portals** > **Security** > **Contacts**.
+
+    ![Open the portal contacts](media/faq-portal-nav.png "Open the portal contacts")
+
+1. The portal contacts page opens. Open the system-view selector menu and choose the **All Contacts** view.
+
+    ![The system-view selector](media/faq-portal-system-views.png "The system-view selector")
+
+1. Find your portal user in the list and open it.
+
+1. Open the form-view selector and switch to the **Portal contact** form view.
+
+    ![Switch to the 'Portal contact' form view](media/faq-portal-form-view.png "Switch to the 'Portal contact' form view")
+
+1. Scroll down to the **Web Roles** section for your contact.
+
+1. Select the add (**+**) button to add a role, then select the magnifying glass icon to open the role menu, and finally select the **Administrators Event Portal** role to add that role to your contact.
+
+    ![Assign the admin role](media/faq-portal-admin.png "Assign the admin role")
+
+1. Select the **Save** icon in the bottom corner. Your user account is now an administrator for your event website.
+
+<a name="cache-only"></a>
+
+#### Step 3: Clear the portal cache
+
+Once you have your portal-administration account set up, you can use it to clear the portal cache at any time. To do this:
+
+1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
+1. On the event website, select the **Sign In** button at the top of the page.
+1. Sign in as a user that you have set up as an event-portal administrator.
+1. Enter the following URL:
+
+     `https://<YourPortalDomain>/_services/about`
+
+    Where `<YourPortalDomain>` is the domain of your portal. You can find it by looking at the URL shown when you signed into the portal.
+
+1. A portal-administration page opens. Select **Clear cache**.
+
+    ![Select the Clear cache button](media/faq-portal-clear-cache.png "Select the Clear cache button")
+
+1. Your portal cache is cleared, which also has the effect of signing you out of the portal.
+
+<a name="restart-portal"></a>
+
+### Restart the portal
+
+If clearing the cache didn't fix your portal issues, then restarting it may help. This operation takes a bit longer than clearing cache, and your portal will be offline until the process is complete.
+
+To restart your portal:
+
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab.
+
+2. Each configured portal app is listed in the **Application** column using the name of the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
+
+    ![Select your portal](media/faq-portal-manage.png "Select your portal")
+
+3. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Restart** tile to restart the portal. 
+
+    ![Open portal actions and then select restart](media/faq-portal-manage2.png "Open portal actions and then select restart")
+
+4. You'll be asked to confirm the action. Choose **Restart** to continue and then allow a few minutes for the process to complete.
+
+<a name="portal-url"></a>
+
+## How can I fix my portal after changing my instance name?
+
+The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] enables you to change the  name of any of your instances at any time. If you do so, then the URL for the affected instance will also change to match and, as a result, your portal will no longer be configured correctly and will stop working. To fix it, you must reconfigure your portal as follows:
+
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab.
+
+2. Each configured portal app is listed in the **Application** column using the name of the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
+
+    ![Select your portal](media/faq-portal-manage.png "Select your portal")
+
+3. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Update [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] URL** tile to update the URL.  
+
+    ![Open portal actions and then update the URL](media/faq-portal-manage3.png "Open portal actions and then update the URL")
+
+4. You'll be asked to confirm the action. Choose **Update URL** to continue and then allow a few minutes for the process to complete.
+
+<a name="fix-voc"></a>
+
+## My surveys aren't working; how can I fix my [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] installation?
+
+If you don't see the **Survey** tile in the **Toolbox** of your [customer journey designer](customer-journeys-create-automated-campaigns.md), or if it isn't working properly, then the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] setup wizard might have failed to set up the [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] app correctly. If this was the only error that occurred during installation, then you might not have received any messages about it. To fix this, do the following:
+
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+
+1. Go to the **Applications** tab, select any **Voice of the Customer** application in the applications list, and then select the **Manage** button in the side panel.
+
+    ![Manage your Voice of the Customer installation](media/admin-voc-manage.png "Manage your Voice of the Customer installation")
+
+1. The **Set up Voice of the Customer** page opens.
+
+    ![Set up your Voice of the Customer installation](media/admin-voc-setup.png "Set up your Voice of the Customer installation")
+
+    Do the following:
+    - Choose the instance you are having trouble with from the **Dynamics 365 Instance** drop-down list. 
+    - Read the license terms and the privacy policy carefully. If you agree with their terms, select the **Accept the Dynamics 365 software license terms and privacy statement** check box.
+
+1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
+
+1. To track the installation progress, go back to your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+
+    ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
+
+1. The **Manage your solutions** page opens, showing a list of solutions installed on your selected instance and the status of each of them. Find the **Voice of the Customer for Microsoft Dynamics 365** solution (not the **Voice of the Customer *Link* for Dynamics 365** solution) and then refresh the page periodically until you can see that the solution is shown as **Installed**.
+
+    ![The Manage your solutions page](media/admin-voc-solutions4.png "The Manage your solutions page")
+
+1. Still on the **Manage your solutions** page, find and select the solution called **Voice of the Customer *Link* for Dynamics 365** (not the **Voice of the Customer for Microsoft Dynamics 365** solution that you were looking at in the previous step). Then select the **Install** button.
+
+    ![View details about your Marketing solution](media/admin-voc-solutions5.png "View details about your Marketing solution")
+
+1. Follow the instructions on your screen and wait for the solution to finish installing.
+
+1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**, and enable syncing of the **Survey (msdyn_survey)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync)
+
+1. Confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
+
+If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
+
+<a name="uci-only-data"></a>
+
+## Why can't I see my [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] results in other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps?
+
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is built to run exclusively on the new Unified Interface for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications. Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface.
+
+[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically shares data with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+
+Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+
+<a name="contact-support"></a>
+
+## How can I contact support if I still need help?
+
+If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Premier channel or MPN partner channel.
+
+For more information about how to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] directly, and how to find forums, FAQs, and other resources, see the following:
+
+- [Contact technical support](../admin/contact-technical-support.md)
+- [Help and additional resources](../admin/help-additional-resources.md)

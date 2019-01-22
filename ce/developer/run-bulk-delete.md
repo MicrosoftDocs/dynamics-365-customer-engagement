@@ -1,32 +1,36 @@
 ---
-title: "Run bulk delete (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Run bulk delete (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Delete data in bulk by submitting an asynchronous bulk delete job via the BulkDeleteRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "running bulk delete, submitting a bulk delete job by using the BulkDeleteRequest message"
-  - "running bulk delete, using query expressions to describe the records to delete"
-  - "using query expressions to describe the records to delete"
-  - "bulk deletion operation entity, running bulk delete"
-  - "BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'"
-  - "running bulk delete, running asynchronously without blocking other activities"
-  - "bulk delete operation records, items returned in"
-  - "submitting a bulk delete job by using the BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'"
-  - "running bulk delete, required privileges"
-  - "running bulk delete, supported entities"
-  - "running bulk delete, bulk deletion operation entity"
+  - running bulk delete, submitting a bulk delete job by using the BulkDeleteRequest message
+  - running bulk delete, using query expressions to describe the records to delete
+  - using query expressions to describe the records to delete
+  - bulk deletion operation entity, running bulk delete
+  - BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'
+  - running bulk delete, running asynchronously without blocking other activities
+  - bulk delete operation records, items returned in
+  - submitting a bulk delete job by using the BulkDeleteRequest message, see 'deleting data in bulk in Microsoft Dynamics CRM'
+  - running bulk delete, required privileges
+  - running bulk delete, supported entities
+  - running bulk delete, bulk deletion operation entity
 ms.assetid: e4ea7edd-d1f2-4fca-bb80-bebf0a910643
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Run bulk delete
 
@@ -36,15 +40,15 @@ To delete data in bulk, you have to submit a bulk delete job by using the <xref:
   
  A bulk delete job is represented by the bulk delete operation entity. The schema name for this entity is `BulkDeleteOperation`. A bulk delete operation record includes the following information:  
   
--   Number of records that the bulk delete job deleted.  
+- Number of records that the bulk delete job deleted.  
   
--   Number of records that the bulk delete job failed to delete.  
+- Number of records that the bulk delete job failed to delete.  
   
--   Whether the bulk delete job is a recurring job or not.  
+- Whether the bulk delete job is a recurring job or not.  
   
--   Start time of the bulk delete job.  
+- Start time of the bulk delete job.  
   
- A bulk delete job only deletes records that are created before the job starts to run.  
+  A bulk delete job only deletes records that are created before the job starts to run.  
   
 > [!NOTE]
 >  If a bulk delete job fails or ends prematurely, any records that were deleted before the failure or ending of the job are not rolled back and remain deleted. The failures of the `BulkDeleteOperation` are stored in the `BulkDeleteFailure` records and can be retrieved by using the          <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> message or the  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message.  
@@ -59,8 +63,8 @@ To delete data in bulk, you have to submit a bulk delete job by using the <xref:
   
 ### See also
 
- [Delete Data in Bulk in Dynamics 365](delete-data-bulk.md)   
- [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)    
+ [Delete Data in Bulk in Dynamics 365 for Customer Engagement apps](delete-data-bulk.md)   
+ [Data Management in Dynamics 365 for Customer Engagement apps (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)    
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
  [Recurrence Pattern in Asynchronous Job Execution](recurrence-pattern-asynchronous-job-execution.md)   
  [Sample: Bulk Delete Exported Records](sample-bulk-delete-exported-records.md)   

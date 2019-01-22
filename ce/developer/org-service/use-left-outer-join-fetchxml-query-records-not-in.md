@@ -1,20 +1,24 @@
 ---
-title: "Use a left outer join in FetchXML to query for records &quot;not in&quot; (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use a left outer join in FetchXML to query for records &quot;not in&quot; (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Read how to use a left outer join in FetchXML to perform a query that filters on the join table and build a query to find records “not in” a set"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c4f2e2df-7b9a-4842-ba1e-29c5b59d8fc7
 caps.latest.revision: 11
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use a left outer join in FetchXML to query for records &quot;not in&quot;
 
@@ -22,17 +26,17 @@ manager: "amyla"
 
 You can use a left outer join in FetchXML to perform a query that filters on the join table, such as to find all contacts who did not have any campaign activities in the past two months. Another common use for this type of a query is to find records “not in” a set, such as in these cases:  
   
--   Find all leads that have no tasks  
+- Find all leads that have no tasks  
   
--   Find all accounts that have no contacts  
+- Find all accounts that have no contacts  
   
--   Find all leads that have one or more tasks  
+- Find all leads that have one or more tasks  
   
- A left outer join returns each row that satisfies the join of the first input with the second input. It also returns any rows from the first input that had no matching rows in the second input. The nonmatching rows in the second input are returned as null values.  
+  A left outer join returns each row that satisfies the join of the first input with the second input. It also returns any rows from the first input that had no matching rows in the second input. The nonmatching rows in the second input are returned as null values.  
   
- You can perform a left outer join in FetchXML by using the `entityname` attribute as a condition operator. The `entityname` attribute is valid in conditions, filters, and nested filters.  
+  You can perform a left outer join in FetchXML by using the `entityname` attribute as a condition operator. The `entityname` attribute is valid in conditions, filters, and nested filters.  
   
- You can create a query using a left outer join programmatically and execute the query using the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>, and you can save the query by creating a `SavedQuery` record. You can open a saved query that contains a left outer join in the Advanced Find or Saved Query editors in the web application and execute and view results, but some editor functionality is disabled. Those editors will allow modifications to the query, such as to change the columns returned, but the editor does not support changing the left outer join.  
+  You can create a query using a left outer join programmatically and execute the query using the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>, and you can save the query by creating a `SavedQuery` record. You can open a saved query that contains a left outer join in the Advanced Find or Saved Query editors in the web application and execute and view results, but some editor functionality is disabled. Those editors will allow modifications to the query, such as to change the columns returned, but the editor does not support changing the left outer join.  
   
 ## Example: Find all accounts that have no leads  
  The following shows how to construct the query in FetchXML:  

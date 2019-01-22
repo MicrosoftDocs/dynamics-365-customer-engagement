@@ -1,25 +1,31 @@
 ---
-title: "UII data driven adapters in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "UII data driven adapters in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to use a data-driven adapter to define a way to identify a UI component of a hosted application in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 95a71291-e769-4eb6-b58e-085424ed29c1
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # UII data driven adapters in Unified Service Desk
 Data-driven adapters are used by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters handle only the interaction with the user interface (UI) and don’t contain business processes. This is different than custom adapters, which frequently intermingle with the business processes and the UI interaction code.  
@@ -36,7 +42,7 @@ Data-driven adapters are used by the [!INCLUDE[pn_hosted_application_toolkit_hat
   
 - **JavaDataDrivenAdapter**: A [!INCLUDE[pn_Java](../includes/pn-java.md)] Development Kit (JDK) level 1.7–based data-driven adapter for [!INCLUDE[pn_Java](../includes/pn-java.md)] applications.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)  
   
 ### See also  
  [UII Hosted Application Toolkit (HAT)](../unified-service-desk/uii-hosted-application-toolkit-hat.md)   

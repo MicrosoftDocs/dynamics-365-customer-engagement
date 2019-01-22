@@ -1,13 +1,17 @@
 ---
-title: "isOnPremise (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "isOnPremise (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 855767c5-c48f-47a2-8f99-52423221d974
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # isOnPremise (Client API reference)
 

@@ -1,27 +1,30 @@
 ---
-title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in PowerApps | MicrosoftDocs"
+title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create one-to-many or many-to-one relationships"
-ms.custom: ""
-ms.date: 04/03/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 52c00707-b2bc-4950-abec-89baefd94f6e
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create 1:N (one-to-many) or N:1 (many-to-one) relationships
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_CreateEditN1Relationships"></a>   
 
@@ -130,15 +133,15 @@ tags:
   
  Let’s say that you have a new salesperson and you want to assign them a number of existing opportunities currently assigned to another salesperson. Each opportunity record may have a number of task activities associated with it. You can easily locate the active opportunities you want to reassign and assign them to the new salesperson. But what should happen for any of the task activities that are associated with the opportunities? Do you want to open each task and decide whether they should also be assigned to the new salesperson? Probably not. Instead, you can let the relationship apply some standard rules for you automatically. These rules only apply to task records associated to the opportunities you are reassigning. The entity relationship is named **Opportunity_Tasks**. Your options are:  
   
--   Reassign all active tasks.  
+- Reassign all active tasks.  
   
--   Reassign all tasks. This is the default behavior.  
+- Reassign all tasks. This is the default behavior.  
   
--   Reassign none of the tasks.  
+- Reassign none of the tasks.  
   
--   Reassign all tasks currently assigned to the former owner of the opportunity.  
+- Reassign all tasks currently assigned to the former owner of the opportunity.  
   
- The relationship can control how actions performed on a record for the primary entity record cascade down to any related entity records. The actions and possible behaviors are shown in the following table.  
+  The relationship can control how actions performed on a record for the primary entity record cascade down to any related entity records. The actions and possible behaviors are shown in the following table.  
   
 |Action|Description|Possible behaviors|  
 |------------|-----------------|------------------------|  

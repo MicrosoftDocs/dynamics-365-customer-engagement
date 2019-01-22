@@ -1,13 +1,17 @@
 ---
-title: "addOption (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "addOption (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9798f168-7b94-411d-9aed-6471042ff11a
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # addOption (Client API reference)
 

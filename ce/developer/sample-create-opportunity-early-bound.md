@@ -1,23 +1,27 @@
 ---
-title: "Sample: Create an opportunity (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create an opportunity (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create an opportunity that contains a product from the product catalog."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating opportunities from products in the catalog, Sample"
-  - "sample for creating opportunities from products in the catalog"
+  - creating opportunities from products in the catalog, Sample
+  - sample for creating opportunities from products in the catalog
 ms.assetid: 005993c4-468b-4b55-a555-833b4ead0d43
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create an opportunity (early bound)
 

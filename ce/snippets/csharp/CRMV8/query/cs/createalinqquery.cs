@@ -158,7 +158,7 @@ namespace Microsoft.Crm.Sdk.Samples
      // Return contacts where the city equals Redmond AND the first
      // name is Joe OR John.
      var queryContacts = from c in svcContext.ContactSet
-                         where (c.Address1_City == "Redmond") &amp;&amp;
+                         where (c.Address1_City == "Redmond") &&
                                (c.FirstName.Equals("Joe") ||
                                 c.FirstName.Equals("John"))
                          select new Contact

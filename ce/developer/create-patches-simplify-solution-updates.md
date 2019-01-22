@@ -1,20 +1,24 @@
 ---
-title: "Create patches to simplify solution updates (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Create patches to simplify solution updates (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Patches help you manage entities and all of its related assets when you add an entity to a solution and export that solution"
-ms.custom: ""
-ms.date: 02/20/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 09/17/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 12672159-03b1-4f18-8d8c-cf4aaf366deb
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: shmcarth
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create patches to simplify solution updates
 
@@ -22,38 +26,40 @@ manager: "amyla"
 
 If you add an entity to a solution and export the solution, the entity and all of its related assets are exported in that solution. These assets include attributes, forms, views, relationships, and visualizations, and any other assets that are packaged with the entity. Exporting all objects means that you can unintentionally modify objects on the target deployment, or carry over unintended dependencies.  
   
- To address this, you can create and publish solution patches that contain subcomponents of entities rather than publishing the entire entity and all of its assets.  The original solution and one or more related patches can be rolled up (merged) at a later time into an updated version of the solution, which then can replace the original solution in the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organization.  
+ To address this, you can create and publish solution patches that contain subcomponents of entities rather than publishing the entire entity and all of its assets.  The original solution and one or more related patches can be rolled up (merged) at a later time into an updated version of the solution, which then can replace the original solution in the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization.  
   
 ## Patches  
  You can apply patches to either managed or unmanaged solutions and include only changes to entities and related entity assets. Patches do not contain any non-customized system components or relationships that it dependents upon because these components already exist in the deployed-to organization. At some point in your development cycle, you can roll up all the patches into a new solution version to replace the original solution that the patches were created from.  
   
- Patches are stored in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database as `Solution` entity records. A non-null `ParentSolutionId` attribute indicates that the solution is a patch. Patches can be created and managed through the Organization Service or Web APIs, which are useful for developing automation such as a product install script. However, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application provides various web forms that enable you to interactively create and manage patches.  
+ Patches are stored in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps database as `Solution` entity records. A non-null `ParentSolutionId` attribute indicates that the solution is a patch. Patches can be created and managed through the Organization Service or Web APIs, which are useful for developing automation such as a product install script. However, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application provides various web forms that enable you to interactively create and manage patches.  
   
--   Patches can only be created from a parent solution using <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> or <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />.  
+- Patches can only be created from a parent solution using <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> or <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />.  
   
--   The patch parent can’t be a patch.  
+- The patch parent can’t be a patch.  
   
--   Patches can only have one parent solution.  
+- Patches can only have one parent solution.  
   
--   A patch creates a dependency (at the solution level) on its parent solution.  
+- A patch creates a dependency (at the solution level) on its parent solution.  
   
--   You can only install a patch if the parent solution is present.  
+- You can only install a patch if the parent solution is present.  
   
--   You can’t install a patch unless the unique name and major/minor version number of the parent solution, as identified by `ParentSolutionId`, do not match those of the parent solution installed in the target organization.  
+- You can’t install a patch unless the unique name and major/minor version number of the parent solution, as identified by `ParentSolutionId`, match those of the parent solution installed in the target organization.  
   
--   A patch version must have the same major and minor number, but a higher build and release number, than the parent solution version number. The display name can be different.  
+- A patch version must have the same major and minor number, but a higher build and release number, than the parent solution version number. The display name can be different.  
   
--   If a solution has patches, subsequent patches must have a numerically higher version number than any existing patch for that solution.  
+- If a solution has patches, subsequent patches must have a numerically higher version number than any existing patch for that solution.  
   
--   Patches support the same operations as solutions, such as additive update, but not removal. You cannot remove components from a solution using a patch. To remove components from a solution perform an upgrade.  
+- Patches support the same operations as solutions, such as additive update, but not removal. You cannot remove components from a solution using a patch. To remove components from a solution perform an upgrade.  
   
--   Patches exported as managed must be imported on top of a managed parent solution. The rule is that patch protection (managed or unmanaged) must match its parent.  
+- Patches exported as managed must be imported on top of a managed parent solution. The rule is that patch protection (managed or unmanaged) must match its parent.  
   
--   Don’t use unmanaged patches for production purposes.  
+- Don’t use unmanaged patches for production purposes.  
   
--   Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations of version 8.0 or later.  
+- Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps organization of version 8.0 or later.  
+
+- When a patch is installed, it is installed just above the base solution it is patching and below any solutions on top. This means any solutions on top will override the settings in the patch for the same component type.
   
- The SolutionPackager and PackageDeployer tools in this release support solution patches. Refer to the tool's online help for any command-line options that are related to patches.  
+  The SolutionPackager and PackageDeployer tools in this release support solution patches. Refer to the tool's online help for any command-line options that are related to patches.  
   
 ## Create a patch  
  Create a patch from an unmanaged solution in an organization by using the <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> message or the <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />, or by using the web application. Once you create the patch, the original solution becomes locked and you can’t change or export it as long as there are dependent patches that exist in the organization that identify the solution as the parent solution. Patch versioning is similar to solution versioning and specified in the following format: *major.minor.build.release*. You can’t make changes to the existing major or minor solution versions when you create a patch.  

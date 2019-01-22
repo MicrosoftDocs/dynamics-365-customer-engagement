@@ -1,19 +1,25 @@
 ---
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
-keywords: "social profile, tokens, shared profile"
-ms.date: 02/27/2018
+keywords: social profile, tokens, shared profile
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage social profiles
@@ -25,9 +31,9 @@ To [publish or react to posts](publish-react-posts.md), you need active social p
 Data acquisition and acquisition of private messages from your social profiles require [access tokens](manage-access-tokens.md), and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are published on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 > [!IMPORTANT]
->  -   All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an [interaction role](user-roles.md) of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
->  -   A social profile can have multiple owners. Every owner has the same level of access privileges to the social profile. 
->  -   Make sure you have the correct credentials before you attempt to add a social profile or [claim ownership](#claim-ownership-of-a-social-profile) for an existing profile.  
+> - All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an [interaction role](user-roles.md) of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+> - A social profile can have multiple owners. Every owner has the same level of access privileges to the social profile. 
+> - Make sure you have the correct credentials before you attempt to add a social profile or [claim ownership](#claim-ownership-of-a-social-profile) for an existing profile.  
 
 ## Types of social profiles you can manage
 
@@ -35,21 +41,20 @@ Data acquisition and acquisition of private messages from your social profiles r
 
 Currently, you can add the following social profiles: 
 
-- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] user**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] Acquisition**: This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
 
-- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user profile.
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
 
-- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the Page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
+- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Profile**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users to create search rules that gather these direct messages. 
 
-- **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Profile**: Share posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user**: Share posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Page**: Reply to and like posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page. At least one active social profile for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages is required to gather data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page**: Reply to and like posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page. At least one active social profile for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages is required to gather data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
+- **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] Profile**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
 
-- **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
+With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.
 
-With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.    
 To learn more about social profiles for data acquisition, see [Manage access tokens](manage-access-tokens.md).
 
 ## Ownership status of social profiles
@@ -72,7 +77,7 @@ Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 > [!TIP]
 >  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog boxes load properly. If it doesn't, you won’t be able to add or reauthorize social profiles.  
 
-### Add a social profile to Social Engagement
+### Add a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Before you can work with a social profile, or use its token for data acquisition, the owner of a social profile needs to add it to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
@@ -87,6 +92,7 @@ Before you can work with a social profile, or use its token for data acquisition
    When you add a social profile for a page you administer, a list will show with all the pages that you can add. Find the pages you want to add, select the **Add** symbol (![Add button](media/add-icon.png "Add button")) and select **Save** to confirm your selection. 
   
 You can now reply and like on behalf of the organization page, but you can’t write new posts.  
+
 Optionally, you can share this social profile with other users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Share a social profile with other users
@@ -132,12 +138,12 @@ You can delete a social profile that you own. You can also delete a social profi
 
 4. Click **Confirm** to delete the profile.
 
-> [!NOTE]  
+> [!NOTE]
 > If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
   
 ## Claim ownership of a social profile  
 
-If you know the credentials to a social profile, you can claim ownership for it. It's handy, for example, when the original owner of a shared profile is removed from the organization and someone else will take ownership for it. Once you successfully claimed ownership, you can start managing the social profile. 
+If you know the credentials to a social profile, you can claim ownership for it. It's handy, for example, when the original owner of a shared profile is removed from the organization and someone else will take ownership of it. Once you successfully claim ownership, you can start managing the social profile. 
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -152,7 +158,7 @@ If you know the credentials to a social profile, you can claim ownership for it.
 
 ## Acquisition token status of social profiles
 
-- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
+- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)], and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   
 - **Profiles for private messages acquisition**: You can acquire private messages from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] accounts if you have at least one valid access token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   

@@ -1,30 +1,34 @@
 ---
-title: "Disaster recovery (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Disaster recovery (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Online feature to recover from a planned or unplanned service interruption."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/20/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a4b17ddb-c0a8-433d-a428-858b495e6734
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Disaster recovery in Customer Engagement (online)
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to recover from a planned or unplanned service interruption. An example of a planned service interruption is regular and periodic datacenter system maintenance. An example of an unplanned service interruption is a failure of a key computer system or network component in a data center. For either case, you temporarily lose access to your organization's data and the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] services.  
+Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to recover from a planned or unplanned service interruption. An example of a planned service interruption is regular and periodic datacenter system maintenance. An example of an unplanned service interruption is a failure of a key computer system or network component in a data center. For either case, you temporarily lose access to your organization's data and the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] services.  
   
  Planned service interruptions are preceded by a public notice in the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] identifying the date and time of the service maintenance so that businesses can plan for the interruption in accessing their organization's data. Unplanned service interruptions result in a notice that the organization is currently undergoing unplanned maintenance.  
   
- When a failure or a disaster occurs, well-defined processes are applied by the administrators of the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data center to recover from a service interruption. The processes and software to recover from these service interruptions is known as *disaster recovery failover*. Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] datacenter maintains a duplicate and synchronized (alternate) copy of your organization's data on a different server. Should a disaster occur in the data center where you no longer have access to your data, the administrators monitoring the datacenter can switch access from your primary organization to this alternate organization, thereby minimizing the service interruption. When the failure has been corrected, service access to your primary organization can be restored.  
+ When a failure or a disaster occurs, well-defined processes are applied by the administrators of the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data center to recover from a service interruption. The processes and software to recover from these service interruptions is known as *disaster recovery failover*. Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]apps datacenter maintains a duplicate and synchronized (alternate) copy of your organization's data on a different server. Should a disaster occur in the data center where you no longer have access to your data, the administrators monitoring the datacenter can switch access from your primary organization to this alternate organization, thereby minimizing the service interruption. When the failure has been corrected, service access to your primary organization can be restored.  
   
  This recovery happens in the datacenter and is handled transparently to you and your .NET managed applications. However, there is one issue that application developers must deal with: data loss. When the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] services encounter a failure, data change operations that your application performs using web service calls may not complete successfully. This can result in data loss. The following sections in this topic describe how you can write your applications to deal with data loss issues.  
   
@@ -36,27 +40,27 @@ Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-on
   
 #### Typical application logic flow for a disaster event and failover  
   
-1.  A disaster event occurs in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] datacenter.  
+1. A disaster event occurs in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] datacenter.  
   
-2.  Your application makes a service call through a service proxy class object: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>.  
+2. Your application makes a service call through a service proxy class object: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>.  
   
-3.  The service proxy class object receives an exception after attempting the service call.  
+3. The service proxy class object receives an exception after attempting the service call.  
   
-4.  If the target organization of the call is not enabled for failover, go to step 9.  
+4. If the target organization of the call is not enabled for failover, go to step 9.  
   
-5.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> event is thrown.  
+5. The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> event is thrown.  
   
-6.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> event is thrown.  
+6. The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> event is thrown.  
   
-7.  The service proxy class object automatically tries the call again.  
+7. The service proxy class object automatically tries the call again.  
   
-8.  If the second call was successful, the application continues normally.  
+8. If the second call was successful, the application continues normally.  
   
 9. If the call was not successful, an exception is returned to the application: `EndpointNotFoundException`, `TimeoutException`, `FaultException<OrganizationServiceFault>` where `fault.Detail.ErrorCode` == -2147176347.  
   
- You may want to implement code that checks for potential data loss after endpoint switch events are received and handle it appropriately.  
+   You may want to implement code that checks for potential data loss after endpoint switch events are received and handle it appropriately.  
   
- After the disaster affecting the primary organization endpoint has been corrected in the datacenter, a fail back from the alternate endpoint URL to the primary endpoint URL for the organization occurs as part of planned organization maintenance.  
+   After the disaster affecting the primary organization endpoint has been corrected in the datacenter, a fail back from the alternate endpoint URL to the primary endpoint URL for the organization occurs as part of planned organization maintenance.  
   
 <a name="develop_fail"></a>   
 

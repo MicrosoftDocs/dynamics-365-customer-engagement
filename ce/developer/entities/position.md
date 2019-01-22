@@ -1,15 +1,19 @@
 ---
-title: "Position Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Position Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Position entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Position Entity Reference
 
@@ -593,6 +597,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_position_AsyncOperations"></a> position_AsyncOperations
 
 Same as asyncoperation entity [position_AsyncOperations](asyncoperation.md#BKMK_position_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -607,6 +612,7 @@ Same as asyncoperation entity [position_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_position_ProcessSession"></a> position_ProcessSession
 
 Same as processsession entity [position_ProcessSession](processsession.md#BKMK_position_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -621,6 +627,7 @@ Same as processsession entity [position_ProcessSession](processsession.md#BKMK_p
 ### <a name="BKMK_position_users"></a> position_users
 
 Same as systemuser entity [position_users](systemuser.md#BKMK_position_users) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -635,6 +642,7 @@ Same as systemuser entity [position_users](systemuser.md#BKMK_position_users) Ma
 ### <a name="BKMK_position_parent_position"></a> position_parent_position
 
 Same as position entity [position_parent_position](position.md#BKMK_position_parent_position) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|position|
@@ -649,6 +657,7 @@ Same as position entity [position_parent_position](position.md#BKMK_position_par
 ### <a name="BKMK_Position_SyncErrors"></a> Position_SyncErrors
 
 Same as syncerror entity [Position_SyncErrors](syncerror.md#BKMK_Position_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -663,6 +672,7 @@ Same as syncerror entity [Position_SyncErrors](syncerror.md#BKMK_Position_SyncEr
 ### <a name="BKMK_position_connection2"></a> position_connection2
 
 Same as connection entity [position_connection2](connection.md#BKMK_position_connection2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -677,6 +687,7 @@ Same as connection entity [position_connection2](connection.md#BKMK_position_con
 ### <a name="BKMK_position_principalobjectattributeaccess"></a> position_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [position_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_position_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -691,6 +702,7 @@ Same as principalobjectattributeaccess entity [position_principalobjectattribute
 ### <a name="BKMK_position_connection1"></a> position_connection1
 
 Same as connection entity [position_connection1](connection.md#BKMK_position_connection1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -747,6 +759,6 @@ See transactioncurrency Entity [transactioncurrency_position](transactioncurrenc
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.position?text=position EntityType" />

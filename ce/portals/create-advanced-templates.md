@@ -1,9 +1,9 @@
 ---
-title: "Create advanced templates for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Create advanced templates for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create advance templates for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: d8612e02-5610-443c-ad8d-3c49b251543b
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Create advanced templates for portals
 Learn how to create advanced templates using these examples:

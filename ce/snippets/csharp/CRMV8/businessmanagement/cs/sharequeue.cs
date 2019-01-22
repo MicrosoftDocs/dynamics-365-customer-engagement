@@ -229,7 +229,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     retrieveTeamPrivilegesRequest);
 
                 if (retrieveTeamPrivilegesResponse.RolePrivileges.Any(
-                    rp => rp.PrivilegeId == rolePrivileges[0].PrivilegeId) &amp;&amp;
+                    rp => rp.PrivilegeId == rolePrivileges[0].PrivilegeId) &&
                     retrieveTeamPrivilegesResponse.RolePrivileges.Any(
                     rp => rp.PrivilegeId == rolePrivileges[1].PrivilegeId))
                 {

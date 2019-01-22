@@ -1,20 +1,24 @@
 ---
-title: "Entitlement entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Entitlement entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about entitlement entities that allow you to set a default entitlement for a customer and control entitlement terms for incidents."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 30023495-fc7e-4b42-aa61-29d43647606a
 caps.latest.revision: 20
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Entitlement entities
 
@@ -36,11 +40,11 @@ Entitlements specify the support term based on number of hours or number of case
   
      If you accidentally prevented the entitlement terms to be decremented for a case, you can revert it as follows:  
   
-    -   If the associated entitlement is configured to have its remaining term decremented on case creation, setting the `Incident.DecrementEntitlementTerm` attribute back to 1 (true) won’t decrement the entitlement term automatically. You have to explicitly decrement from the remaining terms of the associated entitlement using workflow or programmatically.  
+  - If the associated entitlement is configured to have its remaining term decremented on case creation, setting the `Incident.DecrementEntitlementTerm` attribute back to 1 (true) won’t decrement the entitlement term automatically. You have to explicitly decrement from the remaining terms of the associated entitlement using workflow or programmatically.  
   
-    -   If the associated entitlement is configured to have its remaining term decremented on case resolution, set the `Incident.DecrementEntitlementTerm` back to 1 (true). This ensures that the entitlement terms get decremented when the case is resolved.  
+  - If the associated entitlement is configured to have its remaining term decremented on case resolution, set the `Incident.DecrementEntitlementTerm` back to 1 (true). This ensures that the entitlement terms get decremented when the case is resolved.  
   
-     To set the `Incident.DecrementEntitlementTerm` attribute for an incident record, you must have the privileges on the incident record, and have the new `prvControlDecrementTerm` privilege. By default, the `prvControlDecrementTerm` privilege is available to only System Administrator and CSR Manager roles.  
+    To set the `Incident.DecrementEntitlementTerm` attribute for an incident record, you must have the privileges on the incident record, and have the new `prvControlDecrementTerm` privilege. By default, the `prvControlDecrementTerm` privilege is available to only System Administrator and CSR Manager roles.  
   
 ## In This Section  
  [Entitlement Entity](entities/entitlement.md)  

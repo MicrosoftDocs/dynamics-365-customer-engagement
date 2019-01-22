@@ -1,20 +1,24 @@
 ---
-title: "Use XRM tooling to create data (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Use CrmServiceClient class to create data on Dynamics 365"
-ms.custom: ""
+title: "Use XRM tooling to create data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Use CrmServiceClient class to create data on Dynamics 365 for Customer Engagement"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f6a03552-1f07-4d4b-b7ae-fa246a0d7c29
 caps.latest.revision: 14
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use XRM tooling to create data
 
@@ -24,7 +28,7 @@ There are seven methods available in the <xref:Microsoft.Xrm.Tooling.Connector.C
   
 ## CreateNewRecord  
 
- This method is used to create any type of entity data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. To use it, you need to know the schema name of the entity you want to create a record in, and must construct a data payload to pass to it. This example creates an account record.  
+ This method is used to create any type of entity data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. To use it, you need to know the schema name of the entity you want to create a record in, and must construct a data payload to pass to it. This example creates an account record.  
   
 ```csharp 
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>",“<Domain>”),"<Server>", "<Port>", "<OrgName>");  
@@ -105,4 +109,4 @@ else
 ### See also  
 
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)

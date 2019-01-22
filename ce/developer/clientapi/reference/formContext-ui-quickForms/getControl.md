@@ -1,13 +1,17 @@
 ---
-title: "getControl (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getControl (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 57eb6b4b-90c1-4d56-b4b0-a7160af17f8f
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getControl (Client API reference)
 
@@ -38,10 +42,10 @@ After you have retrieved a constituent control in a quick view control, you can 
 
 For more information about methods supported for a control, see [Controls](../controls.md).
 
->[!IMPORTANT]
->The [getAttribute](../controls/getAttribute.md) or any data related methods on a constituent control might not work on the main form [OnLoad](../events/form-onload.md) event because the quick view form that its bound to might not have loaded completely when the main form has loaded. You must use the [isLoaded](isLoaded.md) method for the quick view control instance to help you determine if the bounded quick view form has loaded completely. 
-
->Also, the way you retrieve constituent controls in a quick view control on forms using the new form rendering engine is different from the legacy forms. So, if you are using legacy forms and have code targeting constituent controls in a quick view control, you must update your code when you decide to use the new form rendering engine.
+> [!IMPORTANT]
+> The [getAttribute](../controls/getAttribute.md) or any data related methods on a constituent control might not work on the main form [OnLoad](../events/form-onload.md) event because the quick view form that its bound to might not have loaded completely when the main form has loaded. You must use the [isLoaded](isLoaded.md) method for the quick view control instance to help you determine if the bounded quick view form has loaded completely. 
+> 
+> Also, the way you retrieve constituent controls in a quick view control on forms using the new form rendering engine is different from the legacy forms. So, if you are using legacy forms and have code targeting constituent controls in a quick view control, you must update your code when you decide to use the new form rendering engine.
 
 ### Related topics
 

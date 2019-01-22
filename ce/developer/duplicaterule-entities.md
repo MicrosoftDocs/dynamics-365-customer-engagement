@@ -1,19 +1,23 @@
 ---
-title: "Duplicate rule entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Duplicate rule entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "These entities contain data that define duplicate detection rules."
-ms.custom: ""
+ms.custom: 
 ms.date: 11/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 332cef23-adaa-4975-96a7-3128dce359e4
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Duplicate Rule entities
 
@@ -57,7 +61,7 @@ Most system entities and all custom entities have two `StateCode` attribute opti
 The label of the option may be changed, but the `InvariantName` value will not.
 
 Some system entities will have more than one active or inactive state.The following table lists examples of entities with more than one active or inactive state.
-  
+
 |Entity StateCode |Active State(s)|Inactive State(s)|  
 |--|--|--|  
 |[Appointment.StateCode](entities/appointment.md#BKMK_StateCode)|`Open`, `Scheduled`|`Completed`, `Canceled`|  
@@ -78,7 +82,7 @@ Some system entities will have more than one active or inactive state.The follow
 |[SalesOrder.StateCode](entities/SalesOrder.md#BKMK_StateCode)|`Active`, `Submitted`, `Invoiced`|`Canceled`, `Fulfilled`|  
 |[ServiceAppointment.StateCode](entities/ServiceAppointment.md#BKMK_StateCode)|`Open`, `Scheduled`|`Closed`, `Canceled`|  
 |[Task.StateCode](entities/Task.md#BKMK_StateCode)|`Open`|`Completed`, `Canceled`|  
-  
+
  For example, if you set the `ExcludeInactiveRecords` attribute to `true`, only `Active`, `Submitted`, and `Invoiced` sales orders will be considered for matching during duplicate detection. 
 
 
@@ -128,15 +132,13 @@ The following special messages can also be used:
 
 
 ### See also
-<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=duplicaterule EntityType" />   
-<xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=duplicaterulecondition EntityType" />   
-[Detect duplicate data](detect-duplicate-data-for-developers.md)<br />
-[Enable and disable duplicate detection](enable-disable-duplicate-detection.md)<br />
-[Run duplicate detection](run-duplicate-detection.md)<br />
-[Duplicate detection messages](duplicate-detection-messages.md)<br />
-[Sample: Enable duplicate detection and retrieve duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
-[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
-[Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)<br />
+<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=duplicaterule EntityType" /><br/><xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=duplicaterulecondition EntityType" /><br/><a href="detect-duplicate-data-for-developers.md" data-raw-source="[Detect duplicate data](detect-duplicate-data-for-developers.md)">Detect duplicate data</a><br />
+<a href="enable-disable-duplicate-detection.md" data-raw-source="[Enable and disable duplicate detection](enable-disable-duplicate-detection.md)">Enable and disable duplicate detection</a><br />
+<a href="run-duplicate-detection.md" data-raw-source="[Run duplicate detection](run-duplicate-detection.md)">Run duplicate detection</a><br />
+<a href="duplicate-detection-messages.md" data-raw-source="[Duplicate detection messages](duplicate-detection-messages.md)">Duplicate detection messages</a><br />
+<a href="org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md" data-raw-source="[Sample: Enable duplicate detection and retrieve duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)">Sample: Enable duplicate detection and retrieve duplicates</a><br />
+<a href="org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md" data-raw-source="[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)">Sample: Use duplicate detection when creating and updating records</a><br />
+<a href="org-service/sample-detect-multiple-duplicate-records.md" data-raw-source="[Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)">Sample: Detect multiple duplicate records</a><br />
 
 
 

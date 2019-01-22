@@ -1,43 +1,46 @@
 ---
-title: "Create custom business logic through processes with PowerApps | MicrosoftDocs"
+title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the different types of business logic you can use in your app"
-ms.custom: ""
-ms.date: 05/01/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0b4e6602-5701-4859-81cc-6f6fe50901b2
 caps.latest.revision: 44
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create custom business logic through processes
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Defining and enforcing consistent business processes is one of the main reasons people use model-driven apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
+Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 for Customer Engagement apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
   
-[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] includes five  types of processes, each designed for a different purpose:  
+Dynamics 365 for Customer Engagement apps includes five  types of processes, each designed for a different purpose:  
   
--   Business process flows  
+- Business process flows  
   
--   Mobile task flows  
+- Mobile task flows  
   
--   Workflows  
+- Workflows  
   
--   Actions  
+- Actions  
   
- Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
+  Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
 
-> [!NOTE]
->  Using processes can impact the license requirements for PowerApps and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses). 
+<!-- >> [!NOTE]
+>  Using processes can impact the license requirements for Dynamics 365 for Customer Engagement for Customer Engagement and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses).  -->
 
 
 <a name="BKMK_BP"></a>   
@@ -73,11 +76,11 @@ Defining and enforcing consistent business processes is one of the main reasons 
 ## Where do I go to create processes?  
  There are two paths to navigate to processes:  
   
-- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
+- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
   
 - In solution explorer. **Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
   
- Individual business process flows can also be edited using the **Edit Process** button in the command bar for the form where the business process flow is active.  
+  Individual business process flows can also be edited using the **Edit Process** button in the command bar for the form where the business process flow is active.  
   
 <a name="BKMK_WhoCreate"></a>   
 ## Who can create processes?  
@@ -127,7 +130,7 @@ Defining and enforcing consistent business processes is one of the main reasons 
 |**Stop Workflow**|Workflow, Action|Stops the current workflow or action. You can set a status of either **Succeeded** or **Canceled** and specify a status message.|  
 |**Custom Step**|Workflow, Action|Provides extensions to the logical elements available by default. Steps can include conditions, actions, other steps, or a combination of these elements. Developers can create custom workflow steps. By default, there are no custom steps available.|
 
-For more information for developers, see the Developer Guide topic [Automate your business processes in Customer Engagement](../developer/automate-business-processes-customer-engagement.md).
+For more information for developers, see the Developer Guide topic [Automate your business processes in Customer Engagement apps](../developer/automate-business-processes-customer-engagement.md).
   
 ### See also  
  [Business process flows overview](../customize/business-process-flows-overview.md)   

@@ -1,15 +1,19 @@
 ---
-title: "msdyn_projecttaskdependency Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_projecttaskdependency Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_projecttaskdependency entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_projecttaskdependency Entity Reference
 
@@ -110,7 +114,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the  "Finish to Start" type of dependency.|
+|Description|Select the  "Finish to Start" type of dependency.|
 |DisplayName|Link Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -702,6 +706,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projecttaskdependency_SyncErrors"></a> msdyn_projecttaskdependency_SyncErrors
 
 Same as syncerror entity [msdyn_projecttaskdependency_SyncErrors](syncerror.md#BKMK_msdyn_projecttaskdependency_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -716,6 +721,7 @@ Same as syncerror entity [msdyn_projecttaskdependency_SyncErrors](syncerror.md#B
 ### <a name="BKMK_msdyn_projecttaskdependency_DuplicateMatchingRecord"></a> msdyn_projecttaskdependency_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projecttaskdependency_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -730,6 +736,7 @@ Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateMatchingRec
 ### <a name="BKMK_msdyn_projecttaskdependency_DuplicateBaseRecord"></a> msdyn_projecttaskdependency_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projecttaskdependency_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -744,6 +751,7 @@ Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateBaseRecord]
 ### <a name="BKMK_msdyn_projecttaskdependency_AsyncOperations"></a> msdyn_projecttaskdependency_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projecttaskdependency_AsyncOperations](asyncoperation.md#BKMK_msdyn_projecttaskdependency_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -758,6 +766,7 @@ Same as asyncoperation entity [msdyn_projecttaskdependency_AsyncOperations](asyn
 ### <a name="BKMK_msdyn_projecttaskdependency_MailboxTrackingFolders"></a> msdyn_projecttaskdependency_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projecttaskdependency_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projecttaskdependency_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -772,6 +781,7 @@ Same as mailboxtrackingfolder entity [msdyn_projecttaskdependency_MailboxTrackin
 ### <a name="BKMK_msdyn_projecttaskdependency_UserEntityInstanceDatas"></a> msdyn_projecttaskdependency_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projecttaskdependency_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projecttaskdependency_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -786,6 +796,7 @@ Same as userentityinstancedata entity [msdyn_projecttaskdependency_UserEntityIns
 ### <a name="BKMK_msdyn_projecttaskdependency_ProcessSession"></a> msdyn_projecttaskdependency_ProcessSession
 
 Same as processsession entity [msdyn_projecttaskdependency_ProcessSession](processsession.md#BKMK_msdyn_projecttaskdependency_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -800,6 +811,7 @@ Same as processsession entity [msdyn_projecttaskdependency_ProcessSession](proce
 ### <a name="BKMK_msdyn_projecttaskdependency_BulkDeleteFailures"></a> msdyn_projecttaskdependency_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projecttaskdependency_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projecttaskdependency_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -814,6 +826,7 @@ Same as bulkdeletefailure entity [msdyn_projecttaskdependency_BulkDeleteFailures
 ### <a name="BKMK_msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses"></a> msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -828,6 +841,7 @@ Same as principalobjectattributeaccess entity [msdyn_projecttaskdependency_Princ
 ### <a name="BKMK_msdyn_projecttaskdependency_Annotations"></a> msdyn_projecttaskdependency_Annotations
 
 Same as annotation entity [msdyn_projecttaskdependency_Annotations](annotation.md#BKMK_msdyn_projecttaskdependency_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -899,6 +913,6 @@ See msdyn_projecttask Entity [msdyn_msdyn_projecttask_msdyn_projecttaskdependenc
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_projecttaskdependency?text=msdyn_projecttaskdependency EntityType" />

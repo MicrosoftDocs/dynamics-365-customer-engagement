@@ -1,15 +1,19 @@
 ---
-title: "BookableResourceGroup Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BookableResourceGroup Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BookableResourceGroup entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # BookableResourceGroup Entity Reference
 
@@ -726,6 +730,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BookableResourceGroup_SyncErrors"></a> BookableResourceGroup_SyncErrors
 
 Same as syncerror entity [BookableResourceGroup_SyncErrors](syncerror.md#BKMK_BookableResourceGroup_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -740,6 +745,7 @@ Same as syncerror entity [BookableResourceGroup_SyncErrors](syncerror.md#BKMK_Bo
 ### <a name="BKMK_bookableresourcegroup_DuplicateMatchingRecord"></a> bookableresourcegroup_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [bookableresourcegroup_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcegroup_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -754,6 +760,7 @@ Same as duplicaterecord entity [bookableresourcegroup_DuplicateMatchingRecord](d
 ### <a name="BKMK_bookableresourcegroup_DuplicateBaseRecord"></a> bookableresourcegroup_DuplicateBaseRecord
 
 Same as duplicaterecord entity [bookableresourcegroup_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcegroup_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -768,6 +775,7 @@ Same as duplicaterecord entity [bookableresourcegroup_DuplicateBaseRecord](dupli
 ### <a name="BKMK_bookableresourcegroup_AsyncOperations"></a> bookableresourcegroup_AsyncOperations
 
 Same as asyncoperation entity [bookableresourcegroup_AsyncOperations](asyncoperation.md#BKMK_bookableresourcegroup_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -782,6 +790,7 @@ Same as asyncoperation entity [bookableresourcegroup_AsyncOperations](asyncopera
 ### <a name="BKMK_bookableresourcegroup_MailboxTrackingFolders"></a> bookableresourcegroup_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bookableresourcegroup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcegroup_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -796,6 +805,7 @@ Same as mailboxtrackingfolder entity [bookableresourcegroup_MailboxTrackingFolde
 ### <a name="BKMK_bookableresourcegroup_UserEntityInstanceDatas"></a> bookableresourcegroup_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [bookableresourcegroup_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresourcegroup_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -810,6 +820,7 @@ Same as userentityinstancedata entity [bookableresourcegroup_UserEntityInstanceD
 ### <a name="BKMK_bookableresourcegroup_ProcessSession"></a> bookableresourcegroup_ProcessSession
 
 Same as processsession entity [bookableresourcegroup_ProcessSession](processsession.md#BKMK_bookableresourcegroup_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -824,6 +835,7 @@ Same as processsession entity [bookableresourcegroup_ProcessSession](processsess
 ### <a name="BKMK_bookableresourcegroup_BulkDeleteFailures"></a> bookableresourcegroup_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [bookableresourcegroup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcegroup_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -838,6 +850,7 @@ Same as bulkdeletefailure entity [bookableresourcegroup_BulkDeleteFailures](bulk
 ### <a name="BKMK_bookableresourcegroup_PrincipalObjectAttributeAccess"></a> bookableresourcegroup_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [bookableresourcegroup_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcegroup_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -852,6 +865,7 @@ Same as principalobjectattributeaccess entity [bookableresourcegroup_PrincipalOb
 ### <a name="BKMK_bookableresourcegroup_Annotations"></a> bookableresourcegroup_Annotations
 
 Same as annotation entity [bookableresourcegroup_Annotations](annotation.md#BKMK_bookableresourcegroup_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -923,6 +937,6 @@ See transactioncurrency Entity [TransactionCurrency_bookableresourcegroup](trans
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bookableresourcegroup?text=bookableresourcegroup EntityType" />

@@ -76,7 +76,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.Write("Press [Enter] to retrieve a message from the message buffer (type quit to exit): ");
                 string line = Console.ReadLine();
 
-                if (!string.IsNullOrEmpty(line) &amp;&amp; string.Equals(line, "quit", StringComparison.OrdinalIgnoreCase))
+                if (!string.IsNullOrEmpty(line) && string.Equals(line, "quit", StringComparison.OrdinalIgnoreCase))
                 {
                     break;
                 }
@@ -215,7 +215,7 @@ namespace Microsoft.Crm.Sdk.Samples
             StringBuilder sb = new StringBuilder();
             foreach (KeyValuePair<string, object> parameter in parameterCollection)
             {
-                if (parameter.Value != null &amp;&amp; parameter.Value.GetType() == typeof(Entity))
+                if (parameter.Value != null && parameter.Value.GetType() == typeof(Entity))
                 {
                     Entity e = (Entity)parameter.Value;
                     sb.Append(parameter.Key + ": " + SerializeEntity(e));

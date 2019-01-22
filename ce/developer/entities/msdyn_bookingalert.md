@@ -1,15 +1,19 @@
 ---
-title: "msdyn_bookingalert Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bookingalert Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bookingalert entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_bookingalert Entity Reference
 
@@ -1010,7 +1014,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the activity was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the activity was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Date Created|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1195,7 +1199,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the activity was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the activity was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Last Updated|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1534,6 +1538,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_bookingalert_activity_parties"></a> msdyn_bookingalert_activity_parties
 
 Same as activityparty entity [msdyn_bookingalert_activity_parties](activityparty.md#BKMK_msdyn_bookingalert_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1548,6 +1553,7 @@ Same as activityparty entity [msdyn_bookingalert_activity_parties](activityparty
 ### <a name="BKMK_CampaignResponse_msdyn_bookingalerts"></a> CampaignResponse_msdyn_bookingalerts
 
 Same as campaignresponse entity [CampaignResponse_msdyn_bookingalerts](campaignresponse.md#BKMK_CampaignResponse_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1562,6 +1568,7 @@ Same as campaignresponse entity [CampaignResponse_msdyn_bookingalerts](campaignr
 ### <a name="BKMK_msdyn_bookingalert_ActionCards"></a> msdyn_bookingalert_ActionCards
 
 Same as actioncard entity [msdyn_bookingalert_ActionCards](actioncard.md#BKMK_msdyn_bookingalert_ActionCards) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1576,6 +1583,7 @@ Same as actioncard entity [msdyn_bookingalert_ActionCards](actioncard.md#BKMK_ms
 ### <a name="BKMK_msdyn_bookingalert_SyncErrors"></a> msdyn_bookingalert_SyncErrors
 
 Same as syncerror entity [msdyn_bookingalert_SyncErrors](syncerror.md#BKMK_msdyn_bookingalert_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1590,6 +1598,7 @@ Same as syncerror entity [msdyn_bookingalert_SyncErrors](syncerror.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_bookingalert_DuplicateMatchingRecord"></a> msdyn_bookingalert_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_bookingalert_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_bookingalert_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1604,6 +1613,7 @@ Same as duplicaterecord entity [msdyn_bookingalert_DuplicateMatchingRecord](dupl
 ### <a name="BKMK_msdyn_bookingalert_DuplicateBaseRecord"></a> msdyn_bookingalert_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_bookingalert_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_bookingalert_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1618,6 +1628,7 @@ Same as duplicaterecord entity [msdyn_bookingalert_DuplicateBaseRecord](duplicat
 ### <a name="BKMK_msdyn_bookingalert_AsyncOperations"></a> msdyn_bookingalert_AsyncOperations
 
 Same as asyncoperation entity [msdyn_bookingalert_AsyncOperations](asyncoperation.md#BKMK_msdyn_bookingalert_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1632,6 +1643,7 @@ Same as asyncoperation entity [msdyn_bookingalert_AsyncOperations](asyncoperatio
 ### <a name="BKMK_msdyn_bookingalert_MailboxTrackingFolders"></a> msdyn_bookingalert_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_bookingalert_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bookingalert_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1646,6 +1658,7 @@ Same as mailboxtrackingfolder entity [msdyn_bookingalert_MailboxTrackingFolders]
 ### <a name="BKMK_msdyn_bookingalert_UserEntityInstanceDatas"></a> msdyn_bookingalert_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_bookingalert_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bookingalert_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1660,6 +1673,7 @@ Same as userentityinstancedata entity [msdyn_bookingalert_UserEntityInstanceData
 ### <a name="BKMK_msdyn_bookingalert_ProcessSession"></a> msdyn_bookingalert_ProcessSession
 
 Same as processsession entity [msdyn_bookingalert_ProcessSession](processsession.md#BKMK_msdyn_bookingalert_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1674,6 +1688,7 @@ Same as processsession entity [msdyn_bookingalert_ProcessSession](processsession
 ### <a name="BKMK_msdyn_bookingalert_BulkDeleteFailures"></a> msdyn_bookingalert_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_bookingalert_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bookingalert_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1688,6 +1703,7 @@ Same as bulkdeletefailure entity [msdyn_bookingalert_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_msdyn_bookingalert_PrincipalObjectAttributeAccesses"></a> msdyn_bookingalert_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_bookingalert_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bookingalert_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1702,6 +1718,7 @@ Same as principalobjectattributeaccess entity [msdyn_bookingalert_PrincipalObjec
 ### <a name="BKMK_msdyn_bookingalert_connections1"></a> msdyn_bookingalert_connections1
 
 Same as connection entity [msdyn_bookingalert_connections1](connection.md#BKMK_msdyn_bookingalert_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1716,6 +1733,7 @@ Same as connection entity [msdyn_bookingalert_connections1](connection.md#BKMK_m
 ### <a name="BKMK_msdyn_bookingalert_connections2"></a> msdyn_bookingalert_connections2
 
 Same as connection entity [msdyn_bookingalert_connections2](connection.md#BKMK_msdyn_bookingalert_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1730,6 +1748,7 @@ Same as connection entity [msdyn_bookingalert_connections2](connection.md#BKMK_m
 ### <a name="BKMK_msdyn_bookingalert_QueueItems"></a> msdyn_bookingalert_QueueItems
 
 Same as queueitem entity [msdyn_bookingalert_QueueItems](queueitem.md#BKMK_msdyn_bookingalert_QueueItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1744,6 +1763,7 @@ Same as queueitem entity [msdyn_bookingalert_QueueItems](queueitem.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_bookingalert_Annotations"></a> msdyn_bookingalert_Annotations
 
 Same as annotation entity [msdyn_bookingalert_Annotations](annotation.md#BKMK_msdyn_bookingalert_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1758,6 +1778,7 @@ Same as annotation entity [msdyn_bookingalert_Annotations](annotation.md#BKMK_ms
 ### <a name="BKMK_msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert"></a> msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert
 
 Same as msdyn_bookingalertstatus entity [msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert](msdyn_bookingalertstatus.md#BKMK_msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalertstatus|
@@ -2259,6 +2280,6 @@ See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_msdyn_bookinga
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bookingalert?text=msdyn_bookingalert EntityType" />

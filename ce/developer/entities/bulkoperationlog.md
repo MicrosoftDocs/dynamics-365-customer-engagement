@@ -1,15 +1,19 @@
 ---
-title: "BulkOperationLog Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BulkOperationLog Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BulkOperationLog entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # BulkOperationLog Entity Reference
 
@@ -524,6 +528,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_bulkoperationlog_SyncErrors"></a> bulkoperationlog_SyncErrors
 
 Same as syncerror entity [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkoperationlog_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -538,6 +543,7 @@ Same as syncerror entity [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkope
 ### <a name="BKMK_BulkOperationLog_AsyncOperations"></a> BulkOperationLog_AsyncOperations
 
 Same as asyncoperation entity [BulkOperationLog_AsyncOperations](asyncoperation.md#BKMK_BulkOperationLog_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -552,6 +558,7 @@ Same as asyncoperation entity [BulkOperationLog_AsyncOperations](asyncoperation.
 ### <a name="BKMK_bulkoperationlog_MailboxTrackingFolders"></a> bulkoperationlog_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bulkoperationlog_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bulkoperationlog_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -566,6 +573,7 @@ Same as mailboxtrackingfolder entity [bulkoperationlog_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_bulkoperationlog"></a> userentityinstancedata_bulkoperationlog
 
 Same as userentityinstancedata entity [userentityinstancedata_bulkoperationlog](userentityinstancedata.md#BKMK_userentityinstancedata_bulkoperationlog) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -580,6 +588,7 @@ Same as userentityinstancedata entity [userentityinstancedata_bulkoperationlog](
 ### <a name="BKMK_BulkOperationLog_BulkDeleteFailures"></a> BulkOperationLog_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [BulkOperationLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperationLog_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -594,6 +603,7 @@ Same as bulkdeletefailure entity [BulkOperationLog_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_bulkoperationlog_PrincipalObjectAttributeAccesses"></a> bulkoperationlog_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [bulkoperationlog_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperationlog_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -675,6 +685,6 @@ See opportunity Entity [CreatedOpportunity_BulkOperationLogs](opportunity.md#BKM
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bulkoperationlog?text=bulkoperationlog EntityType" />

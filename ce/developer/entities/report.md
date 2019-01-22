@@ -1,15 +1,19 @@
 ---
-title: "Report Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Report Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Report entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Report Entity Reference
 
@@ -1110,6 +1114,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Report_ProcessSessions"></a> Report_ProcessSessions
 
 Same as processsession entity [Report_ProcessSessions](processsession.md#BKMK_Report_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1124,6 +1129,7 @@ Same as processsession entity [Report_ProcessSessions](processsession.md#BKMK_Re
 ### <a name="BKMK_report_reportvisibility"></a> report_reportvisibility
 
 Same as reportvisibility entity [report_reportvisibility](reportvisibility.md#BKMK_report_reportvisibility) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportvisibility|
@@ -1138,6 +1144,7 @@ Same as reportvisibility entity [report_reportvisibility](reportvisibility.md#BK
 ### <a name="BKMK_report_reportentities"></a> report_reportentities
 
 Same as reportentity entity [report_reportentities](reportentity.md#BKMK_report_reportentities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportentity|
@@ -1152,6 +1159,7 @@ Same as reportentity entity [report_reportentities](reportentity.md#BKMK_report_
 ### <a name="BKMK_report_reportlink"></a> report_reportlink
 
 Same as reportlink entity [report_reportlink](reportlink.md#BKMK_report_reportlink) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportlink|
@@ -1166,6 +1174,7 @@ Same as reportlink entity [report_reportlink](reportlink.md#BKMK_report_reportli
 ### <a name="BKMK_report_reportlink_sub"></a> report_reportlink_sub
 
 Same as reportlink entity [report_reportlink_sub](reportlink.md#BKMK_report_reportlink_sub) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportlink|
@@ -1180,6 +1189,7 @@ Same as reportlink entity [report_reportlink_sub](reportlink.md#BKMK_report_repo
 ### <a name="BKMK_Report_SyncErrors"></a> Report_SyncErrors
 
 Same as syncerror entity [Report_SyncErrors](syncerror.md#BKMK_Report_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1194,6 +1204,7 @@ Same as syncerror entity [Report_SyncErrors](syncerror.md#BKMK_Report_SyncErrors
 ### <a name="BKMK_userentityinstancedata_report"></a> userentityinstancedata_report
 
 Same as userentityinstancedata entity [userentityinstancedata_report](userentityinstancedata.md#BKMK_userentityinstancedata_report) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1208,6 +1219,7 @@ Same as userentityinstancedata entity [userentityinstancedata_report](userentity
 ### <a name="BKMK_Report_AsyncOperations"></a> Report_AsyncOperations
 
 Same as asyncoperation entity [Report_AsyncOperations](asyncoperation.md#BKMK_Report_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1222,6 +1234,7 @@ Same as asyncoperation entity [Report_AsyncOperations](asyncoperation.md#BKMK_Re
 ### <a name="BKMK_report_reportcategories"></a> report_reportcategories
 
 Same as reportcategory entity [report_reportcategories](reportcategory.md#BKMK_report_reportcategories) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportcategory|
@@ -1236,6 +1249,7 @@ Same as reportcategory entity [report_reportcategories](reportcategory.md#BKMK_r
 ### <a name="BKMK_report_parent_report"></a> report_parent_report
 
 Same as report entity [report_parent_report](report.md#BKMK_report_parent_report) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|report|
@@ -1287,6 +1301,6 @@ See systemuser Entity [lk_reportbase_createdby](systemuser.md#BKMK_lk_reportbase
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.report?text=report EntityType" />

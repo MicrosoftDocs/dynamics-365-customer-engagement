@@ -1,15 +1,19 @@
 ---
-title: "OrderClose Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "OrderClose Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the OrderClose entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # OrderClose Entity Reference
 
@@ -1735,6 +1739,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_orderclose_activity_parties"></a> orderclose_activity_parties
 
 Same as activityparty entity [orderclose_activity_parties](activityparty.md#BKMK_orderclose_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1749,6 +1754,7 @@ Same as activityparty entity [orderclose_activity_parties](activityparty.md#BKMK
 ### <a name="BKMK_CampaignResponse_OrderCloses"></a> CampaignResponse_OrderCloses
 
 Same as campaignresponse entity [CampaignResponse_OrderCloses](campaignresponse.md#BKMK_CampaignResponse_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1763,6 +1769,7 @@ Same as campaignresponse entity [CampaignResponse_OrderCloses](campaignresponse.
 ### <a name="BKMK_OrderClose_SyncErrors"></a> OrderClose_SyncErrors
 
 Same as syncerror entity [OrderClose_SyncErrors](syncerror.md#BKMK_OrderClose_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1777,6 +1784,7 @@ Same as syncerror entity [OrderClose_SyncErrors](syncerror.md#BKMK_OrderClose_Sy
 ### <a name="BKMK_OrderClose_AsyncOperations"></a> OrderClose_AsyncOperations
 
 Same as asyncoperation entity [OrderClose_AsyncOperations](asyncoperation.md#BKMK_OrderClose_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1791,6 +1799,7 @@ Same as asyncoperation entity [OrderClose_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_orderclose_MailboxTrackingFolders"></a> orderclose_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [orderclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_orderclose_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1805,6 +1814,7 @@ Same as mailboxtrackingfolder entity [orderclose_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_orderclose"></a> userentityinstancedata_orderclose
 
 Same as userentityinstancedata entity [userentityinstancedata_orderclose](userentityinstancedata.md#BKMK_userentityinstancedata_orderclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1819,6 +1829,7 @@ Same as userentityinstancedata entity [userentityinstancedata_orderclose](useren
 ### <a name="BKMK_OrderClose_BulkDeleteFailures"></a> OrderClose_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [OrderClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OrderClose_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1833,6 +1844,7 @@ Same as bulkdeletefailure entity [OrderClose_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_orderclose_PrincipalObjectAttributeAccesses"></a> orderclose_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [orderclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_orderclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1847,6 +1859,7 @@ Same as principalobjectattributeaccess entity [orderclose_PrincipalObjectAttribu
 ### <a name="BKMK_OrderClose_Annotation"></a> OrderClose_Annotation
 
 Same as annotation entity [OrderClose_Annotation](annotation.md#BKMK_OrderClose_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2023,6 +2036,6 @@ See externalparty Entity [lk_externalparty_orderclose_modifiedby](externalparty.
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.orderclose?text=orderclose EntityType" />

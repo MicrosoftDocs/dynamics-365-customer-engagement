@@ -1,15 +1,19 @@
 ---
-title: "EntitlementTemplateChannel Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "EntitlementTemplateChannel Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the EntitlementTemplateChannel entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # EntitlementTemplateChannel Entity Reference
 
@@ -574,6 +578,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_entitlementtemplatechannel_SyncErrors"></a> entitlementtemplatechannel_SyncErrors
 
 Same as syncerror entity [entitlementtemplatechannel_SyncErrors](syncerror.md#BKMK_entitlementtemplatechannel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -588,6 +593,7 @@ Same as syncerror entity [entitlementtemplatechannel_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_entitlementtemplatechannel_AsyncOperations"></a> entitlementtemplatechannel_AsyncOperations
 
 Same as asyncoperation entity [entitlementtemplatechannel_AsyncOperations](asyncoperation.md#BKMK_entitlementtemplatechannel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -602,6 +608,7 @@ Same as asyncoperation entity [entitlementtemplatechannel_AsyncOperations](async
 ### <a name="BKMK_entitlementtemplatechannel_MailboxTrackingFolders"></a> entitlementtemplatechannel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [entitlementtemplatechannel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_entitlementtemplatechannel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -616,6 +623,7 @@ Same as mailboxtrackingfolder entity [entitlementtemplatechannel_MailboxTracking
 ### <a name="BKMK_entitlementtemplatechannel_UserEntityInstanceDatas"></a> entitlementtemplatechannel_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [entitlementtemplatechannel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_entitlementtemplatechannel_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -630,6 +638,7 @@ Same as userentityinstancedata entity [entitlementtemplatechannel_UserEntityInst
 ### <a name="BKMK_entitlementtemplatechannel_BulkDeleteFailures"></a> entitlementtemplatechannel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [entitlementtemplatechannel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlementtemplatechannel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -644,6 +653,7 @@ Same as bulkdeletefailure entity [entitlementtemplatechannel_BulkDeleteFailures]
 ### <a name="BKMK_entitlementtemplatechannel_PrincipalObjectAttributeAccesses"></a> entitlementtemplatechannel_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [entitlementtemplatechannel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlementtemplatechannel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -658,6 +668,7 @@ Same as principalobjectattributeaccess entity [entitlementtemplatechannel_Princi
 ### <a name="BKMK_entitlementtemplatechannel_connections1"></a> entitlementtemplatechannel_connections1
 
 Same as connection entity [entitlementtemplatechannel_connections1](connection.md#BKMK_entitlementtemplatechannel_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -672,6 +683,7 @@ Same as connection entity [entitlementtemplatechannel_connections1](connection.m
 ### <a name="BKMK_entitlementtemplatechannel_connections2"></a> entitlementtemplatechannel_connections2
 
 Same as connection entity [entitlementtemplatechannel_connections2](connection.md#BKMK_entitlementtemplatechannel_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -728,6 +740,6 @@ See transactioncurrency Entity [TransactionCurrency_entitlementtemplatechannel](
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.entitlementtemplatechannel?text=entitlementtemplatechannel EntityType" />

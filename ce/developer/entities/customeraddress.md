@@ -1,15 +1,19 @@
 ---
-title: "CustomerAddress Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "CustomerAddress Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the CustomerAddress entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # CustomerAddress Entity Reference
 
@@ -699,7 +703,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -822,7 +826,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -983,6 +987,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_customer_address_contracts_as_billing_address"></a> customer_address_contracts_as_billing_address
 
 Same as contract entity [customer_address_contracts_as_billing_address](contract.md#BKMK_customer_address_contracts_as_billing_address) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -997,6 +1002,7 @@ Same as contract entity [customer_address_contracts_as_billing_address](contract
 ### <a name="BKMK_customer_address_contracts_as_service_address"></a> customer_address_contracts_as_service_address
 
 Same as contract entity [customer_address_contracts_as_service_address](contract.md#BKMK_customer_address_contracts_as_service_address) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -1011,6 +1017,7 @@ Same as contract entity [customer_address_contracts_as_service_address](contract
 ### <a name="BKMK_customer_address_contract_line_items"></a> customer_address_contract_line_items
 
 Same as contractdetail entity [customer_address_contract_line_items](contractdetail.md#BKMK_customer_address_contract_line_items) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contractdetail|
@@ -1025,6 +1032,7 @@ Same as contractdetail entity [customer_address_contract_line_items](contractdet
 ### <a name="BKMK_CustomerAddress_BulkDeleteFailures"></a> CustomerAddress_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CustomerAddress_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CustomerAddress_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1039,6 +1047,7 @@ Same as bulkdeletefailure entity [CustomerAddress_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_userentityinstancedata_customeraddress"></a> userentityinstancedata_customeraddress
 
 Same as userentityinstancedata entity [userentityinstancedata_customeraddress](userentityinstancedata.md#BKMK_userentityinstancedata_customeraddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1053,6 +1062,7 @@ Same as userentityinstancedata entity [userentityinstancedata_customeraddress](u
 ### <a name="BKMK_CustomerAddress_SyncErrors"></a> CustomerAddress_SyncErrors
 
 Same as syncerror entity [CustomerAddress_SyncErrors](syncerror.md#BKMK_CustomerAddress_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1067,6 +1077,7 @@ Same as syncerror entity [CustomerAddress_SyncErrors](syncerror.md#BKMK_Customer
 ### <a name="BKMK_CustomerAddress_AsyncOperations"></a> CustomerAddress_AsyncOperations
 
 Same as asyncoperation entity [CustomerAddress_AsyncOperations](asyncoperation.md#BKMK_CustomerAddress_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1081,6 +1092,7 @@ Same as asyncoperation entity [CustomerAddress_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_CustomerAddress_ProcessSessions"></a> CustomerAddress_ProcessSessions
 
 Same as processsession entity [CustomerAddress_ProcessSessions](processsession.md#BKMK_CustomerAddress_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1095,6 +1107,7 @@ Same as processsession entity [CustomerAddress_ProcessSessions](processsession.m
 ### <a name="BKMK_customeraddress_principalobjectattributeaccess"></a> customeraddress_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [customeraddress_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_customeraddress_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1151,6 +1164,6 @@ See systemuser Entity [lk_customeraddressbase_createdby](systemuser.md#BKMK_lk_c
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.customeraddress?text=customeraddress EntityType" />

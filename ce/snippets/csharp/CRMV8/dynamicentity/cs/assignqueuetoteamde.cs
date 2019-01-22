@@ -217,7 +217,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                 foreach (Microsoft.Crm.Sdk.Messages.RolePrivilege rp in retrieveTeamPrivilegesResponse.RolePrivileges)
                 {
-                    if (retrieveTeamPrivilegesResponse.RolePrivileges[0].PrivilegeId == readQueuePrivilege[0].Id &amp;&amp; retrieveTeamPrivilegesResponse.RolePrivileges[1].PrivilegeId == readQueuePrivilege[1].Id)
+                    if (retrieveTeamPrivilegesResponse.RolePrivileges[0].PrivilegeId == readQueuePrivilege[0].Id && retrieveTeamPrivilegesResponse.RolePrivileges[1].PrivilegeId == readQueuePrivilege[1].Id)
                     {
                         teamLacksPrivilege = false;
                         break;

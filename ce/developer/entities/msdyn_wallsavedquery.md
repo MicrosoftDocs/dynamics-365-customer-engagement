@@ -1,15 +1,19 @@
 ---
-title: "msdyn_wallsavedquery Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_wallsavedquery Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_wallsavedquery entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_wallsavedquery Entity Reference
 
@@ -663,6 +667,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_wallsavedquery_SyncErrors"></a> msdyn_wallsavedquery_SyncErrors
 
 Same as syncerror entity [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msdyn_wallsavedquery_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -677,6 +682,7 @@ Same as syncerror entity [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msd
 ### <a name="BKMK_msdyn_wallsavedquery_AsyncOperations"></a> msdyn_wallsavedquery_AsyncOperations
 
 Same as asyncoperation entity [msdyn_wallsavedquery_AsyncOperations](asyncoperation.md#BKMK_msdyn_wallsavedquery_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -691,6 +697,7 @@ Same as asyncoperation entity [msdyn_wallsavedquery_AsyncOperations](asyncoperat
 ### <a name="BKMK_msdyn_wallsavedquery_MailboxTrackingFolders"></a> msdyn_wallsavedquery_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_wallsavedquery_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_wallsavedquery_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -705,6 +712,7 @@ Same as mailboxtrackingfolder entity [msdyn_wallsavedquery_MailboxTrackingFolder
 ### <a name="BKMK_msdyn_wallsavedquery_UserEntityInstanceDatas"></a> msdyn_wallsavedquery_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_wallsavedquery_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_wallsavedquery_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -719,6 +727,7 @@ Same as userentityinstancedata entity [msdyn_wallsavedquery_UserEntityInstanceDa
 ### <a name="BKMK_msdyn_wallsavedquery_ProcessSession"></a> msdyn_wallsavedquery_ProcessSession
 
 Same as processsession entity [msdyn_wallsavedquery_ProcessSession](processsession.md#BKMK_msdyn_wallsavedquery_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -733,6 +742,7 @@ Same as processsession entity [msdyn_wallsavedquery_ProcessSession](processsessi
 ### <a name="BKMK_msdyn_wallsavedquery_BulkDeleteFailures"></a> msdyn_wallsavedquery_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_wallsavedquery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_wallsavedquery_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -747,6 +757,7 @@ Same as bulkdeletefailure entity [msdyn_wallsavedquery_BulkDeleteFailures](bulkd
 ### <a name="BKMK_msdyn_wallsavedquery_PrincipalObjectAttributeAccesses"></a> msdyn_wallsavedquery_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_wallsavedquery_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_wallsavedquery_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -761,6 +772,7 @@ Same as principalobjectattributeaccess entity [msdyn_wallsavedquery_PrincipalObj
 ### <a name="BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings"></a> msdyn_wallsavedquery_wallsavedqueryusersettings
 
 Same as msdyn_wallsavedqueryusersettings entity [msdyn_wallsavedquery_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md#BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_wallsavedqueryusersettings|
@@ -812,6 +824,6 @@ See msdyn_postconfig Entity [msdyn_postconfig_wallsavedquery](msdyn_postconfig.m
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_wallsavedquery?text=msdyn_wallsavedquery EntityType" />

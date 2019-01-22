@@ -1,20 +1,24 @@
 ---
-title: "Run duplicate detection (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Run duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Execute duplicate detection for a specific record, entity type, or during create or update operations."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 08699dd9-623a-4fee-8b2e-fba850cc2a58
 caps.latest.revision: 39
-author: "susikka"
-ms.author: "susikka"
-manager: "amyla"
+author: susikka
+ms.author: susikka
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Run duplicate detection
 
@@ -69,7 +73,7 @@ OData-Version: 4.0
 
 ## Detect duplicates for an entity type
 
-Submit an asynchronous duplicate detection job that runs in the background. The duplicates are detected according to the published duplicate rules for the entity type. The detected duplicates are stored as `DuplicateRecord` records in Dynamics 365. 
+Submit an asynchronous duplicate detection job that runs in the background. The duplicates are detected according to the published duplicate rules for the entity type. The detected duplicates are stored as `DuplicateRecord` records in Dynamics 365 for Customer Engagement apps. 
 
 A maximum of 5000 duplicates are returned by the duplicate detection job.
 
@@ -183,7 +187,7 @@ OData-Version: 4.0
 The GUID of the base record is stored as `baserecordid` in the `DuplicateRecord` records. `duplicateid`, in the above response is the unique identifier of the duplicate record. `asyncoperationid` is the unique idenitifier of the system job that created that record. And, `ownerid` is the unique identifier of the user or team that owns the duplicate record. See [DuplicateRecord Entity](entities/duplicaterecord.md) for more information.
 
 > [!NOTE]
->  Before creating and executing duplicate detection jobs, make sure that there are appropriate duplicate detection rules in place. Dynamics 365 includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
+>  Before creating and executing duplicate detection jobs, make sure that there are appropriate duplicate detection rules in place. Dynamics 365 for Customer Engagement includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 
 <a name="BKMK_CRwebapi"></a>
 

@@ -1,20 +1,24 @@
 ---
-title: "Create a custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 (online) Customer Engagement."
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Create a custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 for Customer Engagement (online) Customer Engagement."
+ms.custom: 
+ms.date: 09/12/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-    - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ab72830b-e6a6-4f49-a6a8-1d69c4a1d308
 caps.latest.revision: 56
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: kvivek
+manager: kvivek
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create a custom workflow activity
 
@@ -26,29 +30,29 @@ This topic describes how to create a custom workflow activity and register it fo
 
 ## Required software and assemblies
 
- To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365, you must develop them on [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)]. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
+ To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365 for Customer Engagement, you must develop them on [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)]. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
   
 <a name="UseCodeActivity"></a>
 
 ## Use the CodeActivity workflow base class
 
- To create a custom workflow activity, create a class that inherits from the [CodeActivity](https://msdn.microsoft.com/library/system.activities.codeactivity.aspx) workflow base class. This class is available in the [System.Activities](https://msdn.microsoft.com/library/system.activities.aspx) namespace. Activities that inherit from the `CodeActivity` class can override the `Execute` method to produce custom functionality.  
+ To create a custom workflow activity, create a class that inherits from the <xref:System.Activities.CodeActivity> workflow base class. This class is available in the <xref:System.Activities> namespace. Activities that inherit from the `CodeActivity` class can override the `Execute` method to produce custom functionality.  
   
-1.  Start [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
+1. Start [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
   
-2.  On the **File** menu, click **New**, and then click **Project**.  
+2. On the **File** menu, click **New**, and then click **Project**.  
   
-3.  In the **New Project** dialog box, select **Workflow** under **Visual C#** in the **Installed Templates** pane, and then select **Activity Library**.  
+3. In the **New Project** dialog box, select **Workflow** under **Visual C#** in the **Installed Templates** pane, and then select **Activity Library**.  
   
-4.  Specify a name and location for the solution, and then click **OK**.  
+4. Specify a name and location for the solution, and then click **OK**.  
   
-5.  Navigate to the **Project** menu and select **Properties**. On the **Application** tab, specify **.NET Framework 4.5.2** as the target framework.  
+5. Navigate to the **Project** menu and select **Properties**. On the **Application** tab, specify **.NET Framework 4.5.2** as the target framework.  
   
-6.  Add references to the `Microsoft.Xrm.Sdk.dll` and `Microsoft.Xrm.Workflow.dll` assemblies.  
+6. Add references to the `Microsoft.Xrm.Sdk.dll` and `Microsoft.Xrm.Workflow.dll` assemblies.  
   
-7.  Delete the Activity1.xaml file in the project.  
+7. Delete the Activity1.xaml file in the project.  
   
-8.  Add a class file (.cs) to the project. In Solution Explorer, right-click the project, select **Add**, and then click **Class**. In the **Add New Item** dialog box, type a name for the class, and then click **Add**.  
+8. Add a class file (.cs) to the project. In Solution Explorer, right-click the project, select **Add**, and then click **Class**. In the **Add New Item** dialog box, type a name for the class, and then click **Add**.  
   
 9. Open the class file, and add the following using directives:  
   
@@ -67,7 +71,10 @@ This topic describes how to create a custom workflow activity and register it fo
 11. Add functionality to the class by adding an [Execute](https://msdn.microsoft.com/library/system.activities.codeactivity.execute.aspx) method:  
   
     ```csharp  
-    protected override void Execute(CodeActivityContext context){    //Activity code}  
+    protected override void Execute(CodeActivityContext context)
+    {
+      //Activity code
+    }  
     ```  
   
      For more information, see [Adding Metadata to the Custom Workflow Activity](add-metadata-custom-workflow-activity.md).  
@@ -78,7 +85,7 @@ This topic describes how to create a custom workflow activity and register it fo
   
 14. Compile the project to create an assembly (.dll).  
   
- To view a code sample that demonstrates how to create a custom workflow activity, see [Sample: Create a Custom Workflow Activity](sample-create-custom-workflow-activity.md).  
+    To view a code sample that demonstrates how to create a custom workflow activity, see [Sample: Create a Custom Workflow Activity](sample-create-custom-workflow-activity.md).  
   
 > [!IMPORTANT]
 >  For improved performance, [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] caches custom workflow activity instances. The custom workflow activity’s [Execute](https://msdn.microsoft.com/library/system.activities.codeactivity.execute.aspx) method should be written to be stateless because the constructor is not called for every invocation of the custom workflow activity. Also, multiple system threads could execute the custom workflow activity at the same time. All per invocation state information is stored in the context, so it is not recommended to use global variables or member variables to pass data from one invocation to the next.  

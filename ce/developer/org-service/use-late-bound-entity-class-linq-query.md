@@ -1,28 +1,32 @@
 ---
-title: "Use late-bound entity class with a LINQ query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use late-bound entity class with a LINQ query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use late binding with .NET Language-Integrated Query (LINQ) queries"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "LINQ queries"
-  - "LINQ queries, using late binding in join or left join clauses"
-  - "LINQ queries, using late-bound entity classes with LINQ queries"
-  - "LINQ queries"
-  - "LINQ queries, using late binding with the not equals operator"
-  - "using late-bound entity classes with LINQ queries"
-  - "LINQ queries, using late binding with the Contains or GetAttributeValue method"
+  - LINQ queries
+  - LINQ queries, using late binding in join or left join clauses
+  - LINQ queries, using late-bound entity classes with LINQ queries
+  - LINQ queries
+  - LINQ queries, using late binding with the not equals operator
+  - using late-bound entity classes with LINQ queries
+  - LINQ queries, using late binding with the Contains or GetAttributeValue method
 ms.assetid: 675f8ad0-e5f7-4fcb-a702-40962117f4cc
 caps.latest.revision: 32
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use late-bound entity class with a LINQ query
 

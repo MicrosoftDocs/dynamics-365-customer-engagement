@@ -153,7 +153,7 @@ namespace Microsoft.Crm.Sdk.Samples
                                 ((DeferredOperationStatus)retrieveResponse.Entity);
                         }
                         while (deferredOperationStatus.State != 
-                            DeferredOperationState.Processing &amp;&amp;
+                            DeferredOperationState.Processing &&
                             deferredOperationStatus.State != 
                             DeferredOperationState.Completed);
 

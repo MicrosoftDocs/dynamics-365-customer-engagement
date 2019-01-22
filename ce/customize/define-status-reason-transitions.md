@@ -1,27 +1,31 @@
 ---
-title: "Define status reason transitions with PowerApps | MicrosoftDocs"
+title: "Define status reason transitions | MicrosoftDocs"
 description: "Learn how to define status reason transitions"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/28/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: dbc4f436-0b23-42f9-8079-b0de482aaebe
 caps.latest.revision: 11
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Define status reason transitions for the Case or custom entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.  
   
@@ -53,18 +57,18 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
   
  The screenshot below provides an example that meets the following requirements:  
   
--   A case can be merged at any time. You will not be able to merge cases if a status reason transition does not allow for it.  
+- A case can be merged at any time. You will not be able to merge cases if a status reason transition does not allow for it.  
   
--   An active case can be canceled at any time.  
+- An active case can be canceled at any time.  
   
--   A resolved or canceled case cannot be reactivated.  
+- A resolved or canceled case cannot be reactivated.  
   
--   All cases must pass through the following stages: **In Progress** > **On Hold** > **Waiting for Details** > **Researching** before they can be resolved. With this configuration, a case could not be set to an earlier status.  
+- All cases must pass through the following stages: **In Progress** > **On Hold** > **Waiting for Details** > **Researching** before they can be resolved. With this configuration, a case could not be set to an earlier status.  
   
-    > [!NOTE]
-    >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
+  > [!NOTE]
+  >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
   
- ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+  ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   

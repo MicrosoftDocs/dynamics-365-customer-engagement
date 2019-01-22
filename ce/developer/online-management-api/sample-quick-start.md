@@ -1,14 +1,18 @@
 ---
-title: "Quick Start Sample: Retrieve Customer Enagament instances using Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Quick Start Sample: Retrieve Customer Enagament instances using Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "The C# sample demonstrates how to authenticate to the Online Management API and then retrieve all Customer Engagement instances from your Office 365 tenant."
-ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
-applies_to: "Dynamics 365 (online)"
+ms.date: 12/13/2018
+ms.service: crm-online
+ms.topic: conceptual
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 63600a55-a1f0-491f-83f6-b3252566d27e
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Quick Start Sample: Retrieve Customer Engagement instances using Online Management API 
 
@@ -28,13 +32,14 @@ The sample performs the following tasks:
 
     b. Uses an HttpClient instance to connect to Online Management API service.
 
-    c. Specifies the API service base address and the max period of execution time.
+    c. Specifies the API service base address and the max period of execution time.
 1. Uses the **RetrieveInstancesAsync** method to execute a http request to retrieve all Customer Enagement instances in your Office 365 tenant, and then displays the reponse.
 
 ## Run this sample
-Before you can run this sample, make sure that:
-- You have one the admin roles in your Office 365 tenant. See [Office 365 Admin roles](get-started-online-management-api.md#office-365-admin-roles)
-- Visual Studio 2013 or later; Internet connectivity is required to download/restore assemblies in the NuGet package.
+Before you can run this sample, make sure that you have:
+- One of the admin roles in your Office 365 tenant. See [Office 365 Admin roles](get-started-online-management-api.md#office-365-admin-roles)
+- Visual Studio 2015 or later; Internet connectivity is required to download/restore assemblies in the NuGet package.
+- .NET Framework 4.6.2
 
 To run the sample:
 1. [Download](https://code.msdn.microsoft.com/Sample-Retrieve-Customer-94e4076d) the sample, and extract it.
@@ -42,11 +47,11 @@ To run the sample:
 3. In the **Programs.cs** file, specify a different service URL if the region is not North America. For a list of service URL values for worldwide regions, see [Service URL](get-started-online-management-api.md#service-url).
     ```csharp
     //TODO: Change this value if your Office 365 tenant is in a different region than North America
-    
+
     private static string _serviceUrl = "https://admin.services.crm.dynamics.com";
     ```
 4. In the **HelperCode** > **AuthenticationHelper.cs** file, update the values of the `_clientId` and `_redirectURL` values appropriately.
-    
+
     ```csharp
     // TODO: Substitute your app registration values here.
     // These values are obtained on registering your application with the 
@@ -69,9 +74,9 @@ using System.Threading.Tasks;
 
 namespace Microsoft.Crm.Sdk.Samples
 {
-    /// <summary>
-    /// This sample retrieves Customer Engagement instances
-    /// in your Office 365 tenant.
+    /// <summary>
+    /// This sample retrieves Customer Engagement instances
+    /// in your Office 365 tenant.
     /// </summary>    
 
     class RetrieveInstances
@@ -84,7 +89,7 @@ namespace Microsoft.Crm.Sdk.Samples
         private void ConnectToAPI()
         {
             Console.WriteLine("Connecting to the Online Management API service...");
-            
+
             // Discover authority for the Online Management API service
             var authority = Authentication.DiscoverAuthority(_serviceUrl);
 
@@ -92,17 +97,17 @@ namespace Microsoft.Crm.Sdk.Samples
             // passing in the discovered authority 
             Authentication auth = new Authentication(authority.Result.ToString());            
 
-            // Use an HttpClient object to connect to Online Management API service.           
+            // Use an HttpClient object to connect to Online Management API service.           
             httpClient = new HttpClient(auth.ClientHandler, true);
 
-            // Specify the API service base address and the max period of execution time 
+            // Specify the API service base address and the max period of execution time 
             httpClient.BaseAddress = new Uri(_serviceUrl);
             httpClient.Timeout = new TimeSpan(0, 2, 0);            
         }
 
         public async Task RetrieveInstancesAsync()
         {
-            HttpRequestMessage myRequest = new HttpRequestMessage(HttpMethod.Get, "/api/v1/instances");
+            HttpRequestMessage myRequest = new HttpRequestMessage(HttpMethod.Get, "/api/v1.1/instances");
             HttpResponseMessage myResponse = await httpClient.SendAsync(myRequest);
 
             if (myResponse.IsSuccessStatusCode)
@@ -122,7 +127,7 @@ namespace Microsoft.Crm.Sdk.Samples
             RetrieveInstances app = new RetrieveInstances();
             try
             {
-                // Connect to the Online Management API. 
+                // Connect to the Online Management API. 
                 app.ConnectToAPI();
 
                 // Run your request
@@ -133,25 +138,24 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                 if (app.httpClient != null)
                 { app.httpClient.Dispose(); }
-                Console.WriteLine("Press <Enter> to exit the program.");
+                Console.WriteLine("Press <Enter> to exit the program.");
                 Console.ReadLine();
             }
         }
 
-        /// <summary> Helper method to display exceptions </summary> 
+        /// <summary> Helper method to display exceptions </summary> 
         private static void DisplayException(Exception ex)
         {
-            Console.WriteLine("The application terminated with an error.");
+            Console.WriteLine("The application terminated with an error.");
             Console.WriteLine(ex.Message);
             while (ex.InnerException != null)
             {
-                Console.WriteLine("\t* {0}", ex.InnerException.Message);
+                Console.WriteLine("\t* {0}", ex.InnerException.Message);
                 ex = ex.InnerException;
             }
         }
     }
 }
-
 ```
 
 ### Related Topics  

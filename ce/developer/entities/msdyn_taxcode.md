@@ -1,15 +1,19 @@
 ---
-title: "msdyn_taxcode Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_taxcode Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_taxcode entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_taxcode Entity Reference
 
@@ -423,7 +427,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -530,7 +534,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -707,6 +711,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_taxcode_SyncErrors"></a> msdyn_taxcode_SyncErrors
 
 Same as syncerror entity [msdyn_taxcode_SyncErrors](syncerror.md#BKMK_msdyn_taxcode_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -721,6 +726,7 @@ Same as syncerror entity [msdyn_taxcode_SyncErrors](syncerror.md#BKMK_msdyn_taxc
 ### <a name="BKMK_msdyn_taxcode_DuplicateMatchingRecord"></a> msdyn_taxcode_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_taxcode_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_taxcode_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -735,6 +741,7 @@ Same as duplicaterecord entity [msdyn_taxcode_DuplicateMatchingRecord](duplicate
 ### <a name="BKMK_msdyn_taxcode_DuplicateBaseRecord"></a> msdyn_taxcode_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_taxcode_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_taxcode_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -749,6 +756,7 @@ Same as duplicaterecord entity [msdyn_taxcode_DuplicateBaseRecord](duplicatereco
 ### <a name="BKMK_msdyn_taxcode_AsyncOperations"></a> msdyn_taxcode_AsyncOperations
 
 Same as asyncoperation entity [msdyn_taxcode_AsyncOperations](asyncoperation.md#BKMK_msdyn_taxcode_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -763,6 +771,7 @@ Same as asyncoperation entity [msdyn_taxcode_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_msdyn_taxcode_MailboxTrackingFolders"></a> msdyn_taxcode_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_taxcode_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_taxcode_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -777,6 +786,7 @@ Same as mailboxtrackingfolder entity [msdyn_taxcode_MailboxTrackingFolders](mail
 ### <a name="BKMK_msdyn_taxcode_UserEntityInstanceDatas"></a> msdyn_taxcode_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_taxcode_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_taxcode_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -791,6 +801,7 @@ Same as userentityinstancedata entity [msdyn_taxcode_UserEntityInstanceDatas](us
 ### <a name="BKMK_msdyn_taxcode_ProcessSession"></a> msdyn_taxcode_ProcessSession
 
 Same as processsession entity [msdyn_taxcode_ProcessSession](processsession.md#BKMK_msdyn_taxcode_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -805,6 +816,7 @@ Same as processsession entity [msdyn_taxcode_ProcessSession](processsession.md#B
 ### <a name="BKMK_msdyn_taxcode_BulkDeleteFailures"></a> msdyn_taxcode_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_taxcode_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_taxcode_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -819,6 +831,7 @@ Same as bulkdeletefailure entity [msdyn_taxcode_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_msdyn_taxcode_PrincipalObjectAttributeAccesses"></a> msdyn_taxcode_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_taxcode_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_taxcode_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -833,6 +846,7 @@ Same as principalobjectattributeaccess entity [msdyn_taxcode_PrincipalObjectAttr
 ### <a name="BKMK_msdyn_taxcode_connections1"></a> msdyn_taxcode_connections1
 
 Same as connection entity [msdyn_taxcode_connections1](connection.md#BKMK_msdyn_taxcode_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -847,6 +861,7 @@ Same as connection entity [msdyn_taxcode_connections1](connection.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_taxcode_connections2"></a> msdyn_taxcode_connections2
 
 Same as connection entity [msdyn_taxcode_connections2](connection.md#BKMK_msdyn_taxcode_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -861,6 +876,7 @@ Same as connection entity [msdyn_taxcode_connections2](connection.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_taxcode_Annotations"></a> msdyn_taxcode_Annotations
 
 Same as annotation entity [msdyn_taxcode_Annotations](annotation.md#BKMK_msdyn_taxcode_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -875,6 +891,7 @@ Same as annotation entity [msdyn_taxcode_Annotations](annotation.md#BKMK_msdyn_t
 ### <a name="BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode"></a> msdyn_msdyn_taxcode_account_SalesTaxCode
 
 Same as account entity [msdyn_msdyn_taxcode_account_SalesTaxCode](account.md#BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -889,6 +906,7 @@ Same as account entity [msdyn_msdyn_taxcode_account_SalesTaxCode](account.md#BKM
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_actual_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_actual_TaxCode
 
 Same as msdyn_actual entity [msdyn_msdyn_taxcode_msdyn_actual_TaxCode](msdyn_actual.md#BKMK_msdyn_msdyn_taxcode_msdyn_actual_TaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -903,6 +921,7 @@ Same as msdyn_actual entity [msdyn_msdyn_taxcode_msdyn_actual_TaxCode](msdyn_act
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode"></a> msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode
 
 Same as msdyn_agreement entity [msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode](msdyn_agreement.md#BKMK_msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreement|
@@ -917,6 +936,7 @@ Same as msdyn_agreement entity [msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode
 
 Same as msdyn_purchaseorderbill entity [msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode](msdyn_purchaseorderbill.md#BKMK_msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderbill|
@@ -931,6 +951,7 @@ Same as msdyn_purchaseorderbill entity [msdyn_msdyn_taxcode_msdyn_purchaseorderb
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_rma_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_rma_TaxCode
 
 Same as msdyn_rma entity [msdyn_msdyn_taxcode_msdyn_rma_TaxCode](msdyn_rma.md#BKMK_msdyn_msdyn_taxcode_msdyn_rma_TaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rma|
@@ -945,6 +966,7 @@ Same as msdyn_rma entity [msdyn_msdyn_taxcode_msdyn_rma_TaxCode](msdyn_rma.md#BK
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_rtv_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_rtv_TaxCode
 
 Same as msdyn_rtv entity [msdyn_msdyn_taxcode_msdyn_rtv_TaxCode](msdyn_rtv.md#BKMK_msdyn_msdyn_taxcode_msdyn_rtv_TaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtv|
@@ -959,6 +981,7 @@ Same as msdyn_rtv entity [msdyn_msdyn_taxcode_msdyn_rtv_TaxCode](msdyn_rtv.md#BK
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode"></a> msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode
 
 Same as msdyn_taxcodedetail entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode](msdyn_taxcodedetail.md#BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_taxcodedetail|
@@ -973,6 +996,7 @@ Same as msdyn_taxcodedetail entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_Pare
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode
 
 Same as msdyn_taxcodedetail entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode](msdyn_taxcodedetail.md#BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_taxcodedetail|
@@ -987,6 +1011,7 @@ Same as msdyn_taxcodedetail entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxC
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_workorder_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_workorder_TaxCode
 
 Same as msdyn_workorder entity [msdyn_msdyn_taxcode_msdyn_workorder_TaxCode](msdyn_workorder.md#BKMK_msdyn_msdyn_taxcode_msdyn_workorder_TaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -1001,6 +1026,7 @@ Same as msdyn_workorder entity [msdyn_msdyn_taxcode_msdyn_workorder_TaxCode](msd
 ### <a name="BKMK_msdyn_msdyn_taxcode_quotedetail_SalesTaxCode"></a> msdyn_msdyn_taxcode_quotedetail_SalesTaxCode
 
 Same as quotedetail entity [msdyn_msdyn_taxcode_quotedetail_SalesTaxCode](quotedetail.md#BKMK_msdyn_msdyn_taxcode_quotedetail_SalesTaxCode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -1057,6 +1083,6 @@ See businessunit Entity [business_unit_msdyn_taxcode](businessunit.md#BKMK_busin
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_taxcode?text=msdyn_taxcode EntityType" />

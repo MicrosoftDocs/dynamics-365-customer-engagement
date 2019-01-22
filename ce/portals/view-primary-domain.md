@@ -1,9 +1,9 @@
 ---
-title: "View the primary domain name in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to view the primary domain name for a portal in Dynamics 365."
-ms.custom:
+title: "View the primary domain name in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Instructions to view the primary domain name for a portal in Dynamics 365 for Customer Engagement."
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 28AD6523-EED8-4C02-89D5-A9703883966B
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # View the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
@@ -31,9 +38,9 @@ Let’s take the following scenarios:
 - **Scenario 2**: If a portal user changes the **Primary Domain Name** field value to contoso.microsoftcrmportals.com, the value of the field will be retained because it is one of the valid domain names.
 
 To view the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
-1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-2.	Go to **Portals** > **Website** > **Websites**.
-3.	Select the website for which you want to see the primary domain name.
-4.	View the name stored in the **Primary Domain Name** field under the **General** section.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+2. Go to **Portals** > **Website** > **Websites**.
+3. Select the website for which you want to see the primary domain name.
+4. View the name stored in the **Primary Domain Name** field under the **General** section.
 
-    ![View primary domain name](media/view-primary-domain-name.png "View the primary domain name")  
+   ![View primary domain name](media/view-primary-domain-name.png "View the primary domain name")  

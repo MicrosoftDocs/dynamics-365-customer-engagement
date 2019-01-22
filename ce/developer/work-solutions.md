@@ -1,19 +1,23 @@
 ---
-title: "Work with solutions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Work with solutions (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e8da920b-9660-4f23-aa6b-841a12ea91c1
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Work with solutions
 
@@ -29,15 +33,15 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  A publisher requires the following:  
   
--   A customization prefix  
+- A customization prefix  
   
--   A unique name  
+- A unique name  
   
--   A friendly name  
+- A friendly name  
   
- The following sample first defines a publisher and then checks to see whether the publisher already exists based on the unique name. If it already exists, the customization prefix may have been changed, so this sample seeks to capture the current customization prefix. The `PublisherId` is also captured so that the publisher record can be deleted. If the publisher is not found, a new publisher is created using the<xref:Microsoft.Xrm.Sdk.IOrganizationService>. <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method  
+  The following sample first defines a publisher and then checks to see whether the publisher already exists based on the unique name. If it already exists, the customization prefix may have been changed, so this sample seeks to capture the current customization prefix. The `PublisherId` is also captured so that the publisher record can be deleted. If the publisher is not found, a new publisher is created using the<xref:Microsoft.Xrm.Sdk.IOrganizationService>. <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method  
   
- [!code-csharp[Solutions#WorkWithSolutions1](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions1.cs#workwithsolutions1)]  
+  [!code-csharp[Solutions#WorkWithSolutions1](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions1.cs#workwithsolutions1)]  
   
 <a name="BKMK_RetrieveDefaultPublisher"></a>   
 ## Retrieve the default publisher  
@@ -53,19 +57,19 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  A solution requires the following:  
   
--   A Publisher  
+- A Publisher  
   
--   A Friendly Name  
+- A Friendly Name  
   
--   A Unique Name  
+- A Unique Name  
   
--   A Version Number  
+- A Version Number  
   
- The variable `_crmSdkPublisherId` is a GUID value representing the `publisherid` value.  
+  The variable `_crmSdkPublisherId` is a GUID value representing the `publisherid` value.  
   
- This sample checks whether the Solution already exists in the organization based on the unique name. If the solution does not exist it is created. The `SolutionId` value is captured so the solution can be deleted.  
+  This sample checks whether the Solution already exists in the organization based on the unique name. If the solution does not exist it is created. The `SolutionId` value is captured so the solution can be deleted.  
   
- [!code-csharp[Solutions#WorkWithSolutions3](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions3.cs#workwithsolutions3)]
+  [!code-csharp[Solutions#WorkWithSolutions3](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions3.cs#workwithsolutions3)]
   
 <a name="BKMK_RetrieveASolution"></a>   
 ## Retrieve a solution  
@@ -263,15 +267,15 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  This code will:  
   
--   Retrieve all the components for a solution.  
+- Retrieve all the components for a solution.  
   
--   Retrieve all the dependencies for each component.  
+- Retrieve all the dependencies for each component.  
   
--   For each dependency found display a report describing the dependency.  
+- For each dependency found display a report describing the dependency.  
   
- [!code-csharp[Solutions#GetSolutionDependencies1](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies1.cs#getsolutiondependencies1)]
+  [!code-csharp[Solutions#GetSolutionDependencies1](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies1.cs#getsolutiondependencies1)]
   
- The `DependencyReport` method is in the following code sample.  
+  The `DependencyReport` method is in the following code sample.  
   
 ### Dependency report
 
@@ -291,7 +295,7 @@ This topic presents specific programming tasks included in [Sample: Work With So
 
 ### See also
 
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   

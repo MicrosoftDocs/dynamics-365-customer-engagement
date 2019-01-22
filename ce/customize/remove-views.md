@@ -1,26 +1,30 @@
 ---
-title: "Delete or deactivate a view in PowerApps | MicrosoftDocs"
+title: "Delete or deactivate a view | MicrosoftDocs"
 description: "Learn how to delete or deactivate a view"
-ms.custom: ""
-ms.date: 04/17/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/08/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 60865f78-7482-42da-8960-adbd3c155028
 caps.latest.revision: 25
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Delete or deactivate a view 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
   
 <a name="BKMK_RemoveViews"></a>   
 
@@ -32,7 +36,7 @@ manager: "kvivek"
  If you don’t want to delete the view permanently, you can deactivate it instead.  
   
 ### Deactivate or activate views  
- You cannot delete or deactivate any [system views](../customize/types-of-views.md#BKMK_SystemViews), including public views the system created. You can deactivate any public view, including public views the system created.  
+ You cannot delete or deactivate any [system views](../customize/create-edit-views.md#system-views), including public views the system created. You can deactivate any public view, including public views the system created.  
   
 #### Deactivate or activate a public view  
   

@@ -1,15 +1,14 @@
 ---
-title: "Choose and configure columns in views in PowerApps | MicrosoftDocs"
+title: "Choose and configure columns in views in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to select and configure views for your app"
-keywords: ""
-ms.date: 04/02/2018
+keywords: 
+ms.date: 11/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 31bfcf18-58c3-491c-91b5-f9b0f5424852
 author: Mattp123
 ms.author: matp
@@ -19,16 +18,20 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 25
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Choose and configure columns in views
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
- Along with the filter criteria, the columns visible in a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
+ Along with the filter criteria, the columns visible in a Dynamics 365 for Customer Engagement apps view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
   
 -   [Add columns](../customize/choose-and-configure-columns.md#BKMK_AddColumns)  
   
@@ -52,15 +55,15 @@ topic-status: Drafting
   
 #### Add columns to views  
   
-1.  While creating and editing views, select **Add Columns** and the **Add Columns** dialog box appears.  
+1. While creating and editing views, select **Add Columns** and the **Add Columns** dialog box appears.  
   
-2.  Select the **Record type** if you want to include fields from related entities.  
+2. Select the **Record type** if you want to include fields from related entities.  
   
-3.  You can select multiple fields, even from related entities.  
+3. You can select multiple fields, even from related entities.  
   
-4.  When you have selected the fields you want, select **OK** to close the **Add Columns** dialog box.  
+4. When you have selected the fields you want, select **OK** to close the **Add Columns** dialog box.  
   
- As you add columns, you will increase the width of the view. If the width of the view exceeds the space available to show it in the page, horizontal scrollbars will allow people to scroll and see the hidden columns.  
+   As you add columns, you will increase the width of the view. If the width of the view exceeds the space available to show it in the page, horizontal scrollbars will allow people to scroll and see the hidden columns.  
   
 > [!TIP]
 >  If your view filters on data for a certain field so that only records with a certain value are shown, don’t include that column in the view. For example, if you are only showing active records, don’t include the status column in the view. Instead, name the view to indicate that all the records shown in the view are active.  
@@ -97,15 +100,15 @@ topic-status: Drafting
 ### Enable or disable presence for a column  
  When the following conditions are true, people can see a Skype for Business online presence control in lists that shows if the person is available and allows people to interact with them by instant messaging:  
   
--   People use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
+- People use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
   
--   People have Skype for Business installed.  
+- People have Skype for Business installed.  
   
--   People have [!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] enabled in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
+- People have [!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] enabled in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
   
--   Your organization has enabled presence for the system in the system settings.  
+- Your organization has enabled presence for the system in the system settings.  
   
- The presence control and the setting to enable it are available only for columns that display primary fields for email-enabled entities (users, contacts, opportunities, leads, or custom entities).  
+  The presence control and the setting to enable it are available only for columns that display primary fields for email-enabled entities (users, contacts, opportunities, leads, or custom entities).  
   
 #### Enable or disable Skype for Business presence for a column  
   
@@ -119,7 +122,7 @@ topic-status: Drafting
 ### Add find columns  
  Find columns are the columns searched by the application when people use the **search for records** text box displayed for lists or whenever there is the ability to search for records for an entity in the application, such as when people are searching for a record for a lookup field.  
   
-1.  Open a **Quick Find** view. For information on quick find views, see [Types of views](../customize/types-of-views.md).  
+1.  Open a **Quick Find** view. For information on quick find views, see [Types of views](../customize/create-edit-views.md).  
   
 2.  Select **Add Find Columns** to open the dialog box.  
   
@@ -129,7 +132,7 @@ topic-status: Drafting
 
 ## Community tools
 
-**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

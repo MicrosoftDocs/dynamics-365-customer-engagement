@@ -1,18 +1,20 @@
 ---
 title: "Add products to a quote, order, or invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 for Sales."
-keywords: "product, quote, order, invoice"
-ms.date: 05/01/2018
-ms.service: crm-online
-ms.custom: 
+keywords: product, quote, order, invoice
+ms.date: 09/24/2018
+ms.service:
+  - dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: c1f6f66e-25fe-4528-a2f3-f2a3a2e3830d
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -71,3 +73,4 @@ Here are the actions you can take on the products in the Products grid:
  [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
  [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
  [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+

@@ -1,26 +1,30 @@
 ---
-title: "Sample: Retrieve valid status transitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Retrieve valid status transitions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d367aa6d-36dc-4084-8625-50f515602504
 caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Retrieve valid status transitions
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata] (https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata](https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -33,17 +37,17 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
  The sample does the following tasks:  
   
-1.  Retrieves status options for the Incident entity  
+1. Retrieves status options for the Incident entity  
   
-2.  Uses a `GetValidStatusOptions` method in the sample to get valid status transitions for each status option  
+2. Uses a `GetValidStatusOptions` method in the sample to get valid status transitions for each status option  
   
-3.  Displays the valid transition options in the console  
+3. Displays the valid transition options in the console  
   
- When status reason transitions for the incident entity are configured in the following way:  
+   When status reason transitions for the incident entity are configured in the following way:  
   
- ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+   ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
- The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
+   The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
   
 ```ms-dos
 [In Progress] incident records can transition to:  

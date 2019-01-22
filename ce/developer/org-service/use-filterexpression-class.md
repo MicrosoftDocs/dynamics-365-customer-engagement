@@ -1,28 +1,32 @@
 ---
-title: "Use the FilterExpression class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the FilterExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the FilterExpression class to build a query that expresses multiple conditions"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "helper methods for creating queries, FilterExpression class"
-  - "FilterExpression class, about; properties for; and code example"
-  - "creating queries that express multiple conditions, FilterExpression class"
-  - "creating queries, that are equivalent to SQL expressions"
-  - "using the FilterExpression class"
-  - "FilterExpression class, methods that help you create queries"
-  - "building queries that express multiple conditions, FilterExpression class"
+  - helper methods for creating queries, FilterExpression class
+  - FilterExpression class, about; properties for; and code example
+  - creating queries that express multiple conditions, FilterExpression class
+  - creating queries, that are equivalent to SQL expressions
+  - using the FilterExpression class
+  - FilterExpression class, methods that help you create queries
+  - building queries that express multiple conditions, FilterExpression class
 ms.assetid: 8385883e-8933-419c-91d0-25353e59a1a1
 caps.latest.revision: 35
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the FilterExpression class
 

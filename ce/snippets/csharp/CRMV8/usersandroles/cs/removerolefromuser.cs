@@ -146,7 +146,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Role salesRole = _serviceProxy.RetrieveMultiple(query).Entities[0].ToEntity<Role>();
 
                 // Associate the user with the role for this sample.
-                if (salesRole != null &amp;&amp; _userId != Guid.Empty)
+                if (salesRole != null && _userId != Guid.Empty)
                 {
                     _serviceProxy.Associate(
                                 "systemuser",

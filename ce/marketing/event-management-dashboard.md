@@ -1,21 +1,28 @@
 ---
 title: "Get a quick overview with the events dashboard (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to find and use the event dashboard in Dynamics 365 for Marketing"
-keywords: "events; event management; dashboard"
+keywords: events; event management; dashboard
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: db6de446-f7bd-4f26-98a5-2fd495402691
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # The event management dashboard

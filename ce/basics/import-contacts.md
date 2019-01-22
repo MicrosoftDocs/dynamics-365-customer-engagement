@@ -1,19 +1,23 @@
 ---
-title: "Import contacts (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Import contacts (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 476018f9-e481-46ba-a9d1-c87cb4dd810a
 caps.latest.revision: 60
-ms.author: "anbichse"
-manager: "brycho"
+ms.author: anbichse
+manager: brycho
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Import contacts
 
@@ -89,25 +93,25 @@ To find an app, search your phone’s online store.
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Click **Imports**.  
+2. Click **Imports**.  
   
-3.  Click **Import Data**.  
+3. Click **Import Data**.  
   
-4.  Browse to the folder where you saved the file that contains the export of your contacts. Select the file, and then click **Open**. Click **Next**.  
+4. Browse to the folder where you saved the file that contains the export of your contacts. Select the file, and then click **Open**. Click **Next**.  
   
-    > [!TIP]
-    >  You can import only one file at a time. To bring in more files, run the wizard again later, or add all your contacts files to a single .zip file.  
+   > [!TIP]
+   >  You can import only one file at a time. To bring in more files, run the wizard again later, or add all your contacts files to a single .zip file.  
   
-5.  Review the file name, and if the file is in .csv or .txt format, verify that the field and data delimiters are correct. Click **Next**.  
+5. Review the file name, and if the file is in .csv or .txt format, verify that the field and data delimiters are correct. Click **Next**.  
   
-    > [!NOTE]
-    >  In most cases, you can accept the default delimiters.  
+   > [!NOTE]
+   >  In most cases, you can accept the default delimiters.  
   
-6.  Select **Default (Automatic Mapping)** for the System Data Map. Click **Next**.  
+6. Select **Default (Automatic Mapping)** for the System Data Map. Click **Next**.  
   
-7.  In the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]**Record Types** drop-down list, select **Contacts**. Click **Next**.  
+7. In the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]**Record Types** drop-down list, select **Contacts**. Click **Next**.  
   
-8.  For any record type with an alert icon, map the column from your contacts file to the corresponding field in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Click **OK**, and then click **Next**.  
+8. For any record type with an alert icon, map the column from your contacts file to the corresponding field in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Click **OK**, and then click **Next**.  
   
 9. Review the summary, and then click **Next**.  
   
@@ -118,9 +122,9 @@ To find an app, search your phone’s online store.
 ## Step 3: Check that the contacts imported successfully  
  After the wizard finishes, check your list of contacts to make sure they imported correctly.  
   
-1.  Select your role (either Sales, Service, or Marketing). [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
+1. Select your role (either Sales, Service, or Marketing). [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  Scroll through the contact list. Check that each person is listed and verify the contents of the fields for accuracy.
+2. Scroll through the contact list. Check that each person is listed and verify the contents of the fields for accuracy.
 
 3. If needed, learn about removing duplicates: [Merge duplicate records for accounts, contacts, or leads](merge-duplicate-records-accounts-contacts-leads.md).  
   

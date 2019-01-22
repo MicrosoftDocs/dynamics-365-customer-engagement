@@ -1,15 +1,19 @@
 ---
-title: "msdyn_invoicefrequencydetail Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_invoicefrequencydetail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_invoicefrequencydetail entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_invoicefrequencydetail Entity Reference
 
@@ -634,6 +638,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_invoicefrequencydetail_SyncErrors"></a> msdyn_invoicefrequencydetail_SyncErrors
 
 Same as syncerror entity [msdyn_invoicefrequencydetail_SyncErrors](syncerror.md#BKMK_msdyn_invoicefrequencydetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -648,6 +653,7 @@ Same as syncerror entity [msdyn_invoicefrequencydetail_SyncErrors](syncerror.md#
 ### <a name="BKMK_msdyn_invoicefrequencydetail_DuplicateMatchingRecord"></a> msdyn_invoicefrequencydetail_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_invoicefrequencydetail_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_invoicefrequencydetail_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -662,6 +668,7 @@ Same as duplicaterecord entity [msdyn_invoicefrequencydetail_DuplicateMatchingRe
 ### <a name="BKMK_msdyn_invoicefrequencydetail_DuplicateBaseRecord"></a> msdyn_invoicefrequencydetail_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_invoicefrequencydetail_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_invoicefrequencydetail_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -676,6 +683,7 @@ Same as duplicaterecord entity [msdyn_invoicefrequencydetail_DuplicateBaseRecord
 ### <a name="BKMK_msdyn_invoicefrequencydetail_AsyncOperations"></a> msdyn_invoicefrequencydetail_AsyncOperations
 
 Same as asyncoperation entity [msdyn_invoicefrequencydetail_AsyncOperations](asyncoperation.md#BKMK_msdyn_invoicefrequencydetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -690,6 +698,7 @@ Same as asyncoperation entity [msdyn_invoicefrequencydetail_AsyncOperations](asy
 ### <a name="BKMK_msdyn_invoicefrequencydetail_MailboxTrackingFolders"></a> msdyn_invoicefrequencydetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_invoicefrequencydetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_invoicefrequencydetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -704,6 +713,7 @@ Same as mailboxtrackingfolder entity [msdyn_invoicefrequencydetail_MailboxTracki
 ### <a name="BKMK_msdyn_invoicefrequencydetail_UserEntityInstanceDatas"></a> msdyn_invoicefrequencydetail_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_invoicefrequencydetail_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_invoicefrequencydetail_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -718,6 +728,7 @@ Same as userentityinstancedata entity [msdyn_invoicefrequencydetail_UserEntityIn
 ### <a name="BKMK_msdyn_invoicefrequencydetail_ProcessSession"></a> msdyn_invoicefrequencydetail_ProcessSession
 
 Same as processsession entity [msdyn_invoicefrequencydetail_ProcessSession](processsession.md#BKMK_msdyn_invoicefrequencydetail_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -732,6 +743,7 @@ Same as processsession entity [msdyn_invoicefrequencydetail_ProcessSession](proc
 ### <a name="BKMK_msdyn_invoicefrequencydetail_BulkDeleteFailures"></a> msdyn_invoicefrequencydetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_invoicefrequencydetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_invoicefrequencydetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -746,6 +758,7 @@ Same as bulkdeletefailure entity [msdyn_invoicefrequencydetail_BulkDeleteFailure
 ### <a name="BKMK_msdyn_invoicefrequencydetail_PrincipalObjectAttributeAccesses"></a> msdyn_invoicefrequencydetail_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_invoicefrequencydetail_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_invoicefrequencydetail_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -797,6 +810,6 @@ See msdyn_invoicefrequency Entity [msdyn_msdyn_invoicefrequency_msdyn_invoicefre
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_invoicefrequencydetail?text=msdyn_invoicefrequencydetail EntityType" />

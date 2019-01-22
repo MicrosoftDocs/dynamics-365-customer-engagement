@@ -2,12 +2,25 @@
   "build": {
     "content": [
       {
+        "group": "usd-all",
         "files": [
-          "**/*.md", "**/*.yml"
+          "unified-service-desk/**/*.md",
+          "unified-service-desk/**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
-           "**/includes/**",
+          "**/includes/**"
+        ]        
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "unified-service-desk/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -16,6 +29,21 @@
       }
     ],
     "resource": [
+      {
+        "group": "usd-all",
+        "files": [
+          "unified-service-desk/**/*.png",
+          "unified-service-desk/**/*.jpg",
+          "unified-service-desk/**/*.gif",
+          "unified-service-desk/**/*.html",
+          "unified-service-desk/**/*.htm",
+          "unified-service-desk/**/*.txt"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
       {
         "files": [
           "**/*.png",
@@ -27,7 +55,8 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "unified-service-desk/**"
         ]
       }
     ],
@@ -35,10 +64,18 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
-      "contributors_to_exclude": [ "buck1ey", "bishalgoswami", "kathleenmcgrath", "marycc", "tinaburden", "almostdunh" ],
+      "contributors_to_exclude": [
+        "buck1ey",
+        "bishalgoswami",
+        "kathleenmcgrath",
+        "marycc",
+        "tinaburden",
+        "almostdunh"
+      ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
-      "feedback_product_url": "https://experience.dynamics.com/ideas/"
+      "feedback_product_url": "https://experience.dynamics.com/ideas/",
+      "search.appverid": "met150"
     },
     "fileMetadata": {
       "breadcrumb_path": {
@@ -59,41 +96,125 @@
         "outlook-app/**.*": "bc/toc.yml",
         "portals/**.*": "bc/toc.yml",
         "project-service/**.*": "bc/toc.yml",
-        "sales-business/**.*": "bc/toc.yml",        
+        "sales-business/**.*": "bc/toc.yml",
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
-        "unified-service-desk/**.*": "bc/toc.yml",
+        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
-        "voice-of-customer/**.*": "bc/toc.yml"
+        "voice-of-customer/**.*": "bc/toc.yml",
+        "channel-integration-framework/**.*": "bc/toc.yml"
       },
       "searchScope": {
-        "**.*": ["Dynamics 365", "Customer Engagement" ],
-        "admin/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "analytics/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "basics/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "customer-insights/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "customer-service/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "customize/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "developer/**.*": ["Dynamics 365", "Customer Engagement", "Developer" ],
-        "developer/insights-insideview/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "developer/online-management-api/**.*": ["Dynamics 365", "Customer Engagement", "Online Management API" ],
-        "field-service/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "gamification/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "linkedin/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "marketing/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "mobile-app/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "outlook-app/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "portals/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "project-service/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "sales-business/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "sales-enterprise/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "social-engagement/**.*": ["Dynamics 365", "MSE", "Customer Engagement" ],
-        "unified-service-desk/**.*": ["Dynamics 365", "Customer Engagement" ],
-        "voice-of-customer/**.*": ["Dynamics 365", "Customer Engagement" ]
+        "**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "admin/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "analytics/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "basics/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "customer-insights/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "customer-service/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "customize/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "developer/**.*": [
+          "Dynamics 365",
+          "Customer Engagement",
+          "Developer"
+        ],
+        "developer/insights-insideview/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "developer/online-management-api/**.*": [
+          "Dynamics 365",
+          "Customer Engagement",
+          "Online Management API"
+        ],
+        "field-service/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "gamification/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "linkedin/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "marketing/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "mobile-app/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "outlook-app/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "portals/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "project-service/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "sales-business/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "sales-enterprise/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "social-engagement/**.*": [
+          "Dynamics 365",
+          "MSE",
+          "Customer Engagement"
+        ],
+        "unified-service-desk/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "voice-of-customer/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "channel-integration-framework/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ]
       }
     },
     "template": [],
-    "dest": "customer-engagement"
+    "dest": "customer-engagement",
+    "groups": {            
+      "usd-all": {
+        "dest": "usd-all",
+        "moniker_range": ">= dynamics-usd-3"
+      }
+    },
+    "markdownEngineName": "markdig"
   }
 }

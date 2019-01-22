@@ -1,15 +1,19 @@
 ---
-title: "ResourceSpec Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ResourceSpec Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ResourceSpec entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ResourceSpec Entity Reference
 
@@ -622,6 +626,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_resourcespec_SyncErrors"></a> resourcespec_SyncErrors
 
 Same as syncerror entity [resourcespec_SyncErrors](syncerror.md#BKMK_resourcespec_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -636,6 +641,7 @@ Same as syncerror entity [resourcespec_SyncErrors](syncerror.md#BKMK_resourcespe
 ### <a name="BKMK_ResourceSpec_AsyncOperations"></a> ResourceSpec_AsyncOperations
 
 Same as asyncoperation entity [ResourceSpec_AsyncOperations](asyncoperation.md#BKMK_ResourceSpec_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -650,6 +656,7 @@ Same as asyncoperation entity [ResourceSpec_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_resourcespec_MailboxTrackingFolders"></a> resourcespec_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [resourcespec_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_resourcespec_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -664,6 +671,7 @@ Same as mailboxtrackingfolder entity [resourcespec_MailboxTrackingFolders](mailb
 ### <a name="BKMK_userentityinstancedata_resourcespec"></a> userentityinstancedata_resourcespec
 
 Same as userentityinstancedata entity [userentityinstancedata_resourcespec](userentityinstancedata.md#BKMK_userentityinstancedata_resourcespec) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -678,6 +686,7 @@ Same as userentityinstancedata entity [userentityinstancedata_resourcespec](user
 ### <a name="BKMK_ResourceSpec_BulkDeleteFailures"></a> ResourceSpec_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ResourceSpec_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ResourceSpec_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -692,6 +701,7 @@ Same as bulkdeletefailure entity [ResourceSpec_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_resourcespec_PrincipalObjectAttributeAccesses"></a> resourcespec_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [resourcespec_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_resourcespec_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -706,6 +716,7 @@ Same as principalobjectattributeaccess entity [resourcespec_PrincipalObjectAttri
 ### <a name="BKMK_ResourceSpec_Annotation"></a> ResourceSpec_Annotation
 
 Same as annotation entity [ResourceSpec_Annotation](annotation.md#BKMK_ResourceSpec_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -720,6 +731,7 @@ Same as annotation entity [ResourceSpec_Annotation](annotation.md#BKMK_ResourceS
 ### <a name="BKMK_ActivityPartyResourceSpec"></a> ActivityPartyResourceSpec
 
 Same as activityparty entity [ActivityPartyResourceSpec](activityparty.md#BKMK_ActivityPartyResourceSpec) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -734,6 +746,7 @@ Same as activityparty entity [ActivityPartyResourceSpec](activityparty.md#BKMK_A
 ### <a name="BKMK_resourcespec_resources"></a> resourcespec_resources
 
 Same as resource entity [resourcespec_resources](resource.md#BKMK_resourcespec_resources) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resource|
@@ -748,6 +761,7 @@ Same as resource entity [resourcespec_resources](resource.md#BKMK_resourcespec_r
 ### <a name="BKMK_resource_spec_services"></a> resource_spec_services
 
 Same as service entity [resource_spec_services](service.md#BKMK_resource_spec_services) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|service|
@@ -809,6 +823,6 @@ See team Entity [team_resource_specs](team.md#BKMK_team_resource_specs) One-To-M
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.resourcespec?text=resourcespec EntityType" />

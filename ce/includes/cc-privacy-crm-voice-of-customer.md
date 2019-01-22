@@ -33,24 +33,24 @@ By enabling Voice of the Customer for Dynamics 365, when you publish a survey fr
   
  Voice of the Customer for Dynamics 365 uses SQL Azure to store:  
   
--   Piped data  
+- Piped data  
   
--   Survey metadata  
+- Survey metadata  
   
--   Organization (tenant) data  
+- Organization (tenant) data  
   
- **Azure Blob Storage** ([https://azure.microsoft.com/services/storage/](https://azure.microsoft.com/services/storage/))  
+  **Azure Blob Storage** ([https://azure.microsoft.com/services/storage/](https://azure.microsoft.com/services/storage/))  
   
- Survey definitions and partially completed (saved) responses are stored to Azure Blob storage.  
+  Survey definitions and partially completed (saved) responses are stored to Azure Blob storage.  
   
- **Azure Content Delivery Network (CDN)** ([https://azure.microsoft.com/services/cdn/](https://azure.microsoft.com/services/cdn/))  
+  **Azure Content Delivery Network (CDN)** ([https://azure.microsoft.com/services/cdn/](https://azure.microsoft.com/services/cdn/))  
   
- The Voice of the Customer for Dynamics 365 solution uses Azure Content Delivery Network to serve static content to the survey runtime such as images (including uploaded images such as customer logos), JavaScript and CSS.  
+  The Voice of the Customer for Dynamics 365 solution uses Azure Content Delivery Network to serve static content to the survey runtime such as images (including uploaded images such as customer logos), JavaScript and CSS.  
   
- **Azure Active Directory** ([https://azure.microsoft.com/services/active-directory/](https://azure.microsoft.com/services/active-directory/))  
+  **Azure Active Directory** ([https://azure.microsoft.com/services/active-directory/](https://azure.microsoft.com/services/active-directory/))  
   
- The Voice of the Customer for Dynamics 365 solution uses Azure Active Directory Service to authenticate web services.  
+  The Voice of the Customer for Dynamics 365 solution uses Azure Active Directory Service to authenticate web services.  
   
- **Azure Service Bus** ([https://azure.microsoft.com/services/service-bus/](https://azure.microsoft.com/services/service-bus/))  
+  **Azure Service Bus** ([https://azure.microsoft.com/services/service-bus/](https://azure.microsoft.com/services/service-bus/))  
   
- Messages created when a survey is displayed / submitted are stored temporarily to an organization’s (tenant’s) Azure Service Bus Queue until the Azure worker role pushes the survey responses into an organization’s Dynamics 365 instance and persists them as Dynamics 365 entity records.
+  Messages created when a survey is displayed / submitted are stored temporarily to an organization’s (tenant’s) Azure Service Bus Queue until the Azure worker role pushes the survey responses into an organization’s Dynamics 365 instance and persists them as Dynamics 365 entity records.

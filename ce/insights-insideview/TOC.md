@@ -1,1 +1,1 @@
-﻿# [Insights, powered by InsideView](insights-powered-by-insideview.md)
+# [Insights, powered by InsideView](insights-powered-by-insideview.md)

@@ -1,13 +1,17 @@
 ---
-title: "ViewSelector methods (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "ViewSelector methods (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 37fbabaf-e2ce-4e46-a54e-e46bd884197b
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ViewSelector methods (Client API reference)
 
@@ -23,12 +27,12 @@ var viewSelector = gridContext.getViewSelector();
 
 Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getCurrentView](viewselector/getCurrentView.md)|[!INCLUDE[viewselector/includes/getCurrentView-description.md](viewselector/includes/getCurrentView-description.md)]|Read-only grid|
-|[isVisible](viewselector/isVisible.md)|[!INCLUDE[viewselector/includes/isVisible-description.md](viewselector/includes/isVisible-description.md)]|Read-only grid|
-|[setCurrentView](viewselector/setCurrentView.md)|[!INCLUDE[viewselector/includes/setCurrentView-description.md](viewselector/includes/setCurrentView-description.md)]|Read-only grid|
 
+|                       Name                       |                                                     Description                                                      | Available for  |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------|
+| [getCurrentView](viewselector/getCurrentView.md) | [!INCLUDE[viewselector/includes/getCurrentView-description.md](viewselector/includes/getCurrentView-description.md)] | Read-only grid |
+|      [isVisible](viewselector/isVisible.md)      |      [!INCLUDE[viewselector/includes/isVisible-description.md](viewselector/includes/isVisible-description.md)]      | Read-only grid |
+| [setCurrentView](viewselector/setCurrentView.md) | [!INCLUDE[viewselector/includes/setCurrentView-description.md](viewselector/includes/setCurrentView-description.md)] | Read-only grid |
 
 ### Related topics
 

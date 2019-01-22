@@ -1,26 +1,30 @@
 ---
-title: "Use XRM tooling to update data (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Use CrmServiceClient class to update data on Dynamics 365"
-ms.custom: ""
+title: "Use XRM tooling to update data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Use CrmServiceClient class to update data on Dynamics 365 for Customer Engagement"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8ec3d4ca-d836-4e7e-b2bf-9d9f806bd145
 caps.latest.revision: 14
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use XRM tooling to update data
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-There are two methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for updating data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement: <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.UpdateEntity(System.String,System.String,System.Guid,System.Collections.Generic.Dictionary{System.String,Microsoft.Xrm.Tooling.Connector.CrmDataTypeWrapper},System.String,System.Boolean,System.Guid)> and <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.UpdateStateAndStatusForEntity(System.String,System.Guid,System.String,System.String,System.Guid)>.  
+There are two methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for updating data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps: <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.UpdateEntity(System.String,System.String,System.Guid,System.Collections.Generic.Dictionary{System.String,Microsoft.Xrm.Tooling.Connector.CrmDataTypeWrapper},System.String,System.Boolean,System.Guid)> and <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.UpdateStateAndStatusForEntity(System.String,System.Guid,System.String,System.String,System.Guid)>.  
   
  An update action using XRM Tooling API requires a data payload. The data payload takes the form of a Dictionary\<string, CrmDataTypeWrapper> object. <xref:Microsoft.Xrm.Tooling.Connector.CrmDataTypeWrapper> is used to inform the interface what sort of handling needs to be applied to the data point you are referencing.  
   
@@ -120,6 +124,6 @@ else
 ### See also  
 
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
- [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)   
+ [Use XRM Tooling to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)   
  [Work with attribute metadata](../org-service/work-attribute-metadata.md)

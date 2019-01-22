@@ -1,37 +1,41 @@
 ---
-title: "Sales literature entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sales literature entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Create and manage sales literature items to associate attachments and articles to enrich an organization’s sales information."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sales literature entities, sales literature items and attachments"
-  - "file attachments, see 'sales literature entities'"
-  - "CAD files, see 'sales literature entities'"
-  - "organizing sales literature into categories and types, sales literature entities"
-  - "brochures, see 'sales literature entities'"
-  - "literature library"
-  - "sales literature items, defined and explained"
-  - "marketing encyclopedia"
-  - "sales literature items"
-  - "sales literature entities, central repository for sales literature"
-  - "subject manager, see 'sales literature entities'"
-  - "sales literature entities, brochures, CAD files, and other attachments to sales literature"
-  - "sales literature entities, introduction"
-  - "knowledge base, see 'sales literature entities'"
-  - "sales literature entities, organizing sales literature into categories and types"
-  - "sales literature entities, sales literature records"
+  - sales literature entities, sales literature items and attachments
+  - file attachments, see 'sales literature entities'
+  - CAD files, see 'sales literature entities'
+  - organizing sales literature into categories and types, sales literature entities
+  - brochures, see 'sales literature entities'
+  - literature library
+  - sales literature items, defined and explained
+  - marketing encyclopedia
+  - sales literature items
+  - sales literature entities, central repository for sales literature
+  - subject manager, see 'sales literature entities'
+  - sales literature entities, brochures, CAD files, and other attachments to sales literature
+  - sales literature entities, introduction
+  - knowledge base, see 'sales literature entities'
+  - sales literature entities, organizing sales literature into categories and types
+  - sales literature entities, sales literature records
 ms.assetid: ef65e4bf-d29c-48f6-9325-eccf8e6bba8f
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sales literature entities
 
@@ -47,37 +51,37 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in [!I
   
  The basic operations supported in the marketing encyclopedia include the following:  
   
--   Create a sales literature item  
+- Create a sales literature item  
   
--   View a sales literature item  
+- View a sales literature item  
   
--   Edit a sales literature item  
+- Edit a sales literature item  
   
--   Delete a sales literature item  
+- Delete a sales literature item  
   
--   Search for a sales literature item  
+- Search for a sales literature item  
   
--   Upload an attachment and attach it to a sales literature item  
+- Upload an attachment and attach it to a sales literature item  
   
- You can create a searchable marketing encyclopedia for storing various sales and marketing literature. As an example, a sales literature library might include the following:  
+  You can create a searchable marketing encyclopedia for storing various sales and marketing literature. As an example, a sales literature library might include the following:  
   
--   Product information  
+- Product information  
   
--   Presentations and brochures  
+- Presentations and brochures  
   
--   Policies and procedures  
+- Policies and procedures  
   
--   Sales literature  
+- Sales literature  
   
--   White papers  
+- White papers  
   
--   Competitive information  
+- Competitive information  
   
--   Price lists  
+- Price lists  
   
--   Annual reports  
+- Annual reports  
   
--   Manuals  
+- Manuals  
   
 ## In This Section  
  [SalesLiterature Entity](entities/salesliterature.md)  
@@ -85,6 +89,6 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in [!I
  [SalesLiteratureItem Entity](entities/salesliteratureitem.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)

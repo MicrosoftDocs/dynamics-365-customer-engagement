@@ -87,7 +87,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         _roleId = salesRole.Id;
 
                         // Associate the user with the role.
-                        if (_roleId != Guid.Empty &amp;&amp; _userId != Guid.Empty)
+                        if (_roleId != Guid.Empty && _userId != Guid.Empty)
                         {
                             _serviceProxy.Associate(
                                         "systemuser",

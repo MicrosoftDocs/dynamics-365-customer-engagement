@@ -1,19 +1,26 @@
 ---
 title: "Analytics for sources in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on the various data sources in Social Engagement."
-keywords: "sources, analytics, twitter, reddit, facebook, news, blogs, youtube, forums, rss"
+keywords: sources, analytics, twitter, reddit, facebook, news, blogs, youtube, forums, rss
 ms.date: 03/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Analyze sources of posts in your data set

@@ -1,27 +1,35 @@
 ---
-title: "Register and deploy custom plug-in to use your preferred geospatial data provider (Developer Guide for Dynamics 365 Field Service) | MicrosoftDocs"
-description: "Provides information on how to register and deploy your custom plug-in assembly to use geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service."
-ms.custom:
+title: "Register and deploy custom plug-in to use your preferred geospatial data provider (Developer Guide for Dynamics 365 for Customer Engagement Field Service) | MicrosoftDocs"
+description: "Provides information on how to register and deploy your custom plug-in assembly to use geospatial data providers other than the default Bing Maps in Dynamics 365 for Customer Engagement for Field Service."
+ms.custom: 
   - dyn365-developer
   - dyn365-customerservice
 ms.date: 01/29/2018
-searchScope:  
+searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-  - "project-service"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+  - field-service
+  - project-service
+ms.tgt_pltfrm: 
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2a66c688-24af-4c06-8ccd-43f7d1b055e1
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 # Register and deploy custom plug-in to use your preferred geospatial data provider
 
@@ -57,20 +65,20 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
 1. Get the Plug-in Registration Tool. [!INCLUDE[proc-download-plugin-registration-tool](../../includes/proc-download-plugin-registration-tool.md)]
 2. Navigate to the `[Your folder]\Tools\PluginRegistration` folder, and double-click the **PluginRegistration.exe** file to run the tool.
 3. Click **CREATE NEW CONNECTION**.
-4. In the **Login** dialog, specify the credentials to connect to your Dynamics 365 instance, and click **Login**.
-5. If you have access to multiple organizations in the Dynamics 365 instance, you are prseneted with a list of organizations to choose to connect to. Otherwise, your default organization is used.
+4. In the **Login** dialog, specify the credentials to connect to your Dynamics 365 for Customer Engagement instance, and click **Login**.
+5. If you have access to multiple organizations in the Dynamics 365 for Customer Engagement instance, you are prseneted with a list of organizations to choose to connect to. Otherwise, your default organization is used.
 6. You should see a collapsed list of registered plug-in or custom workflow activity assemblies. Select **Register** > **Register New Assembly**.
 7. In the **Register New Assembly** dialog box:
     
-    - Under the **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
-    - Under the **Step 2** section, select both the plug-ins.
-    - Under the **Step 3** section, select the **Sandbox** option.
-    - Under the **Step 4** section, select the **Database** option.
-    - Select **Register Selected Plugins**.
+   - Under the **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
+   - Under the **Step 2** section, select both the plug-ins.
+   - Under the **Step 3** section, select the **Sandbox** option.
+   - Under the **Step 4** section, select the **Database** option.
+   - Select **Register Selected Plugins**.
 
-    ![](../media/FS-register-plugin-assembly.png)
+     ![](../media/FS-register-plugin-assembly.png)
 
-    The **CustomPlugin-FS-Geospatial.dll** assembly and the two plug-ins for the msdyn_GeocodeAddress and msdyn_RetrieveDistanceMatrix are now registered and deployed to the server.
+     The **CustomPlugin-FS-Geospatial.dll** assembly and the two plug-ins for the msdyn_GeocodeAddress and msdyn_RetrieveDistanceMatrix are now registered and deployed to the server.
 
 8. The next step is to register a step for each action. A *step* refers to the SDK message processing step entity that is used to configure when and how the plug-in is to be executed.
 

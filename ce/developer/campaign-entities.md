@@ -1,29 +1,33 @@
 ---
-title: "Campaign entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Campaign entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "campaign entities, introduction"
-  - "comparing campaigns and quick campaigns"
-  - "campaign response, definition"
-  - "campaigns and quick campaigns, comparing"
-  - "campaigns and quick campaigns, about"
-  - "quick campaign, definition"
-  - "campaign, definition"
-  - "campaign activities, definition"
+  - campaign entities, introduction
+  - comparing campaigns and quick campaigns
+  - campaign response, definition
+  - campaigns and quick campaigns, comparing
+  - campaigns and quick campaigns, about
+  - quick campaign, definition
+  - campaign, definition
+  - campaign activities, definition
 ms.assetid: fd788b2b-eab0-4f0c-b48e-911cd8aad69b
 caps.latest.revision: 28
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Campaign entities
 
@@ -38,13 +42,13 @@ A *campaign* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is d
 ## Campaigns and Quick Campaigns  
  A campaign or a quick campaign can be used to accomplish the following:  
   
--   Create campaign activities to communicate with a customer, such as sending an email, a letter, or making a telephone call.  
+- Create campaign activities to communicate with a customer, such as sending an email, a letter, or making a telephone call.  
   
--   Use marketing lists to distribute the campaign activities. Marketing lists are usually assembled based on certain criteria, such as customers that previously bought a particular product or used a particular service.  
+- Use marketing lists to distribute the campaign activities. Marketing lists are usually assembled based on certain criteria, such as customers that previously bought a particular product or used a particular service.  
   
--   Analyze campaign responses to the campaign activities.  
+- Analyze campaign responses to the campaign activities.  
   
- The following table compares campaigns and quick campaigns:  
+  The following table compares campaigns and quick campaigns:  
   
 |Feature|Campaign|Quick Campaign|  
 |-------------|--------------|--------------------|  

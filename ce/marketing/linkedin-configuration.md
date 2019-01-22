@@ -1,24 +1,37 @@
 ---
 title: "Assign security roles, set up LinkedIn field mappings and matching strategy (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Map lead fields and match leads between LinkedIn to Dynamics 365 for Marketing"
-keywords: "LinkedIn; Lead Gen Forms; lead; connector"
+keywords: LinkedIn; Lead Gen Forms; lead; connector
 ms.date: 03/27/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e41ac66c-19f6-4671-a6e4-e4363a86b898
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration and define a lead matching strategy
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Administrators can use the settings pages under the **Settings** > **Advanced settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** heading to configure the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature. A few [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] security roles are also provided to let administrators control access to these features.
+
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 ## Enable users to work with the connector and assign security roles to users
 
@@ -29,7 +42,7 @@ LinkedIn Lead Gen provides dedicated security roles, which you assign to users s
 
 A third role, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound, is an internal security role used to sync data.
 
-Assign these security roles to users who you want to provide access to the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx#BKMK_AssignSecurity).
+Assign these security roles to users who you want to provide access to the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [Create users in Dynamics 365 for Customer Engagement apps (online) and assign security roles](../admin/create-users-assign-online-security-roles.md).
 
 ## Configure a matching strategy to update leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen ads
 
@@ -43,40 +56,40 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategy**.
 
-1. To create the matching strategy, select **New**, enter a **Name**, and then select **Save**.
+2. To create the matching strategy, select **New**, enter a **Name**, and then select **Save**.
 
-1. To add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping record, select **Add**, and then enter the name of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member field.
+3. To add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping record, select **Add**, and then enter the name of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member field.
 
-1. To add the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mapping** record to this matching strategy, select it.
+4. To add the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mapping** record to this matching strategy, select it.
 
 ### Activate a different LinkedIn lead matching strategy
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategy**.
 
-1. In the list, select the matching strategy that you want to activate.
+2. In the list, select the matching strategy that you want to activate.
 
-1. In the **Activate** menu in the matching strategy details, select **Yes**.
+3. In the **Activate** menu in the matching strategy details, select **Yes**.
 
-1. If another matching strategy is active, it will become deactivated.
+4. If another matching strategy is active, it will become deactivated.
 
 ### Edit a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matching strategy
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategy**.
 
-1. In the list, select the matching strategy that you want to edit.
+2. In the list, select the matching strategy that you want to edit.
 
-1. To add an additional [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping record, select **Add**, and then enter the name of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member field.
+3. To add an additional [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping record, select **Add**, and then enter the name of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member field.
 
-1. To remove a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping record, select **Delete**.
+4. To remove a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping record, select **Delete**.
 
 ### Delete a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matching strategy
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategy**.
 
-1. Select the check box for the lead matching strategy you want to delete.
+2. Select the check box for the lead matching strategy you want to delete.
     You can't delete the activated lead matching strategy.
 
-1. Select **Delete**, and then confirm your deletion.
+3. Select **Delete**, and then confirm your deletion.
 
 ## Configure [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mapping
 
@@ -86,29 +99,29 @@ The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration pro
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mappings**.
 
-1. Select **New**. 
+2. Select **New**. 
 
-1. Enter a name for the field mapping, and then select the **Lead Field** that you want to map this to.
+3. Enter a name for the field mapping, and then select the **Lead Field** that you want to map this to.
 
-1. To create the new field mapping, select **Save & Close**.
+4. To create the new field mapping, select **Save & Close**.
 
 ### Edit an existing field mapping
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mappings**.
 
-1. Select the field mapping that you want to edit.
+2. Select the field mapping that you want to edit.
 
-1. Update the **Name** or the **Lead Field** for the field mapping.
+3. Update the **Name** or the **Lead Field** for the field mapping.
 
-1. To update the new field mapping, select **Save & Close**.
+4. To update the new field mapping, select **Save & Close**.
 
 ### Remove an existing field mapping
 
 1. Go to **Settings** > **Advanced Settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mappings**.
 
-1. Select the field mapping that you want to remove.
+2. Select the field mapping that you want to remove.
 
-1. To remove the field mapping, select **Delete** and confirm the deletion.
+3. To remove the field mapping, select **Delete** and confirm the deletion.
 
 ### See also
 [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)

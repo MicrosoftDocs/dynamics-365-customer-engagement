@@ -1,19 +1,23 @@
 ---
-title: "Types of calendars (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Types of calendars (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6f88c4ff-876e-4108-885f-98700436d461
 caps.latest.revision: 11
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Types of calendars
 

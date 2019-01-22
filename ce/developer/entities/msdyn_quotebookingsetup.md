@@ -1,15 +1,19 @@
 ---
-title: "msdyn_quotebookingsetup Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_quotebookingsetup Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_quotebookingsetup entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_quotebookingsetup Entity Reference
 
@@ -1409,6 +1413,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_quotebookingsetup_SyncErrors"></a> msdyn_quotebookingsetup_SyncErrors
 
 Same as syncerror entity [msdyn_quotebookingsetup_SyncErrors](syncerror.md#BKMK_msdyn_quotebookingsetup_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1423,6 +1428,7 @@ Same as syncerror entity [msdyn_quotebookingsetup_SyncErrors](syncerror.md#BKMK_
 ### <a name="BKMK_msdyn_quotebookingsetup_DuplicateMatchingRecord"></a> msdyn_quotebookingsetup_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_quotebookingsetup_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotebookingsetup_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1437,6 +1443,7 @@ Same as duplicaterecord entity [msdyn_quotebookingsetup_DuplicateMatchingRecord]
 ### <a name="BKMK_msdyn_quotebookingsetup_DuplicateBaseRecord"></a> msdyn_quotebookingsetup_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_quotebookingsetup_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotebookingsetup_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1451,6 +1458,7 @@ Same as duplicaterecord entity [msdyn_quotebookingsetup_DuplicateBaseRecord](dup
 ### <a name="BKMK_msdyn_quotebookingsetup_AsyncOperations"></a> msdyn_quotebookingsetup_AsyncOperations
 
 Same as asyncoperation entity [msdyn_quotebookingsetup_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotebookingsetup_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1465,6 +1473,7 @@ Same as asyncoperation entity [msdyn_quotebookingsetup_AsyncOperations](asyncope
 ### <a name="BKMK_msdyn_quotebookingsetup_MailboxTrackingFolders"></a> msdyn_quotebookingsetup_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_quotebookingsetup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotebookingsetup_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1479,6 +1488,7 @@ Same as mailboxtrackingfolder entity [msdyn_quotebookingsetup_MailboxTrackingFol
 ### <a name="BKMK_msdyn_quotebookingsetup_UserEntityInstanceDatas"></a> msdyn_quotebookingsetup_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_quotebookingsetup_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotebookingsetup_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1493,6 +1503,7 @@ Same as userentityinstancedata entity [msdyn_quotebookingsetup_UserEntityInstanc
 ### <a name="BKMK_msdyn_quotebookingsetup_ProcessSession"></a> msdyn_quotebookingsetup_ProcessSession
 
 Same as processsession entity [msdyn_quotebookingsetup_ProcessSession](processsession.md#BKMK_msdyn_quotebookingsetup_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1507,6 +1518,7 @@ Same as processsession entity [msdyn_quotebookingsetup_ProcessSession](processse
 ### <a name="BKMK_msdyn_quotebookingsetup_BulkDeleteFailures"></a> msdyn_quotebookingsetup_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_quotebookingsetup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotebookingsetup_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1521,6 +1533,7 @@ Same as bulkdeletefailure entity [msdyn_quotebookingsetup_BulkDeleteFailures](bu
 ### <a name="BKMK_msdyn_quotebookingsetup_PrincipalObjectAttributeAccesses"></a> msdyn_quotebookingsetup_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_quotebookingsetup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotebookingsetup_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1535,6 +1548,7 @@ Same as principalobjectattributeaccess entity [msdyn_quotebookingsetup_Principal
 ### <a name="BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingincident_QuoteBookingSetup"></a> msdyn_msdyn_quotebookingsetup_msdyn_quotebookingincident_QuoteBookingSetup
 
 Same as msdyn_quotebookingincident entity [msdyn_msdyn_quotebookingsetup_msdyn_quotebookingincident_QuoteBookingSetup](msdyn_quotebookingincident.md#BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingincident_QuoteBookingSetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingincident|
@@ -1549,6 +1563,7 @@ Same as msdyn_quotebookingincident entity [msdyn_msdyn_quotebookingsetup_msdyn_q
 ### <a name="BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingproduct_QuoteBookingSetup"></a> msdyn_msdyn_quotebookingsetup_msdyn_quotebookingproduct_QuoteBookingSetup
 
 Same as msdyn_quotebookingproduct entity [msdyn_msdyn_quotebookingsetup_msdyn_quotebookingproduct_QuoteBookingSetup](msdyn_quotebookingproduct.md#BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingproduct_QuoteBookingSetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingproduct|
@@ -1563,6 +1578,7 @@ Same as msdyn_quotebookingproduct entity [msdyn_msdyn_quotebookingsetup_msdyn_qu
 ### <a name="BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservice_QuoteBookingSetup"></a> msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservice_QuoteBookingSetup
 
 Same as msdyn_quotebookingservice entity [msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservice_QuoteBookingSetup](msdyn_quotebookingservice.md#BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservice_QuoteBookingSetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservice|
@@ -1577,6 +1593,7 @@ Same as msdyn_quotebookingservice entity [msdyn_msdyn_quotebookingsetup_msdyn_qu
 ### <a name="BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservicetask_QuoteBookingSetup"></a> msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservicetask_QuoteBookingSetup
 
 Same as msdyn_quotebookingservicetask entity [msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservicetask_QuoteBookingSetup](msdyn_quotebookingservicetask.md#BKMK_msdyn_msdyn_quotebookingsetup_msdyn_quotebookingservicetask_QuoteBookingSetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservicetask|
@@ -1663,6 +1680,6 @@ See quote Entity [msdyn_quote_msdyn_quotebookingsetup_Quote](quote.md#BKMK_msdyn
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_quotebookingsetup?text=msdyn_quotebookingsetup EntityType" />

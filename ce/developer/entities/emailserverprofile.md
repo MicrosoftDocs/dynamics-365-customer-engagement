@@ -1,15 +1,19 @@
 ---
-title: "EmailServerProfile Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "EmailServerProfile Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the EmailServerProfile entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # EmailServerProfile Entity Reference
 
@@ -409,8 +413,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the Dynamics 365 message obtained during the Last Test|
-|DisplayName|Last Dynamics 365 Message|
+|Description|Shows the Dynamics 365 for Customer Engagementapps message obtained during the Last Test|
+|DisplayName|Last Dynamics 365 for Customer Engagement apps Message|
 |Format|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -1153,7 +1157,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1396,7 +1400,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1636,6 +1640,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_emailserverprofile_mailbox"></a> emailserverprofile_mailbox
 
 Same as mailbox entity [emailserverprofile_mailbox](mailbox.md#BKMK_emailserverprofile_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailbox|
@@ -1650,6 +1655,7 @@ Same as mailbox entity [emailserverprofile_mailbox](mailbox.md#BKMK_emailserverp
 ### <a name="BKMK_EmailServerProfile_SyncErrors"></a> EmailServerProfile_SyncErrors
 
 Same as syncerror entity [EmailServerProfile_SyncErrors](syncerror.md#BKMK_EmailServerProfile_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1664,6 +1670,7 @@ Same as syncerror entity [EmailServerProfile_SyncErrors](syncerror.md#BKMK_Email
 ### <a name="BKMK_tracelog_EmailServerProfile"></a> tracelog_EmailServerProfile
 
 Same as tracelog entity [tracelog_EmailServerProfile](tracelog.md#BKMK_tracelog_EmailServerProfile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|tracelog|
@@ -1678,6 +1685,7 @@ Same as tracelog entity [tracelog_EmailServerProfile](tracelog.md#BKMK_tracelog_
 ### <a name="BKMK_emailserverprofile_bulkdeletefailures"></a> emailserverprofile_bulkdeletefailures
 
 Same as bulkdeletefailure entity [emailserverprofile_bulkdeletefailures](bulkdeletefailure.md#BKMK_emailserverprofile_bulkdeletefailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1692,6 +1700,7 @@ Same as bulkdeletefailure entity [emailserverprofile_bulkdeletefailures](bulkdel
 ### <a name="BKMK_emailserverprofile_asyncoperations"></a> emailserverprofile_asyncoperations
 
 Same as asyncoperation entity [emailserverprofile_asyncoperations](asyncoperation.md#BKMK_emailserverprofile_asyncoperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1706,6 +1715,7 @@ Same as asyncoperation entity [emailserverprofile_asyncoperations](asyncoperatio
 ### <a name="BKMK_EmailServerProfile_Annotation"></a> EmailServerProfile_Annotation
 
 Same as annotation entity [EmailServerProfile_Annotation](annotation.md#BKMK_EmailServerProfile_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1720,6 +1730,7 @@ Same as annotation entity [EmailServerProfile_Annotation](annotation.md#BKMK_Ema
 ### <a name="BKMK_emailserverprofile_duplicatebaserecord"></a> emailserverprofile_duplicatebaserecord
 
 Same as duplicaterecord entity [emailserverprofile_duplicatebaserecord](duplicaterecord.md#BKMK_emailserverprofile_duplicatebaserecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1734,6 +1745,7 @@ Same as duplicaterecord entity [emailserverprofile_duplicatebaserecord](duplicat
 ### <a name="BKMK_emailserverprofile_duplicatematchingrecord"></a> emailserverprofile_duplicatematchingrecord
 
 Same as duplicaterecord entity [emailserverprofile_duplicatematchingrecord](duplicaterecord.md#BKMK_emailserverprofile_duplicatematchingrecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1748,6 +1760,7 @@ Same as duplicaterecord entity [emailserverprofile_duplicatematchingrecord](dupl
 ### <a name="BKMK_EmailServerProfile_Organization"></a> EmailServerProfile_Organization
 
 Same as organization entity [EmailServerProfile_Organization](organization.md#BKMK_EmailServerProfile_Organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|
@@ -1804,6 +1817,6 @@ See businessunit Entity [business_unit_emailserverprofile](businessunit.md#BKMK_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.emailserverprofile?text=emailserverprofile EntityType" />

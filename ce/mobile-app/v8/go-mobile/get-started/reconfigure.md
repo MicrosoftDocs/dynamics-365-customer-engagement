@@ -1,22 +1,29 @@
 ---
 title: "Reconfigure Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 2016-11-01
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
+author: mduelae
 ms.assetid: 15bd88e8-dd0d-4f4c-8402-c33fc5b20a16
 caps.latest.revision: 41
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Reconfigure Dynamics 365 for phones and tablets
 
@@ -29,13 +36,13 @@ manager: "kvivek"
   
  Here's how to do it:  
   
-1.  Tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
+1. Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
   
-2.  Tap **Settings**.  
+2. Tap **Settings**.  
   
-3.  Tap **Reconfigure**.  
+3. Tap **Reconfigure**.  
   
- You can now sign in to a different server or organization.  
+   You can now sign in to a different server or organization.  
   
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -4,20 +4,27 @@ description: "Review sales scenarios to get inspiration for how to efficiently l
 ms.date: 09/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
 author: m-hartmann
 ms.author: mhart
 ms.manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 # Social selling - grow your network and boost sales
 
 Buying decisions are often influenced by information found on the Internet and on social media. Salespeople can leverage social media for their sales processes, become thought leaders, and increase their social presence by participating in conversations about their products or services.
 
-This overview suggests ways you and your team can use [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to grow your network, find new leads, and boost sales. Stay on top of the conversation, and bring opportunities over to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further nurturing.
+This overview suggests ways you and your team can use [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to grow your network, find new leads, and boost sales. Stay on top of the conversation, and bring opportunities over to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps for further nurturing.
 
 ## Prerequisites
 
@@ -41,17 +48,17 @@ Learn how to install, configure, and personalize the Social Selling Assistant to
 
 4. [Grow your network](work-with-social-selling-assistant.md) by using the Social Selling Assistant.
 
-## Sales efficiency: create leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from social posts
+## Sales efficiency: create leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps from social posts
 
-Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can create a lead and assign it to the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
+Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can create a lead and assign it to the right salesperson so they can follow up with potential customers efficiently.
 
-1.  Get an [overview](link-posts-to-dynamics-365.md) of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
+1. Get an [overview](link-posts-to-dynamics-365.md) of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
-2.  [Set up the connection](connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+2. [Set up the connection](connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.
 
-3.  [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
+3. [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
 
-4.  [Create a lead from a post](create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+4. [Create a lead from a post](create-dynamics-365-record-from-social-post.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Sales automation: leverage intelligence to automatically find leads
 
@@ -63,14 +70,14 @@ You can create new leads from purchase intentions automatically by using automat
 
 If you're gathering posts that mention your main competitor, you can set up a trend alert to stay on top of what the competitor is doing&mdash;launching a new product, for example. Trend alerts are triggered when the number of newly found posts significantly exceeds the average number of posts. [Create email notifications that are automatically sent to a group of recipients](email-alerts.md) when a post or a trending change matches your filters. You can set the [sensitivity of a trend alert](email-alerts.md#set-a-trend-alerts-sensitivity) when you create it, or adjust it later.
 
-## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
+## Social analytics: add widgets with social insights to entity forms
 
 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
 
 ### See also
 
-[Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
-[Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+[Connect Dynamics 365 for Customer Engagement apps and Social Engagement](connect-dynamics-365-social-engagement.md)   
+[Link posts from Social Engagement to Dynamics 365 for Customer Engagement apps](link-posts-to-dynamics-365.md)   
 [Work with posts](work-with-posts.md)

@@ -83,13 +83,13 @@ namespace Microsoft.Crm.Sdk.Samples
                      join a in svcContext.AccountSet on c.ParentCustomerId.Id equals a.AccountId
                      where (a.Name == "Litware, Inc.")
                      where (c.Address1_StateOrProvince == "WA"
-                     &amp;&amp; (c.Address1_Telephone1.StartsWith("(206)") ||
+                     && (c.Address1_Telephone1.StartsWith("(206)") ||
                          c.Address1_Telephone1.StartsWith("(425)"))
-                     &amp;&amp; (c.Address1_City == "Redmond" ||
+                     && (c.Address1_City == "Redmond" ||
                          c.Address1_City == "Bellevue" ||
                          c.Address1_City == "Kirkland" ||
                          c.Address1_City == "Seattle")
-                     &amp;&amp; (c.EMailAddress1 != null &amp;&amp; c.EMailAddress1 != ""))
+                     && (c.EMailAddress1 != null && c.EMailAddress1 != ""))
                      select new Contact
                      {
                       ContactId = c.ContactId,

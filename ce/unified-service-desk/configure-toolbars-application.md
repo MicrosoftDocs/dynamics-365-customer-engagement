@@ -1,63 +1,70 @@
 ---
 title: "Configure toolbars in your application | MicrosoftDocs"
 description: "Learn about configuring toolbars in your application."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 04/24/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 61cf4cb9-71ed-40c8-bbfa-c846c45cfb74
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Configure toolbars in your application
 You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to create or manage buttons in an existing toolbar, or create new toolbars altogether. For an overview of toolbars, see [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md).  
   
-<a name="Create"></a>   
+<a name="Create"></a>  
+
 ## Create a toolbar  
  Before creating a toolbar, ensure that there is a toolbar container hosted control already configured. For more information, see [Toolbar Container (Hosted Control)](../unified-service-desk/toolbar-container-hosted-control.md).  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Toolbars**.  
+3. Click **Toolbars**.  
   
-4.  On the toolbars page, click **New** on the command bar.  
+4. On the toolbars page, click **New** on the command bar.  
   
-5.  On the **New Toolbar** page, and.  
+5. On the **New Toolbar** page, and.  
   
-    1.  Type a name for the new toolbar.  
+   1.  Type a name for the new toolbar.  
   
-    2.  Type a title for the toolbar, which is displayed on the left edge of the toolbar strip.  
+   2.  Type a title for the toolbar, which is displayed on the left edge of the toolbar strip.  
   
-    3.  Click **Save** to enable the **Buttons** area.  
+   3.  Click **Save** to enable the **Buttons** area.  
   
-6.  Under the **Buttons** area, click **+** to create a button to be placed on the toolbar.  
+6. Under the **Buttons** area, click **+** to create a button to be placed on the toolbar.  
   
-7.  On the **New Toolbar Button** page:  
+7. On the **New Toolbar Button** page:  
   
-    1.  Specify the name of the button.  
+   1.  Specify the name of the button.  
   
-    2.  Specify the name of the image file for the toolbar button.  
+   2.  Specify the name of the image file for the toolbar button.  
   
-    3.  In the **ButtonText** field, type the label of the button.  
+   3.  In the **ButtonText** field, type the label of the button.  
   
-    4.  To control the left to right order in which the buttons are displayed on the toolbar, specify an integer value in the **Order** field. The buttons are arranged from left to right in the ascending order.  
+   4.  To control the left to right order in which the buttons are displayed on the toolbar, specify an integer value in the **Order** field. The buttons are arranged from left to right in the ascending order.  
   
-    5.  Click **Save** to enable the **Actions** area.  
+   5.  Click **Save** to enable the **Actions** area.  
   
-8.  Under the **Actions** area, click **+** to add an action call to the button.  
+8. Under the **Actions** area, click **+** to add an action call to the button.  
   
 9. In the search box in Under the **Actions** area, type the name of the action call that you want to attach to the button. If you want to attach the button to a new action call, click **New**, and then add create an action call and then add it to the UII action. For more information, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
   
@@ -75,26 +82,28 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
 
 16. Click **Save**. 
   
-<a name="EditToolbar"></a>   
+<a name="EditToolbar"></a> 
+
 ## Add/remove button from existing toolbar  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Toolbars**.  
+3. Click **Toolbars**.  
   
-4.  On the toolbars page, click the name of the toolbar that you want to modify.  
+4. On the toolbars page, click the name of the toolbar that you want to modify.  
   
-5.  The next page displays the toolbar definition.  
+5. The next page displays the toolbar definition.  
   
-    1.  Add more buttons using the **Buttons** area. For more information, see steps 6-10 as in the previous section.  
+   1.  Add more buttons using the **Buttons** area. For more information, see steps 6-10 as in the previous section.  
   
-    2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (lable), order, and action call.  
+   2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (label), order, and action call.  
   
-    3.  Click **Save** to save the changes.
+   3.  Click **Save** to save the changes.
 
-<a name="StylesToolbar"></a>   
+<a name="StylesToolbar"></a>  
+ 
 ## Styles in toolbar
 
 You can now customize the toolbar in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the custom styles field in the Toolbar configuration window.  The Custom Styles field supports Extensible Application Markup Language (XAML) that defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources.
@@ -102,10 +111,10 @@ You can now customize the toolbar in [!INCLUDE[pn_unified_service_desk](../inclu
 The resources in the dictionary refers to other resources that are available on [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. Loading and parsing the XAML string is performed at runtime to create <xref:System.Windows.ResourceDictionary> and merge the resources of the toolbar control with the <xref:System.Windows.ResourceDictionary>. In addition, the <xref:System.Windows.ResourceDictionary> can have styles for button types inside a toolbar. Using the styles, you can customize the toolbars and buttons.
 
 **Sample 1:**
-  The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **About Tool bar**.
+  The sample XAML that defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **About Tool bar**.
 
-  > [!NOTE]
-  > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
+> [!NOTE]
+> You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
 
   ```XAML
   <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
@@ -445,8 +454,8 @@ The resources in the dictionary refers to other resources that are available on 
 **Sample 2:**
 The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **Main** toolbar.
 
-  > [!NOTE]
-  > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
+> [!NOTE]
+> You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
 
   ```XAML
   <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

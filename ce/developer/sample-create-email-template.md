@@ -1,20 +1,24 @@
 ---
-title: "Sample: Create an email using a template (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create an email using a template (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to instantiate an email record by using the InstantiateTemplateRequest message"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4a17a1b0-c111-4575-ae70-802b79a2c6ae
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create an email using a template
 

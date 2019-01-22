@@ -1,23 +1,27 @@
 ---
-title: "Sample: Distribute campaign activities to qualified marketing list (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Distribute campaign activities to qualified marketing list (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates how to distribute campaign activities to the qualified members of a marketing list."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "distributing campaign activities to marketing list members, marketing entities sample"
-  - "sample for distributing campaign activities to marketing list members"
+  - distributing campaign activities to marketing list members, marketing entities sample
+  - sample for distributing campaign activities to marketing list members
 ms.assetid: 204308af-df43-41d2-9382-50a01aff8f3c
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Distribute campaign activities to qualified marketing list
 

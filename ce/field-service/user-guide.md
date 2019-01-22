@@ -1,20 +1,27 @@
 ---
-title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+title: "User Guide (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 author: krbjoran
 ms.assetid: 8a311df9-3307-4524-85e5-76258d80ff86
 caps.latest.revision: 46
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # User Guide (Field Service)
 
@@ -23,13 +30,13 @@ manager: shellyha
 ## Overview  
  [Manage your field service operations](../field-service/overview.md)  
   
- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)  
+ [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Customer Engagement for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)  
   
 ## Get started  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)  
+ [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)  
   
 ## What's new  
- [What's new in Dynamics 365 for Field Service and Project Service Automation](../field-service/whats-new-field-service-project-service.md) 
+ [What's new in Dynamics 365 for Customer Engagement for Field Service and Project Service Automation](../field-service/whats-new-field-service-project-service.md) 
   
 ## Scheduling  
  [Configure the schedule board](../field-service/configure-schedule-board.md)  

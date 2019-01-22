@@ -36,12 +36,6 @@
     - name: App for Outlook
       tocHref: /dynamics365/customer-engagement/outlook-app/
       topicHref: /dynamics365/customer-engagement/outlook-app/overview
-    - name: Customer Insights
-      tocHref: /dynamics365/customer-engagement/insights-insideview/
-      topicHref: /dynamics365/customer-engagement/insights-insideview/insights-powered-by-insideview
-    - name: Customer Insights
-      tocHref: /dynamics365/customer-engagement/customer-insights/
-      topicHref: /dynamics365/customer-engagement/customer-insights/getstart
     - name: Company News Timeline
       tocHref: /dynamics365/customer-engagement/company-news-timeline/
       topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets
@@ -76,15 +70,37 @@
       tocHref: /dynamics365/customer-engagement/developer/
       topicHref: /dynamics365/customer-engagement/developer/index
       items:
+      - name: Client Scripting
+        tocHref: /dynamics365/customer-engagement/developer/clientapi/
+        topicHref: /dynamics365/customer-engagement/developer/clientapi/client-scripting
+        items:
+        - name: Client API reference
+          tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/
+          topicHref: /dynamics365/customer-engagement/developer/clientapi/reference
+          items:
+          - name: Xrm.WebApi
+            tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/
+            topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi
+            items:
+            - name: online
+              tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/online/
+              topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/online
+              items:
+              - name: execute
+                tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/execute
+                topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/execute
+              - name: executeMultiple
+                tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
+                topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
+      - name: Channel Integration Framework
+        tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
+        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework
       - name: Online Management API
         tocHref: /dynamics365/customer-engagement/developer/online-management-api/
         topicHref: /dynamics365/customer-engagement/developer/online-management-api
       - name: Extend Outlook Client
         tocHref: /dynamics365/customer-engagement/developer/outlook-client/
         topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
-    - name: Unified Service Desk
-      tocHref: /dynamics365/customer-engagement/unified-service-desk/
-      topicHref: /dynamics365/customer-engagement/unified-service-desk/index
     - name: Guidance
       tocHref: /dynamics365/customer-engagement/guidance/
       topicHref: /dynamics365/customer-engagement/guidance/

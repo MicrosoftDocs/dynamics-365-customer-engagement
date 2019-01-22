@@ -1,15 +1,19 @@
 ---
-title: "msdyn_bookingtimestamp Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bookingtimestamp Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bookingtimestamp entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_bookingtimestamp Entity Reference
 
@@ -414,7 +418,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -521,7 +525,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -718,6 +722,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_bookingtimestamp_ActivityPointers"></a> msdyn_bookingtimestamp_ActivityPointers
 
 Same as activitypointer entity [msdyn_bookingtimestamp_ActivityPointers](activitypointer.md#BKMK_msdyn_bookingtimestamp_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -732,6 +737,7 @@ Same as activitypointer entity [msdyn_bookingtimestamp_ActivityPointers](activit
 ### <a name="BKMK_msdyn_bookingtimestamp_msdyn_approvals"></a> msdyn_bookingtimestamp_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_bookingtimestamp_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_bookingtimestamp_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -746,6 +752,7 @@ Same as msdyn_approval entity [msdyn_bookingtimestamp_msdyn_approvals](msdyn_app
 ### <a name="BKMK_msdyn_bookingtimestamp_msdyn_bookingalerts"></a> msdyn_bookingtimestamp_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_bookingtimestamp_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_bookingtimestamp_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -760,6 +767,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingtimestamp_msdyn_bookingalerts](m
 ### <a name="BKMK_msdyn_bookingtimestamp_SyncErrors"></a> msdyn_bookingtimestamp_SyncErrors
 
 Same as syncerror entity [msdyn_bookingtimestamp_SyncErrors](syncerror.md#BKMK_msdyn_bookingtimestamp_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -774,6 +782,7 @@ Same as syncerror entity [msdyn_bookingtimestamp_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_bookingtimestamp_DuplicateMatchingRecord"></a> msdyn_bookingtimestamp_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_bookingtimestamp_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_bookingtimestamp_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -788,6 +797,7 @@ Same as duplicaterecord entity [msdyn_bookingtimestamp_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_bookingtimestamp_DuplicateBaseRecord"></a> msdyn_bookingtimestamp_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_bookingtimestamp_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_bookingtimestamp_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -802,6 +812,7 @@ Same as duplicaterecord entity [msdyn_bookingtimestamp_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_bookingtimestamp_SharePointDocumentLocations"></a> msdyn_bookingtimestamp_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_bookingtimestamp_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_bookingtimestamp_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -816,6 +827,7 @@ Same as sharepointdocumentlocation entity [msdyn_bookingtimestamp_SharePointDocu
 ### <a name="BKMK_msdyn_bookingtimestamp_SharePointDocuments"></a> msdyn_bookingtimestamp_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_bookingtimestamp_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_bookingtimestamp_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -830,6 +842,7 @@ Same as sharepointdocument entity [msdyn_bookingtimestamp_SharePointDocuments](s
 ### <a name="BKMK_msdyn_bookingtimestamp_AsyncOperations"></a> msdyn_bookingtimestamp_AsyncOperations
 
 Same as asyncoperation entity [msdyn_bookingtimestamp_AsyncOperations](asyncoperation.md#BKMK_msdyn_bookingtimestamp_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -844,6 +857,7 @@ Same as asyncoperation entity [msdyn_bookingtimestamp_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_bookingtimestamp_MailboxTrackingFolders"></a> msdyn_bookingtimestamp_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_bookingtimestamp_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bookingtimestamp_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -858,6 +872,7 @@ Same as mailboxtrackingfolder entity [msdyn_bookingtimestamp_MailboxTrackingFold
 ### <a name="BKMK_msdyn_bookingtimestamp_UserEntityInstanceDatas"></a> msdyn_bookingtimestamp_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_bookingtimestamp_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bookingtimestamp_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -872,6 +887,7 @@ Same as userentityinstancedata entity [msdyn_bookingtimestamp_UserEntityInstance
 ### <a name="BKMK_msdyn_bookingtimestamp_ProcessSession"></a> msdyn_bookingtimestamp_ProcessSession
 
 Same as processsession entity [msdyn_bookingtimestamp_ProcessSession](processsession.md#BKMK_msdyn_bookingtimestamp_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -886,6 +902,7 @@ Same as processsession entity [msdyn_bookingtimestamp_ProcessSession](processses
 ### <a name="BKMK_msdyn_bookingtimestamp_BulkDeleteFailures"></a> msdyn_bookingtimestamp_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_bookingtimestamp_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bookingtimestamp_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -900,6 +917,7 @@ Same as bulkdeletefailure entity [msdyn_bookingtimestamp_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_bookingtimestamp_PrincipalObjectAttributeAccesses"></a> msdyn_bookingtimestamp_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_bookingtimestamp_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bookingtimestamp_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -914,6 +932,7 @@ Same as principalobjectattributeaccess entity [msdyn_bookingtimestamp_PrincipalO
 ### <a name="BKMK_msdyn_bookingtimestamp_Appointments"></a> msdyn_bookingtimestamp_Appointments
 
 Same as appointment entity [msdyn_bookingtimestamp_Appointments](appointment.md#BKMK_msdyn_bookingtimestamp_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -928,6 +947,7 @@ Same as appointment entity [msdyn_bookingtimestamp_Appointments](appointment.md#
 ### <a name="BKMK_msdyn_bookingtimestamp_Emails"></a> msdyn_bookingtimestamp_Emails
 
 Same as email entity [msdyn_bookingtimestamp_Emails](email.md#BKMK_msdyn_bookingtimestamp_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -942,6 +962,7 @@ Same as email entity [msdyn_bookingtimestamp_Emails](email.md#BKMK_msdyn_booking
 ### <a name="BKMK_msdyn_bookingtimestamp_Faxes"></a> msdyn_bookingtimestamp_Faxes
 
 Same as fax entity [msdyn_bookingtimestamp_Faxes](fax.md#BKMK_msdyn_bookingtimestamp_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -956,6 +977,7 @@ Same as fax entity [msdyn_bookingtimestamp_Faxes](fax.md#BKMK_msdyn_bookingtimes
 ### <a name="BKMK_msdyn_bookingtimestamp_Letters"></a> msdyn_bookingtimestamp_Letters
 
 Same as letter entity [msdyn_bookingtimestamp_Letters](letter.md#BKMK_msdyn_bookingtimestamp_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -970,6 +992,7 @@ Same as letter entity [msdyn_bookingtimestamp_Letters](letter.md#BKMK_msdyn_book
 ### <a name="BKMK_msdyn_bookingtimestamp_PhoneCalls"></a> msdyn_bookingtimestamp_PhoneCalls
 
 Same as phonecall entity [msdyn_bookingtimestamp_PhoneCalls](phonecall.md#BKMK_msdyn_bookingtimestamp_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -984,6 +1007,7 @@ Same as phonecall entity [msdyn_bookingtimestamp_PhoneCalls](phonecall.md#BKMK_m
 ### <a name="BKMK_msdyn_bookingtimestamp_Tasks"></a> msdyn_bookingtimestamp_Tasks
 
 Same as task entity [msdyn_bookingtimestamp_Tasks](task.md#BKMK_msdyn_bookingtimestamp_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -998,6 +1022,7 @@ Same as task entity [msdyn_bookingtimestamp_Tasks](task.md#BKMK_msdyn_bookingtim
 ### <a name="BKMK_msdyn_bookingtimestamp_RecurringAppointmentMasters"></a> msdyn_bookingtimestamp_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_bookingtimestamp_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_bookingtimestamp_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1012,6 +1037,7 @@ Same as recurringappointmentmaster entity [msdyn_bookingtimestamp_RecurringAppoi
 ### <a name="BKMK_msdyn_bookingtimestamp_SocialActivities"></a> msdyn_bookingtimestamp_SocialActivities
 
 Same as socialactivity entity [msdyn_bookingtimestamp_SocialActivities](socialactivity.md#BKMK_msdyn_bookingtimestamp_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1026,6 +1052,7 @@ Same as socialactivity entity [msdyn_bookingtimestamp_SocialActivities](socialac
 ### <a name="BKMK_msdyn_bookingtimestamp_connections1"></a> msdyn_bookingtimestamp_connections1
 
 Same as connection entity [msdyn_bookingtimestamp_connections1](connection.md#BKMK_msdyn_bookingtimestamp_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1040,6 +1067,7 @@ Same as connection entity [msdyn_bookingtimestamp_connections1](connection.md#BK
 ### <a name="BKMK_msdyn_bookingtimestamp_connections2"></a> msdyn_bookingtimestamp_connections2
 
 Same as connection entity [msdyn_bookingtimestamp_connections2](connection.md#BKMK_msdyn_bookingtimestamp_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1054,6 +1082,7 @@ Same as connection entity [msdyn_bookingtimestamp_connections2](connection.md#BK
 ### <a name="BKMK_msdyn_bookingtimestamp_Annotations"></a> msdyn_bookingtimestamp_Annotations
 
 Same as annotation entity [msdyn_bookingtimestamp_Annotations](annotation.md#BKMK_msdyn_bookingtimestamp_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1068,6 +1097,7 @@ Same as annotation entity [msdyn_bookingtimestamp_Annotations](annotation.md#BKM
 ### <a name="BKMK_msdyn_bookingtimestamp_ServiceAppointments"></a> msdyn_bookingtimestamp_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_bookingtimestamp_ServiceAppointments](serviceappointment.md#BKMK_msdyn_bookingtimestamp_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1129,6 +1159,6 @@ See bookableresourcebooking Entity [msdyn_bookableresourcebooking_msdyn_bookingt
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bookingtimestamp?text=msdyn_bookingtimestamp EntityType" />

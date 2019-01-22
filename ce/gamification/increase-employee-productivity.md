@@ -1,14 +1,14 @@
 ---
-title: "Increase employee productivity with Dynamics 365 - Gamification | Microsoft Docs"
+title: "Increase employee productivity with Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
 description: "Learn how to drive results and keep your employees engaged while having fun."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-gamification
 ms.topic: home-page
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6a70c280-4e08-4382-bb53-af82d0bfa9fb
 author: m-hartmann
 ms.author: mhart
@@ -18,6 +18,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 26
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Keep your employees engaged and productive by using Gamification
@@ -71,17 +78,17 @@ Gamification refers to the use of game mechanics and experience design to engage
 
  We're sure you'll want to get started immediately using [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Follow these steps to start your first game:  
   
-1.  Install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
+1. Install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
   
-     [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
+    [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)  
   
-2.  Configure players and level the playing field by using positions.  
+2. Configure players and level the playing field by using positions.  
   
-    [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Import players and fans from Dynamics 365 (online) and manage their security roles](manage-players-fans.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Import players and fans from Dynamics 365 for Customer Engagement (online) and manage their security roles](manage-players-fans.md)  
   
-3.  Set up the game, KPIs, awards, and prizes, and kick off the contest.  
+3. Set up the game, KPIs, awards, and prizes, and kick off the contest.  
   
-    [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
 
 ## Product updates
 Have a look at [What's new in Gamification](release-notes.md) for release notes, the list of features we've added or updated, and a list of issues we've resolved.

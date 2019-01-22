@@ -1,23 +1,30 @@
 ---
-title: "Create a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+title: "Create a work order (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 9279d5ba-505c-4cf3-9e3f-1436ab7f52a4
 caps.latest.revision: 24
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Create a work order to coordinate and schedule resources and activities (Field Service)
 
@@ -45,7 +52,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made and an invoice is generated for the corresponding account.  
   
- ![Work order lifecycle in Dynamics 365 field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
+  ![Work order lifecycle in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 for Customer Engagement field service")  
   
 ||||||||  
 |-|-|-|-|-|-|-|  
@@ -57,9 +64,9 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 <a name="BKMK_newworkorder"></a>   
 ## Create a work order  
   
-1.  From the main menu, click **Field Service** > **Work orders**.  
+1. From the main menu, click **Field Service** > **Work orders**.  
   
-2.  Click **+New** in the upper-left corner.  
+2. Click **+New** in the upper-left corner.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -95,16 +102,16 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   
--   Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
+- Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
   
--   Go to the **Products** or **Services** section and click the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
+- Go to the **Products** or **Services** section and click the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
   
-    > [!NOTE]
-    >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
+  > [!NOTE]
+  >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
   
 ### See also  
     
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
  [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>

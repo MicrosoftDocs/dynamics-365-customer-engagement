@@ -1,13 +1,17 @@
 ---
-title: "removeOption (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "removeOption (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 09fd288c-d687-4976-b708-29a466fc35b1
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # removeOption (Client API reference)
 

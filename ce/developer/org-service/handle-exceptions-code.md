@@ -1,25 +1,29 @@
 ---
-title: "Handle exceptions in your code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This article discusses the exceptions that are returned from a Dynamics 365 Customer Engagement web service method call. The sample in this article highlights the common faults and exceptions that your application design should handle."
-ms.custom: ""
+title: "Handle exceptions in your code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This article discusses the exceptions that are returned from a Dynamics 365 for Customer Engagement web service method call. The sample in this article highlights the common faults and exceptions that your application design should handle."
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 02d0ad6c-eb76-4ea9-972f-c7647eef6c09
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Handle exceptions in your code
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web service method call. Your application design must catch and appropriately handle these exceptions. In the SDK .NET assemblies, all web service method calls use a communication channel to the server based on the [!INCLUDE[pn_WCF_long](../../includes/pn-wcf-long.md)] technology. In WCF terms, exceptions returned from the channel are called *faults*.  
+There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web service method call. Your application design must catch and appropriately handle these exceptions. In the SDK .NET assemblies, all web service method calls use a communication channel to the server based on the [!INCLUDE[pn_WCF_long](../../includes/pn-wcf-long.md)] technology. In WCF terms, exceptions returned from the channel are called *faults*.  
 
 <a name="BKMK_Common"></a>   
 
@@ -34,17 +38,17 @@ There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynami
   
  In addition to these exceptions and faults, your code must handle the following exceptions:  
   
--   [SecurityTokenValidationException](https://msdn.microsoft.com/library/system.identitymodel.tokens.securitytokenvalidationexception.aspx)  
+- [SecurityTokenValidationException](https://msdn.microsoft.com/library/system.identitymodel.tokens.securitytokenvalidationexception.aspx)  
   
--   [ExpiredSecurityTokenException](https://msdn.microsoft.com/library/system.servicemodel.security.expiredsecuritytokenexception.aspx)  
+- [ExpiredSecurityTokenException](https://msdn.microsoft.com/library/system.servicemodel.security.expiredsecuritytokenexception.aspx)  
   
--   [SecurityAccessDeniedException](https://msdn.microsoft.com/library/system.servicemodel.security.securityaccessdeniedexception.aspx)  
+- [SecurityAccessDeniedException](https://msdn.microsoft.com/library/system.servicemodel.security.securityaccessdeniedexception.aspx)  
   
--   [MessageSecurityException](https://msdn.microsoft.com/library/system.servicemodel.security.messagesecurityexception.aspx)  
+- [MessageSecurityException](https://msdn.microsoft.com/library/system.servicemodel.security.messagesecurityexception.aspx)  
   
--   [SecurityNegotiationException](https://msdn.microsoft.com/library/system.servicemodel.security.securitynegotiationexception.aspx)  
+- [SecurityNegotiationException](https://msdn.microsoft.com/library/system.servicemodel.security.securitynegotiationexception.aspx)  
   
- When connecting to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], a `SecurityAccessDeniedException` exception can be thrown if you use a valid [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] and your account is not associated with any [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization. A `MessageSecurityException` can be thrown if your [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] isn’t valid or there was an authentication failure.  
+  When connecting to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps, a `SecurityAccessDeniedException` exception can be thrown if you use a valid [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] and your account is not associated with any [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] appsorganization. A `MessageSecurityException` can be thrown if your [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] isn’t valid or there was an authentication failure.  
   
 <a name="BKMK_BusinessRuleErrors"></a>
 

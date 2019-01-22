@@ -1,15 +1,19 @@
 ---
-title: "ExpiredProcess Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ExpiredProcess Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ExpiredProcess entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ExpiredProcess Entity Reference
 
@@ -669,6 +673,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_lk_expiredprocess_workflowlogs"></a> lk_expiredprocess_workflowlogs
 
 Same as workflowlog entity [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_lk_expiredprocess_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -683,6 +688,7 @@ Same as workflowlog entity [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_
 ### <a name="BKMK_ExpiredProcess_SyncErrors"></a> ExpiredProcess_SyncErrors
 
 Same as syncerror entity [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredProcess_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -697,6 +703,7 @@ Same as syncerror entity [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredPr
 ### <a name="BKMK_ExpiredProcess_ProcessSessions"></a> ExpiredProcess_ProcessSessions
 
 Same as processsession entity [ExpiredProcess_ProcessSessions](processsession.md#BKMK_ExpiredProcess_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -763,6 +770,6 @@ See systemuser Entity [lk_expiredprocess_modifiedby](systemuser.md#BKMK_lk_expir
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.expiredprocess?text=expiredprocess EntityType" />

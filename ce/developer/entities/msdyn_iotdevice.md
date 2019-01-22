@@ -1,21 +1,25 @@
 ---
-title: "msdyn_iotdevice Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_iotdevice Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_iotdevice entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_iotdevice Entity Reference
 
 Represents a connected device that can registered with an IoT hub.
 
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution<br />
+**Added by**: IoT Connector for Microsoft Dynamics 365 for Customer Engagement Solution<br />
 
 ## Messages
 
@@ -792,6 +796,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_iotdevice_SyncErrors"></a> msdyn_iotdevice_SyncErrors
 
 Same as syncerror entity [msdyn_iotdevice_SyncErrors](syncerror.md#BKMK_msdyn_iotdevice_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -806,6 +811,7 @@ Same as syncerror entity [msdyn_iotdevice_SyncErrors](syncerror.md#BKMK_msdyn_io
 ### <a name="BKMK_msdyn_iotdevice_DuplicateMatchingRecord"></a> msdyn_iotdevice_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_iotdevice_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_iotdevice_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -820,6 +826,7 @@ Same as duplicaterecord entity [msdyn_iotdevice_DuplicateMatchingRecord](duplica
 ### <a name="BKMK_msdyn_iotdevice_DuplicateBaseRecord"></a> msdyn_iotdevice_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_iotdevice_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_iotdevice_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -834,6 +841,7 @@ Same as duplicaterecord entity [msdyn_iotdevice_DuplicateBaseRecord](duplicatere
 ### <a name="BKMK_msdyn_iotdevice_AsyncOperations"></a> msdyn_iotdevice_AsyncOperations
 
 Same as asyncoperation entity [msdyn_iotdevice_AsyncOperations](asyncoperation.md#BKMK_msdyn_iotdevice_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -848,6 +856,7 @@ Same as asyncoperation entity [msdyn_iotdevice_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_msdyn_iotdevice_MailboxTrackingFolders"></a> msdyn_iotdevice_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_iotdevice_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_iotdevice_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -862,6 +871,7 @@ Same as mailboxtrackingfolder entity [msdyn_iotdevice_MailboxTrackingFolders](ma
 ### <a name="BKMK_msdyn_iotdevice_UserEntityInstanceDatas"></a> msdyn_iotdevice_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_iotdevice_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_iotdevice_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -876,6 +886,7 @@ Same as userentityinstancedata entity [msdyn_iotdevice_UserEntityInstanceDatas](
 ### <a name="BKMK_msdyn_iotdevice_ProcessSession"></a> msdyn_iotdevice_ProcessSession
 
 Same as processsession entity [msdyn_iotdevice_ProcessSession](processsession.md#BKMK_msdyn_iotdevice_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -890,6 +901,7 @@ Same as processsession entity [msdyn_iotdevice_ProcessSession](processsession.md
 ### <a name="BKMK_msdyn_iotdevice_BulkDeleteFailures"></a> msdyn_iotdevice_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_iotdevice_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_iotdevice_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -904,6 +916,7 @@ Same as bulkdeletefailure entity [msdyn_iotdevice_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_msdyn_iotdevice_PrincipalObjectAttributeAccesses"></a> msdyn_iotdevice_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_iotdevice_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_iotdevice_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -918,6 +931,7 @@ Same as principalobjectattributeaccess entity [msdyn_iotdevice_PrincipalObjectAt
 ### <a name="BKMK_msdyn_iotdevice_connections1"></a> msdyn_iotdevice_connections1
 
 Same as connection entity [msdyn_iotdevice_connections1](connection.md#BKMK_msdyn_iotdevice_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -932,6 +946,7 @@ Same as connection entity [msdyn_iotdevice_connections1](connection.md#BKMK_msdy
 ### <a name="BKMK_msdyn_iotdevice_connections2"></a> msdyn_iotdevice_connections2
 
 Same as connection entity [msdyn_iotdevice_connections2](connection.md#BKMK_msdyn_iotdevice_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -946,6 +961,7 @@ Same as connection entity [msdyn_iotdevice_connections2](connection.md#BKMK_msdy
 ### <a name="BKMK_msdyn_iotdevice_Annotations"></a> msdyn_iotdevice_Annotations
 
 Same as annotation entity [msdyn_iotdevice_Annotations](annotation.md#BKMK_msdyn_iotdevice_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -960,6 +976,7 @@ Same as annotation entity [msdyn_iotdevice_Annotations](annotation.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_msdyn_iotdevice_msdyn_iotdevicecommand_Device"></a> msdyn_msdyn_iotdevice_msdyn_iotdevicecommand_Device
 
 Same as msdyn_iotdevicecommand entity [msdyn_msdyn_iotdevice_msdyn_iotdevicecommand_Device](msdyn_iotdevicecommand.md#BKMK_msdyn_msdyn_iotdevice_msdyn_iotdevicecommand_Device) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdevicecommand|
@@ -974,6 +991,7 @@ Same as msdyn_iotdevicecommand entity [msdyn_msdyn_iotdevice_msdyn_iotdevicecomm
 ### <a name="BKMK_msdyn_msdyn_iotdevice_msdyn_iotdeviceregistrationhistory_Device"></a> msdyn_msdyn_iotdevice_msdyn_iotdeviceregistrationhistory_Device
 
 Same as msdyn_iotdeviceregistrationhistory entity [msdyn_msdyn_iotdevice_msdyn_iotdeviceregistrationhistory_Device](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_msdyn_iotdevice_msdyn_iotdeviceregistrationhistory_Device) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdeviceregistrationhistory|
@@ -988,6 +1006,7 @@ Same as msdyn_iotdeviceregistrationhistory entity [msdyn_msdyn_iotdevice_msdyn_i
 ### <a name="BKMK_msdyn_msdyn_iotdevice_msdyn_iotalert_Device"></a> msdyn_msdyn_iotdevice_msdyn_iotalert_Device
 
 Same as msdyn_iotalert entity [msdyn_msdyn_iotdevice_msdyn_iotalert_Device](msdyn_iotalert.md#BKMK_msdyn_msdyn_iotdevice_msdyn_iotalert_Device) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotalert|
@@ -1059,6 +1078,6 @@ See msdyn_iotdevicecommand Entity [msdyn_msdyn_iotdevicecommand_msdyn_iotdevice_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_iotdevice?text=msdyn_iotdevice EntityType" />

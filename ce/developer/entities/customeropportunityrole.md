@@ -1,15 +1,19 @@
 ---
-title: "CustomerOpportunityRole Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "CustomerOpportunityRole Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the CustomerOpportunityRole entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # CustomerOpportunityRole Entity Reference
 
@@ -329,7 +333,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -468,7 +472,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -707,6 +711,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_CustomerOpportunityRole_SyncErrors"></a> CustomerOpportunityRole_SyncErrors
 
 Same as syncerror entity [CustomerOpportunityRole_SyncErrors](syncerror.md#BKMK_CustomerOpportunityRole_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -721,6 +726,7 @@ Same as syncerror entity [CustomerOpportunityRole_SyncErrors](syncerror.md#BKMK_
 ### <a name="BKMK_CustomerOpportunityRole_AsyncOperations"></a> CustomerOpportunityRole_AsyncOperations
 
 Same as asyncoperation entity [CustomerOpportunityRole_AsyncOperations](asyncoperation.md#BKMK_CustomerOpportunityRole_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -735,6 +741,7 @@ Same as asyncoperation entity [CustomerOpportunityRole_AsyncOperations](asyncope
 ### <a name="BKMK_customeropportunityrole_MailboxTrackingFolders"></a> customeropportunityrole_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [customeropportunityrole_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_customeropportunityrole_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -749,6 +756,7 @@ Same as mailboxtrackingfolder entity [customeropportunityrole_MailboxTrackingFol
 ### <a name="BKMK_userentityinstancedata_customeropportunityrole"></a> userentityinstancedata_customeropportunityrole
 
 Same as userentityinstancedata entity [userentityinstancedata_customeropportunityrole](userentityinstancedata.md#BKMK_userentityinstancedata_customeropportunityrole) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -763,6 +771,7 @@ Same as userentityinstancedata entity [userentityinstancedata_customeropportunit
 ### <a name="BKMK_CustomerOpportunityRole_ProcessSessions"></a> CustomerOpportunityRole_ProcessSessions
 
 Same as processsession entity [CustomerOpportunityRole_ProcessSessions](processsession.md#BKMK_CustomerOpportunityRole_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -777,6 +786,7 @@ Same as processsession entity [CustomerOpportunityRole_ProcessSessions](processs
 ### <a name="BKMK_CustomerOpportunityRole_BulkDeleteFailures"></a> CustomerOpportunityRole_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CustomerOpportunityRole_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CustomerOpportunityRole_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -791,6 +801,7 @@ Same as bulkdeletefailure entity [CustomerOpportunityRole_BulkDeleteFailures](bu
 ### <a name="BKMK_customeropportunityrole_PrincipalObjectAttributeAccesses"></a> customeropportunityrole_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [customeropportunityrole_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_customeropportunityrole_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -867,6 +878,6 @@ See relationshiprole Entity [relationship_role_customer_opportunity_roles](relat
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.customeropportunityrole?text=customeropportunityrole EntityType" />

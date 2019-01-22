@@ -1,15 +1,19 @@
 ---
-title: "QueueItem Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "QueueItem Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the QueueItem entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # QueueItem Entity Reference
 
@@ -448,7 +452,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -586,7 +590,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -921,6 +925,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_queueitem"></a> userentityinstancedata_queueitem
 
 Same as userentityinstancedata entity [userentityinstancedata_queueitem](userentityinstancedata.md#BKMK_userentityinstancedata_queueitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -935,6 +940,7 @@ Same as userentityinstancedata entity [userentityinstancedata_queueitem](userent
 ### <a name="BKMK_QueueItem_AsyncOperations"></a> QueueItem_AsyncOperations
 
 Same as asyncoperation entity [QueueItem_AsyncOperations](asyncoperation.md#BKMK_QueueItem_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -949,6 +955,7 @@ Same as asyncoperation entity [QueueItem_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_QueueItem_SyncErrors"></a> QueueItem_SyncErrors
 
 Same as syncerror entity [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -963,6 +970,7 @@ Same as syncerror entity [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_Sync
 ### <a name="BKMK_QueueItem_BulkDeleteFailures"></a> QueueItem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [QueueItem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QueueItem_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -977,6 +985,7 @@ Same as bulkdeletefailure entity [QueueItem_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_queueitem_principalobjectattributeaccess"></a> queueitem_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [queueitem_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_queueitem_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -991,6 +1000,7 @@ Same as principalobjectattributeaccess entity [queueitem_principalobjectattribut
 ### <a name="BKMK_QueueItem_ProcessSessions"></a> QueueItem_ProcessSessions
 
 Same as processsession entity [QueueItem_ProcessSessions](processsession.md#BKMK_QueueItem_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1222,6 +1232,6 @@ See systemuser Entity [lk_queueitembase_modifiedby](systemuser.md#BKMK_lk_queuei
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.queueitem?text=queueitem EntityType" />

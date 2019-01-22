@@ -1,26 +1,35 @@
 ---
-title: "Security roles and privileges for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Security roles and privileges | MicrosoftDocs"
+ms.custom: 
+ms.date: 09/13/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+  - PowerApps
 ms.assetid: 460766f2-4b19-4406-8fd0-fff46d4cbb5e
 caps.latest.revision: 21
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Security roles and privileges
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] <br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
+
+> [!TIP]
+> Check out the following video: [How to set up security roles in Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?linkid=2020433).
   
 ## Security roles  
  A security role defines how different users, such as salespeople, access different types of records. To control access to data, you can modify existing security roles, create new security roles, or change which security roles are assigned to each user. Each user can have multiple security roles.  
@@ -33,7 +42,7 @@ To control data access, you must set up an organizational structure that both pr
   
  *Task-based privileges*, at the bottom of the form, give a user privileges to perform specific tasks, such as publish articles.  
   
- The colored circles on the security role settings page define the access level for that privilege. Access levels determine how deep or high in the organizational business unit hierarchy the user can perform the specified privilege. The following table lists the levels of access in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], starting with the level that gives users the most access.  
+ The colored circles on the security role settings page define the access level for that privilege. Access levels determine how deep or high in the organizational business unit hierarchy the user can perform the specified privilege. The following table lists the levels of access in the app, starting with the level that gives users the most access.  
   
 |||  
 |-|-|  
@@ -48,7 +57,7 @@ To control data access, you must set up an organizational structure that both pr
   
 <a name="BKMK_privileges"></a>   
 ### Record-level privileges  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] has eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
+ [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] use eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
   
 |Privilege|Description|  
 |---------------|-----------------|  
@@ -69,6 +78,6 @@ To control data access, you must set up an organizational structure that both pr
  It’s not possible to remove access for a particular record. Any change to a security role privilege applies to all records of that record type.  
   
 ### See also  
- [Security concepts for Microsoft Dynamics 365](../admin/security-concepts.md)   
+ [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Create or edit a security role](../admin/create-edit-security-role.md)

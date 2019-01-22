@@ -1,27 +1,31 @@
 ---
-title: "Solution entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Solution entities (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Solutions let you create and package customizations as a single unit of software. This doc talks about solution entities"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "solution entities and their attributes, diagram of"
-  - "entities"
-  - "solution entities"
-  - "creating and packaging customizations as single units of software, solution entities and their attributes"
-  - "solution entities and their attributes, introduction"
-  - "solution entities and their attributes, creating and packaging customizations as single units of software"
+  - solution entities and their attributes, diagram of
+  - entities
+  - solution entities
+  - creating and packaging customizations as single units of software, solution entities and their attributes
+  - solution entities and their attributes, introduction
+  - solution entities and their attributes, creating and packaging customizations as single units of software
 ms.assetid: f3dd3e9f-7f4a-45e1-a65a-4d6863af88b6
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Solution entities
 
@@ -49,7 +53,7 @@ Solutions let you create and package customizations as a single unit of software
  [ImportJob Entity](entities/importjob.md)  
   
 ## Related Sections  
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)  
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)  
   
  [Work with Solutions](work-solutions.md)  
   

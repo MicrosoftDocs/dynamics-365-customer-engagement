@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-classes-generated-code-generation-tool.md",
+      "redirect_url": "../build-windows-client-applications-xrm-tools",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/admin/set-privacy-preferences-organization.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/settings-privacy-security",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/admin/integrate-with-microsoft-teams.md",
+      "redirect_url": "../basics/teams-integration",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/developer/export-solution-specific-version.md",
+      "redirect_url": "create-export-import-unmanaged-solution",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/field-service/fulfillment-preferences.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/common-scheduler/resource-scheduling-optimization.md",
+      "redirect_url": "../field-service/rso-overview",
+      "redirect_document_id": "true"
+    },
+    {
       "source_path": "ce/admin/embedded-intelligence.md",
       "redirect_url": "../sales-enterprise/embedded-intelligence",
       "redirect_document_id": "true"

@@ -1,25 +1,29 @@
 ---
-title: "Sample: Complex LINQ queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Complex LINQ queries (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use .NET Language-Integrated Query (LINQ) with Microsoft Dynamics CRM 2015 and Microsoft Dynamics CRM Online 2015 Update"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sample for creating complex LINQ queries"
-  - "complex LINQ queries sample"
-  - "LINQ query examples and samples, sample for creating complex LINQ queries"
-  - "creating complex LINQ queries sample"
+  - sample for creating complex LINQ queries
+  - complex LINQ queries sample
+  - LINQ query examples and samples, sample for creating complex LINQ queries
+  - creating complex LINQ queries sample
 ms.assetid: e7b83553-e710-4e7b-865c-5a8cd31a8166
 caps.latest.revision: 26
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Complex LINQ queries
 

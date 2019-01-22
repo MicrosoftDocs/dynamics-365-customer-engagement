@@ -1,0 +1,28 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+/ce/admin/                                    @jimholtz
+/ce/analytics/                                @Mattp123
+/ce/common-scheduler/	                        @shellyhaverkamp
+/ce/company-news-timeline/                    @jimholtz
+/ce/customer-insights/	                      @jimholtz
+/ce/customer-service/                         @shubhadaj
+/ce/customize/	                              @Mattp123
+/ce/developer/	                              @JimDaly
+/ce/field-service/	                          @shellyhaverkamp
+/ce/gamification/	                            @shellyhaverkamp
+/ce/guidance/	                                @JimDaly	
+/ce/linkedin/	                                @shellyhaverkamp
+/ce/live-assist/	                            @shellyhaverkamp
+/ce/marketing/	                              @shellyhaverkamp
+/ce/mobile-app/	                              @jimholtz
+/ce/outlook-app/	                            @jimholtz
+/ce/portals/	                                @shubhadaj
+/ce/project-service/	                        @shellyhaverkamp
+/ce/sales-enterprise/	                        @shubhadaj
+/ce/snippets/	                                @JimDaly
+/ce/social-engagement/	                      @shellyhaverkamp
+/ce/unified-service-desk/	                    @shubhadaj
+/ce/voice-of-customer/	                      @shubhadaj
+/ce/marketing/developer/                      @KumarVivek
+/ce/admin/readme-9.md                         @ReneeW-CPub @almostdunh

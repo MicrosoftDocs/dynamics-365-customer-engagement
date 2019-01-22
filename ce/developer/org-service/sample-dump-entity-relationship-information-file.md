@@ -1,24 +1,28 @@
 ---
-title: "Sample: Dump entity relationship information to a file (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Dump entity relationship information to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write out all the entity relationship metadata to an XML file. It uses the RetrieveAllEntitiesRequest message. "
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 41d4f199-7004-4458-a39a-5f9025550932
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Dump entity relationship information to a file
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with entity relationships](https://code.msdn.microsoft.com/Samples-of-entity-218db099).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Work with entity relationships](https://code.msdn.microsoft.com/Samples-of-entity-218db099).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -36,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
 ### See also  
  [Customize Entity Relationship Metadata](../customize-entity-relationship-metadata.md)   
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](use-organization-service-metadata.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>   
  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesResponse>

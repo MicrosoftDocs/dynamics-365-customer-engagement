@@ -1,15 +1,19 @@
 ---
-title: "msdyn_incidenttypeservicetask Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_incidenttypeservicetask Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_incidenttypeservicetask entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_incidenttypeservicetask Entity Reference
 
@@ -393,7 +397,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -500,7 +504,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -696,6 +700,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_incidenttypeservicetask_SyncErrors"></a> msdyn_incidenttypeservicetask_SyncErrors
 
 Same as syncerror entity [msdyn_incidenttypeservicetask_SyncErrors](syncerror.md#BKMK_msdyn_incidenttypeservicetask_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -710,6 +715,7 @@ Same as syncerror entity [msdyn_incidenttypeservicetask_SyncErrors](syncerror.md
 ### <a name="BKMK_msdyn_incidenttypeservicetask_DuplicateMatchingRecord"></a> msdyn_incidenttypeservicetask_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_incidenttypeservicetask_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_incidenttypeservicetask_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -724,6 +730,7 @@ Same as duplicaterecord entity [msdyn_incidenttypeservicetask_DuplicateMatchingR
 ### <a name="BKMK_msdyn_incidenttypeservicetask_DuplicateBaseRecord"></a> msdyn_incidenttypeservicetask_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_incidenttypeservicetask_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_incidenttypeservicetask_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -738,6 +745,7 @@ Same as duplicaterecord entity [msdyn_incidenttypeservicetask_DuplicateBaseRecor
 ### <a name="BKMK_msdyn_incidenttypeservicetask_AsyncOperations"></a> msdyn_incidenttypeservicetask_AsyncOperations
 
 Same as asyncoperation entity [msdyn_incidenttypeservicetask_AsyncOperations](asyncoperation.md#BKMK_msdyn_incidenttypeservicetask_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -752,6 +760,7 @@ Same as asyncoperation entity [msdyn_incidenttypeservicetask_AsyncOperations](as
 ### <a name="BKMK_msdyn_incidenttypeservicetask_MailboxTrackingFolders"></a> msdyn_incidenttypeservicetask_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_incidenttypeservicetask_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_incidenttypeservicetask_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -766,6 +775,7 @@ Same as mailboxtrackingfolder entity [msdyn_incidenttypeservicetask_MailboxTrack
 ### <a name="BKMK_msdyn_incidenttypeservicetask_UserEntityInstanceDatas"></a> msdyn_incidenttypeservicetask_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_incidenttypeservicetask_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_incidenttypeservicetask_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -780,6 +790,7 @@ Same as userentityinstancedata entity [msdyn_incidenttypeservicetask_UserEntityI
 ### <a name="BKMK_msdyn_incidenttypeservicetask_ProcessSession"></a> msdyn_incidenttypeservicetask_ProcessSession
 
 Same as processsession entity [msdyn_incidenttypeservicetask_ProcessSession](processsession.md#BKMK_msdyn_incidenttypeservicetask_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -794,6 +805,7 @@ Same as processsession entity [msdyn_incidenttypeservicetask_ProcessSession](pro
 ### <a name="BKMK_msdyn_incidenttypeservicetask_BulkDeleteFailures"></a> msdyn_incidenttypeservicetask_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_incidenttypeservicetask_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_incidenttypeservicetask_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -808,6 +820,7 @@ Same as bulkdeletefailure entity [msdyn_incidenttypeservicetask_BulkDeleteFailur
 ### <a name="BKMK_msdyn_incidenttypeservicetask_PrincipalObjectAttributeAccesses"></a> msdyn_incidenttypeservicetask_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_incidenttypeservicetask_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_incidenttypeservicetask_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -874,6 +887,6 @@ See msdyn_servicetasktype Entity [msdyn_msdyn_servicetasktype_msdyn_incidenttype
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_incidenttypeservicetask?text=msdyn_incidenttypeservicetask EntityType" />

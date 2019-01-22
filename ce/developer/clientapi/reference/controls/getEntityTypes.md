@@ -1,13 +1,17 @@
 ---
-title: "getEntityTypes (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getEntityTypes (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c20ba958-821f-4168-a518-e39431603b28
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getEntityTypes (Client API reference)
 

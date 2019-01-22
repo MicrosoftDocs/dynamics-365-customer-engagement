@@ -1,9 +1,9 @@
 ---
-title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
+title: "Azure AD B2C provider settings for portals in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 03/01/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 31696E80-D993-4939-9EBB-2ACEF9EE9632
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Azure AD B2C provider settings for portals
@@ -33,53 +40,53 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 
 ### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
 
-1.	Sign in to your [Azure portal](https://portal.azure.com/).
-2.	[Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
-3.	Select **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C** on the leftmost navigation bar.
-4.	[Create Azure application](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
-    
-    > [!Note]
-    > You must choose **Yes** for the **Allow implicit flow** field and specify your portal URL in the **Reply URL** field. The value in the **Reply URL** field should be in the format [portal domain]/signin-[Federation-Name].
+1. Sign in to your [Azure portal](https://portal.azure.com/).
+2. [Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
+3. Select **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C** on the leftmost navigation bar.
+4. [Create Azure application](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
 
-5.	Copy the application name, and enter it as the value of Application-Name in the preceding table.
-6.	Copy the application ID, and enter it as the value of Application-ID in the preceding table.
-7.	[Create a sign-up or sign-in policy](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy).
-8.	Select the policy, and then select **Edit**.
-9.	Select **Token, session & SSO config**.
-10.	From the **Issuer (iss) claim** list, select the URL that has **/tfp** in its path.
-11.	Save the policy.
-12.	Select the URL in the **Metadata endpoint for this policy** field.
-13.	Copy the value of the issuer field and enter it as the value of Policy-Signin-URL in the preceding table. 
+   > [!Note]
+   > You must choose **Yes** for the **Allow implicit flow** field and specify your portal URL in the **Reply URL** field. The value in the **Reply URL** field should be in the format [portal domain]/signin-[Federation-Name].
+
+5. Copy the application name, and enter it as the value of Application-Name in the preceding table.
+6. Copy the application ID, and enter it as the value of Application-ID in the preceding table.
+7. [Create a sign-up or sign-in policy](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy).
+8. Select the policy, and then select **Edit**.
+9. Select **Token, session & SSO config**.
+10. From the **Issuer (iss) claim** list, select the URL that has **/tfp** in its path.
+11. Save the policy.
+12. Select the URL in the **Metadata endpoint for this policy** field.
+13. Copy the value of the issuer field and enter it as the value of Policy-Signin-URL in the preceding table. 
 
 ## Portal configuration
 
 After creating and configuring the B2C tenant in [!include[Azure](../includes/pn-azure-shortest.md)], you must configure your portal to federate with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C by using the Open ID Connect protocol. You must create a unique name for your federation to [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C&mdash;for example, B2C&mdash;and store it as the value of the *Federation-Name* variable in the above table.
 
 ### Configure your portal
-1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-2.	Go to **Portals** > **Websites**.
-3.	Select the website record for which [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C needs to be enabled.
-4.	Go to **Site Settings**.
-5.	Create the following site settings:
-    -	**Name**: Authentication/OpenIdConnect/[Federation-Name]/Authority
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+2. Go to **Portals** > **Websites**.
+3. Select the website record for which [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C needs to be enabled.
+4. Go to **Site Settings**.
+5. Create the following site settings:
+   -   **Name**: Authentication/OpenIdConnect/[Federation-Name]/Authority
 
-        **Value**: [Policy-Signin-URL]
-    -	**Name**: Authentication/OpenIdConnect/[Federation-Name]/ClientId
-        
-        **Value**: [Application-ID]
-    -	**Name**: Authentication/OpenIdConnect/[Federation-Name]/RedirectUri
-        
-        **Value**: [portal domain]/signin-[Federation-Name]
-        
-        For example, `https://mysite.com/signin-b2c` 
-6.	To support a federated sign-out, create the following site setting:
-    - **Name**: Authentication/OpenIdConnect/[Federation-Name]/ExternalLogoutEnabled
-        
-      **Value**: true
-7.	To hardcode your portal to a single identity provider, create the following site setting:
-    - **Name**: Authentication/Registration/LoginButtonAuthenticationType
-        
-      **Value**: [Policy-Signin-URL]
+       **Value**: [Policy-Signin-URL]
+   -   **Name**: Authentication/OpenIdConnect/[Federation-Name]/ClientId
+
+       **Value**: [Application-ID]
+   -   **Name**: Authentication/OpenIdConnect/[Federation-Name]/RedirectUri
+
+       **Value**: [portal domain]/signin-[Federation-Name]
+
+       For example, `https://mysite.com/signin-b2c` 
+6. To support a federated sign-out, create the following site setting:
+   - **Name**: Authentication/OpenIdConnect/[Federation-Name]/ExternalLogoutEnabled
+
+     **Value**: true
+7. To hardcode your portal to a single identity provider, create the following site setting:
+   - **Name**: Authentication/Registration/LoginButtonAuthenticationType
+
+     **Value**: [Policy-Signin-URL]
 
 8. To support password reset, create the required site settings described [here](#password-reset).
 9. To support claims mapping, create the required site settings described [here](#claims-mapping).
@@ -100,6 +107,7 @@ The following site settings are required if you want to support password reset w
 ### Related site settings
 
 You can create or configure the following site settings in portals to support [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider:
+
 
 | Site Setting                                                         | Description                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -135,16 +143,16 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
 
 ```
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang=en-US>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset=utf-8>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <meta http-equiv=X-UA-Compatible content=IE=edge>
     <title>
       {{ page.title | h }}
     </title>
-                        <link href="{{ request.url | base }}/bootstrap.min.css" rel="stylesheet">
-                        <link href="{{ request.url | base }}/theme.css" rel="stylesheet">
+                        <link href={{ request.url | base }}/bootstrap.min.css rel=stylesheet>
+                        <link href={{ request.url | base }}/theme.css rel=stylesheet>
                         <style>
                           .page-heading {
             padding-top: 20px;
@@ -227,7 +235,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
             font-size:100%;
             padding:0 2px
       }
-      
+
       button:hover {
             background:#0F3E83;
             border:1px solid #3079ed;
@@ -344,7 +352,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
             background-color:#FFF;
             color:transparent
       }
-      
+
       #next {
             -moz-user-select:none;
             user-select:none;
@@ -375,59 +383,59 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
                         </style>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="visible-xs-block">
-            {{ snippets["Mobile Header"] }}
+    <div class=navbar navbar-inverse navbar-static-top role=navigation>
+      <div class=container>
+        <div class=navbar-header>
+          <div class=visible-xs-block>
+            {{ snippets[Mobile Header] }}
           </div>
-          <div class="visible-sm-block visible-md-block visible-lg-block navbar-brand">
-            {{ snippets["Navbar Left"] }}
+          <div class=visible-sm-block visible-md-block visible-lg-block navbar-brand>
+            {{ snippets[Navbar Left] }}
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="page-heading">
-        <ul class="breadcrumb">
+    <div class=container>
+      <div class=page-heading>
+        <ul class=breadcrumb>
           <li>
-            <a href="{{ request.url | base }}" title="Home">Home</a>
+            <a href={{ request.url | base }} title=Home>Home</a>
           </li>
-          <li class="active">{{ page.title | h}}</li>
+          <li class=active>{{ page.title | h}}</li>
         </ul>
         {% include 'Page Header' %}
      </div>
-     <div class="row">
-      <div class="col-md-12">
+     <div class=row>
+      <div class=col-md-12>
         {% include 'Page Copy' %}
-        <div id="api"></div>
+        <div id=api></div>
       </div>
      </div>
     </div>
-    <footer role="contentinfo">
-      <div class="footer-top hidden-print">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 text-left">
-               {{ snippets["About Footer"] }}
+    <footer role=contentinfo>
+      <div class=footer-top hidden-print>
+        <div class=container>
+          <div class=row>
+            <div class=col-md-6 col-sm-12 col-xs-12 text-left>
+               {{ snippets[About Footer] }}
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 text-right">
-              <ul class="list-social-links">
-                <li><a href="#"><span class="sprite sprite-facebook_icon"></span></a></li>
-                <li><a href="#"><span class="sprite sprite-twitter_icon"></span></a></li>
-                <li><a href="#"><span class="sprite sprite-email_icon"></span></a></li>
+            <div class=col-md-6 col-sm-12 col-xs-12 text-right>
+              <ul class=list-social-links>
+                <li><a href=#><span class=sprite sprite-facebook_icon></span></a></li>
+                <li><a href=#><span class=sprite sprite-twitter_icon></span></a></li>
+                <li><a href=#><span class=sprite sprite-email_icon></span></a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-bottom hidden-print">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-12 col-xs-12 text-left">
-               {{ snippets["Footer"] | liquid }}
+      <div class=footer-bottom hidden-print>
+        <div class=container>
+          <div class=row>
+            <div class=col-md-4 col-sm-12 col-xs-12 text-left>
+               {{ snippets[Footer] | liquid }}
             </div>
-            <div class="col-md-8 col-sm-12 col-xs-12 text-left ">
+            <div class=col-md-8 col-sm-12 col-xs-12 text-left >
             </div>   
           </div>
         </div>
@@ -467,15 +475,15 @@ For a complete list of other CORS settings, see [CORS protocol support](cors-pro
 
 ### Step 5: [!include[Azure](../includes/pn-azure-shortest.md)] configuration
 
-1.	Sign in to your [!include[Azure portal](../includes/pn-azure-portal.md)].
-2.	Navigate to the **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Tenant Management** blade.
-3.	Navigate to **Settings** > **Sign-up or sign-in policies**. A list of available policies is displayed.
-4.	Select the policy you want to edit.
-5.	Select **Edit**.
-6.	Select **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**
-7.	Set **Use custom page** to **Yes**.
-8.	Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
-9.	Select **OK**.
+1. Sign in to your [!include[Azure portal](../includes/pn-azure-portal.md)].
+2. Navigate to the **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Tenant Management** blade.
+3. Navigate to **Settings** > **Sign-up or sign-in policies**. A list of available policies is displayed.
+4. Select the policy you want to edit.
+5. Select **Edit**.
+6. Select **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**
+7. Set **Use custom page** to **Yes**.
+8. Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
+9. Select **OK**.
 
 ## Claims mapping
 
@@ -495,7 +503,7 @@ When a new customer who does not exist in [!INCLUDE[pn-dynamics-crm](../includes
 
 **Format**: attribute1=claim1,attribute2=claim2,attribute3=claim3
 
-For example:  firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle
+For example:  firstname=<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle>
 
 > [!NOTE]
 > Ensure that you map the email address to the primary email (emailaddress1) of the contact. If you have added secondary email (emailaddress2) or alternate email (emailaddress3) to the contact record and mapped it to the email, identity information will not be added to the contact and a new one will be created with the email address used for registration set in the primary email (emailaddress1).
@@ -510,7 +518,7 @@ The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in t
 
 **Format**: attribute1=claim1, attribute2=claim2, attribute3=claim3
 
-For example: firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle 
+For example: firstname=<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle> 
 
 The claim name is the CLAIM TYPE field listed next to the attribute in the sign-in policies Application claims.
 

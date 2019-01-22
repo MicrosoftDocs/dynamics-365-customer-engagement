@@ -1,15 +1,19 @@
 ---
-title: "Feedback Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Feedback Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Feedback entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Feedback Entity Reference
 
@@ -452,7 +456,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was closed. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was closed. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Closed On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -529,7 +533,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -684,7 +688,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -906,6 +910,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Feedback_SyncErrors"></a> Feedback_SyncErrors
 
 Same as syncerror entity [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -920,6 +925,7 @@ Same as syncerror entity [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncEr
 ### <a name="BKMK_feedback_feedback"></a> feedback_feedback
 
 Same as feedback entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -934,6 +940,7 @@ Same as feedback entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) 
 ### <a name="BKMK_feedback_principalobjectattributeaccess"></a> feedback_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [feedback_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_feedback_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1015,6 +1022,6 @@ See systemuser Entity [lk_feedback_createdby](systemuser.md#BKMK_lk_feedback_cre
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.feedback?text=feedback EntityType" />

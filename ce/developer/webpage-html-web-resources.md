@@ -1,20 +1,24 @@
 ---
-title: "Webpage (HTML) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Webpage (HTML) web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using webpage (HTML) web resources to create user interface elements for client extensions."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-    - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bba8645a-a725-4c4d-a393-bab8ca692482
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Webpage (HTML) web resources
 
@@ -83,25 +87,25 @@ Because an HTML web resource is just streamed to the user's browser, it can incl
 
  For example, if you create a web application project that uses the following [folder]/file structure:  
 
--   page.htm
+- page.htm
 
--   [Styles]
+- [Styles]
 
-    -   style.css
-  
--   [Scripts] 
-  
-    -   script.js
-  
- When you import these files as web resources, you can name where your solution publisher customization prefix is “new” in the following manner:  
-  
--   `new_/page.htm`  
-  
--   `new_/Styles/style.css`  
-  
--   `new_/Scripts/script.js`  
-  
- When you follow this pattern, your `new_/page.htm` HTML web resource can reference the other files the most common way using relative paths as shown in the following example.  
+  -   style.css
+
+- [Scripts] 
+
+  -   script.js
+
+  When you import these files as web resources, you can name where your solution publisher customization prefix is “new” in the following manner:  
+
+- `new_/page.htm`  
+
+- `new_/Styles/style.css`  
+
+- `new_/Scripts/script.js`  
+
+  When you follow this pattern, your `new_/page.htm` HTML web resource can reference the other files the most common way using relative paths as shown in the following example.  
 
 ```html
 <script src="Scripts/script.js" type="text/javascript"></script>
@@ -109,10 +113,10 @@ Because an HTML web resource is just streamed to the user's browser, it can incl
 ```
 
  The solution publisher customization prefix becomes a virtual root folder for all the web resources in your solution. If you change your customization prefix, the relative paths within your HTML web resources won’t be changed.  
-  
+
 > [!NOTE]
->  - An HTML web resource added to a form can’t use global objects defined by the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library loaded in the form. An HTML web resource may interact with the `Xrm.Page` or `Xrm.Utility` objects within the form by using `parent.Xrm.Page` or `parent.Xrm.Utility`, but global objects defined by form scripts won’t be accessible using the parent. You should load any libraries that an HTML web resource needs within the HTML web resource so they’re not dependent on scripts loaded in the form.  
-> - References included in code between web resources aren’t tracked as solution dependencies.  
+> - An HTML web resource added to a form can’t use global objects defined by the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library loaded in the form. An HTML web resource may interact with the `Xrm.Page` or `Xrm.Utility` objects within the form by using `parent.Xrm.Page` or `parent.Xrm.Utility`, but global objects defined by form scripts won’t be accessible using the parent. You should load any libraries that an HTML web resource needs within the HTML web resource so they’re not dependent on scripts loaded in the form.  
+>   - References included in code between web resources aren’t tracked as solution dependencies.  
 
  Because web resources are also downloaded for users of [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)], users will have access to web resource content while they’re working offline.  
 
@@ -122,26 +126,27 @@ Because an HTML web resource is just streamed to the user's browser, it can incl
 
  An HTML web resource can accept only the parameters in the following table.
 
-|Parameter|Name|Description|
-|---------------|----------|-----------------|
-|typename|Entity Name|The name of the entity.|
-|type|Entity Type Code|An integer that uniquely identifies the entity in a specific organization.|
-|id|Object GUID|The GUID that represents a record.|
-|orgname|Organization Name|The unique name of the organization.|
-|userlcid|User Language Code|The language code identifier being used by the current user.|
-|orglcid|Organization Language Code|The language code identifier that represents the base language for the organization.|
-|data|Optional Data Parameter|An optional value that may be passed.|
-|formid|Form Id|The GUID that represents a form ID.|
-|entrypoint|Entry Point|A string value. This parameter is intended to be passed as an optional value to web resources opened as custom help content for an entity. When enabled, the custom help URL will include a value of either “form” or “hierarchychart”.|
-|pagemode||[!INCLUDE[internal](../includes/internal.md)]|
-|security||[!INCLUDE[internal](../includes/internal.md)]|
-|tabSet||[!INCLUDE[internal](../includes/internal.md)]|
+
+| Parameter  |            Name            |                                                                                                               Description                                                                                                               |
+|------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  typename  |        Entity Name         |                                                                                                         The name of the entity.                                                                                                         |
+|    type    |      Entity Type Code      |                                                                               An integer that uniquely identifies the entity in a specific organization.                                                                                |
+|     id     |        Object GUID         |                                                                                                   The GUID that represents a record.                                                                                                    |
+|  orgname   |     Organization Name      |                                                                                                  The unique name of the organization.                                                                                                   |
+|  userlcid  |     User Language Code     |                                                                                      The language code identifier being used by the current user.                                                                                       |
+|  orglcid   | Organization Language Code |                                                                          The language code identifier that represents the base language for the organization.                                                                           |
+|    data    |  Optional Data Parameter   |                                                                                                  An optional value that may be passed.                                                                                                  |
+|   formid   |          Form Id           |                                                                                                   The GUID that represents a form ID.                                                                                                   |
+| entrypoint |        Entry Point         | A string value. This parameter is intended to be passed as an optional value to web resources opened as custom help content for an entity. When enabled, the custom help URL will include a value of either “form” or “hierarchychart”. |
+|  pagemode  |                            |                                                                                              [!INCLUDE[internal](../includes/internal.md)]                                                                                              |
+|  security  |                            |                                                                                              [!INCLUDE[internal](../includes/internal.md)]                                                                                              |
+|   tabSet   |                            |                                                                                              [!INCLUDE[internal](../includes/internal.md)]                                                                                              |
 
  To pass more than one value in the data parameter, you must encode parameters in the value of the data parameter and then include logic to decode the multiple parameters using script in your HTML web resource. The [Sample: Passing Multiple Values to a Web Resource Through the Data Parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md) topic demonstrates one approach to address passing multiple parameter values.  
 
 ### See also
 
- [Web Resources for Dynamics 365](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
  [Create Accessible Web Resources](create-accessible-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   

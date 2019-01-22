@@ -132,7 +132,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                 var asyncJob = _serviceProxy.Retrieve(AsyncOperation.EntityLogicalName,
                     jobId, new ColumnSet("statecode")).ToEntity<AsyncOperation>();
-                if (asyncJob.StateCode.HasValue &amp;&amp; asyncJob.StateCode.Value == AsyncOperationState.Completed)
+                if (asyncJob.StateCode.HasValue && asyncJob.StateCode.Value == AsyncOperationState.Completed)
                     return;
                 System.Threading.Thread.Sleep(1000);
             }

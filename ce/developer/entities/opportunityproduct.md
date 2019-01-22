@@ -1,15 +1,19 @@
 ---
-title: "OpportunityProduct Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "OpportunityProduct Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the OpportunityProduct entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # OpportunityProduct Entity Reference
 
@@ -259,6 +263,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Billing method for the project opportunity line. Valid values are Time and Material and Fixed Price|
@@ -281,6 +286,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BudgetAmount"></a> msdyn_BudgetAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the customer budget amount for this opportunity line.|
@@ -299,6 +305,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CostAmount"></a> msdyn_CostAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the total cost price of the product based on the cost price per unit and quantity.|
@@ -317,6 +324,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CostPricePerUnit"></a> msdyn_CostPricePerUnit
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Cost price per unit of the product. The default is the cost price of the product.|
@@ -335,6 +343,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Duration"></a> msdyn_Duration
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the duration of the agreement|
@@ -352,6 +361,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_enddate"></a> msdyn_enddate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -368,6 +378,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The field to distinguish the order lines to be of project service or field service|
@@ -390,6 +401,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_pricelist"></a> msdyn_pricelist
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select a price list for the opportunity line|
@@ -405,6 +417,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the project for this opportunity line.|
@@ -420,6 +433,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_serviceaccount"></a> msdyn_serviceaccount
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the service account for the opportunity line|
@@ -435,6 +449,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_startdate"></a> msdyn_startdate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -1176,6 +1191,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_budgetamount_Base"></a> msdyn_budgetamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Budget Amount in base currency.|
@@ -1194,6 +1210,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costamount_Base"></a> msdyn_costamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Cost Amount in base currency.|
@@ -1212,6 +1229,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costpriceperunit_Base"></a> msdyn_costpriceperunit_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Cost Price Per Unit in base currency.|
@@ -1321,11 +1339,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### OpportunityStateCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
@@ -1578,6 +1594,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_OpportunityProduct_SyncErrors"></a> OpportunityProduct_SyncErrors
 
 Same as syncerror entity [OpportunityProduct_SyncErrors](syncerror.md#BKMK_OpportunityProduct_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1592,6 +1609,7 @@ Same as syncerror entity [OpportunityProduct_SyncErrors](syncerror.md#BKMK_Oppor
 ### <a name="BKMK_OpportunityProduct_AsyncOperations"></a> OpportunityProduct_AsyncOperations
 
 Same as asyncoperation entity [OpportunityProduct_AsyncOperations](asyncoperation.md#BKMK_OpportunityProduct_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1606,6 +1624,7 @@ Same as asyncoperation entity [OpportunityProduct_AsyncOperations](asyncoperatio
 ### <a name="BKMK_opportunityproduct_MailboxTrackingFolders"></a> opportunityproduct_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [opportunityproduct_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunityproduct_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1620,6 +1639,7 @@ Same as mailboxtrackingfolder entity [opportunityproduct_MailboxTrackingFolders]
 ### <a name="BKMK_userentityinstancedata_opportunityproduct"></a> userentityinstancedata_opportunityproduct
 
 Same as userentityinstancedata entity [userentityinstancedata_opportunityproduct](userentityinstancedata.md#BKMK_userentityinstancedata_opportunityproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1634,6 +1654,7 @@ Same as userentityinstancedata entity [userentityinstancedata_opportunityproduct
 ### <a name="BKMK_OpportunityProduct_ProcessSessions"></a> OpportunityProduct_ProcessSessions
 
 Same as processsession entity [OpportunityProduct_ProcessSessions](processsession.md#BKMK_OpportunityProduct_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1648,6 +1669,7 @@ Same as processsession entity [OpportunityProduct_ProcessSessions](processsessio
 ### <a name="BKMK_OpportunityProduct_BulkDeleteFailures"></a> OpportunityProduct_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [OpportunityProduct_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OpportunityProduct_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1662,6 +1684,7 @@ Same as bulkdeletefailure entity [OpportunityProduct_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_opportunityproduct_principalobjectattributeaccess"></a> opportunityproduct_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [opportunityproduct_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_opportunityproduct_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1676,6 +1699,7 @@ Same as principalobjectattributeaccess entity [opportunityproduct_principalobjec
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
 
 Same as opportunityproduct entity [opportunityproduct_parent_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parent_opportunityproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityproduct|
@@ -1690,6 +1714,7 @@ Same as opportunityproduct entity [opportunityproduct_parent_opportunityproduct]
 ### <a name="BKMK_OpportunityProduct_Dynamicpropertyinstance"></a> OpportunityProduct_Dynamicpropertyinstance
 
 Same as dynamicpropertyinstance entity [OpportunityProduct_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_OpportunityProduct_Dynamicpropertyinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyinstance|
@@ -1786,6 +1811,6 @@ See pricelevel Entity [msdyn_pricelevel_opportunityproduct_PriceList](pricelevel
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.opportunityproduct?text=opportunityproduct EntityType" />

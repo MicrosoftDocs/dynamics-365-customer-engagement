@@ -12,7 +12,7 @@
   if (!Directory.Exists(exportFolder))
       Directory.CreateDirectory(exportFolder);
 
-  //Retrieve the Appliation Ribbon
+  //Retrieve the Application Ribbon
   RetrieveApplicationRibbonRequest appribReq = new RetrieveApplicationRibbonRequest();
   RetrieveApplicationRibbonResponse appribResp = (RetrieveApplicationRibbonResponse)_serviceProxy.Execute(appribReq);
 
@@ -41,7 +41,7 @@
 
   foreach (EntityMetadata em in resp.EntityMetadata)
   {
-   if (em.IsCustomEntity == true &amp;&amp; em.IsIntersect == false)
+   if (em.IsCustomEntity == true && em.IsIntersect == false)
    {
     entRibReq.EntityName = em.LogicalName;
     RetrieveEntityRibbonResponse entRibResp = (RetrieveEntityRibbonResponse)_serviceProxy.Execute(entRibReq);

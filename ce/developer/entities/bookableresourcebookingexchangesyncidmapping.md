@@ -1,15 +1,19 @@
 ---
-title: "BookableResourceBookingExchangeSyncIdMapping Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BookableResourceBookingExchangeSyncIdMapping Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BookableResourceBookingExchangeSyncIdMapping entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # BookableResourceBookingExchangeSyncIdMapping Entity Reference
 
@@ -701,6 +705,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_bookableresourcebookingexchangesyncidmapping_SyncErrors"></a> bookableresourcebookingexchangesyncidmapping_SyncErrors
 
 Same as syncerror entity [bookableresourcebookingexchangesyncidmapping_SyncErrors](syncerror.md#BKMK_bookableresourcebookingexchangesyncidmapping_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -715,6 +720,7 @@ Same as syncerror entity [bookableresourcebookingexchangesyncidmapping_SyncError
 ### <a name="BKMK_bookableresourcebookingexchangesyncidmapping_AsyncOperations"></a> bookableresourcebookingexchangesyncidmapping_AsyncOperations
 
 Same as asyncoperation entity [bookableresourcebookingexchangesyncidmapping_AsyncOperations](asyncoperation.md#BKMK_bookableresourcebookingexchangesyncidmapping_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -729,6 +735,7 @@ Same as asyncoperation entity [bookableresourcebookingexchangesyncidmapping_Asyn
 ### <a name="BKMK_bookableresourcebookingexchangesyncidmapping_MailboxTrackingFolders"></a> bookableresourcebookingexchangesyncidmapping_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bookableresourcebookingexchangesyncidmapping_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcebookingexchangesyncidmapping_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -743,6 +750,7 @@ Same as mailboxtrackingfolder entity [bookableresourcebookingexchangesyncidmappi
 ### <a name="BKMK_bookableresourcebookingexchangesyncidmapping_UserEntityInstanceDatas"></a> bookableresourcebookingexchangesyncidmapping_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [bookableresourcebookingexchangesyncidmapping_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresourcebookingexchangesyncidmapping_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -757,6 +765,7 @@ Same as userentityinstancedata entity [bookableresourcebookingexchangesyncidmapp
 ### <a name="BKMK_bookableresourcebookingexchangesyncidmapping_BulkDeleteFailures"></a> bookableresourcebookingexchangesyncidmapping_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [bookableresourcebookingexchangesyncidmapping_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcebookingexchangesyncidmapping_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -771,6 +780,7 @@ Same as bulkdeletefailure entity [bookableresourcebookingexchangesyncidmapping_B
 ### <a name="BKMK_bookableresourcebookingexchangesyncidmapping_PrincipalObjectAttributeAccesses"></a> bookableresourcebookingexchangesyncidmapping_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [bookableresourcebookingexchangesyncidmapping_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bookableresourcebookingexchangesyncidmapping_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -827,6 +837,6 @@ See businessunit Entity [business_unit_bookableresourcebookingexchangesyncidmapp
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bookableresourcebookingexchangesyncidmapping?text=bookableresourcebookingexchangesyncidmapping EntityType" />

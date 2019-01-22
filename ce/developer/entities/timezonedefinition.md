@@ -1,15 +1,19 @@
 ---
-title: "TimeZoneDefinition Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "TimeZoneDefinition Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the TimeZoneDefinition entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # TimeZoneDefinition Entity Reference
 
@@ -377,6 +381,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_timezonedefinition"></a> userentityinstancedata_timezonedefinition
 
 Same as userentityinstancedata entity [userentityinstancedata_timezonedefinition](userentityinstancedata.md#BKMK_userentityinstancedata_timezonedefinition) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -391,6 +396,7 @@ Same as userentityinstancedata entity [userentityinstancedata_timezonedefinition
 ### <a name="BKMK_lk_timezonerule_timezonedefinitionid"></a> lk_timezonerule_timezonedefinitionid
 
 Same as timezonerule entity [lk_timezonerule_timezonedefinitionid](timezonerule.md#BKMK_lk_timezonerule_timezonedefinitionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|timezonerule|
@@ -405,6 +411,7 @@ Same as timezonerule entity [lk_timezonerule_timezonedefinitionid](timezonerule.
 ### <a name="BKMK_lk_timezonelocalizedname_timezonedefinitionid"></a> lk_timezonelocalizedname_timezonedefinitionid
 
 Same as timezonelocalizedname entity [lk_timezonelocalizedname_timezonedefinitionid](timezonelocalizedname.md#BKMK_lk_timezonelocalizedname_timezonedefinitionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|timezonelocalizedname|
@@ -446,6 +453,6 @@ See systemuser Entity [lk_timezonedefinition_createdby](systemuser.md#BKMK_lk_ti
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.timezonedefinition?text=timezonedefinition EntityType" />

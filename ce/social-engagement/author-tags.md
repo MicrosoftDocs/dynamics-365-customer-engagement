@@ -1,19 +1,26 @@
 ---
 title: "Author tags in Social Engagement | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Social Engagement"
-keywords: "author tags, tags"
+keywords: author tags, tags
 ms.date: 04/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: 4e9f6d32-cd46-0ef1-c8d4-ed73bc4de163
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage author tags
@@ -22,7 +29,7 @@ Author tags let you add tags to authors to group and classify them. For example,
 Every user can add or remove author tags when working with an author's details. You need to have an [interaction role](user-roles.md) of Responder or Manager to create new author tags.
 
 > [!TIP]
-> To review all authors that have a certain tag added, go to **Social Engagement** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
+> To review all authors that have a certain tag added, go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
 
 ![Author details with highlighted buttons to add and remove an author tag](media/author-tags-in-author-details.png "Author details with highlighted buttons to add and remove an author tag")
 
@@ -43,9 +50,9 @@ Tag authors for quicker filtering options and to classify groups of authors.
 
 If a tag is no longer accurate, you can remove it from the author.
 
-1.	In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
-2.	Next to the tag you want to remove, select ![Remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
-3.	Select **Confirm** to remove the tag.
+1. In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
+2. Next to the tag you want to remove, select ![Remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
+3. Select **Confirm** to remove the tag.
 
 ## Change author tags
 

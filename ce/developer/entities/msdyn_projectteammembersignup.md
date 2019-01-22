@@ -1,15 +1,19 @@
 ---
-title: "msdyn_projectteammembersignup Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_projectteammembersignup Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_projectteammembersignup entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_projectteammembersignup Entity Reference
 
@@ -589,6 +593,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projectteammembersignup_SyncErrors"></a> msdyn_projectteammembersignup_SyncErrors
 
 Same as syncerror entity [msdyn_projectteammembersignup_SyncErrors](syncerror.md#BKMK_msdyn_projectteammembersignup_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -603,6 +608,7 @@ Same as syncerror entity [msdyn_projectteammembersignup_SyncErrors](syncerror.md
 ### <a name="BKMK_msdyn_projectteammembersignup_DuplicateMatchingRecord"></a> msdyn_projectteammembersignup_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projectteammembersignup_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projectteammembersignup_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -617,6 +623,7 @@ Same as duplicaterecord entity [msdyn_projectteammembersignup_DuplicateMatchingR
 ### <a name="BKMK_msdyn_projectteammembersignup_DuplicateBaseRecord"></a> msdyn_projectteammembersignup_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projectteammembersignup_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projectteammembersignup_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -631,6 +638,7 @@ Same as duplicaterecord entity [msdyn_projectteammembersignup_DuplicateBaseRecor
 ### <a name="BKMK_msdyn_projectteammembersignup_AsyncOperations"></a> msdyn_projectteammembersignup_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projectteammembersignup_AsyncOperations](asyncoperation.md#BKMK_msdyn_projectteammembersignup_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -645,6 +653,7 @@ Same as asyncoperation entity [msdyn_projectteammembersignup_AsyncOperations](as
 ### <a name="BKMK_msdyn_projectteammembersignup_MailboxTrackingFolders"></a> msdyn_projectteammembersignup_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projectteammembersignup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projectteammembersignup_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -659,6 +668,7 @@ Same as mailboxtrackingfolder entity [msdyn_projectteammembersignup_MailboxTrack
 ### <a name="BKMK_msdyn_projectteammembersignup_UserEntityInstanceDatas"></a> msdyn_projectteammembersignup_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projectteammembersignup_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projectteammembersignup_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -673,6 +683,7 @@ Same as userentityinstancedata entity [msdyn_projectteammembersignup_UserEntityI
 ### <a name="BKMK_msdyn_projectteammembersignup_ProcessSession"></a> msdyn_projectteammembersignup_ProcessSession
 
 Same as processsession entity [msdyn_projectteammembersignup_ProcessSession](processsession.md#BKMK_msdyn_projectteammembersignup_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -687,6 +698,7 @@ Same as processsession entity [msdyn_projectteammembersignup_ProcessSession](pro
 ### <a name="BKMK_msdyn_projectteammembersignup_BulkDeleteFailures"></a> msdyn_projectteammembersignup_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projectteammembersignup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projectteammembersignup_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -701,6 +713,7 @@ Same as bulkdeletefailure entity [msdyn_projectteammembersignup_BulkDeleteFailur
 ### <a name="BKMK_msdyn_projectteammembersignup_PrincipalObjectAttributeAccesses"></a> msdyn_projectteammembersignup_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projectteammembersignup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projectteammembersignup_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -715,6 +728,7 @@ Same as principalobjectattributeaccess entity [msdyn_projectteammembersignup_Pri
 ### <a name="BKMK_msdyn_projectteammembersignup_Annotations"></a> msdyn_projectteammembersignup_Annotations
 
 Same as annotation entity [msdyn_projectteammembersignup_Annotations](annotation.md#BKMK_msdyn_projectteammembersignup_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -771,6 +785,6 @@ See msdyn_projectteam Entity [msdyn_msdyn_projectteam_msdyn_projectteammembersig
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_projectteammembersignup?text=msdyn_projectteammembersignup EntityType" />

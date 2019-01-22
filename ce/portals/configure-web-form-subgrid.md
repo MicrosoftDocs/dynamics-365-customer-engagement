@@ -1,9 +1,9 @@
 ---
-title: "Web Form subgrid configuration for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Web Form subgrid configuration for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure web form subgrids for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: ed387520-6b40-4bed-9fa5-386ba831e4ed
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Configure Web form subgrids for portals
 
@@ -22,16 +29,17 @@ Adding subgrids to your managed forms on the portal is easy—just add the subgr
 
 ## Add subgrid metadata to your form
 
-To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md).
+To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md).
 
 To add a new record, select **Add New Entity Form Metadata**.
 
 To edit an existing record, select the record in the grid. Selecting **Subgrid** as the **Type** value displays another attribute, **Subgrid Name**.
 
-| Name         | Description                                                               |
-|--------------|---------------------------------------------------------------------------|
+
+|     Name     |                                                       Description                                                        |
+|--------------|--------------------------------------------------------------------------------------------------------------------------|
 | Subgrid Name | The unique name of the subgrid on the entity's related [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form. |
-||
+|              |                                                                                                                          |
 
 Selecting the subgrid in the form editor will display a properties window. This contains a **Name** field that should be used to assign to the **Subgrid Name** field on the Entity Form Metadata record.
 
@@ -39,7 +47,7 @@ Selecting the subgrid in the form editor will display a properties window. This 
 
 Specifying a valid subgrid name will display the subgrid configuration settings. By default, only **Basic Settings** are shown. Select **Advanced Settings** to show additional settings.
 
-By default, most settings are shown collapsed to save space. Select **""** to expand a section and see additional options. Select **""** to collapse the section.
+By default, most settings are shown collapsed to save space. Select **** to expand a section and see additional options. Select **** to collapse the section.
 
 ## Attributes
 
@@ -126,14 +134,14 @@ Enabling an **Associate action** displays a button above the subgrid that, when 
 | Name                     | Description                                                                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog box.                                                                             |
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Add") button on the dialog box.                                                                |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                               |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Add) button on the dialog box.                                                                |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                               |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog box's Dismiss button.                                                               |
 | Size                     | Specifies the size of the Associate dialog box. The Options are Default, Large, and Small. The default size is Large. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                                |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                    |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Add") button.                                                 |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                                |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Add) button.                                                 |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                                |
 | Select Records Title     | Overrides the HTML that appears in the title of the Record Selection area.                                                                  |
 | Default Error Message    | Overrides the message that appears when an error occurs while associating the selected entity or entities.                                  |
 | Grid Options             | Specify settings for the appearance of the entity grid. See below for options.                                                              |
@@ -157,15 +165,16 @@ Enabling a **Details action** allows a user to view a read-only [entity form](en
 
 ### Details Action settings
 
-| Name                                  | Description                                                                                                                                                                                                                                                                                                  |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Basic Settings**                    |                                                                                                                                                                                                                                                                                                              |
-| Entity Form                           | Specifies the [entity form](entity-forms-custom-logic.md) that will be used to view the details of the selected record. The drop-down list will include all entity forms that are configured for the subgrid's entity type. <br>**Note**: If the subgrid's entity type has no entity forms, the drop-down will appear empty. If no entity form is supplied for the Details action, it will be ignored and the button will not be rendered in the subgrid.                                                                                              |
-| **Advanced Settings**                 |                                                                                                                                                                                                                                                                                                              |
-| Record ID Query String Parameter Name | Specifies the name of the query string parameter that will be used to select the entity to view in the selected entity form. This should match the value in that entity form's Record ID Query String Parameter Name. The default value for this field, both here and in Entity Form configuration, is **id**. |
-| Button Label                          | Overrides the HTML label for this action displayed in the subgrid row.                                                                                                                                                                                                                                       |
-| Button Tooltip                        | Overrides the tooltip text that appears when the user points to the button for this action displayed in the subgrid row.                                                                                                                                                                              |
-||
+|                 Name                  |                                                                                                                                                                                                                        Description                                                                                                                                                                                                                        |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          **Basic Settings**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|              Entity Form              | Specifies the [entity form](entity-forms-custom-logic.md) that will be used to view the details of the selected record. The drop-down list will include all entity forms that are configured for the subgrid's entity type. <br>**Note**: If the subgrid's entity type has no entity forms, the drop-down will appear empty. If no entity form is supplied for the Details action, it will be ignored and the button will not be rendered in the subgrid. |
+|         **Advanced Settings**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Record ID Query String Parameter Name |                                                                      Specifies the name of the query string parameter that will be used to select the entity to view in the selected entity form. This should match the value in that entity form's Record ID Query String Parameter Name. The default value for this field, both here and in Entity Form configuration, is **id**.                                                                       |
+|             Button Label              |                                                                                                                                                                                          Overrides the HTML label for this action displayed in the subgrid row.                                                                                                                                                                                           |
+|            Button Tooltip             |                                                                                                                                                                 Overrides the tooltip text that appears when the user points to the button for this action displayed in the subgrid row.                                                                                                                                                                  |
+|                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
 ### Details form dialog box advanced settings
 
 | Name                   | Description                                                                                                                             |
@@ -227,14 +236,14 @@ Enabling a **Delete action** allows a user to permanently delete the entity repr
 | Name                     | Description                                                                                                                             |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog box.                                                                         |
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog box.                                                         |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                           |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Delete) button on the dialog box.                                                         |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                           |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog box's Dismiss button.                                                           |
 | Size                     | Specifies the size of the Delete dialog box. The Options are Default, Large, and Small. The default size is Default. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog.                                                            |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Delete") button.                                          |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                            |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Delete) button.                                          |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                            |
 ||
 
 ## Workflow action
@@ -269,8 +278,8 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

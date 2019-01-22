@@ -1,24 +1,29 @@
 ---
 title: "Develop customized IoT solutions in Connected Field Service | MicrosoftDocs"
-description: "Connected Field Service integrates Internet of Things (IoT) devices with Dynamics 365 (online) to enable their registration, monitoring and management into established business processes."
-ms.custom:
+description: "Connected Field Service integrates Internet of Things (IoT) devices with Dynamics 365 for Customer Engagement (online) to enable their registration, monitoring and management into established business processes."
+ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
 ms.date: 01/05/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
 caps.latest.revision: 8
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Develop customized IoT solutions in Connected Field Service
 
@@ -29,23 +34,23 @@ manager: jdaly
 ## Supported Developer Scenarios  
  The initial release of Connected Field Service supports the following two primary development scenarios:  
   
--   Extend [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] so that manufacturers and hardware service organizations can register, monitor, and manage—including controlling and correcting—IoT devices. Future releases will provide additional support for predicative and prescriptive maintenance capabilities.  
+- Extend [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] so that manufacturers and hardware service organizations can register, monitor, and manage—including controlling and correcting—IoT devices. Future releases will provide additional support for predicative and prescriptive maintenance capabilities.  
   
--   Provide an IoT Platform that ISVs and partners can build on to IOT-enable their [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] custom entities and managed solutions.  
+- Provide an IoT Platform that ISVs and partners can build on to IOT-enable their [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] custom entities and managed solutions.  
   
- To enable the first scenario, the following capabilities are supported:  
+  To enable the first scenario, the following capabilities are supported:  
   
--   Abstract device registration in an action, so that devices can be easily registered using the CRM web client or the mobile client  
+- Abstract device registration in an action, so that devices can be easily registered using the CRM web client or the mobile client  
   
--   Enable any CRM entity to be IOT-enabled, enabling straightforward IoT integration within existing business processes by using [Connection entities](../../developer/connection-entities.md)  
+- Enable any CRM entity to be IOT-enabled, enabling straightforward IoT integration within existing business processes by using [Connection entities](../../developer/connection-entities.md)  
   
--   Receive service alerts and automating their response with a customized workflow  
+- Receive service alerts and automating their response with a customized workflow  
   
--   Send remote commands to IoT devices, for example after diagnosing a problem to correct a malfunctioning device  
+- Send remote commands to IoT devices, for example after diagnosing a problem to correct a malfunctioning device  
   
--   Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards  
+- Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards  
   
 ### See also  
  [Connected Field Service architecture](connected-field-service-architecture.md)   
  [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)<br>
- [Developer Guide for Dynamics 365 Customer Engagement](../../developer/developer-guide.md)   
+ [Developer Guide for Dynamics 365 for Customer Engagement](../../developer/developer-guide.md)   

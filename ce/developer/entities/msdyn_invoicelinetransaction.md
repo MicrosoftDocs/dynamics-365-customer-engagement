@@ -1,15 +1,19 @@
 ---
-title: "msdyn_invoicelinetransaction Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_invoicelinetransaction Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_invoicelinetransaction entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_invoicelinetransaction Entity Reference
 
@@ -1845,6 +1849,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_invoicelinetransaction_SyncErrors"></a> msdyn_invoicelinetransaction_SyncErrors
 
 Same as syncerror entity [msdyn_invoicelinetransaction_SyncErrors](syncerror.md#BKMK_msdyn_invoicelinetransaction_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1859,6 +1864,7 @@ Same as syncerror entity [msdyn_invoicelinetransaction_SyncErrors](syncerror.md#
 ### <a name="BKMK_msdyn_invoicelinetransaction_DuplicateMatchingRecord"></a> msdyn_invoicelinetransaction_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_invoicelinetransaction_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1873,6 +1879,7 @@ Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateMatchingRe
 ### <a name="BKMK_msdyn_invoicelinetransaction_DuplicateBaseRecord"></a> msdyn_invoicelinetransaction_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_invoicelinetransaction_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1887,6 +1894,7 @@ Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateBaseRecord
 ### <a name="BKMK_msdyn_invoicelinetransaction_AsyncOperations"></a> msdyn_invoicelinetransaction_AsyncOperations
 
 Same as asyncoperation entity [msdyn_invoicelinetransaction_AsyncOperations](asyncoperation.md#BKMK_msdyn_invoicelinetransaction_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1901,6 +1909,7 @@ Same as asyncoperation entity [msdyn_invoicelinetransaction_AsyncOperations](asy
 ### <a name="BKMK_msdyn_invoicelinetransaction_MailboxTrackingFolders"></a> msdyn_invoicelinetransaction_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_invoicelinetransaction_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_invoicelinetransaction_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1915,6 +1924,7 @@ Same as mailboxtrackingfolder entity [msdyn_invoicelinetransaction_MailboxTracki
 ### <a name="BKMK_msdyn_invoicelinetransaction_UserEntityInstanceDatas"></a> msdyn_invoicelinetransaction_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_invoicelinetransaction_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_invoicelinetransaction_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1929,6 +1939,7 @@ Same as userentityinstancedata entity [msdyn_invoicelinetransaction_UserEntityIn
 ### <a name="BKMK_msdyn_invoicelinetransaction_ProcessSession"></a> msdyn_invoicelinetransaction_ProcessSession
 
 Same as processsession entity [msdyn_invoicelinetransaction_ProcessSession](processsession.md#BKMK_msdyn_invoicelinetransaction_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1943,6 +1954,7 @@ Same as processsession entity [msdyn_invoicelinetransaction_ProcessSession](proc
 ### <a name="BKMK_msdyn_invoicelinetransaction_BulkDeleteFailures"></a> msdyn_invoicelinetransaction_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_invoicelinetransaction_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_invoicelinetransaction_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1957,6 +1969,7 @@ Same as bulkdeletefailure entity [msdyn_invoicelinetransaction_BulkDeleteFailure
 ### <a name="BKMK_msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses"></a> msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1971,6 +1984,7 @@ Same as principalobjectattributeaccess entity [msdyn_invoicelinetransaction_Prin
 ### <a name="BKMK_msdyn_invoicelinetransaction_Annotations"></a> msdyn_invoicelinetransaction_Annotations
 
 Same as annotation entity [msdyn_invoicelinetransaction_Annotations](annotation.md#BKMK_msdyn_invoicelinetransaction_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1985,6 +1999,7 @@ Same as annotation entity [msdyn_invoicelinetransaction_Annotations](annotation.
 ### <a name="BKMK_msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail"></a> msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail
 
 Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail](msdyn_invoicelinetransaction.md#BKMK_msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -2136,6 +2151,6 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSched
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_invoicelinetransaction?text=msdyn_invoicelinetransaction EntityType" />

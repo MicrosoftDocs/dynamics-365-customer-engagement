@@ -1,19 +1,26 @@
 ---
 title: "Group search topics into categories in Social Engagement | Microsoft Docs"
 description: "Learn how to use categories to group search topics."
-keywords: "categories, search topic"
+keywords: categories, search topic
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Group search topics into categories

@@ -1,30 +1,34 @@
 ---
-title: "Run data import (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Data importation runs directly on the Dynamics 365 server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
-ms.custom: ""
+title: "Run data import (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Data importation runs directly on the Dynamics 365 for Customer Engagement server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "running data import, transforming parsed data"
-  - "running data import, obtaining auditing data"
-  - "running data import, parsing source data"
-  - "running data import, uploading transformed data to target servers"
-  - "running data import, multiple jobs"
-  - "using import logs to learn about importing failures, viewing"
-  - "running data import, viewing import logs to obtain information about importing failures"
-  - "running data import, setting up asynchronous jobs to run on servers"
-  - "import logs, viewing"
+  - running data import, transforming parsed data
+  - running data import, obtaining auditing data
+  - running data import, parsing source data
+  - running data import, uploading transformed data to target servers
+  - running data import, multiple jobs
+  - using import logs to learn about importing failures, viewing
+  - running data import, viewing import logs to obtain information about importing failures
+  - running data import, setting up asynchronous jobs to run on servers
+  - import logs, viewing
 ms.assetid: 1c819f28-9eec-49eb-af22-f4e95f916205
 caps.latest.revision: 33
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Run data import
 
@@ -32,13 +36,13 @@ manager: "amyla"
 
 Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. To run data import, set up asynchronous jobs to run in the background that do the following, in this order:  
   
--   Parse source data that is contained in the import file.  
+- Parse source data that is contained in the import file.  
   
--   Transform parsed data by using the data map.  
+- Transform parsed data by using the data map.  
   
--   Upload transformed data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+- Upload transformed data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
- All [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have appropriate permissions can run data import.  
+  All [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have appropriate permissions can run data import.  
   
 <a name="parse"></a>   
 ## Parse source data  
@@ -88,7 +92,7 @@ Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
  You cannot import data into the `modifiedon`, `createdby`, and `modifiedby` attributes. If you have to store data related to who created and modified the data and when the data was modified, you can create custom attributes in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and map the source columns to the new custom attributes.  
   
 ### See also  
- [Import Data in Dynamics 365](import-data.md)   
+ [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)   
  [Configure Data Import](configure-data-import.md)   
  [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Data Import Entities](data-import-entities.md)

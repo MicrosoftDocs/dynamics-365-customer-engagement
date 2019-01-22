@@ -37,7 +37,7 @@
              if (endpointType == AuthenticationProviderType.OnlineFederation)
              {
                  IdentityProvider provider = service.GetIdentityProvider(authCredentials.ClientCredentials.UserName.UserName);
-                 if (provider != null &amp;&amp; provider.IdentityProviderType == IdentityProviderType.LiveId)
+                 if (provider != null && provider.IdentityProviderType == IdentityProviderType.LiveId)
                  {
                      authCredentials.SupportingCredentials = new AuthenticationCredentials();
                      authCredentials.SupportingCredentials.ClientCredentials =

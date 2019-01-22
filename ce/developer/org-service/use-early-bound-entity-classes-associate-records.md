@@ -1,30 +1,34 @@
 ---
-title: "Use the early bound entity classes to associate records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the early bound entity classes to associate records (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can create an association between related records using AddLink method in OrganizationServiceContext class for a one-to-many relationship and Associate method in IOrganizationService class using for a many-to-many relationship"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "adding or updating associations between related records, early bound-entity classes"
-  - "using early-bound entity classes in code, adding or updating associations between related records"
-  - "using early bound-entity classes to add or update associations between related records"
+  - adding or updating associations between related records, early bound-entity classes
+  - using early-bound entity classes in code, adding or updating associations between related records
+  - using early bound-entity classes to add or update associations between related records
 ms.assetid: 72e6f386-94f0-43a9-aa33-d13a6b2b9628
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the early bound entity classes to associate records
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can create an association by using early binding in several ways. To create a one-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddLink(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)> method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class. To create a many-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method in the<xref:Microsoft.Xrm.Sdk.IOrganizationService> class to create an association. You can also create the association by updating the foreign key of the target entity to match the primary key of the new source entity.  
+In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, you can create an association by using early binding in several ways. To create a one-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddLink(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)> method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class. To create a many-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method in the<xref:Microsoft.Xrm.Sdk.IOrganizationService> class to create an association. You can also create the association by updating the foreign key of the target entity to match the primary key of the new source entity.  
   
  To remove an association, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.DeleteLink(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)> method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class or the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> method. You can also set the foreign key to **null**.  
   

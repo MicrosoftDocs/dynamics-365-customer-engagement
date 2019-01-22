@@ -1,24 +1,28 @@
 ---
-title: "Update a recurring appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Update a recurring appointment (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Update a recurring appointment series by using the IOrganizationService.Entity method or the UpdateRequest message on the RecurringAppointmentMaster entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "updating recurring appointments and recurring appointment series"
-  - "updating basic information in a recurring appointment series"
-  - "schedule and appointment entities, updating recurring appointments and recurring appointment series"
+  - updating recurring appointments and recurring appointment series
+  - updating basic information in a recurring appointment series
+  - schedule and appointment entities, updating recurring appointments and recurring appointment series
 ms.assetid: 8b4e75d1-4d3e-4d93-b4c1-6223269c4d4b
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Update a recurring appointment
 
@@ -35,11 +39,11 @@ You can either update the whole series or update an instance of a recurring appo
 ### Update recurrence information  
  When you update the recurring information of a recurring appointment series, such as pattern and range, the following things occur:  
   
-1.  A new series with a new `RecurringAppointmentMaster.ActivityId` is created that has the same information as the original series, and the date in the `RecurringAppointmentMaster.EffectiveEndDate` attribute of the new series is set to the last occurring past instance of the original series. All the future instances of the original series are deleted. In this manner, the original series is ended, and the history of the past instances is preserved in the system by storing it in a new series.  
+1. A new series with a new `RecurringAppointmentMaster.ActivityId` is created that has the same information as the original series, and the date in the `RecurringAppointmentMaster.EffectiveEndDate` attribute of the new series is set to the last occurring past instance of the original series. All the future instances of the original series are deleted. In this manner, the original series is ended, and the history of the past instances is preserved in the system by storing it in a new series.  
   
-2.  The new information is used to create the future instances of the new series from the effective start date (`RecurringAppointmentMaster.EffectiveStartDate`).  
+2. The new information is used to create the future instances of the new series from the effective start date (`RecurringAppointmentMaster.EffectiveStartDate`).  
   
- Also, the `RecurringAppointmentMaster.GroupId` attribute for both the original and the new series  is populated with the same value. This implies that whenever you update the recurrence information in a recurring appointment series, all the new series’ that are created have the same value for the `RecurringAppointmentMaster.GroupId` attribute as the recurring appointment series that is updated, although each series has a unique series ID.  
+   Also, the `RecurringAppointmentMaster.GroupId` attribute for both the original and the new series  is populated with the same value. This implies that whenever you update the recurrence information in a recurring appointment series, all the new series’ that are created have the same value for the `RecurringAppointmentMaster.GroupId` attribute as the recurring appointment series that is updated, although each series has a unique series ID.  
   
 > [!NOTE]
 >  When you update the recurrence information of a recurring appointment series that has all the instances slated to occur in future, all instances are deleted and new recurrence information is used to create or expand new instances.  

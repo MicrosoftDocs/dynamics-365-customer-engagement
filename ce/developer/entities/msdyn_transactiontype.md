@@ -1,15 +1,19 @@
 ---
-title: "msdyn_transactiontype Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_transactiontype Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_transactiontype entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_transactiontype Entity Reference
 
@@ -618,6 +622,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_transactiontype_SyncErrors"></a> msdyn_transactiontype_SyncErrors
 
 Same as syncerror entity [msdyn_transactiontype_SyncErrors](syncerror.md#BKMK_msdyn_transactiontype_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -632,6 +637,7 @@ Same as syncerror entity [msdyn_transactiontype_SyncErrors](syncerror.md#BKMK_ms
 ### <a name="BKMK_msdyn_transactiontype_DuplicateMatchingRecord"></a> msdyn_transactiontype_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_transactiontype_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_transactiontype_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -646,6 +652,7 @@ Same as duplicaterecord entity [msdyn_transactiontype_DuplicateMatchingRecord](d
 ### <a name="BKMK_msdyn_transactiontype_DuplicateBaseRecord"></a> msdyn_transactiontype_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_transactiontype_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_transactiontype_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -660,6 +667,7 @@ Same as duplicaterecord entity [msdyn_transactiontype_DuplicateBaseRecord](dupli
 ### <a name="BKMK_msdyn_transactiontype_AsyncOperations"></a> msdyn_transactiontype_AsyncOperations
 
 Same as asyncoperation entity [msdyn_transactiontype_AsyncOperations](asyncoperation.md#BKMK_msdyn_transactiontype_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -674,6 +682,7 @@ Same as asyncoperation entity [msdyn_transactiontype_AsyncOperations](asyncopera
 ### <a name="BKMK_msdyn_transactiontype_MailboxTrackingFolders"></a> msdyn_transactiontype_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_transactiontype_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_transactiontype_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -688,6 +697,7 @@ Same as mailboxtrackingfolder entity [msdyn_transactiontype_MailboxTrackingFolde
 ### <a name="BKMK_msdyn_transactiontype_UserEntityInstanceDatas"></a> msdyn_transactiontype_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_transactiontype_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_transactiontype_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -702,6 +712,7 @@ Same as userentityinstancedata entity [msdyn_transactiontype_UserEntityInstanceD
 ### <a name="BKMK_msdyn_transactiontype_ProcessSession"></a> msdyn_transactiontype_ProcessSession
 
 Same as processsession entity [msdyn_transactiontype_ProcessSession](processsession.md#BKMK_msdyn_transactiontype_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -716,6 +727,7 @@ Same as processsession entity [msdyn_transactiontype_ProcessSession](processsess
 ### <a name="BKMK_msdyn_transactiontype_BulkDeleteFailures"></a> msdyn_transactiontype_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_transactiontype_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_transactiontype_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -730,6 +742,7 @@ Same as bulkdeletefailure entity [msdyn_transactiontype_BulkDeleteFailures](bulk
 ### <a name="BKMK_msdyn_transactiontype_PrincipalObjectAttributeAccesses"></a> msdyn_transactiontype_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_transactiontype_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_transactiontype_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -744,6 +757,7 @@ Same as principalobjectattributeaccess entity [msdyn_transactiontype_PrincipalOb
 ### <a name="BKMK_msdyn_transactiontype_Annotations"></a> msdyn_transactiontype_Annotations
 
 Same as annotation entity [msdyn_transactiontype_Annotations](annotation.md#BKMK_msdyn_transactiontype_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -800,6 +814,6 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_transactiontype_UnitGroup](uomsc
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_transactiontype?text=msdyn_transactiontype EntityType" />

@@ -1,19 +1,26 @@
 ---
-title: "Create weekly awards in Dynamics 365 – Gamification | Microsoft Docs"
-description: "Learn how to keep players and fans engaged in a game by defining weekly awards in Dynamics 365 – Gamification."
-keywords: ""
+title: "Create weekly awards in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
+description: "Learn how to keep players and fans engaged in a game by defining weekly awards in Dynamics 365 for Customer Engagement – Gamification."
+keywords: 
 ms.date: 10/18/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f34678ce-1037-4788-8394-f83866583c3c
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Create weekly awards to keep players and fans engaged
@@ -40,9 +47,9 @@ Configure weekly awards to keep players focused on delivering results for the ri
 
     Optionally, **Add** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") more places and configure prizes for them if you want.  
 
-6.  Click **Save** to apply your configuration.  
+6. Click **Save** to apply your configuration.  
 
- Weekly awards are now awarded automatically to the winning players. Make sure you follow up with them to deliver the prizes. You can edit the weekly awards later if you want to change the prizes or the associated KPIs.  
+   Weekly awards are now awarded automatically to the winning players. Make sure you follow up with them to deliver the prizes. You can edit the weekly awards later if you want to change the prizes or the associated KPIs.  
   
 ### See also
 

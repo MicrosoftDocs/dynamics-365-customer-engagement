@@ -1,34 +1,38 @@
 ---
-title: "Configure workflow steps in PowerApps | MicrosoftDocs"
+title: "Configure workflow steps in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to configure workflow steps"
-ms.custom: ""
-ms.date: 04/20/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "Mattp123"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+author: Mattp123
 ms.assetid: 0b47dfd5-76db-464f-90c0-c64a0173dcdd
 caps.latest.revision: 18
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Configure workflow steps
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 When configuring workflows you have four major areas to consider:  
   
--   When to start them?  
+- When to start them?  
   
--   Should they run as a real-time workflow or a background workflow?  
+- Should they run as a real-time workflow or a background workflow?  
   
--   What actions should they perform?  
+- What actions should they perform?  
   
--   Under what conditions actions should be performed?  
+- Under what conditions actions should be performed?  
   
- The [Workflows processes overview](../customize/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
+  The [Workflows processes overview](../customize/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
   
 <a name="BKMK_WorkflowStagesAndSteps"></a>   
 

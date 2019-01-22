@@ -67,6 +67,13 @@
       href: create-update-entity-relationships-using-web-api.md
   - name: Discover the URL for your organization using the Web API
     href: discover-url-organization-web-api.md
+  - name: Use Postman with Web API
+    href: use-postman-web-api.md
+    items:
+    - name: Setup a Postman environment
+      href: setup-postman-environment.md
+    - name: Use Postman to perform operations
+      href: use-postman-perform-operations.md
   - name: Web API Samples
     href: web-api-samples.md
     items:

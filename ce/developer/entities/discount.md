@@ -1,15 +1,19 @@
 ---
-title: "Discount Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Discount Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Discount entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Discount Entity Reference
 
@@ -220,10 +224,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### StatusCode Options
 
-|Value|Label|State|
-|-----|-----|-----|
-
-
+| Value | Label | State |
+|-------|-------|-------|
+|       |       |       |
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -645,6 +648,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Discount_SyncErrors"></a> Discount_SyncErrors
 
 Same as syncerror entity [Discount_SyncErrors](syncerror.md#BKMK_Discount_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -659,6 +663,7 @@ Same as syncerror entity [Discount_SyncErrors](syncerror.md#BKMK_Discount_SyncEr
 ### <a name="BKMK_Discount_AsyncOperations"></a> Discount_AsyncOperations
 
 Same as asyncoperation entity [Discount_AsyncOperations](asyncoperation.md#BKMK_Discount_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -673,6 +678,7 @@ Same as asyncoperation entity [Discount_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_discount_MailboxTrackingFolders"></a> discount_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [discount_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_discount_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -687,6 +693,7 @@ Same as mailboxtrackingfolder entity [discount_MailboxTrackingFolders](mailboxtr
 ### <a name="BKMK_userentityinstancedata_discount"></a> userentityinstancedata_discount
 
 Same as userentityinstancedata entity [userentityinstancedata_discount](userentityinstancedata.md#BKMK_userentityinstancedata_discount) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -701,6 +708,7 @@ Same as userentityinstancedata entity [userentityinstancedata_discount](userenti
 ### <a name="BKMK_Discount_ProcessSessions"></a> Discount_ProcessSessions
 
 Same as processsession entity [Discount_ProcessSessions](processsession.md#BKMK_Discount_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -715,6 +723,7 @@ Same as processsession entity [Discount_ProcessSessions](processsession.md#BKMK_
 ### <a name="BKMK_Discount_BulkDeleteFailures"></a> Discount_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Discount_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Discount_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -729,6 +738,7 @@ Same as bulkdeletefailure entity [Discount_BulkDeleteFailures](bulkdeletefailure
 ### <a name="BKMK_discount_PrincipalObjectAttributeAccesses"></a> discount_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [discount_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_discount_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -780,6 +790,6 @@ See discounttype Entity [discount_type_discounts](discounttype.md#BKMK_discount_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.discount?text=discount EntityType" />

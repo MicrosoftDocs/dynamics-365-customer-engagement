@@ -1,15 +1,19 @@
 ---
-title: "Client API Reference for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "The topic provides client API reference for Dynamics 365."
+title: "Client API Reference for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "The topic provides client API reference for Dynamics 365 for Customer Engagement apps."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Client API Reference for Customer Engagement
 
@@ -33,4 +37,4 @@ The topics under this section are organized as follows:
 
 [Understand the Client API object model](understand-clientapi-object-model.md)
 
-[Developer Guide for Dynamics 365 Customer Engagement](../developer-guide.md)
+[Developer Guide for Dynamics 365 for Customer Engagement apps](../developer-guide.md)

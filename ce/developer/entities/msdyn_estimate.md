@@ -1,15 +1,19 @@
 ---
-title: "msdyn_estimate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_estimate Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_estimate entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_estimate Entity Reference
 
@@ -641,6 +645,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_estimate_SyncErrors"></a> msdyn_estimate_SyncErrors
 
 Same as syncerror entity [msdyn_estimate_SyncErrors](syncerror.md#BKMK_msdyn_estimate_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -655,6 +660,7 @@ Same as syncerror entity [msdyn_estimate_SyncErrors](syncerror.md#BKMK_msdyn_est
 ### <a name="BKMK_msdyn_estimate_DuplicateMatchingRecord"></a> msdyn_estimate_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_estimate_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_estimate_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -669,6 +675,7 @@ Same as duplicaterecord entity [msdyn_estimate_DuplicateMatchingRecord](duplicat
 ### <a name="BKMK_msdyn_estimate_DuplicateBaseRecord"></a> msdyn_estimate_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_estimate_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_estimate_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -683,6 +690,7 @@ Same as duplicaterecord entity [msdyn_estimate_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_msdyn_estimate_AsyncOperations"></a> msdyn_estimate_AsyncOperations
 
 Same as asyncoperation entity [msdyn_estimate_AsyncOperations](asyncoperation.md#BKMK_msdyn_estimate_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -697,6 +705,7 @@ Same as asyncoperation entity [msdyn_estimate_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_msdyn_estimate_MailboxTrackingFolders"></a> msdyn_estimate_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_estimate_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_estimate_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -711,6 +720,7 @@ Same as mailboxtrackingfolder entity [msdyn_estimate_MailboxTrackingFolders](mai
 ### <a name="BKMK_msdyn_estimate_UserEntityInstanceDatas"></a> msdyn_estimate_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_estimate_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_estimate_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -725,6 +735,7 @@ Same as userentityinstancedata entity [msdyn_estimate_UserEntityInstanceDatas](u
 ### <a name="BKMK_msdyn_estimate_ProcessSession"></a> msdyn_estimate_ProcessSession
 
 Same as processsession entity [msdyn_estimate_ProcessSession](processsession.md#BKMK_msdyn_estimate_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -739,6 +750,7 @@ Same as processsession entity [msdyn_estimate_ProcessSession](processsession.md#
 ### <a name="BKMK_msdyn_estimate_BulkDeleteFailures"></a> msdyn_estimate_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_estimate_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_estimate_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -753,6 +765,7 @@ Same as bulkdeletefailure entity [msdyn_estimate_BulkDeleteFailures](bulkdeletef
 ### <a name="BKMK_msdyn_estimate_PrincipalObjectAttributeAccesses"></a> msdyn_estimate_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_estimate_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_estimate_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -767,6 +780,7 @@ Same as principalobjectattributeaccess entity [msdyn_estimate_PrincipalObjectAtt
 ### <a name="BKMK_msdyn_estimate_Annotations"></a> msdyn_estimate_Annotations
 
 Same as annotation entity [msdyn_estimate_Annotations](annotation.md#BKMK_msdyn_estimate_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -781,6 +795,7 @@ Same as annotation entity [msdyn_estimate_Annotations](annotation.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_msdyn_estimate_msdyn_estimateline_Estimate"></a> msdyn_msdyn_estimate_msdyn_estimateline_Estimate
 
 Same as msdyn_estimateline entity [msdyn_msdyn_estimate_msdyn_estimateline_Estimate](msdyn_estimateline.md#BKMK_msdyn_msdyn_estimate_msdyn_estimateline_Estimate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -795,6 +810,7 @@ Same as msdyn_estimateline entity [msdyn_msdyn_estimate_msdyn_estimateline_Estim
 ### <a name="BKMK_msdyn_msdyn_estimate_msdyn_fact_Estimate"></a> msdyn_msdyn_estimate_msdyn_fact_Estimate
 
 Same as msdyn_fact entity [msdyn_msdyn_estimate_msdyn_fact_Estimate](msdyn_fact.md#BKMK_msdyn_msdyn_estimate_msdyn_fact_Estimate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -856,6 +872,6 @@ See msdyn_project Entity [msdyn_msdyn_project_msdyn_estimate_Project](msdyn_proj
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_estimate?text=msdyn_estimate EntityType" />

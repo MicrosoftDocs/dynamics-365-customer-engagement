@@ -1,15 +1,19 @@
 ---
-title: "GoalRollupQuery Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "GoalRollupQuery Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the GoalRollupQuery entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # GoalRollupQuery Entity Reference
 
@@ -322,7 +326,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -413,7 +417,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -583,6 +587,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_goalrollupquery_actualint"></a> goalrollupquery_actualint
 
 Same as goal entity [goalrollupquery_actualint](goal.md#BKMK_goalrollupquery_actualint) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -597,6 +602,7 @@ Same as goal entity [goalrollupquery_actualint](goal.md#BKMK_goalrollupquery_act
 ### <a name="BKMK_goal_rollupquery_actualmoney"></a> goal_rollupquery_actualmoney
 
 Same as goal entity [goal_rollupquery_actualmoney](goal.md#BKMK_goal_rollupquery_actualmoney) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -611,6 +617,7 @@ Same as goal entity [goal_rollupquery_actualmoney](goal.md#BKMK_goal_rollupquery
 ### <a name="BKMK_goal_rollupquery_actualdecimal"></a> goal_rollupquery_actualdecimal
 
 Same as goal entity [goal_rollupquery_actualdecimal](goal.md#BKMK_goal_rollupquery_actualdecimal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -625,6 +632,7 @@ Same as goal entity [goal_rollupquery_actualdecimal](goal.md#BKMK_goal_rollupque
 ### <a name="BKMK_goal_rollupquery_customint"></a> goal_rollupquery_customint
 
 Same as goal entity [goal_rollupquery_customint](goal.md#BKMK_goal_rollupquery_customint) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -639,6 +647,7 @@ Same as goal entity [goal_rollupquery_customint](goal.md#BKMK_goal_rollupquery_c
 ### <a name="BKMK_goal_rollupquery_custommoney"></a> goal_rollupquery_custommoney
 
 Same as goal entity [goal_rollupquery_custommoney](goal.md#BKMK_goal_rollupquery_custommoney) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -653,6 +662,7 @@ Same as goal entity [goal_rollupquery_custommoney](goal.md#BKMK_goal_rollupquery
 ### <a name="BKMK_goal_rollupquery_customdecimal"></a> goal_rollupquery_customdecimal
 
 Same as goal entity [goal_rollupquery_customdecimal](goal.md#BKMK_goal_rollupquery_customdecimal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -667,6 +677,7 @@ Same as goal entity [goal_rollupquery_customdecimal](goal.md#BKMK_goal_rollupque
 ### <a name="BKMK_goal_rollupquery_inprogressint"></a> goal_rollupquery_inprogressint
 
 Same as goal entity [goal_rollupquery_inprogressint](goal.md#BKMK_goal_rollupquery_inprogressint) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -681,6 +692,7 @@ Same as goal entity [goal_rollupquery_inprogressint](goal.md#BKMK_goal_rollupque
 ### <a name="BKMK_goal_rollupquery_inprogressmoney"></a> goal_rollupquery_inprogressmoney
 
 Same as goal entity [goal_rollupquery_inprogressmoney](goal.md#BKMK_goal_rollupquery_inprogressmoney) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -695,6 +707,7 @@ Same as goal entity [goal_rollupquery_inprogressmoney](goal.md#BKMK_goal_rollupq
 ### <a name="BKMK_goal_rollupquery_inprogressdecimal"></a> goal_rollupquery_inprogressdecimal
 
 Same as goal entity [goal_rollupquery_inprogressdecimal](goal.md#BKMK_goal_rollupquery_inprogressdecimal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -709,6 +722,7 @@ Same as goal entity [goal_rollupquery_inprogressdecimal](goal.md#BKMK_goal_rollu
 ### <a name="BKMK_GoalRollupQuery_SyncErrors"></a> GoalRollupQuery_SyncErrors
 
 Same as syncerror entity [GoalRollupQuery_SyncErrors](syncerror.md#BKMK_GoalRollupQuery_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -723,6 +737,7 @@ Same as syncerror entity [GoalRollupQuery_SyncErrors](syncerror.md#BKMK_GoalRoll
 ### <a name="BKMK_goalrollupquery_AsyncOperations"></a> goalrollupquery_AsyncOperations
 
 Same as asyncoperation entity [goalrollupquery_AsyncOperations](asyncoperation.md#BKMK_goalrollupquery_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -737,6 +752,7 @@ Same as asyncoperation entity [goalrollupquery_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_GoalRollupQuery_DuplicateMatchingRecord"></a> GoalRollupQuery_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [GoalRollupQuery_DuplicateMatchingRecord](duplicaterecord.md#BKMK_GoalRollupQuery_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -751,6 +767,7 @@ Same as duplicaterecord entity [GoalRollupQuery_DuplicateMatchingRecord](duplica
 ### <a name="BKMK_userentityinstancedata_goalrollupquery"></a> userentityinstancedata_goalrollupquery
 
 Same as userentityinstancedata entity [userentityinstancedata_goalrollupquery](userentityinstancedata.md#BKMK_userentityinstancedata_goalrollupquery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -765,6 +782,7 @@ Same as userentityinstancedata entity [userentityinstancedata_goalrollupquery](u
 ### <a name="BKMK_GoalRollupQuery_DuplicateBaseRecord"></a> GoalRollupQuery_DuplicateBaseRecord
 
 Same as duplicaterecord entity [GoalRollupQuery_DuplicateBaseRecord](duplicaterecord.md#BKMK_GoalRollupQuery_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -779,6 +797,7 @@ Same as duplicaterecord entity [GoalRollupQuery_DuplicateBaseRecord](duplicatere
 ### <a name="BKMK_goalrollupquery_ProcessSessions"></a> goalrollupquery_ProcessSessions
 
 Same as processsession entity [goalrollupquery_ProcessSessions](processsession.md#BKMK_goalrollupquery_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -830,6 +849,6 @@ See businessunit Entity [business_unit_goalrollupquery](businessunit.md#BKMK_bus
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.goalrollupquery?text=goalrollupquery EntityType" />

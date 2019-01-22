@@ -1,18 +1,25 @@
 ---
 title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
-keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
-ms.date: 05/08/2018
+keywords: sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news
+ms.date: 12/05/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Find out what&#39;s covered by sources
@@ -47,10 +54,10 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 
 ## Instagram
 
-After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. 
+After you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] & [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition account as a [social profile](manage-social-profiles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can configure [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account search rules for your search topics. These rules will acquire posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. Learn more about [data acquisition on Instagram](instagram-data-acquisition.md).
 
 > [!NOTE]
-> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
+> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
@@ -76,7 +83,7 @@ To add a private messages rule, see [Add a private messages rule](add-rules-sear
 
 Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
-Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
+Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
 
 ## Privacy notice
 

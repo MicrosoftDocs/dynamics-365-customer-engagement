@@ -202,7 +202,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     PageInfo = new PagingInfo { PageNumber = 1, Count = 1 },
                 });
 
-            if (entities != null &amp;&amp; entities.Entities.Count > 0)
+            if (entities != null && entities.Entities.Count > 0)
                 return entities.Entities[0].Id;
 
             return null;
@@ -260,7 +260,7 @@ namespace Microsoft.Crm.Sdk.Samples
             ColumnSet cs = new ColumnSet("statecode", "asyncoperationid");
             int retryCount = 100;
 
-            while (asyncJobList.Count != 0 &amp;&amp; retryCount > 0)
+            while (asyncJobList.Count != 0 && retryCount > 0)
             {
                 // Retrieve the async operations based on the ids
                 var crmAsyncJobs = _serviceProxy.RetrieveMultiple(
@@ -281,7 +281,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 foreach (var item in crmAsyncJobs.Entities)
 	            {
                     var crmAsyncJob = item.ToEntity<AsyncOperation>();
-                    if (crmAsyncJob.StateCode.HasValue &amp;&amp; 
+                    if (crmAsyncJob.StateCode.HasValue && 
                         crmAsyncJob.StateCode.Value == AsyncOperationState.Completed)
                         asyncJobList.Remove(crmAsyncJob.AsyncOperationId.Value);
 
@@ -297,7 +297,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 retryCount--;           
             }
 
-            if (retryCount == 0 &amp;&amp; asyncJobList.Count > 0)
+            if (retryCount == 0 && asyncJobList.Count > 0)
             {
                 for (int i = 0; i < asyncJobList.Count; i++)
                 {

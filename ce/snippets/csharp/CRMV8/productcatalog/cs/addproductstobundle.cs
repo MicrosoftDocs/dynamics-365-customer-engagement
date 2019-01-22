@@ -93,7 +93,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     _product2AssociationId = _serviceProxy.Create(newAssociation2);
 
                     // Verify if the product association is created
-                    if ((_product1AssociationId != null) &amp;&amp; (_product1AssociationId != null))
+                    if ((_product1AssociationId != null) && (_product1AssociationId != null))
                     {
                         Console.WriteLine("\nAdded both the products to the bundle");
                     }                        

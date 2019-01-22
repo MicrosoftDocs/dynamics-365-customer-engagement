@@ -1,29 +1,32 @@
 ---
-title: Create a simple selection rule (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create a simple selection rule in Dynamics 365 for Customer Service
-keywords: Create a selection rule; Dynamics 365; Customer Service
+title: Create a simple selection rule (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+description: See how to create a simple selection rule in Dynamics 365 for Customer Engagement for Customer Service
+keywords: Create a selection rule; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
-ms.custom:
-  - dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Create a selection rule to determine how resources are selected for service activities (Customer Service)
+# Create a selection rule to determine how resources are selected for service activities (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Before you can add a resource to a service, you must define a selection rule to determine how resources are selected for service activities. 
-
-> [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You can create a simple rule that selects resources from a list, and nest selection rules and sub-rules to create compound and complex rules. A compound rule selects a combination of resources, and a complex tree of selection rules selects from groups of equivalent resources.  
   
@@ -49,7 +52,8 @@ You can also add resources to existing selection rules.
 5.  On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
      Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
-  
+
+
 6.  In the **Edit a Selection Rule** dialog box, enter the following information:  
   
     - **Quantity**  
@@ -87,5 +91,5 @@ You can also add resources to existing selection rules.
 >  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.  
   
 ### See also     
- [Schedule a service activity](schedule-service-activity.md)   
+ [Schedule a service activity](schedule-service-activity-csh.md)   
  [Create or change a resource group](create-edit-resource-group.md)

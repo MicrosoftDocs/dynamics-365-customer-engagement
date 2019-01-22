@@ -1,15 +1,19 @@
 ---
-title: "QuoteDetail Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "QuoteDetail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the QuoteDetail entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # QuoteDetail Entity Reference
 
@@ -222,7 +226,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the quote.|
+|Description|Select whether the product exists in the Microsoft Dynamics 365 for Customer Engagement apps product catalog or is a write-in product specific to the quote.|
 |DisplayName|Select Product|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -278,6 +282,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Agreement"></a> msdyn_Agreement
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The agreement that will be connected to this quote|
@@ -293,6 +298,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Billing method for the project quote line. Valid values are Time and Material and Fixed Price|
@@ -315,6 +321,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingStartDate"></a> msdyn_BillingStartDate
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -331,6 +338,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BudgetAmount"></a> msdyn_BudgetAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the amount the customer has set aside or is willing to pay for the quote component.|
@@ -349,6 +357,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CostAmount"></a> msdyn_CostAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the total cost price of the product based on the cost price per unit and quantity.|
@@ -367,6 +376,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CostPricePerUnit"></a> msdyn_CostPricePerUnit
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Cost price per unit of the product. The default is the cost price of the product.|
@@ -385,6 +395,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Duration"></a> msdyn_Duration
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Duration of the service associated with the quote line|
@@ -402,6 +413,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EndDate"></a> msdyn_EndDate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -418,6 +430,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EstimatedCost"></a> msdyn_EstimatedCost
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The estimated cost of this quote line|
@@ -436,6 +449,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EstimatedMargin"></a> msdyn_EstimatedMargin
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The estimated margin of this quote line|
@@ -453,6 +467,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EstimatedRevenue"></a> msdyn_EstimatedRevenue
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The estimated revenue of this quote line|
@@ -471,6 +486,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ImportDetailsFromAgreement"></a> msdyn_ImportDetailsFromAgreement
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -495,6 +511,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeExpense"></a> msdyn_IncludeExpense
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include expenses in the quote line.|
@@ -519,6 +536,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeFee"></a> msdyn_IncludeFee
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include fees in the quote line.|
@@ -543,6 +561,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeMaterial"></a> msdyn_IncludeMaterial
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include materials in the quote line.|
@@ -567,6 +586,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeTime"></a> msdyn_IncludeTime
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include time transactions in the quote line.|
@@ -591,6 +611,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_invoicefrequency"></a> msdyn_invoicefrequency
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the frequency for the automatic invoice creation job to create the invoice.|
@@ -606,6 +627,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The field to distinguish the quote lines to be of project service or field service|
@@ -628,6 +650,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_OpportunityLine"></a> msdyn_OpportunityLine
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the opportunity line related to this quote line.|
@@ -645,6 +668,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_PriceList"></a> msdyn_PriceList
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The price list associated for the service account on this quote line|
@@ -660,6 +684,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the project related to this quote line.|
@@ -675,6 +700,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SalesTaxCode"></a> msdyn_SalesTaxCode
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The sales tax code|
@@ -690,6 +716,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ServiceAccount"></a> msdyn_ServiceAccount
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The service account for this quote line|
@@ -705,6 +732,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Service territory of this service|
@@ -720,6 +748,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_StartDate"></a> msdyn_StartDate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -736,6 +765,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Taxable"></a> msdyn_Taxable
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|States whether this is taxable|
@@ -1725,6 +1755,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_budgetamount_Base"></a> msdyn_budgetamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Budget Amount in base currency.|
@@ -1743,6 +1774,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costamount_Base"></a> msdyn_costamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the CostAmount in base currency.|
@@ -1761,6 +1793,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costpriceperunit_Base"></a> msdyn_costpriceperunit_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Cost Price Per Unit in base currency.|
@@ -1779,6 +1812,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_estimatedcost_Base"></a> msdyn_estimatedcost_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the EstimatedCost in base currency.|
@@ -1797,6 +1831,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_estimatedrevenue_Base"></a> msdyn_estimatedrevenue_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the EstimatedRevenue in base currency.|
@@ -1831,6 +1866,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_linedescription"></a> msdyn_linedescription
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|abstracts description for product based lines vs write-in products or project based lines|
@@ -2105,11 +2141,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### QuoteStateCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_SalesRepIdName"></a> SalesRepIdName
 
@@ -2260,6 +2294,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_QuoteDetail_SyncErrors"></a> QuoteDetail_SyncErrors
 
 Same as syncerror entity [QuoteDetail_SyncErrors](syncerror.md#BKMK_QuoteDetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2274,6 +2309,7 @@ Same as syncerror entity [QuoteDetail_SyncErrors](syncerror.md#BKMK_QuoteDetail_
 ### <a name="BKMK_QuoteDetail_AsyncOperations"></a> QuoteDetail_AsyncOperations
 
 Same as asyncoperation entity [QuoteDetail_AsyncOperations](asyncoperation.md#BKMK_QuoteDetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2288,6 +2324,7 @@ Same as asyncoperation entity [QuoteDetail_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_quotedetail_MailboxTrackingFolders"></a> quotedetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [quotedetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_quotedetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2302,6 +2339,7 @@ Same as mailboxtrackingfolder entity [quotedetail_MailboxTrackingFolders](mailbo
 ### <a name="BKMK_userentityinstancedata_quotedetail"></a> userentityinstancedata_quotedetail
 
 Same as userentityinstancedata entity [userentityinstancedata_quotedetail](userentityinstancedata.md#BKMK_userentityinstancedata_quotedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2316,6 +2354,7 @@ Same as userentityinstancedata entity [userentityinstancedata_quotedetail](usere
 ### <a name="BKMK_QuoteDetail_ProcessSessions"></a> QuoteDetail_ProcessSessions
 
 Same as processsession entity [QuoteDetail_ProcessSessions](processsession.md#BKMK_QuoteDetail_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2330,6 +2369,7 @@ Same as processsession entity [QuoteDetail_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_QuoteDetail_BulkDeleteFailures"></a> QuoteDetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [QuoteDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QuoteDetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2344,6 +2384,7 @@ Same as bulkdeletefailure entity [QuoteDetail_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_quotedetail_principalobjectattributeaccess"></a> quotedetail_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [quotedetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_quotedetail_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2358,6 +2399,7 @@ Same as principalobjectattributeaccess entity [quotedetail_principalobjectattrib
 ### <a name="BKMK_QuoteDetail_Dynamicpropertyinstance"></a> QuoteDetail_Dynamicpropertyinstance
 
 Same as dynamicpropertyinstance entity [QuoteDetail_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_QuoteDetail_Dynamicpropertyinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyinstance|
@@ -2372,6 +2414,7 @@ Same as dynamicpropertyinstance entity [QuoteDetail_Dynamicpropertyinstance](dyn
 ### <a name="BKMK_quotedetail_parent_quotedetail"></a> quotedetail_parent_quotedetail
 
 Same as quotedetail entity [quotedetail_parent_quotedetail](quotedetail.md#BKMK_quotedetail_parent_quotedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -2493,6 +2536,6 @@ See territory Entity [msdyn_territory_quotedetail_ServiceTerritory](territory.md
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.quotedetail?text=quotedetail EntityType" />

@@ -1,15 +1,19 @@
 ---
-title: "msdyn_incidenttypeproduct Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_incidenttypeproduct Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_incidenttypeproduct entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_incidenttypeproduct Entity Reference
 
@@ -426,7 +430,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -533,7 +537,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -762,6 +766,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_incidenttypeproduct_ActivityPointers"></a> msdyn_incidenttypeproduct_ActivityPointers
 
 Same as activitypointer entity [msdyn_incidenttypeproduct_ActivityPointers](activitypointer.md#BKMK_msdyn_incidenttypeproduct_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -776,6 +781,7 @@ Same as activitypointer entity [msdyn_incidenttypeproduct_ActivityPointers](acti
 ### <a name="BKMK_msdyn_incidenttypeproduct_msdyn_approvals"></a> msdyn_incidenttypeproduct_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_incidenttypeproduct_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_incidenttypeproduct_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -790,6 +796,7 @@ Same as msdyn_approval entity [msdyn_incidenttypeproduct_msdyn_approvals](msdyn_
 ### <a name="BKMK_msdyn_incidenttypeproduct_msdyn_bookingalerts"></a> msdyn_incidenttypeproduct_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_incidenttypeproduct_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_incidenttypeproduct_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -804,6 +811,7 @@ Same as msdyn_bookingalert entity [msdyn_incidenttypeproduct_msdyn_bookingalerts
 ### <a name="BKMK_msdyn_incidenttypeproduct_SyncErrors"></a> msdyn_incidenttypeproduct_SyncErrors
 
 Same as syncerror entity [msdyn_incidenttypeproduct_SyncErrors](syncerror.md#BKMK_msdyn_incidenttypeproduct_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -818,6 +826,7 @@ Same as syncerror entity [msdyn_incidenttypeproduct_SyncErrors](syncerror.md#BKM
 ### <a name="BKMK_msdyn_incidenttypeproduct_DuplicateMatchingRecord"></a> msdyn_incidenttypeproduct_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_incidenttypeproduct_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_incidenttypeproduct_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -832,6 +841,7 @@ Same as duplicaterecord entity [msdyn_incidenttypeproduct_DuplicateMatchingRecor
 ### <a name="BKMK_msdyn_incidenttypeproduct_DuplicateBaseRecord"></a> msdyn_incidenttypeproduct_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_incidenttypeproduct_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_incidenttypeproduct_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -846,6 +856,7 @@ Same as duplicaterecord entity [msdyn_incidenttypeproduct_DuplicateBaseRecord](d
 ### <a name="BKMK_msdyn_incidenttypeproduct_SharePointDocumentLocations"></a> msdyn_incidenttypeproduct_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_incidenttypeproduct_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_incidenttypeproduct_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -860,6 +871,7 @@ Same as sharepointdocumentlocation entity [msdyn_incidenttypeproduct_SharePointD
 ### <a name="BKMK_msdyn_incidenttypeproduct_SharePointDocuments"></a> msdyn_incidenttypeproduct_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_incidenttypeproduct_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_incidenttypeproduct_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -874,6 +886,7 @@ Same as sharepointdocument entity [msdyn_incidenttypeproduct_SharePointDocuments
 ### <a name="BKMK_msdyn_incidenttypeproduct_AsyncOperations"></a> msdyn_incidenttypeproduct_AsyncOperations
 
 Same as asyncoperation entity [msdyn_incidenttypeproduct_AsyncOperations](asyncoperation.md#BKMK_msdyn_incidenttypeproduct_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -888,6 +901,7 @@ Same as asyncoperation entity [msdyn_incidenttypeproduct_AsyncOperations](asynco
 ### <a name="BKMK_msdyn_incidenttypeproduct_MailboxTrackingFolders"></a> msdyn_incidenttypeproduct_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_incidenttypeproduct_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_incidenttypeproduct_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -902,6 +916,7 @@ Same as mailboxtrackingfolder entity [msdyn_incidenttypeproduct_MailboxTrackingF
 ### <a name="BKMK_msdyn_incidenttypeproduct_UserEntityInstanceDatas"></a> msdyn_incidenttypeproduct_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_incidenttypeproduct_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_incidenttypeproduct_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -916,6 +931,7 @@ Same as userentityinstancedata entity [msdyn_incidenttypeproduct_UserEntityInsta
 ### <a name="BKMK_msdyn_incidenttypeproduct_ProcessSession"></a> msdyn_incidenttypeproduct_ProcessSession
 
 Same as processsession entity [msdyn_incidenttypeproduct_ProcessSession](processsession.md#BKMK_msdyn_incidenttypeproduct_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -930,6 +946,7 @@ Same as processsession entity [msdyn_incidenttypeproduct_ProcessSession](process
 ### <a name="BKMK_msdyn_incidenttypeproduct_BulkDeleteFailures"></a> msdyn_incidenttypeproduct_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_incidenttypeproduct_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_incidenttypeproduct_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -944,6 +961,7 @@ Same as bulkdeletefailure entity [msdyn_incidenttypeproduct_BulkDeleteFailures](
 ### <a name="BKMK_msdyn_incidenttypeproduct_PrincipalObjectAttributeAccesses"></a> msdyn_incidenttypeproduct_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_incidenttypeproduct_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_incidenttypeproduct_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -958,6 +976,7 @@ Same as principalobjectattributeaccess entity [msdyn_incidenttypeproduct_Princip
 ### <a name="BKMK_msdyn_incidenttypeproduct_Appointments"></a> msdyn_incidenttypeproduct_Appointments
 
 Same as appointment entity [msdyn_incidenttypeproduct_Appointments](appointment.md#BKMK_msdyn_incidenttypeproduct_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -972,6 +991,7 @@ Same as appointment entity [msdyn_incidenttypeproduct_Appointments](appointment.
 ### <a name="BKMK_msdyn_incidenttypeproduct_Emails"></a> msdyn_incidenttypeproduct_Emails
 
 Same as email entity [msdyn_incidenttypeproduct_Emails](email.md#BKMK_msdyn_incidenttypeproduct_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -986,6 +1006,7 @@ Same as email entity [msdyn_incidenttypeproduct_Emails](email.md#BKMK_msdyn_inci
 ### <a name="BKMK_msdyn_incidenttypeproduct_Faxes"></a> msdyn_incidenttypeproduct_Faxes
 
 Same as fax entity [msdyn_incidenttypeproduct_Faxes](fax.md#BKMK_msdyn_incidenttypeproduct_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1000,6 +1021,7 @@ Same as fax entity [msdyn_incidenttypeproduct_Faxes](fax.md#BKMK_msdyn_incidentt
 ### <a name="BKMK_msdyn_incidenttypeproduct_Letters"></a> msdyn_incidenttypeproduct_Letters
 
 Same as letter entity [msdyn_incidenttypeproduct_Letters](letter.md#BKMK_msdyn_incidenttypeproduct_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1014,6 +1036,7 @@ Same as letter entity [msdyn_incidenttypeproduct_Letters](letter.md#BKMK_msdyn_i
 ### <a name="BKMK_msdyn_incidenttypeproduct_PhoneCalls"></a> msdyn_incidenttypeproduct_PhoneCalls
 
 Same as phonecall entity [msdyn_incidenttypeproduct_PhoneCalls](phonecall.md#BKMK_msdyn_incidenttypeproduct_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1028,6 +1051,7 @@ Same as phonecall entity [msdyn_incidenttypeproduct_PhoneCalls](phonecall.md#BKM
 ### <a name="BKMK_msdyn_incidenttypeproduct_Tasks"></a> msdyn_incidenttypeproduct_Tasks
 
 Same as task entity [msdyn_incidenttypeproduct_Tasks](task.md#BKMK_msdyn_incidenttypeproduct_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1042,6 +1066,7 @@ Same as task entity [msdyn_incidenttypeproduct_Tasks](task.md#BKMK_msdyn_inciden
 ### <a name="BKMK_msdyn_incidenttypeproduct_RecurringAppointmentMasters"></a> msdyn_incidenttypeproduct_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_incidenttypeproduct_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_incidenttypeproduct_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1056,6 +1081,7 @@ Same as recurringappointmentmaster entity [msdyn_incidenttypeproduct_RecurringAp
 ### <a name="BKMK_msdyn_incidenttypeproduct_SocialActivities"></a> msdyn_incidenttypeproduct_SocialActivities
 
 Same as socialactivity entity [msdyn_incidenttypeproduct_SocialActivities](socialactivity.md#BKMK_msdyn_incidenttypeproduct_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1070,6 +1096,7 @@ Same as socialactivity entity [msdyn_incidenttypeproduct_SocialActivities](socia
 ### <a name="BKMK_msdyn_incidenttypeproduct_connections1"></a> msdyn_incidenttypeproduct_connections1
 
 Same as connection entity [msdyn_incidenttypeproduct_connections1](connection.md#BKMK_msdyn_incidenttypeproduct_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1084,6 +1111,7 @@ Same as connection entity [msdyn_incidenttypeproduct_connections1](connection.md
 ### <a name="BKMK_msdyn_incidenttypeproduct_connections2"></a> msdyn_incidenttypeproduct_connections2
 
 Same as connection entity [msdyn_incidenttypeproduct_connections2](connection.md#BKMK_msdyn_incidenttypeproduct_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1098,6 +1126,7 @@ Same as connection entity [msdyn_incidenttypeproduct_connections2](connection.md
 ### <a name="BKMK_msdyn_incidenttypeproduct_Annotations"></a> msdyn_incidenttypeproduct_Annotations
 
 Same as annotation entity [msdyn_incidenttypeproduct_Annotations](annotation.md#BKMK_msdyn_incidenttypeproduct_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1112,6 +1141,7 @@ Same as annotation entity [msdyn_incidenttypeproduct_Annotations](annotation.md#
 ### <a name="BKMK_msdyn_incidenttypeproduct_ServiceAppointments"></a> msdyn_incidenttypeproduct_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_incidenttypeproduct_ServiceAppointments](serviceappointment.md#BKMK_msdyn_incidenttypeproduct_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1183,6 +1213,6 @@ See uom Entity [msdyn_uom_msdyn_incidenttypeproduct_Unit](uom.md#BKMK_msdyn_uom_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_incidenttypeproduct?text=msdyn_incidenttypeproduct EntityType" />

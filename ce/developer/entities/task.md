@@ -1,15 +1,19 @@
 ---
-title: "Task Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Task Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Task entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Task Entity Reference
 
@@ -755,7 +759,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -901,7 +905,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1214,6 +1218,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_task_PostFollows"></a> task_PostFollows
 
 Same as postfollow entity [task_PostFollows](postfollow.md#BKMK_task_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1228,6 +1233,7 @@ Same as postfollow entity [task_PostFollows](postfollow.md#BKMK_task_PostFollows
 ### <a name="BKMK_Task_SyncErrors"></a> Task_SyncErrors
 
 Same as syncerror entity [Task_SyncErrors](syncerror.md#BKMK_Task_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1242,6 +1248,7 @@ Same as syncerror entity [Task_SyncErrors](syncerror.md#BKMK_Task_SyncErrors) Ma
 ### <a name="BKMK_Task_QueueItem"></a> Task_QueueItem
 
 Same as queueitem entity [Task_QueueItem](queueitem.md#BKMK_Task_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1256,6 +1263,7 @@ Same as queueitem entity [Task_QueueItem](queueitem.md#BKMK_Task_QueueItem) Many
 ### <a name="BKMK_Task_DuplicateBaseRecord"></a> Task_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Task_DuplicateBaseRecord](duplicaterecord.md#BKMK_Task_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1270,6 +1278,7 @@ Same as duplicaterecord entity [Task_DuplicateBaseRecord](duplicaterecord.md#BKM
 ### <a name="BKMK_userentityinstancedata_task"></a> userentityinstancedata_task
 
 Same as userentityinstancedata entity [userentityinstancedata_task](userentityinstancedata.md#BKMK_userentityinstancedata_task) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1284,6 +1293,7 @@ Same as userentityinstancedata entity [userentityinstancedata_task](userentityin
 ### <a name="BKMK_task_connections2"></a> task_connections2
 
 Same as connection entity [task_connections2](connection.md#BKMK_task_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1298,6 +1308,7 @@ Same as connection entity [task_connections2](connection.md#BKMK_task_connection
 ### <a name="BKMK_Task_DuplicateMatchingRecord"></a> Task_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Task_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Task_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1312,6 +1323,7 @@ Same as duplicaterecord entity [Task_DuplicateMatchingRecord](duplicaterecord.md
 ### <a name="BKMK_task_activity_parties"></a> task_activity_parties
 
 Same as activityparty entity [task_activity_parties](activityparty.md#BKMK_task_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1326,6 +1338,7 @@ Same as activityparty entity [task_activity_parties](activityparty.md#BKMK_task_
 ### <a name="BKMK_Task_ProcessSessions"></a> Task_ProcessSessions
 
 Same as processsession entity [Task_ProcessSessions](processsession.md#BKMK_Task_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1340,6 +1353,7 @@ Same as processsession entity [Task_ProcessSessions](processsession.md#BKMK_Task
 ### <a name="BKMK_Task_BulkDeleteFailures"></a> Task_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Task_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Task_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1354,6 +1368,7 @@ Same as bulkdeletefailure entity [Task_BulkDeleteFailures](bulkdeletefailure.md#
 ### <a name="BKMK_task_principalobjectattributeaccess"></a> task_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [task_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_task_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1368,6 +1383,7 @@ Same as principalobjectattributeaccess entity [task_principalobjectattributeacce
 ### <a name="BKMK_task_actioncard"></a> task_actioncard
 
 Same as actioncard entity [task_actioncard](actioncard.md#BKMK_task_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1382,6 +1398,7 @@ Same as actioncard entity [task_actioncard](actioncard.md#BKMK_task_actioncard) 
 ### <a name="BKMK_slakpiinstance_task"></a> slakpiinstance_task
 
 Same as slakpiinstance entity [slakpiinstance_task](slakpiinstance.md#BKMK_slakpiinstance_task) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1396,6 +1413,7 @@ Same as slakpiinstance entity [slakpiinstance_task](slakpiinstance.md#BKMK_slakp
 ### <a name="BKMK_Task_Annotation"></a> Task_Annotation
 
 Same as annotation entity [Task_Annotation](annotation.md#BKMK_Task_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1410,6 +1428,7 @@ Same as annotation entity [Task_Annotation](annotation.md#BKMK_Task_Annotation) 
 ### <a name="BKMK_task_connections1"></a> task_connections1
 
 Same as connection entity [task_connections1](connection.md#BKMK_task_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1424,6 +1443,7 @@ Same as connection entity [task_connections1](connection.md#BKMK_task_connection
 ### <a name="BKMK_Task_AsyncOperations"></a> Task_AsyncOperations
 
 Same as asyncoperation entity [Task_AsyncOperations](asyncoperation.md#BKMK_Task_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1920,6 +1940,6 @@ See systemuser Entity [lk_task_modifiedonbehalfby](systemuser.md#BKMK_lk_task_mo
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.task?text=task EntityType" />

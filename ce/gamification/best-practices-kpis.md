@@ -1,25 +1,32 @@
 ---
-title: "Best practices for KPIs in Dynamics 365 - Gamification | Microsoft Docs"
-description: "Learn about the best practices for KPIs to run smooth games in Dynamics 365 – Gamification while providing visibility and transparency to players and fans."
-ms.custom:
+title: "Best practices for KPIs in Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
+description: "Learn about the best practices for KPIs to run smooth games in Dynamics 365 for Customer Engagement – Gamification while providing visibility and transparency to players and fans."
+ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: fb73fc31-e6e8-43ca-b0cd-9e22bab4d1f4
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 # Best practices for new and existing KPIs in Gamification
 
-[!INCLUDE[pn_gamification](../includes/pn-gamification.md)] includes several default KPIs when the solution is installed. For more information about installing [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], see [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md).
+[!INCLUDE[pn_gamification](../includes/pn-gamification.md)] includes several default KPIs when the solution is installed. For more information about installing [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], see [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md).
 
-You can edit or remove default KPIs according to your organization's requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)
+You can edit or remove default KPIs according to your organization's requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 for Customer Engagement (online)](configure-kpis.md)
 
 ## Useful KPI scenarios
 
@@ -29,17 +36,18 @@ There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_
 
 Let us know what KPIs you find work well, or not so well, on the [Dynamics Community Forum](http://go.microsoft.com/fwlink/p/?LinkId=825550).
 
-|KPI name|KPI configuration|Business scenario|  
-|--------------|-----------------------|-----------------------|  
-|Appointments|5 points for every appointment created.|-   Lead generation<br />-   Outside sales|  
-|Calls made|2 points for every successful call with a prospect/lead.|-   Lead generation<br />-   Inside sales<br />-   Customer service|  
-|Cases resolved|20 points for every case resolved in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Customer service|  
-|Emails sent|1 point for every email sent to a lead.|-   Lead generation<br />-   Inside sales<br />-   Customer service|  
-|Leads created|10 points for every new lead record created in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Lead generation<br />-   Inside sales|  
-|Opportunities created|20 points for every new opportunity created  in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Lead generation<br />-   Outside sales|  
-|Pipeline added|1 point for every $1,000 potential revenue added to a sales pipeline.|-   Inside sales<br />-   Outside sales|  
-|Revenue won|3 points for every $1,000 confirmed revenue.|-   Inside sales<br />-   Outside sales|  
-|Tasks completed|10 points for every completed task in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Customer service|  
+
+|       KPI name        |                                            KPI configuration                                             |                          Business scenario                          |
+|-----------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+|     Appointments      |                                 5 points for every appointment created.                                  |             -   Lead generation<br />-   Outside sales              |
+|      Calls made       |                         2 points for every successful call with a prospect/lead.                         | -   Lead generation<br />-   Inside sales<br />-   Customer service |
+|    Cases resolved     |      20 points for every case resolved in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].       |                        -   Customer service                         |
+|      Emails sent      |                                 1 point for every email sent to a lead.                                  | -   Lead generation<br />-   Inside sales<br />-   Customer service |
+|     Leads created     | 10 points for every new lead record created in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  |              -   Lead generation<br />-   Inside sales              |
+| Opportunities created | 20 points for every new opportunity created  in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. |             -   Lead generation<br />-   Outside sales              |
+|    Pipeline added     |                  1 point for every $1,000 potential revenue added to a sales pipeline.                   |               -   Inside sales<br />-   Outside sales               |
+|      Revenue won      |                               3 points for every $1,000 confirmed revenue.                               |               -   Inside sales<br />-   Outside sales               |
+|    Tasks completed    |      10 points for every completed task in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].      |                        -   Customer service                         |
 
 > [!TIP]
 > - Have a  look at a comparable periods (previous month/ quarter/ same period in prior year) to estimate the average performance on KPIs and adjust points and scores to your business requirements.
@@ -50,6 +58,6 @@ Let us know what KPIs you find work well, or not so well, on the [Dynamics Commu
 ### See also
 
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
- [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)  
+ [Configure KPIs for Gamification in Dynamics 365 for Customer Engagement (online)](configure-kpis.md)  
  [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)  
  [Set up and run games in Gamification](run-games.md)

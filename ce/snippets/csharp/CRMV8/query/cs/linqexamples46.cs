@@ -5,7 +5,7 @@
  {
   var query_projections = from c in svcContext.ContactSet
                           where c.ContactId == _contactId1
-                          &amp;&amp; c.NumberOfChildren != null &amp;&amp; 
+                          && c.NumberOfChildren != null && 
                           c.Anniversary.Value != null
                           select new
                           {

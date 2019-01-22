@@ -1,13 +1,17 @@
 ---
-title: "close (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+title: "close (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.date: 12/04/2018
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1261a94d-4f5c-446d-8c29-a326e819696b
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # close (Client API reference)
 

@@ -115,11 +115,11 @@ namespace Microsoft.Crm.Sdk.Samples
        {
         var cascadeConfig = relationship.CascadeConfiguration;
         //When all of the CascadeConfiguration properties use the Cascade behavior the relationship is considered parental
-        if (cascadeConfig.Assign == CascadeType.Cascade &amp;&amp;
-         cascadeConfig.Delete == CascadeType.Cascade &amp;&amp;
-         cascadeConfig.Merge == CascadeType.Cascade &amp;&amp;
-         cascadeConfig.Reparent == CascadeType.Cascade &amp;&amp;
-         cascadeConfig.Share == CascadeType.Cascade &amp;&amp;
+        if (cascadeConfig.Assign == CascadeType.Cascade &&
+         cascadeConfig.Delete == CascadeType.Cascade &&
+         cascadeConfig.Merge == CascadeType.Cascade &&
+         cascadeConfig.Reparent == CascadeType.Cascade &&
+         cascadeConfig.Share == CascadeType.Cascade &&
          cascadeConfig.Unshare == CascadeType.Cascade)
         {
          //Only show results for relationships that can be customized

@@ -1,13 +1,17 @@
 ---
-title: "refresh (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "refresh (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c6cbe4c5-c5a1-4330-a3ba-c0716e0c92ad
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # refresh (Client API reference)
 

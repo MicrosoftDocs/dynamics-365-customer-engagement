@@ -1,14 +1,18 @@
 ---
-title: "Authenticate to use the Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Authenticate to use the Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Provides information about authenticating to the Online Management API to perform instance-related operations."
 ms.date: 11/27/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: conceptual
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c292c148-01f0-41f6-a2fe-7ed05a01a733
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Authenticate to use the Online Management API
 
@@ -22,7 +26,7 @@ The recommended authentication API to use with the Online Management API is [Azu
 
 These are the broad steps to authenticate to the Online Management API service. 
 
-1. Register an app with Azure Active Directory to obtain *clientId* and *redirectUrl* values for your app. For information about this, see the "App registration for OAuth authentication" section in [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](https://msdn.microsoft.com/library/mt622431.aspx)
+1. Register an app with Azure Active Directory to obtain *clientId* and *redirectUrl* values for your app. For information about this, see the "App registration for OAuth authentication" section in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](https://msdn.microsoft.com/library/mt622431.aspx)
 
 1. Specify the values obtained from step# 1 in the authentication [helper code](sample-authentication-helper.md):
 

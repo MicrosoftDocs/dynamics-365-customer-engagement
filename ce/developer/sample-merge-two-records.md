@@ -1,23 +1,27 @@
 ---
-title: "Sample: Merge two records (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Merge two records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample demonstrates how to merge two records. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "merging records sample"
-  - "records, sample for merging"
+  - merging records sample
+  - records, sample for merging
 ms.assetid: 41f7666e-de15-4567-b856-d34440b743af
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Merge two records
 
@@ -38,6 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#Merge](../snippets/csharp/CRMV8/businessmanagement/cs/merge.cs#merge)]  
   
 ### See also  
- [Introduction to Entities in Dynamics 365](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.MergeRequest>   
  [Sample: Validate Record State and Set the State of the Record](sample-validate-record-state-set-state-record.md)

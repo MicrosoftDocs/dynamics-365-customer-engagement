@@ -1,15 +1,19 @@
 ---
-title: "msdyn_fieldservicesetting Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_fieldservicesetting Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_fieldservicesetting entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_fieldservicesetting Entity Reference
 
@@ -1685,7 +1689,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1792,7 +1796,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -2111,6 +2115,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_fieldservicesetting_ActivityPointers"></a> msdyn_fieldservicesetting_ActivityPointers
 
 Same as activitypointer entity [msdyn_fieldservicesetting_ActivityPointers](activitypointer.md#BKMK_msdyn_fieldservicesetting_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2125,6 +2130,7 @@ Same as activitypointer entity [msdyn_fieldservicesetting_ActivityPointers](acti
 ### <a name="BKMK_msdyn_fieldservicesetting_msdyn_approvals"></a> msdyn_fieldservicesetting_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_fieldservicesetting_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_fieldservicesetting_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2139,6 +2145,7 @@ Same as msdyn_approval entity [msdyn_fieldservicesetting_msdyn_approvals](msdyn_
 ### <a name="BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts"></a> msdyn_fieldservicesetting_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_fieldservicesetting_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -2153,6 +2160,7 @@ Same as msdyn_bookingalert entity [msdyn_fieldservicesetting_msdyn_bookingalerts
 ### <a name="BKMK_msdyn_fieldservicesetting_SyncErrors"></a> msdyn_fieldservicesetting_SyncErrors
 
 Same as syncerror entity [msdyn_fieldservicesetting_SyncErrors](syncerror.md#BKMK_msdyn_fieldservicesetting_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2167,6 +2175,7 @@ Same as syncerror entity [msdyn_fieldservicesetting_SyncErrors](syncerror.md#BKM
 ### <a name="BKMK_msdyn_fieldservicesetting_AsyncOperations"></a> msdyn_fieldservicesetting_AsyncOperations
 
 Same as asyncoperation entity [msdyn_fieldservicesetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_fieldservicesetting_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2181,6 +2190,7 @@ Same as asyncoperation entity [msdyn_fieldservicesetting_AsyncOperations](asynco
 ### <a name="BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders"></a> msdyn_fieldservicesetting_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_fieldservicesetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2195,6 +2205,7 @@ Same as mailboxtrackingfolder entity [msdyn_fieldservicesetting_MailboxTrackingF
 ### <a name="BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas"></a> msdyn_fieldservicesetting_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_fieldservicesetting_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2209,6 +2220,7 @@ Same as userentityinstancedata entity [msdyn_fieldservicesetting_UserEntityInsta
 ### <a name="BKMK_msdyn_fieldservicesetting_ProcessSession"></a> msdyn_fieldservicesetting_ProcessSession
 
 Same as processsession entity [msdyn_fieldservicesetting_ProcessSession](processsession.md#BKMK_msdyn_fieldservicesetting_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2223,6 +2235,7 @@ Same as processsession entity [msdyn_fieldservicesetting_ProcessSession](process
 ### <a name="BKMK_msdyn_fieldservicesetting_BulkDeleteFailures"></a> msdyn_fieldservicesetting_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_fieldservicesetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_fieldservicesetting_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2237,6 +2250,7 @@ Same as bulkdeletefailure entity [msdyn_fieldservicesetting_BulkDeleteFailures](
 ### <a name="BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses"></a> msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2251,6 +2265,7 @@ Same as principalobjectattributeaccess entity [msdyn_fieldservicesetting_Princip
 ### <a name="BKMK_msdyn_fieldservicesetting_Appointments"></a> msdyn_fieldservicesetting_Appointments
 
 Same as appointment entity [msdyn_fieldservicesetting_Appointments](appointment.md#BKMK_msdyn_fieldservicesetting_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -2265,6 +2280,7 @@ Same as appointment entity [msdyn_fieldservicesetting_Appointments](appointment.
 ### <a name="BKMK_msdyn_fieldservicesetting_Emails"></a> msdyn_fieldservicesetting_Emails
 
 Same as email entity [msdyn_fieldservicesetting_Emails](email.md#BKMK_msdyn_fieldservicesetting_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2279,6 +2295,7 @@ Same as email entity [msdyn_fieldservicesetting_Emails](email.md#BKMK_msdyn_fiel
 ### <a name="BKMK_msdyn_fieldservicesetting_Faxes"></a> msdyn_fieldservicesetting_Faxes
 
 Same as fax entity [msdyn_fieldservicesetting_Faxes](fax.md#BKMK_msdyn_fieldservicesetting_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -2293,6 +2310,7 @@ Same as fax entity [msdyn_fieldservicesetting_Faxes](fax.md#BKMK_msdyn_fieldserv
 ### <a name="BKMK_msdyn_fieldservicesetting_Letters"></a> msdyn_fieldservicesetting_Letters
 
 Same as letter entity [msdyn_fieldservicesetting_Letters](letter.md#BKMK_msdyn_fieldservicesetting_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -2307,6 +2325,7 @@ Same as letter entity [msdyn_fieldservicesetting_Letters](letter.md#BKMK_msdyn_f
 ### <a name="BKMK_msdyn_fieldservicesetting_PhoneCalls"></a> msdyn_fieldservicesetting_PhoneCalls
 
 Same as phonecall entity [msdyn_fieldservicesetting_PhoneCalls](phonecall.md#BKMK_msdyn_fieldservicesetting_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -2321,6 +2340,7 @@ Same as phonecall entity [msdyn_fieldservicesetting_PhoneCalls](phonecall.md#BKM
 ### <a name="BKMK_msdyn_fieldservicesetting_Tasks"></a> msdyn_fieldservicesetting_Tasks
 
 Same as task entity [msdyn_fieldservicesetting_Tasks](task.md#BKMK_msdyn_fieldservicesetting_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -2335,6 +2355,7 @@ Same as task entity [msdyn_fieldservicesetting_Tasks](task.md#BKMK_msdyn_fieldse
 ### <a name="BKMK_msdyn_fieldservicesetting_RecurringAppointmentMasters"></a> msdyn_fieldservicesetting_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_fieldservicesetting_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_fieldservicesetting_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -2349,6 +2370,7 @@ Same as recurringappointmentmaster entity [msdyn_fieldservicesetting_RecurringAp
 ### <a name="BKMK_msdyn_fieldservicesetting_SocialActivities"></a> msdyn_fieldservicesetting_SocialActivities
 
 Same as socialactivity entity [msdyn_fieldservicesetting_SocialActivities](socialactivity.md#BKMK_msdyn_fieldservicesetting_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -2363,6 +2385,7 @@ Same as socialactivity entity [msdyn_fieldservicesetting_SocialActivities](socia
 ### <a name="BKMK_msdyn_fieldservicesetting_Annotations"></a> msdyn_fieldservicesetting_Annotations
 
 Same as annotation entity [msdyn_fieldservicesetting_Annotations](annotation.md#BKMK_msdyn_fieldservicesetting_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2377,6 +2400,7 @@ Same as annotation entity [msdyn_fieldservicesetting_Annotations](annotation.md#
 ### <a name="BKMK_msdyn_fieldservicesetting_ServiceAppointments"></a> msdyn_fieldservicesetting_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_fieldservicesetting_ServiceAppointments](serviceappointment.md#BKMK_msdyn_fieldservicesetting_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -2478,6 +2502,6 @@ See product Entity [msdyn_product_msdyn_fieldservicesetting](product.md#BKMK_msd
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_fieldservicesetting?text=msdyn_fieldservicesetting EntityType" />

@@ -1,13 +1,17 @@
 ---
-title: "Grid (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Grid (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 02fef0b4-b895-4277-b604-3f525c29dca3
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Grid (Client API reference)
 
@@ -19,11 +23,11 @@ Grid is returned by the **gridContext**.[getGrid](gridcontrol/getGrid.md) method
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getRows](grid/getRows.md)|[!INCLUDE[grid/includes/getRows-description.md](grid/includes/getRows-description.md)]|Read-only and editable grids|
-|[getSelectedRows](grid/getSelectedRows.md)|[!INCLUDE[grid/includes/getSelectedRows-description.md](grid/includes/getSelectedRows-description.md)]|Read-only and editable grids|
-|[getTotalRecordCount](grid/getTotalRecordCount.md)|[!INCLUDE[grid/includes/getTotalRecordCount-description.md](grid/includes/getTotalRecordCount-description.md)]|Read-only and editable grids|
+|                        Name                        |                                                  Description                                                   |        Available for         |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------|
+|             [getRows](grid/getRows.md)             |             [!INCLUDE[grid/includes/getRows-description.md](grid/includes/getRows-description.md)]             | Read-only and editable grids |
+|     [getSelectedRows](grid/getSelectedRows.md)     |     [!INCLUDE[grid/includes/getSelectedRows-description.md](grid/includes/getSelectedRows-description.md)]     | Read-only and editable grids |
+| [getTotalRecordCount](grid/getTotalRecordCount.md) | [!INCLUDE[grid/includes/getTotalRecordCount-description.md](grid/includes/getTotalRecordCount-description.md)] | Read-only and editable grids |
 
 ### Related topics
 

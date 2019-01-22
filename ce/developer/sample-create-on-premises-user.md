@@ -1,20 +1,24 @@
 ---
-title: "Sample: Create an on-premises user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Sample: Create an on-premises user (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 description: "The sample shows how to create a user in an Active Directory environment using the IOrganizationService.Entity) method. A snippet showing just the key sections of the sample is shown first, followed by the Complete Sample Code."
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
 caps.latest.revision: 16
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create an on-premises user
 
