@@ -94,22 +94,27 @@ If appropriate, assign a Business Hours calendar and **Save**.
 
 Next let's create SLA details.
 
+### Applicable When
 In this example, the SLA is applicable when the **priority** field on the work order is set to **High**.
 
+### Success Criteria
 We want this SLA to be considered a success when a field technician begins traveling to or arrives on site. Therefore, a work order system status of **Open-In Progress** would indicate this because when a field technician changes the Booking Status on one of his/her scheduled work orders to **Traveling** or **In Progress**, this changes the related work order system status to **Open-In Progress** thus making the SLA a success.  
 
-Open in progress
-open completed
-closed posted
-closed cancelled
+Additionally, work orders with a system status of** Open-Completed**, **Closed-Posted**, and **Closed-Canceled** should be considered a success in terms of this SLA.
 
-SLA Item failure is set to 3 hours meaning from the time the Work Order is created to the time it is considered successful (system status = Open-In Progress) must be under 3 hours in duration according to Business Hours and not absolute time.
+### SLA Item Failure
+ Set to 3 hours meaning from the time the Work Order is created to the time it is considered successful (system status = Open-In Progress) must be under 3 hours in duration according to Business Hours (not absolute time) see additional notes section for more information.
 
-SLA Item Warning indicates the SLA status ill be set to warning after 1.5 hours.
+### SLA Item Warning
+Set to 1.5 hours indicating the SLA status will be set to "warning" after 1.5 hours.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-add-actions-6.png)
+
+In the image below is the Field Service Mobile app that field technicians use to view and record onsite work.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-mobile-app-booking-status.png)
 
 Activate the SLA.
 > [!div class="mx-imgBorder"]
@@ -146,6 +151,7 @@ Furthermore, Schedule Assistant and Resource Schedule Optimization consider Time
 
 
 ## Additional Notes
+- [Business hours note example]
 - Multiple SLAs and multiple business hours/calendars can be created and utlized for different customers, however a work order can only have one SLA assigned to it.
 - SLAs on work orders will overwrite existing values for **Time From Promised** and **Time To Promised**
 - Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
