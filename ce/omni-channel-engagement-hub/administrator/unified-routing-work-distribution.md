@@ -39,14 +39,7 @@ Unified routing and work distribution is a two-step process:
 1. Routing uses routing rules to help guarantee that conversations are put into the correct omni-channel queues.
 2. Work distribution allocates the different conversations to the available agents in real time, based on configured rules.
 
-To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
-
-  - Users
-  - Work streams
-  - Omni-channel queues
-  - Presence
-  - Routing rules
-
+To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub, as given in the below illustration:
 
   > [!div class=mx-imgBorder] 
   > ![Omni-channel sitemap](../media/omni-channel-sitemap.png)

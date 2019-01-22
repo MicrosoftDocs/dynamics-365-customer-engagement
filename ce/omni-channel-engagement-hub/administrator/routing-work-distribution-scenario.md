@@ -48,7 +48,6 @@ The following scenario should help you understand how the routing and work distr
         Here is an example that shows how these conditions might be evaluated:
 
         - Both Gilda and Bert are members of the **Billing Queue** omni-channel queue.
-        - Both Gilda and Bert are associated with the **Chat from Support Portal** work stream.
         - Bert's presence status is **Available**, whereas Gilda's presence status is **Busy**.
         - Bert has the required capacity.
 
@@ -58,14 +57,13 @@ The following scenario should help you understand how the routing and work distr
 
 - Other rules play a part in the assignment of a conversation. Here are some examples:
 
-     - If the conversation is coming in for reassignment after some follow-up, it's allocated to the agents who previously worked on it. This principle is known as agent affinity.
+     - If the conversation is coming in for reassignment after some follow-up, it's allocated to the agents who previously worked on it. This principle is known as **agent affinity**.
       - The conversation is first allocated to the agent who has the most available capacity.
       - If multiple agents qualify for the conversation and have the same capacity, the conversation is allocated to the agent who has been idle at that capacity for the longest time.
 
 In this scenario, if the presence status of both Gilda and Bert is **Available**, both agents qualify for the incoming conversation, because they both meet these conditions:
 
 - They are members of the **Billing Queue** omni-channel queue.
-- They are associated with the **Chat from Support Portal** work stream.
 - Their presence status is **Available**.
 
 > [!NOTE]

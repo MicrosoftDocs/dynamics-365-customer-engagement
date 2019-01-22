@@ -20,7 +20,8 @@ For example, multiple live chat widgets can be associated with a single work str
 
 Omni-channel Engagement Hub has some predefined work streams. However, as an admin, you can define new work streams to introduce a new source.
 
-![Omni-channel work streams](../media/oc-workstream-view.png)
+> [!div class=mx-imgBorder] 
+> ![Omni-channel work streams](../media/oc-workstream-view.png)
 
 In omni-channel, you can create two types of work streams:
 
@@ -56,12 +57,12 @@ A work stream comprises of the following properties:
 
 Follow these steps to create a new live chat work stream.
 
-1. In the omni-channel site map, select **Work Distribution Management \> Work Streams**.
+1. In the omni-channel site map, select **Work Distribution \> Work Streams**.
 
     The **Active Work Streams** view is shown. 
 
 2. On the command bar, select **New** to create a work stream.
-3. On the **Summary** tab of the new work stream page, follow these steps:
+3. In the **Summary** tab of the new work stream page, follow these steps:
 
    - In the **General information** section, provide the following information: </br>
       1. **Name**: Enter a name for the work stream.
@@ -74,23 +75,31 @@ Follow these steps to create a new live chat work stream.
       6. Select **Save** to save the work stream.
 
     - In the **Work distribution** section, follow these steps: 
-      1. Select whether the work distribution mode should be **Push** or **Pick**.
+      1. Select whether the **Work distribution mode** should be **Push** or **Pick**.
       2. In the **Notification** field, select the type of notification setting.
       3. In the **Screen pop timeout** field, select the amount of time before the screen pop times out.
          > [!NOTE]
          > The **Notification** and **Screen pop timeout** fields aren't supported in this preview. They will be made available in a future release.
+      4. Select the **Allowed Presences** from the drop-down list.
 
     - In the **Context variables** section, follow these steps: 
        1. Select **New** to create a new context variable for the work stream. 
        2. In the **Quick Create** flyout, enter a name and specify the type for the context variable.
       You can edit, activate, inactivate, or delete a context variable by selecting it in the grid.
 
-7. Define the routing rules in the **Routing Rule Item** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
+       > [!div class=mx-imgBorder] 
+       > ![New workstream](../media/omni-channel-new-work-stream.png)
 
-6. Select **Save** to save the live chat work stream.
+4. Define the routing rules in the **Routing Rule Items** tab. To know how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md).
 
-   > [!div class=mx-imgBorder] 
-   > ![New workstream](../media/omni-channel-new-work-stream.png)
+5. In the **Chat settings** tab, follow this step:
+
+     - Add a new chat widget in the **Chat widget** section. For more information, see [Create a chat widget](set-up-chat-widget.md).
+
+
+6. Add a new chat question and create a question library in the **Survey questions library** tab. For more information, see [Create a question library](create-question-library.md).
+
+7. Select **Save** to save the live chat work stream.
 
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
 
