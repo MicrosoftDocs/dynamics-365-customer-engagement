@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: quota, post quota, contingent
-ms.date: 08/22/2018
+ms.date: 01/22/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: 9d9e5115-52c7-4f21-a90b-3bde6804d2fe
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -95,7 +93,7 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 
 ### To buy add-on subscriptions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your  plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
+An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your  plan includes [!include[](../includes/pn-social-engagement-short.md)].
 
 For more information, see [Pricing and licensing for Dynamics 365 for Customer Engagement plans](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
