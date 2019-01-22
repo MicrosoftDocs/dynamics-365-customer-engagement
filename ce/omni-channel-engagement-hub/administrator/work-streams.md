@@ -142,7 +142,10 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
     > [!NOTE]
     > Go to the Download Center, and save the file to your local computer. Select this location from your local machine while importing  the API file and select **Continue**.
 
-5. Update the host name to the INT environment's host name.
+5. Update the host name in the **General** section in the following format: </br>
+    *https://**orguniquename**-public.omnichannelengagementhub.com*
+
+    Where **orguniquename** is the unique name of your org.
 
     > [!div class=mx-imgBorder] 
     > ![update host name](../media/update-host-name.png)
