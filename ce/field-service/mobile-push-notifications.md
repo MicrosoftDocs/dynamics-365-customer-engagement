@@ -44,6 +44,9 @@ Field Service Mobile v11.1+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution-details.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-push-notification-schedule-board.png)
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-banner.png)
@@ -52,13 +55,6 @@ Field Service Mobile v11.1+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-notification-center.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-push-notification-schedule-board.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-push-notification-entity-not-found.png)
 
 
 
@@ -84,3 +80,6 @@ Field Service Mobile v11.1+
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow4.png)
 
 ## Additional Notes
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-push-notification-entity-not-found.png)
