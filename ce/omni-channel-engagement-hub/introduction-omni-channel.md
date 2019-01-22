@@ -44,5 +44,6 @@ Omni-channel Engagement Hub caters to the customer service cycle by empowering t
 - [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
-<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
 - [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
+
+<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
