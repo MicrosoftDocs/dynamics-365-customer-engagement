@@ -16,7 +16,7 @@ ms.custom:
 
 The right panel consists of agent scripts, notes, and knowledge management search controls.
 
-### Call scripts control
+### Call script control
 
 The **Call script** section in the right panel provides guidance about what you should say during calls, or what you should type during chat conversations.
 

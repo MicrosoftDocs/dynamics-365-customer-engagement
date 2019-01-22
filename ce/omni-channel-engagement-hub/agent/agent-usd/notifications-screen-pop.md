@@ -59,7 +59,7 @@ An alert notification appears as a dialog box that contains buttons. When you se
 When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel incoming chat alert notification](../../media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
+> ![omni-channel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omni-channel incoming chat alert notification")  
 
 You see the following details for a chat channel:
 
