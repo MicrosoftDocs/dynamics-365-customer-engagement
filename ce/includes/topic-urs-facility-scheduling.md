@@ -279,7 +279,7 @@ Again, the **Work Location** of each requirement should be set to **Facility** a
 Select **Book** from the requirement group to trigger the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduel assistant results showing pairs of two rooms each at the same location](../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png)
+> ![Screenshot of schedule assistant results showing pairs of two rooms each at the same location](../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png)
 
 In the preceding screenshot's results, two specific rooms are recommended at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on the requirement records) and the location of the facility resources (resource children organizational units). 
 
@@ -287,7 +287,7 @@ In the preceding screenshot's results, two specific rooms are recommended at the
 
 In this scenario, schedulers want to schedule specific rooms within a doctor's office to a pool of available pediatric doctors who work at the health clinic.
 
-This scenario is configured by creating a pool of facilities and a pool of doctors, and associating them together with **Resouce Associations** (**msdyn_bookableresourceassociations**).
+This scenario is configured by creating a pool of facilities and a pool of doctors, and associating them together with **Resource Associations** (**msdyn_bookableresourceassociations**).
 
 
 ### 1. Create a facility pool 
@@ -317,12 +317,12 @@ As is true of all resource records, you can add characteristics to define and di
 Set **Derive Capacity from Group Members** to **Yes**. This means the capacity of the pool is based on how many doctors are associated to it.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-facility-create-pediatrician-pool.png)
+> ![Screenshot of creating a scheduling facility with a pediatrician pool](../field-service/media/scheduling-facility-create-pediatrician-pool.png)
 
 Create resources to represent doctors and add them as resource children to the pediatric doctors pool.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of relating pediatricians as childrens to the parent pediatric pool](../field-service/media/scheduling-facility-pediatrician-pool-children.png)
+> ![Screenshot of relating pediatricians as children to the parent pediatric pool](../field-service/media/scheduling-facility-pediatrician-pool-children.png)
 
 ### 5. Associate doctor pool to facility pool
 
@@ -331,7 +331,7 @@ Next, navigate to the original facility pool (health clinic), and go to **Relate
 Set the **Resource 2** field to the pediatric doctor pool resource, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of associating the pediatrician pool to the docotor's office/health clinic pediatrician pool](../field-service/media/scheduling-facility-associate-pediatricians-health-clinic.png)
+> ![Screenshot of associating the pediatrician pool to the doctor's office/health clinic pediatrician pool](../field-service/media/scheduling-facility-associate-pediatricians-health-clinic.png)
 
 
 ### 6. Create a requirement group for rooms and doctors
@@ -359,7 +359,7 @@ This allows you to book the pediatrician pool and assign a specific pediatric do
 **On the requirement, if Resource Type = Users, Accounts, Contacts, (Not Pools)**, specific doctor resources will show in results, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results with specific doctor resource as option nto utilizing pediatrician pool](../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
+> ![Screenshot of schedule assistant results with specific doctor resource as option into utilizing pediatrician pool](../field-service/media/scheduling-facility-requirement-group-clinic-doctors-schedule-assistant.png)
 
 > [!Note]
 > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
