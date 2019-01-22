@@ -27,7 +27,13 @@ If you need help to resolve the work item, you can use the **Consult** option. Y
 
 While you consult with another agent or a supervisor, the customer is also present. However, you might not want to share some messages with that customer. In this case, you can choose to reply only to the agent or supervisor. The messages that you send are then classified as **Internal**. Internal messages are visible only to the agent or supervisor. The customer who is on the interaction can't see them.
 
-When you want to send a message to the customer, and also to the agent or supervisor who is also present on the interaction, select the **Public** button. The messages that you send are then classified as **public** messages..
+> [!div class=mx-imgBorder]
+> ![Send messages to Send messages to internal participants](../../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
+
+When you want to send a message to the customer, and also to the agent or supervisor who is also present on the interaction, select the **Public** button. The messages that you send are then classified as **public** messages.
+
+> [!div class=mx-imgBorder]
+> ![Send messages to public](../../media/oc-usd-cc-public-message.png "Send messages to public")
 
 You can use keyboard shortcuts to send internal and public messages:
 
@@ -40,7 +46,7 @@ You can use keyboard shortcuts to send internal and public messages:
 When you chat with a customer, your organization's processes might require that you work with a standard set of questions and answers. These questions and answers are stored as quick replies. Select the **Quick replies** button to retrieve the standard set of questions and replies when you interact with customers.
 
 > [!div class=mx-imgBorder]
->![omni-channel quick response](../../media/oc-usd-quick-response.png "Omni-channel quick response")  
+>![omni-channel quick response](../../media/oc-usd-cc-quick-replies.png "Omni-channel quick response")  
 
 These questions and answers are stored as quick replies and you can use keyboard shortcut to see the list of quick replies.
 
