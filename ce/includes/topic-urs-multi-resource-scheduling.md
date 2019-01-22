@@ -65,7 +65,7 @@ The requirement group is noted on all related requirements.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
 
-The schedule assitant will display different options to fulfill the requirement group, noting the particular requirement it is fulfilling in the Requirement column. 
+The schedule assistant will display different options to fulfill the requirement group, noting the particular requirement it is fulfilling in the Requirement column. 
 
 By default, it will recommend options with fewer resources first, in an attempt to minimize travel time and/or cost. You can also sort by **Earliest Time First** in the left pane.
 
