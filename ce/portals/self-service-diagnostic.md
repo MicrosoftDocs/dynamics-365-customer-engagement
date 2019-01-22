@@ -3,7 +3,7 @@ title: "Identify and fix customer issues with a portal in Dynamics 365 for Custo
 description: "Learn to identify and fix customer issues with a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 01/16/2019
+ms.date: 01/31/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +24,7 @@ search.app:
 
 # Self-service diagnostic
 
-Dynamics 365 Portal provides a self-service environment for administrators to run the diagnostic tool to see if their portal has any issues. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. This helps administrators find and fix the issues.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal provides a self-service environment for administrators to run the diagnostic tool to see if their portal has any issues. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. This helps administrators find and fix the issues.
 
 When you run the diagnostic tool, the results are displayed in the **Diagnostic results** section in a grid format. The results grid has the following columns:
 
@@ -51,7 +51,7 @@ If required, you can rerun the diagnostic checks, which will refresh the results
 
 To run the diagnostic tool:
 
-1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
+1.	Go to the **Dynamics 365 Administration Center** page and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want to run the diagnostic tool, and then select **Manage**.
 

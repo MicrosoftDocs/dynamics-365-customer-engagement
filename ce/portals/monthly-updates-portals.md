@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365 for Customer Engagement."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 12/03/2018
+ms.date: 01/31/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -27,6 +27,12 @@ search.app:
 # What's new in portal capabilities for Dynamics 365 for Customer Engagement
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 for Customer Engagement Releases](https://support.microsoft.com/en-us/help/3181191).
+
+## Portal capabilities version 9.1.1 for Dynamics 365 for Customer Engagement
+
+Portal capabilities version 9.1.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings these new updates and features:
+
+- **Self-service diagnostics**: As a portal administrator, you can run the diagnostic tool to find and fix issues with your portal. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. More information: [Self-service diagnostic](self-service-diagnostic.md)
 
 ## Portal capabilities version 9.0.10 for Dynamics 365 for Customer Engagement
 
