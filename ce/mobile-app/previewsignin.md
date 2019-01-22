@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or your web address. 
+Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. 
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
