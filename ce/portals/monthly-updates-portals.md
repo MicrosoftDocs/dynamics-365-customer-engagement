@@ -32,7 +32,7 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 Portal capabilities version 9.1.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings these new updates and features:
 
-- **Self-service diagnostics**: As a portal administrator, you can run the diagnostic tool to find and fix issues with your portal. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. More information: [Self-service diagnostic](self-service-diagnostic.md)
+- **Self-service diagnostics**: As a portal administrator, you can run the diagnostic tool to find and fix issues with your portal. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. More information: [Self-service diagnostics](self-service-diagnostic.md)
 
 ## Portal capabilities version 9.0.10 for Dynamics 365 for Customer Engagement
 

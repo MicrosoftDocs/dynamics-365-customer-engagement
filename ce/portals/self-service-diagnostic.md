@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 
-# Self-service diagnostic
+# Self-service diagnostics
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal provides a self-service environment for administrators to run the diagnostic tool to see if their portal has any issues. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. This helps administrators find and fix the issues.
 
