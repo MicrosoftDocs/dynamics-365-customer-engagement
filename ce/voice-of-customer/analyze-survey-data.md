@@ -2,7 +2,7 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: analyze survey responses; survey dashboard
-ms.date: 12/18/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -33,6 +33,9 @@ Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](
 - Survey dashboard
 
 You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
+
+> [!NOTE]
+> The reports are available in English locale only.
 
 ## Survey responses
 

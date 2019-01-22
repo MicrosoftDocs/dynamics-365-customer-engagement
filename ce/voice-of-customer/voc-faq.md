@@ -2,7 +2,7 @@
 title: "Voice of the Customer FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Voice of the Customer"
 keywords: voice of the customer FAQ; voice of the customer frequently asked questions
-ms.date: 11/30/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -66,3 +66,19 @@ The following keyboard shortcuts can be used to select a date from a date picker
 The VOC Push Service user runs only with minimum required privileges to communicate to Voice of the Customer Azure service, and if your organization deploys a custom plugin that runs on the Survey Response entity, you are advised to do either of following:
 - Run the custom plugin in System User Context.
 - Create a custom role with privileges required by custom plugin operations and assign the security role to Voice of the Customer application user.
+
+## What should I do if the survey responses are not submitted successfully in Dynamics 365 for Customer Engagement?
+
+There might be times when a customer has submitted a survey response, but it is not submitted successfully in Dynamics 365 for Customer Engagement. To view the responses that are not submitted successfully: 
+
+1. Open Voice of the Customer app. 
+
+2. Go to Advanced Find and search for the Response Errors entity. 
+
+3. On the **Advanced Find** tab, select **Results**. The response errors along with the associated survey, response ID, error message, error code, and other required details are displayed in a grid format. 
+
+    For example: 
+
+    - If a survey response is not stored in Dynamics 365 for Customer Engagement after trying multiple times, error code 103 is displayed along with the appropriate error message. 
+    - If a survey does not exist, error code 201 is displayed along with the appropriate error message. 
+    - If a survey invite does not exist, error code 202 is displayed along with the appropriate error message.
