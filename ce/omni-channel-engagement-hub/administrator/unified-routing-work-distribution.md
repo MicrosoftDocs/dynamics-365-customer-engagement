@@ -44,6 +44,8 @@ To effectively route and distribute work to agents, admins can set up the follow
   > [!div class=mx-imgBorder] 
   > ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
 
+To understand how routing and work distribution works with the help of a scenario, see [Understand how routing and work distribution works](routing-work-distribution-scenario.md).
+
 To learn about unified routing and work distribution in more detail, see the following topics:
 
 - [Create and manage users](users-user-profiles.md)
@@ -53,4 +55,8 @@ To learn about unified routing and work distribution in more detail, see the fol
 - [Configure and manage presence status](presence-custom-presence.md)
 - [Create and manage routing rules](routing-rules.md)
 - [Understand the conversation state lifecycle](conversation-state-lifecycle.md)
-- [Understand how routing and work distribution works](routing-work-distribution-scenario.md)
+
+
+## See also
+
+[Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)

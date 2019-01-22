@@ -10,6 +10,7 @@
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
+#### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Create and manage users](administrator/users-user-profiles.md)
 ### [Create and manage work streams](administrator/work-streams.md)
 ### [Configure record identification rule](administrator/record-identification-rule.md)
@@ -17,7 +18,6 @@
 ### [Work with queues](administrator/queues-omni-channel.md)
 ### [Configure and manage presence status](administrator/presence-custom-presence.md)
 ### [Understand the conversation state lifecycle](administrator/conversation-state-lifecycle.md)
-### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Create a chat widget](administrator/set-up-chat-widget.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 #### [Create a question library](administrator/create-question-library.md)
