@@ -67,7 +67,7 @@ When you choose to search for a record, the application opens the **Search** on 
 After the search is completed, the results are shown in the form of a list.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel create record](../../media/oc-usd-crm-create-record.png "Omni-channel create record")  
+> ![omni-channel search record](../../media/oc-usd-crm-search-record.png "Omni-channel search record")  
 
 If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
 
