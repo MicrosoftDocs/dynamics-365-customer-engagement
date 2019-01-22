@@ -36,4 +36,4 @@ Supervisors get real-time and historical visibility and insights into the operat
 
 The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements
 
-Omni-channel Engagement Hub caters to the cycle of customer service by empowering the agents, supervisors, and administrators to effectively perform their duties and help resolve customer issues.  
+Omni-channel Engagement Hub caters to the customer service cycle by empowering the agents, supervisors, and administrators to effectively perform their duties and help resolve customer issues.  
