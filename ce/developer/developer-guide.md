@@ -117,7 +117,7 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  apps
 <h2> Additional resources </h2>
 
 <li><a href="../field-service/developer/connected-field-service-developer-guide.md" data-raw-source="[Developer Guide for Connected Field Service](../field-service/developer/connected-field-service-developer-guide.md)">Developer Guide for Connected Field Service</a></li>
-<!--<li>[Developer Guide for Dynamics 365 for Customer Engagement for Marketing](../marketing/developer/marketing-developer-guide.md)</li>-->
+<!--<li>[Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)</li>-->
 <li><a href="sample-code-directory.md" data-raw-source="[Sample code directory](sample-code-directory.md)">Sample code directory</a></li>
 <li><a href="download-tools-nuget.md" data-raw-source="[Tools on NuGet](download-tools-nuget.md)">Tools on NuGet</a></li>
 </td>

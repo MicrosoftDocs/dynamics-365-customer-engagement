@@ -1,7 +1,7 @@
 ---
 title: Extending URS - Find resources by language - a step by step guide | Microsoft Docs
 description: Extending URS - Find resources by language - a step by step guide
-keywords: Universal Resource scheduling; Dynamics 365 for Customer Engagement for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
+keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
 manager: shellyha

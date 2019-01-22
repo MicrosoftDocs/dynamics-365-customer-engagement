@@ -51,5 +51,5 @@ This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../
 ## See also  
  [Install or upgrade Dynamics 365 for Customer Engagement Server](install-or-upgrade-microsoft-dynamics-365-server.md) </br>  
  <!-- [Upgrading Microsoft Dynamics CRM Server](upgrading-microsoft-dynamics-crm-server.md) </br> -->
- [Install Dynamics 365 for Customer Engagement for Outlook](../outlook-addin/admin-guide/install.md) </br> 
+ [Install Dynamics 365 for Outlook](../outlook-addin/admin-guide/install.md) </br> 
 
