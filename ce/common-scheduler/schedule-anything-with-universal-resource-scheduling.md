@@ -47,13 +47,13 @@ Schedule anything in Dynamics 365 for Customer Engagement using Universal Resour
 - [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Customer Engagement for Project Service Automation Help](../project-service/overview.md) 
   
 ## Prerequisites  
- Before you can start using  Universal Resource Scheduling, make sure you have the following:  
+ Before you can start using Universal Resource Scheduling, make sure you meet the following conditions:  
   
-- You will need to have either Dynamics 365 for Field Service, Project Service, or Customer Service.
+- Dynamics 365 for Field Service, Project Service, *or* Customer Service.
   
 - A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 for Customer Engagement (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
   
-- To manage the solution once it has been deployed you will need user credentials with Universal Resource Scheduling security role.  
+- To manage the solution once it has been deployed, you'll need user credentials with the Universal Resource Scheduling security role.  
   
 ## Enable scheduling for an entity  
  When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.  
