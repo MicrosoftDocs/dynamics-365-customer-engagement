@@ -30,6 +30,8 @@ search.app:
 
 Dynamics 365 for Field Service is designed to utilize Dynamics 365 Service Level Agreement (SLA) functionality.
 
+The main benefit of using SLAs for Field Service is to ensure work orders are getting attention and/or completed in a timely manner.
+
 Lets consider the following scenario:
 
 A field service organization would like to offer an SLA to their customers where field technicians must begin traveling to or arrive at the customer's location within 3 hours from the time a work order is created. In addition, the organization would like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
@@ -55,14 +57,14 @@ Next, navigate **Field Service > Settings > Field Service Settings** and enter t
 
 Then go to the **Field Service SLA Configurations** tab.
 
-Here you will define the SLA KPI Instances that you would like to utilize for Field Service and want to effect the **time from promised** and **time to promised** work order fields for scheduling.
+Here you will define the SLA KPI Instances that you would like to utilize for Field Service and want to effect the **Time from Promised** and **Time to Promised** work order fields for scheduling (explained later on in this article).
 
-"Out of the box" you will see an SLA related to work order arrival times that is available when Field Service is installed.
+You will also see an SLA related to work order arrival times that is available when Field Service v8.3+ is installed.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
 
-You can create new SLA KPI Instances to add here by navigating to **Settings > Customizations > Customize the system > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**
+You can create new SLA KPI Instances to add here by navigating to **Settings > Customizations > Customize the System > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-kpi-instance.png)
@@ -94,25 +96,23 @@ If appropriate, assign a Business Hours calendar and **Save**.
 
 Next let's create SLA details.
 
-### Applicable When
-In this example, the SLA is applicable when the **priority** field on the work order is set to **High**.
-
-### Success Criteria
-We want this SLA to be considered a success when a field technician begins traveling to or arrives on site. Therefore, a work order system status of **Open-In Progress** would indicate this because when a field technician changes the Booking Status on one of his/her scheduled work orders to **Traveling** or **In Progress**, this changes the related work order system status to **Open-In Progress** thus making the SLA a success.  
-
-Additionally, work orders with a system status of** Open-Completed**, **Closed-Posted**, and **Closed-Canceled** should be considered a success in terms of this SLA.
-
-### SLA Item Failure
- Set to 3 hours meaning from the time the Work Order is created to the time it is considered successful (system status = Open-In Progress) must be under 3 hours in duration according to Business Hours (not absolute time) see additional notes section for more information.
-
-### SLA Item Warning
-Set to 1.5 hours indicating the SLA status will be set to "warning" after 1.5 hours.
+- **Name:** enter a title of your SLA Detail
+- **SLA KPI:** select the SLA KPI Instance this relates to. You can choose the arrival time KPI that is automatically available with Field Service v8.3+ or select one you have created.
+- **Applicable When** 
+  - In this example, the SLA is applicable when the **Priority** field on the work order is set to **High**.
+- **Success Criteria**
+  - We want this SLA to be considered a success when a field technician begins traveling to or arrives on site. Therefore, a work order system status of **Open-In Progress** would indicate this because when a field technician changes the Booking Status on one of his/her scheduled work orders to **Traveling** or **In Progress**, this changes the related work order system status to **Open-In Progress** thus making the SLA a success.  
+  - Additionally, work orders with a system status of **Open-Completed**, **Closed-Posted**, and **Closed-Canceled** should be considered a success in terms of this SLA.
+- **SLA Item Failure**
+  - Set to 3 hours meaning from the time the Work Order is created to the time it is considered successful (system status = Open-In Progress) must be under 3 hours in duration according to Business Hours (not absolute time). See configuration considerations section for more information.
+- **SLA Item Warning**
+  - Set to 1.5 hours indicating the SLA status will be set to "warning" after 1.5 hours.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-add-actions-6.png)
 
-In the image below is the Field Service Mobile app that field technicians use to view and record onsite work.
+In the image below is the Field Service Mobile app that field technicians use to view and record on site work. When a work order is scheduled to a field technician, a booking record is created. He/she can edit the booking status which in turn will update the related work order system status which in turn will update the related SLA success status. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-mobile-app-booking-status.png)
 
@@ -123,9 +123,8 @@ Activate the SLA.
 ## 3. Add the SLA to a Work Order
 Navigate to the Work Order form editor. This can be done via
 
-(1) **Field Service > Work Orders > select a work order record > Form Editor** or 
-
-(2) **Settings > Customizations > Customize the System > Entities > Work Order > Forms > then select related Work Order form (generally Main form type)**
+1. **Field Service > Work Orders > select a work order record > Form Editor in the ribbon** or 
+2. **Settings > Customizations > Customize the System > Entities > Work Order > Forms > then select related Work Order form (generally Main form type)**
 
 
 Next, add the SLA field to the Work Order form. The SLA field is created when SLA functionality is enabled for the work order entity.
@@ -139,27 +138,22 @@ Create a Work Order associated to your SLA.
 > ![Screenshot of creating a Work Order associated to your SLA](./media/work-order-add-to-work-order-9.png)
 
 ## 4. Schedule a Work Order to meet SLA  
-Asynchronously (meaning not instantaneously but along with other system jobs cadence typically one minute to five minutes), **Time From Promised** and **Time To Promised** will be populated according to the applied SLA and appropriate SLA Item.
+Asynchronously (meaning not instantaneously but along with other system jobs cadence typically one minute to five minutes), **Time From Promised** and **Time To Promised** will be populated on the work order according to the applied SLA, appropriate SLA Item, and business hours of the SLA.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Time From Promised and Time To Promised fields on the work order being updated according to the SLA](./media/work-order-sla-time-window-10.png)
 
-Furthermore, Schedule Assistant and Resource Schedule Optimization consider Time From Promised and Time To Promised fields and therefore will respect the SLA.
+Furthermore, scheduling tools such as the Schedule Assistant and Resource Schedule Optimization consider **Time From Promised** and **Time To Promised** fields and therefore will respect the SLA.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Schedule Assistant parameters using Time From Promised and Time To Promised field values](./media/work-order-sla-schedule-11.png)
 
+## Configuration considerations
+
+- The SLA timer and populated values for **Time From Promised** and **Time To Promised** will respect the business hours of the SLA. As an example, let's say the SLA has a success parameter of 3 hours, business hours are set to Monday - Friday 9am - 5pm, and a work order is created at 4pm on Friday. The SLA timer and **Time From Promised** and **Time To Promised** will be set to a start of Friday at 4pm and an end of Monday at 11am to compensate for business closure on the weekend up until 9am the following Monday. 
 
 ## Additional Notes
-- [Business hours note example]
-- Multiple SLAs and multiple business hours/calendars can be created and utlized for different customers, however a work order can only have one SLA assigned to it.
+- Multiple SLAs and multiple business hours/calendars can be created and utilized for different customers, however a work order can only have one SLA assigned to it.
 - SLAs on work orders will overwrite existing values for **Time From Promised** and **Time To Promised**
 - Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
 
-
-questions: 
-
-- do you have an org?
-- can you create your own KPIs? or do you have to use arrival or resolution time ones
-- what are the field service settings? how do you utlze multiple ones?
-- how do we know the technician arrives on site? the system status become open-in progress when technician sets booking status to traveling too
