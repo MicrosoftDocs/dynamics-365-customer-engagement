@@ -2,7 +2,7 @@
 title: "Choose your development style for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about the various options available to developers to make use of Dynamics 365 for Customer Engagement web services (SDK) or to extend the application."
 ms.custom: 
-ms.date: 11/11/2018
+ms.date: 01/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -73,7 +73,7 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
   |  Early bound | Late bound |
   |------------|--------------|
-  | Use the code generation tool (CrmSvcUtil) to create early-bound entity classes, derived from the <xref:Microsoft.Xrm.Sdk.Entity> class, which you can use to access business data in Dynamics 365 for Customer Engagement. These classes include one class for each entity in your installation, including custom entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the early bound entity classes in code](org-service/use-early-bound-entity-classes-code.md) | The <xref:Microsoft.Xrm.Sdk.Entity> class contains the logical name of an entity and a property-bag array of the entityâ€™s attributes. This lets you use late binding so that you can work with types such as custom entities and custom attributes that were not present when your application was compiled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the late bound entity class in code](org-service/use-late-bound-entity-class-code.md) |
+  | Use the code generation tool (CrmSvcUtil) to create early-bound entity classes, derived from the <xref:Microsoft.Xrm.Sdk.Entity> class, which you can use to access business data in Dynamics 365 for Customer Engagement. These classes include one class for each entity in your installation, including custom entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the early bound entity classes in code](org-service/use-early-bound-entity-classes-code.md) | The <xref:Microsoft.Xrm.Sdk.Entity> class contains the logical name of an entity and a property-bag array of the entity's attributes. This lets you use late binding so that you can work with types such as custom entities and custom attributes that were not present when your application was compiled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the late bound entity class in code](org-service/use-late-bound-entity-class-code.md) |
 
 
 - **Query data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps**: There are three ways in which you can retrieve or query data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps using the SDK assemblies: FetchXML, QueryExpression, and .NET LINQ. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Retrieve data with queries using SDK assemblies](org-service/retrieve-data-queries-sdk-assemblies.md)  

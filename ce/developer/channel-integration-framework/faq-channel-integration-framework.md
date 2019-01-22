@@ -54,7 +54,7 @@ No, Channel Integration Framework is operating system and web browser agnostic a
 Channel Integration Framework is supported on Microsoft Edge and Google Chrome. 
 
 > [!NOTE]
-> The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
+> The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ## Are there any browsers that Channel Integration Framework does not support?
 Yes, Channel Integration Framework does not support Internet Explorer and Firefox browsers.

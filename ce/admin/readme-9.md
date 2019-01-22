@@ -36,7 +36,7 @@ Dynamics 365 Channel Integration Framework
 
 - It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
 
-- If you select all roles while creating a new channel provider record in the Channel Integration Framework (CIF) admin app, the save operation fails with a script error. Unselect **support user** role to mitigate this error. 
+- When you specify the **EntityLogicalName** to pre-populate the search string in the **renderSearchPage** API, the list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
@@ -58,7 +58,7 @@ required to take the following actions to maintain the connectivity to Dynamics
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
 3.  Download and update Dynamics 365 for Outlook to [version
-    8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
+    8.2.3](https://www.microsoft.com/download/details.aspx?id=57523).
 
 4.  Download the [latest version of developer
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
@@ -459,10 +459,10 @@ Dynamics 365 App for Outlook
 Dynamics 365 for Outlook
 ------------------------
 
--   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
+-   Microsoft has released Dynamics 365 for Outlook version 8.2.3 update.
     This update includes support for Transport Layer Security (TLS) 1.2, which
-    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
-    Outlook](https://www.microsoft.com/download/details.aspx?id=56327).
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps version 9.0. See [Version 8.2.3 Update for Dynamics 365 for
+    Outlook](https://www.microsoft.com/download/details.aspx?id=57523).
 
 -   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
     might show the message “Microsoft Dynamics 365 has encountered an error.” A

@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Search on custom field in Regarding lookup  
+# Expand the fields search on in Regarding lookup 
 
 To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
 
