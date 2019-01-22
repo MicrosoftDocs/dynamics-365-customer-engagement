@@ -41,21 +41,23 @@ Unified routing and work distribution is a two-step process:
 
 To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
 
+  - Users
   - Work streams
   - Omni-channel queues
+  - Presence
   - Routing rules
-  - Users
-  - Presence and custom presence
 
-  ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
+
+  > [!div class=mx-imgBorder] 
+  > ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
 
 To learn about unified routing and work distribution in more detail, see the following topics:
 
+- [Create and manage users](users-user-profiles.md)
+- [Work with queues](queues-omni-channel.md)
 - [Create and manage work streams](work-streams.md)
 - [Configure record identification rule](record-identification-rule.md)
 - [Configure and manage presence status](presence-custom-presence.md)
-- [Create and manage users](users-user-profiles.md)
 - [Create and manage routing rules](routing-rules.md)
-- [Work with queues](queues-omni-channel.md)
 - [Understand the conversation state lifecycle](conversation-state-lifecycle.md)
 - [Understand how routing and work distribution works](routing-work-distribution-scenario.md)
