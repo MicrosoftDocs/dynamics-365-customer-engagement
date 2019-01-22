@@ -25,17 +25,14 @@ After creating a chat widget, you can configure your portal to embed the chat wi
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
 6.	Open the Dynamics 365 for Customer Engagement Portal app.
-7.	Go to **Portal** > **Web Pages**.
+7.	Go to **Portal** > **Content Snippets**.
     > [!div class=mx-imgBorder]
-    > ![Select Web Pages from Portal sitemap](../media/portal-web-pages.png "Select Web Pages from Portal sitemap")
-8.	Change the view to **Localized Content**.
+    > ![Select Content Snippets from Portal sitemap](../media/portal-content-snippet.png "Select Content Snippets from Portal sitemap")
+8.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
-    > ![Change the view to Localized Content](../media/localized-content-view.png "Change the view to Localized Content")
-9.	Open the web page on which the chat widget needs to be embedded.
-    > [!div class=mx-imgBorder]
-    > ![Select a web page](../media/web-pages-grid.png "Select a web page")
-10.	On the **General** tab, scroll-down to the **Content** section.
-11.	Paste the chat widget snippet code in the **HTML** tab.
+    > ![Content snippets](../media/content-snippets.png "Content snippets")
+9.	On the **General** tab, scroll-down to the **Value(HTML)** section.
+10.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-12.	Save the changes. The chat widget is now embedded into the web page.
+11.	Save the changes. The chat widget is now embedded into the portal.
