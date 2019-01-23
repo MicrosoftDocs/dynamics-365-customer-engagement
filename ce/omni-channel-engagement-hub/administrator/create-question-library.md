@@ -13,9 +13,9 @@ ms.assetid: 75DC82E3-BD66-4D27-89F0-3B0C6C70D95C
 ms.custom: 
 ---
 
-# Create a question library
+# Create a survey questions library
 
-You can add questions to the question library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
+You can add questions to the survey questions library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.

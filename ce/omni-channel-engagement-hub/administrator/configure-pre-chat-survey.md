@@ -48,4 +48,4 @@ You can configure your chat widget to show users a survey that they should respo
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
 ### See also
-[Create a question library](create-question-library.md)
+[Create a survey questions library](create-question-library.md)
