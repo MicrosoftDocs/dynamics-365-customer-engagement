@@ -1,5 +1,5 @@
 ---
-title: "Extent Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
+title: "Extend Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
 ms.date: 1/17/2019
@@ -25,54 +25,72 @@ The segmentation API leverages the standard Dynamics 365 API for manipulating en
 
 When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata for available properties and optionset value mapping. You can get the metadata information by using `@odata.context`in `GET` response. 
 
-This topic demonstrates how to perform basic operation on the `msdyncrm_segment` entity. 
+This topic demonstrates how to perform basic operation on the `msdyncrm_segment` entity. You need to pass the following mandatory fields in order to create a segment.
+
+|Display Name|Schema Name|
+|----------|--------------|
+|Name|msdyncrm_segmentname|
+|Segment Type|msdyncrm_segmenttype|
+|Status Reason|statuscode|
+
 To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
+
+> [!NOTE]
+> Before you perform operations, you should install Dynamics 365 for MArketing App. 
  
 ## CRUD Operations
 
-### CRUD operations static segment
-This example shows how to create, update, retrieve and delete a static segment with 2 contacts
+### CRUD operations on static segments
+This example shows how to create, update, retrieve and delete static segments.
 
 **Create Request**
 
-In create request, we will create a new draft static segment with 2 existing contacts.
+In create request, we will create a new static segment which is in draft state.
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
-	"msdyncrm_segmentname": "StaticSegmentApi1",
-	"msdyncrm_segmenttype": 192350001,
-	"msdyncrm_segmentmemberids": "[\"1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
-	"statuscode": 192350000
+  "msdyncrm_segmentname": "StaticSegmentApi1",
+  "msdyncrm_segmenttype": 192350001,
+  "statuscode": 192350000
 }
 ```
 **Update Request**
 
-In update request, we will change the `status` of the created draft segment to `Go live`.
+In update request, we will change the `status` of the created draft segment to `Live` and add 2 members.
 
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 {
-	"statuscode": 192350001
+  "msdyncrm_segmentmemberids": "[\"1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
+  "statuscode": 192350001
 }
 ```
 
 **Retrieve Request**
-In retrieve rquest, we will retrieve the draft segment that is created.
+
+In retrieve request, we will retrieve the draft segment that is created.
 
 ```HTTP
 GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments(23fa0663-6fe2-e811-a989-000d3a135be0)
 ```
+You can also retrieve all the segments with specific properties.
+
+```HTTP
+GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
+```
 
 **Delete Request**
 
-In the delete request, we will delete the created draft segment. 
+In the delete request, we will delete the created draft static segment. 
 
 ```HTTP
 DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments(23fa0663-6fe2-e811-a989-000d3a135be0)
 ```
 
-### CRUD operations dynamic segment
+### CRUD operations on dynamic segments
+
+This example shows how to create, update, retrieve and delete dynamic segments.
 
 **Create Request**
 
@@ -127,7 +145,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a
 
 Members can be added to or removed from segments, both static and dynamic. As these operations go beyond a simple add/remove for dynamic segment they are referred to as `Include/Exclude`.
 
-Include/exclude operations can be performed through the Dynamics 365 API by posting messages of the following types:
+Include/exclude operations can be performed through the API by posting messages of the following types:
 
 - `msdyncrm_IncludeMemberInSegment`
 - `msdyncrm_IncludeMembersInSegment`
@@ -150,7 +168,7 @@ POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 {
 	msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-	msdyncrm_memberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\",\"694E1C8E-F704-4B23-9B07-E65DB1620E47\",\"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]"
+	msdyncrm_memberids: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
 }
 ```
 
@@ -185,17 +203,19 @@ POST /api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 }
 ```
 
-### Include/exclude segment members
+### Include/exclude dynamic segment members
 
-Dynamic segments are based on a query. Records matching this query becomes segment members. Additionally, the segment members can be manually fine-tuned using include/exclude functionality.
+Dynamic segments are based on a query. Records matching this query becomes segment members. Additionally, the segment members can be manually fine-tuned using the `Include/Exclude` functionality.
 
-Including a record makes it a member of a segment whether it satisfies the segmentation query or not. Including a record which already is a segment member will assure it is not removed even when it stops matching the segmentation query. Excluding a record effectively removes it from segment members and prevents it from being added again even if the record matches the segmentation query. A record can be excluded from a segment without previously being a member of this segment to prevent it from becoming one.
+Including a record makes it a member of a segment whether it satisfies the segmentation query or not. Including a record which is already a segment member will assure it is not removed when it stops matching the segmentation query. 
 
-Once a member has been included this action can be inverted by excluding it and thereby removing it and preventing it from becoming a member in the future. Similarly, excluding a member can be inverted by including it and thereby making it a member unconditionally.
+Excluding a record effectively removes it from segment members and prevents it from being added again even if the record matches the segmentation query. A record can be excluded from a segment without previously being a member of this segment to prevent it from becoming one.
+
+Once a member has been included this action can be inverted by excluding it, thereby removing it and preventing it from becoming a member in the future. Similarly, excluding a member can be inverted by including it, thereby making it a member unconditionally.
 
 Following are some of the important aspects that needs to be considered while including/excluding dynamic segment members:
 
-- Dynamic segment must be in `live` or `stopped` states (not draft).
+- Dynamic segments must be in `live` or `stopped` state (not draft).
 - Only instances of entity type `Contact` can be included/excluded.
 - All included/excluded records must exist, otherwise the whole request gets reject.
 - Feature is supported only by New Segmentation (not by DCI Segmentation).
@@ -208,16 +228,16 @@ Following are some of the important aspects that needs to be considered while in
 
 For static segments, the include/exclude operations have a more straight-forward semantics of adding or removing segment members.
 
-Following are some of the important aspects that needs to be considered while including/excluding dynamic segment members:
+Following are some of the important aspects that needs to be considered while including/excluding static segment members:
 
 - Only instances of entity type "Contact" can be included/excluded.
-- `sdyncrm_segmentid`input parameter checks.
+- `msdyncrm_segmentid`input parameter checks.
   - valid GUID.
   - valid ID of an existing segment.
-- `sdyncrm_memberids`input parameter checks.
+- `msdyncrm_memberids`input parameter checks.
   - format: single member GUID ID as string.
   - valid ID of an existing contact, ID may optionally be prefixed by "crm" (prefix is stripped during processing).
--`msdyncrm_memberid`input parameter checks.
+- `msdyncrm_memberid`input parameter checks.
   - format: serialized JSON array of member GUID IDs.
   - valid IDs of existing contacts. My be prefixed by “crm”.
 - Feature is supported only by New Segmentation only.
