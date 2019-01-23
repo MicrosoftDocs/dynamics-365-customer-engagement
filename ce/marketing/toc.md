@@ -27,7 +27,7 @@
 #### [Event management settings](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
-#### [Quota management](quota-management.md)
+#### [Quota limits](quota-management.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing

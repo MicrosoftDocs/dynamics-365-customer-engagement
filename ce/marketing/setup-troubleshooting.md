@@ -43,7 +43,7 @@ Read this topic to find answers to common questions and solutions to known issue
 - **Which marketing contacts count against my quota?**  
     All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
 - **Where can I see my contact quota?**  
-    To see how many contacts you've purchased, go to **Settings** > **Advanced Settings** > **Others** > **Quota Limits**. In the current version of the product, you can  see the number of marketing contacts you have purchased for the current licensing period, but you can't see how many you're actually using or have remaining. The ability to monitor the number of marketing contacts will be included in an upcoming release; for now, compliance is contractual.
+    To see how many contacts you've purchased, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**. 
 - **What is my monthly email quota?**  
     Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  

@@ -101,7 +101,7 @@ To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a
 
 Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Overview** tab, which also tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
-For leads associated with an account rather than a single contact, then the insights combine interactions made by all contacts that belong to that account.
+For leads associated with an account rather than a single contact, the insights combine interactions made by all contacts that belong to that account.
 
 ## Segment insights
 
@@ -168,9 +168,9 @@ A *blocked message* is a messages that the system didn't attempt to send even th
 - **Email is missing required fields**: A required field (such as the subject) contains no value. Usually, this type of error would be found when you error-check the message, but if you are using a dynamic expression on a required filed, then the expression could fail to evaluate for some or all recipients.
 - **Contact deleted**: The target segment included a contact that has since been deleted.
 - **Contact is inactive**: The target segment included a contact that has been set to inactive.
-- **Insufficient email credits**: Your organization has used up your email credits for the month. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota management](quota-management.md)
+- **Insufficient email credits**: Your organization has used up your email credits for the month. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 
-Select a reason in the left column of the table to see a list (in the right column) of contacts that failed to complete the journey for that reason.
+Select a reason in the left column of the table to see a list (in the right column) of contacts that weren't sent a message for that reason.
 
 #### Stopped contacts
 
@@ -179,6 +179,8 @@ Select a reason in the left column of the table to see a list (in the right colu
 - **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
 - **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level , and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: Data protection and the GDPR.
 - **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 for Marketing.
+
+Select a reason in the left column of the table to see a list (in the right column) of contacts that were stopped for that reason.
 
 <a name="email-insights"></a>  
 

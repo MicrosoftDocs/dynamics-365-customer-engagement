@@ -65,7 +65,7 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
-> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced Settings**  >  **Others**  >  **Quota Limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
+> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
