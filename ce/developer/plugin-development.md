@@ -30,11 +30,11 @@ A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[
   
 ## In This Section
 
- [Write a Plug-in](write-plugin.md)  
-  
  [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md)  
   
  [Impersonation in Plug-ins](impersonation-plugins.md)  
+
+ [Support offline execution](support-offline-execution.md) 
   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
