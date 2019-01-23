@@ -19,21 +19,21 @@ The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hu
 
 ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
-1. **Search.** Do a simple search for a record.
+a. **Search.** Do a simple search for a record.
 
-2. **Task flow.** Create an automated task flow between your apps and services.
+b. **Task flow.** Create an automated task flow between your apps and services.
 
-3. **Relationship assistant.**
+c. **Relationship assistant.**
 
-4. **Quick create.** Add a new record.
+d. **Quick create.** Add a new record.
 
-5. **Advanced find.** Do an advanced search using filters, sorting, and criteria.
+e. **Advanced find.** Do an advanced search using filters, sorting, and criteria.
 
-6. **Settings.** Set personal options.
+f. **Settings.** Set personal options.
 
-7. **Help.** Get the help documentation.
+g. **Help.** Get the help documentation.
 
-8. **User.** See user information.
+h. **User.** See user information.
 
 ### Search
 
