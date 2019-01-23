@@ -1,8 +1,8 @@
 ---
-title: "Sources coverage in Social Engagement | Microsoft Docs"
+title: "Sources coverage in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news
-ms.date: 12/05/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -87,7 +87,7 @@ Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtub
 
 ## Limitations for data acquisition
 
-Some of the supported sources have restrictions on posts that we can acquire. These limitations are listed below.
+Some of the supported sources have restrictions on posts that we can acquire. These limitations are as follows.
 
 **Facebook pages**
 - Comments on Facebook posts aren't acquired if the parent post was published more than 7 days ago.
@@ -105,10 +105,10 @@ Some of the supported sources have restrictions on posts that we can acquire. Th
 - Searching very uncommon words or phrases might yield zero results because the search is based on a dictionary of words.
 
 **LinkedIn** 
-- Posts and comments on LinkedIn pages with low volume are acquired with a delay due to rate limits. The system prioritizes LinkedIn pages with a high volume for data acquisition which leads to a less delay.
+- Posts and comments on LinkedIn pages with low volume are acquired with a delay due to rate limits. The system prioritizes LinkedIn pages with a high volume for data acquisition.
 
 **Custom sources**
-- RSS feeds exist in various flavors and there's no strict standard. The system might ignore posts that contain unknown fields or miss required fields such as the author of a post.
+- RSS feeds exist in various flavors, and there's no strict standard. The system might ignore posts that contain unknown fields or lack required fields such as the author of a post.
 
 **Disqus**
 - We receive some posts without a URL. These posts will be discarded by the system.
