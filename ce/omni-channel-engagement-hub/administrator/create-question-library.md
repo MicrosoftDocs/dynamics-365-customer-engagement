@@ -1,19 +1,21 @@
 ---
-title: "Create a question library"
+title: "Create a question library | MicrosoftDocs"
 description: "Instructions to create a question library in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 75DC82E3-BD66-4D27-89F0-3B0C6C70D95C
 ms.custom: 
 ---
 
 # Create a question library
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can add questions to the question library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
 

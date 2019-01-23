@@ -1,19 +1,21 @@
 ---
-title: "Sign in to Omni-channel Engagement Hub through Customer Service Hub."
+title: "Sign in to Omni-channel Engagement Hub through Customer Service Hub. | MicrosoftDocs"
 description: "Learn how to sign in to Omni-channel Engagement Hub through Customer Service Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6977E402-7EF8-4B0B-9837-E8A003422796
 ms.custom: 
 ---
 
 # Sign in to Dynamics 365 Customer Service hub
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Customer Service Hub. You must sign in to Customer Service Hub to experience the Omni-channel Engagement Hub.
 

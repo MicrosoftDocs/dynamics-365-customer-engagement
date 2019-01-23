@@ -1,18 +1,20 @@
 ---
-title: "Omni-channel Engagement Hub for customers"
+title: "Omni-channel Engagement Hub for customers | MicrosoftDocs"
 description: "Learn the capabilities of the chat widget and how it's useful for customers."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/14/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: acad7fe7-bd03-466d-8fe3-1434ba1dc724
 ms.custom: 
 ---
 # Omni-channel Engagement Hub for customers
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 These days, customers expect a great customer experience regardless of the channel that they use to contact an organization. In this situation, messaging is as a key support channel that lets customers instantly interact with an organization.
 

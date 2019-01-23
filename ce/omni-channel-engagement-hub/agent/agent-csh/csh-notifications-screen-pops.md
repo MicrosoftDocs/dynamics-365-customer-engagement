@@ -1,19 +1,21 @@
 ---
-title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub"
+title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid:
+ms.assetid: 6043F127-BF47-4F97-8D1E-319B1D578D8A
 ms.custom: 
 ---
 
 # View notifications and screen pops 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 A notification is a visual alert you see as a dialog box each time you get a call, email, chat, or SMS engagement request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need to perform to accept or reject an incoming engagement request. When you accept the request, a screen pops up with the contextual information of the customer and case.
 

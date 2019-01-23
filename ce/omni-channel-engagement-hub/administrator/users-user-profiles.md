@@ -1,19 +1,21 @@
 ---
-title: Create and manage users and user profiles
+title: Create and manage users and user profiles | MicrosoftDocs
 description: Know how to create and manage users and user profiles in the Omni-channel Engagement Hub
 keywords: users and user profiles; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 3a61efc9-84b5-4499-8cce-578aae138d1e
 ms.custom: 
 ---
 
 # Create and manage users
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or omni-channel agent security role automatically become omni-channel users. Omni-channel users are then assigned roles in the system to distinguish them according to their responsibilities.
 

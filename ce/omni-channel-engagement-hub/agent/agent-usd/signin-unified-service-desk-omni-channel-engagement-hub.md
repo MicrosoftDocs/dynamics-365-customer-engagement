@@ -1,18 +1,20 @@
 ---
-title: "Sign in to Omni-channel Engagement Hub"
+title: "Sign in to Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn how to sign in to Omni-channel Engagement Hub through Unified Service Desk client application."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: cad08a5b-fc27-4fce-90d3-4fef98211d3b
 ms.custom: 
 ---
 # Sign in to Unified Service Desk – Omni-channel Engagement Hub
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 1.  Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 

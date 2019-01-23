@@ -1,18 +1,20 @@
 ---
-title: Create and manage routing rules in omni-channel engagement hub
+title: Create and manage routing rules in omni-channel engagement hub | MicrosoftDocs
 description: Understand how to create and manage routing rules in omni-channel engagement hub
 keywords: routing rules; omni-channel engagement hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: ae408147-bb2c-4016-8ae7-cf06eb12ceb0
 ms.custom: 
 ---
 # Create and manage routing rules
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Routing rules in Omni-channel Engagement Hub unify conversations from multiple work streams and distribute them to the correct agents, so that customers get help quickly. Routing rules are an entry point into the routing and work distribution ecosystem. When routing rules are invoked, they evaluate the destination of an incoming conversation and route it to the correct queue.
 

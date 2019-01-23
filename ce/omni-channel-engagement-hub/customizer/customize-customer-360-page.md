@@ -1,18 +1,20 @@
 ---
-title: "Customize the Customer summary form"
+title: "Customize the Customer summary form | MicrosoftDocs"
 description: "Learn on how to customize the Customer summary form in Omni-channel Engagement Hub as a system customizer."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
 ms.custom: 
 ---
 # Customize the Customer summary form
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can customize some forms (cards) on the **Customer summary** page by adding or removing the fields. In addition, you can change the position or alignment of forms (cards) by dragging them to meet your requirements. By default, the **Customer summary** page shows the following forms (cards).
 

@@ -1,19 +1,21 @@
 ---
-title: "View customer summary for an incoming conversation request"
+title: "View customer summary for an incoming conversation request | MicrosoftDocs"
 description: "Learn about the Customer Summary and its behavior when the agent gets and incoming conversation request."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 2E22E0FD-F220-404E-B1F8-4F1BF3C487B0
 ms.custom: 
 ---
 
 # View customer summary for an incoming conversation request
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 
 

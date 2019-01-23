@@ -1,19 +1,21 @@
 ---
-title: "Create a record in Omni-channel Engagement Hub"
+title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn how to create a record in Omni-channel Engagement Hub from within Unified Service Desk client application"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 1979DC28-B50E-4EFE-86E0-B87AA5C84C7B
 ms.custom: 
 ---
 
 # Create a record in Omni-channel Engagement Hub
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 If no records are linked to a conversation in Omni-channel Engagement Hub, you can create a record by using the quick create option. To use this option, select the plus sign (**+**). After you create the record, the record is automatically linked to the conversation.
 

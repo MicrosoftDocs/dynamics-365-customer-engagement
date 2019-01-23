@@ -1,19 +1,21 @@
 ---
-title: "Set up a chat widget"
+title: "Set up a chat widget | MicrosoftDocs"
 description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5BD770F0-14FD-4CE5-B5A8-AD548B8929E6
 ms.custom: 
 ---
 
 # Create chat authentication settings
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can create authentication settings to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables. For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
 

@@ -1,19 +1,21 @@
 ---
-title: Understand the conversation state lifecycle
+title: Understand the conversation state lifecycle | MicrosoftDocs
 description: Understand the conversation state lifecycle in the omni-channel engagement hub
 keywords: Conversation state lifecycle; omni-channel engagement hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 1a4ef45e-efb3-4a9c-9665-20bb1eed9998
 ms.custom: 
 ---
 
 # Understand the conversation state lifecycle
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 When a conversation is allocated to an agent, that agent works on the conversation and drives it to logical closure. After the conversation is completed and closed, the agent's capacity becomes available. The agent can then start to accept the next set of conversations that are waiting for attention. Therefore, the distribution of incoming conversations among agents works like clockwork, and efficiencies are utilized.
 

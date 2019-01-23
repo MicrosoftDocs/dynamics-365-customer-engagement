@@ -1,18 +1,20 @@
 ---
-title: Create and manage work streams
+title: Create and manage work streams | MicrosoftDocs
 description: See how you can create and manage work streams in the Omni-channel Engagement Hub
 keywords: Create and manage work streams; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e
 ms.custom: 
 ---
 # Create and manage work streams
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 A work stream is a collection of routing & work distribution settings. A work stream can belong to multiple conversation sources of same type, for example live chat. In that case, all those conversations inherit routing and work distribution settings of the work stream they belong to. 
 

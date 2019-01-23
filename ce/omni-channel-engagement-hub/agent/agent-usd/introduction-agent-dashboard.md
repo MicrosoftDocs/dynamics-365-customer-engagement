@@ -1,18 +1,20 @@
 ---
-title: "Introduction to the agent dashboard"
+title: "Introduction to the agent dashboard | MicrosoftDocs"
 description: "Learn about the omni-channel engagement hub for agent dashboard that displays the work items status in three views - My work items, Open work items, and Closed work items."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 05962e07-2570-44fd-bca6-a894b1e61969
 ms.custom: 
 ---
 # View agent dashboard and agent work items
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues, and conversations that you've completed during the last 24 hours.
 
