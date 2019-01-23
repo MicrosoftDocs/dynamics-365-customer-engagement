@@ -22,16 +22,19 @@ After you create an authentication settings record, you must add it in the **Bas
 ## Create a chat authentication setting record
 
 1. Sign in to Omni-channel Engagement Hub.
-2. Go to **Administration** \> **Chat Authentication**.
+2. Go to **Administration** \> **Authentication Settings**.
 
     A list of existing authentication settings is shown.
 
 3. Select **New** to add an authentication settings record.
-4. On the **New Authentication Settings** page, provide the following information:
+4. On the **New Chat Authentication Settings** page, provide the following information:
 
     - **Name**: Enter a name for the authentication setting.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
+
+        > [!div class=mx-imgBorder]
+        > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
     For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
 

@@ -13,14 +13,14 @@ ms.assetid: 75DC82E3-BD66-4D27-89F0-3B0C6C70D95C
 ms.custom: 
 ---
 
-# Create a question library
+# Create a survey questions library
 
-You can add questions to the question library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
+You can add questions to the survey questions library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select the work stream to create a question library in.
-4. On the **Survey questions library** tab, select **Add question**.
+4. On the **Survey questions library** tab, select **Add**.
 
     > [!div class=mx-imgBorder]
     > ![Add a question to the question library](../media/oc-add-question.png "Add a question to the question library")
@@ -40,7 +40,7 @@ You can add questions to the question library in a work stream. You can then use
     - **Question text**: Enter the text of the question.
     - **Help text**: Enter help text that will be shown to the user as a watermark.
 
-    > [!div class=mx-imgBorder]
-    > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
+        > [!div class=mx-imgBorder]
+        > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
 
 6. Select **Save**.
