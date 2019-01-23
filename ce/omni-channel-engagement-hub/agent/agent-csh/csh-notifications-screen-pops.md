@@ -53,7 +53,7 @@ An alert notification is a type of notification where a dialog appears with acti
 
 You see a notification for an incoming chat request. When you accept the chat request, you’ll see a screen pop with details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands in the left panel of the Unified Service Desk.
 
-![Incoming chat notification](../../media/csh-incoming-chat-notification.png "Incoming chat notification")  
+![Incoming chat notification](../../media/csh-alert-notification.png "Incoming chat notification")  
 
 The details you’ll see for a chat channel are:
 
