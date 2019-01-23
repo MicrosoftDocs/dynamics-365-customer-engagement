@@ -48,6 +48,8 @@ This topic provides definitions of terms commonly used to describe marketing res
 <dd>The click-through rate (CTR) tells you how often recipients clicked on a message after opening it. Note that in some rare cases, the CTR can be greater than 100% if recipients click links but don't load images when they open your messages. For more information about why images must be loaded to register an open, see <a href="#email-opened">Email opened</a> in this glossary.<br/>
 <code>CTR = (UniqueClicks/UniqueOpens) * 100%</code></dd>
 
+<!-- add CTOR here -->
+
 </dt><strong><a name="email-delivered"></a>Email delivered</strong></dt>
 <dd>A marketing email message is considered to have been delivered if it was sent (not blocked) by Dynamics 365 and no bounce was reported. Messages reported as delivered might still end up unopened or caught in a spam filter along the way.<br/>
 <code>Delivered = SegmentContacts –  DuplicateContacts – BlockedContacts – StoppedContacts –  HardBounces – SoftBounces – BlockBounces</code></dd>

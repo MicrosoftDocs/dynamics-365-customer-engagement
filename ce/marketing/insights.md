@@ -136,14 +136,14 @@ For even more information about what happened on a tile, select it from the pipe
 All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
 - **Volume** > **Inflow**: Counts how many contacts entered the tile. 
-- **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value probably indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
+- **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
 - **Volume** > **Stopped**: Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](set-up-subscription-center.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
 - **Volume** > **Failed**: Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that failed at exactly this tile of this journey.
 - **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that were successfully processed by exactly this tile of this journey. This value is also displayed as the first value shown above the tile in the pipeline.
 
 In addition to the **Volume** section, some tiles also show additional sections and links in the **Data** panel, depending on the tile type. These can include the following:
 
-- **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For more information about the terms that might be shown here, see the [Insights glossary](insights-glossary.md).
+- **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For more information about many of the terms that might be shown here, see the [Insights glossary](insights-glossary.md).
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
 - **View details**: This link is provided on the **Data** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
 
@@ -157,7 +157,7 @@ The **Incomplete journeys** view shows you each reason why a contact might fail 
 
 #### Blocked messages
 
-**Blocked messages** are messages that the system didn't attempt to send even though one was scheduled. Usually, this is related to contact preferences or a technical problem with the message itself, such as missing data or a missing setting. Contacts will continue on the journey even if a message gets blocked, so later messages might still get sent successfully. A message might get blocked for any of the following specific reasons:
+A *blocked message* is a messages that the system didn't attempt to send even though it was scheduled. Usually, this is related to contact preferences or a technical problem with the message itself, such as missing data or a missing setting. Contacts will continue on the journey even if a message gets blocked, so later messages might still get sent successfully. A message might get blocked for any of the following specific reasons:
 
 - **Contact has do-not-email set**: A setting on the [contact record](manage-customer-information.md) indicates that that contact doesn't wish to receive marketing email (or any email) from your organization.
 - **Duplicate recipient address**: The journey already sent the message to this email address. You probably have more than one contact record with the same email address.
@@ -174,97 +174,76 @@ Select a reason in the left column of the table to see a list (in the right colu
 
 #### Stopped contacts
 
-**Stopped contacts** are contacts that got stopped in the middle of a journey. Contacts will stop their journey as soon as any of these situations occur, so no further messages or other journey actions will be applied thereafter to the affected contact(s). A contact can get stopped for any of the following reasons:
+*Stopped contacts* are contacts that got stopped in the middle of a journey. Contacts will stop their journey as soon as any of these situations occur, so no further messages or other journey actions will be applied thereafter to the affected contact(s). A contact can get stopped for any of the following reasons:
 
 - **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
 - **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level , and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: Data protection and the GDPR.
 - **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 for Marketing.
 
-
 <a name="email-insights"></a>  
 
 ## Email insights
 
-To view email insights, go to **Marketing** > **Marketing execution** > **Marketing emails**, select an email message, and then open its **Marketing email: Insights** form view. Insights are only available for email messages that are (or have been) live.
+To view email insights, go to **Marketing** > **Marketing execution** > **Marketing emails**, select an email message, and then open its **Insights** tab. Insights are only available for email messages that are (or have been) live.
 
 Here you can find a complete history of how various contacts have reacted to the selected message, which links they selected, and where they were when interacting with the message. You can also see delivery details.
 
 Because you can reuse an email message in several different journeys, the [filter settings](#filter) for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
 
-Marketing email messages provide the following insights tabs:
+Marketing email messages provide the following [categories](#categories) on the **Insights** tab:
 
-- **Insights**: Provides a general overview that includes KPIs, top-10 links, responses over time, geographical data, and more.
-- **Delivery**: Provides details about your delivery results (such as processed, delivered, blocked, or bounced), plus a record of which contacts have received the message.
-- **Links**: Provides a full analysis of each link included in the message, including a graphical reproduction of the message that shows a heat map highlighting your links (hover the mouse pointer to view details for each highlighted link). For each link you can see the number of total clicks, unique clicks, and the click-through rate (total number of unique clicks for a given link divided by the total number of unique clicks overall).
+- **Overview**: Provides a general overview that includes KPIs, top-10 links, responses over time, geographical data, and more.
+- **Delivery**: Provides details about your delivery results (such as processed, delivered, blocked, or bounced), including lists of contacts affected by each type of result. There is also a table of overall results by recipient domain.
+- **Links**: Provides an analysis of each link included in the message. It includes a graphical reproduction of the message that shows a heat map highlighting your links. The heat map shows a red overlay to indicate the most clicked link, and follows the spectrum down to blue, which indicates the least clicked link. Hover your mouse pointer over a link to see the number of total clicks, unique clicks, and the click-through rate (total number of unique clicks for a given link divided by the total number of unique clicks overall). Use the drop-down list at the top of the heat map to choose which KPI to use when coloring the links. All links are also listed in a table below the heat map.
 - **Interactions**: Provides full lists of recipients that were counted for each of several KPIs (such as opens, clicks, and forwards), plus a timeline of interactions.
 
-Many different lists, statistics, and KPIs are provided to help you evaluate and improve the performance of your email messages. Consult the following glossary for a description of each of them.
-
-<dl>
-<dt>Blocked</dt><dd>Messages that were blocked (not sent) due to a contact's preferences or a problem with their email address. This can happen if the segment included contacts marked as <b>Do not bulk email</b>, or because the contact's email address was missing, invalid, or blacklisted. Examples of blacklisted address include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
-<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>
-<dt>Bounced (other)</dt><dd>Messages that bounced for some reason other than a hard or soft bounce. This result is rare, and might indicated a <em>remote bounce</em>, which occurs when a server initially accepting a message, but then returns a bounce message sometime later. These are otherwise treated as soft bounces.</dd>
-<dt>Bounced (soft)</dt><dd>Messages that resulted in a soft bounce. A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but still rejects the message for some reason, such as because the recipient's mailbox is full, the mail server is temporarily unavailable, or the recipient no longer has an email account at that address. If five messages in a row sent to a given address result in a soft bounce, then that address is treated as a hard-bounce address.</dd>
-<dt>Clicked (total)</dt><dd>The total count of all the links clicked in all sent messages. Multiple clicks of the same link in a single message are counted multiple times, so the proportion of total clicks per total sent can sometimes be more than 100%.</dd>
-<dt>Clicked (unique)</dt><dd>The number of sent messages where the recipient clicked at least one link at least once. Clicks on multiple links and multiple clicks on a single link are not counted after the first click, so the maximum unique clicks per message is one.
-<dt>Click-through rate</dt><dd>This value is shown for each link included in a message. They are listed on the <strong>Marketing email: Insights &gt; Links</strong> tab, and can also be viewed on the heat map there. It is a ratio that shows the number of unique clicks on a given link divided by the number of unique clicks overall for the message. 
-<dt>Delivered</dt><dd>Messages that were sent, not including hard- or soft-bounced messages.<br>
-<em>(Delivered = Sent – TotalBounced)</em></dd>
-<dt>Did not open</dt><dd>Messages for which no open was recorded. (Note that Marketing can only count opens when the email recipient allows images to load for the message, so some messages could be read and even clicked without an open being registered for them.)</dd>
-<dt>Feedback loops</dt><dd>Message for which Dynamics 365 received a feedback message. When a recipient uses their email client to mark a message as spam, the client typically sets up a filtering rule and then returns feedback to the sender that the message has been marked as spam. If you continue to send messages to an address that has returned this feedback, you risk lowering your server's send reputation, which will reduce your delivery rate. When feedback is received, Dynamics 365 will automatically stop sending new messages to that address, but your email results will still show each attempt as a feedback loop.</dd>
-<dt>Forwarded</dt><dd>Forwards made by recipients using the forward-to-a-friend link included in the message. The submitted forwarding addresses were not necessarily unique. (This value does not record forwards made using the mail-client forward feature.)</dd>
-<dt>Opened (total)</dt><dd>The total number of times a message was opened, including multiple opens of a single message by a single recipient. (Note that Marketing can only count opens when the email recipient allows images to load for the message, so some messages could be read and even clicked without an open being registered for them.)</dd>
-<dt>Opened (unique)</dt><dd>The total number of messages that were opened by a contact at least once. This value does not count multiple opens of the same message by the same contact. (Note that Marketing can only count opens when the email recipient allows images to load for the message, so some messages could be read and even clicked without an open being registered for them.)</dd>
-<dt>Sending failed</dt><dd>Messages that were blocked due to a system failure or other unexpected error that occurred during sending.</dd>
-<dt>Sent</dt><dd>Sent messages, including bounced messages, but not including blocked messages.<br>
-<em>(Sent = TotalTargetedContacts – TotalBlockedQuantity)</em></dd>
-<dt>Subscription submitted</dt><dd>These are messages where a contact clicked on the subscription center link and then submitted the subscription center at least once, regardless of whether the contact changed their subscriptions or contact details. 
-<dt>Total generated leads</dt><dd>The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
-<dt>Unsubscribed</dt><dd>Messages where a recipient clicked on the subscription center link and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient.
-</dl>
+For more information about the carious types of email results and KPIs listed on these pages, see [Insights glossary](insights-glossary.md).
 
 ## Lead scoring model insights
 
-To view lead scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models**, select a model, and then open its **Lead scoring model: Insights** form view. Insights are only available for models that are (or have been) live.
+To view lead scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
 
-Here you can find a timeline showing the number of leads processed by the model.
+Here you can find a timeline showing the number of leads processed by the model over time.
 
 ## Marketing page insights
 
-To view marketing page insights, go to **Marketing** > **Internet marketing** > **Marketing pages**, select a marketing page, and then open its **Marketing page: Insights** form view. Insights are only available for pages that are (or have been) live.
+To view marketing page insights, go to **Marketing** > **Internet marketing** > **Marketing pages**, select a marketing page, and then open its **Insights** tab. Insights are only available for pages that are (or have been) live.
 
 Here you can find a complete history of how various contacts have interacted with the page and the submissions made using it.
 
-Because you can reuse each marketing page in several different journeys, the filter controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
+Because you can reuse each marketing page in several different journeys, the [filter (#filter) controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
 
-Marketing pages provide the following insights tabs:
+Marketing pages provide the following [categories](#categories) on the **Insights** tab: <!-- note: this isn't working right now; verify and update as needed when it's up -->
 
-- **Summary**: Provides a general overview that includes KPIs, responses over time, geographical data, and more.
+- **Overview**: Provides a general overview that includes KPIs, responses over time, geographical data, and more.
 - **Submissions**: Provides a table that lists the full content of each submission made through the page. Metadata and several important field values are shown in the table columns for each submission; hover your mouse pointer over a value in the **Form submissions** column to open a tooltip that shows all values included in a given submission.
 - **Visits**: Provides a table that lists information about each time the page was opened.
 
 ## Marketing form insights
 
-To view marketing form insights, go to **Marketing** > **Internet marketing** > **Marketing forms**, select a form, and then open its **Marketing form: Insights** form view. Here you can find a complete history of how various contacts have interacted with the form and the submissions made using it.
+To view marketing form insights, go to **Marketing** > **Internet marketing** > **Marketing forms**, select a form, and then open its **Insights** tab. Here you can find a complete history of how various contacts have interacted with the form and the submissions made using it.
 
 Although you can use each form on multiple pages and in multiple journeys, all form insights combine data from all usages, though you can still filter results by date range.
 
-Marketing forms provide the following insights tabs:
+Marketing forms provide the following [categories](#categories) on the **Insights** tab:
 
-- **General info**: Provides basic information about the form (but no results).
-- **Setup**: Provides KPIs such as the total number of form submissions, contacts created or updated, and leads created or updated by the form.
+- **Overview**: Provides KPIs such as the total number of form submissions, contacts created or updated, and leads created or updated by the form.
 - **Submissions**: Provides a table that lists the full content of each submission made through the form. Metadata and several important field values are shown in the table columns for each submission; hover your mouse pointer over a value in the **Form submissions** column to open a tooltip that shows all values included in a given submission.
 
 ## Website insights
 
-To view website insights, go to **Marketing** > **Internet marketing** > **Websites** and then select a website record. Unlike most entities, websites provide insights as part of their main form view, which provides the following tabs:
+To view website insights, go to **Marketing** > **Internet marketing** > **Websites**, select a website record, and then open its **Insights** tab.
 
-- **General info**: Shows the settings you made when creating the website and the JavaScript code that you must include on each web page that you want to track with this website setup. You can also see a list of the most popular pages that include this script and a map that shows where people were when opening those pages.
-- **Timeline**: Shows a table that provides details about each time a page tracked as part of this website was loaded.
+Marketing pages provide the following [categories](#categories) on the **Insights** tab:
+
+- **Overview**: Provides a list of the most popular website pages that include the script created and tracked by this website record, and a map that shows where people were when opening those pages.
+- **Timeline**: Shows a table that provides details about each time a page that includes the script created and tracked by this website record was loaded.
 
 ## Redirect URL insights
 
-To view redirect URL insights, go to **Marketing** > **Internet marketing** > **Redirect URLs** and then select a redirect URL record. Unlike most entities, redirect URLs provide insights as part of their main form view, which provides the following tabs:
+To view redirect URL insights, go to **Marketing** > **Internet marketing** > **Redirect URLs**, select a redirect URL record, and then open its **Insights** tab.
 
-- **General info**: Shows the settings you made when creating the redirect URL and a map that shows where people were when they selected the redirected link.
-- **Timeline**: Shows a table that provides details about each time the redirect URL was selected.
+Redirect URLs provide the following [categories](#categories) on the **Insights** tab:
+
+- **Overview**: Displays a map that shows where people were when they selected the redirected link.
+- **Timeline**: Shows a table with details about each time the redirect URL was selected.
