@@ -37,7 +37,7 @@ With Dynamics 365 for Customer Engagement, you have several options that help ma
   
 -   Dynamics 365 for Customer Engagement Report Authoring Extensions  
   
- To use Setup update, select **Get updates for Microsoft Dynamics 365 for Customer Engagement** during Setup.  For  Dynamics 365 for Customer Engagement for Outlook, Setup update applies the latest published update package at the end of Setup.  
+ To use Setup update, select **Get updates for Microsoft Dynamics 365 for Customer Engagement** during Setup.  For  Dynamics 365 for Outlook, Setup update applies the latest published update package at the end of Setup.  
   
 <a name="BKMK_UpdateRollup"></a>   
 ## Microsoft Dynamics 365 for Customer Engagement application updates  

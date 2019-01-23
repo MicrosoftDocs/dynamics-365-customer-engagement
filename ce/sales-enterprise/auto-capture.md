@@ -94,7 +94,7 @@ The following describes the support for viewing, opening, and tracking untracked
 |None     |Yes      |Yes         |N/A, tracking requires server-side sync         |
 |Server-Side Sync with **Email Not Approved** or **Test Not Run**     |Yes         |Yes         |No         |
 |Server-Side Sync with **Email Approved** and **Test Enabled**     |Yes         |Yes         |Yes         |
-|Microsoft Dynamics 365 for Customer Engagement for Outlook   |Yes         |Yes         |N/A, tracking requires server-side sync         |
+|Microsoft Dynamics 365 for Outlook   |Yes         |Yes         |N/A, tracking requires server-side sync         |
 |Email Router     |Yes         |Yes         |N/A, tracking requires server-side sync         |
 |Forward Mailbox     |No         |No         |No         |
 
