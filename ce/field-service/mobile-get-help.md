@@ -27,9 +27,9 @@ search.app:
 
 # Get help for Field Service Mobile
 
-For help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/).   
+If you're looking for help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/).   
 
-For **general inquiries, how to questions, best practices, and feature requests**, [send us an email](mailto:7db59e0f.microsoft.com@amer.teams.ms).
+For help with **general inquiries, how-to questions, best practices, and feature requests**, [send us an email](mailto:7db59e0f.microsoft.com@amer.teams.ms).
 
 
 
