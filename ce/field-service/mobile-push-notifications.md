@@ -28,20 +28,39 @@ search.app:
 
 # Push Notifications
 
+Push notifications are a feature for Field Service Mobile that send communications to field technicians via their mobile phones or tablets.  
 
-common examples:
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-push-notification-notification-center.png)
+
+
+The most common reasons to implement push notifications are to:
+
+- notify field technicians they have been assigned a booking
+- remind field technicians to enter important business data
+
+
+Push notifications utilize the Dynamics 365 workflow engine and can be triggered based on numerous scenarios. Selecting a push notification can open a specific record in the Field Service Mobile app.
+
 
 ## Prerequisites
 
-Field Service v7.5.5 or v8.3+  
+Field Service v7.5.5 or v8.3+.  
 
-Field Service Mobile v11.1+ for Windows, iOS, or Android devices. You can verify your mobile app version in the **About** section
+Field Service Mobile v11.1+ for Windows, iOS, or Android devices. You can verify your mobile app version in the **About** section.
 
-You have consented to notifications in your device's settings for the **Field Service Mobile** app
+You have consented to notifications in your device's settings for the **Field Service Mobile** app.
 
-## Verify push notifications are activated
+## Notify a user about a booking
 
-Navigate to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. If it is not installed you will need to upgrade to the Field Service v8.3+ solution that it is included in.
+Let's consider the following scenario to understand how to use push notifications for Field Service Mobile:
+
+> A field service organization wants to notify field technicians when they have been booked for a work order with a push notification.
+
+
+### Verify push notifications are activated
+
+Navigate to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. If it is not installed you will need to upgrade to the Field Service v8.3+ solution that it is included with.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution.png)
@@ -51,9 +70,9 @@ Part of this solution is a workflow titled **Notify user about booking** that mu
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution-details.png)
 
-## Schedule a work order and view push notifications
+### Schedule a work order and view push notifications
 
-Create a bookable resource to schedule work orders to and that you would like to receive push notifications. This is done in **Field Service > Resources**
+Create a bookable resource to schedule work orders to and receive push notifications. This is done in **Field Service > Resources**
 
 This bookable resource must have a **Resource Type** of **User**.
 
@@ -91,7 +110,7 @@ Navigate to **Settings > Customizations > Customize the system > Processes > +Ne
 
 Set **Category** to **Workflow** 
 
-For **Entity** select the entity that should be opened when the push notification is selected.
+For **Entity** select the entity that will trigger the push notification and should be opened when the push notification is selected.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow1.png)
@@ -115,23 +134,30 @@ Here you will enter the details of the push notification message.
 
 **Category:** **ViewRecord**
 
-**User:** enter the user the push notification will be sent to. As an example, enter the following for push notifications related to  (User(Resource)(Bookable Resource))
+**User:** enter the user the push notification will be sent to. As an example, enter the following for push notifications related to bookable resource bookings **(User(Resource)(Bookable Resource))**.
 
 **Team:** enter the team the push notification will be sent to.
 
-**Pro Tip:** You can use the out of the box workflow process as a reference, seen in the image below, .
+**Pro Tip:** You can use the out of the box workflow process as a reference. See image below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-workflow-template.png)
 
-
-
-
-
-
 ## Configuration considerations
 
-## Additional Notes
+- Sometimes after selecting a push notification and opening the Field Service Mobile app, you may be prompted with the **Entity not Found!** message seen in the image below. This means you are in offline mode and the particular record you are trying to open is not on the device.
+  - By selecting **Go Online**, you can connect  directly to the server via internet to view the the push notification record.
+  - By selecting **Sync**, you can remain offline but pull new updates locally to the device. However, this does not guarantee the record of the push notification will become available because it could be outside the sync filters defined for that entity  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-entity-not-found.png)
+
+## Additional notes
+
+- Push notifications are available for the Field Service Mobile app on Windows, iOS, and Android devices.
+- Field technicians do not need to be in the app or using their device to receive push notifications.
+- The title of a push notification is the Name field of the entity. In our example above, the title of the push notification was 0222 which corresponds to the name field of the assigned bookable resource booking.
+
+### See also
+
+- For more information on sync filters see the [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf)
