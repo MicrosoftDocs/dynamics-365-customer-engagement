@@ -19,17 +19,20 @@ When no records are linked to the conversation in the Omni-channel Engagement Hu
 
 1.  Select the **+** icon to create a new record.
 
-2.  Select a record type from the list.
+2.  Select a record type from the list. <br>
+ - Case
+ - Contact
+ - Account
 
--   Case
+ > [!div class=mx-imgBorder]
+ > ![Quick create record](../../media/oc-csh-create-quick-create.png "Quick create record")
 
--   Contact
+3. In the left pane, you can see a new record page. Specify the details in the form.
 
--   Account
+4. Select **Save and Close** to save the changes and close the form.
 
-    In the left pane, you can see a new record page.
-
-    1.  Specify the details in the form and save the changes.
+ > [!div class=mx-imgBorder]
+ > ![Quick create contact](../../media/oc-csh-create-quick-create-contact.png "Quick create contact")
 
 After you save the changes, the record is linked to the conversation. You can see the linked conversation in the Customer summary page.
 
