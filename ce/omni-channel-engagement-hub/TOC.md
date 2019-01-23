@@ -44,7 +44,7 @@
 ### [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 #### [Sign in to Dynamics 365 Customer Service hub](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
 #### [Introduction to the agent interface](agent/agent-csh/csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-#### [Sitemap](agent/agent-csh/csh-sitemap.md)
+#### [Know the sitemap navigation(agent/agent-csh/csh-sitemap.md)
 #### [Navigate using the navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
 #### [View agent dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
