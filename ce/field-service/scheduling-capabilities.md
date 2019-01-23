@@ -61,9 +61,9 @@ RSO provides several different types of scheduling optimizations:
 
 - **Overnight scheduling**: for a given subset of requirements and resources, schedulers may schedule work for the following 1 to 2 days. 
 
-- **Single resource optimization (SRO)**: As changes occur during the work day (like emergency work, cancellations, or delays), a single resource's remaining schedule can be re-optimized. Schedulers typically do this on the schedule board. SRO can also be used in combination with manual scheduling and the schedule assistant to optimize individual resources.
+- **Single resource optimization (SRO)**: as changes occur during the work day (like emergency work, cancellations, or delays), a single resource's remaining schedule can be re-optimized. Schedulers typically do this on the schedule board. SRO can also be used in combination with manual scheduling and the schedule assistant to optimize individual resources.
 
-- **Inter-day optimization**: As changes occur during the work day, subsets of the overall schedule can be re-optimized. For example, a schedule can run every 30 minutes to re-schedule those requirements and resources marked for re-schedule.
+- **Inter-day optimization**: as changes occur during the work day, subsets of the overall schedule can be re-optimized. For example, a schedule can run every 30 minutes to re-schedule those requirements and resources marked for re-schedule.
 
 In order to achieve the best scheduling outcomes, use a combination of the following capabilities:
 
