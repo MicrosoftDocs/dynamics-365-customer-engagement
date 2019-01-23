@@ -34,9 +34,6 @@ Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](
 
 You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
 
-> [!NOTE]
-> The reports are available in English locale only.
-
 ## Survey responses
 
 A survey response record is created after a respondent submits a survey. Based on the response received, out-of-the-box workflows are triggered, and the corresponding fields are populated in the survey response. If you have mapped the question responses to additional fields, the mapped field is populated with the survey response.
@@ -128,6 +125,9 @@ You can run the following reports for a survey:
 - **Survey Export**: Displays survey responses in a tabular format.
 
 - **Survey Summary**: Displays a summary of survey responses.
+
+> [!NOTE]
+> The reports are available in English locale only.
 
 To run and export a report:
 
