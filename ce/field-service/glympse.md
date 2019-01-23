@@ -1,4 +1,5 @@
 ---
+redirect_url: field-service-mobile-app-user-guide
 title: "Use the Glmpse solution to track the location of a technician (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice

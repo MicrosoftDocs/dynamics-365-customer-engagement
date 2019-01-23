@@ -173,7 +173,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **19**. Use **Activity Feeds Rules** to specify when posts will automatically be created for followed records.  
   
- **20**. Set up **Dynamics 365 App for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 for Customer Engagement appsApp for Outlook, users can view Dynamics 365 for Customer Engagement apps data from Outlook, and can track Outlook email and appointment records with a single click.  
+ **20**. Set up **Dynamics 365 App for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 for Customer Engagement App for Outlook, users can view Dynamics 365 for Customer Engagement apps data from Outlook, and can track Outlook email and appointment records with a single click.  
   
  **21**. Set up **Relationship Insights** to continuously analyze a vast collection of data to help users better understand business relationships, evaluate their activities in relation to previous successes, and choose the best path forward.  
   
