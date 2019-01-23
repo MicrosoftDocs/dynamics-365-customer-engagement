@@ -69,7 +69,7 @@ These guides provide in-depth information about specific apps, solutions and rel
 <li><a href="social-engagement/index.md" data-raw-source="[Social Engagement](social-engagement/index.md)">Social Engagement</a></li>
 <li><a href="gamification/index.md" data-raw-source="[Gamification](gamification/index.md)">Gamification</a></li>
 <li><a href="/dynamics365/customer-engagement/unified-service-desk/index" data-raw-source="[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/index)">Unified Service Desk</a></li>
-<li><a href="/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service" data-raw-source="[Universal Resource Scheduling](/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)">Universal Resource Schedulingk</a></li>
+<li><a href="/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service" data-raw-source="[Universal Resource Scheduling](/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)">Universal Resource Scheduling</a></li>
 </td>
 </tr>
 </table>
