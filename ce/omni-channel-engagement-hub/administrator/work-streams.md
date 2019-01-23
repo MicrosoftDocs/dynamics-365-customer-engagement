@@ -73,7 +73,7 @@ Follow these steps to create a new live chat work stream.
       3. **Stream Source**: Select the channel that is supported for the work stream: **Live Chat** or **CDS Entity**. 
          > [!NOTE]
          > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
-      4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. For more information, see [Understand the conversation state lifecycle](conversation-state-lifecycle.md).
+      4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. 
       6. Select **Save** to save the work stream.
 
     - In the **Work distribution** section, follow these steps: 
