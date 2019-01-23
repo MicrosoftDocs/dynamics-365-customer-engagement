@@ -71,7 +71,8 @@ The Customer summary page displays details about a customer with whom you intera
 
 When you chat with a customer, your organization might have a process that requires you to interact with a set of standard questions and answers. You can use the **Quick replies** option to retrieve the standard set of questions and replies when you are interacting with customers.
 
-![Use quick replies option to send faster replies to customers](../../media/csh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
+ > [!div class=mx-imgBorder] 
+ > ![Use quick replies option to send faster replies to customers](../../media/csh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
 
 These questions and answers are stored in templates. You can use keyboard shortcuts to see the list of quick replies.
 
