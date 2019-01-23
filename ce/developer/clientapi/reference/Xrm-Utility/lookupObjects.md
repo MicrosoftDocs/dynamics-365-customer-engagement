@@ -1,6 +1,6 @@
 ---
 title: "lookupObjects (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
-ms.date: 01/16/2019
+ms.date: 01/23/2019
 ms.service: crm-online
 ms.topic: reference
 applies_to: Dynamics 365 for Customer Engagement (online)
@@ -32,7 +32,9 @@ search.app:
 |allowMultiSelect|Boolean|No|Indicates whether the lookup allows more than one item to be selected.|
 |defaultEntityType|String|No|The default entity type to use.|
 |defaultViewId|String|No|The default view to use.|
+|disableMru|Boolean|No|Decides whether to display the most recently used(MRU) item.<br />Available only for Unified Interface.|
 |entityTypes|Array|No|The entity types to display.|
+|filters|Array|No|Used to filter the results. Contains the following objects:<br /><ul><li>filterXml: String. The FetchXML filter element to apply.</li><li>entityLogicalName: String. The filter applies to only this entity type.</li></ul>|
 |showBarcodeScanner|Boolean|No|Indicates whether the lookup control should show the barcode scanner in mobile clients.|
 |viewIds|Array|No|The views to be available in the view picker. Only system views are supported.|
 |successCallback |Function |Yes |A function to call when the lookup control is invoked. An array of objects with the following properties is passed:<br/>- **entityType**: String. Entity type of the record selected in the lookup control.<br/>- **id**: String. ID of the record selected in the lookup control.<br/>- **name**: String. Name of the record selected in the lookup control.|
