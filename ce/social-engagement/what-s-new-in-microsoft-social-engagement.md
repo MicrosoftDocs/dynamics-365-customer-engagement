@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: news, product updates, product improvements, service updates
-ms.date: 12/14/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -34,9 +34,9 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
 
-Dynamics 365 will focus on enabling businesses with AI-powered social and web insights rather than just with social listening capabilities. Hence, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). The social and web insights can help marketing, social media and product teams understand what their customers and competitors are saying, seeking, and feeling. 
+Dynamics 365 will focus on enabling businesses with AI-powered social and web insights rather than just with social listening capabilities. Hence, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). The social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling. 
 
-To learn more, see: 
+More information: 
 - FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](/eol/discontinuation-faq.md)
 - Comparison guide - [Microsoft Social Engagement vs. Dynamics 365 Market Insights](/eol/comparison-mse-mi.md).
 - [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights/help-hub)
