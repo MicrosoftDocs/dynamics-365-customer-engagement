@@ -161,7 +161,7 @@ public SamplePlugin(string unsecure, string secure)
 Account acct = entity.ToEntity<Account>();  
 ```  
   
- In the previous line of code, the acct variable is an early-bound type. All <xref:Microsoft.Xrm.Sdk.Entity> values that are assigned to <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> must be late-bound types. If an early-bound type is assigned to the context, a [SerializationException](https://msdn.microsoft.com/library/system.runtime.serialization.serializationexception.aspx) will occur. For more information, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md). Make sure that you do not mix your types and use an early bound type where a late-bound type is called for as shown in the following code.  
+ In the previous line of code, the `acct` variable is an early-bound type. All <xref:Microsoft.Xrm.Sdk.Entity> values that are assigned to <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> must be late-bound types. If an early-bound type is assigned to the context, a [SerializationException](https://msdn.microsoft.com/library/system.runtime.serialization.serializationexception.aspx) will occur. For more information, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md). Make sure that you do not mix your types and use an early bound type where a late-bound type is called for as shown in the following code.  
   
 ```csharp  
 context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRONG: Do not do this.  
