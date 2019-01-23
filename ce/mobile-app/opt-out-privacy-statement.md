@@ -24,11 +24,17 @@ search.app:
   - D365Sales
 ---
 
-# Dynamics 365 for phones privacy
+# How to opted out of data collection
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
  
 At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, please review the Microsoft Privacy Statement. It applies to the data we collect from your use of Dynamics 365 for phones. 
  
-If you want to opt out of this data collection, you can sign out of the app and when you sign in again, please uncheck the usage collection selection in the image below 
+1. To opt out of data collection, sign out of the app and then sign-in back in.
+
+2. In the **Usage data collection** dialog box uncheck **Help improve Dynamics 365 by sharing usage data**.
+
+ ![Opt out of data collection](media/optoutdata.png "Opt out of data collection"). 
+
+
