@@ -1,7 +1,7 @@
 ---
 title: Add resource skills (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to associate skills with resources in Project Service
-author: rumant
+author: JohnPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -10,7 +10,7 @@ ms.date: 7/31/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: rumant
+ms.author: jburrows
 audience: Admin
 search.audienceType: 
   - admin
