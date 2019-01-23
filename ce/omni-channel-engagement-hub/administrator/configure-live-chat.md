@@ -31,7 +31,7 @@ Quickly configure and add a live chat to your portal to talk to your customers a
         2. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream.
         3. **Stream Source**: Select the channel supported for the work stream: **Live Chat**. 
         4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
-        5. **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
+        5. **Record Identification Rule**: Follow the steps given in the topic [Set up record identification rule](record-identification-rule.md). 
         6. Select **Save** to save the work stream.
    
      - **Work distribution**
