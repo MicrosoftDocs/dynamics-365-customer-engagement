@@ -43,7 +43,7 @@ The major reasons for implementing Resource Pool scheduling are:
 
 Let's consider two scenarios to explain Resource Pool scheduling:
 
-1. Scheduling a pool then assigning specific resources later
+1. Schedule a pool then assign specific resources later
 2. Overbook a pool for expected cancellations
 
 ## Prerequisites 
@@ -51,7 +51,7 @@ Let's consider two scenarios to explain Resource Pool scheduling:
 Universal Resource Scheduling (URS) v3.0
 
 
-## Scenario 1: Scheduling a pool then assigning specific resources later
+## Scenario 1: Schedule a pool then assign specific resources later
 
 In this scenario the office staff at a health clinic wants to book appointments between patients and pediatrician doctors. Because there are five pediatricians working each day, the office staff must ensure that no more than five appointments are scheduling during any single time slot. However, though appointments are booked weeks or even months in advance, a specific pediatrician is not assigned an appointment until the day before because of variable schedules. 
 
